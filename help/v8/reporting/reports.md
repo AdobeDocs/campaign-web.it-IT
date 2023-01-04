@@ -2,7 +2,8 @@
 audience: end-user
 title: Generazione rapporti
 description: Documentazione Web di Campaign v8
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -54,6 +55,3 @@ Non recapitati e mancati recapiti: Questo rapporto mostra il raggruppamento dei 
 **Hot click**
 
 Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) con, su ogni collegamento, la percentuale di clic sui collegamenti. I blocchi di personalizzazione per l’annullamento dell’abbonamento, i collegamenti alle pagine mirror e i collegamenti alle offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono visualizzati nel rapporto.
-
-
-

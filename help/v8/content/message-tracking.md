@@ -2,13 +2,13 @@
 audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 0%
 
 ---
-
 
 # Aggiungere collegamenti e tenere traccia dei messaggi {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 1%
 >
 >Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
-Utilizzo [!DNL Journey Optimizer] aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
-
-## Abilita tracciamento {#enable-tracking}
-
-Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Aperture e-mail]** e/o **[!UICONTROL Fai clic su e-mail]** durante la creazione del messaggio.
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->Entrambe le opzioni sono abilitate per impostazione predefinita.
-
-In questo modo puoi tenere traccia del comportamento dei destinatari attraverso:
-
-* **[!UICONTROL Aperture e-mail]**: Messaggi aperti.
-* **[!UICONTROL Fai clic su e-mail]**: Fai clic sui collegamenti in un’e-mail.
+Utilizza E-mail designer per aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
 
 ## Inserisci collegamenti {#insert-links}
 
@@ -39,7 +24,7 @@ Durante la progettazione di un messaggio, puoi aggiungere collegamenti al conten
 
 >[!NOTE]
 >
->Quando [tracciamento abilitato](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
+>Quando il tracciamento è abilitato, vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
 
 Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguente:
 
@@ -47,29 +32,13 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    ![](assets/message-tracking-insert-link.png)
 
-1. Scegli il tipo di collegamento che desideri creare:
-
-   * **[!UICONTROL Collegamento esterno]**: Inserisci un collegamento a un URL esterno.
-
-   * **[!UICONTROL Pagina di destinazione]**: Inserisci un collegamento a una pagina di destinazione.
-
-   * **[!UICONTROL Rinuncia con un clic]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia.
-
-   * **[!UICONTROL Opt-in/abbonamento esterno]**: Inserisci un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
-
-   * **[!UICONTROL Rinuncia/annullamento esterno dell’abbonamento]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio.
-
-   * **[!UICONTROL Pagina speculare]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. Puoi personalizzare i tuoi collegamenti.
+1. Aggiungi un **[!UICONTROL Etichetta]** e **[!UICONTROL Collegamento]**.
 
 1. Salva le modifiche.
 
 1. Una volta creato il collegamento, puoi comunque modificarlo dal **[!UICONTROL Impostazioni dei componenti]** a destra.
 
-   * Puoi modificare il collegamento e modificarne il tipo.
+   * Puoi modificare il collegamento e modificarne le relative **[!UICONTROL Target]**.
    * Puoi scegliere di sottolineare il collegamento o meno selezionando l’opzione corrispondente.
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 La pagina speculare è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
 
-Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Pagina speculare]** come tipo di collegamento.
+Per aggiungere un collegamento a una pagina speculare nel messaggio e-mail:
 
-![](assets/message-tracking-mirror-page.png)
+1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. Seleziona la **[!UICONTROL Inserisci collegamento]** per accedere al menu di personalizzazione.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. Da **[!UICONTROL Blocco del contenuto]** menu, seleziona **[!UICONTROL URL pagina speculare]** e fai clic su **[!UICONTROL Aggiungi]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 La pagina speculare viene creata automaticamente.
 
@@ -123,4 +102,3 @@ La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
    * **[!UICONTROL Pagina speculare]**: Considera questo URL come un URL della pagina speculare.
    * **[!UICONTROL Mai]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-I rapporti su aperture e clic sono disponibili nel rapporto Live e nel rapporto Globale.

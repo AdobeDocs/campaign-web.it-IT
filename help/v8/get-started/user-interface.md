@@ -2,10 +2,11 @@
 audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 6%
+source-wordcount: '1131'
+ht-degree: 2%
 
 ---
 
@@ -18,15 +19,13 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interfaccia"
->abstract="TBC"
-
-## Panoramica dell’interfaccia
-
-![](assets/home.png)
+>abstract="La nuova interfaccia web Campaign v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
 La nuova interfaccia web Campaign v8 offre un’esperienza utente integrata, intuitiva e coerente.
 
-I concetti chiave durante la navigazione nell’interfaccia utente sono comuni a Adobe Experience Platform. Fai riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) per ulteriori dettagli.
+<!--
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+-->
 
 >[!NOTE]
 >
@@ -38,34 +37,24 @@ I concetti chiave durante la navigazione nell’interfaccia utente sono comuni a
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Shell unificata
-
-accesso alle informazioni sulla community, centro di assistenza, switcher di organizzazione, commutatore delle soluzioni
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## Aiuto contestuale?
-
-Assistenza e miglioramento del contesto: guida all’on-boarding/in-product
-
-## Pagina Home
-
-## Generale
-
-scheda modello di schermate elenco
-
 ## Menu di navigazione a sinistra
 
-Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Campaign v8.
+Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Campaign v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens). Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail. Non è possibile fare clic su una voce dell’elenco per modificarla o visualizzarla in Alfa.
 
-### Pagina Home
+![](assets/home.png)
 
+### Home
+
+Questa schermata include collegamenti e risorse chiave per un accesso rapido alle funzionalità web principali di Campaign v8. La **Recenti** fornisce collegamenti alle consegne create di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
+
+<!--
 * Banner
-* KPI su canale e-mail (consegne incrociate): tasso di apertura, tasso di consegna, ecc.
-* Articoli recenti
-* Carte di apprendimento
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+Accedi alle pagine della guida delle chiavi web Campaign v8 dalla sezione inferiore della home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -77,79 +66,116 @@ Global report not alpha
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="Esplora risorse"
->abstract="TBC"
+>title="Explorer"
+>abstract="La **Esplora risorse** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail."
 
-Menu di Explorer nell’interfaccia utente Web per navigare nel contenuto della console: console navtree secondo visualizzazione oltre agli elenchi di menu a sinistra con filtri. Esplora risorse fornisce la gerarchia delle cartelle reali dalla console. Assicurati di trovare le consegne nelle sottocartelle. È possibile accedere a tutti gli elenchi in sola lettura. Nessuna creazione/modifica. È possibile configurare elenchi (colonne). Sono disponibili tutti i campi dello schema e le tabelle collegate.
+La **Esplora risorse** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail.
 
-È possibile aprire solo le consegne.
+Gli elementi visualizzati in Esplora risorse dipendono dalle autorizzazioni dell&#39;utente.
 
-Se devi visualizzare gli elenchi dei destinatari (età, genere), delle transazioni o dei messaggi transazionali live. Per visualizzare ogni/modifica -> console.
+Come in qualsiasi schermata dell’elenco, puoi configurare le colonne per personalizzare la visualizzazione e visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens).
 
-La visualizzazione ad albero dipende dalle autorizzazioni (come la console).
+Per ulteriori informazioni su Campaign Explorer, consulta questo [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### Gestione delle campagne
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagne"
->abstract="TBC"
+>abstract="Elenco delle campagne. Puoi visualizzare informazioni utili, ad esempio le date di inizio/fine/ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio/fine. Sono disponibili anche i modelli di campagna. Questi elenchi sono di sola lettura."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Consegne"
->abstract="TBC"
+>abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, l’ultima data di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard. Gli altri elementi sono di sola lettura. Sono disponibili anche i modelli di consegna."
 
-* **Campagne** - Elenco delle campagne. Nessuna modifica/creazione.
-* **Consegne** - Il tuo elenco di consegne. Creazione/edizione.
+* **Campagne** - Elenco delle campagne. Per impostazione predefinita, puoi visualizzarne le date di inizio/fine/ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio/fine. Sono disponibili anche i modelli di campagna. Questi elenchi sono di sola lettura.
+
+* **Consegne** - Scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard per ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. I modelli di consegna sono disponibili anche in modalità di sola lettura. Puoi utilizzare la console Client per modificarli. Vedi questo [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it).
 
 ### Gestione clienti
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Destinatari"
->abstract="TBC"
+>abstract="Accedi al database dei destinatari. Puoi visualizzare informazioni utili quali indirizzo e-mail, nome e cognome. Questo elenco è di sola lettura."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Tipi di pubblico"
->abstract="TBC"
+>abstract="Questo è il tuo elenco di tipi di pubblico. Puoi visualizzarne il tipo, l’origine, le date di creazione/ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Questo elenco è di sola lettura."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Elenchi di iscrizioni"
->abstract="TBC"
+>abstract="Sfoglia gli elenchi degli abbonamenti. Puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flussi di lavoro di targeting"
->abstract="TBC"
+>abstract="Accedi all’elenco dei flussi di lavoro di Campaign. Puoi visualizzarne lo stato, le date e l’ambiente dell’ultima/successiva elaborazione. Puoi filtrare l’elenco per stato, data dell’ultima elaborazione e tipo di flusso di lavoro. Sono disponibili anche i modelli di flusso di lavoro . Questi elenchi sono di sola lettura."
 
-* **Destinatari** - Elenco dei destinatari. Nessuna modifica/creazione.
-* **Tipi di pubblico** - Elenco dei tipi di pubblico. Nessuna modifica/creazione.
-* **Elenco sottoscrizioni** - Elenco degli elenchi di iscrizioni. Nessuna modifica/creazione.
-* **Workflow di targeting** - Elenco dei flussi di lavoro di targeting. Nessuna modifica/creazione.
+* **Destinatari** - Accedere al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Questo elenco è di sola lettura.
+* **Tipi di pubblico** - Questo è il tuo elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione/ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Questo elenco è di sola lettura.
+* **Elenco sottoscrizioni** - Sfoglia gli elenchi degli abbonamenti. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura.
+* **Workflow di targeting** - Accedi all’elenco dei flussi di lavoro di Campaign. Per impostazione predefinita, è possibile visualizzarne lo stato, le date dell’ultima/successiva elaborazione e l’ambiente. Puoi filtrare l’elenco per stato, data dell’ultima elaborazione e tipo di flusso di lavoro. Sono disponibili anche i modelli di flusso di lavoro . Questi elenchi sono di sola lettura.
 
 ### Gestione delle decisioni
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offerte"
->abstract="TBC"
+>abstract="Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio/fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio/fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura."
 
-* **Offerte** - Il tuo elenco di offerte. Nessuna modifica/creazione.
+* **Offerte** - Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio/fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio/fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
 
-## Elenchi di filtri{#filter-lists}
+## Barra superiore
 
-Schermate elenco
+La barra superiore dell’interfaccia consente di:
 
-## Trova assistenza e supporto {#find-help}
+* condividere il tuo feedback come cliente Alpha
+* passaggio tra organizzazioni IMS
+* passare da un&#39;applicazione Adobe Experience Cloud all&#39;altra
+* accedere alle pagine della guida, contattare il supporto e condividere i commenti. Puoi cercare articoli e video della guida dal campo di ricerca.
 
-Accedi alle pagine della guida chiave Adobe Journey Optimizer dalla sezione inferiore della home page.
+![](assets/unified-shell.png){width="70%" align="left"}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-Utilizza la **Aiuto** per accedere alle pagine della guida, contattare il supporto e condividere i commenti. Puoi cercare articoli e video della guida dal campo di ricerca.
+## Aiuto contestuale e guida all’onboarding
 
-## Browser supportati {#browsers}
+Nell’interfaccia è disponibile una guida contestuale. Quando disponibile, fai clic sul pulsante **?** per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
 
-Adobe [!DNL Journey Optimizer] l’interfaccia è progettata per funzionare in modo ottimale nell’ultima versione di Google Chrome. È possibile che si verifichino problemi durante l’utilizzo di alcune funzioni nelle versioni precedenti o in altri browser.
+![](assets/context-help.png){width="70%" align="left"}
 
+È inoltre disponibile una guida all’onboarding per aiutarti a iniziare con il web Campaign v8. Fai clic sull’icona nell’angolo in basso a destra, scegli uno degli scenari dettagliati disponibili e segui semplicemente le istruzioni.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Configurare le schermate elenco {#list-screens}
+
+Diversi collegamenti dal menu di navigazione a sinistra, ad esempio **Consegne** o **Campagne**, mostra gli elenchi degli oggetti. Queste schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail.
+
+Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtrare l’elenco in base a criteri contestuali.
+
+![](assets/filter.png){width="70%" align="left"}
+
+Gli elenchi vengono visualizzati in colonne. Puoi visualizzare ulteriori informazioni modificando la configurazione delle colonne. A questo scopo, fai clic sull’icona nell’angolo in alto a destra dell’elenco. È possibile aggiungere o rimuovere colonne e modificare l’ordine in cui vengono visualizzate.
+
+![](assets/columns.png){width="70%" align="left"}
+
+Per ordinare gli elementi dell’elenco, fai clic su qualsiasi intestazione di colonna. Viene visualizzata una freccia (Su o Giù) che indica che l’elenco è ordinato in quella colonna. Per le colonne numeriche o di data, la freccia Su indica che l’elenco è ordinato in ordine crescente, mentre la freccia Giù indica un ordine decrescente. Per le colonne stringa o alfanumeriche, i valori sono elencati in ordine alfabetico.
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->

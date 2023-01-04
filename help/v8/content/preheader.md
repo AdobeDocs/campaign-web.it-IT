@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: Aggiungere una preintestazione in Journey Optimizer
+title: Aggiungi una preintestazione in E-mail Designer
 description: Scopri come progettare il contenuto delle e-mail
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungi una preintestazione {#preheader}
 
@@ -21,8 +21,9 @@ ht-degree: 0%
 >title="Aggiunta di una preintestazione"
 >abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail ed è in genere lungo una frase."
 
+Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail.
 
-Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail ed è in genere lungo una frase.
+In molti casi, fornisce un breve riepilogo dell’e-mail ed è in genere lungo una frase.
 
 >[!NOTE]
 >
@@ -30,13 +31,15 @@ Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando 
 
 Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
-1. Dalla finestra di progettazione e-mail, aggiungi un **[!UICONTROL Componenti struttura]** per iniziare a progettare l’e-mail.
+1. Da E-mail Designer, aggiungi almeno un **[!UICONTROL Componenti struttura]** per iniziare a progettare l’e-mail.
 
-   ![](assets/preheader_1.png)
+1. Fai clic sul pulsante **[!UICONTROL Struttura di navigazione]** nel riquadro a sinistra e seleziona **[!UICONTROL Corpo]**.
 
-1. Da **[!UICONTROL Impostazioni corpo]** riquadro a destra, fai clic su **Modifica** accanto al **[!UICONTROL Preintestazione]** campo per aggiungere contenuto.
+   ![](assets/preheader_body.png)
 
-   ![](assets/preheader_2.png)
+1. Da **[!UICONTROL Impostazioni corpo]** nel riquadro a destra, fai clic sull’icona di modifica accanto a **[!UICONTROL Preintestazione]** campo per aggiungere contenuto.
+
+   ![](assets/preheader_body_settings.png)
 
 1. Aggiungi la tua preintestazione. Puoi personalizzare ulteriormente facendo clic sul pulsante **[!UICONTROL Aggiungi personalizzazione]** icona.
 
@@ -45,8 +48,6 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 1. Da **[!UICONTROL Modifica personalizzazione]** è possibile aggiungere **[!UICONTROL Blocco del contenuto]**, **[!UICONTROL Contenuto dinamico]** o **[!UICONTROL Campi di personalizzazione]**.
 
 1. Fai clic su **[!UICONTROL Convalida]** per controllare la sintassi di personalizzazione.
-
-   ![](assets/preheader_4.png)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 

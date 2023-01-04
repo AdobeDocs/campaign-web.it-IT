@@ -1,50 +1,64 @@
 ---
 audience: end-user
-title: Configurare il contenuto dell’e-mail
+title: Modificare il contenuto dell’e-mail
 description: Documentazione Web di Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
+# Modificare il contenuto dell’e-mail {#configure-content}
 
-# Configurare il contenuto dell’e-mail {#configure-content}
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
-
-Pulsante Modifica contenuto : mostra un caso d’uso con oggetto, allegato, aggiungi un’offerta, abilitato per il tracciamento (+ nota sul pulsante simula contenuto con collegamento alla sezione bozza di anteprima)
-
-![](assets/content-dashboard.png)
-
-## Intestazione e-mail
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="Creare il contenuto dell’e-mail"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Intestazione e-mail"
 >abstract="TBC"
 
-## Allegato e-mail
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Allegato e-mail"
 >abstract="TBC"
-
-## Tracciamento e-mail
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Opzioni di tracciamento"
 >abstract="TBC"
 
+>[!NOTE]
+>
+>Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
+Per iniziare a creare il contenuto di un’e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** pulsante . Questa schermata ti consente di definire il contenuto dell’e-mail e di accedere a E-mail Designer per progettarla.
 
+![](assets/content-dashboard.png)
 
-<!--
-Offers same as campaign (no design, only selection)
-Diff from AJO:  attachement
--->
+I passaggi per definire il contenuto dell’e-mail sono i seguenti:
+
+1. Controlla la **[!UICONTROL Nome mittente]** e **[!UICONTROL Da e-mail]** informazioni. Questi campi sono di sola lettura e sono configurati nel modello e-mail selezionato al momento della creazione dell’e-mail.
+
+1. Definire il messaggio e-mail **[!UICONTROL Linea oggetto]**. A questo scopo, apri l’editor espressioni per definirne il contenuto e aggiungere personalizzazioni utilizzando vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
+
+1. Se desideri inviare offerte con il tuo messaggio e-mail, selezionale utilizzando il **[!UICONTROL Offerte]** pulsante . Potrai quindi inserirli nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](offers.md)
+
+1. Fai clic sul pulsante **[!UICONTROL E-mail Designer]** per strutturare e progettare il contenuto dell’e-mail. Ulteriori informazioni sulla progettazione del contenuto delle e-mail sono disponibili nelle seguenti sezioni:
+
+   * [Scopri come progettare e-mail](create-email-content.md)
+   * [Personalizzare lo stile del contenuto](get-started-email-style.md)
+
+1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi selezionare uno o più file.
+
+   <!--limitation on size + number of files?-->
+
+1. Per impostazione predefinita, il tracciamento delle e-mail è abilitato per aperture e clic. Per disattivare queste opzioni, deselezionale dalla **[!UICONTROL Funzioni opzionali]** sezione . [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
+
+Una volta definito il contenuto dell’e-mail, utilizza **[!UICONTROL Simulazione del contenuto]** per controllare come verrà visualizzato prima di inviarlo. [Scopri come visualizzare in anteprima e testare il tuo messaggio e-mail](../preview-test/preview-test.md)
+
+<!-- show screenshot showing an email fully configured + highlight the simulate content button-->

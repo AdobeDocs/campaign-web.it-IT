@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: Creare e-mail in Journey Optimizer
+title: Creare e-mail in E-mail Designer
 description: Scopri come progettare contenuti e-mail da zero
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 3%
+source-wordcount: '527'
+ht-degree: 0%
 
 ---
-
 
 # Inizia da zero {#create-email-content}
 
@@ -59,23 +59,23 @@ ht-degree: 3%
 
 E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del messaggio e-mail in pochi secondi.
 
-Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i passaggi seguenti:
+Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
 1. Dalla home page di E-mail Designer, seleziona la **[!UICONTROL Progettazione da zero]** opzione .
 
    ![](assets/email_designer.png)
 
-1. Inizia a progettare il contenuto delle e-mail trascinandolo e rilasciandolo **[!UICONTROL Componenti struttura]** per definire il layout del messaggio e-mail.
+1. Inizia a progettare il contenuto delle e-mail trascinandolo e rilasciandolo **[!UICONTROL Componenti struttura]** nell’area di lavoro per definire il layout del messaggio e-mail.
 
    >[!NOTE]
    >
-   >La pila di colonne non è compatibile con tutti i programmi e-mail. Quando non è supportata, le colonne non vengono impilate.
-   >
-   >Una volta inseriti nell’e-mail, non puoi spostare né rimuovere i componenti a meno che non sia già presente un componente di contenuto o un frammento all’interno.
+   >L’impilamento delle colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non verranno sovrapposte.
+
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
    ![](assets/email_designer_2.png)
 
-1. Aggiungi tutti **[!UICONTROL Componenti struttura]** se necessario.
+1. Aggiungi tutti **[!UICONTROL Componenti struttura]** in base alle esigenze e modifica le impostazioni nel riquadro dedicato a destra.
 
    Seleziona la **[!UICONTROL colonna n:n]** per definire il numero di colonne desiderato (tra 3 e 10). È inoltre possibile definire la larghezza di ogni colonna spostando le frecce nella parte inferiore di ciascuna colonna.
 
@@ -83,47 +83,27 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
    >
    >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
 
-1. Da **[!UICONTROL Componenti contenuto]** a discesa, puoi aggiungere altrettanti **[!UICONTROL Componenti contenuto]** come necessario nel componente struttura. [Ulteriori informazioni sui componenti di contenuto](content-components.md).
+1. Espandi la **[!UICONTROL Componenti contenuto]** e aggiungi tutti gli elementi necessari in uno o più componenti struttura. [Ulteriori informazioni sui componenti di contenuto](content-components.md)
 
-   ![](assets/email_designer_3.png)
-
-1. Ogni componente può essere ulteriormente personalizzato con il **[!UICONTROL Impostazioni dei componenti]** sezione . Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine del componente. [Ulteriori informazioni su allineamento e spaziatura](adjusting-vertical-alignment-and-padding.md).
-
-   ![](assets/email_designer_4.png)
-
-1. Da **[!UICONTROL Selettore risorse]**, puoi aggiungere direttamente le risorse memorizzate in **[!UICONTROL Libreria risorse]** alla tua e-mail.
-
-   Fai doppio clic sulla cartella contenente le risorse e trascina e rilascia la risorsa da aggiungere all’e-mail.
+1. Ogni componente può essere ulteriormente personalizzato utilizzando **[!UICONTROL Impostazioni dei componenti]** a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer_5.png)
 
-1. Aggiungi campi di personalizzazione per personalizzare il contenuto dai dati dei profili.
+1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
-   ![](assets/email_designer_6.png)
-
-1. Aggiungi il contenuto dinamico per adattare il contenuto ai profili di destinazione in base a regole condizionali.
-
-   ![](assets/email_designer_dynamic-content.png)
-
-1. In **[!UICONTROL Collegamenti]** nel riquadro a sinistra, controlla l’elenco di tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]**, **[!UICONTROL Etichetta]** e **[!UICONTROL Tag]** se necessario.
+1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
-   >[!NOTE]
+1. Se necessario, puoi personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** dal menu avanzato. [Ulteriori informazioni sull&#39;editor di codice](code-content.md)
+
+   >[!CAUTION]
    >
-   >Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi in [questa pagina](message-tracking.md).
+   >Dopo il passaggio all’editor di codice, non potrai tornare alla finestra di progettazione visiva per questa e-mail.
 
-1. Se necessario, puoi passare all’editor di codice per personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** dal menu avanzato. Per ulteriori informazioni sull&#39;editor di codice, consulta [questa pagina](code-content.md#).
+1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Simulazione del contenuto]** per controllare il rendering delle e-mail. È possibile scegliere la visualizzazione desktop o mobile. [Ulteriori informazioni sull’anteprima del messaggio e-mail](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >Dopo il passaggio all’editor di codice, non potrai utilizzare la finestra di progettazione visiva per questa e-mail.
+   ![](assets/email_designer_28.png)
 
-   ![](assets/email_designer_26.png)
-
-1. Fai clic su **[!UICONTROL Mostra anteprima]** per controllare il rendering delle e-mail. È possibile scegliere la visualizzazione desktop o mobile.
-
-   ![](assets/email_designer_8.png)
-
-1. Quando l’e-mail è pronta, fai clic su **[!UICONTROL Salva e chiudi]**.
+1. Quando l’e-mail è pronta, fai clic su **[!UICONTROL Salva]**.
 

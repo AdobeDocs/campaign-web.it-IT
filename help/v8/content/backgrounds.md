@@ -2,13 +2,13 @@
 audience: end-user
 title: Personalizza lo sfondo dell’e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Personalizza lo sfondo dell’e-mail {#backgrounds}
 
@@ -29,7 +29,7 @@ Quando si tratta di impostare gli sfondi con E-mail Designer, l’Adobe consigli
 
 Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile utilizzare.
 
-* Imposta un **[!UICONTROL Colore di sfondo]** per l&#39;intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
+* Imposta un **[!UICONTROL Colore di sfondo]** per l&#39;intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dal riquadro a sinistra.
 
    ![](assets/background_1.png)
 
@@ -37,26 +37,28 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
    ![](assets/background_2.png)
 
-* Impostare un colore di sfondo diverso per ciascun componente struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla palette a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
-
-   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione in quanto potrebbe nascondere i colori di sfondo della struttura.
+* Impostare un colore di sfondo diverso per ciascun componente struttura. Selezionare una struttura nell&#39;albero di navigazione nel riquadro di sinistra per applicare un colore di sfondo specifico solo a tale struttura.
 
    ![](assets/background_3.png)
 
+   >[!NOTE]
+   >
+   >Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione in quanto potrebbe nascondere i colori di sfondo della struttura.
+
 * Imposta un **[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
+
+   ![](assets/background_4.png)
 
    >[!NOTE]
    >
    >Alcuni programmi e-mail non supportano le immagini in background. Se non supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l&#39;immagine non possa essere visualizzata.
 
-   ![](assets/background_4.png)
-
 * Imposta un colore di sfondo a livello di colonna.
+
+   ![](assets/background_5.png)
 
    >[!NOTE]
    >
    >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò consente una maggiore flessibilità nella modifica dell’intero contenuto dell’e-mail.
 
    Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
-
-   ![](assets/background_5.png)

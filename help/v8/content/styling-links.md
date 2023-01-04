@@ -2,13 +2,13 @@
 audience: end-user
 title: Definire uno stile per i collegamenti
 description: Scopri come definire uno stile per i collegamenti
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
-
 
 # Definire uno stile per i collegamenti {#styling-links}
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in E-mail Designer.
 
-1. In un testo **[!UICONTROL Componente contenuto]** dove viene inserito un collegamento, seleziona il collegamento.
+1. In una **[!UICONTROL Testo]** nel punto in cui è inserito un collegamento, seleziona il collegamento.
 
-1. In **[!UICONTROL Impostazioni dei componenti]** menu, controllo **[!UICONTROL Collegamento sottolineato]** per sottolineare il testo dell’etichetta del collegamento.
+1. In **[!UICONTROL Impostazioni dei componenti]** menu, controllo **[!UICONTROL Collegamento sottolineato]** di sottolineare l&#39;etichetta.
 
    ![](assets/link_1.png)
 
@@ -34,10 +34,8 @@ ht-degree: 1%
 
    ![](assets/link_2.png)
 
-1. Per modificare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]**.
+1. Per modificare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal riquadro di destra.
 
    ![](assets/link_3.png)
-
-1. Scegli il colore di cui hai bisogno.
 
 1. Salva le modifiche.

@@ -2,49 +2,47 @@
 audience: end-user
 title: Aggiungere un pubblico
 description: Documentazione Web di Campaign v8
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '234'
+ht-degree: 2%
 
 ---
 
-# Aggiungere un pubblico {#add-audience}
+# Seleziona un pubblico {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Introduzione alle campagne di marketing"
->abstract="Scopri come gestire il pubblico per il contenuto delle e-mail."
+>id="acw_deliveries_email_audience_select"
+>title="Selezionare un pubblico esistente"
+>abstract="I tipi di pubblico sono definiti nella console Adobe Campaign v8. Se disponi di un’integrazione Adobe Experience Platform disponibile, dovresti essere in grado di visualizzare anche i tipi di pubblico definiti da Platform."
 
 >[!NOTE]
 >
 >Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
-<!--
-Audience only created for the delivery, not available later-->
+In questa sezione viene illustrato come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail. Per creare un nuovo pubblico, consulta [sezione](segment-builder.md).
 
-## Selezionare un pubblico esistente {#audience-select}
+1. Da **Pubblico** nell’assistente per la creazione della consegna, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** pulsante .
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Selezionare un pubblico esistente"
->abstract="TBC"
+   ![](assets/create-audience.png)
 
-Tre modi:
-* pubblico esistente
+1. Scegli **[!UICONTROL Selezionare il pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea il tuo**. Fai riferimento a questo [sezione](segment-builder.md).
 
-<!--
-Campaign or AEP Audiences
--->
-* creare nuovi
+   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti definiti nella console Adobe Campaign o da Adobe Experience Platform.
 
-<!--
-query like AEP segment builder (same component with campaign data)
--->
-* importazione da file
+   ![](assets/create-audience2.png)
 
-mostrare un caso d’uso con una nuova creazione di pubblico (o importare da un file?)
+1. Scegli un pubblico e fai clic su **Seleziona**.
 
-<!--
-control groups like acc: exract, random, based on attribute
--->
+1. Fai clic su **Modifica regole** per perfezionare il pubblico.
+
+   ![](assets/create-audience3.png)
+
+1. Utilizzando il generatore di segmenti, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Vedi questo [sezione](segment-builder.md).
+
+   ![](assets/create-audience4.png)
+
+1. Fai clic su **Salva**.
+
+Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceverà il messaggio. Ciò ti consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con il comportamento dei contatti che non lo hanno fatto. Vedi [sezione](control-group.md).
