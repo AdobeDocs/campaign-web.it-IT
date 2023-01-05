@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="Informazioni sui componenti Contenuto"
->abstract="I componenti contenuto sono segnaposto di contenuto vuoti che è possibile utilizzare per creare il layout di un’e-mail."
+>abstract="I componenti contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un’e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
