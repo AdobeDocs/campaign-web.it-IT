@@ -3,9 +3,9 @@ audience: end-user
 title: Invia bozze
 description: Documentazione Web di Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 2%
 >
 >Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
-L’invio di bozze consente di convalidare l’e-mail e controllare vari elementi come collegamenti, collegamenti di rinuncia e pagine mirror, immagini e rilevare eventuali errori.
+L’invio di e-mail di test consente di convalidare l’e-mail e controllare vari elementi come collegamenti, collegamenti di rinuncia e pagine mirror, immagini e rilevare eventuali errori.
 
 Le bozze possono essere inviate a due tipi di destinatari:
 
-* **Profili di test/pubblico**: inviare bozze agli indirizzi di seed, che sono destinatari aggiuntivi nel database che non fanno parte della destinazione dell’e-mail,
-
+* **Profili di test**: inviare bozze agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database,
 * **Profili sostitutivi**: invia bozze a un indirizzo e-mail specifico utilizzando un profilo esistente. Questo ti consente di collocarti nella posizione dei profili e di ottenere una rappresentazione esatta del messaggio che il profilo riceverà.
 
 ## Selezionare i destinatari delle bozze {#recipients}
@@ -38,7 +37,7 @@ Le bozze possono essere inviate a due tipi di destinatari:
 
 1. Aggiungi i profili di test che riceveranno le e-mail di test.
 
-   Puoi anche creare un pubblico per selezionare i profili di test in base ai tuoi criteri, utilizzando **[!UICONTROL Aggiungi pubblico di test]** pulsante .
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ Per inviare le bozze ai destinatari selezionati, fai clic su **[!UICONTROL Invia
 
 ![](assets/send-proof.png)
 
-Una volta inviate le bozze, puoi accedere ai registri dedicati dal **[!UICONTROL Visualizza registro e-mail di prova]** pulsante . Questi registri ti consentono di accedere alle bozze inviate e alle statistiche specifiche relative all’invio della bozza.
+Invia tutte le bozze necessarie fino a quando non avrai finalizzato il contenuto della consegna. Al termine, puoi inviare l’e-mail al target principale. [Scopri come preparare e inviare il tuo messaggio e-mail](../monitor/prepare-send.md)
+
+## Accedere alle bozze inviate {#access-proofs}
+
+Una volta inviate le bozze, puoi accedere ai registri dedicati dal **[!UICONTROL Visualizza registro e-mail di prova]** pulsante . Questi registri ti consentono di accedere a tutte le bozze inviate per la consegna selezionata e di visualizzare statistiche specifiche relative al loro invio.
 
 ![](assets/proof-log.png)
 
-Invia tutte le bozze necessarie fino a quando non avrai finalizzato il contenuto della consegna. Al termine, puoi inviare l’e-mail al target principale. [Scopri come preparare e inviare il tuo messaggio e-mail](../monitor/prepare-send.md)
+Puoi anche accedere alle bozze dall’elenco delle consegne, come qualsiasi consegna.
+
+![](assets/delivery-list.png)

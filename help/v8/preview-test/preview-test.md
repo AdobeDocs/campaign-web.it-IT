@@ -3,9 +3,9 @@ audience: end-user
 title: Informazioni sull’anteprima e le bozze
 description: Documentazione Web di Campaign v8
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Una volta definito il contenuto dell’e-mail, puoi controllarne la visualizzazi
 
 A questo scopo, Adobe Campaign consente di:
 
-* [Anteprima del contenuto e-mail e della personalizzazione](#preview) utilizzando i dati del profilo,
+* [Anteprima del contenuto e-mail e della personalizzazione](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [Invia bozze](#send-proofs) a destinatari specifici al fine di verificare e convalidare l’e-mail.
@@ -28,3 +28,7 @@ A questo scopo, Adobe Campaign consente di:
 Queste azioni vengono eseguite dalla **[!UICONTROL Simulazione del contenuto]** accessibile quando si crea il contenuto dell’e-mail di da E-mail Designer:
 
 ![](assets/simulate.png)
+
+>[!NOTE]
+>
+>La simulazione del contenuto è disponibile anche nella pagina di riepilogo della consegna dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]** pulsante .

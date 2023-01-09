@@ -3,9 +3,9 @@ audience: end-user
 title: Anteprima contenuto e-mail
 description: Documentazione Web di Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Campaign ti consente di utilizzare i profili per visualizzare in anteprima
 
 I messaggi possono essere visualizzati in anteprima utilizzando:
 
-* **Profili di test**: visualizzare in anteprima l’e-mail utilizzando gli indirizzi di seed, che sono destinatari aggiuntivi nel database che non fanno parte della destinazione dell’e-mail,
+* **Profili di test**: visualizzare in anteprima l’e-mail utilizzando gli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database,
 * **Profili**: visualizza in anteprima l’e-mail utilizzando un profilo esistente.
 
 Per visualizzare l’anteprima del contenuto dell’e-mail, effettua le seguenti operazioni:
@@ -36,5 +36,7 @@ Per visualizzare l’anteprima del contenuto dell’e-mail, effettua le seguenti
 1. Dopo aver selezionato i profili, nel riquadro a destra viene visualizzata un’anteprima del messaggio e-mail. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra.
 
    Se hai aggiunto più profili, puoi passare da uno all’altro nell’elenco per visualizzare in anteprima l’e-mail corrispondente.
+
+   Puoi anche visualizzare in anteprima il rendering dei contenuti su diversi dispositivi (desktop, dispositivi mobili, tablet...).
 
    ![](assets/preview.png)
