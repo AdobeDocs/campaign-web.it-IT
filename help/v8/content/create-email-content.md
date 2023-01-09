@@ -3,7 +3,7 @@ audience: end-user
 title: Creare e-mail in E-mail Designer
 description: Scopri come progettare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="Definizione delle colonne dei modelli"
 >abstract="E-mail Designer consente di definire facilmente il layout del modello definendo la struttura delle colonne."
 
-E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del messaggio e-mail in pochi secondi.
+E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare il corpo dell’e-mail in pochi secondi.
 
 Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
@@ -91,7 +91,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
-1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
+1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Categorie]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
