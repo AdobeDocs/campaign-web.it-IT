@@ -3,9 +3,9 @@ audience: end-user
 title: Crea la tua prima e-mail
 description: Documentazione Web di Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1174'
 ht-degree: 2%
 
 ---
@@ -116,9 +116,11 @@ In questo caso d’uso, invieremo l’e-mail a un pubblico esistente. Sono dispo
 
    >[!NOTE]
    >
-   >I tipi di pubblico disponibili nell’elenco provengono dall’istanza Campaign V8 o da Adobe Experience Platform se l’integrazione Destinazione/Origini è stata implementata nell’istanza.
+   >I tipi di pubblico disponibili nell’elenco provengono dall’istanza Campaign V8 o da Adobe Experience Platform se l’integrazione Destinazione/Origini è stata configurata nell’istanza.
+   >
+   >L’integrazione Destinazione/Origini ti consente di inviare segmenti di Experience Platform ad Adobe Campaign e di inviare i registri di consegna e tracciamento di Campaign a Adobe Experience Platform. [Scopri come utilizzare Campaign e Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Una volta selezionato il pubblico, puoi modificarne la regola, se necessario.
+1. Una volta selezionato il pubblico, puoi perfezionarlo utilizzando regole aggiuntive.
 
    Puoi anche impostare un gruppo di controllo per analizzare il comportamento dei destinatari delle e-mail rispetto al comportamento dei profili non interessati dal targeting. [Scopri come utilizzare i gruppi di controllo](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ In questo caso d’uso, invieremo l’e-mail a un pubblico esistente. Sono dispo
 
 Per pianificare l’invio dell’e-mail, fai clic su **[!UICONTROL Abilita]** quindi specifica la data e l’ora desiderate per l’invio.
 
-Per impostazione predefinita, la **[!UICONTROL Conferma prima dell’invio]** è abilitata, il che significa che dovrai confermare l’invio alla data e all’ora specificate per inviare l’e-mail. Disattiva questa opzione per consentire l’invio dell’e-mail alla data e all’ora pianificate senza alcuna conferma necessaria.
+Per impostazione predefinita, la **[!UICONTROL Conferma prima dell’invio]** è abilitata, il che significa che dovrai confermare l’invio per consentire l’invio dell’e-mail alla data e all’ora specificate. Disattiva questa opzione per consentire l’invio dell’e-mail alla data e all’ora pianificate senza alcuna conferma necessaria.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ Per impostazione predefinita, la **[!UICONTROL Conferma prima dell’invio]** è
 
 Una volta che l’e-mail è pronta, puoi visualizzarla in anteprima e testarla prima di avviarne l’invio.
 
-In questo caso d’uso, visualizzeremo l’anteprima dell’e-mail utilizzando i profili esistenti e invieremo una bozza a un profilo di test che non fa parte del target.
+In questo caso d’uso, visualizzeremo l’anteprima dell’e-mail e invieremo una bozza utilizzando i profili esistenti.
 
 Sono disponibili ulteriori informazioni su come visualizzare in anteprima e verificare le e-mail in [questa sezione](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Sono disponibili ulteriori informazioni su come visualizzare in anteprima e veri
 
 1. Per inviare le bozze dell’e-mail, fai clic sul pulsante **[!UICONTROL Test]** quindi seleziona i profili che riceveranno la bozza.
 
-   In questo esempio, vogliamo inviare le bozze a un profilo di test specifico, che è un indirizzo di seed che non fa parte del target. [Scopri come utilizzare gli indirizzi di seed](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
