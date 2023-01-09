@@ -1,8 +1,8 @@
 ---
-source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
+source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 24%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
 # Contributo
@@ -18,7 +18,7 @@ Il progetto aderisce al [Codice di condotta](code-of-conduct.md) di Adobe. Con l
 
 ## Documentazione della Guida collaboratore
 
-Consulta la sezione [Guida collaboratore](https://docs.adobe.com/content/help/it/contributor/contributor-guide/introduction.html).
+Consulta la sezione [Guida collaboratore](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Avete Una Domanda?
 

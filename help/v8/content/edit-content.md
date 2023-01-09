@@ -3,9 +3,9 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Documentazione Web di Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 >
 >Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
-Per iniziare a creare il contenuto di un’e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** pulsante . Questa schermata ti consente di definire il contenuto dell’e-mail e di accedere a E-mail Designer per progettarla.
+Per iniziare a creare il contenuto di un’e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla schermata di creazione dell’e-mail.
+
+![](assets/edit-content.png)
+
+Questa schermata ti consente di definire il contenuto dell’e-mail e di accedere a E-mail Designer per progettarla.
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ I passaggi per definire il contenuto dell’e-mail sono i seguenti:
 
 1. Controlla la **[!UICONTROL Nome mittente]** e **[!UICONTROL Da e-mail]** informazioni. Questi campi sono di sola lettura e sono configurati nel modello e-mail selezionato al momento della creazione dell’e-mail.
 
-1. Definire il messaggio e-mail **[!UICONTROL Linea oggetto]**. A questo scopo, apri l’editor espressioni per definirne il contenuto e aggiungere personalizzazioni utilizzando vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
+1. Definire il messaggio e-mail **[!UICONTROL Linea oggetto]**. A questo scopo, digita l’oggetto direttamente nel campo dedicato o apri l’editor espressioni per definire l’aggiunta di personalizzazioni utilizzando vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
 
 1. Se desideri inviare offerte con il tuo messaggio e-mail, selezionale utilizzando il **[!UICONTROL Offerte]** pulsante . Potrai quindi inserirli nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](offers.md)
 
