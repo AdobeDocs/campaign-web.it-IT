@@ -3,10 +3,10 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 1%
 
 ---
 
@@ -102,3 +102,8 @@ La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
    * **[!UICONTROL Pagina speculare]**: Considera questo URL come un URL della pagina speculare.
    * **[!UICONTROL Mai]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Aggiungi un **[!UICONTROL Categoria]** al collegamento per raggruppare i collegamenti tracciati e fai clic su **[!UICONTROL Salva]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. Dopo aver inviato la consegna, accedi al rapporto di consegna. Sotto la **[!UICONTROL Tracking]** il menu **[!UICONTROL URL e flussi di clic]** nel rapporto vengono visualizzati gli URL della consegna più visitati. [Ulteriori informazioni](../reporting/reports.md)
