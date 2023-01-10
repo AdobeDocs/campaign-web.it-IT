@@ -3,10 +3,10 @@ audience: end-user
 title: Impostazioni avanzate
 description: Documentazione Web di Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 18%
+source-wordcount: '1241'
+ht-degree: 22%
 
 ---
 
@@ -16,29 +16,13 @@ ht-degree: 18%
 >
 >Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
-Queste impostazioni sono parametri di consegna tecnici definiti nel modello e-mail. Se desideri modificarli per una consegna specifica, procedi con cautela.
+Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail. Se desideri modificarli per una consegna specifica, procedi con cautela.
 
 ## Impostazioni di consegna e-mail {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-Tutti i parametri di consegna tecnici dal modello.
-
 >[!NOTE]
 >
-> Cambia solo i parametri, nessuna creazione qui. In base ai permessi.
-
->[!NOTE]
->
-> I professionisti non devono modificarlo, cautela. Controlla e cambia solo la regola di tipologia.
+> Modifica solo le impostazioni, nessuna nuova creazione consentita. Soggetto ai diritti di accesso.
 
 ## Tipologia {#typology}
 
@@ -47,7 +31,7 @@ Tutti i parametri di consegna tecnici dal modello.
 >title="Tipologia"
 >abstract="La tipologia ti consente di controllare, filtrare e monitorare l’invio di consegne."
 
-Le tipologie sono insiemi di regole di tipologia che vengono eseguite durante la fase di analisi dei messaggi. Consentono di assicurarsi che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
+Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di analisi dei messaggi. Consentono di assicurarsi che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
 
 Durante l’associazione di una tipologia a un messaggio o a un relativo modello, le regole di tipologia incluse in essa vengono eseguite per verificare la validità del messaggio.
 
@@ -58,15 +42,23 @@ Durante l’associazione di una tipologia a un messaggio o a un relativo modello
 >title="Peso consegna"
 >abstract="I pesi di distribuzione consentono di identificare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
 
-In questa sezione, i parametri di pressione consentono di definire una soglia. È il numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
+In questa sezione, i parametri di pressione consentono di definire un **soglia**. È il numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
 
 I valori di soglia possono essere costanti o variabili. Ciò significa che per un dato periodo le soglie possono variare da un profilo all’altro, o anche per lo stesso profilo.
 
 In **Tipo di peso** sono disponibili tre opzioni: (formula mancante a seconda dell&#39;opzione..)
 
+* **Costante**
+* **Dipende dal destinatario**
+* **Definito in ciascuna regola**
+
 La **Peso della consegna** campo : Ogni consegna ha un peso che rappresenta il suo livello di priorità. Per impostazione predefinita, il peso di una consegna è impostato su 5. Le regole di pressione ti consentono di definire il peso delle consegne a cui verranno applicate.I pesi possono essere impostati o calcolati tramite una formula adatta ai destinatari. Ad esempio, puoi definire il peso di una consegna in base agli interessi dei destinatari.
 
 La **Modalità di consegna** campo. ?
+
+* **Stima target e personalizzazione messaggio**
+* **Stima e approvazione del target provvisorio**
+* **Valutazione del target**
 
 ### Impostazioni capacità {#capacity-settings}
 
@@ -85,7 +77,7 @@ In questa sezione puoi scegliere una **mappatura target** definiti nella console
 
 ## Consegna {#delivery}
 
-**Indirizzamento** selezione: seleziona l&#39;account esterno....
+**Indirizzamento** selezione: L’account esterno di indirizzamento e-mail integrato è fornito per impostazione predefinita. Contiene i parametri tecnici che consentono all’applicazione di effettuare l’invio di e-mail.
 
 **Test della consegna SMTP**: utilizza questa opzione per testare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
@@ -137,6 +129,11 @@ Puoi anche scegliere di specificare le date. A questo scopo, seleziona **Imposta
 
 **Gestione pagina speculare** contiene quattro opzioni :
 
+* **Genera la pagina speculare se nel contenuto dell’e-mail viene visualizzato un collegamento speculare**: la pagina speculare viene generata se il collegamento viene inserito nel contenuto della posta.
+* **Force the generation of the mirror page**: anche se nei messaggi non viene inserito alcun collegamento alla pagina speculare, la pagina verrà creata ugualmente.
+* **Do not generate the mirror page**: non viene creata alcuna pagina speculare, anche se il collegamento è presente nei messaggi.
+* **Genera una pagina speculare accessibile utilizzando solo l’identificatore del messaggio**: questa opzione ti consente di accedere al contenuto della pagina speculare, con informazioni sulla personalizzazione, nella finestra del registro di consegna.
+
 
 ### Tracciamento {#tracking}
 
@@ -147,14 +144,14 @@ Puoi anche scegliere di specificare le date. A questo scopo, seleziona **Imposta
 
 **Limite di validità del tracciamento**: Questa opzione definisce la durata per la quale verrà attivato il tracciamento sugli URL.
 
-**URL di sostituzione per gli URL scaduti**: TBC
+**URL di sostituzione per gli URL scaduti**: utilizza questa opzione per immettere un URL per una pagina web di fallback: viene visualizzato una volta scaduto il tracciamento.
 
 
 ## Impostazioni di test {#test-setttings}
 
 **Mantieni doppio** ti consente di autorizzare più consegne a destinatari che soddisfano più criteri di targeting.
 
-**Mantieni indirizzi inseriti nell’elenco Bloccati**
+**Mantieni indirizzi inserita nell&#39;elenco Bloccati** consente di mantenere dal target qualsiasi profilo non più oggetto di targeting dalla consegna, ad esempio dopo un annullamento dell’abbonamento (opt-out).
 
 **Mantieni indirizzi in quarantena** ti consente di mantenere dal target qualsiasi profilo con un indirizzo che non risponde.
 
