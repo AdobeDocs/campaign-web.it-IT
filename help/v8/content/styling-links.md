@@ -3,18 +3,16 @@ audience: end-user
 title: Definire uno stile per i collegamenti
 description: Scopri come definire uno stile per i collegamenti
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
 # Definire uno stile per i collegamenti {#styling-links}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in E-mail Designer.
 

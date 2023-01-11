@@ -3,14 +3,16 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Documentazione Web di Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Modificare il contenuto dell’e-mail {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Opzioni di tracciamento"
 >abstract="TBC"
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 Per iniziare a creare il contenuto di un’e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla schermata di creazione dell’e-mail.
 

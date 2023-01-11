@@ -3,18 +3,16 @@ audience: end-user
 title: Utilizzare Generatore di segmenti
 description: Documentazione Web di Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
 
 # Definire un pubblico con il generatore di regole {#segment-builder}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 Questa sezione descrive come creare un pubblico durante la progettazione di un nuovo messaggio e-mail. Il pubblico creato può essere utilizzato solo in questo messaggio e-mail.
 

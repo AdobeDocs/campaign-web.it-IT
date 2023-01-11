@@ -3,18 +3,14 @@ audience: end-user
 title: Imposta un gruppo di controllo
 description: Documentazione Web di Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 45%
+source-wordcount: '526'
+ht-degree: 40%
 
 ---
 
 # Imposta un gruppo di controllo {#control-group}
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 Puoi utilizzare i gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne.
 
@@ -56,6 +52,28 @@ Sotto la **Estrai dal target** sezione, scegli un **Tipo di esclusione**:
 
 Quindi definisci il **Limite dimensione**: devi impostare il modo in cui limitare il numero di profili estratti dal target principale.
 
+**Esempio**
+
+Puoi visualizzare i registri per controllare e identificare i profili esclusi. Prendiamo l’esempio di un’esclusione casuale su cinque profili.
+
+![](assets/control-group4.png)
+
+Dopo la preparazione della consegna, puoi visualizzare le esclusioni nelle seguenti schermate:
+
+* La **Per escludere** KPI nel dashboard di consegna, prima dell’invio.
+
+   ![](assets/control-group5.png)
+
+* La **Log di esclusione** visualizzare ciascun profilo e la relativa esclusione **Motivo**.
+
+   ![](assets/control-group6.png)
+
+* La **Cause di esclusione** visualizza il numero di profili esclusi per ogni regola di tipologia.
+
+   ![](assets/control-group7.png)
+
+Per ulteriori informazioni sui registri di consegna, consulta questo [sezione](../monitor/delivery-logs.md).
+
 ## Popolazione aggiuntiva {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +89,6 @@ Da **Popolazione extra** della sezione **Gruppo di controllo** schermata di defi
 
 * Per utilizzare un pubblico esistente, fai clic su **Selezionare il pubblico**. Fai riferimento a questo [sezione](add-audience.md).
 
-* Per definire una nuova query, seleziona **Crea il tuo** e definisci i criteri di esclusione utilizzando il generatore di segmenti. Fai riferimento a questo [sezione](segment-builder.md).
+* Per definire una nuova query, seleziona **Crea il tuo** e definisci i criteri di esclusione utilizzando il generatore di regole. Fai riferimento a questo [sezione](segment-builder.md).
 
 I profili inclusi nel pubblico o che corrispondono al risultato della query saranno esclusi dal target.

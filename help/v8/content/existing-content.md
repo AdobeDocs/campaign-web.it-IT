@@ -3,18 +3,16 @@ audience: end-user
 title: Importare il contenuto dell’e-mail
 description: Scopri come importare il contenuto delle e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # Importare il contenuto dell’e-mail {#existing-content}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 La finestra di progettazione e-mail consente di importare il contenuto esistente di HTML. Questo contenuto può essere:
 

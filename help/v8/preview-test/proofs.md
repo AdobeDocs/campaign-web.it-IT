@@ -3,18 +3,16 @@ audience: end-user
 title: Invia bozze
 description: Documentazione Web di Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---
 
 # Invia bozze {#send-proofs}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 L’invio di e-mail di test consente di convalidare l’e-mail e controllare vari elementi come collegamenti, collegamenti di rinuncia e pagine mirror, immagini e rilevare eventuali errori.
 

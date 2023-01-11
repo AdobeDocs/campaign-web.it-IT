@@ -3,23 +3,21 @@ audience: end-user
 title: Aggiungere un pubblico
 description: Documentazione Web di Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '240'
 ht-degree: 4%
 
 ---
 
 # Seleziona un pubblico {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selezionare un pubblico esistente"
 >abstract="I tipi di pubblico sono definiti nella console Adobe Campaign v8. Se disponi di un’integrazione Adobe Experience Platform disponibile, dovresti essere in grado di visualizzare anche i tipi di pubblico definiti da Platform."
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 In questa sezione viene illustrato come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail. Per creare un nuovo pubblico, consulta [sezione](segment-builder.md).
 
@@ -43,7 +41,7 @@ In questa sezione viene illustrato come selezionare un pubblico esistente durant
 
    ![](assets/create-audience3.png)
 
-1. Utilizzando il generatore di segmenti, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Vedi questo [sezione](segment-builder.md).
+1. Utilizzando il generatore di regole, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Vedi questo [sezione](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

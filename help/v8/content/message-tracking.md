@@ -3,18 +3,16 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # Aggiungere collegamenti e tenere traccia dei messaggi {#tracking}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 Utilizza E-mail designer per aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
 

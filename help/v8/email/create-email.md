@@ -3,18 +3,16 @@ audience: end-user
 title: Crea la tua prima e-mail
 description: Documentazione Web di Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
 
 # Invia la tua prima e-mail {#first-email}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 Questo caso d’uso illustra come creare la tua prima e-mail. Pianificheremo l&#39;invio di un&#39;e-mail in una data specifica ai clienti fidelizzati in argento e oro. Questo messaggio e-mail verrà progettato utilizzando un modello predefinito e includerà la personalizzazione utilizzando gli attributi del profilo.
 
@@ -104,7 +102,7 @@ In questo caso d’uso, progetteremo l’e-mail utilizzando un modello predefini
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definire il pubblico"
->abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente già definito in un’istanza Campaign v8 o da Adobe Experience Platform oppure puoi scegliere di crearne uno nuovo con il generatore di segmenti."
+>abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente già definito in un’istanza Campaign v8 o da Adobe Experience Platform oppure puoi scegliere di creare un nuovo pubblico con il generatore di regole."
 
 In questo caso d’uso, invieremo l’e-mail a un pubblico esistente. Sono disponibili ulteriori informazioni su come lavorare con i tipi di pubblico in [questa sezione](../audience/about-audiences.md).
 

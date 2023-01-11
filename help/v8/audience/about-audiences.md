@@ -3,23 +3,21 @@ audience: end-user
 title: Informazioni sui tipi di pubblico
 description: Informazioni sui tipi di pubblico
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 7%
+source-wordcount: '117'
+ht-degree: 8%
 
 ---
 
 # Informazioni sui tipi di pubblico {#about-audiences}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introduzione ai tipi di pubblico"
 >abstract="Scopri come gestire il pubblico per il contenuto delle e-mail."
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 <!--
 Audience only created for the delivery, not available later-->

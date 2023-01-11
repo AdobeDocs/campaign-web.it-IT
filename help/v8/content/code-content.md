@@ -3,18 +3,16 @@ audience: end-user
 title: Creare un codice per il proprio contenuto e-mail
 description: Scopri come codificare il tuo contenuto e-mail
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # Creare un codice per il proprio contenuto {#code-content}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 Utilizza la **[!UICONTROL Codice personalizzato]** modalità per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
 

@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: Utilizzare i modelli e-mail
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '178'
 ht-degree: 6%
 
 ---
 
 # Utilizzare i modelli di contenuto e-mail {#email-content-templates}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 Utilizza la **[!UICONTROL Seleziona modello di progettazione]** per iniziare a creare il contenuto da un modello.
 

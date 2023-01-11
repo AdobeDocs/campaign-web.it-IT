@@ -3,23 +3,21 @@ audience: end-user
 title: Preparare e inviare un messaggio e-mail
 description: Documentazione Web di Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # Prepara e invia il tuo messaggio e-mail {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Prepara e invia il tuo messaggio e-mail"
 >abstract="Scopri come preparare il tuo messaggio e-mail e ulteriori informazioni sull’invio di KPI."
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 <!--
 
@@ -60,7 +58,7 @@ Segui i passaggi seguenti:
    * **Per fornire**: il numero di messaggi che verranno inviati
    * **Per escludere**: il numero di messaggi esclusi da una regola di tipologia
 
-1. Fai clic sul pulsante **Registri** e controlla che non vi siano errori. Nell’ultimo messaggio di log vengono visualizzati tutti i messaggi di errore e il numero di errori. Per ulteriori informazioni, consulta questa [sezione](#send).
+1. Fai clic sul pulsante **Registri** e controlla che non vi siano errori. Nell’ultimo messaggio di log vengono visualizzati tutti i messaggi di errore e il numero di errori. Per ulteriori informazioni, consulta questa [sezione](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +80,7 @@ Segui questi passaggi:
 
    ![](assets/send.png)
 
-1. Viene visualizzato l’avanzamento dell’invio. Controlla i KPI visualizzati. Puoi anche controllare i registri. Per ulteriori informazioni, consulta questa [sezione](#send).
+1. Viene visualizzato l’avanzamento dell’invio. Controlla i KPI visualizzati. Puoi anche controllare i registri. Per ulteriori informazioni, consulta questa [sezione](delivery-logs.md).
 
    ![](assets/send2.png)
 

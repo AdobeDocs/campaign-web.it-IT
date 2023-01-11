@@ -3,9 +3,9 @@ audience: end-user
 title: Impostazioni avanzate
 description: Documentazione Web di Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1222'
 ht-degree: 22%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 22%
 # Impostazioni avanzate {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail. Se desideri modificarli per una consegna specifica, procedi con cautela.
 

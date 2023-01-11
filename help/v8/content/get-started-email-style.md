@@ -3,18 +3,16 @@ audience: end-user
 title: Guida introduttiva allo stile e-mail
 description: Scopri i diversi modi per regolare lo stile del contenuto dell’e-mail
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 6e658c6a2c4f49135ffa6bb4ef0eb39086b1623a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # Guida introduttiva allo stile e-mail {#get-started-email-style}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 Una volta iniziato a creare il contenuto delle e-mail in [!DNL Journey Optimizer], è possibile modificare una serie di parametri e attributi di stile dal riquadro delle impostazioni di E-mail Designer .
 

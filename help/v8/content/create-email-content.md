@@ -3,18 +3,16 @@ audience: end-user
 title: Creare e-mail in E-mail Designer
 description: Scopri come progettare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # Inizia da zero {#create-email-content}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

@@ -3,18 +3,16 @@ audience: end-user
 title: Personalizza lo sfondo dell’e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
 # Personalizza lo sfondo dell’e-mail {#backgrounds}
 
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

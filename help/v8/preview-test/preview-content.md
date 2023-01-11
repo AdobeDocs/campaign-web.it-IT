@@ -3,23 +3,21 @@ audience: end-user
 title: Anteprima contenuto e-mail
 description: Documentazione Web di Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
 # Anteprima contenuto e-mail {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Anteprima intelligente dei contenuti"
 >abstract="Adobe Campaign consente di utilizzare i profili per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, al fine di controllare la personalizzazione e il modo in cui i destinatari li visualizzeranno."
-
->[!NOTE]
->
->Questa documentazione è in fase di costruzione e viene aggiornata frequentemente. La versione finale di questo contenuto sarà pronta a gennaio 2023.
 
 Adobe Campaign ti consente di utilizzare i profili per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, al fine di controllare la personalizzazione e il modo in cui i destinatari li vedranno.
 
