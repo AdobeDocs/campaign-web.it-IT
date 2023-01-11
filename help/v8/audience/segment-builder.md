@@ -3,14 +3,14 @@ audience: end-user
 title: Utilizzare Generatore di segmenti
 description: Documentazione Web di Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# Utilizzare il Generatore di segmenti {#segment-builder}
+# Definire un pubblico con il generatore di regole {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Questa sezione descrive come creare un pubblico durante la progettazione di un nuovo messaggio e-mail. Il pubblico creato può essere utilizzato solo in questo messaggio e-mail.
 
-Il generatore di segmenti consente di definire la popolazione target del messaggio filtrando i dati contenuti nel database di Adobe Campaign. Per selezionare un pubblico esistente, consulta [sezione](add-audience.md).
+Il generatore di regole ti consente di definire la popolazione target del messaggio filtrando i dati contenuti nel database. Per selezionare un pubblico esistente, consulta [sezione](add-audience.md).
 
-Per ulteriori informazioni sul Generatore di segmenti, consulta la [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Per ulteriori informazioni sul generatore di regole, consulta la [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Per creare un nuovo pubblico durante la progettazione di un’e-mail, effettua le seguenti operazioni:
 
@@ -28,7 +28,7 @@ Per creare un nuovo pubblico durante la progettazione di un’e-mail, effettua l
 
    ![](assets/segment-builder0.png)
 
-1. Seleziona **Crea il tuo**. Viene visualizzato il Generatore di segmenti .
+1. Seleziona **Crea il tuo**. Viene visualizzato il generatore di regole.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ La palette, situata a sinistra, contiene tutti gli elementi che è possibile fil
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Tipi di pubblico**: questa scheda ti consente di filtrare utilizzando uno dei tipi di pubblico esistenti definiti nella console di Campaign Classic.
+* **Tipi di pubblico**: questa scheda ti consente di filtrare utilizzando uno dei tipi di pubblico esistenti definiti nella console Campaign Classic o da Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Fai riferimento a [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it).
 
 Puoi usare la barra di ricerca per trovare rapidamente gli elementi.
 
@@ -87,7 +91,7 @@ In questo esempio, creeremo un pubblico per tutti i clienti che vivono ad Atlant
 
    ![](assets/segment-builder10.png)
 
-1. Fai clic su **Visualizza risultati** per visualizzare l’elenco e il numero di destinatari corrispondenti alla query.
+1. Fai clic su **Visualizza risultati** per visualizzare l’elenco e il numero di destinatari corrispondenti alla query. Puoi anche aggiungere colonne per visualizzare e controllare i dati. Nel nostro esempio, aggiungi la **Città** dovrebbe vedere Atlanta e Seattle.
 
    ![](assets/segment-builder11.png)
 

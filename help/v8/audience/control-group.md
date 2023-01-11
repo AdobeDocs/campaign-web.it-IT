@@ -3,10 +3,10 @@ audience: end-user
 title: Imposta un gruppo di controllo
 description: Documentazione Web di Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 46%
+source-wordcount: '463'
+ht-degree: 45%
 
 ---
 
@@ -50,7 +50,7 @@ Sotto la **Estrai dal target** sezione, scegli un **Tipo di esclusione**:
 
    ![](assets/control-group.png)
 
-* **Classificato per attributo/i**: questa opzione consente di definire un limite basato su uno o più ordini di ordinamento.
+* **Classificato per attributo/i**: questa opzione consente di escludere un set di profili basati su attributi specifici in uno o più ordini di ordinamento specifici.
 
    ![](assets/control-group2.png)
 
