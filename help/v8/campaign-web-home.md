@@ -3,14 +3,14 @@ keywords: Web di Campaign;home;argomenti popolari
 description: Centro assistenza per Campaign Web v8
 title: Documentazione del prodotto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-# Documentazione di Adobe Campaign Web v8 {#campaign-documentation}
+# Documentazione Web di Adobe Campaign v8 {#campaign-documentation}
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
->Il Web Campaign v8 è attualmente in versione Alpha. L&#39;accesso è limitato a un piccolo set di clienti Alpha. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
+>La versione Web di Campaign v8 è attualmente in versione alfa. L&#39;accesso è limitato a un piccolo set di clienti Alpha. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.

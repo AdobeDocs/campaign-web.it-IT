@@ -3,7 +3,7 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Campaig
 
 ### Home
 
-Questa schermata include collegamenti e risorse chiave per un accesso rapido alle funzionalità web principali di Campaign v8. La **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
+Questa schermata include collegamenti chiave e risorse per un accesso rapido alle funzionalità Web principali di Campaign v8. La **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
 
 <!--
 * Banner
@@ -54,7 +54,7 @@ Questa schermata include collegamenti e risorse chiave per un accesso rapido all
 * Learning cards
 -->
 
-Accedi alle pagine della guida delle chiavi web Campaign v8 dalla sezione inferiore della home page.
+Accedi alle pagine della guida della chiave Web v8 di Campaign dalla sezione inferiore della home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -156,7 +156,7 @@ Nell’interfaccia è disponibile una guida contestuale. Quando disponibile, fai
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-È inoltre disponibile una guida all’onboarding per aiutarti a iniziare con il web Campaign v8. Fai clic sull’icona nell’angolo in basso a destra, scegli uno degli scenari dettagliati disponibili e segui semplicemente le istruzioni.
+È inoltre disponibile una guida all’onboarding per aiutarti a iniziare con Campaign v8 Web. Fai clic sull’icona nell’angolo in basso a destra, scegli uno degli scenari dettagliati disponibili e segui semplicemente le istruzioni.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
