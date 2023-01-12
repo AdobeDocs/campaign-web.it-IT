@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione
 description: Documentazione Web di Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 15%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -30,53 +30,36 @@ only existing customers
 
 Adobe Campaign fornisce una piattaforma per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali.
 
-Oltre a tutte le funzioni disponibili nella console, abbiamo creato una nuova interfaccia utente web moderna per semplificare la progettazione e la distribuzione delle campagne di marketing, compatibile con Adobe Experience Platform.
+Inizialmente disponibile solo tramite un ricco [console client](#ac-client), Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e una nuova progettazione per migliorare significativamente la user experience. Questa nuova interfaccia utente moderna semplifica la progettazione e la distribuzione delle campagne di marketing e rende la coerenza con altre soluzioni di Adobe, incluso Adobe Experience Platform.
 
-## Funzioni alfa
 
-Questa interfaccia web è attualmente disponibile solo per i professionisti Alpha con le seguenti funzionalità:
+![](assets/home.png)
 
-**Esperienza moderna, intuitiva e unificata**
+Questa nuova interfaccia utente soddisfa innanzitutto le esigenze di **professionista** - tutte le tipiche attività di amministrazione non sono disponibili in questa prima versione, ma verranno affrontate nelle versioni successive. Per il momento, nella nuova interfaccia utente non sono disponibili tutte le funzionalità o opzioni disponibili nella console client. Nelle versioni future saranno disponibili nuovi casi d’uso, opzioni e funzionalità.
 
-* Accesso alla nuova interfaccia e ad altre applicazioni con una sessione utente singola e condivisa
-* Integrazione unificata della shell: accesso alle informazioni della community, centro di assistenza, commutatore della soluzione
-<!--
-No search and pulse notifications in Alpha
--->
-* Scopri la nuova navigazione con i menu e le cartelle a sinistra
+Se devi accedere alle funzionalità di Campaign v8 che non sono disponibili nell’interfaccia utente web, puoi utilizzare il [console client](#ac-client).
 
-**Creare, avviare e misurare la campagna e-mail**
+## Informazioni sulla console del client Campaign{#ac-client}
 
-* Progettazione di contenuti e-mail personalizzati con e-mail designer
-* Definire i tipi di pubblico target con il generatore di regole
-* Anteprima, verifica e invia messaggi e-mail
-* Monitorare l’invio e la misurazione dei risultati con report incorporati
+La console del client Campaign è un’applicazione basata su browser installata sul sistema. Utilizza l’API dei servizi web per connettersi al server dell’applicazione Campaign.
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+Scopri come scaricare e installare la console client in [questa sezione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->Tieni presente che le campagne cross-channel e le funzionalità di gestione del flusso di lavoro saranno disponibili nel programma beta.
+Per ulteriori informazioni su come utilizzare Campaign v8, consulta la [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.
 
-## Console del client
-
-Se devi utilizzare una funzione Campaign v8 non disponibile nell’interfaccia utente web, puoi utilizzare la console client. Per ulteriori informazioni su come utilizzare Campaign v8, consulta la [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it).
-
-I dati vengono condivisi tra la console e l’interfaccia utente web. Ad esempio, se hai creato un modello di consegna utilizzando la console , questo sarà disponibile nell’interfaccia web di .
+I dati della campagna vengono memorizzati nel server dell’applicazione. I dati sono disponibili sia dalla console client che dall’interfaccia utente web. Ad esempio, se crei un modello di consegna utilizzando la console client, questo sarà disponibile anche nell’interfaccia utente web. E se crei una consegna e-mail nell’interfaccia utente web, questa consegna è accessibile anche dalla console client.
 
 ## Connessione a Campaign
 
 ![](assets/connect.png)
 
-1. Connetti a [Adobe Experience Cloud](http://experience.adobe.com).
+1. Connetti a [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Accedi con le tue credenziali Adobe.
 1. In **Accesso rapido** sezione, fai clic su **Campaign**.
+1. Nella pagina successiva, fai clic sul pulsante **Launch** dell’istanza Campaign.
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+
