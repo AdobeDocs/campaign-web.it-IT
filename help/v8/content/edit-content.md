@@ -3,9 +3,9 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Documentazione Web di Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ I passaggi per definire il contenuto dell’e-mail sono i seguenti:
 
    <!--limitation on size + number of files?-->
 
-1. Per impostazione predefinita, il tracciamento delle e-mail è abilitato per aperture e clic. Per disattivare queste opzioni, deselezionale dalla **[!UICONTROL Funzioni opzionali]** sezione . [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
+1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla **[!UICONTROL Funzioni opzionali]** sezione . [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
 
 Una volta definito il contenuto dell’e-mail, utilizza **[!UICONTROL Simulazione del contenuto]** per controllare come verrà visualizzato prima di inviarlo. [Scopri come visualizzare in anteprima e testare il tuo messaggio e-mail](../preview-test/preview-test.md)
 
