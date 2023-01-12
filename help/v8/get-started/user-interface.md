@@ -3,10 +3,10 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Gli elementi visualizzati in Esplora risorse dipendono dalle autorizzazioni dell
 
 Come in qualsiasi schermata dell’elenco, puoi configurare le colonne per personalizzare la visualizzazione e visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens).
 
-Per ulteriori informazioni su Campaign Explorer, consulta questo [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+Per ulteriori informazioni su Campaign Explorer, consulta questo [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **Campagne** - Elenco delle campagne. Per impostazione predefinita, puoi visualizzarne le date di inizio/fine/ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio/fine. Sono disponibili anche i modelli di campagna. Questi elenchi sono di sola lettura.
 
-* **Consegne** - Scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard per ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. I modelli di consegna sono disponibili anche in modalità di sola lettura. Puoi utilizzare la console Client per modificarli. Vedi questo [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it).
+* **Consegne** - Scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard per ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. I modelli di consegna sono disponibili anche in modalità di sola lettura. Puoi utilizzare la console Client per modificarli. Vedi questo [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
 ### Gestione clienti
 

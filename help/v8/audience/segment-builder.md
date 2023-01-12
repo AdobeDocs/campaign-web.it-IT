@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare Generatore di segmenti
 description: Documentazione Web di Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 1%
@@ -44,7 +44,7 @@ La palette, situata a sinistra, contiene tutti gli elementi che è possibile fil
 
    >[!NOTE]
    >
-   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Fai riferimento a [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it).
+   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Fai riferimento a [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
 Puoi usare la barra di ricerca per trovare rapidamente gli elementi.
 

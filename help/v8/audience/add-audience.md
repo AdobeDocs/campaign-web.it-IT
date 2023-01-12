@@ -3,7 +3,7 @@ audience: end-user
 title: Aggiungere un pubblico
 description: Documentazione Web di Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 4%
@@ -33,7 +33,7 @@ In questa sezione viene illustrato come selezionare un pubblico esistente durant
 
    >[!NOTE]
    >
-   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Fai riferimento a [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it).
+   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Fai riferimento a [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
 1. Scegli un pubblico e fai clic su **Seleziona**.
 

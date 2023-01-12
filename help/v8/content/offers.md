@@ -3,7 +3,7 @@ audience: end-user
 title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >title="Offre impostazioni avanzate"
 >abstract="TBC"
 
-Adobe Campaign v8 Web consente di inviare con le offerte e-mail create nella console utilizzando **[!UICONTROL Interazione]** modulo . Per ulteriori informazioni sull’interazione e su come gestire un catalogo di offerte nella console, consulta [Documentazione di Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Adobe Campaign v8 Web consente di inviare con le offerte e-mail create nella console utilizzando **[!UICONTROL Interazione]** modulo . Per ulteriori informazioni sull’interazione e su come gestire un catalogo di offerte nella console, consulta [Documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 I passaggi per inviare offerte con un’e-mail sono i seguenti:
 
