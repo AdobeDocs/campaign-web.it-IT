@@ -5,7 +5,7 @@ description: Documentazione Web di Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Questo caso d’uso illustra come creare la tua prima e-mail. Pianificheremo l&#
 
    >[!NOTE]
    >
-   >Un modello è una configurazione di consegna specifica salvata come modello per essere riutilizzata. I modelli di consegna sono configurati dagli utenti amministratori nella console Adobe Campaign. [Scopri come utilizzare i modelli di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
+   >Un modello è una configurazione di consegna specifica salvata come modello per essere riutilizzata. I modelli di consegna sono configurati dagli utenti amministratori nella console Adobe Campaign. [Scopri come utilizzare i modelli di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target="_blank"}
 
    ![](assets/channel-template.png)
 
