@@ -3,9 +3,9 @@ audience: end-user
 title: Preparare e inviare un messaggio e-mail
 description: Documentazione Web di Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '524'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ send also KPIs
 
 ## Preparare l’invio{#prepare}
 
-Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare il messaggio. Durante la preparazione, la popolazione target viene calcolata e il contenuto del messaggio generato per ciascun profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati, immediatamente o alla data e all’ora pianificate. Le regole di convalida utilizzate durante l&#39;analisi sono descritte in questo [sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare il messaggio. Durante la preparazione, la popolazione target viene calcolata e il contenuto del messaggio generato per ciascun profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati, immediatamente o alla data e all’ora pianificate. Le regole di convalida utilizzate durante l&#39;analisi sono descritte in questo [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 Segui i passaggi seguenti:
 

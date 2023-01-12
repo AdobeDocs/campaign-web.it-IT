@@ -3,9 +3,9 @@ audience: end-user
 title: Crea la tua prima e-mail
 description: Documentazione Web di Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,9 @@ Sono disponibili ulteriori informazioni su come visualizzare in anteprima e veri
 
 1. Per inviare le bozze dell’e-mail, fai clic sul pulsante **[!UICONTROL Test]** quindi seleziona i profili che riceveranno la bozza.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   In questo esempio, vogliamo inviare le bozze a un profilo di test specifico, che è un indirizzo di seed che non fa parte del target. Scopri come utilizzare gli indirizzi di seed in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
