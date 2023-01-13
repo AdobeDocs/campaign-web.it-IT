@@ -5,10 +5,10 @@ description: Documentazione Web di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Campaign v8 Documenti web
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 10%
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 10%
       + [Definire uno stile per i collegamenti](content/styling-links.md)
       + [Aggiungi attributi di stile in linea](content/inline-styling.md)
    + Personalizzare i contenuti {#personalize}
-      + [Guida introduttiva alla personalizzazione](personalization/personalize.md)
+      + [Aggiungi personalizzazione](personalization/personalize.md)
    + [Inviare offerte](content/offers.md)
 + Selezionare il pubblico dell’e-mail {#audience}
    + [Informazioni sui tipi di pubblico](audience/about-audiences.md)
