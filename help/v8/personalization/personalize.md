@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Puoi personalizzare il contenuto del messaggio:
 
    ![](assets/perso-subject-line.png)
 
-   La sintassi precedente inserisce nel contenuto la città del destinatario: &lt;%= recipient.location.city %>.
+   La sintassi seguente inserisce nel contenuto la città del destinatario: &lt;%= recipient.location.city %>.
 
 * Inserimento di dati predefiniti **blocchi di contenuto**
 
@@ -44,7 +44,7 @@ Per aggiungere la personalizzazione nel **[!UICONTROL Linea oggetto]** nel campo
 
 1. Fai clic sul pulsante **Apre la finestra di dialogo di personalizzazione** a destra **Linea oggetto** campo .
 1. Inserisci il contenuto della riga oggetto e seleziona gli attributi di personalizzazione da aggiungere.
-1. Fai clic su Conferma per convalidare. Gli attributi di personalizzazione vengono aggiunti alla riga dell’oggetto.
+1. Fai clic su **Conferma** da convalidare. Gli attributi di personalizzazione vengono aggiunti alla riga dell’oggetto.
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ Per personalizzare un **collegamento**:
 
 ## Personalizzare le offerte {#personalize-offers}
 
-Puoi anche accedere all’editor di personalizzazione quando aggiungi contenuto di tipo testo alle rappresentazioni delle offerte.
+Puoi anche accedere all’editor di personalizzazione quando aggiungi contenuto di tipo testo alle rappresentazioni delle offerte. Ulteriori informazioni in [questa sezione](../content/offers.md).
