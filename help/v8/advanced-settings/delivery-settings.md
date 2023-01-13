@@ -3,16 +3,16 @@ audience: end-user
 title: Impostazioni di consegna e-mail
 description: Documentazione Web di Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
+source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1447'
 ht-degree: 14%
 
 ---
 
 # Impostazioni di consegna e-mail {#email-del-settings}
 
-![](../assets/do-not-localize/badge.png)
+![Versione alfa](../assets/do-not-localize/badge.png)
 
 Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail.
 
