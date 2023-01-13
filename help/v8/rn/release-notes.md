@@ -3,10 +3,10 @@ audience: end-user
 title: Note sulla versione di Campaign Web v8
 description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
@@ -14,13 +14,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti per Campaign Web v8. È inoltre possibile consultare [ultimi aggiornamenti della documentazione](documentation-updates.md) per ulteriori modifiche.
+In questa pagina sono elencate tutte le funzioni e i miglioramenti più recenti per Campaign Web v8.
 
+## Rilascio Alpha{#alpha-release}
 
-
-## Funzioni alfa
-
-Questa interfaccia web è attualmente disponibile solo per i professionisti Alpha con le seguenti funzionalità:
+Questa nuova interfaccia web di Campaign è attualmente disponibile solo per **Professionisti Alpha** con le seguenti funzionalità:
 
 **Esperienza moderna, intuitiva e unificata**
 
@@ -31,12 +29,14 @@ No search and pulse notifications in Alpha
 -->
 * Scopri la nuova navigazione con i menu e le cartelle a sinistra
 
+Ulteriori informazioni sulla nuova interfaccia in [questa pagina](../get-started/user-interface.md).
+
 **Creare, avviare e misurare la campagna e-mail**
 
-* Progettazione di contenuti e-mail personalizzati con e-mail designer
-* Definire i tipi di pubblico target con il generatore di regole
-* Anteprima, verifica e invia messaggi e-mail
-* Monitorare l’invio e la misurazione dei risultati con report incorporati
+* Progettare contenuti e-mail personalizzati con e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
+* Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-audiences.md)
+* Anteprima, verifica e invia i tuoi messaggi e-mail - [Ulteriori informazioni](../monitor/prepare-send.md)
+* Monitora i risultati di invio e misurazione con report incorporati - [Ulteriori informazioni](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
