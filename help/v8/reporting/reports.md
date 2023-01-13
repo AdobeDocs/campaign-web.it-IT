@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporti di consegna
 description: Scopri come accedere e utilizzare i rapporti di consegna
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Non recapitati e mancati recapiti: Questo rapporto mostra il raggruppamento dei 
 
 * **URL e flussi di clic**: Questo rapporto mostra l’elenco delle pagine visitate dopo una consegna.
 
-* **Attività utente**: Questo rapporto mostra il raggruppamento di aperture, clic e transazioni per mezz&#39;ora, ora o giorno, sotto forma di grafico.
+* **Attività utente**: Questo rapporto mostra il raggruppamento di aperture e clic per mezz’ora, ora o giorno, sotto forma di grafico.
 
-* **Statistiche di tracciamento**: Questo rapporto fornisce statistiche su aperture, clic e transazioni.
+* **Statistiche di tracciamento**: Questo rapporto fornisce statistiche su aperture e clic.
 
 * **Suddivisione delle aperture**: Questo rapporto mostra la suddivisione delle aperture per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all&#39;apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
 

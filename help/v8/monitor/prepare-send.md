@@ -3,9 +3,9 @@ audience: end-user
 title: Preparare e inviare un messaggio e-mail
 description: Scopri come preparare e inviare un’e-mail con l’interfaccia utente web di Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '551'
 ht-degree: 4%
 
 ---
@@ -86,12 +86,12 @@ Segui questi passaggi:
 
    Di seguito sono riportati i diversi KPI visualizzati:
 
-   * **Consegnato**: numero di messaggi inviati correttamente. La percentuale si basa sul numero totale di destinatari.
-   * **Aperture**: il numero di messaggi aperti. La percentuale si basa sul numero di messaggi inviati.
-   * **Clic**: il numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. La percentuale si basa sul numero di messaggi inviati.
+   * **Consegnato**: numero di messaggi recapitati correttamente. La percentuale visualizzata si basa sul numero totale di messaggi inviati.
+   * **Aperture**: il numero di messaggi aperti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati.
+   * **Clic**: il numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati.
 
    >[!NOTE]
    >
-   >La **Aperture** e **Clic** gli indicatori saranno aggiornati in tempo reale.
+   >La **Aperture** e **Clic** Gli indicatori saranno aggiornati dopo 5 minuti.
 
    Puoi sospendere l’invio in qualsiasi momento e quindi riprendere. Se interrompi la consegna durante l’invio, non potrai riprendere.
