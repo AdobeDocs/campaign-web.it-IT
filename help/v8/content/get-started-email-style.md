@@ -3,7 +3,7 @@ audience: end-user
 title: Guida introduttiva allo stile e-mail
 description: Scopri i diversi modi per regolare lo stile del contenuto dell’e-mail
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Una volta iniziato a creare il contenuto delle e-mail in [!DNL Journey Optimizer], è possibile modificare una serie di parametri e attributi di stile dal riquadro delle impostazioni di E-mail Designer .
+Una volta iniziato a creare il contenuto delle e-mail in [!DNL Adobe Campaign], è possibile modificare una serie di parametri e attributi di stile dal riquadro delle impostazioni di E-mail Designer .
 
 Puoi applicare le modifiche al corpo dell’e-mail, a un componente struttura o a un componente contenuto.
 
