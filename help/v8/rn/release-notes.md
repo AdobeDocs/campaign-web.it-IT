@@ -3,10 +3,10 @@ audience: end-user
 title: Note sulla versione di Campaign Web v8
 description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
@@ -52,3 +52,12 @@ add info somewhere to remind users that
 >[!NOTE]
 >
 >Tieni presente che le campagne cross-channel e le funzionalità di gestione del flusso di lavoro saranno disponibili con la versione beta.
+
+## Aggiornamenti terminologici
+
+In qualità di utente di Campaign esistente, tieni presente che alcuni concetti sono stati rinominati per allinearsi agli standard terminologici più recenti nel settore. Queste modifiche si applicano solo all’interfaccia utente web e non vengono applicate alla console client. Sono riassunti di seguito.
+
+* Le bozze sono ora **Verifica e-mail**. Per inviare una bozza, utilizza il **Test** nell’interfaccia utente della consegna e-mail
+* L’analisi della consegna è ora **preparazione alla consegna**. Quando devi avviare l’analisi, fai clic sul pulsante **Preparare** pulsante
+* L’anteprima e-mail è ora disponibile tramite la funzione **Simulazione del contenuto** pulsante
+* Gli elenchi sono ora **Tipi di pubblico**
