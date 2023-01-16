@@ -3,9 +3,9 @@ audience: end-user
 title: Note sulla versione di Campaign Web v8
 description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '195'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,21 @@ Questa nuova interfaccia web di Campaign è attualmente disponibile solo per **P
 
 **Esperienza moderna, intuitiva e unificata**
 
+La nuova interfaccia utente Web di Campaign offre una nuova esperienza utente, allineata con tutte le soluzioni e le app Adobe Experience Cloud. Offre:
+
 * Accesso alla nuova interfaccia e ad altre soluzioni Adobe con una sessione utente singola e condivisa
-* Integrazione unificata della shell: accesso alle informazioni della community, centro di assistenza, commutatore della soluzione
+* Nuova esperienza di navigazione, con tutti i menu e le cartelle disponibili nella barra a sinistra
+* Switcher di soluzione e organizzazione dalla barra superiore
+* Integrazione unificata della shell, con accesso diretto alla community, al centro assistenza e al supporto
 <!--
 No search and pulse notifications in Alpha
 -->
-* Scopri la nuova navigazione con i menu e le cartelle a sinistra
 
 Ulteriori informazioni sulla nuova interfaccia in [questa pagina](../get-started/user-interface.md).
 
 **Creare, avviare e misurare la campagna e-mail**
+
+Utilizza la nuova interfaccia utente web di Campaign per:
 
 * Progettare contenuti e-mail personalizzati con e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
 * Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-audiences.md)
@@ -46,4 +51,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Tieni presente che le campagne cross-channel e le funzionalità di gestione del flusso di lavoro saranno disponibili nel programma beta.
+>Tieni presente che le campagne cross-channel e le funzionalità di gestione del flusso di lavoro saranno disponibili con la versione beta.
