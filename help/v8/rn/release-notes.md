@@ -3,9 +3,9 @@ audience: end-user
 title: Note sulla versione di Campaign Web v8
 description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
+source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ add info somewhere to remind users that
 
 ## Aggiornamenti terminologici
 
-In qualità di utente di Campaign esistente, tieni presente che alcuni concetti sono stati rinominati per allinearsi agli standard terminologici più recenti nel settore. Queste modifiche si applicano solo all’interfaccia utente web e non vengono applicate alla console client. Sono riassunti di seguito.
+In qualità di utente di Campaign esistente, tieni presente che alcuni concetti sono stati rinominati per allinearsi agli standard terminologici più recenti. Queste modifiche si applicano solo all’interfaccia utente web di Campaign e non vengono riportate nella console client. Sono riassunti di seguito.
 
-* Le bozze sono ora **Verifica e-mail**. Per inviare una bozza, utilizza il **Test** nell’interfaccia utente della consegna e-mail
+* Le bozze sono ora **Verifica e-mail**: per inviare una bozza, utilizza **Test** nell’interfaccia utente di e-mail delivery. Il target del target delle bozze ora è indicato come **Profili di test**
 * L’analisi della consegna è ora **preparazione alla consegna**. Quando devi avviare l’analisi, fai clic sul pulsante **Preparare** pulsante
 * L’anteprima e-mail è ora disponibile tramite la funzione **Simulazione del contenuto** pulsante
 * Gli elenchi sono ora **Tipi di pubblico**
