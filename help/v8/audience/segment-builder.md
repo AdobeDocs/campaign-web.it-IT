@@ -3,7 +3,7 @@ audience: end-user
 title: Definire un pubblico con il generatore di regole
 description: Scopri come lavorare con Segment Builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Sul lato destro, il **Proprietà delle regole** Il riquadro ti consente di esegu
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Visualizza risultati:** visualizza l’elenco dei destinatari interessati dal pubblico
+* **Visualizza risultati:** visualizza l’elenco dei destinatari interessati dal pubblico.
 * **Vista Codice**: visualizza una versione del pubblico basata su codice in SQL.
 * **Visualizzare gli attributi avanzati**: seleziona questa opzione se desideri visualizzare l’elenco completo degli attributi nella palette a sinistra: nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N.
 * **Attributi**: visualizza una descrizione del pubblico creato.

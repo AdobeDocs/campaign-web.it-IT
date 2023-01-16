@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorare i registri di consegna
 description: Scopri come monitorare i registri di consegna
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 22%
 
 ---
@@ -45,13 +45,13 @@ La **Consegne** tab offre una cronologia di ogni occorrenza della consegna. L’
 
 ## Esclusioni
 
-La **Log di esclusione** La scheda elenca tutti i messaggi che sono stati esclusi dal target inviato e specifica il motivo dell’errore di invio.
+La **Log di esclusione** La scheda elenca tutti i messaggi che sono stati esclusi dal target e specifica il motivo dell’errore di invio.
 
 ![](assets/logs3.png)
 
 ## Cause di esclusione
 
-La **Cause di esclusione** visualizza il volume (in numero di messaggi) dei messaggi esclusi dall’invio del target.
+La **Cause di esclusione** visualizza il volume (in numero di messaggi) dei messaggi esclusi dal target.
 
 ![](assets/logs4.png)
 

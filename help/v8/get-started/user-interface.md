@@ -3,9 +3,9 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **Campagne** - Elenco delle campagne. Per impostazione predefinita, puoi visualizzarne le date di inizio/fine/ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio/fine. Sono disponibili anche i modelli di campagna. Questi elenchi sono di sola lettura.
 
 * **Consegne** - Scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard per ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. I modelli di consegna sono disponibili anche in modalità di sola lettura. Puoi utilizzare la console Client per modificarli. Vedi questo [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   Utilizza la **Altre azioni** per eliminare o duplicare una consegna.
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### Gestione clienti
 
