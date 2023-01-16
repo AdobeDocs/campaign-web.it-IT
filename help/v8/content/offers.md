@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,13 @@ I passaggi per inviare offerte con un’e-mail sono i seguenti:
 
 ## Configurare le offerte da proporre {#configure}
 
-Per selezionare le offerte da proporre nel messaggio e-mail, fai clic sul pulsante **[!UICONTROL Offerte]** dalla schermata dell’edizione del contenuto dell’e-mail, quindi configura le offerte da proporre.
+1. Per selezionare le offerte da proporre nel messaggio e-mail, fai clic sul pulsante **[!UICONTROL Offerte]** dalla schermata dell’edizione del contenuto dell’e-mail.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Seleziona la **[!UICONTROL Spazio offerta]** che corrisponde all’ambiente dell’offerta.
+1. Configura le offerte da proporre ai destinatari. Seleziona prima il **[!UICONTROL Spazio offerta]** che corrisponde all’ambiente dell’offerta.
+
+   ![](assets/create-content-offers.png)
 
 1. Per perfezionare la scelta delle offerte del motore, seleziona una **[!UICONTROL Categoria di offerta]** in cui vengono ordinate le offerte.
 
@@ -67,10 +69,10 @@ Dopo aver configurato le offerte da proporre nell’e-mail, puoi inserirle nell�
 
 ## Inserire offerte nell’e-mail {#insert}
 
-Le offerte vengono aggiunte a un’e-mail tramite l’editor espressioni. Possono essere inseriti:
+Le offerte possono essere aggiunte all’e-mail utilizzando l’editor espressioni. Possono essere inseriti:
 
-* nella riga dell’oggetto dell’e-mail,
-* nel corpo dell’e-mail consentendo la personalizzazione in qualsiasi componente di contenuto. [Scopri come aggiungere componenti di contenuto](content-components.md)
+* Nella riga dell’oggetto dell’e-mail,
+* Nel corpo dell’e-mail consentendo la personalizzazione in qualsiasi componente di contenuto. [Scopri come aggiungere componenti di contenuto](content-components.md)
 
 >[!NOTE]
 >
