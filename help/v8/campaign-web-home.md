@@ -3,9 +3,9 @@ keywords: Web di Campaign;home;argomenti popolari
 description: Centro assistenza per Campaign Web v8
 title: Documentazione del prodotto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 9%
 
 ---
@@ -53,7 +53,7 @@ Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate
 <img alt="Convalida" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Test e invio di bozze</strong></a>
+<a href="preview-test/proofs.md"><strong>Visualizzare l’anteprima e verificare un messaggio e-mail</strong></a>
 </div>
 <p>
 </td>

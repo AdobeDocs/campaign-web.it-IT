@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorare i registri di consegna
 description: Scopri come monitorare i registri di consegna
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 22%
 
 ---
@@ -39,7 +39,7 @@ Vengono elencati tutti i passaggi, gli avvisi e gli errori di convalida. Le icon
 
 ## Consegne
 
-La **Consegne** tab offre una cronologia di ogni occorrenza della consegna. L’elenco dei messaggi inviati e i relativi stati sono archiviati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
+La **Registri di invio** tab offre una cronologia di ogni occorrenza della consegna. L’elenco dei messaggi inviati e i relativi stati sono archiviati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
 
 ![](assets/logs2.png)
 

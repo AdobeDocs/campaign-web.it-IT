@@ -3,9 +3,9 @@ audience: end-user
 title: Impostazioni di consegna e-mail
 description: Ulteriori informazioni sulle impostazioni di consegna e-mail nell’interfaccia utente Web di Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1472'
 ht-degree: 14%
 
 ---
@@ -183,8 +183,8 @@ Puoi impostare i parametri di esclusione in questa sezione. Le opzioni disponibi
 
 * **Mantieni indirizzi in quarantena** ti consente di mantenere dal target qualsiasi profilo con un indirizzo che non risponde.
 
-Puoi anche personalizzare il nome delle bozze.
+Puoi anche personalizzare il nome delle e-mail di test.
 
-Utilizza la **Mantieni il codice di consegna per la bozza** associare alla bozza lo stesso codice di consegna definito per la consegna a cui si riferisce.
+Utilizza la **Mantieni il codice di consegna per la bozza** associare all’e-mail di test lo stesso codice di consegna definito per la consegna a cui si riferisce.
 
-Per impostazione predefinita, l’oggetto della prova è preceduto da &quot;PROOF #&quot;, dove # è il numero della prova. Puoi modificare questo prefisso nella **Prefisso etichetta** campo .
+Per impostazione predefinita, l’oggetto dell’e-mail di test è preceduto da &quot;PROOF #&quot;, dove # è il numero dell’e-mail di test. Puoi modificare questo prefisso nella **Prefisso etichetta** campo .
