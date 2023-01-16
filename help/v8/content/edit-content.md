@@ -3,9 +3,9 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ I passaggi per definire il contenuto dell’e-mail sono i seguenti:
    * [Personalizzare lo stile del contenuto](get-started-email-style.md)
 
 1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi selezionare uno o più file.
+
+   Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail.
 
    <!--limitation on size + number of files?-->
 

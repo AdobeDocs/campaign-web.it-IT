@@ -3,9 +3,9 @@ audience: end-user
 title: Impostazioni di consegna e-mail
 description: Ulteriori informazioni sulle impostazioni di consegna e-mail nell’interfaccia utente Web di Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1468'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 ![Versione alfa](../assets/do-not-localize/badge.png)
 
-Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail.
+Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail. Sono disponibili dal **Configurare le impostazioni di consegna** icona disponibile durante la modifica di una consegna e-mail.
 
 ## Impostazioni di consegna e-mail {#email-delivery-settings}
 
