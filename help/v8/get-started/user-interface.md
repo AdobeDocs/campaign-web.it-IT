@@ -3,9 +3,9 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Interfaccia"
+>title="Scopri l’interfaccia"
 >abstract="La nuova interfaccia web Campaign v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
 La nuova interfaccia web Campaign v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la distribuzione delle campagne di marketing. Questa nuova interfaccia è integrata con Adobe Experience Platform.

@@ -3,9 +3,9 @@ audience: end-user
 title: Invia la tua prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Utilizzando un modello di progettazione predefinito, l’e-mail includerà anche
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Scopri come progettare il contenuto delle e-mail utilizzando E-mail Designer."
->abstract="Scopri come progettare il contenuto"
+>title="Scopri come progettare il contenuto delle e-mail"
+>abstract="Scopri come utilizzare E-mail Designer."
 
 In questo caso d’uso, utilizzeremo un modello predefinito per progettare la nostra e-mail.
 
