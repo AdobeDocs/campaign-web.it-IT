@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Invia bozze
-description: Scopri come definire e inviare messaggi a bozza
+title: Invia e-mail di test
+description: Scopri come definire e inviare e-mail di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '402'
 ht-degree: 2%
 
 ---
 
-# Invia bozze {#send-proofs}
+# Invia e-mail di test {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-L’invio di e-mail di test consente di convalidare l’e-mail e controllare vari elementi come collegamenti, collegamenti di rinuncia e pagine mirror, immagini e rilevare eventuali errori.
+L’invio di e-mail di test è un passaggio importante nella convalida della campagna e-mail e nell’identificazione dei potenziali problemi. Inviando e-mail di test, puoi controllare vari elementi come collegamenti, collegamenti di rinuncia, immagini e pagine mirror, nonché rilevare eventuali errori.
 
-Le bozze possono essere inviate a due tipi di destinatari:
+Le e-mail di test possono essere inviate a due tipi di destinatari:
 
-* **Profili di test**: inviare bozze agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database,
-* **Profili sostitutivi**: invia bozze a un indirizzo e-mail specifico utilizzando un profilo esistente. Questo ti consente di collocarti nella posizione dei profili e di ottenere una rappresentazione esatta del messaggio che il profilo riceverà.
+* **Profili di test**: inviare e-mail di prova agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database,
+* **Profili sostitutivi**: invia e-mail di test a un indirizzo e-mail specifico durante la rappresentazione di un profilo esistente. Questo ti consente di utilizzare l’e-mail come i destinatari, fornendo una rappresentazione accurata del messaggio che il profilo riceverà.
 
 ## Selezionare i destinatari delle bozze {#recipients}
 

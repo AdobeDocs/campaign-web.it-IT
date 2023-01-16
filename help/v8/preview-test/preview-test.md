@@ -3,9 +3,9 @@ audience: end-user
 title: Informazioni sull’anteprima e le bozze
 description: Scopri come visualizzare in anteprima i messaggi e inviare bozze
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Una volta definito il contenuto dell’e-mail, puoi controllarne la visualizzazione prima di inviarlo. Questo consente di testare l’e-mail al fine di rilevare eventuali errori nel contenuto o nelle impostazioni di personalizzazione.
+Prima di inviare un’e-mail, è importante esaminarne e testarne il contenuto per garantirne l’accuratezza e la disponibilità di errori nelle impostazioni di contenuto o personalizzazione.
 
 A questo scopo, Adobe Campaign consente di:
 
 * [Anteprima del contenuto e-mail e della personalizzazione](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Invia bozze](#send-proofs) a destinatari specifici al fine di verificare e convalidare l’e-mail.
+* [Invia bozze](#send-proofs) a destinatari specifici per la verifica e la convalida.
 
-Queste azioni vengono eseguite dalla **[!UICONTROL Simulazione del contenuto]** accessibile quando si crea il contenuto dell’e-mail di da E-mail Designer:
+Queste azioni possono essere eseguite dalla **[!UICONTROL Simulazione del contenuto]** accessibile quando si crea il contenuto dell’e-mail di da E-mail Designer:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->La simulazione del contenuto è disponibile anche nella pagina di riepilogo della consegna dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]** pulsante .
+>La simulazione del contenuto è disponibile anche nel riepilogo della consegna dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]** pulsante .
