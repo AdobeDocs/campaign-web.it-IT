@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Informazioni sull’anteprima e il test
-description: Scopri come visualizzare in anteprima i messaggi e verificare le e-mail
+title: Informazioni sull’anteprima e il test delle e-mail
+description: Scopri come visualizzare in anteprima e verificare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Informazioni sulle e-mail di anteprima e di test {#about-preview-proofs}
+# Informazioni sull’anteprima e il test delle e-mail {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
