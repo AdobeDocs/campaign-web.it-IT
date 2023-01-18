@@ -3,9 +3,9 @@ audience: end-user
 title: Creare la versione testuale di un messaggio e-mail
 description: Scopri come creare la versione testuale di un’e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 >
 >* Modifiche apportate **[!UICONTROL Testo normale]** la visualizzazione non viene riflessa nella visualizzazione HTML.
 >
->* Se riattivi il **[!UICONTROL Sincronizzazione con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione di HTML.
+>* Se riattivi il **[!UICONTROL Sincronizzazione con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche vengono perse e sostituite con il contenuto di testo generato dalla versione di HTML.
 

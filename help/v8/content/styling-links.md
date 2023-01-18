@@ -3,9 +3,9 @@ audience: end-user
 title: Definire uno stile per i collegamenti
 description: Scopri come definire uno stile per i collegamenti
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
    ![](assets/link_1.png)
 
-1. Scegli in che modo il pubblico verrà reindirizzato con il **[!UICONTROL Target]** a discesa:
+1. Scegli in che modo il pubblico viene reindirizzato con il **[!UICONTROL Target]** a discesa:
 
    * **[!UICONTROL Nessuno]**: apre il collegamento nello stesso frame in cui è stato fatto clic (impostazione predefinita).
    * **[!UICONTROL Vuoto]**: apre il collegamento in una nuova finestra o scheda.

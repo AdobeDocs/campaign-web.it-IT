@@ -3,9 +3,9 @@ audience: end-user
 title: Invia e-mail di test
 description: Scopri come definire e inviare e-mail di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Le e-mail di test possono essere inviate a due tipi di destinatari:
 
 * **Profili di test**: invia e-mail di test agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database. Possono essere create nella console Adobe Campaign nella **[!UICONTROL Risorse]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Indirizzi di seed]** cartella.
 
-* **Sostituzione dal target principale**: invia e-mail di test a un indirizzo e-mail specifico durante la rappresentazione di un profilo esistente. Questo ti consente di utilizzare l’e-mail come i destinatari, fornendo una rappresentazione accurata del messaggio che il profilo riceverà.
+* **Sostituzione dal target principale**: invia e-mail di test a un indirizzo e-mail specifico durante la rappresentazione di un profilo esistente. Questo ti consente di verificare l’esperienza dell’e-mail come i destinatari, fornendo una rappresentazione accurata del messaggio ricevuto dal profilo.
 
 ## Selezionare i destinatari del test {#recipients}
 
@@ -28,7 +28,7 @@ Le e-mail di test possono essere inviate a due tipi di destinatari:
 
    ![](assets/test-button.png)
 
-1. Utilizza la **[!UICONTROL Modalità]** elenco a discesa per scegliere il tipo di destinatari che riceveranno il messaggio e-mail di test:
+1. Utilizza la **[!UICONTROL Modalità]** elenco a discesa per scegliere il tipo di destinatari che ricevono il messaggio e-mail di test:
 
    * **Profili di test**: inviare l’e-mail di prova agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database,
 
@@ -42,7 +42,7 @@ Le e-mail di test possono essere inviate a due tipi di destinatari:
 
 1. Per inviare e-mail di test ai profili di sostituzione, scegli la **[!UICONTROL Sostituzione dal target]** quindi segui questi passaggi:
 
-   1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail che riceverà l’e-mail di test.
+   1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail che riceve l’e-mail di test.
 
       Puoi inserire qualsiasi indirizzo e-mail. Questo consente di inviare e-mail di test a qualsiasi utente, anche se non è utente di Adobe Campaign V8.
 

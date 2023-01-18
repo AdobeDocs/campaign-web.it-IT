@@ -3,9 +3,9 @@ audience: end-user
 title: Impostazioni di consegna e-mail
 description: Ulteriori informazioni sulle impostazioni di consegna e-mail nell’interfaccia utente Web di Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 14%
 
 ---
@@ -53,7 +53,7 @@ In **Tipo di peso** sono disponibili tre opzioni:
 * **Dipende dal destinatario**
 * **Definito in ciascuna regola**
 
-Utilizza la **Peso della consegna** per definire la priorità di consegna. Ogni consegna ha un peso che rappresenta il suo livello di priorità. Per impostazione predefinita, il peso di una consegna è impostato su 5. Le regole di pressione ti consentono di definire il peso delle consegne a cui verranno applicate.I pesi possono essere impostati o calcolati tramite una formula adatta ai destinatari. Ad esempio, puoi definire il peso di una consegna in base agli interessi dei destinatari.
+Utilizza la **Peso della consegna** per definire la priorità di consegna. Ogni consegna ha un peso che rappresenta il suo livello di priorità. Per impostazione predefinita, il peso di una consegna è impostato su 5. Le regole di pressione ti consentono di definire il peso delle consegne a cui sono applicate. I pesi possono essere impostati o calcolati tramite una formula adatta ai destinatari. Ad esempio, puoi definire il peso di una consegna in base agli interessi dei destinatari.
 
 
 Utilizza la **Modalità di consegna** per selezionare la modalità di valutazione target. Sono disponibili tre modalità:
@@ -101,7 +101,7 @@ I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Numero massimo di nuovi tentativi"
->abstract="Se un messaggio non riesce a causa di un errore temporaneo, verranno eseguiti nuovi tentativi per tutta la durata della consegna."
+>abstract="Se un messaggio non riesce a causa di un errore temporaneo, vengono eseguiti nuovi tentativi fino alla fine della durata della consegna."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -155,7 +155,7 @@ La pagina speculare è una pagina HTML accessibile online tramite un browser web
 
 Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 
-* **[!UICONTROL Forza la generazione della pagina speculare]**: anche se nella consegna non viene inserito alcun collegamento alla pagina speculare, verrà creata la pagina speculare.
+* **[!UICONTROL Forza la generazione della pagina speculare]**: anche se nella consegna non viene inserito alcun collegamento alla pagina speculare, viene creata la pagina speculare.
 * **[!UICONTROL Non generare la pagina speculare]**: non viene generata alcuna pagina speculare, anche se il collegamento è presente nella consegna.
 * **[!UICONTROL Genera una pagina speculare accessibile utilizzando solo l’identificatore del messaggio]**: questa opzione ti consente di accedere al contenuto della pagina speculare, con informazioni sulla personalizzazione, nella finestra del registro di consegna. A questo scopo, dopo la fine della consegna, fai clic sul pulsante **[!UICONTROL Consegna]** e selezionare la riga del destinatario di cui si desidera visualizzare la pagina speculare. Fai clic sul pulsante **[!UICONTROL Visualizza la pagina speculare del messaggio...]** link.
 
@@ -165,11 +165,11 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Periodo di validità"
->abstract="Questa opzione definisce la durata per la quale verrà attivato il tracciamento sugli URL."
+>abstract="Questa opzione definisce la durata per la quale viene attivato il tracciamento sugli URL."
 
 I parametri di tracciamento sono definiti nella sezione correlata. Le opzioni possibili sono:
 
-**Limite di validità del tracciamento**: utilizza questa opzione per modificare la durata per la quale verrà attivato il tracciamento sugli URL.
+**Limite di validità del tracciamento**: utilizza questa opzione per modificare la durata per la quale viene attivato il tracciamento sugli URL.
 
 **URL di sostituzione per gli URL scaduti**: utilizza questa opzione per immettere un URL per una pagina web di fallback: viene visualizzato una volta scaduto il tracciamento.
 

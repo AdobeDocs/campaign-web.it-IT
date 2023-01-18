@@ -3,7 +3,7 @@ audience: end-user
 title: Seleziona un pubblico
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 5%
@@ -47,4 +47,4 @@ In questa sezione viene illustrato come selezionare un pubblico esistente durant
 
 1. Fai clic su **Salva**.
 
-Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceverà il messaggio. Ciò ti consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con il comportamento dei contatti che non lo hanno fatto. Vedi [sezione](control-group.md).
+Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò ti consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con il comportamento dei contatti che non lo hanno fatto. Vedi [sezione](control-group.md).

@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ I passaggi per inviare offerte con un’e-mail sono i seguenti:
 
 1. Per perfezionare la scelta delle offerte del motore, seleziona una **[!UICONTROL Categoria di offerta]** in cui vengono ordinate le offerte.
 
-   Se non viene specificata alcuna categoria, tutte le offerte contenute nell’ambiente verranno prese in considerazione dal motore di offerta, a meno che un **[!UICONTROL Tema offerta]** è selezionato.
+   Se non viene specificata alcuna categoria, tutte le offerte contenute nell’ambiente vengono prese in considerazione dal motore di offerta, a meno che un **[!UICONTROL Tema offerta]** è selezionato.
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ I passaggi per inviare offerte con un’e-mail sono i seguenti:
 
    Questa opzione ti consente di attivare o disattivare l’esclusione dei destinatari per i quali non sono disponibili sufficienti offerte idonee.
 
-   * Se l’opzione è abilitata, i destinatari che non hanno abbastanza proposte verranno esclusi dalla consegna.
-   * Se l’opzione è disabilitata, questi destinatari non verranno esclusi ma non avranno il numero di proposte richiesto.
+   * Se l’opzione è abilitata, i destinatari che non hanno abbastanza proposte vengono esclusi dalla consegna.
+   * Se l’opzione è disabilitata, questi destinatari non vengono esclusi ma non possono disporre del numero di proposte richiesto.
 
 1. Se necessario, seleziona la **[!UICONTROL Nascondi tutto se non è selezionata alcuna offerta]** opzione .
 
-   Questa opzione ti consente di scegliere come verrà elaborato il messaggio nel caso in cui una delle proposte non esista.
+   Questa opzione ti consente di scegliere come viene elaborato il messaggio nel caso in cui una delle proposte non esista.
 
-   * Se l’opzione è abilitata, la rappresentazione della proposta mancante non viene visualizzata e nel messaggio per la proposta non verrà visualizzato alcun contenuto.
-   * Se l’opzione è disabilitata, il messaggio stesso viene annullato durante l’invio e i destinatari non riceveranno più alcun messaggio.
+   * Se l’opzione è abilitata, la rappresentazione della proposta mancante non viene visualizzata e nel messaggio per la proposta non viene visualizzato alcun contenuto.
+   * Se l’opzione è disabilitata, il messaggio stesso viene annullato durante l’invio e i destinatari non possono più ricevere messaggi.
 
 Dopo aver configurato le offerte da proporre nell’e-mail, puoi inserirle nell’e-mail utilizzando l’editor espressioni. [Scopri come inserire offerte nell’e-mail](#insert)
 

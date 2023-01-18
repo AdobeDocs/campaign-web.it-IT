@@ -3,9 +3,9 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ I passaggi per definire il contenuto dell’e-mail sono i seguenti:
 
 1. Definire il messaggio e-mail **[!UICONTROL Linea oggetto]**. A questo scopo, digita l’oggetto direttamente nel campo dedicato o apri l’editor espressioni per definire l’aggiunta di personalizzazioni utilizzando vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
 
-1. Se desideri inviare offerte con il tuo messaggio e-mail, selezionale utilizzando il **[!UICONTROL Configurare le offerte]** pulsante . Potrai quindi inserirli nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](offers.md)
+1. Se desideri inviare offerte con il tuo messaggio e-mail, selezionale utilizzando il **[!UICONTROL Configurare le offerte]** pulsante . Puoi quindi inserirli nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](offers.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica corpo del messaggio e-mail]** per strutturare e progettare il contenuto dell’e-mail. Ulteriori informazioni sulla progettazione del contenuto delle e-mail sono disponibili nelle seguenti sezioni:
 
@@ -63,4 +63,4 @@ I passaggi per definire il contenuto dell’e-mail sono i seguenti:
 
 1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla **[!UICONTROL Funzioni opzionali]** sezione . [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
 
-Una volta definito il contenuto dell’e-mail, utilizza **[!UICONTROL Simulazione del contenuto]** per controllare come verrà visualizzato prima di inviarlo. [Scopri come visualizzare in anteprima e testare il tuo messaggio e-mail](../preview-test/preview-test.md)
+Una volta definito il contenuto dell’e-mail, utilizza **[!UICONTROL Simulazione del contenuto]** per controllare come viene visualizzato prima di inviarlo. [Scopri come visualizzare in anteprima e testare il tuo messaggio e-mail](../preview-test/preview-test.md)

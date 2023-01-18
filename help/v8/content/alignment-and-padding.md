@@ -3,9 +3,9 @@ audience: end-user
 title: Regolare l’allineamento verticale e la spaziatura in E-mail Designer
 description: Scopri come regolare l’allineamento verticale e la spaziatura
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/badge.png)
 
-In questo esempio, regoleremo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
+In questo esempio, regoliamo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 
 1. Seleziona il componente struttura direttamente nel messaggio e-mail o utilizza il **[!UICONTROL Struttura di navigazione]** disponibile nel riquadro a sinistra.
 

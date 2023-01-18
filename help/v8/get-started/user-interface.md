@@ -3,9 +3,9 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menu di navigazione a sinistra
 
-Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Campaign v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens). Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail. Non è possibile fare clic su una voce dell’elenco per modificarla o visualizzarla in Alfa. Tutti gli elenchi saranno modificabili nelle versioni Beta e GA. Gli elementi visualizzati nel menu di navigazione a sinistra dipendono dalle autorizzazioni utente.
+Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Campaign v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens). Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail. Non è possibile fare clic su una voce dell’elenco per modificarla o visualizzarla in Alfa. Tutti gli elenchi saranno modificabili nelle versioni future. Gli elementi visualizzati nel menu di navigazione a sinistra dipendono dalle autorizzazioni utente.
 
 ![](assets/home.png)
 

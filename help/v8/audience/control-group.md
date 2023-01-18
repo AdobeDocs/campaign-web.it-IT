@@ -3,10 +3,10 @@ audience: end-user
 title: Imposta un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente Web di Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 39%
+source-wordcount: '525'
+ht-degree: 26%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 39%
 
 Puoi utilizzare i gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne.
 
-A questo scopo, crea un gruppo di controllo quando definisci il pubblico della consegna. I profili vengono aggiunti al gruppo di controllo in modo casuale, filtrati o meno oppure in base a alcuni criteri. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati.
+A questo scopo, crea un gruppo di controllo quando definisci il pubblico della consegna. I profili vengono aggiunti al gruppo di controllo in modo casuale, filtrati o meno oppure in base a alcuni criteri. Puoi quindi confrontare il comportamento della popolazione target che ha ricevuto il messaggio con il comportamento dei contatti non interessati.
 
 Il gruppo di controllo può essere estratto in modo casuale dal target principale e/o selezionato da una popolazione specifica. Ci sono quindi due vie principali per definire un gruppo di controllo:
 
@@ -23,7 +23,7 @@ Il gruppo di controllo può essere estratto in modo casuale dal target principal
 
 È possibile ricorrere a entrambi i metodi.
 
-Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazione della consegna verranno rimossi dal target principale, quindi non riceveranno il messaggio inviato.
+Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazione della consegna vengono rimossi dal target principale. Non ricevono il messaggio.
 
 Per creare un gruppo di controllo, fai clic sul pulsante **[!UICONTROL Imposta gruppo di controllo]** dal **Pubblico** della sezione dell’assistente per la creazione della consegna.
 
@@ -38,11 +38,11 @@ Per creare un gruppo di controllo, fai clic sul pulsante **[!UICONTROL Imposta g
 
 Per definire un gruppo di controllo, puoi scegliere di estrarre dalla popolazione target una percentuale o un numero fisso di profili, in modo casuale o in base a un ordinamento.
 
-Innanzitutto, definisci il modo in cui i profili verranno estratti dal target: in modo casuale o in base a un ordinamento.
+Innanzitutto, definisci il modo in cui i profili vengono estratti dal target: in modo casuale o in base a un ordinamento.
 
 Sotto la **Estrai dal target** sezione, scegli un **Tipo di esclusione**:
 
-* **Casuale**: durante la preparazione della consegna, Adobe Campaign estrarrà in modo casuale un numero di profili corrispondente alla percentuale o al numero massimo che verrà impostato come limite di dimensioni.
+* **Casuale**: durante la preparazione della consegna, Adobe Campaign estrae in modo casuale un numero di profili corrispondente alla percentuale o al numero massimo impostato come limite di dimensioni.
 
    ![](assets/control-group.png)
 
@@ -91,4 +91,4 @@ Da **Popolazione extra** della sezione **Gruppo di controllo** schermata di defi
 
 * Per definire una nuova query, seleziona **Crea il tuo** e definisci i criteri di esclusione utilizzando il generatore di regole. Fai riferimento a questo [sezione](segment-builder.md).
 
-I profili inclusi nel pubblico o che corrispondono al risultato della query saranno esclusi dal target.
+I profili inclusi nel pubblico o che corrispondono al risultato della query sono esclusi dal target.

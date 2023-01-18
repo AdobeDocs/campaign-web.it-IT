@@ -3,9 +3,9 @@ audience: end-user
 title: Anteprima contenuto e-mail
 description: Scopri come visualizzare in anteprima il contenuto delle e-mail con l’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Anteprima intelligente dei contenuti"
->abstract="Adobe Campaign consente di utilizzare i profili per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, al fine di controllare la personalizzazione e il modo in cui i destinatari li visualizzeranno."
+>abstract="Adobe Campaign consente di utilizzare i profili per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, verificare la personalizzazione e vedere in che modo i destinatari la visualizzeranno."
 
-Adobe Campaign ti consente di visualizzare in anteprima il contenuto dell’e-mail prima di inviarlo per verificarne la personalizzazione e il modo in cui verrà visualizzato ai destinatari.
+Adobe Campaign ti consente di visualizzare in anteprima il contenuto dell’e-mail prima di inviarla, di controllarne la personalizzazione e la modalità di visualizzazione ai destinatari.
 
 Per visualizzare l’anteprima del contenuto dell’e-mail, effettua le seguenti operazioni:
 
@@ -36,7 +36,7 @@ Per visualizzare l’anteprima del contenuto dell’e-mail, effettua le seguenti
 
    ![](assets/preview-profile.png)
 
-1. Dopo aver selezionato i profili, nel riquadro a destra viene visualizzata un’anteprima dell’e-mail. Gli elementi personalizzati verranno sostituiti dai dati del profilo selezionato nel riquadro a sinistra.
+1. Dopo aver selezionato i profili, nel riquadro a destra viene visualizzata un’anteprima del messaggio e-mail. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra.
 
    Se hai aggiunto più profili, puoi passare da un profilo all’altro nell’elenco per visualizzare in anteprima l’e-mail corrispondente.
 

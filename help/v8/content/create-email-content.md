@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e-mail in E-mail Designer
 description: Scopri come progettare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >L’impilamento delle colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non verranno sovrapposte.
+   >L’impilamento delle colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non vengono sovrapposte.
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
@@ -89,7 +89,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
-1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Categorie]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
+1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che devono essere tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Categorie]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
    >[!CAUTION]
    >
-   >Dopo il passaggio all’editor di codice, non potrai tornare alla finestra di progettazione visiva per questa e-mail.
+   >Non è possibile ripristinare la finestra di progettazione visiva per questa e-mail dopo il passaggio all’editor di codice.
 
 1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Simulazione del contenuto]** per controllare il rendering delle e-mail. È possibile scegliere la visualizzazione desktop o mobile. [Ulteriori informazioni sull’anteprima del messaggio e-mail](../preview-test/preview-test.md)
 

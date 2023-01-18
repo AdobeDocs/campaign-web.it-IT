@@ -3,9 +3,9 @@ audience: end-user
 title: Definire un pubblico con il generatore di regole
 description: Scopri come lavorare con Segment Builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Puoi usare la barra di ricerca per trovare rapidamente gli elementi.
 
 ## Il quadro
 
-L’area di lavoro è la zona centrale in cui è possibile configurare e combinare le regole in base agli elementi aggiunti dalla palette. Per aggiungere una nuova regola, trascina un riquadro dalla palette e rilascialo nell’area di lavoro. Verranno quindi presentate opzioni specifiche per il contesto in base al tipo di dati aggiunti.
+L’area di lavoro è la zona centrale in cui è possibile configurare e combinare le regole in base agli elementi aggiunti dalla palette. Per aggiungere una nuova regola, trascina un riquadro dalla palette e rilascialo nell’area di lavoro. Puoi quindi visualizzare opzioni specifiche per il contesto in base al tipo di dati aggiunto.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ Sul lato destro, il **Proprietà delle regole** Il riquadro ti consente di esegu
 
 ## Esempio
 
-In questo esempio, creeremo un pubblico per tutti i clienti che vivono ad Atlanta o a Seattle e sono nati dopo il 1980.
+In questo esempio, creiamo un pubblico per tutti i clienti che vivono ad Atlanta o a Seattle e sono nati dopo il 1980.
 
 1. In **Attributi** scheda della palette, cerca il **Data di nascita** campo . Trascina la tessera e rilasciala sull’area di lavoro.
 

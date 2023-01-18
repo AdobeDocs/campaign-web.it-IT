@@ -3,9 +3,9 @@ audience: end-user
 title: Invia la tua prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Scopri come creare la tua prima e-mail con targeting in questo caso d’uso. Pianificheremo l’invio di un’e-mail ai clienti fidelizzati in argento e oro in una data specifica.
+Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, pianifica l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
-Utilizzando un modello di progettazione predefinito, l’e-mail includerà anche contenuti personalizzati in base agli attributi del profilo del cliente.
+In base a un modello di progettazione predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo del cliente.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ Utilizzando un modello di progettazione predefinito, l’e-mail includerà anche
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Selezionare un modello e-mail"
->abstract="Un modello è definito nella console Adobe Campaign v8. Si tratta di una configurazione di consegna specifica che contiene parametri predefiniti come regole di tipologia, parametri di personalizzazione o di indirizzamento."
+>abstract="Un modello e-mail è una configurazione di consegna specifica che contiene impostazioni predefinite, ad esempio regole di tipologia, parametri di personalizzazione o di indirizzamento. I modelli sono definiti nella console client di Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,23 +65,23 @@ Utilizzando un modello di progettazione predefinito, l’e-mail includerà anche
 >title="Scopri come progettare il contenuto delle e-mail"
 >abstract="Scopri come utilizzare E-mail Designer."
 
-In questo caso d’uso, utilizzeremo un modello predefinito per progettare la nostra e-mail.
+In questo caso d’uso, utilizza un modello predefinito per progettare la nostra e-mail.
 
-progetteranno l’e-mail utilizzando un modello predefinito. Istruzioni dettagliate sulla configurazione del contenuto delle e-mail sono disponibili in [questa sezione](../content/edit-content.md).
+Le istruzioni dettagliate su come configurare il contenuto delle e-mail sono disponibili in [questa sezione](../content/edit-content.md).
 
 1. Per iniziare a creare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** pulsante .
 
-   Verrà visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e progettarlo utilizzando E-mail Designer.
+   Viene visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e progettarlo utilizzando E-mail Designer.
 
    ![](assets/edit-content.png)
 
-1. Digita l’oggetto dell’e-mail e personalizzalo utilizzando l’editor espressioni. [Scopri come personalizzare i contenuti](../personalization/personalize.md)
+1. Immetti l’oggetto dell’e-mail e personalizzalo utilizzando l’editor espressioni. [Scopri come personalizzare i contenuti](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
 1. Per progettare il corpo dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo del messaggio e-mail]** pulsante .
 
-   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizzeremo un modello di progettazione predefinito.
+   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizzare un modello di progettazione predefinito.
 
    ![](assets/select-template.png)
 
@@ -91,7 +91,7 @@ progetteranno l’e-mail utilizzando un modello predefinito. Istruzioni dettagli
 
     ![](assets/import-folder.png)-->
 
-1. Dopo aver selezionato il modello, questo verrà visualizzato in E-mail Designer, dove potrai apportare le modifiche necessarie e aggiungere la personalizzazione.
+1. Dopo aver selezionato il modello, questo viene visualizzato in E-mail Designer, dove puoi apportare le modifiche necessarie e aggiungere la personalizzazione.
 
    Ad esempio, per aggiungere la personalizzazione al titolo dell’e-mail, seleziona il blocco di componente e fai clic su **[!UICONTROL Aggiungi personalizzazione]**.
 
@@ -106,9 +106,9 @@ progetteranno l’e-mail utilizzando un modello predefinito. Istruzioni dettagli
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definire il pubblico"
->abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente già definito in un’istanza Campaign v8 o da Adobe Experience Platform oppure puoi scegliere di creare un nuovo pubblico con il generatore di regole."
+>abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente già definito in un’istanza Campaign v8 o da Adobe Experience Platform, oppure puoi creare un nuovo pubblico con il generatore di regole."
 
-In questo caso d’uso, invieremo l’e-mail a un pubblico esistente. Sono disponibili ulteriori istruzioni su come lavorare con i tipi di pubblico in [questa sezione](../audience/about-audiences.md).
+In questo caso d’uso, invii l’e-mail a un pubblico esistente. Sono disponibili ulteriori istruzioni su come lavorare con i tipi di pubblico in [questa sezione](../audience/about-audiences.md).
 
 1. Per selezionare il pubblico per l’e-mail, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** e scegli un pubblico esistente dall’elenco.
 
@@ -118,7 +118,7 @@ In questo caso d’uso, invieremo l’e-mail a un pubblico esistente. Sono dispo
 
    >[!NOTE]
    >
-   >I tipi di pubblico disponibili nell’elenco provengono dall’istanza Campaign V8 o da Adobe Experience Platform se l’integrazione Destinazione/Origini è stata configurata nell’istanza.
+   >I tipi di pubblico disponibili nell’elenco provengono dall’istanza Campaign v8 o da Adobe Experience Platform se l’integrazione Destinazione/Origini è stata configurata nell’istanza.
    >
    >L’integrazione Destinazione/Origini ti consente di inviare segmenti di Experience Platform ad Adobe Campaign e di inviare i registri di consegna e tracciamento di Campaign a Adobe Experience Platform. [Scopri come utilizzare Campaign e Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -133,7 +133,7 @@ In questo caso d’uso, invieremo l’e-mail a un pubblico esistente. Sono dispo
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Pianifica l’invio"
->abstract="Definisci la data e l’ora esatta dell’invio. Scegliendo l’orario più appropriato per il messaggio di marketing, massimizzerai le percentuali di apertura."
+>abstract="Definisci la data e l’ora esatta dell’invio. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare le percentuali di apertura."
 
 Per pianificare l’invio dell’e-mail, fai clic su **[!UICONTROL Abilita]** e imposta la data e l’ora desiderate per l’invio.
 
@@ -145,19 +145,19 @@ Per impostazione predefinita, la **[!UICONTROL Conferma prima dell’invio]** è
 
 Prima di inviare l’e-mail, puoi visualizzarla in anteprima e testarla per assicurarti che soddisfi le tue aspettative.
 
-In questo caso d’uso, visualizzeremo l’anteprima dell’e-mail e invieremo versioni di prova a indirizzi e-mail specifici durante la rappresentazione di alcuni dei profili di destinazione.
+In questo caso d’uso, puoi visualizzare in anteprima l’e-mail e inviare versioni di prova a indirizzi e-mail specifici durante la rappresentazione di alcuni dei profili di destinazione.
 
 Sono disponibili ulteriori informazioni su come visualizzare in anteprima e verificare le e-mail in [questa sezione](../preview-test/preview-test.md).
 
-1. Per esaminare e inviare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Verrà visualizzata un’anteprima del messaggio e-mail, insieme a tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno qualsiasi di questi elementi, fai clic sul pulsante Modifica .
+1. Per esaminare e inviare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, insieme a tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno qualsiasi di questi elementi, fai clic sul pulsante Modifica .
 
-1. Per visualizzare in anteprima l’e-mail e inviare le versioni di prova, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** pulsante . Viene aperta l’interfaccia di anteprima.
+1. Per visualizzare in anteprima l’e-mail e inviare le versioni di prova, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** pulsante .
 
    ![](assets/review-email.png)
 
 1. Sul lato sinistro, seleziona i profili da utilizzare per visualizzare l’anteprima del messaggio e-mail.
 
-   Nel riquadro a destra viene visualizzata un’anteprima dell’e-mail in base al profilo selezionato. Se hai aggiunto più profili, puoi passare da un profilo all’altro per visualizzare in anteprima l’e-mail corrispondente.
+   Nel riquadro a destra viene visualizzata un’anteprima del messaggio e-mail in base al profilo selezionato. Se hai aggiunto più profili, puoi passare da un profilo all’altro per visualizzare in anteprima l’e-mail corrispondente.
 
    ![](assets/preview.png)
 
@@ -167,11 +167,11 @@ Sono disponibili ulteriori informazioni su come visualizzare in anteprima e veri
 
 1. Per inviare le versioni di prova dell’e-mail, fai clic sul pulsante **[!UICONTROL Test]** quindi scegliere la modalità da utilizzare.
 
-   In questo esempio, utilizzeremo il **[!UICONTROL Sostituisci dal target principale]** , che invia le versioni di test a indirizzi e-mail specifici durante la rappresentazione di alcuni dei profili target dell’e-mail.
+   In questo esempio, utilizza il **[!UICONTROL Sostituisci dal target principale]** , che invia le versioni di test a indirizzi e-mail specifici durante la rappresentazione di alcuni dei profili target dell’e-mail.
 
    ![](assets/proof-mode.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica gli indirizzi e-mail che riceveranno le versioni di prova.
+1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica gli indirizzi e-mail che ricevono le versioni di prova.
 
    Per ogni indirizzo e-mail, seleziona il profilo da rappresentare. Puoi anche consentire ad Adobe Campaign di selezionare un profilo casuale dal target.
 
@@ -179,7 +179,7 @@ Sono disponibili ulteriori informazioni su come visualizzare in anteprima e veri
 
 1. Fai clic su **[!UICONTROL Invia e-mail di test]** e conferma l’invio.
 
-   Le versioni di prova verranno inviate agli indirizzi e-mail specificati utilizzando il profilo selezionato con **[Prove x]** Prefisso.
+   Le versioni di prova vengono inviate agli indirizzi e-mail specificati utilizzando il profilo selezionato con **[Prove x]** Prefisso.
 
    ![](assets/proof-sent.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare i componenti contenuto di e-mail designer
 description: Scopri come utilizzare i componenti di contenuto nelle e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Puoi aggiungere più **[!UICONTROL Componenti contenuto]** come necessario all&#
 
 ## Contenitore {#container}
 
-Puoi aggiungere un contenitore semplice all’interno del quale puoi aggiungere un altro componente di contenuto. Questo consente di applicare al contenitore uno stile specifico diverso dal componente utilizzato al suo interno.
+Puoi aggiungere un contenitore semplice all’interno del quale aggiungere un altro componente di contenuto. Questo consente di applicare uno stile specifico al contenitore, diverso dal componente utilizzato all’interno.
 
 Ad esempio, aggiungi un **[!UICONTROL Contenitore]** e quindi aggiungi un [Pulsante](#button) all’interno del contenitore. Puoi utilizzare uno sfondo specifico per il contenitore e un altro per il pulsante.
 
@@ -81,7 +81,7 @@ Utilizza la **[!UICONTROL Pulsante]** per inserire uno o più pulsanti nell’e-
 
 1. In **[!UICONTROL Collegamento]** aggiungi l’URL a cui desideri reindirizzare quando fai clic sul pulsante .
 
-1. Scegli in che modo il pubblico verrà reindirizzato con il **[!UICONTROL Target]** elenco a discesa:
+1. Scegli in che modo il contenuto viene visualizzato con il **[!UICONTROL Target]** elenco a discesa:
 
    * **[!UICONTROL Nessuno]**: apre il collegamento nello stesso frame in cui è stato fatto clic (impostazione predefinita).
    * **[!UICONTROL Vuoto]**: apre il collegamento in una nuova finestra o scheda.
@@ -180,7 +180,7 @@ Utilizza la **[!UICONTROL Social]** per inserire i collegamenti alle pagine dei 
 
 1. Scegli la dimensione delle icone nella **[!UICONTROL Dimensioni delle immagini]** campo .
 
-1. Fai clic su ciascuna delle icone dei social media per configurare le **[!UICONTROL URL]** a cui verrà reindirizzato il pubblico.
+1. Fai clic su ciascuna delle icone dei social media per configurare le **[!UICONTROL URL]** a cui il pubblico viene reindirizzato.
 
    ![](assets/email_designer_21.png)
 
