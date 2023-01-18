@@ -3,7 +3,7 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente Web di Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 09b996db77ab4f7028038cb6904a211cf19650c7
+source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -184,23 +184,47 @@ Campaign v8 Web è progettato per funzionare in modo ottimale nell’ultima vers
 
 Campaign v8 Web è attualmente disponibile nelle seguenti lingue:
 
-<table style="table-layout:fixed">
-<tr style="border: 1;">
-<td valign="top">
+<table>
+<tr>
+<td>
 <p>Inglese (USA) - IT-IT</p>
-<p>Francese - FR</p>
-<p>Tedesco - DE</p>
-<p>Italiano - IT</p>
 </td>
-<td valign="top">
+<td>
 <p>Spagnolo - ES</p>
+</td>
+<td>
+<p>Coreano - KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Francese - FR</p>
+</td>
+<td>
 <p>Portoghese (brasiliano) - PTBR</p>
+</td>
+<td>
+<p>Cinese semplificato - CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Tedesco - DE</p>
+</td>
+<td>
 <p>Giapponese - JP</p>
 </td>
-<td valign="top">
-<p>Coreano - KR</p>
-<p>Cinese semplificato - CHS</p>
+<td>
 <p>Cinese tradizionale - CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Italiano - IT</p>
+</td>
+<td>
+</td>
+<td>
 </td>
 </tr>
 </table>
