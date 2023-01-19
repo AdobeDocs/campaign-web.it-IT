@@ -1,25 +1,25 @@
 ---
-keywords: Web di Campaign;home;argomenti popolari
-description: Centro assistenza per Campaign Web v8
-title: Documentazione del prodotto Adobe Campaign Web v8
+keywords: Campaign Web;home;argomenti popolari
+description: Centro risorse di Campaign Web v8
+title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Documentazione Web di Adobe Campaign v8 {#campaign-documentation}
+# Documentazione di Adobe Campaign v8 Web {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
 ![](assets/do-not-localize/badge.png)
 
 
-Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e una nuova progettazione per migliorare significativamente la user experience. Questa nuova interfaccia utente moderna semplifica la progettazione e la distribuzione delle campagne di marketing e garantisce coerenza, insieme ad altre soluzioni di Adobe, tra cui Adobe Experience Platform. [Ulteriori informazioni](get-started/get-started.md)
+Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e un nuovo design per migliorare significativamente l’esperienza utente. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform. [Ulteriori informazioni](get-started/get-started.md)
 
->La versione Web di Campaign v8 è attualmente in versione alfa. L&#39;accesso è limitato a un piccolo set di clienti Alpha. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso. [Ulteriori informazioni](rn/release-notes.md)
+>Campaign Web v8 è attualmente in versione alfa. L‘accesso è limitato a un piccolo gruppo di clienti alfa. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso. [Ulteriori informazioni](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -44,7 +44,7 @@ Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate
 <img alt="Tipi di pubblico" src="assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Seleziona un pubblico</strong></a>
+<a href="audience/about-audiences.md"><strong>Selezionare un pubblico</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +53,7 @@ Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate
 <img alt="Convalida" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Visualizzare l’anteprima e verificare un messaggio e-mail</strong></a>
+<a href="preview-test/proofs.md"><strong>Anteprima e test di un’e-maill</strong></a>
 </div>
 <p>
 </td>
