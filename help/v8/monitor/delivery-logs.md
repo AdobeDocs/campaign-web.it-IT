@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: Monitorare i registri di consegna
-description: Scopri come monitorare i registri di consegna
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 22%
-
 ---
-
-# Monitorare i registri di consegna {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Log di consegna"
+>title="Delivery logs"
 >abstract="TBC"
 
-Dopo aver preparato e inviato un’e-mail, i registri di consegna ti consentono di verificare che non vi siano errori. Questi registri sono accessibili direttamente dal dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-Per visualizzare i registri, accedi al dashboard di consegna e fai clic su **Registri** pulsante .
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-Sono disponibili diverse schede:
+Several tabs are available:
 
-## Registri
+## Logs
 
-La **Registri** contiene tutti i messaggi relativi alla consegna e alle bozze. Le icone specifiche consentono di identificare errori o avvisi.
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-Vengono elencati tutti i passaggi, gli avvisi e gli errori di convalida. Le icone colorate mostrano il tipo di messaggio:
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* L’icona grigia indica un messaggio informativo.
-* L’icona gialla indica un errore di elaborazione non critico.
-* L’icona rossa indica un errore critico che impedisce l’invio della consegna.
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## Consegne
+## Deliveries
 
-La **Registri di invio** tab offre una cronologia di ogni occorrenza della consegna. L’elenco dei messaggi inviati e i relativi stati sono archiviati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## Esclusioni
+## Exclusions
 
-La **Log di esclusione** La scheda elenca tutti i messaggi che sono stati esclusi dal target e specifica il motivo dell’errore di invio.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## Cause di esclusione
+## Exclusion causes
 
-La **Cause di esclusione** visualizza il volume (in numero di messaggi) dei messaggi esclusi dal target.
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## URL tracciati
+## Tracked URLs
 
-La **URL tracciati** la scheda raggruppa gli URL contenuti nel messaggio inviato, tra cui il loro tipo di URL e l’URL di origine.
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
-## Tracciamento
+## Tracking
 
-La **Tracking** elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzati i dati di tracciamento per i messaggi inviati, ovvero tutti gli URL soggetti al tracciamento da parte di Adobe Campaign.
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata.
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)

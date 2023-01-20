@@ -1,25 +1,19 @@
 ---
 audience: end-user
-title: Scopri l’interfaccia
-description: Interfaccia utente Web di Campaign v8
+title: Discover the interface
+description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 1%
-
 ---
-
-# Scopri l’interfaccia {#user-interface}
+# Discover the interface {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Scopri l’interfaccia"
->abstract="La nuova interfaccia web Campaign v8 offre un’esperienza utente integrata, intuitiva e coerente."
+>title="Discover the interface"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
 
-La nuova interfaccia web Campaign v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la distribuzione delle campagne di marketing. Questa nuova interfaccia è integrata con Adobe Experience Platform.
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -27,7 +21,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->Questa documentazione viene spesso aggiornata per riflettere le ultime modifiche nell’interfaccia utente del prodotto. Tuttavia, alcune schermate possono differire leggermente dall’interfaccia utente.
+>This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
 
 <!--
@@ -35,15 +29,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Menu di navigazione a sinistra
+## Left navigation menu
 
-Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Campaign v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens). Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail. Non è possibile fare clic su una voce dell’elenco per modificarla o visualizzarla in Alfa. Tutti gli elenchi saranno modificabili nelle versioni future. Gli elementi visualizzati nel menu di navigazione a sinistra dipendono dalle autorizzazioni utente.
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
 ### Home
 
-Questa schermata include collegamenti chiave e risorse per un accesso rapido alle funzionalità Web principali di Campaign v8. La **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
+This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -52,7 +46,7 @@ Questa schermata include collegamenti chiave e risorse per un accesso rapido all
 * Learning cards
 -->
 
-Accedi alle pagine della guida della chiave Web v8 di Campaign dalla sezione inferiore della home page.
+Access Campaign v8 Web key help pages from the lower section of the home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -65,15 +59,15 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="La **Esplora risorse** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail."
+>abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
 
-La **Esplora risorse** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail.
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
 
-Gli elementi visualizzati in Esplora risorse dipendono dalle autorizzazioni dell&#39;utente.
+The items displayed in the Explorer depend on your user permissions. 
 
-Come in qualsiasi schermata dell’elenco, puoi configurare le colonne per personalizzare la visualizzazione e visualizzare tutte le informazioni necessarie. Vedi questo [sezione](#list-screens).
+Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-Per ulteriori informazioni su Campaign Explorer, consulta questo [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+For more information on the Campaign explorer, refer to this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -82,144 +76,144 @@ If you need to view your lists of recipients (age, gender), transactions or live
 Navtree view depends on permissions (same as console).
 -->
 
-### Gestione delle campagne
+### Campaign Management
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
->title="Campagne"
->abstract="Elenco delle campagne. Puoi visualizzare informazioni utili, ad esempio le date di inizio/fine/ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio/fine. Sono disponibili anche i modelli di campagna. Questi elenchi sono di sola lettura."
+>title="Campaigns"
+>abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="Consegne"
->abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, l’ultima data di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard. Gli altri elementi sono di sola lettura. Sono disponibili anche i modelli di consegna."
+>title="Deliveries"
+>abstract="Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available."
 
-* **Campagne** - Elenco delle campagne. Per impostazione predefinita, puoi visualizzarne le date di inizio/fine/ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio/fine. Sono disponibili anche i modelli di campagna. Questi elenchi sono di sola lettura.
+* **Campaigns** - This is the list of your campaigns. By default, you can view their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
 
-* **Consegne** - Scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire il relativo dashboard per ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. I modelli di consegna sono disponibili anche in modalità di sola lettura. Puoi utilizzare la console Client per modificarli. Vedi questo [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   Utilizza la **Altre azioni** per eliminare o duplicare una consegna.
+    Use the **More actions** button to delete or duplicate a delivery.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+    ![](assets/more-actions.png){width="70%" align="left"}
 
-### Gestione clienti
+### Customer Management
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Destinatari"
->abstract="Accedi al database dei destinatari. Puoi visualizzare informazioni utili quali indirizzo e-mail, nome e cognome. Questo elenco è di sola lettura."
+>title="Recipients"
+>abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="Tipi di pubblico"
->abstract="Questo è il tuo elenco di tipi di pubblico. Puoi visualizzarne il tipo, l’origine, le date di creazione/ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Questo elenco è di sola lettura."
+>title="Audiences"
+>abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="Elenchi di iscrizioni"
->abstract="Sfoglia gli elenchi degli abbonamenti. Puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura."
+>title="Subscriptions lists"
+>abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="Flussi di lavoro di targeting"
->abstract="Accedi all’elenco dei flussi di lavoro di Campaign. Puoi visualizzarne lo stato, le date e l’ambiente dell’ultima/successiva elaborazione. Puoi filtrare l’elenco per stato, data dell’ultima elaborazione e tipo di flusso di lavoro. Sono disponibili anche i modelli di flusso di lavoro . Questi elenchi sono di sola lettura."
+>title="Targeting workflows"
+>abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
 
-* **Destinatari** - Accedere al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Questo elenco è di sola lettura.
-* **Tipi di pubblico** - Questo è il tuo elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione/ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Questo elenco è di sola lettura.
-* **Elenco sottoscrizioni** - Sfoglia gli elenchi degli abbonamenti. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura.
-* **Workflow di targeting** - Accedi all’elenco dei flussi di lavoro di Campaign. Per impostazione predefinita, è possibile visualizzarne lo stato, le date dell’ultima/successiva elaborazione e l’ambiente. Puoi filtrare l’elenco per stato, data dell’ultima elaborazione e tipo di flusso di lavoro. Sono disponibili anche i modelli di flusso di lavoro . Questi elenchi sono di sola lettura.
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
+* **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
+* **Targeting workflows** - Access your list of Campaign workflows. By default, you can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
 
-### Gestione delle decisioni
+### Decision Management
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="Offerte"
->abstract="Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio/fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio/fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura."
+>title="Offers"
+>abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
 
-* **Offerte** - Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio/fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio/fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
+* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
 
-## Barra superiore
+## Top bar
 
-La barra superiore dell’interfaccia consente di:
+The top bar of the interface allows you to:
 
-* condividere il tuo feedback come tester Alpha
-* passare da un’organizzazione all’altra e alle istanze
-* passare da un&#39;applicazione Adobe Experience Cloud all&#39;altra
-* accedere alle pagine della guida, contattare il supporto e condividere i commenti. Puoi cercare articoli e video della guida dal campo di ricerca.
+* share your feedback as an Alpha tester
+* switch between organizations and instances
+* switch between your Adobe Experience Cloud applications
+* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configurare le schermate elenco {#list-screens}
+## Configure list screens {#list-screens}
 
-Diversi collegamenti dal menu di navigazione a sinistra, ad esempio **Consegne** o **Campagne**, mostra gli elenchi degli oggetti. Queste schermate elenco sono di sola lettura, ad eccezione dell’elenco di consegna e-mail.
+Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
 
-Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtrare l’elenco in base a criteri contestuali.
+To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
 
 ![](assets/filter.png){width="70%" align="left"}
 
-Gli elenchi vengono visualizzati in colonne. Puoi visualizzare ulteriori informazioni modificando la configurazione delle colonne. A questo scopo, fai clic sull’icona nell’angolo in alto a destra dell’elenco. È possibile aggiungere o rimuovere colonne e modificare l’ordine in cui vengono visualizzate.
+The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-Per ordinare gli elementi dell’elenco, fai clic su qualsiasi intestazione di colonna. Viene visualizzata una freccia (Su o Giù) che indica che l’elenco è ordinato in quella colonna. Per le colonne numeriche o di data, la freccia Su indica che l’elenco è ordinato in ordine crescente, mentre la freccia Giù indica un ordine decrescente. Per le colonne stringa o alfanumeriche, i valori sono elencati in ordine alfabetico.
+You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
 
-## Aiuto contestuale e guida all’onboarding
+## Contextual help and on-boarding guide
 
-Nell’interfaccia è disponibile una guida contestuale. Quando disponibile, fai clic sul pulsante **?** per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-È inoltre disponibile una guida all’onboarding per aiutarti a iniziare con Campaign v8 Web. Fai clic sull’icona nell’angolo in basso a destra, scegli uno degli scenari dettagliati disponibili e segui semplicemente le istruzioni.
+An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
-## Browser supportati {#browsers}
+## Supported browsers {#browsers}
 
-Campaign v8 Web è progettato per funzionare in modo ottimale nell’ultima versione di Google Chrome, Safari e Microsoft Edge. È possibile che si verifichino problemi durante l’utilizzo di alcune funzioni nelle versioni precedenti o in altri browser.
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
-## Preferenze della lingua {#language-pref}
+## Language preferences {#language-pref}
 
-Campaign v8 Web è attualmente disponibile nelle seguenti lingue:
+Campaign v8 Web is currently available in the following languages:
 
 <table>
 <tr>
 <td>
-<p>Inglese (USA) - IT-IT</p>
-<p>Francese - FR</p>
-<p>Tedesco - DE</p>
-<p>Italiano - IT</p>
+<p>English (US) - EN-US</p>
+<p>French - FR</p>
+<p>German - DE</p>
+<p>Italian - IT</p>
 </td>
 <td>
-<p>Spagnolo - ES</p>
-<p>Portoghese (brasiliano) - PTBR</p>
-<p>Giapponese - JP</p>
+<p>Spanish - ES</p>
+<p>Portuguese (Brazilian) - PTBR</p>
+<p>Japanese - JP</p>
 </td>
 <td>
-<p>Coreano - KR</p>
-<p>Cinese semplificato - CHS</p>
-<p>Cinese tradizionale - CHT</p>
+<p>Korean - KR</p>
+<p>Simplified Chinese - CHS</p>
+<p>Traditional Chinese - CHT</p>
 </td>
 </tr>
 </table>
 
-La lingua predefinita dell’interfaccia è determinata dalla lingua preferita specificata nel profilo utente.
+Your default interface language is determined by the preferred language specified in your user profile.
 
-Per modificare la lingua:
+To change your language:
 
-1. Fai clic sull’icona del tuo profilo, in alto a destra, quindi seleziona **Preferenze**.
+1. Click on your profile icon, on the top right, then select **Preferences**.
 
-   ![](assets/preferences.png){width="70%" align="left"}
+    ![](assets/preferences.png){width="70%" align="left"}
 
-1. Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail.
+1. Then click the language displayed under your email address.
 
-   ![](assets/preferences2.png)
+    ![](assets/preferences2.png)
 
-1. Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
+1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
-   ![](assets/select-language.png)
+    ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}

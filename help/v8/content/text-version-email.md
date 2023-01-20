@@ -1,42 +1,35 @@
 ---
 audience: end-user
-title: Creare la versione testuale di un messaggio e-mail
-description: Scopri come creare la versione testuale di un’e-mail
+title: Create the text version of an email
+description: Learn how to create the text version of an email
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 0%
-
 ---
-
-# Creare la versione testuale di un messaggio e-mail {#text-version-email}
+# Create the text version of an email {#text-version-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando non è possibile visualizzare il contenuto di HTML.
+It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
 
-Per impostazione predefinita, E-mail Designer crea un **[!UICONTROL Testo normale]** versione del messaggio e-mail, compresi i campi di personalizzazione. Questa versione viene generata automaticamente e sincronizzata con la versione HTML del contenuto.
+By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
 
-Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
+If you prefer using a different content for the plain text version, follow the steps below:
 
-1. Dal messaggio e-mail, seleziona la **[!UICONTROL Testo normale]** scheda .
+1. From your email, select the **[!UICONTROL Plain text]** tab.
 
-   ![](assets/text_version_3.png)
+    ![](assets/text_version_3.png)
 
-1. Utilizza la **[!UICONTROL Sincronizzazione con HTML]** per disabilitare la sincronizzazione.
+1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
 
-   ![](assets/text_version_1.png)
+    ![](assets/text_version_1.png)
 
-1. Fai clic sul segno di spunta per confermare la scelta.
+1. Click the check mark to confirm your choice.
 
-   ![](assets/text_version_2.png)
+    ![](assets/text_version_2.png)
 
-1. Puoi quindi modificare la versione di testo normale come desiderato.
+1. You can then edit the plain text version as desired.
 
 >[!CAUTION]
 >
->* Modifiche apportate **[!UICONTROL Testo normale]** la visualizzazione non viene riflessa nella visualizzazione HTML.
+>* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
 >
->* Se riattivi il **[!UICONTROL Sincronizzazione con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche vengono perse e sostituite con il contenuto di testo generato dalla versione di HTML.
-
+>*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes are lost, and replaced with text content generated from the HTML version.

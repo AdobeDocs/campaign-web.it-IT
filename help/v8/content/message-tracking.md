@@ -1,107 +1,101 @@
 ---
 audience: end-user
-title: Tracciare i messaggi
-description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
+title: Track your messages
+description: Learn how to add links and track sent messages
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 1%
-
 ---
-
-# Aggiungere collegamenti e tenere traccia dei messaggi {#tracking}
+# Add links and track messages {#tracking}
 
 ![](../assets/do-not-localize/badge.png)
 
-Utilizza E-mail designer per aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
+Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 
-## Inserisci collegamenti {#insert-links}
+## Insert links {#insert-links}
 
-Durante la progettazione di un messaggio, puoi aggiungere collegamenti al contenuto.
-
->[!NOTE]
->
->Quando il tracciamento è abilitato, vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
-
-Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguente:
-
-1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
-
-   ![](assets/message-tracking-insert-link.png)
-
-1. Aggiungi un **[!UICONTROL Etichetta]** e **[!UICONTROL Collegamento]**.
-
-1. Salva le modifiche.
-
-1. Una volta creato il collegamento, puoi comunque modificarlo dal **[!UICONTROL Impostazioni dei componenti]** a destra.
-
-   * Puoi modificare il collegamento e modificarne le relative **[!UICONTROL Target]**.
-   * Puoi scegliere di sottolineare il collegamento o meno selezionando l’opzione corrispondente.
-
-   ![](assets/message-tracking-link-settings.png)
+When designing a message, you can add links to your content.
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) viene definita a livello della superficie del canale (ad es. predefinito per messaggi) e durante la creazione del messaggio.
+>When tracking is enabled, all links included in the message content are tracked.
 
-## Collegamento a una pagina speculare {#mirror-page}
+To insert links into your email content, follow the steps below:
 
-La pagina speculare è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
+1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
-Per aggiungere un collegamento a una pagina speculare nel messaggio e-mail:
+    ![](assets/message-tracking-insert-link.png)
 
-1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
+1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
 
-   ![](assets/message-tracking-mirror-page.png)
+1. Save your changes.
 
-1. Seleziona la **[!UICONTROL Inserisci collegamento]** per accedere al menu di personalizzazione.
+1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
 
-   ![](assets/message-tracking-mirror-page_2.png)
+    * You can edit the link and change its **[!UICONTROL Target]**.
+    * You can choose to underline the link or not by checking the corresponding option.
 
-1. Da **[!UICONTROL Blocco del contenuto]** menu, seleziona **[!UICONTROL URL pagina speculare]** e fai clic su **[!UICONTROL Aggiungi]**.
+    ![](assets/message-tracking-link-settings.png)
 
-   ![](assets/message-tracking-mirror-page_3.png)
+>[!NOTE]
+>
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
 
-La pagina speculare viene creata automaticamente.
+## Link to a mirror page {#mirror-page}
+
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+
+To add a link to a mirror page in your email:
+
+1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+
+    ![](assets/message-tracking-mirror-page.png)
+
+1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+
+    ![](assets/message-tracking-mirror-page_2.png)
+
+1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+
+    ![](assets/message-tracking-mirror-page_3.png)
+
+The mirror page is automatically created.
 
 >[!IMPORTANT]
 >
->I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori di grandi dimensioni può generare URL per pagine mirror lunghe, il che può impedire il funzionamento del collegamento nei browser web con una lunghezza massima di URL.
+>Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
 
-Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina speculare, il contenuto dell’e-mail viene visualizzato nel browser Web predefinito.
+Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
 
 >[!NOTE]
 >
->Nell’e-mail di test inviata ai profili di test, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
+>In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
-Il periodo di conservazione per una pagina speculare è di 60 giorni. Dopo tale ritardo, la pagina speculare non è più disponibile.
+The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
 
-## Gestire il tracciamento {#manage-tracking}
+## Manage tracking {#manage-tracking}
 
-La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracciati, ad esempio modificando il tipo di tracciamento per ogni collegamento.
+The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
 
-1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** per visualizzare l’elenco di tutti gli URL del contenuto da tracciare.
+1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
 
-   Questo elenco consente di avere una visualizzazione centralizzata e di individuare ogni URL nel contenuto dell’e-mail.
+    This list enables you to have a centralized view and to locate each URL in the email content.
 
-1. Per modificare un collegamento, fai clic sull’icona a forma di matita corrispondente.
+1. To edit a link, click the corresponding pencil icon.
 
-   ![](assets/message-tracking-edit-links.png)
+    ![](assets/message-tracking-edit-links.png)
 
-1. Puoi modificare la **[!UICONTROL Tipo di tracciamento]** se necessario:
+1. You can modify the **[!UICONTROL Tracking Type]** if needed:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   Per ogni URL tracciato, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
+    For each tracked URL, you can set the tracking mode to one of these values:
 
-   * **[!UICONTROL Tracciato]**: Attiva il tracciamento su questo URL.
-   * **[!UICONTROL Rinuncia]**: Considera questo URL come un URL di rinuncia o di annullamento dell’abbonamento.
-   * **[!UICONTROL Pagina speculare]**: Considera questo URL come un URL della pagina speculare.
-   * **[!UICONTROL Mai]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+    * **[!UICONTROL Tracked]**: Activates tracking on this URL.
+    * **[!UICONTROL Opt out]**: Considers this URL as an opt-out or unsubscription URL.
+    * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
+    * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Aggiungi un **[!UICONTROL Categoria]** al collegamento per raggruppare i collegamenti tracciati e fai clic su **[!UICONTROL Salva]**.
+1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+    ![](assets/message-tracking-edit-a-link_2.png)
 
-1. Dopo aver inviato la consegna, accedi al rapporto di consegna. Sotto la **[!UICONTROL Tracking]** il menu **[!UICONTROL URL e flussi di clic]** nel rapporto vengono visualizzati gli URL della consegna più visitati. [Ulteriori informazioni](../reporting/reports.md)
+1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)

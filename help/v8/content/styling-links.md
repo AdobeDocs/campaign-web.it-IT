@@ -1,39 +1,33 @@
 ---
 audience: end-user
-title: Definire uno stile per i collegamenti
-description: Scopri come definire uno stile per i collegamenti
+title: Define a style for links
+description: Learn how to define a style for links
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
-
 ---
-
-# Definire uno stile per i collegamenti {#styling-links}
+# Define a style for links {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in E-mail Designer.
+You can underline a link and select its color and target in the Email Designer.
 
-1. In una **[!UICONTROL Testo]** nel punto in cui è inserito un collegamento, seleziona il collegamento.
+1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
 
-1. In **[!UICONTROL Impostazioni dei componenti]** menu, controllo **[!UICONTROL Collegamento sottolineato]** di sottolineare l&#39;etichetta.
+1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
 
    ![](assets/link_1.png)
 
-1. Scegli in che modo il pubblico viene reindirizzato con il **[!UICONTROL Target]** a discesa:
+1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
 
-   * **[!UICONTROL Nessuno]**: apre il collegamento nello stesso frame in cui è stato fatto clic (impostazione predefinita).
-   * **[!UICONTROL Vuoto]**: apre il collegamento in una nuova finestra o scheda.
-   * **[!UICONTROL Self]**: apre il collegamento nello stesso frame in cui è stato fatto clic.
-   * **[!UICONTROL Elemento padre]**: apre il collegamento nel frame principale.
-   * **[!UICONTROL Top]**: apre il collegamento nel corpo completo della finestra.
+    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
+    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
+    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
+    * **[!UICONTROL Parent]**: opens the link in the parent frame.
+    * **[!UICONTROL Top]**: opens the link in the full body of the window.
 
    ![](assets/link_2.png)
 
-1. Per modificare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal riquadro di destra.
+1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
 
    ![](assets/link_3.png)
 
-1. Salva le modifiche.
+1. Save your changes.

@@ -1,35 +1,29 @@
 ---
 audience: end-user
-title: Creare un codice per il proprio contenuto e-mail
-description: Scopri come codificare il tuo contenuto e-mail
+title: Code your own email content
+description: Learn how to code your own email content
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 0%
-
 ---
-
-# Creare un codice per il proprio contenuto {#code-content}
+# Code your own content {#code-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-Utilizza la **[!UICONTROL Codice personalizzato]** modalità per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 
-1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Codice personalizzato]**.
+1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
 
-   ![](assets/code-your-own.png)
+    ![](assets/code-your-own.png)
 
-1. Immetti o incolla il codice HTML non elaborato.
+1. Enter or paste your raw HTML code. 
 
-1. Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione.
+1. Use the left pane to leverage personalization capabilities.
 
-1. Se desideri aprire E-mail Designer per avviare l’e-mail da una nuova progettazione, seleziona **[!UICONTROL Modificare la progettazione]** dal menu delle opzioni.
+1. If you want to open the Email Designer to start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
+    
+    ![](assets/code-editor-change-design.png)
 
-   ![](assets/code-editor-change-design.png)
+1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles.
 
-1. Fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per controllare la progettazione e la personalizzazione dei messaggi utilizzando i profili di test.
+1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
 
-1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva]** quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
-
-   ![](assets/code-editor-save.png)
+    ![](assets/code-editor-save.png)

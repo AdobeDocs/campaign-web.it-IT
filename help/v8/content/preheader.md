@@ -1,52 +1,46 @@
 ---
 audience: end-user
-title: Aggiungi una preintestazione in E-mail Designer
-description: Scopri come progettare il contenuto delle e-mail
+title: Add a preheader in the Email Designer
+description: Learn how to design your emails content
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
-
 ---
-
-# Aggiungi una preintestazione {#preheader}
+# Add a preheader {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Aggiunta di una preintestazione"
->abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail ed è in genere lungo una frase."
+>title="Adding a preheader"
+>abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
 
-Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail.
+A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
 
-In molti casi, fornisce un breve riepilogo dell’e-mail ed è in genere lungo una frase.
+In many cases, it provides a short summary of the email, and is typically one sentence long. 
 
 >[!NOTE]
 >
->Le intestazioni preliminari non sono supportate da tutti i client e-mail. Se non supportato, la preintestazione non viene visualizzata.
+>Preheaders are not supported by all email clients. When not supported, the preheader does not display.
 
-Per definire la preintestazione dell’e-mail, segui la procedura seguente:
+To define the email preheader, follow the steps below:
 
-1. Da E-mail Designer, aggiungi almeno un **[!UICONTROL Componenti struttura]** per iniziare a progettare l’e-mail.
+1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
 
-1. Fai clic sul pulsante **[!UICONTROL Struttura di navigazione]** nel riquadro a sinistra e seleziona **[!UICONTROL Corpo]**.
+1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
 
-   ![](assets/preheader_body.png)
+    ![](assets/preheader_body.png)
 
-1. Da **[!UICONTROL Impostazioni corpo]** nel riquadro a destra, fai clic sull’icona di modifica accanto a **[!UICONTROL Preintestazione]** campo per aggiungere contenuto.
+1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
 
-   ![](assets/preheader_body_settings.png)
+    ![](assets/preheader_body_settings.png)
 
-1. Aggiungi la tua preintestazione. Puoi personalizzare ulteriormente facendo clic sul pulsante **[!UICONTROL Aggiungi personalizzazione]** icona.
+1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
 
-   ![](assets/preheader_3.png)
+    ![](assets/preheader_3.png)
 
-1. Da **[!UICONTROL Modifica personalizzazione]** è possibile aggiungere **[!UICONTROL Blocco del contenuto]**, **[!UICONTROL Contenuto dinamico]** o **[!UICONTROL Campi di personalizzazione]**.
+1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
 
-1. Fai clic su **[!UICONTROL Convalida]** per controllare la sintassi di personalizzazione.
+1. Click **[!UICONTROL Validate]** to check your personalization syntax.
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Click **[!UICONTROL Save]**.
 
-La preintestazione è ora configurata per l’e-mail.
+Your preheader is now configured for your email.

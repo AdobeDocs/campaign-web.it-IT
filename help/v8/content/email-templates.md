@@ -1,61 +1,55 @@
 ---
 audience: end-user
 product: campaign
-title: Utilizzare i modelli e-mail
+title: Work with email templates
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
-
 ---
-
-# Utilizzare i modelli di contenuto e-mail {#email-content-templates}
+# Work with email content templates {#email-content-templates}
 
 ![](../assets/do-not-localize/badge.png)
 
-Utilizza la **[!UICONTROL Seleziona modello di progettazione]** per iniziare a creare il contenuto da un modello.
+Use the **[!UICONTROL Select design template]** section to start building your content from a template.
 
 ![](assets/email_designer-templates.png)
 
-## Salva come modello {#save-as-template}
+## Save as template {#save-as-template}
 
-Una volta progettato il contenuto e-mail, puoi salvarlo per un riutilizzo futuro. A tale scopo, segui la procedura indicata di seguito.
+Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
 
-1. Fai clic sui puntini di sospensione in alto a destra dello schermo.
+1. Click the ellipsis on top right of the screen.
 
-1. Seleziona **[!UICONTROL Salva modello di progettazione]** dal menu a discesa.
+1. Select **[!UICONTROL Save design template]** from the drop-down menu.
 
-   ![](assets/email_designer-save-template.png)
+    ![](assets/email_designer-save-template.png)
 
-1. Aggiungi un nome per questo modello.
+1. Add a name for this template.
 
-   ![](assets/email_designer-template-name.png)
+    ![](assets/email_designer-template-name.png)
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Click **[!UICONTROL Save]**.
 
-La prossima volta che crei un’e-mail, puoi utilizzare questo modello per creare il contenuto. [Scopri come](#use-saved-template)
+Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## Utilizzare un modello salvato {#use-saved-template}
+## Use a saved template {#use-saved-template}
 
-1. Apri [progettista di posta elettronica](create-email-content.md).
+1. Open the [email designer](create-email-content.md).
 
-1. Sulla **[!UICONTROL Crea la schermata e-mail]**, **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita. Seleziona la **[!UICONTROL Modelli salvati]** scheda .
+1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Elenco di tutti [modelli salvati](#save-as-template) viene visualizzato. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
+1.  The list of all previously [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
 
-   ![](assets/email_designer-saved-templates.png)
+    ![](assets/email_designer-saved-templates.png)
 
-1. Seleziona il modello desiderato dall’elenco.
+1. Select the template of your choice from the list.
 
-1. Una volta selezionato, è possibile spostarsi tra tutti i modelli salvati utilizzando le frecce destra e sinistra.
+1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Fai clic su **[!UICONTROL Utilizza questa e-mail]** in alto a destra sullo schermo.
+1. Click **[!UICONTROL Use this email]** on top right of the screen.
 
-1. Modifica il contenuto nel modo desiderato utilizzando la finestra di progettazione e-mail.
+1. Edit your content as desired using the email designer.

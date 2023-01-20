@@ -1,32 +1,25 @@
 ---
 audience: end-user
-title: Informazioni sull’anteprima e il test delle e-mail
-description: Scopri come visualizzare in anteprima e verificare le e-mail
+title: About email preview and test
+description: Learn how to preview and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
-workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 0%
-
 ---
-
-# Informazioni sull’anteprima e il test delle e-mail {#about-preview-proofs}
+# About email preview and test {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Prima di inviare un’e-mail, è importante esaminarne e testarne il contenuto per garantirne l’accuratezza e la disponibilità di errori nelle impostazioni di contenuto o personalizzazione.
+Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
 
-A questo scopo, Adobe Campaign consente di:
+To do this, Adobe Campaign allows you to:
 
-* [Anteprima del contenuto e-mail e della personalizzazione](#preview),
-
+* [Preview the email content and personalization](#preview),
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Invia e-mail di test](#send-proofs) a destinatari specifici per la verifica e la convalida.
+* [Send test emails](#send-proofs) to specific recipients for testing and validation.
 
-Queste azioni possono essere eseguite dalla **[!UICONTROL Simulazione del contenuto]** accessibile quando si crea il contenuto dell’e-mail di da E-mail Designer:
+These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->La simulazione del contenuto è disponibile anche nel riepilogo della consegna dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]** pulsante .
+>Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.

@@ -1,94 +1,88 @@
 ---
 audience: end-user
-title: Imposta un gruppo di controllo
-description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente Web di Campaign
+title: Set a control group
+description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 26%
-
 ---
+# Set a control group {#control-group}
 
-# Imposta un gruppo di controllo {#control-group}
+You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-Puoi utilizzare i gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne.
+To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
-A questo scopo, crea un gruppo di controllo quando definisci il pubblico della consegna. I profili vengono aggiunti al gruppo di controllo in modo casuale, filtrati o meno oppure in base a alcuni criteri. Puoi quindi confrontare il comportamento della popolazione target che ha ricevuto il messaggio con il comportamento dei contatti non interessati.
+The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
-Il gruppo di controllo può essere estratto in modo casuale dal target principale e/o selezionato da una popolazione specifica. Ci sono quindi due vie principali per definire un gruppo di controllo:
+* Extract a number of profiles from the main target.
+* Exclude some profiles based on criteria defined in a query.
 
-* Estrarre un certo numero di profili dal target principale.
-* Escludere alcuni profili in base ai criteri definiti in una query.
+You can use both methods when defining a control group.
 
-È possibile ricorrere a entrambi i metodi.
+All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
 
-Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazione della consegna vengono rimossi dal target principale. Non ricevono il messaggio.
-
-Per creare un gruppo di controllo, fai clic sul pulsante **[!UICONTROL Imposta gruppo di controllo]** dal **Pubblico** della sezione dell’assistente per la creazione della consegna.
+To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
 
 ![](assets/control-group1.png)
 
-## Estrai da target {#extract-target}
+## Extract from target {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Estrai da target"
+>title="Extract from target"
 >abstract="TBC"
 
-Per definire un gruppo di controllo, puoi scegliere di estrarre dalla popolazione target una percentuale o un numero fisso di profili, in modo casuale o in base a un ordinamento.
+To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
-Innanzitutto, definisci il modo in cui i profili vengono estratti dal target: in modo casuale o in base a un ordinamento.
+First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
 
-Sotto la **Estrai dal target** sezione, scegli un **Tipo di esclusione**:
+Under the **Extract from target** section, choose an **Exclusion type**:
 
-* **Casuale**: durante la preparazione della consegna, Adobe Campaign estrae in modo casuale un numero di profili corrispondente alla percentuale o al numero massimo impostato come limite di dimensioni.
+* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
 
-   ![](assets/control-group.png)
+    ![](assets/control-group.png)
 
-* **Classificato per attributo/i**: questa opzione consente di escludere un set di profili basati su attributi specifici in uno o più ordini di ordinamento specifici.
+* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
-   ![](assets/control-group2.png)
+    ![](assets/control-group2.png)
 
-Quindi definisci il **Limite dimensione**: devi impostare il modo in cui limitare il numero di profili estratti dal target principale.
+Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
-**Esempio**
+**Example**
 
-Puoi visualizzare i registri per controllare e identificare i profili esclusi. Prendiamo l’esempio di un’esclusione casuale su cinque profili.
+You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
 ![](assets/control-group4.png)
 
-Dopo la preparazione della consegna, puoi visualizzare le esclusioni nelle seguenti schermate:
+After the delivery preparation, you can view the exclusions on the following screens:
 
-* La **Per escludere** KPI nel dashboard di consegna, prima dell’invio.
+* The **To exclude** KPI in the delivery dashboard, before the sending.
 
-   ![](assets/control-group5.png)
+    ![](assets/control-group5.png)
 
-* La **Log di esclusione** visualizzare ciascun profilo e la relativa esclusione **Motivo**.
+* The **Exclusion logs** display each profile and the related exclusion **Reason**.
 
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
 
-* La **Cause di esclusione** visualizza il numero di profili esclusi per ogni regola di tipologia.
+* The **Exclusion causes** display the number of excluded profile for each typology rule.
 
-   ![](assets/control-group7.png)
+    ![](assets/control-group7.png)
 
-Per ulteriori informazioni sui registri di consegna, consulta questo [sezione](../monitor/delivery-logs.md).
+For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
-## Popolazione aggiuntiva {#extra-population}
+## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="Popolazione aggiuntiva"
+>title="Extra population"
 >abstract="TBC"
 
-Un altro modo per definire un gruppo di controllo consiste nell’escludere una popolazione specifica dal target utilizzando un pubblico esistente o definendo una query.
+Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-Da **Popolazione extra** della sezione **Gruppo di controllo** schermata di definizione, fai clic sul **[!UICONTROL Selezionare il pubblico]** pulsante .
+From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 
-* Per utilizzare un pubblico esistente, fai clic su **Selezionare il pubblico**. Fai riferimento a questo [sezione](add-audience.md).
+* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
 
-* Per definire una nuova query, seleziona **Crea il tuo** e definisci i criteri di esclusione utilizzando il generatore di regole. Fai riferimento a questo [sezione](segment-builder.md).
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
-I profili inclusi nel pubblico o che corrispondono al risultato della query sono esclusi dal target.
+The profiles included in the audience or matching the result of the query are excluded from the target.

@@ -1,36 +1,30 @@
 ---
 audience: end-user
-title: Importare il contenuto dell’e-mail
-description: Scopri come importare il contenuto delle e-mail
+title: Import your email content
+description: Learn how to import email content
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 0%
-
 ---
-
-# Importare il contenuto dell’e-mail {#existing-content}
+# Import your email content {#existing-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-La finestra di progettazione e-mail consente di importare il contenuto esistente di HTML. Questo contenuto può essere:
+The Email designer allows you to import existing HTML content. This content can be:
 
-* Un **file HTML** con un foglio di stile incorporato,
-* A **Cartella .zip** con il file HTML, il foglio di stile (.css) e le immagini.
+* An **HTML file** with an incorporated style sheet,
+* A **.zip folder** with the HTML file, the style sheet (.css) and images.
 
-   >[!NOTE]
-   >
-   >Non ci sono vincoli alla struttura del file .zip. Tuttavia, i riferimenti devono essere relativi e adattati alla struttura ad albero della cartella .zip.
+    >[!NOTE]
+    >
+    >There are no constraints on the .zip file structure. However, references must to be relative and fit with the tree structure of the .zip folder.
 
-Per importare un file contenente contenuto HTML, effettua le seguenti operazioni:
+To import a file containing HTML content, follow the steps below:
 
-1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Importa HTML]**.
+1. In the Email Designer home page, select **[!UICONTROL Import HTML]**.
 
-   ![](assets/import-html_2.png)
+    ![](assets/import-html_2.png)
 
-1. Trascina e rilascia il file HTML o .zip contenente il contenuto di HTML e fai clic su **[!UICONTROL Importa]**.
+1. Drag and drop the HTML or .zip file containing your HTML content and click **[!UICONTROL Import]**.
 
-1. Una volta caricato il contenuto di HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni in questa sezione](create-email-content.md).
+1. Once the HTML content is uploaded, you can leverage the Email Designer capabilities to edit and preview your email. [Learn more in this section](create-email-content.md).
 
-   ![](assets/html-imported.png)
+    ![](assets/html-imported.png)
