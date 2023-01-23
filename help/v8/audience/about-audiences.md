@@ -1,17 +1,23 @@
 ---
 audience: end-user
-title: Get started with audiences
-description: Learn how to use audiences in Campaign Web UI
+title: Introduzione ai tipi di pubblico
+description: Scopri come utilizzare i tipi di pubblico nell’interfaccia utente di Campaign Web
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 9%
+
 ---
-# Get started with audiences {#about-audiences}
+
+# Introduzione ai tipi di pubblico {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Get started with audiences"
->abstract="Learn how to manage audience for your email content."
+>title="Introduzione ai tipi di pubblico"
+>abstract="Scopri come gestire il pubblico per il contenuto delle e-mail."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -34,13 +40,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
+In questa sezione, scopri come definire il pubblico delle e-mail. Il pubblico è il target principale della consegna: i destinatari che ricevono l’e-mail. Il tipo di pubblico dipende dalla mappatura di destinazione definita nel modello di consegna. Vedi questo [sezione](../email/create-email.md).
 
-To define the audience, you can:
+Per definire il pubblico, puoi:
 
-* use an existing audience, see this [section](add-audience.md).
-* create a new audience. See this [section](segment-builder.md).
+* utilizza un pubblico esistente, consulta [sezione](add-audience.md).
+* creare un nuovo pubblico. Vedi questo [sezione](segment-builder.md).
 
-You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
+Puoi anche definire gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, al fine di misurare l’impatto delle campagne. Vedi questo [sezione](control-group.md).
 
 ![](assets/about-audience.png)

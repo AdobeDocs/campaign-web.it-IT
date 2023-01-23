@@ -1,25 +1,32 @@
 ---
 audience: end-user
-title: About email preview and test
-description: Learn how to preview and test emails
+title: Informazioni sull’anteprima e il test delle e-mail
+description: Scopri come visualizzare in anteprima e verificare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
+
 ---
-# About email preview and test {#about-preview-proofs}
+
+# Informazioni sull’anteprima e il test delle e-mail {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
+Prima di inviare un’e-mail, è importante esaminarne e testarne il contenuto per garantirne l’accuratezza e la disponibilità di errori nelle impostazioni di contenuto o personalizzazione.
 
-To do this, Adobe Campaign allows you to:
+A questo scopo, Adobe Campaign consente di:
 
-* [Preview the email content and personalization](#preview),
+* [Anteprima del contenuto e-mail e della personalizzazione](#preview),
+
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Send test emails](#send-proofs) to specific recipients for testing and validation.
+* [Invia e-mail di test](#send-proofs) a destinatari specifici per la verifica e la convalida.
 
-These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
+Queste azioni possono essere eseguite dalla **[!UICONTROL Simulazione del contenuto]** accessibile quando si crea il contenuto dell’e-mail di da E-mail Designer:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.
+>La simulazione del contenuto è disponibile anche nel riepilogo della consegna dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]** pulsante .

@@ -1,41 +1,47 @@
 ---
 audience: end-user
-title: Campaign Web v8 Release Notes
-description: Campaign Web v8 Release Notes
+title: Note sulla versione di Campaign Web v8
+description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
+source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+workflow-type: ht
+source-wordcount: '322'
+ht-degree: 100%
+
 ---
-# Release Notes {#release-notes}
+
+# Note sulla versione {#release-notes}
 
 ![](../assets/do-not-localize/badge.png)
 
-This page lists all the latest features and improvements for Campaign Web v8. 
+In questa pagina sono elencate tutte le funzioni e i miglioramenti più recenti per Campaign Web v8.
 
-## Alpha release{#alpha-release}
+## Versione alfa{#alpha-release}
 
-This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
+Questa nuova interfaccia web di Campaign è attualmente disponibile solo per i **professionisti alfa** con le seguenti funzionalità:
 
-**Modern, intuitive and unified experience**
+**Esperienza moderna, intuitiva e unificata**
 
-Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
+La nuova interfaccia Web di Campaign offre una nuova esperienza utente, allineata con tutte le soluzioni e le app Adobe Experience Cloud. Offre le seguenti funzionalità:
 
-* Access to the new interface and other Adobe solutions with a single and shared user session
-* New navigation experience, with all menus and folders available from the left rail
-* Solution and organization switchers from the top bar
-* Unified Shell integration, with a direct access to community, help center, and support
+* Accesso alla nuova interfaccia e ad altre soluzioni Adobe con una sessione utente singola e condivisa
+* Nuova esperienza di navigazione, con tutti i menu e le cartelle disponibili nella barra a sinistra
+* Possibilità di passare a un’altra soluzione o organizzazione, mediante l’apposito controllo nella barra superiore
+* Integrazione Unified Shell, con accesso diretto alla community, al centro assistenza e al supporto
 <!--
 No search and pulse notifications in Alpha
 -->
 
-Learn more about the new UI in [this page](../get-started/user-interface.md).
+Per ulteriori informazioni sulla nuova interfaccia, visita [questa pagina](../get-started/user-interface.md).
 
-**Create, launch and measure your email campaign**
+**Creare, avviare e misurare le campagne e-mail**
 
-Use the new Campaign Web UI to:
+Utilizza la nuova interfaccia di Campaign Web per:
 
-* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
-* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
-* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
-* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
+* Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
+* Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-audiences.md)
+* Visualizzare l‘anteprima, testare e inviare i messaggi e-mail - [Ulteriori informazioni](../monitor/prepare-send.md)
+* Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -45,14 +51,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
+>Tieni presente che le campagne cross-channel e le funzionalità di gestione del flusso di lavoro saranno disponibili con la versione beta.
 
-## Terminology updates
+## Aggiornamenti terminologici
 
-As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
+Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati rinominati per aderire a nuovi standard terminologici. Queste modifiche si applicano solo all’interfaccia utente di Campaign Web e non vengono riportate nella console client. Tali modifiche sono riepilogate di seguito.
 
-* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**
-* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database
-* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
-* Email Preview is now available throught the **Simulate content** button
-* Lists are now **Audiences**
+* Le “bozze” sono ora **e-mail di test**: per inviare una bozza, utilizza il pulsante **Test** nell’interfaccia per la consegna delle e-mail. Il target della destinazione delle bozze ora è indicato come **Profili di test**.
+* Gli indirizzi seed vengono ora utilizzati come **Profili di test**: invia l’e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
+* L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare l’analisi, fai clic sul pulsante **Prepara**.
+* L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto**.
+* Gli elenchi ora sono **Tipi di pubblico**.

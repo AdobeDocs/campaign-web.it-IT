@@ -1,54 +1,61 @@
-# Contribute article
+---
+source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
-We welcome contributions from our community as well as from Adobe employees from outside the documentation teams.
+---
+# Collaborare a un articolo
 
-## Adobe Open Source Code of Conduct
+Ci fa piacere ricevere la collaborazione della nostra community e dei dipendenti Adobe che non fanno parte dei team di documentazione.
 
-This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
+## Codice di condotta Adobe Open Source
+
+Questo progetto aderisce al [Codice di condotta di Adobe Open Source](code-of-conduct.md) o al [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, leggi l’articolo [Collaborazione](contributing.md).
 
 
-## About your contributions to Adobe content
+## Informazioni sulle collaborazioni relative al contenuto Adobe
 
-See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-How you contribute depends on who you are and the sort of changes you'd like to contribute:
+Il tipo di collaborazione dipende da chi effettua l’intervento e dal tipo di modifiche che si desidera apportare:
 
-### Minor changes
+### Modifiche minori
 
-If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for more information.
+Se desideri collaborare con piccoli aggiornamenti per altruismo, leggi l&#39;articolo e fai clic sul collegamento **Modifica** per aprire la sorgente in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
+Le correzioni minori o i chiarimenti alla documentazione e gli esempi di codice in questo archivio sono coperti dai termini di utilizzo Adobe.
 
-### Major changes or new articles from community members
+### Modifiche sostanziali o nuovi articoli dei membri della community
 
-If you're part of the Adobe community and you want to create a new article or submit major changes, please use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you'll need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
+Se fai parte della community Adobe e desideri creare un nuovo articolo o inviare modifiche sostanziali, utilizza la scheda Issues nell’archivio di Git che consente di sottoporre un problema e avviare una conversazione con il team di documentazione. Dopo aver concordato un piano, dovrai collaborare con un dipendente per inserire il nuovo contenuto attraverso una combinazione di lavoro negli archivi pubblici e privati.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Major changes from Adobe Employees
+### Modifiche sostanziali apportate dai dipendenti Adobe
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.adobe.com/AdobeDocs`.
+Gli autori tecnici, i responsabili di programma o gli sviluppatori del team di prodotti per una soluzione Adobe Experience Cloud con il compito di contribuire o creare articoli tecnici, devono utilizzare l&#39;archivio privato all&#39;indirizzo `https://git.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## Tools and setup
+## Strumenti e configurazione
 
-Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
+I collaboratori della community possono utilizzare l’interfaccia utente di GitHub per effettuare modifiche di base o creare un fork dell&#39;archivio per apportare contributi più sostanziosi.
 
-See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for details.
+Per informazioni dettagliate, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-## How to use markdown to format your topic
+## Come utilizzare markdown per formattare l&#39;argomento
 
-All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
+Tutti gli articoli in questo archivio utilizzano markdown di GitHub. Se non hai familiarità con markdown, consulta:
 
-* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Nozioni di base su markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Foglio di riferimento per markdown stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Labels
+## Etichette
 
-In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+Nell&#39;archivio pubblico, vengono assegnate etichette automatizzate alle richieste di pull per aiutarci a gestire il flusso di lavoro e per consentirti di conoscere lo stato della tua richiesta:
 
-* **Change sent to author**: The author has been notified of the pending pull request.
-* **ready-to-merge**: Ready for review by our pull request review team.
+* **Change sent to author**: l&#39;autore è stato informato della richiesta di pull in sospeso.
+* **ready-to-merge**: pronto per la revisione da parte del team di revisione della richiesta di pull.

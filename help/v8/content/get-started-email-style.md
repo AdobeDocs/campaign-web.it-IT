@@ -1,22 +1,28 @@
 ---
 audience: end-user
-title: Get started with email style
-description: Discover the different ways you can adjust your email content style
+title: Guida introduttiva allo stile e-mail
+description: Scopri i diversi modi per regolare lo stile del contenuto dell’e-mail
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 0%
+
 ---
-# Get started with email style {#get-started-email-style}
+
+# Guida introduttiva allo stile e-mail {#get-started-email-style}
 
 ![](../assets/do-not-localize/badge.png)
 
-Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
+Una volta iniziato a creare il contenuto delle e-mail in [!DNL Adobe Campaign], è possibile modificare una serie di parametri e attributi di stile dal riquadro delle impostazioni di E-mail Designer .
 
-You can either apply your changes to the email body, to a structure component or to a content component.
+Puoi applicare le modifiche al corpo dell’e-mail, a un componente struttura o a un componente contenuto.
 
 ![](assets/email_designer_content_components_settings.png)
 
-Follow the links below to discover how to adjust some of the style settings in your email.
+Segui i collegamenti riportati di seguito per scoprire come regolare alcune delle impostazioni di stile nella tua e-mail.
 
-* Learn how to [personalize your email background](backgrounds.md)
-* Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
-* Learn how to [define a style for the links in your email](styling-links.md)
-* Learn how to [customize inline styling attributes](inline-styling.md)
+* Scopri come [personalizza il tuo background e-mail](backgrounds.md)
+* Scopri come [gestire l&#39;allineamento verticale e la spaziatura](alignment-and-padding.md)
+* Scopri come [definire uno stile per i collegamenti nell’e-mail](styling-links.md)
+* Scopri come [personalizzare gli attributi di stile in linea](inline-styling.md)

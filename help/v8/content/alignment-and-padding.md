@@ -1,37 +1,43 @@
 ---
 audience: end-user
-title: Adjust vertical alignment and padding in Email Designer
-description: Learn how to adjust vertical alignment and padding
+title: Regolare l’allineamento verticale e la spaziatura in E-mail Designer
+description: Scopri come regolare l’allineamento verticale e la spaziatura
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 1%
+
 ---
-# Adjust vertical alignment and padding {#alignment-and-padding}
+
+# Regolare l’allineamento verticale e la spaziatura {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
+In questo esempio, regoliamo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 
-1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. Seleziona il componente struttura direttamente nel messaggio e-mail o utilizza il **[!UICONTROL Struttura di navigazione]** disponibile nel riquadro a sinistra.
 
    ![](assets/alignment_1.png)
 
-1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
+1. Dalla barra degli strumenti contestuale, fai clic su **[!UICONTROL Selezionare una colonna]** e scegli quello da modificare. È inoltre possibile selezionarlo dalla struttura ad albero a sinistra.
 
    ![](assets/alignment_2.png)
 
-1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
+1. I parametri modificabili per quella colonna vengono visualizzati nella **[!UICONTROL Impostazioni colonna]** a destra. Regolare la **[!UICONTROL Allineamento verticale]** utilizzando la sezione dedicata.
 
    ![](assets/alignment_3.png)
 
-   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
+   Ad esempio, seleziona **[!UICONTROL In basso]**. Il componente contenuto si sposta nella parte inferiore della colonna.
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
+1. Sotto **[!UICONTROL Spaziatura]**, definisci la spaziatura superiore all’interno della colonna e imposta la spaziatura sinistra e destra per tale colonna.
 
    >[!NOTE]
    >
-   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
+   >Fai clic sull’icona Blocca per interrompere la sincronizzazione tra la spaziatura superiore/inferiore o sinistra/destra.
 
    ![](assets/alignment_4.png)
 
-1. Proceed similarly to adjust the other columns' alignment and padding.
+1. Procedi in modo simile per regolare l’allineamento e la spaziatura delle altre colonne.
 
-1. Save your changes.
+1. Salva le modifiche.

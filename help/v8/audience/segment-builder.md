@@ -1,92 +1,98 @@
 ---
 audience: end-user
-title: Define an audience with the rule builder
-description: Learn how to work with the Segment Buidler
+title: Definire un pubblico con il generatore di regole
+description: Scopri come lavorare con Segment Builder
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 1%
+
 ---
-# Define an audience with the rule builder {#segment-builder}
+
+# Definire un pubblico con il generatore di regole {#segment-builder}
 
 ![](../assets/do-not-localize/badge.png)
 
-This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
+Questa sezione descrive come creare un pubblico durante la progettazione di un nuovo messaggio e-mail. Il pubblico creato può essere utilizzato solo in questo messaggio e-mail.
 
-The rule builder allows you to define the population targeted by your message by filtering data contained in the database. If you want to select an existing audience, refer to this [section](add-audience.md). 
+Il generatore di regole ti consente di definire la popolazione target del messaggio filtrando i dati contenuti nel database. Per selezionare un pubblico esistente, consulta [sezione](add-audience.md).
 
-For more information on the rule builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Per ulteriori informazioni sul generatore di regole, consulta la [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-To create a new audience when designing an email, follow these steps: 
+Per creare un nuovo pubblico durante la progettazione di un’e-mail, effettua le seguenti operazioni:
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+1. Da **Pubblico** nell’assistente per la creazione della consegna, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** pulsante .
 
-    ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png)
 
-1. Select **Create your own**. The rule builder is displayed.
+1. Seleziona **Crea il tuo**. Viene visualizzato il generatore di regole.
 
-    ![](assets/segment-builder.png)
+   ![](assets/segment-builder.png)
 
-## The palette
+## La palette
 
-The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
+La palette, situata a sinistra, contiene tutti gli elementi che è possibile filtrare per creare un pubblico. Per poter essere configurati e presi in considerazione, i riquadri contenuti nella palette devono essere spostati nell’area di lavoro centrale. La palette è divisa in due schede:
 
-* **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
+* **Attributi**: questa scheda ti consente di accedere a tutti i campi disponibili dallo schema. L’elenco dei campi dipende dallo schema di targeting definito nel modello e-mail.
 
-    ![](assets/segment-builder2.png){width="70%" align="left"}
+   ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform.
+* **Tipi di pubblico**: questa scheda ti consente di filtrare utilizzando uno dei tipi di pubblico esistenti definiti nella console Campaign Classic o da Adobe Experience Platform.
 
-    ![](assets/segment-builder3.png){width="70%" align="left"}
+   ![](assets/segment-builder3.png){width="70%" align="left"}
 
-    >[!NOTE]
-    >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Fai riferimento a [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
-You can use the search bar to find elements quickly.
+Puoi usare la barra di ricerca per trovare rapidamente gli elementi.
 
-## The canvas
+## Il quadro
 
-The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
+L’area di lavoro è la zona centrale in cui è possibile configurare e combinare le regole in base agli elementi aggiunti dalla palette. Per aggiungere una nuova regola, trascina un riquadro dalla palette e rilascialo nell’area di lavoro. Puoi quindi visualizzare opzioni specifiche per il contesto in base al tipo di dati aggiunto.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
-## The rule properties pane
+## Riquadro delle proprietà della regola
 
-On the right side, the **Rule properties** pane allows you to perform the following actions:
+Sul lato destro, il **Proprietà delle regole** Il riquadro ti consente di eseguire le azioni seguenti:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **View results:** displays the list of recipients targeted by the audience.
-* **Code view**: displays a code-based version of the audience in SQL.
-* **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
-* **Attributes**: displays a description of the created audience.
+* **Visualizza risultati:** visualizza l’elenco dei destinatari interessati dal pubblico.
+* **Vista Codice**: visualizza una versione del pubblico basata su codice in SQL.
+* **Visualizzare gli attributi avanzati**: seleziona questa opzione se desideri visualizzare l’elenco completo degli attributi nella palette a sinistra: nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N.
+* **Attributi**: visualizza una descrizione del pubblico creato.
 
-## Example
+## Esempio
 
-In this example, we build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
+In questo esempio, creiamo un pubblico per tutti i clienti che vivono ad Atlanta o a Seattle e sono nati dopo il 1980.
 
-1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
+1. In **Attributi** scheda della palette, cerca il **Data di nascita** campo . Trascina la tessera e rilasciala sull’area di lavoro.
 
-    ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png)
 
-1. In the canvas, choose the **After** operator and enter the desired date.
+1. Nell’area di lavoro, scegli la **Dopo** e immetti la data desiderata.
 
-    ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png)
 
-1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
+1. Nella palette, cerca il **Città** e aggiungilo all&#39;area di lavoro sotto la prima regola.
 
-    ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png)
 
-1. In the text field, enter the first city name, then press enter. 
+1. Nel campo di testo, immettere il nome della prima città, quindi premere invio.
 
-    ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png)
 
-1. Repeat this action for the second city name.
+1. Ripetere questa azione per il nome della seconda città.
 
-    ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png)
 
-1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
+1. Fai clic su **Visualizza risultati** per visualizzare l’elenco e il numero di destinatari corrispondenti alla query. Puoi anche aggiungere colonne per visualizzare e controllare i dati. Nel nostro esempio, aggiungi la **Città** dovrebbe vedere Atlanta e Seattle.
 
-    ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png)
 
-1. Click **Confirm**.
+1. Fai clic su **Conferma**.
 
-Your audience is defined and ready to be used in your email.
+Il pubblico è definito e pronto per essere utilizzato nell’e-mail.
