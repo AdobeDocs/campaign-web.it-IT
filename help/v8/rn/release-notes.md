@@ -3,10 +3,10 @@ audience: end-user
 title: Note sulla versione di Campaign Web v8
 description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
 
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Tieni presente che le campagne cross-channel e le funzionalità di gestione del flusso di lavoro saranno disponibili con la versione beta.
 
-## Aggiornamenti terminologici
+## Aggiornamenti terminologici{#terminology-updates}
 
 Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati rinominati per aderire a nuovi standard terminologici. Queste modifiche si applicano solo all’interfaccia utente di Campaign Web e non vengono riportate nella console client. Tali modifiche sono riepilogate di seguito.
 
@@ -62,3 +59,17 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 * L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare l’analisi, fai clic sul pulsante **Prepara**.
 * L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto**.
 * Gli elenchi ora sono **Tipi di pubblico**.
+
+## Limitazioni{#limitations-alpha}
+
+Alcune funzionalità chiave di Campaign, come le campagne cross-channel e la gestione del flusso di lavoro, saranno disponibili con la versione beta.
+
+Le limitazioni seguenti si applicano a questa versione Alpha:
+
+* Gli unici oggetti modificabili sono Consegne. Gli altri sono di sola lettura. Utilizza i filtri per sfogliare tutte le pagine.
+* Questa versione è progettata per una campagna e-mail. Altri canali non sono ancora supportati.
+* Interfaccia utente di amministrazione non disponibile.
+* Le metriche di reporting (come aperture e dati di tracciamento) vengono aggiornate ogni ora.
+* I KPI del dashboard di consegna vengono aggiornati ogni 5 minuti. - ma la preparazione della consegna è in tempo reale.
+* Le notifiche Adobe Experience Cloud e la Guida unificata disponibili nella barra superiore non sono ancora integrate.
+
