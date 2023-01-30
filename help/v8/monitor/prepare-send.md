@@ -1,23 +1,23 @@
 ---
 audience: end-user
-title: Preparare e inviare un messaggio e-mail
-description: Scopri come preparare e inviare un’e-mail con l’interfaccia utente web di Campaign
+title: Preparare e inviare un’e-mail
+description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Prepara e invia il tuo messaggio e-mail {#prepare-send}
+# Preparare e inviare il messaggio e-mail {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Prepara e invia il tuo messaggio e-mail"
->abstract="Scopri come preparare il tuo messaggio e-mail e ulteriori informazioni sull’invio di KPI."
+>title="Preparare e inviare il messaggio e-mail"
+>abstract="Scopri come preparare un messaggio e-mail e ulteriori informazioni sui KPI relativi all’invio."
 
 <!--
 
@@ -34,11 +34,11 @@ send also KPIs
 
 ## Preparare l’invio{#prepare}
 
-Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare il messaggio. Durante la preparazione, la popolazione target viene calcolata e il contenuto del messaggio generato per ciascun profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati, immediatamente o alla data e all’ora pianificate. Le regole di convalida utilizzate durante l&#39;analisi sono descritte nella sezione [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare il messaggio. Durante la preparazione, viene calcolata la popolazione target e viene generato il contenuto del messaggio per ciascun profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati subito oppure alla data e all’ora pianificate. Le regole di convalida utilizzate durante l’analisi sono descritte nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it#validation-process-with-typologies){target="_blank"}.
 
 Segui i passaggi seguenti:
 
-1. Dal dashboard di consegna, fai clic su **Preparare** nell’angolo in alto a destra e conferma.
+1. Nella dashboard delle consegne, fai clic sul pulsante **Prepara** in alto a destra e conferma.
 
    ![](assets/prepare.png)
 
@@ -46,7 +46,7 @@ Segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Puoi interrompere la preparazione in qualsiasi momento utilizzando la **Arresta preparazione** pulsante . Durante la fase di preparazione, non vengono inviati messaggi. È quindi possibile iniziare o interrompere questo processo senza rischi di influire su nulla.
+   >Puoi interrompere la preparazione in qualsiasi momento utilizzando il pulsante **Interrompi preparazione**. Durante la fase di preparazione, non vengono inviati messaggi. È quindi possibile iniziare o interrompere questo processo senza alcun rischio.
 
 1. Al termine della preparazione, controlla i KPI. Se il numero di messaggi da inviare non corrisponde alle tue aspettative, modifica il pubblico e riavvia la preparazione.
 
@@ -54,29 +54,29 @@ Segui i passaggi seguenti:
 
    Di seguito sono riportati i diversi KPI visualizzati:
 
-   * **Target**: il numero di destinatari
-   * **Per fornire**: il numero di messaggi che verranno inviati
-   * **Per escludere**: il numero di messaggi esclusi da una regola di tipologia
+   * **Target**: numero di destinatari nel target
+   * **Da consegnare**: numero di messaggi che verranno inviati
+   * **Da escludere**: numero di messaggi esclusi da una regola di tipologia
 
-1. Fai clic sul pulsante **Registri** e controlla che non vi siano errori. Nell’ultimo messaggio di log vengono visualizzati tutti i messaggi di errore e il numero di errori. Per ulteriori informazioni, consulta questa [sezione](delivery-logs.md).
+1. Fai clic sul pulsante **Registri** e controlla che non vi siano errori. L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. Per ulteriori informazioni, consulta questa [sezione](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
-Se la preparazione rileva un errore critico che impedisce l’invio della consegna, lo stato di preparazione viene visualizzato come non riuscito nel dashboard di consegna.
+Se la preparazione rileva un errore critico che impedisce l’invio della consegna, nella dashboard delle consegne lo stato di preparazione viene visualizzato come “non riuscito”.
 
 ![](assets/prepare-error.png)
 
-Per apportare eventuali modifiche alla consegna dopo la preparazione, è necessario riavviare la preparazione per tenere conto di tali modifiche.
+Se si apportano eventuali modifiche alla consegna dopo la preparazione, affinché tali modifiche vengano prese in considerazione è necessario riavviare la preparazione.
 
 Una volta completata la preparazione senza errori, il messaggio è pronto per essere inviato. Per ulteriori informazioni, consulta questa [sezione](#send).
 
-## Invia il messaggio{#send}
+## Inviare il messaggio{#send}
 
-Una volta completata la preparazione, puoi inviare il messaggio. Questo passaggio è necessario solo per i messaggi inviati immediatamente. Se il messaggio è pianificato, viene inviato alla data definita.
+Una volta completata la preparazione, puoi inviare il messaggio. Questo passaggio è necessario solo per i messaggi da inviare subito. Se il messaggio è pianificato, viene inviato alla data definita.
 
 Segui questi passaggi:
 
-1. Dal dashboard di consegna, fai clic su **Invia** nell’angolo in alto a destra e conferma.
+1. Nella dashboard delle consegne, fai clic sul pulsante **Invia** in alto a destra e conferma.
 
    ![](assets/send.png)
 
@@ -86,12 +86,12 @@ Segui questi passaggi:
 
    Di seguito sono riportati i diversi KPI visualizzati:
 
-   * **Consegnato**: numero di messaggi recapitati correttamente. La percentuale visualizzata si basa sul numero totale di messaggi inviati.
-   * **Aperture**: il numero di messaggi aperti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati.
-   * **Clic**: il numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati.
+   * **Consegnati**: numero di messaggi recapitati correttamente. La percentuale visualizzata si basa sul numero totale di messaggi inviati.
+   * **Aperture**: numero di messaggi aperti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati.
+   * **Clic**: numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati.
 
    >[!NOTE]
    >
-   >La **Aperture** e **Clic** Gli indicatori vengono aggiornati dopo 5 minuti.
+   >Gli indicatori di **Aperture** e **Clic** vengono aggiornati dopo 5 minuti.
 
-   Puoi sospendere l’invio in qualsiasi momento e quindi riprendere. Se interrompi la consegna mentre viene inviata, non puoi riprendere.
+   Puoi sospendere l’invio in qualsiasi momento e quindi riprenderlo. Se interrompi la consegna durante l’invio, non puoi riprenderla.
