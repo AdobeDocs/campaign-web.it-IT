@@ -1,52 +1,52 @@
 ---
 audience: end-user
-title: Invia e-mail di test
+title: Inviare e-mail di test
 description: Scopri come definire e inviare e-mail di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Invia e-mail di test {#send-proofs}
+# Inviare e-mail di test {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-L’invio di e-mail di test è un passaggio importante nella convalida della campagna e-mail e nell’identificazione dei potenziali problemi. Inviando e-mail di test, puoi controllare vari elementi come collegamenti, collegamenti di rinuncia, immagini e pagine mirror, nonché rilevare eventuali errori.
+L’invio di e-mail di test è un passaggio importante nella convalida della campagna e-mail, utile per individuare potenziali problemi. Inviando e-mail di test, puoi verificare il funzionamento di vari elementi come collegamenti, collegamenti di rinuncia, immagini e pagine mirror, nonché rilevare eventuali errori.
 
 Le e-mail di test possono essere inviate a due tipi di destinatari:
 
-* **Profili di test**: invia e-mail di test agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database. Possono essere create nella console Adobe Campaign nella **[!UICONTROL Risorse]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Indirizzi di seed]** cartella.
+* **Profili di test**: invia e-mail di test agli indirizzi seed, ossia destinatari aggiuntivi e fittizi presenti nel database. Possono essere creati nella console Adobe Campaign nella cartella **[!UICONTROL Risorse]**/**[!UICONTROL Gestione delle campagne]**/**[!UICONTROL Indirizzi seed]**.
 
-* **Sostituzione dal target principale**: invia e-mail di test a un indirizzo e-mail specifico durante la rappresentazione di un profilo esistente. Questo ti consente di verificare l’esperienza dell’e-mail come i destinatari, fornendo una rappresentazione accurata del messaggio ricevuto dal profilo.
+* **Sostituisci dal target principale**: invia le e-mail di test a un indirizzo e-mail specifico impersonando un profilo esistente. Questo consente di verificare l’esperienza dell’e-mail così come verrà ricevuta dai destinatari, con una rappresentazione accurata del messaggio per quello specifico profilo.
 
 ## Selezionare i destinatari del test {#recipients}
 
-1. Accedi alla schermata di simulazione del contenuto dell’e-mail, quindi fai clic sul **[!UICONTROL Test]** pulsante .
+1. Accedi alla schermata di simulazione del contenuto e-mail, quindi fai clic sul pulsante **[!UICONTROL Test]**.
 
    ![](assets/test-button.png)
 
-1. Utilizza la **[!UICONTROL Modalità]** elenco a discesa per scegliere il tipo di destinatari che ricevono il messaggio e-mail di test:
+1. Utilizza l’elenco a discesa **[!UICONTROL Modalità]** per scegliere il tipo di destinatari che ricevono il messaggio e-mail di test:
 
-   * **Profili di test**: inviare l’e-mail di prova agli indirizzi di seed, che sono destinatari aggiuntivi e fittizi nel database,
+   * **Profili di test**: invia e-mail di test agli indirizzi seed, ossia destinatari aggiuntivi e fittizi presenti nel database.
 
-   * **Sostituzione dal target principale**: invia l’e-mail di test a un indirizzo e-mail specifico durante la rappresentazione di un profilo esistente. Questo ti consente di utilizzare l’e-mail come i destinatari, fornendo una rappresentazione accurata del messaggio che il profilo riceverà.
+   * **Sostituisci dal target principale**: invia le e-mail di test a un indirizzo e-mail specifico impersonando un profilo esistente. Questo consente di verificare l’esperienza dell’e-mail così come verrà ricevuta dai destinatari, con una rappresentazione accurata del messaggio per quello specifico profilo.
 
    ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, la **[!UICONTROL Profili di test]** modalità selezionata. Se hai già selezionato dei profili per visualizzare l’anteprima dell’e-mail nella schermata di simulazione del contenuto, questi profili vengono preselezionati come destinatari del test. Puoi deselezionare la selezione e/o aggiungere altri destinatari.
+   >Per impostazione predefinita, viene selezionata la modalità **[!UICONTROL Profili di test]**. Se hai già selezionato dei profili per visualizzare l’anteprima dell’e-mail nella schermata di simulazione del contenuto, questi vengono preselezionati come destinatari del test. Puoi deselezionare la selezione e/o aggiungere altri destinatari.
 
-1. Per inviare e-mail di test ai profili di sostituzione, scegli la **[!UICONTROL Sostituzione dal target]** quindi segui questi passaggi:
+1. Per inviare e-mail di test ai profili di sostituzione, scegli la modalità **[!UICONTROL Sostituisci dal target]** quindi segui questi passaggi:
 
-   1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail che riceve l’e-mail di test.
+   1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail che riceverà l’e-mail di test.
 
       Puoi inserire qualsiasi indirizzo e-mail. Questo consente di inviare e-mail di test a qualsiasi utente, anche se non è utente di Adobe Campaign V8.
 
-   1. Seleziona il profilo dalla destinazione da utilizzare per inviare l’e-mail di test. Puoi anche consentire ad Adobe Campaign di selezionare un profilo casuale dal target.
+   1. Seleziona il profilo dal target da utilizzare per inviare l’e-mail di test. Puoi anche consentire ad Adobe Campaign di selezionare un profilo casuale dal target.
 
    1. Conferma il destinatario e ripeti l’operazione per aggiungere tutti gli indirizzi necessari.
 
@@ -56,24 +56,24 @@ Le e-mail di test possono essere inviate a due tipi di destinatari:
 
    >[!NOTE]
    >
-   >Se desideri inviare il messaggio e-mail finale ai destinatari dell’e-mail di test, abilita **[!UICONTROL Includere la popolazione di test nel target principale]** su .
+   >Se desideri inviare il messaggio e-mail finale ai destinatari dell’e-mail di test, abilita **[!UICONTROL Includi la popolazione di test nel target principale]**.
 
-## Invia l’e-mail di test {#send}
+## Inviare e-mail di test {#send}
 
 Per inviare l’e-mail di test ai destinatari selezionati, fai clic su **[!UICONTROL Invia e-mail di test]** quindi conferma l’invio.
 
 ![](assets/send-proof.png)
 
-Invia tutte le e-mail di test necessarie fino a quando non avrai finalizzato il contenuto della consegna. Al termine, puoi inviare l’e-mail al target principale. [Scopri come preparare e inviare il tuo messaggio e-mail](../monitor/prepare-send.md)
+Invia tutte le e-mail di test necessarie fino a quando non avrai finalizzato il contenuto della consegna. Al termine, puoi inviare l’e-mail al target principale. [Scopri come preparare e inviare un messaggio e-mail](../monitor/prepare-send.md)
 
 ## Accedere alle e-mail di test inviate {#access-proofs}
 
-Una volta inviate le e-mail di test, puoi accedere ai registri dedicati dal **[!UICONTROL Visualizza registro e-mail di prova]** pulsante .
+Una volta inviate le e-mail di test, puoi accedere ai registri dedicati dal pulsante **[!UICONTROL Visualizza registro e-mail di test]**.
 
-Questi registri ti consentono di accedere a tutte le e-mail di test inviate per la consegna selezionata e di visualizzare statistiche specifiche correlate al loro invio. [Scopri come monitorare i registri di consegna](../monitor/delivery-logs.md)
+Questi registri consentono di accedere a tutte le e-mail di test inviate per la consegna selezionata e di visualizzare specifiche statistiche relative all’invio. [Scopri come monitorare i registri di consegna](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-Puoi anche accedere alle e-mail di test inviate dall’elenco delle consegne, come qualsiasi consegna.
+Puoi anche accedere alle e-mail di test inviate dall’elenco delle consegne, come qualsiasi altra consegna.
 
 ![](assets/delivery-list.png)
