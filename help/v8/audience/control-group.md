@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Imposta un gruppo di controllo
-description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente Web di Campaign
+title: Impostare un gruppo di controllo
+description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
-# Imposta un gruppo di controllo {#control-group}
+# Impostare un gruppo di controllo {#control-group}
 
 Puoi utilizzare i gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne.
 
-A questo scopo, crea un gruppo di controllo quando definisci il pubblico della consegna. I profili vengono aggiunti al gruppo di controllo in modo casuale, filtrati o meno oppure in base a alcuni criteri. Puoi quindi confrontare il comportamento della popolazione target che ha ricevuto il messaggio con il comportamento dei contatti non interessati.
+A tale scopo, crea un gruppo di controllo mentre definisci il pubblico della consegna. I profili vengono aggiunti al gruppo di controllo in modo casuale, filtrati o meno oppure in base a alcuni criteri. Puoi quindi confrontare il comportamento della popolazione target che ha ricevuto il messaggio con il comportamento dei contatti che non lo hanno ricevuto.
 
 Il gruppo di controllo può essere estratto in modo casuale dal target principale e/o selezionato da una popolazione specifica. Ci sono quindi due vie principali per definire un gruppo di controllo:
 
@@ -23,34 +23,34 @@ Il gruppo di controllo può essere estratto in modo casuale dal target principal
 
 È possibile ricorrere a entrambi i metodi.
 
-Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazione della consegna vengono rimossi dal target principale. Non ricevono il messaggio.
+Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazione della consegna verranno rimossi dal target principale e non riceveranno il messaggio.
 
-Per creare un gruppo di controllo, fai clic sul pulsante **[!UICONTROL Imposta gruppo di controllo]** dal **Pubblico** della sezione dell’assistente per la creazione della consegna.
+Per creare un gruppo di controllo, fai clic sul pulsante **[!UICONTROL Imposta gruppo di controllo]** nella sezione **Pubblico** dell’assistente per la creazione della consegna.
 
 ![](assets/control-group1.png)
 
-## Estrai da target {#extract-target}
+## Estrarre dal target {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Estrai da target"
+>title="Estrarre dal target"
 >abstract="TBC"
 
 Per definire un gruppo di controllo, puoi scegliere di estrarre dalla popolazione target una percentuale o un numero fisso di profili, in modo casuale o in base a un ordinamento.
 
-Innanzitutto, definisci il modo in cui i profili vengono estratti dal target: in modo casuale o in base a un ordinamento.
+Innanzitutto, definisci il modo in cui i profili verranno estratti dal target: in modo casuale o in base a un ordinamento.
 
-Sotto la **Estrai dal target** sezione, scegli un **Tipo di esclusione**:
+Nella sezione **Estrai da target**, scegli un **Tipo di esclusione**:
 
-* **Casuale**: durante la preparazione della consegna, Adobe Campaign estrae in modo casuale un numero di profili corrispondente alla percentuale o al numero massimo impostato come limite di dimensioni.
+* **Casuale**: durante la preparazione della consegna, Adobe Campaign estrarrà in modo casuale un numero di profili corrispondente alla percentuale o al numero massimo che verrà impostato come limite di dimensione.
 
    ![](assets/control-group.png)
 
-* **Classificato per attributo/i**: questa opzione consente di escludere un set di profili basati su attributi specifici in uno o più ordini di ordinamento specifici.
+* **Classificato per attributo/i**: questa opzione consente di escludere un set di profili in base ad attributi specifici in uno o più ordini specifici.
 
    ![](assets/control-group2.png)
 
-Quindi definisci il **Limite dimensione**: devi impostare il modo in cui limitare il numero di profili estratti dal target principale.
+Poi definisci il **Limite dimensione**: è necessario impostare il modo in cui limitare il numero di profili estratti dal target principale.
 
 **Esempio**
 
@@ -60,19 +60,19 @@ Puoi visualizzare i registri per controllare e identificare i profili esclusi. P
 
 Dopo la preparazione della consegna, puoi visualizzare le esclusioni nelle seguenti schermate:
 
-* La **Per escludere** KPI nel dashboard di consegna, prima dell’invio.
+* Il KPI **Da escludere** nella dashboard di consegna, prima dell’invio.
 
    ![](assets/control-group5.png)
 
-* La **Log di esclusione** visualizzare ciascun profilo e la relativa esclusione **Motivo**.
+* I **Registri di esclusione** mostrano ciascun profilo e il relativo **Motivo** di esclusione.
 
    ![](assets/control-group6.png)
 
-* La **Cause di esclusione** visualizza il numero di profili esclusi per ogni regola di tipologia.
+* Le **Cause di esclusione** mostrano il numero di profili esclusi per ogni regola di tipologia.
 
    ![](assets/control-group7.png)
 
-Per ulteriori informazioni sui registri di consegna, consulta questo [sezione](../monitor/delivery-logs.md).
+Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](../monitor/delivery-logs.md).
 
 ## Popolazione aggiuntiva {#extra-population}
 
@@ -83,12 +83,12 @@ Per ulteriori informazioni sui registri di consegna, consulta questo [sezione](.
 
 Un altro modo per definire un gruppo di controllo consiste nell’escludere una popolazione specifica dal target utilizzando un pubblico esistente o definendo una query.
 
-Da **Popolazione extra** della sezione **Gruppo di controllo** schermata di definizione, fai clic sul **[!UICONTROL Selezionare il pubblico]** pulsante .
+Nella sezione **Popolazione aggiuntiva** della schermata di definizione del **Gruppo di controllo**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
 ![](assets/control-group3.png)
 
-* Per utilizzare un pubblico esistente, fai clic su **Selezionare il pubblico**. Fai riferimento a questo [sezione](add-audience.md).
+* Per utilizzare un pubblico esistente, fai clic su **Seleziona pubblico**. Consulta questa [sezione](add-audience.md).
 
-* Per definire una nuova query, seleziona **Crea il tuo** e definisci i criteri di esclusione utilizzando il generatore di regole. Fai riferimento a questo [sezione](segment-builder.md).
+* Per definire una nuova query, seleziona **Crea nuovo** e definisci i criteri di esclusione utilizzando il generatore di regole. Consulta questa [sezione](segment-builder.md).
 
-I profili inclusi nel pubblico o che corrispondono al risultato della query sono esclusi dal target.
+I profili inclusi nel pubblico o che corrispondono al risultato della query vengono esclusi dal target.
