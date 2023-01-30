@@ -1,30 +1,30 @@
 ---
 audience: end-user
-title: Aggiungi attributi di stile in linea
+title: Aggiungere attributi di stile in linea
 description: Scopri come aggiungere attributi di stile in linea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Aggiungi attributi di stile in linea {#adding-inline-styling-attributes}
+# Aggiungere attributi di stile in linea {#adding-inline-styling-attributes}
 
 ![](../assets/do-not-localize/badge.png)
 
 Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visualizzi le impostazioni nel riquadro di destra, puoi personalizzare gli attributi in linea e il relativo valore per quell’elemento specifico.
 
-1. Seleziona un componente direttamente nel contenuto o utilizza la funzione **[!UICONTROL Struttura di navigazione]** disponibile nel riquadro a sinistra.
+1. Seleziona un componente direttamente nel contenuto o utilizza la **[!UICONTROL struttura di navigazione]** disponibile nel riquadro a sinistra.
 
-1. Da **[!UICONTROL Impostazioni dei componenti]** a destra, cerca il **[!UICONTROL Stili in linea]** sezione .
+1. Nel menu **[!UICONTROL Impostazioni componenti]** a destra, individua la sezione **[!UICONTROL Stili in linea]**.
 
    ![](assets/styles_1.png)
 
 1. Modifica i valori degli attributi esistenti.
 
-1. Puoi aggiungere nuove proprietà utilizzando la **+** pulsante . Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
+1. Per aggiungere nuove proprietà, utilizza il pulsante **+**. Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
 
    ![](assets/styles_2.png)
 
@@ -32,5 +32,5 @@ Lo stile viene applicato all’elemento selezionato.
 
 >[!NOTE]
 >
->Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento padre.
+>Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento principale.
 
