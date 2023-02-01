@@ -3,10 +3,10 @@ audience: end-user
 title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 91%
 
 ---
 
@@ -72,6 +72,22 @@ Una volta completata la preparazione senza errori, il messaggio è pronto per es
 
 ## Inviare il messaggio{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Consegnato"
+>abstract="Numero di messaggi recapitati correttamente. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata si basa sul numero totale di messaggi inviati."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Messaggi aperti"
+>abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clic"
+>abstract="Il numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
+
+
 Una volta completata la preparazione, puoi inviare il messaggio. Questo passaggio è necessario solo per i messaggi da inviare subito. Se il messaggio è pianificato, viene inviato alla data definita.
 
 Segui questi passaggi:
@@ -92,6 +108,6 @@ Segui questi passaggi:
 
    >[!NOTE]
    >
-   >Gli indicatori di **Aperture** e **Clic** vengono aggiornati dopo 5 minuti.
+   >Tutti gli indicatori vengono aggiornati ogni 5 minuti dopo l’inizio della consegna. Gli indicatori di preparazione della consegna sono in tempo reale.
 
    Puoi sospendere l’invio in qualsiasi momento e quindi riprenderlo. Se interrompi la consegna durante l’invio, non puoi riprenderla.
