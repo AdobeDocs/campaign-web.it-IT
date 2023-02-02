@@ -4,9 +4,9 @@ title: Note sulla versione di Campaign Web v8
 description: Note sulla versione di Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -62,14 +62,14 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 
 ## Limitazioni{#limitations-alpha}
 
-Alcune funzionalità chiave di Campaign, come le campagne cross-channel e la gestione del flusso di lavoro, saranno disponibili con la versione beta.
+Alcune funzionalità principali di Campaign, come le campagne cross-channel e la gestione del flusso di lavoro, saranno disponibili nella versione beta.
 
-Le limitazioni seguenti si applicano a questa versione Alpha:
+Alla presente versione alfa si applicano le seguenti limitazioni:
 
-* Gli unici oggetti modificabili sono Consegne. Gli altri sono di sola lettura. Utilizza i filtri per sfogliare tutte le pagine.
-* Questa versione è progettata per una campagna e-mail. Altri canali non sono ancora supportati.
-* Interfaccia utente di amministrazione non disponibile.
-* Le metriche di reporting (come aperture e dati di tracciamento) vengono aggiornate ogni ora.
-* I KPI del dashboard di consegna vengono aggiornati ogni 5 minuti. - ma la preparazione della consegna è in tempo reale.
-* Le notifiche Adobe Experience Cloud e la Guida unificata disponibili nella barra superiore non sono ancora integrate.
+* Gli unici oggetti modificabili sono le Consegne. Gli altri sono di sola lettura. Utilizza i filtri per sfogliarle tutti.
+* Questa versione è progettata per una sola campagna e-mail. Altri canali non sono ancora supportati.
+* L&#39;interfaccia utente di amministrazione non è disponibile.
+* Le metriche di reporting (come le aperture e i dati di tracciamento) vengono aggiornate ogni ora.
+* I KPI del dashboard delle consegne vengono aggiornati ogni 5 minuti. - ma la preparazione della consegna avviene in tempo reale.
+* Le notifiche Adobe Experience Cloud e la Guida unificata disponibili nella barra superiore finora non sono state integrate.
 
