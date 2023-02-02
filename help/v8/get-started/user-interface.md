@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -182,12 +182,12 @@ Campaign Web v8 è progettato per funzionare in modo ottimale nell’ultima vers
 
 ## Preferenze della lingua {#language-pref}
 
-Campaign v8 Web è attualmente disponibile nelle seguenti lingue:
+Al momento, Campaign v8 Web è disponibile nelle seguenti lingue:
 
 <table>
 <tr>
 <td>
-<p>Inglese (USA) - IT-IT</p>
+<p>Inglese (US) - EN-US</p>
 <p>Francese - FR</p>
 <p>Tedesco - DE</p>
 <p>Italiano - IT</p>
