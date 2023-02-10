@@ -3,7 +3,7 @@ audience: end-user
 title: Informazioni su anteprima e test delle e-mail
 description: Scopri come visualizzare in anteprima e testare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
 workflow-type: ht
 source-wordcount: '110'
 ht-degree: 100%
@@ -18,10 +18,10 @@ Prima di inviare un’e-mail, è importante visualizzarla in anteprima e testarn
 
 A questo scopo, Adobe Campaign consente di effettuare quanto segue:
 
-* [Visualizzare in anteprima il contenuto e la personalizzazione dell’e-mail](#preview).
+* [Visualizzare in anteprima il contenuto e la personalizzazione dell’e-mail](preview-content.md).
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Inviare e-mail di test](#send-proofs) a destinatari specifici a scopo di test e convalida.
+* [Inviare e-mail di test](proofs.md) a destinatari specifici a scopo di test e convalida.
 
 Queste azioni possono essere eseguite mediante il pulsante **[!UICONTROL Simula contenuto]**, accessibile quando si crea il contenuto dell’e-mail in E-mail Designer:
 
