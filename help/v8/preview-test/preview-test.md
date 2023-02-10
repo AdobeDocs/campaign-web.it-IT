@@ -4,7 +4,7 @@ title: Informazioni su anteprima e test delle e-mail
 description: Scopri come visualizzare in anteprima e testare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 
