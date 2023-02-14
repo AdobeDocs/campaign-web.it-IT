@@ -4,8 +4,8 @@ title: Monitorare i registri di consegna
 description: Scopri come monitorare i registri di consegna
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
