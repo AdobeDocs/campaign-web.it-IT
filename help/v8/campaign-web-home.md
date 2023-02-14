@@ -4,8 +4,8 @@ description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
-workflow-type: tm+mt
-source-wordcount: '120'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
