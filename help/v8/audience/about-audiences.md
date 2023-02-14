@@ -4,8 +4,8 @@ title: Introduzione ai tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico nell’interfaccia utente di Campaign Web
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '121'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
