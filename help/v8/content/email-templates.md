@@ -4,7 +4,7 @@ product: campaign
 title: Utilizzare i modelli e-mail
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
