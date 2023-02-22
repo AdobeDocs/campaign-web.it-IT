@@ -4,7 +4,7 @@ title: Definire uno stile per i collegamenti
 description: Scopri come definire uno stile per i collegamenti
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
 ht-degree: 100%
 
