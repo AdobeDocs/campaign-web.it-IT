@@ -4,7 +4,7 @@ title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
 ht-degree: 100%
 
