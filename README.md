@@ -22,7 +22,7 @@ Il tipo di collaborazione dipende da chi effettua l’intervento e dal tipo di m
 
 ### Modifiche minori
 
-Se desideri collaborare con piccoli aggiornamenti per altruismo, leggi l&#39;articolo e fai clic sul collegamento **Modifica** per aprire la sorgente in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
+Se desideri collaborare con piccoli aggiornamenti, leggi l’articolo e fai clic sul collegamento **Modifica** per aprirne l’origine in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 Le correzioni minori o i chiarimenti alla documentazione e gli esempi di codice in questo archivio sono coperti dai termini di utilizzo Adobe.
 
