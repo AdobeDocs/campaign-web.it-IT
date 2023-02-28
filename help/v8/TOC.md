@@ -1,21 +1,21 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-description: Documentazione di Campaign v8 Web
+description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
-title: Documenti web di Campaign v8
+title: Documentazione Web di Campaign v8
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Documentazione di Adobe Campaign v8 Web {#v8}
 
-+ [Documentazione di Campaign v8 Web](campaign-web-home.md)
++ [Documentazione di Campaign Web v8](campaign-web-home.md)
 + Nuove funzioni {#whats-new}
    + [Note sulla versione](rn/release-notes.md)
    + [Aggiornamenti della documentazione](rn/documentation-updates.md)
@@ -44,7 +44,7 @@ ht-degree: 97%
 + Selezionare il pubblico dell’e-mail {#audience}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Selezionare un pubblico](audience/add-audience.md)
-   + [Aggiungere un gruppo di controllo](audience/control-group.md)
+   + [Impostare un gruppo di controllo](audience/control-group.md)
    + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
 + Anteprima e test dell’e-mail {#preview-test}
    + [Informazioni su anteprima e test](preview-test/preview-test.md)
