@@ -4,9 +4,9 @@ title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -74,18 +74,18 @@ Una volta completata la preparazione senza errori, il messaggio è pronto per es
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="Consegnato"
+>title="Consegnati"
 >abstract="Numero di messaggi recapitati correttamente. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata si basa sul numero totale di messaggi inviati."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
->title="Messaggi aperti"
+>title="Aperture"
 >abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clic"
->abstract="Il numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
+>abstract="Numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
 
 
 Una volta completata la preparazione, puoi inviare il messaggio. Questo passaggio è necessario solo per i messaggi da inviare subito. Se il messaggio è pianificato, viene inviato alla data definita.
