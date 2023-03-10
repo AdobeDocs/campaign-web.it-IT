@@ -4,7 +4,7 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 100%
 
@@ -168,7 +168,7 @@ Per ordinare gli elementi dell’elenco, fai clic sulla relativa intestazione di
 
 ## Aiuto contestuale e guida all’onboarding
 
-Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona **?** per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
+Nell’interfaccia è disponibile una guida contestuale. Se è disponibile, fai clic sull’icona **?** per visualizzare informazioni tratte dalla guida e relativi collegamenti.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
