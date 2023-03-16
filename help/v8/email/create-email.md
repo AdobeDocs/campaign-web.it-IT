@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
 >title="Proprietà e-mail"
 >abstract="Le proprietà sono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
 
-1. Per creare una nuova consegna, passa a **[!UICONTROL Consegne]** nella barra a sinistra, quindi fai clic su  **[!UICONTROL Creare una consegna]** pulsante.
+1. Per creare una nuova consegna, passa a **[!UICONTROL Consegne]** nella barra a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea una consegna]**.
 
 1. Seleziona **[!UICONTROL E-mail]** come canale e scegli un modello.
 
@@ -42,8 +42,8 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
 
    ![](assets/channel-template.png)
 
-1. Fai clic su **[!UICONTROL Creare una consegna]** per confermare.
-1. Immetti un’etichetta per la consegna e configura opzioni aggiuntive in base alle tue esigenze:
+1. Fai clic su **[!UICONTROL Crea una consegna]** per confermare.
+1. Specifica un’etichetta per la consegna e configura opzioni aggiuntive in base alle tue esigenze:
 
    * **[!UICONTROL Nome interno]**: assegna un identificatore univoco alla consegna.
    * **[!UICONTROL Cartella]**: memorizza la consegna in una cartella specifica.
@@ -70,7 +70,7 @@ Per istruzioni dettagliate su come configurare il contenuto delle e-mail, consul
 
 In questo caso d’uso, viene utilizzato un modello predefinito per progettare l’e-mail.
 
-1. Per iniziare a creare il contenuto dell’e-mail, apri la consegna e fai clic su **[!UICONTROL Modifica contenuto]** pulsante.
+1. Per iniziare a creare il contenuto dell’e-mail, apri la consegna e fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
    Viene visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e progettarlo utilizzando E-mail Designer.
 
@@ -80,7 +80,7 @@ In questo caso d’uso, viene utilizzato un modello predefinito per progettare l
 
    ![](assets/subject-line.png)
 
-1. Per progettare il contenuto dell’e-mail, fai clic su **[!UICONTROL Modifica corpo dell’e-mail]** pulsante.
+1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
    Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un modello di progettazione predefinito.
 
@@ -136,9 +136,9 @@ In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente. Per i
 >title="Pianificare l’invio"
 >abstract="Definisci la data e l’ora esatta dell’invio. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare le percentuali di apertura."
 
-Per pianificare l’invio dell’e-mail, apri la consegna e-mail e passa alla **Pianificazione** sezione. Utilizza il **[!UICONTROL Abilita pianificazione]** attiva per attivarlo e impostare la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
+Per pianificare l’invio dell’e-mail, apri la consegna e-mail e passa alla sezione **Pianificazione**. Utilizza l’interruttore **[!UICONTROL Abilita pianificazione]** per attivarla e impostare la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
 
-Per impostazione predefinita, il **[!UICONTROL Abilita la conferma prima dell’invio]** l&#39;opzione è abilitata. Questa opzione richiede di confermare l’invio prima che l’e-mail venga inviata alla data e all’ora pianificate. Se devi inviare l’e-mail automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
+Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che l’e-mail venga inviata alla data e all’ora pianificate. Se desideri inviare l’e-mail automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
 
 ![](assets/schedule.png)
 
@@ -150,7 +150,7 @@ In questo caso d’uso, puoi visualizzare in anteprima l’e-mail e inviare vers
 
 Per ulteriori informazioni su come visualizzare in anteprima e testare le e-mail, consulta [questa sezione](../preview-test/preview-test.md).
 
-1. Per rivedere l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, nonché tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno di questi elementi, fai clic sul pulsante Modifica.
+1. Per esaminare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, nonché tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno di questi elementi, fai clic sul pulsante Modifica.
 
 1. Per visualizzare in anteprima l’e-mail e inviare le versioni di test, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
