@@ -5,8 +5,8 @@ description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 99%
 
 ---
 
