@@ -5,8 +5,8 @@ description: Scopri come visualizzare in anteprima il contenuto delle e-mail nel
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
