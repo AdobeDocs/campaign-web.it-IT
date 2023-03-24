@@ -3,26 +3,16 @@ audience: end-user
 title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Inviare offerte {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="Impostazioni delle offerte"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="Impostazioni avanzate per le offerte"
->abstract="TBC"
 
 Adobe Campaign Web v8 consente di inviare, con le e-mail, delle offerte create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni su Interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
@@ -32,6 +22,16 @@ I passaggi per inviare offerte con un’e-mail sono i seguenti:
 1. [Inserire le offerte nell’e-mail](#insert).
 
 ## Configurare le offerte da proporre {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Impostazioni delle offerte"
+>abstract="Configura le offerte da proporre ai destinatari."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Impostazioni avanzate per le offerte"
+>abstract="Configura opzioni avanzate sulle offerte."
 
 1. Per selezionare le offerte da proporre nel messaggio e-mail, fai clic sul pulsante **[!UICONTROL Offerte]** nella schermata per la modifica del contenuto dell’e-mail.
 
