@@ -4,9 +4,9 @@ title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ I passaggi per inviare offerte con un’e-mail sono i seguenti:
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="Impostazioni avanzate per le offerte"
->abstract="Configura opzioni avanzate sulle offerte."
+>abstract="Configurare opzioni avanzate sulle offerte."
 
 1. Per selezionare le offerte da proporre nel messaggio e-mail, fai clic sul pulsante **[!UICONTROL Offerte]** nella schermata per la modifica del contenuto dell’e-mail.
 
