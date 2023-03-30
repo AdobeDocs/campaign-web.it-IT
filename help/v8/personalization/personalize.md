@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
-workflow-type: ht
-source-wordcount: '653'
-ht-degree: 100%
+source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 90%
 
 ---
 
@@ -77,20 +77,21 @@ Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-
 
 
 I blocchi di contenuto incorporati sono:
+
 * **[!UICONTROL Enabled by Adobe Campaign]** : inserisce il logo “Enabled by Adobe Campaign”.
 * **[!UICONTROL Funzione di formattazione per nomi propri]**: genera la funzione JavaScript **[!UICONTROL toSmartCase]**, che applica il maiuscolo alla prima lettera di ogni parola.
-* **[!UICONTROL Saluti]**: inserisce la formula di saluto iniziale con il nome del destinatario. Esempio: “Ciao John Doe,”
+* **[!UICONTROL Saluti]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,”
 * **[!UICONTROL Inserisci logo]**: inserisce un logo definito nelle impostazioni dell’istanza.
-* **[!UICONTROL Collegamento a pagina mirror]**: inserisce un collegamento alla pagina mirror: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”
+* **[!UICONTROL Collegamento a una pagina speculare]**: inserisce un collegamento alla [pagina speculare](mirror-page.md). Il formato predefinito è: &quot;Se non riesci a visualizzare correttamente questo messaggio, fai clic qui&quot;.
 * **[!UICONTROL URL pagina mirror]**: inserisce l’URL della pagina mirror, consentendo ai designer della consegna di controllare il collegamento.
-* **[!UICONTROL URL per accettazione offerta in modalità unitaria]**: inserisce un URL che consente di impostare un’offerta su **[!UICONTROL Accettato]**.
-* **[!UICONTROL URL pagina di registrazione]**: inserisce un URL per registrarsi o iscriversi.
+* **[!UICONTROL URL per accettazione offerta in modalità unitaria]**: inserisce un URL che consente di impostare un’offerta su **[!UICONTROL Accettato]**. (Questo blocco è disponibile se il modulo di interazione è abilitato)
+* **[!UICONTROL Conferma registrazione]**: inserisce un collegamento che consente di confermare la registrazione o l’iscrizione.
 * **[!UICONTROL Collegamento di registrazione]**: inserisce un collegamento per la registrazione o l’iscrizione. Questo collegamento è definito nelle impostazioni dell’istanza. Il contenuto predefinito è: “Per registrarti, fai clic qui.”
 * **[!UICONTROL Collegamento di registrazione (con referrer)]**: inserisce un collegamento di registrazione o iscrizione che consente di identificare il visitatore e la consegna. Questo collegamento è definito nelle impostazioni dell’istanza.
-* **[!UICONTROL Conferma registrazione]**: inserisce un collegamento che consente di confermare la registrazione o l’iscrizione.
-* **[!UICONTROL Collegamenti per condivisione social]**: inserisce pulsanti che consentono al destinatario di condividere un collegamento al contenuto della pagina mirror.
-* **[!UICONTROL Stile e-mail di contenuto]** e **[!UICONTROL Stile notifica]**: genera il codice necessario per formattare un’e-mail con stili HTML predefiniti.
+* **[!UICONTROL URL pagina di registrazione]**: inserisce un URL per registrarsi o iscriversi
+* **[!UICONTROL Stile delle e-mail di contenuto]** e **[!UICONTROL Stile di notifica]**: genera codice che formatta un’e-mail con stili di HTML predefiniti.
 * **[!UICONTROL Collegamento Annulla iscrizione]**: inserisce un collegamento che consente di annullare l’iscrizione a tutte le consegne (elenco Bloccati). Il contenuto associato predefinito è: “Hai ricevuto questo messaggio perché sei stato in contatto con ***nome organizzazione*** o una sua filiale. Per non ricevere più messaggi da ***nome organizzazione***, fai clic qui.”
+
 
 
 ## Personalizzare i collegamenti nelle e-mail {#personalize-links}
