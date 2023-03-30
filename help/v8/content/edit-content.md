@@ -3,10 +3,10 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 84%
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Intestazione e-mail"
->abstract="In questa sezione puoi controllare i valori Da nome e Da e-mail definiti nel modello e-mail. Il campo Oggetto può essere personalizzato utilizzando l’editor di espressioni."
+>title="Parametri e-mail"
+>abstract="I valori Da nome e Da e-mail sono definiti nel modello e-mail. La riga oggetto può essere personalizzata utilizzando l’editor di espressioni."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

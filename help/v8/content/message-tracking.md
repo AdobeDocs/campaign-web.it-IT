@@ -3,10 +3,10 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 93%
 
 ---
 
@@ -45,37 +45,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 >
 >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) viene definita a livello di superficie di canale (ad esempio, nel predefinito per messaggi) e durante la creazione del messaggio.
 
-## Collegare a una pagina mirror {#mirror-page}
-
-La pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
-
-Per aggiungere un collegamento a una pagina mirror nel messaggio e-mail:
-
-1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Seleziona l’icona **[!UICONTROL Inserisci collegamento]** per accedere al menu di personalizzazione.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. Dal menu **[!UICONTROL Blocco di contenuto]**, seleziona **[!UICONTROL URL pagina mirror]** e fai clic su **[!UICONTROL Aggiungi]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-La pagina mirror viene creata automaticamente.
-
->[!IMPORTANT]
->
->I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori di grandi dimensioni può generare URL molto lunghi per le pagine mirror, che potrebbero non funzionare nei browser web in cui la lunghezza dell’URL è soggetta a un limite massimo.
-
-Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina mirror, il contenuto dell’e-mail viene visualizzato nel browser web predefinito.
-
->[!NOTE]
->
->Nell’e-mail di test inviata ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
-
-Il periodo di conservazione di una pagina mirror è di 60 giorni. Trascorso tale periodo, la pagina mirror non è più disponibile.
+In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla pagina speculare. Ulteriori informazioni sulla pagina speculare in [questa sezione](mirror-page.md).
 
 ## Gestire il tracciamento {#manage-tracking}
 
