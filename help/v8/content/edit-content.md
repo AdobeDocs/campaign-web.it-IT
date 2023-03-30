@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -61,6 +61,6 @@ I passaggi per definire il contenuto dell’e-mail sono i seguenti:
 
    <!--limitation on size + number of files?-->
 
-1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla **[!UICONTROL Funzioni opzionali]** sezione . [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
+1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla sezione **[!UICONTROL Funzioni facoltative]**. [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
 
 Una volta definito il contenuto dell’e-mail, prima di inviarla utilizza il pulsante **[!UICONTROL Simula contenuto]** per controllarne l’aspetto. [Scopri come visualizzare in anteprima e testare il messaggio e-mail](../preview-test/preview-test.md)
