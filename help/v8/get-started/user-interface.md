@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b51059b7fc5166dcd0218ae2b227ea9c703a65a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1345'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -267,7 +267,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
->title="Proprietà di creazione campagna"
+>title="Proprietà di creazione della campagna"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -287,5 +287,5 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Metriche errori"
+>title="Errori metriche"
 >abstract="TBD"
