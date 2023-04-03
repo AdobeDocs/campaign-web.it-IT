@@ -3,22 +3,16 @@ audience: end-user
 title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d3cbac2dfe1f5a0a6f1d79b2671e6c0a07efa156
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 
 # Introduzione a Campaign Web v8 {#get-started}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-V8 web overview
-context, scope (targets cross-channel practitioners), limitations
-only existing customers
--->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Introduzione"

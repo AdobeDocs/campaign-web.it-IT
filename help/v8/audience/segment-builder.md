@@ -3,16 +3,15 @@ audience: end-user
 title: Definire un pubblico con il generatore di regole
 description: Scopri come lavorare con il Generatore di segmenti
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 99%
 
 ---
 
 # Definire un pubblico con il generatore di regole {#segment-builder}
-
-![](../assets/do-not-localize/badge.png)
 
 Questa sezione descrive come creare un pubblico durante la progettazione di un nuovo messaggio e-mail. Il pubblico creato può essere utilizzato solo in questa e-mail.
 

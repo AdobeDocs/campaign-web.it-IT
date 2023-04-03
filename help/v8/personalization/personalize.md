@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 90%
+source-wordcount: '656'
+ht-degree: 89%
 
 ---
 
-# Personalizzare i contenuti{#add-personalization}
 
-![](../assets/do-not-localize/badge.png)
+# Personalizzare i contenuti{#add-personalization}
 
 Puoi personalizzare il contenuto del messaggio in diversi modi:
 

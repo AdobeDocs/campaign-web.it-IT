@@ -3,16 +3,16 @@ audience: end-user
 title: Selezionare un pubblico
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 98%
 
 ---
 
-# Selezionare un pubblico {#add-audience}
 
-![](../assets/do-not-localize/badge.png)
+# Selezionare un pubblico {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"

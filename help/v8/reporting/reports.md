@@ -3,22 +3,16 @@ audience: end-user
 title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 98%
 
 ---
 
 # Rapporti sulle consegne {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign offre diversi tipi di rapporti, accessibili per ogni consegna. Questi rapporti consentono di misurare e visualizzare l’impatto e le prestazioni dei messaggi in una dashboard integrata.
 
@@ -34,7 +28,7 @@ Per visualizzare i rapporti, effettua le seguenti operazioni:
 
 ## Invio
 
-* **Riepilogo delle consegne**: questo rapporto fornisce tutte le informazioni principali sulla consegna. Popolazione target, cause di esclusione, statistiche di consegna.
+* **Riepilogo delle consegne**: questo rapporto fornisce tutte le informazioni principali sulla consegna. Popolazione target, cause di esclusione, statistiche sulla consegna.
 
    ![](assets/reporting3.png)
 
@@ -52,7 +46,7 @@ Per visualizzare i rapporti, effettua le seguenti operazioni:
 
 ## Tracciamento
 
-* **Indicatori di tracciamento**: questo rapporto combina gli indicatori chiave per tenere traccia del comportamento dei destinatari alla ricezione della consegna. Consente di accedere alle statistiche di consegna e ricezione, ai tassi di apertura e click-through, ai flussi clic generati, al tracciamento web e alle attività di condivisione sui social network.
+* **Indicatori di tracciamento**: questo rapporto combina gli indicatori chiave per tenere traccia del comportamento dei destinatari alla ricezione della consegna. Consente di accedere alle statistiche su consegna e ricezione, ai tassi di apertura e click-through, ai flussi clic generati, al tracciamento web e alle attività di condivisione sui social network.
 
    ![](assets/reporting6.png)
 

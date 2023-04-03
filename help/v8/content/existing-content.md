@@ -3,16 +3,15 @@ audience: end-user
 title: Importa il contenuto dell’e-mail
 description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 97%
 
 ---
 
 # Importa il contenuto dell’e-mail {#existing-content}
-
-![](../assets/do-not-localize/badge.png)
 
 E-mail Designer consente di importare contenuti HTML esistenti. Tali contenuti possono essere:
 

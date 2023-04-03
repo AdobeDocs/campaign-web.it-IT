@@ -3,16 +3,15 @@ audience: end-user
 title: Inviare e-mail di test
 description: Scopri come definire e inviare e-mail di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 99%
 
 ---
 
 # Inviare e-mail di test {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 L’invio di e-mail di test è un passaggio importante nella convalida della campagna e-mail, utile per individuare potenziali problemi. Inviando e-mail di test, puoi verificare il funzionamento di vari elementi come collegamenti, collegamenti di rinuncia, immagini e pagine mirror, nonché rilevare eventuali errori.
 

@@ -3,16 +3,16 @@ audience: end-user
 title: Aggiungere attributi di stile in linea
 description: Scopri come aggiungere attributi di stile in linea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
-source-wordcount: '129'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 96%
 
 ---
 
-# Aggiungere attributi di stile in linea {#adding-inline-styling-attributes}
 
-![](../assets/do-not-localize/badge.png)
+# Aggiungere attributi di stile in linea {#adding-inline-styling-attributes}
 
 Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visualizzi le impostazioni nel riquadro di destra, puoi personalizzare gli attributi in linea e il relativo valore per quell’elemento specifico.
 

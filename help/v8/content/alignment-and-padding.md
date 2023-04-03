@@ -3,16 +3,16 @@ audience: end-user
 title: Regolare l’allineamento verticale e la spaziatura in E-mail Designer
 description: Scopri come regolare l’allineamento verticale e la spaziatura
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 97%
 
 ---
 
-# Regolare l’allineamento verticale e la spaziatura {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# Regolare l’allineamento verticale e la spaziatura {#alignment-and-padding}
 
 In questo esempio, regoliamo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 

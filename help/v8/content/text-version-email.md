@@ -3,16 +3,15 @@ audience: end-user
 title: Creare la versione testuale di un’e-mail
 description: Scopri come creare la versione testuale di un’e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+badge: label="Alpha" type="Informativo"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 97%
 
 ---
 
 # Creare la versione testuale di un’e-mail {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando non è possibile visualizzare il contenuto HTML.
 
