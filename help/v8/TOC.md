@@ -5,10 +5,10 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 title: Documentazione Web di Campaign v8
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,9 +61,10 @@ ht-degree: 77%
       + [Guida introduttiva alle consegne SMS](sms/gs-sms.md)
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
-   + [Selezionare un pubblico](audience/add-audience.md)
+   + [Selezionare un pubblico esistente](audience/add-audience.md)
    + [Creare un pubblico con il generatore di regole](audience/segment-builder.md)
    + [Importare un pubblico](audience/import-audience.md)
+   + [Utilizzare un pubblico Adobe Experience Platform](audience/aep-audience.md)
    + [Impostare un gruppo di controllo](audience/control-group.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)

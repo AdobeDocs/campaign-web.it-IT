@@ -4,22 +4,31 @@ title: Selezionare un pubblico
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Selezionare un pubblico {#add-audience}
+# Selezionare un pubblico esistente {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selezionare un pubblico esistente"
 >abstract="I tipi di pubblico sono definiti nella console Adobe Campaign v8. Se disponi di un’integrazione Adobe Experience Platform, dovresti essere in grado di visualizzare anche i tipi di pubblico definiti in Platform."
 
-Questa sezione descrive come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail. Per creare un nuovo pubblico, consulta questa [sezione](segment-builder.md).
+Questa sezione descrive come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail.
+
+Puoi inoltre:
+
+* Crea un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
+* Importare un pubblico da un file. [Ulteriori informazioni](import-audience.md)
+* Utilizzare un pubblico Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
+
+
+Per selezionare un pubblico esistente per il messaggio, segui la procedura seguente:
 
 1. Dalla sezione **Pubblico** nell’assistente per la creazione della consegna, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
