@@ -3,16 +3,16 @@ audience: end-user
 title: Impostazioni di consegna e-mail
 description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informativo"
+source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 90%
 
 ---
 
-# Impostazioni di consegna e-mail {#email-del-settings}
 
-![Versione alfa](../assets/do-not-localize/badge.png)
+# Impostazioni di consegna e-mail {#email-del-settings}
 
 Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail. Sono accessibili mediante l’icona **Configura impostazioni di consegna**, disponibile durante la modifica di una consegna e-mail.
 
