@@ -3,8 +3,8 @@ audience: end-user
 title: Creare la versione testuale di un’e-mail
 description: Scopri come creare la versione testuale di un’e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha" type="Informativo"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 97%
