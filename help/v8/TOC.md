@@ -5,10 +5,10 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 title: Documentazione Web di Campaign v8
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 82%
+source-wordcount: '222'
+ht-degree: 77%
 
 ---
 
@@ -62,8 +62,9 @@ ht-degree: 82%
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Selezionare un pubblico](audience/add-audience.md)
+   + [Creare un pubblico con il generatore di regole](audience/segment-builder.md)
+   + [Importare un pubblico](audience/import-audience.md)
    + [Impostare un gruppo di controllo](audience/control-group.md)
-   + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
    + [Creare la prima campagna](campaigns/create-campaigns.md)
