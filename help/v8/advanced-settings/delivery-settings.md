@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -135,14 +135,14 @@ Puoi selezionare un’altra modalità di approvazione nel campo appropriato. Le 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Limite di validità delle risorse"
->abstract="Il campo Limite di validità viene utilizzato per le risorse caricate, ad esempio la pagina speculare o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, le risorse non sono più disponibili."
+>abstract="Il campo Limite di validità viene utilizzato per le risorse caricate, come la pagina mirror o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
 
 
 Il campo **Durata consegna** consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità.
 
 Puoi anche scegliere di specificare le date. A questo scopo, seleziona **Imposta in modo esplicito le date di validità**. In questo caso, per le date di consegna e del limite validità puoi anche specificare l’ora. Per impostazione predefinita viene utilizzata l’ora corrente, ma puoi modificarla direttamente nel campo di input.
 
-**Limite di validità delle risorse**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco). Dopo questo limite, queste risorse non sono più disponibili.
+**Limite di validità delle risorse**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco). Superato il limite, le risorse non sono più disponibili.
 
 ![](assets/delivery-settings-2.png)
 
@@ -156,9 +156,9 @@ La pagina mirror è una pagina HTML accessibile online tramite un browser web. I
 Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 
 
-* **[!UICONTROL Forza la generazione della pagina speculare]**: utilizza questa modalità per generare la pagina speculare anche se nella consegna non è inserito alcun collegamento alla pagina speculare.
-* **[!UICONTROL Non generare la pagina speculare]**: utilizza questa modalità per evitare di generare una pagina speculare, anche se il collegamento è presente nella consegna.
-* **[!UICONTROL Genera una pagina speculare accessibile utilizzando solo l’identificatore del messaggio]**: quando il collegamento della pagina speculare non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare, nella finestra del registro di consegna, dalla console client.
+* **[!UICONTROL Forza la generazione della pagina mirror]**: utilizza questa modalità per generare la pagina mirror anche se nella consegna non è inserito alcun collegamento alla pagina mirror.
+* **[!UICONTROL Non generare la pagina mirror]**: utilizza questa modalità per evitare di generare una pagina mirror, anche se il collegamento è presente nella consegna.
+* **[!UICONTROL Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio]**: quando il collegamento della pagina mirror non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina mirror, nella finestra del registro di consegna, dalla console client.
 
 
 ### Tracciamento {#tracking}

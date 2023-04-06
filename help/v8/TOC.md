@@ -7,8 +7,8 @@ title: Documentazione Web di Campaign v8
 hide: true
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
                + [Utilizzare i modelli di contenuto e-mail](content/email-templates.md)
             + [Utilizzare i componenti per contenuti](content/content-components.md)
             + [Generare la versione testuale](content/text-version-email.md)
-            + [Aggiungere un collegamento alla pagina speculare](content/mirror-page.md)
+            + [Aggiungere un collegamento alla pagina mirror](content/mirror-page.md)
             + [Aggiungere una preintestazione](content/preheader.md)
             + [Aggiungere collegamenti e tracciare i messaggi](content/message-tracking.md)
          + Personalizzare lo stile del contenuto {#style}

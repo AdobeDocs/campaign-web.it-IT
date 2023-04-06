@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Parametri e-mail"
->abstract="I valori Da nome e Da e-mail sono definiti nel modello e-mail. La riga oggetto può essere personalizzata utilizzando l’editor di espressioni."
+>abstract="I valori Da nome e Da e-mail sono definiti nel modello e-mail. Il campo Oggetto può essere personalizzato utilizzando l’editor di espressioni."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

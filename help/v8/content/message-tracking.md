@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 >
 >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) viene definita a livello di superficie di canale (ad esempio, nel predefinito per messaggi) e durante la creazione del messaggio.
 
-In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla pagina speculare. Ulteriori informazioni sulla pagina speculare in [questa sezione](mirror-page.md).
+In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla pagina mirror. Ulteriori informazioni sulla pagina mirror in [questa sezione](mirror-page.md).
 
 ## Gestire il tracciamento {#manage-tracking}
 

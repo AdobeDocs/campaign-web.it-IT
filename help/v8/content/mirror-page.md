@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: Aggiungere un collegamento alla pagina speculare
-description: Scopri come aggiungere e gestire il collegamento alla pagina speculare
+title: Aggiungere un collegamento alla pagina mirror
+description: Scopri come aggiungere e gestire il collegamento alla pagina mirror
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 37%
+ht-degree: 99%
 
 ---
 
 
-# Aggiungere un collegamento alla pagina speculare{#mirror-page}
+# Aggiungere un collegamento alla pagina mirror{#mirror-page}
 
-La pagina speculare è una versione online della tua e-mail.
+La pagina mirror è una versione online della tua e-mail.
 
-Mentre la maggior parte dei client e-mail esegue il rendering delle immagini senza alcun problema, alcuni predefiniti possono evitare la visualizzazione delle immagini per motivi di sicurezza. Gli utenti possono passare alla pagina speculare di un’e-mail, ad esempio se riscontrano problemi di rendering o immagini interrotte quando tentano di visualizzarla nella casella in entrata. Si consiglia inoltre di fornire una versione online per motivi di accessibilità o di incoraggiare la condivisione social network.
+Mentre la maggior parte dei client e-mail esegue il rendering delle immagini senza alcun problema, alcuni predefiniti possono evitare la visualizzazione delle immagini per motivi di sicurezza. Gli utenti possono passare alla pagina mirror di un’e-mail, ad esempio se riscontrano problemi di rendering o immagini interrotte quando tentano di visualizzarla nella casella in entrata. Si consiglia inoltre di fornire una versione online per motivi di accessibilità o di incoraggiare la condivisione social.
 
-La pagina speculare generata da Adobe Campaign contiene tutti i dati di personalizzazione.
+La pagina mirror generata da Adobe Campaign contiene tutti i dati di personalizzazione.
 
-![campione di collegamento a specchio](assets/mirror-page-link.png){width="600" align="left"}
+![esempio di collegamento mirror](assets/mirror-page-link.png){width="600" align="left"}
 
-## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
+## Aggiungere un collegamento alla pagina mirror{#link-to-mirror-page}
 
-È buona prassi inserire un collegamento alla pagina speculare. Questo link può essere ad esempio &#39;Visualizza questa e-mail nel tuo browser&#39; o &#39;Leggi questo online&#39;. Spesso si trova nell’intestazione o nel piè di pagina dell’e-mail.
+È buona prassi inserire un collegamento alla pagina mirror. Questo link può essere ad esempio “Visualizza questa e-mail nel tuo browser” o “Leggi online”. Spesso si trova nell’intestazione o nel piè di pagina dell’e-mail.
 
-In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel contenuto dell’e-mail utilizzando l’ **blocco di personalizzazione**. Incorporato **Collegamento a una pagina speculare** nel contenuto dell’e-mail viene inserito il seguente codice: `<%@ include view='MirrorPage' %>`.
+In Adobe Campaign, puoi inserire un collegamento alla pagina mirror nel contenuto dell’e-mail utilizzando il **blocco di personalizzazione** dedicato. Il blocco di personalizzazione incorporato **Collegamento a una pagina mirror** inserisce il seguente codice nel contenuto dell’e-mail: `<%@ include view='MirrorPage' %>`.
 
 Per aggiungere un collegamento a una pagina mirror nel messaggio e-mail:
 
@@ -55,11 +55,11 @@ Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento d
 >
 >Nell’e-mail di test inviata ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
 
-Per impostazione predefinita, il periodo di conservazione per una pagina speculare è di 60 giorni. Trascorso tale periodo, la pagina mirror non è più disponibile.
+Per impostazione predefinita, il periodo di conservazione di una pagina mirror è di 60 giorni. Trascorso tale periodo, la pagina mirror non è più disponibile.
 
 
 ## Generazione di pagine mirror{#mirror-page-generation}
 
-Per impostazione predefinita, la pagina speculare viene generata automaticamente da Adobe Campaign se il contenuto dell’e-mail non è vuoto e se contiene un collegamento alla pagina speculare (aka Mirror link).
+Per impostazione predefinita, la pagina mirror viene generata automaticamente da Adobe Campaign se il contenuto dell’e-mail non è vuoto e se contiene un collegamento alla pagina mirror (detto anche collegamento mirror).
 
-Puoi controllare la modalità di generazione della pagina speculare e-mail. Le opzioni sono disponibili nelle proprietà di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#mirror)
+Puoi controllare la modalità di generazione della pagina mirror dell’e-mail. Le opzioni sono disponibili nelle proprietà di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#mirror)
