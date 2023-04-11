@@ -5,10 +5,10 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 title: Documentazione Web di Campaign v8
 hide: true
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
+source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,5 +72,10 @@ ht-degree: 79%
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
    + [Creare il primo flusso di lavoro](workflows/create-workflows.md)
+   + Utilizzare le attività del flusso di lavoro {#activities}
+      + [Guida introduttiva alle attività del flusso di lavoro](workflows/get-started-activities.md)
+      + [Attività di targeting](workflows/targeting-activities.md)
+      + [Attività dei canali](workflows/channel-activities.md)
+      + [Attività di gestione dati](workflows/data-management-activities.md)
 + [Reportistica](reporting/reports.md)
 
