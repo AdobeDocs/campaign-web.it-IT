@@ -5,9 +5,9 @@ description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Questa sezione descrive come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail.
 
-Puoi inoltre:
+Puoi anche:
 
-* Crea un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
+* Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
 * Importare un pubblico da un file. [Ulteriori informazioni](import-audience.md)
-* Utilizzare un pubblico Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
+* Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
 
 
 Per selezionare un pubblico esistente per il messaggio, segui la procedura seguente:
