@@ -5,13 +5,13 @@ description: Scopri come creare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Avvia il contenuto dell&#39;e-mail da zero {#create-email-content}
+# Creare il contenuto dell’e-mail da zero {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
