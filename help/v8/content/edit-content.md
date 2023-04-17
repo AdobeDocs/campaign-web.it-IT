@@ -5,7 +5,7 @@ description: Scopri come modificare il contenuto delle e-mail nell’interfaccia
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
