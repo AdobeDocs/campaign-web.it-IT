@@ -5,9 +5,9 @@ description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1473'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
