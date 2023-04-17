@@ -3,11 +3,14 @@ audience: end-user
 title: Utilizzare le attività di targeting dei flussi di lavoro
 description: Scopri come utilizzare le attività di targeting nei flussi di lavoro web Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 46b51762c12e14b1181033ca0a370f951af0fdd6
+exl-id: ffd58dbc-9207-4c1c-bad5-a208378621cf
+source-git-commit: f77b5a483f7276ecade687f9fd9e9028ec750dbf
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Attività di targeting {#targeting}
+
+contenuto TBD
