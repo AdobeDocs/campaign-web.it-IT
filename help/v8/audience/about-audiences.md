@@ -5,9 +5,9 @@ description: Scopri come utilizzare i tipi di pubblico nell’interfaccia utente
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ In questa sezione, scopri come definire il pubblico delle e-mail. Il pubblico è
 
 Per definire il pubblico, puoi procedere nei seguenti modi:
 
-* Utilizza un pubblico esistente. [Ulteriori informazioni](add-audience.md)
-* Crea un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
+* Utilizzare un pubblico esistente. [Ulteriori informazioni](add-audience.md)
+* Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
 * Importare un pubblico da un file. [Ulteriori informazioni](import-audience.md)
-* Utilizzare un pubblico Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md)
+* Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md)
 
-Inoltre, puoi definire gruppi di controllo per evitare di inviare messaggi a una parte del pubblico e misurare l’impatto delle campagne. [Ulteriori informazioni](control-group.md)
+Inoltre, puoi definire dei gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne. [Ulteriori informazioni](control-group.md)
 
 ![](assets/about-audience.png)
