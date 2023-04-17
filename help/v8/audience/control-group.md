@@ -5,9 +5,9 @@ description: Scopri come impostare un gruppo di controllo per i messaggi nell’
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
