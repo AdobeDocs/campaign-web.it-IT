@@ -5,9 +5,9 @@ description: Scopri come definire uno stile per i collegamenti
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
