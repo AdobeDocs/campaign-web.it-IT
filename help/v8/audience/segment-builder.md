@@ -5,9 +5,9 @@ description: Scopri come lavorare con il Generatore di segmenti
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
