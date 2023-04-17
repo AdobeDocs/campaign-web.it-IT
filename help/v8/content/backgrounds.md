@@ -5,9 +5,9 @@ description: Scopri come personalizzare lo sfondo delle e-mail
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
