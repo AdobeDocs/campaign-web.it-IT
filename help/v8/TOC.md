@@ -7,8 +7,8 @@ title: Documentazione Web di Campaign v8
 hide: true
 source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '259'
+ht-degree: 90%
 
 ---
 

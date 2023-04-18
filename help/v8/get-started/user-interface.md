@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 99%
+source-wordcount: '1388'
+ht-degree: 96%
 
 ---
 
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="Contenuto iOS push"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenuto SMS"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Abbonati alle app"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Popolazione di prova"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Modalità Anteprima"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Dati di arricchimento"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalizzazione"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="Selezione file"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Definizione colonne"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Formattazione dei parametri"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Invio di rapporti"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Tracciamento dei rapporti"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Panoramica sul reporting"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Statistiche di riferimento"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Selezione aggregata di una consegna"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Proprietà campagna"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Pianificazione della campagna"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Elenco flussi di lavoro"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Creazione di campagne"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Pianificazione della campagna"
+>abstract="TBD"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="Campi di deduplicazione"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Impostazioni di deduplicazione"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Complemento di deduplicazione"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="complemento di Dimension"
 >abstract="TBD"
