@@ -4,16 +4,16 @@ title: Introduzione ai flussi di lavoro
 description: Scopri come iniziare a utilizzare i flussi di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Introduzione ai flussi di lavoro {#workflows}
 
-## Cosa sono i flussi di lavoro Adobe Campaign?
+## Che cos’è un flusso di lavoro?
 
 Il marketing cross-channel è essenziale per qualsiasi azienda che desideri raggiungere i propri clienti in modo efficace. Adobe Campaign fornisce un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità.
 
