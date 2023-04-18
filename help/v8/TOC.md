@@ -5,7 +5,7 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 title: Documentazione Web di Campaign v8
 hide: true
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
+source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
    + Creare il primo flusso di lavoro {#create-workflow}
-      + [Panoramica sulla creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
+      + [Principi fondamentali per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare un flusso di lavoro](workflows/create-workflow.md)
       + [Avviare e monitorare l’esecuzione del flusso di lavoro](workflows/start-monitor-workflows.md)
    + Flussi di lavoro di progettazione {#design-workflows}
