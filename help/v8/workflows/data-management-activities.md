@@ -3,10 +3,11 @@ audience: end-user
 title: Utilizzare le attività di gestione dati dei flussi di lavoro
 description: Scopri come utilizzare le attività di gestione dei dati nei flussi di lavoro web Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '392'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,12 @@ elenco delle attività disponibili + descrizione breve + riferimento alla sezion
 
 ## Arricchimento {#enrichment}
 
-L’attività Arricchimento viene comunemente utilizzata in un flusso di lavoro dopo le attività di targeting. Consente di migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Attività di arricchimento"
+>abstract="L’attività Arricchimento ti consente di migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzato in un flusso di lavoro dopo le attività di targeting.<br/>Una volta aggiunti al flusso di lavoro i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività Enrichment per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno più probabilità di interessarsi al pubblico di destinazione."
+
+L’attività Arricchimento ti consente di migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzato in un flusso di lavoro dopo le attività di targeting.
 
 I dati di arricchimento possono essere:
 
