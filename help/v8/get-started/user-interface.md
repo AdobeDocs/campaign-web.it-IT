@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="Importare un pubblico da un file"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="Impostazioni del formato"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="Impostazioni delle colonne"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Modello di notifica push"
 >abstract="TBD"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="File di esempio"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definizione colonne"
 >abstract="TBD"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="Pianificazione della campagna"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Elenco flussi di lavoro"
 >abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Creazione di campagne"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Pianificazione della campagna"
->abstract="TBD"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
