@@ -5,9 +5,9 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ contenuto TBD
 
 ## Accedere ai flussi di lavoro creati
 
-Sfoglia, scheda, filtro
+Sfoglia scheda, filtro
 
 ## Stati dei flussi di lavoro
 
 Stati
 
-## Gestire i flussi di lavoro
+## Gestisci flussi di lavoro
 
-Duplicare/modificare/eliminare
+Duplica/modifica/elimina
