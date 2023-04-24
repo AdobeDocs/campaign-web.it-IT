@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -273,12 +273,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="Contenuto push Android"
+>title="Contenuto push per Android"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
->title="Contenuto iOS push"
+>title="Contenuto push per iOS"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]

@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,14 +72,14 @@ ht-degree: 90%
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
    + Creare il primo flusso di lavoro {#create-workflow}
-      + [Principi fondamentali per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
+      + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare un flusso di lavoro](workflows/create-workflow.md)
       + [Avviare e monitorare l’esecuzione del flusso di lavoro](workflows/start-monitor-workflows.md)
-   + Flussi di lavoro di progettazione {#design-workflows}
+   + Progettazione di flussi di lavoro {#design-workflows}
       + [Introduzione all’area di lavoro del flusso di lavoro](workflows/gs-canvas.md)
       + [Attività di targeting](workflows/targeting-activities.md)
-      + [Attività dei canali](workflows/channel-activities.md)
+      + [Attività del canale](workflows/channel-activities.md)
       + [Attività di gestione dati](workflows/data-management-activities.md)
-   + [Accesso e monitoraggio dei flussi di lavoro](workflows/access-monitor.md)
+   + [Accedere e monitorare i flussi di lavoro](workflows/access-monitor.md)
 + [Reportistica](reporting/reports.md)
 
