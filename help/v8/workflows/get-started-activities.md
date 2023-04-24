@@ -1,21 +1,22 @@
 ---
 audience: end-user
 title: Guida introduttiva alle attività del flusso di lavoro
-description: Scopri i diversi tipi di attività che puoi sfruttare per creare flussi di lavoro web Adobe Campaign
+description: Scopri i diversi tipi di attività che si possono utilizzare per creare flussi di lavoro in Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
+exl-id: 0c269e63-c861-4e51-b999-2e8d33fec7a0
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '61'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Guida introduttiva alle attività del flusso di lavoro {#get-started-activities}
 
-attività del flusso di lavoro
+cosa sono le attività del flusso di lavoro
 
-tipi di attività e risultati che è possibile ottenere con esse
+tipi di attività e cosa si può ottenere con esse
 
-come usarli (aggiungere, rimuovere, duplicare?...)
+come usarle (aggiungere, rimuovere, duplicare?...)
 
 riferimento alle pagine di attività di targeting / canale / gestione dati (foto cliccabili)
