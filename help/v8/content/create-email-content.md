@@ -4,10 +4,10 @@ title: Creare e-mail in E-mail Designer
 description: Scopri come creare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 94%
 
 ---
 
@@ -92,7 +92,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
    ![](assets/email_designer_7.png)
 
-1. Se necessario, puoi personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** nel menu avanzato. [Ulteriori informazioni sull’editor di codice](code-content.md)
+1. Se necessario, puoi personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** dal menu avanzato, per lavorare direttamente sul codice sorgente del messaggio e-mail. [Ulteriori informazioni sull’editor di codice](code-content.md)
 
    >[!CAUTION]
    >
