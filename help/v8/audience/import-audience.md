@@ -5,9 +5,9 @@ description: Scopri come importare i destinatari da un file esterno
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
