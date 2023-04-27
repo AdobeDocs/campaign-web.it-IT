@@ -5,9 +5,9 @@ description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1366'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -288,17 +288,17 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="Abbonati alle app"
+>title="Abbonati all’app"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Popolazione di prova"
+>title="Popolazione di test"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
->title="Modalità Anteprima"
+>title="Modalità anteprima"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -328,27 +328,27 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Invio di rapporti"
+>title="Invio reportistica"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="Tracciamento dei rapporti"
+>title="Tracciamento reportistica"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
->title="Panoramica sul reporting"
+>title="Panoramica sulla reportistica"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Statistiche di riferimento"
+>title="Reportistica statistiche di destinazione"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Selezione aggregata di una consegna"
+>title="Reportistica della selezione aggregata di una consegna"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -379,5 +379,5 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="complemento di Dimension"
+>title="Complemento di dimensione"
 >abstract="TBD"
