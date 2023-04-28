@@ -4,15 +4,17 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 94%
 
 ---
 
 
 # Principi chiave per la creazione di flussi di lavoro {#gs-workflow-creation}
+
+contenuto TBD
 
 Un flusso di lavoro è una definizione di un processo, cioè del diagramma del flusso di lavoro, che è una rappresentazione di ciò che dovrebbe accadere. Un flusso di lavoro è anche un’istanza di questo processo, ovvero di un’istanza del flusso di lavoro, che è una rappresentazione di ciò che sta effettivamente accadendo.
 
@@ -43,3 +45,5 @@ TBD: specificità dei flussi di lavoro autonomi e di campagna.
 I passaggi principali per creare i flussi di lavoro sono i seguenti:
 
 TBD: grafico che mostra l’intero processo con spiegazione e riferimento alle pagine della documentazione
+
+crea e definisci proprietà > orchestra attività nell’area di lavoro > configura impostazioni se necessario > avvia l’esecuzione e monitora
