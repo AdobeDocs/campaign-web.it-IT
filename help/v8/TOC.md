@@ -5,10 +5,10 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 title: Documentazione Web di Campaign v8
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 93%
 
 ---
 
@@ -74,12 +74,13 @@ ht-degree: 100%
    + Creare il primo flusso di lavoro {#create-workflow}
       + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare un flusso di lavoro](workflows/create-workflow.md)
-      + [Avviare e monitorare l’esecuzione del flusso di lavoro](workflows/start-monitor-workflows.md)
-   + Progettazione di flussi di lavoro {#design-workflows}
-      + [Introduzione all’area di lavoro del flusso di lavoro](workflows/gs-canvas.md)
+      + [Organizzazione delle attività del flusso di lavoro](workflows/build-workflow.md)
+      + [Configurare le impostazioni del flusso di lavoro](workflows/workflow-settings.md)
+      + [Avviare e monitorare un flusso di lavoro](workflows/start-monitor-workflows.md)
+   + [Accesso e gestione dei flussi di lavoro](workflows/access-monitor.md)
+   + Utilizzare le attività del flusso di lavoro {#design-workflows}
       + [Attività di targeting](workflows/targeting-activities.md)
       + [Attività del canale](workflows/channel-activities.md)
       + [Attività di gestione dati](workflows/data-management-activities.md)
-   + [Accedere e monitorare i flussi di lavoro](workflows/access-monitor.md)
 + [Reportistica](reporting/reports.md)
 
