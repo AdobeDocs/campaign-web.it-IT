@@ -7,7 +7,7 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -40,4 +40,4 @@ I passaggi principali per creare i flussi di lavoro sono i seguenti:
 
 TBD: grafico che mostra l’intero processo con spiegazione e riferimento alle pagine della documentazione
 
-crea e definisci proprietà > orchestra attività nell’area di lavoro > configura impostazioni se necessario > avvia l’esecuzione e monitora
+Creare e definire le proprietà > Orchestrare le attività nell’area di lavoro > Configurare le impostazioni se necessario > Avviare l’esecuzione e monitorare

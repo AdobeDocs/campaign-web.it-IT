@@ -27,6 +27,6 @@ A questo scopo, effettua le seguenti operazioni:
 1. xxxx
 1. xxxx
 
-contenuto TBD:
+contenuto da definire:
 
 Una volta creato il flusso di lavoro, puoi iniziare a orchestrare le diverse attività che eseguirà in un’area di lavoro visiva dedicata. [Scopri come orchestrare le attività del flusso di lavoro](build-workflow.md)
