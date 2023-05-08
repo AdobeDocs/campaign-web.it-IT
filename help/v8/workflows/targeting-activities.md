@@ -5,14 +5,14 @@ description: Scopri come utilizzare le attività di targeting nei flussi di lavo
 badge: label="Alpha" type="Positive"
 exl-id: ffd58dbc-9207-4c1c-bad5-a208378621cf
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '48'
+ht-degree: 100%
 
 ---
 
 # Attività di targeting {#targeting}
 
-contenuto TBD
+contenuto da definire
 
-<!--à reformuler-->Queste attività ti consentono di creare uno o più target definendo i set e suddividendo o combinando questi set utilizzando le operazioni di intersezione, unione o esclusione.
+<!--à reformuler-->Queste attività consentono di creare uno o più target definendo dei set e suddividendo o combinando tali set mediante le operazioni di intersezione, unione o esclusione.
