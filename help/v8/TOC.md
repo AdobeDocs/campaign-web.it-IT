@@ -6,9 +6,9 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
 source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,10 +74,10 @@ ht-degree: 93%
    + Creare il primo flusso di lavoro {#create-workflow}
       + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare un flusso di lavoro](workflows/create-workflow.md)
-      + [Organizzazione delle attività del flusso di lavoro](workflows/build-workflow.md)
+      + [Orchestrare le attività del flusso di lavoro](workflows/build-workflow.md)
       + [Configurare le impostazioni del flusso di lavoro](workflows/workflow-settings.md)
       + [Avviare e monitorare un flusso di lavoro](workflows/start-monitor-workflows.md)
-   + [Accesso e gestione dei flussi di lavoro](workflows/access-monitor.md)
+   + [Accedere ai flussi di lavoro e gestirli](workflows/access-monitor.md)
    + Utilizzare le attività del flusso di lavoro {#design-workflows}
       + [Attività di targeting](workflows/targeting-activities.md)
       + [Attività del canale](workflows/channel-activities.md)
