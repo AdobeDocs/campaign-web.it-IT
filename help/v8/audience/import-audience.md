@@ -4,9 +4,9 @@ title: Importare i destinatari da un file
 description: Scopri come importare i destinatari da un file esterno
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Durante la creazione e la personalizzazione del contenuto del messaggio, puoi se
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="File di esempio"
->abstract="Formati di file supportati: txt, csv, xls. Utilizza la prima riga come intestazione di colonna."
+>abstract="Formati di file supportati: txt, csv. Utilizza la prima riga come intestazione di colonna."
 
 
 ```json
