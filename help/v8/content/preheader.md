@@ -5,7 +5,7 @@ description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
@@ -15,10 +15,10 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Aggiunta di una preintestazione"
->abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzato dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
+>title="Aggiungere una preintestazione"
+>abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
 
-Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzato dal client e-mail.
+Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail.
 
 In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase.
 

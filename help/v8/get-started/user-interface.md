@@ -263,12 +263,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Metriche inviate"
+>title="Metriche di invio"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Errori metriche"
+>title="Metriche di errori"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
