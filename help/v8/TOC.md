@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
@@ -71,13 +71,13 @@ ht-degree: 100%
    + [Creare la prima campagna](campaigns/create-campaigns.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
+   + [Accesso e gestione dei flussi di lavoro](workflows/access-monitor.md)
    + Creare il primo flusso di lavoro {#create-workflow}
       + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
-      + [Creare un flusso di lavoro](workflows/create-workflow.md)
-      + [Orchestrare le attività del flusso di lavoro](workflows/build-workflow.md)
+      + [Creare il flusso di lavoro](workflows/create-workflow.md)
+      + [Aggiunta e configurazione delle attività del flusso di lavoro](workflows/build-workflow.md)
       + [Configurare le impostazioni del flusso di lavoro](workflows/workflow-settings.md)
       + [Avviare e monitorare un flusso di lavoro](workflows/start-monitor-workflows.md)
-   + [Accedere ai flussi di lavoro e gestirli](workflows/access-monitor.md)
    + Utilizzare le attività del flusso di lavoro {#design-workflows}
       + [Attività di targeting](workflows/targeting-activities.md)
       + [Attività del canale](workflows/channel-activities.md)
