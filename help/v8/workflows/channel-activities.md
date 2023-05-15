@@ -5,9 +5,9 @@ description: Scopri come utilizzare le attività del canale nei flussi di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6f9be348-6138-470c-8c40-750dc0311424
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 26%
 
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, come e-mail, SMS o push. Con i flussi di lavoro Adobe Campaign, puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento dei clienti.
 
-Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi tra diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di compleanno personalizzato a un cliente tramite SMS.
+Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi su diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
 
-Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono i clienti su più punti di contatto e stimolano le conversioni.
+Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono i clienti su più punti di contatto e danno impulso alle conversioni.
 
-Le attività Canale sono disponibili nella palette a sinistra dello schermo, nella sezione Canali .
+Le attività dei canali sono disponibili nella palette a sinistra dello schermo, nella sezione Canali.
 
 ## E-mail {#email}
 
@@ -30,7 +30,7 @@ come aggiungere e configurare l’attività
 esempio di attività configurata all’interno di un flusso di lavoro
 
 
-L’attività Email delivery ti consente di configurare l’invio di un’e-mail in un flusso di lavoro.
+L’attività Consegna e-mail ti consente di configurare l’invio di un’e-mail in un flusso di lavoro.
 
 <!-- Scheduled emails available?
 
