@@ -5,9 +5,9 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 636a5b40-c351-45a0-bcda-934dbce1a430
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ contenuto da confermare
 Panoramica e principio dell’area di lavoro del flusso di lavoro
 
 
-Una volta che hai [creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all’interno di una campagna, puoi iniziare a orchestrare le diverse attività che eseguirà.
+Dopo aver [creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all’interno di una campagna, puoi iniziare a orchestrare le diverse attività che eseguirà.
 
-A questo scopo, un’area di lavoro visiva ti consente di creare un diagramma di flusso di lavoro, in cui puoi aggiungere varie attività e collegarle in ordine sequenziale.
+A tale scopo, un’area di lavoro visiva ti consente di creare un diagramma di flusso di lavoro, in cui puoi aggiungere varie attività e collegarle in ordine sequenziale.
 
-* [Scopri come utilizzare l’area di lavoro del flusso di lavoro](#canvas)
+* [Scopri come lavorare con l’area di lavoro del flusso di lavoro](#canvas)
 * [Scopri come aggiungere e collegare le attività del flusso di lavoro](#activities)
 
 ## Utilizzare l’area di lavoro del flusso di lavoro {#canvas}
@@ -40,4 +40,4 @@ A questo scopo, un’area di lavoro visiva ti consente di creare un diagramma di
 * Utilizzare le transizioni: visualizzare i risultati, aggiungere etichette alle transizioni
 * Relazione tra attività: quali attività è possibile aggiungere o meno a seconda di quella precedente
 
-Dopo aver progettato correttamente il diagramma del flusso di lavoro, puoi eseguire il flusso di lavoro e tenere traccia delle varie attività da eseguire. [Scopri come avviare un flusso di lavoro e monitorarne l’esecuzione](start-monitor-workflows.md)
+Dopo aver progettato correttamente il diagramma del flusso di lavoro, puoi eseguire il flusso di lavoro e tenere traccia della modalità di esecuzione delle varie attività. [Scopri come avviare un flusso di lavoro e monitorarne l’esecuzione](start-monitor-workflows.md)
