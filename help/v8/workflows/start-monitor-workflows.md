@@ -5,15 +5,15 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Avviare e monitorare l’esecuzione del flusso di lavoro {#start-monitor}
 
-Dopo aver creato il flusso di lavoro e progettato le attività da eseguire nell’area di lavoro del flusso di lavoro, puoi avviarne l’esecuzione e monitorarne la modalità di esecuzione.
+Dopo aver creato il flusso di lavoro e progettato le attività da eseguire nella sua area di lavoro, puoi avviarne l’esecuzione e monitorarne la modalità di esecuzione.
 
 * Come eseguire il flusso di lavoro
 
