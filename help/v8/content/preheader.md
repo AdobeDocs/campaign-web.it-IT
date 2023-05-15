@@ -4,10 +4,10 @@ title: Aggiungere una preintestazione in E-mail Designer
 description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body.png)
 
-1. Da **[!UICONTROL Impostazioni corpo]** nel riquadro a destra, fai clic sull’icona di modifica accanto al campo **[!UICONTROL Preintestazione]** per aggiungere il testo desiderato.
+1. Da **[!UICONTROL Impostazioni]** aggiungi la tua preintestazione. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
 
    ![](assets/preheader_body_settings.png)
-
-1. Aggiungi la preintestazione. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
-
-   ![](assets/preheader_3.png)
 
 1. Nella finestra **[!UICONTROL Modifica personalizzazione]** è possibile aggiungere un **[!UICONTROL Blocco di contenuto]**, **[!UICONTROL Contenuto dinamico]** o dei **[!UICONTROL Campi di personalizzazione]**.
 

@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -38,43 +38,6 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalizzare l’oggetto dell’e-mail {#personalize-subject-line}
-
-Per aggiungere la personalizzazione nel campo **[!UICONTROL Oggetto]** del messaggio, segui i passaggi seguenti:
-
-1. Fai clic sull’icona **Apri finestra di personalizzazione** a destra del campo **Oggetto**.
-1. Inserisci il contenuto dell’oggetto dell’e-mail e seleziona gli attributi di personalizzazione da aggiungere.
-1. Fai clic su **Conferma**. Gli attributi di personalizzazione vengono aggiunti all’oggetto dell’e-mail.
-
-![](assets/perso-subject.png)
-
-## Personalizzare il contenuto delle e-mail {#personalize-emails}
-
-Per personalizzare il contenuto dell’e-mail, apri il messaggio in E-mail Designer ed esegui le seguenti operazioni:
-
-1. Fai clic all’interno di un blocco di testo.
-1. Nella barra degli strumenti contestuale, seleziona **Aggiungi personalizzazione**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Inserisci il nome del destinatario nell’editor di personalizzazione e conferma.
-
-   ![](assets/perso-add-name.png)
-
-   L’attributo di personalizzazione viene aggiunto al contenuto dell’e-mail.
-
-   Puoi simulare il contenuto per controllarne il rendering. [Ulteriori informazioni](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-Per aggiungere un blocco di contenuto all’e-mail, segui questi stessi passaggi e seleziona un blocco di contenuto dall’ultima icona:
-
-![](assets/perso-insert-block.png)
-
-Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail, come illustrato di seguito. Viene automaticamente adattato al profilo del destinatario quando viene generata la personalizzazione, nella fase di preparazione della consegna.
-
-![](assets/perso-content-block-in-email.png)
-
 
 I blocchi di contenuto incorporati sono:
 
@@ -92,7 +55,44 @@ I blocchi di contenuto incorporati sono:
 * **[!UICONTROL Stile e-mail di contenuto]** e **[!UICONTROL Stile notifica]**: genera il codice necessario per formattare un’e-mail con stili HTML predefiniti.
 * **[!UICONTROL Collegamento annullamento iscrizione]**: inserisce un collegamento che consente di annullare l’iscrizione a tutte le consegne (elenco Bloccati). Il contenuto associato predefinito è: “Hai ricevuto questo messaggio perché sei stato in contatto con ***nome organizzazione*** o una sua filiale. Per non ricevere più messaggi da ***nome organizzazione***, fai clic qui.”
 
+## Personalizzare l’oggetto dell’e-mail {#personalize-subject-line}
 
+Per aggiungere la personalizzazione nel campo **[!UICONTROL Oggetto]** del messaggio, segui i passaggi seguenti:
+
+1. Fai clic sull’icona **[!UICONTROL Apri finestra di personalizzazione]** a destra del campo **[!UICONTROL Oggetto]**.
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. Inserisci il contenuto dell’oggetto dell’e-mail e seleziona gli attributi di personalizzazione da aggiungere.
+
+1. Fai clic su **[!UICONTROL Conferma]**** da convalidare. Gli attributi di personalizzazione vengono aggiunti all’oggetto dell’e-mail.
+
+## Personalizzare il contenuto delle e-mail {#personalize-emails}
+
+Per personalizzare il contenuto dell’e-mail, apri il messaggio in E-mail Designer ed esegui le seguenti operazioni:
+
+1. Fai clic all’interno di un blocco di testo.
+1. Nella barra degli strumenti contestuale, seleziona **[!UICONTROL Aggiungi personalizzazione]**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Inserisci il nome del destinatario nell’editor di personalizzazione e conferma.
+
+   ![](assets/perso-add-name.png)
+
+   L’attributo di personalizzazione viene aggiunto al contenuto dell’e-mail.
+
+   Puoi simulare il contenuto per controllarne il rendering. [Ulteriori informazioni](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. Per aggiungere un blocco di contenuto all’e-mail, segui questi stessi passaggi e seleziona un blocco di contenuto dall’ultima icona:
+
+   ![](assets/perso-insert-block.png)
+
+1. Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail. Viene automaticamente adattato al profilo del destinatario quando viene generata la personalizzazione, nella fase di preparazione della consegna.
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## Personalizzare i collegamenti nelle e-mail {#personalize-links}
 
