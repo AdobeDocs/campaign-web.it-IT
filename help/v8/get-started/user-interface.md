@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Proprietà di creazione della campagna"
->abstract="TBD"
+>abstract="Definisci proprietà e metadati per la campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Pianificazione della creazione della campagna"
->abstract="TBD"
+>abstract="Definisci la pianificazione per la campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Metriche di invio"
->abstract="TBD"
+>abstract="Numero di e-mail consegnate."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
->abstract="TBD"
+>abstract="Numero di e-mail con stato di errore."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenuto SMS"
->abstract="TBD"
+>abstract="Definisci il contenuto dell’SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Abbonati all’app"
->abstract="TBD"
+>abstract="Visualizza l’anteprima e verifica il messaggio aggiungendo utenti con sottoscrizione all’app alla destinazione principale. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Popolazione di test"
->abstract="TBD"
+>title="Popolazione di prova"
+>abstract="Seleziona una modalità di popolazione del test."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modalità anteprima"
->abstract="TBD"
+>abstract="Visualizza l’anteprima e verifica il messaggio includendo il gruppo di test nel target principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
