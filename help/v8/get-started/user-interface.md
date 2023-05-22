@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Riepilogo del rapporto SMS"
->abstract="TBD"
+>abstract="Scopri le metriche di reporting per la consegna SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
->abstract="TBD"
+>abstract="Scopri le metriche di reporting per la consegna push."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributi avanzati del generatore di regole"
->abstract="TBD"
+>abstract="Utilizza attributi avanzati per definire la regola."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenuto push per Android"
->abstract="TBD"
+>abstract="Definisci il contenuto push Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenuto push per iOS"
->abstract="TBD"
+>abstract="Definisci il contenuto push di iOS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Invio reportistica"
->abstract="TBD"
+>abstract="Consulta gli indicatori di invio per il reporting della campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracciamento reportistica"
->abstract="TBD"
+>abstract="Consulta gli indicatori di tracciamento per il reporting della campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Panoramica sulla reportistica"
->abstract="TBD"
+>abstract="Metriche chiave per la consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Reportistica statistiche di destinazione"
->abstract="TBD"
+>abstract="Questa sezione mostra metriche specifiche in base al pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Reportistica della selezione aggregata di una consegna"
->abstract="TBD"
+>title="Reporting aggregato per le consegne"
+>abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Elenco flussi di lavoro"
->abstract="TBD"
+>abstract="Elenco dei flussi di lavoro disponibili per la campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorizzazione necessaria"
->abstract="TBD"
+>abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Autorizzazione necessaria"
->abstract="TBD"
+>abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Nuova metrica di quarantena"
 >abstract="Nuova metrica di quarantena."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Selezione modello SMS"
+>abstract="Seleziona un modello predefinito per avviare la consegna SMS."
