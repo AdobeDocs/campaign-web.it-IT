@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: ht
-source-wordcount: '79'
-ht-degree: 100%
+source-git-commit: daf2b536c2483ab350c468910863b1076773a080
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 55%
 
 ---
 
@@ -16,9 +16,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flussi di lavoro"
->abstract="Accedi all’elenco dei flussi di lavoro di Campaign. Puoi visualizzarne lo stato, le date dell’ultima e della prossima elaborazione e l’ambiente. Puoi filtrare l’elenco per stato, data dell’ultima elaborazione e tipo di flusso di lavoro. Sono disponibili anche i modelli di flusso di lavoro. Questi elenchi sono di sola lettura."
+>abstract="In questa schermata, puoi accedere all’elenco dei flussi di lavoro, controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro. Passa alla scheda Modelli per accedere ai modelli di flusso di lavoro."
 
-contenuto TBD
 
 ## Accedere ai flussi di lavoro creati
 
