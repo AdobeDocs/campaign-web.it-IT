@@ -4,9 +4,9 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ In una campagna cross-channel, una singola comunicazione di marketing utilizza c
 >id="acw_campaign_creation_properties"
 >title="Proprietà di creazione della campagna"
 >abstract="Definisci proprietà e metadati per la campagna."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Proprietà campagna"
+>abstract="Definisci le impostazioni e i metadati della campagna."
 
 Le proprietà della campagna vengono visualizzate con la creazione di una nuova campagna.
 
