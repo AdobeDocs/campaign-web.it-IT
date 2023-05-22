@@ -4,10 +4,10 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 21%
+source-wordcount: '303'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,14 @@ Progetta ed esegui campagne e-mail dal volume elevato per distribuire messaggi p
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Con le funzionalità di segmentazione di Adobe Campaign, puoi eseguire query su un database di volumi elevati e definire facilmente segmenti di marketing dinamico destinati in modo ottimale alle campagne.
 
 ## Creare una campagna cross-channel {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Elenco flussi di lavoro"
+>abstract="Elenco dei flussi di lavoro disponibili per la campagna. Utilizza il pulsante &quot;Crea flusso di lavoro&quot; per aggiungere un flusso di lavoro alla campagna."
+
+
 
 In una campagna cross-channel, una singola comunicazione di marketing utilizza canali diversi. I dati vengono trasmessi tra i canali. Il cliente riceve la comunicazione attraverso più canali in base, ad esempio, alla sua interazione con la comunicazione precedente.
 
