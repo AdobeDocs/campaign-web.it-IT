@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Modello di notifica push"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Proprietà di creazione della campagna"
->abstract="Definisci proprietà e metadati per la campagna."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Pianificazione della creazione della campagna"
->abstract="Definisci la pianificazione per la campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -269,7 +260,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
->abstract="Numero di e-mail con stato di errore."
+>abstract="Numero di e-mail con lo stato di errore."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -289,17 +280,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Abbonati all’app"
->abstract="Visualizza l’anteprima e verifica il messaggio aggiungendo utenti con sottoscrizione all’app alla destinazione principale. "
+>abstract="Visualizza l’anteprima e verifica del messaggio aggiungendo gli abbonati all’app alla destinazione principale. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Popolazione di prova"
->abstract="Seleziona una modalità di popolazione del test."
+>abstract="Seleziona una modalità di popolamento del test."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modalità anteprima"
->abstract="Visualizza l’anteprima e verifica il messaggio includendo il gruppo di test nel target principale."
+>abstract="Visualizza l’anteprima e verifica del messaggio includendo la popolazione di prova nel target principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definizione colonne"
->abstract="TBD"
+>abstract="Seleziona le colonne da inserire dal file."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formattazione dei parametri"
->abstract="TBD"
+>abstract="Definisci i parametri di formattazione per il file."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Campi avanzati del selettore attributi"
->abstract="TBD"
+>abstract="Configurare le colonne con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campi avanzati del generatore di regole"
->abstract="TBD"
+>abstract="Configurare le colonne con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="Proprietà di consegna SMS"
->abstract="TBD"
+>abstract="Gestisci le proprietà di consegna SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Proprietà di consegna push"
->abstract="TBD"
+>abstract="Gestisci le proprietà di consegna push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nuova metrica di quarantena"
->abstract="TBD"
+>abstract="Nuova metrica di quarantena."
 
