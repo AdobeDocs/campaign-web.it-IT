@@ -4,10 +4,10 @@ title: Introduzione ai tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico nell’interfaccia utente di Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Per definire il pubblico, puoi procedere nei seguenti modi:
 
 * Utilizzare un pubblico esistente. [Ulteriori informazioni](add-audience.md)
 * Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
-* Importare un pubblico da un file. [Ulteriori informazioni](import-audience.md)
+* Utilizza un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
 * Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md)
 
 Inoltre, puoi definire dei gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne. [Ulteriori informazioni](control-group.md)

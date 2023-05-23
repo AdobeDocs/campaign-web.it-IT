@@ -4,10 +4,10 @@ title: Selezionare un pubblico
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Questa sezione descrive come selezionare un pubblico esistente durante la defini
 Puoi anche:
 
 * Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
-* Importare un pubblico da un file. [Ulteriori informazioni](import-audience.md)
+* Utilizza un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
 * Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
 
 

@@ -5,7 +5,7 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 94%
@@ -63,7 +63,7 @@ ht-degree: 94%
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Selezionare un pubblico esistente](audience/add-audience.md)
    + [Creare un pubblico con il generatore di regole](audience/segment-builder.md)
-   + [Importare un pubblico](audience/import-audience.md)
+   + [Importare un pubblico](audience/file-audience.md)
    + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
    + [Impostare un gruppo di controllo](audience/control-group.md)
 + Campagne cross-channel {#campaigns}
@@ -72,10 +72,10 @@ ht-degree: 94%
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
    + [Accesso e gestione dei flussi di lavoro](workflows/access-monitor.md)
-   + Creare ed eseguire il primo flusso di lavoro {#create-workflow}
+   + Crea ed esegui il primo flusso di lavoro {#create-workflow}
       + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare il flusso di lavoro](workflows/create-workflow.md)
-      + [Aggiungi e orchestra attività del flusso di lavoro](workflows/build-workflow.md)
+      + [Aggiungere e orchestrare attività del flusso di lavoro](workflows/build-workflow.md)
       + [Configurare le impostazioni del flusso di lavoro](workflows/workflow-settings.md)
       + [Avviare e monitorare un flusso di lavoro](workflows/start-monitor-workflows.md)
    + Utilizzare le attività del flusso di lavoro {#design-workflows}
