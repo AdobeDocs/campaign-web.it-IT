@@ -5,8 +5,8 @@ description: Scopri come progettare la consegna SMS
 badge: label="Alpha" type="Positive"
 source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
