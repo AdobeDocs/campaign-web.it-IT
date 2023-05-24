@@ -33,7 +33,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Salva le modifiche.
 
-1. Una volta creato il collegamento, puoi comunque modificarlo dal **[!UICONTROL Impostazioni]** scheda .
+1. Una volta creato il collegamento, puoi comunque modificarlo dall’ **[!UICONTROL Impostazioni]** scheda.
 
    * Puoi modificare il collegamento e modificarne la relativa **[!UICONTROL Destinazione]**.
    * Puoi scegliere di sottolineare o meno il collegamento, selezionando l’opzione corrispondente.

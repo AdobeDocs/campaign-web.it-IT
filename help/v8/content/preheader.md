@@ -34,7 +34,7 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body.png)
 
-1. Da **[!UICONTROL Impostazioni]** aggiungi la tua preintestazione. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
+1. Dalla sezione **[!UICONTROL Impostazioni]** , aggiungi il preheader. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
 
    ![](assets/preheader_body_settings.png)
 

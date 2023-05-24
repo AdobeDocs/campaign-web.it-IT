@@ -5,7 +5,7 @@ description: Scopri come utilizzare le attività del canale nei flussi di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6f9be348-6138-470c-8c40-750dc0311424
 source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 

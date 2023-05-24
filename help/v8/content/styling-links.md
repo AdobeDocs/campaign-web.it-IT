@@ -18,7 +18,7 @@ In E-mail Designer è possibile sottolineare un collegamento e selezionarne il c
 
 1. In un componente **[!UICONTROL Testo]** in cui è stato inserito un collegamento, seleziona il collegamento.
 
-1. In **[!UICONTROL Impostazioni]** scheda, controllo **[!UICONTROL Collegamento sottolineato]** di sottolineare l&#39;etichetta.
+1. In **[!UICONTROL Impostazioni]** scheda, spunta **[!UICONTROL Sottolinea collegamento]** per fare in modo che l&#39;etichetta sia sottolineata.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ In E-mail Designer è possibile sottolineare un collegamento e selezionarne il c
 
    ![](assets/link_2.png)
 
-1. Per modificare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda .
+1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda.
 
    ![](assets/link_3.png)
 

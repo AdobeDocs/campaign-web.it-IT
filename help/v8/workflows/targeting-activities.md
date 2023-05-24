@@ -5,7 +5,7 @@ description: Scopri come utilizzare le attività di targeting nei flussi di lavo
 badge: label="Alpha" type="Positive"
 exl-id: ffd58dbc-9207-4c1c-bad5-a208378621cf
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
 

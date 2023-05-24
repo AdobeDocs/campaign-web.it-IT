@@ -65,7 +65,7 @@ Per aggiungere la personalizzazione nel campo **[!UICONTROL Oggetto]** del messa
 
 1. Inserisci il contenuto dell’oggetto dell’e-mail e seleziona gli attributi di personalizzazione da aggiungere.
 
-1. Fai clic su **[!UICONTROL Conferma]**** da convalidare. Gli attributi di personalizzazione vengono aggiunti all’oggetto dell’e-mail.
+1. Clic **[!UICONTROL Conferma]**** convalidare. Gli attributi di personalizzazione vengono aggiunti all’oggetto dell’e-mail.
 
 ## Personalizzare il contenuto delle e-mail {#personalize-emails}
 
@@ -90,7 +90,7 @@ Per personalizzare il contenuto dell’e-mail, apri il messaggio in E-mail Desig
 
    ![](assets/perso-insert-block.png)
 
-1. Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail. Viene automaticamente adattato al profilo del destinatario quando viene generata la personalizzazione, nella fase di preparazione della consegna.
+1. Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail e viene adattato automaticamente al profilo del destinatario quando viene generata la personalizzazione, al passaggio di preparazione della consegna.
 
    ![](assets/perso-content-block-in-email.png)
 

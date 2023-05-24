@@ -5,8 +5,8 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '99'
 ht-degree: 100%
 
 ---

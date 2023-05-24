@@ -24,7 +24,7 @@ In questo esempio, regoliamo la spaziatura e l’allineamento verticale all’in
 
    ![](assets/alignment_2.png)
 
-1. I parametri modificabili per quella colonna vengono visualizzati nella **[!UICONTROL Stili]** scheda . Regolare la **[!UICONTROL Allineamento]** utilizzando la sezione dedicata.
+1. I parametri modificabili per tale colonna vengono visualizzati nel **[!UICONTROL Stili]** scheda. Regolare **[!UICONTROL Allineamento]** utilizzando la sezione dedicata.
 
    ![](assets/alignment_3.png)
 

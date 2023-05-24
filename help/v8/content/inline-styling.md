@@ -18,7 +18,7 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 
 1. Seleziona un componente direttamente nel contenuto o utilizza la **[!UICONTROL struttura di navigazione]** disponibile nel riquadro a sinistra.
 
-1. Da **[!UICONTROL Stili]** fai clic sulla scheda **[!UICONTROL Avanzate]** a discesa.
+1. Dalla sezione **[!UICONTROL Stili]** , fare clic sulla scheda **[!UICONTROL Avanzate]** a discesa.
 
    ![](assets/styles_1.png)
 
