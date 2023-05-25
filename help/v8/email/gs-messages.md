@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 37%
+source-wordcount: '604'
+ht-degree: 34%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 è dotato dei canali di consegna seguenti:
 
 ## Creare una consegna
 
-Puoi creare consegne autonome dalla **Consegna** principale o creare consegne nel contesto di una campagna di marketing.
+Puoi creare consegne autonome dalla **Consegne** menu a sinistra, o creare consegne nel contesto di una campagna di marketing, dal menu **Campagne** menu a sinistra.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Per creare una consegna autonoma, segui questi passaggi:
 Per creare una consegna in una campagna, effettua le seguenti operazioni:
 
 1. Crea una campagna o aprila.
+1. Crea un flusso di lavoro o aprilo esistente.
+1. Aggiungere e configurare un **Creare un pubblico** e fai clic sul pulsante `+`pulsante.
+   ![](assets/add-delivery-in-wf.png)
+1. Seleziona un’attività di consegna: e-mail, SMS, notifica push (Android) o notifica push (iOS). Per ulteriori informazioni sui canali di consegna e su come definirne il contenuto, consulta queste sezioni:
+
+   * [Canale e-mail](../email/create-email.md)
+   * [Canale di notifica push](../push/gs-push.md)
+   * [Canale SMS](../sms/create-sms.md)
+
+1. Avvia il flusso di lavoro e controlla i registri.
 
 Per ulteriori informazioni su come configurare una campagna,
 
