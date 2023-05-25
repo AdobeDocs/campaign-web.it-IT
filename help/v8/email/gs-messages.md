@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '959'
+ht-degree: 29%
 
 ---
 
@@ -34,6 +34,9 @@ Puoi creare consegne autonome dalla **[!UICONTROL Consegne]** menu a sinistra, o
 Per creare una consegna autonoma, segui questi passaggi:
 
 1. Accedi a **[!UICONTROL Consegne]** nel menu di navigazione a sinistra, quindi fai clic su **[!UICONTROL Creare una consegna]** pulsante.
+
+   ![](assets/create-a-delivery.png)
+
 1. Scegli un canale per la consegna. Per ulteriori informazioni sui canali di consegna e su come definirne il contenuto, consulta queste sezioni:
 
    * [Canale e-mail](../email/create-email.md)
@@ -108,3 +111,21 @@ Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima 
 ## Registri di consegna e di tracciamento{#gs-tracking-logs}
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
+
+## Duplicare una consegna{#delivery-duplicate}
+
+Puoi creare una copia di una consegna esistente dall’elenco delle consegne o dal dashboard di consegna.
+
+Per duplicare una consegna dall’elenco delle consegne, effettua le seguenti operazioni:
+
+1. Fai clic sul pulsante dei tre punti a destra, accanto al nome della consegna da duplicare.
+1. Seleziona  **[!UICONTROL Duplica]**.
+1. Conferma duplicazione: la nuova dashboard di consegna si apre nella schermata centrale.
+
+
+Per duplicare una consegna dal dashboard, effettua le seguenti operazioni:
+
+1. Apri la consegna e fai clic su  **[!UICONTROL ...Altro]** nella sezione superiore dello schermo.
+1. Seleziona  **[!UICONTROL Duplica]**.
+1. Conferma duplicazione: la nuova consegna sostituisce la consegna corrente nella schermata centrale.
+
