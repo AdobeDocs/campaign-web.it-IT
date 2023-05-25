@@ -4,10 +4,10 @@ title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazio
 Per creare un gruppo di controllo, fai clic sul pulsante **[!UICONTROL Imposta gruppo di controllo]** nella sezione **Pubblico** dell’assistente per la creazione della consegna.
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>Impossibile utilizzare i gruppi di controllo durante il caricamento della popolazione target [da un file esterno](file-audience.md).
+
 
 ## Estrarre dal target {#extract-target}
 

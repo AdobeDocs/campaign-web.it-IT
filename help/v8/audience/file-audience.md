@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico delle e-mail
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 23%
+source-wordcount: '288'
+ht-degree: 22%
 
 ---
 
@@ -50,6 +50,10 @@ Per eseguire il targeting dei profili da un file locale direttamente dall’inte
 Durante la creazione e la personalizzazione del contenuto del messaggio, puoi selezionare i campi dal file di input nell’editor di personalizzazione.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>Non è possibile utilizzare [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
 
 ## File di esempio {#sample-file}
 

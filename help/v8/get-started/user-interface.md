@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 83%
+source-wordcount: '1624'
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Global report not alpha
 >title="Explorer"
 >abstract="Il menu **Explorer** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate di elenchi sono di sola lettura, ad eccezione dell’elenco delle consegne e-mail."
 
-Il menu **Explorer** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate di elenchi sono di sola lettura, ad eccezione dell’elenco delle consegne e-mail.
+Il menu **Explorer** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8.
 
 Gli elementi visualizzati in Explorer dipendono dalle autorizzazioni dell’utente.
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="Consegne"
 >abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, le date di contatto e di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic sul pulsante &quot;Crea consegna&quot; per aggiungere una nuova consegna. Seleziona una consegna per visualizzarne il contenuto, il pubblico e i dettagli."
 
-* **Campagne**: questo è l’elenco delle campagne. Per impostazione predefinita, puoi visualizzarne le date di inizio, fine e ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio e fine. Sono disponibili anche i modelli delle campagne. Questi elenchi sono di sola lettura.
+Nella sezione CAMPAIGN MANAGEMENT, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
+
+* **Campagne** : questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella o creare un filtro avanzato per definire criteri di filtro personalizzati.
 
 * **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. I modelli di consegna sono disponibili anche in modalità di sola lettura. Puoi utilizzare la console Client per modificarli. Consulta questa [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=it){target="_blank"}.
 
    Per eliminare o duplicare una consegna, utilizza il pulsante **Altre azioni**.
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Flussi di lavoro** - In questa schermata, è possibile accedere all’elenco completo dei flussi di lavoro e dei modelli di flusso di lavoro. Puoi controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro o un nuovo modello di flusso di lavoro. È possibile filtrare l&#39;elenco con gli stessi criteri degli altri oggetti. Inoltre, puoi filtrare i flussi di lavoro che appartengono o meno a una campagna.
+
 
 ### Gestione clienti
 
