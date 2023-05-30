@@ -4,9 +4,9 @@ title: Anteprima del contenuto dell’e-mail
 description: Scopri come visualizzare in anteprima il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Anteprima del contenuto dell’e-mail {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Anteprima intelligente dei contenuti"
->abstract="Utilizza i dati del profilo per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, controllare gli attributi di personalizzazione e verificare come i destinatari possono visualizzare il contenuto del messaggio."
 
 Utilizza la funzionalità di simulazione del contenuto in Adobe Campaign per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, per controllare la personalizzazione e verificare come viene visualizzata dai destinatari.
 

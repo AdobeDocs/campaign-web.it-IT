@@ -4,7 +4,7 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 29%
@@ -50,7 +50,7 @@ Per creare una consegna autonoma, segui questi passaggi:
 1. Utilizza il  **[!UICONTROL Simula contenuto]** per testare la consegna e le impostazioni di personalizzazione. Ulteriori informazioni sulla simulazione dei messaggi in [questa sezione](../preview-test/preview-test.md).
 1. Fai clic su  **[!UICONTROL Prepara]** per calcolare la popolazione target e generare i messaggi. Il passaggio di preparazione può richiedere alcuni minuti. Una volta completata la preparazione, i messaggi sono pronti per l’invio. In caso di errore, passa a **Registri** per controllare avvisi e avvisi.
 1. Controllare i risultati e fare clic su  **[!UICONTROL Invia]** per iniziare a inviare messaggi.
-1. Una volta inviati i messaggi, passa a **Rapporti** per accedere alle metriche chiave. Ulteriori informazioni sui rapporti di consegna in [questa sezione](../reporting/reports.md).
+1. Una volta inviati i messaggi, passa a **Rapporti** per accedere alle metriche chiave. Ulteriori informazioni sui rapporti di consegna in [questa sezione](../reporting/delivery-reports.md).
 
 >[!TAB Creare una consegna in una campagna]
 
