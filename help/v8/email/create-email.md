@@ -4,15 +4,20 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # Inviare la prima e-mail {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Inviare la prima e-mail con Adobe Campaign"
+>abstract="Scopri come utilizzare E-mail Designer per creare il contenuto, visualizzarlo in anteprima e testarlo e inviare un’e-mail a un pubblico esistente in un caso d’uso end-to-end."
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
@@ -20,7 +25,7 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
 
 ![](assets/delivery-list.png)
 
-## Creare l’e-mail {#create-email}
+## Creare l’e-mail consegna {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
 >title="Proprietà e-mail"
 >abstract="Le proprietà sono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
 
-1. Per creare una nuova consegna, passa a **[!UICONTROL Consegne]** nella barra a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea una consegna]**.
+Per creare una nuova consegna, segui questi passaggi:
+
+1. Accedi a **[!UICONTROL Consegne]** nella barra a sinistra, quindi fai clic su  **[!UICONTROL Creare una consegna]** pulsante.
 
 1. Seleziona **[!UICONTROL E-mail]** come canale e scegli un modello.
 
@@ -60,11 +67,6 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
    Inoltre, è possibile accedere alle impostazioni avanzate, come le regole di tipologia e le mappature target, facendo clic sul pulsante situato accanto al nome della consegna. Queste impostazioni sono preconfigurate nel modello selezionato, ma possono essere modificate in base alle esigenze per questo specifico messaggio e-mail.
 
 ## Creare il contenuto dell’e-mail {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Progettare il contenuto delle e-mail"
->abstract="Scopri come utilizzare E-mail Designer."
 
 Per istruzioni dettagliate su come configurare il contenuto delle e-mail, consulta [questa sezione](../content/edit-content.md).
 
