@@ -4,9 +4,9 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
+source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '663'
 ht-degree: 7%
 
 ---
@@ -21,27 +21,12 @@ ht-degree: 7%
 
 ## Creare il flusso di lavoro {#create-workflow}
 
-Il primo passaggio per creare il flusso di lavoro in Campaign v8 Web consiste nel crearlo come flusso di lavoro autonomo o direttamente all’interno di una campagna e nel definirne le proprietà.
+Il primo passaggio per creare il flusso di lavoro in Campaign v8 Web consiste nel crearlo come flusso di lavoro autonomo o direttamente all’interno di una campagna e nel definirne le proprietà generali. Per farlo, esegui questi passaggi:
 
-Per farlo, esegui questi passaggi:
+1. Per prima cosa, puoi decidere se creare un flusso di lavoro autonomo o integrarlo direttamente all’interno di una campagna:
 
-1. Per prima cosa, puoi decidere se creare un flusso di lavoro autonomo o integrarlo direttamente all’interno di una campagna.
-
->[!BEGINTABS]
-
->[!TAB Creare un flusso di lavoro autonomo]
-
-Passa al menu Flussi di lavoro e fai clic sul pulsante Crea flusso di lavoro nell’angolo in alto a destra.
-
-![](assets/workflow-create-standalone.png)
-
->[!TAB Creare un flusso di lavoro per una campagna]
-
-Passa al menu Campagne e apri la campagna in cui desideri creare un nuovo flusso di lavoro. Fai clic sul pulsante Crea flusso di lavoro nell’angolo superiore destro della scheda Flussi di lavoro.
-
-![](assets/workflow-create-campaign.png)
-
->[!ENDTABS]
+   * **Flusso di lavoro autonomo**: vai al menu Flussi di lavoro e fai clic sul pulsante Crea flusso di lavoro nell’angolo in alto a destra.
+   * **Flusso di lavoro della campagna:** Passa al menu Campagne e apri la campagna in cui desideri creare un nuovo flusso di lavoro. Fai clic sul pulsante Crea flusso di lavoro nell’angolo superiore destro della scheda Flussi di lavoro.
 
 1. Viene visualizzata la finestra di dialogo Proprietà flusso di lavoro. Seleziona il modello da utilizzare per creare il flusso di lavoro e fornisci un nome per esso.
 
@@ -61,15 +46,13 @@ Una volta creato il flusso di lavoro, puoi iniziare a orchestrare le varie attiv
 
 ## Orchestrare le attività del flusso di lavoro {#build}
 
-Una volta che hai [ha creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all’interno di una campagna, puoi iniziare a orchestrare le diverse attività che eseguirà.
-
-A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma di flusso di lavoro. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale.
+Una volta che hai [ha creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all’interno di una campagna, puoi iniziare a orchestrare le diverse attività che eseguirà. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma di flusso di lavoro. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale.
 
 In questa fase della configurazione, il diagramma viene visualizzato con un’icona iniziale che rappresenta l’inizio del flusso di lavoro. Per aggiungere la prima attività, fai clic sul pulsante + collegato all’icona Start.
 
-![](assets/workflow-start.png)
+Viene visualizzato un elenco di attività che possono essere aggiunte al diagramma. Le attività disponibili dipendono dalla posizione all’interno del diagramma del flusso di lavoro. Ad esempio, quando aggiungi la prima attività, puoi avviare il flusso di lavoro eseguendo il targeting di un pubblico, suddividendo il percorso del flusso di lavoro o impostando un’attività Attendi per ritardare l’esecuzione del flusso di lavoro. D’altra parte, dopo un’attività Genera pubblico, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo di flusso di lavoro con le attività di controllo del flusso.
 
-Viene visualizzato un elenco di attività che possono essere aggiunte al diagramma. Le attività disponibili dipendono dalla posizione all’interno del diagramma del flusso di lavoro. Ad esempio, quando aggiungi la prima attività, puoi avviare il flusso di lavoro eseguendo il targeting di un pubblico, suddividendo il percorso del flusso di lavoro o impostando un’attività Attendi per ritardare l’esecuzione del flusso di lavoro. D’altra parte, se aggiungi un’attività dopo un’attività Genera pubblico, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo di flusso di lavoro con le attività di controllo del flusso.
+![](assets/workflow-start.png)
 
 Una volta aggiunta un’attività al diagramma, viene visualizzato un riquadro a destra che consente di configurare l’attività appena aggiunta con impostazioni specifiche. Informazioni dettagliate su come configurare ogni attività sono disponibili in [questa sezione](workflow-activities.md).
 
