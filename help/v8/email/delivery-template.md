@@ -5,7 +5,8 @@ description: Scopri come creare e utilizzare i modelli di consegna in Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -70,5 +71,3 @@ Per configurare un modello di consegna da zero, segui i passaggi seguenti:
 1. Definisci il nome e le impostazioni del modello.
 1. Fai clic su **[!UICONTROL Revisione]** per definire il contenuto del modello e modificarne le proprietà.
 1. Salva il nuovo modello.
-
-
