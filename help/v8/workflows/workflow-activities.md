@@ -4,10 +4,10 @@ title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 92444d4ee324f64a35f4cca0b40907bdf453732c
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 98%
+source-wordcount: '665'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,49 @@ contenuto da definire
 
 <!--à reformuler-->Queste attività consentono di creare uno o più target definendo dei set e suddividendo o combinando tali set mediante le operazioni di intersezione, unione o esclusione.
 
+### Creazione del pubblico {#build-audience}
+
+### Combina {#combine}
+
+## Attività del canale {#channel}
+
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, come e-mail, SMS o push. Con i flussi di lavoro Adobe Campaign, puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento dei clienti.
+
+Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi su diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
+
+Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono i clienti su più punti di contatto e danno impulso alle conversioni.
+
+Le attività dei canali sono disponibili nella palette a sinistra dello schermo, nella sezione Canali.
+
+### E-mail {#email}
+
+descrizione, quale caso d’uso si può eseguire (altre attività comuni che si possono collegare prima o dopo l’attività)
+
+come aggiungere e configurare l’attività
+
+esempio di attività configurata all’interno di un flusso di lavoro
+
+
+L’attività Consegna e-mail ti consente di configurare l’invio di un’e-mail in un flusso di lavoro.
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.-->
+
+I destinatari delle e-mail sono definiti a monte dell’attività nello stesso flusso di lavoro, tramite un’attività di targeting del pubblico.
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
+
+### SMS {#sms}
+
+### Notifica push (Android) {#push-android}
+
+### Notifica push (iOS) {#push-ios}
 
 ## Attività di controllo del flusso {#flow-control}
 
@@ -28,6 +71,15 @@ contenuto da definire
 <!--à reformuler-->Queste attività consentono di creare uno o più target definendo dei set e suddividendo o combinando tali set mediante le operazioni di intersezione, unione o esclusione.
 
 Le attività di controllo del flusso vengono utilizzate per coordinare le attività del flusso di lavoro.
+
+### Attività Fork {#fork}
+
+### Attività AND-join {#end}
+
+
+### Attività Wait {#end}
+
+### Fine {#end}
 
 ## Attività di gestione dati {#data-management}
 
