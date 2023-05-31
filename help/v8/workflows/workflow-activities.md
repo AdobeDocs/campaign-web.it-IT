@@ -4,10 +4,10 @@ title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 99%
+source-wordcount: '853'
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 99%
 
 ## Attività di targeting {#targeting}
 
-contenuto da definire
-
-<!--à reformuler-->Queste attività consentono di creare uno o più target definendo dei set e suddividendo o combinando tali set mediante le operazioni di intersezione, unione o esclusione.
+Queste attività consentono di creare uno o più target definendo dei set e suddividendo o combinando tali set mediante le operazioni di intersezione, unione o esclusione.
 
 ### Creazione del pubblico {#build-audience}
 
+Questa attività ti consente di definire un pubblico. Puoi selezionare un pubblico esistente di Campaign oppure utilizzare il generatore di regole per definire una query personalizzata.
+
+Il **Creare un pubblico** L’attività può essere inserita all’inizio del flusso di lavoro o dopo qualsiasi altra attività. Qualsiasi attività può essere inserita dopo il **Creare un pubblico**.
+
+Per creare una query personalizzata:
+
+1. Seleziona **Crea il tuo (query)**.
+1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Consulta la sezione [Documentazione di v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Clic **Continua**.
+1. Utilizza il generatore di regole per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../audience/segment-builder.md).
+
+Per selezionare un pubblico esistente:
+
+1. Seleziona **Read audience**.
+1. Clic **Continua**.
+1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../audience/add-audience.md).
+
 ### Combina {#combine}
+
+Il **Combina** L’attività può essere inserita dopo qualsiasi altra attività, ma non all’inizio del flusso di lavoro. Qualsiasi attività può essere inserita dopo il **Combina**.
 
 ### Arricchimento {#enrichment}
 
