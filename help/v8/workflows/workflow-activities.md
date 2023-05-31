@@ -4,10 +4,10 @@ title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 38db8be3319c348d3afc6af02a65dce582e3cc97
+source-git-commit: ebd119a38129f8576ad9b4e4b9301b116a255c9b
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 67%
+source-wordcount: '1140'
+ht-degree: 66%
 
 ---
 
@@ -26,14 +26,20 @@ Questa attività ti consente di definire un pubblico. Puoi selezionare un pubbli
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-Per creare una query personalizzata:
+Per configurare il **Creare un pubblico** attività:
+
+1. Aggiungi un’attività di generazione del pubblico.
+1. Definisci un’etichetta.
+1. Definisci il tipo di pubblico: **Crea il tuo** o **Read audience**.
+
+Per creare una query personalizzata, segui questi passaggi aggiuntivi:
 
 1. Seleziona **Crea il tuo (query)**.
 1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Consulta la sezione [Documentazione di v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 1. Clic **Continua**.
 1. Utilizza il generatore di regole per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../audience/segment-builder.md).
 
-Per selezionare un pubblico esistente:
+Per selezionare un pubblico esistente, effettua le seguenti operazioni:
 
 1. Seleziona **Read audience**.
 1. Clic **Continua**.
@@ -58,36 +64,14 @@ Per configurare il **Combina** attività:
 1. Clic **Continua**.
 1. In **Set da unire** , controlla tutte le attività precedenti a cui desideri partecipare.
 
-Per **Union**, effettua le seguenti operazioni:
+Per **Union** e **Intersezione**, è necessario selezionare **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
 
-1. Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati:
-   * Solo tasti: questa è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
-   * Una selezione di colonne: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
+    * Solo tasti: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
+    * Una selezione di colonne: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
 
-Per **Intersezione** segui questi passaggi:
+Per **Intersezione** e **Esclusione**, è possibile controllare **Genera completamento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
 
-1. Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati. Consulta la sezione **Union** sopra.
-1. Seleziona l’opzione Genera completamento.
-
-Per **Esclusione**, effettua le seguenti operazioni:
-
-1. In **Set da unire** , seleziona la sezione **Set primario** dalle transizioni in entrata. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
-1. Seleziona l’opzione Genera completamento.
-
-
-
-
-
-
-
-
-
-
-
-
-Intersection: consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività.
-
-Esclusione: consente di escludere elementi da una popolazione in base a determinati criteri.
+Per **Esclusione**, seleziona la **Set primario** dalle transizioni in entrata, nella **Set da unire** sezione. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
 
 ### Arricchimento {#enrichment}
 
@@ -135,7 +119,6 @@ visualizza risultati del filtro visivamente o in vista codice
 riutilizza i dati di arricchimento nella campagna
 
 dove si possono utilizzare i dati di arricchimento: personalizzazione e-mail, altri casi d’uso?
-
 
 ## Attività del canale {#channel}
 
