@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 0105bb268e807b568f2d1c465f4636419fc070b6
+source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '271'
+ht-degree: 91%
 
 ---
 
@@ -79,7 +79,6 @@ ht-degree: 89%
    + Crea ed esegui il primo flusso di lavoro {#create-workflow}
       + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare il flusso di lavoro](workflows/create-workflow.md)
-      + [Aggiungere e orchestrare attività del flusso di lavoro](workflows/build-workflow.md)
       + [Configurare le impostazioni del flusso di lavoro](workflows/workflow-settings.md)
       + [Avviare e monitorare un flusso di lavoro](workflows/start-monitor-workflows.md)
    + [Attività dei flussi di lavoro](workflows/workflow-activities.md)
