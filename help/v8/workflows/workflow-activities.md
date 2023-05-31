@@ -4,10 +4,10 @@ title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
+source-git-commit: 38db8be3319c348d3afc6af02a65dce582e3cc97
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 75%
+source-wordcount: '1122'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,9 @@ Queste attività consentono di creare uno o più target definendo dei set e sudd
 
 Questa attività ti consente di definire un pubblico. Puoi selezionare un pubblico esistente di Campaign oppure utilizzare il generatore di regole per definire una query personalizzata.
 
-Il **Creare un pubblico** L’attività può essere inserita all’inizio del flusso di lavoro o dopo qualsiasi altra attività. Qualsiasi attività può essere inserita dopo il **Creare un pubblico**.
+<!--
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
 
 Per creare una query personalizzata:
 
@@ -39,13 +41,53 @@ Per selezionare un pubblico esistente:
 
 ### Combina {#combine}
 
-Il **Combina** L’attività può essere inserita dopo qualsiasi altra attività, ma non all’inizio del flusso di lavoro. Qualsiasi attività può essere inserita dopo il **Combina**.
+Questa attività ti consente di elaborare i set sui dati in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni. Di seguito sono riportati i tipi di segmentazione disponibili:
 
-Unione: consente di raggruppare il risultato di più attività in un unico target. Consulta la sezione Unione.
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Intersection: consente di estrarre solo la popolazione con gli stessi risultati dell’attività in entrata
+* Il **Union** consente di raggruppare il risultato di più attività in un unico target.
+* Il **Intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività.
+* Il **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri.
 
-Esclusione: consente di creare un target basato su un target principale da cui vengono estratti uno o più target.
+Per configurare il **Combina** attività:
+
+1. Aggiungi il **Combina** a una delle transizioni di segmentazione precedenti.
+1. Seleziona il tipo di segmentazione: unione, intersezione o esclusione.
+1. Clic **Continua**.
+1. In **Set da unire** , controlla tutte le attività precedenti a cui desideri partecipare.
+
+Per **Union**, effettua le seguenti operazioni:
+
+1. Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati:
+   * Solo tasti: questa è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
+   * Una selezione di colonne: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
+
+Per **Intersezione** segui questi passaggi:
+
+1. Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati. Consulta la sezione **Union** sopra.
+1. Seleziona l’opzione Genera completamento.
+
+Per **Esclusione**, effettua le seguenti operazioni:
+
+1. In **Set da unire** , seleziona la sezione **Set primario** dalle transizioni in entrata. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
+1. Seleziona l’opzione Genera completamento.
+
+
+
+
+
+
+
+
+
+
+
+
+Intersection: consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività.
+
+Esclusione: consente di escludere elementi da una popolazione in base a determinati criteri.
 
 ### Arricchimento {#enrichment}
 
