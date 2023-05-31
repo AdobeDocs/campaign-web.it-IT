@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +32,9 @@ Definisci le impostazioni disponibili dal pulsante nell’area di lavoro del flu
 * Nome interno
 * Cartella
 * Campagna collegata > può essere modificata. In tal caso, il flusso di lavoro scompare dalla campagna corrente e viene visualizzato nella nuova campagna collegata
+
+   Quando crei un flusso di lavoro all’interno di una campagna, troverai un campo Campagna aggiuntivo, che ti consente di identificare e accedere facilmente alla campagna associata al flusso di lavoro.
+
 * Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 * Supervisore: quando un flusso di lavoro genera un errore, gli operatori appartenenti al gruppo di supervisione del flusso di lavoro ricevono una notifica tramite e-mail, purché il loro indirizzo e-mail sia elencato nel loro profilo. Questo gruppo è selezionato nel campo **[!UICONTROL Supevisore(i)]** delle proprietà del flusso di lavoro.
 * descrizione
