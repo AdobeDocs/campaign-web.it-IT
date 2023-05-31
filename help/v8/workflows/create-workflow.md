@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 7%
 
 ---
 
@@ -28,13 +28,15 @@ Il primo passaggio per creare il flusso di lavoro in Campaign v8 Web consiste ne
    * **Flusso di lavoro autonomo**: vai al menu Flussi di lavoro e fai clic sul pulsante Crea flusso di lavoro nell’angolo in alto a destra.
    * **Flusso di lavoro della campagna:** Passa al menu Campagne e apri la campagna in cui desideri creare un nuovo flusso di lavoro. Fai clic sul pulsante Crea flusso di lavoro nell’angolo superiore destro della scheda Flussi di lavoro.
 
-1. Viene visualizzata la finestra di dialogo Proprietà flusso di lavoro. Seleziona il modello da utilizzare per creare il flusso di lavoro e fornisci un nome per esso.
-
-   I modelli di flusso di lavoro contengono attività preconfigurate e configurazioni di proprietà generali che possono essere riutilizzate per creare nuovi flussi di lavoro. Vengono creati dalla console client. [Scopri come utilizzare i modelli](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   Viene visualizzata la finestra di dialogo Proprietà flusso di lavoro.
 
    ![](assets/workflow-create.png)
 
-1. Nella sezione Opzioni aggiuntive configura impostazioni specifiche per il flusso di lavoro, ad esempio la cartella di archiviazione e il fuso orario. [Scopri come configurare le proprietà del flusso di lavoro](workflow-settings.md)
+1. Seleziona il modello da utilizzare per creare il flusso di lavoro e fornisci un’etichetta per il flusso di lavoro.
+
+   I modelli di flusso di lavoro contengono attività preconfigurate e configurazioni di proprietà generali che possono essere riutilizzate per creare nuovi flussi di lavoro. Vengono creati dalla console client. [Scopri come utilizzare i modelli](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. Espandi la sezione Opzioni aggiuntive se desideri configurare impostazioni specifiche per il flusso di lavoro, ad esempio la cartella di archiviazione e il fuso orario. [Scopri come configurare le proprietà del flusso di lavoro](workflow-settings.md)
 
 1. Fai clic sul pulsante Crea flusso di lavoro per confermare la creazione del flusso di lavoro.
 
