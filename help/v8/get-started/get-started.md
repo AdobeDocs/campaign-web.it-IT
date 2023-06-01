@@ -4,9 +4,9 @@ title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Novità"
->abstract="Scopri Campaign Web con la nuova interfaccia utente, i miglioramenti più recenti e le funzionalità chiave, e come utilizzarle per creare campagne cross-channel per i tuoi tipi di pubblico. Con le sue funzioni intuitive, Campaign ti consente di semplificare il processo di creazione di campagne cross-channel personalizzate, promuovere i risultati e ottenere un vantaggio competitivo. "
+>abstract="Scopri la nuova interfaccia utente di Campaign Web, i miglioramenti più recenti e le funzionalità chiave. Scopri come utilizzarli per creare campagne cross-channel per i tuoi tipi di pubblico. Con le sue funzioni intuitive, Campaign ti consente di semplificare il processo di creazione di campagne cross-channel personalizzate, promuovere i risultati e ottenere un vantaggio competitivo. "
 
 
 
