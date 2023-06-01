@@ -4,7 +4,7 @@ title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 37%
@@ -21,6 +21,8 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 * [Attività di targeting](#targeting)
 * [Attività del canale](#channel)
 * [Attività di controllo del flusso](#flow-control)
+
+![](../assets/wokflow-activities.png)
 
 ## Attività di targeting {#targeting}
 
