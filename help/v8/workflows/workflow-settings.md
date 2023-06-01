@@ -4,19 +4,20 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '821'
+ht-degree: 63%
 
 ---
 
-# Configurare le impostazioni del flusso di lavoro {#workflow-settings}
+# Configurare le impostazioni avanzate del flusso di lavoro {#workflow-settings}
 
-contenuto da definire
+Durante l’orchestrazione delle attività del flusso di lavoro nell’area di lavoro, puoi accedere alle impostazioni avanzate relative al flusso di lavoro. Ad esempio, puoi impostare un fuso orario specifico per il flusso di lavoro, gestire il comportamento del flusso di lavoro in caso di errore o gestire il ritardo dopo il quale la cronologia del flusso di lavoro deve essere eliminata.
 
-Definisci le impostazioni disponibili dal pulsante nell’area di lavoro del flusso di lavoro
-<!--à reformuler-->
+A questo scopo, fai clic su **[!UICONTROL Impostazioni del flusso di lavoro]** nell’angolo in alto a sinistra dell’area di lavoro, accanto all’etichetta del flusso di lavoro.
+
+![](assets/workflow-settings.png)
 
 ## Proprietà del flusso di lavoro {#properties}
 
@@ -25,19 +26,15 @@ Definisci le impostazioni disponibili dal pulsante nell’area di lavoro del flu
 >title="Proprietà del flusso di lavoro"
 >abstract="TBD"
 
-(= come per la creazione del flusso di lavoro? da controllare)
+La sezione delle proprietà del flusso di lavoro fornisce proprietà generiche accessibili anche durante la creazione del flusso di lavoro.
 
-* Etichetta
-* Opzioni aggiuntive
-* Nome interno
-* Cartella
-* Campagna collegata > può essere modificata. In tal caso, il flusso di lavoro scompare dalla campagna corrente e viene visualizzato nella nuova campagna collegata
-
-   Quando crei un flusso di lavoro all’interno di una campagna, troverai un campo Campagna aggiuntivo, che ti consente di identificare e accedere facilmente alla campagna associata al flusso di lavoro.
-
-* Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
-* Supervisore: quando un flusso di lavoro genera un errore, gli operatori appartenenti al gruppo di supervisione del flusso di lavoro ricevono una notifica tramite e-mail, purché il loro indirizzo e-mail sia elencato nel loro profilo. Questo gruppo è selezionato nel campo **[!UICONTROL Supevisore(i)]** delle proprietà del flusso di lavoro.
-* descrizione
+* **[!UICONTROL Etichetta]**: l’etichetta del flusso di lavoro che viene visualizzata nell’elenco.
+* **[!UICONTROL Nome interno]**: nome interno del flusso di lavoro.
+* **[!UICONTROL Cartella]**: cartella in cui deve essere salvato il flusso di lavoro.
+* **[!UICONTROL Campagna collegata]**: questo campo viene visualizzato se il flusso di lavoro è stato creato all’interno di una campagna. Ti consente di aprire la campagna associata.
+* **[!UICONTROL Fuso orario]**: definisci un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
+* **[!UICONTROL Supervisore]**: quando un flusso di lavoro è in errore, gli operatori appartenenti al gruppo di supervisione del flusso di lavoro ricevono una notifica via e-mail, purché il loro indirizzo e-mail sia elencato nel profilo.
+* **[!UICONTROL Descrizione]**: utilizza questo campo per fornire una descrizione del flusso di lavoro.
 
 ## Impostazioni di segmentazione
 
@@ -46,17 +43,10 @@ Definisci le impostazioni disponibili dal pulsante nell’area di lavoro del flu
 >title="Impostazioni di segmentazione"
 >abstract="TBD"
 
-* Dimensione targeting:
+* **[!UICONTROL Dimensione targeting]**: seleziona la dimensione di targeting da utilizzare per eseguire il targeting dei profili: destinatari, beneficiari del contratto, operatore, abbonati, ecc.
+* **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione del flusso di lavoro. Le tabelle di lavoro delle esecuzioni precedenti vengono eliminate da un flusso di lavoro tecnico che viene eseguito su base giornaliera.
 
-   Durante le operazioni di segmentazione dei dati, la chiave di targeting è mappata su una dimensione filtro. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. La dimensione filtro consente di selezionare la popolazione in base a determinati criteri: titolari di contratti, abbonati a newsletter, ecc.
-
-* Mantenere i risultati: l’opzione **Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni** consente di mantenere tabelle temporanee tra due esecuzioni di un flusso di lavoro.  È disponibile nella scheda delle proprietà del flusso di lavoro **[!UICONTROL Generale]** e può essere utilizzata a scopo di sviluppo e test per monitorare i dati e controllare i risultati. Puoi utilizzare questa opzione negli ambienti di sviluppo ma mai negli ambienti di produzione. Mantenere tabelle temporanee potrebbe comportare un aumento significativo delle dimensioni del database e, in ultima analisi, il raggiungimento del limite consentito. Inoltre, rallenterà il backup.
-
-   Vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione del flusso di lavoro. Le tabelle di lavoro delle esecuzioni precedenti vengono eliminate dal flusso di lavoro di **[!UICONTROL pulizia]**, che viene eseguito su base giornaliera.
-
-   >[!CAUTION]
-   >
-   >Questa opzione non deve **mai** essere selezionata in un flusso di lavoro di **produzione**. Viene utilizzata per analizzare i risultati ed è progettata solo a scopo di test e quindi deve essere utilizzata solo in ambienti di sviluppo o di staging.
+   Se questa opzione è abilitata, le tabelle di lavoro verranno mantenute anche dopo l’esecuzione del flusso di lavoro. Puoi utilizzarlo a scopo di test e quindi deve essere utilizzato solo in ambienti di sviluppo o di staging. Non deve mai essere sottoposto a check-in in un flusso di lavoro di produzione,
 
 ## Impostazioni di esecuzione del flusso di lavoro
 
