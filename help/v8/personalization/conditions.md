@@ -7,13 +7,22 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Contenuto condizionale{#add-conditions}
 
-Configurando i campi di contenuto condizionale puoi creare una personalizzazione avanzata. I blocchi di testo completi e/o le immagini vengono sostituiti quando viene soddisfatta una particolare condizione.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Creare contenuto condizionale"
+>abstract="Crea contenuti condizionali per definire la personalizzazione dinamica in base al profilo del destinatario, sostituendo automaticamente blocchi di testo e immagini quando vengono soddisfatte determinate condizioni. Questa funzione può elevare le tue campagne e offrire esperienze altamente mirate e personalizzate al tuo pubblico."
+
+
+Il contenuto dinamico è una funzione potente che consente di creare una personalizzazione dinamica basata sul profilo del destinatario, sostituendo automaticamente blocchi di testo e immagini quando vengono soddisfatte determinate condizioni. Questa funzione può elevare le tue campagne e offrire esperienze altamente mirate e personalizzate al tuo pubblico.
+
+Configurando i campi di contenuto condizionale, puoi creare una personalizzazione dinamica basata, ad esempio, sul profilo del destinatario. I blocchi di testo e/o le immagini vengono sostituiti quando viene soddisfatta una particolare condizione.
+
