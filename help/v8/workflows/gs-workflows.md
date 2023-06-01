@@ -4,10 +4,10 @@ title: Introduzione ai flussi di lavoro
 description: Scopri come iniziare a utilizzare i flussi di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 95%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -47,3 +47,31 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 * Accesso e monitoraggio
 
 (collegamento alla sottosezione TBD)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Accedere e gestire i flussi di lavoro" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Accesso e gestione dei flussi di lavoro</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Crea ed esegui il primo flusso di lavoro</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Infrequente" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Utilizzare le attività del flusso di lavoro</strong></a>
+</div>
+<p></td>
+</tr></table>
