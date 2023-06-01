@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Attendi
 description: Scopri come utilizzare l’attività del flusso di lavoro Attendi
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 
@@ -29,4 +29,6 @@ Per configurare il **Wait** attività:
 
 ## Esempio
 
+L&#39;esempio seguente illustra **Wait** attività in un caso d’uso tipico. Viene inviato un invito e-mail a un evento. 24 ore dopo l’invio, viene inviata una consegna SMS alla stessa popolazione.
 
+![](../assets/workflow-wait-example.png)
