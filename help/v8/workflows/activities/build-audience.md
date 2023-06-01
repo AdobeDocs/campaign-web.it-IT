@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Crea pubblico
 description: Scopri come utilizzare l’attività del flusso di lavoro Crea pubblico
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 17%
+source-wordcount: '231'
+ht-degree: 14%
 
 ---
 
@@ -41,3 +41,7 @@ Per selezionare un pubblico esistente, effettua le seguenti operazioni:
 1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../../audience/add-audience.md).
 
 ## Esempio
+
+Ecco un esempio di flusso di lavoro con due **Creare un pubblico** attività. Il primo si rivolge al pubblico dei giocatori di poker, seguito da una consegna e-mail. Il secondo prende di mira il pubblico dei clienti VIP, seguito da una consegna SMS.
+
+![](../assets/workflow-audience-example.png)
