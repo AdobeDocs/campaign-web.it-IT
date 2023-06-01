@@ -4,9 +4,9 @@ title: Introduzione ai flussi di lavoro
 description: Scopri come iniziare a utilizzare i flussi di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '387'
 ht-degree: 91%
 
 ---
@@ -41,12 +41,6 @@ Di seguito sono riportati alcuni esempi di utilizzo dei flussi di lavoro con Ado
 ## Approfondiamo
 
 Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Campaign, è il momento di approfondire le sezioni della documentazione per iniziare a lavorare con questa funzione.
-
-* Creare il primo flusso di lavoro
-* Progettazione di flussi di lavoro
-* Accesso e monitoraggio
-
-(collegamento alla sottosezione TBD)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
