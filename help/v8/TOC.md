@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 87%
+source-wordcount: '307'
+ht-degree: 82%
 
 ---
 
@@ -59,14 +59,18 @@ ht-degree: 87%
          + [Impostazioni di consegna e-mail](advanced-settings/delivery-settings.md)
    + Notifiche push {#push}
       + [Introduzione alle notifiche push](push/gs-push.md)
+      + [Creare una consegna di notifica push](push/create-push.md)
+      + [Progettare una consegna push](push/content-push.md)
+      + [Inviare una consegna di notifica push](push/send-push.md)
    + SMS {#sms}
       + [Introduzione alle consegne SMS](sms/gs-sms.md)
       + [Creare una consegna SMS](sms/create-sms.md)
       + [Progettare una consegna SMS ](sms/content-sms.md)
+      + [Inviare una consegna SMS ](sms/send-sms.md)
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Selezionare un pubblico esistente](audience/add-audience.md)
-   + [Creare un pubblico con il generatore di regole](audience/segment-builder.md)
+   + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
    + [Caricare un pubblico da un file](audience/file-audience.md)
    + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
    + [Impostare un gruppo di controllo](audience/control-group.md)

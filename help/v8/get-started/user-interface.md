@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1588'
+ht-degree: 72%
 
 ---
 
@@ -241,11 +241,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Seleziona il pubblico migliore per il messaggio SMS."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Definire il pubblico push"
->abstract="Seleziona il pubblico migliore per il messaggio push."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Riepilogo del rapporto SMS"
 >abstract="Scopri le metriche di reporting per la consegna SMS."
@@ -254,12 +249,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
 >abstract="Scopri le metriche di reporting per la consegna push."
-
->[!CONTEXTUALHELP]
->id="acw_push_notification_template"
->title="Modello di notifica push"
->abstract="Seleziona un modello di notifica push per avviare la consegna push."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
