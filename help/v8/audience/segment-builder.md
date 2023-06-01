@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Definire un pubblico con il generatore di regole
-description: Scopri come lavorare con il Generatore di segmenti
+title: Creare un pubblico con il generatore di regole di Campaign
+description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
