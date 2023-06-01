@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Crea pubblico
 description: Scopri come utilizzare l’attività del flusso di lavoro Crea pubblico
 badge: label="Alpha" type="Positive"
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 16%
+source-wordcount: '193'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,8 @@ Questa attività ti consente di definire un pubblico. Puoi selezionare un pubbli
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
+
+## Configurazione
 
 Per configurare il **Creare un pubblico** attività:
 
@@ -37,3 +39,5 @@ Per selezionare un pubblico esistente, effettua le seguenti operazioni:
 1. Seleziona **Read audience**.
 1. Clic **Continua**.
 1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../../audience/add-audience.md).
+
+## Esempio
