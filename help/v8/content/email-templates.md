@@ -4,48 +4,36 @@ product: campaign
 title: Utilizzare i modelli e-mail
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 38%
 
 ---
 
 # Utilizzare i modelli e-mail {#email-content-templates}
 
-Quando accedi al contenuto dell’e-mail, utilizza la sezione dell’interfaccia **[!UICONTROL Seleziona modello di progettazione]** per iniziare a creare il contenuto da un modello.
+Quando [creazione di un messaggio e-mail](#create-email), utilizza **[!UICONTROL Seleziona modello struttura]** sezione del **[!UICONTROL Creare l’e-mail]** per iniziare a creare i contenuti da un modello.
 
 ![](assets/email_designer-templates.png)
 
-Campaign include un set di modelli incorporati, disponibili nella scheda **Modelli di esempio**. Puoi aggiungere i tuoi modelli e utilizzarli per creare il contenuto delle e-mail. I modelli personalizzati vengono memorizzati nella scheda **Modelli salvati**. Scopri come salvare un’e-mail come modello e come utilizzarla nelle sezioni seguenti.
+Puoi scegliere tra:
 
-## Salva come modello {#save-as-template}
+* **Modelli di esempio**. Campaign viene fornito con un set di modelli incorporati tra cui puoi scegliere.
 
-Una volta progettato il contenuto dell’e-mail, puoi salvarlo come modello per riutilizzarlo in futuro. I modelli salvati sono disponibili per tutti gli utenti dell’ambiente Adobe Campaign.
+* **Modelli salvati**. Puoi anche utilizzare un modello personalizzato salvato come modello da un contenuto esistente.
 
-Per salvare un contenuto e-mail come modello, segui la procedura seguente:
+Scopri come utilizzare i modelli e come salvare un contenuto e-mail come modello nelle sezioni seguenti.
 
-1. In E-mail Designer, fai clic sui puntini di sospensione in alto a destra dello schermo.
+## Utilizzare un modello {#use-templates}
 
-1. Seleziona **[!UICONTROL Salva modello di progettazione]** dal menu a discesa.
-
-   ![](assets/email_designer-save-template.png)
-
-1. Immetti un nome per il modello e salvalo
-
-   ![](assets/email_designer-template-name.png)
-
-Ora puoi [utilizzare questo modello](#use-saved-template), disponibile nella scheda Modelli salvati di E-mail Designer, per creare un nuovo contenuto.
-
-![](assets/email_designer-saved-template.png)
-
-## Utilizzare un modello salvato {#use-saved-template}
-
-I modelli salvati sono raggruppati in una tabella specifica in E-mail Designer. Per creare un contenuto e-mail da un modello personalizzato esistente, segui la procedura seguente:
+Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui i passaggi indicati di seguito.
 
 1. Apri [E-mail Designer](create-email-content.md).
 
-1. Nella schermata **[!UICONTROL Crea l’e-mail]**, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita. Passa alla scheda **[!UICONTROL Modelli salvati]** per accedere ai modelli personalizzati.
+1. Nella schermata **[!UICONTROL Crea l’e-mail]**, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
+
+1. Per utilizzare un modello personalizzato esistente, passare alla **[!UICONTROL Modelli salvati]** scheda.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
@@ -53,10 +41,32 @@ I modelli salvati sono raggruppati in una tabella specifica in E-mail Designer. 
 
    ![](assets/email_designer-saved-templates.png)
 
-1. Seleziona un modello dall’elenco per visualizzarne il contenuto. Utilizza le frecce destra e sinistra per sfogliare i modelli.
+1. Seleziona un modello dall’elenco per visualizzarne il contenuto.
+
+1. Utilizza le frecce destra e sinistra per spostarti tra i modelli (esempio o salvato a seconda della selezione).
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Fai clic su **[!UICONTROL Utilizza questa e-mail]** in alto a destra per selezionare un modello.
+1. Clic **[!UICONTROL Usa questo modello]** in alto a destra.
 
 1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail Designer. [Ulteriori informazioni](create-email-content.md)
+
+## Salva contenuto e-mail come modello {#save-as-template}
+
+Una volta [ha progettato un’e-mail](create-email-content.md), puoi salvare questo contenuto come modello da riutilizzare in futuro. I modelli salvati sono disponibili per tutti gli utenti dell’ambiente Adobe Campaign.
+
+Per salvare un contenuto e-mail come modello, segui la procedura seguente:
+
+1. Dall’e-mail designer, fai clic sui puntini di sospensione in alto a destra dello schermo.
+
+1. Seleziona **[!UICONTROL Salva come modello di contenuto]** dal menu a discesa.
+
+   ![](assets/email_designer-save-template.png)
+
+1. Immetti un nome per il modello e salvalo.
+
+   ![](assets/email_designer-template-name.png)
+
+Ora puoi [utilizzare questo modello](#use-templates), disponibile nella scheda Modelli salvati di E-mail Designer, per creare un nuovo contenuto.****
+
+![](assets/email_designer-saved-template.png)

@@ -6,56 +6,113 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
+source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '877'
 ht-degree: 3%
 
 ---
 
-# Utilizzare il modello di consegna{#work-with-delivery-template}
+# Utilizzare i modelli di consegna {#work-with-delivery-templates}
 
-Utilizza i modelli di consegna per standardizzare l’aspetto creativo e velocizzare l’esecuzione e il lancio delle campagne.
+Per un processo di progettazione accelerato e migliorato, puoi creare modelli di consegna per riutilizzare facilmente i contenuti personalizzati nelle campagne. Questa funzionalità consente di standardizzare l’aspetto creativo per velocizzare l’esecuzione e il lancio delle campagne.
 
 Un modello può includere:
 
-* Tipologie
-* Indirizzi di invio e risposta
-* Blocchi di personalizzazione di base
-* Collegamenti a pagine mirror e collegamenti per annullare l’abbonamento
-* Contenuto, logo aziendale o firma
-* Altre proprietà di consegna, come la validità delle risorse, i parametri dei nuovi tentativi o le impostazioni di quarantena.
+<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
+Sender and reply-to addresses?-->
+* Un [pubblico](../audience/about-audiences.md), tra cui [gruppi di controllo](../audience/control-group.md)
+* Personalizzato [contenuto](../content/edit-content.md)<!--company logo, or signature-->
+* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Collegamenti a [pagina mirror](../content/mirror-page.md) e annullamento dell’abbonamento [collegamenti](../content/message-tracking.md)
 
+<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
-## Creare un modello{#create-a-delivery-template}
+## Accedere e gestire i modelli {#access-manage-templates}
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero.
+Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Campaign Management]** > **[!UICONTROL Consegne]** dal menu a sinistra e passare alla **Modelli** scheda.
 
-### Duplica un modello esistente{#copy-an-existing-template}
+![](assets/templates-tab.png)
 
-Campaign è dotato di un set di modelli incorporati per ogni canale: e-mail, push, SMS.
+Tutti i modelli che erano [creato](#create-a-delivery-template) nell&#39;ambiente corrente.
 
-Il modo più semplice per creare un modello di consegna è duplicare e personalizzare un modello incorporato.
+Puoi filtrare i modelli di contenuto per canali e cartelle. Puoi anche impostare filtri avanzati creando una regola utilizzando gli attributi di consegna. [Ulteriori informazioni sul generatore di regole](../audience/segment-builder.md)
+
+![](assets/templates-filters.png)
+
+Per modificare un modello, fai clic sull’elemento desiderato dall’elenco. Da lì:
+
+* Puoi modificarne il contenuto, le proprietà, il pubblico e tutte le offerte associate.
+* Puoi anche verificare il modello. [Ulteriori informazioni](#test-template)
+
+![](assets/templates-edition.png)
+
+Per eliminare o [duplicare](#copy-an-existing-template) in un modello, seleziona l’azione corrispondente da **[!UICONTROL Altre azioni]** dal menu **[!UICONTROL Modelli]** o da una schermata di modifica dei modelli.
+
+![](assets/templates-more-actions.png)
+
+>[!NOTE]
+>
+>Quando un modello viene modificato o eliminato, le consegne create utilizzando questo modello non sono interessate.
+
+## Creare un modello {#create-a-delivery-template}
+
+Per creare un modello di consegna, puoi:
+* Duplica un modello esistente - [Ulteriori informazioni](#copy-an-existing-template)
+* Convertire una consegna esistente in un modello - [Ulteriori informazioni](#convert-an-existing-delivery)
+* Creare un modello di consegna da zero - [Ulteriori informazioni](#create-a-new-template)
+
+### Duplica un modello esistente {#copy-an-existing-template}
+
+Campaign è dotato di un set di modelli incorporati per ogni canale: e-mail, push, SMS. Il modo più semplice per creare un modello di consegna è duplicare e personalizzare un modello incorporato.
+
+>[!NOTE]
+>
+>Puoi anche duplicare qualsiasi modello personalizzato.
 
 Per duplicare un modello di consegna, effettua le seguenti operazioni:
 
-1. Accedi a **Modelli** , dalla scheda **Consegne** menu a sinistra.
-1. Fai clic sul pulsante dei tre punti a destra, accanto al nome del modello da duplicare.
-1. Seleziona  **[!UICONTROL Duplica]**.
-1. Conferma duplicazione: il nuovo dashboard del modello si apre nella schermata centrale.
-1. Definisci le impostazioni del modello e salva il nuovo modello.
+1. Accedi a **Modelli** , dalla scheda **Consegne** menu a sinistra. [Ulteriori informazioni](#access-manage-templates)
+1. Fai clic su **[!UICONTROL Altre azioni]** a destra del nome del modello desiderato e seleziona  **[!UICONTROL Duplica]**.
 
-Il modello viene aggiunto all’elenco dei modelli di consegna. Ora puoi selezionarlo durante la creazione di una nuova consegna.
+   Puoi anche selezionare un modello dall’elenco e selezionare questa opzione dalla schermata dell’edizione del modello.
 
-### Convertire una consegna esistente in un modello {#convert-an-existing-delivery}
+1. Conferma la duplicazione.
 
-Qualsiasi consegna può essere convertita in un modello per nuove azioni di consegna ripetute.
+   ![](assets/templates-duplicate-confirm.png)
 
-Per convertire una consegna in un modello, effettua le seguenti operazioni:
+1. Il nuovo dashboard modelli si apre nella schermata centrale. Modifica le impostazioni del modello in base alle esigenze.
 
-1. Fai clic sul pulsante tre punti a destra, accanto al nome della consegna da salvare come modello.
-1. Seleziona  **[!UICONTROL Copia come modello]**.
-1. Conferma duplicazione: il nuovo modello si apre nella schermata centrale.
+   ![](assets/templates-duplicated-item.png)
+
+1. Fai clic su **[!UICONTROL Revisione]** per salvare e rivedere il modello. Puoi comunque modificarne tutte le impostazioni, eliminarle e duplicarle.
+
+   ![](assets/templates-review-screen.png)
+
+1. Se necessario, verifica il rendering del modello. [Ulteriori informazioni](#test-template)
+
+Il nuovo modello viene aggiunto al [**Modelli** list](#access-manage-templates). Ora puoi selezionarlo durante la creazione di una nuova consegna.
+
+### Convertire una consegna in un modello {#convert-an-existing-delivery}
+
+Qualsiasi consegna può essere convertita in un modello per future azioni di consegna ripetute.
+
+Per salvare una consegna come modello, effettua le seguenti operazioni:
+
+1. Vai a **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** menu.
+1. Dalla sezione **[!UICONTROL Sfoglia]** , fare clic sulla scheda **[!UICONTROL Altre azioni]** a destra del nome della consegna desiderata e seleziona **[!UICONTROL Copia come modello]**.
+
+   ![](assets/templates-convert-delivery.png)
+
+1. Conferma la duplicazione.
+
+1. Il nuovo dashboard modelli si apre nella schermata centrale. Modifica le impostazioni del modello in base alle esigenze.
+
+1. Fai clic su **[!UICONTROL Revisione]** per salvare e rivedere il modello. Puoi comunque modificarne tutte le impostazioni, eliminarle e duplicarle.
+
+1. Se necessario, verifica il rendering del modello. [Ulteriori informazioni](#test-template)
+
+Il nuovo modello viene aggiunto al [**Modelli** list](#access-manage-templates). Ora puoi selezionarlo durante la creazione di una nuova consegna.
 
 ### Crea un nuovo modello {#create-a-new-template}
 
@@ -65,9 +122,65 @@ Per convertire una consegna in un modello, effettua le seguenti operazioni:
 
 Per configurare un modello di consegna da zero, segui i passaggi seguenti:
 
-1. Accedi a **Modelli** , dalla scheda **Consegne** menu a sinistra.
-1. Fai clic su  **[!UICONTROL Crea modello]** pulsante.
-1. Seleziona il canale per il modello.
-1. Definisci il nome e le impostazioni del modello.
-1. Fai clic su **[!UICONTROL Revisione]** per definire il contenuto del modello e modificarne le proprietà.
-1. Salva il nuovo modello.
+1. Accedi a **Modelli** , dalla scheda **Consegne** menu a sinistra. [Ulteriori informazioni](#access-manage-templates)
+1. Fai clic su **[!UICONTROL Crea modello]** pulsante.
+
+   ![](assets/templates-create-button.png)
+
+1. Seleziona il canale da utilizzare per il modello.
+1. Per impostazione predefinita, viene utilizzato il modello di consegna integrato per tale canale per facilitare la creazione di un modello personalizzato. Se necessario, utilizza il pulsante dedicato a destra del canale selezionato per selezionare un altro modello.
+
+   ![](assets/templates-channel-browse.png)
+
+1. Fai clic su **[!UICONTROL Crea modello]** pulsante di nuovo.
+
+1. Definire le proprietà del modello, [pubblico](../audience/add-audience.md) e il contenuto a seconda del canale selezionato.
+
+   >[!NOTE]
+   >
+   >Ulteriori informazioni sui canali di consegna e su come progettare i rispettivi contenuti sono disponibili nelle sezioni seguenti:
+   >
+   > * [Canale e-mail](../email/create-email.md)
+   > * [Canale di notifica push](../push/gs-push.md)
+   > * [Canale SMS](../sms/create-sms.md)
+
+
+1. Fai clic su **[!UICONTROL Revisione]** per salvare e rivedere il modello. Puoi comunque modificarne tutte le impostazioni, eliminarle e duplicarle.
+
+1. Se necessario, verifica il rendering del modello. [Ulteriori informazioni](#test-template)
+
+Il nuovo modello viene aggiunto al [**Modelli** list](#access-manage-templates). Ora puoi selezionarlo durante la creazione di una nuova consegna.
+
+## Testare un modello di consegna {#test-template}
+
+Puoi verificare il rendering di qualsiasi modello di consegna, creato da zero o da un contenuto esistente. A questo scopo, segui i passaggi riportati qui sotto.
+
+1. Accedi a **Modelli** tramite il **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** e selezionare un modello. [Ulteriori informazioni](#access-manage-templates)
+
+1. Fai clic su **[!UICONTROL Simula contenuto]** in alto a destra.
+
+   ![](assets/templates-simulate-button.png)
+
+1. Seleziona uno o più profili di test per controllare il rendering delle e-mail. Puoi anche selezionare profili reali dal database.
+
+1. Passa da un profilo all’altro per ottenere una rappresentazione personalizzata del messaggio in base al profilo selezionato.
+
+   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+
+   È inoltre possibile regolare il livello di zoom e scegliere la visualizzazione desktop o mobile.
+
+   ![](assets/templates-stimulate.png)
+
+1. Chiudere la finestra per tornare alla schermata dell&#39;edizione del modello.
+
+>[!NOTE]
+>
+>Non puoi utilizzare il rendering di e-mail o inviare bozze in un modello di consegna.
+
+* [Ulteriori informazioni sull’anteprima del contenuto delle e-mail](../preview-test/preview-content.md)
+
+* [Ulteriori informazioni sull’anteprima del contenuto SMS](../sms/content-sms.md)
+
+* [Ulteriori informazioni sull’anteprima dei contenuti push](../push/gs-push.md)
+
+
