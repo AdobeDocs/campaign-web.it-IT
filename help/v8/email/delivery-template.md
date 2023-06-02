@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 3e06271c15db24c24aa9f0ee19113d52ffa1a19a
+source-git-commit: e4a667f81c1d95c12003c2d93fb9f5fd9239a2eb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 3%
+source-wordcount: '921'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,13 @@ Sender and reply-to addresses?-->
 <!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
 
 ## Accedere e gestire i modelli {#access-manage-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_templates"
+>title="Utilizzare i modelli di consegna"
+>abstract="Utilizza i modelli di consegna per creare e salvare facilmente le consegne esistenti per utilizzi futuri."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplica un modello esistente"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Convertire una consegna in un modello"
 
 Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Campaign Management]** > **[!UICONTROL Consegne]** dal menu a sinistra e passare alla **Modelli** scheda.
 
