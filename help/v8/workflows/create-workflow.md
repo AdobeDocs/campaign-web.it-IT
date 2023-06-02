@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 13%
+source-wordcount: '288'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Proprietà del flusso di lavoro"
->abstract="TBD"
+>abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione del flusso di lavoro o il fuso orario."
 
 Il primo passaggio per creare il flusso di lavoro in Campaign v8 Web consiste nel crearlo come flusso di lavoro autonomo o direttamente all’interno di una campagna e nel definirne le proprietà generali. Per farlo, esegui questi passaggi:
 
