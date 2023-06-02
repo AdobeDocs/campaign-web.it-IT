@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 7%
+source-wordcount: '518'
+ht-degree: 5%
 
 ---
 
@@ -33,6 +33,23 @@ Per rimuovere un’attività, selezionala nell’area di lavoro e fai clic sull�
 >
 >Hai la possibilità di personalizzare il nome delle transizioni tra ciascuna attività. A questo scopo, seleziona la transizione e modifica la relativa etichetta nel riquadro a destra.
 
-Dopo aver completato il flusso di lavoro, aggiungi un’attività Fine alla fine del diagramma. Questa attività ti consente di contrassegnare visivamente la fine di un flusso di lavoro e non ha alcun impatto funzionale.
+Ecco un esempio di flusso di lavoro progettato per inviare un’e-mail a tutti i clienti (diversi dai clienti VIP) con un’e-mail che sono interessati alle macchine da caffè.
+
+![](assets/workflow-example.png)
+
+A questo scopo, sono state aggiunte le seguenti attività:
+
+* A **[!UICONTROL Fork]** attività che divide il flusso di lavoro in tre percorsi (uno per ogni set di clienti),
+* **[!UICONTROL Creare un pubblico]** attività per eseguire il targeting dei tre set di clienti:
+
+   * Clienti con un messaggio e-mail,
+   * Clienti appartenenti al pubblico &quot;Interrested in Coffee Machine(s)&quot; preesistente,
+   * Clienti appartenenti al pubblico &quot;VIP o ricompensa&quot; preesistente.
+
+* A **[!UICONTROL Combina]** attività che raggruppa i clienti con un’e-mail e quelli interessati alle macchine da caffè,
+* A **[!UICONTROL Combina]** attività che esclude i clienti VIP,
+* Un **[!UICONTROL Consegna e-mail]** attività che invia un’e-mail ai clienti risultanti.
+
+Dopo aver completato il flusso di lavoro, aggiungi **[!UICONTROL Fine]** attività alla fine del diagramma. Questa attività ti consente di contrassegnare visivamente la fine di un flusso di lavoro e non ha alcun impatto funzionale.
 
 Dopo aver progettato correttamente il diagramma del flusso di lavoro, è possibile eseguirlo e tenere traccia dell&#39;avanzamento delle varie attività. [Scopri come avviare un flusso di lavoro e monitorarne l’esecuzione](start-monitor-workflows.md)

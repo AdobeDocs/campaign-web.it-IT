@@ -4,10 +4,10 @@ title: Introduzione ai flussi di lavoro
 description: Scopri come iniziare a utilizzare i flussi di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 88%
+source-wordcount: '390'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 88%
 >id="acw_homepage_card4"
 >title="Interfaccia area di lavoro del flusso di lavoro riprogettata"
 >abstract="La nostra area di lavoro grafica completa consente di progettare facilmente processi quali segmentazione, esecuzione di campagne e altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e migliorare le campagne."
-
 
 ## Che cos’è un flusso di lavoro?
 
@@ -35,8 +34,9 @@ Grazie all’ambiente grafico completo di Adobe Campaign, si possono progettare 
 
 Di seguito sono riportati alcuni esempi di utilizzo dei flussi di lavoro con Adobe Campaign:
 
-* Scaricare un file da un server, decomprimerlo e quindi importare i record contenuti all’interno nel database di Adobe Campaign.
-* Creare un’azione di consegna, assegnare un’attività a uno o più operatori per lavorare sul contenuto, specificare gli obiettivi e approvare le bozze prima di iniziare la consegna.
+* Avviare una campagna di follow-up per i clienti inattivi;
+* Inviare un’e-mail di benvenuto a tutti i nuovi abbonati a un servizio,
+* Personalizza le consegne cross-channel in base allo stato del programma fedeltà dei clienti o ai punti di interesse.
 
 ## Approfondiamo
 
