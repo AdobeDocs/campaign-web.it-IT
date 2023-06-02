@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 24%
+source-wordcount: '884'
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ A questo scopo, fai clic su **[!UICONTROL Impostazioni del flusso di lavoro]** n
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Proprietà del flusso di lavoro"
->abstract="TBD"
+>abstract="In questa sezione vengono fornite proprietà di flusso di lavoro generiche accessibili anche durante la creazione del flusso di lavoro. Puoi scegliere il modello da utilizzare per creare il flusso di lavoro e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione del flusso di lavoro o il fuso orario."
 
 Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche durante la creazione del flusso di lavoro.
 
@@ -43,7 +43,7 @@ Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Impostazioni di segmentazione"
->abstract="TBD"
+>abstract="In questa sezione, puoi selezionare la dimensione di targeting per eseguire il targeting dei profili nel flusso di lavoro e scegliere di mantenere i risultati del flusso di lavoro tra due esecuzioni. Questa opzione deve essere utilizzata solo a scopo di test e non deve mai essere abilitata in un flusso di lavoro di produzione."
 
 * **[!UICONTROL Dimensione targeting]**: seleziona la dimensione di targeting da utilizzare per eseguire il targeting dei profili: destinatari, beneficiari del contratto, operatore, abbonati, ecc.
 * **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione del flusso di lavoro. Le tabelle di lavoro delle esecuzioni precedenti vengono eliminate da un flusso di lavoro tecnico che viene eseguito su base giornaliera.
@@ -55,7 +55,7 @@ Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Impostazioni di esecuzione"
->abstract="TBD"
+>abstract="In questa sezione puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia del flusso di lavoro."
 
 * **[!UICONTROL Cronologia in giorni]**: specifica quanti giorni devono trascorrere prima che la cronologia venga eliminata. La cronologia contiene elementi correlati al flusso di lavoro: registri, attività, eventi (oggetti tecnici collegati all’operazione del flusso di lavoro). Per i modelli di flusso di lavoro preconfigurati, il valore predefinito è 30 giorni. L’eliminazione della cronologia viene eseguita dal flusso di lavoro tecnico per la pulizia del database, che viene eseguito quotidianamente per impostazione predefinita
 
@@ -74,7 +74,7 @@ Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Impostazioni di gestione degli errori"
->abstract="TBD"
+>abstract="In questa sezione puoi gestire il comportamento del flusso di lavoro quando si verifica un errore durante l’esecuzione (sospendine/interrompine l’esecuzione o ignora gli errori)."
 
 * **[!UICONTROL Gestione degli errori]**: questo campo ti consente di definire le azioni da intraprendere in caso di errori in un’attività del flusso di lavoro. Sono disponibili due opzioni possibili:
 
