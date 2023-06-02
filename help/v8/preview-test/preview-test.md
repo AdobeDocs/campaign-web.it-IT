@@ -4,14 +4,21 @@ title: Informazioni su anteprima e test delle e-mail
 description: Scopri come visualizzare in anteprima e testare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 91%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
 # Informazioni su anteprima e test delle e-mail {#about-preview-proofs}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate"
+>title="Anteprima e test dei messaggi"
+>abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Anteprima del contenuto dell’e-mail"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Inviare e-mail di test"
 
 Prima di inviare un’e-mail, è importante visualizzarla in anteprima e testarne il contenuto per verificare che sia accurata e che non vi siano errori nelle impostazioni di contenuto o personalizzazione.
 
