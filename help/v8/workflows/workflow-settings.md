@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 20%
+source-wordcount: '858'
+ht-degree: 17%
 
 ---
 
@@ -65,9 +65,7 @@ Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche
 
 * **[!UICONTROL Affinità predefinita]**: se l’installazione include diversi server del flusso di lavoro, utilizza questo campo per scegliere il computer in cui verrà eseguito il flusso di lavoro. Se il valore definito in questo campo non esiste in alcun server, il flusso di lavoro rimarrà in sospeso.
 
-* **[!UICONTROL Salvare le query SQL nel registro]**: consente di salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creare un pubblico]**. Quando questa opzione è abilitata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate in Adobe Campaign, consentendo di analizzarle per ottimizzare le query o diagnosticare i problemi.
-
-   Le query vengono visualizzate nella scheda **[!UICONTROL Registri SQL]**, che viene aggiunta al flusso di lavoro (ad eccezione dei flussi di lavoro della campagna) e all’attività **[!UICONTROL Proprietà]** quando l’opzione è abilitata.<!-- where?-->
+* **[!UICONTROL Salvare le query SQL nel registro]**: consente di salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creare un pubblico]**. Quando questa opzione è abilitata, le query SQL inviate al database durante l&#39;esecuzione del flusso di lavoro vengono visualizzate nei registri del flusso di lavoro, consentendo di analizzarle per ottimizzare le query o diagnosticare i problemi.
 
 ## Impostazioni di gestione degli errori
 
