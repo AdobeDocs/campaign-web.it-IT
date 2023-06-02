@@ -4,14 +4,14 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 7%
 
 ---
 
-# Avviare e monitorare l’esecuzione del flusso di lavoro {#start-monitor}
+# Avvia e monitora il flusso di lavoro {#start-monitor}
 
 Dopo aver creato il flusso di lavoro e progettato le attività da eseguire nell’area di lavoro, puoi avviarlo e monitorarne l’esecuzione.
 
@@ -40,7 +40,7 @@ Gli indicatori visivi nell’angolo superiore destro di ciascuna casella di atti
 | ![](assets/activity-status-red.png) | L’attività ha riscontrato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
 | ![](assets/activity-status-green.png) | L&#39;attività è stata eseguita correttamente. |
 
-## Monitorare registri e attività
+## Monitorare registri e attività {#logs-tasks}
 
 Il monitoraggio dei registri e delle attività dei flussi di lavoro è un passaggio chiave per analizzare i flussi di lavoro e assicurarsi che vengano eseguiti correttamente. Sono accessibili dalla sezione **[!UICONTROL Registri]** disponibile nella barra degli strumenti delle azioni e nel riquadro delle proprietà di ogni attività.
 
