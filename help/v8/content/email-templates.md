@@ -4,10 +4,10 @@ product: campaign
 title: Utilizzare i modelli e-mail
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 38%
+ht-degree: 29%
 
 ---
 
@@ -67,6 +67,6 @@ Per salvare un contenuto e-mail come modello, segui la procedura seguente:
 
    ![](assets/email_designer-template-name.png)
 
-Ora puoi [utilizzare questo modello](#use-templates), disponibile nella scheda Modelli salvati di E-mail Designer, per creare un nuovo contenuto.****
+Ora puoi [usa questo modello](#use-templates) per creare un nuovo contenuto: è disponibile nella sezione **[!UICONTROL Modelli salvati]** della finestra di E-mail Designer.
 
 ![](assets/email_designer-saved-template.png)
