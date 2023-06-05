@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro E-mail
 description: Scopri come utilizzare l’attività del flusso di lavoro E-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ Di seguito sono riportati i passaggi per aggiungere una **Canale** attività in 
 
 1. Seleziona un **Modello**. I modelli sono impostazioni di consegna preconfigurate e salvate per poter essere riutilizzate. [Ulteriori informazioni](../../msg/delivery-template.md)
 
-1. Clic **Creare una consegna** e definisci il messaggio nello stesso modo in cui crei una consegna autonoma. [Ulteriori informazioni](../../msg/gs-message.md)
+1. Clic **Creare una consegna** e definisci il messaggio nello stesso modo in cui crei una consegna autonoma. [Ulteriori informazioni](../../msg/gs-messages.md)
 
 
 1. Avvia il flusso di lavoro e controlla i registri.
