@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Notifica push
 description: Scopri come utilizzare l’attività del flusso di lavoro Notifica push
 badge: label="Alpha" type="Positive"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,58 @@ ht-degree: 27%
 
 Il **Notifica push** l’attività di consegna ti consente di configurare l’invio di una notifica push in un flusso di lavoro.
 
-## Notifica push (Android) {#push-android}
+>[!BEGINTABS]
 
-### Notifica push (iOS) {#push-ios}
+>[!TAB Notifica push (Android)]
 
+1. Dopo aver creato e configurato un nuovo flusso di lavoro, aggiungi un’attività Genera pubblico per selezionare un pubblico esistente o utilizza il generatore di regole per definire una query personalizzata.
+
+1. Aggiungi un’attività del canale di notifica push (Android) nel flusso di lavoro.
+
+<!--
+1. Select the Type of delivery:
+
+    * Single delivery: Choose this option if you want the push notification to be sent only once. You have the flexibility to choose whether or not to include an outbound transition from this activity.
+
+    * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
+-->
+
+1. Seleziona l’attività. Dal menu di consegna, seleziona i modelli che desideri utilizzare per questa consegna. Ulteriori informazioni sui modelli
+
+1. Fai clic su Crea consegna per configurare la consegna delle notifiche push. Per ulteriori informazioni sulla consegna delle notifiche push (Android), consulta questa pagina.
+
+1. Una volta che la consegna è pronta per essere inviata, torna al flusso di lavoro e fai clic su Avvia per avviarlo.
+
+1. Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
+
+   Per confermare l’invio, fai clic su Revisione e invio dal menu avanzato dell’attività del canale per notifiche push (Android).
+
+1. Dal dashboard di consegna delle notifiche push, fai clic su Invia.
+
+>[!TAB Notifica push (iOS)]
+
+1. Dopo aver creato e configurato un nuovo flusso di lavoro, aggiungi un’attività Genera pubblico per selezionare un pubblico esistente o utilizza il generatore di regole per definire una query personalizzata.
+
+1. Aggiungi un’attività del canale di notifica push (iOS) nel flusso di lavoro.
+
+<!--
+1. Select the Type of delivery:
+
+    * Single delivery: Choose this option if you want the push notification to be sent only once. You have the flexibility to choose whether or not to include an outbound transition from this activity.
+
+    * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
+-->
+
+1. Seleziona l’attività. Dal menu di consegna, seleziona i modelli che desideri utilizzare per questa consegna. Ulteriori informazioni sui modelli
+
+1. Fai clic su Crea consegna per configurare la consegna delle notifiche push. Per ulteriori informazioni sulla consegna delle notifiche push (iOS), consulta questa pagina.
+
+1. Una volta che la consegna è pronta per essere inviata, torna al flusso di lavoro e fai clic su Avvia per avviarlo.
+
+1. Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
+
+   Per confermare l’invio, fai clic su Revisione e invio dal menu avanzato dell’attività del canale per notifiche push (iOS).
+
+1. Dal dashboard di consegna delle notifiche push, fai clic su Invia.
+
+>[!ENDTABS]
