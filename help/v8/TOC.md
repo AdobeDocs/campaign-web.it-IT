@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 83%
+source-wordcount: '316'
+ht-degree: 80%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 83%
             + [Regolare l’allineamento verticale e la spaziatura](content/alignment-and-padding.md)
             + [Definire uno stile per i collegamenti](content/styling-links.md)
             + [Aggiungere attributi di stile in linea](content/inline-styling.md)
-         + [Aggiungere personalizzazione](personalization/personalize.md)
-         + [Aggiungi contenuto condizionale](personalization/conditions.md)
          + [Inviare offerte](content/offers.md)
       + Anteprima e test dell’e-mail {#preview-test}
          + [Informazioni su anteprima e test](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 83%
       + [Creare una consegna SMS](sms/create-sms.md)
       + [Progettare una consegna SMS ](sms/content-sms.md)
       + [Inviare una consegna SMS ](sms/send-sms.md)
+   + Rendi dinamico il contenuto {#dynamic-content}
+      + [Introduzione ai contenuti dinamici](personalization/gs-personalization.md)
+      + [Aggiungere personalizzazione](personalization/personalize.md)
+      + [Aggiungi contenuto condizionale](personalization/conditions.md)
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Selezionare un pubblico esistente](audience/add-audience.md)
