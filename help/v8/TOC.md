@@ -5,7 +5,7 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: ec6a9f604c0ce06c503da36b6d8fbccd3557aded
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 83%
@@ -23,8 +23,8 @@ ht-degree: 83%
    + [Introduzione](get-started/get-started.md)
    + [Scoprire l’interfaccia](get-started/user-interface.md)
 + Messaggi e consegne {#msg}
-   + [Introduzione ai messaggi](email/gs-messages.md)
-   + [Utilizzare i modelli di consegna](email/delivery-template.md)
+   + [Introduzione ai messaggi](msg/gs-messages.md)
+   + [Utilizzare i modelli di consegna](msg/delivery-template.md)
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)
       + Creare contenuti e-mail {#content}

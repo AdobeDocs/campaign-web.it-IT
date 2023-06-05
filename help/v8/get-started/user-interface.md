@@ -4,7 +4,7 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 72%
@@ -97,7 +97,7 @@ Nella sezione CAMPAIGN MANAGEMENT, puoi accedere a campagne di marketing, conseg
 
 * **Campagne** : questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella o creare un filtro avanzato per definire criteri di filtro personalizzati. Ulteriori informazioni sulle campagne [in questa sezione](../campaigns/gs-campaigns.md).
 
-* **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. Ulteriori informazioni sulle consegne [in questa sezione](../email/gs-messages.md).
+* **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. Ulteriori informazioni sulle consegne [in questa sezione](../msg/gs-messages.md).
 
    Per eliminare o duplicare una consegna, utilizza il pulsante **Altre azioni**.
 
