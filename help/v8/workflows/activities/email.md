@@ -3,15 +3,36 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro E-mail
 description: Scopri come utilizzare l’attività del flusso di lavoro E-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# E-mail {#email}
+# E-mail, SMS e push {#email}
+
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, ad esempio e-mail, SMS o push. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente.
+
+Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi su diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
+
+Utilizzando le attività di canale, puoi creare campagne complete e personalizzate che coinvolgono i clienti in più punti di contatto e favoriscono le conversioni.
+
+Di seguito sono riportati i passaggi per aggiungere una **Canale** attività in un workflow:
+
+1. Assicurati di aver aggiunto un **Creare un pubblico** attività. Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nel **Creare un pubblico** attività. Vedi [questa sezione](build-audience.md).
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. Seleziona un’attività di consegna: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**.
+
+1. Seleziona un **Modello**. I modelli sono impostazioni di consegna preconfigurate e salvate per poter essere riutilizzate. [Ulteriori informazioni](../../msg/delivery-template.md)
+
+1. Clic **Creare una consegna** e definisci il messaggio nello stesso modo in cui crei una consegna autonoma. [Ulteriori informazioni](../../msg/gs-message.md)
+
+
+1. Avvia il flusso di lavoro e controlla i registri.
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-L’attività Consegna e-mail ti consente di configurare l’invio di un’e-mail in un flusso di lavoro.
 
 <!-- Scheduled emails available?
 
