@@ -4,10 +4,10 @@ title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 56%
+source-wordcount: '743'
+ht-degree: 44%
 
 ---
 
@@ -53,9 +53,21 @@ Sotto **Gruppo di controllo** , scegli un&#39; **Modalità di estrazione**:
 
 * **Classificato per attributo/i**: questa opzione consente di escludere un set di profili in base ad attributi specifici in uno o più ordini specifici.
 
+
+Quindi utilizza **Limite di dimensioni** per impostare il numero di profili da estrarre dal target principale. Può essere un numero non elaborato (ad esempio 50 profili da escludere) o una percentuale del pubblico iniziale (ad esempio il 5% del target principale).
+
+
+### Esempio di gruppo di controllo
+
+Ad esempio, per creare un gruppo di controllo con i 100 nuovi destinatari più giovani, effettua le seguenti operazioni:
+
+1. Seleziona la **Età** come criterio di ordinamento. Lascia **Crescente** opzione di ordinamento.
+1. Aggiungi il **Data di creazione** campo. Cambia in **Decrescente** opzione di ordinamento.
+1. Definisci 100 come soglia nella **Limite di dimensioni** sezione.
+
    ![](assets/control-group2.png)
 
-Quindi utilizza **Limite di dimensioni** per impostare il numero di profili da estrarre dal target principale. Può essere un numero non elaborato o una percentuale del pubblico iniziale.
+Questi 100 nuovi destinatari più giovani sono quindi esclusi dall&#39;obiettivo principale.
 
 ### Verifica il gruppo di controllo {#check-extract-target}
 
@@ -89,7 +101,7 @@ Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Popolazione aggiuntiva"
->abstract="Un altro modo per definire un gruppo di controllo consiste nell’escludere una popolazione specifica dal target utilizzando un pubblico esistente o definendo una query."
+>abstract="Puoi escludere una popolazione specifica dal target selezionando un pubblico esistente o definendo una query."
 
 Un altro modo per definire un gruppo di controllo consiste nell’escludere una popolazione specifica dal target utilizzando un pubblico esistente o definendo una query.
 
@@ -102,3 +114,8 @@ Nella sezione **Popolazione aggiuntiva** della schermata di definizione del **Gr
 * Per definire una nuova query, seleziona **Crea nuovo** e definisci i criteri di esclusione utilizzando il generatore di regole. Consulta questa [sezione](segment-builder.md).
 
 I profili inclusi nel pubblico o che corrispondono al risultato della query vengono esclusi dal target.
+
+## Confrontare i risultati{#control-group-results}
+
+Una volta inviata la consegna, puoi estrarre i registri di invio per confrontare il comportamento tra i profili che non hanno ricevuto la comunicazione e il target effettivo. Puoi anche utilizzare i registri di consegna per generare un nuovo targeting.
+
