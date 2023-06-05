@@ -4,10 +4,10 @@ title: Impostazioni di consegna e-mail
 description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ Puoi anche personalizzare il nome delle e-mail di test.
 
 Utilizza l’opzione **Usa il codice di consegna per la bozza** per associare all’e-mail di test lo stesso codice di consegna definito per la consegna a cui si riferisce.
 
-Per impostazione predefinita, l’oggetto dell’e-mail di test è preceduto da “BOZZA #”, dove # è il numero dell’e-mail di test. Puoi cambiare questo prefisso nel campo **Prefisso etichetta**.
+Per impostazione predefinita, l’oggetto dell’e-mail di test è preceduto da &quot;PROOF #&quot; (BOZZA #), dove # è il numero dell’e-mail di test. Puoi cambiare questo prefisso nel campo **Prefisso etichetta**.

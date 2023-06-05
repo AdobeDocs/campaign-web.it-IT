@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 4%
 
 ---
@@ -19,14 +19,13 @@ Per un processo di progettazione accelerato e migliorato, puoi creare modelli di
 
 Un modello può includere:
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [Tipologie](../advanced-settings/delivery-settings.md#typology)
+* Indirizzo del mittente
 * Un [pubblico](../audience/about-audiences.md), tra cui [gruppi di controllo](../audience/control-group.md)
-* Personalizzato [contenuto](../content/edit-content.md)<!--company logo, or signature-->
-* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Personalizzato [contenuto](../content/edit-content.md)
+* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md)
 * Collegamenti a [pagina mirror](../content/mirror-page.md) e annullamento dell’abbonamento [collegamenti](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* Altre proprietà di consegna, come la validità delle risorse, i parametri dei nuovi tentativi o le impostazioni di quarantena.
 
 ## Accedere e gestire i modelli {#access-manage-templates}
 

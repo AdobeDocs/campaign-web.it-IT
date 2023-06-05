@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 80%
    + [Utilizzare i modelli di consegna](msg/delivery-template.md)
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)
-      + Creare contenuti e-mail {#content}
-         + [Modificare il contenuto dell’e-mail](content/edit-content.md)
-         + Progettare l’e-mail {#design-content}
-            + Iniziare a progettare il contenuto {#start-design}
-               + [Iniziare da zero ](content/create-email-content.md)
-               + [Importare il contenuto dell’e-mail](content/existing-content.md)
-               + [Creare il codice del contenuto](content/code-content.md)
-               + [Utilizzare i modelli di contenuto e-mail](content/email-sample-templates.md)
+      + Definire il contenuto delle e-mail {#content}
+         + [Configurare il contenuto delle e-mail](content/edit-content.md)
+         + Inizia a modellare l’e-mail {#start-design}
+            + [Guida introduttiva a E-mail Designer](content/get-started-email-designer.md)
+            + [Iniziare da zero ](content/create-email-content.md)
+            + [Importare il contenuto dell’e-mail](content/existing-content.md)
+            + [Creare il codice del contenuto](content/code-content.md)
+            + [Utilizzare i modelli di contenuto e-mail](content/email-templates.md)
+         + Creare contenuti {#design-content}
             + [Utilizzare i componenti per contenuti](content/content-components.md)
             + [Generare la versione testuale](content/text-version-email.md)
             + [Aggiungere un collegamento alla pagina mirror](content/mirror-page.md)
