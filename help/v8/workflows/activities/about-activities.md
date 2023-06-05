@@ -4,10 +4,10 @@ title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '303'
+ht-degree: 8%
 
 ---
 
@@ -36,9 +36,7 @@ Queste attività sono specifiche per il targeting, la manipolazione e l’arricc
 
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, ad esempio e-mail, SMS o push. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente.
 
-Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi su diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
-
-Utilizzando le attività di canale, puoi creare campagne complete e personalizzate che coinvolgono i clienti in più punti di contatto e favoriscono le conversioni.
+I seguenti elementi **Canale** Le attività sono disponibili:
 
 * [E-mail](email.md)
 * [Push](push.md)

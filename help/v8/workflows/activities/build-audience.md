@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Crea pubblico
 description: Scopri come utilizzare l’attività del flusso di lavoro Crea pubblico
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 11%
@@ -23,7 +23,7 @@ Per definire la popolazione del pubblico, puoi:
 
 >[!NOTE]
 >
->In questo contesto, non è possibile caricare un pubblico da un file. A questo scopo, devi creare una consegna autonoma. [Ulteriori informazioni](../../audience/about-audience.md)
+>In questo contesto, non è possibile caricare un pubblico da un file. A questo scopo, devi creare una consegna autonoma. [Ulteriori informazioni](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
