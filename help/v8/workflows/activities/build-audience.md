@@ -3,17 +3,27 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Crea pubblico
 description: Scopri come utilizzare l’attività del flusso di lavoro Crea pubblico
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 14%
+source-wordcount: '314'
+ht-degree: 11%
 
 ---
 
 
 # Creazione del pubblico {#build-audience}
 
-Questa attività ti consente di definire un pubblico. Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
+Il **Creare un pubblico** l&#39;attività è un **Targeting** attività. Questa attività ti consente di definire il pubblico che entrerà nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nel **Creare un pubblico** attività.
+
+Per definire la popolazione del pubblico, puoi:
+
+* Seleziona un pubblico esistente, creato come elenco nella console client.
+* Seleziona un pubblico di Adobe Experience Platform.
+* Crea un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro.
+
+>[!NOTE]
+>
+>In questo contesto, non è possibile caricare un pubblico da un file. A questo scopo, devi creare una consegna autonoma. [Ulteriori informazioni](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Per configurare il **Creare un pubblico** attività:
 
-1. Aggiungi un’attività di generazione del pubblico.
+1. Aggiungi un **Creare un pubblico** attività.
 1. Definisci un’etichetta.
 1. Definisci il tipo di pubblico: **Crea il tuo** o **Read audience**.
 

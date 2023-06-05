@@ -3,28 +3,28 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro AND-join
 description: Scopri come utilizzare l’attività del flusso di lavoro AND-join
 badge: label="Alpha" type="Positive"
-source-git-commit: 6ed2c73a5348871348ec4cbdd89fc8119fdbc718
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 4%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
 
 # Attività AND-join {#join}
 
-Il **And-join** attività consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
+Il **And-join** l&#39;attività è un **Controllo del flusso** attività. Consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
 
-L’attività AND-join attiva solo la relativa transizione in uscita dopo che tutte le transizioni in entrata vengono attivate, in altre parole, dopo che tutte le attività precedenti sono state completate.
+Questa attività attiva solo la relativa transizione in uscita dopo che tutte le transizioni in entrata vengono attivate, in altre parole, dopo che tutte le attività precedenti sono state completate. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro.
 
 ## Configurazione
 
 Per configurare il **Unione AND** attività:
 
-1. Aggiungi più attività come **Combina** attività per formare almeno due rami di esecuzione diversi.
+1. Aggiungi più attività, ad esempio attività canale, per formare almeno due rami di esecuzione diversi.
 1. Aggiungi un **Unione AND** ad uno qualsiasi dei rami.
 1. In **Opzioni di unione** , controlla tutte le attività precedenti a cui desideri partecipare.
-1. Seleziona la **Set primario** da mantenere nella transizione in uscita.
+1. In **Set primario** , scegli il gruppo di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
 
 ## Esempio
 

@@ -3,17 +3,17 @@ audience: end-user
 title: Utilizzare l’attività Combina flusso di lavoro
 description: Scopri come utilizzare l’attività Combina flusso di lavoro
 badge: label="Alpha" type="Positive"
-source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 17%
+source-wordcount: '548'
+ht-degree: 14%
 
 ---
 
 
 # Combina {#combine}
 
-Questa attività ti consente di elaborare i set sui dati in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni. Di seguito sono riportati i tipi di segmentazione disponibili:
+Questa attività ti consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni. Di seguito sono riportati i tipi di segmentazione disponibili:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -23,24 +23,37 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * Il **Intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività.
 * Il **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri.
 
-## Configurazione
+## Configurazione generale {#general}
 
-Per configurare il **Combina** attività:
+Per iniziare a configurare il **Combina** attività:
 
 1. Aggiungi più attività come **Creare un pubblico** attività per formare almeno due rami di esecuzione diversi.
-1. Aggiungi un **Combina** a una delle transizioni di segmentazione precedenti.
-1. Seleziona il tipo di segmentazione: unione, intersezione o esclusione.
+1. Aggiungi un **Combina** ad uno dei rami precedenti.
+1. Seleziona il tipo di segmentazione: [unione](#union), [intersezione](#intersection) o [esclusione](#exclusion).
 1. Clic **Continua**.
 1. In **Set da unire** , controlla tutte le attività precedenti a cui desideri partecipare.
 
-Per **Union** e **Intersezione**, è necessario selezionare **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
+## Unione {#union}
 
-* Solo tasti: questa è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
-* Una selezione di colonne: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
+Per **Union**, è necessario selezionare **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
 
-Per **Intersezione** e **Esclusione**, è possibile controllare **Genera completamento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
+* **Solo chiavi**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
+* **Selezione di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
 
-Per **Esclusione**, seleziona la **Set primario** dalle transizioni in entrata, nella **Set da unire** sezione. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
+## Intersezione {#intersection}
+
+Per **Intersezione**, è necessario seguire questi passaggi aggiuntivi:
+
+1. Seleziona la **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la [Union](#union) sezione.
+1. Puoi controllare la **Genera completamento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
+
+## Esclusione {#exclusion}
+
+Per **Esclusione**, è necessario seguire questi passaggi aggiuntivi:
+
+1. In **Set da unire** , seleziona la sezione **Set primario** dalle transizioni in entrata. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
+1. Se necessario, è possibile modificare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere riportato alla stessa dimensione di targeting del target principale. A questo scopo, fai clic su **Aggiungi una regola** nel **Regole di esclusione** e specificare le condizioni per la modifica delle quote. La riconciliazione dei dati viene eseguita tramite un attributo o un join.
+1. Puoi controllare la **Genera completamento** se desideri elaborare la popolazione rimanente. Consulta la [Intersezione](#intersection) sezione.
 
 ## Esempi
 
