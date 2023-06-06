@@ -4,16 +4,18 @@ title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 44%
+source-wordcount: '764'
+ht-degree: 43%
 
 ---
 
 # Impostare un gruppo di controllo {#control-group}
 
 Un gruppo di controllo è una sottopopolazione esclusa dalla consegna. Puoi definire un gruppo di controllo per evitare di inviare messaggi a una parte del pubblico e confrontare il comportamento successivo alla consegna con il target principale. Questa opzione consente di misurare l’impatto della campagna.
+
+## Abilita gruppo di controllo{#add-a-control-group}
 
 Per aggiungere un gruppo di controllo, abilita l’opzione durante la definizione del pubblico della consegna. Il gruppo di controllo può essere estratto in modo casuale dal target principale e/o selezionato da una popolazione specifica. Ci sono quindi due vie principali per definire un gruppo di controllo:
 
@@ -57,7 +59,7 @@ Sotto **Gruppo di controllo** , scegli un&#39; **Modalità di estrazione**:
 Quindi utilizza **Limite di dimensioni** per impostare il numero di profili da estrarre dal target principale. Può essere un numero non elaborato (ad esempio 50 profili da escludere) o una percentuale del pubblico iniziale (ad esempio il 5% del target principale).
 
 
-### Esempio di gruppo di controllo
+### Esempio di gruppo di controllo{#control-group-sample}
 
 Ad esempio, per creare un gruppo di controllo con i 100 nuovi destinatari più giovani, effettua le seguenti operazioni:
 
@@ -69,7 +71,7 @@ Ad esempio, per creare un gruppo di controllo con i 100 nuovi destinatari più g
 
 Questi 100 nuovi destinatari più giovani sono quindi esclusi dall&#39;obiettivo principale.
 
-### Verifica il gruppo di controllo {#check-extract-target}
+### Verifica il gruppo di controllo {#check-control-group}
 
 Puoi visualizzare i registri per controllare e identificare i profili esclusi. Prendiamo l’esempio di un’esclusione casuale su cinque profili.
 
@@ -118,4 +120,7 @@ I profili inclusi nel pubblico o che corrispondono al risultato della query veng
 ## Confrontare i risultati{#control-group-results}
 
 Una volta inviata la consegna, puoi estrarre i registri di invio per confrontare il comportamento tra i profili che non hanno ricevuto la comunicazione e il target effettivo. Puoi anche utilizzare i registri di consegna per generare un nuovo targeting.
+
+Per vedere quali profili sono stati rimossi dal target, seleziona la **Registri di consegna**. Ulteriori informazioni [in questa sezione](#check-control-group).
+
 
