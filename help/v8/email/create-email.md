@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1326'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -114,7 +114,7 @@ In questo caso d’uso, utilizzi un’e-mail predefinita [modello di consegna](.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definire il pubblico"
->abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente già definito in un’istanza Campaign v8 o da Adobe Experience Platform, oppure puoi creare un nuovo pubblico con il generatore di regole. I gruppi di controllo non sono abilitati per &#39;Seleziona da file&#39; e viceversa."
+>abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente già definito in un’istanza Campaign v8 o da Adobe Experience Platform, oppure puoi creare un nuovo pubblico con il generatore di regole. I gruppi di controllo non sono abilitati per “Seleziona da file” e viceversa."
 
 In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente. Per istruzioni su come lavorare con i tipi di pubblico, consulta [questa sezione](../audience/about-audiences.md).
 

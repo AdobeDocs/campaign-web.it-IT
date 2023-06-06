@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 43%
+ht-degree: 45%
 
 ---
 
@@ -28,7 +28,7 @@ Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazio
 
 >[!CAUTION]
 >
->Impossibile utilizzare i gruppi di controllo durante il caricamento della popolazione target [da un file esterno](file-audience.md).
+>Non è possibile utilizzare i gruppi di controllo durante il caricamento della popolazione target [da un file esterno](file-audience.md).
 
 Per aggiungere un gruppo di controllo a una consegna, attiva il **[!UICONTROL Abilita gruppo di controllo]** , dalla **Pubblico** sezione della schermata di creazione della consegna.
 

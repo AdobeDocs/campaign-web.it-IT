@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 72%
+ht-degree: 99%
 
 ---
 
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagne"
->abstract="Questo è l’elenco delle campagne. Puoi visualizzare informazioni utili, ad esempio le date di inizio, fine e ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio e fine. Fai clic sul pulsante &quot;Crea campagna&quot; per aggiungere una nuova campagna. Seleziona una campagna per visualizzarne il contenuto, le consegne e i dettagli. Passa alla scheda Modelli per visualizzare e creare i modelli."
+>abstract="Questo è l’elenco delle campagne. Puoi visualizzare informazioni utili, ad esempio le date di inizio, fine e ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio e fine. Fai clic sul pulsante “Crea campagna” per aggiungere una nuova campagna. Seleziona una campagna per visualizzarne il contenuto, le consegne e i dettagli. Passa alla scheda “Modelli” per visualizzare e creare i modelli."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Consegne"
->abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, le date di contatto e di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic sul pulsante &quot;Crea consegna&quot; per aggiungere una nuova consegna. Seleziona una consegna per visualizzarne il contenuto, il pubblico e i dettagli."
+>abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, le date di contatto e di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic sul pulsante “Crea consegna” per aggiungere una nuova consegna. Seleziona una consegna per visualizzarne il contenuto, il pubblico e i dettagli."
 
-Nella sezione CAMPAIGN MANAGEMENT, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
+Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
 
-* **Campagne** : questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella o creare un filtro avanzato per definire criteri di filtro personalizzati. Ulteriori informazioni sulle campagne [in questa sezione](../campaigns/gs-campaigns.md).
+* **Campagne**: questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
 
-* **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. Ulteriori informazioni sulle consegne [in questa sezione](../msg/gs-messages.md).
+* **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. Per ulteriori informazioni sulle consegne, consulta [questa sezione](../msg/gs-messages.md).
 
    Per eliminare o duplicare una consegna, utilizza il pulsante **Altre azioni**.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Flussi di lavoro** - In questa schermata, è possibile accedere all’elenco completo dei flussi di lavoro e dei modelli di flusso di lavoro. Puoi controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro o un nuovo modello di flusso di lavoro. È possibile filtrare l&#39;elenco con gli stessi criteri degli altri oggetti. Inoltre, puoi filtrare i flussi di lavoro che appartengono o meno a una campagna. Ulteriori informazioni sui flussi di lavoro [in questa sezione](../workflows/gs-workflows.md).
+* **Flussi di lavoro**: in questa schermata, è possibile accedere all’elenco completo dei flussi di lavoro e dei modelli di flusso di lavoro. Puoi controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro o un nuovo modello di flusso di lavoro. È possibile filtrare l’elenco con gli stessi criteri degli altri oggetti. Inoltre, puoi filtrare i flussi di lavoro che appartengono o meno a una campagna. Per ulteriori informazioni sui flussi di lavoro, consulta [questa sezione](../workflows/gs-workflows.md).
 
 
 ### Gestione clienti
@@ -237,23 +237,23 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="Definire il pubblico dell’SMS"
+>title="Definisci il pubblico dell’SMS"
 >abstract="Seleziona il pubblico migliore per il messaggio SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Riepilogo del rapporto SMS"
->abstract="Scopri le metriche di reporting per la consegna SMS."
+>abstract="Scopri le metriche di reportistica per la consegna SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
->abstract="Scopri le metriche di reporting per la consegna push."
+>abstract="Scopri le metriche di reportistica per la consegna push."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributi avanzati del generatore di regole"
->abstract="Utilizza attributi avanzati per definire la regola."
+>abstract="Utilizza gli attributi avanzati per definire la regola."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -268,27 +268,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenuto push per Android"
->abstract="Definisci il contenuto push Android."
+>abstract="Definisci il contenuto push per Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenuto push per iOS"
->abstract="Definisci il contenuto push di iOS."
+>abstract="Definisci il contenuto push per iOS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Abbonati all’app"
->abstract="Visualizza l’anteprima e verifica del messaggio aggiungendo gli abbonati all’app alla destinazione principale. "
+>abstract="Visualizza l’anteprima e verifica il messaggio aggiungendo gli abbonati all’app al target principale. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Popolazione di prova"
->abstract="Seleziona una modalità di popolamento del test."
+>title="Popolazione di test"
+>abstract="Seleziona una modalità per la popolazione di test."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modalità anteprima"
->abstract="Visualizza l’anteprima e verifica del messaggio includendo la popolazione di prova nel target principale."
+>abstract="Visualizza l’anteprima e verifica il messaggio includendo la popolazione di test nel target principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -304,12 +304,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Invio reportistica"
->abstract="Consulta gli indicatori di invio per il reporting della campagna."
+>abstract="Consulta gli indicatori di invio per la reportistica della campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracciamento reportistica"
->abstract="Consulta gli indicatori di tracciamento per il reporting della campagna."
+>abstract="Consulta gli indicatori di tracciamento per la reportistica della campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -319,11 +319,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Reportistica statistiche di destinazione"
->abstract="Questa sezione mostra metriche specifiche in base al pubblico."
+>abstract="Questa sezione mostra metriche specifiche in base ai tipi di pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Reporting aggregato per le consegne"
+>title="Reportistica aggregata per le consegne"
 >abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
 
 >[!CONTEXTUALHELP]
@@ -359,12 +359,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Campi avanzati del selettore attributi"
->abstract="Configurare le colonne con campi avanzati."
+>abstract="Configura le colonne con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campi avanzati del generatore di regole"
->abstract="Configurare le colonne con campi avanzati."
+>abstract="Configura le colonne con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"

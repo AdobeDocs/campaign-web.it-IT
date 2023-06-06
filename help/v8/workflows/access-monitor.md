@@ -7,16 +7,16 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
-# Accesso e gestione dei flussi di lavoro {#access-monitor}
+# Accedere e gestire i flussi di lavoro {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flussi di lavoro"
->abstract="In questa schermata, puoi accedere all’elenco completo dei flussi di lavoro autonomi e dei flussi di lavoro delle campagne, verificarne lo stato corrente, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro. Passa alla scheda Modello per accedere ai modelli di flusso di lavoro disponibili."
+>abstract="In questa schermata, puoi accedere all’elenco completo dei flussi di lavoro autonomi e dei flussi di lavoro delle campagne, verificarne lo stato corrente, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro. Passa alla scheda “Modello” per accedere ai modelli di flusso di lavoro disponibili."
 
 Il **[!UICONTROL Flussi di lavoro]** consente di accedere all’elenco completo dei flussi di lavoro. Questo elenco include entrambi **flussi di lavoro autonomi** che sono state create da questa schermata e **flussi di lavoro per campagne**, che sono state create all&#39;interno di una campagna.
 

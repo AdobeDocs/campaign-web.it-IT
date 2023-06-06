@@ -1,6 +1,6 @@
 ---
 title: Creare contenuto condizionale
-description: Scopri come definire le condizioni per personalizzare il contenuto nell’interfaccia web di Adobe Campaign
+description: Scopri come definire le condizioni per personalizzare i contenuti nell’interfaccia web di Adobe Campaign
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,7 +10,7 @@ exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 

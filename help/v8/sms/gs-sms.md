@@ -7,13 +7,13 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 22%
+ht-degree: 93%
 
 ---
 
 # Introduzione alle consegne SMS {#sms}
 
-Le consegne di SMS offrono un modo pratico ed efficiente per inviare messaggi di testo ai dispositivi mobili dei clienti. Grazie a questa funzione è possibile creare, personalizzare e visualizzare in anteprima i messaggi basati su testo per una comunicazione efficace.
+Le consegne SMS offrono un modo pratico ed efficiente per inviare messaggi di testo ai dispositivi mobili della clientela. Grazie a questa funzione è possibile creare, personalizzare e visualizzare in anteprima i messaggi basati su testo per una comunicazione efficace.
 
 Il canale SMS offre tre metodi per creare consegne SMS:
 
@@ -21,7 +21,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 
 * Campagne: incorpora le consegne SMS in campagne dedicate, impostando parametri quali il pubblico di destinazione e la pianificazione delle consegne.
 
-* Consegne autonome: crea singole consegne SMS per comunicare in modo rapido e diretto con i clienti, senza dover ricorrere a flussi di lavoro o campagne.
+* Consegne indipendenti: crea singole consegne SMS per comunicare in modo rapido e diretto con i clienti, senza dover ricorrere a flussi di lavoro o campagne.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

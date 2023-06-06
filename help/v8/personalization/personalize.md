@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 67%
+ht-degree: 77%
 
 ---
 
@@ -37,9 +37,9 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
    ![](assets/perso-content-blocks.png)
 
-* Crea **contenuto condizionale**
+* Creare **contenuto condizionale**
 
-   Configura il contenuto condizionale per aggiungere la personalizzazione dinamica in base, ad esempio, al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando una particolare condizione è vera. Puoi definire la versione alternativa del contenuto quando la condizione non è true.
+   Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. Puoi definire la versione alternativa del contenuto quando la condizione non è true.
 
 
 ## Personalizzare l’oggetto di un messaggio {#personalize-subject-line}
@@ -78,7 +78,7 @@ Per personalizzare il contenuto dell’e-mail, apri il messaggio in E-mail Desig
 
    ![](assets/perso-insert-block.png)
 
-1. Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail e viene adattato automaticamente al profilo del destinatario quando viene generata la personalizzazione, al passaggio di preparazione della consegna.
+1. Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail e viene adattato automaticamente al profilo del destinatario quando viene generata la personalizzazione, nella fase di preparazione della consegna.
 
    ![](assets/perso-content-block-in-email.png)
 

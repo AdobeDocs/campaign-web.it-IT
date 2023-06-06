@@ -8,7 +8,7 @@ hide: true
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 76%
    + Rendi dinamico il contenuto {#dynamic-content}
       + [Introduzione ai contenuti dinamici](personalization/gs-personalization.md)
       + [Aggiungere personalizzazione](personalization/personalize.md)
-      + [Aggiungi contenuto condizionale](personalization/conditions.md)
+      + [Aggiungere contenuto condizionale](personalization/conditions.md)
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Selezionare un pubblico esistente](audience/add-audience.md)
@@ -82,8 +82,8 @@ ht-degree: 76%
    + [Creare la prima campagna](campaigns/create-campaigns.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
-   + [Accesso e gestione dei flussi di lavoro](workflows/access-monitor.md)
-   + Crea ed esegui il primo flusso di lavoro {#create-workflow}
+   + [Accedere e gestire i flussi di lavoro](workflows/access-monitor.md)
+   + Creare ed eseguire il primo flusso di lavoro {#create-workflow}
       + [Principi chiave per la creazione di flussi di lavoro](workflows/gs-workflow-creation.md)
       + [Creare il flusso di lavoro](workflows/create-workflow.md)
       + [Orchestrare le attività](workflows/orchestrate-activities.md)
