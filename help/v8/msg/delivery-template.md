@@ -9,7 +9,7 @@ exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 4%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ Un modello può includere:
 * Personalizzato [contenuto](../content/edit-content.md)
 * [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md)
 * Collegamenti a [pagina mirror](../content/mirror-page.md) e annullamento dell’abbonamento [collegamenti](../content/message-tracking.md)
-* Altre proprietà di consegna, come la validità delle risorse, i parametri dei nuovi tentativi o le impostazioni di quarantena.
+* Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
 ## Accedere e gestire i modelli {#access-manage-templates}
 
@@ -33,7 +33,7 @@ Un modello può includere:
 >id="acw_delivery_templates"
 >title="Utilizzare i modelli di consegna"
 >abstract="Utilizza i modelli di consegna per creare e salvare facilmente le consegne esistenti per utilizzi futuri."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplica un modello esistente"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicare un modello esistente"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Convertire una consegna in un modello"
 
 Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Campaign Management]** > **[!UICONTROL Consegne]** dal menu a sinistra e passare alla **Modelli** scheda.
@@ -68,17 +68,17 @@ Per creare un modello di consegna, puoi:
 * Convertire una consegna esistente in un modello - [Ulteriori informazioni](#convert-an-existing-delivery)
 * Creare un modello di consegna da zero - [Ulteriori informazioni](#create-a-new-template)
 
-### Duplica un modello esistente {#copy-an-existing-template}
+### Duplicare un modello esistente {#copy-an-existing-template}
 
-Campaign è dotato di un set di modelli incorporati per ogni canale: e-mail, push, SMS. Il modo più semplice per creare un modello di consegna è duplicare e personalizzare un modello incorporato.
+Campaign include un set di modelli incorporati per ogni canale: e-mail, push, SMS. Il modo più semplice per creare un modello di consegna è consiste nel duplicare e personalizzare un modello incorporato.
 
 >[!NOTE]
 >
 >Puoi anche duplicare qualsiasi modello personalizzato.
 
-Per duplicare un modello di consegna, effettua le seguenti operazioni:
+Per duplicare un modello di consegna, segui la procedura seguente:
 
-1. Accedi a **Modelli** , dalla scheda **Consegne** menu a sinistra. [Ulteriori informazioni](#access-manage-templates)
+1. Passa alla scheda **Modelli**, dal menu a sinistra delle **Consegne.** [Ulteriori informazioni](#access-manage-templates)
 1. Fai clic su **[!UICONTROL Altre azioni]** a destra del nome del modello desiderato e seleziona  **[!UICONTROL Duplica]**.
 
    Puoi anche selezionare un modello dall’elenco e selezionare questa opzione dalla schermata dell’edizione del modello.
@@ -120,16 +120,16 @@ Per salvare una consegna come modello, effettua le seguenti operazioni:
 
 Il nuovo modello viene aggiunto al [**Modelli** list](#access-manage-templates). Ora puoi selezionarlo durante la creazione di una nuova consegna.
 
-### Crea un nuovo modello {#create-a-new-template}
+### Creare un nuovo modello {#create-a-new-template}
 
 >[!NOTE]
 >
->Per evitare errori di configurazione, l’Adobe consiglia di: [duplicare un modello incorporato](#copy-an-existing-template) e personalizzarne le proprietà anziché creare un nuovo modello.
+>Per evitare errori di configurazione, Adobe consiglia di [duplicare un modello incorporato](#copy-an-existing-template) e personalizzarne le proprietà anziché creare un nuovo modello.
 
-Per configurare un modello di consegna da zero, segui i passaggi seguenti:
+Per configurare un modello di consegna da zero, segui la procedura seguente:
 
-1. Accedi a **Modelli** , dalla scheda **Consegne** menu a sinistra. [Ulteriori informazioni](#access-manage-templates)
-1. Fai clic su **[!UICONTROL Crea modello]** pulsante.
+1. Passa alla scheda **Modelli**, dal menu a sinistra delle **Consegne.** [Ulteriori informazioni](#access-manage-templates)
+1. Fai clic sul pulsante **[!UICONTROL Crea modello]**.
 
    ![](assets/templates-create-button.png)
 
