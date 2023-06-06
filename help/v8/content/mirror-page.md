@@ -5,9 +5,9 @@ description: Scopri come aggiungere e gestire il collegamento alla pagina mirror
 badge: label="Alpha" type="Positive"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Per aggiungere un collegamento a una pagina mirror nel messaggio e-mail:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Seleziona la **[!UICONTROL Aggiungi personalizzazione]** per accedere al menu di personalizzazione.
+1. Seleziona l’icona **[!UICONTROL Aggiungi personalizzazione]** per accedere al menu di personalizzazione.
 
    ![](assets/message-tracking-mirror-page_2.png)
 
