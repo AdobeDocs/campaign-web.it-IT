@@ -5,9 +5,9 @@ description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1060'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 70%
 
 Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle tue esigenze, segui la procedura seguente.
 
-1. In E-mail Designer, utilizza un contenuto esistente o trascina e rilascia una **[!UICONTROL Struttura]** per definire il layout dell’e-mail. [Scopri come](create-email-content.md)
+1. In E-mail designer, utilizza un contenuto esistente oppure trascina una **[!UICONTROL Struttura]** desiderata nel contenuto vuoto per definire il layout dell’e-mail. [Scopri come](create-email-content.md)
 
-1. Trascina la **[!UICONTROL Contenuto]** all&#39;interno dei componenti struttura rilevanti.
+1. Trascina il **[!UICONTROL Contenuto]** desiderato all’interno dei componenti struttura pertinenti.
 
    ![](assets/email_designer_add_content_components.png)
 
@@ -47,12 +47,12 @@ Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle 
    >
    >È possibile aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
 
-1. Regola gli attributi di stile per ciascun componente utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]** schede. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
+1. Regola gli attributi di stile per ciascun componente utilizzando le schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]**. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-Quando crei contenuti e-mail da zero, **[!UICONTROL Contenuto]**  componenti consente di personalizzare ulteriormente l’e-mail con componenti vuoti e non elaborati che possono essere utilizzati una volta inseriti in un messaggio e-mail.
-Puoi aggiungerne altrettanti **[!UICONTROL Contenuto]** componenti necessari all&#39;interno di una **[!UICONTROL Struttura]** che definisce il layout dell’e-mail.
+Quando crei un contenuto e-mail da zero, i componenti per **[!UICONTROL Contenuto]** consentono di personalizzare ulteriormente l’e-mail con componenti vuoti e non elaborati che possono essere utilizzati una volta inseriti in un’e-mail.
+Puoi aggiungere tutti i componenti per **[!UICONTROL Contenuto]** necessari all’interno di un componente **[!UICONTROL Struttura]** che definisce il layout dell’e-mail.
 
 ## Contenitore {#container}
 
@@ -66,15 +66,15 @@ Ad esempio, aggiungi un componente **[!UICONTROL Contenitore]** e quindi un comp
 
 Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsanti nell’e-mail e reindirizzare il pubblico dell’e-mail a un’altra pagina.
 
-1. Dalla sezione **[!UICONTROL Sommario]** , trascina e rilascia la **[!UICONTROL Pulsante]** componente in una **[!UICONTROL Struttura]** componente.
+1. Dall’elenco **[!UICONTROL Contenuti]**, trascina il componente **[!UICONTROL Pulsante]** in un componente **[!UICONTROL Struttura]**.
 
    ![](assets/email_designer_13.png)
 
-1. Fai clic sul pulsante appena aggiunto per personalizzare il testo e accedere al **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+1. Fai clic sul pulsante appena aggiunto per personalizzare il testo e accedere alle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
    ![](assets/email_designer_14.png)
 
-1. Dalla sezione **[!UICONTROL Impostazioni]** schede, in **[!UICONTROL URL]** , aggiungi l&#39;URL a cui desideri reindirizzare quando fai clic sul pulsante.
+1. Dalle schede **[!UICONTROL Impostazioni]**, nel campo **[!UICONTROL URL]**, aggiungi l’URL a cui desideri reindirizzare l’utente quando farà clic sul pulsante.
 
 1. Con l’elenco a discesa **[!UICONTROL Target]** puoi scegliere in che modo viene visualizzato il contenuto:
 
@@ -86,17 +86,17 @@ Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsant
 
    ![](assets/email_designer_15.png)
 
-1. Puoi personalizzare ulteriormente il pulsante modificando gli attributi di stile, ad esempio **[!UICONTROL Bordo]**, **[!UICONTROL Dimensione]**, **[!UICONTROL Margine]**, ecc. da **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+1. Puoi personalizzare ulteriormente il pulsante modificando gli attributi di stile, ad esempio **[!UICONTROL Bordo]**, **[!UICONTROL Dimensione]**, **[!UICONTROL Margine]**, ecc. dalle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
 ## Testo {#text}
 
-Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e regolarne lo stile (bordo, dimensione, spaziatura, ecc.) utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e regolarne lo stile (bordo, dimensione, spaziatura, ecc.) utilizzando le schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
-1. Dalla sezione **[!UICONTROL Sommario]** menu, trascina **[!UICONTROL Testo]** in un **[!UICONTROL Struttura]** componente.
+1. Dal menu **[!UICONTROL Contenuti]**, trascina **[!UICONTROL Testo]** in un componente **[!UICONTROL Struttura]**.
 
    ![](assets/email_designer_11.png)
 
-1. Fai clic sul componente appena aggiunto per personalizzare il testo e accedere al **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+1. Fai clic sul componente appena aggiunto per personalizzare il testo e accedere alle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
 1. Modifica il testo con le seguenti opzioni disponibili nella barra degli strumenti:
 
@@ -114,7 +114,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
    * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili.
    * **[!UICONTROL Abilita contenuto condizionale]**: aggiungi contenuto condizionale per adattare il contenuto del componente ai profili target.
 
-1. Regola gli altri attributi di stile quali colore del testo, famiglia di font, bordo, spaziatura, margine, ecc. dal **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+1. Regola gli altri attributi di stile quali colore del testo, famiglia di font, bordo, spaziatura, margine, ecc. dalle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
    ![](assets/email_designer_12.png)
 
@@ -122,7 +122,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
 
 Utilizza il componente **[!UICONTROL Divisore]** per inserire una linea di divisione utile per organizzare il layout e il contenuto dell’e-mail.
 
-È possibile regolare gli attributi di stile, ad esempio il colore, lo stile e l&#39;altezza della linea, dal **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+È possibile regolare gli attributi di stile, ad esempio il colore, lo stile e lo spessore della linea, dalle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
 ![](assets/email_designer_16.png)
 
@@ -130,7 +130,7 @@ Utilizza il componente **[!UICONTROL Divisore]** per inserire una linea di divis
 
 Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse parti di un codice HTML esistente. Questo consente di creare componenti modulari HTML a forma libera in modo da riutilizzare dei contenuti esterni.
 
-1. Da **[!UICONTROL Componenti]**, trascina e rilascia **[!UICONTROL HTML]** componente in una **[!UICONTROL Struttura]** componente.
+1. Da **[!UICONTROL Componenti]**, trascina e rilascia il componente **[!UICONTROL HTML]** in un componente **[!UICONTROL struttura]**.
 
    ![](assets/email_designer_22.png)
 
@@ -146,13 +146,13 @@ Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse 
 
 Utilizza il componente **[!UICONTROL Immagine]** per inserire nell’e-mail un file di immagine presente nel computer.
 
-1. Dalla sezione **[!UICONTROL Contenuto]** menu, trascina **[!UICONTROL Immagine]** in un **[!UICONTROL Struttura]** componente.
+1. Dal menu **[!UICONTROL Contenuto]**, trascina e rilascia l’**[!UICONTROL Immagine]** in un componente **[!UICONTROL Struttura]**.
 
    ![](assets/email_designer_9.png)
 
 1. Fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse.
 
-1. Fai clic sul componente appena aggiunto e imposta le proprietà dell’immagine utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede:
+1. Fai clic sul componente appena aggiunto e imposta le proprietà dell’immagine utilizzando le schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**:
 
    * **[!UICONTROL Titolo immagine]** consente di definire il titolo da assegnare all’immagine.
    * **[!UICONTROL Testo Alt]** consente di definire la didascalia collegata all’immagine. Questo corrisponde all’attributo HTML “alt”.
@@ -165,11 +165,11 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire nell’e-mail un f
 
 Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell’e-mail dei collegamenti a pagine social media.
 
-1. Dalla sezione **[!UICONTROL Componenti]** , trascina e rilascia la **[!UICONTROL Social]** componente in una **[!UICONTROL Struttura]** componente.
+1. Dal menu **[!UICONTROL Componenti]**, trascina il componente **[!UICONTROL Social]** in un componente **[!UICONTROL Struttura]**.
 
 1. Fai clic sul componente appena aggiunto.
 
-1. In **[!UICONTROL Social]** campo del **[!UICONTROL Impostazioni]** , scegli il social media da aggiungere o rimuovere.
+1. Nel campo **[!UICONTROL Social]** della scheda **[!UICONTROL Impostazioni]**, scegli i social media da aggiungere o rimuovere.
 
    ![](assets/email_designer_20.png)
 
@@ -181,4 +181,4 @@ Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell�
 
 1. Se necessario, puoi anche modificare le icone di ciascuno dei social media mediante il campo **[!UICONTROL Immagine]**.
 
-1. Regola gli altri attributi quali stile, margine, bordo, ecc. dal **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+1. Regola gli altri attributi quali stile, margine, bordo, ecc. dalle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
