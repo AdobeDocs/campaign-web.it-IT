@@ -4,7 +4,7 @@ title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 90%
@@ -48,7 +48,7 @@ I dati di Campaign vengono memorizzati nel server dell’applicazione. I dati so
 ## Connessione a Campaign
 
 
-1. Collegati ad [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Collegati ad [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Accedi con le tue credenziali Adobe.
 1. Nella sezione **Accesso rapido**, fai clic su **Campaign**.
    ![](assets/connect.png)
