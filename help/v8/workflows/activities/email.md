@@ -3,15 +3,15 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro E-mail
 description: Scopri come utilizzare l’attività del flusso di lavoro E-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 32%
+source-wordcount: '316'
+ht-degree: 31%
 
 ---
 
 
-# E-mail, SMS e push {#email}
+# E-mail, SMS e push {#channel}
 
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, ad esempio e-mail, SMS o push. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente.
 
@@ -29,10 +29,18 @@ Di seguito sono riportati i passaggi per aggiungere una **Canale** attività in 
 
 1. Seleziona un **Modello**. I modelli sono impostazioni di consegna preconfigurate e salvate per poter essere riutilizzate. [Ulteriori informazioni](../../msg/delivery-template.md)
 
-1. Clic **Creare una consegna** e definisci il messaggio nello stesso modo in cui crei una consegna autonoma. [Ulteriori informazioni](../../msg/gs-messages.md)
+1. Clic **Creare una consegna** e definisci il messaggio nello stesso modo in cui crei una consegna autonoma. Qui puoi anche definire le impostazioni di consegna, pianificare e simulare il contenuto. [Ulteriori informazioni](../../msg/gs-messages.md)
 
+1. Torna al workflow e fai clic su **Inizio** per avviare il workflow.
 
-1. Avvia il flusso di lavoro e controlla i registri.
+   Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
+
+1. Clic **Rivedi e invia** dall’attività del canale per confermare l’invio.
+
+1. Dal dashboard di consegna, fai clic su **Invia**.
+
+## Esempio
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
