@@ -5,9 +5,9 @@ description: Scopri come aggiungere attributi di stile in linea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 
 1. Seleziona un componente direttamente nel contenuto o utilizza la **[!UICONTROL struttura di navigazione]** disponibile nel riquadro a sinistra.
 
-1. Dalla sezione **[!UICONTROL Stili]** , fare clic sulla scheda **[!UICONTROL Avanzate]** a discesa.
+1. Dalla scheda **[!UICONTROL Stili]**, fai clic sul menu a discesa **[!UICONTROL Avanzate]**.
 
    ![](assets/styles_1.png)
 
