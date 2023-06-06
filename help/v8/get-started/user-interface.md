@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="Definisci il pubblico dell’SMS"
->abstract="Seleziona il pubblico migliore per il messaggio SMS."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Riepilogo del rapporto SMS"
->abstract="Scopri le metriche di reportistica per la consegna SMS."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Riepilogo del rapporto push"
->abstract="Scopri le metriche di reportistica per la consegna push."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
 >abstract="Numero di e-mail con lo stato di errore."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Contenuto push per Android"
->abstract="Definisci il contenuto push per Android."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="Contenuto push per iOS"
->abstract="Definisci il contenuto push per iOS."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Abbonati all’app"
->abstract="Visualizza l’anteprima e verifica il messaggio aggiungendo gli abbonati all’app al target principale. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Campi avanzati del generatore di regole"
 >abstract="Configura le colonne con campi avanzati."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="Proprietà di consegna push"
->abstract="Gestisci le proprietà di consegna push."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nuova metrica di quarantena"
 >abstract="Nuova metrica di quarantena."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="Selezione modello SMS"
->abstract="Seleziona un modello predefinito per avviare la consegna SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

@@ -4,10 +4,10 @@ title: Progettare una consegna SMS
 description: Scopri come progettare la consegna SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 98%
 >id="acw_deliveries_sms_content"
 >title="Contenuto SMS"
 >abstract="Crea il contenuto delle consegne SMS e personalizzalo con campi di personalizzazione, blocchi di contenuto e contenuti dinamici."
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Abbonati all’app"
+>abstract="Visualizza l’anteprima e verifica il messaggio aggiungendo gli abbonati all’app al target principale."
 
 1. Dalla pagina di consegna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per progettare il contenuto degli SMS.
 

@@ -3,14 +3,24 @@ audience: end-user
 title: Progettare una consegna di notifiche push
 description: Scopri come progettare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Progettare una consegna push {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Contenuto push per Android"
+>abstract="Definisci il contenuto push per Android."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="Contenuto push per iOS"
+>abstract="Definisci il contenuto push per iOS."
 
 ## Messaggio {#push-message}
 

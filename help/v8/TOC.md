@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 467a2475c7610e8124c8babea6f63bd521a3aba4
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,4 +102,6 @@ ht-degree: 78%
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
    + [Accedere ai rapporti di consegna](reporting/delivery-reports.md)
-
+   + [Rapporto di consegna e-mail](reporting/email-report.md)
+   + [Rapporto di consegna push](reporting/push-report.md)
+   + [Rapporto di consegna SMS](reporting/sms-report.md)

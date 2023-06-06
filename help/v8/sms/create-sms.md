@@ -4,10 +4,10 @@ title: Creare una consegna SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_sms_properties"
 >title="Proprietà di consegna SMS"
 >abstract="Le proprietà includono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Se la consegna è basata su uno schema esteso, sono disponibili campi specifici di opzioni personalizzate."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Definisci il pubblico dell’SMS"
+>abstract="Seleziona il pubblico migliore per il messaggio SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Selezione modello SMS"
+>abstract="Seleziona un modello predefinito per avviare la consegna SMS."
 
 1. Dalla pagina home delle **[!UICONTROL Consegne]**, fai clic su **[!UICONTROL Crea una consegna]**.
 
