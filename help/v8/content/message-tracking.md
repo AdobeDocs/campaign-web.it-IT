@@ -5,9 +5,9 @@ description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi i
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Salva le modifiche.
 
-1. Una volta creato il collegamento, puoi comunque modificarlo dall’ **[!UICONTROL Impostazioni]** scheda.
+1. Una volta creato il collegamento, puoi comunque modificarlo dalla scheda **[!UICONTROL Impostazioni]**.
 
    * Puoi modificare il collegamento e modificarne la relativa **[!UICONTROL Destinazione]**.
    * Puoi scegliere di sottolineare o meno il collegamento, selezionando l’opzione corrispondente.
