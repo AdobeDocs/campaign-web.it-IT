@@ -5,9 +5,9 @@ description: Scopri come regolare l’allineamento verticale e la spaziatura
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ In questo esempio, regoliamo la spaziatura e l’allineamento verticale all’in
 
    ![](assets/alignment_2.png)
 
-1. I parametri modificabili per tale colonna vengono visualizzati nel **[!UICONTROL Stili]** scheda. Regolare **[!UICONTROL Allineamento]** utilizzando la sezione dedicata.
+1. I parametri modificabili per tale colonna vengono visualizzati nella scheda **[!UICONTROL Stili]**. Regola l’**[!UICONTROL allineamento]** utilizzando la sezione dedicata.
 
    ![](assets/alignment_3.png)
 
