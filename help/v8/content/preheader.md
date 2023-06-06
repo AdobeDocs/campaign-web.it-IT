@@ -5,9 +5,9 @@ description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body.png)
 
-1. Dalla sezione **[!UICONTROL Impostazioni]** , aggiungi il preheader. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
+1. Dalla scheda **[!UICONTROL Impostazioni]**, aggiungi la preintestazione. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
 
    ![](assets/preheader_body_settings.png)
 
