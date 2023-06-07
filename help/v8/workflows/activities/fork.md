@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Fork
 description: Scopri come utilizzare l’attività del flusso di lavoro Fork
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 5%
 
 # Attività Fork {#fork}
 
-Il **Fork** attività consente di creare transizioni in uscita per avviare più attività in contemporanea.
-
-Il **Fork** attività ti consente di eseguire diverse attività in modo indipendente all’interno dello stesso flusso di lavoro.
+Il **Fork** l&#39;attività è un **Controllo del flusso** attività. Consente di creare transizioni in uscita per avviare più attività in contemporanea.
 
 ## Configurazione
 
