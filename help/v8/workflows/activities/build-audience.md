@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Crea pubblico
 description: Scopri come utilizzare l’attività del flusso di lavoro Crea pubblico
 badge: label="Alpha" type="Positive"
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 11%
@@ -52,6 +52,6 @@ Per selezionare un pubblico esistente, effettua le seguenti operazioni:
 
 ## Esempio
 
-Ecco un esempio di flusso di lavoro con due **Creare un pubblico** attività. Il primo si rivolge al pubblico dei giocatori di poker, seguito da una consegna e-mail. Il secondo prende di mira il pubblico dei clienti VIP, seguito da una consegna SMS.
+Esempio di flusso di lavoro con due **Creare un pubblico** attività. Il primo si rivolge al pubblico dei giocatori di poker, seguito da una consegna e-mail. Il secondo prende di mira il pubblico dei clienti VIP, seguito da una consegna SMS.
 
 ![](../assets/workflow-audience-example.png)

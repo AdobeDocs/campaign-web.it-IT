@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Arricchimento
 description: Scopri come utilizzare l’attività del flusso di lavoro Arricchimento
 badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 28%
@@ -48,7 +48,7 @@ Puoi selezionare due tipi di dati: un singolo attributo dalla dimensione di dest
 
 ## Attributo singolo
 
-Qui stiamo solo aggiungendo un singolo attributo di arricchimento, per esempio, i dati di nascita. Segui questi passaggi:
+In questo caso, stiamo semplicemente aggiungendo un singolo attributo di arricchimento, ad esempio, la data di nascita. Segui questi passaggi:
 
 1. Fai clic all’interno del **Attributo** campo.
 1. Seleziona un campo semplice dalla dimensione di targeting, nel nostro esempio la data di nascita.

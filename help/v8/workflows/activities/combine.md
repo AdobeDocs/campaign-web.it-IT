@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Combina flusso di lavoro
 description: Scopri come utilizzare l’attività Combina flusso di lavoro
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 14%
 
 ---
@@ -65,11 +65,8 @@ L&#39;esempio seguente mostra **intersezione** tra due attività di query. Viene
 
 ![](../assets/workflow-intersection-example.png)
 
-I seguenti elementi **esclusione** esempio mostra due query configurate per filtrare profili di età compresa tra i 18 e i 27 anni e con un dominio e-mail di adobe. I profili con un dominio e-mail adobe vengono quindi esclusi dal primo set.
+I seguenti elementi **esclusione** Questo esempio mostra due query configurate per filtrare profili di età compresa tra i 18 e i 27 anni con un dominio e-mail di Adobe. I profili con un dominio e-mail di Adobe vengono quindi esclusi dal primo set.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
