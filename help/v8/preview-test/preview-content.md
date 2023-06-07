@@ -4,39 +4,53 @@ title: Anteprima del contenuto dell’e-mail
 description: Scopri come visualizzare in anteprima il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: a06158b5aea52c074340ba9819dd67af4f148196
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 29%
 
 ---
 
 
-# Anteprima del contenuto dell’e-mail {#preview}
+# Anteprima del contenuto dell’e-mail {#preview-content}
 
+Utilizza il [!DNL Campaign] funzionalità di simulazione dei contenuti per visualizzare in anteprima il contenuto dell’e-mail prima di inviarla. Questo ti consente di controllare la personalizzazione e di controllarne la modalità di visualizzazione ai destinatari.
 
-Utilizza la funzionalità di simulazione del contenuto in Adobe Campaign per visualizzare in anteprima il contenuto dell’e-mail prima dell’invio, per controllare la personalizzazione e verificare come viene visualizzata dai destinatari.
+Per visualizzare in anteprima il contenuto dell’e-mail, segui i passaggi indicati di seguito.
 
-Per visualizzare l’anteprima del contenuto dell’e-mail, effettua le seguenti operazioni:
+1. Accedi all’e-mail [Modifica contenuto](../content/edit-content.md) schermata o al [E-mail Designer](../content/get-started-email-designer.md).
 
-1. Sfoglia lo schermo della creazione dei contenuti e-mail e fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
+1. Fai clic su **[!UICONTROL Simula contenuto]** pulsante.
 
-   ![](assets/simulate.png)
+   ![](assets/simulate-button.png)
 
-1. Utilizza il **[!UICONTROL Seleziona profili]** per selezionare uno o più profili.
+1. Utilizza il **[!UICONTROL Aggiungi profili di test]** per selezionare i profili che verranno utilizzati per visualizzare in anteprima il contenuto personalizzato.
+
 1. Puoi combinare profili di test e profili per visualizzare l’anteprima dell’e-mail.
 
-   ![](assets/preview-profile.png)
+   * La scheda **[!UICONTROL Profili di test]** contiene tutti gli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
 
-   * La scheda **[!UICONTROL Profili di test]** contiene tutti gli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database. Possono essere creati nella console Adobe Campaign, nella cartella **[!UICONTROL Risorse]**/**[!UICONTROL Gestione delle campagne]**/**[!UICONTROL Indirizzi seed]**.
-   * La scheda **[!UICONTROL Profili]** elenca tutti i destinatari memorizzati nella cartella **[!UICONTROL Profili e destinazioni]** dalla console di Campaign.
+      >[!NOTE]
+      >
+      >I profili di test possono essere creati in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-1. Dopo aver selezionato i profili, nel riquadro a destra viene visualizzata un’anteprima dell’e-mail. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra.
+   * La scheda **[!UICONTROL Profili]** elenca tutti i destinatari memorizzati nella cartella **[!UICONTROL Profili e destinazioni]** dalla console di [!DNL Campaign] [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
-   Se hai aggiunto più profili, puoi passare da un profilo all’altro nell’elenco per visualizzare in anteprima il contenuto e-mail corrispondente.
+   ![](assets/simulate-select-profiles.png)
 
-1. Per visualizzare in anteprima il rendering dei contenuti su diversi dispositivi (desktop, dispositivi mobili, tablet), fai clic sull’icona dedicata in alto a destra.
+1. Clic **[!UICONTROL Seleziona]** per confermare la selezione in entrambe le schede.
 
-   ![](assets/preview.png)
+   Un’anteprima dell’e-mail viene visualizzata nel riquadro a destra della sezione **[!UICONTROL Simula]** schermo. Gli elementi personalizzati vengono sostituiti con i dati del profilo selezionato nel riquadro a sinistra.
+
+   ![](assets/simulate-preview.png)
+
+1. Se hai aggiunto più profili, puoi passare da un profilo all’altro nell’elenco per visualizzare in anteprima il contenuto e-mail corrispondente. Puoi anche aggiungere altri profili di test e cancellare la selezione utilizzando i pulsanti corrispondenti sul riquadro a sinistra.
+
+1. È possibile regolare **[!UICONTROL Livello di zoom]** e visualizzare l’anteprima dei contenuti su un desktop o un dispositivo mobile utilizzando l’icona dedicata nell’angolo in alto a destra.
+
+1. Dalla sezione **[!UICONTROL Simula]** schermo è inoltre possibile:
+   * Controlla il rendering di e-mail nei client e-mail più diffusi - [Ulteriori informazioni](email-rendering.md)
+   * Invia e-mail di test a destinatari specifici per la convalida - [Ulteriori informazioni](proofs.md)
+
 
 

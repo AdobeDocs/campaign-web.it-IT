@@ -5,9 +5,9 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 3e28d05fe63a9a5b73e7ac6d7ebc415964ffedae
+source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 75%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 75%
       + Anteprima e test dell’e-mail {#preview-test}
          + [Informazioni su anteprima e test](preview-test/preview-test.md)
          + [Anteprima del contenuto dell’e-mail](preview-test/preview-content.md)
+         + [Rendering dell’e-mail](preview-test/email-rendering.md)
          + [Inviare e-mail di test](preview-test/proofs.md)
       + Inviare e monitorare l’e-mail {#monitor}
          + [Preparare e inviare un’e-mail](monitor/prepare-send.md)

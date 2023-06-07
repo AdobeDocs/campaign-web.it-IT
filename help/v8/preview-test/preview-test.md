@@ -4,14 +4,14 @@ title: Informazioni su anteprima e test delle e-mail
 description: Scopri come visualizzare in anteprima e testare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
+source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 87%
+source-wordcount: '186'
+ht-degree: 31%
 
 ---
 
-# Informazioni su anteprima e test delle e-mail {#about-preview-proofs}
+# Informazioni su anteprima e test delle e-mail {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
@@ -20,18 +20,20 @@ ht-degree: 87%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Anteprima del contenuto dell’e-mail"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Inviare e-mail di test"
 
-Prima di inviare un’e-mail, è importante visualizzarla in anteprima e testarne il contenuto per verificare che sia accurata e che non vi siano errori nelle impostazioni di contenuto o personalizzazione.
+Una volta definito il contenuto dell’e-mail, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio.
 
-A questo scopo, Adobe Campaign consente di effettuare quanto segue:
+Si tratta di un passaggio fondamentale per garantirne l’accuratezza, ma anche l’assenza di errori nelle impostazioni di contenuto e personalizzazione.
 
-* [Visualizzare in anteprima il contenuto e la personalizzazione dell’e-mail](preview-content.md).
-* [Verificare il rendering delle e-mail](#rendering) nei client desktop, mobili e basati su web più diffusi.
-* [Inviare e-mail di test](proofs.md) a destinatari specifici a scopo di test e convalida.
+Per eseguire questa operazione, [!DNL Adobe Campaign] consente di:
 
-Queste azioni possono essere eseguite mediante il pulsante **[!UICONTROL Simula contenuto]**, accessibile quando si crea il contenuto dell’e-mail in E-mail Designer:
+* [Anteprima del contenuto e della personalizzazione dell’e-mail](preview-content.md)
+* [Controlla il rendering dell’e-mail](email-rendering.md) nei client desktop, mobili e basati su Web più diffusi
+* [Inviare e-mail di test](proofs.md) a destinatari specifici a scopo di test e convalida
 
-![](assets/simulate.png)
+Queste azioni possono essere eseguite da **[!UICONTROL Simula contenuto]** , accessibile dalla [Modifica contenuto](../content/edit-content.md) schermata o dalla [E-mail Designer](../content/get-started-email-designer.md).
+
+![](assets/simulate-button.png)
 
 >[!NOTE]
 >
->La simulazione del contenuto è disponibile anche nel riepilogo della consegna dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]**.
+>La simulazione dei contenuti è disponibile anche dal [riepilogo della consegna](../monitor/prepare-send.md) dopo aver fatto clic su **[!UICONTROL Rivedi e invia]** pulsante.
