@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
@@ -31,7 +31,7 @@ Per aggiungere tag di personalizzazione a una consegna, apri l’editor di espre
 
 ![](assets/perso-access.png)
 
-Viene visualizzato l’editor espressioni. I campi di personalizzazione sono organizzati in tre menu, situati a sinistra dello schermo. Questi menu consentono di accedere a tutti i campi disponibili nel database di Adobe Campaign.
+Viene visualizzato l’editor espressioni. I campi di personalizzazione sono organizzati in diversi menu, situati a sinistra dello schermo. Questi menu consentono di accedere a tutti i campi disponibili nel database di Adobe Campaign.
 
 ![](assets/perso-insert-field.png)
 
