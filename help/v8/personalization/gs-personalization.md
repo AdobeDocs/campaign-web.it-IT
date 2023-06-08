@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 36%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -34,7 +34,7 @@ Per rendere dinamico il contenuto del messaggio, inserisci:
 
 * **Contenuto condizionale**
 
-   Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. Puoi definire la versione alternativa del contenuto quando la condizione non è true.
+   Configura il contenuto condizionale per aggiungere contenuto ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. Puoi definire la versione alternativa del contenuto quando la condizione non è true.
 
 * **Blocchi di contenuto incorporati**
 
@@ -46,11 +46,13 @@ Per rendere dinamico il contenuto del messaggio, inserisci:
 
 Adobe Campaign V8 Web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per il contenuto.
 
-L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con l’icona Apri finestra di dialogo per personalizzazione, ad esempio il campo dell’oggetto o i componenti di contenuto testo e pulsante nelle e-mail.
+L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con l’icona Apri finestra di dialogo per personalizzazione, ad esempio il campo dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 Inoltre, durante la progettazione di un’e-mail è possibile accedere a un generatore di contenuti condizionali dedicato. [Scopri come creare contenuti condizionali nelle e-mail](conditions.md)
 
