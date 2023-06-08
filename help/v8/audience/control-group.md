@@ -4,10 +4,10 @@ title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 45%
+source-wordcount: '752'
+ht-degree: 46%
 
 ---
 
@@ -86,11 +86,12 @@ Dopo la preparazione della consegna, puoi rivedere come sono state applicate le 
 * Nei registri di consegna, la scheda Registri mostra il passaggio di esclusione.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* Il **Exclusion logs** mostra ogni profilo e la relativa esclusione **Motivo**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * Il **Cause di esclusione** Nella scheda viene visualizzato il numero di profili esclusi per ogni regola di tipologia.
 
