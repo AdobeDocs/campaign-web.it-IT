@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 36%
+source-wordcount: '298'
+ht-degree: 8%
 
 ---
 
@@ -42,36 +42,3 @@ Viene visualizzato l’editor espressioni. I campi di personalizzazione sono org
 Per aggiungere un campo di personalizzazione, posiziona il cursore nella posizione desiderata all’interno del contenuto e fai clic sul pulsante + per inserirlo.
 
 ![](assets/perso-insert-field.png)
-
-## Personalizzare il contenuto delle e-mail {#personalize-emails}
-
-Per personalizzare il contenuto dell’e-mail, apri il messaggio in E-mail Designer ed esegui le seguenti operazioni:
-
-1. Fai clic all’interno di un blocco di testo.
-1. Nella barra degli strumenti contestuale, seleziona **[!UICONTROL Aggiungi personalizzazione]**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Inserisci il nome del destinatario nell’editor di personalizzazione e conferma.
-
-   ![](assets/perso-add-name.png)
-
-   L’attributo di personalizzazione viene aggiunto al contenuto dell’e-mail.
-
-   Puoi simulare il contenuto per controllarne il rendering. [Ulteriori informazioni](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. Per aggiungere un blocco di contenuto all’e-mail, segui questi stessi passaggi e seleziona un blocco di contenuto dall’ultima icona:
-
-   ![](assets/perso-insert-block.png)
-
-1. Una volta inserito, il blocco di contenuto viene aggiunto al contenuto dell’e-mail e viene adattato automaticamente al profilo del destinatario quando viene generata la personalizzazione, nella fase di preparazione della consegna.
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## Personalizzare le offerte {#personalize-offers}
-
-Puoi anche accedere all’editor di personalizzazione quando aggiungi contenuti testuali alle rappresentazioni delle offerte. Per ulteriori informazioni, consulta [questa sezione](../content/offers.md).
-
