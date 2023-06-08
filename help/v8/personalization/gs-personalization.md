@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 22%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 22%
 Per ottenere il massimo da ogni campagna di marketing, Adobe Campaign offre un modo per fornire contenuti dinamici personalizzati che parlano ai clienti a loro livello. In base ai dati del profilo, utilizza le funzionalità di personalizzazione per creare un’esperienza personalizzata per diversi gruppi e singoli utenti: puoi adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato, e molto altro.
 
 Utilizza Campaign per creare contenuti dinamici e inviare messaggi personalizzati. Le funzionalità di personalizzazione possono essere combinate per migliorare i messaggi e creare un’esperienza utente personalizzata.
+
+## Come rendere dinamico il contenuto?
 
 Per rendere dinamico il contenuto del messaggio, inserisci:
 
@@ -36,7 +38,7 @@ Per rendere dinamico il contenuto del messaggio, inserisci:
 
    ![](assets/perso-content-blocks.png)
 
-## Dove posso aggiungere contenuti dinamici?
+## Accedere all’editor di espressioni {#access}
 
 Adobe Campaign V8 Web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per il contenuto. L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con **[!UICONTROL Apri finestra di dialogo per personalizzazione]** come il campo dell’oggetto, i collegamenti e-mail e i componenti di contenuto testo/pulsante.
 
