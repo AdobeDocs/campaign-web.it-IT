@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
+source-git-commit: a5d492cc43b73e365579c3f825d85671eb0b6da5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 22%
@@ -30,13 +30,13 @@ Per rendere dinamico il contenuto del messaggio, inserisci:
 
    Per inserire nel contenuto la città del destinatario, utilizza la seguente sintassi: &lt;%= recipient.location.city %>.
 
-   ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Contenuto condizionale**: configura il contenuto condizionale per aggiungere contenuto ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. Puoi definire la versione alternativa del contenuto quando la condizione non è true.
 
 * **Blocchi di contenuto incorporati**: Campaign viene fornito con un set di blocchi di personalizzazione che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di saluto o un collegamento alla pagina speculare di un messaggio e-mail. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione.
 
-   ![](assets/perso-content-blocks.png)
+   ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## Accedere all’editor di espressioni {#access}
 
@@ -48,15 +48,15 @@ Adobe Campaign V8 Web fornisce un editor di espressioni in cui è possibile sele
 
 *Accesso all’editor di espressioni dal campo Nome mittente*
 
-![](assets/expression-editor-access.png)
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *Accesso all’editor di espressioni da un componente di testo e-mail*
 
-![](assets/expression-editor-access-email.png)
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *Accesso all’editor di espressioni da un collegamento in un messaggio e-mail*
 
-![](assets/perso-link-insert-icon.png){width="500" align="center"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## Approfondiamo
