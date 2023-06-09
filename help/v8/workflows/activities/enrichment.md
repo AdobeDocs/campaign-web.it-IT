@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Arricchimento
 description: Scopri come utilizzare l’attività del flusso di lavoro Arricchimento
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 28%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
@@ -24,17 +24,17 @@ I dati di arricchimento possono provenire:
 
 * **Dalla stessa tabella di lavoro** come quella che è stata inserita nel flusso di lavoro:
 
-   *Eseguire il targeting di un gruppo di clienti e aggiungere il campo “Data di nascita” alla tabella di lavoro corrente*
+  *Eseguire il targeting di un gruppo di clienti e aggiungere il campo “Data di nascita” alla tabella di lavoro corrente*
 
 * **Da un’altra tabella di lavoro**:
 
-   *Eseguire il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
+  *Eseguire il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
 
 Una volta aggiunti i dati di arricchimento al flusso di lavoro, questi possono essere utilizzati nelle attività aggiunte dopo **Arricchimento** attività per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
 
 Ad esempio, è possibile aggiungere alla tabella di lavoro del flusso di lavoro le informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro acquisto più recente o con l’importo speso per tali acquisti.
 
-## Configurazione generale
+## Configurazione generale {#general}
 
 Per configurare il **Arricchimento** attività:
 
@@ -44,9 +44,9 @@ Per configurare il **Arricchimento** attività:
 
 ![](../assets/workflow-enrichment1.png)
 
-Puoi selezionare due tipi di dati: un singolo attributo dalla dimensione di destinazione o un collegamento di raccolta.
+È possibile selezionare due tipi di dati di arricchimento: [attributo di arricchimento singolo](#single-attribute) dalla dimensione di destinazione, oppure [collegamento raccolta](#collection-link).
 
-## Attributo singolo
+## Attributo di arricchimento singolo {#single-attribute}
 
 In questo caso, stiamo semplicemente aggiungendo un singolo attributo di arricchimento, ad esempio, la data di nascita. Segui questi passaggi:
 
@@ -56,16 +56,14 @@ In questo caso, stiamo semplicemente aggiungendo un singolo attributo di arricch
 
 ![](../assets/workflow-enrichment2.png)
 
-## Collegamento raccolta
+## Collegamento raccolta {#collection-link}
 
 In questo caso d’uso più complesso, selezioneremo un collegamento di raccolta che è un collegamento con cardinalità 1-N tra le tabelle. Recuperiamo i tre ultimi acquisti che sono inferiori a 100$. A questo scopo è necessario definire:
 
-* un attributo: **Importo totale** campo
+* un attributo di arricchimento: **Importo totale** campo
 * numero di righe da recuperare: 3
 * un filtro: filtra gli elementi superiori a 100$
 * a ordinamento: ordinamento discendente sul **Data ordine** campo.
-
-Segui questi passaggi:
 
 ### Aggiungi l’attributo
 
@@ -92,7 +90,7 @@ Se ad esempio si desidera ottenere l&#39;importo medio degli acquisti per un cli
 
 ### Definire i filtri
 
-In questo caso, viene definito il valore massimo per l’attributo. Gli elementi superiori a 100$ vengono filtrati.
+In questo caso, viene definito il valore massimo per l’attributo di arricchimento. Gli elementi superiori a 100$ vengono filtrati.
 
 1. Clic **Modificare i filtri**.
 1. Aggiungi i due seguenti filtri: **Importo totale** esiste AND **Importo totale** è minore di 100. Il primo filtra i valori NULL così come apparirebbero come il valore maggiore.
@@ -113,6 +111,11 @@ Ora è necessario applicare l’ordinamento per recuperare i tre **più recente*
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
