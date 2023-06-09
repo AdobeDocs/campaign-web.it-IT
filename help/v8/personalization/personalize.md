@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 1e5bc39adfeae4f956fc208ef9763eb020552364
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -31,31 +31,27 @@ Per aggiungere tag di personalizzazione a una consegna, effettua le seguenti ope
 
 1. Apri l’editor di espressioni utilizzando **[!UICONTROL Apri finestra di dialogo per personalizzazione]** che è accessibile dai campi di modifica di tipo testo, ad esempio l’oggetto o il corpo dell’SMS. [Scopri come accedere all’editor di espressioni](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png)
+   ![](assets/perso-access.png){width="800" align="center"}
 
 1. Viene aperto l’editor espressioni. I campi di personalizzazione disponibili nel database di Adobe Campaign sono organizzati in diversi menu sul lato sinistro dello schermo:
 
-![](assets/perso-insert-field.png)
+   ![](assets/perso-insert-field.png){width="800" align="center"}
 
-| Menu | Descrizione |
-|-----|------------|
-| ![](assets/do-not-localize/perso-subscribers-menu.png) | Il **[!UICONTROL Applicazione per abbonati]** Il menu elenca i campi relativi agli abbonati a un’applicazione, ad esempio il terminale utilizzato o il sistema operativo. *Questo menu è disponibile solo per le notifiche push* |
-| ![](assets/do-not-localize/perso-recipients-menu.png) | Il **[!UICONTROL Destinatario]** il menu elenca i campi definiti nella tabella dei destinatari, ad esempio i nomi, le età o gli indirizzi dei destinatari. |
-| ![](assets/do-not-localize/perso-message-menu.png) | Il **[!UICONTROL Messaggio]** il menu elenca i campi relativi ai registri di consegna, inclusi tutti i messaggi inviati a destinatari o dispositivi su tutti i canali, ad esempio la data dell’ultimo evento con un determinato destinatario |
-| ![](assets/do-not-localize/perso-delivery-menu.png) | Il **[!UICONTROL Consegna]** Il menu elenca i campi relativi ai parametri necessari per eseguire le consegne, ad esempio il canale o l’etichetta di consegna. |
+   | Menu | Descrizione |
+   |-----|------------|
+   | ![](assets/do-not-localize/perso-subscribers-menu.png) | Il **[!UICONTROL Applicazione per abbonati]** Il menu elenca i campi relativi agli abbonati a un’applicazione, ad esempio il terminale utilizzato o il sistema operativo. *Questo menu è disponibile solo per le notifiche push* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | Il **[!UICONTROL Destinatario]** il menu elenca i campi definiti nella tabella dei destinatari, ad esempio i nomi, le età o gli indirizzi dei destinatari. |
+   | ![](assets/do-not-localize/perso-message-menu.png) | Il **[!UICONTROL Messaggio]** il menu elenca i campi relativi ai registri di consegna, inclusi tutti i messaggi inviati a destinatari o dispositivi su tutti i canali, ad esempio la data dell’ultimo evento con un determinato destinatario |
+   | ![](assets/do-not-localize/perso-delivery-menu.png) | Il **[!UICONTROL Consegna]** Il menu elenca i campi relativi ai parametri necessari per eseguire le consegne, ad esempio il canale o l’etichetta di consegna. |
 
->[!NOTE]
->
->Per impostazione predefinita, in ogni menu sono elencati tutti i campi della tabella selezionata (Destinatari, / Messaggio / Consegna). Se si desidera includere campi da tabelle collegate alla tabella selezionata, abilitare **[!UICONTROL Visualizzare attributi avanzati]** sotto l’elenco.
+   >[!NOTE]
+   >
+   >Per impostazione predefinita, in ogni menu sono elencati tutti i campi della tabella selezionata (Destinatari, / Messaggio / Consegna). Se si desidera includere campi da tabelle collegate alla tabella selezionata, abilitare **[!UICONTROL Visualizzare attributi avanzati]** sotto l’elenco.
 
 1. Per aggiungere un campo di personalizzazione, posiziona il cursore nella posizione desiderata all’interno del contenuto e fai clic sul pulsante `+` per inserirlo.
 
 1. Una volta che il contenuto è pronto, puoi salvarlo e testare il rendering della personalizzazione simulando il contenuto. L’esempio seguente mostra la personalizzazione di un messaggio SMS con i nomi dei destinatari.
 
-   *Aggiungi il tag di personalizzazione nel contenuto del messaggio*
+   ![](assets/perso-preview1.png){width="800" align="center"}
 
-   ![](assets/perso-preview1.png)
-
-   *Simulare il rendering della personalizzazione per un determinato profilo di test*
-
-   ![](assets/perso-preview2.png)
+   ![](assets/perso-preview2.png){width="800" align="center"}
