@@ -3,16 +3,22 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come iniziare a creare i contenuti utilizzando E-mail designer nell’interfaccia web di Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Guida introduttiva a E-mail Designer {#get-started-email-designer}
 
-Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfruttare le funzionalità di progettazione dei contenuti:
+Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
+
+E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Indipendentemente dal fatto che tu parta da una lavagna vuota, importi un contenuto esistente o sfrutti modelli esistenti, progetta e perfeziona tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * Utilizzare [!DNL Campaign] funzionalità di progettazione delle e-mail per creare e-mail dinamiche. [Ulteriori informazioni](create-email-content.md)
 
@@ -38,5 +44,5 @@ Dal dashboard di consegna e-mail, passa attraverso [Modifica contenuto](edit-con
 
 * **Seleziona un contenuto esistente** da un elenco di modelli predefiniti o personalizzati. Scopri come utilizzare i modelli e-mail [questa sezione](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

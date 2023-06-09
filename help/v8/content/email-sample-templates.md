@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Utilizzare i modelli e-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Utilizzare i modelli e-mail {#email-saved-content-templates}
 
-Quando [creazione di un messaggio e-mail](#create-email), utilizza **[!UICONTROL Seleziona modello struttura]** sezione del **[!UICONTROL Creare l’e-mail]** per iniziare a creare i contenuti da un modello.
+Quando [creazione di un messaggio e-mail](../email/create-email.md), utilizza **[!UICONTROL Seleziona modello struttura]** sezione del **[!UICONTROL Creare l’e-mail]** per iniziare a creare i contenuti da un modello.
 
 ![](assets/email_designer-sample-templates.png)
 

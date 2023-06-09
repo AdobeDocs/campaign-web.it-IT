@@ -4,10 +4,10 @@ title: Aggiungere una preintestazione in E-mail Designer
 description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
+source-git-commit: 0272475635bb1376b62e3904551e02a5f86d4046
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 >title="Aggiungere una preintestazione"
 >abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
 
-Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail.
+Un preheader è un breve testo che segue la riga dell’oggetto quando si visualizza un messaggio e-mail da uno dei principali client e-mail.
 
-In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase.
+In molti casi, fornisce un breve riepilogo del contenuto ed è in genere di una frase.
 
 >[!NOTE]
 >
 >Le preintestazioni non sono supportate da tutti i client e-mail. Se non è supportata, la preintestazione non viene visualizzata.
 
-Per definire la preintestazione dell’e-mail, segui la procedura seguente:
+Per definire la preintestazione dell’e-mail, segui la procedura seguente.
 
-1. In E-mail Designer, aggiungi almeno uno dei **[!UICONTROL Componenti struttura]** per iniziare a progettare l’e-mail.
+1. Da E-mail Designer, aggiungi almeno un **[!UICONTROL Struttura]** per iniziare a progettare l’e-mail.
 
 1. Fai clic sull’icona **[!UICONTROL Struttura di navigazione]** nel riquadro a sinistra e seleziona **[!UICONTROL Corpo]**.
 
@@ -38,7 +38,7 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body_settings.png)
 
-1. Nella finestra **[!UICONTROL Modifica personalizzazione]** è possibile aggiungere un **[!UICONTROL Blocco di contenuto]**, **[!UICONTROL Contenuto dinamico]** o dei **[!UICONTROL Campi di personalizzazione]**.
+1. Dalla sezione **[!UICONTROL Modifica personalizzazione]** finestra, puoi aggiungere **[!UICONTROL Blocchi di contenuto]**, **[!UICONTROL Contenuto dinamico]** o **[!UICONTROL Campi di personalizzazione]**.
 
 1. Fai clic su **[!UICONTROL Convalida]** per controllare la sintassi di personalizzazione.
 

@@ -5,7 +5,7 @@ title: Documentazione di Adobe Campaign v8 Web
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -28,19 +28,19 @@ ht-degree: 75%
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)
       + Definire il contenuto delle e-mail {#content}
-         + [Configurare il contenuto delle e-mail](content/edit-content.md)
+         + [Configurare il contenuto dell’e-mail](content/edit-content.md)
          + Inizia a modellare l’e-mail {#start-design}
             + [Guida introduttiva a E-mail Designer](content/get-started-email-designer.md)
-            + [Iniziare da zero ](content/create-email-content.md)
+            + [Iniziare da zero](content/create-email-content.md)
             + [Importare il contenuto dell’e-mail](content/existing-content.md)
             + [Creare il codice del contenuto](content/code-content.md)
             + [Utilizzare i modelli di contenuto e-mail](content/email-templates.md)
          + Creare contenuti {#design-content}
             + [Utilizzare i componenti per contenuti](content/content-components.md)
-            + [Generare la versione testuale](content/text-version-email.md)
+            + [Aggiungere collegamenti e tenere traccia dei messaggi](content/message-tracking.md)
             + [Aggiungere un collegamento alla pagina mirror](content/mirror-page.md)
             + [Aggiungere una preintestazione](content/preheader.md)
-            + [Aggiungere collegamenti e tracciare i messaggi](content/message-tracking.md)
+            + [Generare la versione testuale](content/text-version-email.md)
          + Personalizzare lo stile del contenuto {#style}
             + [Introduzione allo stile dell’e-mail](content/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 75%
    + SMS {#sms}
       + [Introduzione alle consegne SMS](sms/gs-sms.md)
       + [Creare una consegna SMS](sms/create-sms.md)
-      + [Progettare una consegna SMS ](sms/content-sms.md)
-      + [Inviare una consegna SMS ](sms/send-sms.md)
+      + [Progettare una consegna SMS](sms/content-sms.md)
+      + [Inviare una consegna SMS](sms/send-sms.md)
    + Rendi dinamico il contenuto {#dynamic-content}
       + [Introduzione ai contenuti dinamici](personalization/gs-personalization.md)
       + [Aggiungere personalizzazione](personalization/personalize.md)
