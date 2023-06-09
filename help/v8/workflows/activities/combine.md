@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Combina flusso di lavoro
 description: Scopri come utilizzare l’attività Combina flusso di lavoro
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 14%
+source-wordcount: '690'
+ht-degree: 12%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## Configurazione generale {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="Opzioni di unione intersezione"
+>abstract="L’intersezione ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività. Nella sezione Imposta per il join selezionare tutte le attività precedenti a cui si desidera partecipare."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="Opzioni di unione esclusione"
+>abstract="L’esclusione ti consente di escludere elementi da una popolazione in base a determinati criteri. Nella sezione Imposta per il join selezionare tutte le attività precedenti a cui si desidera partecipare."
+
 Per iniziare a configurare il **Combina** attività:
 
 1. Aggiungi più attività come **Creare un pubblico** attività per formare almeno due rami di esecuzione diversi.
@@ -34,6 +44,11 @@ Per iniziare a configurare il **Combina** attività:
 1. In **Set da unire** , controlla tutte le attività precedenti a cui desideri partecipare.
 
 ## Unione {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Intersezione opzioni di riconciliazione"
+>abstract="Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati."
 
 Per **Union**, è necessario selezionare **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
 
@@ -48,6 +63,11 @@ Per **Intersezione**, è necessario seguire questi passaggi aggiuntivi:
 1. Puoi controllare la **Genera completamento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
 
 ## Esclusione {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="Regole di esclusione"
+>abstract="Se necessario, è possibile modificare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere riportato alla stessa dimensione di targeting del target principale. A questo scopo, fai clic su Aggiungi una regola nella sezione Regole di esclusione e specifica le condizioni di modifica della dimensione. La riconciliazione dei dati viene eseguita tramite un attributo o un join."
 
 Per **Esclusione**, è necessario seguire questi passaggi aggiuntivi:
 
