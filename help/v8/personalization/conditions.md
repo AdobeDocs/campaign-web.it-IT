@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 1dfd557b22de9888ab8d3a1f0479b45d59a86f93
+source-git-commit: 548bc638ed24433550c322bce5fc55439e8d938d
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,28 +27,29 @@ Configurando i campi di contenuto condizionale, puoi creare ad esempio una perso
 
 ## Come creare contenuti condizionali
 
-Per creare contenuto condizionale, è necessario creare condizioni nell’editor di espressioni utilizzando una funzione helper specifica. Questo metodo è disponibile per tutti i canali di consegna in qualsiasi campo in cui è possibile accedere all’editor di espressioni, ad esempio il campo dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante. [Scopri dove aggiungere contenuti dinamici](gs-personalization.md/#access)
+Per creare contenuto condizionale, è necessario creare condizioni in **editor di espressioni** utilizzando una funzione helper specifica. Questo metodo è disponibile per tutti i canali di consegna in qualsiasi campo in cui è possibile accedere all’editor di espressioni, ad esempio la riga dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante. [Scopri dove aggiungere contenuti dinamici](gs-personalization.md/#access)
 
-Oltre all’editor di espressioni, puoi sfruttare un generatore di contenuti condizionali dedicato durante la progettazione di un’e-mail che consente di creare condizioni utilizzando gli attributi del profilo.
+Oltre all’editor di espressioni, puoi sfruttare una **generatore di contenuti condizionali** durante la progettazione di un’e-mail che consente di creare condizioni utilizzando solo gli attributi del profilo.
 
 ## Creare condizioni nell’editor di espressioni {#condition-perso-editor}
 
-Per definire un contenuto condizionale per una consegna;, segui i passaggi seguenti. In questo esempio, vogliamo creare contenuti condizionali in base alla lingua dei destinatari (francese o inglese).
+Per definire il contenuto condizionale di una consegna utilizzando l’editor di espressioni, segui i passaggi seguenti. In questo esempio, vogliamo creare contenuti condizionali in base alla lingua dei destinatari (francese o inglese).
 
-1. Apri una consegna e modifica il contenuto.
+1. Apri una consegna e passa alla sezione di modifica del contenuto.
 
-1. Individua il campo in cui desideri aggiungere contenuto condizionale e fai clic sul pulsante **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per aprire l’editor di espressioni. In questo esempio, vogliamo aggiungere contenuto condizionale a un messaggio SMS:
+1. Individua il campo in cui desideri aggiungere contenuto condizionale. Ad esempio, puoi aggiungere contenuto condizionale a un messaggio SMS.
+
+1. Fai clic su **[!UICONTROL Apri finestra di dialogo per personalizzazione]** accanto al campo per aprire l’editor espressioni.
 
    ![](assets/open-perso-editor-sms.png)
 
 1. Nell’editor di personalizzazione, passa a **[!UICONTROL Funzioni di supporto]** menu a sinistra.
 
-1. Fai clic sull’icona &quot;+&quot; accanto al simbolo **Se** per avviare la condizione. La seguente riga è aggiunta alla schermata centrale:
-   `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+* Per iniziare a creare la condizione, fai clic sull’icona &quot;+&quot; accanto alla **Se** funzione. La seguente riga è aggiunta alla schermata centrale:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
-   * Sostituisci `<FIELD>` da un campo di personalizzazione. Ad esempio, la lingua del destinatario: `recipient.language`.
-   * Sostituisci `<VALUE>` dal valore da soddisfare. Ad esempio, `'French'`.
-   * Sostituisci `Ìnsert content here` in base al contenuto che desideri visualizzare ai profili che soddisfano la condizione specificata sopra.
+   * Sostituisci `<FIELD>` con un campo di personalizzazione, ad esempio la lingua del destinatario: `recipient.language`.
+   * Sostituisci `<VALUE>` con il valore da soddisfare. Ad esempio, `'French'`.
+   * Sostituisci `Ìnsert content here` con il contenuto che desideri visualizzare ai profili che soddisfano la condizione specificata.
 
      ![](assets/condition-sample1.png)
 
@@ -62,11 +63,11 @@ Per definire un contenuto condizionale per una consegna;, segui i passaggi segue
       >
       >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
       >
-      >Assicurati di rimuovere questi tag per evitare errori di sintassi. In questo esempio, è stata corretta l’espressione dopo la rimozione di **Altro** i tag di funzione sono:
+      >Assicurati di rimuovere questi tag per evitare errori di sintassi. In questo esempio, l’espressione corretta dopo la rimozione di **else** i tag di funzione sono:
       >
       >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
-   1. Sostituisci `Ìnsert content here` in base al contenuto che desideri visualizzare ai profili che non soddisfano la condizione.
+   1. Sostituisci `Ìnsert content here` con il contenuto che desideri visualizzare ai profili che non soddisfano la condizione della funzione if.
 
       ![](assets/condition-sample2.png)
 
@@ -79,34 +80,34 @@ Per definire un contenuto condizionale per una consegna;, segui i passaggi segue
 ## Creare contenuto condizionale nelle e-mail  {#condition-condition-builder}
 
 Il contenuto condizionale nelle e-mail può essere creato in due modi:
-* Nell’editor di espressioni creando una condizione utilizzando le funzioni di assistenza,
+* Nell’editor di espressioni creando una condizione con funzioni di supporto,
 * In un generatore di contenuti condizionali dedicato accessibile durante la progettazione di un’e-mail.
 
 Sono disponibili informazioni dettagliate su come creare condizioni utilizzando l’editor di espressioni [qui](#condition-perso-editor).
 
-La sezione seguente illustra i passaggi necessari per creare le condizioni utilizzando il generatore di contenuti condizionali di e-mail designer. In questo esempio, creeremo un messaggio e-mail con più varianti a seconda della lingua dei destinatari. Per farlo, esegui questi passaggi:
+La sezione seguente fornisce istruzioni dettagliate su come creare condizioni utilizzando la funzionalità di contenuto condizionale di e-mail designer. In questo esempio, vogliamo creare un messaggio e-mail con più varianti in base alla lingua dei destinatari. Segui questi passaggi:
 
 1. Crea o apri una consegna e-mail, modificane il contenuto e fai clic su **[!UICONTROL Modifica corpo dell’e-mail]** per aprire l’area di lavoro di progettazione e-mail.
 
-1. Seleziona un componente di contenuto e fai clic su **[!UICONTROL Abilita contenuto condizionale]**.
+1. Seleziona un componente di contenuto e fai clic su **[!UICONTROL Abilita contenuto condizionale]** icona.
 
    ![](assets/condition-email-enable.png)
 
 1. Il **[!UICONTROL Contenuto condizionale]** sul lato sinistro dello schermo. In questo riquadro, puoi creare più varianti del componente di contenuto selezionato utilizzando le condizioni.
 
-1. Configura la prima variante. Per fare questo, passa il cursore del mouse **[!UICONTROL Variante - 1]** nel **[!UICONTROL Contenuto condizionale]** e fare clic sul pulsante **[!UICONTROL Aggiungi condizione]** icona.
+1. Configura la prima variante. Passa il cursore sopra **[!UICONTROL Variante - 1]** nel **[!UICONTROL Contenuto condizionale]** e fare clic sul pulsante **[!UICONTROL Aggiungi condizione]** icona.
 
 1. Viene visualizzato un generatore di regole. Utilizza gli attributi del profilo per creare la condizione per la prima variante del messaggio e fai clic su **[!UICONTROL Conferma]**. In questo esempio, stiamo creando una regola destinata ai destinatari la cui lingua è &quot;francese&quot;.
 
    ![](assets/condition-email-rule.png)
 
-1. La regola ora è associata alla variante. Per una migliore leggibilità, si consiglia di rinominare la variante facendo clic sul menu dell’ellisse.
+1. La regola ora è associata alla variante. Per una migliore leggibilità, si consiglia di rinominare la variante facendo clic sul menu con i puntini di sospensione.
 
-   Ora configura come deve essere visualizzato il componente se la regola viene soddisfatta durante l’invio del messaggio. In questo esempio, vogliamo visualizzare il testo in francese se è la lingua preferita del destinatario.
+1. Configura la modalità di visualizzazione del componente se la regola viene soddisfatta durante l’invio del messaggio. In questo esempio, vogliamo visualizzare il testo in francese se è la lingua preferita del destinatario.
 
    ![](assets/condition-email-variant1.png)
 
-1. Aggiungi tutte le varianti necessarie per il componente contenuto. Puoi passare in qualsiasi momento da una variante all’altra per verificare come verrà visualizzato il componente contenuto a seconda delle regole condizionali.
+1. Aggiungi tutte le varianti necessarie per il componente contenuto. Puoi passare da una variante all’altra in qualsiasi momento per verificare come verrà visualizzato il componente contenuto in base alle relative regole condizionali.
 
    >[!NOTE]
    >Se nessuna delle regole definite nelle varianti è soddisfatta durante l’invio del messaggio, il componente contenuto visualizzerà il contenuto definito nel **[!UICONTROL Variante predefinita]** dal **[!UICONTROL Contenuto condizionale]** riquadro.
