@@ -4,10 +4,10 @@ title: Progettare una consegna SMS
 description: Scopri come progettare la consegna SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 93%
+source-wordcount: '182'
+ht-degree: 92%
 
 ---
 
@@ -25,17 +25,19 @@ ht-degree: 93%
 
 1. Dalla pagina di consegna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per progettare il contenuto degli SMS.
 
-1. Nella pagina **[!UICONTROL Modifica contenuto]**, è possibile modificare il nome del mittente dal **[!UICONTROL Campo mittente]**. Immetti il nome da utilizzare. Puoi anche fare clic su **[!UICONTROL Apri finestra di dialogo di personalizzazione]** per aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici.
-
 1. Nella pagina **[!UICONTROL Modifica contenuto]**, puoi personalizzare il nome del mittente accedendo al **[!UICONTROL Campo mittente]** e immettendo il nome preferito.
 
    Inoltre, facendo clic su **[!UICONTROL Apri finestra di dialogo di personalizzazione]**, puoi includere nel messaggio campi di personalizzazione, blocchi di contenuto e contenuto dinamico.
 
-1. Digita il messaggio di testo nel campo **[!UICONTROL Messaggio]** o fai clic sul pulsante **[!UICONTROL Apri finestra di dialogo di personalizzazione]** per definire il contenuto e aggiungere contenuto dinamico.
+   ![](assets/sms_content_1.png)
+
+1. Digita il messaggio di testo nel campo **[!UICONTROL Messaggio]** o fai clic sul pulsante **[!UICONTROL Apri finestra di dialogo di personalizzazione]** per definire il contenuto e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/gs-personalization.md)
+
+   ![](assets/sms_content_2.png)
 
 1. Per impostazione predefinita, il tracciamento è abilitato per le consegne. Puoi disattivare questa opzione dalla **[!UICONTROL sezione Funzioni facoltative]**.
 
-1. Accedere a **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati.
+1. Accedere a **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati. [Ulteriori informazioni](send-sms.md#preview-sms)
 
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima.
 

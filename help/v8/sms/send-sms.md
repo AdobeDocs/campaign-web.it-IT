@@ -3,7 +3,7 @@ audience: end-user
 title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 24%
@@ -12,29 +12,39 @@ ht-degree: 24%
 
 # Anteprima e invio di una consegna SMS {#send-sms}
 
-## Anteprima della consegna SMS{#preview-push}
+## Anteprima della consegna SMS{#preview-sms}
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai incluso contenuti personalizzati, puoi esaminare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Ciò ti consente di garantire che il messaggio venga visualizzato come previsto e che tutte le informazioni personalizzate vengano presentate correttamente.
 
 1. Dalla pagina dei contenuti della consegna, puoi utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati.
 
+   ![](assets/sms_send_1.png)
+
 1. Fai clic su **[!UICONTROL Aggiungi profili di test]** per selezionare uno o più profili di test o profili.
 
 1. Una volta selezionati i profili di test, fai clic su **[!UICONTROL Seleziona]**.
 
+   ![](assets/sms_send_2.png)
+
 1. Nel riquadro a destra è disponibile un’anteprima del messaggio e-mail in cui gli elementi personalizzati vengono sostituiti dinamicamente con i dati del profilo selezionato.
+
+   ![](assets/sms_send_3.png)
 
 Ora puoi esaminare e inviare il messaggio SMS al pubblico.
 
-## Inviare la consegna SMS {#preview-send-push}
+## Inviare la consegna SMS {#preview-send-sms}
 
 1. Dopo aver personalizzato il contenuto SMS, fai clic su **[!UICONTROL Rivedi e invia]** dal tuo **[!UICONTROL Consegna]** pagina.
+
+   ![](assets/sms_send_4.png)
 
 1. Fai clic su **[!UICONTROL Prepara]**e monitorare i progressi e le statistiche fornite.
 
    Se si verificano errori, fare riferimento al menu Registri per informazioni dettagliate sull&#39;errore.
 
 1. Inviare i messaggi facendo clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale.
+
+   ![](assets/sms_send_5.png)
 
 1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]** pulsante.
 

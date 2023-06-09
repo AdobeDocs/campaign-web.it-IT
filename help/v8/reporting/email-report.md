@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporti di consegna e-mail
 description: Scopri come accedere e utilizzare i rapporti di consegna e-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '337'
 ht-degree: 95%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 95%
 ## Invio
 
 * **Riepilogo delle consegne**: questo rapporto fornisce tutte le informazioni principali sulla consegna. Popolazione target, cause di esclusione, statistiche sulla consegna.
-
-  +++Configura le seguenti impostazioni in base alle tue esigenze.
-Attività Test
-+++
 
   ![](assets/reporting3.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti di consegna push
 description: Scopri come accedere e utilizzare i rapporti di consegna push
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 61%
+source-wordcount: '269'
+ht-degree: 7%
 
 ---
 
@@ -19,10 +19,54 @@ ht-degree: 61%
 
 ## Riepilogo push {#push-summary}
 
-* **Panoramica della consegna**:
+* **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi push.
 
-* **Popolazione target**:
+  +++Ulteriori informazioni sulle metriche dei rapporti di consegna push.
 
-* **Statistiche complessive**:
+   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
 
-* **Esclusioni**:
+   * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+
+   * **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con il messaggio push.
+
+   * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
+
++++
+
+  ![](assets/reporting_push_3.png)
+
+* **Popolazione target** i dati di visualizzazione di grafici e tabelle sono relativi al pubblico:
+
+  +++Ulteriori informazioni sulle metriche dei rapporti di consegna push.
+
+   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+
+   * **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
+
++++
+
+  ![](assets/reporting_push_4.png)
+
+* **Statistiche generali** presenta i dati per le notifiche push inviate, tra cui:
+
+  +++Ulteriori informazioni sulle metriche dei rapporti di consegna push.
+
+   * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente.
+
+   * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante la consegna e che hanno impedito l’invio dei messaggi a determinati profili.
+
+   * **[!UICONTROL Nuova quarantena]**: numero di profili esclusi e aggiunti alla quarantena.
+
++++
+
+  ![](assets/reporting_push_5.png)
+
+* **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+
+  ![](assets/reporting_push_6.png)
+
+## Velocità effettiva di consegna {#delivery-throughput}
+
+Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato. La metrica principale utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+
+![](assets/reporting_push_2.png)

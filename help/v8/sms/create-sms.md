@@ -4,9 +4,9 @@ title: Creare una consegna SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 100%
 
 1. Dalla pagina home delle **[!UICONTROL Consegne]**, fai clic su **[!UICONTROL Crea una consegna]**.
 
-1. Nella sezione **[!UICONTROL Canale]**, scegli SMS come canale e seleziona un modello. Ulteriori informazioni sui modelli
+1. Nella sezione **[!UICONTROL Canale]**, scegli SMS come canale e seleziona un modello. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
+
+   ![](assets/sms_create_1.png)
 
 1. Immetti un’**[!UICONTROL etichetta]** per la consegna e accedi al menu a discesa **[!UICONTROL Opzioni aggiuntive]**.
 
@@ -44,11 +46,11 @@ ht-degree: 100%
    * **[!UICONTROL Natura]**: specifica la natura dell’e-mail a scopo di classificazione.
 +++
 
-1. Dal menu a discesa **[!UICONTROL Opzioni personalizzate]**, puoi accedere allo schema esteso con campi personalizzati specifici.
+1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni](../audience/about-audiences.md).
 
-1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. Ulteriori informazioni.
+   ![](assets/sms_create_2.png)
 
-1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna che consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. Ulteriori informazioni
+1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna che consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Ulteriori informazioni](../audience/control-group.md)
 
 1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a progettare il contenuto del messaggio SMS.
 
