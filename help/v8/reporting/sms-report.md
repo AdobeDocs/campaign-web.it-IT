@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti di consegna SMS
 description: Scopri come accedere e utilizzare i rapporti di consegna sms
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -18,8 +18,6 @@ ht-degree: 6%
 >abstract="Scopri le metriche di reportistica per la consegna SMS."
 
 ## Riepilogo consegne {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi SMS.
 
