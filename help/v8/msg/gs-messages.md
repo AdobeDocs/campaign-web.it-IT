@@ -4,25 +4,52 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 98%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
 # Introduzione ai messaggi{#gs-messages}
 
+Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati.
 
-Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere indipendenti o incluse nel contesto di una campagna di marketing.
+Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere indipendenti o incluse nel contesto di una campagna di marketing.
 
-Adobe Campaign v8 è dotato dei canali di consegna seguenti:
+Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e app mobili.
 
-* **Canale e-mail**: le consegne e-mail ti consentono di inviare e-mail personalizzate alla popolazione target. Per scoprire come creare e inviare un’e-mail, consulta [questa pagina](../email/create-email.md).
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="E-mail" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>Creare le e-mail</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>Creare notifiche push</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="SMS" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>Creare messaggi SMS</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **Canale SMS**: le consegne sui canali mobili ti consentono di inviare SMS personalizzati alla popolazione target.  Per scoprire come creare e inviare SMS, consulta [questa pagina](../sms/create-sms.md).
-
-* **Canale applicazione mobile**: le consegne tramite app mobile ti consentono di inviare notifiche ai sistemi iOS e Android.  Per scoprire come creare e inviare notifiche push, consulta [questa pagina](../push/gs-push.md).
 
 ## Creare una consegna {#create-delivery}
 
@@ -83,7 +110,7 @@ Per ulteriori informazioni su come configurare una campagna e gestire le consegn
 
 ## Aggiungere personalizzazione{#personalization}
 
-I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi. [Ulteriori informazioni sulle funzionalità di personalizzazione](../personalization/personalize.md).
+I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi. [Ulteriori informazioni sulle funzionalità di personalizzazione](../personalization/gs-personalization.md).
 
 Utilizza Campaign per creare contenuti dinamici e inviare messaggi personalizzati. Le funzionalità di personalizzazione possono essere combinate per migliorare i messaggi e creare un’esperienza utente personalizzata.
 
@@ -91,19 +118,19 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 * Inserendo **campi di personalizzazione** dinamici
 
-   I campi di personalizzazione vengono utilizzati per la personalizzazione di primo livello dei messaggi. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione. Per una consegna, puoi selezionare qualsiasi campo correlato al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. [Ulteriori informazioni](../personalization/personalize.md)
+  I campi di personalizzazione vengono utilizzati per la personalizzazione di primo livello dei messaggi. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione. Per una consegna, puoi selezionare qualsiasi campo correlato al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. [Ulteriori informazioni](../personalization/personalize.md)
 
 * Inserimento di **blocchi di contenuto** predefiniti
 
-   Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione. [Ulteriori informazioni](../personalization/personalize.md#ootb-content-blocks)
+  Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione. [Ulteriori informazioni](../personalization/personalize.md#ootb-content-blocks)
 
 * Creare **contenuto condizionale**
 
-   Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](../personalization/conditions.md)
+  Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](../personalization/conditions.md)
 
 * Aggiungere **offerte personalizzate**
 
-   Inserisci offerte personalizzate nel contenuto del messaggio, a seconda della posizione del destinatario, del meteo corrente o dell’ultimo ordine di acquisto.
+  Inserisci offerte personalizzate nel contenuto del messaggio, a seconda della posizione del destinatario, del meteo corrente o dell’ultimo ordine di acquisto.
 
 
 ## Anteprima e verifica delle consegne
@@ -111,9 +138,13 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima per controllare il rendering dei messaggi e verificare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../preview-test/preview-test.md)
 
 
-## Registri di consegna e di tracciamento{#gs-tracking-logs}
+## Registri di monitoraggio e tracciamento{#gs-tracking-logs}
 
-Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
+Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti.
+
+Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
+
+Ulteriori informazioni sulle funzionalità di monitoraggio e tracciamento in [questa sezione](../reporting/gs-reports.md).
 
 ## Duplicare una consegna {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Per duplicare una consegna dall’elenco delle consegne, effettua le seguenti op
 1. Seleziona **[!UICONTROL Duplica]**.
 1. Conferma duplicazione: il nuovo dashboard delle consegne si apre nella schermata centrale.
 
-
 Per duplicare una consegna dal dashboard, effettua le seguenti operazioni:
 
 1. Apri la consegna e fai clic sul pulsante **[!UICONTROL ...Altro]** nella sezione superiore dello schermo.
 1. Seleziona **[!UICONTROL Duplica]**.
 1. Conferma duplicazione: la nuova consegna sostituisce la consegna corrente nella schermata centrale.
 
+## Eliminare una consegna {#delivery-delete}
 
+Le consegne vengono eliminate dall’elenco di consegna, dalla voce di consegna principale nella barra a sinistra o dall’elenco di consegna di una campagna.
 
+Per eliminare una consegna dall’elenco delle consegne, effettua le seguenti operazioni:
+
+1. Fai clic sul pulsante con i tre puntini a destra, accanto al nome della consegna da duplicare.
+1. Seleziona  **[!UICONTROL Elimina]**.
+1. Conferma eliminazione.
+
+![Eliminare una consegna dall’elenco di consegna](assets/delete-delivery-from-list.png)
+
+Tutte le consegne sono disponibili in questi elenchi, ma le consegne create in un flusso di lavoro non possono essere eliminate da lì. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
+
+Per eliminare una consegna da un flusso di lavoro, effettua le seguenti operazioni:
+
+1. Seleziona l’attività di consegna .
+1. Fai clic su  **[!UICONTROL Elimina]** nel pannello di destra.
+1. Conferma eliminazione. Se la consegna ha nodi secondari, puoi scegliere di eliminarli anche loro o di mantenerli.
+
+![Eliminare una consegna in un flusso di lavoro](assets/delete-delivery-from-wf.png)

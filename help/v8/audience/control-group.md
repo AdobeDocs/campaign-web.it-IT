@@ -4,10 +4,10 @@ title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '759'
+ht-degree: 40%
 
 ---
 
@@ -81,11 +81,11 @@ Dopo la preparazione della consegna, puoi rivedere come sono state applicate le 
 
 * Nel dashboard di consegna, prima dell’invio, controlla **Da escludere** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * Nei registri di consegna, la scheda Registri mostra il passaggio di esclusione.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Dopo la preparazione della consegna, puoi rivedere come sono state applicate le 
 
 * Il **Cause di esclusione** Nella scheda viene visualizzato il numero di profili esclusi per ogni regola di tipologia.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Popolazione aggiuntiva"
->abstract="Puoi escludere una popolazione specifica dal target selezionando un pubblico esistente o definendo una query."
+>abstract="Puoi escludere una popolazione specifica dal pubblico di consegna selezionando un pubblico esistente o definendo una query."
 
-Un altro modo per definire un gruppo di controllo consiste nell’escludere una popolazione specifica dal target utilizzando un pubblico esistente o definendo una query.
+Un altro modo per definire un gruppo di controllo consiste nel selezionare una popolazione specifica in un pubblico esistente o nel definire una query.
 
 Nella sezione **Popolazione aggiuntiva** della schermata di definizione del **Gruppo di controllo**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
 ![](assets/control-group3.png)
 
-* Per utilizzare un pubblico esistente, fai clic su **Seleziona pubblico**. Consulta questa [sezione](add-audience.md).
+* Per utilizzare un pubblico esistente, fai clic su **Seleziona pubblico**. Per ulteriori informazioni, consulta [questa sezione](add-audience.md).
 
-* Per definire una nuova query, seleziona **Crea nuovo** e definisci i criteri di esclusione utilizzando il generatore di regole. Consulta questa [sezione](segment-builder.md).
+* Per definire una nuova query, seleziona **Crea nuovo** e definisci i criteri di esclusione utilizzando il generatore di regole. Per ulteriori informazioni, consulta [questa sezione](segment-builder.md).
 
-I profili inclusi nel pubblico o che corrispondono al risultato della query vengono esclusi dal target.
+I profili inclusi nel pubblico o che corrispondono al risultato della query sono **escluso** dal target di consegna: non ricevono alcun messaggio.
 
 ## Confrontare i risultati{#control-group-results}
 
