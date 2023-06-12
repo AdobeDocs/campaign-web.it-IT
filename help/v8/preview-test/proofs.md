@@ -4,10 +4,10 @@ title: Inviare e-mail di test
 description: Scopri come definire e inviare e-mail di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 44%
+source-wordcount: '563'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ I destinatari di un test possono controllare vari elementi come collegamenti, co
 
 Le e-mail di test possono essere inviate a due tipi di destinatari:
 
-* **Profili di test** : invia e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database. Possono essere create in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **Profili di test** : invia e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database. Possono essere create in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Ulteriori informazioni in [Documentazione di Campaign v8 (console)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **Sostituisci dal target principale** : invia e-mail di test a un indirizzo e-mail specifico mentre impersona un profilo esistente. Questo consente di verificare l’esperienza dell’e-mail così come verrà ricevuta dai destinatari, con una rappresentazione accurata del messaggio per quello specifico profilo.
 
