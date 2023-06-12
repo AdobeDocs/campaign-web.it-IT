@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
+source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 98%
+source-wordcount: '1617'
+ht-degree: 83%
 
 ---
 
@@ -16,72 +16,46 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Scopri l’interfaccia"
->abstract="La nuova interfaccia di Campaign Web v8 offre un’esperienza utente integrata, intuitiva e coerente."
+>abstract="La nuova interfaccia web di Campaign v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
 La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con Adobe Experience Platform.
 
-<!--
-Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
--->
 
 >[!NOTE]
 >
 >Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia utente che visualizzi.
 
 
-<!--
-* console + web interface (overview, why use each of them)
-* web UI made up of read-only lists that can be configured, show how to add columns
--->
-
-## Menu di navigazione a sinistra
+## Menu di navigazione a sinistra {#user-interface-left-nav}
 
 Sfoglia i collegamenti a sinistra per accedere alle funzionalità di Campaign Web v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni che ti servono. Consulta questa [sezione](#list-screens). Tutte le schermate di elenchi sono di sola lettura, ad eccezione dell’elenco delle consegne e-mail. Nella versione alfa, non è possibile fare clic su una voce dell’elenco per modificarla o visualizzarla. Tutti gli elenchi saranno modificabili in versioni future. Gli elementi visualizzati nel menu di navigazione a sinistra dipendono dalle autorizzazioni utente.
 
 ![](assets/home.png)
 
-### Home
+### Home {#user-interface-home}
 
-Questa schermata include collegamenti chiave e risorse che permettono di accedere rapidamente alle funzionalità principali di Campaign Web v8. L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra lo stato e le date di creazione e modifica.
+Questa schermata include collegamenti chiave e risorse che permettono di accedere rapidamente alle funzionalità principali di Campaign Web v8.
 
-<!--
-* Banner
-* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
-* Recent items
-* Learning cards
--->
+L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
 
-Puoi accedere alle pagine della guida di Campaign Web v8 dalla sezione inferiore della pagina home.
+Accedi alle pagine della guida della chiave web di Campaign v8 da **Apprendimento** sezione della home page.
 
-<!--
-show global KPIs, recent items + left menu to access features)
-CONTROL PANEL not alpha
-Global report not alpha
--->
-
-### Explorer
+### Explorer {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="Il menu **Explorer** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8. Tutte le schermate di elenchi sono di sola lettura, ad eccezione dell’elenco delle consegne e-mail."
+>abstract="Il **Esplora** Il menu mostra tutti i componenti e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne. Tutti gli altri elenchi sono di sola lettura."
 
-Il menu **Explorer** visualizza la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8.
+Il **Esplora** Il menu visualizza tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne. Tutti gli altri elenchi sono di sola lettura.
 
 Gli elementi visualizzati in Explorer dipendono dalle autorizzazioni dell’utente.
 
 Come in tutte le schermate di elenchi, puoi configurare le colonne per visualizzare le informazioni che ti servono. Consulta questa [sezione](#list-screens).
 
-Per ulteriori informazioni su Esplora campagne, consulta questa [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
-<!--
-Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+Per ulteriori informazioni su Esplora campagne, Gerarchia di cartelle e risorse, consulta questa [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
 
-If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
-
-Navtree view depends on permissions (same as console).
--->
-
-### Gestione delle campagne
+### Gestione delle campagne {#user-interface-campaign-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
@@ -93,7 +67,7 @@ Navtree view depends on permissions (same as console).
 >title="Consegne"
 >abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, le date di contatto e di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic sul pulsante “Crea consegna” per aggiungere una nuova consegna. Seleziona una consegna per visualizzarne il contenuto, il pubblico e i dettagli."
 
-Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
+Nella sezione CAMPAIGN MANAGEMENT puoi accedere a campagne di marketing, consegne e flussi di lavoro.
 
 * **Campagne**: questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
 
@@ -106,7 +80,7 @@ Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, co
 * **Flussi di lavoro**: in questa schermata, è possibile accedere all’elenco completo dei flussi di lavoro e dei modelli di flusso di lavoro. Puoi controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro o un nuovo modello di flusso di lavoro. È possibile filtrare l’elenco con gli stessi criteri degli altri oggetti. Inoltre, puoi filtrare i flussi di lavoro che appartengono o meno a una campagna. Per ulteriori informazioni sui flussi di lavoro, consulta [questa sezione](../workflows/gs-workflows.md).
 
 
-### Gestione clienti
+### Gestione clienti {#user-interface-customer-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -123,9 +97,12 @@ Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, co
 >title="Elenchi di iscrizioni"
 >abstract="Sfoglia gli elenchi di iscrizioni. Puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura."
 
-* **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Questo elenco è di sola lettura.
-* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Questo elenco è di sola lettura.
-* **Elenchi di iscrizioni**: sfoglia gli elenchi delle iscrizioni. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura.
+
+Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e abbonamenti. Questi elenchi sono di sola lettura.
+
+* **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Ulteriori informazioni sui destinatari in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
+* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Ulteriori informazioni su tipi di pubblico ed elenchi in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **Iscrizioni** - Sfogliare gli elenchi degli abbonamenti. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire gli abbonamenti e il loro annullamento in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
 
 ### Gestione delle decisioni
 
@@ -136,9 +113,11 @@ Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, co
 
 * **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
 
+Scopri come creare e gestire le offerte in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+
 ## Barra superiore
 
-La barra superiore dell’interfaccia consente di eseguire le seguenti operazioni:
+Utilizza la barra superiore dell’interfaccia per:
 
 * Condividere un feedback come tester della versione alfa
 * Passare a un’altra organizzazione e ad altre istanze
