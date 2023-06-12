@@ -4,7 +4,7 @@ title: Introduzione alle notifiche push
 description: Scopri come creare e inviare notifiche push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 14%
@@ -23,7 +23,7 @@ Per creare notifiche push, puoi scegliere tra tre opzioni:
 
 * Consegne autonome: coinvolgi i clienti direttamente e istantaneamente con la consegna di singole notifiche push, senza la necessità di flussi di lavoro o campagne.
 
-![](../assets/do-not-localize/book.png) Scopri come configurare il canale di notifica push in questo [pagina](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
+![](../assets/do-not-localize/book.png) Scopri come configurare il canale di notifica push in questo [pagina](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
