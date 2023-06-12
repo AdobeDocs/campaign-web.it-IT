@@ -8,23 +8,25 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
+source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 12%
+source-wordcount: '592'
+ht-degree: 10%
 
 ---
 
 
 # Introduzione ai contenuti dinamici
 
-La distribuzione di contenuti rilevanti ai clienti è fondamentale per attirare l’attenzione di molti di loro e per trasmettere il loro interesse alla lettura dei contenuti di marketing.
+In qualità di addetto al marketing, è fondamentale rivolgersi ai clienti realmente interessati alle offerte e coinvolgerli fornendo contenuti efficaci e pertinenti. Data la varietà di destinatari che si incontrano, la creazione di più contenuti di marketing da presentare a persone diverse può richiedere tempo e comportare uno spreco. Qui entra in gioco il contenuto dinamico.
 
-Per ottenere il massimo da ogni campagna di marketing, Adobe Campaign offre un modo per creare un’esperienza personalizzata per diversi gruppi e singoli utenti distribuendo contenuti dinamici personalizzati che parlano ai clienti a loro livello, sfruttando le informazioni raccolte su di loro.
+Le funzionalità di contenuto dinamico web di Adobe Campaign ti consentono di personalizzare il contenuto in base alle informazioni raccolte sui destinatari. Utilizzando i contenuti dinamici, potrai essere sicuro che le tue attività di marketing siano più rilevanti, evitando di marketing di prodotti o servizi indesiderati o non necessari. Questo approccio rende i contenuti più accattivanti e aumenta la probabilità che vengano letti. Inoltre, ti consente di personalizzare il contenuto, facendo sentire i destinatari come se stessero ricevendo informazioni da una persona invece che da una macchina.
 
-* **Personalizzare i messaggi** per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro.
+## Come rendere dinamico il contenuto?
 
-  Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione relativo al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. Per inserire nel contenuto la città del destinatario, utilizza la seguente sintassi: &lt;%= recipient.location.city %>.
+Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript nell’editor di espressioni web di Campaign. Al momento dell’invio dei messaggi, Adobe Campaign interpreta tali espressioni per fornire il contenuto corretto a ciascuno dei destinatari:
+
+* **Personalizzare i messaggi** per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione relativo al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. Per inserire nel contenuto la città del destinatario, utilizza la seguente sintassi: &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
