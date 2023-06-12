@@ -4,9 +4,9 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 15%
 
 ---
@@ -56,7 +56,7 @@ In **Sfoglia** , fai clic su una campagna per visualizzarne il dashboard. Sono d
 
 Il **Configurare le impostazioni della campagna** consente di modificare le proprietà della campagna definite durante la sua creazione. Consulta questa [sezione](create-campaigns.md#create-campaigns)
 
-## Monitoraggio e tracciamento dei tempi lunghi{#campaign-monitoring}
+## Registri di monitoraggio e tracciamento{#campaign-monitoring}
 
 Il monitoraggio delle campagne è un passaggio chiave per l’analisi delle campagne. Sono accessibili dalla sezione **Registri** pulsante.
 
