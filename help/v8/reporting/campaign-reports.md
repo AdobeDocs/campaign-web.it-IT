@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne
 description: Scopri come accedere e utilizzare i rapporti delle campagne
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 5%
+source-wordcount: '1520'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 5%
 ### Riepilogo consegne {#delivery-summary-email}
 
 * **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna delle e-mail.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -32,9 +34,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
-* **[!UICONTROL Statistiche iniziali sul pubblico di destinazione]**
+  ![](assets/campaign_report_email_2.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -46,9 +48,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna.
 
-* **[!UICONTROL Statistiche di esecuzione]**
+  ![](assets/campaign_report_email_3.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -62,9 +64,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Statistiche sulle reazioni]** la tabella contiene i dati disponibili per l’attività del destinatario per la consegna.
 
-* **[!UICONTROL Statistiche di reazione]**
+  ![](assets/campaign_report_email_4.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -77,11 +79,9 @@ ht-degree: 5%
    * **[!UICONTROL Pagina mirror]**: numero di destinatari che hanno fatto clic sul collegamento della pagina speculare.
 
    * **[!UICONTROL Forwards]**: numero di destinatari che hanno fatto clic e che hanno inoltrato l’e-mail.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Flussi di clic generati]**
+* **[!UICONTROL Flussi di clic generati]** La tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 5%
 
 ### Non consegnabili {#non-deliverables-email}
 
-* **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per browser]**
+* **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** tabelle e grafici contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -109,11 +111,11 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Indicatori di tracciamento {#tracking-indicators-email}
 
-* **[!UICONTROL Statistiche consegna]**
+* **[!UICONTROL Statistiche consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati disponibili per le e-mail inviate.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -130,9 +132,9 @@ ht-degree: 5%
    * **[!UICONTROL Stima degli inoltri]**: stima del numero di e-mail inoltrate dai destinatari interessati.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari.
 
-* **[!UICONTROL Percentuale di apertura e click-through]**
+  ![](assets/campaign_report_email_8.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -147,11 +149,11 @@ ht-degree: 5%
    * **[!UICONTROL Reattività raw]**: percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL e flussi di clic {#url-email}
 
-* **[!UICONTROL URL e flussi di clic]**
+* **[!UICONTROL URL e flussi di clic]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui si è fatto clic maggiormente durante una consegna.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -163,9 +165,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
-* **[!UICONTROL 10 collegamenti più visitati]**
+  ![](assets/campaign_report_email_10.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -175,23 +177,23 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Raggruppamento dei clic nel tempo]**, numero di clic
+* **[!UICONTROL Raggruppamento dei clic nel tempo]** il grafico contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Attività degli utenti {#user-activities-email}
 
-* **[!UICONTROL Attività degli utenti]**
+* **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
    * **[!UICONTROL Aperture]**: numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## Canale SMS {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL Statistiche iniziali sul pubblico di destinazione]**
+* **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -223,7 +225,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL Statistiche di esecuzione]**
+* **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna:
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -237,7 +239,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL Flussi di clic generati]**
+* **[!UICONTROL Flussi di clic generati]** la tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna:
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -267,7 +269,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL Statistiche iniziali sul pubblico di destinazione]**
+* **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
@@ -279,7 +281,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL Statistiche di esecuzione]**
+* **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna:
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
@@ -293,7 +295,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL Flussi di clic generati]**
+* **[!UICONTROL Flussi di clic generati]** la tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna:
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
