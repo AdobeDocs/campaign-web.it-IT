@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attri
 
 Solo gli attributi più comuni vengono visualizzati per impostazione predefinita nelle schermate elenco attributi e configurazione filtro.
 
-Utilizza il **Visualizzare attributi avanzati** attiva/disattiva sotto l&#39;elenco per visualizzare tutti gli attributi disponibili per l&#39;elenco corrente.
-
+Utilizza il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l&#39;elenco corrente.
 
 ## Aiuto contestuale {#contextual-help}
 
