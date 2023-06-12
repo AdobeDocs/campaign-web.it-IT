@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ Utilizza la barra superiore dell’interfaccia per:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configurare le schermate degli elenchi {#list-screens}
+## Sfoglia e filtra gli elenchi {#list-screens}
 
-Diversi collegamenti disponibili nel menu di navigazione a sinistra, ad esempio **Consegne** o **Campagne**, visualizzano elenchi di oggetti. Queste schermate di elenchi sono di sola lettura, ad eccezione dell’elenco delle consegne e-mail.
+La maggior parte dei collegamenti del menu di navigazione a sinistra visualizza elenchi di oggetti, ad esempio l&#39;elenco di **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, come descritto di seguito.
+
+Per rimuovere un filtro, fare clic su **Cancella tutto** pulsante.
+
+### Personalizzare le schermate dell’elenco {#custom-lists}
+
+Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informazioni puoi modificare la configurazione delle colonne. A questo scopo, fai clic su **Configurare una colonna per un layout personalizzato** nell’angolo in alto a destra dell’elenco.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+In **Configurare le colonne** , aggiungere o rimuovere colonne e modificare l&#39;ordine di visualizzazione.
+
+Ad esempio, per queste impostazioni:
+
+![](assets/columns.png){width="70%" align="left"}
+
+L’elenco mostra le colonne seguenti:
+
+![](assets/column-sample.png){width="70%" align="left"}
+
+Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attributi dell&#39;elenco corrente. [Ulteriori informazioni](#adv-attributes)
+
+### Ordinare i dati {#sort-lists}
+
+Puoi anche ordinare gli elementi nell’elenco facendo clic su un’intestazione di colonna qualsiasi. Viene visualizzata una freccia (su o giù) che indica che l’elenco è ordinato per quella colonna.
+
+Per le colonne numeriche o di data, **Su** freccia indica che l&#39;elenco è ordinato in ordine crescente mentre **Giù** freccia indica un ordine decrescente. Per le colonne con valori stringa o alfanumerici, i valori sono elencati in ordine alfabetico.
+
+### Filtri integrati {#list-built-in-filters}
 
 Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtrare l’elenco in base a criteri contestuali.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informazioni puoi modificare la configurazione delle colonne. A questo scopo, fai clic sull’icona in alto a destra dell’elenco. È possibile aggiungere o rimuovere colonne e modificare l’ordine in cui vengono visualizzate.
+Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di contatto o cartella. È inoltre possibile nascondere i test.
 
-![](assets/columns.png){width="70%" align="left"}
+### Filtri personalizzati{#list-custom-filters}
 
-Per ordinare gli elementi dell’elenco, fai clic sulla relativa intestazione di colonna. Viene visualizzata una freccia (su o giù) che indica che l’elenco è ordinato per quella colonna. Per le colonne numeriche o di data, la freccia su indica che l’elenco è ordinato in ordine crescente, mentre la freccia giù indica un ordine decrescente. Per le colonne con valori stringa o alfanumerici, i valori sono elencati in ordine alfabetico.
+Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole** pulsante.
 
-## Aiuto contestuale e guida all’onboarding {#contextual-help}
+Trascina e rilascia gli attributi per creare i criteri di filtro nel **Filtri avanzati** schermo.
 
-Nell’interfaccia è disponibile una guida contestuale. Se è disponibile, fai clic sull’icona **?** per visualizzare informazioni tratte dalla guida e relativi collegamenti.
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attributi dell&#39;elenco corrente. [Ulteriori informazioni](#adv-attributes)
+
+### Usa attributi avanzati {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Visualizza gli attributi avanzati"
+>abstract="Per impostazione predefinita, nell&#39;elenco degli attributi vengono visualizzati solo gli attributi più comuni. Utilizza questo interruttore per creare un filtro con attributi avanzati."
+
+Solo gli attributi più comuni vengono visualizzati per impostazione predefinita nelle schermate elenco attributi e configurazione filtro.
+
+Utilizza il **Visualizzare attributi avanzati** attiva/disattiva sotto l&#39;elenco per visualizzare tutti gli attributi disponibili per l&#39;elenco corrente.
+
+
+## Aiuto contestuale {#contextual-help}
+
+Nell’interfaccia è disponibile una guida contestuale. Quando disponibile, fai clic su `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-È inoltre disponibile una guida all’onboarding per aiutarti a iniziare a utilizzare con Campaign Web v8. Fai clic sull’icona in basso a destra, scegli uno degli scenari dettagliati disponibili e segui semplicemente le istruzioni.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Browser supportati {#browsers}
 
@@ -187,17 +233,8 @@ La lingua predefinita dell’interfaccia è determinata dalla lingua preferita s
 Per cambiare la lingua:
 
 1. Fai clic sull’icona del tuo profilo, in alto a destra, quindi seleziona **Preferenze**.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail.
-
-   ![](assets/preferences2.png)
-
+1. Fai clic sul collegamento della lingua visualizzato sotto il tuo indirizzo e-mail.
 1. Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Campi avanzati del generatore di regole"
+>abstract="Configura le colonne con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Campi avanzati del selettore attributi"
->abstract="Configura le colonne con campi avanzati."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Campi avanzati del generatore di regole"
->abstract="Configura le colonne con campi avanzati."
+
 
 
 
