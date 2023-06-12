@@ -4,10 +4,10 @@ title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 9a0aaf311ae964b12fd55a749cf82fa0024c0643
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 83%
+source-wordcount: '488'
+ht-degree: 72%
 
 ---
 
@@ -41,9 +41,12 @@ La console client di Campaign è un’applicazione basata su browser installata 
 
 Per informazioni su come scaricare e installare la console client, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=it){target="_blank"}.
 
-Per ulteriori informazioni su come utilizzare Campaign v8, consulta la [documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.
+Per ulteriori informazioni su come utilizzare Campaign v8, consulta [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.
 
 I dati di Campaign vengono memorizzati nel server dell’applicazione. I dati sono disponibili sia dalla console client sia dall’interfaccia web. Ad esempio, se crei un modello di consegna utilizzando la console client, questo sarà disponibile anche nell’interfaccia web. E se crei una consegna e-mail nell’interfaccia web, questa è accessibile anche dalla console client.
+
+
+Alcuni oggetti possono essere creati e gestiti solo nella console client. Possono essere visibili e utilizzati nell’interfaccia utente web di Campaign, ma non possono essere creati né modificati da questo ambiente. Tutti gli oggetti e i componenti di Campaign sono disponibili nella vista Esplora risorse, accessibile dal menu di navigazione a sinistra.
 
 ## Connessione a Campaign
 
