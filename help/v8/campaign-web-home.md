@@ -4,7 +4,7 @@ description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -55,11 +55,11 @@ Ora che conosci le operazioni che puoi eseguire sul Web Adobe Campaign, è neces
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="Convalida" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Interfaccia area di lavoro del flusso di lavoro riprogettata</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Interfaccia area di lavoro del flusso di lavoro riprogettata</strong></a>
 </div>
 <p>
 </td>
@@ -72,20 +72,20 @@ Ora che conosci le operazioni che puoi eseguire sul Web Adobe Campaign, è neces
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="Tipi di pubblico" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Rendi dinamico il contenuto</strong></a>
+<a href="personalization/gs-personalization.md"><strong>Rendi dinamico il contenuto</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="Convalida" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Inviare consegne cross-channel</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Inviare consegne cross-channel</strong></a>
 </div>
 <p>
 </td>
