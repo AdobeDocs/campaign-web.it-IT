@@ -4,10 +4,10 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 34%
+source-wordcount: '229'
+ht-degree: 27%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 34%
 >title="Proprietà campagna"
 >abstract="Definisci le impostazioni e i metadati della campagna."
 
+Le campagne possono includere flussi di lavoro e consegne autonome.
+
 Per creare una nuova campagna, effettua le seguenti operazioni:
 
 1. Fai clic su **[!UICONTROL Campagne]** e fare clic sul pulsante **[!UICONTROL Crea campagna]** pulsante.
 1. Seleziona la **Modello** per utilizzare e fornire un’etichetta per la campagna. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client.
    [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it).
-1. Se necessario, è possibile modificare **Opzioni aggiuntive**. Consulta questa [sezione](#campaign-options).
+1. Se necessario, è possibile modificare quanto segue **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
 1. Definisci il **Pianificazione** della campagna. La campagna inizia quando viene raggiunta la data di inizio. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](gs-campaigns.md#access-campaigns).
 
    ![Definire le proprietà della campagna](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Puoi anche accedere alle proprietà della campagna dall’icona **Configura le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard)
+   >Puoi sempre modificare queste proprietà in un secondo momento, dalla **Configurare le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard)
 
 1. Fai clic su **Crea**.
-1. Aggiungi un flusso di lavoro o una consegna autonoma alla campagna.
+1. Aggiungi flussi di lavoro e consegne alla campagna.
+
    * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md)
    * Dalla sezione **Consegne** , fare clic su **Creare una consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
-
-## Opzioni aggiuntive {#campaign-options}
-
-Le proprietà della campagna vengono visualizzate durante la creazione di una nuova campagna.
-
-Sotto **Opzioni aggiuntive**, è possibile configurare le seguenti impostazioni:
-
-* Nome interno:
-* Cartella: seleziona la cartella in cui verrà memorizzata la campagna
-* Assegnato a:
-* Descrizione:
-* Natura: specificare la natura della campagna ai fini della classificazione
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
