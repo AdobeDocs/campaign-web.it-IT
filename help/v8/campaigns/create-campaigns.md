@@ -4,7 +4,7 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -41,12 +41,12 @@ Per creare una nuova campagna, effettua le seguenti operazioni:
    >Puoi sempre modificare queste proprietà in un secondo momento, dalla **Configurare le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard)
 
 1. Fai clic su **Crea**.
-1. Aggiungi flussi di lavoro e consegne alla campagna.
+1. Aggiungi flussi di lavoro e consegne alla campagna:
 
    * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md)
    * Dalla sezione **Consegne** , fare clic su **Creare una consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
 
-1. Utilizza il **Registri** e **Generazione rapporti** per analizzare la campagna.
+1. Utilizza il **Registri** e **Generazione rapporti** per analizzare le prestazioni della campagna.
 
 ## Registri di monitoraggio e tracciamento{#campaign-monitoring}
 
@@ -63,7 +63,7 @@ Puoi duplicare o eliminare una campagna:
 
 >[!NOTE]
 >
->Il **Consegna** Questa scheda mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
+>Il **Consegne** Questa scheda mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
 
 
 <!--

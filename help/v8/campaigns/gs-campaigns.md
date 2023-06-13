@@ -4,7 +4,7 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 9%
@@ -49,13 +49,13 @@ Sono disponibili due schede:
 
 * Il **Sfoglia** Questa scheda elenca tutte le campagne esistenti. Puoi fare clic su una campagna per aprirne il dashboard o crearne una nuova facendo clic sul pulsante **Crea campagna** pulsante. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
-* Il **Modelli** nella scheda sono elencati tutti i modelli di campagna disponibili. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it)
+* Il **Modelli** nella scheda sono elencati tutti i modelli di campagna disponibili. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati durante la creazione di nuove campagne. Vengono creati dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it)
 
 Ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulla data di creazione, sull’ultima modifica e così via.
 
 Puoi personalizzare le colonne visualizzate facendo clic sul pulsante **Configurare una colonna per un layout personalizzato** nell&#39;angolo superiore destro dell&#39;elenco. Ciò ti consente di aggiungere ulteriori informazioni all’elenco. Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens)
 
-Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello Filtri e utilizza **Data Inizio - Fine** sezione:
+Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza **Data Inizio - Fine** sezione:
 
 ![Filtro campagna](assets/campaign-filter-on-dates.png)
 
@@ -70,5 +70,6 @@ Lo stato e la pianificazione della campagna sono visualizzati nella parte superi
 Sono disponibili due schede:
 
 * Il **Flussi di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda ti consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
+
 * Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
 
