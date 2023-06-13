@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e i
 
 La nostra area di lavoro grafica completa consente di progettare facilmente processi quali segmentazione, esecuzione di campagne e altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e migliorare le campagne.
 
-**Progettare le e-mail**
+**Incontra E-mail designer**
 
 Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice. Scopri come utilizzare E-mail Designer per creare il contenuto, visualizzarlo in anteprima e testarlo e inviare un’e-mail a un pubblico esistente in un caso d’uso end-to-end.
 
@@ -51,6 +51,15 @@ Ora che conosci le operazioni che puoi eseguire sul Web Adobe Campaign, è neces
 <img alt="nuova interfaccia" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>Scopri la nuova interfaccia utente</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Convalida" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Interfaccia area di lavoro del flusso di lavoro riprogettata</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Ora che conosci le operazioni che puoi eseguire sul Web Adobe Campaign, è neces
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Inviare consegne cross-channel</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Convalida" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Interfaccia area di lavoro del flusso di lavoro riprogettata</strong></a>
 </div>
 <p>
 </td>
