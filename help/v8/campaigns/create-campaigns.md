@@ -4,7 +4,7 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -45,6 +45,7 @@ Per creare una nuova campagna, effettua le seguenti operazioni:
 
    * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md)
    * Dalla sezione **Consegne** , fare clic su **Creare una consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
+
 1. Utilizza il **Registri** e **Generazione rapporti** per analizzare la campagna.
 
 ## Registri di monitoraggio e tracciamento{#campaign-monitoring}
@@ -62,7 +63,7 @@ Puoi duplicare o eliminare una campagna:
 
 >[!NOTE]
 >
->Il **Consegna** Nella scheda vengono visualizzate tutte le consegne collegate alla campagna, ma non è possibile eliminare da lì le consegne create in un flusso di lavoro. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
+>Il **Consegna** Questa scheda mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
 
 
 <!--
