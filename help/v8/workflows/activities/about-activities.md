@@ -2,12 +2,12 @@
 audience: end-user
 title: Utilizzare le attività di dei flussi di lavoro
 description: Scopri come eseguire le attività del flusso di lavoro
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 9%
+source-wordcount: '305'
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Fai riferimento a questa [sezione](enrichment.md).
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
 * Il [And-join](and-join.md) attività consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
-* Il [Fine](end.md) attività consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
+* Il **Fine** attività consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
 * Il [Fork](fork.md) attività consente di creare transizioni in uscita per avviare più attività in contemporanea.
 * Il [Wait](wait.md) l’attività sospende momentaneamente l’esecuzione di una parte di un flusso di lavoro.
 
