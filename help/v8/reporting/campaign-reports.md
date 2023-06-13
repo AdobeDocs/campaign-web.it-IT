@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne
 description: Scopri come accedere e utilizzare i rapporti delle campagne
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 1%
+source-wordcount: '1753'
+ht-degree: 2%
 
 ---
 
@@ -111,6 +111,8 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 
 * **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** tabelle e grafici contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
+  Gli errori visualizzati in questo report attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Gestione della quarantena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it).
+
   ![](assets/campaign_report_email_6.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
@@ -183,6 +185,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
+   * **[!UICONTROL Media piattaforma]** : questo tasso medio, visualizzato sotto ogni tasso (reattività, clic distinti e clic cumulativi), è calcolato per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
 +++
 
 * **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.
