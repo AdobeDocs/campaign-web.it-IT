@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporti sulle campagne
 description: Scopri come accedere e utilizzare i rapporti delle campagne
-badge: label="Alpha" type="Positive"
-source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1751'
 ht-degree: 2%
 
 ---

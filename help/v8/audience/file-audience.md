@@ -2,11 +2,11 @@
 audience: end-user
 title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---
@@ -35,7 +35,6 @@ Puoi caricare i contatti da un file esterno. I profili non vengono aggiunti al d
 >* Questa funzionalità è disponibile solo per **consegne e-mail autonome**. Non può essere utilizzato nei flussi di lavoro, né con le consegne SMS o push.
 >
 >* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
-
 
 
 Per eseguire il targeting dei profili da un file locale direttamente dall’interfaccia e-mail, effettua le seguenti operazioni:

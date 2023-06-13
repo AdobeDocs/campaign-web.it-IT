@@ -2,12 +2,12 @@
 audience: end-user
 title: Introduzione ai flussi di lavoro
 description: Scopri come iniziare a utilizzare i flussi di lavoro
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 79%
+source-wordcount: '388'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,7 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 <img alt="Accedere e gestire i flussi di lavoro" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Accesso e gestione dei flussi di lavoro</strong></a>
+<a href="access-monitor.md"><strong>Accedere e gestire i flussi di lavoro</strong></a>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 <a href="create-workflow.md">
 <img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>Crea ed esegui il primo flusso di lavoro</strong>
+<div><a href="create-workflow.md"><strong>Creare ed eseguire il primo flusso di lavoro</strong>
 </div>
 <p>
 </td>

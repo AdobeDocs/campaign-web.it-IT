@@ -3,11 +3,11 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" type="Positive"
-source-git-commit: e7ca27215434be94d5db252afb9e4fe0b04f0139
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 79%
+source-wordcount: '1390'
+ht-degree: 78%
 
 ---
 
@@ -185,16 +185,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Campi avanzati del generatore di regole"
->abstract="Configura le colonne con campi avanzati."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Attributi avanzati del generatore di regole"
->abstract="Utilizza gli attributi avanzati per definire la regola."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"

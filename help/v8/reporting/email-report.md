@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporti di consegna e-mail
 description: Scopri come accedere e utilizzare i rapporti di consegna e-mail
-badge: label="Alpha" type="Positive"
-source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1405'
 ht-degree: 7%
 
 ---

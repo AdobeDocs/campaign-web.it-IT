@@ -3,11 +3,11 @@ audience: end-user
 title: Creare il codice del contenuto e-mail
 description: Scopri come creare il codice per il contenuto delle e-mail
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha" type="Positive"
-source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 98%
 
 ---
 

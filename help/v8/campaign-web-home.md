@@ -3,11 +3,11 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Alpha" type="Positive"
-source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 

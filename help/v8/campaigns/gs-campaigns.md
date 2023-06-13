@@ -2,11 +2,11 @@
 audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '151'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,9 @@ Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi cre
 
 Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare gli sforzi futuri.
 
+![Flusso della campagna](assets/campaign-flow.png)
+
+
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
@@ -38,38 +41,3 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 -->
-
-## Accedere e gestire le campagne{#access-campaigns}
-
-Per creare una nuova campagna o gestire le campagne esistenti, fai clic sul pulsante **[!UICONTROL Campagne]** menu.
-
-![Elenco campagne](assets/campaign-list.png)
-
-Sono disponibili due schede:
-
-* Il **Sfoglia** Questa scheda elenca tutte le campagne esistenti. Puoi fare clic su una campagna per aprirne il dashboard o crearne una nuova facendo clic sul pulsante **Crea campagna** pulsante. Consulta questa [sezione](create-campaigns.md#create-campaigns).
-
-* Il **Modelli** nella scheda sono elencati tutti i modelli di campagna disponibili. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati durante la creazione di nuove campagne. Vengono creati dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it)
-
-Ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulla data di creazione, sull’ultima modifica e così via.
-
-Puoi personalizzare le colonne visualizzate facendo clic sul pulsante **Configurare una colonna per un layout personalizzato** nell&#39;angolo superiore destro dell&#39;elenco. Ciò ti consente di aggiungere ulteriori informazioni all’elenco. Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens)
-
-Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza **Data Inizio - Fine** sezione:
-
-![Filtro campagna](assets/campaign-filter-on-dates.png)
-
-## Dashboard della campagna{#campaign-dashboard}
-
-In **Sfoglia** nell’elenco delle campagne, fai clic su una campagna per visualizzarne il dashboard.
-
-![Dashboard di Campaign](assets/campaign-dashboard.png)
-
-Lo stato e la pianificazione della campagna sono visualizzati nella parte superiore della schermata. È possibile utilizzare **Configurare le impostazioni della campagna** per modificare le proprietà della campagna definite durante la sua creazione. Sono disponibili tre pulsanti che ti consentono di visualizzare registri, generare rapporti, duplicare o eliminare la campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
-
-Sono disponibili due schede:
-
-* Il **Flussi di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda ti consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
-
-* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
-

@@ -2,17 +2,17 @@
 audience: end-user
 title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 22%
 
 ---
 
 
-# Creare campagne cross-channel {#create-campaigns}
+# Creare la prima campagna {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 18%
 >title="Proprietà campagna"
 >abstract="Definisci le impostazioni e i metadati della campagna."
 
-Le campagne possono includere flussi di lavoro e consegne autonome.
+Le campagne possono includere flussi di lavoro e consegne autonome. Proprietà, pianificazione, lavoro, consegna più rien a faire schedule
+
+## Creare la campagna
 
 Per creare una nuova campagna, effettua le seguenti operazioni:
 
@@ -32,7 +34,7 @@ Per creare una nuova campagna, effettua le seguenti operazioni:
 1. Seleziona la **Modello** per utilizzare e fornire un’etichetta per la campagna. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client.
    [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it).
 1. Se necessario, è possibile modificare quanto segue **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
-1. Definisci il **Pianificazione** della campagna. La campagna inizia quando viene raggiunta la data di inizio. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](gs-campaigns.md#access-campaigns).
+1. Definisci il **Pianificazione** della campagna. La campagna inizia quando viene raggiunta la data di inizio. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
 
    ![Definire le proprietà della campagna](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Per creare una nuova campagna, effettua le seguenti operazioni:
 
 1. Utilizza il **Registri** e **Generazione rapporti** per analizzare le prestazioni della campagna.
 
-## Registri di monitoraggio e tracciamento{#campaign-monitoring}
+## Monitorare e tenere traccia della campagna{#campaign-monitoring}
 
 Il monitoraggio delle campagne è un passaggio chiave per l’analisi delle campagne. Apri la campagna e fai clic su **Registri** pulsante.
 
 Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti** pulsante. Consulta questa [sezione](../reporting/campaign-reports.md).
 
-## Duplicare ed eliminare una campagna
-
-Puoi duplicare o eliminare una campagna:
-
-* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica** o **Elimina**.
-* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Duplica** o **Elimina**.
-
->[!NOTE]
->
->Il **Consegne** Questa scheda mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
-
++++Schermata ++ WORKF
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
