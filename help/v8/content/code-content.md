@@ -4,35 +4,31 @@ title: Creare il codice del contenuto e-mail
 description: Scopri come creare il codice per il contenuto delle e-mail
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 98%
+source-wordcount: '109'
+ht-degree: 60%
 
 ---
 
 # Creare il codice del contenuto e-mail {#code-content}
 
-Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il codice HTML non elaborato da usare come contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il codice HTML non elaborato da usare come contenuto dell’e-mail.
 
-1. Nella pagina home di E-mail Designer, seleziona **[!UICONTROL Crea il codice]**.
+>[!CAUTION]
+>
+>Questo metodo richiede competenze HTML.
+
+1. Il giorno [E-mail Designer](get-started-email-designer.md) home page, seleziona **[!UICONTROL Crea il codice]**.
 
    ![](assets/code-your-own.png)
 
-1. Immetti o incolla il codice HTML non elaborato.
+1. Inserisci o incolla il codice HTML non elaborato nell’area di lavoro principale.
 
-1. Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione.
+1. Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione. [Ulteriori informazioni](../personalization/gs-personalization.md)
 
-1. Se desideri cancellare il contenuto e-mail e avviare l’e-mail da un nuovo design, **[!UICONTROL Cambia il design]** nel menu delle opzioni.
+   ![](assets/code-editor-personalization.png)
 
-   ![](assets/code-editor-change-design.png)
+1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** per verificare l’aspetto e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >Questa azione apre il modello selezionato in E-mail Designer. Da lì puoi completare il design dell’e-mail o tornare all’editor di codice utilizzando l’opzione **[!UICONTROL Passa all’editor di codice]**.
-
-1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** per verificare l’aspetto e la personalizzazione del messaggio utilizzando i profili di test.
-
-1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva]** quindi torna alla schermata di creazione del messaggio per finalizzarlo.
-
-   ![](assets/code-editor-save.png)
+1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva e chiudi]** per tornare alla schermata di creazione del messaggio e finalizzare il messaggio.

@@ -4,10 +4,10 @@ title: Aggiungere una preintestazione in E-mail Designer
 description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 65%
+source-wordcount: '209'
+ht-degree: 51%
 
 ---
 
@@ -28,20 +28,22 @@ In molti casi, fornisce un breve riepilogo del contenuto ed è in genere di una 
 
 Per definire la preintestazione dell’e-mail, segui la procedura seguente.
 
-1. Da E-mail Designer, aggiungi almeno un **[!UICONTROL Struttura]** per iniziare a progettare l’e-mail.
+1. Dalla sezione [E-mail Designer](create-email-content.md), aggiungi almeno un **[!UICONTROL Struttura]** per iniziare a progettare l’e-mail.
 
 1. Fai clic sull’icona **[!UICONTROL Struttura di navigazione]** nel riquadro a sinistra e seleziona **[!UICONTROL Corpo]**.
 
    ![](assets/preheader_body.png)
 
-1. Dalla scheda **[!UICONTROL Impostazioni]**, aggiungi la preintestazione. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
+1. Dalla sezione **[!UICONTROL Impostazioni]** , immetti del testo per il preheader.
+
+1. Per personalizzarlo ulteriormente, fai clic su **[!UICONTROL Aggiungi personalizzazione]** a sinistra della **[!UICONTROL Preheader]** campo.
 
    ![](assets/preheader_body_settings.png)
 
-1. Dalla sezione **[!UICONTROL Modifica personalizzazione]** finestra, puoi aggiungere **[!UICONTROL Blocchi di contenuto]**, **[!UICONTROL Contenuto dinamico]** o **[!UICONTROL Campi di personalizzazione]**.
+1. Dalla sezione **[!UICONTROL Modifica personalizzazione]** finestra, puoi aggiungere [campi di personalizzazione](../personalization/personalize.md), [blocchi di contenuto](../personalization/content-blocks.md) e [contenuto condizionale](../personalization/conditions.md) utilizzando le voci dedicate a sinistra.
 
-1. Fai clic su **[!UICONTROL Convalida]** per controllare la sintassi di personalizzazione.
+   ![](assets/preheader_body_personalization.png)
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Conferma]**.
 
 La preintestazione è ora configurata per l’e-mail.
