@@ -4,7 +4,7 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: bc23e51edf5b499ae6af783e3b0d3b991dc7a3a0
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 11%
@@ -29,8 +29,8 @@ Le campagne offrono metriche di reporting dedicate per ottenere informazioni com
 
 Consulta le sezioni seguenti:
 
-* [Accedere e gestire le campagne](manage-campaigns.md).
-* [Creare la prima campagna](create-campaigns.md).
+* [Accedere e gestire le campagne](manage-campaigns.md)
+* [Creare la prima campagna](create-campaigns.md)
 
 
 

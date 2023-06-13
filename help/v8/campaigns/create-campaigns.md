@@ -4,9 +4,9 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: bc23e51edf5b499ae6af783e3b0d3b991dc7a3a0
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '290'
 ht-degree: 22%
 
 ---
@@ -40,19 +40,19 @@ Per creare una nuova campagna, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Puoi sempre modificare queste proprietà in un secondo momento, dalla **Configurare le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard)
+   >Puoi sempre modificare queste proprietà in un secondo momento, dalla **Configurare le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
 
 1. Fai clic su **Crea**.
 1. Aggiungi flussi di lavoro e consegne alla campagna:
 
-   * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md)
+   * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md).
    * Dalla sezione **Consegne** , fare clic su **Creare una consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
 
 1. Utilizza il **Registri** e **Generazione rapporti** per analizzare le prestazioni della campagna.
 
 ## Monitorare e tenere traccia della campagna{#campaign-monitoring}
 
-Il monitoraggio delle campagne è un passaggio chiave per l’analisi delle campagne. Apri la campagna e fai clic su **Registri** pulsante.
+Il monitoraggio delle campagne è un passaggio chiave per analizzarne l’efficacia. Apri la campagna e fai clic su **Registri** pulsante.
 
 Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti** pulsante. Consulta questa [sezione](../reporting/campaign-reports.md).
 
