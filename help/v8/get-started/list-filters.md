@@ -2,11 +2,11 @@
 audience: end-user
 title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -66,6 +66,20 @@ Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attri
 >title="Visualizza gli attributi avanzati"
 >abstract="Per impostazione predefinita, nell&#39;elenco degli attributi vengono visualizzati solo gli attributi più comuni. Utilizza questo interruttore per creare un filtro con attributi avanzati."
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Campi avanzati del generatore di regole"
+>abstract="Configura le colonne con campi avanzati."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Attributi avanzati del generatore di regole"
+>abstract="Utilizza gli attributi avanzati per definire la regola."
+
+
 Solo gli attributi più comuni vengono visualizzati per impostazione predefinita nelle schermate elenco attributi e configurazione filtro. Attributi impostati come `advanced` Gli attributi nello schema dati sono nascosti dalle schermate di configurazione.
 
 Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente: l’elenco degli attributi viene aggiornato all’istante.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
