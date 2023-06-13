@@ -4,10 +4,10 @@ title: Utilizzare un pubblico di Adobe Experience Platform
 description: Scopri come utilizzare un pubblico da Adobe Experience Platform
 badge: label="Alpha" type="Positive"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 50%
+source-wordcount: '291'
+ht-degree: 40%
 
 ---
 
@@ -22,13 +22,13 @@ Dopo aver creato un pubblico di Adobe Experience Platform e averlo reso disponib
 >Per utilizzare i tipi di pubblico di Adobe Experience Platform in Campaign, devi configurare l’integrazione con Origini e Destinazioni Adobi. Fai riferimento a [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=it){target="_blank"}.
 
 
-Puoi anche:
+Per selezionare il pubblico di una consegna, puoi anche:
 
 * Crea un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
 * Carica un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
 * Utilizza un pubblico di Campaign esistente. [Ulteriori informazioni](add-audience.md).
 
-Per selezionare un pubblico di Adobe Experience Platform per il messaggio, segui i passaggi seguenti:
+Per selezionare un pubblico Adobe Experience Platform per la consegna, segui i passaggi seguenti:
 
 1. Dalla sezione **Pubblico** nell’assistente per la creazione della consegna, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
@@ -54,5 +54,4 @@ Per selezionare un pubblico di Adobe Experience Platform per il messaggio, segui
 
 1. Fai clic su **Salva**.
 
-Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò consente di confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. Consulta questa [sezione](control-group.md).
 
