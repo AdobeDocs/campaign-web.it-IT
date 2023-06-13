@@ -4,10 +4,10 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 10%
 
 ---
 
@@ -57,27 +57,10 @@ Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pa
 
 ## Dashboard della campagna{#campaign-dashboard}
 
-In **Sfoglia** , fai clic su una campagna per visualizzarne il dashboard. Sono disponibili due schede:
+In **Sfoglia** nell’elenco delle campagne, fai clic su una campagna per visualizzarne il dashboard. Sono disponibili due schede:
 
 * Il **Flussi di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda ti consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
-* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Questa scheda ti consente inoltre di creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
+* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
 
 Il **Configurare le impostazioni della campagna** consente di modificare le proprietà della campagna definite durante la sua creazione. Consulta questa [sezione](create-campaigns.md#create-campaigns)
-
-## Registri di monitoraggio e tracciamento{#campaign-monitoring}
-
-Il monitoraggio delle campagne è un passaggio chiave per l’analisi delle campagne. Apri la campagna e fai clic su **Registri** pulsante.
-
-Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti** pulsante. Consulta questa [sezione](../reporting/campaign-reports.md).
-
-## Duplica ed elimina
-
-Puoi duplicare o eliminare una campagna:
-
-* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica** o **Elimina**.
-* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Duplica** o **Elimina**.
-
->[!NOTE]
->
->Il **Consegna** La scheda mostra tutte le consegne collegate alla campagna, ma non è possibile eliminare da lì le consegne create in un flusso di lavoro. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
 

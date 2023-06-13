@@ -4,10 +4,10 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 27%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,25 @@ Per creare una nuova campagna, effettua le seguenti operazioni:
 
    * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md)
    * Dalla sezione **Consegne** , fare clic su **Creare una consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
+1. Utilizza il **Registri** e **Generazione rapporti** per analizzare la campagna.
+
+## Registri di monitoraggio e tracciamento{#campaign-monitoring}
+
+Il monitoraggio delle campagne è un passaggio chiave per l’analisi delle campagne. Apri la campagna e fai clic su **Registri** pulsante.
+
+Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti** pulsante. Consulta questa [sezione](../reporting/campaign-reports.md).
+
+## Duplicare ed eliminare una campagna
+
+Puoi duplicare o eliminare una campagna:
+
+* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica** o **Elimina**.
+* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Duplica** o **Elimina**.
+
+>[!NOTE]
+>
+>Il **Consegna** Nella scheda vengono visualizzate tutte le consegne collegate alla campagna, ma non è possibile eliminare da lì le consegne create in un flusso di lavoro. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
