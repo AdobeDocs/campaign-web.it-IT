@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti di consegna e-mail
 description: Scopri come accedere e utilizzare i rapporti di consegna e-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 10%
@@ -16,6 +16,8 @@ ht-degree: 10%
 
 * **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
    * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
@@ -26,6 +28,8 @@ ht-degree: 10%
 +++
 
 * **[!UICONTROL Statistiche consegna]** la tabella descrive il successo della consegna.
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -41,6 +45,8 @@ ht-degree: 10%
 
 * **[!UICONTROL Cause di esclusione]** il grafico e la tabella mostrano il raggruppamento per regola dei messaggi rifiutati durante l’analisi.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Velocità effettiva di consegna {#delivery-throughtput}
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato. La metrica principale utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
@@ -48,6 +54,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 ## Statistiche di trasmissione {#broadcast-statistics}
 
 * **[!UICONTROL Statistiche di trasmissione]** La tabella contiene i dati disponibili per i possibili errori rilevati in ciascun dominio.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
@@ -84,6 +92,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL Statistiche consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati disponibili per le e-mail inviate.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
    * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
@@ -100,6 +110,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 +++
 
 * **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengono visualizzati i dati relativi ai destinatari.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
@@ -118,6 +130,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL URL e flussi di clic]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui si è fatto clic maggiormente durante una consegna.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
    * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari interessati che hanno fatto clic in una consegna e il numero stimato di destinatari interessati che hanno aperto una consegna.
@@ -130,6 +144,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
@@ -140,9 +156,13 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL Raggruppamento dei clic nel tempo]** il grafico contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Attività degli utenti {#user-activities-email}
 
 * **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
@@ -156,6 +176,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL Statistiche di tracciamento]** Il grafico fornisce statistiche su aperture e clic.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
@@ -167,6 +189,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 ## Breakdown delle aperture {#breakdown-opens}
 
 Questo rapporto mostra il raggruppamento delle aperture per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Hot click
 

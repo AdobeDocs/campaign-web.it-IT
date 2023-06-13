@@ -4,24 +4,27 @@ title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '91'
+ht-degree: 65%
 
 ---
 
-# Rapporti sulle consegne {#reports}
+# Accedere ai rapporti di consegna {#reports}
 
 Adobe Campaign offre diversi tipi di rapporti, accessibili per ogni consegna. Questi rapporti consentono di misurare e visualizzare l’impatto e le prestazioni dei messaggi in una dashboard integrata.
 
 Per visualizzare i rapporti, effettua le seguenti operazioni:
 
-1. Accedi alla consegna e-mail e fai clic sul pulsante **Rapporto**.
+1. Per generare un rapporto per una consegna specifica, passa alla **[!UICONTROL Consegne]** e seleziona la consegna su cui desideri generare il rapporto.
 
-   ![](assets/reporting.png)
+1. Dal tuo **[!UICONTROL Consegna]** dashboard, fai clic su **[!UICONTROL Rapporti]**.
+
+   ![](assets/reporting2.png)
 
 1. Dal menu a sinistra, seleziona un rapporto dall’elenco.
 
-   ![](assets/reporting2.png){width="70%" align="left"}
+   ![](assets/reporting.png)
+
 
