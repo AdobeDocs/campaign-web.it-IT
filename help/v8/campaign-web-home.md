@@ -4,10 +4,10 @@ description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
+source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 34%
+source-wordcount: '484'
+ht-degree: 38%
 
 ---
 
@@ -27,7 +27,7 @@ La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e i
 
 **Interfaccia area di lavoro del flusso di lavoro riprogettata**
 
-La nostra area di lavoro grafica completa consente di progettare facilmente processi quali segmentazione, esecuzione di campagne e altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e migliorare le campagne.
+Il nostro ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità. Con i flussi di lavoro, è possibile orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scalabilità di ogni aspetto delle campagne di marketing, dalla creazione dei segmenti alla preparazione dei messaggi per la consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
 **Incontra E-mail designer**
 
@@ -35,11 +35,11 @@ Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign 
 
 **Rendi dinamico il contenuto**
 
-Crea contenuti condizionali per definire la personalizzazione dinamica in base al profilo del destinatario, sostituendo automaticamente blocchi di testo e immagini quando vengono soddisfatte determinate condizioni. Questa funzione può elevare le tue campagne e offrire al tuo pubblico esperienze altamente mirate e personalizzate
+Personalizza il contenuto in base alle informazioni raccolte sui destinatari. L’utilizzo del contenuto dinamico rende il contenuto più accattivante e aumenta la probabilità che venga letto. Personalizza i messaggi per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro. Crea contenuti condizionali per adattare le consegne a ciascun destinatario e mostrare solo il contenuto rilevante per un determinato cliente in base alle informazioni di cui disponi su di esso.
 
 **Inviare consegne cross-channel**
 
-Le funzionalità di Adobe Campaign consentono di gestire i dati centralizzati dei clienti, progettare comunicazioni e campagne per i clienti e creare esperienze personalizzate su diversi canali: e-mail, push e SMS.
+Utilizzare Adobe Campaign per creare campagne cross-channel. Con le sue funzionalità di orchestrazione delle campagne di marketing, puoi gestire e centralizzare i dati dei clienti, progettare comunicazioni e campagne per i clienti e creare esperienze personalizzate su diversi canali. In questa versione sono disponibili canali e-mail, push e SMS. Misura l’efficacia delle consegne con rapporti dettagliati, che includono il numero di aperture, clic, inoltri e altro ancora.
 
 ## Approfondiamo
 
