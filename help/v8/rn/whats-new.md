@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 66%
+ht-degree: 55%
 
 ---
 
@@ -58,11 +58,11 @@ Inoltre, tutti i dati e le impostazioni già disponibili nella console client so
 
 Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati rinominati per aderire a nuovi standard terminologici. Queste modifiche si applicano solo all’interfaccia utente di Campaign Web e non vengono riportate nella console client. Tali modifiche sono riepilogate di seguito.
 
-* Le “bozze” sono ora **e-mail di test**: per inviare una bozza, utilizza il pulsante **Test** nell’interfaccia per la consegna delle e-mail. Il target della destinazione delle bozze ora è indicato come **Profili di test**.
-* Gli indirizzi seed vengono ora utilizzati come **Profili di test**: invia l’e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
-* L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare l’analisi, fai clic sul pulsante **Prepara**.
-* L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto**.
-* Gli elenchi ora sono **Tipi di pubblico**.
+* Le “bozze” sono ora **e-mail di test**: per inviare una bozza, utilizza il pulsante **Test** nell’interfaccia per la consegna delle e-mail. Il target della destinazione delle bozze ora è indicato come **Profili di test**..
+* Gli indirizzi di seed vengono ora utilizzati come **Profili di test**: invia l’e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
+* L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare l’analisi, fai clic sul pulsante **Prepara**..
+* L’anteprima e-mail è ora disponibile tramite il **Simula contenuto** pulsante.
+* Gli elenchi sono ora **Tipi di pubblico**.
 
 ## Limitazioni{#limitations-alpha}
 

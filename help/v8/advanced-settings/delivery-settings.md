@@ -4,10 +4,10 @@ title: Impostazioni di consegna e-mail
 description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 
 * **[!UICONTROL Forza la generazione della pagina mirror]**: utilizza questa modalità per generare la pagina mirror anche se nella consegna non è inserito alcun collegamento alla pagina mirror.
 * **[!UICONTROL Non generare la pagina mirror]**: utilizza questa modalità per evitare di generare una pagina mirror, anche se il collegamento è presente nella consegna.
-* **[!UICONTROL Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio]**: quando il collegamento della pagina mirror non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina mirror, nella finestra del registro di consegna, dalla console client.
+* **[!UICONTROL Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio]**: quando il collegamento alla pagina speculare non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare dalla console client, nella finestra del registro di consegna.
 
 
 ### Tracciamento {#tracking}
