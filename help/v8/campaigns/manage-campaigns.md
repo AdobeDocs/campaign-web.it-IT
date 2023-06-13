@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 8%
@@ -19,11 +19,11 @@ Per creare una nuova campagna o gestire le campagne esistenti, fai clic sul puls
 
 Nell’elenco delle campagne sono disponibili due schede:
 
-![Elenco campagne](assets/campaign-list.png)
-
 * Il **Sfoglia** Questa scheda elenca tutte le campagne esistenti. Puoi fare clic su una campagna per aprirne il dashboard o crearne una nuova facendo clic sul pulsante **Crea campagna** pulsante. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
 * Il **Modelli** nella scheda sono elencati tutti i modelli di campagna disponibili. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati durante la creazione di nuove campagne. Vengono creati dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it)
+
+![Elenco campagne](assets/campaign-list.png)
 
 Ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulla data di creazione, sull’ultima modifica e così via.
 
@@ -43,9 +43,9 @@ Lo stato e la pianificazione della campagna sono visualizzati nella parte superi
 
 Sono disponibili due schede:
 
-* Il **Flussi di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda ti consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
+* Il **Flussi di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda ti consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
-* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
+* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
 ## Duplicare ed eliminare una campagna
 
