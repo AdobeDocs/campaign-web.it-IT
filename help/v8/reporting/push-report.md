@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti di consegna push
 description: Scopri come accedere e utilizzare i rapporti di consegna push
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 7%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 7%
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
 >abstract="Scopri le metriche di reportistica per la consegna push."
+
+Il **Rapporto di consegna push** offre una panoramica completa del canale push, con informazioni approfondite e dati specifici. Offre informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
 ## Riepilogo push {#push-summary}
 
