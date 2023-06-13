@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti di consegna e-mail
 description: Scopri come accedere e utilizzare i rapporti di consegna e-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 10%
+source-wordcount: '1256'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 * **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 * **[!UICONTROL Statistiche consegna]** la tabella descrive il successo della consegna.
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
@@ -46,6 +46,24 @@ ht-degree: 10%
 * **[!UICONTROL Cause di esclusione]** il grafico e la tabella mostrano il raggruppamento per regola dei messaggi rifiutati durante l’analisi.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
+
+   * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
+
+   * **[!UICONTROL Dominio non valido]**: tipo di errore generato durante l’invio di una consegna per indicare che il dominio dell’indirizzo e-mail è errato o non esiste.
+
+   * **[!UICONTROL Cassetta postale piena]**: tipo di errore generato dopo cinque tentativi di consegna per indicare che la casella in entrata dei destinatari contiene troppi messaggi.
+
+   * **[!UICONTROL Account disabilitato]**: tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste più.
+
+   * **[!UICONTROL Rifiutato]**: tipo di errore generato quando un indirizzo viene rifiutato da IAP (Internet Access Provider), ad esempio in seguito all’applicazione di una regola di sicurezza (software anti-spam).
+
+   * **[!UICONTROL Non raggiungibile]**: tipo di errore che si verifica nella stringa di distribuzione del messaggio: incidente sull’inoltro SMTP, dominio temporaneamente non raggiungibile, ecc.
+
+   * **[!UICONTROL Non connesso]**: tipo di errore per indicare che il telefono cellulare del destinatario è spento o disconnesso dalla rete al momento dell’invio.
+
++++
 
 ## Velocità effettiva di consegna {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** tabelle e grafici contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
-   * **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica del rimbalzo, in relazione al numero di messaggi da consegnare.
+   * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
 
-   * **[!UICONTROL Contributo]**:
+   * **[!UICONTROL Dominio non valido]**: tipo di errore generato durante l’invio di una consegna per indicare che il dominio dell’indirizzo e-mail è errato o non esiste.
 
-   * **[!UICONTROL Raggruppamento]**:
+   * **[!UICONTROL Cassetta postale piena]**: tipo di errore generato dopo cinque tentativi di consegna per indicare che la casella in entrata dei destinatari contiene troppi messaggi.
+
+   * **[!UICONTROL Account disabilitato]**: tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste più.
+
+   * **[!UICONTROL Rifiutato]**: tipo di errore generato quando un indirizzo viene rifiutato da IAP (Internet Access Provider), ad esempio in seguito all’applicazione di una regola di sicurezza (software anti-spam).
+
+   * **[!UICONTROL Non raggiungibile]**: tipo di errore che si verifica nella stringa di distribuzione del messaggio: incidente sull’inoltro SMTP, dominio temporaneamente non raggiungibile, ecc.
+
+   * **[!UICONTROL Non connesso]**: tipo di errore per indicare che il telefono cellulare del destinatario è spento o disconnesso dalla rete al momento dell’invio.
 
 +++
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti di consegna SMS
 description: Scopri come accedere e utilizzare i rapporti di consegna sms
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -60,6 +60,8 @@ ht-degree: 6%
 +++
 
 * **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+
+  ![](assets/reporting_sms_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 

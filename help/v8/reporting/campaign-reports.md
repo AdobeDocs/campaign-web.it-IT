@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne
 description: Scopri come accedere e utilizzare i rapporti delle campagne
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 2%
+source-wordcount: '1682'
+ht-degree: 1%
 
 ---
 
@@ -115,11 +115,19 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 
   +++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
-   * **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica del rimbalzo, in relazione al numero di messaggi da consegnare.
+   * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
 
-   * **[!UICONTROL Contributo]**:
+   * **[!UICONTROL Dominio non valido]**: tipo di errore generato durante l’invio di una consegna per indicare che il dominio dell’indirizzo e-mail è errato o non esiste.
 
-   * **[!UICONTROL Raggruppamento]**:
+   * **[!UICONTROL Cassetta postale piena]**: tipo di errore generato dopo cinque tentativi di consegna per indicare che la casella in entrata dei destinatari contiene troppi messaggi.
+
+   * **[!UICONTROL Account disabilitato]**: tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste più.
+
+   * **[!UICONTROL Rifiutato]**: tipo di errore generato quando un indirizzo viene rifiutato da IAP (Internet Access Provider), ad esempio in seguito all’applicazione di una regola di sicurezza (software anti-spam).
+
+   * **[!UICONTROL Non raggiungibile]**: tipo di errore che si verifica nella stringa di distribuzione del messaggio: incidente sull’inoltro SMTP, dominio temporaneamente non raggiungibile, ecc.
+
+   * **[!UICONTROL Non connesso]**: tipo di errore per indicare che il telefono cellulare del destinatario è spento o disconnesso dalla rete al momento dell’invio.
 
 +++
 
@@ -213,6 +221,8 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 
 * **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna di SMS.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
    * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
@@ -227,6 +237,8 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 
 * **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
    * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
@@ -238,6 +250,8 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 +++
 
 * **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna:
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -252,6 +266,8 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 +++
 
 * **[!UICONTROL Flussi di clic generati]** la tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna:
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 

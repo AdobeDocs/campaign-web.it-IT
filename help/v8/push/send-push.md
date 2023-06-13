@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare una consegna di notifica push
 description: Scopri come inviare una notifica push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 23%
+source-wordcount: '354'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,16 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 1. Nel riquadro a destra è disponibile un’anteprima del messaggio e-mail in cui gli elementi personalizzati vengono sostituiti dinamicamente con i dati del profilo selezionato.
 
-Ora puoi esaminare e inviare il messaggio SMS al pubblico.
+Ora puoi rivedere e inviare la notifica push al pubblico.
+
+## Test della consegna delle notifiche push {#test-send-sms}
+
+Utilizzo di **Adobe Campaign**, puoi testare le notifiche push prima di inviarle al pubblico principale. Questo passaggio è importante per convalidare la consegna e identificare eventuali problemi.
+I destinatari del test possono rivedere elementi quali collegamenti, immagini e impostazioni di personalizzazione, garantendo prestazioni ottimali e rilevando eventuali errori. Questo processo ti aiuta a perfezionare e ottimizzare le notifiche push prima di raggiungere il pubblico principale.
+
+![](../assets/do-not-localize/book.png) Scopri come inviare notifiche push di prova in questo [pagina](../preview-test/proofs.md).
+
+![](assets/push_send_6.png)
 
 ## Inviare la consegna delle notifiche push {#preview-send-push}
 

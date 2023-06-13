@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti di consegna push
 description: Scopri come accedere e utilizzare i rapporti di consegna push
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -46,8 +46,6 @@ ht-degree: 7%
    * **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
 
 +++
-
-
 
 * **Statistiche generali** presenta i dati per le notifiche push inviate, tra cui:
 
