@@ -4,10 +4,10 @@ description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign 
 
 Personalizza il contenuto in base alle informazioni raccolte sui destinatari. L’utilizzo del contenuto dinamico rende il contenuto più accattivante e aumenta la probabilità che venga letto. Personalizza i messaggi per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro. Crea contenuti condizionali per adattare le consegne a ciascun destinatario e mostrare solo il contenuto rilevante per un determinato cliente in base alle informazioni di cui disponi su di esso.
 
-**Inviare consegne cross-channel**
+**Creare campagne cross-channel**
 
 Utilizzare Adobe Campaign per creare campagne cross-channel. Con le sue funzionalità di orchestrazione delle campagne di marketing, puoi gestire e centralizzare i dati dei clienti, progettare comunicazioni e campagne per i clienti e creare esperienze personalizzate su diversi canali. In questa versione sono disponibili canali e-mail, push e SMS. Misura l’efficacia delle consegne con rapporti dettagliati, che includono il numero di aperture, clic, inoltri e altro ancora.
 
@@ -64,11 +64,11 @@ Ora che conosci le operazioni che puoi eseguire sul Web Adobe Campaign, è neces
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Infrequente" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Incontra E-mail designer</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Incontra E-mail designer</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Ora che conosci le operazioni che puoi eseguire sul Web Adobe Campaign, è neces
 <img alt="Convalida" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Inviare consegne cross-channel</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Creare campagne cross-channel</strong></a>
 </div>
 <p>
 </td>
