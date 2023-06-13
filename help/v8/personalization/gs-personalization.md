@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# Introduzione ai contenuti dinamici
+# Introduzione ai contenuti dinamici {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ In qualità di addetto al marketing, è fondamentale rivolgersi ai clienti realm
 
 Le funzionalità di contenuto dinamico web di Adobe Campaign ti consentono di personalizzare il contenuto in base alle informazioni raccolte sui destinatari. Utilizzando i contenuti dinamici, potrai essere sicuro che le tue attività di marketing siano più rilevanti, evitando di marketing di prodotti o servizi indesiderati o non necessari. Questo approccio rende i contenuti più accattivanti e aumenta la probabilità che vengano letti. Inoltre, ti consente di personalizzare il contenuto, facendo sentire i destinatari come se stessero ricevendo informazioni da una persona invece che da una macchina.
 
-## Come rendere dinamico il contenuto?
+## Come rendere dinamico il contenuto? {#make-content-dyn}
 
 Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript nell’editor di espressioni web di Campaign. Al momento dell’invio dei messaggi, Adobe Campaign interpreta tali espressioni per fornire il contenuto corretto a ciascuno dei destinatari:
 
@@ -65,7 +65,7 @@ Di seguito sono riportati alcuni esempi su come accedere all’editor di espress
 >
 >Oltre all’editor di espressioni, puoi anche sfruttare un generatore di contenuti condizionali dedicato durante la progettazione di un’e-mail. [Scopri come creare contenuti condizionali nelle e-mail](conditions.md)
 
-## Approfondiamo
+## Approfondiamo {#dive-deeper}
 
 Ora che sai come rendere dinamici i contenuti, è ora di approfondire queste sezioni della documentazione per iniziare a lavorare con la funzione.
 
