@@ -3,10 +3,10 @@ audience: end-user
 title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 13%
 
 ---
 
@@ -68,4 +68,4 @@ Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attri
 
 Solo gli attributi più comuni vengono visualizzati per impostazione predefinita nelle schermate elenco attributi e configurazione filtro. Attributi impostati come `advanced` Gli attributi nello schema dati sono nascosti dalle schermate di configurazione.
 
-Utilizza il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l&#39;elenco corrente.
+Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente: l’elenco degli attributi viene aggiornato all’istante.
