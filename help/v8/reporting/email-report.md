@@ -3,20 +3,22 @@ audience: end-user
 title: Rapporti di consegna e-mail
 description: Scopri come accedere e utilizzare i rapporti di consegna e-mail
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 8%
+source-wordcount: '1407'
+ht-degree: 7%
 
 ---
 
 # Rapporto di consegna e-mail {#email-report}
 
+Il **Rapporto di consegna e-mail** offre informazioni complete e dati specifici per il canale e-mail. Fornisce informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne, fornendo una panoramica completa.
+
 ## Riepilogo consegne {#delivery-summary-email}
 
 * **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari:
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
@@ -96,6 +98,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 * **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** tabelle e grafici contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
+  Gli errori visualizzati in questo report attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Gestione della quarantena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it)
+
   ![](assets/campaign_report_email_6.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
@@ -168,6 +172,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
+   * **[!UICONTROL Media piattaforma]** : questo tasso medio, visualizzato sotto ogni tasso (reattività, clic distinti e clic cumulativi), è calcolato per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
+
 +++
 
 * **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.
@@ -188,7 +194,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 ## Attività degli utenti {#user-activities-email}
 
-* **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico.
+* **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ora o 30 minuti.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 ## Statistiche di tracciamento {#tracking-statistics}
 
-* **[!UICONTROL Statistiche di tracciamento]** Il grafico fornisce statistiche su aperture e clic.
+* **[!UICONTROL Statistiche di tracciamento]** Il grafico fornisce statistiche su aperture e clic. Puoi selezionare l’intervallo di tempo specifico per il targeting dei dati.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 ## Breakdown delle aperture {#breakdown-opens}
 
 Questo rapporto mostra il raggruppamento delle aperture per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
+È possibile passare da **[!UICONTROL Fisso e mobile]** per eseguire il targeting esclusivo **[!UICONTROL Solo per dispositivi mobili]** per un targeting più preciso.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Hot click
+## Hot click {#hotclicks}
 
 Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I collegamenti presenti nei blocchi di personalizzazione per l’annullamento dell’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono visualizzati nel rapporto.
 
