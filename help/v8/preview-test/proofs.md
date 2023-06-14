@@ -4,7 +4,7 @@ title: Inviare consegne di prova
 description: Scopri come definire e inviare le consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ In base al canale utilizzato, i messaggi di prova possono essere inviati a tre t
 
   Possono essere create in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Ulteriori informazioni in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[Sostituisci dal target principale](#substitution-profiles)** - Invia **verifica e-mail e SMS** a uno specifico indirizzo e-mail o numero di telefono mentre si impersona un profilo esistente.
+* [Sostituisci dal target principale](#substitution-profiles) - Invia **verifica e-mail e SMS** a uno specifico indirizzo e-mail o numero di telefono mentre si impersona un profilo esistente.
 
   Questo consente di avere l’esperienza del messaggio come farebbero i destinatari, fornendo una rappresentazione accurata del contenuto che verrà ricevuto dal profilo.
 
-* **[Abbonati](#subscribers)** - Invia **test delle notifiche push** agli abbonati fittizi aggiunti al database.
+* [Abbonati](#subscribers) - Invia **test delle notifiche push** agli abbonati fittizi aggiunti al database.
 
   Proprio come i profili di test, è possibile crearli in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Ulteriori informazioni in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
