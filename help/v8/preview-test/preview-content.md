@@ -4,9 +4,9 @@ title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima i contenuti della consegna con l’interfaccia web di Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ Per visualizzare in anteprima il contenuto della consegna, segui i passaggi indi
 
 1. Per selezionare i profili da utilizzare per l’anteprima dei contenuti personalizzati, utilizza:
 
-   * **[!UICONTROL Aggiungi profili di test]** per l’anteprima di messaggi e-mail e SMS
+   * **[!UICONTROL Aggiungi profili di test]** per visualizzare in anteprima le consegne e-mail e SMS
 
-   * **[!UICONTROL Aggiungi abbonati]** per l’anteprima delle consegne push
+   * **[!UICONTROL Aggiungi sottoscrittori]** per visualizzare in anteprima le notifiche push
 
 1. Puoi combinare profili di test e profili per visualizzare in anteprima il messaggio e-mail o SMS.
 
