@@ -4,10 +4,10 @@ title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ I passaggi per inviare offerte con un’e-mail sono i seguenti:
 
    ![](assets/create-content-offers.png)
 
-1. Per perfezionare le offerte scelte dal motore, seleziona la **[!UICONTROL Categoria offerta]** in base alla quale ordinare le offerte.
+1. Per perfezionare le offerte scelte dal motore, seleziona la **[!UICONTROL Categoria offerta]** in base alla quale ordinare le offerte. Quando si seleziona una cartella, tutte le sottocartelle vengono incluse automaticamente e non possono essere rimosse. Tieni presente che l’interfaccia utente di non riflette questo comportamento.
 
    Se non viene specificata alcuna categoria, il motore di offerte prenderà in considerazione tutte le offerte contenute nell’ambiente, a meno che non venga selezionato un **[!UICONTROL Tema offerta]**.
 
