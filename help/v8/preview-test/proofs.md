@@ -4,9 +4,9 @@ title: Inviare consegne di prova
 description: Scopri come definire e inviare le consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
    ![](assets/simulate-test-button-email.png)
 
-1. Utilizza il **[!UICONTROL Modalità]** elenco a discesa per scegliere il tipo di destinatari che ricevono l’e-mail o l’SMS di test:
+1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **Profili di test** per eseguire il targeting di destinatari fittizi che riceveranno l’e-mail di test o l’SMS di consegna.
 
-   * **Profili di test** per eseguire il targeting di destinatari fittizi
-
-   Se hai già selezionato i profili da [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando **[!UICONTROL Aggiungi profili di test]** pulsante.
-
-   * **Sostituisci dal target principale** per inviare un test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente. [Ulteriori informazioni](#substitution-profiles)
+1. Se hai già selezionato i profili da [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando **[!UICONTROL Aggiungi profili di test]** pulsante.
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 ### Profili di sostituzione {#substitution-profiles}
 
-Per inviare un’e-mail o un SMS di test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente del database di Campaign, utilizza i profili di sostituzione.
+Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente di [!DNL Campaign] database, utilizzare profili di sostituzione.
 
-Per farlo, i primi passaggi sono gli stessi della selezione [profili di test](#test-profiles), ma scegli il **[!UICONTROL Sostituisci da destinazione]** e seguire i passaggi seguenti.
+1. Prima di inviare un test, assicurati di definire un pubblico per la consegna. [Ulteriori informazioni](../audience/about-audiences.md)
+
+1. Passa alla schermata di modifica del contenuto dell’e-mail o dell’SMS di consegna, quindi fai clic su **[!UICONTROL Simula contenuto]** pulsante.
+
+1. Fai clic su **[!UICONTROL Test]** pulsante.
+
+   >[!NOTE]
+   >
+   >Se hai già selezionato i profili da [visualizzare l’anteprima della consegna](preview-content.md), sono elencati nel riquadro a sinistra.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **Sostituisci dal target principale** per inviare un test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente.
 
 1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail o il numero di telefono che riceverà la consegna del test.
 
