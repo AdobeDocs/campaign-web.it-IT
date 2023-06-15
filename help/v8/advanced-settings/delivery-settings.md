@@ -4,10 +4,10 @@ title: Impostazioni di consegna e-mail
 description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 95%
+source-wordcount: '1475'
+ht-degree: 92%
 
 ---
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni sulle regole di coerenza e capacità e su come config
 
 In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8.
 
-Per ulteriori informazioni sulle mappature target, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
+Ulteriori informazioni sulle mappature di destinazione in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
 
 ## Consegna {#delivery}
 
@@ -92,7 +92,7 @@ I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
 
 * **Test consegna SMTP**: questa opzione viene utilizzata per testare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **Invia e-mail in Ccn**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn, semplicemente aggiungendo un indirizzo e-mail Ccn al target del messaggio. Scopri di più sull’invio in Ccn dell’email nella [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+* **Invia e-mail in Ccn**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn, semplicemente aggiungendo un indirizzo e-mail Ccn al target del messaggio. Ulteriori informazioni sul campo CCN e-mail in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 
 
@@ -105,7 +105,7 @@ I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Per ulteriori informazioni sulla gestione dei tentativi, conulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+Ulteriori informazioni sulla gestione dei tentativi in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 ## Approvazione {#approval}
 
@@ -147,7 +147,7 @@ Puoi anche scegliere di specificare le date. A questo scopo, seleziona **Imposta
 ![](assets/delivery-settings-2.png)
 
 
-Per ulteriori informazioni sul periodo di validità della consegna, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it#validity-period){target="_blank"}.
+Ulteriori informazioni sul periodo di validità della consegna in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it#validity-period){target="_blank"}.
 
 ### Gestione delle pagine mirror {#mirror}
 

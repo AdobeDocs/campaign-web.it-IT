@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporti sulle campagne
 description: Scopri come accedere e utilizzare i rapporti delle campagne
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1753'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nel dashboard dell
 
 * **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** tabelle e grafici contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
-  Gli errori visualizzati in questo report attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Gestione della quarantena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it).
+  Gli errori visualizzati in questo report attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
