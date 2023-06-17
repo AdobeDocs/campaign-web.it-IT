@@ -4,9 +4,9 @@ title: Inviare consegne di prova
 description: Scopri come definire e inviare le consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
    ![](assets/simulate-test-button-email.png)
 
-1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **Profili di test** per eseguire il targeting di destinatari fittizi che riceveranno l’e-mail di test o l’SMS di consegna.
-
-1. Se hai già selezionato i profili da [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando **[!UICONTROL Aggiungi profili di test]** pulsante.
+1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **[!UICONTROL Profili di test]** per eseguire il targeting di destinatari fittizi che riceveranno l’e-mail di test o l’SMS di consegna.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Se hai già selezionato i profili da [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando **[!UICONTROL Aggiungi profili di test]** pulsante.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un n
 
 1. Fai clic su **[!UICONTROL Test]** pulsante.
 
-   >[!NOTE]
-   >
-   >Se hai già selezionato i profili da [visualizzare l’anteprima della consegna](preview-content.md), sono elencati nel riquadro a sinistra.
-
    ![](assets/simulate-test-button-email.png)
 
-1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **Sostituisci dal target principale** per inviare un test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente.
+1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **[!UICONTROL Sostituisci dal target principale]** per inviare un test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente.
+
+   >[!CAUTION]
+   >
+   >Se non hai selezionato un’ [pubblico](../audience/about-audiences.md) per la consegna, **[!UICONTROL Sostituisci dal target principale]** L&#39;opzione sarà disattivata e non sarà possibile selezionare profili di sostituzione.
 
 1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail o il numero di telefono che riceverà la consegna del test.
 
-   Puoi immettere qualsiasi indirizzo e-mail o numero di telefono. Ciò ti consente di inviare consegne di test a qualsiasi destinatario, anche se non è utente di [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >Puoi immettere qualsiasi indirizzo e-mail o numero di telefono. Ciò ti consente di inviare consegne di test a qualsiasi destinatario, anche se non è utente di [!DNL Adobe Campaign].
 
 1. Selezionare il profilo dal database da utilizzare come sostituto. Puoi anche consentire [!DNL Adobe Campaign] selezionare un profilo casuale. I dati del profilo dal profilo selezionato verranno visualizzati nella consegna del test.
 
@@ -105,7 +109,9 @@ Quando si utilizzano le notifiche push, le consegne di test possono essere invia
 
    ![](assets/simulate-test-button-push.png)
 
-1. Se hai già selezionato abbonati a [visualizzare in anteprima la consegna](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come abbonati al test. Puoi cancellare la selezione e/o aggiungere altri abbonati utilizzando il pulsante dedicato.
+1. Se hai già selezionato abbonati a [visualizzare in anteprima la consegna](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come abbonati al test.
+
+   Puoi cancellare la selezione e/o aggiungere altri abbonati utilizzando il pulsante dedicato.
 
    ![](assets/simulate-test-subscribers.png)
 
