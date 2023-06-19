@@ -4,10 +4,10 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 10%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Campaign consente di orchestrare facilmente le iniziative di marketing mir
 
 Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto risuoni con il pubblico a cui è destinata.
 
-Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare gli sforzi futuri.
+Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare gli sforzi futuri. Scopri come accedere e comprendere i rapporti delle campagne in [questa sezione](../reporting/campaign-reports.md).
 
 ![Flusso della campagna](assets/campaign-flow.png)
 
-Consulta le sezioni seguenti:
+Scopri come creare e gestire le campagne nelle sezioni seguenti:
 
 * [Accedere e gestire le campagne](manage-campaigns.md)
 * [Creare la prima campagna](create-campaigns.md)

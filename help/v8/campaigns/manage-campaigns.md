@@ -3,17 +3,17 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 9%
+source-wordcount: '423'
+ht-degree: 8%
 
 ---
 
 
 # Accedere e gestire le campagne{#manage-campaigns}
 
-Per creare una nuova campagna o gestire le campagne esistenti, fai clic sul pulsante **[!UICONTROL Campagne]** menu.
+Per creare una nuova campagna o gestire le campagne esistenti, fai clic sul pulsante **[!UICONTROL Campagne]** nel menu di navigazione a sinistra.
 
 ## Elenco delle campagne{#access-campaigns}
 
@@ -25,9 +25,9 @@ Nell’elenco delle campagne sono disponibili due schede:
 
 ![Elenco campagne](assets/campaign-list.png)
 
-Ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulla data di creazione, sull’ultima modifica e così via.
+Per impostazione predefinita, ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulla data di creazione, sull’ultima modifica e così via.
 
-Puoi personalizzare le colonne visualizzate facendo clic sul pulsante **Configurare una colonna per un layout personalizzato** nell&#39;angolo superiore destro dell&#39;elenco. Ciò ti consente di aggiungere ulteriori informazioni all’elenco. Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens)
+Puoi personalizzare le colonne visualizzate facendo clic sul pulsante **Configurare una colonna per un layout personalizzato** nell&#39;angolo superiore destro dell&#39;elenco. Ciò ti consente di aggiungere ulteriori informazioni all’elenco. Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens).
 
 Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza **Data Inizio - Fine** sezione:
 
@@ -45,7 +45,7 @@ Sono disponibili due schede:
 
 * Il **Flussi di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda ti consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
-* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
+* Il **Consegne** Questa scheda elenca tutte le consegne collegate alla campagna corrente. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
 ## Duplicare ed eliminare una campagna
 
