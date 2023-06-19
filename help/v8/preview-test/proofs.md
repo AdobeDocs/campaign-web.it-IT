@@ -4,14 +4,19 @@ title: Inviare consegne di prova
 description: Scopri come definire e inviare le consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # Inviare consegne di prova {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Modalità anteprima"
+>abstract="Visualizza l’anteprima e verifica il messaggio includendo la popolazione di test nel target principale."
 
 **[!UICONTROL Adobe Campaign]** consente di testare un messaggio prima di inviarlo al pubblico principale.
 
@@ -20,6 +25,15 @@ L’invio di consegne di test è un passaggio importante per convalidare la camp
 I destinatari di un test possono controllare vari elementi come collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
 
 ## Selezionare i destinatari del test {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Popolazione di test"
+>abstract="Seleziona una modalità per la popolazione di test."
+
+
 
 In base al canale utilizzato, i messaggi di prova possono essere inviati a tre tipi di destinatari:
 
@@ -38,6 +52,7 @@ In base al canale utilizzato, i messaggi di prova possono essere inviati a tre t
 Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti in base al tipo di profili che desideri utilizzare.
 
 ### Profili di test {#test-profiles}
+
 
 1. Passa alla schermata di modifica del contenuto dell’e-mail o dell’SMS di consegna, quindi fai clic su **[!UICONTROL Simula contenuto]** pulsante.
 
