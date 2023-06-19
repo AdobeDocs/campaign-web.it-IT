@@ -4,14 +4,20 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 82%
+source-wordcount: '1119'
+ht-degree: 83%
 
 ---
 
 # Introduzione ai messaggi{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="Consegne"
+>abstract="Scorri l’elenco delle consegne. Puoi visualizzarne lo stato, le date di contatto e di modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic sul pulsante “Crea consegna” per aggiungere una nuova consegna. Seleziona una consegna per visualizzarne il contenuto, il pubblico e i dettagli."
+
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati.
 
@@ -52,6 +58,7 @@ Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e
 
 
 ## Creare una consegna {#create-delivery}
+
 
 Puoi creare consegne indipendenti dal menu a sinistra **[!UICONTROL Consegne]**, oppure nel contesto di una campagna di marketing dal menu a sinistra **[!UICONTROL Campagne]**.
 
