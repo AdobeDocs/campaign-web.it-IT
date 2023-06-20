@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 42%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Parametri e-mail"
->abstract="I valori Da nome e Da e-mail sono definiti nel modello e-mail. La riga Oggetto può essere personalizzata utilizzando l’editor espressioni."
+>abstract="I valori Nome mittente e Da e-mail sono definiti nel modello e-mail. La riga Oggetto può essere personalizzata utilizzando l’editor di espressioni."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
@@ -33,14 +33,14 @@ ht-degree: 42%
 >title="Opzioni di tracciamento"
 >abstract="Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione da qui."
 
-L’e-mail **[!UICONTROL Modifica contenuto]** consente di:
-* Definire gli elementi di base del messaggio, ad esempio l&#39;indirizzo del mittente e l&#39;oggetto
-* Eseguire azioni aggiuntive, ad esempio aggiungere allegati o impostare offerte
-* Accedere a [E-mail Designer](get-started-email-designer.md#start-authoring) per iniziare a creare il contenuto corretto dell’e-mail
+La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
+* Definire gli elementi di base del messaggio, ad esempio l’indirizzo del mittente e la riga dell’oggetto
+* Eseguire azioni aggiuntive, ad esempio aggiungere gli allegati o configurare le offerte
+* Accedi a [E-mail Designer](get-started-email-designer.md#start-authoring) per iniziare a creare il contenuto corretto dell’e-mail
 
 Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indicati di seguito.
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** dal pulsante [dashboard di consegna e-mail](../email/create-email.md) schermo.
+1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla schermata della [dashboard di consegna e-mail](../email/create-email.md).
 
    ![](assets/email-edit-content-button.png)
 
@@ -50,23 +50,23 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
    >[!NOTE]
    >
-   >Se stai configurando una nuova e-mail, il **[!UICONTROL Nome mittente]** e **[!UICONTROL Da e-mail]** campi già popolati.
+   >Se stai configurando una nuova e-mail, i campi **[!UICONTROL Nome mittente]** e **[!UICONTROL Da e-mail]** sono già popolati.
 
-1. Il **[!UICONTROL Nome mittente]** è definito nel modello e-mail. Se desideri modificarlo, utilizza un nome facilmente identificabile dai destinatari, ad esempio il nome del tuo marchio, per aumentare il tasso di apertura delle consegne.
+1. Il **[!UICONTROL Nome mittente]** è definito nel modello e-mail. Se desideri modificarlo, utilizza un nome facilmente identificabile dai destinatari, ad esempio il nome del tuo marchio, per aumentare la percentuale di apertura delle consegne.
 
    >[!NOTE]
    >
    >Per migliorare ulteriormente l’esperienza del destinatario, puoi aggiungere il nome di una persona, ad esempio &quot;Eva da Luma&quot;.
 
-1. Il **[!UICONTROL Da e-mail]** il campo dell’indirizzo è definito anche nel modello e-mail. Assicurati che il dominio dell’indirizzo sia lo stesso del sottodominio che hai delegato ad Adobe.
+1. Anche il campo dell’indirizzo **[!UICONTROL Da e-mail]** è definito nel modello e-mail. Assicurati che il dominio dell’indirizzo sia lo stesso del sottodominio che hai delegato ad Adobe.
 
    >[!NOTE]
    >
-   >È possibile modificare la parte che precede &#39;@&#39;, ma non l&#39;indirizzo di dominio.
+   >È possibile modificare la parte che precede “@”, ma non l’indirizzo del dominio.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
-1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Inserisci l’oggetto direttamente nel campo dedicato, oppure apri l’editor espressioni per aggiungere personalizzazioni utilizzando vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
+1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato oppure apri l’editor espressioni per aggiungere la personalizzazione mediante vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
 
 1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi seleziona uno o più file.
 
@@ -80,14 +80,14 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
    Puoi quindi inserirle nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](offers.md)
 
-1. Fai clic su **[!UICONTROL Modifica corpo dell’e-mail]** per strutturare e progettare il contenuto dell’e-mail utilizzando [E-mail Designer](#start-authoring). Per ulteriori informazioni sulla progettazione del contenuto delle e-mail, consulta le seguenti sezioni:
+1. Fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]** per strutturare e progettare il contenuto dell’e-mail utilizzando [E-mail designer](#start-authoring). Per ulteriori informazioni sulla progettazione del contenuto delle e-mail, consulta le seguenti sezioni:
 
-   * [Creare e-mail da zero](create-email-content.md)
+   * [Creare di e-mail da zero](create-email-content.md)
    * [Personalizzare lo stile del contenuto](get-started-email-style.md)
 
    >[!NOTE]
    >
-   >Puoi anche passare il cursore sull’anteprima e-mail e selezionare **[!UICONTROL Apri e-mail designer]**.
+   >Puoi anche passare il cursore sull’anteprima e-mail e selezionare **[!UICONTROL Apri E-mail designer]**.
 
 1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla sezione **[!UICONTROL Funzioni facoltative]**. [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
 

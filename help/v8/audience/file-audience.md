@@ -7,11 +7,11 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 64%
+ht-degree: 99%
 
 ---
 
-# Caricare un pubblico e-mail da un file {#audience-from-file}
+# Caricare un pubblico dell’email da un file {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -28,29 +28,29 @@ ht-degree: 64%
 >title="Formattazione dei parametri"
 >abstract="Verifica i parametri di formattazione per il file."
 
-Puoi caricare i contatti da un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
+Puoi caricare i contatti da un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
 
 >[!CAUTION]
 >
->* Questa funzionalità è disponibile solo per **consegne e-mail autonome**. Non può essere utilizzato nei flussi di lavoro, né con le consegne SMS o push.
+>* Questa funzionalità è disponibile solo per le **consegne e-mail autonome**. Non può essere utilizzata nei flussi di lavoro, né con le consegne SMS o push.
 >
 >* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
 
 
-Per eseguire il targeting dei profili da un file locale direttamente dall’interfaccia e-mail, effettua le seguenti operazioni:
+Per eseguire il targeting dei profili da un file locale direttamente dall’interfaccia e-mail, segui questi passaggi:
 
-1. Aprire una consegna e-mail esistente oppure [creare una nuova consegna e-mail](../email/create-email.md).
+1. Apri una consegna e-mail esistente oppure [crea una nuova consegna e-mail](../email/create-email.md).
 1. Nella finestra di creazione della consegna e-mail, dalla sezione **Pubblico**, fai clic sul pulsante **Seleziona pubblico** e scegli l’opzione **Seleziona da file**.
 
    ![](assets/select-from-file.png)
 
-1. Seleziona il file locale da caricare. Il formato deve essere allineato con [file di esempio](#sample-file).
+1. Seleziona il file locale da caricare. Il formato deve essere allineato con il [file di esempio](#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
 1. Scegli la colonna che contiene l’indirizzo e-mail dall’elenco a discesa **Campo indirizzo**. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna dell’elenco bloccati.
 1. Regola le impostazioni delle colonne e il formato dei dati dalle opzioni disponibili.
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
 
-Quando crei e personalizzi il contenuto del messaggio, puoi selezionare i campi dal file di input in [Editor di personalizzazione](../personalization/gs-personalization.md).
+Durante la creazione e la personalizzazione del contenuto del messaggio, puoi selezionare i campi dal file di input nell’[editor di personalizzazione](../personalization/gs-personalization.md).
 
 ![](assets/select-external-perso.png)
 
@@ -64,7 +64,7 @@ Quando crei e personalizzi il contenuto del messaggio, puoi selezionare i campi 
 
 Sono supportati i formati TXT e CSV. La prima riga è l’intestazione della colonna.
 
-Allinea il formato del file con il file di esempio seguente:
+Allinea il formato del file con il file di esempio di seguito:
 
 ```javascript
 {

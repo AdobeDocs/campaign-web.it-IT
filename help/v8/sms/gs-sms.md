@@ -7,7 +7,7 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 43%
+ht-degree: 86%
 
 ---
 
@@ -17,11 +17,11 @@ Le consegne SMS offrono un modo pratico ed efficiente per inviare messaggi di te
 
 Il canale SMS offre tre metodi per creare consegne SMS:
 
-* **[!UICONTROL Flussi di lavoro]**: aggiungi un’attività SMS, definisci le impostazioni di base e componi il contenuto SMS all’interno di una sequenza di automazione più grande.
+* **[!UICONTROL Flussi di lavoro]**: aggiungi un’attività SMS, definisci le impostazioni di base e componi il contenuto SMS all’interno di una sequenza di automazione più ampia.
 
-* **[!UICONTROL Campagne]**: integra le consegne di SMS in campagne dedicate, impostando parametri quali il pubblico di destinazione e la pianificazione delle consegne.
+* **[!UICONTROL Campagne]**: incorpora le consegne SMS in campagne dedicate, impostando parametri quali il pubblico target e la pianificazione delle consegne.
 
-* **Consegne autonome**: crea singole consegne di SMS per comunicare in modo rapido e diretto con i clienti, senza dover ricorrere a flussi di lavoro o campagne.
+* **Consegne indipendenti**: crea singole consegne SMS per comunicare in modo rapido e diretto con i clienti, senza dover ricorrere a flussi di lavoro o campagne.
 
 ![](../assets/do-not-localize/book.png) Scopri come configurare il canale SMS in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
@@ -36,7 +36,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Infrequente" src="assets/do-not-localize/design_sms.png">
+<img alt="Non frequente" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>Progettare una consegna SMS<strong></strong></a>
@@ -56,7 +56,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 <img alt="Convalida" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
-<a href="send-sms.md"><strong>Rapporto di consegna SMS</strong></a>
+<a href="send-sms.md"><strong>Rapporto sulle consegne SMS</strong></a>
 </div>
 <p>
 </td>

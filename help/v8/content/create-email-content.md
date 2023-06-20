@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 61%
+ht-degree: 99%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Aggiungere strutture"
->abstract="Le strutture definiscono il layout dell’e-mail. Per iniziare a progettare il contenuto delle e-mail, trascina un componente **Struttura** nell’area di lavoro."
+>abstract="Le strutture definiscono il layout del messaggio e-mail. Per iniziare a progettare il contenuto delle e-mail, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Aggiungere strutture"
->abstract="Le strutture definiscono il layout della pagina di destinazione. Trascina una **Struttura** nell’area di lavoro per iniziare a progettare la pagina di destinazione."
+>abstract="Le strutture definiscono il layout della pagina di destinazione. Per iniziare a progettare la pagina di destinazione, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Aggiungere strutture"
->abstract="Le strutture definiscono il layout del frammento. Trascina una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto del frammento."
+>abstract="Le strutture definiscono il layout del frammento. Per iniziare a progettare il frammento di contenuto, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Aggiungere strutture"
->abstract="Le strutture definiscono il layout del modello. Trascina una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto del modello."
+>abstract="Le strutture definiscono il layout del modello. Per iniziare a progettare il modello di contenuto, trascina un componente **Struttura** nell’area di lavoro."
 
 
 >[!CONTEXTUALHELP]
@@ -56,31 +56,31 @@ ht-degree: 61%
 
 E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare il corpo dell’e-mail in pochi secondi.
 
-Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti.
+Per iniziare a creare il contenuto delle e-mail, segui i passaggi indicati di seguito.
 
-1. Dalla sezione [E-mail Designer](get-started-email-designer.md#start-authoring) home page, selezionare la **[!UICONTROL Progettare da zero]** opzione.
+1. Dalla pagina Home di [E-mail Designer](get-started-email-designer.md#start-authoring), seleziona l’opzione **[!UICONTROL Progetta da zero]**.
 
    ![](assets/email_designer-from-scratch.png)
 
-1. Inizia a progettare il contenuto delle e-mail tramite trascinamento **[!UICONTROL Strutture]** nell’area di lavoro per definire il layout dell’e-mail.
+1. Per iniziare a progettare il contenuto delle e-mail, trascina nell’area di lavoro le **[!UICONTROL Strutture]** per definire il layout del messaggio e-mail.
 
    >[!NOTE]
    >
    >L’utilizzo di colonne sovrapposte non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non vengono sovrapposte.
 
-1. Aggiungi tanti **[!UICONTROL Strutture]** in base alle esigenze e modificarne le impostazioni nel riquadro dedicato a destra.
+1. Aggiungi tutte le **[!UICONTROL Strutture]** necessarie e modificane le impostazioni nel riquadro dedicato a destra.
 
    ![](assets/email_designer_structure_components.png)
 
-1. È possibile selezionare **[!UICONTROL Colonna n:n]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
+1. Seleziona il componente **[!UICONTROL Colonna n:n]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
 
    >[!NOTE]
    >
    >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
 
-1. Dalla sezione **[!UICONTROL Componenti]** , trascinare tutti gli elementi necessari in una o più strutture. [Ulteriori informazioni sui componenti contenuto](content-components.md)
+1. Dalla sezione **[!UICONTROL Componenti]**, trascina tutti gli elementi necessari in una o più strutture. [Ulteriori informazioni sui componenti contenuto](content-components.md)
 
-1. Ogni componente può essere ulteriormente personalizzato utilizzando **[!UICONTROL Impostazioni]** o **[!UICONTROL Stile]** schede a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
+1. Ogni componente può essere ulteriormente personalizzato utilizzando le schede **[!UICONTROL Impostazioni]** o **[!UICONTROL Stile]** a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer-styles.png)
 
@@ -88,7 +88,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti.
 
 1. Aggiungi collegamenti al contenuto.
 
-   Fai clic su **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. Se necessario, è possibile modificare il **[!UICONTROL Tipo di tracciamento]** o l’**[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Categorie]**.
+   Fai clic sulla scheda **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare tutti gli URL del contenuto che saranno tracciati. Se necessario, è possibile modificare il **[!UICONTROL Tipo di tracciamento]** o l’**[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Categorie]**.
 
 [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
 

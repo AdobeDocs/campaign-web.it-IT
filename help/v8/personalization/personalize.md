@@ -10,45 +10,45 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
 
 # Personalizzare i contenuti {#add-personalization}
 
-Puoi personalizzare qualsiasi consegna utilizzando l’editor di espressioni, accessibile nei campi con **[!UICONTROL Apri finestra di dialogo per personalizzazione]** come l’oggetto, i collegamenti e-mail e i componenti di contenuto testo/pulsante. [Scopri come accedere all’editor di espressioni](gs-personalization.md/#access)
+Puoi personalizzare qualsiasi consegna utilizzando l’editor di espressioni, accessibile nei campi tramite l’icona **[!UICONTROL Apri finestra di personalizzazione]**, come l’oggetto, i collegamenti e-mail e i componenti di contenuto testo/pulsante. [Scopri come accedere all’editor di espressioni](gs-personalization.md/#access)
 
 ## Sintassi di personalizzazione {#syntax}
 
-I tag di personalizzazione seguono una sintassi specifica: `<%= table.field %>`. Ad esempio, per inserire il cognome del destinatario dalla tabella dei destinatari, utilizzare `<%= recipient.lastName %>` sintassi.
+I tag di personalizzazione seguono una sintassi specifica: `<%= table.field %>`. Ad esempio, per inserire il cognome del destinatario dalla tabella dei destinatari, utilizza la sintassi `<%= recipient.lastName %>`.
 
 Durante il processo di preparazione della consegna, Adobe Campaign interpreta automaticamente questi tag e li sostituisce con i valori dei campi corrispondenti per ogni destinatario. Puoi visualizzare la sostituzione effettiva simulando il contenuto.
 
-Durante il caricamento di contatti da un file esterno per una consegna e-mail autonoma, tutti i campi nel file di input sono disponibili per la personalizzazione. La sintassi è la seguente: `<%= dataSource.field %>`.
+Durante il caricamento dei contatti da un file esterno per una consegna e-mail autonoma, tutti i campi nel file di input sono disponibili per la personalizzazione. La sintassi è la seguente: `<%= dataSource.field %>`.
 
 ## Aggiungere tag di personalizzazione {#add}
 
-Per aggiungere tag di personalizzazione a una consegna, effettua le seguenti operazioni:
+Per aggiungere tag di personalizzazione a una consegna, segui i passaggi seguenti:
 
-1. Apri l’editor di espressioni utilizzando **[!UICONTROL Apri finestra di dialogo per personalizzazione]** che è accessibile dai campi di modifica di tipo testo, ad esempio l’oggetto o il corpo dell’SMS. [Scopri come accedere all’editor di espressioni](gs-personalization.md/#access)
+1. Apri l’editor di espressioni utilizzando l’icona **[!UICONTROL Apri finestra di personalizzazione]** che è accessibile dai campi di modifica di tipo testuale, tra cui l’oggetto o il corpo dell’SMS. [Scopri come accedere all’editor di espressioni](gs-personalization.md/#access)
 
    ![](assets/perso-access.png){width="800" align="center"}
 
-1. Viene aperto l’editor espressioni. I campi di personalizzazione disponibili nel database di Adobe Campaign sono organizzati in diversi menu sul lato sinistro dello schermo:
+1. Si apre l’editor di espressioni. I campi di personalizzazione disponibili nel database di Adobe Campaign sono organizzati in diversi menu sul lato sinistro dello schermo:
 
    ![](assets/perso-insert-field.png){width="800" align="center"}
 
    | Menu | Descrizione |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | Il **[!UICONTROL Applicazione per abbonati]** Il menu elenca i campi relativi agli abbonati a un’applicazione, ad esempio il terminale utilizzato o il sistema operativo. *Questo menu è disponibile solo per le notifiche push* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | Il **[!UICONTROL Destinatario]** il menu elenca i campi definiti nella tabella dei destinatari, ad esempio i nomi, le età o gli indirizzi dei destinatari. Quando [caricamento di contatti da un file esterno](../audience/file-audience.md) per una consegna e-mail autonoma, questo menu elenca tutti i campi disponibili nel file di input. |
-   | ![](assets/do-not-localize/perso-message-menu.png) | Il **[!UICONTROL Messaggio]** il menu elenca i campi relativi ai registri di consegna, inclusi tutti i messaggi inviati a destinatari o dispositivi su tutti i canali, ad esempio la data dell’ultimo evento con un determinato destinatario |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | Il **[!UICONTROL Consegna]** Il menu elenca i campi relativi ai parametri necessari per eseguire le consegne, ad esempio il canale o l’etichetta di consegna. |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png) | Il menu **[!UICONTROL Applicazione per abbonati]** elenca i campi relativi agli abbonati a un’applicazione, ad esempio il terminale utilizzato o il sistema operativo. *Questo menu è disponibile solo per le notifiche push* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | Il menu **[!UICONTROL Destinatario]** elenca i campi definiti nella tabella dei destinatari, ad esempio i nomi, le età o gli indirizzi dei destinatari. Durante il [caricamento dei contatti da un file esterno](../audience/file-audience.md) per una consegna e-mail autonoma, questo menu elenca tutti i campi disponibili nel file di input. |
+   | ![](assets/do-not-localize/perso-message-menu.png) | Il menu **[!UICONTROL Messaggio]** elenca i campi relativi ai registri di consegna, inclusi tutti i messaggi inviati a destinatari o dispositivi su tutti i canali, ad esempio la data dell’ultimo evento con un determinato destinatario |
+   | ![](assets/do-not-localize/perso-delivery-menu.png) | Il menu **[!UICONTROL Consegna]** elenca i campi relativi ai parametri necessari per eseguire le consegne, ad esempio il canale o l’etichetta di consegna. |
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, in ogni menu sono elencati tutti i campi della tabella selezionata (Destinatari, / Messaggio / Consegna). Se si desidera includere campi da tabelle collegate alla tabella selezionata, abilitare **[!UICONTROL Visualizzare attributi avanzati]** sotto l’elenco.
+   >Per impostazione predefinita, in ogni menu sono elencati tutti i campi della tabella selezionata (Destinatari/Messaggio/Consegna). Se desideri includere campi da tabelle collegate alla tabella selezionata, abilita l’opzione **[!UICONTROL Visualizza attributi avanzati]** che si trova sotto l’elenco.
 
 1. Per aggiungere un campo di personalizzazione, posiziona il cursore nella posizione desiderata all’interno del contenuto e fai clic sul pulsante `+` per inserirlo.
 

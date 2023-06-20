@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 62%
+ht-degree: 99%
 
 ---
 
@@ -22,16 +22,16 @@ Questa nuova interfaccia web di Campaign è attualmente disponibile solo per i *
 
 La nuova interfaccia Web di Campaign offre una nuova esperienza utente, allineata con tutte le soluzioni e le app Adobe Experience Cloud. Offre le seguenti funzionalità:
 
-* Accedi alla nuova interfaccia e alle altre soluzioni di Adobe con una sessione utente singola e condivisa
+* Accesso alla nuova interfaccia e ad altre soluzioni Adobe con una sessione utente singola e condivisa
 * Nuova esperienza di navigazione, con tutti i menu e le cartelle disponibili nella barra a sinistra
 * Possibilità di passare a un’altra soluzione o organizzazione, mediante l’apposito controllo nella barra superiore
 * Integrazione Unified Shell, con accesso diretto alla community, al centro assistenza e al supporto
 
-**Nuove potenti funzionalità e processi senza soluzione di continuità**
+**Nuove potenti funzionalità e processi fluidi**
 
 * Interfaccia dell’area di lavoro del flusso di lavoro riprogettata per progettare e gestire i processi
-* Contenuti dinamici per fornire al pubblico esperienze altamente mirate e personalizzate
-* Integrazione nativa con il pubblico di Adobe Experience Platform
+* Contenuti dinamici per consegnare al pubblico esperienze altamente mirate e personalizzate
+* Integrazione nativa con i tipi di pubblico di Adobe Experience Platform
 * Gestione dei modelli per flussi di lavoro, consegne, campagne e contenuti
 
 Per ulteriori informazioni sulla nuova interfaccia, visita [questa pagina](../get-started/user-interface.md).
@@ -41,17 +41,17 @@ Per ulteriori informazioni sulla nuova interfaccia, visita [questa pagina](../ge
 Utilizza la nuova interfaccia di Campaign Web per:
 
 * Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
-* Invia campagne cross-channel, incluse notifiche SMS e push.
+* Invia campagne cross-channel, inclusi SMS e notifiche push.
 * Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-audiences.md)
 * Visualizzare l‘anteprima, testare e inviare i messaggi e-mail - [Ulteriori informazioni](../monitor/prepare-send.md)
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
 
-## Transizione all’interfaccia web di Campaign
+## Passaggio all’interfaccia utente di Campaign Web
 
-In qualità di utente di Campaign, puoi comunque accedere alla console client per generare e gestire risorse e componenti di Campaign. I dati e le impostazioni vengono sincronizzati da un ambiente all’altro. Per ulteriori informazioni, consulta [questa sezione](../get-started/get-started.md#about-campaign-client-consoleac-client).
+In qualità di utente di Campaign, puoi comunque accedere alla console client per generare e gestire le risorse e i componenti di Campaign. I dati e le impostazioni vengono sincronizzati da un ambiente all’altro. Per ulteriori informazioni, consulta [questa sezione](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente web di Campaign, dal menu di navigazione a sinistra di Explorer. Ulteriori informazioni sulla visualizzazione Esplora risorse in [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
+Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dal menu di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
 
 
 ## Aggiornamenti terminologici {#terminology-updates}
@@ -68,7 +68,7 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 
 Alla presente versione alfa si applicano le seguenti limitazioni:
 
-* Gli unici oggetti modificabili sono Consegne, Campagne, Flussi di lavoro, Pubblico e Modelli. Gli altri sono di sola lettura. Utilizza i filtri per sfogliarle tutti.
+* Gli unici oggetti modificabili sono Consegne, Campagne, Flussi di lavoro, Tipi di pubblico e Modelli. Gli altri sono di sola lettura. Utilizza i filtri per sfogliarle tutti.
 * I tipi di pubblico non possono essere salvati per utilizzi futuri.
 * L&#39;interfaccia utente di amministrazione non è disponibile.
 * Le metriche di reporting (come le aperture e i dati di tracciamento) vengono aggiornate ogni ora.

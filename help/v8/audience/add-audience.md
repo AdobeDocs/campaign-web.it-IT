@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -23,8 +23,8 @@ Questa sezione descrive come selezionare un pubblico esistente durante la defini
 
 Puoi anche:
 
-* Crea un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
-* Carica un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
+* Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
+* Caricare un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
 * Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
 
 
@@ -36,7 +36,7 @@ Per selezionare un pubblico esistente per il messaggio, segui la procedura segue
 
 1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea nuovo**. Fai riferimento a questa [sezione](segment-builder.md).
 
-   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti definiti nella console client di Adobe Campaign per la cartella corrente.
+   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti che sono stati definiti nella console client di Adobe Campaign per la cartella corrente.
 
    ![](assets/create-audience2.png)
 

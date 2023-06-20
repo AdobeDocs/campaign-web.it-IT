@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 18%
+ht-degree: 49%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 18%
 
 Una volta definito il contenuto della consegna, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio.
 
-Si tratta di un passaggio fondamentale per garantirne l’accuratezza, ma anche l’assenza di errori nelle impostazioni di contenuto e personalizzazione.
+Questo è un passaggio fondamentale per garantire che sia accurato ma anche privo di errori sia nelle impostazioni del contenuto che della personalizzazione.
 
-Per eseguire questa operazione, [!DNL Adobe Campaign] consente di:
+A questo scopo, [!DNL Adobe Campaign] ti consente di effettuare quanto segue:
 
 * [Anteprima del contenuto e della personalizzazione del messaggio](preview-content.md)
 * [Inviare consegne di prova](proofs.md) a destinatari o abbonati specifici per la verifica e la convalida
-* [Controlla il rendering dell’e-mail](email-rendering.md) nei client desktop, mobili e basati su Web più diffusi
+* [Verificare il rendering delle e-mail](email-rendering.md) nei client desktop, mobili e basati su web più diffusi.
 
 Queste azioni possono essere eseguite utilizzando **[!UICONTROL Simula contenuto]** , accessibile dalla schermata modifica contenuto della consegna.
 
@@ -38,4 +38,4 @@ Queste azioni possono essere eseguite utilizzando **[!UICONTROL Simula contenuto
 
 >[!NOTE]
 >
->La simulazione dei contenuti è disponibile anche dal [riepilogo della consegna](../monitor/prepare-send.md) dopo aver fatto clic su **[!UICONTROL Rivedi e invia]** pulsante.
+>La simulazione del contenuto è disponibile anche nel [riepilogo della consegna](../monitor/prepare-send.md) dopo aver fatto clic sul pulsante **[!UICONTROL Rivedi e invia]**.

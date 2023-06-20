@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introduzione alle e-mail"
->abstract="Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice. Scopri come utilizzare E-mail Designer per creare il contenuto, visualizzarlo in anteprima e testarlo e inviare un’e-mail a un pubblico esistente in un caso d’uso end-to-end."
+>abstract="Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice. Scopri come utilizzare E-mail Designer per creare il contenuto, visualizzarlo in anteprima, testarlo e inviare un’e-mail a un pubblico esistente in un caso d’uso end-to-end."
 
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
@@ -40,9 +40,9 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
 
 Per creare una nuova consegna, segui questi passaggi:
 
-1. Accedi a **[!UICONTROL Consegne]** nella barra a sinistra, quindi fai clic su  **[!UICONTROL Creare una consegna]** pulsante.
+1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
-1. Seleziona **[!UICONTROL E-mail]** come canale e scegli un modello di consegna e-mail dall’elenco.
+1. Seleziona il canale **[!UICONTROL E-mail]** e scegli un modello di consegna e-mail dall’elenco.
 
    >[!NOTE]
    >
@@ -69,17 +69,17 @@ Per creare una nuova consegna, segui questi passaggi:
 
 ## Definire il contenuto dell’e-mail {#create-content}
 
-Per iniziare a creare i contenuti delle e-mail, segui i passaggi indicati di seguito.
+Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti.
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-In questo caso d’uso, utilizzi un’e-mail predefinita [modello di consegna](../msg/delivery-template.md) per progettare l’e-mail.
+In questo caso d’uso, per progettare l’e-mail viene utilizzato un [modello di consegna](../msg/delivery-template.md) e-mail già definito.
 
-1. Dal dashboard di consegna e-mail, fai clic su **[!UICONTROL Modifica contenuto]** pulsante.
+1. Nella dashboard della consegna e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
    ![](assets/email-edit-content.png)
 
-   Viene visualizzata un’interfaccia dedicata in cui è possibile configurare il contenuto dell’e-mail e accedere a E-mail Designer. [Ulteriori informazioni](../content/edit-content.md)
+   Viene visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e accedere a E-mail designer. [Ulteriori informazioni](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -89,7 +89,7 @@ In questo caso d’uso, utilizzi un’e-mail predefinita [modello di consegna](.
 
 1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
-   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto predefinito](../msg/delivery-template.md).
+   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -99,7 +99,7 @@ In questo caso d’uso, utilizzi un’e-mail predefinita [modello di consegna](.
 
     ![](assets/import-folder.png)-->
 
-1. Dopo aver selezionato il modello, questo viene visualizzato nel [E-mail Designer](../content/create-email-content.md), dove è possibile apportare le modifiche necessarie e aggiungere la personalizzazione.
+1. Dopo aver selezionato il modello, questo viene visualizzato in [E-mail designer](../content/create-email-content.md), dove puoi apportare le modifiche necessarie e aggiungere la personalizzazione.
 
    Ad esempio, per aggiungere la personalizzazione al titolo dell’e-mail, seleziona il blocco del componente e fai clic su **[!UICONTROL Aggiungi personalizzazione]**.
 

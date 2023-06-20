@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -39,7 +39,7 @@ In base al canale utilizzato, i messaggi di prova possono essere inviati a tre t
 
 * [Profili di test](#test-profiles) - Invia **verifica e-mail e SMS** agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
 
-  Possono essere create in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Ulteriori informazioni in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  Possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella documentazione[Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
 * [Sostituisci dal target principale](#substitution-profiles) - Invia **verifica e-mail e SMS** a uno specifico indirizzo e-mail o numero di telefono mentre si impersona un profilo esistente.
 
@@ -47,7 +47,7 @@ In base al canale utilizzato, i messaggi di prova possono essere inviati a tre t
 
 * [Abbonati](#subscribers) - Invia **test delle notifiche push** agli abbonati fittizi aggiunti al database.
 
-  Proprio come i profili di test, è possibile crearli in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Ulteriori informazioni in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  Proprio come i profili di test, è possibile crearli in [!DNL Campaign] console in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Ulteriori informazioni sono disponibili nella documentazione[Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
 Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti in base al tipo di profili che desideri utilizzare.
 
@@ -56,7 +56,7 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 1. Passa alla schermata di modifica del contenuto dell’e-mail o dell’SMS di consegna, quindi fai clic su **[!UICONTROL Simula contenuto]** pulsante.
 
-1. Fai clic su **[!UICONTROL Test]** pulsante.
+1. Fai clic sul pulsante **[!UICONTROL Test]**
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, il **[!UICONTROL Utilizzare i profili di test]** è selezionata.
+   >Per impostazione predefinita, viene selezionata la modalità **[!UICONTROL Utilizza profili di test]**.
 
 1. Per inviare anche il messaggio finale ai destinatari della consegna di test, seleziona la **[!UICONTROL Includi la popolazione di test nel target principale]** opzione.
 
@@ -86,7 +86,7 @@ Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un n
 
 1. Passa alla schermata di modifica del contenuto dell’e-mail o dell’SMS di consegna, quindi fai clic su **[!UICONTROL Simula contenuto]** pulsante.
 
-1. Fai clic su **[!UICONTROL Test]** pulsante.
+1. Fai clic sul pulsante **[!UICONTROL Test]**
 
    ![](assets/simulate-test-button-email.png)
 
@@ -120,7 +120,7 @@ Quando si utilizzano le notifiche push, le consegne di test possono essere invia
 
 1. Passa alla schermata di modifica del contenuto della consegna, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]** pulsante.
 
-1. Fai clic su **[!UICONTROL Test]** pulsante.
+1. Fai clic sul pulsante **[!UICONTROL Test]**
 
    ![](assets/simulate-test-button-push.png)
 

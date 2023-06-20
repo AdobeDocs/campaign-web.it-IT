@@ -6,12 +6,12 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 18%
+ht-degree: 98%
 
 ---
 
 
-# Attività Fork {#fork}
+# Fork {#fork}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
@@ -20,18 +20,18 @@ ht-degree: 18%
 
 ## Configurazione
 
-Per configurare il **Fork** attività:
+Per configurare l’attività **Fork** segui questi passaggi:
 
-1. Aggiungi un **Fork** al flusso di lavoro.
-1. Clic **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
+1. Aggiungi un’attività **Fork** al flusso di lavoro.
+1. Fai clic su **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
 1. Aggiungi un’etichetta a ciascuna delle transizioni.
 
 ## Esempio
 
-Nell’esempio seguente vengono utilizzati due **Fork** attività:
+Nell’esempio seguente vengono utilizzate due attività **Fork**:
 
 * Una prima delle due query, per eseguirle contemporaneamente.
-* Uno dopo l’intersezione, per inviare contemporaneamente un’e-mail e un SMS alla popolazione target.
+* Una dopo l’intersezione, per inviare contemporaneamente un’e-mail e un SMS alla popolazione target.
 
 ![](../assets/workflow-fork-example.png)
 

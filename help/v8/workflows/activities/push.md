@@ -6,20 +6,20 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
 
-# notifica push {#push-activity}
+# Notifica push {#push-activity}
 
-Il **Notifica push** l’attività di consegna ti consente di configurare l’invio di una notifica push in un flusso di lavoro.
+L’attività di consegna **Notifica push** ti consente di configurare l’invio di una notifica push in un flusso di lavoro.
 
 >[!BEGINTABS]
 
 >[!TAB Notifica push (Android)]
 
-1. Dopo aver creato e configurato un nuovo flusso di lavoro, aggiungi un’attività Genera pubblico per selezionare un pubblico esistente o utilizza il generatore di regole per definire una query personalizzata.
+1. Dopo aver creato e configurato un nuovo flusso di lavoro, aggiungi un’attività Creazione del pubblico per selezionare un pubblico esistente o utilizza il generatore di regole per definire una query personalizzata.
 
 1. Aggiungi un’attività del canale di notifica push (Android) nel flusso di lavoro.
 
@@ -33,19 +33,19 @@ Il **Notifica push** l’attività di consegna ti consente di configurare l’in
 
 1. Seleziona l’attività. Dal menu di consegna, seleziona i modelli che desideri utilizzare per questa consegna. Ulteriori informazioni sui modelli
 
-1. Fai clic su Crea consegna per configurare la consegna delle notifiche push. Per ulteriori informazioni sulla consegna delle notifiche push (Android), consulta questa pagina.
+1. Fai clic su Crea consegna per configurare la consegna della notifica push. Per ulteriori informazioni sulla consegna delle notifiche push (Android), consulta questa pagina.
 
 1. Una volta che la consegna è pronta per essere inviata, torna al flusso di lavoro e fai clic su Avvia per avviarlo.
 
 1. Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
 
-   Per confermare l’invio, fai clic su Revisione e invio dal menu avanzato dell’attività del canale per notifiche push (Android).
+   Per confermare l’invio, fai clic su Rivedi e invia dal menu avanzato dell’attività del canale per le notifiche push (Android).
 
-1. Dal dashboard di consegna delle notifiche push, fai clic su Invia.
+1. Dalla dashboard di consegna delle notifiche push, fai clic su Invia.
 
 >[!TAB Notifica push (iOS)]
 
-1. Dopo aver creato e configurato un nuovo flusso di lavoro, aggiungi un’attività Genera pubblico per selezionare un pubblico esistente o utilizza il generatore di regole per definire una query personalizzata.
+1. Dopo aver creato e configurato un nuovo flusso di lavoro, aggiungi un’attività Creazione del pubblico per selezionare un pubblico esistente o utilizza il generatore di regole per definire una query personalizzata.
 
 1. Aggiungi un’attività del canale di notifica push (iOS) nel flusso di lavoro.
 
@@ -59,14 +59,14 @@ Il **Notifica push** l’attività di consegna ti consente di configurare l’in
 
 1. Seleziona l’attività. Dal menu di consegna, seleziona i modelli che desideri utilizzare per questa consegna. Ulteriori informazioni sui modelli
 
-1. Fai clic su Crea consegna per configurare la consegna delle notifiche push. Per ulteriori informazioni sulla consegna delle notifiche push (iOS), consulta questa pagina.
+1. Fai clic su Crea consegna per configurare la consegna della notifica push. Per ulteriori informazioni sulla consegna delle notifiche push (iOS), consulta questa pagina.
 
 1. Una volta che la consegna è pronta per essere inviata, torna al flusso di lavoro e fai clic su Avvia per avviarlo.
 
 1. Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
 
-   Per confermare l’invio, fai clic su Revisione e invio dal menu avanzato dell’attività del canale per notifiche push (iOS).
+   Per confermare l’invio, fai clic su Rivedi e invia dal menu avanzato dell’attività del canale per le notifiche push (iOS).
 
-1. Dal dashboard di consegna delle notifiche push, fai clic su Invia.
+1. Dalla dashboard di consegna delle notifiche push, fai clic su Invia.
 
 >[!ENDTABS]

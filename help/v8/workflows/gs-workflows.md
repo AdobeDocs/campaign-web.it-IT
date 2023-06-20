@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Interfaccia area di lavoro del flusso di lavoro riprogettata"
->abstract="La nostra area di lavoro grafica completa consente di progettare facilmente processi quali segmentazione, esecuzione di campagne e altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e migliorare le campagne."
+>abstract="La nostra area di lavoro grafica completa consente di progettare facilmente processi quali segmentazione, esecuzione di campagne e molto altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e migliorare le campagne."
 
 ## Che cos’è un flusso di lavoro?
 
@@ -34,9 +34,9 @@ Grazie all’ambiente grafico completo di Adobe Campaign, si possono progettare 
 
 Di seguito sono riportati alcuni esempi di utilizzo dei flussi di lavoro con Adobe Campaign:
 
-* Avviare una campagna di follow-up per i clienti inattivi;
-* Inviare un’e-mail di benvenuto a tutti i nuovi abbonati a un servizio,
-* Personalizza le consegne cross-channel in base allo stato del programma fedeltà dei clienti o ai punti di interesse.
+* Avviare una campagna di follow-up per i clienti inattivi,
+* Inviare un’e-mail di benvenuto a tutti i nuovi iscritti a un servizio,
+* Personalizzare le consegne cross-channel in base allo stato del programma fedeltà dei clienti o ai punti di interesse.
 
 ## Approfondiamo
 
@@ -62,7 +62,7 @@ Ora che conosci i flussi di lavoro e cosa è possibile fare con essi in Adobe Ca
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="Infrequente" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="Non frequente" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>Utilizzare le attività del flusso di lavoro</strong></a>

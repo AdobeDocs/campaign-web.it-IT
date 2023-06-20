@@ -7,17 +7,17 @@ exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 6%
+ht-degree: 99%
 
 ---
 
-# Avvia e monitora il flusso di lavoro {#start-monitor}
+# Avviare e monitorare il flusso di lavoro {#start-monitor}
 
-Dopo aver creato il flusso di lavoro e progettato le attività da eseguire nell’area di lavoro, puoi avviarlo e monitorarne l’esecuzione.
+Dopo aver creato il flusso di lavoro e progettato le attività da eseguire nell’area di lavoro, puoi avviarne l’esecuzione e monitorarne la modalità di esecuzione.
 
 ## Avviare il flusso di lavoro {#start}
 
-Per avviare il flusso di lavoro, passa a **[!UICONTROL Flussi di lavoro]** o la campagna associata e fai clic sul pulsante **[!UICONTROL Inizio]** nell’angolo superiore destro dell’area di lavoro.
+Per avviare il flusso di lavoro, passa a **[!UICONTROL Flussi di lavoro]** o alla campagna associata e fai clic sul pulsante **[!UICONTROL Avvia]** nell’angolo superiore a destra dell’area di lavoro.
 
 Una volta eseguito il flusso di lavoro, ogni attività nell’area di lavoro viene eseguita in ordine sequenziale, fino al raggiungimento della fine del flusso di lavoro.
 
@@ -27,40 +27,40 @@ Puoi monitorare l’avanzamento dei profili target in tempo reale utilizzando un
 
 >[!NOTE]
 >
->È possibile disattivare il flusso visivo utilizzando **[!UICONTROL Nascondi progressione]** nella barra delle azioni superiore dell’area di lavoro.
+>Puoi disattivare il flusso visivo utilizzando il pulsante **[!UICONTROL Nascondi avanzamento]** nella barra delle azioni superiore dell’area di lavoro.
 
 ## Monitorare l’esecuzione dell’attività {#activities}
 
-Gli indicatori visivi nell’angolo superiore destro di ciascuna casella di attività ti consentono di controllarne l’esecuzione:
+Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di attività ti consentono di controllarne l’esecuzione:
 
 | Indicatore visivo | Descrizione |
 |-----|------------|
 | ![](assets/activity-status-pending.png) | L’attività è attualmente in esecuzione. |
-| ![](assets/activity-status-orange.png) | L’attività richiede la tua attenzione. Ciò può comportare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
-| ![](assets/activity-status-red.png) | L’attività ha riscontrato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
-| ![](assets/activity-status-green.png) | L&#39;attività è stata eseguita correttamente. |
+| ![](assets/activity-status-orange.png) | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
+| ![](assets/activity-status-red.png) | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
+| ![](assets/activity-status-green.png) | L’attività è stata eseguita correttamente. |
 
-## Monitorare registri e attività {#logs-tasks}
+## Monitorare i registri e le attività {#logs-tasks}
 
-Il monitoraggio dei registri e delle attività dei flussi di lavoro è un passaggio chiave per analizzare i flussi di lavoro e assicurarsi che vengano eseguiti correttamente. Sono accessibili dalla sezione **[!UICONTROL Registri]** disponibile nella barra degli strumenti delle azioni e nel riquadro delle proprietà di ogni attività.
+Il monitoraggio dei registri e delle attività dei flussi di lavoro è un passaggio chiave per analizzare i flussi di lavoro e assicurarsi che vengano eseguiti correttamente. Sono accessibili dall’icona **[!UICONTROL Registri]** disponibile nella barra degli strumenti delle azioni e nel riquadro delle proprietà di ogni attività.
 
-Il **[!UICONTROL Registri e attività]** fornisce una cronologia dell’esecuzione del flusso di lavoro, registrando tutte le azioni dell’utente e gli errori riscontrati. Questa cronologia viene salvata per la durata specificata nel flusso di lavoro [opzioni di esecuzione](workflow-settings.md). Durante questo periodo, tutti i messaggi vengono salvati, anche dopo un riavvio del flusso di lavoro. Se non desideri salvare i messaggi di un’esecuzione precedente, fai clic sul pulsante **[!UICONTROL Cancella cronologia]** pulsante.
+Il menu **[!UICONTROL Registri e attività]** fornisce una cronologia dell’esecuzione del flusso di lavoro, registrando tutte le azioni dell’utente e gli errori riscontrati. Questa cronologia viene salvata per la durata specificata nelle [opzioni di esecuzione](workflow-settings.md) del flusso di lavoro. Durante questo periodo, tutti i messaggi vengono salvati, anche dopo che il flusso di lavoro è stato riavviato. Se non desideri salvare i messaggi di un’esecuzione precedente, fai clic sul pulsante **[!UICONTROL Elimina cronologia]**.
 
 ![](assets/workflow-logs.png)
 
 Sono disponibili due tipi di informazioni:
 
-* Il **[!UICONTROL Log]** contiene la cronologia di esecuzione di tutte le attività del flusso di lavoro. Questi registri indicizzano in ordine cronologico le operazioni effettuate e gli errori di esecuzione.
-* Il **[!UICONTROL Attività]** La scheda descrive la sequenza di esecuzione delle attività.
+* La scheda **[!UICONTROL Registro]** contiene la cronologia di esecuzione di tutte le attività del flusso di lavoro. Questi registri indicizzano in ordine cronologico le operazioni effettuate e gli errori di esecuzione.
+* Nella scheda **[!UICONTROL Attività]** viene illustrata la sequenza di esecuzione delle attività.
 
 In entrambe le schede, puoi scegliere le colonne visualizzate e il loro ordine, applicare filtri e utilizzare il campo di ricerca per trovare rapidamente le informazioni desiderate.
 
 ## Comandi di esecuzione del flusso di lavoro {#execution-commands}
 
-La barra delle azioni nell’angolo in alto a destra fornisce comandi che consentono di gestire l’esecuzione del flusso di lavoro. È possibile eseguire le seguenti operazioni:
+La barra delle azioni nell’angolo in alto a destra fornisce comandi che consentono di gestire l’esecuzione del flusso di lavoro. Puoi:
 
-* **[!UICONTROL Inizio]** / **[!UICONTROL Riprendi]** l’esecuzione del flusso di lavoro, che assume quindi lo stato In corso. Se il flusso di lavoro è stato sospeso, viene ripreso, altrimenti viene avviato e le attività iniziali vengono quindi attivate.
+* **[!UICONTROL Avviare]** / **[!UICONTROL Riprendere]** l’esecuzione del flusso di lavoro, che assume quindi lo stato In corso. Se il flusso di lavoro è stato messo in pausa, viene ripristinato, altrimenti viene avviato e le attività iniziali vengono quindi attivate.
 
-* **[!UICONTROL Pausa]** l’esecuzione del flusso di lavoro, che assume quindi lo stato In pausa. Non verranno attivate nuove attività finché non viene ripresa, ma le operazioni in corso non vengono sospese.
+* **[!UICONTROL Mettere in pausa]** l’esecuzione del flusso di lavoro, che assume quindi lo stato In pausa. Non verranno attivate nuove attività finché non viene ripresa, ma le operazioni in corso non vengono sospese.
 
-* **[!UICONTROL Interrompi]** un flusso di lavoro in esecuzione che assume lo stato Finished. Se possibile, le operazioni in corso vengono interrotte. Non è possibile riprendere dal flusso di lavoro dalla stessa posizione in cui è stato interrotto.
+* **[!UICONTROL Interrompere]** un flusso di lavoro in esecuzione che assume lo stato Completato. Se possibile, le operazioni in corso vengono interrotte. Non è possibile riprendere dal flusso di lavoro dalla stessa posizione in cui è stato interrotto.

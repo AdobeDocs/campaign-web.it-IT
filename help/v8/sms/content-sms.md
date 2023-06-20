@@ -7,7 +7,7 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
 
 1. Per impostazione predefinita, il tracciamento è abilitato per le consegne. Puoi disattivare questa opzione dalla **[!UICONTROL sezione Funzioni facoltative]**.
 
-1. Accedere a **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati. [Ulteriori informazioni](send-sms.md#preview-sms)
+1. Per visualizzare in anteprima i contenuti personalizzati, accedi al menu **[!UICONTROL Simula contenuto]**. [Ulteriori informazioni](send-sms.md#preview-sms)
 
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima.
 

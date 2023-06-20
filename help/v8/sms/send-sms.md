@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 66%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ## Anteprima della consegna SMS{#preview-sms}
 
-Dopo aver definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai incluso contenuti personalizzati, puoi esaminare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Ciò ti consente di garantire che il messaggio venga visualizzato come previsto e che tutte le informazioni personalizzate vengano presentate correttamente.
+Dopo aver definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai incluso contenuti personalizzati, puoi esaminare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Potrai così assicurarti che il messaggio venga visualizzato come previsto e che tutte le informazioni personalizzate vengano presentate correttamente.
 
 I passaggi principali per visualizzare in anteprima la consegna SMS sono i seguenti. Ulteriori dettagli su come visualizzare in anteprima le consegne sono disponibili in [questa sezione](../preview-test/preview-content.md).
 
@@ -37,9 +37,9 @@ Ora puoi esaminare e inviare il messaggio SMS al pubblico.
 
 ## Testare la consegna SMS {#test-sms}
 
-Con **Adobe Campaign**, puoi testare un messaggio prima di inviarlo al pubblico principale, il che rappresenta un passaggio essenziale per convalidare la campagna e-mail e identificare potenziali problemi.
+Con **Adobe Campaign**, puoi testare un messaggio prima di inviarlo al pubblico principale, cioè utilizzando un passaggio essenziale per convalidare la campagna e-mail e identificare potenziali problemi.
 
-L’invio di SMS di prova è un passaggio importante per garantire la qualità e l’efficacia della consegna. I destinatari del test possono rivedere vari elementi come collegamenti, collegamenti di rinuncia e immagini, nonché identificare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione degli SMS. Questo processo ti aiuta a valutare e ottimizzare a fondo gli SMS prima di raggiungere il pubblico principale.
+L’invio di SMS di test è un passaggio importante per garantire la qualità e l’efficacia della consegna. I destinatari del test possono rivedere vari elementi come collegamenti, collegamenti di rinuncia e immagini, nonché identificare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione degli SMS. Questo processo ti aiuta a valutare e ottimizzare accuratamente gli SMS prima di raggiungere il pubblico principale.
 
 ![](../assets/do-not-localize/book.png) Scopri come inviare SMS di prova in [questa sezione](../preview-test/proofs.md).
 
@@ -47,23 +47,23 @@ L’invio di SMS di prova è un passaggio importante per garantire la qualità e
 
 ## Inviare la consegna SMS {#send-sms}
 
-1. Dopo aver personalizzato il contenuto SMS, fai clic su **[!UICONTROL Rivedi e invia]** dal tuo **[!UICONTROL Consegna]** pagina.
+1. Dopo aver personalizzato il contenuto SMS, fai clic su **[!UICONTROL Rivedi e invia]** dalla pagina **[!UICONTROL Consegna]**.
 
    ![](assets/sms_send_4.png)
 
 1. Clic **[!UICONTROL Prepara]** e monitorare i progressi e le statistiche fornite.
 
-   Se si verificano errori, fare riferimento al menu Registri per informazioni dettagliate sull&#39;errore.
+   Se si verificano degli errori, fai riferimento al menu Registri per informazioni dettagliate sull’errore.
 
-1. Inviare i messaggi facendo clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale.
+1. Per inviare i messaggi, fai clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale.
 
    ![](assets/sms_send_5.png)
 
-1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]** pulsante.
+1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]**.
 
 Una volta inviata la consegna, puoi tracciare i dati KPI (Key Performance Indicator, indicatore di prestazioni chiave) dalla pagina di consegna e i dati da **[!UICONTROL Registri]** menu.
 
-Ora puoi iniziare a misurare l’impatto del messaggio con i rapporti incorporati. [Ulteriori informazioni](../reporting/sms-report.md)
+Ora puoi iniziare a misurare l’impatto del messaggio utilizzando i rapporti incorporati. [Ulteriori informazioni](../reporting/sms-report.md)
 
 
 

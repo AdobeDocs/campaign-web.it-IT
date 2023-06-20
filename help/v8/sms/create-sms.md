@@ -7,7 +7,7 @@ exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 >title="Selezione modello SMS"
 >abstract="Seleziona un modello predefinito per avviare la consegna SMS."
 
-1. Dalla pagina home delle **[!UICONTROL Consegne]**, fai clic su **[!UICONTROL Crea una consegna]**.
+1. Dalla pagina home delle **[!UICONTROL Consegne]**, fai clic su **[!UICONTROL Crea consegna]**.
 
 1. Nella sezione **[!UICONTROL Canale]**, scegli SMS come canale e seleziona un modello. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
@@ -60,6 +60,6 @@ ht-degree: 91%
 
 1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario.
 
-1. Clic **[!UICONTROL Configurare le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+1. Fai clic su **[!UICONTROL Configura le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png)

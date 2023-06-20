@@ -6,28 +6,28 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
 
-# Attività AND-join {#join}
+# AND-join {#join}
 
-Il **And-join** l&#39;attività è un **Controllo del flusso** attività. Consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
+L’attività **And-join** è un’attività di **Controllo del flusso**. Ti consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
 
 Questa attività attiva solo la relativa transizione in uscita dopo che tutte le transizioni in entrata vengono attivate, in altre parole, dopo che tutte le attività precedenti sono state completate. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro.
 
 ## Configurazione
 
-Per configurare il **Unione AND** attività:
+Per configurare l’attività **AND-join**, segui questi passaggi:
 
-1. Aggiungi più attività, ad esempio attività canale, per formare almeno due rami di esecuzione diversi.
-1. Aggiungi un **Unione AND** ad uno qualsiasi dei rami.
-1. In **Opzioni di unione** , controlla tutte le attività precedenti a cui desideri partecipare.
-1. In **Set primario** , scegli il gruppo di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
+1. Aggiungi più attività, come le attività del canale, per creare almeno due rami di esecuzione diversi.
+1. Aggiungi un’attività **AND-join** a uno qualsiasi dei rami.
+1. Nella sezione **Opzioni di unione**, verifica tutte le attività precedenti che desideri unire.
+1. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
 
 ## Esempio
 
-L’esempio seguente mostra due rami del flusso di lavoro con una consegna e-mail e SMS. L’unione AND viene attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push verranno quindi inviate solo al termine di entrambe le consegne.
+L’esempio seguente mostra due rami del flusso di lavoro con consegna e-mail e SMS. L’unione AND-join viene attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push verranno quindi inviate solo al termine di entrambe le consegne.
 
 ![](../assets/workflow-andjoin-example.png)

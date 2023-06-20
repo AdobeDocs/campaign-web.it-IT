@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 10%
+ht-degree: 85%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 10%
 
 Adobe Campaign consente di orchestrare facilmente le iniziative di marketing mirate, utilizzando la funzionalità integrata di gestione delle campagne. Grazie alla possibilità di definire una pianificazione, puoi pianificare la durata e la tempistica delle campagne in modo da allinearle agli obiettivi strategici e massimizzare il coinvolgimento del pubblico.
 
-Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto risuoni con il pubblico a cui è destinata.
+Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto riscontri l’interesesse del pubblico a cui è destinata.
 
-Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare gli sforzi futuri. Scopri come accedere e comprendere i rapporti delle campagne in [questa sezione](../reporting/campaign-reports.md).
+Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare le iniziative future. Scopri come accedere e comprendere i rapporti delle campagne in [questa sezione](../reporting/campaign-reports.md).
 
 ![Flusso della campagna](assets/campaign-flow.png)
 
 Scopri come creare e gestire le campagne nelle sezioni seguenti:
 
-* [Accedere e gestire le campagne](manage-campaigns.md)
+* [Accedere alle campagne e gestirle](manage-campaigns.md)
 * [Creare la prima campagna](create-campaigns.md)
 
 

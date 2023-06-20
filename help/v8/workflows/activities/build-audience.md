@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Utilizzare l’attività del flusso di lavoro Crea pubblico
-description: Scopri come utilizzare l’attività del flusso di lavoro Crea pubblico
+title: Utilizzare l’attività del flusso di lavoro Creazione del pubblico
+description: Scopri come utilizzare l’attività del flusso di lavoro Creazione del pubblico
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 10%
+ht-degree: 99%
 
 ---
 
 
 # Creazione del pubblico {#build-audience}
 
-Il **Creare un pubblico** l&#39;attività è un **Targeting** attività. Questa attività ti consente di definire il pubblico che entrerà nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nel **Creare un pubblico** attività.
+L’attività **Creazione del pubblico** è un’attività di **targeting**. Questa attività ti consente di definire il pubblico che sarà inserito nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Creazione del pubblico**.
 
-Per definire la popolazione del pubblico, puoi:
+Per definire la popolazione di pubblico, puoi:
 
-* Seleziona un pubblico esistente, creato come elenco nella console client.
-* Seleziona un pubblico di Adobe Experience Platform.
-* Crea un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro.
+* Selezionare un pubblico esistente, creato come elenco nella console client.
+* Selezionare un pubblico di Adobe Experience Platform.
+* Creare un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro.
 
 >[!NOTE]
 >
@@ -31,27 +31,27 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ## Configurazione
 
-Per configurare il **Creare un pubblico** attività:
+Per configurare l’attività **Creazione del pubblico**, segui questi passaggi:
 
-1. Aggiungi un **Creare un pubblico** attività.
+1. Aggiungi un’attività **Creazione del pubblico**.
 1. Definisci un’etichetta.
-1. Definisci il tipo di pubblico: **Crea il tuo** o **Read audience**.
+1. Definisci il tipo di pubblico: **Crea nuovo** o **Leggi pubblico**.
 
 Per creare una query personalizzata, segui questi passaggi aggiuntivi:
 
-1. Seleziona **Crea il tuo (query)**.
-1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Consulta la sezione [Documentazione di v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
-1. Clic **Continua**.
-1. Utilizza il generatore di regole per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../../audience/segment-builder.md).
+1. Seleziona **Crea nuovo (query)**.
+1. Scegli la **dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Consulta la [documentazione di v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=it#targeting-and-filtering-dimensions){target="_blank"}.
+1. Fai clic su **Continua**.
+1. Utilizza il generatore di regole per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. Consulta questa [sezione](../../audience/segment-builder.md).
 
-Per selezionare un pubblico esistente, effettua le seguenti operazioni:
+Per selezionare un pubblico esistente, segui questi passaggi:
 
-1. Seleziona **Read audience**.
-1. Clic **Continua**.
-1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova e-mail. Fai riferimento a questa [sezione](../../audience/add-audience.md).
+1. Seleziona **Leggi pubblico**.
+1. Fai clic su **Continua**.
+1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova e-mail. Consulta questa [sezione](../../audience/add-audience.md).
 
 ## Esempio
 
-Esempio di flusso di lavoro con due **Creare un pubblico** attività. Il primo si rivolge al pubblico dei giocatori di poker, seguito da una consegna e-mail. Il secondo prende di mira il pubblico dei clienti VIP, seguito da una consegna SMS.
+Di seguito è riportato un esempio di un flusso di lavoro con due attività di **Creazione del pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
 
 ![](../assets/workflow-audience-example.png)

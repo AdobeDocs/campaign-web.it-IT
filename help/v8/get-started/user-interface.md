@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Scopri l’interfaccia"
->abstract="La nuova interfaccia web di Campaign v8 offre un’esperienza utente integrata, intuitiva e coerente."
+>abstract="La nuova interfaccia di Campaign Web v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
 La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con Adobe Experience Platform.
 
@@ -36,24 +36,24 @@ Sfoglia i collegamenti a sinistra per accedere alle funzionalità di Campaign We
 
 Questa schermata include collegamenti chiave e risorse che permettono di accedere rapidamente alle funzionalità principali di Campaign Web v8.
 
-L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
+L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
 
-Accedi alle pagine della guida della chiave web di Campaign v8 da **Apprendimento** sezione della home page.
+Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezione **Apprendimento** della pagina home.
 
 ### Explorer {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="Il **Esplora** Il menu mostra tutti i componenti e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne. Tutti gli altri elenchi sono di sola lettura."
+>abstract="Il menu **Esplorer** mostra tutti i componenti e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne. Tutti gli altri elenchi sono di sola lettura."
 
-Il **Esplora** Il menu visualizza tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne. Tutti gli altri elenchi sono di sola lettura.
+Il menu **Esplorer** mostra tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presenti nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne. Tutti gli altri elenchi sono di sola lettura.
 
 Gli elementi visualizzati in Explorer dipendono dalle autorizzazioni dell’utente.
 
 Come in tutte le schermate di elenchi, puoi configurare le colonne per visualizzare le informazioni che ti servono. Consulta questa [sezione](#list-screens).
 
-Per ulteriori informazioni su Esplora campagne, Gerarchia di cartelle e risorse, consulta questa [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
+Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di cartelle e risorse, consulta questa [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
 
 ### Gestione delle campagne {#user-interface-campaign-management}
 
@@ -64,7 +64,7 @@ Per ulteriori informazioni su Esplora campagne, Gerarchia di cartelle e risorse,
 
 
 
-Nella sezione CAMPAIGN MANAGEMENT puoi accedere a campagne di marketing, consegne e flussi di lavoro.
+Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
 
 * **Campagne**: questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
 
@@ -95,11 +95,11 @@ Nella sezione CAMPAIGN MANAGEMENT puoi accedere a campagne di marketing, consegn
 >abstract="Sfoglia gli elenchi di iscrizioni. Puoi visualizzarne il tipo, la modalità e l’etichetta. Questo elenco è di sola lettura."
 
 
-Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e abbonamenti. Questi elenchi sono di sola lettura.
+Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e iscrizioni Questi elenchi sono di sola lettura.
 
-* **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Ulteriori informazioni sui destinatari in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Ulteriori informazioni su tipi di pubblico ed elenchi in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
-* **Iscrizioni** - Sfogliare gli elenchi degli abbonamenti. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire gli abbonamenti e il loro annullamento in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
+* **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Scopri di più sui destinatari nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html?lang=it){target="_blank"}.
+* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Scopri di più sui tipi di pubblico ed elenchi nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
+* **Iscrizioni**: sfoglia gli elenchi delle iscrizioni. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire le iscrizioni e il relativo annullamento nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=it){target="_blank"}.
 
 ### Gestione delle decisioni
 
@@ -110,7 +110,7 @@ Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e
 
 * **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
 
-Scopri come creare e gestire le offerte in [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Scopri come creare e gestire le offerte nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
 ## Barra superiore
 
@@ -126,9 +126,9 @@ Utilizza la barra superiore dell’interfaccia per:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Aiuto contestuale {#contextual-help}
+## Guida contestuale {#contextual-help}
 
-Nell’interfaccia è disponibile una guida contestuale. Quando disponibile, fai clic su `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
+Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
@@ -170,7 +170,7 @@ La lingua predefinita dell’interfaccia è determinata dalla lingua preferita s
 Per cambiare la lingua:
 
 1. Fai clic sull’icona del tuo profilo, in alto a destra, quindi seleziona **Preferenze**.
-1. Fai clic sul collegamento della lingua visualizzato sotto il tuo indirizzo e-mail.
+1. Quindi fai clic sul collegamento alla lingua visualizzato sotto il tuo indirizzo e-mail.
 1. Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
 
 
@@ -269,12 +269,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Consegnati"
->abstract="KPI consegnato"
+>abstract="KPI consegnati"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aperture"
->abstract="Apre KPI"
+>abstract="KPI aperture"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
@@ -283,8 +283,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="Abbonamenti annullati"
->abstract="Indicatore prestazioni chiave per annullamento sottoscrizioni"
+>title="Iscrizioni annullate"
+>abstract="KPI iscrizioni annullate"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -294,4 +294,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Errori"
->abstract="Indicatore prestazioni chiave errori"
+>abstract="KPI errori"

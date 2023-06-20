@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 26%
+ht-degree: 99%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Attività di arricchimento"
->abstract="L’attività di arricchimento consente di migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzato in un flusso di lavoro dopo le attività di targeting.<br/>Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di arricchimento per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico di destinazione."
+>abstract="L’attività di arricchimento consente di migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di targeting.<br/>Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di arricchimento per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico target."
 
-Il **Arricchimento** l&#39;attività è un **Targeting** attività. Consente di migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzato in un flusso di lavoro dopo le attività di segmentazione.
+L’attività **Arricchimento** è un’attività di **targeting**. Consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione.
 
 I dati di arricchimento possono provenire:
 
@@ -30,27 +30,27 @@ I dati di arricchimento possono provenire:
 
   *Eseguire il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
 
-Una volta aggiunti i dati di arricchimento al flusso di lavoro, questi possono essere utilizzati nelle attività aggiunte dopo **Arricchimento** attività per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
+Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di **Arricchimento** per segmentare i clienti in gruppi distinti in base ai loro comportamenti, preferenze e esigenze o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico target.
 
 Ad esempio, è possibile aggiungere alla tabella di lavoro del flusso di lavoro le informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro acquisto più recente o con l’importo speso per tali acquisti.
 
 ## Configurazione generale {#general}
 
-Per configurare il **Arricchimento** attività:
+Per configurare l’attività di **Arricchimento** segui questi passaggi:
 
-1. Aggiungi attività come **Creare un pubblico** e **Combina** attività.
-1. Aggiungi un **Arricchimento** attività.
-1. Clic **Aggiungere dati di arricchimento**.
+1. Aggiungi attività come **Creazione del pubblico** e **Combina**.
+1. Aggiungi un’attività di **Arricchimento**.
+1. Fai clic su **Aggiungi dati di arricchimento**.
 
 ![](../assets/workflow-enrichment1.png)
 
-È possibile selezionare due tipi di dati di arricchimento: [attributo di arricchimento singolo](#single-attribute) dalla dimensione di destinazione, oppure [collegamento raccolta](#collection-link).
+È possibile selezionare due tipi di dati di arricchimento: un [attributo di arricchimento singolo](#single-attribute) dalla dimensione target, oppure un [collegamento raccolta](#collection-link).
 
 ## Attributo di arricchimento singolo {#single-attribute}
 
-In questo caso, stiamo semplicemente aggiungendo un singolo attributo di arricchimento, ad esempio, la data di nascita. Segui questi passaggi:
+In questo caso, stiamo semplicemente aggiungendo un attributo di arricchimento singolo, ad esempio, la data di nascita. Segui questi passaggi:
 
-1. Fai clic all’interno del **Attributo** campo.
+1. Fai clic all’interno del campo **Attributo**.
 1. Seleziona un campo semplice dalla dimensione di targeting, nel nostro esempio la data di nascita.
 1. Fai clic su **Conferma**.
 
@@ -58,55 +58,55 @@ In questo caso, stiamo semplicemente aggiungendo un singolo attributo di arricch
 
 ## Collegamento raccolta {#collection-link}
 
-In questo caso d’uso più complesso, selezioneremo un collegamento di raccolta che è un collegamento con cardinalità 1-N tra le tabelle. Recuperiamo i tre ultimi acquisti che sono inferiori a 100$. A questo scopo è necessario definire:
+In questo caso d’uso più complesso, selezioneremo un collegamento raccolta che è un collegamento con cardinalità 1-N tra le tabelle. Recuperiamo i tre ultimi acquisti che sono inferiori a 100 $. A questo scopo è necessario definire:
 
-* un attributo di arricchimento: **Importo totale** campo
-* numero di righe da recuperare: 3
-* un filtro: filtra gli elementi superiori a 100$
-* a ordinamento: ordinamento discendente sul **Data ordine** campo.
+* un attributo di arricchimento: il campo **Importo totale**
+* il numero di righe da recuperare: 3
+* un filtro: esclusione dal filtro degli elementi superiori a 100 $
+* un ordinamento: ordinamento discendente sul campo **Data ordine**.
 
 ### Aggiungi l’attributo
 
-In questa posizione è possibile selezionare il collegamento di raccolta da utilizzare come dati di arricchimento.
+In questa posizione è possibile selezionare il collegamento raccolta da utilizzare come dati di arricchimento.
 
-1. Fai clic all’interno del **Attributo** campo.
-1. Clic **Visualizzare attributi avanzati**.
-1. Seleziona la **Importo totale** campo da **Acquisti** tabella.
+1. Fai clic all’interno del campo **Attributo**.
+1. Fai clic su **Mostra attributi avanzati**.
+1. Seleziona il campo **Importo totale** dalla tabella **Acquisti**.
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definire le impostazioni della raccolta
+### Definisci le impostazioni della raccolta
 
 Quindi, definisci come vengono raccolti i dati e il numero di record da recuperare.
 
-1. Seleziona **Raccogliere dati** nel **Seleziona la modalità di raccolta dei dati** a discesa.
-1. Digita &quot;3&quot; nella **Righe da recuperare (colonne da creare)** campo.
+1. Seleziona **Raccogli dati** nel menu a discesa **Seleziona la modalità di raccolta dei dati**.
+1. Digita “3” nel campo **Righe da recuperare (colonne da creare)**.
 
 ![](../assets/workflow-enrichment4.png)
 
-Se ad esempio si desidera ottenere l&#39;importo medio degli acquisti per un cliente, selezionare **Dati aggregati** e seleziona **Media** nel **Funzione di aggregazione** a discesa.
+Se, ad esempio, desideri ottenere l’importo medio degli acquisti per un cliente, seleziona **Dati aggregati** e seleziona **Media** nel menu a discesa **Funzione di aggregazione**.
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definire i filtri
+### Definisci i filtri
 
-In questo caso, viene definito il valore massimo per l’attributo di arricchimento. Gli elementi superiori a 100$ vengono filtrati.
+In questo caso, viene definito il valore massimo per l’attributo di arricchimento. Gli elementi superiori a 100 $ vengono esclusi dal filtro.
 
-1. Clic **Modificare i filtri**.
-1. Aggiungi i due seguenti filtri: **Importo totale** esiste AND **Importo totale** è minore di 100. Il primo filtra i valori NULL così come apparirebbero come il valore maggiore.
+1. Fai clic su **Modifica i filtri**.
+1. Aggiungi i due filtri seguenti: l’**Importo totale** esiste E l’**Importo totale** è minore di 100. Il primo filtra i valori NULL così come apparirebbero come il valore maggiore.
 1. Fai clic su **Conferma**.
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definire l’ordinamento
+### Definisci l’ordinamento
 
-Ora è necessario applicare l’ordinamento per recuperare i tre **più recente** acquisti.
+Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più recenti**.
 
-1. Attiva il **Abilita ordinamento** opzione.
-1. Fai clic all’interno del **Attributo** campo.
-1. Seleziona la **Data ordine** campo.
+1. Attiva l’opzione **Abilita ordinamento**.
+1. Fai clic all’interno del campo **Attributo**.
+1. Seleziona il campo **Data ordine**.
 1. Fai clic su **Conferma**.
-1. Seleziona **Decrescente** dal **Ordina** a discesa.
+1. Seleziona **Decrescente** nel menu a discesa **Ordina**.
 
 ![](../assets/workflow-enrichment7.png)
 

@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e
     <a href="../email/create-email.md">
     <img alt="E-mail" src="assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>Creare le e-mail</strong>
+    <div><a href="../email/create-email.md"><strong>Creare e-mail</strong>
     </div>
     <p>
     </td>
@@ -115,7 +115,7 @@ Per ulteriori informazioni su come configurare una campagna e gestire le consegn
 >[!ENDTABS]
 
 
-## Aggiungere personalizzazione{#personalization}
+## Aggiungere la personalizzazione{#personalization}
 
 I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi. [Ulteriori informazioni sulle funzionalità di personalizzazione](../personalization/gs-personalization.md).
 
@@ -145,13 +145,13 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima per controllare il rendering dei messaggi e verificare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../preview-test/preview-test.md)
 
 
-## Registri di monitoraggio e tracciamento{#gs-tracking-logs}
+## Registri di monitoraggio e di tracciamento{#gs-tracking-logs}
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti.
 
 Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 
-Ulteriori informazioni sulle funzionalità di monitoraggio e tracciamento in [questa sezione](../reporting/gs-reports.md).
+Scopri le funzionalità di monitoraggio e tracciamento in [questa sezione](../reporting/gs-reports.md).
 
 ## Duplicare una consegna {#delivery-duplicate}
 
@@ -167,26 +167,26 @@ Per duplicare una consegna dal dashboard, effettua le seguenti operazioni:
 
 1. Apri la consegna e fai clic sul pulsante **[!UICONTROL ...Altro]** nella sezione superiore dello schermo.
 1. Seleziona **[!UICONTROL Duplica]**.
-1. Conferma duplicazione: la nuova consegna sostituisce la consegna corrente nella schermata centrale.
+1. Conferma la duplicazione: la nuova consegna sostituisce la consegna corrente nella schermata centrale.
 
 ## Eliminare una consegna {#delivery-delete}
 
-Le consegne vengono eliminate dall’elenco di consegna, dalla voce di consegna principale nella barra a sinistra o dall’elenco di consegna di una campagna.
+Le consegne vengono eliminate dall’elenco delle consegne: dalla voce principale della consegna nella barra a sinistra oppure dall’elenco delle consegne di una campagna.
 
-Per eliminare una consegna dall’elenco delle consegne, effettua le seguenti operazioni:
+Per eliminare una consegna dall’elenco delle consegne, segui questi passaggi:
 
 1. Fai clic sul pulsante con i tre puntini a destra, accanto al nome della consegna da duplicare.
-1. Seleziona  **[!UICONTROL Elimina]**.
-1. Conferma eliminazione.
+1. Seleziona **[!UICONTROL Elimina]**.
+1. Conferma l’eliminazione.
 
-![Eliminare una consegna dall’elenco di consegna](assets/delete-delivery-from-list.png)
+![Eliminare una consegna dall’elenco delle consegne](assets/delete-delivery-from-list.png)
 
-Tutte le consegne sono disponibili in questi elenchi, ma le consegne create in un flusso di lavoro non possono essere eliminate da lì. Per eliminare una consegna creata nel contesto di un flusso di lavoro, devi eliminare l’attività di consegna dal flusso di lavoro.
+In questi elenchi sono presenti tutte le consegne, tuttavia le consegne create in un flusso di lavoro non possono essere eliminate da un elenco di consegne. Per eliminare una consegna creata nel contesto di un flusso di lavoro, è necessario eliminare l’attività di consegna dal flusso di lavoro stesso.
 
-Per eliminare una consegna da un flusso di lavoro, effettua le seguenti operazioni:
+Per eliminare una consegna da un flusso di lavoro, segui questi passaggi:
 
-1. Seleziona l’attività di consegna .
-1. Fai clic su  **[!UICONTROL Elimina]** nel pannello di destra.
-1. Conferma eliminazione. Se la consegna ha nodi secondari, puoi scegliere di eliminarli anche loro o di mantenerli.
+1. Seleziona l’attività di consegna.
+1. Fai clic sull&#39;icona **[!UICONTROL Elimina]** nel pannello di destra.
+1. Conferma l’eliminazione. Se la consegna presenta dei nodi secondari, puoi scegliere di eliminarli o di mantenerli.
 
 ![Eliminare una consegna in un flusso di lavoro](assets/delete-delivery-from-wf.png)

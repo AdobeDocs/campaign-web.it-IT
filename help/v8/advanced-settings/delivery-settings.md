@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -158,7 +158,7 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 
 * **[!UICONTROL Forza la generazione della pagina mirror]**: utilizza questa modalità per generare la pagina mirror anche se nella consegna non è inserito alcun collegamento alla pagina mirror.
 * **[!UICONTROL Non generare la pagina mirror]**: utilizza questa modalità per evitare di generare una pagina mirror, anche se il collegamento è presente nella consegna.
-* **[!UICONTROL Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio]**: quando il collegamento alla pagina speculare non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare dalla console client, nella finestra del registro di consegna.
+* **[!UICONTROL Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio]**: quando il collegamento della pagina mirror non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina mirror, nella finestra del registro di consegna, dalla console client.
 
 
 ### Tracciamento {#tracking}
@@ -188,4 +188,4 @@ Puoi anche personalizzare il nome delle e-mail di test.
 
 Utilizza l’opzione **Usa il codice di consegna per la bozza** per associare all’e-mail di test lo stesso codice di consegna definito per la consegna a cui si riferisce.
 
-Per impostazione predefinita, l’oggetto dell’e-mail di test è preceduto da &quot;PROOF #&quot; (BOZZA #), dove # è il numero dell’e-mail di test. Puoi cambiare questo prefisso nel campo **Prefisso etichetta**.
+Per impostazione predefinita, l’oggetto dell’e-mail di test è preceduto da “BOZZA #”, dove # è il numero dell’e-mail di test. Puoi cambiare questo prefisso nel campo **Prefisso etichetta**.

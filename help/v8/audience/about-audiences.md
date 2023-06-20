@@ -7,7 +7,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 30%
+ht-degree: 99%
 
 ---
 
@@ -38,14 +38,14 @@ control groups like acc: exract, random, based on attribute
 
 Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. Scopri cos’è un modello di consegna [in questa sezione](../msg/delivery-template.md).
 
-Per definire la popolazione del pubblico, puoi:
+Per definire la popolazione di pubblico, puoi:
 
-* Seleziona un pubblico esistente, creato come elenco nella console client. [Ulteriori informazioni](add-audience.md)
-* Seleziona un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md)
-* Crea un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro. [Ulteriori informazioni](segment-builder.md)
+* Selezionare un pubblico esistente, creato come elenco nella console client. [Ulteriori informazioni](add-audience.md)
+* Selezionare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md)
+* Creare un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro. [Ulteriori informazioni](segment-builder.md)
 * Utilizza un pubblico da un file esterno: questa opzione è disponibile solo per le consegne e-mail autonome e non può essere utilizzata nelle consegne delle campagne. [Ulteriori informazioni](file-audience.md)
 
-Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico viene definito in un **Read audience** attività del flusso di lavoro. In questo contesto, non è possibile caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna [in questa sezione](../workflows/orchestrate-activities.md).
+Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico viene definito in un’attività del flusso di lavoro **Leggi pubblico**. In questo contesto, non puoi caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna [in questa sezione](../workflows/orchestrate-activities.md).
 
 Inoltre, puoi definire dei gruppi di controllo per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne. [Ulteriori informazioni](control-group.md)
 

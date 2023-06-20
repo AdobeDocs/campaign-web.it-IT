@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 65%
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 65%
 >title="Proprietà di consegna push"
 >abstract="Gestisci le proprietà di consegna push."
 
-1. Dalla pagina home delle **[!UICONTROL Consegne]**, fai clic su **[!UICONTROL Crea una consegna]**.
+1. Dalla pagina home delle **[!UICONTROL Consegne]**, fai clic su **[!UICONTROL Crea consegna]**.
 
-1. Sotto **[!UICONTROL Canale]** , scegli Notifica push come canale e seleziona un modello a seconda del sistema operativo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
+1. Sotto la sezione **[!UICONTROL Canale]**, scegli Notifica push come canale e seleziona un modello a seconda del sistema operativo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
@@ -45,17 +45,17 @@ ht-degree: 65%
    * **[!UICONTROL Natura]**: specifica la natura dell’e-mail a scopo di classificazione.
 +++
 
-1. Dalla sezione **[!UICONTROL Pubblico]** , seleziona l’applicazione da utilizzare per questa consegna.
+1. Dal menu **[!UICONTROL Pubblico]**, seleziona l’applicazione da utilizzare per questa consegna.
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni](../audience/about-audiences.md)
 
-   Tieni presente che, per impostazione predefinita, la notifica push verrà inviata a tutti gli abbonati dell’applicazione.
+   Tieni presente che, per impostazione predefinita, la notifica push verrà inviata a tutti gli iscritti dell’applicazione.
 
    ![](assets/push_create_2.png)
 
 1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna che consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Ulteriori informazioni](../audience/control-group.md)
 
-1. Clic **[!UICONTROL Modifica contenuto]** per iniziare a progettare il contenuto della notifica push. [Ulteriori informazioni](content-push.md)
+1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a progettare il contenuto della notifica push. [Ulteriori informazioni](content-push.md)
 
    ![](assets/push_create_5.png)
 
@@ -65,6 +65,6 @@ ht-degree: 65%
 
    ![](assets/push_create_3.png)
 
-1. Clic **[!UICONTROL Configurare le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+1. Fai clic su **[!UICONTROL Configura le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
    ![](assets/push_create_4.png)

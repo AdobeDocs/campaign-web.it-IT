@@ -1,35 +1,35 @@
 ---
 audience: end-user
-title: Rapporti di consegna push
-description: Scopri come accedere e utilizzare i rapporti di consegna push
+title: Rapporti sulle consegne push
+description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 5%
+ht-degree: 99%
 
 ---
 
-# Rapporto di consegna push {#push-report}
+# Rapporto sulle consegne push {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
 >abstract="Scopri le metriche di reportistica per la consegna push."
 
-Il **Rapporto di consegna push** offre una panoramica completa del canale push, con informazioni approfondite e dati specifici. Offre informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
+Il **Rapporto sulle consegne push** offre una panoramica completa del canale push con informazioni approfondite e dati specifici. Offre informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
 ## Riepilogo push {#push-summary}
 
-* **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi push.
+* La **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
 
   ![](assets/reporting_push_3.png)
 
-  +++Ulteriori informazioni sulle metriche dei rapporti di consegna push.
+  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
    * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
 
-   * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+   * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
    * **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con il messaggio push.
 
@@ -37,11 +37,11 @@ Il **Rapporto di consegna push** offre una panoramica completa del canale push, 
 
 +++
 
-* **Popolazione target** i dati di visualizzazione di grafici e tabelle sono relativi al pubblico:
+* Il grafico e la tabella della **Popolazione target** visualizza dati relativi al pubblico:
 
   ![](assets/reporting_push_4.png)
 
-  +++Ulteriori informazioni sulle metriche dei rapporti di consegna push.
+  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
    * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante l’analisi della consegna.
 
@@ -53,7 +53,7 @@ Il **Rapporto di consegna push** offre una panoramica completa del canale push, 
 
   ![](assets/reporting_push_5.png)
 
-  +++Ulteriori informazioni sulle metriche dei rapporti di consegna push.
+  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
    * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente.
 
@@ -63,12 +63,12 @@ Il **Rapporto di consegna push** offre una panoramica completa del canale push, 
 
 +++
 
-* **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+* Il grafico e la tabella delle **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
 
   ![](assets/reporting_push_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 
-Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato. La metrica principale utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_push_2.png)

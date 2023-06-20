@@ -1,46 +1,46 @@
 ---
 audience: end-user
-title: Rapporti di consegna SMS
-description: Scopri come accedere e utilizzare i rapporti di consegna sms
+title: Rapporti sulle consegne SMS
+description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
-# Rapporto di consegna SMS {#report}
+# Rapporto sulla consegna SMS {#report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Riepilogo del rapporto SMS"
 >abstract="Scopri le metriche di reportistica per la consegna SMS."
 
-Il **Rapporto di consegna SMS** offre una panoramica completa del canale SMS, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
+Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
-## Riepilogo consegne {#delivery-summary}
+## Riepilogo delle consegne {#delivery-summary}
 
-* **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi SMS.
+* La **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi SMS.
 
   ![](assets/reporting_sms_3.png)
 
-  +++Ulteriori informazioni sulle metriche dei rapporti di consegna SMS.
+  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
    * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
 
-   * **[!UICONTROL Completato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+   * **[!UICONTROL Completato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
    * **[!UICONTROL Percentuale di click-through]**: percentuale di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
 
    * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 +++
 
-* **Popolazione target** i dati di grafici e tabelle vengono visualizzati in base al pubblico.
+* Il grafico e la tabella della **Popolazione target** visualizza dati relativi al pubblico.
 
   ![](assets/reporting_sms_4.png)
 
-  +++Ulteriori informazioni sulle metriche dei rapporti di consegna SMS.
+  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
    * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante l’analisi della consegna.
 
@@ -52,7 +52,7 @@ Il **Rapporto di consegna SMS** offre una panoramica completa del canale SMS, co
 
   ![](assets/reporting_sms_5.png)
 
-  +++Ulteriori informazioni sulle metriche dei rapporti di consegna SMS.
+  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
    * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente.
 
@@ -61,13 +61,13 @@ Il **Rapporto di consegna SMS** offre una panoramica completa del canale SMS, co
    * **[!UICONTROL Nuova quarantena]**: numero di profili esclusi e aggiunti alla quarantena.
 +++
 
-* **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+* Il grafico e la tabella delle **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
 
   ![](assets/reporting_sms_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 
-Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato. La metrica principale utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_sms_2.png)
 

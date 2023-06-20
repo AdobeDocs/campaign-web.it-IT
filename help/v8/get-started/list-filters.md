@@ -6,24 +6,24 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 17%
+ht-degree: 93%
 
 ---
 
 
 # Sfogliare, cercare e filtrare gli elenchi {#list-screens}
 
-La maggior parte dei collegamenti del menu di navigazione a sinistra visualizza elenchi di oggetti, ad esempio l&#39;elenco di **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, come descritto di seguito.
+La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elenchi di oggetti, ad esempio l’elenco di **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, nel modo descritto di seguito.
 
-Per rimuovere un filtro, fare clic su **Cancella tutto** pulsante.
+Per rimuovere un filtro, fai clic sul pulsante **Cancella tutto**.
 
-## Personalizzare le schermate dell’elenco {#custom-lists}
+## Personalizzare le schermate di elenco {#custom-lists}
 
-Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informazioni puoi modificare la configurazione delle colonne. A questo scopo, fai clic su **Configurare una colonna per un layout personalizzato** nell’angolo in alto a destra dell’elenco.
+Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informazioni puoi modificare la configurazione delle colonne. A questo scopo, fai clic su **Configura le colonne per un layout personalizzato** nell’angolo in alto a destra dell’elenco.
 
 ![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
-In **Configurare le colonne** , aggiungere o rimuovere colonne e modificare l&#39;ordine di visualizzazione.
+Nella schermata **Configura le colonne**, aggiungi o rimuovi le colonne e modificane l’ordine di visualizzazione.
 
 Ad esempio, per queste impostazioni:
 
@@ -33,15 +33,15 @@ L’elenco mostra le colonne seguenti:
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attributi dell&#39;elenco corrente. [Ulteriori informazioni](#adv-attributes)
+Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi dell’elenco corrente. [Ulteriori informazioni](#adv-attributes)
 
 ## Ordinare i dati {#sort-lists}
 
-Puoi anche ordinare gli elementi nell’elenco facendo clic su un’intestazione di colonna qualsiasi. Viene visualizzata una freccia (su o giù) che indica che l’elenco è ordinato per quella colonna.
+Per ordinare gli elementi dell’elenco, fai clic sulla relativa intestazione di colonna. Viene visualizzata una freccia (su o giù) che indica che l’elenco è ordinato per quella colonna.
 
-Per le colonne numeriche o di data, **Su** freccia indica che l&#39;elenco è ordinato in ordine crescente mentre **Giù** freccia indica un ordine decrescente. Per le colonne con valori stringa o alfanumerici, i valori sono elencati in ordine alfabetico.
+Per le colonne numeriche o di data, la freccia **su** indica che l’elenco è ordinato in ordine crescente, mentre la freccia **giù** indica un ordine decrescente. Per le colonne con valori stringa o alfanumerici, i valori sono elencati in ordine alfabetico.
 
-## Filtri integrati {#list-built-in-filters}
+## Filtri incorporati {#list-built-in-filters}
 
 Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtrare l’elenco in base a criteri contestuali.
 
@@ -51,20 +51,20 @@ Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di con
 
 ## Filtri personalizzati{#list-custom-filters}
 
-Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole** pulsante.
+Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole**.
 
-Trascina e rilascia gli attributi per creare i criteri di filtro nel **Filtri avanzati** schermo.
+Trascina gli attributi per creare i criteri di filtro nella schermata **Filtri avanzati**.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attributi dell&#39;elenco corrente. [Ulteriori informazioni](#adv-attributes)
+Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi dell’elenco corrente. [Ulteriori informazioni](#adv-attributes)
 
-## Usa attributi avanzati {#adv-attributes}
+## Utilizzare gli attributi avanzati {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Visualizza gli attributi avanzati"
->abstract="Per impostazione predefinita, nell&#39;elenco degli attributi vengono visualizzati solo gli attributi più comuni. Utilizza questo interruttore per creare un filtro con attributi avanzati."
+>abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Utilizza questo interruttore per creare un filtro con attributi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
@@ -77,7 +77,7 @@ Utilizza il **Visualizzare attributi avanzati** per visualizzare tutti gli attri
 >abstract="Utilizza gli attributi avanzati per definire la regola."
 
 
-Solo gli attributi più comuni vengono visualizzati per impostazione predefinita nelle schermate elenco attributi e configurazione filtro. Attributi impostati come `advanced` Gli attributi nello schema dati sono nascosti dalle schermate di configurazione.
+Per impostazione predefinita, nelle schermate elenco attributi e configurazione filtro vengono mostrati solo gli attributi più comuni. Attributi impostati come `advanced` nello schema dati sono nascosti dalle schermate di configurazione.
 
 Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente: l’elenco degli attributi viene aggiornato all’istante.
 

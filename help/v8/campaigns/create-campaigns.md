@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 22%
+ht-degree: 86%
 
 ---
 
@@ -28,33 +28,33 @@ Per creare una nuova campagna, devi definirne le proprietà, pianificarne e incl
 
 ## Creare la campagna{#campaign-create}
 
-Per creare una nuova campagna, effettua le seguenti operazioni:
+Per creare una nuova campagna, segui questi passaggi:
 
-1. Fai clic su **[!UICONTROL Campagne]** e fare clic sul pulsante **[!UICONTROL Crea campagna]** pulsante.
-1. Seleziona la **Modello** per utilizzare e fornire un’etichetta per la campagna. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client.
+1. Fai clic sul menu **[!UICONTROL Campagne]** e sul pulsante **[!UICONTROL Crea campagna]**.
+1. Seleziona il **Modello** da utilizzare e specifica un’etichetta per la campagna. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client.
    [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it).
-1. Se necessario, è possibile modificare quanto segue **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
-1. Definisci il **Pianificazione** della campagna. La campagna inizia quando viene raggiunta la data di inizio. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
+1. Se necessario, è possibile modificare le seguenti **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
+1. Definisci la **Pianificazione** della campagna. La campagna viene avviata quando viene raggiunta la data di inizio. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
 
    ![Definire le proprietà della campagna](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >Puoi sempre modificare queste proprietà in un secondo momento, dalla **Configurare le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
+   >Puoi sempre modificare queste proprietà in un secondo momento, dall’icona **Configura le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
 
 1. Fai clic su **Crea**.
 1. Aggiungi flussi di lavoro e consegne alla campagna:
 
-   * Dalla sezione **Flussi di lavoro** , fare clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md).
-   * Dalla sezione **Consegne** , fare clic su **Creare una consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
+   * Dalla scheda **Flussi di lavoro**, fai clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md).
+   * Dalla scheda **Consegne**, fai clic su **Crea consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
 
-1. Utilizza il **Registri** e **Generazione rapporti** per analizzare le prestazioni della campagna.
+1. Utilizza i pulsanti **Registri** e **Generazione rapporti** per analizzare le prestazioni della campagna.
 
 ## Monitorare e tenere traccia della campagna{#campaign-monitoring}
 
-Il monitoraggio delle campagne è un passaggio chiave per analizzarne l’efficacia. Apri la campagna e fai clic su **Registri** pulsante.
+Il monitoraggio delle campagne è un passaggio chiave per analizzarne l’efficacia. Apri la campagna e fai clic sul pulsante **Registri**.
 
-Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti** pulsante. Consulta questa [sezione](../reporting/campaign-reports.md).
+Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti**. Consulta questa [sezione](../reporting/campaign-reports.md).
 
 
 

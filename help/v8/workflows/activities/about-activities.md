@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Utilizzare le attività di dei flussi di lavoro
-description: Scopri come eseguire le attività del flusso di lavoro
+description: Scopri come utilizzare le attività del flusso di lavoro
 badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
@@ -26,32 +26,32 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 ## Attività di targeting {#targeting}
 
-Queste attività sono specifiche per il targeting, la manipolazione e l’arricchimento dei dati sulla popolazione. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando questi tipi di pubblico tramite operazioni di intersezione, unione o esclusione.
+Queste attività sono specifiche per il targeting, la gestione e l’arricchimento dei dati sulla popolazione. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
 
-* Il [Creare un pubblico](build-audience.md) attività ti consente di definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
-* Il [Combina](combine.md) l’attività ti consente di eseguire la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
-* Il [Arricchimento](enrichment.md) attività ti consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro. Con questa attività, puoi sfruttare la transizione in entrata e configurare l’attività in modo da completare la transizione in uscita con l’inserimento di dati aggiuntivi.
+* L’attività [Creazione del pubblico](build-audience.md) ti consente di definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
+* L’attività [Combina](combine.md) ti consente di eseguire la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
+* L’attività [Arricchimento](enrichment.md) ti consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
 
 ## Attività del canale {#channel}
 
-Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, ad esempio e-mail, SMS o push. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente.
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali, come e-mail, SMS o push. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento dei clienti.
 
-I seguenti elementi **Canale** Le attività sono disponibili:
+Sono disponibili le seguenti attività **Canale**:
 
 * E-mail
 * Push
 * SMS
 
-Fai riferimento a questa [sezione](enrichment.md).
+Consulta questa [sezione](enrichment.md).
 
 ## Attività di controllo del flusso {#flow-control}
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
-* Il [And-join](and-join.md) attività consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
-* Il **Fine** attività consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
-* Il [Fork](fork.md) attività consente di creare transizioni in uscita per avviare più attività in contemporanea.
-* Il [Wait](wait.md) l’attività sospende momentaneamente l’esecuzione di una parte di un flusso di lavoro.
+* L’attività [And-join](and-join.md) ti consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
+* L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
+* L’attività [Fork](fork.md) ti consente di creare transizioni in uscita per avviare più attività contemporaneamente.
+* L’attività [Attendi](wait.md) sospende momentaneamente l’esecuzione di una parte di un flusso di lavoro.
 
 <!--
 ## Data management activities {#data-management}

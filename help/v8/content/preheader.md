@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 51%
+ht-degree: 68%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 51%
 >title="Aggiungere una preintestazione"
 >abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
 
-Un preheader è un breve testo che segue la riga dell’oggetto quando si visualizza un messaggio e-mail da uno dei principali client e-mail.
+Una preintestazione è un breve testo che segue l’oggetto quando un’e-mail viene visualizzata da qualsiasi client e-mail principale.
 
-In molti casi, fornisce un breve riepilogo del contenuto ed è in genere di una frase.
+In molti casi, fornisce un breve riepilogo del contenuto e in genere consiste in una sola frase.
 
 >[!NOTE]
 >
 >Le preintestazioni non sono supportate da tutti i client e-mail. Se non è supportata, la preintestazione non viene visualizzata.
 
-Per definire la preintestazione dell’e-mail, segui la procedura seguente.
+Per definire la preintestazione dell’e-mail, segui i passaggi indicati di seguito.
 
 1. Dalla sezione [E-mail Designer](create-email-content.md), aggiungi almeno un **[!UICONTROL Struttura]** per iniziare a progettare l’e-mail.
 
