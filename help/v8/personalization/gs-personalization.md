@@ -1,5 +1,5 @@
 ---
-title: Introduzione ai contenuti dinamici
+title: Introduzione al contenuto dinamico
 description: Scopri come rendere i contenuti dinamici utilizzando la personalizzazione, i contenuti condizionali e i blocchi di contenuto incorporati.
 audience: automating
 content-type: reference
@@ -9,43 +9,43 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Introduzione ai contenuti dinamici {#gs-dynamic-content}
+# Introduzione al contenuto dinamico {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalizzazione"
->abstract="L’editor di espressioni ti consente di selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per il contenuto. Puoi personalizzare i messaggi per ogni destinatario sfruttando i dati del profilo e creare contenuti condizionali per adattare il messaggio a ogni destinatario e mostrare solo il contenuto pertinente. Inoltre, sono disponibili blocchi di personalizzazione per aggiungere contenuti personalizzati predefiniti alle consegne."
+>abstract="L’editor di espressioni consente di selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per i contenuti. Puoi personalizzare i messaggi per ogni destinatario sfruttando i dati del profilo e creare contenuti condizionali per adattare il messaggio a ogni destinatario e mostrare solo il contenuto pertinente. Inoltre, sono disponibili blocchi di personalizzazione per aggiungere contenuti personalizzati predefiniti alle consegne."
 
-In qualità di addetto al marketing, è fondamentale rivolgersi ai clienti realmente interessati alle offerte e coinvolgerli fornendo contenuti efficaci e pertinenti. Data la varietà di destinatari che si incontrano, la creazione di più contenuti di marketing da presentare a persone diverse può richiedere tempo e comportare uno spreco. Qui entra in gioco il contenuto dinamico.
+In qualità marketer, è fondamentale rivolgersi ai clienti realmente interessati alle offerte e coinvolgerli fornendo contenuti efficaci e pertinenti. Data la varietà di destinatari che si incontrano, la creazione di più contenuti di marketing da presentare a persone diverse può richiedere tempo e comportare uno spreco. Qui entra in gioco il contenuto dinamico.
 
-Le funzionalità di contenuto dinamico web di Adobe Campaign ti consentono di personalizzare il contenuto in base alle informazioni raccolte sui destinatari. Utilizzando i contenuti dinamici, potrai essere sicuro che le tue attività di marketing siano più rilevanti, evitando di marketing di prodotti o servizi indesiderati o non necessari. Questo approccio rende i contenuti più accattivanti e aumenta la probabilità che vengano letti. Inoltre, ti consente di personalizzare il contenuto, facendo sentire i destinatari come se stessero ricevendo informazioni da una persona invece che da una macchina.
+Le funzionalità del contenuto dinamico di Adobe Campaign web ti consentono di personalizzare il contenuto in base alle informazioni raccolte sui destinatari. Utilizzando i contenuti dinamici, potrai assicurarti che le tue attività di marketing siano più rilevanti, evitando marketing di prodotti o servizi indesiderati o non necessari. Questo approccio rende i contenuti più accattivanti e aumenta la probabilità che vengano letti. Inoltre, ti consente di personalizzare il contenuto, facendo sentire i destinatari come se stessero ricevendo informazioni da una persona invece che da un computer.
 
 ## Come rendere dinamico il contenuto? {#make-content-dyn}
 
-Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript nell’editor di espressioni web di Campaign. Al momento dell’invio dei messaggi, Adobe Campaign interpreta tali espressioni per fornire il contenuto corretto a ciascuno dei destinatari:
+Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript nell’editor di espressioni di Campaign web. Al momento dell’invio dei messaggi, Adobe Campaign interpreta tali espressioni per fornire il contenuto corretto a ciascuno dei destinatari:
 
-* **Personalizzare i messaggi** per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione relativo al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. Per inserire nel contenuto la città del destinatario, utilizza la seguente sintassi: &lt;%= recipient.location.city %>.
+* **Personalizza i messaggi** per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione relativo al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. Per inserire nel contenuto la città del destinatario, utilizza la seguente sintassi: &lt;%= recipient.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
-* **Creare contenuti condizionali** adattare le consegne a ciascun destinatario e mostrare solo il contenuto rilevante per un determinato cliente in base alle informazioni di cui disponi su di esso. Questo consente di visualizzare blocchi di testo e/o immagini specifici in base alle condizioni. Ad esempio, adatta un banner e-mail in base all’abbonamento dei destinatari a un servizio specifico.
+* **Crea contenuti condizionali** per adattare le consegne a ciascun destinatario e mostrare solo il contenuto rilevante per determinati clienti in base alle informazioni che hai raccolto su di loro. Questo consente di visualizzare blocchi di testo e/o immagini specifici in base alle condizioni. Ad esempio, adatta un banner e-mail in base all’iscrizione dei destinatari a un servizio specifico.
 
   ![](assets/condition-sample.png){width="800" align="center"}
 
-* **Utilizzare i blocchi di personalizzazione** per risparmiare tempo e sfruttare contenuti personalizzati riutilizzabili nei messaggi. Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di saluto o un collegamento alla pagina speculare di un messaggio e-mail. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione.
+* **Utilizza i blocchi di personalizzazione** per risparmiare tempo e sfruttare contenuti personalizzati riutilizzabili nei messaggi. Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio e-mail. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione.
 
   ![](assets/content-blocks.png){width="800" align="center"}
 
 ## Accedere all’editor di espressioni {#access}
 
-Adobe Campaign V8 Web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per il contenuto. L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con **[!UICONTROL Apri finestra di dialogo per personalizzazione]** come il campo dell’oggetto, i collegamenti e-mail e i componenti di contenuto testo/pulsante.
+Adobe Campaign V8 web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per i contenuti. L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con l’icona **[!UICONTROL Apri finestra di personalizzazione]** come il campo dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante.
 
 Di seguito sono riportati alcuni esempi su come accedere all’editor di espressioni a seconda del contenuto che desideri rendere dinamico:
 
@@ -57,17 +57,17 @@ Di seguito sono riportati alcuni esempi su come accedere all’editor di espress
 
   ![](assets/expression-editor-access-email.png){width="800" align="center"}
 
-* *Accesso all’editor di espressioni da un collegamento in un messaggio e-mail*
+* *Accesso all’editor di espressioni da un collegamento in un e-mail*
 
   ![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 >[!NOTE]
 >
->Oltre all’editor di espressioni, puoi anche sfruttare un generatore di contenuti condizionali dedicato durante la progettazione di un’e-mail. [Scopri come creare contenuti condizionali nelle e-mail](conditions.md)
+>Oltre all’editor di espressioni, durante la progettazione di una e-mail, puoi anche sfruttare un generatore di contenuti condizionali dedicato. [Scopri come creare contenuti condizionali nelle e-mail](conditions.md)
 
 ## Approfondiamo {#dive-deeper}
 
-Ora che sai come rendere dinamici i contenuti, è ora di approfondire queste sezioni della documentazione per iniziare a lavorare con la funzione.
+Ora che sai come rendere dinamici i contenuti, è necessario approfondire le sezioni della documentazione per iniziare a utilizzare questa funzione.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -75,7 +75,7 @@ Ora che sai come rendere dinamici i contenuti, è ora di approfondire queste sez
 <img alt="Personalizzazione dei contenuti" src="assets/do-not-localize/dynamic-personalization.jpg">
 </a>
 <div>
-<a href="personalize.md"><strong>Aggiungere personalizzazione</strong></a>
+<a href="personalize.md"><strong>Aggiungere la personalizzazione</strong></a>
 </div>
 <p>
 </td>
@@ -89,7 +89,7 @@ Ora che sai come rendere dinamici i contenuti, è ora di approfondire queste sez
 </td>
 <td>
 <a href="content-blocks.md">
-<img alt="Infrequente" src="assets/do-not-localize/dynamic-content-blocks.jpg">
+<img alt="Non frequente" src="assets/do-not-localize/dynamic-content-blocks.jpg">
 </a>
 <div>
 <a href="content-blocks.md"><strong>Aggiungere blocchi di contenuto incorporati</strong></a>
