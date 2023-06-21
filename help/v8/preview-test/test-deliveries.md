@@ -4,9 +4,9 @@ title: Inviare consegne di prova
 description: Scopri come definire e inviare le consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '932'
 ht-degree: 13%
 
 ---
@@ -37,7 +37,7 @@ I destinatari di un test possono controllare vari elementi come collegamenti, co
 
 In base al canale utilizzato, i messaggi di prova possono essere inviati a tre tipi di destinatari:
 
-* [Profili di test](#test-profiles) - Invia **verifica e-mail e SMS** agli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
+* [Profili di test](#test-profiles) - Invia **verifica e-mail e SMS** agli indirizzi seed, che sono destinatari aggiuntivi nel database.
 
   Possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella documentazione[Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
