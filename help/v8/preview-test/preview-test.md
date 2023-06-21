@@ -4,9 +4,9 @@ title: Informazioni su anteprima e test delle e-mail
 description: Scopri come visualizzare in anteprima e testare le e-mail
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 49%
 
 ---
@@ -27,7 +27,7 @@ Questo è un passaggio fondamentale per garantire che sia accurato ma anche priv
 A questo scopo, [!DNL Adobe Campaign] ti consente di effettuare quanto segue:
 
 * [Anteprima del contenuto e della personalizzazione del messaggio](preview-content.md)
-* [Inviare consegne di prova](proofs.md) a destinatari o abbonati specifici per la verifica e la convalida
+* [Inviare consegne di prova](test-deliveries.md) (bozze) a destinatari o abbonati specifici per la verifica e la convalida
 * [Verificare il rendering delle e-mail](email-rendering.md) nei client desktop, mobili e basati su web più diffusi.
 
 Queste azioni possono essere eseguite utilizzando **[!UICONTROL Simula contenuto]** , accessibile dalla schermata modifica contenuto della consegna.

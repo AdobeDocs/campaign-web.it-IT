@@ -4,7 +4,7 @@ title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima i contenuti della consegna con l’interfaccia web di Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 40%
@@ -55,8 +55,8 @@ Per visualizzare in anteprima il contenuto della consegna, segui i passaggi indi
 1. Per le consegne e-mail, puoi regolare il **[!UICONTROL Livello di zoom]** e visualizzare l’anteprima dei contenuti su un desktop o un dispositivo mobile utilizzando l’icona dedicata nell’angolo in alto a destra.
 
 1. Dalla schermata **[!UICONTROL Simula]** puoi anche:
-   * Inviare consegne di test a destinatari specifici per la convalida - [Ulteriori informazioni](proofs.md)
-   * Accedere ai registri delle consegne di test inviate - [Ulteriori informazioni](proofs.md#access-proofs)
+   * Inviare consegne di test a destinatari specifici per la convalida - [Ulteriori informazioni](test-deliveries.md)
+   * Accedere ai registri delle consegne di test inviate - [Ulteriori informazioni](test-deliveries.md#access-proofs)
    * Solo per la posta elettronica, controlla il rendering del contenuto dei messaggi nei client e-mail più diffusi - [Ulteriori informazioni](email-rendering.md)
 
 
