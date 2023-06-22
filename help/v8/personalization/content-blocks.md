@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '437'
 ht-degree: 99%
 
 ---
@@ -34,10 +34,8 @@ Per aggiungere un blocco di contenuto a una consegna, segui questi passaggi:
 
 I blocchi di contenuto incorporati sono:
 
-* **[!UICONTROL Approvazione della personalizzazione pURL]**
 * **[!UICONTROL Banner di rinuncia predefinito]**
 * **[!UICONTROL Enabled by Adobe Campaign]** : inserisce il logo “Enabled by Adobe Campaign”.
-* **[!UICONTROL Pre-immissione Facebook]**
 * **[!UICONTROL Funzione di formattazione per nomi propri]**: genera la funzione JavaScript **[!UICONTROL toSmartCase]**, che applica il maiuscolo alla prima lettera di ogni parola.
 * **[!UICONTROL Saluti]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,” 
 * **[!UICONTROL Inserisci logo]**: inserisce un logo definito nelle impostazioni dell’istanza.

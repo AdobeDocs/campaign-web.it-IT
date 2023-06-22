@@ -4,10 +4,10 @@ title: Inviare consegne di prova
 description: Scopri come definire e inviare le consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 13%
+source-wordcount: '941'
+ht-degree: 14%
 
 ---
 
@@ -82,7 +82,7 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente di [!DNL Campaign] database, utilizzare profili di sostituzione.
 
-1. Prima di inviare un test, assicurati di definire un pubblico per la consegna. [Ulteriori informazioni](../audience/about-audiences.md)
+1. Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-audiences.md)
 
 1. Passa alla schermata di modifica del contenuto dell’e-mail o dell’SMS di consegna, quindi fai clic su **[!UICONTROL Simula contenuto]** pulsante.
 
@@ -104,7 +104,7 @@ Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un n
    >
    >Puoi immettere qualsiasi indirizzo e-mail o numero di telefono. Ciò ti consente di inviare consegne di test a qualsiasi destinatario, anche se non è utente di [!DNL Adobe Campaign].
 
-1. Selezionare il profilo dal database da utilizzare come sostituto. Puoi anche consentire [!DNL Adobe Campaign] selezionare un profilo casuale. I dati del profilo dal profilo selezionato verranno visualizzati nella consegna del test.
+1. Seleziona il profilo dalla destinazione definita per la consegna da utilizzare come sostituto. Puoi anche consentire ad [!DNL Adobe Campaign] di selezionare un profilo casuale dal target. I dati del profilo dal profilo selezionato verranno visualizzati nella consegna del test.
 
 1. Conferma il destinatario e ripeti l’operazione per aggiungere tutti gli indirizzi e-mail o i numeri di telefono necessari.
 
