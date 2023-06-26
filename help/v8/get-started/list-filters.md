@@ -3,10 +3,10 @@ audience: end-user
 title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tut
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campi avanzati del generatore di regole"
->abstract="Configura le colonne con campi avanzati."
+>abstract="Configurare filtri avanzati con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
