@@ -5,9 +5,9 @@ description: Scopri come creare il codice per il contenuto delle e-mail
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
 >
 >Questo metodo richiede competenze HTML.
 
-1. Il giorno [E-mail Designer](get-started-email-designer.md) home page, seleziona **[!UICONTROL Crea il codice]**.
+1. Nella pagina home di [E-mail designer](get-started-email-designer.md), seleziona **[!UICONTROL Crea il codice]**.
 
    ![](assets/code-your-own.png)
 
@@ -31,4 +31,4 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
 
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** per verificare l’aspetto e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](../preview-test/preview-test.md)
 
-1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva e chiudi]** per tornare alla schermata di creazione del messaggio e finalizzare il messaggio.
+1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva e chiudi]** per tornare alla schermata di creazione e finalizzare il messaggio.
