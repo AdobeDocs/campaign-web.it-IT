@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tut
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campi avanzati del generatore di regole"
->abstract="Configurare filtri avanzati con campi avanzati."
+>abstract="Configura filtri avanzati con campi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -79,7 +79,7 @@ Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tut
 
 Per impostazione predefinita, nelle schermate elenco attributi e configurazione filtro vengono mostrati solo gli attributi più comuni. Attributi impostati come `advanced` nello schema dati sono nascosti dalle schermate di configurazione.
 
-Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente: l’elenco degli attributi viene aggiornato all’istante.
+Attiva l’interruttore **Visualizza gli attributi avanzati** per visualizzare tutti gli attributi disponibili per l’elenco corrente: l’elenco degli attributi viene aggiornato all’istante.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
