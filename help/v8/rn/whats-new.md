@@ -5,9 +5,9 @@ description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
 source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,8 +58,8 @@ Inoltre, tutti i dati e le impostazioni già disponibili nella console client so
 
 Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati rinominati per aderire a nuovi standard terminologici. Queste modifiche si applicano solo all’interfaccia utente di Campaign Web e non vengono riportate nella console client. Tali modifiche sono riepilogate di seguito.
 
-* Le “bozze” sono ora **e-mail di test**: per inviare una bozza, utilizza il pulsante **Test** nell’interfaccia per la consegna delle e-mail. Il target delle bozze ora è indicato come **Profili di test**. [Ulteriori informazioni](../preview-test/test-deliveries.md).
-* Gli indirizzi di seed vengono ora utilizzati come **Profili di test**: invia l’e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi nel database. [Ulteriori informazioni](../preview-test/test-deliveries.md).
+* Le “bozze” sono ora **e-mail di test**: per inviare una bozza, utilizza il pulsante **Test** nell’interfaccia per la consegna delle e-mail. Il target delle bozze è ora è indicato come **Profili di test**. [Ulteriori informazioni](../preview-test/test-deliveries.md).
+* Gli indirizzi seed vengono ora utilizzati come **Profili di test**: invia l’e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi nel database. [Ulteriori informazioni](../preview-test/test-deliveries.md).
 * L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare l’analisi, fai clic sul pulsante **Prepara**.. [Ulteriori informazioni](../monitor/prepare-send.md).
 * L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto.** [Ulteriori informazioni](../preview-test/preview-test.md)
 * Gli elenchi ora sono **Tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
