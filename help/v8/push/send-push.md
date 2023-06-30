@@ -4,9 +4,9 @@ title: Inviare una consegna di notifica push
 description: Scopri come inviare una consegna di tipo notifica push con Adobe Campaign Web
 badge: label="Alpha"
 source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 55%
 
 ## Anteprima della consegna di notifiche push {#preview-push}
 
-Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio. Se hai incluso contenuti personalizzati, puoi esaminare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Potrai così assicurarti che il messaggio venga riprodotto correttamente e che gli elementi personalizzati vengano incorporati in modo appropriato.
+Dopo aver definito il contenuto del messaggio, puoi utilizzare iscritti a scopo di test per visualizzarlo in anteprima e testarlo. Se hai incluso contenuti personalizzati, puoi esaminare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Potrai così assicurarti che il messaggio venga riprodotto correttamente e che gli elementi personalizzati vengano incorporati in modo appropriato.
 
-I passaggi principali per visualizzare in anteprima la consegna SMS sono i seguenti. Ulteriori dettagli su come visualizzare in anteprima le consegne sono disponibili in [questa sezione](../preview-test/preview-content.md).
+I passaggi principali per visualizzare in anteprima la consegna di SMS sono i seguenti. Per ulteriori dettagli su come visualizzare in anteprima le consegne, consulta [questa sezione](../preview-test/preview-content.md).
 
-1. Dalla pagina dei contenuti della consegna, utilizza **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati.
+1. Dalla pagina dei contenuti della consegna, puoi utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati.
 
    ![](assets/push_send_1.png)
 
-1. Clic **[!UICONTROL Aggiungi abbonati]** per selezionare uno o più profili per visualizzare in anteprima i loro dati nel contenuto della notifica push.
+1. Fai clic su **[!UICONTROL Aggiungi iscritti]** per selezionare uno o più profili in modo da visualizzarne in anteprima i dati nel contenuto della notifica push.
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
@@ -39,7 +39,7 @@ Ora puoi rivedere e inviare le notifiche push al pubblico.
 In **Adobe Campaign** puoi testare le notifiche push prima di inviarle al pubblico principale. Questo passaggio è importante per convalidare la consegna e individuare eventuali problemi.
 I destinatari del test possono rivedere elementi quali collegamenti, immagini e impostazioni di personalizzazione, al fine di garantire prestazioni ottimali e rilevare eventuali errori. Questo processo è utile per perfezionare e ottimizzare le notifiche push prima di inviarle al pubblico principale.
 
-![](../assets/do-not-localize/book.png) Scopri come inviare notifiche push di prova in [questa sezione](../preview-test/test-deliveries.md#subscribers).
+![](../assets/do-not-localize/book.png) Scopri come inviare notifiche push di test in [questa sezione](../preview-test/test-deliveries.md#subscribers).
 
 ![](assets/push_send_6.png)
 
@@ -49,7 +49,7 @@ I destinatari del test possono rivedere elementi quali collegamenti, immagini e 
 
    ![](assets/push_send_2.png)
 
-1. Clic **[!UICONTROL Prepara]** e monitorare i progressi e le statistiche fornite.
+1. Fai clic su **[!UICONTROL Prepara]** e monitora l’avanzamento e le statistiche fornite.
 
    Se si verificano degli errori, fai riferimento al menu Registri per informazioni dettagliate sull’errore.
 
@@ -61,6 +61,6 @@ I destinatari del test possono rivedere elementi quali collegamenti, immagini e 
 
    ![](assets/push_send_4.png)
 
-Una volta inviata la consegna, puoi tracciare i dati KPI (Key Performance Indicator, indicatore di prestazioni chiave) dalla pagina di consegna e i dati da **[!UICONTROL Registri]** menu.
+Una volta inviata la consegna, puoi tenere traccia dei dati KPI (Key Performance Indicator) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
 
 Ora puoi iniziare a misurare l’impatto del messaggio utilizzando i rapporti incorporati. [Ulteriori informazioni](../reporting/push-report.md)
