@@ -5,9 +5,9 @@ description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign consente di orchestrare facilmente le iniziative di marketing mir
 
 Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto riscontri l’interesesse del pubblico a cui è destinata.
 
-Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare le iniziative future. Scopri come accedere e comprendere i rapporti delle campagne in [questa sezione](../reporting/campaign-reports.md).
+Le campagne offrono metriche di reporting dedicate per ottenere informazioni complete sulle prestazioni dell’intera campagna, consentendoti di valutarne l’efficacia, identificare le tendenze e prendere decisioni basate sui dati per ottimizzare le iniziative future. Per informazioni sui rapporti delle campagne e su come accedervi, consulta [questa sezione](../reporting/campaign-reports.md).
 
 ![Flusso della campagna](assets/campaign-flow.png)
 
