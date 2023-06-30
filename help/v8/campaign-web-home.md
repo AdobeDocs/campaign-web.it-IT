@@ -5,9 +5,9 @@ title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Personalizza il contenuto in base alle informazioni raccolte sui destinatari. L�
 
 **Creare campagne cross-channel**
 
-Utilizzare Adobe Campaign per creare campagne cross-channel. Grazie alle funzionalità di orchestrazione delle campagne di marketing, puoi gestire e centralizzare i dati dei clienti, progettare comunicazioni e campagne per i clienti e creare esperienze personalizzate su canali diversi. In questa versione, sono disponibili i canali e-mail, push e SMS. Misura l’efficacia delle consegne con rapporti dettagliati, che includono il numero di aperture, i clic, gli inoltri e molto altro ancora.
+Utilizza Adobe Campaign per creare campagne cross-channel. Grazie alle funzionalità di orchestrazione delle campagne di marketing, puoi gestire e centralizzare i dati dei clienti, progettare comunicazioni e campagne per i clienti e creare esperienze personalizzate su canali diversi. In questa versione, sono disponibili i canali e-mail, push e SMS. Misura l’efficacia delle consegne con rapporti dettagliati, che includono il numero di aperture, i clic, gli inoltri e molto altro ancora.
 
 ## Approfondiamo
 
