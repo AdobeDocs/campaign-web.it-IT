@@ -6,9 +6,9 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,11 +66,11 @@ ht-degree: 93%
       + [Aggiungere la personalizzazione](personalization/personalize.md)
       + [Aggiungere contenuto condizionale](personalization/conditions.md)
       + [Aggiungere blocchi di contenuto incorporati](personalization/content-blocks.md)
-   + [Inviare offerte](content/offers.md)
+   + [Inviare le offerte](content/offers.md)
    + Anteprima e test della consegna {#preview-test}
       + [Informazioni su anteprima e test](preview-test/preview-test.md)
-      + [Visualizzare l’anteprima del contenuto del messaggio](preview-test/preview-content.md)
-      + [Inviare consegne di prova](preview-test/test-deliveries.md)
+      + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
+      + [Inviare consegne di test](preview-test/test-deliveries.md)
       + [Rendering dell’e-mail](preview-test/email-rendering.md)
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
@@ -81,7 +81,7 @@ ht-degree: 93%
    + [Impostare un gruppo di controllo](audience/control-group.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
-   + [Accedere e gestire le campagne](campaigns/manage-campaigns.md)
+   + [Accedere alle campagne e gestirle](campaigns/manage-campaigns.md)
    + [Creare la prima campagna](campaigns/create-campaigns.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
