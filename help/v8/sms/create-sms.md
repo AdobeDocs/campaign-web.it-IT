@@ -5,9 +5,9 @@ description: Scopri come creare e inviare SMS con Adobe Campaign Web
 badge: label="Alpha"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
 
    ![](assets/sms_create_4.png)
 
-   Da questa schermata, puoi anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
+   Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
 
 1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario.
 
