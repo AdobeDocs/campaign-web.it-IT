@@ -4,9 +4,9 @@ title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Alpha"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 95%
 
    ![](assets/push_create_5.png)
 
-   Da questa schermata, puoi anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
+   Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
 
 1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario.
 
