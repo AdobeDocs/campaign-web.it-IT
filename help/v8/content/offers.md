@@ -5,18 +5,18 @@ description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
 
-# Inviare offerte {#offers-content}
+# Inviare le offerte {#offers-content}
 
-Adobe Campaign v8 Web ti consente di inviare con le offerte di consegna create nella console utilizzando **[!UICONTROL Interazione]** modulo. Per ulteriori informazioni sull’interazione e su come gestire un catalogo di offerte nella console, consulta [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Adobe Campaign Web v8 consente di inviare delle offerte di consegne create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni su Interazione e su come gestire un catalogo delle offerte nella console, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
-I passaggi per inviare le offerte con una consegna sono i seguenti:
+I passaggi per inviare offerte con una consegna sono i seguenti:
 
 1. [Configurare le offerte da proporre](#configure)
 1. [Inserire le offerte nella consegna](#insert)
@@ -30,30 +30,30 @@ I passaggi per inviare le offerte con una consegna sono i seguenti:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Offre impostazioni avanzate"
->abstract="Configurare opzioni avanzate sulle offerte."
+>title="Impostazioni avanzate per le offerte"
+>abstract="Configura le opzioni avanzate per le offerte."
 
-1. Per selezionare le offerte da proporre nella consegna, fai clic sul pulsante **[!UICONTROL Configurare le offerte]** dalla schermata delivery content edition.
+1. Per selezionare le offerte da proporre nel messaggio e-mail, fai clic sul pulsante **[!UICONTROL Configura le offerte]** nella schermata per la modifica del contenuto della consegna.
 
    ![](assets/setup-offers.png)
 
 1. Configura le offerte da proporre ai destinatari.
 
-   Seleziona prima lo **[!UICONTROL Spazio offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nel [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio dell’offerta nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}
 
    ![](assets/create-content-offers.png)
 
 1. Per perfezionare le offerte scelte dal motore, seleziona la **[!UICONTROL Categoria offerta]** in base alla quale ordinare le offerte.
 
-   Quando si seleziona una cartella, tutte le sottocartelle vengono incluse automaticamente e non possono essere rimosse. Tieni presente che [!DNL Campaign] L&#39;interfaccia non riflette questo comportamento.
+   Quando si seleziona una cartella, tutte le sottocartelle vengono incluse automaticamente e non possono essere rimosse. Tieni presente che l’interfaccia di [!DNL Campaign] non riflette questo comportamento.
 
    >[!NOTE]
    >
    >Se non viene specificata alcuna categoria, il motore di offerte prenderà in considerazione tutte le offerte contenute nell’ambiente, a meno che non venga selezionato un **[!UICONTROL Tema offerta]**.
 
-1. (facoltativo) Inserisci un tema per filtrare le categorie. I temi sono parole chiave definite a monte nelle categorie. Fungono da filtro e consentono di perfezionare il numero di offerte da presentare selezionandole in un set di categorie.
+1. (Facoltativo) Specifica un tema in base al quale filtrare le categorie. I temi sono parole chiave definite a monte nelle categorie. Fungono da filtro e consentono di perfezionare il numero di offerte da presentare selezionandole in un set di categorie.
 
-1. Utilizza il **[!UICONTROL Proposte]** per specificare il numero di offerte che desideri inserire nella consegna.
+1. Utilizza il campo **[!UICONTROL Proposte]** per specificare il numero di offerte da inserire nella consegna.
 
 1. Se necessario, seleziona l’opzione **[!UICONTROL Escludi destinatari non idonei]**.
 
@@ -69,31 +69,31 @@ I passaggi per inviare le offerte con una consegna sono i seguenti:
    * Se l’opzione è abilitata, la rappresentazione della proposta mancante non viene visualizzata e nel messaggio per la proposta non viene visualizzato alcun contenuto.
    * Se l’opzione è disabilitata, il messaggio stesso viene annullato durante l’invio e i destinatari non possono più ricevere messaggi.
 
-Dopo aver configurato le offerte da proporre nella consegna, puoi inserirle nel contenuto della consegna utilizzando l’editor di espressioni.
+Dopo aver configurato le offerte da proporre nella consegna, puoi inserirle nel contenuto della consegna utilizzando l’editor espressioni.
 
-## Inserire le offerte nella consegna {#insert}
+## Inserire offerte nella consegna {#insert}
 
-Le offerte possono essere aggiunte alla consegna utilizzando [Editor espressioni](../personalization/gs-personalization.md#access). Possono essere inseriti nella riga dell’oggetto o nel corpo della consegna.
+Le offerte possono essere aggiunte alla consegna utilizzando l’[Editor espressioni](../personalization/gs-personalization.md#access). Possono essere inserite nella riga dell’oggetto o nel corpo della consegna.
 
 >[!CAUTION]
 >
 >Prima di inserire un’offerta in una consegna, assicurati di aver [configurato quale offerta proporre con tale consegna](#configure).
 
-Per inserire un’offerta tramite l’editor espressioni, effettua le seguenti operazioni.
+Per inserire un’offerta utilizzando l’editor di espressioni, effettua le seguenti operazioni.
 
-1. Accedi all’oggetto o al contenuto di qualsiasi consegna.
+1. Accedi all’oggetto o al contenuto di una consegna.
 
-1. Posiziona il cursore del mouse nel punto in cui desideri inserire l’offerta e apri l’editor espressioni utilizzando l’icona di personalizzazione.
+1. Posiziona il cursore nel punto in cui desideri inserire l’offerta e apri l’editor espressioni utilizzando l’icona di personalizzazione.
 
-1. Seleziona la **[!UICONTROL Proposte]** menu. Le proposte disponibili vengono visualizzate nell’elenco.
+1. Seleziona il menu **[!UICONTROL Proposte]**. Le proposte disponibili vengono visualizzate nell’elenco.
 
    >[!NOTE]
    >
-   >Il numero di proposte viene definito quando [configurazione delle offerte](#configure) per la consegna corrente.
+   >Il numero di proposte viene definito quando si [configurano le offerte](#configure) per la consegna corrente.
 
    ![](assets/offer-insertion.png)
 
-1. Aggiungi le proposte nella riga o nel corpo dell’oggetto della consegna utilizzando i campi di personalizzazione, le funzioni di rendering o gli attributi di offerta disponibili per ogni proposta.
+1. Aggiungi le proposte all’oggetto o al corpo della consegna utilizzando i campi di personalizzazione, le funzioni di rendering o gli attributi dell’offerta disponibili per ogni proposta.
 
    ![](assets/offer-inserted.png)
 
@@ -103,6 +103,6 @@ Per inserire un’offerta tramite l’editor espressioni, effettua le seguenti o
 
 1. Salva le modifiche.
 
-1. Completa il contenuto, verifica e invia la consegna.
+1. Completa il contenuto, esegui un test e invia la consegna.
 
-Ora, quando un destinatario riceve la consegna, viene visualizzata l’offerta giusta a quel profilo specifico.
+Ora, quando un destinatario riceve la consegna, viene visualizzata l’offerta giusta per quel profilo specifico.
