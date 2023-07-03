@@ -8,7 +8,7 @@ level: Beginner
 badge: label="Alpha"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Creare contenuti condizionali"
->abstract="Con i contenuti condizionali è possibile definire la personalizzazione dinamica in base al profilo del destinatario, mediante la sostituzione automatica blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Questa funzione può consentirti di creare campagne più sofisticate e di offrire al tuo pubblico esperienze altamente mirate e personalizzate."
+>abstract="Con i contenuti condizionali puoi definire la personalizzazione dinamica in base al profilo del destinatario, sostituendo in automatico blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Con questa funzione puoi creare campagne più sofisticate e offrire al tuo pubblico esperienze altamente mirate e personalizzate."
 
-I contenuti condizionali rappresentano una funzionalità potente, che consente di definire la personalizzazione dinamica in base al profilo del destinatario, mediante la sostituzione automatica blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Questa funzione può consentirti di creare campagne più sofisticate e di offrire al tuo pubblico esperienze altamente mirate e personalizzate.
+I contenuti condizionali rappresentano una funzionalità potente, che consente di definire la personalizzazione dinamica in base al profilo del destinatario, mediante la sostituzione automatica blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Con questa funzione puoi creare campagne più sofisticate e offrire al tuo pubblico esperienze altamente mirate e personalizzate.
 
 Configurando i campi per contenuti condizionali, puoi creare ad esempio una personalizzazione dinamica avanzata in base al profilo del destinatario. I blocchi di testo, i collegamenti, l’oggetto e/o le immagini vengono sostituiti nel contenuto del messaggio quando viene soddisfatta una particolare condizione. Ad esempio, puoi visualizzare “Sig.” o “Sig.ra” in base al valore del campo Genere nel database di Adobe Campaign oppure includere un collegamento diverso in base alla lingua preferita del destinatario.
 

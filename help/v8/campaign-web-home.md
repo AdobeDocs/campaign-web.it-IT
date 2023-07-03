@@ -5,7 +5,7 @@ title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -25,13 +25,13 @@ Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate
 
 La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con Adobe Experience Platform.
 
-**Interfaccia area di lavoro del flusso di lavoro riprogettata**
+**Nuova interfaccia per l’area di lavoro dei flussi di lavoro**
 
 Un ambiente grafico completo che consente di progettare processi complessi che possono aiutare a gestire le campagne di marketing con facilità. Con i flussi di lavoro, è possibile orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scalabilità di ogni aspetto delle campagne di marketing, dalla creazione dei segmenti alla preparazione dei messaggi per la consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
 **Scopri E-mail designer**
 
-Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice. Scopri come utilizzare E-mail Designer per creare il contenuto, visualizzarlo in anteprima, testarlo e inviare un’e-mail a un pubblico esistente in un caso d’uso end-to-end.
+Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice. Segui un caso d’uso end-to-end e scopri come utilizzare E-mail designer per creare il contenuto, visualizzarlo in anteprima, testarlo e inviare un’e-mail a un pubblico esistente.
 
 **Personalizzare il contenuto dinamico**
 
@@ -59,7 +59,7 @@ Ora che sai cosa è possibile fare in Adobe Campaign Web, è necessario approfon
 <img alt="Convalida" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="workflows/gs-workflows.md"><strong>Interfaccia area di lavoro del flusso di lavoro riprogettata</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Nuova interfaccia per l’area di lavoro dei flussi di lavoro</strong></a>
 </div>
 <p>
 </td>

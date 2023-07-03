@@ -5,7 +5,7 @@ description: Scopri come iniziare a utilizzare i flussi di lavoro
 badge: label="Alpha"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Interfaccia area di lavoro del flusso di lavoro riprogettata"
->abstract="La nostra area di lavoro grafica completa consente di progettare facilmente processi quali segmentazione, esecuzione di campagne e molto altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e migliorare le campagne."
+>title="Nuova interfaccia per l’area di lavoro dei flussi di lavoro"
+>abstract="L’area di lavoro grafica offre tutte le funzioni necessarie per progettare facilmente processi quali segmentazione, esecuzione di campagne e altro ancora. Con questo strumento avanzato a portata di mano, puoi semplificare il flusso di lavoro e creare campagne più efficaci."
 
 ## Che cos’è un flusso di lavoro?
 
