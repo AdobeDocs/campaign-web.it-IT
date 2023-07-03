@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Novità"
->abstract="Scopri la nuova interfaccia utente di Campaign Web, i miglioramenti più recenti e le funzionalità chiave. Scopri come utilizzarli per creare campagne cross-channel per i tipi di pubblico. Grazie alle sue funzioni intuitive, Campaign consente di semplificare il processo di creazione di campagne cross-channel personalizzate, migliorare i risultati e ottenere un vantaggio competitivo. "
+>abstract="Scopri la nuova interfaccia utente di Campaign Web, i miglioramenti più recenti e le funzionalità chiave. Scopri come utilizzarli per creare campagne cross-channel per il tuo pubblico. Grazie alle funzioni intuitive di Campaign, potrai semplificare la creazione di campagne cross-channel personalizzate, migliorare i risultati e ottenere un vantaggio competitivo. "
 
 
 Adobe Campaign fornisce una piattaforma per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali.
