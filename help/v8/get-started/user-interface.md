@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+source-git-commit: 4a3591d917aedd028666eca99b8cf1c4aeb45e8f
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1546'
 ht-degree: 100%
 
 ---
@@ -297,7 +297,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="KPI errori"
 
 
-
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Elenco flussi di lavoro"
+>abstract="Elenco dei flussi di lavoro disponibili per la campagna. Utilizza il pulsante “Crea flusso di lavoro” per aggiungere un flusso di lavoro alla campagna."
 
 <!-- delivery template settings-->
 
