@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
-workflow-type: ht
-source-wordcount: '1318'
+source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+workflow-type: tm+mt
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -295,3 +295,48 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Errori"
 >abstract="KPI errori"
+
+
+
+
+<!-- delivery template settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Periodo di validità"
+>abstract="Questa opzione definisce la durata per la quale viene attivato il tracciamento degli URL."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Durata consegna"
+>abstract="Il campo Durata consegna consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Limite di validità delle risorse"
+>abstract="Il campo Limite di validità viene utilizzato per le risorse caricate, come la pagina mirror o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Modalità di approvazione"
+>abstract="Ogni fase di una consegna può essere soggetta ad approvazione per garantire il pieno monitoraggio e controllo dei vari processi."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Numero massimo di nuovi tentativi"
+>abstract="Se un messaggio non riesce a causa di un errore temporaneo, vengono eseguiti nuovi tentativi fino alla fine della durata della consegna."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Importanza del destinatario"
+>abstract="L’importanza del destinatario è una formula utilizzata per determinare quali destinatari mantenere se vengono superate le regole di tipologia della capacità."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Peso consegna"
+>abstract="Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Tipologia"
+>abstract="Tiplogia consente di controllare, filtrare e monitorare l’invio delle consegne."
