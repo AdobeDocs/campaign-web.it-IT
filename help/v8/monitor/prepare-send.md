@@ -3,11 +3,11 @@ audience: end-user
 title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+badge: label="Alfa"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 96%
 
 ---
 
@@ -128,6 +128,16 @@ Indipendentemente dal fatto che la consegna sia pianificata o meno, è possibile
 ![](assets/email-send-pause-or-stop.png)
 
 ## Controllare i KPI {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Metriche di invio"
+>abstract="Numero totale di messaggi elaborati durante l’analisi della consegna."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Metriche di errori"
+>abstract="Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati."
 
 Una volta completato l’invio, puoi controllare i KPI visualizzati:
 

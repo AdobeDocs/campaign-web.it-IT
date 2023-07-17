@@ -3,10 +3,10 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha"
-source-git-commit: de4aab11b858925617cdac782d537a746fb507d4
+badge: label="Alfa"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1536'
 ht-degree: 99%
 
 ---
@@ -183,15 +183,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 -->
 
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_sent"
->title="Metriche di invio"
->abstract="Numero di e-mail consegnate."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_errors"
->title="Metriche di errori"
->abstract="Numero di e-mail con lo stato di errore."
 
 
 
