@@ -2,10 +2,10 @@
 audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 98%
 
 ---

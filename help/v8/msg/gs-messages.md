@@ -2,12 +2,12 @@
 audience: end-user
 title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 97%
 
 ---
 
@@ -133,7 +133,7 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 * Creare **contenuto condizionale**
 
-  Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](../personalization/conditions.md)
+  Configura il contenuto condizionale per aggiungere la personalizzazione dinamica in base, ad esempio, al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](../personalization/conditions.md)
 
 * Aggiungere **offerte personalizzate**
 

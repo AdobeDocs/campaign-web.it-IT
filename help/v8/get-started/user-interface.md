@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
 workflow-type: tm+mt
 source-wordcount: '1530'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -106,9 +106,9 @@ Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offerte"
->abstract="Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura."
+>abstract="Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e date di inizio/fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura."
 
-* **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
+* **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e date di inizio/fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
 
 Scopri come creare e gestire le offerte nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
