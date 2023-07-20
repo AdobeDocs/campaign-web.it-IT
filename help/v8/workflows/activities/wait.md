@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Utilizzare l’attività del flusso di lavoro Attendi
-description: Scopri come utilizzare l’attività del flusso di lavoro Attendi
+title: Utilizzare l’attività Attendi nei flussi di lavoro
+description: Scopri come utilizzare l’attività Attendi nei flusso di lavoro
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: ht
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Attendi {#wait}
 
-L’attività **Attendi** è un’attività di **Controllo del flusso**. L’attività viene utilizzata per consentire il trascorrere di un certo periodo di tempo tra due attività in corso. Ad esempio, per attendere diversi giorni dopo un’attività di consegna e-mail, quindi per analizzare le aperture e i clic generati durante questo periodo prima di eseguire eventuali operazioni di follow-up (promemoria e-mail, creazione di un pubblico, ecc.).
+L’attività **Attendi** è un’attività di **Controllo del flusso**. Questa attività viene utilizzata per lasciare che trascorra un certo periodo di tempo tra due attività in corso. Ad esempio, per attendere diversi giorni dopo un’attività di consegna e-mail, quindi analizzare le aperture e i clic generati durante questo periodo prima di eseguire eventuali operazioni di follow-up (e-mail di promemoria, creazione di un pubblico, ecc.).
 
 ## Configurazione
 
@@ -23,7 +23,7 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 
 1. Specifica la **Durata** dell’attesa tra le transizioni in entrata e in uscita.
 
-1. Seleziona l&#39;unità di tempo nel campo **Periodi**: secondi, minuti, ore.
+1. Seleziona l’unità di tempo nel campo **Periodi**: secondi, minuti, ore.
 
 ## Esempio
 
