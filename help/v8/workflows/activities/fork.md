@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Utilizzare l’attività del flusso di lavoro Fork
-description: Scopri come utilizzare l’attività del flusso di lavoro Fork
+title: Utilizzare l’attività Fork nei flussi di lavoro
+description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: ht
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="Attività Fork"
->abstract="L’attività Fork ti consente di creare transizioni in uscita per avviare più attività contemporaneamente."
+>abstract="L’attività Fork consente di creare transizioni in uscita per avviare più attività contemporaneamente."
 
 ## Configurazione
 
