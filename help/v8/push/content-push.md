@@ -3,10 +3,10 @@ audience: end-user
 title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 77%
+source-wordcount: '1309'
+ht-degree: 76%
 
 ---
 
@@ -69,6 +69,13 @@ La modalità push silenzioso consente di inviare una notifica &quot;silenziosa&q
 >[!ENDTABS]
 
 ## Impostazioni avanzate notifiche push {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="Impostazioni avanzate per le notifiche push"
+>abstract="Definisci le impostazioni avanzate per la notifica push, ad esempio la sua priorità, il conteggio delle notifiche associate, le variabili dell’applicazione e altro ancora."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
