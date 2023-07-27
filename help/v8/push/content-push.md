@@ -2,11 +2,11 @@
 audience: end-user
 title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+badge: label="Alfa"
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+workflow-type: tm+mt
+source-wordcount: '1285'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,19 @@ ht-degree: 100%
 >title="Contenuto push per iOS"
 >abstract="Definisci il contenuto push per iOS."
 
-## Messaggio {#push-message}
+## Definire il contenuto della notifica {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="Messaggio push iOS"
+>abstract="Definisci il titolo e il contenuto del messaggio push iOS. Utilizza la finestra di dialogo di personalizzazione per personalizzare il contenuto e aggiungere condizioni."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Notifica silenziosa per iOS"
+>abstract="La modalità push silenzioso consente di inviare una notifica &quot;silenziosa&quot; a un’app mobile. L’utente non viene informato dell’arrivo della notifica. Viene trasferita direttamente all’applicazione."
+
+
 
 >[!BEGINTABS]
 
@@ -32,12 +44,11 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
 * Il **[!UICONTROL Messaggio dati]** è gestito dall’app client. Questi messaggi vengono inviati direttamente all’app mobile, che genera e visualizza una notifica Android sul dispositivo. I messaggi di dati contengono solo variabili dell’applicazione personalizzate.
 
-  Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fai clic sul campo **[!UICONTROL Messaggio]** e utilizza l’editor di espressioni. Puoi accedere a questo editor per personalizzare i messaggi
-Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
+  Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fai clic sul campo **[!UICONTROL Messaggio]** e utilizza l’editor di espressioni. Puoi accedere a questo editor per personalizzare i messaggi. In **[!UICONTROL Variabili dell’applicazione]** , le variabili dell&#39;applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
   ![](assets/push_content_4.png)
 
-* Il **[!UICONTROL Messaggio di notifica]**, gestito automaticamente dall’SDK FCM. FCM mostra automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set predefinito di parametri e opzioni, ma possono ancora essere personalizzati con variabili di applicazione personalizzate.
+* Il **[!UICONTROL Messaggio di notifica]**, gestito automaticamente dall’SDK FCM. FCM visualizza automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set predefinito di parametri e opzioni, ma possono ancora essere personalizzati con variabili di applicazione personalizzate.
 
   Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
 
@@ -51,13 +62,43 @@ Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICO
 
 Puoi aggiungere un **[!UICONTROL Sottotitolo]**, un valore del parametro dei sottotitoli del payload di notifica di iOS. Consulta questa sezione.
 
-La modalità push silenziosa consente di inviare una notifica “silenziosa” a un’app mobile. L’utente non viene informato dell’arrivo della notifica. Viene trasferita direttamente all’applicazione.
+La modalità push silenzioso consente di inviare una notifica &quot;silenziosa&quot; a un’app mobile. L’utente non viene informato dell’arrivo della notifica. Viene trasferita direttamente all’applicazione.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## Impostazioni avanzate {#push-advanced}
+## Impostazioni avanzate notifiche push {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Modalità avviso critico per iOS"
+>abstract="Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità di attivazione o se il dispositivo è disattivato. In questo modo gli utenti vengono informati in ogni caso di avvisi importanti."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Numero badge per iOS"
+>abstract="Utilizza questa opzione per impostare il numero di nuove informazioni non lette da visualizzare direttamente sull’icona dell’app. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Contenuto variabile per iOS"
+>abstract="Utilizza questa opzione per consentire all’app mobile di scaricare il contenuto multimediale associato alla notifica."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Punteggio di rilevanza per iOS"
+>abstract="Imposta un punteggio di rilevanza da 0 a 100 per assegnare la priorità all’ordine delle notifiche nel relativo riepilogo. Punteggi più alti indicano notifiche più importanti."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Variabili dell’applicazione per iOS"
+>abstract="Utilizza le variabili dell’applicazione per definire il comportamento di notifica. Queste variabili sono completamente personalizzabili e sono incluse nel payload del messaggio inviato al dispositivo mobile."
+
+
 
 >[!BEGINTABS]
 
@@ -69,7 +110,7 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 |---------|---------|
 | **[!UICONTROL Suono]** | Imposta l’audio da riprodurre quando il dispositivo riceve la notifica. |
 | **[!UICONTROL Conteggio notifiche]** | Imposta il numero di nuove informazioni non lette da visualizzare direttamente sull’icona dell’applicazione. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso. |
-| **[!UICONTROL ID canale]** | Imposta l’ID canale della notifica. L’app deve creare un canale con questo ID canale prima di ricevere qualsiasi notifica con questo ID canale. |
+| **[!UICONTROL ID canale]** | Imposta l&#39;ID canale della notifica. L’app deve creare un canale con questo ID canale prima di ricevere qualsiasi notifica con questo ID canale. |
 | **[!UICONTROL Azione clic]** | Definisci l’azione associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app. |
 | **[!UICONTROL Tag]** | Imposta un identificatore utilizzato per sostituire le notifiche esistenti nella barra delle notifiche. In questo modo si evita l’accumulo di notifiche multiple e si garantisce che venga visualizzata solo la notifica pertinente più recente. |
 | **[!UICONTROL Priorità]** | Imposta il livello di priorità della notifica, che può essere predefinito, minimo, basso o alto. Il livello di priorità determina l’importanza e l’urgenza della notifica, influenzandone la modalità di visualizzazione e la possibilità di ignorare determinate impostazioni di sistema. Per ulteriori informazioni, consulta la [documentazione FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
@@ -83,7 +124,7 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 
 | Parametro | Descrizione |
 |---------|---------|
-| **[!UICONTROL Modalità avviso critico]** | Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se l’iPhone è silenzioso. In questo modo viene garantito che l’utente noti gli avvisi importanti. |
+| **[!UICONTROL Modalità avviso critico]** | Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità di attivazione o se il dispositivo è disattivato. In questo modo viene garantito che l’utente noti gli avvisi importanti. |
 | **[!UICONTROL Pulisci badge]** | Abilita questa opzione per aggiornare il valore del badge visualizzato sull’icona dell’applicazione. In questo modo il badge riflette accuratamente il numero delle nuove informazioni non lette. |
 | **[!UICONTROL Conteggio notifiche]** | Imposta un numero che verrà visualizzato direttamente sull’icona dell’applicazione, indicando il numero di nuove informazioni non lette. Questo fornisce un riferimento visivo rapido per l’utente. |
 | **[!UICONTROL Volume]** | Volume del suono da 0 a 100. |
