@@ -5,12 +5,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c977f8e3567a478fa46dc8914c329ca4e8dd3274
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,16 @@ ht-degree: 100%
 >title="Creare contenuti condizionali"
 >abstract="Con i contenuti condizionali puoi definire la personalizzazione dinamica in base al profilo del destinatario, sostituendo in automatico blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Con questa funzione puoi creare campagne più sofisticate e offrire al tuo pubblico esperienze altamente mirate e personalizzate."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditional_content"
+>title="Aggiungere contenuto condizionale"
+>abstract="Configura i campi di contenuto condizionale per creare una personalizzazione dinamica avanzata in base ai dati di profilo del destinatario. I blocchi di testo, i collegamenti, l’oggetto e/o le immagini vengono sostituiti nel contenuto del messaggio quando viene soddisfatta una particolare condizione."
+
 I contenuti condizionali rappresentano una funzionalità potente, che consente di definire la personalizzazione dinamica in base al profilo del destinatario, mediante la sostituzione automatica blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Con questa funzione puoi creare campagne più sofisticate e offrire al tuo pubblico esperienze altamente mirate e personalizzate.
 
-Configurando i campi per contenuti condizionali, puoi creare ad esempio una personalizzazione dinamica avanzata in base al profilo del destinatario. I blocchi di testo, i collegamenti, l’oggetto e/o le immagini vengono sostituiti nel contenuto del messaggio quando viene soddisfatta una particolare condizione. Ad esempio, puoi visualizzare “Sig.” o “Sig.ra” in base al valore del campo Genere nel database di Adobe Campaign oppure includere un collegamento diverso in base alla lingua preferita del destinatario.
+Configurando i campi di contenuto condizionale, puoi creare ad esempio una personalizzazione dinamica avanzata in base al profilo del destinatario. I blocchi di testo, i collegamenti, l’oggetto e/o le immagini vengono sostituiti nel contenuto del messaggio quando viene soddisfatta una particolare condizione. Ad esempio, puoi visualizzare “Sig.” o “Sig.ra” in base al valore del campo Genere nel database di Adobe Campaign oppure includere un collegamento diverso in base alla lingua preferita del destinatario.
 
 ## Come generare contenuti condizionali
 
