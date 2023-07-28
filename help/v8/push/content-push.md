@@ -3,9 +3,9 @@ audience: end-user
 title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1346'
 ht-degree: 76%
 
 ---
@@ -105,6 +105,11 @@ La modalità push silenzioso consente di inviare una notifica &quot;silenziosa&q
 >title="Variabili dell’applicazione per iOS"
 >abstract="Utilizza le variabili dell’applicazione per definire il comportamento di notifica. Queste variabili sono completamente personalizzabili e sono incluse nel payload del messaggio inviato al dispositivo mobile."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="ID categoria per iOS"
+>abstract="Specifica il nome dell’ID categoria associato alla notifica. Questo abilita la visualizzazione dei pulsanti di azione, consentendo all’utente di eseguire varie attività direttamente dalla notifica senza aprire l’applicazione."
 
 
 >[!BEGINTABS]
