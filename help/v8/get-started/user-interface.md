@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
+source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 96%
+source-wordcount: '1582'
+ht-degree: 94%
 
 ---
 
@@ -174,6 +174,11 @@ Per cambiare la lingua:
 1. Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
 
 
+## Ulteriori informazioni {#learn-more}
+
+Scopri come sfogliare, cercare e filtrare gli elenchi disponibili nell’ambiente Campaign [in questa pagina](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -181,9 +186,6 @@ Per cambiare la lingua:
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -276,6 +278,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Errori"
 >abstract="KPI errori"
 
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -292,6 +295,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Salvare un pubblico"
 >abstract="Utilizza questa attività per salvare il pubblico del flusso di lavoro."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Questo flusso di lavoro è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo flusso di lavoro. Se necessario, contatta l’amministratore per concederti l’accesso."
 
 <!-- delivery template settings-->
 
