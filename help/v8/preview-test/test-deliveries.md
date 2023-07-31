@@ -3,11 +3,11 @@ audience: end-user
 title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
-workflow-type: ht
-source-wordcount: '941'
-ht-degree: 100%
+badge: label="Alfa"
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,10 @@ I destinatari di un test possono controllare vari elementi come collegamenti, co
 
 ## Selezionare i destinatari del test {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Popolazione di test"
 >abstract="Seleziona una modalità per la popolazione di test."
-
-
 
 In base al canale utilizzato, i messaggi di test possono essere inviati a tre tipi di destinatari:
 
@@ -53,6 +49,15 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 ### Profili di test {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Destinazione della bozza"
+>abstract="Puoi caricare un secondo file come &quot;destinazione della bozza&quot;, se desideri testare la consegna prima di inviarla al target principale."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Caricare profili"
+>abstract="Puoi caricare un secondo file con profili aggiuntivi se desideri testare la consegna con un set diverso da quello utilizzato per il target principale."
 
 1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
