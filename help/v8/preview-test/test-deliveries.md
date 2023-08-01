@@ -4,10 +4,10 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 94%
+source-wordcount: '1030'
+ht-degree: 92%
 
 ---
 
@@ -58,6 +58,11 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 >id="acw_deliveries_simulate_test_upload"
 >title="Caricare profili"
 >abstract="Puoi caricare un secondo file con profili aggiuntivi se desideri testare la consegna con un set diverso da quello utilizzato per il target principale."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="File modello"
+>abstract="La formattazione del file deve essere uguale a quella del file originale.<br/>Formati di file supportati: txt, csv. Dimensione massima del file: 15 MB. Utilizza la prima riga come intestazione di colonna."
 
 1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
