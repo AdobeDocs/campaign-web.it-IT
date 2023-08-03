@@ -6,7 +6,7 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Aggiornamenti della documentazione](rn/documentation-updates.md)
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
-   + [Scoprire l’interfaccia](get-started/user-interface.md)
+   + [Scopri l’interfaccia](get-started/user-interface.md)
    + [Sfogliare, cercare e filtrare gli elenchi](get-started/list-filters.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
@@ -100,7 +100,7 @@ ht-degree: 100%
       + [E-mail, SMS e push](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Fork](workflows/activities/fork.md)
-      + [Divisione](workflows/activities/split.md)
+      + [Dividi](workflows/activities/split.md)
       + [Attendi](workflows/activities/wait.md)
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
