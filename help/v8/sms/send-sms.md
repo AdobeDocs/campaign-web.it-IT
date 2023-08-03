@@ -4,9 +4,9 @@ title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 badge: label="Alfa"
 source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nuova metrica di quarantena"
->abstract="Numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) in relazione al numero di messaggi da consegnare."
+>abstract="Numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare."
 
 ## Anteprima della consegna SMS{#preview-sms}
 
