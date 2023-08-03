@@ -3,11 +3,11 @@ audience: end-user
 title: Monitorare i registri di consegna
 description: Scopri come monitorare i registri di consegna
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
-workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 72%
+workflow-type: ht
+source-wordcount: '358'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 72%
 >title="Registri di consegna"
 >abstract="I registri di consegna mostrano i dettagli dell’invio. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic."
 
-Una volta preparata la consegna e fatto clic su **Invia** , sfoglia i registri di consegna per verificare avvisi, errori, stato, esclusioni e dati di tracciamento. Questi registri sono accessibili direttamente dalla dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
+Una volta preparata la consegna e aver fatto clic sul pulsante **Invia** , sfoglia i registri di consegna per verificare gli avvisi, gli errori, lo stato, le esclusioni e i dati di tracciamento. Questi registri sono accessibili direttamente dalla dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
 
 Per visualizzare i registri, accedi alla dashboard di consegna e fai clic sul pulsante **Registri**.
 
@@ -35,7 +35,7 @@ Sono disponibili le seguenti schede:
 
 La scheda **Registri** contiene tutti i messaggi relativi alla consegna e alle bozze. Le icone specifiche consentono di identificare errori o avvertenze.
 
-Vengono elencati tutti i passaggi di convalida, gli avvisi e gli errori. Le icone colorate mostrano il tipo di messaggio:
+Vengono elencati tutti i passaggi, le avvertenze e gli errori di convalida. Le icone colorate mostrano il tipo di messaggio:
 
 * L’icona grigia indica un messaggio informativo.
 * L’icona gialla indica un errore di elaborazione non critico.
@@ -58,13 +58,13 @@ La scheda **Registri di esclusione** elenca tutti i messaggi che sono stati escl
 
 ## Cause di esclusione {#exclusion-causes-tab}
 
-Il **Cause di esclusione** Questa scheda mostra, per ogni possibile causa, il numero di messaggi che sono stati esclusi dal target.
+Nella scheda **Cause di esclusione** viene visualizzato il numero di messaggi esclusi dal target per ogni possibile causa.
 
 ![](assets/logs4.png)
 
 ## URL tracciati {#tracked-urls-tab}
 
-Il **URL tracciati** La scheda raggruppa gli URL contenuti nei messaggi inviati, compreso il tipo di URL e l’URL di origine.
+La scheda **URL tracciati** raggruppa gli URL contenuti nel messaggio inviato e ne specifica il tipo di URL e l’URL di origine.
 
 ![](assets/logs5.png)
 
