@@ -3,11 +3,11 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
-workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >title="Anteprima e test dei messaggi"
 >abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=it" text="Visualizzare in anteprima il contenuto del messaggio"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Inviare consegne di test"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare consegne di test"
 
 Una volta definito il contenuto della consegna, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo prima di inviarlo.
 
