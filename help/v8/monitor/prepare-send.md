@@ -5,9 +5,9 @@ description: Scopri come preparare e inviare un’e-mail dall’interfaccia uten
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alfa"
 source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Indipendentemente dal fatto che la consegna sia pianificata o meno, è possibile
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
->abstract="Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati."
+>abstract="Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati."
 
 Una volta completato l’invio, puoi controllare i KPI visualizzati:
 
