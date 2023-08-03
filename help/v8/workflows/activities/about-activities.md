@@ -5,9 +5,9 @@ description: Scopri come utilizzare le attività dei flussi di lavoro
 badge: label="Alfa"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Queste attività sono specifiche per il targeting, la gestione e l’arricchimen
 * L’attività [Creazione del pubblico](build-audience.md) consente di definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
 * L’attività [Combina](combine.md) consente di eseguire la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
 * L’attività [Arricchimento](enrichment.md) consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
-* Il [Dividi](split.md) attività ti consente di segmentare la popolazione in ingresso in diversi sottoinsiemi.
+* L’attività [Dividi](split.md) ti consente di segmentare la popolazione in ingresso in diversi sottoinsiemi.
 
 ## Attività di canale {#channel}
 
