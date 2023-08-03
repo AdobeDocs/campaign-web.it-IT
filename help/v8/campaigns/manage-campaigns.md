@@ -4,9 +4,9 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Alfa"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_schedule"
 >title="Pianificazione della campagna"
->abstract="Imposta o modifica la pianificazione della campagna."
+>abstract="Impostare o modificare la pianificazione della campagna."
 
 Per creare una nuova campagna o gestire quelle esistenti, fai clic sul menu **[!UICONTROL Campagne]** nella barra di navigazione a sinistra.
 
