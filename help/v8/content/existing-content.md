@@ -5,9 +5,9 @@ description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Alfa"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
->title="Utilizza un contenuto e-mail esistente"
->abstract="E-mail designer consente di importare contenuti HTML esistenti. Può trattarsi di un file HTML con un foglio di stile incorporato o di una cartella .zip con il file HTML, il foglio di stile (css) e le immagini."
+>title="Utilizzare un contenuto e-mail esistente"
+>abstract="E-mail designer consente di importare contenuti HTML esistenti. Tali contenuti possono essere un file HTML con un foglio di stile incorporato o una cartella .zip con il file HTML, il foglio di stile (.css) e le immagini."
 
 E-mail designer consente di importare contenuti HTML esistenti. Tali contenuti possono essere:
 
