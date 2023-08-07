@@ -195,7 +195,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Invio reportistica"
+>title="Reportistica sull’invio"
 >abstract="Consulta gli indicatori di invio per la reportistica della campagna."
 
 >[!CONTEXTUALHELP]
