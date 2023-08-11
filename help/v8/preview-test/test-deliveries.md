@@ -5,9 +5,9 @@ description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
 >title="Destinazione della bozza"
->abstract="Puoi caricare un secondo file come &quot;destinazione della bozza&quot;, se desideri testare la consegna prima di inviarla al target principale."
+>abstract="Puoi caricare un secondo file come “destinazione della bozza”, se desideri testare la consegna prima di inviarla al target principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
->title="Caricare profili"
+>title="Carica profili"
 >abstract="Puoi caricare un secondo file con profili aggiuntivi se desideri testare la consegna con un set diverso da quello utilizzato per il target principale."
 
 >[!CONTEXTUALHELP]
