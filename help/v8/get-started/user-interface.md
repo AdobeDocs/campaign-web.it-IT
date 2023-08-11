@@ -5,9 +5,9 @@ description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -281,17 +281,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="Questa campagna è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questa campagna. Se necessario, contatta l’amministratore per concederti l’accesso."
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questa campagna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="Questa consegna è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questa consegna. Se necessario, contatta l’amministratore per concederti l’accesso."
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questa consegna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
->title="Il servizio è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo servizio. Se necessario, contatta l’amministratore per concederti l’accesso."
+>title="Questo servizio è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo servizio. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 <!-- Workflows-->
 
@@ -314,7 +314,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
 >title="Questo flusso di lavoro è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo flusso di lavoro. Se necessario, contatta l’amministratore per concederti l’accesso."
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo flusso di lavoro. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
