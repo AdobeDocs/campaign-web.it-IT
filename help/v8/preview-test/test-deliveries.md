@@ -5,7 +5,7 @@ description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
 

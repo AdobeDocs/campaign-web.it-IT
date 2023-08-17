@@ -4,7 +4,7 @@ title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 badge: label="Alfa"
 source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 

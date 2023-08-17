@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '1753'
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -185,7 +185,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
-   * **[!UICONTROL Media piattaforma]** : questa percentuale media, visualizzata sotto ogni percentuale (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
+   * **[!UICONTROL Media piattaforma]**: questa media, visualizzata sotto ogni valore (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
 +++
 
 * Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.

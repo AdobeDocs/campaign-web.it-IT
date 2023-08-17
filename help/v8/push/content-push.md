@@ -4,7 +4,7 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Alfa"
 source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Inviare una consegna di notifica push
 description: Scopri come inviare una consegna di tipo notifica push con Adobe Campaign Web
 badge: label="Alfa"
 source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 

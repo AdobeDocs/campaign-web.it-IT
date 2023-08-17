@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '301'
+workflow-type: tm+mt
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS,
 
    * **[!UICONTROL Completato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-   * **[!UICONTROL Percentuale di click-through]**: percentuale di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
+   * **[!UICONTROL Tasso di click-through]**: percentuale di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
 
    * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 +++

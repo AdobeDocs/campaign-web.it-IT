@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '1407'
+workflow-type: tm+mt
+source-wordcount: '1406'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
    * **[!UICONTROL Stima degli inoltri]**: stima del numero di e-mail inoltrate dai destinatari target.
 +++
 
-* La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i dati relativi ai destinatari.
+* La tabella **[!UICONTROL Tasso di apertura e click-through]** visualizza i dati relativi ai destinatari.
 
   ![](assets/reporting_email_6.png){align="center"}
 
@@ -172,7 +172,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
    * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
-   * **[!UICONTROL Media piattaforma]** : questa percentuale media, visualizzata sotto ogni percentuale (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
+   * **[!UICONTROL Media piattaforma]**: questa media, visualizzata sotto ogni valore (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
 
 +++
 
@@ -208,7 +208,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 ## Statistiche di tracciamento {#tracking-statistics}
 
-* Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’intervallo di tempo specifico per il targeting dei dati.
+* Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
 
   ![](assets/reporting_email_11.png){align="center"}
 

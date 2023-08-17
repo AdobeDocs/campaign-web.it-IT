@@ -3,10 +3,10 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '506'
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
    >
    >Se stai configurando una nuova e-mail, i campi **[!UICONTROL Nome mittente]** e **[!UICONTROL Da e-mail]** sono già popolati.
 
-1. Il **[!UICONTROL Nome mittente]** è definito nel modello e-mail. Se desideri modificarlo, utilizza un nome facilmente identificabile dai destinatari, ad esempio il nome del tuo marchio, per aumentare la percentuale di apertura delle consegne.
+1. Il **[!UICONTROL Nome mittente]** è definito nel modello e-mail. Se desideri modificarlo, utilizza un nome facilmente identificabile dai destinatari, ad esempio il nome del tuo marchio, per aumentare il tasso di apertura delle consegne.
 
    >[!NOTE]
    >

@@ -2,10 +2,10 @@
 audience: end-user
 title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
-workflow-type: ht
-source-wordcount: '330'
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---

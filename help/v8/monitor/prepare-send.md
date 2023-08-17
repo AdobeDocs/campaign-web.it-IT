@@ -5,7 +5,7 @@ description: Scopri come preparare e inviare un’e-mail dall’interfaccia uten
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alfa"
 source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1328'
 ht-degree: 100%
 
 ---
@@ -134,7 +134,7 @@ In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente. Per i
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Pianificare l’invio"
->abstract="Definisci la data e l’ora esatta dell’invio. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare le percentuali di apertura."
+>abstract="Definisci la data e l’ora esatta dell’invio. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura."
 
 Per pianificare l’invio dell’e-mail, apri la consegna e-mail e passa alla sezione **Pianificazione**. Utilizza l’interruttore **[!UICONTROL Abilita pianificazione]** per attivarla e impostare la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
 

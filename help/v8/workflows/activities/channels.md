@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
-workflow-type: ht
-source-wordcount: '425'
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---

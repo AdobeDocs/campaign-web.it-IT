@@ -5,7 +5,7 @@ description: Scopri come monitorare i registri di consegna
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: label="Alfa"
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 

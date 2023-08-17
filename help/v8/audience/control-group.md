@@ -3,10 +3,10 @@ audience: end-user
 title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '757'
+workflow-type: tm+mt
+source-wordcount: '756'
 ht-degree: 100%
 
 ---

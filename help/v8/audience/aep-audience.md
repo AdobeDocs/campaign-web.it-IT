@@ -2,11 +2,11 @@
 audience: end-user
 title: Utilizzare un pubblico di Adobe Experience Platform
 description: Scopri come utilizzare un pubblico da Adobe Experience Platform
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '289'
+workflow-type: tm+mt
+source-wordcount: '288'
 ht-degree: 100%
 
 ---

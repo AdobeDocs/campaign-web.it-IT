@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '298'
+workflow-type: tm+mt
+source-wordcount: '297'
 ht-degree: 100%
 
 ---

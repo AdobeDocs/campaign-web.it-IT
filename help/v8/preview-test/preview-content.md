@@ -3,10 +3,10 @@ audience: end-user
 title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima il contenuto delle consegne nell’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: ht
-source-wordcount: '342'
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---

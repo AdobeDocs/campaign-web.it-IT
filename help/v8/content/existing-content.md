@@ -5,7 +5,7 @@ description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Alfa"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 

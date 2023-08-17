@@ -3,10 +3,10 @@ audience: end-user
 title: Aggiungere attributi di stile in linea
 description: Scopri come aggiungere attributi di stile in linea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '125'
+workflow-type: tm+mt
+source-wordcount: '124'
 ht-degree: 100%
 
 ---

@@ -4,7 +4,7 @@ title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 badge: label="Alfa"
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 

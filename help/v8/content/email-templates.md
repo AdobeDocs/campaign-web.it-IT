@@ -3,10 +3,10 @@ audience: end-user
 product: campaign
 title: Utilizzare i modelli e-mail
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '305'
+workflow-type: tm+mt
+source-wordcount: '304'
 ht-degree: 100%
 
 ---

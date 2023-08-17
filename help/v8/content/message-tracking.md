@@ -3,10 +3,10 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '367'
+workflow-type: tm+mt
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
