@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +39,98 @@ Questa schermata include collegamenti chiave e risorse che permettono di acceder
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
 
 Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezione **Apprendimento** della pagina home.
+
+
+#### Indicatori chiave di performance {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="KPI spam"
+
+Passa alla home page per controllare gli indicatori di prestazioni chiave per la piattaforma. Questi indicatori mostrano il numero e la percentuale di messaggi consegnati, aperti, su cui è stato fatto clic, di messaggi che hanno annullato l’abbonamento e la percentuale di errori.
+
+Per impostazione predefinita, le metriche sono calcolate per le consegne inviate nei 7 giorni precedenti. Puoi modificare il periodo dall’elenco a discesa nella sezione in alto a destra della scheda. I messaggi inviati ai profili di test sono esclusi.
+
+Puoi selezionare il canale da visualizzare. Per impostazione predefinita, questi indicatori riflettono le metriche per il canale e-mail.
+
+![](assets/kpi.png)
+
+#### Messaggio consegnato {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Consegnati"
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi elaborati con successo e la percentuale di messaggi consegnati con successo rispetto al numero totale di messaggi inviati."
+
+
+Il **Consegnato** indicatore mostra i KPI seguenti, per ogni canale:
+
+* Percentuale del numero di messaggi consegnati correttamente rispetto al numero totale di messaggi da inviare.
+
+* Somma di tutti i messaggi elaborati con successo.
+
+In Adobe Campaign, la regola per contrassegnare un messaggio come &quot;Consegnato&quot; è:
+
+Numero di messaggi per i quali il campo &quot;Indirizzo seed&quot; è uguale a &quot;No&quot; e con uno stato uguale a &quot;Preso in considerazione dal provider di servizi&quot; (per SMS) o &quot;Inviato&quot; (per e-mail) o &quot;Ricevuto su dispositivi mobili&quot; (per notifiche push).
+
+
+#### Aperture totali {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Aperture"
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi aperti e la percentuale di messaggi aperti rispetto al numero totale di messaggi consegnati con successo."
+
+Il **Aperture** indicatore mostra i KPI seguenti, per ogni canale:
+
+* Percentuale del numero di messaggi aperti rispetto al numero totale di messaggi consegnati con successo.
+
+* Somma di tutti i messaggi aperti, per canale.
+
+Adobe Campaign rileva che il messaggio si apre quando il destinatario scarica le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine da 0 pixel, che consente di rilevare i messaggi aperti. Poiché i messaggi in formato testo non includono immagini, è impossibile rilevare se sono stati aperti o meno. I valori calcolati in base all’apertura dei messaggi sono sempre delle stime, a causa del margine di errore legato alla visualizzazione delle immagini.
+
+#### Percentuali di clic {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clic"
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli URL su cui è stato fatto clic nei messaggi e la percentuale di clic rispetto al numero totale di messaggi consegnati con successo."
+
+Il **Clic** indicatore mostra i KPI seguenti, per ogni canale:
+
+* Percentuale del numero di clic rispetto al numero totale di messaggi consegnati con successo.
+
+* Numero di persone distinte che hanno fatto clic almeno una volta in una consegna. I collegamenti di annullamento dell’abbonamento e i collegamenti verso la pagina speculare sono esclusi.
+
+Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:trackingStats`). Questa tabella aggregata viene utilizzata per motivi di prestazioni quando si visualizzano i report al posto della tabella dei registri di tracciamento dei destinatari (`nms:trackingLogRcp`) e non viene calcolata in tempo reale. La tabella viene generata pochi minuti dopo il recupero dei registri di tracciamento.
+
+
+#### Percentuali di annullamento abbonamento {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Iscrizioni annullate"
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli annullamenti di abbonamenti a un servizio e la percentuale di annullamenti di abbonamenti rispetto al numero totale di messaggi consegnati con successo."
+
+Il **Annullamenti iscrizione** indicatore mostra i KPI seguenti, per ogni canale:
+
+* Percentuale del numero di annullamenti di abbonamenti rispetto al numero totale di messaggi consegnati con successo.
+
+* La somma di tutti i clic su un collegamento di annullamento dell’abbonamento, ovvero con una categoria URL equivale a &quot;Opt-out&quot;.
+
+
+#### Tassi di errore {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Errori"
+>abstract="Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei mancati recapiti. La frequenza associata è il rapporto con il numero di messaggi da consegnare."
+
+* Percentuale del numero di errori rispetto al numero totale di messaggi da consegnare.
+
+* Numero totale di errori accumulati durante le consegne e l’elaborazione automatica del rimbalzo.
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Consegnati"
->abstract="KPI consegnati"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Aperture"
->abstract="KPI aperture"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Clic"
->abstract="KPI clic"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Iscrizioni annullate"
->abstract="KPI iscrizioni annullate"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="KPI spam"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Errori"
->abstract="KPI errori"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

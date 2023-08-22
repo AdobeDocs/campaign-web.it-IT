@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai rapporti
 description: Scopri come accedere ai rapporti e gestirli in Campaign Web
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
