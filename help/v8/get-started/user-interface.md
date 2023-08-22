@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 73%
+source-wordcount: '2286'
+ht-degree: 72%
 
 ---
 
@@ -38,10 +38,12 @@ Questa schermata include collegamenti chiave e risorse che permettono di acceder
 
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
 
+Il **Indicatori chiave di prestazione** consente di controllare l’efficacia della piattaforma tramite KPI comuni.
+
 Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezione **Apprendimento** della pagina home.
 
 
-#### Indicatori chiave di performance {#user-interface-key-indicators}
+### Indicatori chiave di performance {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ Il **Annullamenti iscrizione** indicatore mostra i KPI seguenti, per ogni canale
 >id="acw_keyindicators_errors"
 >title="Errori"
 >abstract="Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei mancati recapiti. La frequenza associata è il rapporto con il numero di messaggi da consegnare."
+
+Il **Errori** indicatore mostra i KPI seguenti, per ogni canale:
 
 * Percentuale del numero di errori rispetto al numero totale di messaggi da consegnare.
 
