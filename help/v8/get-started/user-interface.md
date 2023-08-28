@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
+source-git-commit: cc3209d8aba62ff4492e71eaaa641e77f5a27e93
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2577'
 ht-degree: 64%
 
 ---
@@ -478,4 +478,14 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Analisi web delle impostazioni di consegna"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Modello di consegna in Campaign"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="Modello di flusso di lavoro in Campaign"
 >abstract="TBC"
