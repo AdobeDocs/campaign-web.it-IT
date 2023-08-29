@@ -5,9 +5,9 @@ description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alfa"
 source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1392'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Puoi selezionare un’altra modalità di approvazione nel campo appropriato. Le 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validità delle impostazioni"
->abstract="Il campo Durata consegna consente di specificare il limite per i nuovi tentativi di consegna globali. Ciò significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, solo per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità. Il campo Limite di validità viene utilizzato per le risorse caricate, come la pagina speculare o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
+>abstract="Il campo Durata consegna consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità. Il campo Limite di validità viene utilizzato per le risorse caricate, come la pagina mirror o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
 
 <!--
 >[!CONTEXTUALHELP]
