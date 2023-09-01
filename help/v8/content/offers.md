@@ -3,18 +3,18 @@ audience: end-user
 title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alfa"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
 
 # Inviare le offerte {#offers-content}
 
-Adobe Campaign Web v8 consente di inviare delle offerte di consegne create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni su Interazione e su come gestire un catalogo delle offerte nella console, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Adobe Campaign Web v8 consente di inviare delle offerte di consegne create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni sull’interazione e su come gestire un catalogo di offerte nella console, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
 I passaggi per inviare offerte con una consegna sono i seguenti:
 
@@ -39,7 +39,7 @@ I passaggi per inviare offerte con una consegna sono i seguenti:
 
 1. Configura le offerte da proporre ai destinatari.
 
-   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio dell’offerta nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}
+   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nel [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

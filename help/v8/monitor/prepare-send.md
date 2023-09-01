@@ -3,11 +3,11 @@ audience: end-user
 title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alfa"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Una volta definiti il [contenuto](../content/edit-content.md), il [pubblico](../
 
 Durante la preparazione, viene calcolata la popolazione target e viene generato il contenuto del messaggio per ciascun profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati subito oppure alla data e all’ora pianificate.
 
-Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=it){target="_blank"}.
+Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella sezione [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=it){target="_blank"}.
 
 I passaggi principali per preparare l’invio sono elencati di seguito.
 

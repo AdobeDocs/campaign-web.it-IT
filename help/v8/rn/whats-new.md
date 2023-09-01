@@ -3,20 +3,20 @@ audience: end-user
 title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alfa"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
 
 # Novità {#new}
 
-## Versione Alpha 2.0{#alpha-release}
+## Versione beta{#beta-release}
 
-Questa nuova interfaccia web di Campaign è attualmente disponibile solo per i **professionisti alfa** con le seguenti funzionalità:
+Questa nuova interfaccia web di Campaign è attualmente disponibile solo per **Beta-professionisti** con le seguenti funzionalità:
 
 **Esperienza moderna, intuitiva e unificata**
 
@@ -53,6 +53,7 @@ In qualità di utente di Campaign, puoi comunque accedere alla console client pe
 
 Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dal menu di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
 
+Con il rilascio Campaign Web Beta, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni in [questa pagina](../get-started/permissions.md)
 
 ## Aggiornamenti terminologici {#terminology-updates}
 
@@ -68,7 +69,7 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 
 Alla presente versione alfa si applicano le seguenti limitazioni:
 
-* Gli unici oggetti modificabili sono Consegne, Campagne, Flussi di lavoro, Tipi di pubblico e Modelli. Gli altri sono di sola lettura. Utilizza i filtri per sfogliarle tutti.
+* Gli oggetti modificabili sono: Consegne, Campagne, Flussi di lavoro, Tipi di pubblico, Servizi di abbonamento, Filtri predefiniti e Modelli. Gli altri sono di sola lettura. Utilizza i filtri per sfogliarle tutti.
 * I tipi di pubblico non possono essere salvati per utilizzi futuri.
 * L&#39;interfaccia utente di amministrazione non è disponibile.
 * Le metriche di reporting (come le aperture e i dati di tracciamento) vengono aggiornate ogni ora.

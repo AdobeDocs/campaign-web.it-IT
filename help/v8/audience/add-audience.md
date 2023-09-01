@@ -3,11 +3,11 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 58%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selezionare un pubblico esistente"
->abstract="I tipi di pubblico sono definiti nella console Adobe Campaign v8. Se disponi di un’integrazione Adobe Experience Platform, dovresti essere in grado di visualizzare anche i tipi di pubblico definiti in Platform."
+>abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona &quot;Mostra filtri&quot; per filtrare l’elenco o seleziona una cartella specifica."
 
 Questa sezione descrive come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail.
 
 Puoi anche:
 
 * Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
-* Caricare un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
+* Carica un pubblico da un file esterno (solo per e-mail). [Ulteriori informazioni](file-audience.md)
 * Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
 
 
@@ -36,21 +36,16 @@ Per selezionare un pubblico esistente per il messaggio, segui la procedura segue
 
 1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea nuovo**. Fai riferimento a questa [sezione](segment-builder.md).
 
-   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti che sono stati definiti nella console client di Adobe Campaign per la cartella corrente.
+   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti per la cartella corrente.
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Consulta la [documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
+   I tipi di pubblico vengono creati da **Pubblico** menu a sinistra. Possono essere create anche nella console client.
+
+   Per utilizzare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con Destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
 1. Scegli un pubblico e fai clic su **Seleziona**.
-
-1. Per perfezionare il pubblico, fai clic su **Modifica regole**.
-
-   ![](assets/create-audience3.png)
-
-1. Utilizzando il generatore di regole, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Consulta questa [sezione](segment-builder.md).
+1. Utilizza il **Mostra filtri** per visualizzare le opzioni di filtro. Clic **Aggiungi regole** per accedere al generatore di regole: l’utilizzo del generatore di regole consente di creare filtri avanzati per l’elenco dei tipi di pubblico. Scopri come utilizzare il generatore di regole in questo [sezione](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

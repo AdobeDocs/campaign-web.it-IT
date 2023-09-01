@@ -3,11 +3,11 @@ audience: end-user
 title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alfa"
-source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ In base al canale utilizzato, i messaggi di test possono essere inviati a tre ti
 
 * [Profili di test](#test-profiles): invia **e-mail e SMS di test** agli indirizzi seed, ossia destinatari aggiuntivi presenti nel database.
 
-  Possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella documentazione[Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
+  Possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
 * [Sostituisci dal target principale](#substitution-profiles): invia **e-mail e SMS di test** a un indirizzo e-mail o numero di telefono specifico impersonando un profilo esistente.
 
@@ -43,7 +43,7 @@ In base al canale utilizzato, i messaggi di test possono essere inviati a tre ti
 
 * [Abbonati](#subscribers): invia le **notifiche push di test** agli abbonati fittizi aggiunti al database.
 
-  I profili di test possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
+  I profili di test possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
 Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti in base al tipo di profili che desideri utilizzare.
 

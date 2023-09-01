@@ -3,11 +3,11 @@ audience: end-user
 title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 96%
 
 ---
 
@@ -58,4 +58,4 @@ I dati di Campaign vengono memorizzati nel server dell’applicazione. I dati so
 
 Alcuni oggetti possono essere creati e gestiti solo nella console client. Possono essere visibili e utilizzati nell’interfaccia utente di Campaign Web, ma non possono essere creati né modificati da questo ambiente. Tutti gli oggetti e i componenti di Campaign sono disponibili nella vista Explorer, accessibile dal menu di navigazione a sinistra.
 
-Per ulteriori informazioni su come utilizzare Campaign v8, consulta la [documentazione su Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.
+Per ulteriori informazioni su come utilizzare Campaign v8, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.

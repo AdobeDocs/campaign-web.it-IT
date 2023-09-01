@@ -3,11 +3,11 @@ audience: end-user
 title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Per aggiungere un gruppo di controllo a una consegna, attiva l’opzione **[!UIC
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Modalità estrazione"
->abstract="Per definire un gruppo di controllo, puoi scegliere di estrarre dalla popolazione target una percentuale o un numero fisso di profili, in modo casuale o in base a un ordinamento."
+>abstract="Un gruppo di controllo è un set di profili esclusi dalla consegna. Per definire un gruppo di controllo, puoi scegliere di estrarre dalla popolazione target una percentuale o un numero fisso di profili, in modo casuale o in base a un ordinamento."
 
 
 ### Creare un gruppo di controllo {#build-extract-target}
@@ -104,7 +104,7 @@ Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Popolazione aggiuntiva"
->abstract="Per escludere una popolazione specifica dal pubblico della consegna, puoi selezionare un pubblico esistente o definire una query."
+>abstract="Un gruppo di controllo è un set di profili esclusi dalla consegna. Per escludere una popolazione specifica dal pubblico della consegna, puoi selezionare un pubblico esistente o definire una query."
 
 Un altro modo per definire un gruppo di controllo consiste nel selezionare una popolazione specifica dal pubblico esistente o definendo una query.
 

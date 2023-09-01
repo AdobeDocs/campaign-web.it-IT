@@ -5,11 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alfa"
-source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 98%
 
 ---
 
@@ -53,5 +53,5 @@ I blocchi di contenuto incorporati sono:
 
 >[!NOTE]
 >
->Puoi definire nuovi blocchi dalla console di Adobe Campaign v8, che ti consentono di ottimizzare la personalizzazione delle consegne. Ulteriori informazioni sono disponibili nella [documentazione Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=it#create-custom-personalization-blocks){target="_blank"}.
+>Puoi definire nuovi blocchi dalla console di Adobe Campaign v8, che ti consentono di ottimizzare la personalizzazione delle consegne. Ulteriori informazioni in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=it#create-custom-personalization-blocks){target="_blank"}.
 
