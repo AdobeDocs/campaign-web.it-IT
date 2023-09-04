@@ -5,15 +5,15 @@ description: Elenco delle funzioni non supportate nell’interfaccia utente di C
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 10%
+source-wordcount: '350'
+ht-degree: 9%
 
 ---
 
 
-# Funzioni non supportate nell’interfaccia utente di Campaign Web {#unsupported-capabilities}
+# Funzioni non supportate in Campaign Web {#unsupported-capabilities}
 
 Le seguenti funzionalità sono accessibili nella console client di Campaign, ma non sono ancora disponibili nell’interfaccia utente web. Alcuni saranno disponibili in una versione successiva, altri no.
 
@@ -22,17 +22,13 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 * Dashboard della home page
 * Personalizzazione della home page
 
-
 **Gestione delle campagne**
 
 * Calendario di marketing/timeline
 * Gestione del budget e dei costi
 * Gestione attività
-* Marketing distribuito
+* Marketing distribuito (marketing centrale/locale)
 * Gestione della risposta
-
-**Ottimizzazione di Campaign**
-
 * Test A/B
 * Gestione delle risorse marketing (MRM), obiettivi, simulazioni, budget e costi
 
@@ -46,6 +42,7 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 **Contenuto web**
 
 * Creazione e pubblicazione di pagine di destinazione
+* App web, moduli web
 * Gestione dei sondaggi
 
 **Profili e destinatari**
@@ -66,16 +63,16 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 
 * Contenuto da risorse pubbliche
 * Gestione di loop/raccolte
-* Salvare un contenuto HTML come modello `*`
+* Salvare un contenuto HTML come modello`*`
 * Sincronizzazione dei modelli e-mail da Adobe Experience Manager
 * Risorse da Adobe Experience Manager 6.5 in un contenuto e-mail
 * Creazione di blocchi di contenuto
 * Contenuto da moduli personalizzati
-* Contenuto da un URL `*`
+* Contenuto da un URL`*`
 * Frammenti e-mail
 * AMP per e-mail
-* Frammenti e-mail `*`
-* Caso d’uso multivariante/multilingue `*`
+* Frammenti e-mail`*`
+* Caso d’uso multivariante/multilingue`*`
 
 **Regole di tipologia**
 
