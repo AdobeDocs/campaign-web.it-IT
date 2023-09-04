@@ -5,10 +5,10 @@ description: Elenco delle funzioni non supportate nell’interfaccia utente di C
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
@@ -66,16 +66,16 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 
 * Contenuto da risorse pubbliche
 * Gestione di loop/raccolte
-* Salvare un contenuto HTML come modello (non disponibile nella console client)
+* Salvare un contenuto HTML come modello `*`
 * Sincronizzazione dei modelli e-mail da Adobe Experience Manager
 * Risorse da Adobe Experience Manager 6.5 in un contenuto e-mail
 * Creazione di blocchi di contenuto
 * Contenuto da moduli personalizzati
-* Contenuto da un URL (non disponibile nella console client)
+* Contenuto da un URL `*`
 * Frammenti e-mail
 * AMP per e-mail
-* Frammenti e-mail (non disponibili nella console Client)
-* Caso d’uso multivariante/multilingue (non disponibile nella console client)
+* Frammenti e-mail `*`
+* Caso d’uso multivariante/multilingue `*`
 
 **Regole di tipologia**
 
@@ -125,3 +125,4 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 * Approvazione target
 
 
+`*` Non disponibile nella console client
