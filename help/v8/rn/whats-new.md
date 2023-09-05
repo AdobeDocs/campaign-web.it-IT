@@ -4,15 +4,18 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 90%
+source-wordcount: '960'
+ht-degree: 50%
 
 ---
 
 
 # Novità {#new}
+
+
+Siamo entusiasti di presentare la versione BETA dell’interfaccia utente web di Adobe Campaign. La nostra ultima versione è dotata di funzioni intuitive progettate per semplificare la creazione di campagne personalizzate multicanale, generare risultati eccezionali e offrire un vantaggio competitivo su tutti i canali.
 
 ## Versione beta{#beta-release}
 
@@ -46,6 +49,54 @@ Utilizza la nuova interfaccia di Campaign Web per:
 * Visualizzare l‘anteprima, testare e inviare i messaggi e-mail - [Ulteriori informazioni](../monitor/prepare-send.md)
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
+
+## Ultimi aggiornamenti
+
+
+**Riepilogo versione beta**
+
+* Abilita la composizione dei dati (federata) per tipi di pubblico e personalizzazione.
+* Utilizza la tecnologia AI per migliorare la generazione dei contenuti e-mail.
+* Sincronizza facilmente le risorse e i modelli di Full HTML.
+* Organizza e gestisci in modo efficiente cartelle e risorse.
+* Crea pagine di destinazione coinvolgenti ed efficaci.
+* Altre attività del flusso di lavoro: per migliorare i flussi di lavoro delle campagne, accedi ad attività aggiuntive come la dimensione di modifica, la deduplicazione e le consegne ricorrenti.
+
+**Nuove funzionalità chiave**
+
+* Altre attività del flusso di lavoro della campagna
+
+  Sovrascrivi le campagne di marketing con un set esteso di attività per flussi di lavoro. Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi di clienti più dinamici e personalizzati.
+
+  Dalla segmentazione avanzata ai trigger condizionali, le nostre attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e migliorare le prestazioni della campagna.
+
+* Gen AI per contenuti e-mail
+
+  Dì addio alla creazione manuale dei contenuti e ciao a campagne efficienti e basate sui dati con la potenza della Gen AI.  La nostra tecnologia Gen AI utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Aumenta i tassi di apertura, i tassi di click-through e le conversioni con la generazione intelligente di contenuti di Gen AI.
+
+  Rimani all&#39;avanguardia rispetto alla concorrenza e migliora il tuo gioco di e-mail marketing con Gen AI sui contenuti delle e-mail.
+
+
+* Gestione filtri predefiniti
+
+  Introduzione alla gestione predefinita dei filtri. L’interfaccia web di Campaign offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle esigenze specifiche. Crea una volta e salva per un utilizzo futuro.
+
+
+* Pubblico di destinazione
+
+  Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Inoltre, puoi sfruttare il pubblico di AEP (Adobe Experience Platform) per perfezionare ulteriormente il pubblico di destinazione e massimizzare l’impatto della campagna.
+
+* Offerte con SMS e push
+
+  La nuova interfaccia web ora consente di integrare le offerte con le notifiche SMS e push, oltre che con l’e-mail. Raggiungi il pubblico sui loro dispositivi mobili, distribuendo promozioni e notifiche tempestive.
+
+  Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS e notifiche push sulla nostra piattaforma web avanzata.
+
+* Integrazione di Adobe Experience Manager (AEM)
+
+  Con la nostra integrazione AEM estesa all’interfaccia utente web, puoi gestire facilmente le risorse e sincronizzare modelli di HTML completi, consentendoti di creare esperienze digitali accattivanti senza alcun problema.
+
+  Questa integrazione migliora e semplifica le funzionalità di content management nell’interfaccia utente web per aumentare la produttività.
 
 ## Passaggio all’interfaccia utente di Campaign Web
 

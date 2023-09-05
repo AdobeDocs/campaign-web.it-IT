@@ -4,9 +4,9 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Introduzione alle campagne {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Progettare e inviare campagne cross-channel"
->abstract="Con le funzionalità di Adobe Campaign puoi gestire i dati centralizzati dei clienti, progettare comunicazioni e campagne per i clienti e creare esperienze personalizzate su diversi canali: e-mail, push e SMS."
 
 Adobe Campaign consente di orchestrare facilmente le iniziative di marketing mirate, utilizzando la funzionalità integrata di gestione delle campagne. Grazie alla possibilità di definire una pianificazione, puoi pianificare la durata e la tempistica delle campagne in modo da allinearle agli obiettivi strategici e massimizzare il coinvolgimento del pubblico.
 
