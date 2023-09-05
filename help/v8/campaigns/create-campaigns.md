@@ -4,10 +4,10 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 58%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Proprietà di creazione della campagna"
->abstract="Definisci le proprietà e i metadati per la campagna."
+>abstract="In questa schermata, definisci le impostazioni della campagna: seleziona un modello e immetti un’etichetta per la campagna. Individua le impostazioni aggiuntive per modificare il nome interno predefinito, la cartella, aggiungi una descrizione e seleziona l’assegnatario."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Proprietà campagna"
->abstract="Definisci le impostazioni e i metadati della campagna."
+>abstract="In questa schermata, puoi controllare e aggiornare le impostazioni della campagna: l’etichetta, il nome interno, la cartella e la descrizione. Puoi anche visualizzare a quale utente è assegnato."
 
-Per creare una nuova campagna, devi definirne le proprietà, pianificarne e includere i flussi di lavoro e le consegne.
+Per creare una nuova campagna, devi definirne le proprietà e pianificarne la pianificazione, includendo flussi di lavoro e consegne.
 
 ## Crea la campagna{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Pianificazione della campagna"
->abstract="Definisci la pianificazione della campagna durante la creazione della stessa."
 
 Per creare una nuova campagna, segui questi passaggi:
 
@@ -39,14 +34,7 @@ Per creare una nuova campagna, segui questi passaggi:
 1. Seleziona il **Modello** da utilizzare e specifica un’etichetta per la campagna. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client.
    [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it).
 1. Se necessario, è possibile modificare le seguenti **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
-1. Definisci la **Pianificazione** della campagna. La campagna viene avviata quando viene raggiunta la data di inizio. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
-
-   ![Definire le proprietà della campagna](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >Puoi sempre modificare queste proprietà in un secondo momento, dall’icona **Configura le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
-
+1. Definisci la **Pianificazione** della campagna. Scopri come impostare la pianificazione della campagna in [questa sezione](#campaign-schedule)
 1. Fai clic su **Crea**.
 1. Aggiungi flussi di lavoro e consegne alla campagna:
 
@@ -61,6 +49,29 @@ Il monitoraggio delle campagne è un passaggio chiave per analizzare l’efficac
 
 Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti**. Consulta questa [sezione](../reporting/campaign-reports.md).
 
+
+## Definire la pianificazione della campagna {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Pianificazione della campagna"
+>abstract="Seleziona la pianificazione della campagna. Puoi creare la campagna che inizia quando viene raggiunta la data di inizio. Per impostazione predefinita, la data di inizio della campagna è la data di creazione e dura 5 giorni. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro."
+
+
+La campagna viene avviata quando viene raggiunta la data di inizio. Fino a quando la data di inizio non viene raggiunta, la campagna ha il **[!UICONTROL Bozza]** stato. Quindi, quando viene raggiunta la data di inizio, si passa a **[!UICONTROL In corso]**. Una volta raggiunta la data di fine, la campagna viene impostata su **[!UICONTROL Completato]**.
+
+Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
+
+![Definire le proprietà della campagna](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>Puoi sempre modificare queste proprietà in un secondo momento, dall’icona **Configura le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
+
+
+
+Una volta raggiunta la data, le consegne create in tale campagna nel contesto di un flusso di lavoro pronte per essere inviate vengono effettivamente inviate. A questo scopo, il flusso di lavoro deve essere stato avviato.
 
 
 <!--

@@ -4,10 +4,10 @@ title: Impostazioni di consegna e-mail
 description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 87%
+source-wordcount: '1643'
+ht-degree: 77%
 
 ---
 
@@ -27,13 +27,24 @@ Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Le tipologie sono insiemi di regole che vengono eseguite durante la preparazione dei messaggi. Ti consentono di controllare, filtrare e monitorare l’invio delle consegne."
+>abstract="Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
 
-Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di analisi dei messaggi. Consentono di assicurarsi che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Tipologia"
+>abstract="Tipologia le regole consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
+
+
+Le tipologie sono insiemi di **regole di tipologia**, che vengono eseguiti durante la fase di preparazione. Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che soddisfano i criteri di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione della consegna.  Consentono di assicurarsi che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
+
+Le regole di tipologia sono raggruppate all’interno di una tipologia per applicare facilmente più regole di filtro a una consegna.
 
 Durante l’associazione di una tipologia a un messaggio o a un modello di messaggio, le regole di tipologia vengono eseguite per verificare la validità del messaggio.
 
 ![](assets/delivery-settings-1.png)
+
+
 
 
 ### Parametri di pressione {#pressure-parameters}
@@ -42,10 +53,10 @@ Durante l’associazione di una tipologia a un messaggio o a un modello di messa
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Parametri di pressione"
->abstract="Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
+>abstract="I pesi di consegna ti consentono di identificare le consegne con priorità più elevata nel quadro della gestione dell’affaticamento. I messaggi con il peso maggiore hanno priorità."
 
 
-In questa sezione, i parametri di pressione consentono di definire una **soglia**. Si tratta del numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
+In questa sezione, i parametri di pressione consentono di definire un **soglia** per impostare le regole di gestione dell’eccesso. Si tratta del numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
 
 I valori di soglia possono essere costanti o variabili. Ciò significa che per un dato periodo le soglie possono variare da un profilo all’altro, o anche per lo stesso profilo.
 

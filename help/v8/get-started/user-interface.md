@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 98%
+source-wordcount: '1724'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,9 @@ Questa schermata include collegamenti chiave e risorse che permettono di acceder
 
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
 
-Gli **Indicatori chiave di performance** consentono di verificare l’efficacia della piattaforma tramite KPI comuni.
+Gli **Indicatori chiave di performance** consentono di verificare l’efficacia della piattaforma tramite KPI comuni. Ulteriori informazioni su questi KPI in [questa pagina](../reporting/kpis.md).
 
-Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezione **Apprendimento** della pagina Home.
+Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezione **Apprendimento** della pagina home.
 
 ### Explorer {#user-interface-explorer}
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Periodo di validità"
->abstract="Questa opzione definisce la durata per la quale viene attivato il tracciamento degli URL."
+>abstract="Il periodo di validità imposta la durata per la quale viene attivato il tracciamento sugli URL del messaggio."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Peso consegna"
 >abstract="Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Tipologia"
->abstract="Tiplogia consente di controllare, filtrare e monitorare l’invio delle consegne."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
