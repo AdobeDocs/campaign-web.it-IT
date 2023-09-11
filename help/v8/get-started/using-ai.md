@@ -4,14 +4,14 @@ description: Utilizzo dell’assistente esperto basato sull’intelligenza artif
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
 
-# Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web {#using-ai}
+# Utilizzo dell’assistente alla conoscenza basato sull’intelligenza artificiale {#using-ai}
 
 Ottieni risposte veloci e generate da intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’assistente alla conoscenza basato sull’intelligenza artificiale disponibile nelle caselle di aiuto contestuali del prodotto.
 
