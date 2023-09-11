@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ I filtri predefiniti sono filtri personalizzati che vengono creati e salvati per
 
 Puoi utilizzare i filtri incorporati esistenti per accedere a un sottoinsieme specifico dei tuoi dati, oppure creare filtri predefiniti personalizzati e salvarli.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Creare un filtro predefinito {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ Puoi utilizzare i filtri incorporati esistenti per accedere a un sottoinsieme sp
 >title="Creare un filtro predefinito"
 >abstract="Immetti un’etichetta per il filtro predefinito e seleziona la tabella a cui si applica. Apri le opzioni aggiuntive per aggiungere una descrizione e imposta questo filtro come preferito. Quindi utilizza il pulsante &quot;Crea regola&quot; per definire le condizioni di filtro."
 
-Quando crei un filtro con il generatore di regole, puoi salvarlo per un utilizzo futuro. Quando viene salvato come filtro personalizzato, è disponibile per un utilizzo futuro. Puoi anche creare e modificare un filtro predefinito dal menu dedicato nella navigazione a sinistra.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Creare le regole di filtro predefinite"
+>abstract="Per definire le condizioni di filtro del filtro personalizzato, fai clic sul pulsante &quot;Crea regola&quot;."
+
 
 Per salvare un filtro personalizzato nel generatore di regole, effettua le seguenti operazioni:
 
@@ -83,7 +88,6 @@ Puoi quindi accedere all’elenco completo dei filtri predefiniti disponibili pe
 
 È inoltre possibile utilizzare le scelte rapide da filtro disponibili nel **Filtri preferiti** del menu a discesa.
 
-
 Ad esempio, per creare un pubblico da un filtro predefinito, segui questi passaggi:
 
 1. Sfoglia il **Tipi di pubblico** nel menu a sinistra.
@@ -120,6 +124,8 @@ Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza e:
 * modificare un filtro esistente e modificarne regole e proprietà
 * duplicare un filtro predefinito
 * eliminare un filtro predefinito
+
+Puoi aggiungere un filtro predefinito come preferito per un accesso rapido durante la creazione delle regole. Questa funzionalità è descritta in [questa sezione](#create-predefined-filter).
 
 ## Filtri predefiniti incorporati {#ootb-predefined-filter}
 
