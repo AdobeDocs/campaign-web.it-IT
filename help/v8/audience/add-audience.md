@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selezionare un pubblico esistente"
->abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona &quot;Mostra filtri&quot; per filtrare l’elenco o seleziona una cartella specifica."
+>abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona “Mostra filtri” per filtrare l’elenco o seleziona una cartella specifica."
 
 Questa sezione descrive come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail.
 
@@ -40,12 +40,12 @@ Per selezionare un pubblico esistente per il messaggio, segui la procedura segue
 
    ![](assets/create-audience2.png)
 
-   I tipi di pubblico vengono creati da **Pubblico** menu a sinistra. Possono essere create anche nella console client.
+   I tipi di pubblico vengono creati dal menu a sinistra **Pubblico**. Possono essere creati anche nella console client.
 
-   Per utilizzare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con Destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
+   Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
 1. Scegli un pubblico e fai clic su **Seleziona**.
-1. Utilizza il **Mostra filtri** per visualizzare le opzioni di filtro. Clic **Aggiungi regole** per accedere al generatore di regole: l’utilizzo del generatore di regole consente di creare filtri avanzati per l’elenco dei tipi di pubblico. Scopri come utilizzare il generatore di regole in questo [sezione](segment-builder.md).
+1. Utilizza l’icona **Mostra filtri** per visualizzare le opzioni di filtro. Fai clic su **Aggiungi regole** per accedere al generatore di regole: l’utilizzo di questo strumento consente di creare filtri avanzati per l’elenco dei tipi di pubblico. Scopri come utilizzare il generatore di regole in questa [sezione](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
