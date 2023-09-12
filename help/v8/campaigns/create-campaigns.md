@@ -4,7 +4,7 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 58%
@@ -68,8 +68,6 @@ Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e 
 >[!NOTE]
 >
 >Puoi sempre modificare queste proprietà in un secondo momento, dall’icona **Configura le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
-
-
 
 Una volta raggiunta la data, le consegne create in tale campagna nel contesto di un flusso di lavoro pronte per essere inviate vengono effettivamente inviate. A questo scopo, il flusso di lavoro deve essere stato avviato.
 
