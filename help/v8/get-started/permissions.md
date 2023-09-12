@@ -1,19 +1,29 @@
 ---
 audience: end-user
-title: Gestione delle autorizzazioni nel web di Campaign
-description: Ulteriori informazioni sulle autorizzazioni in Campaign web v8
+title: Gestione delle autorizzazioni in Campaign Web
+description: Ulteriori informazioni sulle autorizzazioni in Campaign Web v8
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 0%
+source-wordcount: '473'
+ht-degree: 33%
 
 ---
 
 
 # Accesso e autorizzazioni {#access-and-permissions}
 
-Il controllo di accesso può limitare l’accesso a oggetti e dati da elenchi principali, come consegne, destinatari o flussi di lavoro. Queste restrizioni si applicano anche nella struttura di navigazione di Explorer. È inoltre necessario disporre delle autorizzazioni per creare, eliminare, duplicare e modificare oggetti dall&#39;interfaccia utente. Il controllo degli accessi viene gestito nella console client. Tutte le autorizzazioni in Campaign Web vengono sincronizzate con le autorizzazioni della console client di Campaign. Solo gli amministratori di Campaign possono definire e modificare le autorizzazioni utente. Ulteriori informazioni sulle autorizzazioni per gli utenti in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Autorizzazione necessaria"
+>abstract="L&#39;amministratore deve concedere l&#39;autorizzazione prima di poter creare questo oggetto."
+
+
+
+Il controllo degli accessi può limitare l’accesso a oggetti e dati da elenchi principali, come consegne, destinatari o flussi di lavoro. Queste restrizioni si applicano anche nella struttura di navigazione di Explorer. È inoltre necessario disporre delle autorizzazioni per creare, eliminare, duplicare e modificare oggetti dall’interfaccia utente.
+
+Il controllo degli accessi viene gestito nella console client. Tutte le autorizzazioni in Campaign Web vengono sincronizzate con le autorizzazioni della console client di Campaign. Solo gli amministratori di Campaign possono definire e modificare le autorizzazioni utente. Ulteriori informazioni sulle autorizzazioni per gli utenti in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=it){target="_blank"}.
 
 Durante la navigazione nell’interfaccia utente di Campaign Web, puoi accedere a dati, oggetti e funzionalità in base alle autorizzazioni di cui disponi. Ad esempio, se non disponi delle autorizzazioni di accesso per una cartella, non puoi visualizzarla. Le autorizzazioni influiscono anche sulla gestione di oggetti e dati. Senza le autorizzazioni di scrittura per una cartella specifica, non puoi creare una consegna in tale cartella, anche se è possibile visualizzarla nell’interfaccia utente.
 
