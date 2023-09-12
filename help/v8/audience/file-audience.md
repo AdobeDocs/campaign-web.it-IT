@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
@@ -59,8 +59,8 @@ Durante la creazione e la personalizzazione del contenuto del messaggio, puoi se
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="File di esempio"
->abstract="Formati di file supportati: txt, csv. Utilizza la prima riga come intestazione di colonna."
+>title="Caricare un pubblico da un file"
+>abstract="I formati di file supportati sono TXT e CSV. Utilizza la prima riga come intestazione di colonna. Allinea il formato del file al file di esempio fornito nel collegamento seguente."
 
 Sono supportati i formati TXT e CSV. La prima riga è l’intestazione della colonna.
 
