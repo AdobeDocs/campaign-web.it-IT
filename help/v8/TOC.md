@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 97%
+source-wordcount: '374'
+ht-degree: 96%
 
 ---
 
@@ -79,10 +79,12 @@ ht-degree: 97%
 + Tipi di pubblico e destinatari {#audiences}
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Utilizzare i destinatari](audience/about-recipients.md)
-   + [Selezionare un pubblico esistente](audience/add-audience.md)
-   + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
-   + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
-   + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
+   + [Creare tipi di pubblico](audience/create-audience.md)
+   + Pubblico di destinazione {#target-audiences}
+      + [Selezionare un pubblico esistente](audience/add-audience.md)
+      + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
+      + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
+      + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
    + [Impostare un gruppo di controllo](audience/control-group.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
