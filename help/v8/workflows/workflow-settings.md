@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,13 @@ La sezione **[!UICONTROL Proprietà]** offre impostazioni generiche accessibili 
 * **[!UICONTROL Cartella]**: la cartella in cui deve essere salvato il flusso di lavoro.
 * **[!UICONTROL Campagna collegata]**: questo campo viene visualizzato se il flusso di lavoro è stato creato all’interno di una campagna. Ti consente di aprire la campagna associata.
 * **[!UICONTROL Fuso orario]**: definisci un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
-* **[!UICONTROL Supervisore/i]**: quando un flusso di lavoro genera un errore, gli operatori appartenenti al gruppo di supervisione del flusso di lavoro ricevono una notifica tramite e-mail, purché il loro indirizzo e-mail sia elencato nel loro profilo.
+Altri valori possibili sono:
+   * **Fuso orario del server** per utilizzare il fuso orario del server applicazioni Adobe Campaign
+   * **Fuso orario operatore** per utilizzare il fuso orario dell’operatore Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell’operatore, nella console client
+   * **Fuso orario del database** per utilizzare il fuso orario del server di database
+   * Un fuso orario specifico
+
+* **[!UICONTROL Supervisori]**: quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato in questo campo vengono notificati tramite e-mail.
 * **[!UICONTROL Descrizione]**: utilizza questo campo per fornire una descrizione del flusso di lavoro.
 
 ## Impostazioni di segmentazione
