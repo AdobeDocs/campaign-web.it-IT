@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 94%
+source-wordcount: '442'
+ht-degree: 75%
 
 ---
 
@@ -36,6 +36,7 @@ Puoi caricare i contatti da un file esterno. I profili non vengono aggiunti al d
 >
 >* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
 
+## Carica il file {#upload}
 
 Per eseguire il targeting dei profili da un file locale direttamente dall’interfaccia e-mail, segui questi passaggi:
 
@@ -54,6 +55,22 @@ Durante la creazione e la personalizzazione del contenuto del messaggio, puoi se
 
 ![](assets/select-external-perso.png)
 
+## Anteprima e verifica dell’e-mail {#test}
+
+Campaign Web consente di visualizzare in anteprima e inviare e-mail di test quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
+
+1. Simula contenuto
+1. Apre l&#39;anteprima. Fai clic su Seleziona profili: seleziona i profili dal file da utilizzare
+1. per inviare l’e-mail di test, fai clic su test
+1. modalità di test: definisci il target delle bozze
+1. Carica il target dell’e-mail di test da un secondo file (o utilizza lo stesso). la formattazione del file è uguale a quella del file caricato
+1. Controlli eseguiti sul formato file
+1. fai clic su invia
+
++ collegamento alla sezione anteprima e test
+
+**domande:**
+* non è disponibile alcuna sostituzione dal file?
 
 ## File di esempio {#sample-file}
 
