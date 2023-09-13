@@ -4,9 +4,9 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1224'
 ht-degree: 95%
 
 ---
@@ -121,7 +121,7 @@ In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente. Per i
    >
    >I tipi di pubblico disponibili nell’elenco provengono dall’istanza Campaign v8 oppure, se nell’istanza è stata configurata l’integrazione Destinazione/Origini, da Adobe Experience Platform.
    >
-   >L’integrazione Destinazione/Origini consente di inviare segmenti di Experience Platform ad Adobe Campaign e di inviare i registri di consegna e tracciamento di Campaign ad Adobe Experience Platform. Scopri come utilizzare Campaign e Adobe Experience Platform in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=it){target="_blank"}.
+   >L’integrazione Destinazione/Origini consente di inviare segmenti di Experience Platform ad Adobe Campaign e di inviare i registri di consegna e tracciamento di Campaign ad Adobe Experience Platform. Scopri come utilizzare Campaign e Adobe Experience Platform, consultando la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=it){target="_blank"}.
 
 1. Una volta selezionato il pubblico, puoi perfezionare ulteriormente il target applicando regole aggiuntive.
 
@@ -131,16 +131,11 @@ In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente. Per i
 
 ## Pianificare l’invio {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Pianificare l’invio"
->abstract="Definisci la data e l’ora esatta dell’invio. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura."
-
-Per pianificare l’invio dell’e-mail, apri la consegna e-mail e passa alla sezione **Pianificazione**. Utilizza l’interruttore **[!UICONTROL Abilita pianificazione]** per attivarla e impostare la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
-
-Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che l’e-mail venga inviata alla data e all’ora pianificate. Se desideri inviare l’e-mail automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
+Per pianificare l’invio dell’e-mail, apri la consegna e-mail e passa alla sezione **Pianificazione.**
 
 ![](assets/schedule.png)
+
+Scopri come pianificare l’invio della consegna [questa sezione](../msg/gs-messages.md#gs-schedule)
 
 ## Anteprima e test dell’e-mail {#preview-test}
 

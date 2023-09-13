@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 
 1. Definisci il pubblico della consegna per il target principale e il gruppo di controllo. Per ulteriori informazioni sui tipi di pubblico, consulta [questa sezione](../audience/about-audiences.md).
 1. Definisci il contenuto del messaggio.
-1. (facoltativo) Definisci la pianificazione della consegna. Se non è definita alcuna pianificazione, i messaggi vengono inviati immediatamente dopo aver fatto clic sul pulsante **[!UICONTROL Invia]**.
+1. (facoltativo) Definire la consegna [pianificazione](#gs-schedule). Se non è definita alcuna pianificazione, i messaggi vengono inviati immediatamente dopo aver fatto clic sul pulsante **[!UICONTROL Invia]**.
 1. Fai clic sul pulsante **[!UICONTROL Rivedi e invia]** per verificare le impostazioni.
 1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per verificare la consegna e le impostazioni di personalizzazione. Per ulteriori informazioni sulla simulazione di messaggi, consulta [questa sezione](../preview-test/preview-test.md).
 1. Fai clic sul pulsante **[!UICONTROL Prepara]** per calcolare la popolazione target e generare i messaggi. La fase di preparazione può richiedere alcuni minuti. Una volta completata la preparazione, i messaggi sono pronti per l’invio. In caso di errore, passa a **Registri** per controllare avvisi e avvertenze.
@@ -144,8 +144,24 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima per controllare il rendering dei messaggi e verificare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../preview-test/preview-test.md)
 
+## Pianificare l’invio della consegna {#gs-schedule}
 
-## Registri di monitoraggio e di tracciamento{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Pianificare l’invio"
+>abstract="Definisci la data e l’ora esatta di invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura."
+
+Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura.
+
+Per pianificare l’invio della consegna, apri la consegna e passa alla **Pianificazione** sezione. Utilizza il **[!UICONTROL Abilita pianificazione]** attiva per attivarlo e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
+
+![](assets/schedule.png)
+
+Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che la consegna venga inviata alla data e all’ora pianificate. Se devi inviare la consegna automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
+
+Scopri come inviare una consegna pianificata in [questa sezione](../monitor/prepare-send.md#schedule-the-send).
+
+## Registri di monitoraggio e di tracciamento {#gs-tracking-logs}
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti.
 

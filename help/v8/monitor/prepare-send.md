@@ -4,7 +4,7 @@ title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%
@@ -35,7 +35,7 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    >[!NOTE]
    >
-   >Se hai pianificato la consegna e hai disabilitato l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]**, i passaggi di preparazione e invio sono raggruppati nel pulsante **[!UICONTROL Prepara e invia]**. [Ulteriori informazioni sulla pianificazione](../email/create-email.md#schedule)
+   >Se hai pianificato la consegna e hai disabilitato l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]**, i passaggi di preparazione e invio sono raggruppati nel pulsante **[!UICONTROL Prepara e invia]**. [Ulteriori informazioni sulla pianificazione](../msg/gs-messages.md#gs-schedule)
 
 1. Viene visualizzato l’avanzamento della preparazione. A seconda della dimensione della popolazione target, questa operazione potrebbe richiedere del tempo.
 
@@ -87,7 +87,7 @@ Una volta completata la preparazione senza errori, il messaggio è pronto per es
 
 Una volta completata la [preparazione](#prepare), puoi inviare l’e-mail.
 
-Se il messaggio è pianificato, verrà inviato alla data e all’ora definite. [Ulteriori informazioni](#schedule-the-send)
+Se il messaggio è pianificato, verrà inviato alla data e all’ora definite. [Ulteriori informazioni](../msg/gs-messages.md#gs-schedule)
 
 ### Inviare immediatamente {#send-immediately}
 
@@ -105,7 +105,7 @@ Per inviare immediatamente un’e-mail, segui la procedura indicata di seguito.
 
 Se hai pianificato l’invio dell’e-mail in una data e in un’ora successive, segui i passaggi indicati di seguito.
 
-1. Prima di premere il pulsante **[!UICONTROL Rivedi e invia]**, assicurati di aver definito una pianificazione per l’e-mail. [Ulteriori informazioni](../email/create-email.md#schedule)
+1. Prima di premere il pulsante **[!UICONTROL Rivedi e invia]**, assicurati di aver definito una pianificazione per l’e-mail. [Ulteriori informazioni](../msg/gs-messages.md#gs-schedule)
 
 1. Nella dashboard della consegna, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**, in alto a destra.
 
@@ -115,7 +115,7 @@ Se hai pianificato l’invio dell’e-mail in una data e in un’ora successive,
 
    >[!NOTE]
    >
-   >Se hai disabilitato l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]**, i passaggi di preparazione e invio sono raggruppati nel pulsante **[!UICONTROL Prepara e invia]**. [Ulteriori informazioni sulla pianificazione](../email/create-email.md#schedule)
+   >Se hai disabilitato l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]**, i passaggi di preparazione e invio sono raggruppati nel pulsante **[!UICONTROL Prepara e invia]**. [Ulteriori informazioni sulla pianificazione](../msg/gs-messages.md#gs-schedule)
 
 ## Sospendere o interrompere l’invio {#pause-stop-sending}
 
