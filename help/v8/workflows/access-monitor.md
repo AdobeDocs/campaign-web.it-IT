@@ -4,7 +4,7 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Il menu **[!UICONTROL Flussi di lavoro]** consente di accedere all’elenco comp
 
 Ogni flusso di lavoro dell’elenco mostra informazioni sul relativo [stato](#status), l’ultima volta che è stato eseguito o modificato e la data e ora di esecuzione successiva pianificata.
 
-Puoi personalizzare le colonne visualizzate facendo clic sull’icona **[!UICONTROL Configura una colonna per un layout personalizzato]** nell’angolo superiore a destra dell&#39;elenco. Ciò ti consente di aggiungere ulteriori informazioni all’elenco, ad esempio l’ultima attività in errore per ogni flusso di lavoro o la dimensione di targeting applicata.
+Puoi personalizzare le colonne visualizzate facendo clic sull’icona **[!UICONTROL Configura le colonne per un layout personalizzato]**, in alto a destra dell’elenco. Ciò ti consente di aggiungere ulteriori informazioni all’elenco, ad esempio l’ultima attività in errore per ogni flusso di lavoro o la dimensione di targeting applicata.
 
 Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. Ad esempio, puoi filtrare i flussi di lavoro per visualizzare solo quelli appartenenti a una campagna o quelli elaborati durante un intervallo di date specifico.
 
