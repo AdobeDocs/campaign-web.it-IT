@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 50%
+source-wordcount: '903'
+ht-degree: 59%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 50%
 
 Siamo entusiasti di presentare la versione BETA dell’interfaccia utente web di Adobe Campaign. La nostra ultima versione è dotata di funzioni intuitive progettate per semplificare la creazione di campagne personalizzate multicanale, generare risultati eccezionali e offrire un vantaggio competitivo su tutti i canali.
 
-## Versione beta{#beta-release}
+## Versione Beta{#beta-release}
 
-Questa nuova interfaccia web di Campaign è attualmente disponibile solo per **Beta-professionisti** con le seguenti funzionalità:
+Questa nuova interfaccia web di Campaign è attualmente disponibile solo per i **professionisti Beta** con le seguenti funzionalità:
 
 **Esperienza moderna, intuitiva e unificata**
 
@@ -52,15 +52,13 @@ Utilizza la nuova interfaccia di Campaign Web per:
 
 ## Ultimi aggiornamenti
 
-
 **Riepilogo versione beta**
 
-* Abilita la composizione dei dati (federata) per tipi di pubblico e personalizzazione.
-* Utilizza la tecnologia AI per migliorare la generazione dei contenuti e-mail.
-* Sincronizza facilmente le risorse e i modelli di Full HTML.
-* Organizza e gestisci in modo efficiente cartelle e risorse.
-* Crea pagine di destinazione coinvolgenti ed efficaci.
-* Altre attività del flusso di lavoro: per migliorare i flussi di lavoro delle campagne, accedi ad attività aggiuntive come la dimensione di modifica, la deduplicazione e le consegne ricorrenti.
+* Abilita composizione dati (federato) per tipi di pubblico e personalizzazione
+* Utilizzare la tecnologia AI per migliorare la generazione dei contenuti e-mail
+* Sincronizzare facilmente le risorse e i modelli di Full HTML
+* Organizzare e gestire in modo efficiente cartelle e risorse
+* Accedi ad attività aggiuntive, come modifica della dimensione, deduplicazione e consegne ricorrenti, per migliorare i flussi di lavoro delle campagne
 
 **Nuove funzionalità chiave**
 
@@ -92,11 +90,14 @@ Utilizza la nuova interfaccia di Campaign Web per:
 
   Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS e notifiche push sulla nostra piattaforma web avanzata.
 
-* Integrazione di Adobe Experience Manager (AEM)
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Con la nostra integrazione AEM estesa all’interfaccia utente web, puoi gestire facilmente le risorse e sincronizzare modelli di HTML completi, consentendoti di creare esperienze digitali accattivanti senza alcun problema.
-
-  Questa integrazione migliora e semplifica le funzionalità di content management nell’interfaccia utente web per aumentare la produttività.
 
 ## Passaggio all’interfaccia utente di Campaign Web
 
@@ -104,7 +105,7 @@ In qualità di utente di Campaign, puoi comunque accedere alla console client pe
 
 Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dal menu di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Con il rilascio Campaign Web Beta, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni in [questa pagina](../get-started/permissions.md)
+Con il rilascio della versione Campaign Web Beta, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
 
 ## Aggiornamenti terminologici {#terminology-updates}
 
