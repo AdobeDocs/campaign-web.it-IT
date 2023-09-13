@@ -4,9 +4,9 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare un flusso di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
+source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '693'
 ht-degree: 8%
 
 ---
@@ -64,6 +64,12 @@ Per creare un modello di workflow da un workflow esistente, effettuare le seguen
 1. Nella finestra pop-up, conferma la creazione del modello.
 1. Nell’area di lavoro del modello di flusso di lavoro, seleziona, aggiungi e configura le attività in base alle esigenze.
 1. Passare alle impostazioni per modificare il nome del modello di workflow e immettere una descrizione.
+1. Seleziona la cartella e la cartella di esecuzione del modello. La cartella è il percorso in cui viene salvato il modello di workflow. La cartella di esecuzione è la cartella in cui vengono salvati i flussi di lavoro creati in base a questo modello.
+
+   ![](assets/wf-settings-template.png)
+
+   Le altre proprietà sono comuni ai flussi di lavoro. Per ulteriori informazioni, consulta [questa pagina](workflow-settings.md#properties)
+
 1. Salva le modifiche.
 
 Il modello di workflow è ora disponibile nell&#39;elenco dei modelli. Puoi creare un flusso di lavoro basato su questo modello. Questo flusso di lavoro sarà preconfigurato con le impostazioni e le attività definite nel modello.
@@ -79,9 +85,9 @@ Per creare un modello di flusso di lavoro da zero, effettua le seguenti operazio
 1. Immettere l&#39;etichetta e aprire le opzioni aggiuntive per immettere una descrizione del modello di workflow.
 1. Seleziona la cartella e la cartella di esecuzione del modello. La cartella è il percorso in cui viene salvato il modello di workflow. La cartella di esecuzione è la cartella in cui vengono salvati i flussi di lavoro creati in base a questo modello.
 
-   Le altre proprietà sono comuni ai flussi di lavoro. Per ulteriori informazioni, consulta [questa pagina](workflow-settings.md#properties)
-
    ![](assets/new-wf-template.png)
+
+   Le altre proprietà sono comuni ai flussi di lavoro. Per ulteriori informazioni, consulta [questa pagina](workflow-settings.md#properties)
 
 1. Fai clic su **Crea** per confermare le impostazioni.
 1. Nell’area di lavoro del modello di flusso di lavoro, aggiungi e configura le attività in base alle esigenze.
