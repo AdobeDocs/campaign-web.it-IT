@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 59%
+source-wordcount: '895'
+ht-degree: 60%
 
 ---
 
@@ -77,18 +77,18 @@ Utilizza la nuova interfaccia di Campaign Web per:
 
 * Gestione filtri predefiniti
 
-  Introduzione alla gestione predefinita dei filtri. L’interfaccia web di Campaign offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle esigenze specifiche. Crea una volta e salva per un utilizzo futuro. [Ulteriori informazioni](../personalization/predefined-filters.md)
+  Introduzione alla gestione predefinita dei filtri. L’interfaccia web di Campaign offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle esigenze specifiche. Crea una volta e salva per un utilizzo futuro. [Ulteriori informazioni](predefined-filters.md)
 
 
 * Pubblico di destinazione
 
   Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Inoltre, puoi sfruttare il pubblico di AEP (Adobe Experience Platform) per perfezionare ulteriormente il pubblico di destinazione e massimizzare l’impatto della campagna.
 
-* Offerte con SMS e push
+* Offerte con SMS
 
-  La nuova interfaccia web ora consente di integrare le offerte con le notifiche SMS e push, oltre che con l’e-mail. Raggiungi il pubblico sui loro dispositivi mobili, distribuendo promozioni e notifiche tempestive.
+  La nuova interfaccia web ora consente di integrare le offerte con gli SMS, oltre che con l’e-mail. Raggiungi il pubblico sui loro dispositivi mobili, distribuendo promozioni e notifiche tempestive.
 
-  Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS e notifiche push sulla nostra piattaforma web avanzata.
+  Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS sulla nostra piattaforma web avanzata.
 
 <!--
 * Adobe Experience Manager (AEM) Integration

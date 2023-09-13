@@ -3,11 +3,11 @@ audience: end-user
 title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alfa"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 87%
+source-wordcount: '1758'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 87%
 >title="Scopri l’interfaccia"
 >abstract="La nuova interfaccia di Campaign Web v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
-La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con Adobe Experience Platform.
+La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e
 
 * **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
 
-Scopri come creare e gestire le offerte nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Scopri come creare e inviare offerte tramite e-mail e SMS in [questa sezione](../content/offers.md).
 
 ## Barra superiore
 
 Utilizza la barra superiore dell’interfaccia per:
 
-* Condividere un feedback come tester della versione alfa
+* condividere il tuo feedback come Beta Tester
 * Passare a un’altra organizzazione e ad altre istanze
 * Passare a un’altra applicazione Adobe Experience Cloud
 * Accedere alle pagine della guida, contattare il supporto e inviare feedback. Puoi usare il campo di ricerca per cercare un argomento negli articoli e video della guida.
