@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorare e gestire i tipi di pubblico
 description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è 
 
 I tipi di pubblico possono provenire da più sorgenti. Il **[!UICONTROL Origine]** Le colonne indicano dove è stato creato un determinato pubblico:
 
-* **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico sono stati creati in Adobe Experience Platform e resi disponibili in Campaign Web utilizzando l’integrazione con Origini e Destinazioni Adobi. Scopri come impostare questa integrazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico vengono creati all’interno di Adobe Experience Platform e sono integrati in Campaign Web utilizzando l’integrazione Adobe Sources and Destinations. Scopri come impostare questa integrazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati utilizzando un flusso di lavoro web di Campaign. [Scopri come creare tipi di pubblico](create-audience.md)
+* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati utilizzando i flussi di lavoro Pubblico web di Campaign. [Scopri come creare tipi di pubblico](create-audience.md)
 
 *quali sono le altre origini? Sono personalizzati? Dove li definiamo?*
 
@@ -29,7 +29,7 @@ I tipi di pubblico possono provenire da più sorgenti. Il **[!UICONTROL Origine]
 
 Per ottenere ulteriori informazioni su un pubblico, aprilo dall’elenco. Vengono visualizzate le proprietà del pubblico e il numero di profili inclusi nel pubblico. Puoi aggiornare il conteggio del pubblico in qualsiasi momento utilizzando **[!UICONTROL Calcola]** pulsante.
 
-La scheda Dati consente di visualizzare i profili che fanno parte del pubblico. Puoi personalizzare questa visualizzazione aggiungendo più colonne. Puoi anche sfruttare i filtri avanzati per perfezionare i dati visualizzati.
+Il **[!UICONTROL Dati]** Questa scheda ti consente di visualizzare i profili che fanno parte del pubblico. Puoi personalizzare questa visualizzazione aggiungendo più colonne o sfruttando filtri avanzati per perfezionare i dati visualizzati.
 
 ![](assets/audiences-details.png)
 
