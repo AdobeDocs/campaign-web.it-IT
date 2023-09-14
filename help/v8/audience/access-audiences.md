@@ -3,7 +3,7 @@ audience: end-user
 title: Monitorare e gestire i tipi di pubblico
 description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -21,7 +21,7 @@ I tipi di pubblico possono provenire da più sorgenti. Il **[!UICONTROL Origine]
 
 * **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico sono stati creati in Adobe Experience Platform e resi disponibili in Campaign Web utilizzando l’integrazione con Origini e Destinazioni Adobi. Scopri come impostare questa integrazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati utilizzando un flusso di lavoro web di Campaign. [Scopri come creare tipi di pubblico](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati utilizzando un flusso di lavoro web di Campaign. [Scopri come creare tipi di pubblico](create-audience.md)
 
 *quali sono le altre origini? Sono personalizzati? Dove li definiamo?*
 
