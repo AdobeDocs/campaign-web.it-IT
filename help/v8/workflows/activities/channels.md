@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 81%
 
 ---
@@ -22,7 +22,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >[!NOTE]
 >
 >Puoi anche creare una consegna una tantum, al di fuori del contesto di un flusso di lavoro della campagna. Per ulteriori informazioni, consulta le sezioni seguenti:
->* [Creare la consegna e-mail autonoma](../../email/create-email.md
+>* [Creare la consegna e-mail autonoma](../../email/create-email.md)
 >* [Creare una consegna SMS indipendente](../../sms/create-sms.md)
 >* [Creare una consegna push autonoma](../../push/create-push.md)
 >
