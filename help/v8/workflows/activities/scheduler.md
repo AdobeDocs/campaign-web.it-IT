@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Scheduler
 description: Scopri come utilizzare l’attività del flusso di lavoro Scheduler
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 15%
+source-wordcount: '367'
+ht-degree: 14%
 
 ---
 
@@ -55,6 +55,13 @@ Per configurare il **Scheduler** attività:
    * **Permanente (non scade mai)**: il flusso di lavoro viene eseguito, in base alla frequenza specificata, senza alcun limite all’intervallo di tempo o al numero di iterazioni.
 
    * **Periodo di validità**: il flusso di lavoro viene eseguito in base alla frequenza specificata, fino a una data specifica. È necessario specificare le date di inizio e di fine.
+
+>[!NOTE]
+>
+>Se desideri avviare immediatamente il flusso di lavoro, puoi fare clic sul pulsante **Esegui attività in sospeso** nella barra delle azioni superiore dell&#39;utilità di pianificazione. Questo pulsante è disponibile solo quando hai avviato il flusso di lavoro.
+
+Note:
+
 
 ## Esempio
 
