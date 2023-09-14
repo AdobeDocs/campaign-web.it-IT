@@ -5,9 +5,9 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 90%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 90%
          + Assistente contenuti {#content-assistant}
             + [Generazione di testo con l’assistente contenuto](content/generative-content.md)
             + [Generazione di immagini con l’assistente contenuto](content/generative-image.md)
-            + [Generare un messaggio e-mail con l’assistente al contenuto](content/generative-email.md)
+            + [Generazione di e-mail con l’assistente al contenuto](content/generative-email.md)
          + Personalizzare lo stile del contenuto {#style}
             + [Introduzione allo stile dell’e-mail](content/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](content/backgrounds.md)
