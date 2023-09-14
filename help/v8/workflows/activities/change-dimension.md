@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica dimensione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica dimensione
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Per configurare il **modifica dimensione** attività:
 
 1. Aggiungi un **Cambia dimensione** al flusso di lavoro.
 
-       &lt;!...[](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. Seleziona la nuova dimensione di targeting tramite il campo Modifica dimensione.
 

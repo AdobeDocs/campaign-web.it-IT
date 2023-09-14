@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Scheduler
 description: Scopri come utilizzare l’attività del flusso di lavoro Scheduler
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 15%
@@ -30,7 +30,7 @@ Per configurare il **Scheduler** attività:
 
 1. Aggiungi un **Scheduler** al flusso di lavoro.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Configurare **Frequenza di esecuzione**:
 
@@ -58,7 +58,7 @@ Per configurare il **Scheduler** attività:
 
 Nell’esempio seguente, l’attività è configurata in modo che avvii il flusso di lavoro diverse volte al giorno alle 9 e alle 12, ogni giorno della settimana dal 1° ottobre 2023 al 1° gennaio 2024.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
