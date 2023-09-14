@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 81%
 
 ---
@@ -27,9 +27,9 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >* [Creare una consegna push autonoma](../../push/create-push.md)
 >
 
-## Creare una consegna in un flusso di lavoro della campagna{#create-a-delivery-in-a-workflow}
+## Creare una consegna in un flusso di lavoro{#create-a-delivery-in-a-workflow}
 
-Per creare un’e-mail, un SMS o una consegna push nel contesto di un flusso di lavoro della campagna, segui i passaggi seguenti:
+Per creare un’e-mail, un SMS o una consegna push nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 
 1. Assicurati di aver aggiunto un’attività **Crea pubblico**. Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**. Consulta [questa sezione](build-audience.md).
 
@@ -56,7 +56,7 @@ Per creare un’e-mail, un SMS o una consegna push nel contesto di un flusso di 
 
 1. Nella dashboard della consegna, fai clic su **Invia**.
 
-## Esempio{#cross-channel-workflow-sample}
+## Esempio {#cross-channel-workflow-sample}
 
 Di seguito è riportato un esempio di flusso di lavoro cross-channel con una segmentazione e due consegne. Il flusso di lavoro esegue il targeting di tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
 

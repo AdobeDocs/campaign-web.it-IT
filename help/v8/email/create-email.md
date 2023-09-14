@@ -4,7 +4,7 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 90%
