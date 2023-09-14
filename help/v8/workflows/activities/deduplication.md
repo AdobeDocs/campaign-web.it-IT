@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Deduplicazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Deduplicazione
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 13%
+source-wordcount: '281'
+ht-degree: 8%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 13%
 >title="Attività Fork"
 >abstract="L’attività Deduplication ti consente di:"
 
-L’attività Deduplication ti consente di eliminare i duplicati nei risultati delle attività in entrata.
-
-L’attività Deduplication viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
+Il **Deduplicazione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di eliminare i duplicati nei risultati delle attività in entrata. Il **Deduplicazione** l’attività viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
 
 ## Configurazione
 
 Per configurare il **Scheduler** attività:
 
 1. Aggiungi un **Deduplicazione** al flusso di lavoro.
+
+   <!--![](../assets/workflow-deduplication.png)-->
 
 1. In **Campi per identificare i duplicati** , fare clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati: indirizzo e-mail, nome, cognome, ecc. L’ordine dei campi ti consente di specificare quali elaborare per primi.
 
@@ -48,3 +48,6 @@ Per configurare il **Scheduler** attività:
    * **Seguendo un elenco di valori**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori. ++ Ordina
 
 1. Controlla la **Genera complemento** se desideri sfruttare il gruppo rimanente. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta una transizione aggiuntiva all’attività.
+
+## Esempio
+
