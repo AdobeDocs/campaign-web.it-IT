@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '941'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Un modello può includere:
 * Collegamenti a [pagine mirror](../content/mirror-page.md) e [collegamenti](../content/message-tracking.md) per annullare l’iscrizione
 * Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni della quarantena
 
-## Accedere ai modelli e gestirli {#access-manage-templates}
+## Accedere e gestire i modelli di consegna {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ Per eliminare o [duplicare](#copy-an-existing-template) un modello, seleziona l�
 >
 >La modifica o l’eliminazione di un modello non ha alcun effetto sulle consegne che sono già state create con tale modello.
 
-## Creare un modello {#create-a-delivery-template}
+## Creare un modello di consegna {#create-a-delivery-template}
 
 Per creare un modello di consegna, puoi utilizzare diversi metodi:
 * Duplicare un modello esistente - [Ulteriori informazioni](#copy-an-existing-template)
 * Convertire una consegna esistente in un modello - [Ulteriori informazioni](#convert-an-existing-delivery)
 * Creare un modello di consegna da zero - [Ulteriori informazioni](#create-a-new-template)
 
-### Duplicare un modello esistente {#copy-an-existing-template}
+### Duplica un modello di consegna esistente {#copy-an-existing-template}
 
 Campaign include un set di modelli incorporati per ogni canale: e-mail, push e SMS. Il modo più semplice per creare un modello di consegna consiste nel duplicare e personalizzare un modello incorporato.
 
@@ -120,7 +120,7 @@ Per salvare una consegna come modello, segui i passaggi seguenti:
 
 Il nuovo modello viene aggiunto all’elenco [**Modelli**](#access-manage-templates). Ora puoi selezionarlo durante la creazione di una nuova consegna.
 
-### Creare un nuovo modello {#create-a-new-template}
+### Creare un nuovo modello di consegna {#create-a-new-template}
 
 >[!NOTE]
 >

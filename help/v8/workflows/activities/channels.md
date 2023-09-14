@@ -3,15 +3,15 @@ audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 81%
 
 ---
 
 
-# E-mail, SMS e push {#channel}
+# Attività di e-mail, SMS e push {#channel}
 
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti.
 
@@ -19,7 +19,17 @@ Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie d
 
 Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono i clienti su più punti di contatto e danno impulso alle conversioni.
 
-Di seguito sono riportati i passaggi per aggiungere un’attività **Canale** in un flusso di lavoro:
+>[!NOTE]
+>
+>Puoi anche creare una consegna una tantum, al di fuori del contesto di un flusso di lavoro della campagna. Per ulteriori informazioni, consulta le sezioni seguenti:
+>* [Creare la consegna e-mail autonoma](../../email/create-email.md
+>* [Creare una consegna SMS indipendente](../../sms/create-sms.md)
+>* [Creare una consegna push autonoma](../../push/create-push.md)
+>
+
+## Creare una consegna in un flusso di lavoro della campagna{#create-a-delivery-in-a-workflow}
+
+Per creare un’e-mail, un SMS o una consegna push nel contesto di un flusso di lavoro della campagna, segui i passaggi seguenti:
 
 1. Assicurati di aver aggiunto un’attività **Crea pubblico**. Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**. Consulta [questa sezione](build-audience.md).
 
@@ -36,7 +46,7 @@ Di seguito sono riportati i passaggi per aggiungere un’attività **Canale** in
 
 1. Fai clic su **Crea consegna**. Definisci le impostazioni e il contenuto del messaggio seguendo la stessa procedura con cui si crea una consegna indipendente. Puoi anche pianificare e simulare il contenuto. [Ulteriori informazioni](../../msg/gs-messages.md).
 
-1. Torna al flusso di lavoro e salva le modifiche.
+1. Torna al workflow. Scegli se desideri continuare il flusso di lavoro **Generare una transizione in uscita** se desideri aggiungere una transizione dopo l’attività del canale.
 
 1. Fai clic su **Avvia** per avviare il flusso di lavoro.
 
@@ -46,7 +56,7 @@ Di seguito sono riportati i passaggi per aggiungere un’attività **Canale** in
 
 1. Nella dashboard della consegna, fai clic su **Invia**.
 
-## Esempio
+## Esempio{#cross-channel-workflow-sample}
 
 Di seguito è riportato un esempio di flusso di lavoro cross-channel con una segmentazione e due consegne. Il flusso di lavoro esegue il targeting di tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
 

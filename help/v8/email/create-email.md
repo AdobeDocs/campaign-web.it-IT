@@ -4,10 +4,10 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 95%
+source-wordcount: '1274'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,9 @@ In base a un modello di progettazione predefinito, l’e-mail presenta anche con
 >title="Proprietà e-mail"
 >abstract="Le proprietà sono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
 
-Per creare una nuova consegna, segui questi passaggi:
+Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna e-mail indipendente (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+Per creare una nuova consegna e-mail autonoma, effettua le seguenti operazioni:
 
 1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 

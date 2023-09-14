@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 91%
+source-wordcount: '1303'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati.
 
-Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere indipendenti o incluse nel contesto di una campagna di marketing.
+Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere autonome o incluse nei flussi di lavoro, nel contesto di una campagna di marketing.
 
 Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e app mobili.
 
@@ -59,7 +59,6 @@ Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e
 
 ## Creare una consegna {#create-delivery}
 
-
 Puoi creare consegne indipendenti dal menu a sinistra **[!UICONTROL Consegne]**, oppure nel contesto di una campagna di marketing dal menu a sinistra **[!UICONTROL Campagne]**.
 
 Sfoglia le schede seguenti per scoprire come creare una consegna:
@@ -89,7 +88,7 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 1. Verifica i risultati e fai clic sul pulsante **[!UICONTROL Invia]** per iniziare a inviare messaggi.
 1. Una volta inviati i messaggi, passa alla sezione **Rapporti** per accedere alle metriche chiave. Per ulteriori informazioni sui rapporti sulle consegne, consulta [questa sezione](../reporting/delivery-reports.md).
 
->[!TAB Creare una consegna in una campagna]
+>[!TAB Creare una consegna in un flusso di lavoro della campagna]
 
 Per creare una consegna in una campagna, effettua le seguenti operazioni:
 
