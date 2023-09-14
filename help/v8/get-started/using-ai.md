@@ -4,9 +4,9 @@ description: Utilizzo dell’assistente esperto basato sull’intelligenza artif
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
+source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '399'
 ht-degree: 2%
 
 ---
@@ -33,5 +33,15 @@ Le risposte possono essere imprecise o fuorvianti. Di conseguenza, l’assistent
 
 L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. L’assistente alla conoscenza basato sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Si consiglia vivamente di utilizzare il ?? ?? pulsanti ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri ingegneri.
 
+## Raccomandazioni  {#recommendations-ai}
 
+Quando si pone una domanda nell’aiuto contestuale, viene preso in considerazione il contesto di prodotto corrente.
+
+Per ottenere il meglio dell&#39;assistente, quando si pone una domanda, vi consigliamo di:
+
+* Sii il più preciso e specifico possibile ed evita ambiguità. La risposta sarà più accurata e utile.
+* Per aiutare l&#39;assistente alla conoscenza a trovare le informazioni corrette, aggiungere il maggior numero possibile di dettagli su ciò che si sta cercando di apprendere.
+* Riformula e perfeziona le tue domande per ottenere risposte migliori. Se la risposta non è accurata o utile, prova diversi approcci e aggiungi contesto per ottenere risultati migliori.
+* Utilizza termini e parole appropriati, con un tono neutro.
+* Valuta le risposte e fornisci feedback in modo che i nostri ingegneri possano imparare dalla tua esperienza e migliorare i risultati.
 
