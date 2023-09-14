@@ -1,37 +1,35 @@
 ---
 audience: end-user
-title: Utilizzare l’attività Fork nei flussi di lavoro
-description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
+title: Utilizzare l’attività del flusso di lavoro Modifica dimensione
+description: Scopri come utilizzare l’attività del flusso di lavoro Modifica dimensione
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
 
-# Fork {#fork}
+# Cambiare dimensione {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="Attività Fork"
->abstract="L’attività Fork consente di creare transizioni in uscita per avviare più attività contemporaneamente."
+>id="acw_orchestration_dimension_complement"
+>title="Cambia attività dimensione"
+>abstract="L’attività Modifica dimensione ti consente di..."
+
+Il **Cambia dimensione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di modificare la dimensione di targeting durante la creazione di un pubblico. Questa attività sposta l’asse a seconda del modello di dati e della dimensione di input. Ad esempio, puoi passare dalla dimensione &quot;contratti&quot; alla dimensione &quot;clienti&quot;.
+
+Puoi inoltre utilizzare questa attività per definire le colonne aggiuntive della nuova destinazione e i criteri di deduplicazione dei dati.
 
 ## Configurazione
 
-Per configurare l’attività **Fork** segui questi passaggi:
+Per configurare il **modifica dimensione** attività:
 
-1. Aggiungi un’attività **Fork** al flusso di lavoro.
-1. Fai clic su **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
-1. Aggiungi un’etichetta a ciascuna delle transizioni.
+1. Aggiungi un **Cambia dimensione** al flusso di lavoro.
 
-## Esempio
+       &lt;!...[](../assets/workflow-change-dimension.png)—>
+   
+1. Seleziona la nuova dimensione di targeting tramite il campo Modifica dimensione.
 
-Nell’esempio seguente vengono utilizzate due attività **Fork**:
-
-* Una prima delle due query, per eseguirle contemporaneamente.
-* Una dopo l’intersezione, per inviare contemporaneamente un’e-mail e un SMS alla popolazione target.
-
-![](../assets/workflow-fork-example.png)
-
+Nient&#39;altro??
