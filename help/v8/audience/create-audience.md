@@ -3,9 +3,9 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
+source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,9 @@ ht-degree: 1%
 
 # Creare tipi di pubblico {#create-audiences}
 
-Campaign Web consente di creare flussi di lavoro in cui combinare i tipi di pubblico esistenti in un’area di lavoro visiva. Incorporando varie attività del flusso di lavoro, come Split o Excluse, puoi generare tipi di pubblico nuovi e perfezionati.
+Campaign Web consente di creare flussi di lavoro in cui combinare i tipi di pubblico esistenti in un’area di lavoro visiva. Incorporando varie attività del flusso di lavoro, come Dividi o Escludi, puoi generare tipi di pubblico nuovi e perfezionati.
 
 Dopo aver creato il flusso di lavoro, i tipi di pubblico risultanti vengono memorizzati automaticamente all’interno di Campaign Web insieme a quelli esistenti. Questi tipi di pubblico possono quindi essere oggetto di targeting in campagne o consegne autonome.
-
-## Creare il primo pubblico {#create}
 
 Per creare un pubblico, segui questi passaggi:
 
