@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Scheduler
 description: Scopri come utilizzare l’attività del flusso di lavoro Scheduler
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 15%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 15%
 
 # Attività Scheduler {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Attività Scheduler"
->abstract="L’attività Scheduler ti consente di..."
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 Il **Scheduler** l&#39;attività è un **Controllo del flusso** attività. Consente di pianificare l’avvio del flusso di lavoro. Questa attività deve essere considerata come un inizio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro.
 
