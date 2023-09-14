@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Save audience
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: '333'
+ht-degree: 9%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 11%
 >title="Salvare l’attività del pubblico"
 >abstract="L’attività Save audience ti consente di:"
 
-L’etichetta Modalità pubblico Adobe Campaign abbinerà questa etichetta ai tipi di pubblico esistenti. Se trova una corrispondenza, aggiorna tale pubblico, altrimenti crea un nuovo pubblico.
-Aggiorna metodo
-
-Sostituisci il pubblico con i nuovi dati
-
-Completa il pubblico con i nuovi elenchi di cartelle di dati (/Profiles and Targets/Lists/)
-
-Genera una transizione in uscita
-
-
 Il **Salva pubblico** l&#39;attività è un **Targeting** attività. Questa attività ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite **Tipi di pubblico** menu.
 
 Questa attività viene essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nello stesso flusso di lavoro, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting come **Creare un pubblico** o un **Combina** attività.
@@ -38,7 +28,7 @@ Per configurare il **Salva pubblico** attività:
 
 1. Aggiungi un **Salva pubblico** al flusso di lavoro.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. In **Modalità** a discesa, seleziona l’azione da eseguire:
 
