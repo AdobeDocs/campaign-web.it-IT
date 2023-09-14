@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 74%
+source-wordcount: '548'
+ht-degree: 62%
 
 ---
 
@@ -55,23 +55,6 @@ Durante la creazione e la personalizzazione del contenuto del messaggio, puoi se
 
 ![](assets/select-external-perso.png)
 
-## Anteprima e verifica dell’e-mail {#test}
-
-Campaign Web consente di visualizzare in anteprima e inviare e-mail di test quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
-
-1. Simula contenuto
-1. Apre l&#39;anteprima. Fai clic su Seleziona profili: seleziona i profili dal file da utilizzare
-1. per inviare l’e-mail di test, fai clic su test
-1. modalità di test: definisci il target delle bozze
-1. Carica il target dell’e-mail di test da un secondo file (o utilizza lo stesso). la formattazione del file è uguale a quella del file caricato
-1. Controlli eseguiti sul formato file
-1. fai clic su invia
-
-aggiungi collegamento a sezione anteprima e test
-
-**domande:**
-* non è disponibile alcuna sostituzione dal file?
-
 ## File di esempio {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Anteprima e verifica dell’e-mail {#test}
+
+Campaign Web consente di visualizzare in anteprima e inviare e-mail di test quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
+
+1. Fai clic su **[!UICONTROL Pulsante Simula contenuto]** dalla schermata di modifica dei contenuti della consegna e fai clic su **[!UICONTROL Aggiungi profili di test]** pulsante.
+
+1. Vengono visualizzati i profili contenuti nel file caricato. Seleziona i profili da utilizzare per l’anteprima del contenuto e fai clic su **[!UICONTROL Seleziona]**.
+
+1. Nel riquadro a destra dello schermo viene visualizzata un’anteprima del contenuto della consegna. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra. [Ulteriori informazioni sull’anteprima dei contenuti della consegna](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Per inviare e-mail di test, fai clic su **[!UICONTROL Test]** pulsante.
+
+1. Fai clic su **[!UICONTROL Caricare profili di bozza]** e seleziona il file .txt o .csv che contiene i destinatari della bozza.
+
+   >[!CAUTION]
+   >
+   >Assicurati che il formato del file corrisponda a quello utilizzato per caricare il pubblico. Eventuali errori di formato visualizzeranno un avviso.
+
+1. Quando i destinatari della bozza vengono aggiunti e sei pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia e-mail di test]** e conferma l’invio.
+
+   ![](assets/file-upload-test.png)
+
+1. Puoi monitorare l’invio dell’e-mail di test utilizzando il pulsante Visualizza registro e-mail di test in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle e-mail di test](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
