@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 85%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Impostazioni di deduplicazione"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Complemento di deduplicazione"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Questa consegna è di sola lettura"
 >abstract="Non disponi delle autorizzazioni necessarie per modificare questa consegna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Questo servizio è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo servizio. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Questo pubblico è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo pubblico. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Elenco flussi di lavoro"
 >abstract="Elenco dei flussi di lavoro disponibili per la campagna. Utilizza il pulsante “Crea flusso di lavoro” per aggiungere un flusso di lavoro alla campagna."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Transizione in uscita per salvare il pubblico"
->abstract="tbc"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Salva un pubblico"
->abstract="Utilizza questa attività per salvare il pubblico del flusso di lavoro."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
