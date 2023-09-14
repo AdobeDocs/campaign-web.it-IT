@@ -4,10 +4,10 @@ title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 100%
+source-wordcount: '924'
+ht-degree: 94%
 
 ---
 
@@ -70,20 +70,6 @@ Una volta completata la preparazione senza errori, il messaggio è pronto per es
 
 ## Inviare il messaggio {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="Consegnati"
->abstract="Numero di messaggi recapitati correttamente. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata si basa sul numero totale di messaggi inviati."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="Aperture"
->abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="Clic"
->abstract="Numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
 
 Una volta completata la [preparazione](#prepare), puoi inviare l’e-mail.
 
@@ -130,14 +116,38 @@ Indipendentemente dal fatto che la consegna sia pianificata o meno, è possibile
 ## Controllare i KPI {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Consegnati"
+>abstract="Numero di messaggi recapitati correttamente. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata si basa sul numero totale di messaggi inviati."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Aperture"
+>abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clic"
+>abstract="Numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Metriche di invio"
 >abstract="Numero totale di messaggi elaborati durante l’analisi della consegna."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
 >abstract="Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+
 
 Una volta completato l’invio, puoi controllare i KPI visualizzati:
 
@@ -156,5 +166,7 @@ Una volta completato l’invio, puoi controllare i KPI visualizzati:
 >[!NOTE]
 >
 >Tutti gli indicatori vengono aggiornati ogni 5 minuti dopo l’inizio della consegna. Gli indicatori di preparazione della consegna sono in tempo reale.
+
+Ulteriori informazioni sui KPI in [questa pagina](../reporting/kpis.md).
 
 Puoi anche controllare i registri. [Ulteriori informazioni](delivery-logs.md)
