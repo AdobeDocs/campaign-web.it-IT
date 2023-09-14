@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 89%
+source-wordcount: '1289'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,10 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 1. Verifica i risultati e fai clic sul pulsante **[!UICONTROL Invia]** per iniziare a inviare messaggi.
 1. Una volta inviati i messaggi, passa alla sezione **Rapporti** per accedere alle metriche chiave. Per ulteriori informazioni sui rapporti sulle consegne, consulta [questa sezione](../reporting/delivery-reports.md).
 
->[!TAB Creare una consegna in un flusso di lavoro della campagna]
+>[!TAB Creare una consegna in un flusso di lavoro]
 
-Per creare una consegna in una campagna, effettua le seguenti operazioni:
+Per creare una consegna in un flusso di lavoro, effettua le seguenti operazioni:
 
-1. Crea una campagna o apri una campagna esistente. Ulteriori informazioni sulle [campagne di marketing](../campaigns/gs-campaigns.md).
 1. Crea un flusso di lavoro o apri un flusso di lavoro esistente.
 1. Aggiungi e configura un’attività di **[!UICONTROL Creazione del pubblico]** e fai clic sul pulsante `+`.
 
@@ -100,7 +99,7 @@ Per creare una consegna in una campagna, effettua le seguenti operazioni:
 
    L’attività di **[!UICONTROL Creazione del pubblico]** è descritta in [questa sezione](../workflows/activities/build-audience.md).
 
-1. Seleziona un’attività di consegna: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**. Per ulteriori informazioni sulle attività dei canali di consegna in un flusso di lavoro e su come definire il contenuto della consegna, consulta questa [sezione](../workflows/activities/about-activities.md#channel).
+1. Seleziona un’attività di consegna: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**. Per ulteriori informazioni sulle attività dei canali di consegna in un flusso di lavoro e su come definire il contenuto della consegna, consulta questa [sezione](../workflows/activities/channels.md).
 1. Avvia il flusso di lavoro e controlla i registri.
 
 Puoi anche aggiungere consegne in una campagna senza creare un flusso di lavoro. A questo scopo, passa alla scheda **[!UICONTROL Consegne]** della campagna e fai clic sul pulsante **[!UICONTROL Crea consegna]**.
