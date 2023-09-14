@@ -3,9 +3,9 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ Per creare un pubblico, segui questi passaggi:
 
 1. Quando il workflow è pronto, fai clic su **[!UICONTROL Inizio]** per eseguirlo.
 
-1. Il flusso di lavoro viene salvato in **[!UICONTROL Flussi di lavoro]** e i tipi di pubblico risultanti nel **[!UICONTROL Tipi di pubblico]** elenco. [Scopri come accedere ai tipi di pubblico](access-audiences.md)
+1. Il flusso di lavoro viene salvato in **[!UICONTROL Flussi di lavoro]** e i tipi di pubblico risultanti nel **[!UICONTROL Tipi di pubblico]** elenco. [Scopri come monitorare e gestire i tipi di pubblico](access-audiences.md)

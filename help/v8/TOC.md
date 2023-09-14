@@ -5,9 +5,9 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '389'
 ht-degree: 95%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 95%
    + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
    + [Utilizzare i destinatari](audience/about-recipients.md)
    + [Creare tipi di pubblico](audience/create-audience.md)
+   + [Monitorare e gestire i tipi di pubblico](audience/access-audiences.md)
    + Pubblico di destinazione {#target-audiences}
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 95%
       + [Informazioni sulle attività del flusso di lavoro](workflows/activities/about-activities.md)
       + [AND-join](workflows/activities/and-join.md)
       + [Creazione del pubblico](workflows/activities/build-audience.md)
+      + [Cambiare dimensione](workflows/activities/change-dimension.md)
       + [Combina](workflows/activities/combine.md)
+      + [Deduplica](workflows/activities/deduplication.md)
       + [E-mail, SMS e push](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Fork](workflows/activities/fork.md)
+      + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
+      + [Attività Scheduler](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
       + [Attendi](workflows/activities/wait.md)
 + Generazione rapporti {#reports}
