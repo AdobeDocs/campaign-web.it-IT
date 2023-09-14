@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare una consegna di notifica push
 description: Scopri come inviare una consegna di tipo notifica push con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,9 @@ I destinatari del test possono rivedere elementi quali collegamenti, immagini e 
 
 1. Per inviare i messaggi, fai clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale.
 
-1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]** o **[!UICONTROL Invia come pianificato]**.
+1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]**.
+
+   Se la consegna push è stata pianificata, fai clic su **[!UICONTROL Invia come pianificato]** pulsante. Ulteriori informazioni sulla pianificazione delle consegne in [questa sezione](../msg/gs-messages.md#schedule-the-delivery-sending).
 
    ![](assets/push_send_4.png)
 
