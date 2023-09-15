@@ -3,16 +3,18 @@ audience: end-user
 title: Generazione di e-mail con l’assistente al contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 3%
+source-wordcount: '352'
+ht-degree: 2%
 
 ---
 
 # Generare un messaggio e-mail con l’assistente al contenuto {#generative-email}
 
 L’Assistente per i contenuti migliora l’impatto delle comunicazioni generando automaticamente contenuti e-mail completi, risparmiando tempo e garantendo una qualità coerente.
+
+Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-mail coinvolgenti che risuonano con il tuo pubblico, rendendo la comunicazione più efficace ed efficiente.
 
 1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Creare contenuti]**.
 

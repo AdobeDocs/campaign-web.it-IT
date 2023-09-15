@@ -3,9 +3,9 @@ audience: end-user
 title: Testo con Assistente contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 6%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Generazione di testo con l’assistente contenuto {#generative-content}
 
-Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente contenuto per portare il contenuto al livello successivo.
+Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente al contenuto basato su IA generativa per portare il contenuto al livello successivo.
 
 L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
 
