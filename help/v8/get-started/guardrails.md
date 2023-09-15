@@ -2,10 +2,10 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,21 @@ Il posizionamento dei nodi viene aggiornato ogni volta che viene aggiunta o rimo
 
 Durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente, in tale versione del prodotto.
 
-Viene visualizzato un messaggio di errore specifico. Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e non è possibile modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro e i risultati. È inoltre possibile accedere alla query SQL per verificare le impostazioni esatte.
+Viene visualizzato un messaggio di errore specifico.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro in **Attributi** sezione della schermata.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+È inoltre possibile accedere alla query SQL per verificare le impostazioni esatte. A questo scopo, fai clic su **Vista Codice** pulsante.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Fai clic su **Calcola** per verificare quanti elementi soddisfano i criteri del filtro. Utilizza il **Visualizza risultati** per visualizzare tali elementi.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Nota che se si crea un filtro nell’interfaccia Web e lo si modifica nella console con attributi non supportati, la rappresentazione grafica non può più essere disponibile nell’interfaccia Web. In ogni caso, puoi comunque utilizzare il filtro.
 
