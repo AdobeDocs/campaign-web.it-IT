@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 99%
+ht-degree: 89%
 
 ---
 
@@ -83,9 +83,9 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
    * **[!UICONTROL Consegnato]**: percentuale del numero di messaggi elaborati correttamente rispetto al numero totale di messaggi elaborati.
 
-   * **[!UICONTROL Mancati recapiti permanenti]**: percentuale del numero di mancati recapiti permanenti, ad esempio per indirizzo e-mail errato, rispetto al numero totale di messaggi elaborati.
+   * **[!UICONTROL Mancato recapito permanente]**: percentuale del numero di mancati recapiti &quot;permanenti&quot;, errori permanenti, ad esempio un indirizzo e-mail errato, rispetto al numero totale di messaggi elaborati.
 
-   * **[!UICONTROL Mancati recapiti non permanenti]**: percentuale del numero di mancati recapiti non permanenti, ossia errori temporanei come una casella in entrata piena, rispetto al numero totale di messaggi elaborati
+   * **[!UICONTROL Mancati recapiti non permanenti]**: percentuale del numero di mancati recapiti &quot;non permanenti&quot;, errori temporanei come una casella in entrata completa, rispetto al numero totale di messaggi elaborati
 
    * **[!UICONTROL Aperture]**: percentuale del numero di destinatari che hanno aperto un messaggio almeno una volta rispetto al numero di messaggi elaborati correttamente.
 
@@ -121,6 +121,8 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 +++
 
 ## Indicatori di tracciamento {#tracking-indicators-email}
+
+
 
 * **[!UICONTROL Statistiche consegna]** fornisce indicatori di prestazioni chiave (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate.
 
@@ -207,6 +209,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 +++
 
 ## Statistiche di tracciamento {#tracking-statistics}
+
 
 * Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
 

@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: Impostazioni di consegna e-mail
-description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
+title: Impostazioni di consegna
+description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 72%
+source-wordcount: '2094'
+ht-degree: 69%
 
 ---
 
 
-# Impostazioni di consegna e-mail {#email-del-settings}
+# Impostazioni consegna {#email-del-settings}
 
-Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello e-mail. Sono accessibili mediante l’icona **Configura impostazioni di consegna**, disponibile durante la modifica di una consegna e-mail.
+Le impostazioni di consegna e-mail sono **parametri tecnici di consegna** definiti nel modello e-mail. Possono essere sovraccarichi per ogni consegna.
+
+Queste impostazioni sono disponibili nella **Configurare le impostazioni di consegna** disponibile quando si modifica una consegna e-mail o un modello di consegna e-mail.
+
 
 ## Impostazioni di consegna e-mail {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Queste impostazioni sono descritte solo a scopo informativo. Alcune dipendono dalla configurazione e dalle autorizzazioni. In questa versione del prodotto, non devono essere modificate.
+>Queste impostazioni sono descritte solo a scopo informativo. Alcune dipendono dalla configurazione e dalle autorizzazioni. In questa versione del prodotto, non devono essere modificate.
 
 ## Tipologia impostazioni {#typology}
 
@@ -56,6 +59,11 @@ Durante l’associazione di una tipologia a un messaggio o a un modello di messa
 >abstract="I pesi di consegna ti consentono di identificare le consegne con priorità più elevata nel quadro della gestione dell’affaticamento. I messaggi con il peso maggiore hanno priorità."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Peso consegna"
+>abstract="Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
+
 In questa sezione, i parametri di pressione consentono di definire un **soglia** per impostare le regole di gestione dell’eccesso. Si tratta del numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
 
 I valori di soglia possono essere costanti o variabili. Ciò significa che per un dato periodo le soglie possono variare da un profilo all’altro, o anche per lo stesso profilo.
@@ -83,6 +91,13 @@ La gestione dell’eccesso di comunicazioni può essere eseguita mediante il com
 >id="acw_email_settings_capacity_settings"
 >title="Impostazioni di capacità per la consegna"
 >abstract="Prima di consegnare i messaggi, utilizza le regole di capacità per assicurarti che la tua organizzazione possa elaborare la consegna, i messaggi in entrata che la consegna può generare e il numero di chiamate da effettuare, ad esempio, agli abbonati di contatto. Le regole di capacità sono definite nella console di Adobe Campaign v8. In questa schermata, seleziona una regola associata al canale e-mail."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Importanza del destinatario"
+>abstract="L’importanza del destinatario è una formula utilizzata per determinare quali destinatari mantenere se vengono superate le regole di tipologia della capacità."
+
 
 In questa sezione puoi selezionare una regola di capacità definita nella console Adobe Campaign v8. Questa regola è associata al canale e-mail.
 
@@ -136,7 +151,12 @@ Ulteriori informazioni su Web Analytics e Campaign in [Documentazione di Campaig
 
 ### Nuovi tentativi {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Numero massimo di nuovi tentativi"
+>abstract="Se un messaggio non riesce a causa di un errore temporaneo, vengono eseguiti nuovi tentativi fino alla fine della durata della consegna."
+
+I messaggi temporaneamente non consegnati a causa di un errore morbido o ignorato sono soggetti a un nuovo tentativo automatico. Per impostazione predefinita, sono pianificati cinque nuovi tentativi per il primo giorno della consegna con un intervallo minimo di un’ora suddiviso nelle 24 ore del giorno.
 
 Ulteriori informazioni sulla gestione dei tentativi in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
@@ -145,7 +165,13 @@ Ulteriori informazioni sulla gestione dei tentativi in [Documentazione di Campai
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Modalità di approvazione per la consegna"
->abstract="Seleziona la modalità di approvazione. Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno. "
+>abstract="Seleziona la modalità di approvazione. Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Modalità di approvazione per le consegne"
+>abstract="Seleziona la modalità di approvazione per le consegne basate su questo modello. Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno."
 
 Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno. Per impostazione predefinita, l’utente deve confermare l’invio di messaggi al termine della fase di analisi: si tratta di convalida **manuale**.
 
@@ -165,6 +191,18 @@ Puoi selezionare un’altra modalità di approvazione nel campo appropriato. Le 
 >title="Validità delle impostazioni"
 >abstract="Il campo Durata consegna consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità. Il campo Limite di validità viene utilizzato per le risorse caricate, come la pagina mirror o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Limite di validità delle risorse"
+>abstract="Il campo Limite di validità viene utilizzato per le risorse caricate, come la pagina mirror o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Durata consegna"
+>abstract="Il campo Durata consegna consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità."
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Periodo di validità"
+>abstract="Il periodo di validità imposta la durata per la quale viene attivato il tracciamento sugli URL del messaggio."
+
 
 I parametri di tracciamento sono definiti nella relativa sezione. Le opzioni possibili sono:
 

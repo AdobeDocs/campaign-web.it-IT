@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 * L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto**.
 * Gli elenchi ora sono **Tipi di pubblico**.
 
-## Limitazioni{#limitations-alpha}
+## Limitazioni{#limitations-beta}
 
-Alla presente versione alfa si applicano le seguenti limitazioni:
+Le limitazioni riportate di seguito si applicano a questa versione beta:
 
 * Gli unici oggetti modificabili sono Consegne, Campagne, Flussi di lavoro, Tipi di pubblico e Modelli. Gli altri sono di sola lettura. Utilizza i filtri per sfogliarle tutti.
 * I tipi di pubblico non possono essere salvati per utilizzi futuri.

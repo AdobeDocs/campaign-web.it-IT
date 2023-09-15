@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: Creare servizi
+title: Utilizzare i servizi di abbonamento
 description: Scopri come creare servizi in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 12%
+source-wordcount: '219'
+ht-degree: 10%
 
 ---
 
 
-# Creare servizi {#create-services}
+# Utilizzare i servizi di abbonamento {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Questo servizio è di sola lettura"
 >abstract="Non disponi delle autorizzazioni necessarie per modificare questo servizio. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
-Utilizza Adobe Campaign per creare e monitorare i servizi di informazioni, come le newsletter, e per verificare gli abbonamenti o i loro annullamenti.
+Utilizza Adobe Campaign per creare e monitorare servizi come le newsletter e per verificare gli abbonamenti/annullamenti degli abbonamenti a tali servizi. Gli abbonamenti si applicano solo alla consegna di e-mail e SMS.
 
-È possibile definire in parallelo diversi servizi, ad esempio newsletter specializzate per determinate categorie di prodotti, temi o aree di un sito Web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale.
+Diversi servizi possono essere definiti in parallelo, ad esempio: newsletter per specifiche categorie di prodotti, temi o aree di un sito web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale.
 
 Per ulteriori informazioni sulla gestione degli abbonamenti e sul loro annullamento, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Accedere ai servizi di abbonamento {#access-services}
 
-1. Vai a **[!UICONTROL Gestione degli accessi]** > **[!UICONTROL Servizi di abbonamento]** menu.
+Per accedere ai servizi di abbonamento disponibili per la tua piattaforma, passa a **[!UICONTROL Servizi di abbonamento]** menu nella barra di navigazione a sinistra.
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. Viene visualizzato l’elenco di tutti i servizi creati finora. Puoi cercare i servizi e filtrare in base al canale, alla cartella o utilizzare filtri avanzati.
+Viene visualizzato l’elenco di tutti i servizi di abbonamento esistenti. Puoi cercare i servizi e filtrare in base al canale, alla cartella o utilizzare filtri avanzati.
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## Crea il primo servizio {#create-service}
+## Creare il primo servizio di abbonamento {#create-service}
+
+Per creare un servizio di abbonamento, effettua le seguenti operazioni:
 
 1. Seleziona la **[!UICONTROL Crea servizio di abbonamento]** pulsante.
 

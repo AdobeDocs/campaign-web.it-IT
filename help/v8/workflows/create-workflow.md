@@ -4,9 +4,9 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare un flusso di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '753'
 ht-degree: 8%
 
 ---
@@ -51,6 +51,12 @@ Per farlo, segui questi passaggi:
 Il flusso di lavoro viene ora creato e disponibile nell’elenco dei flussi di lavoro. Ora puoi accedere alla relativa area di lavoro visiva e iniziare ad aggiungere, configurare e orchestrare le attività che eseguirà. Scopri come orchestrare le attività del flusso di lavoro in [questa pagina](orchestrate-activities.md).
 
 ## Utilizzare i modelli di workflow {#workflow-templates}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="Modelli di flusso di lavoro"
+>abstract="I modelli di flusso di lavoro contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuovi flussi di lavoro."
 
 I modelli di flusso di lavoro contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuovi flussi di lavoro. Durante la creazione di un flusso di lavoro, è possibile selezionare il modello del flusso di lavoro dalle relative proprietà. Per impostazione predefinita, viene fornito un modello vuoto.
 
