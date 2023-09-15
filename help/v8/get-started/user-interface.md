@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1661'
 ht-degree: 85%
 
 ---
@@ -60,7 +60,11 @@ Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di 
 
 ### Aiuto contestuale {#user-interface-help}
 
-Poni le tue domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. Il nuovo assistente basato sull’intelligenza artificiale, incorporato nei popover dell’aiuto contestuale, ti aiuta a imparare e sviluppare le tue competenze sulle nuove funzioni di Campaign. In base alla documentazione più recente del prodotto, ti aiuta a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso.
+Il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
+
+Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un&#39;attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant con Gen AI è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+
+Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
 
 
 ### Gestione delle campagne {#user-interface-campaign-management}
@@ -244,10 +248,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Elenco flussi di lavoro"
->abstract="Elenco dei flussi di lavoro disponibili per la campagna. Utilizza il pulsante “Crea flusso di lavoro” per aggiungere un flusso di lavoro alla campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Tracciamento globale dei rapporti"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Elenco delle consegne in una campagna"
->abstract="Elenco delle consegne in una campagna"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="Pubblico delle impostazioni di consegna"
->abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="Approvazione delle impostazioni di consegna"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="Impostazioni di prova delle impostazioni di consegna"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="Analisi web delle impostazioni di consegna"
->abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

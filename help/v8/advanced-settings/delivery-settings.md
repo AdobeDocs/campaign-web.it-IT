@@ -4,10 +4,10 @@ title: Impostazioni di consegna e-mail
 description: Scopri le impostazioni di consegna e-mail nell’interfaccia utente di Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 77%
+source-wordcount: '1829'
+ht-degree: 72%
 
 ---
 
@@ -22,18 +22,18 @@ Queste impostazioni sono **parametri tecnici di consegna** definiti nel modello 
 >
 > Queste impostazioni sono descritte solo a scopo informativo. Alcune dipendono dalla configurazione e dalle autorizzazioni. In questa versione del prodotto, non devono essere modificate.
 
-## Tipologia {#typology}
+## Tipologia impostazioni {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
+>abstract="Tipologia le regole consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Tipologia"
->abstract="Tipologia le regole consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
+>title="Impostazioni di tipologia per la consegna"
+>abstract="Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
 
 
 Le tipologie sono insiemi di **regole di tipologia**, che vengono eseguiti durante la fase di preparazione. Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che soddisfano i criteri di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione della consegna.  Consentono di assicurarsi che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
@@ -52,7 +52,7 @@ Durante l’associazione di una tipologia a un messaggio o a un modello di messa
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Parametri di pressione"
+>title="Parametri di pressione per la consegna"
 >abstract="I pesi di consegna ti consentono di identificare le consegne con priorità più elevata nel quadro della gestione dell’affaticamento. I messaggi con il peso maggiore hanno priorità."
 
 
@@ -81,7 +81,7 @@ La gestione dell’eccesso di comunicazioni può essere eseguita mediante il com
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Impostazioni capacità"
+>title="Impostazioni di capacità per la consegna"
 >abstract="Prima di consegnare i messaggi, utilizza le regole di capacità per assicurarti che la tua organizzazione possa elaborare la consegna, i messaggi in entrata che la consegna può generare e il numero di chiamate da effettuare, ad esempio, agli abbonati di contatto. Le regole di capacità sono definite nella console di Adobe Campaign v8. In questa schermata, seleziona una regola associata al canale e-mail."
 
 In questa sezione puoi selezionare una regola di capacità definita nella console Adobe Campaign v8. Questa regola è associata al canale e-mail.
@@ -91,17 +91,24 @@ Il campo **importanza del destinatario** è una formula utilizzata per determina
 Ulteriori informazioni sulle regole di coerenza e capacità e su come configurarle in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=it){target="_blank"}.
 
 
-## Pubblico {#audience}
+## Impostazioni pubblico {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Impostazioni del pubblico per la consegna"
+>abstract="Seleziona un **mappatura target** tra quelli disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Puoi anche impostare i parametri di esclusione per la consegna. "
+
 
 In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8.
 
-Ulteriori informazioni sulle mappature di destinazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sulle mappature di destinazione, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
 
 ## Consegna {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Impostazioni consegna"
+>title="Impostazioni consegna per la consegna"
 >abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. È possibile attivare CCN per la consegna e modificare le modalità di consegna e di routine. Queste opzioni sono disponibili solo per utenti esperti."
 
 I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
@@ -112,6 +119,19 @@ I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
 
 * **Invia e-mail in Ccn**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn, semplicemente aggiungendo un indirizzo e-mail Ccn al target del messaggio. Ulteriori informazioni sul campo CCN e-mail in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
+### Analisi web {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Impostazioni di analisi web per la consegna"
+>abstract="Seleziona un account di analisi web. Questo account è configurato nella console client di Campaign. Puoi anche definire i tag condivisi con lo strumento di analisi in uso."
+
+In questa sezione puoi selezionare un account di analisi web. Questo account è configurato nella console client di Campaign.
+
+Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
+
+Ulteriori informazioni su Web Analytics e Campaign in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 
 ### Nuovi tentativi {#retries}
@@ -122,12 +142,10 @@ Ulteriori informazioni sulla gestione dei tentativi in [Documentazione di Campai
 
 ## Approvazione {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Modalità di approvazione per la consegna"
+>abstract="Seleziona la modalità di approvazione. Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno. "
 
 Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno. Per impostazione predefinita, l’utente deve confermare l’invio di messaggi al termine della fase di analisi: si tratta di convalida **manuale**.
 
@@ -193,6 +211,11 @@ I parametri di tracciamento sono definiti nella relativa sezione. Le opzioni pos
 **URL sostitutivo per URL scaduti**: utilizza questa opzione per immettere un URL per una pagina web di fallback che viene visualizzata una volta scaduto il tracciamento.
 
 ## Impostazioni test {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Impostazioni di test per la consegna"
+>abstract="Seleziona i parametri di esclusione e personalizza l’etichetta delle e-mail di test."
 
 In questa sezione puoi impostare i parametri di esclusione. Le opzioni disponibili sono:
 

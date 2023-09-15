@@ -4,9 +4,9 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare un flusso di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '736'
 ht-degree: 8%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 8%
 >id="acw_workflow_creation_properties"
 >title="Proprietà del flusso di lavoro"
 >abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandere la sezione OPTIONS AGGIUNTIVI per configurare altre impostazioni quali il nome interno del flusso di lavoro, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Elenco dei flussi di lavoro nella campagna"
+>abstract="Il **Consegne** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna corrente. Fai clic sul nome di un flusso di lavoro per modificarlo. Utilizza il pulsante Crea flusso di lavoro per aggiungere un nuovo flusso di lavoro per questa campagna."
+
 
 Puoi creare flussi di lavoro autonomi o flussi di lavoro all’interno di una campagna. Il primo passaggio consiste nel selezionare un modello e definirne le proprietà generali. Puoi quindi configurare altre impostazioni in base alle esigenze.
 
@@ -63,8 +70,8 @@ Per creare un modello di workflow da un workflow esistente, effettuare le seguen
 
 1. Nella finestra pop-up, conferma la creazione del modello.
 1. Nell’area di lavoro del modello di flusso di lavoro, seleziona, aggiungi e configura le attività in base alle esigenze.
-1. Passare alle impostazioni per modificare il nome del modello di workflow e immettere una descrizione.
-1. Seleziona la cartella e la cartella di esecuzione del modello. La cartella è il percorso in cui viene salvato il modello di workflow. La cartella di esecuzione è la cartella in cui vengono salvati i flussi di lavoro creati in base a questo modello.
+1. Accedi alle impostazioni dalla scheda **Impostazioni** per modificare il nome del modello di workflow e immettere una descrizione.
+1. Seleziona la **cartella** e **cartella di esecuzione** del modello. La cartella è il percorso in cui viene salvato il modello di workflow. La cartella di esecuzione è la cartella in cui vengono salvati i flussi di lavoro creati in base a questo modello.
 
    ![](assets/wf-settings-template.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 Per creare una nuova campagna o gestire quelle esistenti, fai clic sul menu **[!UICONTROL Campagne]** nella barra di navigazione a sinistra.
 
-## Elenco delle campagne{#access-campaigns}
+## Elenco delle campagne {#access-campaigns}
+
 
 Nell’elenco delle campagne sono disponibili due schede:
 
@@ -38,7 +39,13 @@ Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pa
 
 ![Filtro per le campagne](assets/campaign-filter-on-dates.png)
 
-## Dashboard della campagna{#campaign-dashboard}
+## Dashboard delle campagne{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Elenco delle consegne nella campagna"
+>abstract="Nella scheda **Consegne** sono elencate tutte le consegne collegate alla campagna corrente. Fai clic sul nome di una consegna per modificarla. Utilizza il pulsante Crea consegna per aggiungere una nuova consegna per questa campagna."
 
 Nella scheda **Sfoglia** dell’elenco delle campagne, fai clic su una campagna per visualizzarne i dettagli.
 
