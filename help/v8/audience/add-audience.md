@@ -4,10 +4,10 @@ title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 88%
 
 ---
 
@@ -43,6 +43,10 @@ Per selezionare un pubblico esistente per il messaggio, segui la procedura segue
    I tipi di pubblico vengono creati dal menu a sinistra **Pubblico**. Possono essere creati anche nella console client.
 
    Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >In tale versione del prodotto, durante la creazione di regole, la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente. Puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Scegli un pubblico e fai clic su **Seleziona**.
 1. Utilizza l’icona **Mostra filtri** per visualizzare le opzioni di filtro. Fai clic su **Aggiungi regole** per accedere al generatore di regole: l’utilizzo di questo strumento consente di creare filtri avanzati per l’elenco dei tipi di pubblico. Scopri come utilizzare il generatore di regole in questa [sezione](segment-builder.md).
