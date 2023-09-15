@@ -3,15 +3,21 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '829'
+ht-degree: 80%
 
 ---
 
 
 # Combina {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="Combina attività"
+>abstract="Il **Combina** l&#39;attività è un **Targeting** attività. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni."
+
 
 Il **Combina** l&#39;attività è un **Targeting** attività. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più target. Di seguito sono riportati i tipi di segmentazione disponibili:
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="Opzioni di unione per Esclusione"
 >abstract="L’attività Esclusione consente di escludere elementi da una popolazione in base a determinati criteri. Nella sezione Set da unire, seleziona tutte le attività precedenti che desideri unire."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="Seleziona il tipo di segmentazione"
+>abstract="Seleziona la modalità di combinazione dei tipi di pubblico: unione, intersezione o esclusione."
+
 Per iniziare a configurare l’attività **Combina**, segui questi passaggi comuni:
 
 1. Aggiungi più attività, come le attività **Crea pubblico**, per formare almeno due rami di esecuzione diversi.
@@ -49,6 +60,11 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Intersezione  Opzioni di riconciliazione"
 >abstract="Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="Opzioni di riconciliazione"
+>abstract="Seleziona la **Tipo di riconciliazione** per definire come gestire i duplicati."
 
 In **Combina** attività, puoi configurare un **Union**. A questo scopo, seleziona la **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
 
@@ -68,6 +84,12 @@ In **Combina** attività, puoi configurare un’ **Intersezione**. A questo scop
 >id="acw_orchestration_exclusion_options"
 >title="Regole di esclusione"
 >abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione Regole di esclusione, fai clic su Aggiungi una regola e specifica le condizioni di modifica della dimensione. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="Seleziona i set da combinare"
+>abstract="Nella sezione **Set da unire**, dalle transizioni in entrata, seleziona **Set primario**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario."
+
 
 In **Combina** attività, puoi configurare un’ **Esclusione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
