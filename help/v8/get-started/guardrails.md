@@ -2,9 +2,9 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,18 @@ Quando lavori nell’interfaccia utente web di Campaign con componenti creati o 
 
 **Loop**
 
-* I flussi di lavoro che includono i loop non vengono visualizzati nell’interfaccia utente web. Viene visualizzato un messaggio di errore.
+* I loop non sono ancora disponibili nell’interfaccia utente web. Se hai creato un flusso di lavoro che include un ciclo continuo utilizzando la console, non sarà accessibile nell’interfaccia utente web. Viene visualizzato un messaggio di errore.
+
+<table>
+<tr>
+<th>Console</th>
+<th>Interfaccia web</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **riconciliazione e arricchimento**
 
