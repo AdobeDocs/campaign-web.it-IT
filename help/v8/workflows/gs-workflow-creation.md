@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 Con Campaign v8 Web, puoi creare flussi di lavoro in un’area di lavoro visiva per progettare processi cross-channel come la segmentazione, l’esecuzione di campagne e l’elaborazione di file.
 
-I flussi di lavoro possono essere creati come flussi di lavoro autonomi dalla **Flussi di lavoro** o direttamente all’interno di una campagna, nel qual caso il flusso di lavoro verrà collegato alla campagna ed eseguito insieme a tutti gli altri flussi di lavoro della campagna.
 
 ## Cosa c’è all’nterno di un flusso di lavoro? {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ Ogni flusso di lavoro contiene:
 * **Tabelle di lavoro**: la tabella di lavoro contiene tutte le informazioni riportate dalla transizione. Ogni flusso di lavoro utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita del flusso di lavoro.
 
 ## Passaggi chiave per creare un flusso di lavoro {#gs-workflow-steps}
+
+
+Campagne offre due modi per creare un flusso di lavoro:
+
+1. I flussi di lavoro possono essere creati come flussi di lavoro autonomi dalla **Flussi di lavoro** menu.
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. I flussi di lavoro possono essere creati direttamente all’interno di una campagna, dalla **Flusso di lavoro** della campagna. Quando è incluso in una campagna, il flusso di lavoro viene eseguito insieme a tutti gli altri flussi di lavoro della campagna e le metriche di reporting sono tutte raggruppate a livello di campagna.
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 I passaggi chiave per creare flussi di lavoro sono i seguenti:
 
