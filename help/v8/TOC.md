@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 90%
+source-wordcount: '415'
+ht-degree: 89%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 90%
             + [Aggiungere una preintestazione](content/preheader.md)
             + [Generare la versione del testo](content/text-version-email.md)
          + Assistente contenuti {#content-assistant}
+            + [Introduzione all’assistente contenuti](content/generative-gs.md)
             + [Generazione di testo con l’assistente contenuto](content/generative-content.md)
             + [Generazione di immagini con l’assistente contenuto](content/generative-image.md)
             + [Generazione di e-mail con l’assistente al contenuto](content/generative-email.md)

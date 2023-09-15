@@ -3,9 +3,9 @@ audience: end-user
 title: Generazione di immagini con l’assistente contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Dopo aver creato e personalizzato le e-mail, puoi migliorare il contenuto utilizzando l’Assistente contenuto. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti.
 
-Nell’esempio seguente, come sfruttare l’Assistente contenuti per ottimizzare e migliorare i contenuti, garantendo un’esperienza più semplice da usare. Segui questi passaggi:
+Nell’esempio seguente, scopri come sfruttare l’Assistente contenuti per ottimizzare e migliorare i contenuti, assicurando un’esperienza più semplice da usare. Segui questi passaggi:
 
 1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
