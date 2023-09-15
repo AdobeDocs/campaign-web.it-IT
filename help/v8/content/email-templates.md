@@ -4,10 +4,10 @@ product: campaign
 title: Utilizzare i modelli e-mail
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 88%
 
 ---
 
@@ -24,6 +24,11 @@ Puoi scegliere tra:
 * **Modelli salvati**. Puoi anche utilizzare un modello personalizzato salvato come modello da un contenuto esistente.
 
 Nelle sezioni seguenti, scopri come utilizzare i modelli e come salvare un contenuto e-mail come modello.
+
+>[!NOTE]
+>
+>I modelli di contenuto e-mail sono diversi da [modelli di consegna](../msg/delivery-template.md). Consentono di riutilizzare solo il contenuto delle e-mail, mentre i modelli di consegna consentono di riutilizzare il contenuto della consegna, ma anche tutte le impostazioni e le proprietà di consegna come tipologie, indirizzo del mittente, tipi di pubblico e così via.
+
 
 ## Utilizzare un modello {#use-templates}
 

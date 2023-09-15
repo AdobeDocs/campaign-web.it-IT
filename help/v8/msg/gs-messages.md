@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 86%
+source-wordcount: '1302'
+ht-degree: 85%
 
 ---
 
@@ -113,7 +113,7 @@ Per ulteriori informazioni su come configurare una campagna e gestire le consegn
 >[!ENDTABS]
 
 
-## Aggiungere la personalizzazione{#personalization}
+## Aggiungere la personalizzazione {#personalization}
 
 I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi. [Ulteriori informazioni sulle funzionalità di personalizzazione](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 * Aggiungere **offerte personalizzate**
 
-  Inserisci offerte personalizzate nel contenuto del messaggio, a seconda della posizione del destinatario, del meteo corrente o dell’ultimo ordine di acquisto.
-
+  Inserisci offerte personalizzate nel contenuto del messaggio, a seconda della posizione del destinatario, del meteo corrente o dell’ultimo ordine di acquisto. [Ulteriori informazioni](../content/offers.md)
 
 ## Anteprima e verifica delle consegne
 
@@ -146,12 +145,12 @@ Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Pianificare l’invio"
->abstract="Definisci la data e l’ora esatta di invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura."
+>title="Impostare una data e un&#39;ora di contatto"
+>abstract="Definisci la data e l’ora esatta per l’invio della consegna. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura."
 
 Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura.
 
-Per pianificare l’invio della consegna, apri la consegna e passa alla **Pianificazione** sezione. Utilizza il **[!UICONTROL Abilita pianificazione]** attiva per attivarlo e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
+Per pianificare l’invio della consegna, apri la consegna e passa alla **[!UICONTROL Pianificazione]** sezione. Utilizza il **[!UICONTROL Abilita pianificazione]** attiva per attivarlo e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
 
 ![](assets/schedule.png)
 

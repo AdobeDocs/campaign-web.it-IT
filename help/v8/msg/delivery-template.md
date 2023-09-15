@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
 # Utilizzare i modelli di consegna {#work-with-delivery-templates}
 
-Per un processo di progettazione più rapido e migliore, puoi creare modelli di consegna che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
+Per un processo di progettazione accelerato e migliorato, puoi creare modelli di consegna per riutilizzare facilmente contenuti e impostazioni personalizzati nelle campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
 
 Un modello può includere:
 
@@ -26,6 +26,10 @@ Un modello può includere:
 * [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md)
 * Collegamenti a [pagine mirror](../content/mirror-page.md) e [collegamenti](../content/message-tracking.md) per annullare l’iscrizione
 * Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni della quarantena
+
+>[!NOTE]
+>
+>I modelli di consegna sono diversi da [modelli di contenuto e-mail](../content/email-templates.md), che ti consente di riutilizzare solo il contenuto dei messaggi.
 
 ## Accedere e gestire i modelli di consegna {#access-manage-templates}
 
@@ -162,7 +166,7 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 1. Sfoglia la scheda **Modelli** a cui puoi accedere dal menu **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** e seleziona un modello. [Ulteriori informazioni](#access-manage-templates)
 
-1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** in alto a destra.
+1. Fai clic su **[!UICONTROL Simula contenuto]** in alto a destra.
 
    ![](assets/templates-simulate-button.png)
 
@@ -170,7 +174,7 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 1. Passa da un profilo all’altro per ottenere una rappresentazione personalizzata del messaggio in base al profilo selezionato.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    Puoi anche regolare il livello di zoom e scegliere la visualizzazione su desktop o dispositivo mobile.
 
