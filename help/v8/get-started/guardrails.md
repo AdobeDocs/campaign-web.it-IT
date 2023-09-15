@@ -2,9 +2,9 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,13 @@ Quando lavori nell’interfaccia utente web di Campaign con componenti creati o 
 
 ## Flussi di lavoro {#wf-guardrails-limitations}
 
-È possibile accedere allo stesso flusso di lavoro sia nella console che nell’interfaccia utente web. Tuttavia, tieni presente che si applicano alcune limitazioni.
-
 **Edizione attività**
 
-* Quando accedi a un flusso di lavoro della console nell’interfaccia utente web, puoi modificare solo le attività compatibili.
+* Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente web sono di sola lettura. Puoi comunque eseguire il flusso di lavoro, inviare messaggi, controllare i registri e così via.
+
+| Console | Interfaccia web |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **Edizione Canvas**
 
@@ -41,17 +43,6 @@ Quando lavori nell’interfaccia utente web di Campaign con componenti creati o 
 | Console | Interfaccia web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>Console</th>
-<th>Interfaccia web</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **riconciliazione e arricchimento**
 
