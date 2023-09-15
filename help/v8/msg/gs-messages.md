@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 88%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e
 
 ## Creare una consegna {#create-delivery}
 
-Puoi creare consegne indipendenti dal menu a sinistra **[!UICONTROL Consegne]**, oppure nel contesto di una campagna di marketing dal menu a sinistra **[!UICONTROL Campagne]**.
+Puoi creare consegne autonome dalla **[!UICONTROL Consegne]** menu a sinistra o creare consegne nel contesto di un flusso di lavoro, incluso o meno in una campagna.
 
 Sfoglia le schede seguenti per scoprire come creare una consegna:
 
@@ -92,7 +92,7 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 
 Per creare una consegna in un flusso di lavoro, effettua le seguenti operazioni:
 
-1. Crea un flusso di lavoro o apri un flusso di lavoro esistente.
+1. Crea un flusso di lavoro o apri un flusso di lavoro esistente. Ulteriori informazioni sui flussi di lavoro in [questa pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Aggiungi e configura un’attività di **[!UICONTROL Creazione del pubblico]** e fai clic sul pulsante `+`.
 
    ![](assets/add-delivery-in-wf.png)
