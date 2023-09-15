@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
+source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 83%
+source-wordcount: '1487'
+ht-degree: 81%
 
 ---
 
@@ -57,21 +57,6 @@ Come in tutte le schermate di elenchi, puoi configurare le colonne per visualizz
 
 Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di cartelle e risorse, consulta questa [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
 
-
-### Aiuto contestuale {#user-interface-help}
-
-Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
-
-![](assets/context-help.png){width="40%" align="left"}
-
-Con la nuova versione beta, il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
-
-![](assets/ask-a-question.png)
-
-
-Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un&#39;attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant con Gen AI è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
-
-Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
 
 
 ### Gestione delle campagne {#user-interface-campaign-management}
@@ -141,6 +126,22 @@ Utilizza la barra superiore dell’interfaccia per:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### Aiuto contestuale {#user-interface-help}
+
+Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
+
+![](assets/context-help.png){width="40%" align="left"}
+
+Con la nuova versione beta, il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
+
+![](assets/ask-a-question.png)
+
+
+Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un&#39;attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant con Gen AI è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+
+Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
+
 ## Browser supportati {#browsers}
 
 Campaign Web v8 è progettato per funzionare in modo ottimale nell’ultima versione di Google Chrome, Safari e Microsoft Edge. È possibile che si verifichino problemi durante l’utilizzo di alcune funzioni nelle versioni precedenti o in altri browser.
@@ -149,28 +150,19 @@ Campaign Web v8 è progettato per funzionare in modo ottimale nell’ultima vers
 
 Al momento, Campaign v8 Web è disponibile nelle seguenti lingue:
 
-<table>
-<tr>
-<td>
-<p>Inglese (US) - EN-US</p>
-<p>Francese - FR</p>
-<p>Tedesco - DE</p>
-<p>Italiano - IT</p>
-</td>
-<td>
-<p>Spagnolo - ES</p>
-<p>Portoghese (brasiliano) - PTBR</p>
-<p>Giapponese - JP</p>
-</td>
-<td>
-<p>Coreano - KR</p>
-<p>Cinese semplificato - CHS</p>
-<p>Cinese tradizionale - CHT</p>
-</td>
-</tr>
-</table>
+* Inglese (US) - EN-US
+* Francese - FR
+* Tedesco - DE
+* Italiano - IT
+* Spagnolo - ES
+* Portoghese (brasiliano) - PTBR
+* Giapponese - JP
+* Coreano - KR
+* Cinese semplificato - CHS
+* Cinese tradizionale - CHT
 
-La lingua predefinita dell’interfaccia è determinata dalla lingua preferita specificata nel profilo utente.
+
+La lingua predefinita per Campaign Web è determinata dalla lingua preferita specificata nel profilo utente. Non si riferisce alla lingua del server Campaign e della console client.
 
 Per cambiare la lingua:
 
