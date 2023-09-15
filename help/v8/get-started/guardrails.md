@@ -2,10 +2,10 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -47,10 +47,16 @@ Nella console del client Campaign, il **Arricchimento** L’attività può esegu
 
 ## Filtri preimpostati {#filters-guardrails-limitations}
 
-Durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili. Viene visualizzato un messaggio di errore specifico. Puoi comunque utilizzare la query e vedere: la condizione di filtro e i risultati, ma non puoi visualizzare la query esatta nel generatore di regole e non puoi modificare il filtro.
+Durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente, in tale versione del prodotto.
+
+Viene visualizzato un messaggio di errore specifico. Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e non è possibile modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro e i risultati. È inoltre possibile accedere alla query SQL per verificare le impostazioni esatte.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Nota che se si crea un filtro nell’interfaccia Web e lo si modifica nella console con attributi non supportati, la rappresentazione grafica non può più essere disponibile nell’interfaccia Web. In ogni caso, puoi comunque utilizzare il filtro.
+
+Gli attributi non supportati sono elencati di seguito.
 
 ### Tipi di dati non supportati {#unsupported-data-type}
 
