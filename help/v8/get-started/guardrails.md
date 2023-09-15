@@ -2,9 +2,9 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,29 @@ Quando lavori nell’interfaccia utente web di Campaign con componenti creati o 
 
 ## Flussi di lavoro {#wf-guardrails-limitations}
 
-**Edizione attività**
+**Attività**
 
-* Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente web sono di sola lettura. Puoi comunque eseguire il flusso di lavoro, inviare messaggi, controllare i registri e così via.
+* Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente web sono di sola lettura. Puoi comunque eseguire il flusso di lavoro, inviare messaggi, controllare i registri e così via. Le attività del flusso di lavoro disponibili sia nell’interfaccia utente web che nella console client sono modificabili.
 
 | Console | Interfaccia web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**Edizione Canvas**
+**Area di lavoro**
 
-* Se un flusso di lavoro della console dispone di più nodi/rami iniziali o attività mobili, è necessario aggiungere un’attività iniziale e un fork per collegare i nodi iniziali al nodo principale. È inoltre necessario rimuovere le attività mobili.
+* Quando crei un nuovo flusso di lavoro nell’interfaccia utente web, l’area di lavoro supporta un solo punto di ingresso. Tuttavia, se hai creato un flusso di lavoro nella console con più punti di ingresso,
+
+Tuttavia, anche se il flusso di lavoro è stato creato nell’area di lavoro della console client con più punti di ingresso, sarà modificabile anche nell’interfaccia utente web. Puoi comunque aprire e modificare
+
+
+
+Per provare questo scenario, crea un flusso di lavoro dalla console client con più punti di ingresso e aprilo dall’interfaccia web per visualizzare il risultato.
+
+
+
+Naturalmente, puoi modificare le attività ed avviare ed eseguire normalmente il flusso di lavoro.
+
+
 
 **Posizionamento attività**
 
@@ -38,11 +50,11 @@ Quando lavori nell’interfaccia utente web di Campaign con componenti creati o 
 
 **Loop**
 
-* I loop non sono ancora disponibili nell’interfaccia utente web. Se hai creato un flusso di lavoro che include un ciclo continuo utilizzando la console, non sarà accessibile nell’interfaccia utente web. Viene visualizzato un messaggio di errore.
+* I loop non sono ancora disponibili nell’interfaccia utente web. Se hai creato un flusso di lavoro che include un ciclo continuo utilizzando la console, non puoi accedervi dall’interfaccia utente web. Viene visualizzato un messaggio di errore.
 
 | Console | Interfaccia web |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **riconciliazione e arricchimento**
 
@@ -53,12 +65,11 @@ Nella console del client Campaign, il **Arricchimento** L’attività può esegu
 
 ## Filtri preimpostati {#filters-guardrails-limitations}
 
-Durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente, in tale versione del prodotto.
+In tale versione del prodotto, quando si seleziona il pubblico di una consegna o quando si crea un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente.
 
 Viene visualizzato un messaggio di errore specifico. Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e non è possibile modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro e i risultati. È inoltre possibile accedere alla query SQL per verificare le impostazioni esatte.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 Nota che se si crea un filtro nell’interfaccia Web e lo si modifica nella console con attributi non supportati, la rappresentazione grafica non può più essere disponibile nell’interfaccia Web. In ogni caso, puoi comunque utilizzare il filtro.
 
