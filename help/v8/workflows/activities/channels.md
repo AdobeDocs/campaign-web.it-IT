@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 81%
+source-wordcount: '642'
+ht-degree: 60%
 
 ---
 
@@ -25,17 +25,27 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >* [Creare la consegna e-mail autonoma](../../email/create-email.md)
 >* [Creare una consegna SMS indipendente](../../sms/create-sms.md)
 >* [Creare una consegna push autonoma](../../push/create-push.md)
->
 
-## Creare una consegna in un flusso di lavoro{#create-a-delivery-in-a-workflow}
+## Creare il flusso di lavoro{#build-your-workflow}
 
-Per creare un’e-mail, un SMS o una consegna push nel contesto di un flusso di lavoro, segui i passaggi seguenti:
+Inizia a creare il flusso di lavoro con le attività pertinenti prima di inserire la consegna:
 
-1. Assicurati di aver aggiunto un’attività **Crea pubblico**. Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**. Consulta [questa sezione](build-audience.md).
+* Se desideri inviare una consegna ricorrente, avvia il flusso di lavoro con una **Scheduler** attività. Se desideri inviare una consegna unica, puoi definire la data di contatto utilizzando una **Scheduler** o definisci la pianificazione nelle impostazioni della consegna. Consulta [questa sezione](scheduler.md).
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* Aggiungi un’attività **Crea pubblico.** Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**. Consulta [questa sezione](build-audience.md).
 
-1. Seleziona un’attività di consegna: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## Configurare la consegna {#create-a-delivery-in-a-workflow}
+
+Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
+
+1. Aggiungi un’attività di canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**.
+
+1. Seleziona la **Tipo di consegna**: singolo o ricorrente.
+
+   * **Consegna singola**: si tratta di una consegna in un’unica soluzione, inviata una sola volta, ad esempio un’e-mail del Black Friday.
+   * **Consegna ricorrente**: per questo tipo di consegna, imposta la frequenza di esecuzione utilizzando una [attività di pianificazione](scheduler.md). Ogni volta che viene eseguito il flusso di lavoro, il pubblico viene ricalcolato e la consegna viene inviata con il contenuto aggiornato. Può trattarsi di una newsletter settimanale o di un’e-mail di compleanno ricorrente.
 
 1. Seleziona un **Modello** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita. [Ulteriori informazioni](../../msg/delivery-template.md)
 
@@ -56,7 +66,7 @@ Per creare un’e-mail, un SMS o una consegna push nel contesto di un flusso di 
 
 1. Nella dashboard della consegna, fai clic su **Invia**.
 
-## Esempio {#cross-channel-workflow-sample}
+## Esempi {#cross-channel-workflow-sample}
 
 Di seguito è riportato un esempio di flusso di lavoro cross-channel con una segmentazione e due consegne. Il flusso di lavoro esegue il targeting di tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+Puoi anche creare un flusso di lavoro ricorrente per inviare una notifica push personalizzata ogni primo giorno del mese alle 20 agli abbonati alla tua app mobile in base al loro fuso orario.
 
 <!-- Scheduled emails available?
 
