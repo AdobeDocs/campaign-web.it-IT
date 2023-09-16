@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 80%
+source-wordcount: '1321'
+ht-degree: 76%
 
 ---
 
@@ -61,13 +61,6 @@ Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di 
 
 ### Gestione delle campagne {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="Campagne"
->abstract="Questo è l’elenco delle campagne. Puoi visualizzare informazioni utili, ad esempio le date di inizio, fine e ultima modifica e il relativo stato. È possibile filtrare l’elenco in base allo stato o alle date di inizio e fine. Fai clic sul pulsante “Crea campagna” per aggiungere una nuova campagna. Seleziona una campagna per visualizzarne il contenuto, le consegne e i dettagli. Passa alla scheda “Modelli” per visualizzare e creare i modelli."
-
-
-
 Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
 
 * **Campagne**: questo è l’elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio/fine/creazione/ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
@@ -83,13 +76,6 @@ Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, co
 
 ### Gestione clienti {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="Tipi di pubblico"
->abstract="Questo è l’elenco di tipi di pubblico. Puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Questo elenco è di sola lettura."
-
-
 Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e iscrizioni Questi elenchi sono di sola lettura.
 
 * **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Ulteriori informazioni sui destinatari in [questa sezione](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e
 >id="acw_offers_list"
 >title="Offerte"
 >abstract="Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aggiungere un’offerta in una consegna"
 
 * **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### Aiuto contestuale {#user-interface-help}
+## Aiuto contestuale {#user-interface-help}
 
 Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 Con la nuova versione beta, il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
-
-![](assets/ask-a-question.png)
-
 
 Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un&#39;attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant con Gen AI è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="Questa campagna è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questa campagna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="Questa consegna è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questa consegna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="Questo flusso di lavoro è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo flusso di lavoro. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Questo flusso di lavoro è di sola lettura"
->abstract="Impossibile modificare il flusso di lavoro a causa di aree di lavoro non supportate o non compatibili."
 
 <!-- delivery template settings-->
 
