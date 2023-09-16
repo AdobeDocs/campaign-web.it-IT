@@ -3,10 +3,10 @@ audience: end-user
 title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tut
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Visualizza gli attributi avanzati"
->abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Utilizza questo interruttore per creare un filtro con attributi avanzati."
+>abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Utilizza questo interruttore per visualizzare gli attributi avanzati."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
