@@ -3,16 +3,15 @@ audience: end-user
 title: Gestione delle autorizzazioni in Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni in Campaign Web v8
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 45%
 
 ---
 
 
 # Accesso e autorizzazioni {#access-and-permissions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -20,6 +19,38 @@ ht-degree: 33%
 >abstract="L&#39;amministratore deve concedere l&#39;autorizzazione prima di poter creare questo oggetto."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Questo pubblico è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo pubblico. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Questo servizio è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo servizio. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Questa campagna è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questa campagna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Questa consegna è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questa consegna. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Questo flusso di lavoro è di sola lettura"
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo flusso di lavoro. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Questo flusso di lavoro è di sola lettura"
+>abstract="Impossibile modificare il flusso di lavoro a causa di aree di lavoro non supportate o non compatibili."
 
 Il controllo degli accessi può limitare l’accesso a oggetti e dati da elenchi principali, come consegne, destinatari o flussi di lavoro. Queste restrizioni si applicano anche nella struttura di navigazione di Explorer. È inoltre necessario disporre delle autorizzazioni per creare, eliminare, duplicare e modificare oggetti dall’interfaccia utente.
 
@@ -30,7 +61,6 @@ Durante la navigazione nell’interfaccia utente di Campaign Web, puoi accedere 
 ## Visualizza autorizzazioni {#view-permissions}
 
 Dalla sezione **Esplora**, è possibile sfogliare le autorizzazioni per ciascuna cartella. Queste autorizzazioni sono impostate nella console client e vengono utilizzate per organizzare e controllare l’accesso ai dati di Campaign.
-
 
 Per visualizzare le autorizzazioni per una cartella, effettua le seguenti operazioni:
 

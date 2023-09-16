@@ -3,20 +3,15 @@ audience: end-user
 title: Utilizzare i servizi di abbonamento
 description: Scopri come creare servizi in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 8%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
 
 # Utilizzare i servizi di abbonamento {#create-services}
-
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Questo servizio è di sola lettura"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo servizio. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
