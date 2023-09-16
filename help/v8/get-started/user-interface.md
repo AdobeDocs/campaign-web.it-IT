@@ -4,7 +4,7 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
+source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 76%
@@ -56,8 +56,6 @@ Gli elementi visualizzati nel **Esplora** dipende dalle autorizzazioni utente.  
 Come in tutte le schermate di elenchi, puoi configurare le colonne per visualizzare le informazioni che ti servono. Consulta questa [sezione](#list-screens).
 
 Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di cartelle e risorse, consulta questa [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
-
-
 
 ### Gestione delle campagne {#user-interface-campaign-management}
 
