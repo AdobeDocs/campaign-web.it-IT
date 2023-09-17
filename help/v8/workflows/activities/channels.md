@@ -3,38 +3,15 @@ audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 60%
 
 ---
 
 
 # Attività di e-mail, SMS e push {#channel}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_email"
->title="Attività e-mail"
->abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_sms"
->title="Attività e-mail"
->abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_ios"
->title="Attività e-mail"
->abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_android"
->title="Attività e-mail"
->abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti. "
 
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti.
 
@@ -60,6 +37,30 @@ Inizia a creare il flusso di lavoro con le attività pertinenti prima di inserir
   ![](../../msg/assets/add-delivery-in-wf.png)
 
 ## Configurare la consegna {#create-a-delivery-in-a-workflow}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="Attività e-mail"
+>abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="Attività SMS"
+>abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="Attività push iOS"
+>abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="Attività push Android"
+>abstract="Automatizza ed esegui campagne di marketing su canali e-mail, SMS e push. Puoi combinare più attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento dei clienti."
 
 Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 
