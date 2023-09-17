@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Crea pubblico"
->abstract="L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività consente di definire il pubblico che sarà inserito nel flusso di lavoro."
+>abstract="Il **Creare un pubblico** attività ti consente di definire il pubblico che entrerà nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro, il pubblico del messaggio non è definito nell’attività del canale, ma nel **Creare un pubblico** attività."
 
 
-L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività consente di definire il pubblico che sarà inserito nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**.
+L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività consente di definire il pubblico che sarà inserito nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro, il pubblico del messaggio non è definito nell’attività del canale, ma nel **Creare un pubblico** attività.
 
 Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
@@ -29,7 +29,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
 >[!NOTE]
 >
->In questo contesto, non è possibile caricare un pubblico da un file. A questo scopo, devi creare una consegna autonoma. [Ulteriori informazioni](../../audience/about-audiences.md)
+>In questo contesto, non è possibile caricare un pubblico da un file. A questo scopo, devi creare una consegna e-mail autonoma. [Ulteriori informazioni](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

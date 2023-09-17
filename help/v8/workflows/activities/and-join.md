@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Unione AND nei flussi di lavoro
 description: Scopri come utilizzare l’attività Unione AND nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Attività AND-join"
->abstract="L’attività **Unione AND** è un’attività di **Controllo del flusso**. Consente di sincronizzare più rami di esecuzione di un flusso di lavoro."
-
-
+>abstract="L’attività **Unione AND** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivato al termine di tutte le attività precedenti. Questo ti consente di assicurarti che alcune attività siano terminate prima di continuare a eseguire il flusso di lavoro."
 
 L’attività **Unione AND** è un’attività di **Controllo del flusso**. Consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
 

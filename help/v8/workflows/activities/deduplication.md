@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Deduplicazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Deduplicazione
 badge: label="Beta"
-source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 9%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication"
+>title="Attività di deduplicazione"
+>abstract="Il **Deduplicazione** attività ti consente di eliminare i duplicati nei risultati delle attività in entrata. Viene utilizzato principalmente dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
