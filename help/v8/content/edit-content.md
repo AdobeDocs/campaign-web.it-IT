@@ -4,9 +4,9 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 84%
 
 ---
@@ -64,7 +64,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
    >
    >È possibile modificare la parte che precede “@”, ma non l’indirizzo del dominio.
 
-1. Espandi **[!UICONTROL Campi di risposta]** sezione. L&#39;indirizzo del mittente viene utilizzato per impostazione predefinita per le risposte. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
+1. Espandi **[!UICONTROL Campi di risposta]** sezione. Il nome e gli indirizzi del mittente vengono utilizzati per impostazione predefinita per le risposte. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
 
    ![](assets/email-edit-content-reply-to.png)
 

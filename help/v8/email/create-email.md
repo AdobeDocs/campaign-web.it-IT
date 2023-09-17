@@ -4,10 +4,10 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 70%
+source-wordcount: '1354'
+ht-degree: 69%
 
 ---
 
@@ -66,7 +66,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
 
    ![](assets/email-properties.png)
 
-1. Inoltre, è possibile accedere alle impostazioni avanzate, come le regole di tipologia e le mappature dei target, tramite **[!UICONTROL Impostazioni]** in alto a destra. Queste impostazioni sono preconfigurate nel modello selezionato, ma possono essere modificate in base alle esigenze per questo specifico messaggio e-mail.
+1. Inoltre, è possibile accedere alle impostazioni avanzate, come le regole di tipologia e le mappature dei target, tramite **[!UICONTROL Impostazioni]** in alto a destra. Queste impostazioni sono preconfigurate nel modello selezionato, ma possono essere modificate in base alle esigenze per questo specifico messaggio e-mail. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
 ## Definire il pubblico {#define-audience}
 
@@ -74,7 +74,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
 >id="acw_deliveries_email_audience"
 >title="Selezionare un pubblico per la consegna"
 >abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente (già definito in un’istanza di Campaign v8 o da Adobe Experience Platform), creare un nuovo pubblico utilizzando il generatore di regole o caricare un file contenente il pubblico. I gruppi di controllo non sono abilitati per **Seleziona da file** e viceversa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Pubblico di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Selezionare il pubblico principale"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Impostare un gruppo di controllo"
 
 In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente.
@@ -157,7 +157,7 @@ Per ulteriori informazioni su come visualizzare in anteprima e testare le e-mail
 
 1. Per esaminare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, nonché tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno di questi elementi, fai clic sul pulsante Modifica.
 
-1. Per visualizzare in anteprima l’e-mail e inviare le versioni di test, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
+1. Per visualizzare in anteprima l’e-mail e inviare le versioni di test, fai clic sul pulsante **[!UICONTROL Simula contenuto]** pulsante.
 
    ![](assets/review-email.png)
 

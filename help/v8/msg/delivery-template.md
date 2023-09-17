@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -25,12 +25,12 @@ Per un processo di progettazione accelerato e migliorato, puoi creare modelli di
 
 Un modello può includere:
 
-* [Tipologie](../advanced-settings/delivery-settings.md#typology)
-* L’indirizzo del mittente
-* Un [pubblico](../audience/about-audiences.md), inclusi [gruppi di controllo](../audience/control-group.md)
-* [Contenuto](../content/edit-content.md) personalizzato
-* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md)
-* Collegamenti a [pagine mirror](../content/mirror-page.md) e [collegamenti](../content/message-tracking.md) per annullare l’iscrizione
+* [Tipologie](../advanced-settings/delivery-settings.md#typology),
+* L’indirizzo del mittente,
+* Un [pubblico](../audience/about-audiences.md), inclusi [gruppi di controllo](../audience/control-group.md),
+* Personalizzato [contenuto](../content/edit-content.md),
+* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md),
+* Collegamenti a [pagina mirror](../content/mirror-page.md) e annullamento dell’abbonamento [collegamenti](../content/message-tracking.md),
 * Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni della quarantena
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Per configurare un modello di consegna da zero, segui la procedura seguente:
    > * [Canale e-mail](../email/create-email.md)
    > * [Canale di notifica push](../push/gs-push.md)
    > * [Canale SMS](../sms/create-sms.md)
+
+1. Inoltre, per i modelli e-mail, è possibile accedere a impostazioni avanzate, come regole di tipologia e mappature di destinazione, tramite **[!UICONTROL Impostazioni]** in alto a destra. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Rivedi]** per salvare e rivedere il modello. Potrai sempre modificarne le impostazioni, eliminarlo e duplicarlo.
 
