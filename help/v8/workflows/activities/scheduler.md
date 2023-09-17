@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Scheduler
 description: Scopri come utilizzare l’attività del flusso di lavoro Scheduler
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 11%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="Attività Scheduler"
->abstract="Il **Scheduler** l&#39;attività è un **Controllo del flusso** attività. Consente di pianificare l’avvio del flusso di lavoro. Questa attività deve essere considerata come un inizio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro."
+>abstract="Il **Scheduler** attività ti consente di pianificare quando viene avviato il flusso di lavoro. Questa attività deve essere considerata come un inizio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro."
 
 
 Il **Scheduler** l&#39;attività è un **Controllo del flusso** attività. Consente di pianificare l’avvio del flusso di lavoro. Questa attività deve essere considerata come un inizio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro.
@@ -33,7 +33,13 @@ Il **Scheduler** l&#39;attività è un **Controllo del flusso** attività. Conse
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Validità modulo di pianificazione"
->abstract="È possibile definire un periodo di validità per lo scheduler. Può essere permanente o valida fino a una data specifica."
+>abstract="È possibile definire un periodo di validità per lo scheduler. Può essere permanente (impostazione predefinita) o valida fino a una data specifica."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Opzioni modulo di pianificazione"
+>abstract="Definisci la frequenza del modulo di pianificazione. Può essere eseguito in un determinato momento, una o più volte al giorno, settimana o mese."
 
 Per configurare il **Scheduler** attività:
 

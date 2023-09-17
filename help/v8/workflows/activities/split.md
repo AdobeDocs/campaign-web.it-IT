@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Attività Dividi"
->abstract="L’attività **Dividi** è un’attività di **Targeting** che consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione."
+>abstract="Il **Dividi** L’attività ti consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a diversi criteri di selezione, ad esempio le regole di filtro o la dimensione della popolazione."
 
 
 L’attività **Dividi** è un’attività di **Targeting** che consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione.

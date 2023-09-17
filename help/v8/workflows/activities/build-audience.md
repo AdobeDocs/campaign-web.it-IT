@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Crea pubblico"
+>title="Creare un’attività di pubblico"
 >abstract="Il **Creare un pubblico** attività ti consente di definire il pubblico che entrerà nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro, il pubblico del messaggio non è definito nell’attività del canale, ma nel **Creare un pubblico** attività."
 
 
