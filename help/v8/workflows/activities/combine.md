@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 82%
+source-wordcount: '885'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="Combina attività"
->abstract="Il **Combina** l&#39;attività è un **Targeting** attività. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni."
+>abstract="Il **Combina** attività ti consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni."
 
 
 Il **Combina** l&#39;attività è un **Targeting** attività. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più target. Di seguito sono riportati i tipi di segmentazione disponibili:
