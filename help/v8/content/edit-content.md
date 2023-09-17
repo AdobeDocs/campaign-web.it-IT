@@ -4,10 +4,10 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 84%
+source-wordcount: '593'
+ht-degree: 77%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Parametri e-mail"
->abstract="I valori Nome mittente e Da e-mail sono definiti nel modello e-mail. La riga Oggetto può essere personalizzata utilizzando l’editor di espressioni."
+>title="Impostare le proprietà di base dell’e-mail"
+>abstract="Il **Dettagli di base** consente di aggiornare l&#39;indirizzo del mittente e l&#39;indirizzo di risposta e di definire la riga dell&#39;oggetto utilizzando l&#39;editor espressioni."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Allegato e-mail"
+>title="Allega file all’e-mail"
 >abstract="Seleziona uno o più file da inserire nel messaggio."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Opzioni di tracciamento"
+>title="Modifica tracciamento"
 >abstract="Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione da qui."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Aggiungere collegamenti e tenere traccia dei messaggi"
 
 La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
 * Definire gli elementi di base del messaggio, ad esempio l’indirizzo del mittente e la riga dell’oggetto
