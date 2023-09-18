@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 82%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Orchestrare le attività {#orchestrate}
 
 Dopo aver [creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all’interno di una campagna, puoi iniziare a orchestrare le diverse attività che eseguirà. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma del flusso di lavoro. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale.
+
+## Aggiungere attività {#add}
 
 In questa fase della configurazione, il diagramma viene visualizzato con un’icona di avvio che rappresenta l’inizio del flusso di lavoro. Per aggiungere la prima attività, fai clic sul pulsante + collegato all’icona di avvio.
 
@@ -32,6 +34,20 @@ Per rimuovere un’attività, selezionala nell’area di lavoro e fai clic sull�
 >[!TIP]
 >
 >Hai la possibilità di personalizzare il nome delle transizioni tra ciascuna attività. A questo scopo, seleziona la transizione e modifica la relativa etichetta nel riquadro a destra.
+
+## Gestire attività {#manage}
+
+Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi:
+
+* **Elimina** l’attività dall’area di lavoro.
+* **Disattiva/Abilita** l’attività. Quando viene eseguito il flusso di lavoro, le attività disabilitate non vengono eseguite e il flusso di lavoro viene messo in pausa?
+* **Copia** l’attività. Puoi quindi incollarlo in qualsiasi flusso di lavoro facendo clic sul pulsante &quot;+&quot; su una transizione e selezionando &quot;Incolla 1 attività&quot;.
+* Accedere a **Registri e attività**.
+* **Pausa/Riprendi** l’attività. Quando il flusso di lavoro viene eseguito, viene messo in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
+
+![](assets/activity-action.png){width="70%"}
+
+## Esempio {#example}
 
 Di seguito è riportato un esempio di flusso di lavoro progettato per inviare un’e-mail ai clienti (diversi da clienti VIP) che hanno un’email e sono interessati alle macchine da caffè.
 

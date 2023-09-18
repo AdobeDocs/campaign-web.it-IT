@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -48,7 +48,7 @@ Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di at
 |-----|------------|
 | ![](assets/activity-status-pending.png){width="70%"} | L’attività è attualmente in esecuzione. |
 | ![](assets/activity-status-orange.png){width="70%"} | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
-| ![](assets/activity-status-red.png){width="70%"} | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
+| ![](assets/activity-status-red.png){width="70%"} | L’attività ha riscontrato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
 | ![](assets/activity-status-green.png){width="70%"} | L’attività è stata eseguita correttamente. |
 
 ## Monitorare i registri e le attività {#logs-tasks}
