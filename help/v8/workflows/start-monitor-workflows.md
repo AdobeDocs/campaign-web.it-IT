@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 88%
 
 ---
 
@@ -29,16 +29,27 @@ Puoi monitorare l’avanzamento dei profili target in tempo reale utilizzando un
 >
 >Puoi disattivare il flusso visivo utilizzando il pulsante **[!UICONTROL Nascondi avanzamento]** nella barra delle azioni superiore dell’area di lavoro.
 
+## Transizioni del flusso di lavoro {#transitions}
+
+Nei flussi di lavoro, i dati trasportati da un’attività all’altra tramite transizioni vengono memorizzati in una tabella di lavoro temporanea.
+
+Questi dati possono essere visualizzati per ogni transizione. A questo scopo, seleziona una transizione per aprirne le proprietà sul lato destro dello schermo.
+
+* Clic **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
+* Clic **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata.
+
+![](assets/transition.png)
+
 ## Monitorare l’esecuzione dell’attività {#activities}
 
 Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di attività ti consentono di controllarne l’esecuzione:
 
 | Indicatore visivo | Descrizione |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | L’attività è attualmente in esecuzione. |
-| ![](assets/activity-status-orange.png) | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
-| ![](assets/activity-status-red.png) | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
-| ![](assets/activity-status-green.png) | L’attività è stata eseguita correttamente. |
+| ![](assets/activity-status-pending.png){width="70%"} | L’attività è attualmente in esecuzione. |
+| ![](assets/activity-status-orange.png){width="70%"} | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
+| ![](assets/activity-status-red.png){width="70%"} | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
+| ![](assets/activity-status-green.png){width="70%"} | L’attività è stata eseguita correttamente. |
 
 ## Monitorare i registri e le attività {#logs-tasks}
 
