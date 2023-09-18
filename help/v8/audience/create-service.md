@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i servizi di abbonamento
 description: Scopri come creare e gestire i servizi in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1019'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,9 @@ Per ulteriori informazioni sulla gestione degli abbonamenti e sul loro annullame
 
 ## Accedere ai servizi di abbonamento {#access-services}
 
-1. Per accedere ai servizi di abbonamento disponibili per la tua piattaforma, passa a **[!UICONTROL Servizi di abbonamento]** menu nella barra di navigazione a sinistra.
+Per accedere ai servizi di abbonamento disponibili per la tua piattaforma, segui i passaggi indicati di seguito.
+
+1. Accedi a **[!UICONTROL Servizi di abbonamento]** menu nella barra di navigazione a sinistra.
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ Per ulteriori informazioni sulla gestione degli abbonamenti e sul loro annullame
 >title="Seleziona un messaggio di conferma"
 >abstract="Quando un utente si abbona o annulla l’abbonamento a un servizio, puoi inviare un messaggio di conferma. Seleziona i modelli da utilizzare per il messaggio."
 
-Per creare un servizio di abbonamento, effettua le seguenti operazioni:
+Per creare un servizio di abbonamento, segui i passaggi indicati di seguito.
 
 1. Seleziona la **[!UICONTROL Crea servizio di abbonamento]** pulsante.
 
@@ -66,7 +68,7 @@ Per creare un servizio di abbonamento, effettua le seguenti operazioni:
 
    ![](assets/service-create-properties.png)
 
-1. Per impostazione predefinita, gli abbonamenti sono illimitati. È possibile disattivare la **[!UICONTROL Periodo di validità illimitato]** per definire una durata di validità per il servizio. Nell’esempio seguente, dopo 20 giorni, nessuno potrà più abbonarsi a questo servizio.
+1. Per impostazione predefinita, gli abbonamenti sono illimitati. È possibile disattivare la **[!UICONTROL Periodo di validità illimitato]** per definire una durata di validità per il servizio. Nell’esempio seguente, dopo 20 giorni, nessun utente potrà più abbonarsi a questo servizio.
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Per creare un servizio di abbonamento, effettua le seguenti operazioni:
 
 1. Clic **[!UICONTROL Salva e rivedi]**. Il nuovo servizio viene aggiunto al **[!UICONTROL Servizi di abbonamento]** elenco.
 
-### Creare un messaggio di conferma {#create-confirmation-message}
+## Creare un messaggio di conferma {#create-confirmation-message}
 
 Per inviare un messaggio di conferma agli utenti che si abbonano o annullano l’abbonamento al servizio, devi creare un modello di consegna con **[!UICONTROL Iscrizioni]** mappatura del target, senza un target definito. A questo scopo, segui questi passaggi.
 
 1. Crea un modello di consegna per la conferma dell’abbonamento. [Scopri come](../msg/delivery-template.md)
 
-1. Non selezionare un pubblico per questa consegna. Invece, accedi a **[!UICONTROL Impostazioni di consegna]**, passare alla [Pubblico](../advanced-settings/delivery-settings.md#audience) e seleziona la scheda **[!UICONTROL Iscrizioni]** mappatura target.
+1. Non selezionare un pubblico per questa consegna. Invece, accedi a **[!UICONTROL Impostazioni di consegna]**, passare alla [Pubblico](../advanced-settings/delivery-settings.md#audience) e seleziona la scheda **[!UICONTROL Iscrizioni]** mappatura target dall’elenco.
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -100,9 +102,9 @@ Per inviare un messaggio di conferma agli utenti che si abbonano o annullano l�
 
 1. Ripeti i passaggi precedenti per creare un modello di consegna per la conferma dell’annullamento dell’abbonamento.
 
-Ora puoi selezionare questi messaggi quando [creazione di un servizio di abbonamento](#create-service). Gli utenti che si abbonano o annullano l’abbonamento a tale servizio riceveranno il messaggio di conferma selezionato.
+Ora puoi selezionare questi messaggi quando [creazione di un servizio di abbonamento](#create-service). Gli utenti che si abbonano o annullano l’abbonamento a tale servizio ricevono il messaggio di conferma selezionato.
 
-## Aggiungere abbonati al servizio
+## Aggiungere abbonati al servizio {#add-subscribers}
 
 Dopo aver creato un servizio, puoi aggiungere manualmente gli abbonati. Segui i passaggi seguenti.
 
@@ -116,11 +118,27 @@ Dopo aver creato un servizio, puoi aggiungere manualmente gli abbonati. Segui i 
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. I destinatari selezionati riceveranno la sottoscrizione [messaggio di conferma](#create-confirmation-message) selezionato quando [creazione del servizio](#create-service). Clic **[!UICONTROL Invia]**.
+1. Clic **[!UICONTROL Invia]**. I destinatari selezionati riceveranno la sottoscrizione [messaggio di conferma](#create-confirmation-message) selezionato quando [creazione del servizio](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 I profili aggiunti vengono visualizzati nel **[!UICONTROL Abbonati]** elenco. Sono ora abbonati al tuo servizio.
+
+## Rimuovere gli abbonati dal servizio {#remove-subscribers}
+
+Una volta aggiunti gli abbonati al servizio, puoi rimuoverli. Segui i passaggi seguenti.
+
+1. Seleziona un servizio esistente da **[!UICONTROL Servizi di abbonamento]** elenco.
+
+1. Fai clic sull’icona dei tre punti accanto al nome del destinatario desiderato e seleziona **[!UICONTROL Elimina]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. Conferma eliminazione e fai clic su **[!UICONTROL Invia]**. I destinatari selezionati riceveranno l’annullamento dell’abbonamento [messaggio di conferma](#create-confirmation-message) selezionato quando [creazione del servizio](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+Il destinatario viene rimosso dal **[!UICONTROL Abbonati]** e non è più abbonato al servizio.
 
 ## Registri e rapporti del servizio di abbonamento {#logs-and-reports}
 
@@ -142,7 +160,7 @@ Per misurare l’efficacia dei servizi in abbonamento per i canali SMS ed e-mail
 
      ![](assets/service-reports.png)
 
-   * Il **[!UICONTROL Evoluzione complessiva degli abbonamenti]** il grafico mostra la suddivisione per periodo, inclusi abbonamenti, annullamenti di abbonamenti, evoluzione dei numeri e percentuale di fedeltà.
+   * Il **[!UICONTROL Evoluzione complessiva degli abbonamenti]** il grafico mostra la suddivisione per periodo, inclusi abbonamenti, annullamenti di abbonamenti, evoluzione dei numeri e percentuale di fedeltà.<!--what is Registered?-->
 
    * Utilizza il **[!UICONTROL Ricarica]** per recuperare gli ultimi valori dall’esecuzione e dalla pianificazione del flusso di lavoro di tracciamento.
 
