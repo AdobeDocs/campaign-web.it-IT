@@ -3,9 +3,9 @@ audience: end-user
 title: Generazione di immagini con l’assistente contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente contenuti per otti
 
    ![](assets/image-genai-2.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una descrizione del marketing per dare più contesto all’assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
-   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza.
+   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 
 1. Seleziona la **[!UICONTROL Proporzioni]** della risorsa. Questo determina la larghezza e l’altezza della risorsa.
 

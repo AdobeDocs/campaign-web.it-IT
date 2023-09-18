@@ -3,9 +3,9 @@ audience: end-user
 title: Generazione di e-mail con l’assistente al contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,17 @@ Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-ma
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare.
 
-   Abilita **[!UICONTROL Migliora con il contenuto corrente]** l’opzione per l’assistente contenuti di personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
+   Di seguito sono riportati alcuni esempi di prompt:
+
+   * Per una newsletter: genera una newsletter mensile con articoli di viaggio, punti salienti della destinazione e offerte esclusive per gli abbonati.
+   * Per feedback e sondaggi: crea un’e-mail che invita i clienti a fornire feedback sulla loro recente esperienza software e a partecipare a un sondaggio sul miglioramento dei prodotti.
+   * Per e-mail di anniversario o compleanno: genera un’e-mail di compleanno per celebrare il giorno speciale del cliente e offrire uno sconto di compleanno.
 
    ![](assets/email-genai-2.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una descrizione del marketing per dare più contesto all’assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
-   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza.
+   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 
 1. Seleziona la **[!UICONTROL Strategia di comunicazione]** che meglio si adatta alle tue esigenze. Questo influenzerà il tono e lo stile dell’e-mail generata.
 
@@ -46,7 +50,7 @@ Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-ma
 
    ![](assets/email-genai-3.png)
 
-1. Personalizzare **[!UICONTROL Tipo di contenuto]** impostazioni corrispondenti alle caratteristiche desiderate per la risorsa.
+1. Personalizzare **[!UICONTROL Tipo di contenuto]** impostazioni delle risorse in base alle caratteristiche desiderate.
 
 1. Quando il prompt è pronto, fai clic su **[!UICONTROL Genera]**.
 

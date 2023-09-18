@@ -3,9 +3,9 @@ audience: end-user
 title: Testo con Assistente contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -31,13 +31,13 @@ L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne 
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare.
 
-   Abilita **[!UICONTROL Migliora con il contenuto corrente]** l’opzione per l’assistente contenuti di personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
+   Abilita **[!UICONTROL Migliora con il contesto corrente]** l’opzione per l’assistente contenuti di personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
 
    ![](assets/text-genai-3.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una descrizione del marketing per dare più contesto all’assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
-   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza.
+   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 
 1. Seleziona la **[!UICONTROL Strategia di comunicazione]** che meglio si adatta alle tue esigenze. Ciò influisce sul tono e sullo stile del testo generato.
 
