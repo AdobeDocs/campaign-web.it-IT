@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 76%
+source-wordcount: '1331'
+ht-degree: 73%
 
 ---
 
@@ -85,10 +85,12 @@ Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offerte"
->abstract="Scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aggiungere un’offerta in una consegna"
+>abstract="Sfoglia gli elenchi delle offerte e dei modelli di offerta creati nella console utilizzando **Interazione** modulo. Questi elenchi sono di sola lettura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aggiungere offerte a una consegna"
 
-* **Offerte**: scorri l’elenco delle offerte di interazione. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta. Questi elenchi sono di sola lettura.
+Nella sezione GESTIONE CLIENTI puoi visualizzare le offerte e i modelli di offerta. Questi elenchi sono di sola lettura.
+
+* **Offerte** : sfoglia l’elenco delle offerte e dei modelli di offerta creati nella console utilizzando **Interazione** modulo. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta.
 
 Scopri come creare e inviare offerte tramite e-mail e SMS in [questa sezione](../content/offers.md).
 

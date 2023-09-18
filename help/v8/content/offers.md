@@ -4,10 +4,10 @@ title: Inviare offerte
 description: Inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 94%
+source-wordcount: '771'
+ht-degree: 73%
 
 ---
 
@@ -25,15 +25,19 @@ I passaggi per inviare offerte con una consegna sono i seguenti:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Impostazioni delle offerte"
->abstract="Configura le offerte da proporre ai destinatari."
+>title="Definire i parametri delle offerte"
+>abstract="Configura le offerte da proporre ai destinatari definendo uno spazio delle offerte, facoltativamente una categoria e un tema, e specifica il numero di offerte da inserire nella consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Impostazioni avanzate per le offerte"
->abstract="Configura le opzioni avanzate per le offerte."
+>title="Impostare le impostazioni avanzate delle offerte"
+>abstract="Puoi abilitare l’esclusione dei destinatari per i quali non vi sono sufficienti offerte idonee e scegliere la modalità di elaborazione del messaggio nel caso in cui una delle proposte non esista."
 
-1. Per selezionare le offerte da proporre nel messaggio e-mail, fai clic sul pulsante **[!UICONTROL Configura le offerte]** nella schermata per la modifica del contenuto della consegna.
+Adobe Campaign ti consente di proporre una o più offerte specifiche a un determinato contatto. Modulo di interazione che consente di rispondere in tempo reale durante un’interazione con un determinato contatto proponendo loro una o più offerte specifiche. Queste offerte possono essere semplici messaggi di comunicazione, offerte speciali su uno o più prodotti o un servizio.
+
+Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicati di seguito.
+
+1. Fai clic su **[!UICONTROL Configurare le offerte]** dalla schermata delivery content edition.
 
    ![](assets/setup-offers.png)
 
@@ -99,7 +103,7 @@ Per inserire un’offerta utilizzando l’editor di espressioni, effettua le seg
 
    >[!NOTE]
    >
-   >Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte.
+   >Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte. Per ulteriori informazioni, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Salva le modifiche.
 
