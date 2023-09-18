@@ -3,14 +3,34 @@ audience: end-user
 title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 99%
+source-wordcount: '1853'
+ht-degree: 94%
 
 ---
 
 # Rapporti sulla campagna {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Reportistica sull’invio"
+>abstract="La scheda Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Tracciamento reportistica"
+>abstract="La scheda Invio all’interno del rapporto offre dati preziosi, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Panoramica della consegna"
+>abstract="La Panoramica della consegna fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si interagiscono con la consegna delle e-mail."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Statistiche iniziali sul pubblico target"
+>abstract="La tabella delle statistiche del pubblico di destinazione iniziale mostra i dati relativi ai destinatari"
 
 Il rapporto sulle campagne è suddiviso in diversi widget che descrivono il successo e gli errori di una campagna.
 

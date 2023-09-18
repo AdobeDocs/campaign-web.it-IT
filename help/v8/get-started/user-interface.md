@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 73%
+source-wordcount: '1278'
+ht-degree: 71%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Dati di arricchimento"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reportistica sull’invio"
->abstract="Consulta gli indicatori di invio per la reportistica della campagna."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Tracciamento reportistica"
->abstract="Consulta gli indicatori di tracciamento per la reportistica della campagna."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Panoramica sulla reportistica"
->abstract="Metriche chiave per la consegna."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title=" Reportistica sulle statistiche target"
->abstract="Questa sezione mostra metriche specifiche in base ai tipi di pubblico."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Reportistica aggregata per le consegne"
->abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Tracciamento globale dei rapporti"
 >abstract="In questa schermata sono visibili le metriche di reporting di tracciamento"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
