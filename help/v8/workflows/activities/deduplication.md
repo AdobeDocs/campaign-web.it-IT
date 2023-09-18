@@ -3,23 +3,20 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Deduplicazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Deduplicazione
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
 
 # Deduplica {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="Attributi di deduplicazione"
+>abstract="Questo consente di specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati: indirizzo e-mail, nome, cognome, ecc. L’ordine dei campi ti consente di specificare quali elaborare per primi."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"

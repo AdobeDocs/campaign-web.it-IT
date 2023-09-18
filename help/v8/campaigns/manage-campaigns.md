@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ Nell’elenco delle campagne sono disponibili due schede:
 
 * Nella scheda **Sfoglia** sono elencate tutte le campagne esistenti. Puoi fare clic su una campagna per aprirne la dashboard, o crearne una nuova facendo clic sul pulsante **Crea campagna**. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
-* Nella scheda **Modelli** sono elencati tutti i modelli di campagna disponibili. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati durante la creazione di nuove campagne. Vengono creati dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it)
+* Nella scheda **Modelli** sono elencati tutti i modelli di campagna disponibili. Puoi visualizzare un modello esistente o crearne uno nuovo. [Ulteriori informazioni](manage-campaign-templates.md).
 
 ![Elenco delle campagne](assets/campaign-list.png)
 

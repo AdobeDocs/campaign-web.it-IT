@@ -3,22 +3,20 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica dimensione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica dimensione
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 6%
 
 ---
 
 
 # Cambiare dimensione {#change-dimension}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Generate Complement"
->abstract="TBD"
--->
+>title="Generare un complemento"
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

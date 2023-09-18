@@ -4,10 +4,10 @@ title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: ef459ca97bbe327128d790f77029521ed12cc6c9
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 58%
+source-wordcount: '450'
+ht-degree: 55%
 
 ---
 
@@ -31,8 +31,7 @@ Per creare una nuova campagna, devi definirne le proprietà e pianificarne la pi
 Per creare una nuova campagna, segui questi passaggi:
 
 1. Fai clic sul menu **[!UICONTROL Campagne]** e sul pulsante **[!UICONTROL Crea campagna]**.
-1. Seleziona il **Modello** da utilizzare e specifica un’etichetta per la campagna. I modelli di campagna sono preconfigurati in modo da poter essere riutilizzati per la creazione di nuove campagne. Vengono creati dalla console client.
-   [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it).
+1. Seleziona il **Modello** da utilizzare e specifica un’etichetta per la campagna. [Ulteriori informazioni](manage-campaign-templates.md).
 1. Se necessario, è possibile modificare le seguenti **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
 1. Definisci la **Pianificazione** della campagna. Scopri come impostare la pianificazione della campagna in [questa sezione](#campaign-schedule)
 1. Fai clic su **Crea**.
