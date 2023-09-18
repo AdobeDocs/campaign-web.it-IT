@@ -4,7 +4,7 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 69%
@@ -117,7 +117,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
-   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../msg/delivery-template.md).
+   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../content/email-sample-templates.md).
 
    ![](assets/select-template.png)
 
@@ -202,7 +202,10 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 1. Durante il processo di invio, puoi tracciarne l’avanzamento e visualizzare le statistiche in tempo reale direttamente in questa schermata.
 
-   ![](assets/sent-mail.png)
+   ![](assets/sending-email.png)
+
+   <!--
+    ![](assets/sent-email.png)-->
 
    Puoi anche accedere a informazioni dettagliate sull’invio facendo clic sul pulsante **[!UICONTROL Registri]**. [Scopri come monitorare i registri di consegna](../monitor/delivery-logs.md)
 
