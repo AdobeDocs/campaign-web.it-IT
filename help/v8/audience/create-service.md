@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i servizi di abbonamento
 description: Scopri come creare e gestire i servizi in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -158,7 +158,15 @@ Una volta [ha creato un servizio di abbonamento](#create-service), il tuo utente
 
    ![](assets/service-audience-subscribers.png)
 
-1. Crea una campagna ed esegui il targeting del pubblico creato.
+1. [Creare una consegna](../msg/gs-messages.md) e seleziona il pubblico creato in precedenza.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Modifica il contenuto del messaggio come desiderato e invia la consegna.
+
+   ![](assets/service-delivery-ready.png)
+
+La consegna viene inviata solo agli abbonati a tale servizio.
 
 
 
