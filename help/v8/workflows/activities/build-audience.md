@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
 >[!IMPORTANT]
 >
->Per combinare più **[!UICONTROL Creare un pubblico]** attività in un flusso di lavoro, incluso un pubblico di Experienci Platform, è necessario aggiungere una **[!UICONTROL Cambia dimensione]** per garantire che tutti i tipi di pubblico appartengano alla dimensione di targeting &quot;Destinatario&quot;. Nella parte inferiore di questa pagina è disponibile un esempio di flusso di lavoro.
+>Se si desidera utilizzare una **[!UICONTROL Creare un pubblico]** attività che ha come target un pubblico di Experienci Platform, è necessario aggiungere una **[!UICONTROL Cambia dimensione]** per garantire che la dimensione di targeting del pubblico sia impostata su &quot;Destinatario&quot;. Nella parte inferiore di questa pagina è disponibile un esempio di flusso di lavoro.
 
 ## Esempi
 
