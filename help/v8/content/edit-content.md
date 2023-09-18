@@ -4,10 +4,10 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 75%
+source-wordcount: '633'
+ht-degree: 69%
 
 ---
 
@@ -39,6 +39,10 @@ La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
 * Eseguire azioni aggiuntive, ad esempio aggiungere gli allegati o configurare le offerte
 * Accedi a [E-mail Designer](get-started-email-designer.md#start-authoring) per iniziare a creare il contenuto corretto dell’e-mail
 
+>[!NOTE]
+>
+>Tutti i campi di testo modificabili di questa schermata possono essere compilati utilizzando i campi di personalizzazione. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
+
 Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indicati di seguito.
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla schermata della [dashboard di consegna e-mail](../email/create-email.md).
@@ -69,7 +73,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato oppure apri l’editor espressioni per aggiungere la personalizzazione mediante vari attributi e blocchi di contenuto o offerte. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
+1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato, oppure apri l’editor espressioni per aggiungerlo [personalizzazione](../personalization/personalize.md) l’utilizzo di vari attributi e blocchi di contenuto, o offerte.
 
 1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi seleziona uno o più file.
 
