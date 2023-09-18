@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 82%
+source-wordcount: '633'
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Per rimuovere un’attività, selezionala nell’area di lavoro e fai clic sull�
 Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi:
 
 * **Elimina** l’attività dall’area di lavoro.
-* **Disattiva/Abilita** l’attività. Quando viene eseguito il flusso di lavoro, le attività disabilitate non vengono eseguite e il flusso di lavoro viene messo in pausa?
+* **Disattiva/Abilita** l’attività. Quando il flusso di lavoro viene eseguito, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e il flusso di lavoro viene interrotto.
 * **Copia** l’attività. Puoi quindi incollarlo in qualsiasi flusso di lavoro facendo clic sul pulsante &quot;+&quot; su una transizione e selezionando &quot;Incolla 1 attività&quot;.
 * Accedere a **Registri e attività**.
 * **Pausa/Riprendi** l’attività. Quando il flusso di lavoro viene eseguito, viene messo in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
