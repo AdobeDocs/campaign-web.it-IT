@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Utilizzare i modelli di consegna
-description: Scopri come creare e utilizzare i modelli di consegna in Campaign
+description: Scopri come creare e utilizzare i modelli di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 89%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 89%
 >id="acw_delivery_template_for_campaign"
 >title="Modelli di consegna"
 >abstract="Utilizza i modelli di consegna per uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne"
-
 
 Per un processo di progettazione accelerato e migliorato, puoi creare modelli di consegna per riutilizzare facilmente contenuti e impostazioni personalizzati nelle campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
 
