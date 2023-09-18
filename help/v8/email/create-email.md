@@ -4,7 +4,7 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 69%
@@ -21,7 +21,7 @@ ht-degree: 69%
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
-In base a un predefinito [modello struttura](../content/email-templates.md), l’e-mail include anche contenuti personalizzati in base agli attributi del profilo cliente.
+In base a un predefinito [modello struttura](../content/email-sample-templates.md), l’e-mail include anche contenuti personalizzati in base agli attributi del profilo cliente.
 
 ## Creare la consegna e-mail {#create-email}
 
