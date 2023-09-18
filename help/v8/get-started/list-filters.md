@@ -3,10 +3,10 @@ audience: end-user
 title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di con
 
 ## Filtri personalizzati{#list-custom-filters}
 
-Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole**.
+Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole** per accedere al generatore di regole.
 
 Trascina gli attributi per creare i criteri di filtro nella schermata **Filtri avanzati**.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi dell’elenco corrente. [Ulteriori informazioni](#adv-attributes)
+
+Il principio operativo del generatore di regole per i filtri personalizzati è simile al generatore di regole utilizzato per creare tipi di pubblico. Informazioni dettagliate su come utilizzarlo sono disponibili nella sezione [Documentazione di Audiences](../audience/segment-builder.md).
 
 ## Utilizzare gli attributi avanzati {#adv-attributes}
 
