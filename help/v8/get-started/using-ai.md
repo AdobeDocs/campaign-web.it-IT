@@ -2,16 +2,16 @@
 title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Utilizzo dell’assistente alla conoscenza basato sull’intelligenza artificiale {#using-ai}
+# Utilizzo di Knowledge Assistant basato sull’intelligenza artificiale {#using-ai}
 
-Ottieni risposte veloci e generate da intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’assistente alla conoscenza basato sull’intelligenza artificiale disponibile nelle caselle di aiuto contestuali del prodotto.
+Ottieni risposte rapide e generate da intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’Assistente alle conoscenze basato sull’intelligenza artificiale disponibile nelle caselle di aiuto contestuali del prodotto.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ L’intelligenza artificiale e i modelli di apprendimento automatico migliorano 
 
 ## Raccomandazioni  {#recommendations-ai}
 
-Quando si pone una domanda nell’aiuto contestuale, viene preso in considerazione il contesto di prodotto corrente.
+Quando si pone una domanda nell’Assistente alla conoscenza basato sull’intelligenza artificiale, viene preso in considerazione il contesto di prodotto corrente, ovvero la schermata Campaign in cui ci si trova.
 
-Per ottenere il meglio dell&#39;assistente, quando si pone una domanda, vi consigliamo di:
+Per ottenere il meglio dall’Assistente alla conoscenza basato sull’intelligenza artificiale, quando ti poni una domanda, ti consigliamo di:
 
 * Sii il più preciso e specifico possibile ed evita ambiguità. La risposta sarà più accurata e utile.
-* Per aiutare l&#39;assistente alla conoscenza a trovare le informazioni corrette, aggiungere il maggior numero possibile di dettagli su ciò che si sta cercando di apprendere.
+* Per aiutare l’Assistente alla conoscenza basato sull’intelligenza artificiale a trovare le informazioni corrette, aggiungi il maggior numero possibile di dettagli su ciò che stai cercando di apprendere.
 * Riformula e perfeziona le tue domande per ottenere risposte migliori. Se la risposta non è accurata o utile, prova diversi approcci e aggiungi contesto per ottenere risultati migliori.
 * Utilizza termini e parole appropriati, con un tono neutro.
 * Valuta le risposte e fornisci feedback in modo che i nostri ingegneri possano imparare dalla tua esperienza e migliorare i risultati.
