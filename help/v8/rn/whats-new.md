@@ -4,7 +4,7 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 52%
@@ -44,7 +44,7 @@ Utilizza la nuova interfaccia di Campaign Web per:
 
 * Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
 * Inviare campagne cross-channel, incluse notifiche SMS e push - [Ulteriori informazioni](../workflows/activities/channels.md)
-* Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-audiences.md)
+* Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-recipients.md)
 * Visualizzare l‘anteprima, testare e inviare i messaggi  - [Ulteriori informazioni](../monitor/prepare-send.md)
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 * Gli indirizzi seed vengono ora utilizzati come **Profili di test**: invia l’e-mail di test agli indirizzi seed, che sono destinatari aggiuntivi nel database. [Ulteriori informazioni](../preview-test/test-deliveries.md).
 * L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare la preparazione dei messaggi, fai clic su **Prepara** pulsante. [Ulteriori informazioni](../monitor/prepare-send.md).
 * L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto.** [Ulteriori informazioni](../preview-test/preview-test.md)
-* Gli elenchi ora sono **Tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
+* Gli elenchi ora sono **Tipi di pubblico**. [Ulteriori informazioni](../audience/about-recipients.md).
 
 ## Limitazioni{#limitations-beta}
 

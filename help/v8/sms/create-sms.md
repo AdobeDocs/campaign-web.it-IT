@@ -4,7 +4,7 @@ title: Creare una consegna SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 82%
@@ -51,7 +51,7 @@ Per creare una nuova consegna SMS indipendente, segui questi passaggi:
    * **[!UICONTROL Natura]**: specifica la natura dell’e-mail a scopo di classificazione.
 +++
 
-1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni](../audience/about-audiences.md).
+1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 

@@ -4,7 +4,7 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 69%
@@ -79,7 +79,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
 
 In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente.
 
-Per istruzioni su come lavorare con i tipi di pubblico, consulta [questa sezione](../audience/about-audiences.md).
+Per istruzioni su come lavorare con i tipi di pubblico, consulta [questa sezione](../audience/about-recipients.md).
 
 1. Per selezionare il pubblico a cui inviare l’e-mail, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** e scegli un pubblico esistente tra quelli elencati.
 

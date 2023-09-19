@@ -4,7 +4,7 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -86,7 +86,7 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 Per inviare un’e-mail o un SMS di test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente del database [!DNL Campaign], utilizza profili di sostituzione.
 
-1. Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-audiences.md)
+1. Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-recipients.md)
 
 1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
@@ -98,7 +98,7 @@ Per inviare un’e-mail o un SMS di test a un indirizzo e-mail o a un numero di 
 
    >[!CAUTION]
    >
-   >Se non hai selezionato un [pubblico](../audience/about-audiences.md) per la consegna, l’opzione **[!UICONTROL Sostituisci dal target principale]** sarà disattivata e non sarà possibile selezionare profili di sostituzione.
+   >Se non hai selezionato un [pubblico](../audience/about-recipients.md) per la consegna, l’opzione **[!UICONTROL Sostituisci dal target principale]** sarà disattivata e non sarà possibile selezionare profili di sostituzione.
 
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail o il numero di telefono che riceverà la consegna di test.
 
