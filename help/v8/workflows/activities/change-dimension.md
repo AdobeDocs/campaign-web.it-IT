@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica dimensione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica dimensione
 badge: label="Beta"
-source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
+source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 4%
@@ -46,7 +46,5 @@ In questo esempio, vogliamo inviare una consegna SMS a tutti i profili che hanno
 
 Quindi utilizziamo un **[!UICONTROL Cambia dimensione]** attività per cambiare la dimensione di targeting del flusso di lavoro in &quot;Destinatari&quot;. Questo ci consente di eseguire il targeting dei destinatari che corrispondono alla query.
 
-<!--
-![](assets/workflow-change-dimension-example.png)
--->
+![](../assets/workflow-change-dimension-example.png)
 

@@ -4,10 +4,10 @@ title: Introduzione ai messaggi e alle consegne in Campaign v8 Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 85%
+source-wordcount: '1289'
+ht-degree: 81%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Consegne"
->abstract="Una consegna è una comunicazione di marketing inviata a un pubblico su un canale specifico: e-mail, SMS o notifica push. Nell’elenco delle consegne, puoi modificare le consegne esistenti e controllarne lo stato, le date di contatto e di modifica e i KPI. Fai clic sul pulsante “Crea consegna” per aggiungere una nuova consegna. Seleziona una consegna per visualizzarne il contenuto, la pianificazione, il pubblico e i dettagli."
-
+>abstract="Una consegna è una comunicazione inviata a un pubblico su un canale specifico: e-mail, SMS o push. In questa schermata puoi modificare, duplicare ed eliminare le consegne esistenti. Puoi anche visualizzare i rapporti per le consegne completate. Fai clic su **Creare una consegna** per aggiungere una nuova consegna."
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati.
 
