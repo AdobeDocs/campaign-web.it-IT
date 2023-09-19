@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione all’assistente contenuti
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 3%
 L’Assistente contenuti, basato su IA generativa, è uno strumento prezioso per migliorare il contenuto delle e-mail. Semplifica la personalizzazione e il miglioramento dei contenuti, ottimizzando le consegne e-mail per risuonare meglio con il pubblico.
 
 Questa funzione consente di risparmiare tempo e di garantire una qualità coerente grazie alla generazione automatica di contenuti e-mail completi. Utilizzando l’intelligenza artificiale generativa, puoi creare e-mail coinvolgenti senza difficoltà, migliorando l’efficacia e l’efficienza delle comunicazioni.
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità sarà disponibile all’inizio di ottobre.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

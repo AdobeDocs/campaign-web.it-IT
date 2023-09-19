@@ -3,9 +3,9 @@ audience: end-user
 title: Testo con Assistente contenuto
 description: Introduzione all’assistente contenuti
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 6%
 Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente al contenuto basato su IA generativa per portare il contenuto al livello successivo.
 
 L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
+
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità sarà disponibile all’inizio di ottobre.
 
 1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
