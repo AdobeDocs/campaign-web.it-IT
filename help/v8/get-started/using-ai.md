@@ -2,9 +2,9 @@
 title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ L’intelligenza artificiale e i modelli di apprendimento automatico migliorano 
 
 ## Raccomandazioni  {#recommendations-ai}
 
-Quando si pone una domanda nell’Assistente alla conoscenza basato sull’intelligenza artificiale, viene preso in considerazione il contesto di prodotto corrente, ovvero la schermata Campaign in cui ci si trova.
+Quando si pone una domanda nell’Assistente alla conoscenza basato sull’intelligenza artificiale, viene preso in considerazione il contesto del prodotto corrente, ovvero la schermata Campaign in cui ci si trova e il contenuto della casella della guida corrente.
 
 Per ottenere il meglio dall’Assistente alla conoscenza basato sull’intelligenza artificiale, quando ti poni una domanda, ti consigliamo di:
 
