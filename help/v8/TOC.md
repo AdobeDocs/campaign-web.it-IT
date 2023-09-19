@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 2cd42206ffd0ef758cc39db4e79a34f10e03588a
+source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 87%
+source-wordcount: '418'
+ht-degree: 88%
 
 ---
 
@@ -98,7 +98,6 @@ ht-degree: 87%
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
    + [Accedere alle campagne e gestirle](campaigns/manage-campaigns.md)
    + [Creare la prima campagna](campaigns/create-campaigns.md)
-   + [Utilizzare i modelli di campagna](campaigns/manage-campaign-templates.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
    + [Accedere e gestire i flussi di lavoro](workflows/access-monitor.md)
