@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica dimensione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica dimensione
 badge: label="Beta"
-source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '296'
 ht-degree: 4%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 4%
 >title="Cambia attività dimensione"
 >abstract="Questa attività ti consente di modificare la dimensione di targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione &quot;contratti&quot; alla dimensione &quot;clienti&quot;."
 
-Il **Cambia dimensione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di modificare la dimensione di targeting durante la creazione del flusso di lavoro.
-Questa attività sposta l’asse a seconda del modello di dati e della dimensione di input.
+Il **Cambia dimensione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di modificare la dimensione di targeting durante la creazione del flusso di lavoro. Sposta l’asse in base al modello di dati e alla dimensione di input. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions)
 
 Ad esempio, puoi cambiare la dimensione di targeting di un flusso di lavoro da &quot;Destinatari&quot; a &quot;Applicazione abbonati&quot; per inviare notifiche push ai destinatari interessati.
 
@@ -47,4 +46,3 @@ In questo esempio, vogliamo inviare una consegna SMS a tutti i profili che hanno
 Quindi utilizziamo un **[!UICONTROL Cambia dimensione]** attività per cambiare la dimensione di targeting del flusso di lavoro in &quot;Destinatari&quot;. Questo ci consente di eseguire il targeting dei destinatari che corrispondono alla query.
 
 ![](../assets/workflow-change-dimension-example.png)
-

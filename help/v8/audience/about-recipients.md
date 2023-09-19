@@ -2,17 +2,17 @@
 title: Utilizzare destinatari e pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 18%
+source-wordcount: '883'
+ht-degree: 14%
 
 ---
 
 
 # Utilizzare destinatari e pubblico {#about-recipients}
 
-## Destinatari {#recipients}
+## Cosa sono i destinatari? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -47,7 +47,7 @@ Puoi anche accedere ai destinatari da **Esplora** visualizzare, sfogliare e crea
 
 Inoltre, puoi gestire l’abbonamento e il suo annullamento a servizi quali le newsletter. [Scopri come utilizzare i servizi di abbonamento](create-service.md)
 
-## Tipi di pubblico {#audiences}
+## Cosa sono i tipi di pubblico? {#audiences}
 
 Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. [Scopri cos’è un modello di consegna](../msg/delivery-template.md).
 
@@ -64,3 +64,27 @@ Quando esegui il targeting di un pubblico, puoi anche definire **gruppi di contr
 >[!NOTE]
 >
 >Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico viene definito in un **Creare un pubblico** attività del flusso di lavoro. In questo contesto, non puoi caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna [in questa sezione](../workflows/activities/build-audience.md)
+
+## Dimensioni di targeting {#targeting-dimensions}
+
+La dimensione di targeting è il tipo di dati che un’operazione gestisce. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
+
+La dimensione di targeting di un flusso di lavoro è definita dal primo **[!UICONTROL Creare un pubblico]** e viene utilizzata in tutte le ulteriori attività fino alla fine del flusso di lavoro. Ad esempio, se esegui una query sui destinatari del database, la transizione in uscita conterrà dati di tipo destinatario e verrà trasmessa all’attività successiva.
+
+Tieni presente che puoi cambiare la dimensione di targeting in un flusso di lavoro utilizzando una **[!UICONTROL Cambia dimensione]** attività. [Ulteriori informazioni](../workflows/activities/change-dimension.md)
+
+Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Destinatari]**. La loro dimensione target utilizza quindi i campi del **nms:destinatario** tabella. Per le notifiche push, la dimensione di destinazione predefinita è **Applicazioni in abbonamento nms:appSubscriptionRcp**, che è collegato alla tabella dei destinatari.
+
+Per le consegne elencate di seguito puoi inoltre utilizzare altre mappature di destinazione incorporate:
+
+| Nome | Utilizza per | Schema |
+|---|---|---|
+| Destinatari | Consegna ai destinatari (tabella dei destinatari incorporata) | nms:destinatario |
+| Visitatori | Consegna ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | mns:visitatore |
+| Abbonamenti | Consegna ai destinatari abbonati a un servizio di informazioni, ad esempio una newsletter | nms:sottoscrizione |
+| Abbonamenti visitatore | Consegna ai visitatori abbonati a un servizio di informazioni | nms:visitorSub |
+| Operatori | Consegna agli operatori Adobe Campaign | nms:operatore |
+| File esterno | Consegna tramite un file contenente tutte le informazioni necessarie per la consegna | Nessuno schema collegato, nessuna destinazione immessa |
+| Applicazioni in abbonamento | Consegna ai destinatari abbonati a un’applicazione | nms:appSubscriptionRcp |
+
+Inoltre, puoi creare una nuova mappatura di destinazione in base alle tue esigenze. Questa operazione viene eseguita dalla console client. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
