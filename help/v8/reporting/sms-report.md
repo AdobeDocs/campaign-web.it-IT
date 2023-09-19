@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 79%
+source-wordcount: '398'
+ht-degree: 24%
 
 ---
 
@@ -14,31 +14,31 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="Riepilogo del rapporto SMS"
->abstract="Scopri le metriche di reportistica per la consegna SMS."
+>title="Panoramica della consegna SMS"
+>abstract="Il **Panoramica della consegna SMS** offre una panoramica completa della consegna di SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Invio rapporti"
->abstract="La scheda Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+>abstract="Il **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
-Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
+Il **Panoramica della consegna SMS** offre una panoramica completa della consegna di SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna.
 
 ## Riepilogo delle consegne {#delivery-summary}
 
-* La **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi SMS.
+* **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui tassi di successo e di errore e sul modo in cui i visitatori si relazionano con i messaggi SMS.
 
   ![](assets/reporting_sms_3.png)
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
+   * **[!UICONTROL Totale inviato]**: percentuale e numero totale di messaggi elaborati durante la preparazione della consegna.
 
-   * **[!UICONTROL Completato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+   * **[!UICONTROL Completato]**: percentuale e numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
 
-   * **[!UICONTROL Tasso di click-through]**: percentuale di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
+   * **[!UICONTROL Percentuale di click-through]**: percentuale e numero di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
 
-   * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
+   * **[!UICONTROL Errori]**: percentuale e numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 +++
 
 * Il grafico e la tabella della **Popolazione target** visualizza dati relativi al pubblico.
@@ -47,9 +47,9 @@ Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS,
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
-   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
+   * **[!UICONTROL Da consegnare]**: numero totale e percentuale di messaggi elaborati durante la preparazione della consegna.
 
-   * **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
+   * **[!UICONTROL Esclusioni]**: numero e percentuale di profili che sono stati esclusi dall’analisi.
 +++
 
 
@@ -59,14 +59,14 @@ Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS,
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
-   * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente.
+   * **[!UICONTROL Completato]**: numero e percentuale di messaggi elaborati correttamente.
 
-   * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante la consegna e che hanno impedito l’invio dei messaggi a determinati profili.
+   * **[!UICONTROL Errori]**: numero totale e percentuale di errori che si sono verificati durante la consegna e che impediscono l’invio dei messaggi a determinati profili.
 
-   * **[!UICONTROL Nuova quarantena]**: numero di profili esclusi e aggiunti alla quarantena.
+   * **[!UICONTROL Nuova quarantena]**: numero e percentuale di profili esclusi e aggiunti alla quarantena.
 +++
 
-* Il grafico e la tabella delle **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+* **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
 
   ![](assets/reporting_sms_6.png)
 
