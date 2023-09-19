@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Deduplicazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Deduplicazione
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 7%
+source-wordcount: '482'
+ht-degree: 6%
 
 ---
 
@@ -60,10 +60,13 @@ Per configurare il **Deduplicazione** attività:
 1. Seleziona la **Metodo di deduplicazione** da utilizzare:
 
    * **Selezione casuale**: seleziona in modo casuale il record da escludere dai duplicati.
-   * **Utilizzo di un’espressione**: questo ti consente di conservare i record in cui il valore dell’espressione immessa è il minore o il maggiore. ++ Expression ++ Sort
-   * **Seguendo un elenco di valori**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori. ++ Ordina
+   * **Utilizzo di un’espressione**: questo ti consente di conservare i record in cui il valore dell’espressione immessa è il minore o il maggiore.
+   * **Seguendo un elenco di valori**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori.
 
 1. Controlla la **Genera complemento** se desideri sfruttare il gruppo rimanente. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta una transizione aggiuntiva all’attività.
 
 ## Esempio{#example}
 
+Nell’esempio seguente, utilizziamo un’attività di deduplicazione per escludere duplicati dal target prima di inviare una consegna. I duplicati identificati vengono aggiunti a un pubblico di duplicati dedicato che può essere riutilizzato, se necessario. Utilizziamo **E-mail** per identificare i duplicati. Abbiamo scelto di mantenere 1 voce e di selezionare **Casuale** metodo di deduplicazione.
+
+![](../assets/workflow-deduplication-example.png)
