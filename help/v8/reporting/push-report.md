@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 79%
+source-wordcount: '368'
+ht-degree: 72%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
->abstract="Scopri le metriche di reportistica per la consegna push."
+>abstract="Il **Panoramica della consegna push** offre una panoramica completa della distribuzione push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Invio rapporti"
->abstract="La scheda Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+>abstract="lui **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 Il **Rapporto sulle consegne push** offre una panoramica completa del canale push con informazioni approfondite e dati specifici. Offre informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 

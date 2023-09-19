@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 69%
+source-wordcount: '1890'
+ht-degree: 65%
 
 ---
 
@@ -19,17 +19,17 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Invio rapporti"
->abstract="Il menu Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+>abstract="lui **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Widget popolazione target iniziale"
->abstract="Il grafico della popolazione del pubblico di destinazione iniziale mostra i dati relativi ai destinatari e al successo della consegna."
+>abstract="Il **Popolazione target iniziale** il grafico mostra i dati relativi ai destinatari e al successo della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Widget statistiche di consegna"
->abstract="Il grafico delle statistiche di consegna descrive il successo della consegna e gli errori che si sono verificati."
+>abstract="Il **Statistiche consegna** il grafico descrive il successo della consegna e gli errori che si sono verificati."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -92,7 +92,7 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Widget velocità effettiva di consegna"
->abstract="Il rapporto Velocità effettiva di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato."
+>abstract="Il **Velocità effettiva di consegna** Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un determinato arco temporale."
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
@@ -101,7 +101,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Widget statistiche di trasmissione"
->abstract="La tabella Statistiche di trasmissione contiene i dati disponibili per i possibili errori riscontrati con ciascun dominio."
+>abstract="Il **Statistiche di trasmissione** La tabella contiene i dati disponibili per i possibili errori rilevati in ciascun dominio."
 
 * La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponibili per i possibili errori rilevati in ciascun dominio.
 
@@ -129,12 +129,12 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Raggruppamento degli errori per widget di tipo"
->abstract="La suddivisione degli errori per tipo di tabella e grafico contiene i dati disponibili per ogni tipo di errore riscontrato."
+>abstract="Il **Raggruppamento degli errori per tipo** la tabella e il grafico contengono i dati disponibili per ogni tipo di errore rilevato."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Raggruppamento degli errori per widget di dominio"
->abstract="La suddivisione degli errori per tipo di tabella e grafico contiene i dati disponibili per ogni tipo di errore incontrato a seconda di ciascun dominio."
+>abstract="Il **Raggruppamento degli errori per dominio** la tabella e il grafico contengono i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
 
 * Le tabelle e i grafici **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili per i possibili errori riscontrati per ciascun dominio.
 
@@ -165,17 +165,17 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Tracciamento reportistica"
->abstract="La scheda Tracciamento all’interno del rapporto offre dati importanti, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
+>abstract="Il **Tracciamento** All’interno del rapporto sono disponibili dati importanti, tra cui il comportamento del destinatario per collegamento, la suddivisione di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Widget statistiche di consegna"
->abstract="Il widget Statistiche di consegna fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati disponibili per le e-mail inviate."
+>abstract="Il **Statistiche consegna** Il widget fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati disponibili per le e-mail inviate."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Widget della tariffa di apertura e click-through"
->abstract="La tabella delle percentuali di apertura e click-through mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
+>abstract="Il **Percentuale di apertura e click-through** Nella tabella vengono visualizzati i dati relativi al coinvolgimento dei destinatari nella consegna."
 
 * **[!UICONTROL Statistiche consegna]** fornisce indicatori di prestazioni chiave (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate.
 
@@ -218,7 +218,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="Widget URL e flussi di clic"
->abstract="Gli URL e i flussi di clic forniscono indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui è stato fatto clic di più durante una consegna."
+>abstract="Il **URL e flussi di clic** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui si è fatto clic maggiormente durante una consegna."
 
 * **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di performance (KPI) e informazioni dettagliate sugli URL più cliccati durante una consegna.
 
@@ -257,7 +257,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Widget attività utente"
->abstract="Il grafico Attività utente mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti."
+>abstract="Il **Attività degli utenti** grafico mostra la suddivisione di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti."
 
 * **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti.
 
@@ -276,7 +276,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Widget statistiche di tracciamento"
->abstract="Il grafico Statistiche di tracciamento fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati."
+>abstract="Il **Statistiche di tracciamento** Il grafico fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati."
 
 * Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
 
@@ -294,15 +294,16 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="Raggruppamento per widget dispositivo"
->abstract="Raggruppamento per dispositivo"
+>title="Raggruppamento per dispositivo"
+>abstract="Il **Raggruppamento per dispositivo** mostra il raggruppamento dei messaggi aperti per tipo di dispositivo per il periodo in questione. Il primo grafico mostra le statistiche relative alle aperture su un computer e su dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Raggruppamento per widget del sistema operativo"
->abstract="Raggruppamento per sistema operativo"
+>title="Raggruppamento per sistema operativo"
+>abstract="Il **Raggruppamento per sistema operativo** mostra il raggruppamento degli avvii per sistema operativo per il periodo in questione. Il primo grafico mostra le statistiche relative alle aperture su un computer e su dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili."
 
 Raggruppamenti delle aperture: questo rapporto mostra le aperture raggruppate per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
+
 Puoi passare da **[!UICONTROL Fisso e mobile]** al targeting esclusivo e più preciso **[!UICONTROL Solo per dispositivi mobili]**.
 
 ![](assets/reporting_email_13.png){align="center"}
@@ -312,8 +313,8 @@ Puoi passare da **[!UICONTROL Fisso e mobile]** al targeting esclusivo e più pr
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Rapporto Clic rapidi"
->abstract="Il rapporto Clic rapidi presenta il contenuto del messaggio con la percentuale di clic su ciascun collegamento."
+>abstract="Il **Hotclick** Il rapporto presenta il contenuto dell’e-mail (HTML e/o testo) con, su ogni collegamento, la percentuale di clic sui collegamenti. I blocchi di personalizzazione, i collegamenti di annullamento dell’abbonamento, i collegamenti di pagina mirror e i collegamenti alle offerte vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto."
 
-Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I collegamenti presenti nei blocchi di personalizzazione per l’annullamento dell’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono visualizzati nel rapporto.
+Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti di annullamento dell’abbonamento, i collegamenti di pagina mirror e i collegamenti alle offerte vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto.
 
 ![](assets/reporting11.png)
