@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Save audience
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 8%
@@ -46,7 +46,7 @@ Per configurare il **Salva pubblico** attività:
 
 1. Controlla la **Generare una transizione in uscita** se desideri aggiungere una transizione dopo il **Salva pubblico** attività.
 
-Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dalla **Tipi di pubblico** menu. Le colonne disponibili in questa visualizzazione corrispondono a quelle della transizione in entrata del **Crea pubblico** attività.
+Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dalla **Tipi di pubblico** menu. Le colonne disponibili in questa visualizzazione corrispondono a quelle della transizione in entrata del **Salva pubblico** attività.
 
 
 ## Esempio{#save-audience-example}
