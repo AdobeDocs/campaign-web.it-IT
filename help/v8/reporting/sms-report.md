@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 92%
+source-wordcount: '348'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 92%
 >id="acw_sms_report_overview"
 >title="Riepilogo del rapporto SMS"
 >abstract="Scopri le metriche di reportistica per la consegna SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Invio rapporti"
+>abstract="La scheda Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
@@ -66,6 +71,11 @@ Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS,
   ![](assets/reporting_sms_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Menu della velocità effettiva di consegna"
+>abstract="Il rapporto Velocità effettiva di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato."
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 

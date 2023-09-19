@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 81%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * L’attività **Intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
 * L’attività **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri.
 
-## Configurazione generale {#general}
+## Configurare l’attività Combina {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Per iniziare a configurare l’attività **Combina**, segui questi passaggi comuni:
 
+![](../assets/workflow-combine.png)
+
 1. Aggiungi più attività, come le attività **Crea pubblico**, per formare almeno due rami di esecuzione diversi.
 1. Aggiungi un’attività **Combina** ad uno dei rami precedenti.
 1. Seleziona il tipo di segmentazione: [Unione](#union), [Intersezione](#intersection) o [Esclusione](#exclusion).
 1. Fai clic su **Continua**.
 1. Nella sezione **Set da unire**, seleziona tutte le attività precedenti che desideri unire.
 
-## Unione {#union}
+## Unione {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ In **Combina** attività, puoi configurare un **Union**. A questo scopo, selezio
 * **Solo chiavi**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
 * **Una seleziona di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
 
-## Intersezione {#intersection}
+## Intersezione {#combine-intersection}
 
 In **Combina** attività, puoi configurare un’ **Intersezione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
 1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
 
-## Esclusione {#exclusion}
+## Esclusione {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ In **Combina** attività, puoi configurare un’ **Esclusione**. A questo scopo,
 1. Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione.
 1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Consulta la sezione [Intersezione](#intersection).
 
-## Esempi
+## Esempi{#combine-examples}
 
 Nell’esempio seguente viene utilizzato un **Combina** e viene aggiunta una **unione** per recuperare tutti i profili delle due query: persone di età compresa tra 18 e 27 anni e persone di età compresa tra 34 e 40 anni.
 

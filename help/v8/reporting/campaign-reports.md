@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1853'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracciamento reportistica"
->abstract="La scheda Invio all’interno del rapporto offre dati preziosi, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
+>abstract="La scheda Tracciamento all’interno del rapporto offre dati importanti, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -32,7 +32,7 @@ ht-degree: 88%
 >title="Statistiche iniziali sul pubblico target"
 >abstract="La tabella delle statistiche del pubblico di destinazione iniziale mostra i dati relativi ai destinatari"
 
-Il rapporto sulle campagne è suddiviso in diversi widget che descrivono il successo e gli errori di una campagna.
+Il rapporto della campagna è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna.
 
 La pagina del rapporto della campagna verrà visualizzata con le seguenti schede:
 

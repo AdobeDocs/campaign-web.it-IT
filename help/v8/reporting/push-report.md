@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 92%
 >id="acw_push_report_overview"
 >title="Riepilogo del rapporto push"
 >abstract="Scopri le metriche di reportistica per la consegna push."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Invio rapporti"
+>abstract="La scheda Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 Il **Rapporto sulle consegne push** offre una panoramica completa del canale push con informazioni approfondite e dati specifici. Offre informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
@@ -68,6 +73,11 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
   ![](assets/reporting_push_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Rapporto velocità effettiva di consegna"
+>abstract="Il rapporto Velocità effettiva di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato."
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
