@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configurare l’attività Genera pubblico
+## Configurare l’attività Genera pubblico{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
+
+![](../assets/workflow-audience.png)
 
 1. Aggiungi un’attività **Crea pubblico**.
 1. Definisci un’etichetta.
@@ -66,7 +68,7 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 >
 >Se si desidera utilizzare una **[!UICONTROL Creare un pubblico]** attività che ha come target un pubblico di Experienci Platform, è necessario aggiungere una **[!UICONTROL Cambia dimensione]** per garantire che la dimensione di targeting del pubblico sia impostata su &quot;Destinatario&quot;. Nella parte inferiore di questa pagina è disponibile un esempio di flusso di lavoro.
 
-## Esempi
+## Esempi{#build-audience-examples}
 
 Di seguito è riportato un esempio di un flusso di lavoro con due attività **Crea pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Unione AND nei flussi di lavoro
 description: Scopri come utilizzare l’attività Unione AND nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ L’attività **Unione AND** è un’attività di **Controllo del flusso**. Cons
 
 Questa attività attiva la relativa transizione in uscita solo dopo che tutte le transizioni in entrata sono state attivate, in altre parole, dopo che tutte le attività precedenti sono state completate. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro.
 
-## Configurazione
+## Configurare l’attività And-join{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -32,12 +32,14 @@ Questa attività attiva la relativa transizione in uscita solo dopo che tutte le
 
 Per configurare l’attività **Unione AND**, segui questi passaggi:
 
+![](../assets/workflow-andjoin.png)
+
 1. Aggiungi più attività, come le attività del canale, per creare almeno due rami di esecuzione diversi.
 1. Aggiungi un’attività **Unione AND** a uno dei rami.
 1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti che desideri unire.
 1. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
 
-## Esempio
+## Esempio{#and-join-example}
 
 L’esempio seguente mostra due rami del flusso di lavoro con consegna e-mail e SMS. L’Unione AND verrà attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push verranno quindi inviate solo al termine di entrambe le consegne.
 

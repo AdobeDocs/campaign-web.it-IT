@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 60%
+source-wordcount: '781'
+ht-degree: 61%
 
 ---
 
@@ -36,7 +36,7 @@ Inizia a creare il flusso di lavoro con le attività pertinenti prima di inserir
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## Configurare la consegna {#create-a-delivery-in-a-workflow}
+## Configurare l’attività Canale {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    Puoi selezionare un altro modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l’attività **Crea pubblico** per selezionare un pubblico con la mappatura target corretta. Per ulteriori informazioni sulle mappature di destinazione, consulta la [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
 
 1. Fai clic su **Crea consegna**. Definisci le impostazioni e il contenuto del messaggio seguendo la stessa procedura con cui si crea una consegna indipendente. Puoi anche pianificare e simulare il contenuto. [Ulteriori informazioni](../../msg/gs-messages.md).
@@ -95,6 +94,7 @@ Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi
 Di seguito è riportato un esempio di flusso di lavoro cross-channel con una segmentazione e due consegne. Il flusso di lavoro esegue il targeting di tutti i clienti che vivono a Parigi e che sono interessati alle macchine da caffè. Tra questa popolazione, viene inviata un’e-mail ai clienti regolari e un SMS ai clienti VIP.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Puoi anche creare un flusso di lavoro ricorrente per inviare una notifica push personalizzata ogni primo giorno del mese alle 20 agli abbonati alla tua app mobile in base al loro fuso orario.
+Puoi anche creare un flusso di lavoro ricorrente per inviare un SMS personalizzato ogni primo giorno del mese alle 20 a tutti i clienti che vivono a Parigi.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 
