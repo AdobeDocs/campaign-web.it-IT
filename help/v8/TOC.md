@@ -5,9 +5,9 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 88%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 88%
       + [Inviare consegne di test](preview-test/test-deliveries.md)
       + [Rendering dell’e-mail](preview-test/email-rendering.md)
 + Tipi di pubblico e destinatari {#audiences}
-   + [Introduzione ai tipi di pubblico](audience/about-audiences.md)
-   + [Utilizzare i destinatari](audience/about-recipients.md)
+   + [Utilizzare destinatari e pubblico](audience/about-recipients.md)
    + [Creare tipi di pubblico](audience/create-audience.md)
    + [Monitorare e gestire i tipi di pubblico](audience/access-audiences.md)
    + Pubblico di destinazione {#target-audiences}
@@ -92,7 +91,7 @@ ht-degree: 88%
       + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
       + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
       + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
-   + [Impostare un gruppo di controllo](audience/control-group.md)
+      + [Impostare un gruppo di controllo](audience/control-group.md)
    + [Utilizzare i servizi di abbonamento](audience/create-service.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)

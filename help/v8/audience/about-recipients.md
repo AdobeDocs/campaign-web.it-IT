@@ -1,16 +1,18 @@
 ---
-title: Utilizzare i destinatari
+title: Utilizzare destinatari e pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 4%
+source-wordcount: '582'
+ht-degree: 18%
 
 ---
 
 
-# Utilizzare i destinatari {#about-recipients}
+# Utilizzare destinatari e pubblico {#about-recipients}
+
+## Destinatari {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ Puoi anche accedere ai destinatari da **Esplora** visualizzare, sfogliare e crea
 >
 >A seconda delle autorizzazioni di cui si dispone, è possibile che non si disponga dell&#39;accesso all&#39;elenco completo dei destinatari archiviati nel database. Ulteriori informazioni sulle autorizzazioni in [questa sezione](../get-started/permissions.md).
 
+Inoltre, puoi gestire l’abbonamento e il suo annullamento a servizi quali le newsletter. [Scopri come utilizzare i servizi di abbonamento](create-service.md)
+
+## Tipi di pubblico {#audiences}
+
+Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. [Scopri cos’è un modello di consegna](../msg/delivery-template.md).
+
+Per definire la popolazione di un pubblico, puoi:
+
+* [Creare nuovi tipi di pubblico](create-audience.md) dal **[!UICONTROL Tipi di pubblico]** menu,
+* [Seleziona un pubblico esistente](add-audience.md) creato come elenco nella console client,
+* [Seleziona un pubblico di Adobe Experience Platform](aep-audience.md),
+* [Crea un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro,](segment-builder.md)
+* [Utilizzare un pubblico da un file esterno](file-audience.md). Questa opzione è disponibile solo per le consegne e-mail autonome e non può essere utilizzata nelle consegne delle campagne.
+
+Quando esegui il targeting di un pubblico, puoi anche definire **gruppi di controllo** per evitare di inviare messaggi a una parte del pubblico e misurare l’impatto delle campagne. [Scopri come impostare un gruppo di controllo](control-group.md)
+
+>[!NOTE]
+>
+>Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico viene definito in un **Creare un pubblico** attività del flusso di lavoro. In questo contesto, non puoi caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna [in questa sezione](../workflows/activities/build-audience.md)
