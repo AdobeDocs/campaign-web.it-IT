@@ -4,7 +4,7 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 71%
@@ -51,7 +51,7 @@ Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezion
 
 Il menu **Explorer** mostra tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presenti nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne.
 
-Gli elementi visualizzati nel **Esplora** dipende dalle autorizzazioni utente.  Se disponi delle autorizzazioni appropriate, puoi anche aggiungere cartelle e sottocartelle. Ulteriori informazioni sulle autorizzazioni in [questa sezione](permissions.md).
+Gli elementi visualizzati nel **Esplora** dipende dalle autorizzazioni utente. Se si dispone dei diritti appropriati, è inoltre possibile aggiungere cartelle e sottocartelle. Ulteriori informazioni sulle autorizzazioni in [questa sezione](permissions.md).
 
 Come in tutte le schermate di elenchi, puoi configurare le colonne per visualizzare le informazioni che ti servono. Consulta questa [sezione](#list-screens).
 
