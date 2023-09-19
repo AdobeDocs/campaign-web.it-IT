@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Scheduler
 description: Scopri come utilizzare l’attività del flusso di lavoro Scheduler
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '519'
+ht-degree: 10%
 
 ---
 
@@ -74,7 +74,6 @@ Per configurare il **Scheduler** attività:
 >Se desideri avviare immediatamente il flusso di lavoro, puoi fare clic sul pulsante **Esegui attività in sospeso** nella barra delle azioni superiore dell&#39;utilità di pianificazione. Questo pulsante è disponibile solo quando hai avviato il flusso di lavoro.
 
 Note:
-
 
 ## Esempio
 

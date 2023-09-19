@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica dimensione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica dimensione
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '205'
 ht-degree: 6%
 
 ---
@@ -23,10 +23,7 @@ ht-degree: 6%
 >title="Cambia attività dimensione"
 >abstract="Questa attività ti consente di modificare la dimensione di targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione &quot;contratti&quot; alla dimensione &quot;clienti&quot;."
 
-
 Il **Cambia dimensione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di modificare la dimensione di targeting durante la creazione di un pubblico. Questa attività sposta l’asse a seconda del modello di dati e della dimensione di input. Ad esempio, puoi passare dalla dimensione &quot;contratti&quot; alla dimensione &quot;clienti&quot;.
-
-Puoi inoltre utilizzare questa attività per definire le colonne aggiuntive della nuova destinazione e i criteri di deduplicazione dei dati.
 
 ## Configurazione
 
@@ -36,6 +33,9 @@ Per configurare il **Cambia dimensione** attività:
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Definisci il **Nuova dimensione di destinazione**.
+1. Definisci il **Nuova dimensione di destinazione**. Durante la modifica della dimensione vengono conservati tutti i record. Altre opzioni non sono ancora disponibili.
 
-Durante la modifica della dimensione vengono conservati tutti i record.
+1. Esegui il flusso di lavoro per visualizzare il risultato. Confronta i dati nelle tabelle prima e dopo l’attività di modifica della dimensione e confronta la struttura delle tabelle del flusso di lavoro.
+
+
+

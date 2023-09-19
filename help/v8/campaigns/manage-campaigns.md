@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 90%
+source-wordcount: '604'
+ht-degree: 76%
 
 ---
 
@@ -69,3 +69,22 @@ Puoi duplicare o eliminare una campagna:
 >[!NOTE]
 >
 >La scheda **Consegne** mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, è necessario eliminare l’attività di consegna dal flusso di lavoro stesso. [Ulteriori informazioni](../msg/gs-messages.md#delivery-delete).
+
+## Utilizzare i modelli di campagna{#manage-campaign-templates}
+
+I modelli di campagna contengono impostazioni preconfigurate che possono essere riutilizzate per creare nuovi flussi di lavoro. Per iniziare, è disponibile un set di modelli incorporati. Puoi creare e configurare i modelli della campagna e quindi creare campagne a partire da questi modelli.
+
+Un modello di campagna può memorizzare le seguenti informazioni:
+
+* della campagna **Proprietà** e **Pianificazione** impostazioni
+* modelli di workflow
+* modelli di consegna
+
+Per creare un modello di campagna, effettua le seguenti operazioni:
+
+1. Fai clic su **[!UICONTROL Campagne]** , passare al menu **Modelli** , quindi fare clic sulla scheda **[!UICONTROL Crea modello]** pulsante.
+1. Seleziona il **Modello** da utilizzare e specifica un’etichetta per la campagna. Questo consente di basare il nuovo modello su un modello già creato.
+1. Se necessario, è possibile modificare le seguenti **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
+1. Definisci la **Pianificazione** della campagna. Scopri come impostare la pianificazione della campagna in [questa sezione](create-campaigns.md#campaign-schedule)
+1. Fai clic su **Crea**.
+1. Aggiungi flussi di lavoro e modelli di consegna alla campagna.
