@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1853'
-ht-degree: 94%
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
   +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -74,7 +74,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
    * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 
-   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell’elenco Bloccati, ecc.
 
@@ -86,7 +86,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
   +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
 
@@ -248,7 +248,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -266,7 +266,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
    * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 
-   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
 
@@ -278,7 +278,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
-   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
 
@@ -310,7 +310,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -326,7 +326,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
    * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 
-   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
 
@@ -336,7 +336,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
   +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
-   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
 

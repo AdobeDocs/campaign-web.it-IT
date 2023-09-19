@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -43,7 +43,7 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
-   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
 

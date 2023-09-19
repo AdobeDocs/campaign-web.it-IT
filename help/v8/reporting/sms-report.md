@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS,
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Completato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -42,7 +42,7 @@ Il **Rapporto sulle consegne SMS** offre una panoramica completa del canale SMS,
 
   +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
-   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante l’analisi della consegna.
+   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
    * **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
 +++

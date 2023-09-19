@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 
    * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 
-   * **[!UICONTROL Da consegnare]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
    * **[!UICONTROL Esclusione]**: numero totale di messaggi esclusi dal target inviato.
 +++
@@ -35,9 +35,9 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 
   +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-   * **[!UICONTROL Messaggio inviato]**: numero totale di messaggi da consegnare dopo l’analisi della consegna.
+   * **[!UICONTROL Messaggio inviato]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-   * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
+   * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
 
    * **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
 
