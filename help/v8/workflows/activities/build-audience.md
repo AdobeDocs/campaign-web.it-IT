@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
+source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -72,6 +72,6 @@ Di seguito è riportato un esempio di un flusso di lavoro con due attività **Cr
 
 ![](../assets/workflow-audience-example.png)
 
-Di seguito è riportato un altro esempio di flusso di lavoro in cui un pubblico di Adobe Experience Platform è combinato con un pubblico di Adobe Campaign. Per consentire la combinazione di questi tipi di pubblico, è necessario **[!UICONTROL Cambia dimensione]** L’attività con la dimensione di targeting &quot;Destinatario&quot; viene aggiunta dopo il pubblico di Adobe Experience Platform. [Scopri come configurare un’attività di modifica della dimensione](change-dimension.md)
+Ecco un altro esempio di flusso di lavoro in cui un pubblico di Adobe Experience Platform viene combinato con un pubblico di Adobe Campaign. Per consentire la combinazione di questi tipi di pubblico, è necessario **[!UICONTROL Cambia dimensione]** L’attività con la dimensione di targeting &quot;Destinatario&quot; viene aggiunta dopo il pubblico di Adobe Experience Platform. [Scopri come configurare un’attività di modifica della dimensione](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
