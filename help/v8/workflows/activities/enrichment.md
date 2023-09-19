@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere u
 
 Ad esempio, è possibile aggiungere alla tabella di lavoro del flusso di lavoro le informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro acquisto più recente o con l’importo speso per tali acquisti.
 
-## Configurazione generale {#general}
+## Configurare l’attività Enrichment {#enrichment-configuration}
 
 Per configurare l’attività **Arricchimento** segui questi passaggi:
 
@@ -76,7 +76,7 @@ In questo caso d’uso più complesso, selezioneremo un collegamento di raccolta
 * un filtro: per escludere gli articoli superiori a 100 $
 * un ordinamento: ordine decrescente sul campo **Data ordine**.
 
-### Aggiungere l’attributo
+### Aggiungere l’attributo {#add-attribute}
 
 Qui puoi selezionare il collegamento di raccolta da utilizzare come dati di arricchimento.
 
@@ -86,7 +86,7 @@ Qui puoi selezionare il collegamento di raccolta da utilizzare come dati di arri
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definire le impostazioni di raccolta
+### Definire le impostazioni di raccolta{#collection-settings}
 
 A questo punto, definisci come vengono raccolti i dati e quanti record recuperare.
 
@@ -99,7 +99,7 @@ Se, ad esempio, desideri ottenere l’importo medio degli acquisti per un client
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definire i filtri
+### Definire i filtri{#collection-filters}
 
 Ora puoi definire il valore massimo per l’attributo di arricchimento. In questo esmpio, vogliamo escludere gli articoli superiori a 100 $.
 
@@ -109,7 +109,7 @@ Ora puoi definire il valore massimo per l’attributo di arricchimento. In quest
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definire l’ordinamento
+### Definire l’ordinamento{#collection-sorting}
 
 Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più recenti**.
 

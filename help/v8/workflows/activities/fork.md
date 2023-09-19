@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Fork nei flussi di lavoro
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 66%
 
 ---
 
@@ -26,15 +26,17 @@ ht-degree: 0%
 
 Il **Fork** l&#39;attività è un **Controllo del flusso** attività. Consente di creare transizioni in uscita per avviare più attività in contemporanea.
 
-## Configurazione
+## Configurare l’attività Fork{#fork-configuration}
 
 Per configurare l’attività **Fork** segui questi passaggi:
+
+![](../assets/workflow-fork.png)
 
 1. Aggiungi un’attività **Fork** al flusso di lavoro.
 1. Fai clic su **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
 1. Aggiungi un’etichetta a ciascuna delle transizioni.
 
-## Esempio
+## Esempio{#fork-example}
 
 Nell’esempio seguente vengono utilizzate due attività **Fork**:
 

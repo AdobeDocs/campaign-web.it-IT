@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Save audience
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 10%
+source-wordcount: '385'
+ht-degree: 8%
 
 ---
 
@@ -24,13 +24,13 @@ Il **Salva pubblico** l&#39;attività è un **Targeting** attività. Questa atti
 
 Questa attività viene essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nello stesso flusso di lavoro, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting come **Creare un pubblico** o un **Combina** attività.
 
-## Configurazione
+## Configurare l’attività Save audience{#save-audience-configuration}
 
 Per configurare il **Salva pubblico** attività:
 
-1. Aggiungi un **Salva pubblico** al flusso di lavoro.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Aggiungi un **Salva pubblico** al flusso di lavoro.
 
 1. In **Modalità** a discesa, seleziona l’azione da eseguire:
 
@@ -49,6 +49,8 @@ Per configurare il **Salva pubblico** attività:
 Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dalla **Tipi di pubblico** menu. Le colonne disponibili in questa visualizzazione corrispondono a quelle della transizione in entrata del **Crea pubblico** attività.
 
 
-## Esempio
+## Esempio{#save-audience-example}
+
+L’esempio seguente illustra un semplice aggiornamento del pubblico dal targeting. Viene aggiunto un modulo di pianificazione per eseguire il flusso di lavoro una volta al mese. Una query recupera tutti i profili abbonati ai diversi servizi applicativi disponibili. Il **Salva pubblico** l’attività aggiorna il pubblico eliminando i profili che hanno annullato l’abbonamento al servizio dall’ultima esecuzione del flusso di lavoro e aggiungendo i nuovi profili abbonati.
 
 
