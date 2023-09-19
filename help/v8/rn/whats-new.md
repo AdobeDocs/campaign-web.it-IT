@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 54%
+source-wordcount: '1006'
+ht-degree: 53%
 
 ---
 
@@ -45,7 +45,7 @@ Utilizza la nuova interfaccia di Campaign Web per:
 * Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
 * Inviare campagne cross-channel, incluse notifiche SMS e push - [Ulteriori informazioni](../workflows/activities/channels.md)
 * Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-audiences.md)
-* Visualizzare l‘anteprima, testare e inviare i messaggi e-mail - [Ulteriori informazioni](../monitor/prepare-send.md)
+* Visualizzare l‘anteprima, testare e inviare i messaggi  - [Ulteriori informazioni](../monitor/prepare-send.md)
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ Di seguito sono elencate le funzionalità principali disponibili con Campaign We
 
 * **Gen AI per contenuti e-mail**
 
-  Dì addio alla creazione manuale dei contenuti e ciao a campagne efficienti e basate sui dati con la potenza della Gen AI.  La nostra tecnologia Gen AI utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Aumenta i tassi di apertura, i tassi di click-through e le conversioni con la generazione intelligente di contenuti di Gen AI.
-
-  Rimani all&#39;avanguardia rispetto alla concorrenza e migliora il tuo gioco di e-mail marketing con Gen AI sui contenuti delle e-mail.
+  Dì addio alla creazione manuale dei contenuti e ciao a campagne efficienti e basate sui dati con la potenza della Gen AI.  La nostra tecnologia Gen AI utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Aumenta i tassi di apertura, i tassi di click-through e le conversioni con la generazione intelligente di contenuti di Gen AI. Rimani all&#39;avanguardia rispetto alla concorrenza e migliora il tuo gioco di e-mail marketing con Gen AI sui contenuti delle e-mail. Questa funzionalità sarà disponibile a partire dai primi di ottobre.
 
   Per ulteriori informazioni, consulta [questa sezione](../content/generative-gs.md).
 
@@ -99,7 +97,7 @@ Di seguito sono elencate le funzionalità principali disponibili con Campaign We
 
 * **Knowledge Assistant con Gen AI**
 
-  Poni le tue domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. Il nuovo assistente basato sull’intelligenza artificiale, incorporato nei popover dell’aiuto contestuale, ti aiuta a imparare e sviluppare le tue competenze sulle nuove funzioni di Campaign. In base alla documentazione più recente del prodotto, ti aiuta a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso.
+  Poni le tue domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. Il nuovo assistente basato sull’intelligenza artificiale, incorporato nei popover dell’aiuto contestuale, ti aiuta a imparare e sviluppare le tue competenze sulle nuove funzioni di Campaign. In base alla documentazione più recente del prodotto, ti aiuta a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso. Questa funzionalità sarà disponibile a partire dai primi di ottobre.
 
   Per ulteriori informazioni, consulta [questa sezione](../get-started/using-ai.md).
 
