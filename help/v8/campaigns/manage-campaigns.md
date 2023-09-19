@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 76%
@@ -22,7 +22,6 @@ Per creare una nuova campagna o gestire quelle esistenti, fai clic sul menu **[!
 
 ## Elenco delle campagne {#access-campaigns}
 
-
 Nell’elenco delle campagne sono disponibili due schede:
 
 * Nella scheda **Sfoglia** sono elencate tutte le campagne esistenti. Puoi fare clic su una campagna per aprirne la dashboard, o crearne una nuova facendo clic sul pulsante **Crea campagna**. Consulta questa [sezione](create-campaigns.md#create-campaigns).
@@ -40,7 +39,6 @@ Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pa
 ![Filtro per le campagne](assets/campaign-filter-on-dates.png)
 
 ## Dashboard delle campagne{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
