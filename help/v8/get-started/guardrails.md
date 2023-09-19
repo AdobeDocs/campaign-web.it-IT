@@ -2,7 +2,7 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -66,13 +66,17 @@ Viene visualizzato un messaggio di errore specifico.
 
 Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro in **Attributi** sezione della schermata.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 È inoltre possibile accedere alla query SQL per verificare le impostazioni esatte. A questo scopo, fai clic su **Vista Codice** pulsante.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Fai clic su **Calcola** per verificare quanti elementi soddisfano i criteri del filtro. Utilizza il **Visualizza risultati** per visualizzare tali elementi.
+Fai clic su **Calcola** per verificare quanti elementi soddisfano i criteri del filtro.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Utilizza il **Visualizza risultati** per visualizzare tali elementi.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
