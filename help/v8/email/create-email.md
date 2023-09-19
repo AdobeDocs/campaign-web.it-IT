@@ -4,9 +4,9 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 69%
 
 ---
@@ -75,7 +75,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
 >title="Selezionare un pubblico per la consegna"
 >abstract="Seleziona il pubblico migliore per il messaggio di marketing. Puoi scegliere un pubblico esistente (già definito in un’istanza di Campaign v8 o da Adobe Experience Platform), creare un nuovo pubblico utilizzando il generatore di regole o caricare un file contenente il pubblico. I gruppi di controllo non sono abilitati per **Seleziona da file** e viceversa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Selezionare il pubblico principale"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Impostare un gruppo di controllo"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Impostare un gruppo di controllo"
 
 In questo caso d’uso, l’e-mail verrà inviata a un pubblico esistente.
 
