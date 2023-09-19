@@ -2,10 +2,10 @@
 title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: f5132968d041b82b88dbc62a8c8678be2cdd0e0c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +19,19 @@ Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua
 
 ![](assets/ask-a-question.png)
 
+<!--
+## Consent {#consent-ai}
 
-## Consenso {#consent-ai}
-
-L’assistente cognitivo di Campaign incorporato nelle caselle di aiuto contestuali utilizza l’intelligenza artificiale. L’utilizzo di questa funzionalità implica il consenso che le informazioni fornite durante la sessione vengano raccolte, utilizzate, divulgate e conservate da Adobe in conformità con i termini del programma di feedback dei clienti di Adobe. Non fornire informazioni personali su di te o su altre parti (compreso il tuo nome o le tue informazioni di contatto) nell&#39;assistente.
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
 ## Privacy {#privacy-ai}
 
-I tuoi dati sono crittografati e privati seguendo le nostre procedure standard di protezione dei dati. Ulteriori informazioni su [Adobe Informativa sulla privacy](https://www.adobe.com/it/privacy/policy.html){target="_blank"}.
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-La funzionalità di intelligenza artificiale di Knowledge Assistant non utilizza i tuoi dati per addestrare i nostri modelli. Non consentiamo a nessun partner o a terze parti di utilizzare i tuoi dati per la formazione dei loro modelli o per qualsiasi altro scopo.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-Per informazioni specifiche sui criteri di IA per gli Adobi nelle app e soluzioni Experience Cloud, consulta [questa pagina](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## Risposte {#answers-ai}
 
