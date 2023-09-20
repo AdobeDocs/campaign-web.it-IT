@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Deduplicazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Deduplicazione
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '500'
 ht-degree: 6%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Attributi di deduplicazione"
->abstract="Questo consente di specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati: indirizzo e-mail, nome, cognome, ecc. L’ordine dei campi ti consente di specificare quali elaborare per primi."
+>title="Campi per identificare i duplicati"
+>abstract="In **Campi per identificare i duplicati** , fare clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi ti consente di specificare quali elaborare per primi."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -34,7 +34,7 @@ ht-degree: 6%
 >title="Impostazioni di deduplicazione"
 >abstract="Per eliminare i duplicati nei dati in arrivo, definisci il metodo di deduplicazione nei campi seguenti. Per impostazione predefinita, viene mantenuto un solo record. Devi anche selezionare la modalità di deduplicazione in base a un’espressione o a un attributo. Per impostazione predefinita, il record da escludere dai duplicati viene selezionato in modo casuale."
 
-Il **Deduplicazione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di eliminare i duplicati nei risultati delle attività in entrata. Il **Deduplicazione** l’attività viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
+Il **Deduplicazione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di eliminare i duplicati nei risultati delle attività in entrata, ad esempio i profili duplicati nell’elenco dei destinatari. Il **Deduplicazione** L’attività viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
 
 ## Configurare l’attività Deduplication{#deduplication-configuration}
 
@@ -44,7 +44,7 @@ Per configurare il **Deduplicazione** attività:
 
 1. Aggiungi un **Deduplicazione** al flusso di lavoro.
 
-1. In **Campi per identificare i duplicati** , fare clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati: indirizzo e-mail, nome, cognome, ecc. L’ordine dei campi ti consente di specificare quali elaborare per primi.
+1. In **Campi per identificare i duplicati** , fare clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi ti consente di specificare quali elaborare per primi.
 
 1. Seleziona il numero di univoci **Duplicati da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
 
@@ -67,6 +67,6 @@ Per configurare il **Deduplicazione** attività:
 
 ## Esempio{#deduplication-example}
 
-Nell’esempio seguente, utilizziamo un’attività di deduplicazione per escludere duplicati dal target prima di inviare una consegna. I duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Utilizziamo **E-mail** per identificare i duplicati. Abbiamo scelto di mantenere 1 voce e di selezionare **Casuale** metodo di deduplicazione.
+Nell’esempio seguente, utilizza un’attività di deduplicazione per escludere i duplicati dal target prima di inviare una consegna. I destinatari duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Scegli la **E-mail** per identificare i duplicati. Mantieni 1 voce e seleziona la **Casuale** metodo di deduplicazione.
 
 ![](../assets/workflow-deduplication-example.png)
