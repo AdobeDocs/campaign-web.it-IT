@@ -2,9 +2,9 @@
 title: Utilizzare destinatari e pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '919'
 ht-degree: 14%
 
 ---
@@ -71,11 +71,11 @@ La dimensione di targeting è il tipo di dati che un’operazione gestisce. Cons
 
 La dimensione di targeting di un flusso di lavoro è definita dal primo **[!UICONTROL Creare un pubblico]** e viene utilizzata in tutte le ulteriori attività fino alla fine del flusso di lavoro. Ad esempio, se esegui una query sui destinatari del database, la transizione in uscita conterrà dati di tipo destinatario e verrà trasmessa all’attività successiva.
 
-Tieni presente che puoi cambiare la dimensione di targeting in un flusso di lavoro utilizzando una **[!UICONTROL Cambia dimensione]** attività. [Ulteriori informazioni](../workflows/activities/change-dimension.md)
+Tieni presente che puoi cambiare la dimensione di targeting in un flusso di lavoro utilizzando una **[!UICONTROL Cambia dimensione]** attività. [Ulteriori informazioni](../workflows/activities/change-dimension.md). Ciò ti consente, ad esempio, di eseguire query sul database su una tabella specifica, ad esempio acquisti o abbonamenti, e quindi di modificare la dimensione di targeting in Destinatari per inviare le consegne ai destinatari corrispondenti.
 
 Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Destinatari]**. La loro dimensione target utilizza quindi i campi del **nms:destinatario** tabella. Per le notifiche push, la dimensione di destinazione predefinita è **Applicazioni in abbonamento nms:appSubscriptionRcp**, che è collegato alla tabella dei destinatari.
 
-Per le consegne elencate di seguito puoi inoltre utilizzare altre mappature di destinazione incorporate:
+Puoi anche utilizzare altre mappature di destinazione integrate nei flussi di lavoro e nelle consegne elencate di seguito:
 
 | Nome | Utilizza per | Schema |
 |---|---|---|
