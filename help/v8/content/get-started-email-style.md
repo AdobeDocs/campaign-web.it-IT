@@ -5,7 +5,7 @@ description: Scopri i diversi modi per regolare lo stile del contenuto delle e-m
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 
