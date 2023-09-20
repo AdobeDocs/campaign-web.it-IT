@@ -2,9 +2,9 @@
 title: Utilizzare destinatari e pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '946'
 ht-degree: 14%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 Un destinatario è un profilo il cui target è la ricezione di messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili predefiniti oggetto di targeting per l’invio di consegne (e-mail, SMS, ecc.). I dati dei destinatari memorizzati nel database consentono di creare tipi di pubblico che riceveranno una determinata consegna e di aggiungere dati di personalizzazione al contenuto della consegna. Altri tipi di profili vengono memorizzati nel database. Sono progettati per utilizzi diversi: ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al pubblico finale.
 
-I destinatari possono essere aggiunti solo dalla console client di Campaign. Tuttavia, sono visibili nel web di Campaign dalla sezione **Destinatari** ingresso della barra di navigazione a sinistra.
+I destinatari possono essere aggiunti solo dalla console client di Campaign. Tuttavia, sono visibili nel web di Campaign dalla sezione **Destinatari** ingresso della barra di navigazione a sinistra. Puoi anche modificare gli attributi del destinatario da quella schermata.
 
 Per modificare i dati del destinatario, fai clic sui tre punti accanto al nome e scegli **Modifica...**.
 
@@ -46,6 +46,8 @@ Puoi anche accedere ai destinatari da **Esplora** visualizzare, sfogliare e crea
 >A seconda delle autorizzazioni di cui si dispone, è possibile che non si disponga dell&#39;accesso all&#39;elenco completo dei destinatari archiviati nel database. Ulteriori informazioni sulle autorizzazioni in [questa sezione](../get-started/permissions.md).
 
 Inoltre, puoi gestire l’abbonamento e il suo annullamento a servizi quali le newsletter. [Scopri come utilizzare i servizi di abbonamento](manage-services.md)
+
+Puoi creare flussi di lavoro per deduplicare, arricchire, combinare profili e creare tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
 
 ## Cosa sono i tipi di pubblico? {#audiences}
 
