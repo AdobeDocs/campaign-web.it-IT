@@ -3,17 +3,19 @@ audience: end-user
 title: Gestire gli abbonati a un servizio
 description: Scopri come gestire e fornire agli abbonati di un servizio in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
 
 # Gestire gli abbonati a un servizio {#manage-subscribers}
 
-Una volta [ha creato un servizio](manage-services.md#create-service), puoi aggiungere abbonati, annullare l’abbonamento dei destinatari e consegnare il servizio agli abbonati.
+Una volta [ha creato un servizio](manage-services.md#create-service), puoi aggiungere abbonati, annullare l’abbonamento dei destinatari e inviare messaggi agli abbonati di tale servizio.
+
+La gestione degli abbonati è descritta in questa pagina. Per informazioni su come inviare messaggi agli abbonati, consulta [questa sezione](../content/send-to-subscribers.md).
 
 ## Aggiungere abbonati al servizio {#add-subscribers}
 
@@ -62,25 +64,3 @@ Questo periodo viene specificato quando [creazione del servizio](manage-services
 ![](assets/service-create-validity-period.png)
 
 Alla scadenza della durata specificata, tutti gli abbonati verranno automaticamente cancellati da tale servizio.
-
-## Fornire agli abbonati di un servizio
-
-Una volta [ha creato un servizio di abbonamento](manage-services.md#create-service), il tuo utente può eseguire il targeting dei suoi abbonati in una consegna. Segui i passaggi seguenti.
-
-1. [Creare un pubblico](../audience/create-audience.md) inclusi gli abbonati al servizio creato:
-
-   * In **[!UICONTROL Creare un pubblico]** attività, visualizza gli attributi avanzati e seleziona **[!UICONTROL Destinatario]** > **[!UICONTROL Iscrizioni]** > **[!UICONTROL Servizio]**.
-
-   * In questo esempio, seleziona gli utenti abbonati al servizio che dispone di **Newsletter Luma** etichetta.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [Creare una consegna](../msg/gs-messages.md#create-delivery) e seleziona il pubblico creato in precedenza.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Modifica il contenuto del messaggio come desiderato e invia la consegna.
-
-   ![](assets/service-delivery-ready.png)
-
-La consegna viene inviata solo agli abbonati di tale servizio.

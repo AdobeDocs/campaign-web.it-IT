@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Inviare offerte
-description: Inviare offerte
+title: Aggiungere offerte ai messaggi
+description: Scopri come aggiungere e inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 73%
+source-wordcount: '782'
+ht-degree: 71%
 
 ---
 
 
-# Inviare le offerte {#offers-content}
+# Aggiungere offerte ai messaggi {#offers-content}
 
 Adobe Campaign Web v8 consente di inviare delle offerte di consegne create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni sull’interazione e su come gestire un catalogo di offerte nella console, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 

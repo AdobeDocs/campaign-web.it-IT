@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare i servizi di abbonamento
 description: Scopri come accedere, creare e gestire i servizi di abbonamento in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Per inviare messaggi di conferma agli utenti che si abbonano o annullano l’abb
 
 Ora puoi selezionare questi messaggi quando [creazione di un servizio di abbonamento](#create-service). Gli utenti che si abbonano o annullano l’abbonamento a tale servizio riceveranno i messaggi di conferma selezionati.
 
-## Registri e rapporti del servizio di abbonamento {#logs-and-reports}
+## Monitorare i servizi di abbonamento {#logs-and-reports}
 
 Per misurare l’efficacia dei servizi in abbonamento per i canali SMS ed e-mail, puoi accedere ai registri e ai rapporti per un determinato servizio.
 
