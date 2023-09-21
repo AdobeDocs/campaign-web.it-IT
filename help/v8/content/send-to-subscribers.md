@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare messaggi agli abbonati di un servizio
 description: Scopri come inviare messaggi agli abbonati di un servizio
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Puoi creare servizi di abbonamento in Adobe Campaign e inviare messaggi ai tuoi abbonati. Scopri come creare servizi di abbonamento in [questa pagina](../audience//manage-services.md#create-service).
 
-Per inviare messaggi agli abbonati, crea un pubblico specifico per identificare gli abbonati, quindi crea la consegna come descritto di seguito. Per eseguire questa operazione, eseguire la procedura seguente:
+Per inviare messaggi agli abbonati, crea un pubblico specifico per identificare gli abbonati, quindi crea la consegna come descritto di seguito.
 
 1. Creazione di un pubblico. Ulteriori informazioni sui tipi di pubblico in [questa pagina](../audience/create-audience.md).
 
