@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 62%
+source-wordcount: '580'
+ht-degree: 57%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 62%
 >title="Formattazione dei parametri"
 >abstract="Verifica i parametri di formattazione per il file."
 
-Puoi caricare i contatti da un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
+Non è possibile caricare profili direttamente in Campaign dall’interfaccia, ma è possibile eseguire il targeting dei profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
 
 >[!CAUTION]
 >
 >* Questa funzionalità è disponibile solo per le **consegne e-mail autonome**. Non può essere utilizzata nei flussi di lavoro, né con le consegne SMS o push.
 >
 >* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
+>
+>* I profili non vengono aggiunti al database e vengono caricati e disponibili solo per questa consegna e-mail autonoma specifica.
 
-## Carica il file {#upload}
+## Seleziona e configura il file {#upload}
 
 Per eseguire il targeting dei profili da un file locale direttamente dall’interfaccia e-mail, segui questi passaggi:
 
@@ -45,7 +47,7 @@ Per eseguire il targeting dei profili da un file locale direttamente dall’inte
 
    ![](assets/select-from-file.png)
 
-1. Seleziona il file locale da caricare. Il formato deve essere allineato con il [file di esempio](#sample-file).
+1. Selezionare il file locale da utilizzare. Il formato deve essere allineato con il [file di esempio](#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
 1. Scegli la colonna che contiene l’indirizzo e-mail dall’elenco a discesa **Campo indirizzo**. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna dell’elenco bloccati.
 1. Regola le impostazioni delle colonne e il formato dei dati dalle opzioni disponibili.

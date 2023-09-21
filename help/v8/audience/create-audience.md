@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e gestire i tipi di pubblico
 description: Scopri come creare e gestire i tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Tipi di pubblico"
->abstract="Da questa schermata, puoi creare e combinare i tipi di pubblico in un’area di lavoro visiva. Aggiungi varie attività del flusso di lavoro, ad esempio **Dividi** o **Escludi** per generare un pubblico nuovo e perfezionato."
+>abstract="Da questa schermata, puoi accedere all’elenco di tutti i tipi di pubblico a cui è possibile indirizzare le consegne. Clic **Crea** per creare nuovi tipi di pubblico in un’area di lavoro visiva utilizzando varie attività del flusso di lavoro, ad esempio **Dividi** o **Escludi**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

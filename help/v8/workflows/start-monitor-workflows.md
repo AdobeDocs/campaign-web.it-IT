@@ -4,10 +4,10 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 87%
+source-wordcount: '569'
+ht-degree: 86%
 
 ---
 
@@ -24,10 +24,6 @@ Una volta eseguito il flusso di lavoro, ogni attività nell’area di lavoro vie
 Puoi monitorare l’avanzamento dei profili target in tempo reale utilizzando un flusso visivo. Questo consente di identificare rapidamente lo stato di ciascuna attività e il numero di profili che passano da un’attività all’altra.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->Puoi disattivare il flusso visivo utilizzando il pulsante **[!UICONTROL Nascondi avanzamento]** nella barra delle azioni superiore dell’area di lavoro.
 
 ## Transizioni del flusso di lavoro {#transitions}
 
