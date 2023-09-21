@@ -2,9 +2,9 @@
 title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ I loop non sono ancora disponibili nell’interfaccia utente web. Se hai creato 
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Il posizionamento dei nodi viene aggiornato ogni volta che viene aggiunta o rimossa un’attività. Se crei un flusso di lavoro nella console, lo modifichi utilizzando l’interfaccia web e lo riapri nella console, potresti notare alcune lievi imperfezioni di posizionamento. Questo non ha alcun impatto sul
+Il posizionamento dei nodi viene aggiornato ogni volta che viene aggiunta o rimossa un’attività. Se crei un flusso di lavoro nella console, lo modifichi utilizzando l’interfaccia web e lo riapri nella console, potresti notare alcune lievi imperfezioni di posizionamento. Questo non ha alcun impatto sui processi e sulle attività del flusso di lavoro.
 
 | Flusso di lavoro iniziale | Modifica posizione |
 | --- | --- |
