@@ -2,7 +2,7 @@
 title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Per ottenere il meglio dall’Assistente alla conoscenza basato sull’intellige
 * Utilizza termini e parole appropriati, con un tono neutro.
 * Valuta le risposte e fornisci feedback in modo che i nostri ingegneri possano imparare dalla tua esperienza e migliorare i risultati.
 
+<img src="assets/AI_CH.gif"/>
