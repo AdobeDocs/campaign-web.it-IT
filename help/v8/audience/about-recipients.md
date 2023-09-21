@@ -2,9 +2,9 @@
 title: Utilizzare destinatari e pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 14%
 
 ---
@@ -69,7 +69,7 @@ Quando esegui il targeting di un pubblico, puoi anche definire **gruppi di contr
 
 ## Dimensioni di targeting {#targeting-dimensions}
 
-La dimensione di targeting è il tipo di dati che un’operazione gestisce. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
+La dimensione di targeting, alias. mappatura target, è il tipo di dati gestito da un&#39;operazione. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
 
 La dimensione di targeting di un flusso di lavoro è definita dal primo **[!UICONTROL Creare un pubblico]** e viene utilizzata in tutte le ulteriori attività fino alla fine del flusso di lavoro. Ad esempio, se esegui una query sui destinatari del database, la transizione in uscita conterrà dati di tipo destinatario e verrà trasmessa all’attività successiva.
 
