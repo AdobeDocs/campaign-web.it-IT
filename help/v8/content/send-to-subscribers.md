@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare messaggi agli abbonati di un servizio
 description: Scopri come inviare messaggi agli abbonati di un servizio
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,11 @@ Per inviare messaggi agli abbonati, crea un pubblico specifico per identificare 
 
 1. Salva il pubblico.
 1. Creare una consegna. I passaggi per creare una consegna sono descritti in [questa pagina](../msg/gs-messages.md#create-delivery).
-1. Seleziona il pubblico creato in precedenza.
+1. Individua le impostazioni di consegna e modifica la mappatura di destinazione predefinita in **Sottoscrizioni (nms:subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. Nella sezione di destinazione principale della consegna, seleziona il pubblico creato in precedenza.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
