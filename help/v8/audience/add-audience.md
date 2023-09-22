@@ -4,10 +4,10 @@ title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 88%
+source-wordcount: '308'
+ht-degree: 43%
 
 ---
 
@@ -19,40 +19,33 @@ ht-degree: 88%
 >title="Selezionare un pubblico esistente"
 >abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona “Mostra filtri” per filtrare l’elenco o seleziona una cartella specifica."
 
-Questa sezione descrive come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna e-mail.
+Questa sezione spiega come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna. Quando definisci il target principale di una consegna, puoi anche:
 
-Puoi anche:
+* [Creare un pubblico una tantum](one-time-audience.md) utilizzando il generatore di regole.
+* [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 
-* Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
-* Carica un pubblico da un file esterno (solo per e-mail). [Ulteriori informazioni](file-audience.md)
-* Utilizzare un pubblico di Adobe Experience Platform. [Ulteriori informazioni](aep-audience.md).
-
+I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dalla **Pubblico** menu a sinistra. Provengono da più origini, ad esempio la console client, i flussi di lavoro del pubblico web di Campaign o Adobe Experience Platform. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
 
 Per selezionare un pubblico esistente per il messaggio, segui la procedura seguente:
 
-1. Dalla sezione **Pubblico** nell’assistente per la creazione della consegna, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
+1. Dalla sezione **Pubblico** dell’assistente alla creazione della consegna, fai clic su **[!UICONTROL Seleziona pubblico]** quindi scegliere
 
    ![](assets/create-audience.png)
 
-1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea nuovo**. Fai riferimento a questa [sezione](segment-builder.md).
-
-   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti per la cartella corrente.
+1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti per la cartella corrente.
 
    ![](assets/create-audience2.png)
 
-   I tipi di pubblico vengono creati dal menu a sinistra **Pubblico**. Possono essere creati anche nella console client.
+   Per scegliere un pubblico da Adobe Experience Platform, passa a `AEP Audiences folder` dalla sezione filtro dello schermo.
 
-   Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
+   ![](assets/select-audience-folder.png)
 
-   >[!IMPORTANT]
-   >
-   >In tale versione del prodotto, durante la creazione di regole, la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente. Puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
-
-1. Scegli un pubblico e fai clic su **Seleziona**.
-1. Utilizza l’icona **Mostra filtri** per visualizzare le opzioni di filtro. Fai clic su **Aggiungi regole** per accedere al generatore di regole: l’utilizzo di questo strumento consente di creare filtri avanzati per l’elenco dei tipi di pubblico. Scopri come utilizzare il generatore di regole in questa [sezione](segment-builder.md).
+1. La sezione dei filtri ti consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere al generatore di regole, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare il generatore di regole](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. Fai clic su **Salva**.
+1. Clic **Conferma** per aggiungere il pubblico come target principale della consegna. Al termine, puoi comunque perfezionare il pubblico utilizzando il generatore di regole facendo clic sul pulsante **Modifica regole** pulsante.
 
-Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò consente di confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. Per ulteriori informazioni, consulta [questa sezione](control-group.md).
+   ![](assets/refine-audience.png)
+
+   Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò consente di confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. [Ulteriori informazioni](control-group.md)

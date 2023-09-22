@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 84%
+source-wordcount: '422'
+ht-degree: 82%
 
 ---
 
@@ -85,13 +85,14 @@ ht-degree: 84%
       + [Rendering dell’e-mail](preview-test/email-rendering.md)
 + Tipi di pubblico e destinatari {#audiences}
    + [Utilizzare destinatari e pubblico](audience/about-recipients.md)
-   + [Creare e gestire i tipi di pubblico](audience/create-audience.md)
-   + Pubblico di destinazione {#target-audiences}
+   + [Creare tipi di pubblico](audience/create-audience.md)
+   + Selezionare i destinatari della consegna {#target-audiences}
       + [Selezionare un pubblico esistente](audience/add-audience.md)
-      + [Definire un pubblico con il generatore di regole](audience/segment-builder.md)
-      + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
-      + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
+      + [Creare un pubblico una tantum](audience/one-time-audience.md)
+      + [Caricare un pubblico da un file](audience/file-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
+   + [Utilizzare il generatore di regole](audience/segment-builder.md)
+   + [Monitorare e gestire i tipi di pubblico](audience/manage-audience.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
       + [Gestire i servizi](audience/manage-services.md)
       + [Gestisci abbonati](audience/manage-subscribers.md)

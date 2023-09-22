@@ -2,17 +2,17 @@
 title: Utilizzare destinatari e pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
 
 # Utilizzare destinatari e pubblico {#about-recipients}
 
-In Adobe Campaign, la popolazione target di una consegna è un pubblico. Un insieme di destinatari di persone che condividono comportamenti e/o caratteristiche simili. Questa raccolta di persone può essere generata, selezionata o caricata [come descritto di seguito](#audiences). Nella maggior parte dei casi, il pubblico è costituito da profili, memorizzati come [destinatari](#recipients) in Adobe Campaign. Puoi anche lavorare con altre mappature di destinazione modificando la dimensione come spiegato [in questa sezione](#targeting-dimensions).
+In Adobe Campaign, la popolazione target di una consegna è un pubblico. Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Questa raccolta di persone può essere generata, selezionata o caricata [come descritto di seguito](#audiences). Nella maggior parte dei casi, il pubblico è costituito da profili, memorizzati come [destinatari](#recipients) in Adobe Campaign. Puoi anche lavorare con altre mappature di destinazione modificando la dimensione come spiegato [in questa sezione](#targeting-dimensions).
 
 ## Cosa sono i destinatari? {#recipients}
 
@@ -58,8 +58,7 @@ Il pubblico è il target principale della consegna: i destinatari che ricevono i
 Per definire la popolazione di un pubblico, puoi:
 
 * [Creare nuovi tipi di pubblico](create-audience.md) dal **[!UICONTROL Tipi di pubblico]** menu,
-* [Seleziona un pubblico esistente](add-audience.md) creato come elenco nella console client,
-* [Seleziona un pubblico di Adobe Experience Platform](aep-audience.md),
+* [Seleziona un pubblico esistente](add-audience.md) creato come elenco nella console client o proveniente da Adobe Experience Platform,
 * [Crea un nuovo pubblico con il generatore di regole definendo e combinando criteri di filtro,](segment-builder.md)
 * [Utilizzare un pubblico da un file esterno](file-audience.md). Questa opzione è disponibile solo per le consegne e-mail autonome e non può essere utilizzata nelle consegne delle campagne.
 
@@ -75,7 +74,7 @@ La dimensione di targeting, alias. mappatura target, è il tipo di dati gestito 
 
 La dimensione di targeting di un flusso di lavoro è definita dal primo **[!UICONTROL Creare un pubblico]** e viene utilizzata in tutte le ulteriori attività fino alla fine del flusso di lavoro. Ad esempio, se esegui una query sui destinatari del database, la transizione in uscita conterrà dati di tipo destinatario e verrà trasmessa all’attività successiva.
 
-Tieni presente che puoi cambiare la dimensione di targeting in un flusso di lavoro utilizzando una **[!UICONTROL Cambia dimensione]** attività. [Ulteriori informazioni](../workflows/activities/change-dimension.md). Ciò ti consente, ad esempio, di eseguire query sul database su una tabella specifica, ad esempio acquisti o abbonamenti, e quindi di modificare la dimensione di targeting in Destinatari per inviare le consegne ai destinatari corrispondenti.
+Tieni presente che puoi cambiare la dimensione di targeting in un flusso di lavoro utilizzando una [Cambia attività dimensione](../workflows/activities/change-dimension.md). Ciò ti consente, ad esempio, di eseguire query sul database su una tabella specifica, ad esempio acquisti o abbonamenti, e quindi di modificare la dimensione di targeting in Destinatari per inviare le consegne ai destinatari corrispondenti.
 
 Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Destinatari]**. La loro dimensione target utilizza quindi i campi del **nms:destinatario** tabella. Per le notifiche push, la dimensione di destinazione predefinita è **Applicazioni in abbonamento nms:appSubscriptionRcp**, che è collegato alla tabella dei destinatari.
 

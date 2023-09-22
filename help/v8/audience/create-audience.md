@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Creare e gestire i tipi di pubblico
-description: Scopri come creare e gestire i tipi di pubblico in Adobe Campaign Web
+title: Creare tipi di pubblico
+description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Campaign Web consente di creare nuovi tipi di pubblico in un’area di lavoro del flusso di lavoro visiva. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche sfruttare le attività del flusso di lavoro per perfezionare il pubblico. Ad esempio, puoi combinare più tipi di pubblico in un unico pubblico, arricchire il pubblico con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte.
 
-Dopo aver creato il flusso di lavoro, i tipi di pubblico risultanti vengono automaticamente memorizzati nel database di Campaign insieme a quelli esistenti. Questi tipi di pubblico possono quindi essere oggetto di targeting in campagne o consegne autonome.
+Dopo aver creato il flusso di lavoro, i tipi di pubblico risultanti vengono automaticamente memorizzati nel database di Campaign insieme a quelli esistenti. Questi tipi di pubblico possono quindi essere oggetto di targeting nei flussi di lavoro o nelle consegne autonome.
 
 ## Creare il primo pubblico {#create}
 
@@ -59,7 +59,9 @@ Per creare un pubblico, segui questi passaggi:
 
 1. Quando il workflow è pronto, fai clic su **[!UICONTROL Inizio]** per eseguirlo.
 
-Il flusso di lavoro viene salvato in **[!UICONTROL Flussi di lavoro]** , mentre i tipi di pubblico risultanti sono accessibili nel **[!UICONTROL Tipi di pubblico]** elenco.
+Il flusso di lavoro viene salvato in **[!UICONTROL Flussi di lavoro]** , mentre i tipi di pubblico risultanti sono accessibili nel **[!UICONTROL Tipi di pubblico]** elenco. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
+
+Ora puoi utilizzare questo pubblico come target principale di una consegna. [Ulteriori informazioni](add-audience.md)
 
 ## Esempio di flusso di lavoro per il pubblico {#example}
 
@@ -71,30 +73,3 @@ L’esempio seguente mostra un flusso di lavoro del pubblico configurato per riv
 1. Il **[!UICONTROL Arricchimento]** L’attività arricchisce il pubblico con le informazioni contenute nella tabella Purchases per identificare quale tipo di prodotto hanno acquistato i clienti.
 1. Il **[!UICONTROL Dividi]** L’attività divide il flusso di lavoro in due percorsi in base all’ultimo acquisto effettuato dal cliente.
 1. Il **[!UICONTROL Salva pubblico]** Le attività alla fine di ciascun percorso creano due nuovi tipi di pubblico nel database, inclusa la popolazione calcolata in ciascun percorso.
-
-## Monitorare e gestire i tipi di pubblico {#monitor}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Errore di pubblico"
->abstract="I dati sul pubblico non sono disponibili. Attendi la fine dell&#39;esecuzione del flusso di lavoro."
-
-L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è accessibile dalla pagina **[!UICONTROL Tipi di pubblico]** menu.
-
-![](assets/audiences-list.png)
-
-I tipi di pubblico possono provenire da più sorgenti. Il **[!UICONTROL Origine]** Le colonne indicano dove è stato creato un determinato pubblico:
-
-* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico vengono creati nella console di Adobe Campaign V8. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
-
-* **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico vengono creati all’interno di Adobe Experience Platform e sono integrati in Campaign Web utilizzando l’integrazione Adobe Sources and Destinations. Scopri come impostare questa integrazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
-
-* **[!UICONTROL Interfaccia web di Adobe Campaign]**: questi tipi di pubblico vengono creati utilizzando i flussi di lavoro Pubblico web di Campaign. [Scopri come creare tipi di pubblico](create-audience.md)
-
-Per ottenere ulteriori informazioni su un pubblico, aprilo dall’elenco. Vengono visualizzate le proprietà del pubblico e il numero di profili inclusi nel pubblico. Puoi aggiornare il conteggio del pubblico in qualsiasi momento utilizzando **[!UICONTROL Calcola]** pulsante.
-
-Il **[!UICONTROL Dati]** Questa scheda ti consente di visualizzare i profili che fanno parte del pubblico. Puoi personalizzare questa visualizzazione aggiungendo più colonne o sfruttando filtri avanzati per perfezionare i dati visualizzati.
-
-![](assets/audiences-details.png)
-
-Per duplicare o eliminare un pubblico, fai clic su **[!UICONTROL Altre azioni]** disponibile nell’elenco dei tipi di pubblico accanto al nome del pubblico o all’interno della schermata dei dettagli del pubblico.
