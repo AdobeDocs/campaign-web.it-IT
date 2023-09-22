@@ -2,7 +2,7 @@
 title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluzi
 
 Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un&#39;attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant con Gen AI è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
 
-![](assets/ask-a-question.png){width="70%" align="left"}
+<img src="assets/AI_CH.gif" width="80%"/>
 
 <!--
 ## Consent {#consent-ai}
@@ -55,4 +55,4 @@ Per ottenere il meglio dall’Assistente alla conoscenza basato sull’intellige
 * Utilizza termini e parole appropriati, con un tono neutro.
 * Valuta le risposte e fornisci feedback in modo che i nostri ingegneri possano imparare dalla tua esperienza e migliorare i risultati.
 
-<img src="assets/AI_CH.gif"/>
+

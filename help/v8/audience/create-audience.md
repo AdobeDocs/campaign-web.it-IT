@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e gestire i tipi di pubblico
 description: Scopri come creare e gestire i tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,11 @@ L’esempio seguente mostra un flusso di lavoro del pubblico configurato per riv
 1. Il **[!UICONTROL Salva pubblico]** Le attività alla fine di ciascun percorso creano due nuovi tipi di pubblico nel database, inclusa la popolazione calcolata in ciascun percorso.
 
 ## Monitorare e gestire i tipi di pubblico {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Errore di pubblico"
+>abstract="I dati sul pubblico non sono disponibili. Attendi la fine dell&#39;esecuzione del flusso di lavoro."
 
 L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è accessibile dalla pagina **[!UICONTROL Tipi di pubblico]** menu.
 
