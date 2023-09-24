@@ -2,7 +2,7 @@
 title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Ottieni risposte rapide e generate da intelligenza artificiale in base alla docu
 
 Il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
 
-Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un&#39;attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant con Gen AI è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Risposte {#answers-ai}
 
-Le risposte possono essere imprecise o fuorvianti. Di conseguenza, l’assistente alla conoscenza Adobe può produrre informazioni errate. Controlla la documentazione del prodotto collegata in ogni casella della guida.
+Le risposte possono essere imprecise o fuorvianti. Di conseguenza, Knowledge Assistant basato su Adobe Campaign AI potrebbe generare informazioni non corrette. Controlla la documentazione del prodotto collegata in ogni casella della guida.
 
 L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. L’assistente alla conoscenza basato sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Si consiglia vivamente di utilizzare il ?? ?? pulsanti ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri ingegneri.
 
