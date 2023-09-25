@@ -1,15 +1,21 @@
 ---
-title: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
-description: Utilizzo dell’assistente esperto basato sull’intelligenza artificiale in Campaign Web
+title: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
+description: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Utilizzo di Knowledge Assistant basato sull’intelligenza artificiale {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="Knowledge Assistant con tecnologia AI"
+>abstract="Ottieni risposte veloci e generate dall’intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con Knowledge Assistant basato sull’intelligenza artificiale. Disponibile nelle caselle di aiuto contestuali del prodotto, rivoluziona la ricerca della documentazione e risponde alle domande con un semplice setaccio attraverso vasti archivi di documentazione, individuando immediatamente le informazioni precise necessarie."
+
 
 Ottieni risposte rapide e generate da intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’Assistente alle conoscenze basato sull’intelligenza artificiale disponibile nelle caselle di aiuto contestuali del prodotto.
 
@@ -19,7 +25,7 @@ Ottieni risposte rapide e generate da intelligenza artificiale in base alla docu
 
 Il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
 
-Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, Knowledge Assistant basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
