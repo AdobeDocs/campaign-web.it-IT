@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
+source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 50%
@@ -30,11 +30,11 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 
 Il **[!UICONTROL Popolazione target iniziale]** grafico mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
 
-![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
 Passa il puntatore del mouse su una parte del grafico per visualizzare il numero esatto.
 
-![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
@@ -57,7 +57,7 @@ Passa il puntatore del mouse su una parte del grafico per visualizzare il numero
 
 Il **[!UICONTROL Statistiche consegna]** il grafico descrive il successo della consegna. Le metriche sono descritte di seguito.
 
-![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
