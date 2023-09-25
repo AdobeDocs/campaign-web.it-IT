@@ -3,18 +3,18 @@ audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 72%
+source-wordcount: '467'
+ht-degree: 40%
 
 ---
 
-# Rapporto sulle consegne push {#push-report}
+# Rapporti sulle consegne push {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Riepilogo del rapporto push"
+>title="Riepilogo report di consegna push"
 >abstract="Il **Panoramica della consegna push** offre una panoramica completa della distribuzione push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 >[!CONTEXTUALHELP]
@@ -26,51 +26,77 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
 ## Riepilogo push {#push-summary}
 
-* La **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
+### Panoramica della consegna {#push-delivery-overview}
 
-  ![](assets/reporting_push_3.png)
+Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi push.
 
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
+![](assets/reporting_push_3.png)
 
-   * **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
-   * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
-   * **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con il messaggio push.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-   * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con il messaggio push.
 
-+++
-
-* Il grafico e la tabella della **Popolazione target** visualizza dati relativi al pubblico:
-
-  ![](assets/reporting_push_4.png)
-
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
-
-   * **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
-
-   * **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
 +++
 
-* **Statistiche generali** presenta i dati per le notifiche push inviate, tra cui:
+### Popolazione target {#push-delivery-targeted-population}
 
-  ![](assets/reporting_push_5.png)
 
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_targeted_population"
+>title="Popolazione di destinazione push"
+>abstract="Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico dei messaggi push: messaggi da consegnare ed esclusioni."
 
-   * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente.
+Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico: messaggi da consegnare ed esclusioni. Le metriche sono descritte di seguito.
 
-   * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante la consegna e che hanno impedito l’invio dei messaggi a determinati profili.
+![](assets/reporting_push_4.png)
 
-   * **[!UICONTROL Nuova quarantena]**: numero di profili esclusi e aggiunti alla quarantena.
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
+
+* **[!UICONTROL Da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
+
+* **[!UICONTROL Esclusioni]**: numero di profili che sono stati esclusi dall’analisi.
 
 +++
 
-* Il grafico e la tabella delle **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+### Statistiche complessive {#push-delivery-overall}
 
-  ![](assets/reporting_push_6.png)
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_overall_stats"
+>title="Statistiche generali push"
+>abstract="Il **Statistiche generali** Il rapporto presenta i dati per le notifiche push inviate: esito positivo, errori e quarantene."
+
+Il **Statistiche generali** Il rapporto presenta i dati per le notifiche push inviate: esito positivo, errori e quarantene. Le metriche sono descritte di seguito.
+
+![](assets/reporting_push_5.png)
+
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
+
+* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente.
+
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante la consegna e che hanno impedito l’invio dei messaggi a determinati profili.
+
+* **[!UICONTROL Nuova quarantena]**: numero di profili esclusi e aggiunti alla quarantena.
+
++++
+
+### Esclusioni {#push-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_push_exclusions"
+>title="Statistiche generali push"
+>abstract="Il **Esclusioni** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
+
+Il **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+
+![](assets/reporting_push_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 
@@ -79,6 +105,6 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 >title="Rapporto velocità effettiva di consegna"
 >abstract="Il rapporto Velocità effettiva di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato."
 
-Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Il **Velocità effettiva di consegna** Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un determinato arco temporale. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_push_2.png)

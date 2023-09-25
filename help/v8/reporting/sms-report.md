@@ -3,14 +3,14 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 24%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
-# Rapporto sulla consegna SMS {#report}
+# Rapporti sulle consegne SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ Il **Panoramica della consegna SMS** offre una panoramica completa della consegn
 
 ## Riepilogo delle consegne {#delivery-summary}
 
-* **[!UICONTROL Panoramica della consegna]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui tassi di successo e di errore e sul modo in cui i visitatori si relazionano con i messaggi SMS.
+### Panoramica della consegna {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui tassi di successo e di errore e sul modo in cui i visitatori si relazionano con i messaggi SMS.
 
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL Totale inviato]**: percentuale e numero totale di messaggi elaborati durante la preparazione della consegna.
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
-   * **[!UICONTROL Completato]**: percentuale e numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Totale inviato]**: percentuale e numero totale di messaggi elaborati durante la preparazione della consegna.
 
-   * **[!UICONTROL Percentuale di click-through]**: percentuale e numero di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
+* **[!UICONTROL Completato]**: percentuale e numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
 
-   * **[!UICONTROL Errori]**: percentuale e numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
-+++
+* **[!UICONTROL Percentuale di click-through]**: percentuale e numero di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
 
-* Il grafico e la tabella della **Popolazione target** visualizza dati relativi al pubblico.
+* **[!UICONTROL Errori]**: percentuale e numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-  ![](assets/reporting_sms_4.png)
-
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
-
-   * **[!UICONTROL Da consegnare]**: numero totale e percentuale di messaggi elaborati durante la preparazione della consegna.
-
-   * **[!UICONTROL Esclusioni]**: numero e percentuale di profili che sono stati esclusi dall’analisi.
 +++
 
 
-* **Statistiche generali** presenta i dati per i messaggi SMS inviati, tra cui:
+### Popolazione target {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="Popolazione target degli SMS"
+>abstract="Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico SMS: messaggi da consegnare ed esclusioni."
 
-   * **[!UICONTROL Completato]**: numero e percentuale di messaggi elaborati correttamente.
+Il **Popolazione target** i dati di grafici e tabelle vengono visualizzati in base al pubblico. Le metriche sono descritte di seguito.
 
-   * **[!UICONTROL Errori]**: numero totale e percentuale di errori che si sono verificati durante la consegna e che impediscono l’invio dei messaggi a determinati profili.
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL Nuova quarantena]**: numero e percentuale di profili esclusi e aggiunti alla quarantena.
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
+
+* **[!UICONTROL Da consegnare]**: numero totale e percentuale di messaggi elaborati durante la preparazione della consegna.
+
+* **[!UICONTROL Esclusioni]**: numero e percentuale di profili che sono stati esclusi dall’analisi.
 +++
+
+
+### Statistiche complessive {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="Statistiche generali push"
+>abstract="Il **Statistiche generali** Il rapporto presenta i dati per l’SMS inviato: esito positivo, errori e quarantene."
+
+Il **Statistiche generali** Il report presenta i dati per i messaggi SMS inviati. Le metriche sono descritte di seguito.
+
+![](assets/reporting_sms_5.png)
+
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
+
+* **[!UICONTROL Completato]**: numero e percentuale di messaggi elaborati correttamente.
+
+* **[!UICONTROL Errori]**: numero totale e percentuale di errori che si sono verificati durante la consegna e che impediscono l’invio dei messaggi a determinati profili.
+
+* **[!UICONTROL Nuova quarantena]**: numero e percentuale di profili esclusi e aggiunti alla quarantena.
++++
+
+### Esclusioni {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_exclusions"
+>title="Statistiche generali SMS"
+>abstract="Il **Esclusioni** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
+
 
 * **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 
