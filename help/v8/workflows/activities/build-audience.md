@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 60%
 
 ---
 
@@ -54,7 +54,7 @@ Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 Per creare una query personalizzata, segui questi passaggi aggiuntivi:
 
 1. Seleziona **Crea una query personalizzata**.
-1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Consulta la [documentazione di v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=it#targeting-and-filtering-dimensions){target="_blank"}.
+1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Ulteriori informazioni sulle dimensioni di targeting in [questa sezione](../../audience/about-recipients.md#targeting-dimensions).
 1. Fai clic su **Continua**.
 1. Utilizza il generatore di regole per definire la query, seguendo la stessa procedura con cu si crea un pubblico durante la progettazione di una nuova e-mail. Consulta questa [sezione](../../audience/segment-builder.md).
 
