@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 66%
+source-wordcount: '1932'
+ht-degree: 65%
 
 ---
 
@@ -301,6 +301,12 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 >id="acw_delivery_reporting_breakdown_os"
 >title="Raggruppamento per sistema operativo"
 >abstract="Il **Raggruppamento per sistema operativo** mostra il raggruppamento degli avvii per sistema operativo per il periodo in questione. Il primo grafico mostra le statistiche relative alle aperture su un computer e su dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Raggruppamento per browser"
+>abstract="Il **Raggruppamento per browser** mostra il raggruppamento delle aperture per browser per il periodo interessato. Il primo grafico mostra le statistiche relative alle aperture su un computer e su dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili."
+
 
 Raggruppamenti delle aperture: questo rapporto mostra le aperture raggruppate per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
 
