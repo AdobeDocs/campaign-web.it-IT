@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 39%
+ht-degree: 63%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Riepilogo report di consegna push"
->abstract="Il **Panoramica della consegna push** offre una panoramica completa della distribuzione push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
+>abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
->title="Invio rapporti"
->abstract="lui **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+>title="Invio reportistica"
+>abstract="La scheda **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 Il **Rapporto sulle consegne push** offre una panoramica completa del canale push con informazioni approfondite e dati specifici. Offre informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
@@ -103,9 +103,9 @@ Il **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi ch
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
->title="Rapporto velocità effettiva di consegna"
->abstract="Il rapporto Velocità effettiva di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato."
+>title="Rapporto velocità di consegna"
+>abstract="Il rapporto Velocità di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico."
 
-Il **Velocità effettiva di consegna** Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un determinato arco temporale. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_push_2.png)

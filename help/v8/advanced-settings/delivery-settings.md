@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Impostazioni di consegna
+title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 68%
+ht-degree: 98%
 
 ---
 
 
 # Impostazioni consegna {#email-del-settings}
 
-Le impostazioni di consegna e-mail sono **parametri tecnici di consegna** definiti nel modello e-mail. Possono essere sovraccarichi per ogni consegna.
+Le impostazioni di consegna e-mail sono **parametri tecnici di consegna** definiti nel modello e-mail. Possono essere caricati per ogni consegna.
 
-Queste impostazioni sono disponibili nella **Configurare le impostazioni di consegna** disponibile quando si modifica una consegna e-mail o un modello di consegna e-mail.
+Queste impostazioni sono accessibili tramite l’icona **Configura impostazioni di consegna** disponibile durante la modifica di una consegna e-mail o di un modello di consegna e-mail.
 
 
 ## Impostazioni di consegna e-mail {#email-delivery-settings}
@@ -30,18 +30,18 @@ Queste impostazioni sono disponibili nella **Configurare le impostazioni di cons
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Tipologia le regole consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
+>abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Impostazioni di tipologia per la consegna"
->abstract="Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione."
+>title="Impostazioni della tipologia per la consegna"
+>abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
 
-Le tipologie sono insiemi di **regole di tipologia**, che vengono eseguiti durante la fase di preparazione. Le regole di tipologia consentono agli addetti al marketing di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che soddisfano i criteri di una regola di tipologia sono esclusi dai tipi di pubblico di consegna nella fase di preparazione della consegna.  Consentono di assicurarsi che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
+Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di preparazione. Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione della consegna.  Consentono di assicurarti che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto (ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati).
 
-Le regole di tipologia sono raggruppate all’interno di una tipologia per applicare facilmente più regole di filtro a una consegna.
+Le regole di tipologia sono raggruppate in una tipologia per applicare facilmente più regole di filtro a una consegna.
 
 Durante l’associazione di una tipologia a un messaggio o a un modello di messaggio, le regole di tipologia vengono eseguite per verificare la validità del messaggio.
 
@@ -56,7 +56,7 @@ Durante l’associazione di una tipologia a un messaggio o a un modello di messa
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Parametri di pressione per la consegna"
->abstract="I pesi di consegna ti consentono di identificare le consegne con priorità più elevata nel quadro della gestione dell’affaticamento. I messaggi con il peso maggiore hanno priorità."
+>abstract="Il peso delle consegne consente di individuare le consegne prioritarie nel quadro della gestione dell’eccesso. I messaggi con il peso maggiore hanno priorità."
 
 
 >[!CONTEXTUALHELP]
@@ -64,7 +64,7 @@ Durante l’associazione di una tipologia a un messaggio o a un modello di messa
 >title="Peso consegna"
 >abstract="Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
 
-In questa sezione, i parametri di pressione consentono di definire un **soglia** per impostare le regole di gestione dell’eccesso. Si tratta del numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
+In questa sezione, i parametri di pressione consentono di definire una **soglia** per impostare le regole di gestione dell’eccesso. Si tratta del numero massimo di messaggi che possono essere inviati a un profilo in un dato periodo di tempo. Una volta raggiunta tale soglia, non potranno più essere effettuate ulteriori consegne fino alla fine del periodo considerato. Questo processo ti consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia impostata, evitando in tal modo una sollecitazione eccessiva.
 
 I valori di soglia possono essere costanti o variabili. Ciò significa che per un dato periodo le soglie possono variare da un profilo all’altro, o anche per lo stesso profilo.
 
@@ -83,14 +83,14 @@ Utilizza il campo **Modalità di consegna** per selezionare la modalità di valu
 * **Stima e approvazione del target provvisorio**
 * **Valutazione del target**
 
-La gestione dell’eccesso di comunicazioni può essere eseguita mediante il componente aggiuntivo **Ottimizzazione di Campaign**. Ulteriori informazioni sulle regole di pressione e su come configurare la gestione dell’eccesso in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}.
+La gestione dell’eccesso di comunicazioni può essere eseguita mediante il componente aggiuntivo **Ottimizzazione di Campaign**. Per ulteriori informazioni sulle regole di pressione e su come configurare la gestione dell’eccesso, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}.
 
 ### Impostazioni capacità {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Impostazioni di capacità per la consegna"
->abstract="Prima di consegnare i messaggi, utilizza le regole di capacità per assicurarti che la tua organizzazione possa elaborare la consegna, i messaggi in entrata che la consegna può generare e il numero di chiamate da effettuare, ad esempio, agli abbonati di contatto. Le regole di capacità sono definite nella console di Adobe Campaign v8. In questa schermata, seleziona una regola associata al canale e-mail."
+>title="Impostazioni della capacità per la consegna"
+>abstract="Prima di consegnare i messaggi, utilizza le regole di capacità per assicurarti che la tua organizzazione possa elaborare la consegna, i messaggi in entrata che la consegna può generare e il numero di chiamate da effettuare, ad esempio, per contattare chi possiede un abbonamento. Le regole di capacità sono definite nella console Adobe Campaign v8. In questa schermata, seleziona una regola associata al canale e-mail."
 
 
 >[!CONTEXTUALHELP]
@@ -103,7 +103,7 @@ In questa sezione puoi selezionare una regola di capacità definita nella consol
 
 Il campo **importanza del destinatario** è una formula utilizzata per determinare quali destinatari vengono mantenuti in caso di superamento delle regole di tipologia della capacità.
 
-Ulteriori informazioni sulle regole di coerenza e capacità e su come configurarle in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sulle regole di coerenza e capacità e su come configurarle, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=it){target="_blank"}.
 
 
 ## Impostazioni pubblico {#audience}
@@ -111,7 +111,7 @@ Ulteriori informazioni sulle regole di coerenza e capacità e su come configurar
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Impostazioni del pubblico per la consegna"
->abstract="Seleziona un **mappatura target** tra quelli disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Puoi anche impostare i parametri di esclusione per la consegna. "
+>abstract="Seleziona una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Puoi anche impostare i parametri di esclusione per la consegna. "
 
 In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. La dimensione di targeting, o mappatura target, è il tipo di dati che un&#39;operazione gestisce. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
 
@@ -123,7 +123,7 @@ Ulteriori informazioni sulle mappature di destinazione in [questa sezione](../au
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Impostazioni consegna per la consegna"
->abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. È possibile attivare CCN per la consegna e modificare le modalità di consegna e di routine. Queste opzioni sono disponibili solo per utenti esperti."
+>abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. È possibile attivare l’invio in Ccn per la consegna e modificare le modalità di consegna e di routine. Queste opzioni sono disponibili solo per utenti esperti."
 
 I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
 
@@ -131,21 +131,21 @@ I parametri di consegna sono impostazioni tecniche applicabili alla consegna.
 
 * **Test consegna SMTP**: questa opzione viene utilizzata per testare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **Invia e-mail in Ccn**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn, semplicemente aggiungendo un indirizzo e-mail Ccn al target del messaggio. Ulteriori informazioni sul campo CCN e-mail in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+* **Invia e-mail in Ccn**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn, semplicemente aggiungendo un indirizzo e-mail Ccn al target del messaggio. Per ulteriori informazioni sull’invio in Ccn dell’email, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 ### Analisi web {#web-analytics}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Impostazioni di analisi web per la consegna"
+>title="Impostazioni dell’analisi web per la consegna"
 >abstract="Seleziona un account di analisi web. Questo account è configurato nella console client di Campaign. Puoi anche definire i tag condivisi con lo strumento di analisi in uso."
 
-In questa sezione puoi selezionare un account di analisi web. Questo account è configurato nella console client di Campaign.
+In questa sezione, puoi selezionare un account di analisi web. Questo account è configurato nella console client di Campaign.
 
 Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 
-Ulteriori informazioni su Web Analytics e Campaign in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull’analisi web e Campaign, consula la [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 
 ### Nuovi tentativi {#retries}
@@ -155,9 +155,9 @@ Ulteriori informazioni su Web Analytics e Campaign in [Documentazione di Campaig
 >title="Numero massimo di nuovi tentativi"
 >abstract="Se un messaggio non riesce a causa di un errore temporaneo, vengono eseguiti nuovi tentativi fino alla fine della durata della consegna."
 
-I messaggi temporaneamente non consegnati a causa di un errore morbido o ignorato sono soggetti a un nuovo tentativo automatico. Per impostazione predefinita, sono pianificati cinque nuovi tentativi per il primo giorno della consegna con un intervallo minimo di un’ora suddiviso nelle 24 ore del giorno.
+I messaggi temporaneamente non consegnati a causa di un errore di tipo Soft o Ignorato sono soggetti a un nuovo tentativo automatico. Per impostazione predefinita, per il primo giorno della consegna sono pianificati cinque nuovi tentativi con un intervallo minimo di un’ora distribuiti nelle 24 ore del giorno.
 
-Ulteriori informazioni sulla gestione dei tentativi in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sulla gestione dei nuovi tentativi, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 ## Approvazione {#approval}
 
@@ -170,7 +170,7 @@ Ulteriori informazioni sulla gestione dei tentativi in [Documentazione di Campai
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="Modalità di approvazione per le consegne"
->abstract="Seleziona la modalità di approvazione per le consegne basate su questo modello. Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno."
+>abstract="Seleziona la modalità di approvazione per le consegne in base a questo modello. Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno."
 
 Se durante la preparazione della consegna vengono generate avvertenze, puoi configurare la consegna per definire se dovrà essere eseguita o meno. Per impostazione predefinita, l’utente deve confermare l’invio di messaggi al termine della fase di analisi: si tratta di convalida **manuale**.
 
@@ -218,7 +218,7 @@ Puoi anche scegliere di specificare le date. A questo scopo, seleziona **Imposta
 ![](assets/delivery-settings-2.png)
 
 
-Ulteriori informazioni sul periodo di validità della consegna in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it#validity-period){target="_blank"}.
+Per ulteriori informazioni sul periodo di validità della consegna, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it#validity-period){target="_blank"}.
 
 ### Gestione delle pagine mirror {#mirror}
 
@@ -247,7 +247,7 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Periodo di validità"
->abstract="Il periodo di validità imposta la durata per la quale viene attivato il tracciamento sugli URL del messaggio."
+>abstract="Il periodo di validità stabilisce la durata per la quale viene attivato il tracciamento sugli URL dei messaggi."
 
 
 I parametri di tracciamento sono definiti nella relativa sezione. Le opzioni possibili sono:
@@ -260,7 +260,7 @@ I parametri di tracciamento sono definiti nella relativa sezione. Le opzioni pos
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Impostazioni di test per la consegna"
+>title="Impostazioni dei test per la consegna"
 >abstract="Seleziona i parametri di esclusione e personalizza l’etichetta delle e-mail di test."
 
 In questa sezione puoi impostare i parametri di esclusione. Le opzioni disponibili sono:

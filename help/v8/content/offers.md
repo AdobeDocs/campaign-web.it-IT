@@ -7,14 +7,14 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 71%
+ht-degree: 97%
 
 ---
 
 
 # Aggiungere offerte ai messaggi {#offers-content}
 
-Adobe Campaign Web v8 consente di inviare delle offerte di consegne create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni sull’interazione e su come gestire un catalogo di offerte nella console, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Adobe Campaign Web v8 consente di inviare delle offerte di consegne create nella console mediante il modulo **[!UICONTROL Interazione]**. Per ulteriori informazioni su Interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
 I passaggi per inviare offerte con una consegna sono i seguenti:
 
@@ -31,19 +31,19 @@ I passaggi per inviare offerte con una consegna sono i seguenti:
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="Impostare le impostazioni avanzate delle offerte"
->abstract="Puoi abilitare l’esclusione dei destinatari per i quali non vi sono sufficienti offerte idonee e scegliere la modalità di elaborazione del messaggio nel caso in cui una delle proposte non esista."
+>abstract="Puoi abilitare l’esclusione dei destinatari per i quali non vi sono sufficienti offerte idonee e scegliere come verrà elaborato il messaggio nel caso in cui una delle proposte non esista."
 
-Adobe Campaign ti consente di proporre una o più offerte specifiche a un determinato contatto. Modulo di interazione che consente di rispondere in tempo reale durante un’interazione con un determinato contatto proponendo loro una o più offerte specifiche. Queste offerte possono essere semplici messaggi di comunicazione, offerte speciali su uno o più prodotti o un servizio.
+Adobe Campaign consente di proporre a un determinato contatto una o più offerte specifiche. Il modulo Interazione consente di rispondere in tempo reale durante un’interazione con un determinato contatto proponendo una o più offerte specifiche. Queste offerte possono essere semplici messaggi di comunicazione, offerte speciali su uno o più prodotti o un servizio.
 
 Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicati di seguito.
 
-1. Fai clic su **[!UICONTROL Configurare le offerte]** dalla schermata delivery content edition.
+1. Fai clic su **[!UICONTROL Configura le offerte]** dalla schermata di modifica del contenuto della consegna.
 
    ![](assets/setup-offers.png)
 
 1. Configura le offerte da proporre ai destinatari.
 
-   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nel [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}
+   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio dell’offerta nella [documentazione di Campaign v8 (client console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}
 
    ![](assets/create-content-offers.png)
 
@@ -103,7 +103,7 @@ Per inserire un’offerta utilizzando l’editor di espressioni, effettua le seg
 
    >[!NOTE]
    >
-   >Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte. Per ulteriori informazioni, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=it){target="_blank"}.
 
 1. Salva le modifiche.
 

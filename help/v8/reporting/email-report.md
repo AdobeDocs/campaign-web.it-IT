@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
 workflow-type: tm+mt
 source-wordcount: '2205'
-ht-degree: 50%
+ht-degree: 70%
 
 ---
 
@@ -18,8 +18,8 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
->title="Invio rapporti"
->abstract="lui **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+>title="Invio reportistica"
+>abstract="La scheda **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 ### Popolazione target iniziale {#email-delivery-targeted-population}
 
@@ -106,8 +106,8 @@ Il **[!UICONTROL Cause di esclusione]** il grafico e la tabella mostrano il ragg
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Widget velocità effettiva di consegna"
->abstract="Il **Velocità effettiva di consegna** Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un determinato arco temporale."
+>title="Widget Velocità di consegna"
+>abstract="Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico."
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
@@ -118,10 +118,10 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget statistiche di trasmissione"
+>title="Widget Statistiche di trasmissione"
 >abstract="Il **Statistiche di trasmissione** Il report contiene i dati disponibili per i possibili errori riscontrati con ciascun dominio."
 
-Il **[!UICONTROL Statistiche di trasmissione]** La tabella contiene i dati disponibili per i possibili errori rilevati in ciascun dominio. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponibili per i possibili errori rilevati in ciascun dominio. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
@@ -131,9 +131,9 @@ Il **[!UICONTROL Statistiche di trasmissione]** La tabella contiene i dati dispo
 
 * **[!UICONTROL Consegnato]**: percentuale del numero di messaggi elaborati correttamente rispetto al numero totale di messaggi elaborati.
 
-* **[!UICONTROL Mancato recapito permanente]**: percentuale del numero di mancati recapiti &quot;permanenti&quot;, errori permanenti, ad esempio un indirizzo e-mail errato, rispetto al numero totale di messaggi elaborati.
+* **[!UICONTROL Mancati recapiti permanenti]**: percentuale del numero di mancati recapiti permanenti, ossia errori permanenti, ad esempio per indirizzo e-mail errato, rispetto al numero totale di messaggi elaborati.
 
-* **[!UICONTROL Mancati recapiti non permanenti]**: percentuale del numero di mancati recapiti &quot;non permanenti&quot;, errori temporanei come una casella in entrata completa, rispetto al numero totale di messaggi elaborati
+* **[!UICONTROL Mancati recapiti non permanenti]**: percentuale del numero di mancati recapiti non permanenti, ossia errori temporanei, ad esempio una casella in entrata piena, rispetto al numero totale di messaggi elaborati
 
 * **[!UICONTROL Aperture]**: percentuale del numero di destinatari che hanno aperto un messaggio almeno una volta rispetto al numero di messaggi elaborati correttamente.
 
@@ -144,16 +144,16 @@ Il **[!UICONTROL Statistiche di trasmissione]** La tabella contiene i dati dispo
 
 ## Non consegnabili {#non-deliverables-email}
 
-### Raggruppamento degli errori per tipo {#email-delivery-breakdown-type}
+###  Raggruppamento degli errori per tipo {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title="Raggruppamento degli errori per tipo"
+>title=" Raggruppamento degli errori per tipo"
 >abstract="Il **Raggruppamento degli errori per tipo** la tabella e il grafico contengono i dati disponibili per ogni tipo di errore rilevato: utente sconosciuto, cassetta postale piena, dominio non valido e altro ancora."
 
 Il **[!UICONTROL Raggruppamento degli errori per tipo]** tabella e grafico contengono i dati disponibili per il tipo di errore. Le metriche sono descritte di seguito.
 
-Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
+Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
 ![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
 
@@ -176,12 +176,12 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 +++
 
 
-### Raggruppamento degli errori per dominio {#email-delivery-breakdown-domain}
+###  Raggruppamento degli errori per dominio {#email-delivery-breakdown-domain}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
->title="Raggruppamento degli errori per dominio"
+>title=" Raggruppamento degli errori per dominio"
 >abstract="Il **Raggruppamento degli errori per dominio** nella tabella e nel grafico vengono visualizzati i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
 
 
@@ -200,12 +200,12 @@ Le metriche disponibili sono le stesse della [Suddivisione degli errori per tipo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Tracciamento reportistica"
->abstract="Il **Tracciamento** All’interno del rapporto sono disponibili dati importanti, tra cui il comportamento del destinatario per collegamento, la suddivisione di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
+>abstract="La scheda **Tracciamento** all’interno del rapporto rende disponibili dati importanti, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL cliccati più frequentemente durante una consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget della tariffa di apertura e click-through"
->abstract="Il **Percentuale di apertura e click-through** Nella tabella vengono visualizzati i dati relativi al coinvolgimento dei destinatari nella consegna."
+>title="Widget percentuale di apertura e click-through"
+>abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
 
 ### Statistiche consegna  {#email-tracking-delivery-stats}
 
@@ -235,7 +235,7 @@ Il **[!UICONTROL Statistiche consegna]** Il rapporto fornisce indicatori di pres
 * **[!UICONTROL Stima degli inoltri]**: stima del numero di e-mail inoltrate dai destinatari target.
 +++
 
-### Tasso di apertura e click-through {#email-tracking-click-through}
+###  percentuale di apertura e click-through {#email-tracking-click-through}
 
 Il **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
@@ -297,8 +297,8 @@ Il **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengon
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Widget attività utente"
->abstract="Il **Attività degli utenti** grafico mostra la suddivisione di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti."
+>title="Widget attività degli utenti"
+>abstract="Il grafico **Attività degli utenti** mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti."
 
 Il **[!UICONTROL Attività degli utenti]** Il rapporto mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti.
 
@@ -317,9 +317,9 @@ Il **[!UICONTROL Attività degli utenti]** Il rapporto mostra il raggruppamento 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Widget statistiche di tracciamento"
->abstract="Il **Statistiche di tracciamento** Il grafico fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati."
+>abstract="Il grafico **Statistiche di tracciamento** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati."
 
-Il **[!UICONTROL Statistiche di tracciamento]** Il grafico fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
+Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
 
 ![](assets/reporting_email_11.png){align="center"}
 
@@ -353,7 +353,7 @@ Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statis
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="Raggruppamento per sistema operativo"
->abstract="Il **Raggruppamento per sistema operativo** Il rapporto mostra il raggruppamento degli annunci aperti per sistema operativo per il periodo in questione. Il primo grafico mostra le statistiche relative alle aperture su un computer e su dispositivi mobili. Il secondo visualizza il numero esatto e la percentuale per ciascun sistema operativo."
+>abstract="Il **Raggruppamento per sistema operativo** Il rapporto mostra il raggruppamento degli annunci aperti per sistema operativo per il periodo in questione. Il primo grafico visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza il numero esatto e la percentuale per ciascun sistema operativo."
 
 Il **Raggruppamento per sistema operativo** Il rapporto mostra il raggruppamento delle aperture per sistema operativo per il periodo: sistemi Windows, sistemi Android, sistemi iOS o altri.
 
@@ -366,7 +366,7 @@ Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statis
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Raggruppamento per browser"
->abstract="Il **Raggruppamento per browser** mostra il raggruppamento delle aperture per browser per il periodo. Il primo grafico mostra le statistiche relative alle aperture su un computer e su dispositivi mobili. La seconda mostra il numero esatto e la percentuale per ciascun browser."
+>abstract="Il **Raggruppamento per browser** mostra il raggruppamento delle aperture per browser per il periodo. Il primo grafico visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. La seconda mostra il numero esatto e la percentuale per ciascun browser."
 
 Il **Raggruppamento per browser** Il rapporto mostra il raggruppamento delle aperture per browser: Chrome, Safari, Internet Explorer e altro ancora.
 
@@ -375,13 +375,13 @@ Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statis
 ![](assets/reporting_email_13.2.png){align="center"}
 
 
-## Hot click {#hotclicks}
+## Hotclicks {#hotclicks}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
->title="Rapporto Clic rapidi"
->abstract="Il **Hotclick** Il rapporto presenta il contenuto dell’e-mail (HTML e/o testo) con, su ogni collegamento, la percentuale di clic sui collegamenti. I blocchi di personalizzazione, i collegamenti di annullamento dell’abbonamento, i collegamenti di pagina mirror e i collegamenti alle offerte vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto."
+>title="Rapporto sugli Hotclicks"
+>abstract="Il rapporto sugli **Hotclicks** mostra il contenuto dell’e-mail (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti per annullare l’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono mostrati nel rapporto."
 
-Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti di annullamento dell’abbonamento, i collegamenti di pagina mirror e i collegamenti alle offerte vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto.
+Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti per annullare l’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono mostrati nel rapporto.
 
 ![](assets/reporting11.png)

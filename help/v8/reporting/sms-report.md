@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 16%
+ht-degree: 66%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Panoramica della consegna SMS"
->abstract="Il **Panoramica della consegna SMS** offre una panoramica completa della consegna di SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
+>abstract="La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
->title="Invio rapporti"
->abstract="Il **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
+>title="Invio reportistica"
+>abstract="La scheda **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
-Il **Panoramica della consegna SMS** offre una panoramica completa della consegna di SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna.
+La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
 ## Riepilogo delle consegne {#delivery-summary}
 
@@ -36,7 +36,7 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 
 * **[!UICONTROL Totale inviato]**: percentuale e numero totale di messaggi elaborati durante la preparazione della consegna.
 
-* **[!UICONTROL Completato]**: percentuale e numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Completato]**: percentuale e numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Percentuale di click-through]**: percentuale e numero di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
 
@@ -81,7 +81,7 @@ Il **Statistiche generali** Il report presenta i dati per i messaggi SMS inviati
 
 * **[!UICONTROL Completato]**: numero e percentuale di messaggi elaborati correttamente.
 
-* **[!UICONTROL Errori]**: numero totale e percentuale di errori che si sono verificati durante la consegna e che impediscono l’invio dei messaggi a determinati profili.
+* **[!UICONTROL Errori]**: numero totale e percentuale di errori che si sono verificati durante la consegna e che hanno impedito l’invio dei messaggi a determinati profili.
 
 * **[!UICONTROL Nuova quarantena]**: numero e percentuale di profili esclusi e aggiunti alla quarantena.
 +++
@@ -103,8 +103,8 @@ Il **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i motivi che han
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menu della velocità effettiva di consegna"
->abstract="Il rapporto Velocità effettiva di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specificato."
+>title="Menu della velocità di consegna"
+>abstract="Il rapporto Velocità di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico."
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 

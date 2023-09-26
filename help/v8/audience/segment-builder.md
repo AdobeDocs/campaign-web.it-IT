@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 66%
+ht-degree: 75%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Pubblico di destinazione"
->abstract="Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Sfrutta il pubblico di Adobe Experience Platform per perfezionare ulteriormente il pubblico di destinazione e massimizzare l’impatto della campagna."
+>title="Tipi di pubblico di destinazione"
+>abstract="Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Sfrutta il pubblico di Adobe Experience Platform per affinare ulteriormente la definizione del tuo pubblico target e massimizzare l’impatto della campagna."
 
 Il generatore di regole ti consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando **[!UICONTROL Creare un pubblico]** attività o direttamente durante la creazione di una consegna per creare un pubblico una tantum.
 
@@ -59,7 +59,7 @@ Sul lato destro, il **Proprietà delle regole** consente di eseguire le azioni e
 
   >[!IMPORTANT]
   >
-  >In tale versione del prodotto, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente di. Puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >In tale versione del prodotto, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente di. Tuttavia, puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **Attributi**: visualizza una descrizione del pubblico creato.
 
