@@ -4,10 +4,10 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 82%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 100%
 >title="Modalità anteprima"
 >abstract="Visualizza l’anteprima e verifica il messaggio includendo la popolazione di test nel target principale."
 
-**[!UICONTROL Adobe Campaign]** consente di testare un messaggio prima di inviarlo al pubblico principale.
+Una volta definito il contenuto del messaggio, puoi visualizzarlo in anteprima e testarlo inviando le consegne di prova (ovvero &quot;bozze&quot;) per testare i profili. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
 
-L’invio di consegne di test (precedentemente note come “bozze”) è un passaggio importante nella convalida della campagna e utile per individuare potenziali problemi.
-
-I destinatari di un test possono controllare vari elementi come collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
+Per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia messaggi di test ai profili di test prima di inviarli al pubblico di destinazione. Per convalidare il contenuto più recente, a ogni modifica deve essere inviato un messaggio di prova. L’invio di consegne di test (precedentemente note come “bozze”) è un passaggio importante nella convalida della campagna e utile per individuare potenziali problemi. I destinatari di un messaggio di prova possono controllare vari elementi, ad esempio collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
 
 ## Selezionare i destinatari del test {#test-recipients}
 
@@ -58,6 +56,10 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 >title="File modello"
 >abstract="La formattazione del file deve essere uguale a quella del file originale.<br/>Formati di file supportati: txt, csv. Dimensione massima del file: 15 MB. Utilizza la prima riga come intestazione di colonna."
 
+
+I profili di test sono indirizzi di seed, che sono destinatari aggiuntivi nel database. Possono essere create in [!DNL Adobe Campaign] della console client in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Di seguito sono riportati i passaggi per inviare messaggi di test agli indirizzi di seed.
+
+
 1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
 1. Fai clic sul pulsante **[!UICONTROL Test]**
@@ -84,7 +86,7 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 ### Profili di sostituzione {#substitution-profiles}
 
-Per inviare un’e-mail o un SMS di test a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente del database [!DNL Campaign], utilizza profili di sostituzione.
+Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente di [!DNL Adobe Campaign] utilizzare profili di sostituzione, come descritto di seguito:
 
 1. Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-recipients.md)
 
@@ -120,7 +122,7 @@ Per inviare un’e-mail o un SMS di test a un indirizzo e-mail o a un numero di 
 
 ### Abbonati {#subscribers}
 
-Quando si utilizzano le notifiche push, le consegne di test possono essere inviate solo agli abbonati. Per selezionarli, segui i passaggi seguenti.
+Quando si lavora con le notifiche push, le consegne di test possono essere inviate solo agli abbonati all’app. Per selezionarli, segui i passaggi seguenti.
 
 1. Passa alla schermata di modifica del contenuto della consegna, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
