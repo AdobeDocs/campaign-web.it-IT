@@ -43,8 +43,8 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="Destinazione della bozza"
->abstract="Puoi caricare un secondo file come “destinazione della bozza”, se desideri testare la consegna prima di inviarla al target principale."
+>title="Target della bozza"
+>abstract="Puoi caricare un secondo file come “target della bozza”, se desideri testare la consegna prima di inviarla al target principale."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
