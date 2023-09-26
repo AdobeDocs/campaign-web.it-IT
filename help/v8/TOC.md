@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 82%
    + [Introduzione](get-started/get-started.md)
    + [Scopri l’interfaccia](get-started/user-interface.md)
    + [Sfogliare, cercare e filtrare gli elenchi](get-started/list-filters.md)
-   + [Utilizzare filtri predefiniti](get-started/predefined-filters.md)
+   + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Accesso e autorizzazioni](get-started/permissions.md)
-   + [Guardrail e limitazioni](get-started/guardrails.md)
+   + [Protezioni e limitazioni](get-started/guardrails.md)
    + [Funzionalità non supportate](get-started/unsupported.md)
-   + [Trova aiuto e guida](get-started/using-ai.md)
+   + [Trova guida e assistenza](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
    + [Utilizzare i modelli di consegna](msg/delivery-template.md)
@@ -46,11 +46,11 @@ ht-degree: 82%
             + [Aggiungere un collegamento alla pagina mirror](content/mirror-page.md)
             + [Aggiungere una preintestazione](content/preheader.md)
             + [Generare la versione del testo](content/text-version-email.md)
-         + Assistente contenuti {#content-assistant}
-            + [Introduzione all’assistente contenuti](content/generative-gs.md)
-            + [Generazione di testo con l’assistente contenuto](content/generative-content.md)
-            + [Generazione di immagini con l’assistente contenuto](content/generative-image.md)
-            + [Generazione di e-mail con l’assistente al contenuto](content/generative-email.md)
+         + Assistente ai contenuti {#content-assistant}
+            + [Introduzione all’assistente ai contenuti](content/generative-gs.md)
+            + [Generazione di testo con l’assistente ai contenuti](content/generative-content.md)
+            + [Generazione di immagini con l’assistente ai contenuti](content/generative-image.md)
+            + [Generazione di e-mail con l’assistente ai contenuti](content/generative-email.md)
          + Personalizzare lo stile del contenuto {#style}
             + [Introduzione allo stile dell’e-mail](content/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](content/backgrounds.md)
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [Inviare consegne di test](preview-test/test-deliveries.md)
       + [Rendering dell’e-mail](preview-test/email-rendering.md)
 + Tipi di pubblico e destinatari {#audiences}
-   + [Utilizzare destinatari e pubblico](audience/about-recipients.md)
+   + [Utilizzare destinatari e tipi di pubblico](audience/about-recipients.md)
    + [Creare tipi di pubblico](audience/create-audience.md)
    + Selezionare i destinatari della consegna {#target-audiences}
       + [Selezionare un pubblico esistente](audience/add-audience.md)
@@ -95,7 +95,7 @@ ht-degree: 82%
    + [Monitorare e gestire i tipi di pubblico](audience/manage-audience.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
       + [Gestire i servizi](audience/manage-services.md)
-      + [Gestisci abbonati](audience/manage-subscribers.md)
+      + [Gestire gli abbonati](audience/manage-subscribers.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
    + [Accedere alle campagne e gestirle](campaigns/manage-campaigns.md)
@@ -120,7 +120,7 @@ ht-degree: 82%
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Fork](workflows/activities/fork.md)
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
-      + [Attività Scheduler](workflows/activities/scheduler.md)
+      + [Modulo di pianificazione](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
       + [Attendi](workflows/activities/wait.md)
 + Generazione rapporti {#reports}

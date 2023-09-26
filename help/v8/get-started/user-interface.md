@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 71%
 >title="Scopri l’interfaccia"
 >abstract="La nuova interfaccia di Campaign Web v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
-La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni Adobe Experience Cloud.
+La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni di Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -28,7 +28,7 @@ La nuova interfaccia di Campaign Web v8 offre un’esperienza utente moderna e i
 
 ## Menu di navigazione a sinistra {#user-interface-left-nav}
 
-Sfoglia i collegamenti a sinistra per accedere alle funzionalità di Campaign Web v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni che ti servono. Consulta questa [sezione](#list-screens). Alcune schermate elenco sono di sola lettura. Gli elementi visualizzati nel menu di navigazione a sinistra e negli elenchi dipendono dalle autorizzazioni utente. Ulteriori informazioni sulle autorizzazioni in [questa sezione](permissions.md).
+Sfoglia i collegamenti a sinistra per accedere alle funzionalità di Campaign Web v8. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni che ti servono. Consulta questa [sezione](#list-screens). Alcune schermate di elenco sono di sola lettura. Gli elementi visualizzati nel menu di navigazione a sinistra e negli elenchi dipendono dalle autorizzazioni utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
 
 ![](assets/home.png)
 
@@ -38,7 +38,7 @@ Questa schermata include collegamenti chiave e risorse che permettono di acceder
 
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica.
 
-Gli **Indicatori chiave di performance** consentono di verificare l’efficacia della piattaforma tramite KPI comuni. Ulteriori informazioni su questi KPI in [questa pagina](../reporting/kpis.md).
+Gli **Indicatori chiave di performance** consentono di verificare l’efficacia della piattaforma tramite KPI comuni. Ulteriori informazioni su questi KPI sono disponibili in [questa pagina](../reporting/kpis.md).
 
 Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezione **Apprendimento** della pagina home.
 
@@ -51,7 +51,7 @@ Puoi accedere alle principali pagine della guida di Campaign Web v8 dalla sezion
 
 Il menu **Explorer** mostra tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presenti nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne.
 
-Gli elementi visualizzati nel **Esplora** dipende dalle autorizzazioni utente. Se si dispone dei diritti appropriati, è inoltre possibile aggiungere cartelle e sottocartelle. Ulteriori informazioni sulle autorizzazioni in [questa sezione](permissions.md).
+Gli elementi visualizzati in **Explorer** dipendono dalle autorizzazioni utente. Se disponi dei diritti appropriati, è possibile inoltre aggiungere cartelle e sottocartelle. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
 
 Come in tutte le schermate di elenchi, puoi configurare le colonne per visualizzare le informazioni che ti servono. Consulta questa [sezione](#list-screens).
 
@@ -74,10 +74,10 @@ Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, co
 
 ### Gestione clienti {#user-interface-customer-management}
 
-Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e iscrizioni Questi elenchi sono di sola lettura.
+Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e iscrizioni. Questi elenchi sono di sola lettura.
 
-* **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Ulteriori informazioni sui destinatari in [questa sezione](../audience/about-recipients.md).
-* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Ulteriori informazioni su tipi di pubblico ed elenchi in [questa sezione](../audience/about-recipients.md).
+* **Destinatari**: accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Per ulteriori informazioni sui destinatari, consulta [questa sezione](../audience/about-recipients.md).
+* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Per ulteriori informazioni sui tipi di pubblico e gli elenchi, consulta [questa sezione](../audience/about-recipients.md).
 * **Iscrizioni**: sfoglia gli elenchi delle iscrizioni. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire le iscrizioni e il relativo annullamento nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=it){target="_blank"}.
 
 ### Gestione delle decisioni {#decision-management}
@@ -85,20 +85,20 @@ Nella sezione GESTIONE CLIENTI puoi visualizzare destinatari, tipi di pubblico e
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Offerte"
->abstract="Sfoglia gli elenchi delle offerte e dei modelli di offerta creati nella console utilizzando **Interazione** modulo. Questi elenchi sono di sola lettura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aggiungere offerte a una consegna"
+>abstract="Sfoglia gli elenchi di offerte e modelli di offerta creati nella console utilizzando il modulo **Interazione**. Questi elenchi sono di sola lettura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=it" text="Aggiungere offerte a una consegna"
 
 Nella sezione GESTIONE DELLE DECISIONI, puoi visualizzare le offerte e i modelli di offerta. Questi elenchi sono di sola lettura.
 
-* **Offerte** : sfoglia l’elenco delle offerte e dei modelli di offerta creati nella console utilizzando **Interazione** modulo. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta.
+* **Offerte**: sfoglia l’elenco delle offerte e i modelli di offerta creati nella console utilizzando il modulo **Interazione**. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta.
 
-Scopri come creare e inviare offerte tramite e-mail e SMS in [questa sezione](../content/offers.md).
+Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa sezione](../content/offers.md).
 
 ## Barra superiore {#top-bar}
 
 Utilizza la barra superiore dell’interfaccia per:
 
-* condividere il tuo feedback come Beta Tester
+* condividere il tuo feedback come tester della versione beta
 * Passare a un’altra organizzazione e ad altre istanze
 * Passare a un’altra applicazione Adobe Experience Cloud
 * Accedere alle pagine della guida, contattare il supporto e inviare feedback. Puoi usare il campo di ricerca per cercare un argomento negli articoli e video della guida.
@@ -109,7 +109,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-## Aiuto contestuale {#user-interface-help}
+## Guida contestuale {#user-interface-help}
 
 Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
 
@@ -117,7 +117,7 @@ Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, 
 
 Con la nuova versione beta, il **Knowledge Assistant con tecnologia AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
 
-Grazie alle funzionalità di Campaign Gen AI, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
 
 Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
 
@@ -141,7 +141,7 @@ Al momento, Campaign v8 Web è disponibile nelle seguenti lingue:
 * Cinese tradizionale - CHT
 
 
-La lingua predefinita per Campaign Web è determinata dalla lingua preferita specificata nel profilo utente. Non si riferisce alla lingua del server Campaign e della console client.
+La lingua predefinita di Campaign Web è determinata dalla lingua preferita specificata nel profilo utente. Non si riferisce alla lingua del server Campaign e né della console client.
 
 Per cambiare la lingua:
 
@@ -151,7 +151,7 @@ Per cambiare la lingua:
 
 ## Tema scuro {#dark-theme}
 
-Puoi passare al tema scuro dall’icona del tuo profilo. Utilizza il **Tema scuro** per attivarlo o disattivarlo.
+Puoi passare al tema scuro dall’icona del tuo profilo. Utilizza l’opzione **Tema scuro** per attivarlo o disattivarlo.
 
 ## Ulteriori informazioni {#learn-more}
 
@@ -186,12 +186,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Invio di rapporti globali"
->abstract="In questa schermata sono visibili le metriche di reporting di tracciamento"
+>abstract="In questa schermata sono visibili le metriche di tracciamento della generazione di rapporti"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
->title="Tracciamento globale dei rapporti"
->abstract="In questa schermata sono visibili le metriche di reporting di tracciamento"
+>title="Tracciamento dei rapporti globale"
+>abstract="In questa schermata sono visibili le metriche di tracciamento della generazione di rapporti"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
