@@ -5,9 +5,9 @@ description: Scopri come utilizzare le consegne e inviare messaggi con Campaign 
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Consegne"
->abstract="Una consegna è una comunicazione inviata a un pubblico su un canale specifico: e-mail, SMS o push. In questa schermata puoi modificare, duplicare ed eliminare le consegne esistenti. Puoi anche visualizzare i rapporti per le consegne completate. Fai clic su **Creare una consegna** per aggiungere una nuova consegna."
+>abstract="Una consegna è una comunicazione inviata a un pubblico su un canale specifico: e-mail, SMS o Push. In questa schermata puoi modificare, duplicare ed eliminare le consegne esistenti. Puoi visualizzare anche i rapporti delle consegne completate. Fai clic sul pulsante **Crea consegna** per aggiungere una nuova consegna."
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati.
 
-Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere autonome o incluse nei flussi di lavoro, nel contesto di una campagna di marketing.
+Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere indipendenti o incluse in flussi di lavoro nel contesto di una campagna di marketing.
 
 Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e app mobili.
 
@@ -58,7 +58,7 @@ Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e
 
 ## Creare una consegna {#create-delivery}
 
-Puoi creare consegne autonome dalla **[!UICONTROL Consegne]** menu a sinistra o creare consegne nel contesto di un flusso di lavoro, incluso o meno in una campagna.
+Puoi creare consegne autonome dal menu a sinistra **[!UICONTROL Consegne]**, oppure nel contesto di un flusso di lavoro, incluso o meno in una campagna.
 
 Sfoglia le schede seguenti per scoprire come creare una consegna:
 
@@ -80,7 +80,7 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 
 1. Definisci il pubblico della consegna per il target principale e il gruppo di controllo. Per ulteriori informazioni sui tipi di pubblico, consulta [questa sezione](../audience/about-recipients.md).
 1. Definisci il contenuto del messaggio.
-1. (facoltativo) Definire la consegna [pianificazione](#gs-schedule). Se non è definita alcuna pianificazione, i messaggi vengono inviati immediatamente dopo aver fatto clic sul pulsante **[!UICONTROL Invia]**.
+1. (facoltativo) Definisci la [pianificazione](#gs-schedule) della consegna. Se non è definita alcuna pianificazione, i messaggi vengono inviati immediatamente dopo aver fatto clic sul pulsante **[!UICONTROL Invia]**.
 1. Fai clic sul pulsante **[!UICONTROL Rivedi e invia]** per verificare le impostazioni.
 1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per verificare la consegna e le impostazioni di personalizzazione. Per ulteriori informazioni sulla simulazione di messaggi, consulta [questa sezione](../preview-test/preview-test.md).
 1. Fai clic sul pulsante **[!UICONTROL Prepara]** per calcolare la popolazione target e generare i messaggi. La fase di preparazione può richiedere alcuni minuti. Una volta completata la preparazione, i messaggi sono pronti per l’invio. In caso di errore, passa a **Registri** per controllare avvisi e avvertenze.
@@ -89,9 +89,9 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 
 >[!TAB Creare una consegna in un flusso di lavoro]
 
-Per creare una consegna in un flusso di lavoro, effettua le seguenti operazioni:
+Per creare una consegna in un flusso di lavoro, segui questi passaggi:
 
-1. Crea un flusso di lavoro o apri un flusso di lavoro esistente. Ulteriori informazioni sui flussi di lavoro in [questa pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Crea un flusso di lavoro o apri un flusso di lavoro esistente. Ulteriori informazioni sui flussi di lavoro sono disponibili in [questa pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Aggiungi e configura un’attività di **[!UICONTROL Creazione del pubblico]** e fai clic sul pulsante `+`.
 
    ![](assets/add-delivery-in-wf.png)
@@ -144,18 +144,18 @@ Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Impostare una data e un&#39;ora di contatto"
->abstract="Definisci la data e l’ora esatta per l’invio della consegna. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura."
+>title="Imposta una data e un’ora di contatto"
+>abstract="Definisci la data e l’ora esatta dell’invio della consegna. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi ottimizzare le percentuali di apertura."
 
-Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi massimizzare i tassi apertura.
+Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi ottimizzare le percentuali di apertura.
 
-Per pianificare l’invio della consegna, apri la consegna e passa alla **[!UICONTROL Pianificazione]** sezione. Utilizza il **[!UICONTROL Abilita pianificazione]** attiva per attivarlo e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
+Per pianificare l’invio dell’e-mail, apri la consegna e passa alla sezione **[!UICONTROL Pianificazione]**. Utilizza l’interruttore **[!UICONTROL Abilita pianificazione]** per attivarla e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
 
 ![](assets/schedule.png)
 
-Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che la consegna venga inviata alla data e all’ora pianificate. Se devi inviare la consegna automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
+Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che la consegna venga inviata alla data e all’ora pianificate. Se desideri inviare la consegna automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
 
-Scopri come inviare una consegna pianificata in [questa sezione](../monitor/prepare-send.md#schedule-the-send).
+Scopri i passaggi su come inviare una consegna pianificata in [questa sezione](../monitor/prepare-send.md#schedule-the-send).
 
 ## Registri di monitoraggio e di tracciamento {#gs-tracking-logs}
 

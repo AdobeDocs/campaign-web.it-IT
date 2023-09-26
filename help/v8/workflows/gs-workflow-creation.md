@@ -5,9 +5,9 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -36,25 +36,25 @@ Ogni flusso di lavoro contiene:
 ## Passaggi chiave per creare un flusso di lavoro {#gs-workflow-steps}
 
 
-Campagne offre due modi per creare un flusso di lavoro:
+Campaign offre due modi per creare un flusso di lavoro:
 
-1. I flussi di lavoro possono essere creati come flussi di lavoro autonomi dalla **Flussi di lavoro** menu.
+1. I flussi di lavoro possono essere creati come flussi di lavoro autonomi dal menu **Flussi di lavoro**.
 
    ![](assets/create-a-standalone-wf.png)
 
-1. I flussi di lavoro possono essere creati direttamente all’interno di una campagna, dalla **Flusso di lavoro** della campagna. Quando è incluso in una campagna, il flusso di lavoro viene eseguito insieme a tutti gli altri flussi di lavoro della campagna e le metriche di reporting sono tutte raggruppate a livello di campagna.
+1. I flussi di lavoro possono essere creati direttamente all’interno di una campagna, dalla scheda **Flusso di lavoro** della campagna. Quando è incluso in una campagna, il flusso di lavoro viene eseguito insieme a tutti gli altri flussi di lavoro della campagna e le metriche di reporting sono tutte raggruppate a livello di campagna.
 
    ![](assets/create-a-wf-from-a-campaign.png)
 
 
-I passaggi chiave per creare flussi di lavoro sono i seguenti:
+I passaggi chiave per creare i flussi di lavoro sono i seguenti:
 
 ![](assets/workflow-creation-process.png)
 
 Questi passaggi sono descritti nella sezione seguente:
 
 1. [Creare il flusso di lavoro e definirne le proprietà](create-workflow.md)
-1. [Organizzazione e configurazione delle attività](orchestrate-activities.md)
+1. [Orchestrare e configurare le attività](orchestrate-activities.md)
 1. [Configurare le impostazioni avanzate del flusso di lavoro](workflow-settings.md)
-1. [Avvia il flusso di lavoro e monitorane l’esecuzione](start-monitor-workflows.md)
+1. [Avviare il flusso di lavoro e monitorarne l’esecuzione](start-monitor-workflows.md)
 

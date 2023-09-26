@@ -5,9 +5,9 @@ description: Scopri come iniziare a utilizzare i flussi di lavoro
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Altre attività del flusso di lavoro della campagna"
->abstract="Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi di clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le nostre attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e migliorare le prestazioni della campagna."
+>title="Ulteriori attività del flusso di lavoro della campagna"
+>abstract="Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e stimolare migliori prestazioni della campagna."
 
 ## Che cos’è un flusso di lavoro?
 
