@@ -5,9 +5,9 @@ description: Scopri come modificare il contenuto delle e-mail nell’interfaccia
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definire il contenuto dell’e-mail"
->abstract="Il **Modifica contenuto** La schermata ti consente di definire gli elementi di base del messaggio, come l’indirizzo del mittente e la riga dell’oggetto, eseguire azioni aggiuntive, ad esempio aggiungere allegati o offerte, e accedere a E-mail Designer per dare al messaggio un aspetto elegante."
+>abstract="La schermata **Modifica contenuto** consente di definire gli elementi di base del messaggio, come l’indirizzo del mittente e la riga dell’oggetto, eseguire azioni aggiuntive, come ad esempio aggiungere allegati o offerte, e accedere a E-mail Designer per conferire al messaggio un aspetto elegante."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Impostare le proprietà e-mail"
->abstract="Il **Dettagli di base** consente di aggiornare l&#39;indirizzo del mittente e l&#39;indirizzo di risposta e di definire la riga dell&#39;oggetto utilizzando l&#39;editor espressioni."
+>title="Impostare le proprietà dell’e-mail"
+>abstract="La sezione **Dettagli di base** consente di aggiornare l’indirizzo del mittente e l’indirizzo di risposta e di definire la riga dell’oggetto utilizzando l’editor di espressioni."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Allega file all’e-mail"
+>title="Allegare file all’e-mail"
 >abstract="Seleziona uno o più file da inserire nel messaggio. Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Modifica tracciamento"
->abstract="Per impostazione predefinita, il tracciamento è abilitato per la consegna, il che significa che vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio. Puoi disattivare questa opzione da qui."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Aggiungere collegamenti e tenere traccia dei messaggi"
+>title="Modificare il tracciamento"
+>abstract="Per impostazione predefinita, quando il tracciamento è abilitato per la consegna, vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio. Puoi disattivare questa opzione da qui."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=it" text="Aggiungere collegamenti e tenere traccia dei messaggi"
 
 La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
 * Definire gli elementi di base del messaggio, ad esempio l’indirizzo del mittente e la riga dell’oggetto
@@ -69,11 +69,11 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
    >
    >È possibile modificare la parte che precede “@”, ma non l’indirizzo del dominio.
 
-1. Espandi **[!UICONTROL Campi di risposta]** sezione. Il nome e gli indirizzi del mittente vengono utilizzati per impostazione predefinita per le risposte. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
+1. Espandi la sezione **[!UICONTROL Campi Rispondi a]**. Il nome e gli indirizzi del mittente vengono utilizzati per le risposte per impostazione predefinita. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato, oppure apri l’editor espressioni per aggiungerlo [personalizzazione](../personalization/personalize.md) l’utilizzo di vari attributi e blocchi di contenuto, o offerte.
+1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato oppure apri l’editor di espressioni per aggiungere la [personalizzazione](../personalization/personalize.md) mediante vari attributi e blocchi di contenuto o offerte.
 
 1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi seleziona uno o più file.
 

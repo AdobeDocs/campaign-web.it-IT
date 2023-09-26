@@ -5,9 +5,9 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ Nei flussi di lavoro, i dati trasportati da un’attività all’altra tramite t
 
 Questi dati possono essere visualizzati per ogni transizione. A questo scopo, seleziona una transizione per aprirne le proprietà sul lato destro dello schermo.
 
-* Clic **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
-* Clic **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata.
+* Fai clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
+* Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata.
 
 ![](assets/transition.png)
 
@@ -44,7 +44,7 @@ Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di at
 |-----|------------|
 | ![](assets/activity-status-pending.png){width="70%"} | L’attività è attualmente in esecuzione. |
 | ![](assets/activity-status-orange.png){width="70%"} | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
-| ![](assets/activity-status-red.png){width="70%"} | L’attività ha riscontrato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
+| ![](assets/activity-status-red.png){width="70%"} | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
 | ![](assets/activity-status-green.png){width="70%"} | L’attività è stata eseguita correttamente. |
 
 ## Monitorare i registri e le attività {#logs-tasks}

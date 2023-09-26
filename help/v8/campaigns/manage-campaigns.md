@@ -4,9 +4,9 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -68,20 +68,20 @@ Puoi duplicare o eliminare una campagna:
 >
 >La scheda **Consegne** mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, è necessario eliminare l’attività di consegna dal flusso di lavoro stesso. [Ulteriori informazioni](../msg/gs-messages.md#delivery-delete).
 
-## Utilizzare i modelli di campagna{#manage-campaign-templates}
+## Utilizzare i modelli per campagne{#manage-campaign-templates}
 
-I modelli di campagna contengono impostazioni preconfigurate che possono essere riutilizzate per creare nuove campagne. Per iniziare, è disponibile un set di modelli incorporati. Puoi creare e configurare i modelli della campagna e quindi creare campagne a partire da questi modelli.
+I modelli per campagne contengono impostazioni preconfigurate che possono essere riutilizzate per creare nuove campagne. Per iniziare, è disponibile un set di modelli incorporati. Puoi creare e configurare i modelli per campagne e quindi creare campagne a partire da questi modelli.
 
-Un modello di campagna può memorizzare le seguenti informazioni:
+In un modello per campagne è possibile memorizzare le seguenti informazioni:
 
-* della campagna **Proprietà** e **Pianificazione** impostazioni
-* modelli di workflow
-* modelli di consegna
+* Impostazioni **Proprietà** e **Pianificazione** della campagna
+* Modelli di flusso di lavoro
+* Modelli di consegna
 
-Per creare un modello di campagna, effettua le seguenti operazioni:
+Per creare un modello per campagne, segui la procedura seguente:
 
-1. Fai clic su **[!UICONTROL Campagne]** , passare al menu **Modelli** , quindi fare clic sulla scheda **[!UICONTROL Crea modello]** pulsante.
-1. Seleziona la **Modello** da utilizzare. Questo consente di basare il nuovo modello su un modello creato in precedenza.
+1. Fai clic sul menu **[!UICONTROL Campagne]** , passa alla scheda **Modelli**, quindi fai clic sul pulsante **[!UICONTROL Crea modello]**.
+1. Seleziona il **Modello** da utilizzare. Questo consente di basare il nuovo modello su un modello creato in precedenza.
 1. Fornisci un’etichetta per il modello.
 1. Se necessario, è possibile modificare le seguenti **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
 1. Definisci la **Pianificazione** della campagna. Scopri come impostare la pianificazione della campagna in [questa sezione](create-campaigns.md#campaign-schedule)

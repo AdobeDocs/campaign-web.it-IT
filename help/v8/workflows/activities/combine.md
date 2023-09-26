@@ -4,9 +4,9 @@ title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="Combina attività"
->abstract="Il **Combina** attività ti consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni."
+>title="Attività Combina"
+>abstract="L’attività **Combina** consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne una parte o mantenere i dati comuni a più target."
 
 
-Il **Combina** l&#39;attività è un **Targeting** attività. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più target. Di seguito sono riportati i tipi di segmentazione disponibili:
+L’attività **Combina** è un’attività di **targeting**. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più target. Di seguito sono riportati i tipi di segmentazione disponibili:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -43,7 +43,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
->title="Seleziona il tipo di segmentazione"
+>title="Selezionare il tipo di segmentazione"
 >abstract="Seleziona la modalità di combinazione dei tipi di pubblico: unione, intersezione o esclusione."
 
 Per iniziare a configurare l’attività **Combina**, segui questi passaggi comuni:
@@ -66,16 +66,16 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Opzioni di riconciliazione"
->abstract="Seleziona la **Tipo di riconciliazione** per definire come gestire i duplicati."
+>abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati."
 
-In **Combina** attività, puoi configurare un **Union**. A questo scopo, seleziona la **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
+Nell’attività **Combina**, puoi configurare un’**Unione**. Per l’attività Unione, è necessario selezionare il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
 
 * **Solo chiavi**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
-* **Selezione di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
+* **Una seleziona di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
 
 ## Intersezione {#combine-intersection}
 
-In **Combina** attività, puoi configurare un’ **Intersezione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
+Nell’attività **Combina**, puoi configurare un’**Intersezione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
 1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
@@ -89,7 +89,7 @@ In **Combina** attività, puoi configurare un’ **Intersezione**. A questo scop
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
->title="Seleziona i set da combinare"
+>title="Selezionare i set da combinare"
 >abstract="Nella sezione **Set da unire**, dalle transizioni in entrata, seleziona **Set primario**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario."
 
 >[!CONTEXTUALHELP]
@@ -99,7 +99,7 @@ In **Combina** attività, puoi configurare un’ **Intersezione**. A questo scop
 
 
 
-In **Combina** attività, puoi configurare un’ **Esclusione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
+Nell’attività **Combina**, puoi configurare un’**Esclusione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Nella sezione **Set da unire**, dalle transizioni in entrata, seleziona **Set primario**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
 1. Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione.
@@ -107,7 +107,7 @@ In **Combina** attività, puoi configurare un’ **Esclusione**. A questo scopo,
 
 ## Esempi{#combine-examples}
 
-Nell’esempio seguente viene utilizzato un **Combina** e viene aggiunta una **unione** per recuperare tutti i profili delle due query: persone di età compresa tra 18 e 27 anni e persone di età compresa tra 34 e 40 anni.
+Nell’esempio seguente viene utilizzata un’attività **Combina** e viene aggiunta un’**unione** per recuperare tutti i profili delle due query: persone di età compresa tra 18 e 27 anni e persone di età compresa tra 34 e 40 anni.
 
 ![](../assets/workflow-union-example.png)
 

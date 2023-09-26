@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 89%
 >title="Modelli di consegna"
 >abstract="Utilizza i modelli di consegna per uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne"
 
-Per un processo di progettazione accelerato e migliorato, puoi creare modelli di consegna per riutilizzare facilmente contenuti e impostazioni personalizzati nelle campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
+Per un processo di progettazione più rapido e migliore, puoi creare modelli di consegna che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
 
 Un modello può includere:
 
-* [Tipologie](../advanced-settings/delivery-settings.md#typology),
-* L’indirizzo del mittente,
-* Un [pubblico](../audience/about-recipients.md), inclusi [gruppi di controllo](../audience/control-group.md),
-* Personalizzato [contenuto](../content/edit-content.md),
-* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md),
-* Collegamenti a [pagina mirror](../content/mirror-page.md) e annullamento dell’abbonamento [collegamenti](../content/message-tracking.md),
-* Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni della quarantena
+* [Tipologie](../advanced-settings/delivery-settings.md#typology)
+* L’indirizzo del mittente
+* Un [pubblico](../audience/about-recipients.md), compresi [gruppi di controllo](../audience/control-group.md)
+* [Contenuto](../content/edit-content.md) personalizzato
+* [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md)
+* Collegamenti a [pagine mirror](../content/mirror-page.md) e [collegamenti](../content/message-tracking.md) per annullare l’iscrizione
+* Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni di quarantena
 
 <!--
 >[!NOTE]
@@ -39,10 +39,10 @@ Un modello può includere:
 
 >[!NOTE]
 >
->I modelli di consegna sono diversi da [modelli di contenuto](../content/email-sample-templates.md), che ti consente di iniziare a creare i contenuti con uno dei modelli e-mail di esempio forniti come predefiniti.
+>I modelli di consegna sono diversi dai [modelli di contenuto](../content/email-sample-templates.md), che consentono di iniziare a creare i contenuti con uno dei modelli e-mail di esempio pronti all’uso.
 
 
-## Accedere e gestire i modelli di consegna {#access-manage-templates}
+## Accedere ai modelli di consegna e gestirli {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -83,7 +83,7 @@ Per creare un modello di consegna, puoi utilizzare diversi metodi:
 * Convertire una consegna esistente in un modello - [Ulteriori informazioni](#convert-an-existing-delivery)
 * Creare un modello di consegna da zero - [Ulteriori informazioni](#create-a-new-template)
 
-### Duplica un modello di consegna esistente {#copy-an-existing-template}
+### Duplicare un modello di consegna esistente {#copy-an-existing-template}
 
 Campaign include un set di modelli incorporati per ogni canale: e-mail, push e SMS. Il modo più semplice per creare un modello di consegna consiste nel duplicare e personalizzare un modello incorporato.
 
@@ -165,7 +165,7 @@ Per configurare un modello di consegna da zero, segui la procedura seguente:
    > * [Canale di notifica push](../push/gs-push.md)
    > * [Canale SMS](../sms/create-sms.md)
 
-1. Inoltre, per i modelli e-mail, è possibile accedere a impostazioni avanzate, come regole di tipologia e mappature di destinazione, tramite **[!UICONTROL Impostazioni]** in alto a destra. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+1. Inoltre, per i modelli e-mail, è possibile accedere a impostazioni avanzate, come regole di tipologia e mappature di destinazione, tramite il pulsante **[!UICONTROL Impostazioni]** in alto a destra. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Rivedi]** per salvare e rivedere il modello. Potrai sempre modificarne le impostazioni, eliminarlo e duplicarlo.
 
@@ -179,7 +179,7 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 1. Sfoglia la scheda **Modelli** a cui puoi accedere dal menu **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** e seleziona un modello. [Ulteriori informazioni](#access-manage-templates)
 
-1. Fai clic su **[!UICONTROL Simula contenuto]** in alto a destra.
+1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** in alto a destra.
 
    ![](assets/templates-simulate-button.png)
 

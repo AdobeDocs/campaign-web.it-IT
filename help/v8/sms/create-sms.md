@@ -5,9 +5,9 @@ description: Scopri come creare e inviare SMS con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 82%
 >title="Selezione modello SMS"
 >abstract="Seleziona un modello predefinito per avviare la consegna SMS."
 
-Puoi creare una consegna SMS indipendente o un SMS nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna SMS indipendente (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Puoi creare una consegna SMS autonoma o un SMS nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna SMS autonoma (singola). Se stai utilizzando il contesto del flusso di lavoro di una campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
-Per creare una nuova consegna SMS indipendente, segui questi passaggi:
+Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
 1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
@@ -63,7 +63,7 @@ Per creare una nuova consegna SMS indipendente, segui questi passaggi:
 
    Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
 
-1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Ulteriori informazioni sulla pianificazione delle consegne in [questa sezione](../msg/gs-messages.md#gs-schedule).
+1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-messages.md#gs-schedule).
 
 1. Fai clic su **[!UICONTROL Configura le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 

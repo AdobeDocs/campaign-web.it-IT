@@ -4,9 +4,9 @@ product: campaign
 title: Utilizzare i modelli e-mail
 badge: label="Beta"
 source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 

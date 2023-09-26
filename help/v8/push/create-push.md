@@ -4,9 +4,9 @@ title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 77%
 >title="Proprietà di consegna push"
 >abstract="Gestisci le proprietà di consegna push."
 
-Puoi creare una consegna di notifica push indipendente o una notifica push nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna push indipendente (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Puoi creare una consegna di notifica push autonoma o una notifica push nel contesto del flusso di lavoro di una campagna. I passaggi seguenti descrivono la procedura per una consegna push autonoma (singola). Se stai utilizzando il contesto del flusso di lavoro di una campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
-Per creare una nuova consegna push indipendente, segui questi passaggi:
+Per creare una nuova consegna push autonoma, segui questi passaggi:
 
 1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
-1. Sotto **[!UICONTROL Canale]** , scegliere **Notifica push** come canale e seleziona un modello, a seconda del sistema operativo del dispositivo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
+1. Nella sezione **[!UICONTROL Canale]**, scegli **Notifica push** come canale e seleziona un modello a seconda del sistema operativo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
@@ -66,7 +66,7 @@ Per creare una nuova consegna push indipendente, segui questi passaggi:
 
    Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
 
-1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Ulteriori informazioni sulla pianificazione delle consegne in [questa sezione](../msg/gs-messages.md#gs-schedule)
+1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione delle consegne, consulta [questa sezione](../msg/gs-messages.md#gs-schedule)
 
    ![](assets/push_create_3.png)
 

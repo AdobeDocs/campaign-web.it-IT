@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Utilizzare l’attività del flusso di lavoro Deduplicazione
-description: Scopri come utilizzare l’attività del flusso di lavoro Deduplicazione
+title: Utilizzare l’attività Deduplica nei flussi di lavoro
+description: Scopri come utilizzare l’attività Deduplica nei flussi di lavoro
 badge: label="Beta"
 source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -16,37 +16,37 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Campi per identificare i duplicati"
->abstract="In **Campi per identificare i duplicati** , fare clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi ti consente di specificare quali elaborare per primi."
+>abstract="Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
->title="Attività di deduplicazione"
->abstract="Il **Deduplicazione** attività ti consente di eliminare i duplicati nei risultati delle attività in entrata. Viene utilizzato principalmente dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati."
+>title="Attività Deduplica"
+>abstract="L’attività **Deduplica** consente di eliminare i duplicati nei risultati delle attività in entrata. Viene utilizzato principalmente dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Generare un complemento"
->abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**"
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
->title="Impostazioni di deduplicazione"
->abstract="Per eliminare i duplicati nei dati in arrivo, definisci il metodo di deduplicazione nei campi seguenti. Per impostazione predefinita, viene mantenuto un solo record. Devi anche selezionare la modalità di deduplicazione in base a un’espressione o a un attributo. Per impostazione predefinita, il record da escludere dai duplicati viene selezionato in modo casuale."
+>title="Impostazioni di deduplica"
+>abstract="Per eliminare i duplicati nei dati in arrivo, definisci il metodo di deduplica nei campi seguenti. Per impostazione predefinita, viene mantenuto un solo record. Devi anche selezionare la modalità di deduplica in base a un’espressione o a un attributo. Per impostazione predefinita, il record da escludere dai duplicati viene selezionato in modo casuale."
 
-Il **Deduplicazione** l&#39;attività è un **Targeting** attività. Questa attività ti consente di eliminare i duplicati nei risultati delle attività in entrata, ad esempio i profili duplicati nell’elenco dei destinatari. Il **Deduplicazione** L’attività viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
+L’attività **Deduplica** è un’attività di **targeting**. Questa attività consente di eliminare i duplicati nei risultati delle attività in entrata, ad esempio i profili duplicati nell’elenco dei destinatari. L’attività **Deduplica** viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
 
-## Configurare l’attività Deduplication{#deduplication-configuration}
+## Configurare l’attività Deduplica{#deduplication-configuration}
 
-Per configurare il **Deduplicazione** attività:
+Per configurare l’attività **Deduplica** segui questi passaggi:
 
 ![](../assets/workflow-deduplication.png)
 
-1. Aggiungi un **Deduplicazione** al flusso di lavoro.
+1. Aggiungi un’attività **Deduplica** al flusso di lavoro.
 
-1. In **Campi per identificare i duplicati** , fare clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi ti consente di specificare quali elaborare per primi.
+1. Nella sezione **Campi per identificare i duplicati**, fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
 
-1. Seleziona il numero di univoci **Duplicati da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
+1. Seleziona il numero di **Duplicati da mantenere** univoci. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
 
    Ad esempio, se i record A e B sono considerati duplicati del record Y e il record C è considerato un duplicato del record Z:
 
@@ -54,16 +54,16 @@ Per configurare il **Deduplicazione** attività:
    * Se il valore del campo è 0: vengono conservati tutti i record.
    * Se il valore del campo è 2: vengono conservati i record C e Z e due record tra A, B e Y, per caso o a seconda del metodo di deduplicazione selezionato successivamente.
 
-1. Seleziona la **Metodo di deduplicazione** da utilizzare:
+1. Seleziona il **Metodo di deduplica** da utilizzare:
 
    * **Selezione casuale**: seleziona in modo casuale il record da escludere dai duplicati.
-   * **Utilizzo di un’espressione**: questo ti consente di conservare i record in cui il valore dell’espressione immessa è il minore o il maggiore.
-   * **Seguendo un elenco di valori**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori.
+   * **Utilizzo di un’espressione**: questo consente di conservare i record in cui il valore dell’espressione immessa corrisponde al valore minore o maggiore.
+   * **In base a un elenco di valori**: consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori.
 
-1. Controlla la **Genera complemento** se desideri sfruttare il gruppo rimanente. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta una transizione aggiuntiva all’attività.
+1. Se desideri sfruttare il gruppo rimanente, seleziona l’opzione **Genera complemento**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
 
 ## Esempio{#deduplication-example}
 
-Nell’esempio seguente, utilizza un’attività di deduplicazione per escludere i duplicati dal target prima di inviare una consegna. I destinatari duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Scegli la **E-mail** per identificare i duplicati. Mantieni 1 voce e seleziona la **Casuale** metodo di deduplicazione.
+Nell’esempio seguente, utilizza un’attività di deduplica per escludere i duplicati dal target prima di inviare una consegna. I destinatari duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Scegli l’indirizzo **E-mail** per identificare i duplicati. Mantieni una voce e seleziona il metodo di deduplica **Casuale**.
 
 ![](../assets/workflow-deduplication-example.png)

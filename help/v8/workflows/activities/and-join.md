@@ -4,20 +4,20 @@ title: Utilizzare l’attività Unione AND nei flussi di lavoro
 description: Scopri come utilizzare l’attività Unione AND nei flussi di lavoro
 badge: label="Beta"
 source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
-# Unione AND {#join}
+# AND-join {#join}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Attività AND-join"
->abstract="L’attività **Unione AND** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivato al termine di tutte le attività precedenti. Questo ti consente di assicurarti che alcune attività siano terminate prima di continuare a eseguire il flusso di lavoro."
+>abstract="L’attività **And-join** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivata al termine di tutte le attività precedenti. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro."
 
 L’attività **Unione AND** è un’attività di **Controllo del flusso**. Consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
 
@@ -27,8 +27,8 @@ Questa attività attiva la relativa transizione in uscita solo dopo che tutte le
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Configurare l’attività AND-join"
->abstract="Seleziona le attività a cui desideri partecipare. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere."
+>title="Configurare l’attività And-join"
+>abstract="Seleziona le attività che vuoi unire. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere."
 
 Per configurare l’attività **Unione AND**, segui questi passaggi:
 

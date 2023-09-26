@@ -5,9 +5,9 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
 source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Durante l’orchestrazione delle attività del flusso di lavoro nell’area di l
 
 Queste impostazioni sono preconfigurate nel modello selezionato durante la creazione del flusso di lavoro, ma possono essere modificate in base alle esigenze per il flusso di lavoro specifico.
 
-A questo scopo, fai clic su **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
+A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
 
 ![](assets/workflow-settings.png)
 
@@ -36,12 +36,12 @@ La sezione **[!UICONTROL Proprietà]** offre impostazioni generiche accessibili 
 * **[!UICONTROL Campagna collegata]**: questo campo viene visualizzato se il flusso di lavoro è stato creato all’interno di una campagna. Ti consente di aprire la campagna associata.
 * **[!UICONTROL Fuso orario]**: definisci un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 Altri valori possibili sono:
-   * **Fuso orario del server** per utilizzare il fuso orario del server applicazioni Adobe Campaign
-   * **Fuso orario operatore** per utilizzare il fuso orario dell’operatore Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell’operatore, nella console client
-   * **Fuso orario del database** per utilizzare il fuso orario del server di database
+   * **Fuso orario del server** per utilizzare il fuso orario del server dell’applicazione Adobe Campaign
+   * **Fuso orario dell’operatore** per utilizzare il fuso orario dell’operatore di Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell’operatore, nella console client
+   * **Fuso orario del database** per utilizzare il fuso orario del server del database
    * Un fuso orario specifico
 
-* **[!UICONTROL Supervisori]**: quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato in questo campo vengono notificati tramite e-mail.
+* **[!UICONTROL Supervisori]**: quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato in questo campo ricevono una notifica tramite e-mail.
 * **[!UICONTROL Descrizione]**: utilizza questo campo per fornire una descrizione del flusso di lavoro.
 
 ## Impostazioni di segmentazione

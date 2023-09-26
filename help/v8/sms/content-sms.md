@@ -5,9 +5,9 @@ description: Scopri come progettare la consegna SMS
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

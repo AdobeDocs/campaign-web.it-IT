@@ -5,9 +5,9 @@ description: Scopri come creare campagne cross-channel con Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Proprietà di creazione della campagna"
->abstract="In questa schermata, definisci le impostazioni della campagna: seleziona un modello e immetti un’etichetta per la campagna. Individua le impostazioni aggiuntive per modificare il nome interno predefinito, la cartella, aggiungi una descrizione e seleziona l’assegnatario."
+>abstract="In questa schermata, definisci le impostazioni della campagna: seleziona un modello e immetti un’etichetta per la campagna. Passa alle impostazioni aggiuntive per modificare il nome interno predefinito, la cartella, aggiungere una descrizione e selezionare l’assegnatario."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Proprietà campagna"
->abstract="In questa schermata, puoi controllare e aggiornare le impostazioni della campagna: l’etichetta, il nome interno, la cartella e la descrizione. Puoi anche visualizzare a quale utente è assegnato."
+>abstract="In questa schermata, puoi verificare e e aggiornare le impostazioni della campagna: l’etichetta, il nome interno, la cartella e la descrizione. Puoi anche visualizzare a quale utente è assegnata."
 
-Per creare una nuova campagna, devi definirne le proprietà e pianificarne la pianificazione, includendo flussi di lavoro e consegne.
+Per creare una nuova campagna, devi definirne le proprietà, pianificarle e includere i flussi di lavoro e le consegne.
 
 ## Crea la campagna{#campaign-create}
 
@@ -55,10 +55,10 @@ Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Pianificazione della campagna"
->abstract="Seleziona la pianificazione della campagna. Puoi creare la campagna che inizia quando viene raggiunta la data di inizio. Per impostazione predefinita, la data di inizio della campagna è la data di creazione e dura 5 giorni. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro."
+>abstract="Seleziona la pianificazione della campagna. Puoi creare la campagna che viene avviata quando viene raggiunta la data di inizio. Per impostazione predefinita, la data di inizio della campagna è la data di creazione e ha una durata di 5 giorni. Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro."
 
 
-La campagna viene avviata quando viene raggiunta la data di inizio. Fino a quando la data di inizio non viene raggiunta, la campagna ha il **[!UICONTROL Bozza]** stato. Quindi, quando viene raggiunta la data di inizio, si passa a **[!UICONTROL In corso]**. Una volta raggiunta la data di fine, la campagna viene impostata su **[!UICONTROL Completato]**.
+La campagna viene avviata quando viene raggiunta la data di inizio. Fino a quando la data di inizio non viene raggiunta, la campagna ha lo stato di **[!UICONTROL Bozza]**. Quindi, quando viene raggiunta la data di inizio, lo stato passa a **[!UICONTROL In corso]**. Una volta raggiunta la data di fine, la campagna viene impostata su **[!UICONTROL Completata]**.
 
 Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
 
@@ -68,7 +68,7 @@ Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e 
 >
 >Puoi sempre modificare queste proprietà in un secondo momento, dall’icona **Configura le impostazioni della campagna** accanto all’etichetta della campagna. Consulta questa [sezione](gs-campaigns.md#campaign-dashboard).
 
-Una volta raggiunta la data, le consegne create in tale campagna nel contesto di un flusso di lavoro pronte per essere inviate vengono effettivamente inviate. A questo scopo, il flusso di lavoro deve essere stato avviato.
+Una volta raggiunta la data, le consegne create in tale campagna nel contesto di un flusso di lavoro che sono pronte per essere inviate vengono effettivamente inviate. A questo scopo, il flusso di lavoro deve essere stato avviato.
 
 
 <!--

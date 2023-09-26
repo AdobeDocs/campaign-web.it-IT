@@ -5,9 +5,9 @@ description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
 source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1170'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -155,13 +155,13 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire nell’e-mail un f
 
    ![](assets/email_designer_9.png)
 
-1. Fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse. Puoi anche scegliere di **[!UICONTROL Importa i file multimediali]**.
+1. Fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse. Puoi anche scegliere di **[!UICONTROL Importare i contenuti multimediali]**.
 
-   Per ulteriori informazioni su come caricare e aggiungere risorse negli Assets Essentials, consulta [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+   Per ulteriori informazioni su come caricare e aggiungere risorse in Assets Essentials, consulta la [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=it).
 
    ![](assets/email_designer_28.png)
 
-1. Naviga nelle cartelle per individuare la risorsa specifica necessaria oppure utilizza la barra di ricerca per trovarla in modo efficiente.
+1. Spostati all’interno delle cartelle per individuare la risorsa specifica necessaria oppure utilizza la barra di ricerca per trovarla in modo efficiente.
 
    Una volta trovata la risorsa che stai cercando, fai clic su **[!UICONTROL Seleziona]**.
 

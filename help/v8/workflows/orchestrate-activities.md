@@ -4,9 +4,9 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ Per rimuovere un’attività, selezionala nell’area di lavoro e fai clic sull�
 >
 >Hai la possibilità di personalizzare il nome delle transizioni tra ciascuna attività. A questo scopo, seleziona la transizione e modifica la relativa etichetta nel riquadro a destra.
 
-## Gestire attività {#manage}
+## Gestire le attività {#manage}
 
-Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi:
+Quando si aggiungono delle attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi eseguire le seguenti azioni:
 
 * **Elimina** l’attività dall’area di lavoro.
-* **Disattiva/Abilita** l’attività. Quando il flusso di lavoro viene eseguito, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e il flusso di lavoro viene interrotto.
-* **Copia** l’attività. Puoi quindi incollarlo in qualsiasi flusso di lavoro facendo clic sul pulsante &quot;+&quot; su una transizione e selezionando &quot;Incolla 1 attività&quot;.
-* Accedere a **Registri e attività**.
+* **Disattiva/Attiva** l’attività. Quando il flusso di lavoro viene eseguito, le attività disabilitate e le attività successive sullo stesso percorso non vengono eseguite e il flusso di lavoro viene interrotto.
+* **Copia** l’attività. Puoi quindi incollarla in qualsiasi flusso di lavoro facendo clic sul pulsante “+” su una transizione e selezionando “Incolla attività 1”.
+* Accedi a **Registri e attività**.
 * **Pausa/Riprendi** l’attività. Quando il flusso di lavoro viene eseguito, viene messo in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
 
 ![](assets/activity-action.png){width="70%"}

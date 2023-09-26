@@ -4,9 +4,9 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’app
 
   ![](assets/push_content_4.png)
 
-* Il **[!UICONTROL Messaggio di notifica]**, gestito automaticamente dall’SDK FCM. FCM mostra automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set predefinito di parametri e opzioni, ma possono ancora essere personalizzati con variabili di applicazione personalizzate.
+* Il **[!UICONTROL Messaggio di notifica]**, gestito automaticamente dall’SDK FCM. FCM mostra automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set preimpostato di parametri e opzioni, ma possono ancora essere personalizzati con variabili personalizzate dell’applicazione.
 
-  Per comporre il messaggio, fai clic su **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]** campi. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
+  Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuti dinamici.
 
   Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore.
 
@@ -59,7 +59,7 @@ Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’app
 
 >[!TAB iOS]
 
-Per comporre il messaggio, fai clic su **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]** campi. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
+Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
 
 Puoi aggiungere un **[!UICONTROL Sottotitolo]**, un valore del parametro dei sottotitoli del payload di notifica di iOS. Consulta questa sezione.
 

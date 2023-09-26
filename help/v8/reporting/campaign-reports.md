@@ -4,9 +4,9 @@ title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
 badge: label="Beta"
 source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1853'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,25 +14,25 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Reportistica sull’invio"
+>title="Invio reportistica"
 >abstract="La scheda Invio all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Tracciamento reportistica"
->abstract="La scheda Tracciamento all’interno del rapporto offre dati importanti, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL su cui si è fatto clic più frequentemente durante una consegna."
+>abstract="La scheda Tracciamento all’interno del rapporto offre dati importanti, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL cliccati più frequentemente durante una consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Panoramica della consegna"
->abstract="La Panoramica della consegna fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si interagiscono con la consegna delle e-mail."
+>abstract="La Panoramica della consegna offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiche iniziali sul pubblico target"
->abstract="La tabella delle statistiche del pubblico di destinazione iniziale mostra i dati relativi ai destinatari"
+>abstract="La tabella Statistiche iniziali sul pubblico target mostra i dati relativi ai destinatari"
 
-Il rapporto della campagna è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna.
+Il rapporto sulle campagne è suddiviso in diversi widget che descrivono il successo e gli errori di una campagna.
 
 La pagina del rapporto della campagna verrà visualizzata con le seguenti schede:
 
@@ -131,7 +131,7 @@ Per accedere al rapporto della campagna, fai clic su Rapporti nella dashboard de
 
 * Le tabelle e i grafici **[!UICONTROL Raggruppamento degli errori per tipo]** e **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili per i possibili errori riscontrati per ciascun dominio.
 
-  Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
+  Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 

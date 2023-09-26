@@ -4,9 +4,9 @@ title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,27 +16,27 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="Attività Dividi"
->abstract="Il **Dividi** L’attività ti consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a diversi criteri di selezione, ad esempio le regole di filtro o la dimensione della popolazione."
+>abstract="L’attività **Dividi** consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione."
 
 
 L’attività **Dividi** è un’attività di **Targeting** che consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione.
 
-## Configurare l’attività Split {#split-configuration}
+## Configurare l’attività Dividi {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
->title="Dividi filtro attività"
+>title="Filtro attività Dividi"
 >abstract="Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
->title="Dividi limite attività"
+>title="Limite attività Dividi"
 >abstract="Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
->title="Suddividi ordinamento attività"
+>title="Ordinamento attività Dividi"
 >abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
 
 
@@ -54,7 +54,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
    >
    > Prima di configurare i sottoinsiemi, accertati di averli aggiunti nell’ordine corretto, in quanto non è possibile modificarne la posizione.
 
-1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. È consigliabile modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro del flusso di lavoro.
+1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Si consiglia vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro del flusso di lavoro.
 
 1. Configura in che modo ogni sottoinsieme deve filtrare la popolazione in ingresso. Per farlo, segui questi passaggi:
 

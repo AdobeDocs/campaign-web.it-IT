@@ -5,9 +5,9 @@ description: Scopri come utilizzare le attività dei flussi di lavoro
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 Queste attività sono specifiche per il targeting, la gestione e l’arricchimento dei dati sulla popolazione. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
 
-* Il [Salva pubblico](save-audience.md) attività ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
+* L’attività [Salva pubblico](save-audience.md) consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
 * L’attività [Creazione del pubblico](build-audience.md) consente di definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
 * L’attività [Combina](combine.md) consente di eseguire la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
-* L’attività [Dividi](split.md) ti consente di segmentare la popolazione in ingresso in diversi sottoinsiemi.
+* L’attività [Dividi](split.md) consente di segmentare la popolazione in ingresso in diversi sottoinsiemi.
 * L’attività [Arricchimento](enrichment.md) consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
-* Il [Deduplicazione](deduplication.md) attività ti consente di eliminare i duplicati nei risultati delle attività in entrata.
-* Il [Cambia dimensione](change-dimension.md) attività ti consente di modificare la dimensione di targeting durante la creazione del flusso di lavoro.
+* L’attività [Deduplica](deduplication.md) consente di eliminare i duplicati nei risultati delle attività in entrata.
+* L’attività [Cambia dimensione](change-dimension.md) consente di modificare la dimensione targeting durante la creazione del flusso di lavoro.
 
 ## Attività di canale {#channel}
 
@@ -53,12 +53,12 @@ Consulta questa [sezione](channels.md).
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
->title="Attività fine"
+>title="Attività Fine"
 >abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
-* Il [Scheduler](scheduler.md) attività ti consente di pianificare quando viene avviato il flusso di lavoro.
+* L’attività del [Modulo di pianificazione](scheduler.md) consente di pianificare quando viene avviato un flusso di lavoro.
 * L’attività [Unione AND](and-join.md) consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
 * L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
 * L’attività [Fork](fork.md) consente di creare transizioni in uscita per avviare più attività contemporaneamente.

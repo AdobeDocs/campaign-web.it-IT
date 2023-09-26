@@ -5,9 +5,9 @@ description: Scopri come preparare e inviare un’e-mail dall’interfaccia uten
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 90%
 
 ## Preparare l’invio {#prepare}
 
-Una volta definiti i [contenuto](../content/edit-content.md), [pubblico](../audience/add-audience.md), e [pianificazione](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), puoi preparare la consegna e-mail.
+Una volta definiti il [contenuto](../content/edit-content.md), il [pubblico](../audience/add-audience.md) e la [pianificazione](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), puoi preparare la consegna dell’e-mail.
 
-Durante la preparazione della consegna, viene calcolata la popolazione target e viene generato il contenuto del messaggio per ogni profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati subito oppure alla data e all’ora pianificate.
+Durante la preparazione della consegna, viene calcolata la popolazione target e viene generato il contenuto del messaggio per ciascun profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati subito oppure alla data e all’ora pianificate.
 
 Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=it){target="_blank"}.
 
@@ -119,34 +119,34 @@ Indipendentemente dal fatto che la consegna sia pianificata o meno, è possibile
 >id="acw_deliveries_email_metrics_delivered"
 >title="Consegnati"
 >abstract="Numero di messaggi recapitati correttamente. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata si basa sul numero totale di messaggi inviati."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=it" text="Comprendere i KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Aperture"
 >abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=it" text="Comprendere i KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clic"
 >abstract="Numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=it" text="Comprendere i KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Metriche di invio"
 >abstract="Numero totale di messaggi elaborati durante l’analisi della consegna."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=it" text="Comprendere i KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
 >abstract="Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=it" text="Comprendere i KPI"
 
 
 Una volta completato l’invio, puoi controllare i KPI visualizzati:
@@ -167,6 +167,6 @@ Una volta completato l’invio, puoi controllare i KPI visualizzati:
 >
 >Tutti gli indicatori vengono aggiornati ogni 5 minuti dopo l’inizio della consegna. Gli indicatori di preparazione della consegna sono in tempo reale.
 
-Ulteriori informazioni sui KPI in [questa pagina](../reporting/kpis.md).
+Ulteriori informazioni sui KPI sono disponibili in [questa pagina](../reporting/kpis.md).
 
 Puoi anche controllare i registri. [Ulteriori informazioni](delivery-logs.md)

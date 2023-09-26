@@ -4,9 +4,9 @@ title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ L’invio di SMS di test è un passaggio importante per garantire la qualità e 
 
    ![](assets/sms_send_5.png)
 
-   Se la consegna SMS è stata pianificata, fai clic su **[!UICONTROL Invia come pianificato]** pulsante. Ulteriori informazioni sulla pianificazione delle consegne in [questa sezione](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Se la consegna SMS è stata pianificata, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-messages.md#schedule-the-delivery-sending).
 
 
 1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]**.
