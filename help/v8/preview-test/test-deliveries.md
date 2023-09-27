@@ -4,7 +4,7 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 82%
@@ -58,7 +58,6 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 
 
 I profili di test sono indirizzi di seed, che sono destinatari aggiuntivi nel database. Possono essere create in [!DNL Adobe Campaign] della console client in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Di seguito sono riportati i passaggi per inviare messaggi di test agli indirizzi di seed.
-
 
 1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
