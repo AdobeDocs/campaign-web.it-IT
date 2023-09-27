@@ -3,9 +3,9 @@ audience: end-user
 title: Generazione di immagini con Content Assistant
 description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 2%
 
 Dopo aver creato e personalizzato le e-mail, puoi migliorare il contenuto utilizzando l’Assistente contenuto, basato sull’intelligenza artificiale generativa. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti.
 
->[!AVAILABILITY]
+Per generare e migliorare un’immagine nelle e-mail con Content Assistant, segui i passaggi indicati di seguito. È inoltre possibile creare il contenuto completo di HTML con Content Assistant, come descritto in [questa pagina](generative-email.md), o generare un contenuto di testo, come spiegato in [questa pagina](generative-content.md).
+
+>[!NOTE]
 >
->Questa funzionalità sarà disponibile all’inizio di ottobre.
+>Prima di iniziare a utilizzare questa funzionalità, leggi le relative [Guardrail e limitazioni](generative-gs.md#guardrails-and-limitations).
 
 Nell’esempio seguente, scopri come sfruttare l’Assistente contenuti per ottimizzare e migliorare i contenuti, assicurando un’esperienza più semplice da usare. Segui questi passaggi:
 

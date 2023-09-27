@@ -3,9 +3,9 @@ audience: end-user
 title: Testo con Assistente contenuto
 description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 5%
 
 ---
@@ -17,12 +17,11 @@ Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente al contenut
 
 L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Questa funzionalità sarà disponibile all’inizio di ottobre.
+>Prima di iniziare a utilizzare questa funzionalità, leggi le relative [Guardrail e limitazioni](generative-gs.md#guardrails-and-limitations).
 
-Per generare e migliorare il contenuto di un’e-mail con Content Assistant, segui i passaggi indicati di seguito. È inoltre possibile creare il contenuto completo di HTML con Content Assistant, come descritto in [questa pagina](generative-email.md).
+Per generare e migliorare un contenuto e-mail con Content Assistant, segui i passaggi indicati di seguito. È inoltre possibile creare il contenuto completo di HTML con Content Assistant, come descritto in [questa pagina](generative-email.md).
 
 1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -42,7 +41,7 @@ Per generare e migliorare il contenuto di un’e-mail con Content Assistant, seg
 
    ![](assets/text-genai-3.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il brand contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa del marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
    Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 

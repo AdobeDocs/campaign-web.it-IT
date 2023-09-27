@@ -3,9 +3,9 @@ audience: end-user
 title: Generazione di e-mail con Content Assistant
 description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 2%
 
 L’Assistente per i contenuti migliora l’impatto delle comunicazioni generando automaticamente contenuti e-mail completi, risparmiando tempo e garantendo una qualità coerente. Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-mail coinvolgenti che risuonano con il tuo pubblico, rendendo la comunicazione più efficace ed efficiente.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Questa funzionalità sarà disponibile all’inizio di ottobre.
+>Prima di iniziare a utilizzare questa funzionalità, leggi le relative [Guardrail e limitazioni](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## Generare il contenuto HTML con AI {#generative-email-generate}
 
 Per generare un contenuto e-mail con Content Assistant, attieniti alla procedura seguente. È inoltre possibile migliorare un contenuto esistente con l’Assistente contenuto, come descritto in [questa pagina](generative-content.md).
 

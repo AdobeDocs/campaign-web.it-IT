@@ -4,9 +4,9 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
 * **Generazione di contenuti e-mail basata sull’intelligenza artificiale**
 
-  Abbandona la creazione manuale dei contenuti e dai il benvenuto a campagne efficienti e basate sui dati con la potenza della Generazione basata sull’intelligenza artificiale.  La tecnologia di Generazione basata sull’intelligenza artificiale utilizza algoritmi avanzati per **generare contenuti altamente coinvolgenti e personalizzati**. Stimola i tassi di apertura, i tassi di click-through e le conversioni con la generazione dei contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale. Questa funzionalità sarà disponibile a partire da inizio ottobre.
+  Abbandona la creazione manuale dei contenuti e dai il benvenuto a campagne efficienti e basate sui dati con la potenza della Generazione basata sull’intelligenza artificiale.  La tecnologia di Generazione basata sull’intelligenza artificiale utilizza algoritmi avanzati per **generare contenuti altamente coinvolgenti e personalizzati**. Stimola le percentuali di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale.
 
   Per ulteriori informazioni, consulta [questa sezione](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
 * **Knowledge Assistant con Generazione basata sull’intelligenza artificiale**
 
-  Poni le domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. Il nuovo **Knowledge Assistant basato sull’intelligenza artificiale**, incorporato nei popover della guida contestuale, ti aiuta a scoprire e ampliare le tue competenze sulle nuove funzioni di Campaign. Sulla base della documentazione più recente relativa al prodotto, ti indirizzerà a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso. Questa funzionalità sarà disponibile a partire da inizio ottobre.
+  Poni le domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. Il nuovo **Knowledge Assistant basato sull’intelligenza artificiale**, incorporato nei popover della guida contestuale, ti aiuta a scoprire e ampliare le tue competenze sulle nuove funzioni di Campaign. Sulla base della documentazione più recente relativa al prodotto, ti indirizzerà a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso.
 
   Per ulteriori informazioni, consulta [questa sezione](../get-started/using-ai.md).
 

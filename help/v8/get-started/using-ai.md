@@ -2,9 +2,9 @@
 title: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '352'
 ht-degree: 5%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 5%
 # Utilizzo di Knowledge Assistant basato sull’intelligenza artificiale {#using-ai}
 
 Ottieni risposte rapide e generate da intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’Assistente alle conoscenze basato sull’intelligenza artificiale disponibile nelle caselle di aiuto contestuali del prodotto.
-
->[!AVAILABILITY]
->
->Questa funzionalità sarà disponibile all’inizio di ottobre.
 
 Il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
 
