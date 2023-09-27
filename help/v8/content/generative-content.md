@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Testo con Assistente contenuto
-description: Introduzione all’assistente contenuti
+description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 6%
+source-wordcount: '383'
+ht-degree: 5%
 
 ---
 
 
-# Generazione di testo con l’assistente contenuto {#generative-content}
+# Generazione di testo con Content Assistant {#generative-content}
 
-Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente al contenuto basato su IA generativa per portare il contenuto al livello successivo.
+Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente al contenuto basato sull’intelligenza artificiale generativa per portare il contenuto al livello successivo.
 
 L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
 
@@ -21,6 +21,8 @@ L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne 
 >[!AVAILABILITY]
 >
 >Questa funzionalità sarà disponibile all’inizio di ottobre.
+
+Per generare e migliorare il contenuto di un’e-mail con Content Assistant, segui i passaggi indicati di seguito. È inoltre possibile creare il contenuto completo di HTML con Content Assistant, come descritto in [questa pagina](generative-email.md).
 
 1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -36,11 +38,11 @@ L’Assistente contenuti può aiutarti a ottimizzare l’impatto delle consegne 
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare.
 
-   Abilita **[!UICONTROL Migliora con il contesto corrente]** l’opzione per l’assistente contenuti di personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
+   Abilita **[!UICONTROL Migliora con il contesto corrente]** per l’Assistente contenuti di personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
 
    ![](assets/text-genai-3.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il brand contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
    Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 

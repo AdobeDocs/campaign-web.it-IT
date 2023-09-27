@@ -1,26 +1,30 @@
 ---
 audience: end-user
-title: Generazione di e-mail con l’assistente al contenuto
-description: Introduzione all’assistente contenuti
+title: Generazione di e-mail con Content Assistant
+description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# Generare un messaggio e-mail con l’assistente al contenuto {#generative-email}
+# Generare un messaggio e-mail con Content Assistant {#generative-email}
 
-L’Assistente per i contenuti migliora l’impatto delle comunicazioni generando automaticamente contenuti e-mail completi, risparmiando tempo e garantendo una qualità coerente.
-
-Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-mail coinvolgenti che risuonano con il tuo pubblico, rendendo la comunicazione più efficace ed efficiente.
+L’Assistente per i contenuti migliora l’impatto delle comunicazioni generando automaticamente contenuti e-mail completi, risparmiando tempo e garantendo una qualità coerente. Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-mail coinvolgenti che risuonano con il tuo pubblico, rendendo la comunicazione più efficace ed efficiente.
 
 
 >[!AVAILABILITY]
 >
 >Questa funzionalità sarà disponibile all’inizio di ottobre.
 
+
+
+
+## Generare il contenuto HTML con AI {#generative-email-generate}
+
+Per generare un contenuto e-mail con Content Assistant, attieniti alla procedura seguente. È inoltre possibile migliorare un contenuto esistente con l’Assistente contenuto, come descritto in [questa pagina](generative-content.md).
 
 1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Creare contenuti]**.
 
@@ -46,7 +50,7 @@ Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-ma
 
    ![](assets/email-genai-2.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il brand contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
    Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 
@@ -75,4 +79,5 @@ Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-ma
    ![](assets/email-genai-6.png)
 
 1. Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la consegna delle e-mail. [Ulteriori informazioni](../monitor/prepare-send.md)
+
 

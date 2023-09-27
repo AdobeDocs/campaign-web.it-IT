@@ -1,9 +1,9 @@
 ---
 audience: end-user
-title: Generazione di immagini con l’assistente contenuto
-description: Introduzione all’assistente contenuti
+title: Generazione di immagini con Content Assistant
+description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -11,7 +11,7 @@ ht-degree: 2%
 ---
 
 
-# Generazione di immagini con l’assistente contenuto {#generative-image}
+# Generazione di immagini con Content Assistant {#generative-image}
 
 Dopo aver creato e personalizzato le e-mail, puoi migliorare il contenuto utilizzando l’Assistente contenuto, basato sull’intelligenza artificiale generativa. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti.
 
@@ -27,7 +27,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente contenuti per otti
 
 1. Compila il **[!UICONTROL Dettagli di base]** per la consegna. Al termine, fai clic su **[!UICONTROL Modificare il contenuto delle e-mail]**.
 
-1. Seleziona la risorsa da modificare con l’Assistente contenuto.
+1. Seleziona la risorsa da modificare con l’Assistente contenuti.
 
 1. Dal menu di destra, seleziona **[!UICONTROL Generazione di esperienze]**.
 
@@ -37,7 +37,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente contenuti per otti
 
    ![](assets/image-genai-2.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il marchio contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il brand contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
 
    Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
 
