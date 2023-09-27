@@ -4,10 +4,10 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
+source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 82%
+source-wordcount: '1141'
+ht-degree: 66%
 
 ---
 
@@ -22,24 +22,37 @@ Una volta definito il contenuto del messaggio, puoi visualizzarlo in anteprima e
 
 Per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia messaggi di test ai profili di test prima di inviarli al pubblico di destinazione. Per convalidare il contenuto più recente, a ogni modifica deve essere inviato un messaggio di prova. L’invio di consegne di test (precedentemente note come “bozze”) è un passaggio importante nella convalida della campagna e utile per individuare potenziali problemi. I destinatari di un messaggio di prova possono controllare vari elementi, ad esempio collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
 
-## Selezionare i destinatari del test {#test-recipients}
+## Simula contenuto con destinatari di test {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Popolazione di test"
 >abstract="Seleziona una modalità per la popolazione di test."
 
-In base al canale utilizzato, i messaggi di test possono essere inviati a tre tipi di destinatari:
+Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-recipients.md)
 
-* [Profili di test](#test-profiles): invia **e-mail e SMS di test** a indirizzi seed, ossia destinatari aggiuntivi presenti nel database. Possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
-* [Sostituisci dal target principale](#substitution-profiles): invia **e-mail e SMS di test** a un indirizzo e-mail o numero di telefono specifico impersonando un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
+Per iniziare a testare il contenuto del messaggio:
 
-* [Iscritti](#subscribers): invia le **notifiche push di test** a utenti iscritti fittizi aggiunti al database. I profili di test possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
+1. Modifica il contenuto dell’e-mail o dell’SMS.
+1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
+1. Fai clic su **[!UICONTROL Test]** per inviare messaggi di prova.
 
-Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti in base al tipo di profili che desideri utilizzare.
+   ![](assets/simulate-test-button-email.png)
 
-### Profili di test {#test-profiles}
+1. Seleziona i destinatari del test.
+
+   A seconda del canale del messaggio, i messaggi di prova possono essere inviati ai seguenti tipi di destinatari:
+
+   * Per gli SMS e le e-mail, puoi utilizzare [profili di test](#test-profiles), che sono destinatari aggiuntivi specifici nel database. Questi destinatari vengono creati in [!DNL Campaign] console client. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
+
+   * Per gli SMS e le e-mail, puoi anche utilizzare [sostituzione dal target principale](#substitution-profiles) modalità, che invia i messaggi di test all’indirizzo di test e-mail o al numero di telefono e utilizza i dati di personalizzazione di un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
+
+   * Per i messaggi push, puoi utilizzare [abbonati](#subscribers), che sono abbonati fittizi aggiunti al database. Vengono creati in [!DNL Campaign] console. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
+
+   Di seguito sono disponibili informazioni dettagliate sulla configurazione di ciascuna modalità.
+
+## Utilizza i profili di test {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,11 +70,9 @@ Per selezionare i destinatari di una consegna di test, segui i passaggi seguenti
 >abstract="La formattazione del file deve essere uguale a quella del file originale.<br/>Formati di file supportati: txt, csv. Dimensione massima del file: 15 MB. Utilizza la prima riga come intestazione di colonna."
 
 
-I profili di test sono indirizzi di seed, che sono destinatari aggiuntivi nel database. Possono essere create in [!DNL Adobe Campaign] della console client in **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** cartella. Di seguito sono riportati i passaggi per inviare messaggi di test agli indirizzi di seed.
+I profili di test sono indirizzi di seed, che sono destinatari aggiuntivi nel database. Possono essere create in [!DNL Adobe Campaign] console client. Di seguito sono riportati i passaggi per inviare messaggi di test agli indirizzi di seed.
 
-1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
-
-1. Fai clic sul pulsante **[!UICONTROL Test]**
+1. Modifica il contenuto della consegna e fai clic su **[!UICONTROL Simula contenuto]** pulsante. Quindi fai clic su **[!UICONTROL Test]** pulsante.
 
    >[!NOTE]
    >
@@ -83,15 +94,12 @@ I profili di test sono indirizzi di seed, che sono destinatari aggiuntivi nel da
 
 1. Una volta selezionati i profili di test, puoi [inviare la consegna di test](#send-test).
 
-### Profili di sostituzione {#substitution-profiles}
+## Sostituisci dati profilo {#substitution-profiles}
 
-Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente di [!DNL Adobe Campaign] utilizzare profili di sostituzione, come descritto di seguito:
+Utilizza la sostituzione del profilo per inviare messaggi di test a un indirizzo e-mail o a un numero di telefono specifico, durante la visualizzazione dei dati da un profilo esistente di [!DNL Adobe Campaign] database. Per farlo, segui la procedura indicata di seguito:
 
-1. Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-recipients.md)
 
-1. Passa alla schermata di modifica del contenuto della consegna e-mail o SMS, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
-
-1. Fai clic sul pulsante **[!UICONTROL Test]**
+1. Modifica il contenuto della consegna e fai clic su **[!UICONTROL Simula contenuto]** pulsante. Quindi fai clic su **[!UICONTROL Test]** pulsante.
 
    ![](assets/simulate-test-button-email.png)
 
@@ -119,13 +127,11 @@ Per inviare un messaggio e-mail o un SMS di prova a un indirizzo e-mail o a un n
 
 1. Una volta selezionati i profili di sostituzione, puoi [inviare la consegna di test](#send-test).
 
-### Abbonati {#subscribers}
+## Inviare test agli abbonati {#subscribers}
 
 Quando si lavora con le notifiche push, le consegne di test possono essere inviate solo agli abbonati all’app. Per selezionarli, segui i passaggi seguenti.
 
-1. Passa alla schermata di modifica del contenuto della consegna, quindi fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
-
-1. Fai clic sul pulsante **[!UICONTROL Test]**
+1. Modifica il contenuto della consegna e fai clic su **[!UICONTROL Simula contenuto]** pulsante. Quindi fai clic su **[!UICONTROL Test]** pulsante.
 
    ![](assets/simulate-test-button-push.png)
 
