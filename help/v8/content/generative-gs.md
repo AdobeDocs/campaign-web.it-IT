@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione a Content Assistant
 description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,8 @@ L’Assistente contenuti, basato su IA generativa, è uno strumento prezioso per
 
 Questa funzione consente di risparmiare tempo e di garantire una qualità coerente grazie alla generazione automatica di contenuti e-mail completi. Utilizzando l’intelligenza artificiale generativa, puoi creare e-mail coinvolgenti senza difficoltà, migliorando l’efficacia e l’efficienza delle comunicazioni.
 
->[!AVAILABILITY]
->
->Questa funzionalità sarà disponibile all’inizio di ottobre.
+L’Assistente al contenuto di Campaign può essere visualizzato nelle e-mail per: [generare immagini](generative-image.md), [genera contenuto di testo](generative-content.md), [generare l’intero contenuto HTML](generative-email.md).
+
 
 ## Guardrail e limitazioni {#generative-guardrails}
 
@@ -33,7 +32,7 @@ Di seguito sono elencate le linee guida generali per l’utilizzo di Assistente 
 * La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizzate un prompt ben definito per interpretare con precisione il modello GenAI. 
 * Carica la risorsa del brand in modo che sia accurata per il contenuto del brand. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere: file PDF, documenti Microsoft Word, JPEG, PNG o file ZIP (con formati di file supportati).
 * La dimensione consigliata per la risorsa del brand caricata è inferiore a 10 MB. È possibile utilizzare file o immagini di dimensioni maggiori, ma il tempo di elaborazione risulta maggiore.
-* Utilizza un Adobe Campaign creato [modelli e-mail](../content/email-sample-templates.md), o preferibilmente [modelli e-mail incorporati](../content/email-sample-templates.md) per creare il contenuto dell’e-mail. Si consiglia di utilizzare un modello di e-mail con un massimo di 8-10 immagini.
+* Utilizza un modello e-mail creato da Adobe Campaign, o preferibilmente [modelli e-mail incorporati](../content/email-sample-templates.md) per creare il contenuto dell’e-mail. Si consiglia di utilizzare un modello di e-mail con un massimo di 8-10 immagini.
 
 
 All’Assistente al contenuto di Campaign si applicano le seguenti limitazioni:
