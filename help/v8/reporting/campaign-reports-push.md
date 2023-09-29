@@ -3,17 +3,24 @@ audience: end-user
 title: Rapporti sulle campagne per il canale push
 description: Comprendere i rapporti sulle campagne per il canale push
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 73%
+source-wordcount: '479'
+ht-degree: 58%
 
 ---
 
 
 # Rapporti sulle campagne per il canale push {#campaign-reports-push-channel}
 
+Ogni rapporto della campagna è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Per il canale push, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti delle campagne in [questa pagina](campaign-reports.md).
+
 ## Riepilogo delle consegne {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="Panoramica della consegna"
+>abstract="Il **Panoramica della consegna** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si impegnano con la consegna delle notifiche push."
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si impegnano con la consegna delle notifiche push. Le metriche sono descritte di seguito.
 
@@ -31,6 +38,12 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 
 ### Statistiche iniziali sul pubblico target {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="Statistiche iniziali sul pubblico target"
+>abstract="Il **Statistiche del pubblico di destinazione iniziale** la tabella mostra i dati relativi ai destinatari"
+
 Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
@@ -44,6 +57,11 @@ Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabe
 +++
 
 ### Statistiche di esecuzione {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="Statistiche di esecuzione"
+>abstract="Il **Statistiche di esecuzione** la tabella descrive il successo della consegna: messaggi da consegnare, successo, errori e nuove quarantene."
 
 Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna. Le metriche sono descritte di seguito.
 
@@ -60,6 +78,11 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 +++
 
 ### Flussi di clic generati {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="Flussi di clic generati"
+>abstract="Il **Flussi di clic generati** La tabella mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
 
 Il **[!UICONTROL Flussi di clic generati]** La tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 

@@ -3,22 +3,24 @@ audience: end-user
 title: Rapporti sulla campagna per il canale e-mail
 description: Ulteriori informazioni sui rapporti delle campagne per il canale e-mail
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 68%
+source-wordcount: '1546'
+ht-degree: 64%
 
 ---
 
 
 # Rapporti sulle campagne per il canale e-mail {#campaign-reports-email-channel}
 
+Ogni rapporto della campagna è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Per il canale e-mail, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti delle campagne in [questa pagina](campaign-reports.md).
+
 ## Riepilogo delle consegne {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Panoramica della consegna"
->abstract="La Panoramica della consegna offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail."
+>abstract="Il **Panoramica della consegna** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna delle e-mail."
 
 ### Panoramica della consegna {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 +++
 
 ### Statistiche di reazione {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ Il **[!UICONTROL Raggruppamento degli errori per dominio]** la tabella e il graf
 
 ### Statistiche consegna {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Statistiche consegna"
+>abstract="Il **Statistiche consegna** il grafico descrive il successo della consegna e gli errori che si sono verificati."
+
 Il **[!UICONTROL Statistiche consegna]** Le metriche forniscono indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ Il **[!UICONTROL Statistiche consegna]** Le metriche forniscono indicatori di pr
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widget percentuale di apertura e click-through"
+>title=" percentuale di apertura e click-through"
 >abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
 
 
@@ -253,8 +260,6 @@ Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di pres
 
 ### 10 collegamenti più visitati {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="10 collegamenti più visitati"
@@ -286,13 +291,19 @@ il **[!UICONTROL Raggruppamento dei clic nel tempo]** il grafico contiene i dati
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Attività degli utenti {#user-activities-email}
 
-Il  **[!UICONTROL Attività degli utenti]** Il rapporto mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche sono descritte di seguito.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Attività degli utenti"
+>abstract="Il grafico **Attività degli utenti** mostra il raggruppamento di aperture e clic sotto forma di grafico."
 
-![](assets/campaign_report_email_12.png)
+Il **[!UICONTROL Attività degli utenti]** Il rapporto mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche per questo rapporto sono descritte di seguito.
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
 * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
