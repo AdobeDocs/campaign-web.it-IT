@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2205'
-ht-degree: 70%
+source-wordcount: '2257'
+ht-degree: 68%
 
 ---
 
@@ -202,10 +202,6 @@ Le metriche disponibili sono le stesse della [Suddivisione degli errori per tipo
 >title="Tracciamento reportistica"
 >abstract="La scheda **Tracciamento** all’interno del rapporto rende disponibili dati importanti, tra cui il comportamento del destinatario per collegamento, il raggruppamento di aperture e clic, nonché informazioni dettagliate sugli URL cliccati più frequentemente durante una consegna."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widget percentuale di apertura e click-through"
->abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
 
 ### Statistiche consegna  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ Il **[!UICONTROL Statistiche consegna]** Il rapporto fornisce indicatori di pres
 
 ###  percentuale di apertura e click-through {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget percentuale di apertura e click-through"
+>abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
+
+
+
 Il **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ Il **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengon
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="Widget URL e flussi di clic"
+>title="URL e flussi di clic"
 >abstract="Il **URL e flussi di clic** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui è stato fatto clic maggiormente durante una consegna."
 
-* Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui è stato fatto clic maggiormente durante una consegna.
 
-  ![](assets/reporting_email_7.png){align="center"}
+Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui è stato fatto clic maggiormente durante una consegna.
 
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
-   * **[!UICONTROL Clic distinti]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
+* **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 
-   * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
+* **[!UICONTROL Clic distinti]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
 
-   * **[!UICONTROL Media piattaforma]**: questa media, visualizzata sotto ogni valore (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
+* **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
-+++
-
-* Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
-
-   * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
-
-   * **[!UICONTROL Percentuale]**: percentuale di utenti che hanno interagito con la consegna.
+* **[!UICONTROL Media piattaforma]**: questa media, visualizzata sotto ogni valore (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
 
 +++
 
-* Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
+### 10 collegamenti più visitati {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="10 collegamenti più visitati"
+>abstract="Il **I 10 collegamenti più visitati** Grafico e tabella contengono i dati disponibili per il comportamento del destinatario per collegamento."
+
+
+Il **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari in base al collegamento.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
+
+* **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
+
+* **[!UICONTROL Percentuale]**: percentuale di utenti che hanno interagito con la consegna.
+
++++
+
+### Raggruppamento dei clic nel tempo {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Raggruppamento dei clic nel tempo"
+>abstract="Il **Raggruppamento dei clic nel tempo** il grafico mostra i dati disponibili per il comportamento dei destinatari in base al collegamento."
+
+
+Il **[!UICONTROL Raggruppamento dei clic nel tempo]** il grafico contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Attività degli utenti {#user-activities-email}
 
@@ -332,7 +354,6 @@ Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su 
 +++
 
 ## Raggruppamenti delle aperture {#breakdown-opens}
-
 
 ### Raggruppamento delle aperture per dispositivo {#breakdown-opens-devices}
 
