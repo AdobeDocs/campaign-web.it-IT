@@ -4,10 +4,10 @@ title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 91%
+source-wordcount: '195'
+ht-degree: 65%
 
 ---
 
@@ -34,12 +34,22 @@ Per visualizzare i rapporti, effettua le seguenti operazioni:
 
    ![](assets/reporting2.png)
 
+   In alternativa, è possibile utilizzare i tre punti **Altre azioni** accanto al nome della consegna nell’elenco delle campagne, come illustrato di seguito:
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. Dal menu a sinistra, seleziona un rapporto dall’elenco.
 
    ![](assets/reporting.png)
 
-1. Se la consegna è ricorrente, puoi selezionare una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
+1. Se la consegna è ricorrente, seleziona una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
 
    Puoi anche applicare un periodo di tempo al rapporto selezionando la **[!UICONTROL Data di contatto]**.
 
    ![](assets/delivery-recurring.png)
+
+L’elenco completo dei rapporti e delle metriche associate per ciascun canale è disponibile nelle pagine seguenti:
+
+* [Rapporti sulle consegne e-mail](email-report.md)
+* [Rapporti sulle consegne SMS](sms-report.md)
+* [Rapporti sulle consegne push](push-report.md)
