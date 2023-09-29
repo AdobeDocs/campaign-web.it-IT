@@ -2,9 +2,9 @@
 title: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ L’intelligenza artificiale e i modelli di apprendimento automatico migliorano 
 
 ## Raccomandazioni  {#recommendations-ai}
 
-Quando si pone una domanda nell’Assistente alla conoscenza basato sull’intelligenza artificiale, viene preso in considerazione il contesto del prodotto corrente, ovvero la schermata Campaign in cui ci si trova e il contenuto della casella della guida corrente.
+Quando si pone una domanda nell’Assistente alla conoscenza basato sull’intelligenza artificiale, vengono presi in considerazione il contesto del prodotto corrente, ovvero la schermata in cui ci si trova, e il contenuto della casella della guida corrente.
 
-Per ottenere il meglio dall’Assistente alla conoscenza basato sull’intelligenza artificiale, quando ti poni una domanda, ti consigliamo di:
+Di conseguenza, è consigliabile porre domande relative al contesto dell’interfaccia utente. Ad esempio, per scoprire come inviare una consegna push in un flusso di lavoro, passa alla **Flusso di lavoro** e utilizzare una casella di aiuto contestuale in tale contesto specifico. Per ulteriori informazioni sulle metriche di reporting, passa alla campagna o ai rapporti di consegna e inizia da lì.
+
+
+Inoltre, per ottenere il meglio dall’Assistente alla conoscenza basato sull’intelligenza artificiale, quando ti poni una domanda, ti consigliamo di:
 
 * Sii il più preciso e specifico possibile ed evita ambiguità. La risposta sarà più accurata e utile.
 * Per aiutare l’Assistente alla conoscenza basato sull’intelligenza artificiale a trovare le informazioni corrette, aggiungi il maggior numero possibile di dettagli su ciò che stai cercando di apprendere.
