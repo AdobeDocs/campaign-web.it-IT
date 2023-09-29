@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai rapporti
 description: Scopri come accedere ai rapporti e gestirli in Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 49%
 
 ---
 
@@ -16,10 +16,9 @@ La nostra suite completa di strumenti di reporting fornisce informazioni utili s
 
 Adobe Campaign offre due diversi rapporti:
 
-* **Rapporto di consegna**: il **rapporto di consegna** offre informazioni complete e dati specifici per ciascun canale. Fornisce una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
+* **Rapporti di consegna**: Il **Rapporti di consegna** offre informazioni complete e dati specifici per ciascun canale. Questi rapporti forniscono informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne, fornendo una panoramica completa.
 
-* **Rapporto della campagna**: il **rapporto della campagna** offre una panoramica completa della campagna, con tutte le informazioni relative alle diverse consegne incluse. Questo rapporto offre un’analisi approfondita delle prestazioni di ogni consegna, dei tassi di successo, del coinvolgimento del pubblico e di altre metriche essenziali, che consentono di valutare l’efficacia e l’impatto complessivi della campagna.
-
+* **Rapporti sulle campagne**: Il **Rapporti sulle campagne** fornisci una panoramica completa della tua campagna, includendo tutte le informazioni pertinenti relative alle diverse consegne incluse. Questi rapporti offrono un’analisi approfondita delle prestazioni di ogni consegna, per canale: tassi di successo, coinvolgimento del pubblico e altre metriche essenziali. Ti consentono di valutare l’efficacia e l’impatto generali della campagna.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -27,7 +26,7 @@ Adobe Campaign offre due diversi rapporti:
 <a href="email-report.md">
 <img alt="Lead" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Rapporto sulla consegna e-mail</strong>
+<div><a href="email-report.md"><strong>Rapporti sulle consegne e-mail</strong>
 </div>
 <p>
 </td>
@@ -36,7 +35,7 @@ Adobe Campaign offre due diversi rapporti:
 <img alt="Non frequente" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Rapporto sulla consegna push<strong></strong></a>
+<a href="push-report.md"><strong> Rapporti sulle consegne push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +43,7 @@ Adobe Campaign offre due diversi rapporti:
 <img alt="Convalida" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> Rapporto sulla consegna SMS</strong></a>
+<a href="sms-report.md"><strong> Rapporti sulle consegne SMS</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +52,7 @@ Adobe Campaign offre due diversi rapporti:
 <img alt="Convalida" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Rapporto sulla campagna</strong></a>
+<a href="campaign-reports.md"><strong>Rapporti sulla campagna</strong></a>
 </div>
 <p>
 </td>
