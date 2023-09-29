@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti sulle campagne per il canale push
 description: Comprendere i rapporti sulle campagne per il canale push
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 58%
@@ -23,6 +23,9 @@ Ogni rapporto della campagna è diviso in diversi widget che descrivono nel dett
 >abstract="Il **Panoramica della consegna** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si impegnano con la consegna delle notifiche push."
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si impegnano con la consegna delle notifiche push. Le metriche sono descritte di seguito.
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
@@ -46,6 +49,9 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 
 Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
 * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
@@ -64,6 +70,9 @@ Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabe
 >abstract="Il **Statistiche di esecuzione** la tabella descrive il successo della consegna: messaggi da consegnare, successo, errori e nuove quarantene."
 
 Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna. Le metriche sono descritte di seguito.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
@@ -85,6 +94,8 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 >abstract="Il **Flussi di clic generati** La tabella mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
 
 Il **[!UICONTROL Flussi di clic generati]** La tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
