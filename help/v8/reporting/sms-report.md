@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 66%
@@ -13,11 +13,6 @@ ht-degree: 66%
 # Rapporti sulle consegne SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Panoramica della consegna SMS"
->abstract="La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Invio reportistica"
 >abstract="La scheda **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
@@ -25,6 +20,11 @@ ht-degree: 66%
 La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
 
 ## Riepilogo delle consegne {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="Panoramica della consegna SMS"
+>abstract="La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna."
 
 ### Panoramica della consegna {#sms-delivery-overview}
 

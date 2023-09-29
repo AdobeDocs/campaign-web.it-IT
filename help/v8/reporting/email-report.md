@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 68%
 
 ---
@@ -106,7 +106,7 @@ Il **[!UICONTROL Cause di esclusione]** il grafico e la tabella mostrano il ragg
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Widget Velocità di consegna"
+>title="Velocità effettiva di consegna"
 >abstract="Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico."
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
@@ -118,7 +118,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget Statistiche di trasmissione"
+>title="Statistiche di trasmissione"
 >abstract="Il **Statistiche di trasmissione** Il report contiene i dati disponibili per i possibili errori riscontrati con ciascun dominio."
 
 La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponibili per i possibili errori rilevati in ciascun dominio. Le metriche sono descritte di seguito.
@@ -235,7 +235,7 @@ Il **[!UICONTROL Statistiche consegna]** Il rapporto fornisce indicatori di pres
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget percentuale di apertura e click-through"
+>title=" percentuale di apertura e click-through"
 >abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
 
 
@@ -306,7 +306,7 @@ Il **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella cont
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Raggruppamento dei clic nel tempo"
 >abstract="Il **Raggruppamento dei clic nel tempo** il grafico mostra i dati disponibili per il comportamento dei destinatari in base al collegamento."
 

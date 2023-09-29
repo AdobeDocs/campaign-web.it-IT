@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 63%
@@ -11,11 +11,6 @@ ht-degree: 63%
 ---
 
 # Rapporti sulle consegne push {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Riepilogo report di consegna push"
->abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 ## Riepilogo push {#push-summary}
 
 ### Panoramica della consegna {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Riepilogo report di consegna push"
+>abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi push.
 
@@ -45,7 +45,6 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 +++
 
 ### Popolazione target {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
