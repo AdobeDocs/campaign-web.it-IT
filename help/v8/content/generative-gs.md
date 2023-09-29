@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione a Content Assistant
 description: Introduzione all'Assistente contenuti
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 1%
 >id="acw_generation_settings"
 >title="Assistente contenuti"
 >abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente contenuti per migliorarne i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionare i contenuti descrivendo cosa desideri generare."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="Definire il contesto per la generazione di contenuti"
+>abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuto, attiva **Migliora con il contenuto corrente** attivare/disattivare. Puoi anche caricare le risorse del brand per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è obbligatorio caricare e selezionare le risorse di un marchio."
 
 L’Assistente contenuti, basato su IA generativa, è uno strumento prezioso per migliorare il contenuto delle e-mail. Semplifica la personalizzazione e il miglioramento dei contenuti, ottimizzando le consegne e-mail per risuonare meglio con il pubblico.
 
