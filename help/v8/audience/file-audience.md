@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 100%
 >id="acw_audience_fromfile_formatting"
 >title="Formattazione dei parametri"
 >abstract="Verifica i parametri di formattazione per il file."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Anteprima del file"
+>abstract="Controlla l’anteprima del file. Questa schermata mostra solo un massimo di 30 record."
+
+
 
 Non è possibile caricare profili direttamente in Campaign dall’interfaccia, ma è possibile eseguire il targeting dei profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
 
