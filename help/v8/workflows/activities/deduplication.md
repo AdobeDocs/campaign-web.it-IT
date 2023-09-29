@@ -4,7 +4,7 @@ title: Utilizzare l’attività Deduplica nei flussi di lavoro
 description: Scopri come utilizzare l’attività Deduplica nei flussi di lavoro
 badge: label="Beta"
 source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 

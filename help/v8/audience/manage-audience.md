@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -26,11 +26,11 @@ I tipi di pubblico possono provenire da più sorgenti. Il **[!UICONTROL Origine]
 
 * **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico vengono creati nella console di Adobe Campaign V8. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico vengono creati all’interno di Adobe Experience Platform e sono integrati in Campaign Web utilizzando l’integrazione Adobe Sources and Destinations. Scopri come impostare questa integrazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico vengono creati all’interno di Adobe Experience Platform e sono integrati in Campaign Web utilizzando l’integrazione Adobe Sources and Destinations. Scopri come impostare questa integrazione in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
 
 >[!NOTE]
 >
->Per utilizzare i tipi di pubblico di Adobe Experience Platform in Campaign, devi configurare l’integrazione con origini e destinazioni di Adobe. Consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+>Per utilizzare i tipi di pubblico di Adobe Experience Platform in Campaign, devi configurare l’integrazione con origini e destinazioni di Adobe. Consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
 
 * **[!UICONTROL Interfaccia web di Adobe Campaign]**: questi tipi di pubblico vengono creati utilizzando i flussi di lavoro Pubblico web di Campaign. [Scopri come creare tipi di pubblico](create-audience.md)
 

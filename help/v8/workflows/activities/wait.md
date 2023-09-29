@@ -4,7 +4,7 @@ title: Utilizzare l’attività Attendi nei flussi di lavoro
 description: Scopri come utilizzare l’attività Attendi nei flusso di lavoro
 badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 

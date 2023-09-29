@@ -4,7 +4,7 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’app
 
 >[!TAB iOS]
 
-Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
+Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuti dinamici.
 
 Puoi aggiungere un **[!UICONTROL Sottotitolo]**, un valore del parametro dei sottotitoli del payload di notifica di iOS. Consulta questa sezione.
 

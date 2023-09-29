@@ -4,7 +4,7 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

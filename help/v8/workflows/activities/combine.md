@@ -4,7 +4,7 @@ title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 

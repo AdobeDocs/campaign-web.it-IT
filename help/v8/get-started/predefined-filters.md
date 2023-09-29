@@ -9,21 +9,21 @@ badge: label="Beta"
 source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
-# Utilizzare filtri predefiniti {#predefined-filters}
+# Utilizzare filtri preimpostati {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Gestione dei filtri predefiniti"
->abstract="Campaign web offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una volta e salva per un utilizzo futuro."
+>abstract="Campaign web offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtri preimpostati"
->abstract="Campaign web offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una volta e salva per un utilizzo futuro."
+>abstract="Campaign web offre ora un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
 I filtri predefiniti sono filtri personalizzati che vengono creati e salvati per essere disponibili in futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro con il generatore di regole, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna.
 
@@ -33,7 +33,7 @@ Puoi utilizzare i filtri incorporati esistenti per accedere a un sottoinsieme sp
 
 >[!IMPORTANT]
 >
->In tale versione del prodotto, durante la creazione di regole, la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente. Puoi ancora usarli. [Ulteriori informazioni](guardrails.md#predefined-filters-filters-guardrails-limitations)
+>In tale versione del prodotto, durante la creazione di regole, la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro e alcuni filtri preimpostati non sono disponibili nell’interfaccia utente. Tuttavia, puoi ancora usarli. [Ulteriori informazioni](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## Creare un filtro predefinito {#create-predefined-filter}

@@ -4,7 +4,7 @@ title: Utilizzare l’attività del flusso di lavoro Cambia dimensione
 description: Scopri come utilizzare l’attività Cambia dimensione nel flusso di lavoro
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 

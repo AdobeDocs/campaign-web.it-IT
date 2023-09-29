@@ -1,16 +1,16 @@
 ---
-title: Utilizzare destinatari e pubblico
+title: Utilizzare destinatari e tipi di pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 
-# Utilizzare destinatari e pubblico {#about-recipients}
+# Utilizzare destinatari e tipi di pubblico {#about-recipients}
 
 In Adobe Campaign, la popolazione target di una consegna è un pubblico. Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Questa raccolta di persone può essere generata, selezionata o caricata [come descritto di seguito](#audiences). Nella maggior parte dei casi, il pubblico è costituito da profili, memorizzati come [destinatari](#recipients) in Adobe Campaign. Puoi anche lavorare con altre mappature di destinazione modificando la dimensione come spiegato [in questa sezione](#targeting-dimensions).
 
@@ -45,7 +45,7 @@ Puoi anche accedere ai destinatari da **Esplora** visualizzare, sfogliare e crea
 
 >[!NOTE]
 >
->A seconda delle autorizzazioni di cui si dispone, è possibile che non si disponga dell&#39;accesso all&#39;elenco completo dei destinatari archiviati nel database. Ulteriori informazioni sulle autorizzazioni in [questa sezione](../get-started/permissions.md).
+>A seconda delle autorizzazioni di cui si dispone, è possibile che non si disponga dell&#39;accesso all&#39;elenco completo dei destinatari archiviati nel database. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../get-started/permissions.md).
 
 Inoltre, puoi gestire l’abbonamento e il suo annullamento a servizi quali le newsletter. [Scopri come utilizzare i servizi di abbonamento](manage-services.md)
 

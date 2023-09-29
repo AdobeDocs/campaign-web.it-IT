@@ -4,7 +4,7 @@ title: Utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 badge: label="Beta"
 source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 100%
 
