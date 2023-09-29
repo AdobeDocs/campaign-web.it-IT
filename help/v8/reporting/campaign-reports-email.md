@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna per il canale e-mail
 description: Ulteriori informazioni sui rapporti delle campagne per il canale e-mail
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 64%
+source-wordcount: '1568'
+ht-degree: 63%
 
 ---
 
@@ -85,6 +85,9 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 * **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
+
+  I tipi di errore e-mail sono elencati in [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+
 
 +++
 
