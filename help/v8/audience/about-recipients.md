@@ -2,13 +2,13 @@
 title: Utilizzare destinatari e tipi di pubblico
 description: Scopri come lavorare con i destinatari di Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 13%
+source-wordcount: '1027'
+ht-degree: 12%
 
 ---
-
 
 # Utilizzare destinatari e tipi di pubblico {#about-recipients}
 
@@ -47,13 +47,13 @@ Puoi anche accedere ai destinatari da **Esplora** visualizzare, sfogliare e crea
 >
 >A seconda delle autorizzazioni di cui si dispone, è possibile che non si disponga dell&#39;accesso all&#39;elenco completo dei destinatari archiviati nel database. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../get-started/permissions.md).
 
-Inoltre, puoi gestire l’abbonamento e il suo annullamento a servizi quali le newsletter. [Scopri come utilizzare i servizi di abbonamento](manage-services.md)
+Inoltre, puoi gestire l’abbonamento e il suo annullamento a servizi quali le newsletter. Scopri come utilizzare i servizi di abbonamento in [questa pagina](manage-services.md)
 
 Puoi creare flussi di lavoro per deduplicare, arricchire, combinare profili e creare tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
 
 ## Cosa sono i tipi di pubblico? {#audiences}
 
-Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. [Scopri cos’è un modello di consegna](../msg/delivery-template.md).
+Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. Ulteriori informazioni sui modelli di consegna in [questa pagina](../msg/delivery-template.md).
 
 Per definire la popolazione di un pubblico, puoi:
 
@@ -66,7 +66,7 @@ Quando esegui il targeting di un pubblico, puoi anche definire **gruppi di contr
 
 >[!NOTE]
 >
->Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico viene definito in un **Creare un pubblico** attività del flusso di lavoro. In questo contesto, non puoi caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna [in questa sezione](../workflows/activities/build-audience.md)
+>Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico viene definito in un **Creare un pubblico** attività del flusso di lavoro. In questo contesto, non puoi caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna in [questa sezione](../workflows/activities/build-audience.md)
 
 ## Dimensioni di targeting {#targeting-dimensions}
 
