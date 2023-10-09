@@ -2,20 +2,23 @@
 title: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 description: Utilizzo dell’assistente basato sull’intelligenza artificiale in Campaign Web
 badge: label="Alfa"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
 
 # Utilizzo di Knowledge Assistant basato sull’intelligenza artificiale {#using-ai}
 
-Ottieni risposte rapide e generate da intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’Assistente alle conoscenze basato sull’intelligenza artificiale disponibile nelle caselle di aiuto contestuali del prodotto.
+Ottieni risposte veloci e generate dall’intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con l’Assistente alle conoscenze basato sull’intelligenza artificiale Q&amp;A disponibile nelle caselle di aiuto contestuali del prodotto.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Questa funzionalità è disponibile nella versione di Alpha e soggetta a modifiche senza preavviso.
+>
+>Questa funzionalità è disponibile solo in **Inglese**. Altre lingue non sono supportate in questa versione.
 
 
 Il **Knowledge Assistant con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
@@ -58,5 +61,3 @@ Inoltre, per ottenere il meglio dall’Assistente alla conoscenza basato sull’
 * Riformula e perfeziona le tue domande per ottenere risposte migliori. Se la risposta non è accurata o utile, prova diversi approcci e aggiungi contesto per ottenere risultati migliori.
 * Utilizza termini e parole appropriati, con un tono neutro.
 * Valuta le risposte e fornisci feedback in modo che i nostri ingegneri possano imparare dalla tua esperienza e migliorare i risultati.
-
-
