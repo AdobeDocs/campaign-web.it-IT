@@ -1,34 +1,34 @@
 ---
 audience: end-user
 title: Funzioni non supportate nell’interfaccia utente di Campaign Web
-description: Elenco delle funzioni non supportate nell’interfaccia utente di Campaign Web
+description: Elenco di funzioni non supportate nell’interfaccia utente di Campaign Web
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
-workflow-type: tm+mt
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-
 # Funzioni non supportate in Campaign Web {#unsupported-capabilities}
 
-Le seguenti funzionalità sono accessibili nella console client di Campaign, ma non sono ancora disponibili nell’interfaccia utente web. Alcuni saranno disponibili in una versione successiva, altri no.
+Le seguenti funzionalità sono accessibili dalla console client di Campaign, ma non sono ancora disponibili nell’interfaccia utente web. Alcune di queste saranno disponibili in una versione successiva, altre no.
 
-**Homepage**
+**Pagina home**
 
-* Dashboard della home page
-* Personalizzazione della home page
+* Dashboard della pagina home
+* Personalizzazione della pagina home
 
 **Gestione delle campagne**
 
-* Calendario di marketing/timeline
+* Calendario/timeline di marketing
 * Gestione del budget e dei costi
 * Gestione attività
 * Marketing distribuito (marketing centrale/locale)
-* Gestione della risposta
+* Gestione risposte
 * Test A/B
 * Gestione delle risorse marketing (MRM), obiettivi, simulazioni, budget e costi
 
@@ -43,36 +43,36 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 
 * Creazione e pubblicazione di pagine di destinazione
 * App web, moduli web
-* Gestione dei sondaggi
+* Gestione sondaggi
 
 **Profili e destinatari**
 
 * Creazione di profili
-* Dashboard dei profili
+* Dashboard profili
 * Creazione profilo di test
-* Dashboard del profilo di test
+* Dashboard profilo di test
 
 **Messaggistica transazionale**
 
-* Authoring ed esecuzione dei messaggi in tempo reale tramite e-mail, SMS e push
+* Creazione ed esecuzione in tempo reale di messaggi e-mail, SMS e push
 * Arricchimento e personalizzazione dei messaggi
-* Triggers (abbandono del carrello Adobe Analytics)
-* Generazione di rapporti e monitoraggio sulla messaggistica transazionale
+* Trigger (abbandono del carrello Adobe Analytics)
+* Reporting e monitoraggio della messaggistica transazionale
 
 **Progettazione dei contenuti**
 
-* Contenuto da risorse pubbliche
-* Gestione di loop/raccolte
+* Contenuti da risorse pubbliche
+* Gestione raccolte/loop
 * Salvare un contenuto HTML come modello`*`
 * Sincronizzazione dei modelli e-mail da Adobe Experience Manager
 * Risorse da Adobe Experience Manager 6.5 in un contenuto e-mail
 * Creazione di blocchi di contenuto
 * Contenuto da moduli personalizzati
-* Contenuto da un URL`*`
+* Contenuto da URL`*`
 * Frammenti e-mail
 * AMP per e-mail
 * Frammenti e-mail`*`
-* Caso d’uso multivariante/multilingue`*`
+* Caso d’uso multilingue/multivariante`*`
 
 **Regole di tipologia**
 
@@ -84,7 +84,7 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 
 **Flussi di lavoro**
 
-* Script nei flussi di lavoro
+* Scripting nei flussi di lavoro
 * Attività ETL: esportazione, modifica schema, caricamento dati, estrazione dati, codice SQL
 
 **Gestione delle offerte**
@@ -94,16 +94,16 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 **Integrazioni con le soluzioni Adobe Experience Cloud***
 
 * Utilizzo dei dati di Adobe Analytics
-* Condivisione dei KPI in Adobe Analytics
-* Utilizzo del segmento Adobe Audience Manager
+* Condivisione dei KPI di Adobe Analytics
+* Utilizzo del segmento di Adobe Audience Manager
 * Integrazione con Adobe Target
 * Integrazione con Adobe Triggers
 
-**Generazione rapporti**
+**Reportistica**
 
-* Rapporto di recapito messaggi integrato
+* Rapporto di recapitabilità integrato
 * Rapporto globale integrato
-* Personalizzazioni del reporting
+* Personalizzazioni della reportistica
 * Condivisione di rapporti secondo la pianificazione come PDF e CSV, o collegamento
 * Esportare/scaricare un rapporto come file CSV o PDF
 
@@ -117,8 +117,8 @@ Le seguenti funzionalità sono accessibili nella console client di Campaign, ma 
 **Approvazioni**
 
 * Approvazione contenuti
-* Approvazione della consegna
-* Approvazione della campagna
+* Approvazione consegna
+* Approvazione campagna
 * Approvazione target
 
 

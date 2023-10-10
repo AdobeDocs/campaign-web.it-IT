@@ -6,9 +6,9 @@ description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
 source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 85%
             + [Aggiungere una preintestazione](content/preheader.md)
             + [Generare la versione del testo](content/text-version-email.md)
          + Assistente contenuti {#content-assistant}
-            + [Introduzione a Content Assistant](content/generative-gs.md)
-            + [Generazione di testo con Content Assistant](content/generative-content.md)
-            + [Generazione di immagini con Content Assistant](content/generative-image.md)
-            + [Generazione di e-mail con Content Assistant](content/generative-email.md)
+            + [Introduzione all’assistente ai contenuti](content/generative-gs.md)
+            + [Generazione di testo con l’assistente ai contenuti](content/generative-content.md)
+            + [Generazione di immagini con l’assistente ai contenuti](content/generative-image.md)
+            + [Generazione di e-mail con l’assistente ai contenuti](content/generative-email.md)
          + Personalizzare lo stile del contenuto {#style}
             + [Introduzione allo stile dell’e-mail](content/get-started-email-style.md)
             + [Modificare le impostazioni dello sfondo](content/backgrounds.md)
@@ -77,7 +77,7 @@ ht-degree: 85%
       + [Aggiungere contenuto condizionale](personalization/conditions.md)
       + [Aggiungere blocchi di contenuto incorporati](personalization/content-blocks.md)
    + [Aggiungere offerte ai messaggi](content/offers.md)
-   + [Inviare messaggi agli abbonati](content/send-to-subscribers.md)
+   + [Inviare messaggi agli iscritti](content/send-to-subscribers.md)
    + Anteprima e test della consegna {#preview-test}
       + [Informazioni su anteprima e test](preview-test/preview-test.md)
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
@@ -132,7 +132,7 @@ ht-degree: 85%
       + [Rapporto sulle consegne push](reporting/push-report.md)
       + [Rapporto sulla consegna SMS](reporting/sms-report.md)
    + Rapporti sulla campagna {#campaign-report}
-      + [Accedere ai rapporti delle campagne](reporting/campaign-reports.md)
-      + [Rapporti sulle campagne e-mail](reporting/campaign-reports-email.md)
-      + [Rapporti sulle campagne push](reporting/campaign-reports-push.md)
-      + [Rapporti sulle campagne SMS](reporting/campaign-reports-sms.md)
+      + [Accedere ai rapporti sulla campagna](reporting/campaign-reports.md)
+      + [Rapporti sulla campagna e-mail](reporting/campaign-reports-email.md)
+      + [Rapporti sulla campagna push](reporting/campaign-reports-push.md)
+      + [Rapporti sulla campagna SMS](reporting/campaign-reports-sms.md)

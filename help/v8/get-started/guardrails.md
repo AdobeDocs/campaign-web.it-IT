@@ -1,38 +1,38 @@
 ---
-title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
-description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
+title: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
+description: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
 badge: label="Beta"
-source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
-workflow-type: tm+mt
+exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# Protezioni e limitazioni {#guardrails-limitations}
 
-# Guardrail e limitazioni {#guardrails-limitations}
-
-Quando lavori nell’interfaccia utente web di Campaign con componenti creati o modificati nella console client di Campaign, si applicano le protezioni e le limitazioni elencate di seguito.
+Durante l’utilizzo di componenti creati o modificati nella console client di Campaign nell’interfaccia utente di Campaign Web, si applicano i guardrail e le limitazioni elencate di seguito.
 
 ## Flussi di lavoro {#wf-guardrails-limitations}
 
 ### Attività
 
-Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente web sono di sola lettura e vengono visualizzate come attività incompatibili. Puoi comunque eseguire il flusso di lavoro, inviare messaggi, controllare i registri e così via. Le attività del flusso di lavoro disponibili sia nell’interfaccia utente web che nella console client sono modificabili.
+Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente web sono di sola lettura e vengono visualizzate come attività non compatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro che sono disponibili sia nell’interfaccia utente web che nella console client sono modificabili.
 
-| Console | Interfaccia web |
+| Console | Interfaccia utente web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
 Le impostazioni delle attività del flusso di lavoro non ancora supportate nell’interfaccia utente web non vengono visualizzate. Tuttavia, quando il flusso di lavoro viene eseguito, si applicano queste impostazioni.
 
-| Console | Interfaccia web |
+| Console | Interfaccia utente web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-Nella console, il **Arricchimento** L’attività può eseguire sia la riconciliazione che l’arricchimento. Nell’interfaccia utente web, le funzionalità di riconciliazione non sono ancora disponibili. Se hai definito, nella console, le impostazioni di riconciliazione in **Arricchimento** verrà visualizzata come attività di sola lettura non compatibile nell’interfaccia utente web.
+Nella console, l’attività di **arricchimento** può eseguire sia la riconciliazione che l’arricchimento. Nell’interfaccia utente web, le funzionalità di riconciliazione non sono ancora disponibili. Se hai definito le impostazioni di riconciliazione nell’attività di **Arricchimento** nella console, questa verrà visualizzata come attività di sola lettura non compatibile nell’interfaccia utente web.
 
-| Console | Interfaccia web |
+| Console | Interfaccia utente web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
@@ -40,59 +40,59 @@ Nella console, il **Arricchimento** L’attività può eseguire sia la riconcili
 
 Quando crei un nuovo flusso di lavoro nell’interfaccia utente web, l’area di lavoro supporta un solo punto di ingresso. Tuttavia, se hai creato un flusso di lavoro nella console con più punti di ingresso, puoi aprirlo e modificarlo nell’interfaccia utente web.
 
-| Console | Interfaccia web |
+| Console | Interfaccia utente web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-I loop non sono ancora disponibili nell’interfaccia utente web. Se hai creato un flusso di lavoro che include un ciclo continuo utilizzando la console, non puoi accedervi dall’interfaccia utente web. Viene visualizzato un messaggio di errore.
+I cicli non sono ancora disponibili nell’interfaccia utente web. Se hai creato un flusso di lavoro che include un ciclo utilizzando la console, non puoi accedervi dall’interfaccia utente web. Viene visualizzato un messaggio di errore.
 
-| Console | Interfaccia web |
+| Console | Interfaccia utente web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Il posizionamento dei nodi viene aggiornato ogni volta che viene aggiunta o rimossa un’attività. Se crei un flusso di lavoro nella console, lo modifichi utilizzando l’interfaccia web e lo riapri nella console, potresti notare alcune lievi imperfezioni di posizionamento. Questo non ha alcun impatto sui processi e sulle attività del flusso di lavoro.
+Il posizionamento dei nodi viene aggiornato ogni volta che si aggiunge o si rimuove un’attività. Se crei un flusso di lavoro nella console, lo modifichi utilizzando l’interfaccia web e lo riapri nella console, potresti notare alcune lievi imperfezioni di posizionamento. Questo non ha alcun impatto sui processi e sulle attività del flusso di lavoro.
 
-| Flusso di lavoro iniziale | Modifica posizione |
+| Flusso di lavoro iniziale | Modifica del posizionamento |
 | --- | --- |
 | ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## Filtri preimpostati {#filters-guardrails-limitations}
 
-Durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente, in tale versione del prodotto.
+In tale versione del prodotto, durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro e alcuni filtri predefiniti non sono disponibili nell’interfaccia utente.
 
 Viene visualizzato un messaggio di errore specifico.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro in **Attributi** sezione della schermata.
+Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e modificare il filtro, è possibile comunque utilizzarlo e visualizzare le condizioni di filtro nella sezione **Attributi** della schermata.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 
-È inoltre possibile accedere alla query SQL per verificare le impostazioni esatte. A questo scopo, fai clic su **Vista Codice** pulsante.
+È possibile inoltre accedere alla query SQL per verificare le impostazioni esatte. A questo scopo, fai clic sul pulsante **Vista codice**.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Fai clic su **Calcola** per verificare quanti elementi soddisfano i criteri del filtro.
+Fai clic sul pulsante **Calcola** per verificare quanti elementi soddisfano i criteri del filtro.
 
 ![](assets/rule-calculate.png){width="70%" align="left"}
 
-Utilizza il **Visualizza risultati** per visualizzare tali elementi.
+Utilizza il pulsante **Visualizza risultati** per visualizzare tali elementi.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
-Nota che se si crea un filtro nell’interfaccia Web e lo si modifica nella console con attributi non supportati, la rappresentazione grafica non può più essere disponibile nell’interfaccia Web. In ogni caso, puoi comunque utilizzare il filtro.
+Tieni presente che se crei un filtro nell’interfaccia web e lo modifichi nella console con attributi non supportati, la rappresentazione grafica non può più essere disponibile nell’interfaccia web. In ogni caso, puoi utilizzare comunque il filtro.
 
 Gli attributi non supportati sono elencati di seguito.
 
 ### Tipi di dati non supportati {#unsupported-data-type}
 
-I seguenti tipi di dati disponibili nella console client non sono supportati quando si visualizza un filtro o una regola nell’interfaccia Web:
+Durante la visualizzazione di un filtro o di una regola nell’interfaccia web, i seguenti tipi di dati disponibili nella console client non sono supportati:
 
-* datetime
-* orario
+* Data e ora
+* ora
 * intervallo di tempo
 * doppio
-* galleggiare
+* mobile
 
 ### Funzionalità di filtro non supportate {#unsupported-filtering-capabilities}
 
@@ -102,20 +102,20 @@ Inoltre, i seguenti operatori non sono supportati:
 
 * Tipo numerico
    * è incluso in
-   * no in
+   * non in
 
 * Tipo di stringa
    * maggiore di
    * minore di
    * maggiore o uguale a
    * minore o uguale a
-   * mi piace
-   * non simile a
+   * simile a
+   * diverso
 
 * Tipo di data
-   * il o dopo il
-   * il o prima del
-   * diverso da
+   * a partire dal
+   * entro il
+   * non uguale a
    * è vuoto
    * non è vuoto
    * è incluso in
@@ -123,4 +123,4 @@ Inoltre, i seguenti operatori non sono supportati:
    * nell’ultimo/a
 
 * Collegamenti 1-N
-   * CONTEGGIO, SOMMA, MEDIA, MIN, MAX
+   * COUNT, SUM, AVG, MIN, MAX
