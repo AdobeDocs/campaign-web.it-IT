@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Il menu **Explorer** mostra tutte le risorse e gli oggetti di Campaign con la st
 
 Gli elementi visualizzati in **Explorer** dipendono dalle autorizzazioni utente. Se disponi dei diritti appropriati, è possibile inoltre aggiungere cartelle e sottocartelle. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
 
-Puoi configurare le colonne in modo da personalizzare la visualizzazione e visualizzare tutte le informazioni necessarie. Consulta questa [sezione](#list-screens). Puoi anche aggiungere cartelle e sottocartelle, come descritto in [questa sezione](permissions.md#folders).
+Puoi configurare le colonne per personalizzare la visualizzazione e visualizzare tutte le informazioni necessarie. Consulta questa [sezione](#list-screens). Puoi anche aggiungere cartelle e sottocartelle, come descritto in [questa sezione](permissions.md#folders).
 
 Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di cartelle e risorse, consulta questa [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=it#ac-explorer-ui){target="_blank"}.
 
@@ -110,9 +110,9 @@ Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, 
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Con la nuova versione beta, il **Knowledge Assistant con tecnologia AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
+Con la nuova versione beta, il **Knowledge Assistant con Generazione basata sull’intelligenza artificiale**, incorporato nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure, esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
 
-Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, il nostro Knowledge Assistant basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, il Knowledge Assistant con Generazione basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
 Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
 
