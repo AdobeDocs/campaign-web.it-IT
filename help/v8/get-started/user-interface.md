@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -89,19 +89,6 @@ Nella sezione GESTIONE DELLE DECISIONI, puoi visualizzare le offerte e i modelli
 
 Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa sezione](../content/offers.md).
 
-## Barra superiore {#top-bar}
-
-Utilizza la barra superiore dell’interfaccia per:
-
-* condividere il tuo feedback come tester della versione beta
-* Passare a un’altra organizzazione e ad altre istanze
-* Passare a un’altra applicazione Adobe Experience Cloud
-* Accedere alle pagine della guida, contattare il supporto e inviare feedback. Puoi usare il campo di ricerca per cercare un argomento negli articoli e video della guida.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Guida contestuale {#user-interface-help}
@@ -120,37 +107,10 @@ Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
 
 Campaign Web v8 è progettato per funzionare in modo ottimale nell’ultima versione di Google Chrome, Safari e Microsoft Edge. È possibile che si verifichino problemi durante l’utilizzo di alcune funzioni nelle versioni precedenti o in altri browser.
 
-## Preferenze della lingua {#language-pref}
-
-Al momento, Campaign v8 Web è disponibile nelle seguenti lingue:
-
-* Inglese (US) - EN-US
-* Francese - FR
-* Tedesco - DE
-* Italiano - IT
-* Spagnolo - ES
-* Portoghese (brasiliano) - PTBR
-* Giapponese - JP
-* Coreano - KR
-* Cinese semplificato - CHS
-* Cinese tradizionale - CHT
-
-
-La lingua predefinita di Campaign Web è determinata dalla lingua preferita specificata nel profilo utente. Non si riferisce alla lingua del server Campaign e né della console client.
-
-Per cambiare la lingua:
-
-1. Fai clic sull’icona del tuo profilo, in alto a destra, quindi seleziona **Preferenze**.
-1. Quindi fai clic sul collegamento alla lingua visualizzato sotto il tuo indirizzo e-mail.
-1. Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
-
-## Tema scuro {#dark-theme}
-
-Puoi passare al tema scuro dall’icona del tuo profilo. Utilizza l’opzione **Tema scuro** per attivarlo o disattivarlo.
-
 ## Ulteriori informazioni {#learn-more}
 
 Scopri come sfogliare, cercare e filtrare gli elenchi disponibili nell’ambiente Campaign [in questa pagina](list-filters.md).
+
 
 
 <!--
