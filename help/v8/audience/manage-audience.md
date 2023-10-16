@@ -5,7 +5,7 @@ description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campai
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 

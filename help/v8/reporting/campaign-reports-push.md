@@ -5,7 +5,7 @@ description: Comprendere i rapporti sulla campagna per il canale push
 badge: label="Beta"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Per il canale push, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti sulle campagne in [questa pagina](campaign-reports.md).
 
-## Riepilogo delle consegne {#delivery-summary-push}
+## Riepilogo della consegna {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
@@ -58,7 +58,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Rifiutato dalle regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell’elenco Bloccati, ecc.
+* **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
 
 +++
 

@@ -5,7 +5,7 @@ description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Rifiutato dalle regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
+* **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
 
 +++
 
