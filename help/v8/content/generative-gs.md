@@ -4,10 +4,10 @@ title: Introduzione alla funzione Assistente contenuto
 description: Introduzione alla funzione Assistente contenuto
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ La funzione Assistente contenuto di Campaign può essere sfruttata nelle e-mail 
 Di seguito sono elencate alcune linee guida generali su come utilizza Assistente contenuto nella generazione di e-mail:
 
 * La qualità del contenuto generato è fortemente influenzata dalla finalità dell’iniziativa di marketing e dal prompt che inserisci nelle impostazioni. Inserisci un prompt chiaro e preciso nelle impostazioni, per consentire al modello GenAI di interpretarle con precisione. 
-* Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Puoi caricare contenuti nei seguenti formati: file PDF, documenti Microsoft Word, immagini JPEG o PNG, o file ZIP (contenenti formati di file supportati).
+* Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Il contenuto caricato può essere nei seguenti formati: PDF, JPEG, PNG o file ZIP (con formati di file supportati).
 * La risorsa del marchio caricata dovrebbe essere di diemnsione inferiore a 10 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
 * Per creare il contenuto dell’e-mail, utilizza un modello creato in Adobe Campaign o, preferibilmente, uno dei [modelli e-mail incorporati](../content/email-sample-templates.md). Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 
