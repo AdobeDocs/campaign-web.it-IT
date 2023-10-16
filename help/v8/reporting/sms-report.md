@@ -4,10 +4,10 @@ title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 93%
 
 ---
 
@@ -71,7 +71,7 @@ Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubbl
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Statistiche complessive push"
+>title="Statistiche complessive SMS"
 >abstract="Il rapporto **Statistiche complessive** presenta i dati degli SMS inviati: successo, errori e quarantene."
 
 Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati. Le metriche sono descritte di seguito.
@@ -92,7 +92,7 @@ Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Statistiche complessive SMS"
+>title="Esclusioni SMS"
 >abstract="Il grafico e la tabella **Esclusioni** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
 
 
@@ -104,9 +104,9 @@ Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menu della velocità di consegna"
->abstract="Il rapporto Velocità di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico."
+>title="Velocità effettiva di consegna SMS"
+>abstract="Il **Velocità effettiva di consegna** Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna entro un intervallo di tempo specificato.  La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora."
 
-Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna in un arco temporale specificato. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_sms_2.png)
