@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 62%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Per visualizzare i rapporti, effettua le seguenti operazioni:
 
    ![](assets/reporting2.png)
 
-   In alternativa, è possibile utilizzare i tre punti **Altre azioni** accanto al nome della consegna nell’elenco delle campagne, come illustrato di seguito:
+   In alternativa, puoi utilizzare il pulsante coi tre puntini **Altre azioni** accanto al nome della consegna nell’elenco delle campagne, come illustrato di seguito:
 
    ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
@@ -42,13 +42,13 @@ Per visualizzare i rapporti, effettua le seguenti operazioni:
 
    ![](assets/reporting.png)
 
-1. Se la consegna è ricorrente, seleziona una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
+1. Se la consegna è ricorrente, puoi selezionare una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
 
    Puoi anche applicare un periodo di tempo al rapporto selezionando la **[!UICONTROL Data di contatto]**.
 
    ![](assets/delivery-recurring.png)
 
-L’elenco completo dei rapporti e delle metriche associate per ciascun canale è disponibile nelle pagine seguenti:
+L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 
 * [Rapporti sulle consegne e-mail](email-report.md)
 * [Rapporti sulle consegne SMS](sms-report.md)
