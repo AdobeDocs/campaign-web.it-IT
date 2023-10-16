@@ -1,30 +1,30 @@
 ---
 audience: end-user
 title: Rapporti sulla campagna per il canale e-mail
-description: Ulteriori informazioni sui rapporti delle campagne per il canale e-mail
+description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-mail
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
-workflow-type: tm+mt
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '1568'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-
 # Rapporti sulle campagne per il canale e-mail {#campaign-reports-email-channel}
 
-Ogni rapporto della campagna è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Per il canale e-mail, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti delle campagne in [questa pagina](campaign-reports.md).
+Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Per il canale e-mail, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti sulle campagne in [questa pagina](campaign-reports.md).
 
-## Riepilogo delle consegne {#delivery-summary-email}
+## Riepilogo della consegna {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Panoramica della consegna"
->abstract="Il **Panoramica della consegna** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna delle e-mail."
+>abstract="La **Panoramica della consegna** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail."
 
 ### Panoramica della consegna {#delivery-summary-email-ovv}
 
-Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul coinvolgimento dei visitatori nella consegna delle e-mail. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_1.png)
 
@@ -50,7 +50,7 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 >abstract="La tabella Statistiche iniziali sul pubblico target mostra i dati relativi ai destinatari"
 
 
-Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_2.png)
 
@@ -60,7 +60,7 @@ Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabe
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
+* **[!UICONTROL Rifiutato dalle regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
 
 +++
 
@@ -70,9 +70,9 @@ Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabe
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="Statistiche di esecuzione"
->abstract="Il **Statistiche di esecuzione** la tabella descrive il successo della consegna: messaggi da consegnare, successo, errori e nuove quarantene."
+>abstract="La tabella **Statistiche di esecuzione** descrive il successo della consegna: messaggi da consegnare, consegne riuscite, errori e nuove quarantene."
 
-Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_3.png)
 
@@ -86,7 +86,7 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
 
-  I tipi di errore e-mail sono elencati in [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+  I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
 
 +++
@@ -96,10 +96,10 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="Statistiche di reazione"
->abstract="Il **Statistiche sulle reazioni** la tabella mostra i dati disponibili per l’attività del destinatario per la consegna: numero di aperture, abbonamenti, annullamenti di abbonamenti, clic per mirror il collegamento della pagina."
+>abstract="La tabella **Statistiche di reazione** mostra i dati disponibili per l’attività del destinatario della consegna: numero di aperture, iscrizioni, annullamenti di iscrizioni, clic sul collegamento alla pagina mirror."
 
 
-Il **[!UICONTROL Statistiche sulle reazioni]** la tabella contiene i dati disponibili per l’attività del destinatario per la consegna. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche di reazione]** contiene i dati disponibili per l’attività del destinatario della consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_4.png)
 
@@ -121,9 +121,9 @@ Il **[!UICONTROL Statistiche sulle reazioni]** la tabella contiene i dati dispon
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="Flussi di clic generati"
->abstract="Il **Flussi di clic generati** La tabella mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
+>abstract="La tabella **Flussi di clic generati** mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
 
-Il **[!UICONTROL Flussi di clic generati]** La tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_5.png)
 
@@ -139,15 +139,15 @@ Il **[!UICONTROL Flussi di clic generati]** La tabella mostra i dati relativi al
 
 ## Non consegnabili {#non-deliverables-email}
 
-###  Raggruppamento degli errori per tipo {#delivery-summary-email-breakdown-per-type}
+### Raggruppamento degli errori per tipo {#delivery-summary-email-breakdown-per-type}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
->title=" Raggruppamento degli errori per tipo"
->abstract="Il **Raggruppamento degli errori per tipo** la tabella e il grafico contengono i dati disponibili per ogni tipo di errore rilevato: utente sconosciuto, cassetta postale piena, dominio non valido e altro ancora."
+>title="Raggruppamento degli errori per tipo"
+>abstract="La tabella e il grafico **Raggruppamento degli errori per tipo** contengono i dati disponibili per ogni tipo di errore riscontrato: utente sconosciuto, cassetta postale piena, dominio non valido e altro ancora."
 
-Il **[!UICONTROL Raggruppamento degli errori per tipo]** la tabella e il grafico contengono i dati disponibili per i possibili errori riscontrati per ciascun tipo di dominio. Le metriche sono descritte di seguito.
+La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per tipo]** contengono i dati disponibili per i possibili errori riscontrati per ciascun tipo di dominio. Le metriche sono descritte di seguito.
 
 Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
@@ -172,15 +172,15 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 +++
 
 
-###  Raggruppamento degli errori per dominio {#delivery-summary-email-breakdown-per-domain}
+### Raggruppamento degli errori per dominio {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
->title=" Raggruppamento degli errori per dominio"
->abstract="Il **Raggruppamento degli errori per dominio** nella tabella e nel grafico vengono visualizzati i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
+>title="Raggruppamento degli errori per dominio"
+>abstract="La tabella e il grafico **Raggruppamento degli errori per dominio** contengono i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
 
 
-Il **[!UICONTROL Raggruppamento degli errori per dominio]** la tabella e il grafico contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio. Le metriche sono comuni con **[!UICONTROL Raggruppamento degli errori per tipo]** tabella e grafico descritti sopra.
+La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili dei possibili errori riscontrati in ciascun dominio. Le metriche sono comuni alla tabella e al grafico **[!UICONTROL Raggruppamento degli errori per tipo]** descritti in precedenza.
 
 
 ## Indicatori di tracciamento {#tracking-indicators-email}
@@ -191,9 +191,9 @@ Il **[!UICONTROL Raggruppamento degli errori per dominio]** la tabella e il graf
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="Statistiche consegna"
->abstract="Il **Statistiche consegna** il grafico descrive il successo della consegna e gli errori che si sono verificati."
+>abstract="Il grafico **Statistiche consegna** descrive il successo della consegna e gli errori che si sono verificati."
 
-Il **[!UICONTROL Statistiche consegna]** Le metriche forniscono indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
+Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_7.png)
 
@@ -217,12 +217,12 @@ Il **[!UICONTROL Statistiche consegna]** Le metriche forniscono indicatori di pr
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title=" percentuale di apertura e click-through"
+>title="Percentuale di apertura e click-through"
 >abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
 
 
 
-Il **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_8.png)
 
@@ -244,9 +244,9 @@ Il **[!UICONTROL Percentuale di apertura e click-through]** nella tabella vengon
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL e flussi di clic"
->abstract="Il **URL e flussi di clic** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui è stato fatto clic maggiormente durante una consegna."
+>abstract="Il rapporto **URL e flussi di clic** fornisce indicatori chiave di performance (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna."
 
-Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL su cui è stato fatto clic maggiormente durante una consegna. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di performance (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,10 +266,10 @@ Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di pres
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="10 collegamenti più visitati"
->abstract="Il **I 10 collegamenti più visitati** Grafico e tabella contengono i dati disponibili per il comportamento del destinatario per collegamento."
+>abstract="Il grafico e la tabella **10 collegamenti più visitati** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento."
 
 
-Il **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
+Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_10.png)
 
@@ -287,10 +287,10 @@ Il **[!UICONTROL I 10 collegamenti più visitati]** il grafico e la tabella cont
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Raggruppamento dei clic nel tempo"
->abstract="Il **Raggruppamento dei clic nel tempo** il grafico mostra i dati disponibili per il comportamento dei destinatari in base al collegamento."
+>abstract="Il grafico **Raggruppamento dei clic nel tempo** mostra i dati disponibili sul comportamento dei destinatari in base al collegamento."
 
 
-il **[!UICONTROL Raggruppamento dei clic nel tempo]** il grafico contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
+Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili sul comportamento dei destinatari in base al collegamento.
 
 ![](assets/campaign_report_email_11.png)
 
@@ -302,7 +302,7 @@ il **[!UICONTROL Raggruppamento dei clic nel tempo]** il grafico contiene i dati
 >title="Attività degli utenti"
 >abstract="Il grafico **Attività degli utenti** mostra il raggruppamento di aperture e clic sotto forma di grafico."
 
-Il **[!UICONTROL Attività degli utenti]** Il rapporto mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche per questo rapporto sono descritte di seguito.
+Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche di questo rapporto sono descritte di seguito.
 
 ![](assets/campaign_report_email_10.png){align="center"}
 

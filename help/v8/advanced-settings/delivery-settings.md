@@ -5,9 +5,9 @@ description: Ulteriori informazioni sulle impostazioni di consegna in Campaign W
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2112'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -113,10 +113,10 @@ Per ulteriori informazioni sulle regole di coerenza e capacità e su come config
 >title="Impostazioni del pubblico per la consegna"
 >abstract="Seleziona una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Puoi anche impostare i parametri di esclusione per la consegna. "
 
-In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. La dimensione di targeting, o mappatura target, è il tipo di dati che un&#39;operazione gestisce. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
+In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. La dimensione targeting, o mappatura target, è il tipo di dati che un’operazione gestisce. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
 
 
-Ulteriori informazioni sulle mappature di destinazione in [questa sezione](../audience/about-recipients.md#targeting-dimensions).
+Per ulteriori informazioni sulle mappature target, consulta [questa sezione](../audience/about-recipients.md#targeting-dimensions).
 
 ## Consegna {#delivery}
 

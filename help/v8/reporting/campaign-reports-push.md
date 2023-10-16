@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: Rapporti sulle campagne per il canale push
-description: Comprendere i rapporti sulle campagne per il canale push
+title: Rapporti sulla campagna per il canale push
+description: Comprendere i rapporti sulla campagna per il canale push
 badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
-workflow-type: tm+mt
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
+# Rapporti sulla campagna per il canale push {#campaign-reports-push-channel}
 
-# Rapporti sulle campagne per il canale push {#campaign-reports-push-channel}
-
-Ogni rapporto della campagna è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Per il canale push, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti delle campagne in [questa pagina](campaign-reports.md).
+Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Per il canale push, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti sulle campagne in [questa pagina](campaign-reports.md).
 
 ## Riepilogo delle consegne {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="Panoramica della consegna"
->abstract="Il **Panoramica della consegna** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si impegnano con la consegna delle notifiche push."
+>abstract="Il rapporto **Panoramica della consegna** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna delle notifiche push."
 
-Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si impegnano con la consegna delle notifiche push. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna delle notifiche push. Le metriche sono descritte di seguito.
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -45,9 +45,9 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Statistiche iniziali sul pubblico target"
->abstract="Il **Statistiche del pubblico di destinazione iniziale** la tabella mostra i dati relativi ai destinatari"
+>abstract="La tabella **Statistiche iniziali sul pubblico target** mostra i dati relativi ai destinatari"
 
-Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabella vengono visualizzati i dati relativi ai destinatari. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 ![](assets/campaign-reporting-push-target.png)
 
@@ -58,7 +58,7 @@ Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabe
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
+* **[!UICONTROL Rifiutato dalle regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell’elenco Bloccati, ecc.
 
 +++
 
@@ -67,9 +67,9 @@ Il **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** nella tabe
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="Statistiche di esecuzione"
->abstract="Il **Statistiche di esecuzione** la tabella descrive il successo della consegna: messaggi da consegnare, successo, errori e nuove quarantene."
+>abstract="La tabella **Statistiche di esecuzione** descrive il successo della consegna: messaggi da consegnare, consegne riuscite, errori e nuove quarantene."
 
-Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo della consegna. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign-reporting-push-exec.png)
 
@@ -82,9 +82,9 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 
 * **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
 
-* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (registrazione non valida, rifiuto del messaggio, errore di payload, ad esempio). in relazione al numero di messaggi da consegnare.
+* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (ad esempio a causa di una registrazione non valida, un rifiuto del messaggio, un errore di payload) rispetto al numero di messaggi da consegnare.
 
-  I tipi di errore per le notifiche push sono elencati in [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+  I tipi di errore per le notifiche push sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
 
 +++
 
@@ -93,9 +93,9 @@ Il **[!UICONTROL Statistiche di esecuzione]** la tabella descrive il successo de
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="Flussi di clic generati"
->abstract="Il **Flussi di clic generati** La tabella mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
+>abstract="La tabella **Flussi di clic generati** mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
 
-Il **[!UICONTROL Flussi di clic generati]** La tabella mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign-reporting-push-clicks.png)
 

@@ -1,35 +1,36 @@
 ---
 audience: end-user
-title: Generazione di e-mail con Content Assistant
-description: Introduzione all'Assistente contenuti
-badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
-workflow-type: tm+mt
+title: Generazione di e-mail con Assistente contenuto
+description: Introduzione alla funzione Assistente contenuto
+badge: label="Alpha"
+exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Generare un messaggio e-mail con Content Assistant {#generative-email}
+# Generare un’e-mail con Assistente contenuto {#generative-email}
 
-L’Assistente per i contenuti migliora l’impatto delle comunicazioni generando automaticamente contenuti e-mail completi, risparmiando tempo e garantendo una qualità coerente. Utilizzando l’intelligenza artificiale generativa, puoi creare facilmente e-mail coinvolgenti che risuonano con il tuo pubblico, rendendo la comunicazione più efficace ed efficiente.
+L’Assistente contenuto migliora l’impatto delle comunicazioni generando automaticamente contenuti e-mail completi, facendoti risparmiare tempo e garantendo una qualità costante. Utilizzando la IA generativa puoi creare facilmente e-mail coinvolgenti che possono essere recepiti meglio dal tuo pubblico, rendendo la comunicazione più efficace ed efficiente.
 
 >[!NOTE]
 >
->Prima di iniziare a utilizzare questa funzionalità, leggi le relative [Guardrail e limitazioni](generative-gs.md#guardrails-and-limitations).
+>Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](generative-gs.md#guardrails-and-limitations).
 
 
-Per generare un contenuto e-mail con Content Assistant, attieniti alla procedura seguente. È inoltre possibile migliorare un contenuto esistente con l’Assistente contenuto, come descritto in [questa pagina](generative-content.md).
+Per generare un contenuto e-mail con Assitente contenuto, segui i passaggi seguenti. Con Assistente contenuto è anche possibile migliorare un contenuto esistente, come descritto in [questa pagina](generative-content.md).
 
-1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Creare contenuti]**.
+1. Dopo aver creato e configurato la consegna e-mail, fai clic su **[!UICONTROL Crea contenuto]**.
 
    Per ulteriori informazioni su come configurare la consegna e-mail, consulta [questa pagina](../content/create-email-content.md).
 
-1. Compila il **[!UICONTROL Dettagli di base]** per la consegna. Al termine, fai clic su **[!UICONTROL Modifica corpo dell’e-mail]**.
+1. Compila i **[!UICONTROL Dettagli di base]** per la consegna. Al termine, fai clic su **[!UICONTROL Modifica corpo dell’e-mail]**.
 
-1. Scegli il modello struttura su cui desideri che l’Assistente al contenuto basi l’e-mail generata.
+1. Scegli il modello di progettazione su cui desideri che Assistente contenuto basi l’e-mail generata.
 
-   È inoltre possibile importare un file HTML.
+   Puoi anche importare un file HTML.
 
 1. Dal menu di destra, seleziona **[!UICONTROL Generazione di esperienze]**.
 
@@ -39,40 +40,38 @@ Per generare un contenuto e-mail con Content Assistant, attieniti alla procedura
 
    Di seguito sono riportati alcuni esempi di prompt:
 
-   * Per una newsletter: genera una newsletter mensile con articoli di viaggio, punti salienti della destinazione e offerte esclusive per gli abbonati.
-   * Per feedback e sondaggi: crea un’e-mail che invita i clienti a fornire feedback sulla loro recente esperienza software e a partecipare a un sondaggio sul miglioramento dei prodotti.
-   * Per e-mail di anniversario o compleanno: genera un’e-mail di compleanno per celebrare il giorno speciale del cliente e offrire uno sconto di compleanno.
+   * Per una newsletter: genera una newsletter mensile con articoli di viaggio, punti salienti della destinazione e offerte esclusive per gli iscritti.
+   * Per feedback e sondaggi: crea un’e-mail che invita la clientela a fornire feedback sulla recente esperienza software e a partecipare a un sondaggio sul miglioramento dei prodotti.
+   * Per e-mail di anniversario o compleanno: genera un’e-mail di compleanno per celebrare questo giorno speciale e offrire uno sconto per il compleanno.
 
    ![](assets/email-genai-2.png)
 
-1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere una risorsa per il brand contenente contenuti che possano fornire ulteriore contesto, consulta l’Assistente contenuti.
+1. Se desideri aggiungere una risorsa del marchio con contenuto che possa fornire ulteriore contesto all&#39;Assistente contenuto, seleziona **[!UICONTROL Carica file]**.
 
-   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. Il contenuto caricato è disponibile esclusivamente per il riutilizzo da parte dell’utente corrente.
+   Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. tieni presente che i contenuti caricati possono essere riutilizzati solo da parte dell’utente corrente.
 
-1. Seleziona la **[!UICONTROL Strategia di comunicazione]** che meglio si adatta alle tue esigenze. Questo influenzerà il tono e lo stile dell’e-mail generata.
+1. Seleziona la **[!UICONTROL Strategia di comunicazione]** più adatta alle tue esigenze. Questa influisce sul tono e sullo stile dell’e-mail generata.
 
-1. Scegli la **[!UICONTROL Lingua]** e **[!UICONTROL Tono]** che si desidera venga aggiunto al testo generato. In questo modo il testo sarà appropriato al tuo pubblico e allo scopo.
+1. Scegli la **[!UICONTROL Lingua]** e il **[!UICONTROL Tono]** da applicare al testo generato. Il testo generato sarà quindi appropriato per il pubblico e lo scopo a cui è destinato.
 
    ![](assets/email-genai-3.png)
 
-1. Personalizzare **[!UICONTROL Tipo di contenuto]** impostazioni delle risorse in base alle caratteristiche desiderate.
+1. Personalizza le impostazioni delle risorse del **[!UICONTROL Tipo di contenuto]** per farle corrispondere con le caratteristiche desiderate.
 
-1. Quando il prompt è pronto, fai clic su **[!UICONTROL Genera]**.
+1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
-1. Sfoglia **[!UICONTROL Suggerimenti varianti]** per trovare l’e-mail desiderata. Clic **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
+1. Sfoglia i **[!UICONTROL Suggerimenti per le varianti]** per trovare l’e-mail desiderata. Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
 
    ![](assets/email-genai-4.png)
 
-1. Clic **[!UICONTROL Seleziona]** una volta trovato il contenuto appropriato.
+1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
    ![](assets/email-genai-5.png)
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail in base ai dati dei profili o, se necessario, per personalizzare ulteriormente il contenuto. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
-1. Dopo aver definito il contenuto dell’e-mail, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering e controllare le impostazioni di personalizzazione con i profili di test.  [Ulteriori informazioni](../preview-test/preview-content.md)
+1. Dopo aver definito il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e verificare le impostazioni di personalizzazione con i profili di test.  [Ulteriori informazioni](../preview-test/preview-content.md)
 
    ![](assets/email-genai-6.png)
 
-1. Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la consegna delle e-mail. [Ulteriori informazioni](../monitor/prepare-send.md)
-
-
+1. Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la consegna e-mail. [Ulteriori informazioni](../monitor/prepare-send.md)

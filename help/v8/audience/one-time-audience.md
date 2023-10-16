@@ -3,10 +3,11 @@ audience: end-user
 title: Creare un pubblico una tantum per una consegna
 description: Scopri come creare un pubblico una tantum per una consegna.
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: tm+mt
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +19,7 @@ Il pubblico risultante viene utilizzato una sola volta per questa consegna. Non 
 
 Quando definisci il target principale di una consegna, puoi anche:
 
-* [Seleziona un pubblico esistente](add-audience.md) dal **[!UICONTROL Tipi di pubblico]** elenco.
+* [Selezionare un pubblico esistente](add-audience.md) dall’elenco **[!UICONTROL Tipi di pubblico]**.
 * [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 
 Per creare un nuovo pubblico direttamente da una consegna, segui questi passaggi:
@@ -27,7 +28,7 @@ Per creare un nuovo pubblico direttamente da una consegna, segui questi passaggi
 
    ![](assets/segment-builder0.png)
 
-1. Seleziona **Crea nuovo**. Viene visualizzato il generatore di regole. Ti consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. [Scopri come utilizzare il generatore di regole](segment-builder.md)
+1. Seleziona **Crea nuovo**. Viene visualizzato il generatore di regole. Questo consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. [Scopri come utilizzare il generatore di regole](segment-builder.md)
 
    ![](assets/segment-builder.png)
 

@@ -5,9 +5,9 @@ description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 75%
 >title="Tipi di pubblico di destinazione"
 >abstract="Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Sfrutta il pubblico di Adobe Experience Platform per affinare ulteriormente la definizione del tuo pubblico target e massimizzare l’impatto della campagna."
 
-Il generatore di regole ti consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando **[!UICONTROL Creare un pubblico]** attività o direttamente durante la creazione di una consegna per creare un pubblico una tantum.
+Il generatore di regole consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando l’attività **[!UICONTROL Crea pubblico]** o direttamente durante la creazione di una consegna per creare un pubblico una tantum.
 
 * [Scopri come creare un pubblico](create-audience.md)
 * [Scopri come creare un pubblico una tantum per una consegna](one-time-audience.md)
@@ -47,19 +47,19 @@ L’area di lavoro è la zona centrale dove puoi configurare e combinare le rego
 
 ## Il riquadro delle proprietà delle regole
 
-Sul lato destro, il **Proprietà delle regole** consente di eseguire le azioni elencate di seguito.
+Sul lato destro, il riquadro **Proprietà delle regole** consente di eseguire le azioni elencate di seguito.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **Visualizza i risultati:** visualizza l’elenco dei destinatari target del pubblico.
 * **Vista codice**: visualizza una versione del pubblico basata su codice in SQL.
 * **Visualizza gli attributi avanzati**: seleziona questa opzione per visualizzare l’elenco completo degli attributi nella palette a sinistra: nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N.
-* **Calcola**: aggiorna e visualizza il numero di profili target interessati dalla query.
-* **Seleziona o salva il filtro**: utilizza un filtro predefinito per filtrare la query oppure salvala come nuovo filtro per riutilizzarla in futuro. [Scopri come utilizzare i filtri predefiniti](../get-started/predefined-filters.md)
+* **Calcola**: aggiorna e visualizza il numero di profili interessati dalla query.
+* **Seleziona o salva il filtro**: utilizza un filtro predefinito per filtrare la query oppure salvala come nuovo filtro per riutilizzarla in futuro. [Scopri come utilizzare i filtri preimpostati](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
   >
-  >In tale versione del prodotto, alcuni filtri predefiniti non sono disponibili nell’interfaccia utente di. Tuttavia, puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >In tale versione del prodotto, alcuni filtri preimpostati non sono disponibili nell’interfaccia utente. Tuttavia, puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **Attributi**: visualizza una descrizione del pubblico creato.
 

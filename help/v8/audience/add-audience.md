@@ -5,9 +5,9 @@ description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Questa sezione spiega come selezionare un pubblico esistente durante la definizi
 * [Creare un pubblico una tantum](one-time-audience.md) utilizzando il generatore di regole.
 * [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 
-I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dalla **Pubblico** menu a sinistra. Provengono da più origini, ad esempio la console client, i flussi di lavoro del pubblico web di Campaign o Adobe Experience Platform. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
+I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dal menu **Pubblico** a sinistra. Provengono da più origini, ad esempio dalla console client, da flussi di lavoro per pubblico di Campaign Web o da Adobe Experience Platform. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
 
-Per selezionare un pubblico esistente per il messaggio, segui la procedura seguente:
+Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 
-1. Dalla sezione **Pubblico** dell’assistente alla creazione della consegna, fai clic su **[!UICONTROL Seleziona pubblico]** quindi scegliere
+1. Nella sezione **Pubblico** dell’assistente alla creazione di consegne, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** quindi scegli
 
    ![](assets/create-audience.png)
 
@@ -36,15 +36,15 @@ Per selezionare un pubblico esistente per il messaggio, segui la procedura segue
 
    ![](assets/create-audience2.png)
 
-   Per scegliere un pubblico da Adobe Experience Platform, passa a `AEP Audiences folder` dalla sezione filtro dello schermo.
+   Per scegliere un pubblico da Adobe Experience Platform, passa alla `AEP Audiences folder` dalla sezione dei filtri nella schermata.
 
    ![](assets/select-audience-folder.png)
 
-1. La sezione dei filtri ti consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere al generatore di regole, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare il generatore di regole](segment-builder.md)
+1. La sezione dei filtri consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere al generatore di regole, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare il generatore di regole](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. Clic **Conferma** per aggiungere il pubblico come target principale della consegna. Al termine, puoi comunque perfezionare il pubblico utilizzando il generatore di regole facendo clic sul pulsante **Modifica regole** pulsante.
+1. Fai clic su **Conferma** per aggiungere il pubblico come target principale della consegna. Al termine, puoi comunque perfezionare il pubblico utilizzando il generatore di regole facendo clic sul pulsante **Modifica regole**.
 
    ![](assets/refine-audience.png)
 

@@ -3,10 +3,11 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +29,7 @@ La **panoramica della consegna SMS** offre una panoramica completa della consegn
 
 ### Panoramica della consegna {#sms-delivery-overview}
 
-Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui tassi di successo e di errore e sul modo in cui i visitatori si relazionano con i messaggi SMS.
+La **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sulle percentuali di successi ed errori e sul modo in cui i visitatori interagiscono con i messaggi SMS.
 
 ![](assets/reporting_sms_3.png)
 
@@ -51,9 +52,9 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="Popolazione target degli SMS"
->abstract="Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico SMS: messaggi da consegnare ed esclusioni."
+>abstract="Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico SMS: messaggi da consegnare ed esclusioni."
 
-Il **Popolazione target** i dati di grafici e tabelle vengono visualizzati in base al pubblico. Le metriche sono descritte di seguito.
+Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_sms_4.png)
 
@@ -70,10 +71,10 @@ Il **Popolazione target** i dati di grafici e tabelle vengono visualizzati in ba
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Statistiche generali push"
->abstract="Il **Statistiche generali** Il rapporto presenta i dati per l’SMS inviato: esito positivo, errori e quarantene."
+>title="Statistiche complessive push"
+>abstract="Il rapporto **Statistiche complessive** presenta i dati degli SMS inviati: successo, errori e quarantene."
 
-Il **Statistiche generali** Il report presenta i dati per i messaggi SMS inviati. Le metriche sono descritte di seguito.
+Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_sms_5.png)
 
@@ -91,15 +92,15 @@ Il **Statistiche generali** Il report presenta i dati per i messaggi SMS inviati
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Statistiche generali SMS"
->abstract="Il **Esclusioni** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
+>title="Statistiche complessive SMS"
+>abstract="Il grafico e la tabella **Esclusioni** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
 
 
-Il **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte in dettaglio nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
+Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){_blank}.
 
 ![](assets/reporting_sms_6.png)
 
-## Velocità effettiva di consegna {#delivery-throughput}
+## Velocità di consegna {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
@@ -109,4 +110,3 @@ Il **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i motivi che han
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_sms_2.png)
-

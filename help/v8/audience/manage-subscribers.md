@@ -1,66 +1,66 @@
 ---
 audience: end-user
-title: Gestire gli abbonati a un servizio
-description: Scopri come gestire e fornire agli abbonati di un servizio in Adobe Campaign Web
+title: Gestire gli iscritti a un servizio
+description: Scopri come gestire e consegnare alle persone iscritte a un servizio in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: tm+mt
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# Gestire gli iscritti a un servizio {#manage-subscribers}
 
-# Gestire gli abbonati a un servizio {#manage-subscribers}
+Dopo aver [creato un servizio](manage-services.md#create-service), puoi aggiungere utenti iscritti, annullare l’iscrizione dei destinatari e inviare messaggi agli iscritti al servizio.
 
-Una volta [ha creato un servizio](manage-services.md#create-service), puoi aggiungere abbonati, annullare l’abbonamento dei destinatari e inviare messaggi agli abbonati di tale servizio.
+La gestione degli utenti iscritti è descritta in questa pagina. Per informazioni su come inviare messaggi alle persone iscritte, consulta [questa sezione](../content/send-to-subscribers.md).
 
-La gestione degli abbonati è descritta in questa pagina. Per informazioni su come inviare messaggi agli abbonati, consulta [questa sezione](../content/send-to-subscribers.md).
+## Aggiungere iscritti al servizio {#add-subscribers}
 
-## Aggiungere abbonati al servizio {#add-subscribers}
+Per aggiungere manualmente degli utenti iscritti, segui i passaggi seguenti.
 
-Per aggiungere manualmente gli abbonati, segui la procedura riportata di seguito.
+1. Seleziona un servizio esistente dall’elenco **[!UICONTROL Servizi di iscrizione]**.
 
-1. Seleziona un servizio esistente da **[!UICONTROL Servizi di abbonamento]** elenco.
-
-1. Seleziona la **[!UICONTROL Abbonati]** e fai clic su **[!UICONTROL Aggiungere profili]**.
+1. Seleziona la scheda **[!UICONTROL Iscritti]** e fai clic su **[!UICONTROL Aggiungi profili]**.
 
    ![](assets/service-subscribers-tab.png)
 
-1. Seleziona i profili da aggiungere dall’elenco e fai clic su **[!UICONTROL Conferma]**.
+1. Seleziona nell’elenco i profili da aggiungere e fai clic su **[!UICONTROL Conferma]**.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Clic **[!UICONTROL Invia]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> I destinatari selezionati riceveranno la sottoscrizione [messaggio di conferma](manage-services.md#create-confirmation-message) selezionato quando [creazione del servizio](manage-services.md#create-service).
+1. Fai clic su **[!UICONTROL Invia]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> I destinatari selezionati verranno avvisati dell’avvenuta iscrizione tramite il [messaggio di conferma](manage-services.md#create-confirmation-message) che avevi selezionato al momento della [creazione del servizio](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-I profili aggiunti vengono visualizzati nel **[!UICONTROL Abbonati]** elenco. Sono ora abbonati al tuo servizio.
+I profili aggiunti vengono visualizzati nell’elenco **[!UICONTROL Iscritti]**. Questi sono ora iscritti al servizio.
 
-## Rimuovere gli abbonati dal servizio {#remove-subscribers}
+## Rimuovere degli iscritti dal servizio {#remove-subscribers}
 
-### Annullare manualmente l’abbonamento dei destinatari {#manual-unsubscription}
+### Annullare manualmente l’iscrizione dei destinatari {#manual-unsubscription}
 
-Una volta [abbonati aggiunti](#add-subscribers) al servizio, puoi annullare manualmente l’abbonamento a ciascuno di essi. Segui i passaggi seguenti.
+Dopo aver [aggiunto iscritti](#add-subscribers) al servizio, puoi annullare manualmente l’iscrizione di ciascuno di essi. Segui i passaggi seguenti.
 
-1. Seleziona un servizio esistente da **[!UICONTROL Servizi di abbonamento]** elenco.
+1. Seleziona un servizio esistente dall’elenco **[!UICONTROL Servizi di iscrizione]**.
 
-1. Fai clic sull’icona dei tre punti accanto al nome del destinatario desiderato e seleziona **[!UICONTROL Elimina]**.
+1. Fai clic sull’icona con i tre punti accanto al nome del destinatario desiderato e seleziona **[!UICONTROL Elimina]**.
 
    ![](assets/service-subscribers-delete.png)
 
-1. Conferma eliminazione e fai clic su **[!UICONTROL Invia]**. Il destinatario selezionato riceverà l’annullamento dell’abbonamento [messaggio di conferma](manage-services.md#create-confirmation-message) selezionato quando [creazione del servizio](manage-services.md#create-service).
+1. Conferma l’eliminazione e fai clic su **[!UICONTROL Invia]**. Il destinatario selezionato verrà avvisato dell’annullamento dell’iscrizione tramite il [messaggio di conferma](manage-services.md#create-confirmation-message) che avevi selezionato al momento della [creazione del servizio](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-Il destinatario viene rimosso dal **[!UICONTROL Abbonati]** e non è più abbonato al servizio.
+Il destinatario viene rimosso dall’elenco **[!UICONTROL Iscritti]** e non è più iscritto al servizio.
 
-### Annulla automaticamente l’abbonamento dei destinatari {#automatic-unsubscription}
+### Annullare automaticamente l’iscrizione dei destinatari {#automatic-unsubscription}
 
-Un servizio di abbonamento può avere una durata limitata. L’abbonamento dei destinatari viene automaticamente annullato alla scadenza del periodo di validità.
+Un servizio di iscrizione può avere una durata limitata. L’iscrizione dei destinatari viene automaticamente annullata alla scadenza di tale periodo di validità.
 
-Questo periodo viene specificato quando [creazione del servizio](manage-services.md#create-service). Dalla sezione **[!UICONTROL Opzioni aggiuntive]**, disattiva la **[!UICONTROL Periodo di validità illimitato]** e definire un periodo di validità per il servizio.
+Questo periodo viene specificato durante la [creazione del servizio](manage-services.md#create-service). Dalle **[!UICONTROL Opzioni aggiuntive]**, disabilita l’opzione **[!UICONTROL Periodo di validità illimitato]** e definisci un periodo di validità per il servizio.
 
 ![](assets/service-create-validity-period.png)
 
-Alla scadenza della durata specificata, tutti gli abbonati verranno automaticamente cancellati da tale servizio.
+Alla scadenza della durata specificata, per tutti gli iscritti verrà automaticamente annullata l’iscrizione a tale servizio.

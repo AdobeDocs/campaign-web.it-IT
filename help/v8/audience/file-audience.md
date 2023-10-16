@@ -5,9 +5,9 @@ description: Scopri come utilizzare i destinatari da un file esterno per creare 
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anteprima del file"
->abstract="Controlla l’anteprima del file. Questa schermata mostra solo un massimo di 30 record."
+>abstract="Verifica l’anteprima del file. Questa schermata mostra solo un massimo di 30 record."
 
 
 

@@ -3,10 +3,11 @@ audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +26,10 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Riepilogo report di consegna push"
+>title="Riepilogo del rapporto sulle consegne push"
 >abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
-Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul modo in cui i visitatori si relazionano con i messaggi push.
+Il rapporto **[!UICONTROL Panioramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
 
 ![](assets/reporting_push_3.png)
 
@@ -48,10 +49,10 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
->title="Popolazione di destinazione push"
->abstract="Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico dei messaggi push: messaggi da consegnare ed esclusioni."
+>title="Popolazione target della consegna push"
+>abstract="Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico dei messaggi push: messaggi da consegnare ed esclusioni."
 
-Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico: messaggi da consegnare ed esclusioni. Le metriche sono descritte di seguito.
+Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico: messaggi da consegnare ed esclusioni. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_push_4.png)
 
@@ -68,10 +69,10 @@ Il **Popolazione target** grafico e tabella mostrano i dati relativi al pubblico
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
->title="Statistiche generali push"
->abstract="Il **Statistiche generali** Il rapporto presenta i dati per le notifiche push inviate: esito positivo, errori e quarantene."
+>title="Statistiche complessive push"
+>abstract="Il rapporto **Statistiche complessive** presenta i dati per le notifiche push inviate: consegna riuscita, errori e quarantene."
 
-Il **Statistiche generali** Il rapporto presenta i dati per le notifiche push inviate: esito positivo, errori e quarantene. Le metriche sono descritte di seguito.
+Il rapporto **Statistiche complessive** presenta i dati per le notifiche push inviate: consegna riuscita, errori e quarantene. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_push_5.png)
 
@@ -90,21 +91,21 @@ Il **Statistiche generali** Il rapporto presenta i dati per le notifiche push in
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Statistiche generali push"
->abstract="Il **Esclusioni** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
+>title="Statistiche complessive push"
+>abstract="Il grafico e la tabella **Esclusioni** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
 
-Il **[!UICONTROL Esclusioni]** il grafico e la tabella mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte in dettaglio nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)
 
-## Velocità effettiva di consegna {#delivery-throughput}
+## Velocità di consegna {#delivery-throughput}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
 >title="Rapporto velocità di consegna"
 >abstract="Il rapporto Velocità di consegna presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico."
 
-Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_push_2.png)
