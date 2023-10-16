@@ -4,10 +4,10 @@ title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Riepilogo del rapporto sulle consegne push"
+>title="Panoramica della consegna push"
 >abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 Il rapporto **[!UICONTROL Panioramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
@@ -91,7 +91,7 @@ Il rapporto **Statistiche complessive** presenta i dati per le notifiche push in
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Statistiche complessive push"
+>title="Esclusioni push"
 >abstract="Il grafico e la tabella **Esclusioni** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
 
 Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){_blank}.
