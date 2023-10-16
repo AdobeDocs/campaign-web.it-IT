@@ -4,10 +4,10 @@ title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Il grafico **[!UICONTROL Statistiche consegna]** descrive il successo della cons
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Statistiche consegna"
+>title="Cause di esclusione della consegna"
 >abstract="Il grafico e la tabella **Cause di esclusione** mostrano il raggruppamento per regola dei messaggi rifiutati durante la preparazione della consegna."
 
 
@@ -320,7 +320,7 @@ Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati di
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Widget attività degli utenti"
+>title="Attività degli utenti"
 >abstract="Il grafico **Attività degli utenti** mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti."
 
 Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti.
@@ -339,7 +339,7 @@ Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Widget statistiche di tracciamento"
+>title="Statistiche di tracciamento"
 >abstract="Il grafico **Statistiche di tracciamento** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati."
 
 Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
