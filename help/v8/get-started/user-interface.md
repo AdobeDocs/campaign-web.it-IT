@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 97%
 
 ---
 
@@ -154,3 +154,65 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+<!-- FOR GA -->
+<!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_list"
+>title="Creazione di destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Dettagli dei destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Informazioni di contatto dei destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title="Indirizzo destinatario"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Account destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Campi personalizzati dei destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_cardoverview"
+>title="Panoramica sulla scheda Destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_touchpoints"
+>title="Punti di contatto dei destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Elenco iscrizioni destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_selection"
+>title="Selezione sottoscrizioni destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_eligible_list"
+>title="Elenco idonei per le offerte dei destinatari"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_preview_proposition"
+>title="Anteprima delle offerte dei destinatari"
+>abstract="TBC"
