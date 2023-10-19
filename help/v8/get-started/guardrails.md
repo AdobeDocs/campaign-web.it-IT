@@ -3,10 +3,10 @@ title: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
 description: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ Il posizionamento dei nodi viene aggiornato ogni volta che si aggiunge o si rimu
 
 ## Filtri preimpostati {#filters-guardrails-limitations}
 
-In tale versione del prodotto, durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro e alcuni filtri predefiniti non sono disponibili nell’interfaccia utente.
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="Questo filtro è di sola lettura"
+>abstract="Alcuni filtri predefiniti non sono disponibili nell’interfaccia utente di quella versione del prodotto. Questi filtri sono contrassegnati come di sola lettura. Anche se non è possibile visualizzare la rappresentazione grafica della query nel generatore di regole e modificare il filtro, è possibile comunque utilizzarlo e visualizzare le condizioni di filtro nella sezione **Attributi** della schermata."
+
+In tale versione del prodotto, durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro e alcuni filtri predefiniti non sono disponibili nell’interfaccia utente. Questi filtri sono contrassegnati come di sola lettura.
 
 Viene visualizzato un messaggio di errore specifico.
 
