@@ -2,7 +2,8 @@
 title: Indicatori prestazioni chiave
 description: Scopri come comprendere gli indicatori prestazioni chiave
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 98%
@@ -85,8 +86,8 @@ Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:tracki
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="Annullamenti dell’abbonamento"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli annullamenti di abbonamento a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
+>title="Annullamenti dell’iscrizione"
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli annullamenti di iscrizione a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
 
 I destinatari devono essere in grado di ricorrere alla funzione di rinuncia alla ricezione di e-mail e SMS tramite un collegamento dedicato di annullamento dell’abbonamento nel contenuto dell’e-mail o rispondendo INTERROMPI a un SMS.
 
@@ -102,7 +103,7 @@ L’indicatore **Annullamenti dell’abbonamento** mostra i KPI seguenti per ogn
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
 >title="Errori"
->abstract="Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei mancati recapiti. La percentuale associata è il rapporto con il numero di messaggi da consegnare."
+>abstract="Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei mancati recapiti. Il tasso associato è il rapporto con il numero di messaggi da consegnare."
 
 Alcuni messaggi inviati dalla piattaforma Adobe Campaign potrebbero non raggiungere la destinazione. Ciò può verificarsi quando l’indirizzo o il numero di telefono dell’utente contiene errori di ortografici, oppure se il destinatario ha cambiato il proprio indirizzo e-mail o se la cassetta postale è piena. Se non è possibile inviare un messaggio a un profilo, il server remoto invia automaticamente un messaggio di errore ad Adobe Campaign. Questo errore consente di determinare se l’indirizzo e-mail, il numero di telefono o il dispositivo devono essere messi in quarantena.
 
@@ -113,4 +114,3 @@ L’indicatore **Errori** mostra i KPI seguenti per ogni canale:
 * Percentuale del numero di errori rispetto al numero totale di messaggi da consegnare.
 
 * Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei messaggi restituiti.
-
