@@ -16,13 +16,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Creare e gestire i servizi"
->abstract="Utilizza Adobe Campaign per creare e monitorare servizi come le newsletter e per verificarne le iscrizioni o gli annullamenti. Le iscrizioni si applicano solo alle consegne E-mail e SMS."
+>abstract="Utilizza Adobe Campaign per creare e monitorare servizi come le newsletter e per verificare le iscrizioni o i loro annullamenti. Le iscrizioni si applicano solo alla consegna di e-mail e SMS."
 
 Utilizza Adobe Campaign Web per gestire e creare servizi come le newsletter e per controllarne e iscrizioni o gli annullamenti.
 
 >[!NOTE]
 >
->Le iscrizioni si applicano solo alle consegne E-mail e SMS.
+>Le iscrizioni si applicano solo alla consegna di e-mail e SMS.
 
 Possono essere definiti in parallelo diversi servizi, ad esempio: newsletter per specifiche categorie di prodotti, temi o aree di un sito web, iscrizioni a vari tipi di messaggi di avviso e notifiche in tempo reale.
 
