@@ -3,13 +3,13 @@ audience: end-user
 title: Utilizzare l’attività Fork nei flussi di lavoro
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Fork {#fork}
 
@@ -44,4 +44,3 @@ Nell’esempio seguente vengono utilizzate due attività **Fork**:
 * Una dopo l’intersezione, per inviare contemporaneamente un’e-mail e un SMS alla popolazione target.
 
 ![](../assets/workflow-fork-example.png)
-

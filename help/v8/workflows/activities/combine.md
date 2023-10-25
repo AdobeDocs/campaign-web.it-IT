@@ -3,13 +3,13 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 
 ---
-
 
 # Combina {#combine}
 
@@ -118,5 +118,3 @@ L’esempio seguente mostra l’**intersezione** tra due attività di query. In 
 Il seguente esempio di attività di **Esclusione** mostra due query configurate per filtrare i profili di età compresa tra i 18 e i 27 anni con un dominio e-mail di Adobe. I profili con un dominio e-mail di Adobe sono quindi esclusi dal primo set.
 
 ![](../assets/workflow-exclusion-example.png)
-
-

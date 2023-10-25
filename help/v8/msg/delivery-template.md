@@ -5,8 +5,8 @@ description: Scopri come creare e utilizzare i modelli di consegna in Campaign W
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 100%
@@ -204,5 +204,3 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 * [Ulteriori informazioni sull’anteprima del contenuto di SMS](../sms/content-sms.md)
 
 * [Ulteriori informazioni sull’anteprima dei contenuti push](../push/gs-push.md)
-
-

@@ -3,7 +3,8 @@ audience: end-user
 title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
@@ -72,7 +73,3 @@ L’invio di SMS di test è un passaggio importante per garantire la qualità e 
 Una volta inviata la consegna, puoi tenere traccia dei dati KPI (Key Performance Indicator) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
 
 Ora puoi iniziare a misurare l’impatto del messaggio utilizzando i rapporti incorporati. [Ulteriori informazioni](../reporting/sms-report.md)
-
-
-
-

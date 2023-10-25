@@ -3,13 +3,13 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # Modulo di pianificazione {#scheduler}
 
@@ -78,6 +78,3 @@ Per configurare l’attività del **Modulo di pianificazione**, segui questi pas
 Nell’esempio seguente, l’attività è configurata in modo che il flusso di lavoro venga eseguito diverse volte al giorno alle 9 e alle 12, ogni giorno della settimana dal 1° ottobre 2023 al 1° gennaio 2024.
 
 ![](../assets/workflow-scheduler2.png)
-
-
-
