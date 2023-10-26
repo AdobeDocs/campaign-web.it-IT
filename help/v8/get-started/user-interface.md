@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 89%
+source-wordcount: '1241'
+ht-degree: 88%
 
 ---
 
@@ -428,3 +428,52 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Condizione oggetto contenuto condizionale"
 >abstract="TBC"
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Proprietà pubblico"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Conteggio del pubblico"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_testprofiles"
+>title="Simulare profili di test"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_profiles_selection"
+>title="Simulare la selezione dei profili di test"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_send_testprofiles"
+>title="Simulare l’invio di profili di test"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_email_log"
+>title="Simula registro e-mail"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="Numero totale di abbonamenti"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="Iscrizioni nel periodo"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="Evoluzione complessiva delle sottoscrizioni"
+>abstract="TBC"

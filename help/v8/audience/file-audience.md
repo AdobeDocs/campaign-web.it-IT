@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
