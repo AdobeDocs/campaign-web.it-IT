@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 88%
+source-wordcount: '1343'
+ht-degree: 78%
 
 ---
 
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="Creazione di destinatari"
->abstract="TBC"
+>abstract="Creazione di destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Dettagli dei destinatari"
->abstract="TBC"
+>abstract="Dettagli dei destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Informazioni di contatto dei destinatari"
->abstract="TBC"
+>abstract="Informazioni di contatto dei destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Indirizzo destinatario"
->abstract="TBC"
+>abstract="Indirizzo destinatario"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Account destinatari"
->abstract="TBC"
+>abstract="Account destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Campi personalizzati dei destinatari"
->abstract="TBC"
+>abstract="Campi personalizzati dei destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Panoramica sulla scheda Destinatari"
->abstract="TBC"
+>abstract="Panoramica sulla scheda Destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="Punti di contatto dei destinatari"
->abstract="TBC"
+>abstract="Punti di contatto dei destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="Elenco iscrizioni destinatari"
->abstract="TBC"
+>abstract="Elenco iscrizioni destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="Selezione sottoscrizioni destinatari"
->abstract="TBC"
+>abstract="Selezione sottoscrizioni destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="Elenco idonei per le offerte dei destinatari"
->abstract="TBC"
+>abstract="Elenco idonei per le offerte dei destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="Anteprima delle offerte dei destinatari"
->abstract="TBC"
+>abstract="Anteprima delle offerte dei destinatari"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Modello di consegna delle sottoscrizioni"
->abstract="TBC"
+>abstract="Modello di consegna delle sottoscrizioni"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Pagine di destinazione"
->abstract="TBC"
+>abstract="Pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="Proprietà delle pagine di destinazione"
->abstract="TBC"
+>abstract="Proprietà delle pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Pagine di destinazione"
->abstract="TBC"
+>abstract="Pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Pianificazione delle pagine di destinazione"
->abstract="TBC"
+>abstract="Pianificazione delle pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Pagina principale delle pagine di destinazione"
->abstract="TBC"
+>abstract="Pagina principale delle pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="Iscrizione alle pagine di destinazione"
->abstract="TBC"
+>abstract="Iscrizione alle pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="Invito all’azione per le pagine di destinazione"
->abstract="TBC"
+>abstract="Invito all’azione per le pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="Simulazione pagine di destinazione"
->abstract="TBC"
+>abstract="Simulazione pagine di destinazione"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Attività non modificabile"
->abstract="TBC"
+>abstract="Attività non modificabile"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Frammenti"
->abstract="TBC"
+>abstract="Frammenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Salvataggio di frammenti"
->abstract="TBC"
+>abstract="Salvataggio di frammenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="Creazione di frammenti"
->abstract="TBC"
+>abstract="Creazione di frammenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Proprietà dei frammenti"
->abstract="TBC"
+>abstract="Proprietà dei frammenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Tipo di frammenti"
->abstract="TBC"
+>abstract="Tipo di frammenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Elenco frammenti"
->abstract="TBC"
+>abstract="Elenco frammenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Dettagli dei frammenti"
->abstract="TBC"
+>abstract="Dettagli dei frammenti"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Modello di contenuto"
->abstract="TBC"
+>abstract="Modello di contenuto"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Proprietà del modello di contenuto"
->abstract="TBC"
+>abstract="Proprietà del modello di contenuto"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Progettazione modello di contenuto"
->abstract="TBC"
+>abstract="Progettazione modello di contenuto"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Selezione del modello di contenuto"
->abstract="TBC"
+>abstract="Selezione del modello di contenuto"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Attività di caricamento file"
->abstract="TBC"
+>abstract="Attività di caricamento file"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Attività Reconciliation"
->abstract="TBC"
+>abstract="Attività Reconciliation"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Reconciliation targeting"
->abstract="TBC"
+>abstract="Reconciliation targeting"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Regole di riconciliazione"
->abstract="TBC"
+>abstract="Regole di riconciliazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Dimensione targeting riconciliazione"
->abstract="TBC"
+>abstract="Dimensione targeting riconciliazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Campo di selezione riconciliazione"
->abstract="TBC"
+>abstract="Campo di selezione riconciliazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Attributo selezione riconciliazione"
->abstract="TBC"
+>abstract="Attributo selezione riconciliazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="Condizione di creazione riconciliazione"
->abstract="TBC"
+>abstract="Condizione di creazione riconciliazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="Riconciliazione genera complemento"
->abstract="TBC"
+>abstract="Riconciliazione genera complemento"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="Filtro di salvataggio del contenuto condizionale"
->abstract="TBC"
+>abstract="Filtro di salvataggio del contenuto condizionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="Filtro di selezione del contenuto condizionale"
->abstract="TBC"
+>abstract="Filtro di selezione del contenuto condizionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="Contenuto condizionale nella riga dell’oggetto"
->abstract="TBC"
+>abstract="Contenuto condizionale nella riga dell’oggetto"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="Condizione oggetto contenuto condizionale"
->abstract="TBC"
+>abstract="Condizione oggetto contenuto condizionale"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Proprietà pubblico"
->abstract="TBC"
+>abstract="Proprietà pubblico"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Conteggio del pubblico"
->abstract="TBC"
+>abstract="Conteggio del pubblico"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulare profili di test"
->abstract="TBC"
+>abstract="Simulare profili di test"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Simulare la selezione dei profili di test"
->abstract="TBC"
+>abstract="Simulare la selezione dei profili di test"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Simulare l’invio di profili di test"
->abstract="TBC"
+>abstract="Simulare l’invio di profili di test"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="Simula registro e-mail"
->abstract="TBC"
+>abstract="Simula registro e-mail"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Numero totale di abbonamenti"
->abstract="TBC"
+>abstract="Numero totale di abbonamenti"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="Iscrizioni nel periodo"
->abstract="TBC"
+>abstract="Iscrizioni nel periodo"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evoluzione complessiva delle sottoscrizioni"
->abstract="TBC"
+>abstract="Evoluzione complessiva delle sottoscrizioni"
