@@ -4,21 +4,21 @@ title: Utilizzare l’attività Salva pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
 # Salvare il pubblico {#save-audience}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
--->
+>id="acw_orchestration_saveaudience"
+>title="Salva un pubblico"
+>abstract="Utilizza questa attività per aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte nel flusso di lavoro. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico e sono disponibili tramite **Tipi di pubblico** menu."
+
 
 L’attività **Salva pubblico** è un’attività di **targeting**. Questa attività consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il menu **Tipi di pubblico**.
 
