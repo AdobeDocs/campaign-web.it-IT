@@ -5,9 +5,9 @@ description: Scopri come utilizzare i destinatari da un file esterno per creare 
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

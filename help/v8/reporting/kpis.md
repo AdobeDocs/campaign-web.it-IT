@@ -1,21 +1,21 @@
 ---
-title: Indicatori prestazioni chiave
-description: Scopri come comprendere gli indicatori prestazioni chiave
+title: Indicatori chiave di performance
+description: Scopri come comprendere gli indicatori chiave di performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Indicatori prestazioni chiave {#kpis}
+# Indicatori chiave di performance {#kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="Indicatori chiave di performance"
->abstract="Il **Indicatori chiave di prestazione** Questa sezione ti consente di controllare l’efficacia della piattaforma tramite i KPI più comuni."
+>abstract="La sezione **Indicatori chiave di performance** consente di verificare l’efficacia della piattaforma tramite KPI comuni."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -96,7 +96,7 @@ Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:tracki
 
 >[!NOTE]
 >
-> I KPI per abbonamento e annullamento dell’abbonamento variano in base al tipo di servizio. Ad esempio, gli abbonamenti e gli annullamenti di abbonamenti e-mail comprendono tutti i servizi relativi alle e-mail, sia che derivino da azioni manuali che da moduli web. È importante distinguere questo approccio dalla metrica di annullamento dell’abbonamento a livello di consegna, che tiene traccia dei clic sui collegamenti di annullamento dell’abbonamento anziché degli utenti effettivamente non iscritti.
+> I KPI per l’iscrizione e l’annullamento dell’iscrizione variano in base al tipo di servizio. Ad esempio, le iscrizioni e gli annullamenti di iscrizioni alle e-mail comprendono tutti i servizi relativi alle e-mail, sia che derivino da azioni manuali che da moduli web. È importante distinguere questo approccio dalla metrica di annullamento dell’iscrizione a livello di consegna, che tiene traccia dei clic sui collegamenti all’annullamento dell’iscrizione anziché degli utenti effettivamente che l’hanno annullata.
 
 I destinatari devono essere in grado di ricorrere alla funzione di rinuncia alla ricezione di e-mail e SMS tramite un collegamento dedicato di annullamento dell’abbonamento nel contenuto dell’e-mail o rispondendo INTERROMPI a un SMS.
 

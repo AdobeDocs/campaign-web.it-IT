@@ -5,9 +5,9 @@ description: Scopri come accedere ai rapporti sulle consegne sms e come utilizza
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -104,9 +104,9 @@ Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Velocità effettiva di consegna SMS"
->abstract="Il **Velocità effettiva di consegna** Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna entro un intervallo di tempo specificato.  La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora."
+>title="Velocità di consegna SMS"
+>abstract="Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità di consegna entro un arco temporale specifico.  La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora."
 
-Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna in un arco temporale specificato. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Questo rapporto presenta informazioni dettagliate sulla velocità di consegna in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
 ![](assets/reporting_sms_2.png)

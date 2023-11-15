@@ -4,9 +4,9 @@ description: Scopri come utilizzare i destinatari di Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Puoi anche accedere ai destinatari dalla vista **Explorer**, sfogliare e creare 
 >
 >La possibilità di accedere all’elenco completo dei destinatari archiviati nel database dipende dalle autorizzazioni di cui disponi. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../get-started/permissions.md).
 
-Inoltre, puoi gestire l’iscrizione e l’annullamento dell’iscrizione dei destinatari a servizi quali le newsletter. Scopri come utilizzare i servizi di abbonamento in [questa pagina](manage-services.md)
+Inoltre, puoi gestire l’iscrizione e l’annullamento dell’iscrizione dei destinatari a servizi quali le newsletter. Scopri come utilizzare i servizi di iscrizione in [questa pagina](manage-services.md)
 
 Puoi creare flussi di lavoro per deduplicare, arricchire, combinare i profili e creare tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
 
 ## Cosa sono i tipi di pubblico? {#audiences}
 
-Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. Ulteriori informazioni sui modelli di consegna in [questa pagina](../msg/delivery-template.md).
+Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. Ulteriori informazioni sui modelli di consegna sono disponibili in [questa pagina](../msg/delivery-template.md).
 
 Per definire la popolazione di un pubblico, puoi:
 

@@ -5,9 +5,9 @@ description: Scopri come accedere ai rapporti sulle consegne e-mail e come utili
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

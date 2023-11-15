@@ -5,9 +5,9 @@ description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flussi di lavoro"
->abstract="In questa schermata, puoi accedere all’elenco completo dei flussi di lavoro autonomi e della campagna, controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro. Passa alla scheda Modelli per accedere ai modelli di flusso di lavoro disponibili."
+>abstract="In questa schermata, puoi accedere all’elenco completo dei flussi di lavoro autonomi e della campagna, controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro. Passa alla scheda “Modelli” per accedere ai modelli di flusso di lavoro disponibili."
 
 Il menu **[!UICONTROL Flussi di lavoro]** consente di accedere all’elenco completo dei flussi di lavoro. Questo elenco include sia i **flussi di lavoro autonomi** che sono stati creati da questa schermata sia i **flussi di lavoro della campagna**, che sono stati creati all’interno di una campagna.
 

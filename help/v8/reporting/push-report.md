@@ -5,9 +5,9 @@ description: Scopri come accedere ai rapporti sulle consegne push e come utilizz
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Panoramica della consegna push"
+>title="Panoramica sulla consegna push"
 >abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 Il rapporto **[!UICONTROL Panioramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.

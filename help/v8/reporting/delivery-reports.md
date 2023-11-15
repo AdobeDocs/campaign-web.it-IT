@@ -5,9 +5,9 @@ description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Esporta"
->abstract="Fai clic su **Esporta** per esportare queste metriche nei formati PDF o CSV, che consentono di condividerle o stamparle. "
+>abstract="Fai clic sul pulsante **Esporta** per esportare queste metriche nei formati PDF o CSV, che consentono di condividerle o di stamparle. "
 
 Adobe Campaign offre diversi tipi di rapporti, accessibili per ogni consegna. Questi rapporti consentono di misurare e visualizzare l’impatto e le prestazioni dei messaggi in una dashboard integrata.
 

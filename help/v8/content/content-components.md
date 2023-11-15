@@ -5,9 +5,9 @@ description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
 source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire nell’e-mail un f
 
 1. Fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse. Puoi anche scegliere di **[!UICONTROL Importare i contenuti multimediali]**.
 
-   Per ulteriori informazioni su come caricare e aggiungere risorse in Adobe Experience Manager, consulta [Documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+   Per ulteriori informazioni su come caricare e aggiungere risorse in Adobe Experience Manager, consulta la [documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=it).
 
    ![](assets/email_designer_28.png)
 
