@@ -5,7 +5,7 @@ description: Introduzione all’assistente ai contenuti
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
