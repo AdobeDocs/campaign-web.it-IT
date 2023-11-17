@@ -3,10 +3,10 @@ title: Indicatori chiave di performance
 description: Scopri come comprendere gli indicatori chiave di performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 93%
 
 ---
 
@@ -87,6 +87,23 @@ L’indicatore **Clic** mostra i KPI seguenti per ogni canale:
 Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:trackingStats`). Questa tabella aggregata viene utilizzata per motivi di prestazioni quando si visualizzano i report al posto della tabella dei registri di tracciamento dei destinatari (`nms:trackingLogRcp`) e non viene calcolata in tempo reale. La tabella viene generata pochi minuti dopo il recupero dei registri di tracciamento.
 
 
+## Tassi di abbonamento {#ui-sub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Abbonamenti"
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli abbonamenti a un servizio e la percentuale di abbonamenti rispetto al numero totale di messaggi consegnati con successo."
+
+
+I destinatari possono acconsentire alle comunicazioni e-mail e SMS.
+
+Il **Iscrizioni** L’indicatore mostra i KPI seguenti, per ogni canale la percentuale del numero di abbonamenti rispetto al numero totale di messaggi consegnati con successo.
+
+
+>[!NOTE]
+>
+> I KPI per l’iscrizione e l’annullamento dell’iscrizione variano in base al tipo di servizio. Ad esempio, le iscrizioni e gli annullamenti di iscrizioni alle e-mail comprendono tutti i servizi relativi alle e-mail, sia che derivino da azioni manuali che da moduli web. È importante distinguere questo approccio dalla metrica di annullamento dell’iscrizione a livello di consegna, che tiene traccia dei clic sui collegamenti all’annullamento dell’iscrizione anziché degli utenti effettivamente che l’hanno annullata.
+
 ## Percentuali di annullamento dell’abbonamento {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
@@ -94,9 +111,6 @@ Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:tracki
 >title="Annullamenti dell’iscrizione"
 >abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli annullamenti di iscrizione a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
 
->[!NOTE]
->
-> I KPI per l’iscrizione e l’annullamento dell’iscrizione variano in base al tipo di servizio. Ad esempio, le iscrizioni e gli annullamenti di iscrizioni alle e-mail comprendono tutti i servizi relativi alle e-mail, sia che derivino da azioni manuali che da moduli web. È importante distinguere questo approccio dalla metrica di annullamento dell’iscrizione a livello di consegna, che tiene traccia dei clic sui collegamenti all’annullamento dell’iscrizione anziché degli utenti effettivamente che l’hanno annullata.
 
 I destinatari devono essere in grado di ricorrere alla funzione di rinuncia alla ricezione di e-mail e SMS tramite un collegamento dedicato di annullamento dell’abbonamento nel contenuto dell’e-mail o rispondendo INTERROMPI a un SMS.
 
@@ -106,6 +120,10 @@ L’indicatore **Annullamenti dell’abbonamento** mostra i KPI seguenti per ogn
 
 * La somma di tutti i clic su un collegamento di annullamento dell’abbonamento, ovvero con una categoria URL equivalente a “Rinuncia”.
 
+
+>[!NOTE]
+>
+> I KPI per l’iscrizione e l’annullamento dell’iscrizione variano in base al tipo di servizio. Ad esempio, le iscrizioni e gli annullamenti di iscrizioni alle e-mail comprendono tutti i servizi relativi alle e-mail, sia che derivino da azioni manuali che da moduli web. È importante distinguere questo approccio dalla metrica di annullamento dell’iscrizione a livello di consegna, che tiene traccia dei clic sui collegamenti all’annullamento dell’iscrizione anziché degli utenti effettivamente che l’hanno annullata.
 
 ## Percentuali di errore {#ui-error-kpi}
 
