@@ -3,10 +3,10 @@ title: Indicatori chiave di performance
 description: Scopri come comprendere gli indicatori chiave di performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 93%
+source-wordcount: '1196'
+ht-degree: 82%
 
 ---
 
@@ -141,3 +141,23 @@ L’indicatore **Errori** mostra i KPI seguenti per ogni canale:
 * Percentuale del numero di errori rispetto al numero totale di messaggi da consegnare.
 
 * Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei messaggi restituiti.
+
+## Messaggio inviato {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Inviato"
+>abstract="Questa metrica mostra, per il canale di direct mailing, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
+
+Durante la fase di preparazione, viene generato il file di estrazione della direct mailing, ma le informazioni relative ai destinatari (ad esempio i registri di consegna) non vengono aggiornate.  Lo stato di una consegna spostata da In attesa di consegna a Inviata quando l’utente di Campaign conferma l’invio della consegna. Quindi la consegna viene impostata su Finished.
+
+Non può mai essere il 100% dei messaggi inviati rispetto al totale dei messaggi preparati, in quanto alcuni indirizzi possono essere mancanti o incompleti.
+
+Il **Inviato** L&#39;indicatore mostra i KPI seguenti per il canale Direct mailing:
+
+* Percentuale del numero di messaggi inviati rispetto al numero totale di messaggi preparati.
+
+* Somma di tutti i messaggi inviati.
+
