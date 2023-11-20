@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -406,6 +406,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_reconciliation_complement"
 >title="Complemento generato da riconciliazione"
 >abstract="Complemento generato da riconciliazione"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_keep_unreconciled_data"
+>title="Opzione per mantenere i dati non riconciliati della riconciliazione"
+>abstract="Opzione per mantenere i dati non riconciliati della riconciliazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
