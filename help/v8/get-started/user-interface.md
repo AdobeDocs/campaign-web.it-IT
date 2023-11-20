@@ -6,8 +6,8 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1415'
+ht-degree: 98%
 
 ---
 
