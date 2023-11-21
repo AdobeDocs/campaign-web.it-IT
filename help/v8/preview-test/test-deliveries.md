@@ -4,10 +4,10 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+workflow-type: tm+mt
+source-wordcount: '1190'
+ht-degree: 94%
 
 ---
 
@@ -69,6 +69,10 @@ Per iniziare a testare il contenuto del messaggio:
 >title="File modello"
 >abstract="La formattazione del file deve essere uguale a quella del file originale.<br/>Formati di file supportati: txt, csv. Dimensione massima del file: 15 MB. Utilizza la prima riga come intestazione di colonna."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Includere i profili di test nel pubblico principale"
+>abstract="Abilita questa opzione per inviare anche il messaggio finale ai destinatari della consegna di test."
 
 I profili di test sono indirizzi seed, che sono destinatari aggiuntivi nel database. Possono essere creati anche nella console client di [!DNL Adobe Campaign]. Di seguito sono riportati i passaggi per inviare messaggi di test a indirizzi seed.
 
@@ -90,7 +94,9 @@ I profili di test sono indirizzi seed, che sono destinatari aggiuntivi nel datab
 
 ## Sostituire i dati del profilo {#substitution-profiles}
 
-Utilizza la sostituzione del profilo per inviare messaggi di test a un indirizzo e-mail o a un numero di telefono specifico, mentre i dati visualizzati nel messaggio corrispondono a quelli di un profilo esistente del database di [!DNL Adobe Campaign]. A tale scopo, segui i passaggi indicati di seguito:
+Utilizza la sostituzione del profilo per inviare messaggi di test a un indirizzo e-mail o a un numero di telefono specifico, mentre i dati visualizzati nel messaggio corrispondono a quelli di un profilo esistente del database di [!DNL Adobe Campaign]. Puoi selezionare questa modalità solo se il pubblico della consegna è stato definito.
+
+Per sostituire i dati di profilo dal target principale, effettua le seguenti operazioni:
 
 
 1. Dal contenuto della consegna, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e sul pulsante **[!UICONTROL Test]**.
@@ -119,9 +125,9 @@ Utilizza la sostituzione del profilo per inviare messaggi di test a un indirizzo
 
 1. Una volta selezionati i profili di sostituzione, puoi [inviare la consegna di test](#send-test).
 
-## Inviare i test agli iscritti {#subscribers}
+## Inviare test agli abbonati all’app {#subscribers}
 
-Quando si utilizzano le notifiche push, le consegne di test possono essere inviate solo agli utenti iscritti che usano l’app. Per selezionarli, segui questi passaggi.
+Durante la progettazione con notifiche push, le consegne di test possono essere inviate solo agli abbonati all’app. Per selezionarli, segui questi passaggi.
 
 1. Dal contenuto della consegna push, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e sul pulsante **[!UICONTROL Test]**.
 
