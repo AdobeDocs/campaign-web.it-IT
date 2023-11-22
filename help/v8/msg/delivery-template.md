@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1047'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,7 @@ Per un processo di progettazione più rapido e migliore, puoi creare modelli di 
 
 Un modello può includere:
 
+* Il **cartella** e **cartella di esecuzione** del modello. La cartella è il percorso in cui viene salvato il modello di consegna. La cartella di esecuzione è la cartella in cui vengono salvate le consegne create in base a questo modello.
 * [Tipologie](../advanced-settings/delivery-settings.md#typology)
 * L’indirizzo del mittente
 * Un [pubblico](../audience/about-recipients.md), compresi [gruppi di controllo](../audience/control-group.md)
@@ -47,9 +48,8 @@ Un modello può includere:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Utilizzare i modelli di consegna"
->abstract="Utilizza i modelli di consegna per creare e salvare facilmente le consegne esistenti per riutilizzarle in futuro."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=it#copy-an-existing-template" text="Duplicare un modello esistente"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=it#convert-an-existing-delivery" text="Convertire una consegna in un modello"
+>abstract="Utilizza i modelli di consegna per creare e salvare le impostazioni di consegna da utilizzare in futuro nelle campagne. Puoi creare modelli di consegna da zero, duplicare un modello esistente o convertire una consegna in un modello."
+
 
 Per accedere all’elenco dei modelli di contenuto, dal menu a sinistra seleziona **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** e passa alla scheda **Modelli**.
 
@@ -120,7 +120,7 @@ Qualsiasi consegna può essere convertita in un modello da riutilizzare in futur
 
 Per salvare una consegna come modello, segui i passaggi seguenti:
 
-1. Vai al menu **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]**.
+1. Accedi a **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** menu.
 1. Nella scheda **[!UICONTROL Sfoglia]**, fai clic sul pulsante **[!UICONTROL Altre azioni]** a destra del nome della consegna desiderata e seleziona **[!UICONTROL Copia come modello]**.
 
    ![](assets/templates-convert-delivery.png)
