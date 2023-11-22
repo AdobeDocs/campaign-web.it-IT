@@ -3,10 +3,10 @@ title: Utilizzare destinatari e tipi di pubblico
 description: Scopri come utilizzare i destinatari di Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
-workflow-type: ht
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,8 +18,8 @@ In Adobe Campaign, la popolazione target di una consegna è un “pubblico”. U
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Destinatari"
->abstract="Un destinatario è un profilo destinato a ricevere i messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare il profilo del destinatario. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi del destinatario."
+>title="Profili"
+>abstract="Un profilo è una persona il cui target è la ricezione di messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare il profilo del destinatario. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi del destinatario."
 
 Un destinatario è un profilo destinato a ricevere i messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). I dati dei destinatari memorizzati nel database consentono di creare tipi di pubblico che riceveranno una determinata consegna e di aggiungere dati di personalizzazione al contenuto della consegna. Nel database sono presenti altri tipi di profili. Sono progettati per utilizzi diversi: ad esempio, i profili seed vengono usati per testare le consegne prima di inviarle al pubblico finale.
 
