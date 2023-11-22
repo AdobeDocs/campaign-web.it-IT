@@ -4,10 +4,10 @@ title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 100%
+source-wordcount: '2159'
+ht-degree: 97%
 
 ---
 
@@ -30,13 +30,13 @@ Queste impostazioni sono accessibili tramite l’icona **Configura impostazioni 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
+>abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione. Le tipologie e le relative regole vengono create nella console client di Campaign."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Impostazioni della tipologia per la consegna"
->abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
+>abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione. Le tipologie e le relative regole vengono create nella console client di Campaign."
 
 
 Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di preparazione. Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione della consegna.  Consentono di assicurarti che le e-mail contengano sempre alcuni elementi, come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto (ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati).
@@ -48,7 +48,9 @@ Durante l’associazione di una tipologia a un messaggio o a un modello di messa
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>Le tipologie e le relative regole vengono create nella console client di Campaign. Per ulteriori informazioni sulle regole di pressione e su come configurare la gestione dell’eccesso, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
 
 ### Parametri di pressione {#pressure-parameters}
 
@@ -83,7 +85,9 @@ Utilizza il campo **Modalità di consegna** per selezionare la modalità di valu
 * **Stima e approvazione del target provvisorio**
 * **Valutazione del target**
 
-La gestione dell’eccesso di comunicazioni può essere eseguita mediante il componente aggiuntivo **Ottimizzazione di Campaign**. Per ulteriori informazioni sulle regole di pressione e su come configurare la gestione dell’eccesso, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}.
+>[!NOTE]
+>
+>La gestione dell’eccesso è configurata nella console client di Campaign. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}.
 
 ### Impostazioni capacità {#capacity-settings}
 
@@ -103,7 +107,9 @@ In questa sezione puoi selezionare una regola di capacità definita nella consol
 
 Il campo **importanza del destinatario** è una formula utilizzata per determinare quali destinatari vengono mantenuti in caso di superamento delle regole di tipologia della capacità.
 
-Per ulteriori informazioni sulle regole di coerenza e capacità e su come configurarle, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=it){target="_blank"}.
+>[!NOTE]
+>
+>Le regole di tipologia sono configurate nella console client di Campaign. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=it){target="_blank"}.
 
 
 ## Impostazioni pubblico {#audience}
@@ -145,7 +151,9 @@ In questa sezione, puoi selezionare un account di analisi web. Questo account è
 
 Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 
-Per ulteriori informazioni sull’analisi web e Campaign, consula la [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+>[!NOTE]
+>
+>Le funzionalità di analisi web sono configurate nella console client di Campaign. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 
 ### Nuovi tentativi {#retries}
