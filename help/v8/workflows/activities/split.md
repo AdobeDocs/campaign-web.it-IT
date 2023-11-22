@@ -4,9 +4,9 @@ title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -39,6 +39,10 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >title="Ordinamento attività Dividi"
 >abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Complemento generato da divisione"
+>abstract="Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **Genera complemento**."
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
