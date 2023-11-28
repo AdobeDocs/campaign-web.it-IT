@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
+source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1495'
 ht-degree: 93%
 
 ---
@@ -356,14 +356,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Selezione del modello di contenuto"
 
 
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Attività di caricamento file"
->abstract="Attività di caricamento file"
 
 
 
