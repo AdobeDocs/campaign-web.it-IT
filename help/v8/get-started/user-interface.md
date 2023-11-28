@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 96%
+source-wordcount: '1501'
+ht-degree: 93%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Proprietà contenuto per Direct Mail"
 >abstract="Proprietà contenuto per Direct Mail"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Attività di caricamento file"
+>abstract="Attività di caricamento file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="File di esempio"
+>abstract="File di esempio"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Nome del file"
+>abstract="Nome del file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Database di destinazione"
+>abstract="Database di destinazione"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Gestione dei rifiuti per l&#39;attività di caricamento file"
+>abstract="Gestione dei rifiuti per l&#39;attività di caricamento file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Rifiuta transizione in uscita di gestione"
+>abstract="Rifiuta transizione in uscita di gestione"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Rifiuta la transizione in uscita della gestione per i rifiuti"
+>abstract="Rifiuta la transizione in uscita della gestione per i rifiuti"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formattazione per l&#39;attività di caricamento file"
+>abstract="Formattazione per l&#39;attività di caricamento file"
+
