@@ -4,10 +4,10 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ In base a un [modello di progettazione](../content/email-sample-templates.md) pr
 >title="Definire le proprietà dell’e-mail"
 >abstract="Le proprietà sono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Le impostazioni aggiuntive sono facoltative. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
 
-Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna e-mail autonoma (singola). Se stai utilizzando il contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna e-mail autonoma (singola). Ulteriori informazioni sui passaggi di creazione della consegna in Adobe Campaign in [questa pagina](../msg/gs-deliveries.md).
 
 Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di seguito.
 
