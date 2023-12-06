@@ -4,10 +4,10 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 98%
 
 ---
 
@@ -45,8 +45,8 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
 * Il **[!UICONTROL Messaggio dati]** è gestito dall’app client. Questi messaggi vengono inviati direttamente all’app mobile, che genera e visualizza una notifica Android sul dispositivo. I messaggi di dati contengono solo variabili dell’applicazione personalizzate.
 
-  Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fai clic sul campo **[!UICONTROL Messaggio]** e utilizza l’editor di espressioni. Puoi accedere a questo editor per personalizzare i messaggi
-Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
+  Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fai clic sul campo **[!UICONTROL Messaggio]** e utilizza l’editor di espressioni. Puoi accedere a questo editor per personalizzare i messaggi.
+In **[!UICONTROL Variabili dell’applicazione]** , le variabili dell&#39;applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
   ![](assets/push_content_4.png)
 
@@ -81,36 +81,36 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="Modalità avviso critico per iOS"
+>title="Modalità avviso critico"
 >abstract="Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se il dispositivo è silenzioso. In questo modo gli utenti vengono informati in ogni caso di avvisi importanti."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Numero badge per iOS"
+>title="Numero badge"
 >abstract="Utilizza questa opzione per impostare il numero di nuove informazioni non lette da visualizzare direttamente sull’icona dell’app. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="Contenuto modificabile per iOS"
+>title="Contenuto modificabile"
 >abstract="Utilizzare questa opzione per consentire all’app mobile di scaricare il contenuto multimediale associato alla notifica."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="Punteggio rilevanza per iOS"
+>title="Punteggio rilevanza"
 >abstract="Imposta un punteggio di rilevanza da 0 a 100 per assegnare la priorità all’ordine delle notifiche nel relativo riepilogo. Punteggi più alti indicano notifiche più importanti."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Variabili dell’applicazione per iOS"
+>title="Variabili dell’applicazione"
 >abstract="Utilizza le variabili dell’applicazione per definire il comportamento della notifica. Queste variabili sono completamente personalizzabili e sono incluse nel payload del messaggio inviato al dispositivo mobile."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="ID categoria per iOS"
+>title="ID categoria"
 >abstract="Specifica il nome dell’ID categoria associato alla notifica. Questo abilita la visualizzazione dei pulsanti di azione, consentendo all’utente di eseguire varie attività direttamente dalla notifica senza aprire l’applicazione."
 
 
