@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Rapporti sulla campagna per il canale e-mail
+title: Rapporti sulle campagne per il canale e-mail
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-mail
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 100%
+source-wordcount: '1572'
+ht-degree: 86%
 
 ---
 
@@ -30,15 +30,15 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
+* **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Aperture distinte]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Totale aperture]**: numero totale di destinatari di destinazione che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Clic distinti]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
+* **[!UICONTROL Clic totali]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
 
 +++
 
@@ -48,7 +48,6 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiche iniziali sul pubblico target"
 >abstract="La tabella Statistiche iniziali sul pubblico target mostra i dati relativi ai destinatari"
-
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
@@ -65,7 +64,6 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 +++
 
 ### Statistiche di esecuzione {#delivery-summary-email-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
@@ -88,7 +86,6 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
   I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
-
 +++
 
 ### Statistiche di reazione {#delivery-summary-email-reaction-stats}
@@ -98,16 +95,15 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 >title="Statistiche di reazione"
 >abstract="La tabella **Statistiche di reazione** mostra i dati disponibili per l’attività del destinatario della consegna: numero di aperture, iscrizioni, annullamenti di iscrizioni, clic sul collegamento alla pagina mirror."
 
-
 La tabella **[!UICONTROL Statistiche di reazione]** contiene i dati disponibili per l’attività del destinatario della consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_4.png)
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Aperture distinte]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture univoche]**: numero totale di destinatari di destinazione che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Aperture]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture totali]**: numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
 * **[!UICONTROL Annullamenti iscrizione]**: numero di destinatari che hanno fatto clic sull’annullamento delle iscrizioni per il periodo in questione.
 
@@ -129,9 +125,9 @@ La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al mo
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Clic distinti]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
+* **[!UICONTROL Clic univoci]**: numero totale di destinatari univoci che hanno fatto clic su una consegna almeno una volta.
 
-* **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
+* **[!UICONTROL Clic totali]**: numero totale di clic sui collegamenti nelle consegne.
 
 * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 
@@ -140,7 +136,6 @@ La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al mo
 ## Non consegnabili {#non-deliverables-email}
 
 ### Raggruppamento degli errori per tipo {#delivery-summary-email-breakdown-per-type}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
@@ -171,7 +166,6 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 
 +++
 
-
 ### Raggruppamento degli errori per dominio {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
@@ -179,14 +173,11 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 >title="Raggruppamento degli errori per dominio"
 >abstract="La tabella e il grafico **Raggruppamento degli errori per dominio** contengono i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
 
-
 La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili dei possibili errori riscontrati in ciascun dominio. Le metriche sono comuni alla tabella e al grafico **[!UICONTROL Raggruppamento degli errori per tipo]** descritti in precedenza.
-
 
 ## Indicatori di tracciamento {#tracking-indicators-email}
 
 ### Statistiche consegna {#delivery-summary-email-statistics}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
@@ -199,11 +190,11 @@ Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave d
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
+* **[!UICONTROL Messaggio/i da consegnare]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Aperture distinte]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture univoche]**: numero totale di destinatari di destinazione che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Aperture]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture totali]**: numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
 * **[!UICONTROL Clic sul collegamento di rinuncia]**: numero di clic sul collegamento di annullamento dell’iscrizione.
 
@@ -214,29 +205,27 @@ Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave d
 
 ### Percentuale di apertura e click-through {#delivery-summary-open-rate}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Percentuale di apertura e click-through"
 >abstract="La tabella **Percentuale di apertura e click-through** mostra i dati relativi al coinvolgimento dei destinatari nella consegna."
 
-
-
 La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_8.png)
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++ Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Inviati]**: numero totale di messaggi inviati.
 
-* **[!UICONTROL Reclami]**: numero di messaggi per questo dominio che sono stati segnalati come indesiderati dal destinatario.
+* **[!UICONTROL Reclami]**: numero e percentuale di messaggi per questo dominio che sono stati segnalati come indesiderati dal destinatario.
 
-* **[!UICONTROL Aperture]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture univoche]**: numero e percentuale di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Clic]**: numero di destinatari target distinti che hanno fatto clic almeno una volta nella stessa consegna.
+* **[!UICONTROL Clic univoci]**: numero e percentuale di destinatari di destinazione distinti che hanno fatto clic almeno una volta nella stessa consegna.
 
 * **[!UICONTROL Reattività raw]**: percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
+
 +++
 
 ## URL e flussi di clic {#url-email}
@@ -250,15 +239,16 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 
 ![](assets/campaign_report_email_9.png)
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++ Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 
-* **[!UICONTROL Clic distinti]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
+* **[!UICONTROL Clic univoci]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
 
-* **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
+* **[!UICONTROL Clic totali]**: numero totale di clic sui collegamenti nelle consegne.
 
 * **[!UICONTROL Media piattaforma]**: questa media, visualizzata sotto ogni valore (reattività, clic distinti e clic cumulativi), è calcolata per le consegne inviate nei sei mesi precedenti. Vengono prese in considerazione solo le consegne con la stessa tipologia e sullo stesso canale. Le bozze sono escluse.
+
 +++
 
 ### 10 collegamenti più visitati {#top10-campaign-report-email}
@@ -267,7 +257,6 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="10 collegamenti più visitati"
 >abstract="Il grafico e la tabella **10 collegamenti più visitati** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento."
-
 
 Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
 
@@ -283,17 +272,14 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 ### Raggruppamento dei clic nel tempo {#campaign-report-email-breakdown-clicks}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Raggruppamento dei clic nel tempo"
->abstract="Il grafico **Raggruppamento dei clic nel tempo** mostra i dati disponibili sul comportamento dei destinatari in base al collegamento."
+>abstract="Il grafico **Raggruppamento dei clic nel tempo** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento."
 
-
-Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili sul comportamento dei destinatari in base al collegamento.
+Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
 ![](assets/campaign_report_email_11.png)
-
 
 ## Attività degli utenti {#user-activities-email}
 
