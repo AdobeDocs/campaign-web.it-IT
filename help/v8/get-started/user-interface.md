@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1503'
 ht-degree: 91%
 
 ---
@@ -570,31 +570,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Formattazione per l&#39;attività di caricamento file"
 >abstract="Formattazione per l&#39;attività di caricamento file"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_customcondition"
->title="Condizione personalizzata"
->abstract="Condizione personalizzata"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="Proprietà della regola"
->abstract="Proprietà della regola"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_selectaudience"
->title="Seleziona il tipo di pubblico"
->abstract="Seleziona il tipo di pubblico"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_predefinedfilter"
->title="Filtro preimpostato"
->abstract="Filtro preimpostato"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Gruppo"
->abstract="Gruppo"
