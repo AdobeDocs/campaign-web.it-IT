@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '591'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="Questo flusso di lavoro è di sola lettura"
->abstract="Impossibile modificare il flusso di lavoro a causa di aree di lavoro non supportate o non compatibili."
+>abstract="Impossibile modificare il flusso di lavoro a causa di area di lavoro non supportata o non compatibile."
 
 Il controllo degli accessi può limitare l’accesso a oggetti e dati da elenchi principali, come consegne, destinatari o flussi di lavoro. Queste restrizioni si applicano anche nella struttura di navigazione di **Explorer**. È inoltre necessario disporre delle autorizzazioni per creare, eliminare, duplicare e modificare oggetti dall’interfaccia utente.
 
