@@ -2,19 +2,14 @@
 audience: end-user
 title: Utilizzare Query Modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # Utilizzare Query Modeler {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Tipi di pubblico di destinazione"
->abstract="Creare un target di consegna non è mai stato così semplice! Con il modellatore di query più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Sfrutta il pubblico di Adobe Experience Platform per affinare ulteriormente la definizione del tuo pubblico target e massimizzare l’impatto della campagna."
 
 ## Panoramica di Query Modeler {#overview}
 
