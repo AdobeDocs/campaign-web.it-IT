@@ -1,54 +1,94 @@
 ---
 audience: end-user
-title: Utilizzare un pubblico di Adobe Experience Platform
-description: Scopri come utilizzare un pubblico da Adobe Experience Platform
+title: Creare un pubblico con il generatore di regole di Campaign
+description: Scopri come utilizzare il generatore di regole
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: cbf1021c722aeff5f7ce384a29467576d5f83ab2
+source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
-# Utilizzare un pubblico di Adobe Experience Platform{#aep-audience}
+# Utilizzare il generatore di regole {#segment-builder}
 
-I connettori di origine e destinazione del Cloud Service gestito di Adobe Campaign consentono un’integrazione ottimizzata tra Adobe Campaign e Adobe Experience Platform.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Tipi di pubblico di destinazione"
+>abstract="Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Sfrutta il pubblico di Adobe Experience Platform per affinare ulteriormente la definizione del tuo pubblico target e massimizzare l’impatto della campagna."
 
-Dopo aver creato un pubblico di Adobe Experience Platform e averlo reso disponibile nella console client, puoi utilizzarlo nello stesso modo in cui lo useresti per un pubblico di Campaign per personalizzare e inviare messaggi.
+Il generatore di regole consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando l’attività **[!UICONTROL Crea pubblico]** o direttamente durante la creazione di una consegna per creare un pubblico una tantum.
 
->[!NOTE]
->
->Per utilizzare i tipi di pubblico di Adobe Experience Platform in Campaign, devi configurare l’integrazione con origini e destinazioni di Adobe. Consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
+* [Scopri come creare un pubblico](create-audience.md)
+* [Scopri come creare un pubblico una tantum per una consegna](one-time-audience.md)
 
-Per selezionare il pubblico di una consegna, puoi anche:
+## La palette
 
-* Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
-* Caricare un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
-* Utilizzare un pubblico esistente di Campaign. [Ulteriori informazioni](add-audience.md).
+La palette, situata a sinistra, contiene tutti gli elementi in base a cui applicare un filtro per creare un pubblico. Puoi usare la barra di ricerca per trovare rapidamente gli elementi. Per poter essere configurate e prese in considerazione, le sezioni della palette devono essere spostate nell’area di lavoro centrale.
 
-Per selezionare un pubblico di Adobe Experience Platform per la consegna, segui questi passaggi:
+![](assets/segment-builder2.png){width="70%" align="left"}
 
-1. Dalla sezione **Pubblico** nell’assistente per la creazione della consegna, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
+La palette è divisa in due schede:
 
-   ![](assets/create-audience.png)
+* **Attributi**: questa scheda consente di accedere a tutti i campi disponibili provenienti dallo schema. L’elenco dei campi dipende dallo schema di targeting definito nel modello e-mail.
 
-1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea nuovo**. Fai riferimento a questa [sezione](segment-builder.md).
+* **Tipi di pubblico**: questa scheda consente di filtrare utilizzando uno dei tipi di pubblico esistenti definiti nella console Campaign Classic o da Adobe Experience Platform. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
 
-   In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti che sono stati definiti nella console client di Adobe Campaign per la cartella corrente. Per scegliere un pubblico da Adobe Experience Platform, passa a `AEP Audiences folder` dalla sezione filtro dello schermo.
+  >[!NOTE]
+  >
+  >Per sfruttare i tipi di pubblico di Adobe Experience Platform, devi configurare l’integrazione con le destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
-   ![](assets/select-audience-folder.png)
+## L’area di lavoro
 
-   Puoi anche definire una regola per filtrare in base all’origine dei tipi di pubblico, nel modo seguente:
+L’area di lavoro è la zona centrale dove puoi configurare e combinare le regole in base agli elementi aggiunti dalla palette. Per aggiungere una nuova regola, trascina una sezione dalla palette e rilasciala nell’area di lavoro. Puoi quindi visualizzare opzioni specifiche per il contesto in base al tipo di dati aggiunti.
 
-   ![](assets/filter-on-aep-audience.png)
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-1. Scegli un pubblico e fai clic su **Seleziona**.
+## Il riquadro delle proprietà delle regole
 
-1. Per perfezionare il pubblico, fai clic su **Modifica regole**.
+Sul lato destro, il riquadro **Proprietà delle regole** consente di eseguire le azioni elencate di seguito.
 
-   ![](assets/refine-audience.png)
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-1. Utilizzando il generatore di regole, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Consulta questa [sezione](segment-builder.md).
+* **Visualizza i risultati:** visualizza l’elenco dei destinatari target del pubblico.
+* **Vista codice**: visualizza una versione del pubblico basata su codice in SQL.
+* **Visualizza gli attributi avanzati**: seleziona questa opzione per visualizzare l’elenco completo degli attributi nella palette a sinistra: nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N.
+* **Calcola**: aggiorna e visualizza il numero di profili interessati dalla query.
+* **Seleziona o salva il filtro**: utilizza un filtro predefinito per filtrare la query oppure salvala come nuovo filtro per riutilizzarla in futuro. [Scopri come utilizzare i filtri preimpostati](../get-started/predefined-filters.md)
 
-1. Fai clic su **Salva**.
+  >[!IMPORTANT]
+  >
+  >In tale versione del prodotto, alcuni filtri preimpostati non sono disponibili nell’interfaccia utente. Tuttavia, puoi ancora usarli. [Ulteriori informazioni](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
+* **Attributi**: visualizza una descrizione del pubblico creato.
+
+## Esempio
+
+In questo esempio, creiamo un pubblico per impostare come target tutti i clienti che vivono ad Atlanta o a Seattle e sono nati dopo il 1980.
+
+1. Nella scheda **Attributi** della palette, cerca il campo **Data di nascita**. Trascina la sezione e rilasciala sull’area di lavoro.
+
+   ![](assets/segment-builder6.png)
+
+1. Nell’area di lavoro, scegli l’operatore **Dopo** e immetti la data desiderata.
+
+   ![](assets/segment-builder7.png)
+
+1. Nella palette, cerca il campo **Città** e aggiungilo all’area di lavoro sotto la prima regola.
+
+   ![](assets/segment-builder8.png)
+
+1. Nel campo di testo, immetti il nome della prima città, quindi premi Invio.
+
+   ![](assets/segment-builder9.png)
+
+1. Ripeti questa azione per il nome della seconda città.
+
+   ![](assets/segment-builder10.png)
+
+1. Fai clic su **Visualizza i risultati** per visualizzare l’elenco e il numero di destinatari corrispondenti alla query. Puoi anche aggiungere delle colonne per visualizzare e controllare i dati. Nel nostro esempio, aggiungi la colonna **Città** e dovresti vedere Atlanta e Seattle.
+
+   ![](assets/segment-builder11.png)
+
+1. Fai clic su **Conferma**.
