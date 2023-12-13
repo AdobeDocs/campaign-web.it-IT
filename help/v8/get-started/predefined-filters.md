@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ Puoi salvare un filtro personalizzato creato dal generatore di regole al fine di
 
 Il filtro personalizzato è ora disponibile nell’elenco **Filtri preimpostati** e accessibile a tutti gli utenti di Campaign.
 
-
 ### Creare un filtro dall’elenco filtri {#create-filter-from-list}
-
 
 Puoi creare un filtro dalla voce **Filtri preimpostati** nel menu a sinistra. Per farlo, segui i passaggi indicati di seguito:
 
@@ -86,7 +84,6 @@ Puoi creare un filtro dalla voce **Filtri preimpostati** nel menu a sinistra. Pe
 
 1. Salva le modifiche. Il filtro viene aggiunto all’elenco dei filtri preimpostati.
 
-
 ## Salva il filtro come preferito {#fav-filter}
 
 Quando crei un filtro preimpostato, puoi abilitare l’opzione **Salva come preferito** se lo desideri visualizzare tra i preferiti.
@@ -95,7 +92,6 @@ Quando crei un filtro preimpostato, puoi abilitare l’opzione **Salva come pref
 Quando viene salvato un filtro come preferito, è disponibile per tutti gli utenti nella sezione **Filtri preferiti** dell’elenco di filtri creati, come illustrato di seguito:
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Utilizza un filtro preimpostato {#use-predefined-filter}
 
