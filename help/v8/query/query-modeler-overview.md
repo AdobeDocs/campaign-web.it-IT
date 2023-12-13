@@ -2,9 +2,9 @@
 audience: end-user
 title: Utilizzare Query Modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
+source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,7 @@ ht-degree: 0%
 
 ## Panoramica di Query Modeler {#overview}
 
-Adobe Campaign Web dispone di un modellatore di query che consente di filtrare il database per selezionare una destinazione in base a vari criteri utilizzando le informazioni del database, le espressioni avanzate e gli operatori.
-
-
-Adobe Campaign Web dispone di un modellatore di query intuitivo che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati.
-
-Query Modeler è integrato direttamente in tutta l’interfaccia, consentendoti di eseguire facilmente operazioni di filtro e di creare regole:
+Adobe Campaign Web dispone di un modello di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati. Query Modeler è integrato direttamente in tutta l’interfaccia, consentendoti di eseguire facilmente operazioni di filtro e di creare regole:
 
 * Definire i tipi di pubblico target: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea facilmente nuovi tipi di pubblico personalizzati per le tue esigenze.
 * Personalizzare le attività del flusso di lavoro: applicare regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, per allinearle a requisiti specifici,
@@ -27,22 +22,8 @@ Query Modeler è integrato direttamente in tutta l’interfaccia, consentendoti 
 
 ## Interfaccia Query Modeler {#interface}
 
-Il modellatore di query fornisce un’area di lavoro centrale in cui è possibile aggiungere e combinare i diversi componenti che creano la query e un riquadro delle proprietà Regola a destra che fornisce informazioni sulla query.
+Il modellatore di query fornisce un’area di lavoro centrale in cui è possibile aggiungere e combinare i diversi componenti che creano la query.
+
+Sul lato destro, il riquadro Proprietà regola fornisce informazioni sulla query. Consente di eseguire varie operazioni per verificare la query e assicurarsi che sia adatta alle tue esigenze. Scopri come controllare e convalidare la query (collegamento da definire)
 
 ![](assets/query-interface.png)
-
-Nell’area di lavoro vengono aggiunti e combinati i componenti che generano la query. È costituito da:
-
-* Un&#39;icona Query indica il punto iniziale della query.
-* Uno o più percorsi: in questo punto è possibile aggiungere i vari elementi che compongono la query.
-
-Inoltre, una barra degli strumenti in alto a sinistra offre opzioni per navigare e gestire facilmente gli elementi nell’area di lavoro.
-
-* Modalità di selezione multipla
-* Ruota
-* Adatta allo schermo
-* Zoom out/Zoom in
-* Visualizza mappa
-
-
-Sul lato destro, il **Proprietà delle regole** consente di recuperare informazioni sulla query che si sta creando nell&#39;area di lavoro.
