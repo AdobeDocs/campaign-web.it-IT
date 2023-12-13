@@ -2,32 +2,34 @@
 audience: end-user
 title: Creare la prima query utilizzando il modellatore di query
 description: Scopri come creare la prima query in Adobe Campaign Web Query Modeler.
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
 
 # Creare la prima query {#build-query}
 
-Per iniziare a creare una query, accedi al modellatore di query dalla posizione desiderata, a seconda dell’azione da eseguire. Verrà aperto Query Modeler con un&#39;area di lavoro vuota. Fai clic sul pulsante + per aggiungere il primo nodo della query.
-
-![](assets/query-add-component.png)
+Per iniziare a creare una query, accedi al modellatore di query dalla posizione desiderata, a seconda dell’azione da eseguire. Verrà aperto Query Modeler con un&#39;area di lavoro vuota. Fai clic su **+** per configurare il primo nodo della query.
 
 Puoi aggiungere due tipi di elementi:
 
-* I componenti di filtro (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consentono di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query.
+* **Filtraggio dei componenti** (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consente di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query. [Scopri come utilizzare i componenti di filtro](#filtering)
 
-  Esempio *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;*. *Destinatari che vivono a New York*, *Destinatari residenti a San Francisco*
+  Esempio:
 
-* Gli operatori di gruppo (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma in base alle proprie esigenze.
+  *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;*. *Destinatari che vivono a New York*, *Destinatari residenti a San Francisco*
 
-  Esempio: *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;**E**che vivono a New York **OPPURE**San Francisco*.
+* **Operatori di gruppo** (AND, OR, EXCEPT) consente di raggruppare i componenti di filtro nel diagramma in base alle proprie esigenze. [Scopri come lavorare con gli operatori](#filtering)
 
-Di seguito sono riportati i passaggi dettagliati per aggiungere e combinare componenti di filtro e operatori di gruppo.
+  Esempio:
 
-## Aggiungere componenti di filtro
+  *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;**E**che vivono a New York **OPPURE**San Francisco*.
+
+![](assets/query-add-component.png)
+
+## Aggiungere componenti di filtro {#filtering}
 
 I componenti di filtro consentono di perfezionare la query utilizzando:
 
@@ -44,10 +46,9 @@ I componenti di filtro consentono di perfezionare la query utilizzando:
 
 Per filtrare la query utilizzando una condizione personalizzata, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante + sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**.
-1. Il riquadro delle proprietà della condizione personalizzata viene visualizzato sul lato destro. Nel campo Attributo selezionare l&#39;attributo dal database che si desidera utilizzare per creare la condizione.
+1. Fai clic su **+** sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**. Il riquadro delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
 
-   Gli attributi disponibili rappresentano tutti i campi del database Campaign, inclusi i campi delle tabelle collegate alla tabella Destinatari.
+1. In **Attributo** selezionare l&#39;attributo dal database che si desidera utilizzare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi gli attributi collegati alla tabella.
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    >
    >Il pulsante Modifica espressione consente di sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e del database.
 
-1. Seleziona l’operatore da applicare dall’elenco a discesa.
+1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili vari operatori.Si noti che gli operatori disponibili nell&#39;elenco a discesa dipendono dal tipo di dati dell&#39;attributo selezionato.
 
    +++Elenco degli operatori disponibili
-
-   >[!NOTE]
-   >
-   >Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo selezionato.
 
    | Operatore | Finalità | Esempio |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 +++
 
-1. Nel campo Valore selezionare il valore previsto.
+1. In **Valore** , definisci il valore previsto. Puoi anche sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi del database e le funzioni di supporto. A questo scopo, fai clic su **Modifica espressione** pulsante.
 
-   Puoi anche sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi del database e le funzioni di supporto. A tale scopo, fare clic sul pulsante Modifica espressione.
-
-   *Esempio: query che restituisce tutti i profili di età pari o superiore a 21 anni*
+   *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### Selezionare un pubblico
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante + sul nodo desiderato e seleziona **[!UICONTROL Seleziona pubblico]**.
+1. Fai clic su **+** sul nodo desiderato e scegliere **[!UICONTROL Seleziona pubblico]**.
 
-1. Il riquadro Seleziona proprietà pubblico si apre sul lato destro. Seleziona il pubblico da utilizzare per filtrare la query.
+1. Il **Seleziona pubblico** il riquadro proprietà si apre sul lato destro. Scegli il pubblico da utilizzare per filtrare la query.
 
-   *Esempio: query che restituisce tutti i profili appartenenti al pubblico &quot;Partecipanti al festival&quot;*
+   *Esempio di query che restituisce tutti i profili appartenenti al pubblico &quot;Partecipanti al festival&quot;:*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti op
 
 Per filtrare la query utilizzando un filtro predefinito, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante + sul nodo desiderato e seleziona **[!UICONTROL Filtro predefinito]**.
+1. Fai clic su **+** sul nodo desiderato e seleziona **[!UICONTROL Filtro predefinito]**.
 
-1. Il riquadro Seleziona proprietà pubblico si apre sul lato destro. Seleziona un filtro predefinito dall’elenco dei filtri personalizzati o dai preferiti.
+1. Il **Filtro predefinito** il riquadro proprietà si apre sul lato destro. Seleziona un filtro predefinito dall’elenco dei filtri personalizzati o dai preferiti.
 
-   *Esempio: query che restituisce tutti i profili corrispondenti al filtro predefinito &quot;Clienti inattivi&quot;.*
+   *Esempio di query che restituisce tutti i profili corrispondenti al filtro predefinito &quot;Clienti inattivi&quot;:*
 
    ![](assets/query-predefined-filter.png)
 
-## Combinare componenti di filtro con operatori
+## Combinare componenti di filtro con operatori {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Gruppo"
 >abstract="Gruppo"
 
-Quando si aggiunge un componente di filtro alla query, viene creata automaticamente una nuova transizione nell’area di lavoro della query e il nuovo componente di filtro viene collegato al primo da un operatore AND. Ciò significa che i risultati di entrambi i componenti di filtro vengono combinati nei risultati della query.
+Ogni volta che aggiungi un nuovo componente di filtro alla query, questo viene collegato automaticamente all’altro componente da un operatore AND. Ciò significa che i risultati di entrambi i componenti di filtro vengono combinati nei risultati della query.
 
-In questo esempio, all’area di lavoro viene aggiunto un nuovo componente filtro di tipo pubblico. Viene aggiunta automaticamente in una nuova transizione e collegata alla condizione del tipo di filtro predefinito con un operatore AND. In questo caso, i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot; (Cacciatori di sconti).
+In questo esempio, è stato aggiunto un nuovo componente di filtro per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro predefinito con un operatore AND, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
 
 ![](assets/query-operator.png)
 
-Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtro, fai clic su di esso e seleziona l’operatore desiderato nella sezione Per modificare l’operatore, fai clic su di esso e seleziona l’operatore desiderato dal riquadro Gruppo che si apre sul lato destro.
-
-![](assets/query-operator-change.png)
+Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtro, fai clic su di esso e seleziona l’operatore desiderato nel riquadro Gruppo che si apre sul lato destro.
 
 Gli operatori disponibili sono:
 
-* AND (Intersection): combina i risultati di tutti i componenti di filtro nelle transizioni in uscita.
-* OR (Unione): include i risultati di almeno uno dei componenti di filtro nelle transizioni in uscita.
-* ECCEZIONE (esclusione): esclude i risultati da tutti i componenti di filtro nella transizione in uscita.
+* **AND (intersezione)**: combina i risultati di tutti i componenti di filtro nelle transizioni in uscita.
+* **O (Unione)**: include i risultati di almeno uno dei componenti di filtro nelle transizioni in uscita.
+* **ECCETTO (esclusione)**: esclude i risultati da tutti i componenti di filtro nella transizione in uscita.
+
+![](assets/query-operator-change.png)
 
 ## Verifica e convalida la query
 
@@ -163,11 +151,11 @@ Gli operatori disponibili sono:
 >title="Proprietà della regola"
 >abstract="Proprietà della regola"
 
-Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il riquadro Proprietà regola situato a destra. Le operazioni disponibili sono le seguenti:
+Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando **Proprietà delle regole** sul lato destro. Le operazioni disponibili sono:
 
-* **Visualizza risultati:** visualizza i dati risultanti dalla query.
+* **Visualizza risultati:** Visualizza i dati risultanti dalla query.
 * **Vista Codice**: visualizza una versione basata su codice della query in SQL.
-* **Calcola**: aggiorna e visualizza il numero di record target della query.
+* **Calcola**: aggiorna e visualizza il numero di record interessati dalla query.
 * **Seleziona o salva il filtro**: scegli un filtro predefinito esistente da utilizzare nell’area di lavoro oppure salva la query come filtro predefinito da riutilizzare in futuro. [Scopri come utilizzare i filtri preimpostati](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
