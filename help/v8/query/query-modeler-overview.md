@@ -1,24 +1,27 @@
 ---
 audience: end-user
-title: Utilizzare Query Modeler
+title: Utilizzo del query modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
+source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 4%
 
 ---
 
-# Utilizzare Query Modeler {#segment-builder}
+# Utilizzo del query modeler {#segment-builder}
 
-## Panoramica di Query Modeler {#overview}
+Adobe Campaign Web dispone di un modello di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati.
 
-Adobe Campaign Web dispone di un modello di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati. Query Modeler è integrato direttamente in tutta l’interfaccia, consentendoti di eseguire facilmente operazioni di filtro e di creare regole:
+## Accedere a Query Modeler {#access}
 
-* Definire i tipi di pubblico target: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea facilmente nuovi tipi di pubblico personalizzati per le tue esigenze.
-* Personalizzare le attività del flusso di lavoro: applicare regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, per allinearle a requisiti specifici,
-* Dinamizzare i contenuti: rendi i contenuti dinamici creando condizioni che definiscono quali contenuti devono essere visualizzati a destinatari diversi, garantendo messaggi personalizzati e pertinenti.
-* Filtri predefiniti: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna.
+Query Modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
+
+* **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze.
+* **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle a requisiti specifici,
+* **Dinamizzare i contenuti**: rendi i contenuti dinamici creando condizioni che definiscono quali contenuti devono essere visualizzati a destinatari diversi, garantendo messaggi personalizzati e pertinenti.
+* **Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna.
+* **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti.
 
 ## Interfaccia Query Modeler {#interface}
 
