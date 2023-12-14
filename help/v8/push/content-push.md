@@ -4,10 +4,10 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Messaggio push iOS"
->abstract="Definisci il titolo e il contenuto del messaggio push iOS. Utilizza la finestra di dialogo di personalizzazione per personalizzare il contenuto e aggiungere le condizioni."
+>abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per una configurazione più personalizzata, vai al **Impostazioni avanzate** sezione."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Messaggio push iOS"
+>abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore. Per una configurazione più personalizzata, vai al **Impostazioni avanzate** sezione."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Numero badge"
+>title="Conteggio notifiche"
 >abstract="Utilizza questa opzione per impostare il numero di nuove informazioni non lette da visualizzare direttamente sull’icona dell’app. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso."
 
 
@@ -139,7 +147,7 @@ Le opzioni avanzate dipendono dal sistema operativo mobile: Android o iOS. Sfogl
 
 | Parametro | Descrizione |
 |---------|---------|
-| **[!UICONTROL Modalità avviso critico]** | Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se il dispositivo è silenzioso. In questo modo viene garantito che l’utente noti gli avvisi importanti. |
+| **[!UICONTROL Modalità avviso critico]** | Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se il dispositivo è silenzioso. In questo modo l’utente noterà gli avvisi importanti. Se questa opzione è selezionata, è possibile regolare il volume della notifica utilizzando la barra del livello del volume. Un numero compreso tra 0 e 100 sopra la barra riflette le impostazioni. |
 | **[!UICONTROL Pulisci badge]** | Abilita questa opzione per aggiornare il valore del badge visualizzato sull’icona dell’applicazione. In questo modo il badge riflette accuratamente il numero delle nuove informazioni non lette. |
 | **[!UICONTROL Conteggio notifiche]** | Imposta un numero che verrà visualizzato direttamente sull’icona dell’applicazione, indicando il numero di nuove informazioni non lette. Questo fornisce un riferimento visivo rapido per l’utente. |
 | **[!UICONTROL Volume]** | Volume del suono da 0 a 100. |
