@@ -4,44 +4,48 @@ title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 40%
 
 ---
 
 # Creare una consegna di notifica push {#create-push}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="Definisci il pubblico push"
->abstract="Seleziona il pubblico migliore per il messaggio push."
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Modello di notifica push"
->abstract="Seleziona un modello di notifica push per avviare la consegna push."
+>abstract="Seleziona un modello di notifica push per avviare la consegna push. I modelli di consegna ti consentono di riutilizzare facilmente contenuti e impostazioni personalizzati in tutte le campagne e le consegne."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Utilizzare i modelli di consegna"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Proprietà di consegna push"
->abstract="Gestisci le proprietà di consegna push."
+>abstract="Definisci le proprietà di consegna push. Inserisci l’etichetta del messaggio push e utilizza **Opzioni aggiuntive** per configurare nome interno, cartella di consegna e codice. È inoltre possibile immettere una descrizione personalizzata."
 
 Puoi creare una consegna di notifica push autonoma o una notifica push nel contesto del flusso di lavoro di una campagna. I passaggi seguenti descrivono la procedura per una consegna push autonoma (singola). Se stai utilizzando il contesto del flusso di lavoro di una campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
+## Creare una consegna push {#create-push-delivery}
 
 Per creare una nuova consegna push autonoma, segui questi passaggi:
 
 1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
-1. Nella sezione **[!UICONTROL Canale]**, scegli **Notifica push** come canale e seleziona un modello a seconda del sistema operativo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
+1. Sotto **[!UICONTROL Canale]** , scegliere **Notifica push** come canale e seleziona un modello, a seconda del sistema operativo del dispositivo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
    ![](assets/push_create_1.png)
 
-1. Immetti un’**[!UICONTROL etichetta]** per la consegna e accedi al menu a discesa **[!UICONTROL Opzioni aggiuntive]**.
+## Configurare le impostazioni di consegna {#configure-push-settings}
+
+Configura le impostazioni di consegna come descritto di seguito:
+
+1. Immetti un **[!UICONTROL Etichetta]** per la consegna
+
+1. Sfoglia **[!UICONTROL Opzioni aggiuntive]** per personalizzare le opzioni, se necessario.
 
    +++Configura le seguenti impostazioni in base alle tue esigenze.
    * **[!UICONTROL Nome interno]**: assegna un identificatore univoco alla consegna.
@@ -51,26 +55,47 @@ Per creare una nuova consegna push autonoma, segui questi passaggi:
    * **[!UICONTROL Natura]**: specifica la natura dell’e-mail a scopo di classificazione.
 +++
 
-1. Dal menu **[!UICONTROL Pubblico]**, seleziona l’applicazione da utilizzare per questa consegna.
 
-1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni](../audience/about-recipients.md)
+## Selezionare il pubblico della consegna push {#create-audience-push}
 
-   Tieni presente che, per impostazione predefinita, la notifica push verrà inviata a tutti gli iscritti dell’applicazione.
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_audience"
+>title="Definire il pubblico della notifica push"
+>abstract="Per definire il pubblico del messaggio, devi innanzitutto selezionare l’app associata alla consegna push. Per impostazione predefinita, la notifica push viene inviata a tutti gli abbonati all’applicazione. Puoi definire un pubblico specifico facendo clic sul pulsante **Seleziona pubblico** pulsante. Se necessario, aggiungi un gruppo di controllo per misurare l’impatto della consegna."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=it" text="Impostare un gruppo di controllo"
+
+
+Devi innanzitutto selezionare l’app, quindi puoi perfezionare il pubblico delle notifiche push, come descritto di seguito:
+
+1. Dalla sezione **[!UICONTROL Pubblico]** , seleziona l’applicazione da utilizzare per questa consegna. Per impostazione predefinita, la notifica push viene inviata a tutti gli abbonati all’applicazione. Puoi definire un pubblico specifico facendo clic sul pulsante **[!UICONTROL Seleziona pubblico]** pulsante.
 
    ![](assets/push_create_2.png)
 
-1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna che consente di confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Ulteriori informazioni](../audience/control-group.md)
+1. Seleziona un pubblico esistente o crea un pubblico personalizzato per perfezionare la popolazione target per la consegna push. Per le notifiche push, il valore predefinito è [dimensione di destinazione](../audience/about-recipients.md#targeting-dimensions) è **Applicazione in abbonamento** (nms:appSubscriptionRcp), che è collegato alla tabella dei destinatari.
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a progettare il contenuto della notifica push. [Ulteriori informazioni](content-push.md)
+   Scopri come selezionare un pubblico esistente in [questa pagina](../audience/add-audience.md)
 
-   ![](assets/push_create_5.png)
+   Scopri come creare un nuovo pubblico in [questa pagina](../audience/one-time-audience.md)
 
-   Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
+1. Accendere il **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna. I messaggi non vengono inviati a tale gruppo di controllo, in modo da poter confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Ulteriori informazioni](../audience/control-group.md)
 
-1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione delle consegne, consulta [questa sezione](../msg/gs-messages.md#gs-schedule)
+## Definire il contenuto della notifica push {#create-content-push}
 
-   ![](assets/push_create_3.png)
+Per definire il contenuto della notifica, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](content-push.md)
 
-1. Fai clic su **[!UICONTROL Configura le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+![](assets/push_create_5.png)
 
-   ![](assets/push_create_4.png)
+Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../content/offers.md).
+
+## Pianificare l’invio della consegna {#schedule-push}
+
+Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione delle consegne, consulta [questa sezione](../msg/gs-messages.md#gs-schedule)
+
+![](assets/push_create_3.png)
+
+
+## Impostazioni avanzate di consegna {#adv-push}
+
+Fai clic su **[!UICONTROL Configura le impostazioni di consegna]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+
+![](assets/push_create_4.png)

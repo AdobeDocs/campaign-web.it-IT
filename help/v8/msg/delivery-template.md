@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1068'
 ht-degree: 91%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modelli di consegna"
->abstract="Utilizza i modelli di consegna per uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne"
+>abstract="Per un processo di progettazione più rapido e migliore, puoi creare modelli di consegna che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne."
 
 Per un processo di progettazione più rapido e migliore, puoi creare modelli di consegna che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questa funzionalità permette di uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
 
@@ -79,6 +79,7 @@ Per eliminare o [duplicare](#copy-an-existing-template) un modello, seleziona l�
 ## Creare un modello di consegna {#create-a-delivery-template}
 
 Per creare un modello di consegna, puoi utilizzare diversi metodi:
+
 * Duplicare un modello esistente - [Ulteriori informazioni](#copy-an-existing-template)
 * Convertire una consegna esistente in un modello - [Ulteriori informazioni](#convert-an-existing-delivery)
 * Creare un modello di consegna da zero - [Ulteriori informazioni](#create-a-new-template)
