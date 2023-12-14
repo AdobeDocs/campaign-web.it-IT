@@ -2,14 +2,20 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: c60b1c99b520b862b4dc0ee2ea63053dcd38104d
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 4%
+source-wordcount: '276'
+ht-degree: 16%
 
 ---
 
 # Utilizzo del query modeler {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="Query modeler"
+>abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altra dimensione targeting dal database. Approfitta del pubblico di Adobe Experience Platform per migliorare ulteriormente il pubblico target e massimizzare l’impatto della campagna."
 
 Adobe Campaign Web dispone di un modello di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati.
 
