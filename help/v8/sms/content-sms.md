@@ -4,10 +4,10 @@ title: Progettare una consegna SMS
 description: Scopri come progettare la consegna SMS
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 84%
+source-wordcount: '244'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 84%
 >title="Contenuto SMS"
 >abstract="Crea il contenuto delle consegne SMS e personalizzalo con campi di personalizzazione, blocchi di contenuto e contenuti dinamici. Per iniziare a comporre il messaggio, fai clic su **Modifica contenuto** pulsante."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="Contenuto del messaggio SMS"
+>abstract="Definisci il contenuto dell’SMS. Per comporre il messaggio, fai clic su **Messaggio** e inserisci il contenuto del messaggio. Utilizza l’editor espressioni per aggiungere dati personalizzati e contenuti dinamici. Puoi anche personalizzare il nome del mittente. Per impostazione predefinita, il tracciamento è abilitato per tutte le consegne SMS in modo da poter misurare quando i destinatari fanno clic sui collegamenti."
 
 
 Per progettare il contenuto di una consegna SMS, segui questi passaggi:

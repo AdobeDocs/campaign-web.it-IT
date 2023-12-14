@@ -4,10 +4,10 @@ title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 39%
+source-wordcount: '653'
+ht-degree: 38%
 
 ---
 
@@ -33,7 +33,7 @@ Per creare una nuova consegna push autonoma, segui questi passaggi:
 
 1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
-1. Sotto **[!UICONTROL Canale]** , scegliere **Notifica push** come canale e seleziona un modello, a seconda del sistema operativo del dispositivo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
+1. Sotto **[!UICONTROL Canale]** , scegliere **Notifica push** come canale, e seleziona un modello, a seconda del sistema operativo del dispositivo scelto: Android o iOS. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
@@ -45,7 +45,7 @@ Configura le impostazioni di consegna come descritto di seguito:
 
 1. Immetti un **[!UICONTROL Etichetta]** per la consegna. Per impostazione predefinita, l’etichetta viene impostata con l’etichetta del modello selezionato. Deve essere aggiornato.
 
-1. Sfoglia **[!UICONTROL Opzioni aggiuntive]** per personalizzare le opzioni, se necessario.
+1. Sfoglia **[!UICONTROL Opzioni aggiuntive]** per personalizzare le opzioni, se necessario. Se la consegna è basata su uno schema esteso, **Opzioni personalizzate** sono disponibili.
 
    +++Configura le seguenti impostazioni in base alle tue esigenze.
    * **[!UICONTROL Nome interno]**: assegna un identificatore univoco alla consegna.
