@@ -4,10 +4,10 @@ title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 40%
+source-wordcount: '638'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Per creare una nuova consegna push autonoma, segui questi passaggi:
 
 Configura le impostazioni di consegna come descritto di seguito:
 
-1. Immetti un **[!UICONTROL Etichetta]** per la consegna
+1. Immetti un **[!UICONTROL Etichetta]** per la consegna. Per impostazione predefinita, l’etichetta viene impostata con l’etichetta del modello selezionato. Deve essere aggiornato.
 
 1. Sfoglia **[!UICONTROL Opzioni aggiuntive]** per personalizzare le opzioni, se necessario.
 
