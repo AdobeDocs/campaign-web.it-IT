@@ -4,10 +4,10 @@ title: Progettare una consegna SMS
 description: Scopri come progettare la consegna SMS
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenuto SMS"
->abstract="Crea il contenuto delle consegne SMS e personalizzalo con campi di personalizzazione, blocchi di contenuto e contenuti dinamici."
+>abstract="Crea il contenuto delle consegne SMS e personalizzalo con campi di personalizzazione, blocchi di contenuto e contenuti dinamici. Per iniziare a comporre il messaggio, fai clic su **Modifica contenuto** pulsante."
 
 
 

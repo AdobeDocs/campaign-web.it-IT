@@ -4,10 +4,10 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1534'
+ht-degree: 83%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenuto push per Android"
->abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore. Per una configurazione più personalizzata, vai al **Impostazioni avanzate** sezione."
+>abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per iniziare a comporre il messaggio, fai clic su **Modifica contenuto** pulsante."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenuto push per iOS"
->abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per una configurazione più personalizzata, vai al **Impostazioni avanzate** sezione."
+>abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per iniziare a comporre il messaggio, fai clic su **Modifica contenuto** pulsante."
 
 ## Definisci il contenuto della notifica {#push-message}
 
