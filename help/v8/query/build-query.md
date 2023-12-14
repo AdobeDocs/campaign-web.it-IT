@@ -2,9 +2,9 @@
 audience: end-user
 title: Creare la prima query utilizzando il modellatore di query
 description: Scopri come creare la prima query in Adobe Campaign Web Query Modeler.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1462'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    >
    >Il pulsante Modifica espressione consente di sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e del database.
 
-1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili vari operatori.Si noti che gli operatori disponibili nell&#39;elenco a discesa dipendono dal tipo di dati dell&#39;attributo selezionato.
+1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
    +++Elenco degli operatori disponibili
 
@@ -86,6 +86,32 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
    ![](assets/query-custom-condition.png)
+
+**Condizioni personalizzate per tabelle lontane (collegamenti 1-1 e 1-N)**
+
+Le condizioni personalizzate consentono di eseguire query su tabelle distanti collegate alla tabella Destinatari.
+
+Per un **Collegamento 1-1** con un’altra risorsa di database, seleziona il valore direttamente dalla tabella di destinazione.
+
++++Esempio di query
+
+In questo caso, la query esegue il targeting di destinatari il cui paese o area geografica è incluso in valori forniti (Regno Unito e Stati Uniti)
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+Per un **Collegamento 1-N** con un’altra risorsa di database, puoi definire le condizioni secondarie sui campi di questa seconda risorsa.
+
+Ad esempio, puoi selezionare l’operatore Exists sugli acquisti del profilo per eseguire il targeting di tutti i profili per i quali esistono acquisti. Al termine, aggiungi una condizione personalizzata nella transizione in uscita e crea un filtro adatto alle tue esigenze.
+
++++Esempio di query
+
+In questo caso, la query è destinata a destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Selezionare un pubblico
 
@@ -138,9 +164,9 @@ Per modificare l’operatore utilizzato per collegare insieme le condizioni di f
 
 Gli operatori disponibili sono:
 
-* **AND (intersezione)**: combina i risultati di tutti i componenti di filtro nelle transizioni in uscita.
-* **O (Unione)**: include i risultati di almeno uno dei componenti di filtro nelle transizioni in uscita.
-* **ECCETTO (esclusione)**: esclude i risultati da tutti i componenti di filtro nella transizione in uscita.
+* **AND (intersezione)**: combina i risultati che corrispondono a tutti i componenti di filtro nelle transizioni in uscita.
+* **O (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtro nelle transizioni in uscita.
+* **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtro nella transizione in uscita.
 
 ![](assets/query-operator-change.png)
 

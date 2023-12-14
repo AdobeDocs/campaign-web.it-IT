@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 95%
+source-wordcount: '466'
+ht-degree: 96%
 
 ---
 
@@ -127,8 +127,9 @@ ht-degree: 95%
       + [Dividi](workflows/activities/split.md)
       + [Attendi](workflows/activities/wait.md)
 + Eseguire una query sul database {#query-database}
-   + [Utilizzare Query Modeler](query/query-modeler-overview.md)
+   + [Utilizzo del query modeler](query/query-modeler-overview.md)
    + [Creare la prima query](query/build-query.md)
+   + [Modificare le espressioni](query/expression-editor.md)
    + [Esempi di query](query/query-samples.md)
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
