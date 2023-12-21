@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
+source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 16%
@@ -23,52 +23,52 @@ Adobe Campaign Web dispone di un modello di query che semplifica il processo di 
 
 Query Modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
 
-* **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze.
+**Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. <!--(LINK TBD)-->
 
-  +++Esempio
++++Esempio
 
-  ![](assets/access-audience.png)
-
-+++
-
-* **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle a requisiti specifici,
-
-  +++Esempio
-
-  ![](assets/access-workflow.png)
+![](assets/access-audience.png)
 
 +++
 
-<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+**Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle ai requisiti specifici. <!--(LINK TBD)-->
 
-    +++Example
++++Esempio
 
-    ![](assets/access-audience.png)
+![](assets/access-workflow.png)
 
-    +++
++++
+
+<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
++++Example
+
+![](assets/access-audience.png)
+
+ +++
 -->
 
-* **Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna.
+**Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna. <!--(LINK TBD)-->
 
-  +++Esempio
++++Esempio
 
-  ![](assets/access-predefined-filter.png)
-
-+++
-
-* **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti.
-
-  +++Esempio
-
-  ![](assets/access-reports.png)
+![](assets/access-predefined-filter.png)
 
 +++
 
-* **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc.
+**Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. <!--(LINK TBD)-->
 
-  +++Esempio
++++Esempio
 
-  ![](assets/access-lists.png)
+![](assets/access-reports.png)
+
++++
+
+**Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. <!--(LINK TBD)-->
+
++++Esempio
+
+![](assets/access-lists.png)
 
 +++
 
