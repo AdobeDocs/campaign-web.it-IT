@@ -5,8 +5,8 @@ description: Scopri come visualizzare in anteprima il contenuto delle consegne n
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
-source-wordcount: '343'
+workflow-type: ht
+source-wordcount: '330'
 ht-degree: 100%
 
 ---

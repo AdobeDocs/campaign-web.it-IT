@@ -5,7 +5,7 @@ description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
