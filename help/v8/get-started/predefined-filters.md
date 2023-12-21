@@ -7,8 +7,8 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
-workflow-type: ht
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # Utilizzare filtri preimpostati {#predefined-filters}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card4"
 >title="Gestione dei filtri preimpostati"
 >abstract="Campaign Web ora offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 

@@ -4,20 +4,23 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 99%
+source-wordcount: '1314'
+ht-degree: 98%
 
 ---
 
 
 # Inviare la prima e-mail {#first-email}
 
+
+
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Generazione di contenuti e-mail basata su intelligenza artificiale"
->abstract="La tecnologia di Generazione basata su intelligenza artificiale utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Stimola le percentuali di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale."
+>id="acw_homepage_card3"
+>title="Introduzione alle e-mail"
+>abstract="Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. Scopri come creare la consegna, selezionare il pubblico e progettare il contenuto dell’e-mail."
+
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 

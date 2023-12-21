@@ -4,14 +4,20 @@ title: Introduzione all’assistente ai contenuti
 description: Introduzione all’assistente ai contenuti
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
 
 # Introduzione all’assistente ai contenuti {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="Generazione di contenuti e-mail basata su intelligenza artificiale"
+>abstract="La tecnologia di Generazione basata su intelligenza artificiale utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Stimola le percentuali di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

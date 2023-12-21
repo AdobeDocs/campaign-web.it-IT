@@ -4,7 +4,7 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -35,6 +35,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=it" text="Aggiungere collegamenti e tenere traccia dei messaggi"
 
 La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
+
 * Definire gli elementi di base del messaggio, ad esempio l’indirizzo del mittente e la riga dell’oggetto
 * Eseguire azioni aggiuntive, ad esempio aggiungere gli allegati o configurare le offerte
 * Accedi a [E-mail Designer](get-started-email-designer.md#start-authoring) per iniziare a creare il contenuto corretto dell’e-mail
@@ -87,7 +88,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
    Puoi quindi inserirle nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](offers.md)
 
-1. Fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]** per strutturare e progettare il contenuto dell’e-mail utilizzando [E-mail designer](#start-authoring). Per ulteriori informazioni sulla progettazione del contenuto delle e-mail, consulta le seguenti sezioni:
+1. Fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]** per strutturare e progettare il contenuto dell’e-mail utilizzando [E-mail designer](get-started-email-designer.md#start-authoring). Per ulteriori informazioni sulla progettazione del contenuto delle e-mail, consulta le seguenti sezioni:
 
    * [Creare di e-mail da zero](create-email-content.md)
    * [Personalizzare lo stile del contenuto](get-started-email-style.md)

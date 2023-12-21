@@ -3,21 +3,25 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Beta"
-source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+badge: label="LA"
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 92%
 
 ---
 
 # Documentazione di Adobe Campaign Web v8 {#campaign-documentation}
 
-<!--![](assets/do-not-localize/banner-documentationv8.png)-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Guida e documentazione"
+>abstract="Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e un nuovo design per migliorare significativamente l’esperienza utente. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni di Adobe."
 
 Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e un nuovo design per migliorare significativamente l’esperienza utente. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform. [Ulteriori informazioni](get-started/get-started.md)
 
->La versione di Campaign Web v8 è attualmente in versione beta. L’accesso è limitato a un piccolo gruppo di clientela beta. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso. [Ulteriori informazioni](rn/whats-new.md)
+>[!AVAILABILITY]
+> Campaign v8 Web è attualmente in versione A disponibilità limitata (LA). L’accesso è limitato a un piccolo gruppo di clienti LA. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso. [Ulteriori informazioni](rn/whats-new.md)
 
 ## Nuove funzionalità di Campaign Web
 

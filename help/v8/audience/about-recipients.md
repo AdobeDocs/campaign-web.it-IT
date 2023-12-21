@@ -3,10 +3,10 @@ title: Utilizzare destinatari e tipi di pubblico
 description: Scopri come utilizzare i destinatari di Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 98%
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 In Adobe Campaign, la popolazione target di una consegna è un “pubblico”. Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Questo insieme di persone può essere generato, selezionato o caricato [come descritto di seguito](#audiences). Nella maggior parte dei casi, il pubblico è costituito da profili, memorizzati come [destinatari](#recipients) in Adobe Campaign. Puoi anche lavorare con altre mappature target modificando la dimensione come spiegato [in questa sezione](#targeting-dimensions).
 
 ## Cosa sono i destinatari? {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="Destinatari"
+>abstract="Crea nuovi destinatari e monitorali tramite potenti rapporti e strumenti. Accedi al profilo del destinatario, utilizza le opzioni di filtro per sfogliare l’elenco dei destinatari, modificarne e aggiornarne gli attributi."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
