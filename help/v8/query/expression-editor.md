@@ -2,10 +2,10 @@
 audience: end-user
 title: Creare la prima query utilizzando il modellatore di query
 description: Scopri come creare la prima query in Adobe Campaign Web Query Modeler.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 65%
+source-wordcount: '1846'
+ht-degree: 62%
 
 ---
 
@@ -127,6 +127,11 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> AddYears(&lt;data&gt;, &lt;numero&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando TZ sessione definita<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Restituisce solo la data (con l’ora su 00:00)*<br /> </td> 
    <td> DateOnly(&lt;data&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Restituisce l’età in mesi di una data<br /> </td> 
    <td> MonthsOld(&lt;data&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Restituisce la data meno recente in un intervallo<br /> </td> 
+   <td> Più vecchio (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> TruncYear(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Restituisce il numero che rappresenta il giorno della settimana della data<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Restituisce un numero che rappresenta il giorno della settimana della data (0=lunedì, 6=domenica)<br /> </td> 
    <td> WeekDay(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Restituisce il numero che rappresenta l’anno e il mese della data<br /> </td> 
    <td> YearAndMonth(&lt;data&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> Restituisce il numero di anni tra due date specificate<br /> </td> 
+   <td> Anni fa(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
