@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
+source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 12%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -25,31 +25,13 @@ Query Modeler è disponibile in ogni contesto in cui è necessario definire rego
 
 | Utilizzo | Esempio |
 |  ---  |  ---  |
-| **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
-| **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle ai requisiti specifici. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
-| **Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
-| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
-| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
+| **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle ai requisiti specifici. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-## Accedere a Query Modeler {#access}
 
-Query Modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
-
-**Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. <!--(LINK TBD)-->
-
-+++Esempio
-
-![](assets/access-audience.png)
-
-+++
-
-**Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle ai requisiti specifici. <!--(LINK TBD)-->
-
-+++Esempio
-
-![](assets/access-workflow.png)
-
-+++
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
@@ -60,29 +42,6 @@ Query Modeler è disponibile in ogni contesto in cui è necessario definire rego
  +++
 -->
 
-**Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna. <!--(LINK TBD)-->
-
-+++Esempio
-
-![](assets/access-predefined-filter.png)
-
-+++
-
-**Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. <!--(LINK TBD)-->
-
-+++Esempio
-
-![](assets/access-reports.png)
-
-+++
-
-**Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. <!--(LINK TBD)-->
-
-+++Esempio
-
-![](assets/access-lists.png)
-
-+++
 
 ## Interfaccia Query Modeler {#interface}
 
