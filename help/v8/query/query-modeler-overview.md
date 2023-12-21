@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come utilizzare Adobe Campaign Web Query Modeler.
-source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
+source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 12%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 16%
 >abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altra dimensione targeting dal database. Approfitta del pubblico di Adobe Experience Platform per migliorare ulteriormente il pubblico target e massimizzare l’impatto della campagna."
 
 Adobe Campaign Web dispone di un modello di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati.
+
+## Accedere a Query Modeler
+
+Query Modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
+
+| Utilizzo | Esempio |
+|  ---  |  ---  |
+| **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
+| **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle ai requisiti specifici. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
+| **Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
+| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
+| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
 
 ## Accedere a Query Modeler {#access}
 
