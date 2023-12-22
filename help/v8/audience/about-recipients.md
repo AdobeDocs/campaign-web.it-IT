@@ -3,9 +3,9 @@ title: Utilizzare destinatari e tipi di pubblico
 description: Scopri come utilizzare i destinatari di Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1053'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,8 @@ In Adobe Campaign, la popolazione target di una consegna è un “pubblico”. U
 >id="acw_homepage_rn4"
 >title="Destinatari"
 >abstract="Crea nuovi destinatari e monitorali tramite potenti rapporti e strumenti. Accedi al profilo del destinatario, utilizza le opzioni di filtro per sfogliare l’elenco dei destinatari, modificarne e aggiornarne gli attributi."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulta le note sulla versione"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
