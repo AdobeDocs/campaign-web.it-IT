@@ -4,19 +4,15 @@ title: Creare un pubblico con il generatore di regole di Campaign
 description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
-workflow-type: ht
-source-wordcount: '612'
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
 
 # Utilizzare il generatore di regole {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Tipi di pubblico di destinazione"
->abstract="Creare un target di consegna non è mai stato così semplice! Con il generatore di regole più recente, ora puoi definire i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database. Sfrutta il pubblico di Adobe Experience Platform per affinare ulteriormente la definizione del tuo pubblico target e massimizzare l’impatto della campagna."
 
 Il generatore di regole consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando l’attività **[!UICONTROL Crea pubblico]** o direttamente durante la creazione di una consegna per creare un pubblico una tantum.
 
