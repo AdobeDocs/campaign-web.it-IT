@@ -4,8 +4,8 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
-workflow-type: ht
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
-In base a un [modello di progettazione](../content/email-sample-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
+In base a un [modello di progettazione](../content/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
 
 ## Creare una consegna e-mail {#create-email}
 
@@ -120,7 +120,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
-   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../content/email-sample-templates.md).
+   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 

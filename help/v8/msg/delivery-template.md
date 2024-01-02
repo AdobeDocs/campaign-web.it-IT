@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 97%
 
 ---
 
@@ -33,14 +33,9 @@ Un modello può includere:
 * Collegamenti a [pagine mirror](../content/mirror-page.md) e [collegamenti](../content/message-tracking.md) per annullare l’iscrizione
 * Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni di quarantena
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->I modelli di consegna sono diversi dai [modelli di contenuto](../content/email-sample-templates.md), che consentono di iniziare a creare i contenuti con uno dei modelli e-mail di esempio pronti all’uso.
+>I modelli di consegna sono diversi da [modelli di contenuto](../content/create-email-templates.md), che ti consente di riutilizzare solo il contenuto delle e-mail e di iniziare a creare contenuti con uno dei modelli e-mail di esempio forniti come predefiniti.
 
 
 ## Accedere ai modelli di consegna e gestirli {#access-manage-templates}

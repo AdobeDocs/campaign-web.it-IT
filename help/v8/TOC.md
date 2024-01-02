@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 96%
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
@@ -36,12 +36,13 @@ ht-degree: 96%
       + [Creare il primo messaggio e-mail](email/create-email.md)
       + Definire il contenuto dell’e-mail {#content}
          + [Configurare il contenuto dell’e-mail](content/edit-content.md)
+         + [Utilizzare i modelli di contenuto](content/create-email-templates.md)
          + Iniziare a definire l’e-mail {#start-design}
             + [Guida introduttiva a E-mail Designer](content/get-started-email-designer.md)
             + [Iniziare da zero](content/create-email-content.md)
             + [Importare il contenuto dell’e-mail](content/existing-content.md)
             + [Creare il codice del contenuto](content/code-content.md)
-            + [Utilizzare i modelli di contenuto e-mail](content/email-sample-templates.md)
+            + [Utilizzare i modelli di contenuto e-mail](content/use-email-templates.md)
          + Progettare i contenuti {#design-content}
             + [Utilizzare i componenti per contenuti](content/content-components.md)
             + [Aggiungere collegamenti e tenere traccia dei messaggi](content/message-tracking.md)
@@ -122,6 +123,8 @@ ht-degree: 96%
       + [E-mail, SMS e push](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Fork](workflows/activities/fork.md)
+      + [Attività Load file](workflows/activities/load-file.md)
+      + [Riconciliazione](workflows/activities/reconciliation.md)
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
       + [Modulo di pianificazione](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
@@ -129,7 +132,7 @@ ht-degree: 96%
 + Eseguire una query sul database {#query-database}
    + [Utilizzo del query modeler](query/query-modeler-overview.md)
    + [Creare la prima query](query/build-query.md)
-   + [Modificare le espressioni](query/expression-editor.md)
+   + [Modifica espressioni](query/expression-editor.md)
    + [Esempi di query](query/query-samples.md)
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)

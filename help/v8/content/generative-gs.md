@@ -4,7 +4,7 @@ title: Introduzione all’assistente ai contenuti
 description: Introduzione all’assistente ai contenuti
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 99%
@@ -50,7 +50,7 @@ Di seguito sono elencate alcune linee guida generali su come utilizza Assistente
 * La qualità del contenuto generato è fortemente influenzata dalla finalità dell’iniziativa di marketing e dal prompt che inserisci nelle impostazioni. Inserisci un prompt chiaro e preciso nelle impostazioni, per consentire al modello GenAI di interpretarle con precisione. 
 * Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Puoi caricare contenuti nei seguenti formati: file PDF, immagini JPEG o PNG, o file ZIP (contenenti formati di file supportati).
 * La risorsa del marchio caricata dovrebbe essere di diemnsione inferiore a 10 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
-* Per creare il contenuto dell’e-mail, utilizza un modello creato in Adobe Campaign o, preferibilmente, uno dei [modelli e-mail incorporati](../content/email-sample-templates.md). Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
+* Per creare il contenuto dell’e-mail, utilizza un modello creato in Adobe Campaign o, preferibilmente, uno dei [modelli e-mail incorporati](../content/create-email-templates.md). Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 
 
 La funzione Assistente contenuto di Campaign è soggetta alle seguenti limitazioni:

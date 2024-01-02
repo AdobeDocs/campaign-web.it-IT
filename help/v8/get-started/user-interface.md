@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: ht
-source-wordcount: '1513'
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
+workflow-type: tm+mt
+source-wordcount: '1360'
 ht-degree: 100%
 
 ---
@@ -359,82 +359,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Dettagli dei frammenti"
 
 
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Modello di contenuto"
->abstract="Modello di contenuto"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Proprietà del modello di contenuto"
->abstract="Proprietà del modello di contenuto"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Progettazione del modello di contenuto"
->abstract="Progettazione del modello di contenuto"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Selezione del modello di contenuto"
->abstract="Selezione del modello di contenuto"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Edizione modello di contenuto"
->abstract="Edizione modello di contenuto"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="Attività di riconciliazione"
->abstract="Utilizza l’attività **Riconciliazione** per collegare dati non identificati a risorse esistenti."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Targeting di riconciliazione"
->abstract="Targeting di riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="Regole di riconciliazione"
->abstract="Regole di riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="Dimensione del targeting di riconciliazione"
->abstract="Dimensione del targeting di riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="Campo di selezione riconciliazione"
->abstract="Campo di selezione riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="Attributo di selezione riconciliazione"
->abstract="Attributo di selezione riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="Condizione di creazione riconciliazione"
->abstract="Condizione di creazione riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="Complemento generato da riconciliazione"
->abstract="Complemento generato da riconciliazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Opzione per mantenere i dati non riconciliati della riconciliazione"
->abstract="Opzione per mantenere i dati non riconciliati della riconciliazione"
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="Complemento generato da combinazione"
@@ -537,42 +461,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Attività di caricamento file"
->abstract="Attività di caricamento file"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="File di esempio"
->abstract="File di esempio"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Nome del file"
->abstract="Nome del file"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Database di destinazione"
->abstract="Database di destinazione"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Rifiuta la gestione per l’attività di caricamento file"
->abstract="Rifiuta la gestione per l’attività di caricamento file"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Rifiuta la gestione della transizione in uscita"
->abstract="Rifiuta la gestione della transizione in uscita"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Rifiuta la gestione della transizione in uscita per i valori rifiutati"
->abstract="Rifiuta la gestione della transizione in uscita per i valori rifiutati"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Formattazione per l’attività di caricamento file"
->abstract="Formattazione per l’attività di caricamento file"
