@@ -4,10 +4,10 @@ title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
-workflow-type: ht
-source-wordcount: '1534'
-ht-degree: 100%
+source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Conteggio notifiche"
->abstract="Utilizza questa opzione per impostare il numero di nuove informazioni non lette da visualizzare direttamente sull’icona dell’app. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso."
+>abstract="Utilizza questa opzione per impostare il numero di notifiche non lette da visualizzare direttamente sull’icona dell’app. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso."
 
 
 >[!CONTEXTUALHELP]
