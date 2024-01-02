@@ -4,9 +4,9 @@ description: Scopri come comprendere gli indicatori chiave di performance
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
-workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '1200'
+ht-degree: 100%
 
 ---
 
@@ -87,17 +87,17 @@ L’indicatore **Clic** mostra i KPI seguenti per ogni canale:
 Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:trackingStats`). Questa tabella aggregata viene utilizzata per motivi di prestazioni quando si visualizzano i report al posto della tabella dei registri di tracciamento dei destinatari (`nms:trackingLogRcp`) e non viene calcolata in tempo reale. La tabella viene generata pochi minuti dopo il recupero dei registri di tracciamento.
 
 
-## Tassi di abbonamento {#ui-sub-kpi}
+## Percentuali di abbonamento {#ui-sub-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Abbonamenti"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli abbonamenti a un servizio e la percentuale di abbonamenti rispetto al numero totale di messaggi consegnati con successo."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli abbonamenti a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
 
 
-I destinatari possono acconsentire alle comunicazioni e-mail e SMS.
+I destinatari possono fornire il consenso alle comunicazioni via e-mail e SMS.
 
-Il **Iscrizioni** L’indicatore mostra i KPI seguenti, per ogni canale la percentuale del numero di abbonamenti rispetto al numero totale di messaggi consegnati con successo.
+L’indicatore **Abbonamenti** mostra i KPI seguenti: per ogni canale la percentuale del numero di abbonamenti rispetto al numero totale di messaggi consegnati con successo.
 
 
 >[!NOTE]
@@ -149,13 +149,13 @@ L’indicatore **Errori** mostra i KPI seguenti per ogni canale:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Inviato"
->abstract="Questa metrica mostra, per il canale di direct mailing, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
+>abstract="Questa metrica mostra, per il canale di direct mail, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
 
-Durante la fase di preparazione, viene generato il file di estrazione della direct mailing, ma le informazioni relative ai destinatari (ad esempio i registri di consegna) non vengono aggiornate.  Lo stato di una consegna spostata da In attesa di consegna a Inviata quando l’utente di Campaign conferma l’invio della consegna. Quindi la consegna viene impostata su Finished.
+Durante la fase di preparazione, viene generato il file di estrazione di direct mail, ma le informazioni relative ai destinatari (ad esempio i registri di consegna) non vengono aggiornate.  Lo stato di una consegna spostata da In sospeso a Inviata quando l’utente di Campaign conferma l’invio della consegna. Quindi la consegna viene impostata su Completata.
 
-Non può mai essere il 100% dei messaggi inviati rispetto al totale dei messaggi preparati, in quanto alcuni indirizzi possono essere mancanti o incompleti.
+Dal momento che alcuni indirizzi possono essere mancanti o incompleti, la percentuale dei messaggi inviati non può mai essere del 100% rispetto al totale dei messaggi preparati.
 
-Il **Inviato** L&#39;indicatore mostra i KPI seguenti per il canale Direct mailing:
+L’indicatore **Inviati** mostra i KPI seguenti per il canale direct mail:
 
 * Percentuale del numero di messaggi inviati rispetto al numero totale di messaggi preparati.
 

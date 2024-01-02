@@ -5,9 +5,9 @@ description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-
 badge: label="Beta"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 928af170b0f2de1d1d397a32bdd6c0d9c3621bce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1572'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Totale aperture]**: numero totale di destinatari di destinazione che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture totali]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
 
 * **[!UICONTROL Clic totali]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
 
@@ -101,9 +101,9 @@ La tabella **[!UICONTROL Statistiche di reazione]** contiene i dati disponibili 
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Aperture univoche]**: numero totale di destinatari di destinazione che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture univoche]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Aperture totali]**: numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture totali]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
 * **[!UICONTROL Annullamenti iscrizione]**: numero di destinatari che hanno fatto clic sull’annullamento delle iscrizioni per il periodo in questione.
 
@@ -125,7 +125,7 @@ La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al mo
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Clic univoci]**: numero totale di destinatari univoci che hanno fatto clic su una consegna almeno una volta.
+* **[!UICONTROL Clic univoci]**: numero totale di destinatari univoci che hanno fatto clic almeno una volta in una consegna.
 
 * **[!UICONTROL Clic totali]**: numero totale di clic sui collegamenti nelle consegne.
 
@@ -190,11 +190,11 @@ Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave d
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
-* **[!UICONTROL Messaggio/i da consegnare]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
+* **[!UICONTROL Messaggio/i da consegnare]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
 
-* **[!UICONTROL Aperture univoche]**: numero totale di destinatari di destinazione che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture univoche]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Aperture totali]**: numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture totali]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
 * **[!UICONTROL Clic sul collegamento di rinuncia]**: numero di clic sul collegamento di annullamento dell’iscrizione.
 
@@ -214,15 +214,15 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 
 ![](assets/campaign_report_email_8.png)
 
-+++ Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
++++ Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
 * **[!UICONTROL Inviati]**: numero totale di messaggi inviati.
 
 * **[!UICONTROL Reclami]**: numero e percentuale di messaggi per questo dominio che sono stati segnalati come indesiderati dal destinatario.
 
-* **[!UICONTROL Aperture univoche]**: numero e percentuale di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta.
+* **[!UICONTROL Aperture univoche]**: numero e percentuale di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Clic univoci]**: numero e percentuale di destinatari di destinazione distinti che hanno fatto clic almeno una volta nella stessa consegna.
+* **[!UICONTROL Clic univoci]**: numero e percentuale di destinatari target distinti che hanno fatto clic almeno una volta nella stessa consegna.
 
 * **[!UICONTROL Reattività raw]**: percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
 
@@ -239,7 +239,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 
 ![](assets/campaign_report_email_9.png)
 
-+++ Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
++++ Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
 * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 

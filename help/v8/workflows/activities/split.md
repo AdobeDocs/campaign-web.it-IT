@@ -5,8 +5,8 @@ description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
-workflow-type: tm+mt
-source-wordcount: '694'
+workflow-type: ht
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="Complemento generato da divisione"
+>title="Complemento generato da suddivisione"
 >abstract="Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **Genera complemento**."
 
 Per configurare l’attività **Dividi** segui questi passaggi:

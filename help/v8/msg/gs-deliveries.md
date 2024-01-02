@@ -5,10 +5,11 @@ description: Scopri come creare la prima consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
-workflow-type: tm+mt
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

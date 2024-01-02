@@ -5,9 +5,9 @@ description: Scopri come inviare la tua prima e-mail con l’interfaccia utente 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
 source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ In base a un [modello di progettazione](../content/email-sample-templates.md) pr
 >title="Definire le proprietà dell’e-mail"
 >abstract="Le proprietà sono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Le impostazioni aggiuntive sono facoltative. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
 
-Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna e-mail autonoma (singola). Ulteriori informazioni sui passaggi di creazione della consegna in Adobe Campaign in [questa pagina](../msg/gs-deliveries.md).
+Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna e-mail autonoma (singola). Ulteriori informazioni sui passaggi per la creazione della consegna in Adobe Campaign sono disponibili in [questa pagina](../msg/gs-deliveries.md).
 
 Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di seguito.
 
@@ -54,7 +54,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
 
    ![](assets/channel-template.png)
 
-1. Fai clic su **[!UICONTROL Crea una consegna]** per confermare.
+1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 1. Specifica un’etichetta per la consegna e configura opzioni aggiuntive in base alle tue esigenze:
 
    * **[!UICONTROL Nome interno]**: assegna un identificatore univoco alla consegna.

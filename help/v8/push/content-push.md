@@ -5,9 +5,9 @@ description: Scopri come progettare una consegna di notifica push con Adobe Camp
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1534'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenuto push per Android"
->abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per iniziare a comporre il messaggio, fai clic su **Modifica contenuto** pulsante."
+>abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per iniziare a comporre il messaggio, fai clic sul pulsante **Modifica contenuto**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenuto push per iOS"
->abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per iniziare a comporre il messaggio, fai clic su **Modifica contenuto** pulsante."
+>abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per iniziare a comporre il messaggio, fai clic sul pulsante **Modifica contenuto**."
 
 ## Definisci il contenuto della notifica {#push-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Messaggio push iOS"
->abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per una configurazione più personalizzata, vai al **Impostazioni avanzate** sezione."
+>abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor di espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per una configurazione più personalizzata, vai alla sezione **Impostazioni avanzate**."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Messaggio push iOS"
->abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore. Per una configurazione più personalizzata, vai al **Impostazioni avanzate** sezione."
+>abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor di espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore. Per una configurazione più personalizzata, vai alla sezione **Impostazioni avanzate**."
 
 
 
@@ -54,7 +54,7 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 * Il **[!UICONTROL Messaggio dati]** è gestito dall’app client. Questi messaggi vengono inviati direttamente all’app mobile, che genera e visualizza una notifica Android sul dispositivo. I messaggi di dati contengono solo variabili dell’applicazione personalizzate.
 
   Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fai clic sul campo **[!UICONTROL Messaggio]** e utilizza l’editor di espressioni. Puoi accedere a questo editor per personalizzare i messaggi.
-In **[!UICONTROL Variabili dell’applicazione]** , le variabili dell&#39;applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
+Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
   ![](assets/push_content_4.png)
 
@@ -102,7 +102,7 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
 >title="Contenuto modificabile"
->abstract="Utilizzare questa opzione per consentire all’app mobile di scaricare il contenuto multimediale associato alla notifica."
+>abstract="Utilizza questa opzione per consentire all’app mobile di scaricare il contenuto multimediale associato alla notifica."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
@@ -147,7 +147,7 @@ Le opzioni avanzate dipendono dal sistema operativo mobile: Android o iOS. Sfogl
 
 | Parametro | Descrizione |
 |---------|---------|
-| **[!UICONTROL Modalità avviso critico]** | Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se il dispositivo è silenzioso. In questo modo l’utente noterà gli avvisi importanti. Se questa opzione è selezionata, è possibile regolare il volume della notifica utilizzando la barra del livello del volume. Un numero compreso tra 0 e 100 sopra la barra riflette le impostazioni. |
+| **[!UICONTROL Modalità avviso critico]** | Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se il dispositivo è silenzioso. In questo modo viene garantito che l’utente noti gli avvisi importanti. Se questa opzione è selezionata, è possibile regolare il volume della notifica utilizzando la barra del livello del volume. Un numero compreso tra 0 e 100 sopra la barra riflette le impostazioni. |
 | **[!UICONTROL Pulisci badge]** | Abilita questa opzione per aggiornare il valore del badge visualizzato sull’icona dell’applicazione. In questo modo il badge riflette accuratamente il numero delle nuove informazioni non lette. |
 | **[!UICONTROL Conteggio notifiche]** | Imposta un numero che verrà visualizzato direttamente sull’icona dell’applicazione, indicando il numero di nuove informazioni non lette. Questo fornisce un riferimento visivo rapido per l’utente. |
 | **[!UICONTROL Volume]** | Volume del suono da 0 a 100. |

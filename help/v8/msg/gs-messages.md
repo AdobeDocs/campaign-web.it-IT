@@ -5,9 +5,9 @@ description: Scopri come utilizzare le consegne e inviare messaggi con Campaign 
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 57%
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati.
 
-Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere autonome o incluse nei flussi di lavoro, nel contesto di una campagna di marketing. Scopri come creare e gestire le consegne in Adobe Campaign in [questa sezione](gs-deliveries.md).
+Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario. Queste consegne possono essere indipendenti o incluse in flussi di lavoro nel contesto di una campagna di marketing. Per scoprire come creare e gestire le consegne in Adobe Campaign, consulta [questa sezione](gs-deliveries.md).
 
-Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e app mobili. Consulta le sezioni seguenti per scoprire come creare e inviare messaggi.
+Adobe Campaign v8 viene fornito con i seguenti canali di consegna: e-mail, SMS e app mobile. Sfoglia le sezioni seguenti per scoprire come creare e inviare messaggi.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">

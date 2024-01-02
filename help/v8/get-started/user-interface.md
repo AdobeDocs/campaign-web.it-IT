@@ -5,9 +5,9 @@ description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -205,13 +205,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Destinatari che non contattano più"
->abstract="Destinatari che non contattano più"
+>title="Destinatari da non contattare più"
+>abstract="Destinatari da non contattare più"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
->title="Altri destinatari"
->abstract="Altri destinatari"
+>title="Destinatari Altri"
+>abstract="Destinatari Altri"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
@@ -254,8 +254,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="Profili di test - Dati aggiuntivi"
->abstract="Profili di test - Dati aggiuntivi"
+>title="Dati aggiuntivi dei profili di test"
+>abstract="Dati aggiuntivi dei profili di test"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
@@ -383,15 +383,15 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
->title="Modifica del modello di contenuto"
->abstract="Modifica del modello di contenuto"
+>title="Edizione modello di contenuto"
+>abstract="Edizione modello di contenuto"
 
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Attività di riconciliazione"
->abstract="Utilizza il **Reconciliation** attività per collegare dati non identificati a risorse esistenti."
+>abstract="Utilizza l’attività **Riconciliazione** per collegare dati non identificati a risorse esistenti."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -521,18 +521,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
->title="Contenuto per direct mailing"
->abstract="Contenuto per direct mailing"
+>title="Contenuto per direct mail"
+>abstract="Contenuto per direct mail"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
->title="Proprietà file per Direct Mail"
->abstract="Proprietà file per Direct Mail"
+>title="Proprietà file per direct Mail"
+>abstract="Proprietà file per direct Mail"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
->title="Proprietà contenuto per Direct Mail"
->abstract="Proprietà contenuto per Direct Mail"
+>title="Proprietà contenuto per direct Mail"
+>abstract="Proprietà contenuto per direct Mail"
 
 
 
@@ -559,20 +559,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="Gestione dei rifiuti per l&#39;attività di caricamento file"
->abstract="Gestione dei rifiuti per l&#39;attività di caricamento file"
+>title="Rifiuta la gestione per l’attività di caricamento file"
+>abstract="Rifiuta la gestione per l’attività di caricamento file"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="Rifiuta transizione in uscita di gestione"
->abstract="Rifiuta transizione in uscita di gestione"
+>title="Rifiuta la gestione della transizione in uscita"
+>abstract="Rifiuta la gestione della transizione in uscita"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Rifiuta la transizione in uscita della gestione per i rifiuti"
->abstract="Rifiuta la transizione in uscita della gestione per i rifiuti"
+>title="Rifiuta la gestione della transizione in uscita per i valori rifiutati"
+>abstract="Rifiuta la gestione della transizione in uscita per i valori rifiutati"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="Formattazione per l&#39;attività di caricamento file"
->abstract="Formattazione per l&#39;attività di caricamento file"
+>title="Formattazione per l’attività di caricamento file"
+>abstract="Formattazione per l’attività di caricamento file"
