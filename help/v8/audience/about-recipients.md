@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ In Adobe Campaign, la popolazione target di una consegna è un “pubblico”. U
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profili"
->abstract="Un profilo è una persona il cui target è la ricezione di messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare il profilo del destinatario. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi del destinatario."
+>abstract="Un profilo è un soggetto destinato a ricevere i messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare il profilo del destinatario. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi del destinatario."
 
 Un destinatario è un profilo destinato a ricevere i messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). I dati dei destinatari memorizzati nel database consentono di creare tipi di pubblico che riceveranno una determinata consegna e di aggiungere dati di personalizzazione al contenuto della consegna. Nel database sono presenti altri tipi di profili. Sono progettati per utilizzi diversi: ad esempio, i profili seed vengono usati per testare le consegne prima di inviarle al pubblico finale.
 

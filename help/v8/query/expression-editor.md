@@ -1,35 +1,35 @@
 ---
 audience: end-user
-title: Creare la prima query utilizzando il modellatore di query
-description: Scopri come creare la prima query in Adobe Campaign Web Query Modeler.
+title: Creare la prima query utilizzando il query modeler
+description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
 source-wordcount: '1917'
-ht-degree: 60%
+ht-degree: 95%
 
 ---
 
-# Modificare le espressioni {#expression}
+# Modifica espressioni {#expression}
 
 ## Modificare un’espressione {#edit}
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
 
-Queste operazioni sono disponibili dal pulsante Modifica espressione di Query Modeler, disponibile per i campi Attributo e Valore durante la configurazione di una condizione personalizzata.
+Queste operazioni sono disponibili dal pulsante Modifica espressione del query modeler, disponibile per i campi Attributo e Valore durante la configurazione di una condizione personalizzata.
 
 ![](assets/edit-expression.png)
 
-L’editor di espressioni fornisce:
+L’editor di espressioni mostra:
 
 * Un campo di input in cui è definita l’espressione.
-* L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione di targeting della query.
+* L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione di targeting della query
 * L’elenco delle funzioni disponibili, ordinate per categoria.
 
-Modifica l’espressione immettendo un’espressione direttamente nel campo di input o utilizzando gli elenchi dei campi e delle funzioni disponibili. A questo scopo, posizionare il cursore nell&#39;espressione inexpression nel punto in cui si desidera aggiungere l&#39;elemento e fare doppio clic sul campo o sull&#39;espressione desiderata.
+Modifica l’espressione immettendone una direttamente nel campo di inserimento o utilizzando gli elenchi dei campi e delle funzioni disponibili. Per farlo, posiziona il cursore nell’espressione nel punto in cui desideri aggiungere l’elemento e fai doppio clic sul campo o sull’espressione desiderata.
 
 ## Funzioni Helper
 
-Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi in base ai risultati desiderati e ai tipi di dati manipolati. Sono disponibili le seguenti funzioni:
+Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati manipolati. Sono disponibili le seguenti funzioni:
 
 ### Aggregato
 
@@ -45,12 +45,12 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
   <tr> 
    <td> <strong>Avg</strong><br /> </td> 
    <td> Restituisce la media di una colonna di tipo numerico<br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
+   <td> Avg(&lt;valore&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Conteggio</strong><br /> </td> 
-   <td> Conta i valori non nulli di una colonna<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
+   <td> Conta i valori non nulli in una colonna<br /> </td> 
+   <td> Count(&lt;valore&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -59,28 +59,28 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
   </tr> 
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> Conta i valori distinti non nulli di una colonna<br /> </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
+   <td> Conta i valori distinti non nulli in una colonna<br /> </td> 
+   <td> Countdistinct(&lt;valore&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Max</strong><br /> </td> 
-   <td> Restituisce il valore massimo di una colonna di tipo numero, stringa o data<br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
+   <td> Restituisce il valore massimo in una colonna numerica, stringa o data<br /> </td> 
+   <td> Max(&lt;valore&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Min</strong><br /> </td> 
-   <td> Restituisce il valore minimo di una colonna di tipo numero, stringa o data<br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
+   <td> Restituisce il valore minimo in una colonna numerica, stringa o data.<br /> </td> 
+   <td> Min(&lt;valore&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>DevStandard</strong><br /> </td> 
-   <td> Restituisce la deviazione standard di una colonna numerica, stringa o data<br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
+   <td> <strong>StdDev</strong><br /> </td> 
+   <td> Restituisce la deviazione standard in una colonna numerica, stringa o data<br /> </td> 
+   <td> StdDev(&lt;valore&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Somma</strong><br /> </td> 
-   <td> Restituisce la somma dei valori di una colonna di tipo numero, stringa o data<br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
+   <td> Restituisce la somma dei valori in una colonna numerica, stringa o data<br /> </td> 
+   <td> Sum(&lt;valore&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,12 +128,12 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando TZ sessione definita<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando la sessione definita TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;data+ora&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Restituisce solo la data (con l’ora su 00:00)*<br /> </td> 
+   <td> Restituisce solo la data (con l’ora su 00.00)*<br /> </td> 
    <td> DateOnly(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Restituisce il numero del giorno dell’anno della data<br /> </td> 
+   <td> Restituisce un numero del giorno dell’anno della data<br /> </td> 
    <td> DayOfYear(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Restituisce la data (numero intero aaaammgg) corrispondente alla data corrente meno n giorni<br /> </td> 
+   <td> Restituisce la data corrispondente (numero intero aaaammgg) alla data corrente meno n giorni<br /> </td> 
    <td> DaysAgoInt(&lt;numero&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -214,7 +214,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
    <td> Restituisce la data meno recente in un intervallo<br /> </td> 
-   <td> Più vecchio (&lt;date date=""&gt;)<br /> </td>  
+   <td> Oldest (&lt;data, data&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -284,7 +284,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> Arrotonda la parte dell’ora al secondo più vicino<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;, &lt;number of="" seconds=""&gt;)<br /> </td>  
+   <td> TruncTime(&lt;data&gt;, &lt;numero di secondi&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -331,7 +331,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
 
 >[!NOTE]
 >
->Tieni presente che **Dateonly** tiene conto del fuso orario del server, non di quello dell’operatore.
+>Tieni presente che la funzione **Dateonly** tiene conto del fuso orario del server, non di quello dell’operatore.
 
 ### Geomarketing
 
@@ -346,7 +346,7 @@ Le funzioni di geomarketing vengono utilizzate per manipolare i valori geografic
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> Restituisce la distanza tra due punti definiti da longitudine e latitudine, espressa in gradi.<br /> </td> 
+   <td> Restituisce la distanza tra due punti definiti da longitudine e latitudine espressa in gradi.<br /> </td> 
    <td> Distance(&lt;Longitudine A&gt;, &lt;Latitudine A&gt;, &lt;Longitudine B&gt;, &lt;Latitudine B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -375,7 +375,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Restituisce il numero intero più grande maggiore o uguale a un numero<br /> </td> 
+   <td> Restituisce il numero intero maggiore o uguale a un numero<br /> </td> 
    <td> Floor(&lt;numero&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -390,7 +390,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Restituisce il resto della divisione di n1 per n2<br /> </td> 
+   <td> Restituisce il resto della divisione del numero intero da n1 per n2<br /> </td> 
    <td> Mod(&lt;numero 1&gt;, &lt;numero 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -454,7 +454,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> Restituisce il valore 1 se la condizione è true. In caso contrario, restituisce il valore 2.<br /> </td> 
+   <td> Restituisce il valore 1 se la condizione è vera. In caso contrario, restituisce il valore 2.<br /> </td> 
    <td> Case(When(&lt;condizione&gt;, &lt;valore 1&gt;), Else(&lt;valore 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -469,7 +469,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Restituisce il valore 3 se il valore 1 = valore 2. Se non restituisce il valore 4.<br /> </td> 
+   <td> Restituisce il valore 3 se il valore 1 = al valore 2. In caso contrario, restituisce il valore 4.<br /> </td> 
    <td> Decode(&lt;valore 1&gt;, &lt;valore 2&gt;, &lt;valore 3&gt;, &lt;valore 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -480,7 +480,7 @@ Questa tabella contiene le altre funzioni disponibili.
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Restituisce il valore 1 (può essere utilizzato solo come parametro della funzione Case)<br /> </td> 
-   <td> Else(&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Else(&lt;valore 1&gt;, &lt;valore 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -494,7 +494,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Restituisce il valore 1 se l’espressione è true. In caso contrario, restituisce il valore 2<br /> </td> 
+   <td> Restituisce il valore 1 se l’espressione è vera. In caso contrario, restituisce il valore 2<br /> </td> 
    <td> Iif(&lt;condizione&gt;, &lt;valore 1&gt;, &lt;valore 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -504,8 +504,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> Restituisce il valore 2 se la stringa 1 è vuota, altrimenti restituisce il valore 3<br /> </td> 
-   <td> IsEmptyString(&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Restituisce il valore 2 se la stringa è vuota, altrimenti restituisce il valore 3<br /> </td> 
+   <td> IsEmptyString(&lt;valore 1&gt;, &lt;valore 2&gt;, &lt;valore 3&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
@@ -534,7 +534,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Restituisce il valore 1 se l’espressione è true. In caso contrario, restituisce il valore 2 (può essere utilizzato solo come parametro della funzione Case)<br /> </td> 
+   <td> Restituisce il valore 1 se l’espressione è vera. In caso contrario, restituisce il valore 2 (può essere utilizzato solo come parametro della funzione Case)<br /> </td> 
    <td> When(&lt;condizione&gt;, &lt;valore 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -554,27 +554,27 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indica se tutti i parametri non sono nulli e non sono vuoti<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> AllNonNull2(&lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica se tutti i parametri non sono nulli e non sono vuoti<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> AllNonNull3(&lt;stringa&gt;, &lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
-   <td> Restituisce il valore ASCII del primo carattere della stringa.<br /> </td> 
-   <td> Ascii(&lt;string&gt;)<br /></td> 
+   <td> Restituisce il valore ASCII del primo carattere della stringa<br /> </td> 
+   <td> Ascii(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Restituisce il carattere corrispondente al codice ASCII “n”<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /></td>  
+   <td> Char(&lt;numero&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Restituisce la posizione della stringa 2 nella stringa 1.<br /> </td> 
-   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Charindex(&lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
@@ -584,37 +584,37 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Restituisce l’ennesima riga (da 1 a n) della stringa<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /></td> 
+   <td> GetLine(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
    <td> Restituisce il terzo parametro se i primi due parametri sono uguali. In caso contrario, restituisce l’ultimo parametro<br /> </td> 
-   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> IfEquals(&lt;stringa&gt;, &lt;stringa&gt;, &lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> Indica se il promemoria passato come parametro è nullo<br /> </td> 
-   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
+   <td> IsMemoNull(&lt;promemoria&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
    <td> Concatena le stringhe passate come parametri. Se necessario, aggiunge spazi tra le stringhe.<br /> </td> 
-   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> JuxtWords(&lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatena le stringhe passate come parametri. Se necessario, aggiunge spazi tra le stringhe<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;stringa&gt;, &lt;stringa&gt;, &lt;stringa&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Restituisce i primi n caratteri della stringa<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
+   <td> Left(&lt;stringa&gt;, &lt;numero&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
    <td> Restituisce la lunghezza della stringa<br /> </td> 
-   <td> Length(&lt;string&gt;)<br /></td> 
+   <td> Length(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <!--<tr> 
    <td> <strong>Line</strong><br /> </td> 
@@ -624,7 +624,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Restituisce la stringa in caratteri minuscoli<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
+   <td> Lower(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
@@ -634,17 +634,17 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Rimuove gli spazi a sinistra della stringa<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /></td> 
+   <td> Ltrim(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Restituisce una rappresentazione esadecimale della chiave MD5 di una stringa<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /></td> 
+   <td> Md5Digest(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Specifica se il promemoria contiene la stringa passata come parametro<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;promemoria&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
@@ -659,7 +659,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Restituisce la stringa completata a destra<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+   <td> RPad(&lt;stringa&gt;, &lt;numero&gt;, &lt;carattere&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -683,13 +683,13 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> Estrae la sottostringa a partire dal carattere n1 della stringa e dalla lunghezza n2<br /> </td> 
+   <td> Estrae la stringa secondaria a partire dal carattere n1 della stringa e con una lunghezza n2<br /> </td> 
    <td> Substring(&lt;stringa&gt;, &lt;offset&gt;, &lt;lunghezza&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Converte il numero in una stringa<br /> </td> 
-   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
+   <td> ToString(&lt;numero&gt;, &lt;numero&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -740,7 +740,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> Genera un numero di riga in base alla partizione della tabella e a una sequenza di ordinamento.<br /> </td> 
+   <td> Genera un numero di riga basato sulla partizione della tabella e su una sequenza di ordinamento.<br /> </td> 
    <td> RowNum(PartitionBy(&lt;valore 1&gt;), OrderBy(&lt;valore 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
