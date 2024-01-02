@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 86%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definizione colonne"
->abstract="Verifica il formato delle colonne da inserire dal file locale."
+>abstract="Controlla il formato delle colonne nel file esterno."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formattazione dei parametri"
->abstract="Verifica i parametri di formattazione per il file."
+>abstract="Verificare i parametri di formattazione per il file esterno."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anteprima del file"
->abstract="Verifica l’anteprima del file. Questa schermata mostra solo un massimo di 30 record."
+>abstract="Controlla l’anteprima delle colonne del file esterno. Questa schermata mostra solo un massimo di 30 record."
 
 
-
-Non è possibile caricare profili direttamente in Campaign dall’interfaccia, ma è possibile eseguire il targeting dei profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
+Puoi eseguire il targeting dei profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). Questo articolo descrive come caricare un profilo esterno durante la creazione di una consegna e-mail indipendente. Per caricare dati da un file in un flusso di lavoro, consulta [questa pagina](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Questa funzionalità è disponibile solo per le **consegne e-mail autonome**. Non può essere utilizzata nei flussi di lavoro, né con le consegne SMS o push.
+>* Questa funzionalità è disponibile solo per **consegne e-mail**. Non può essere utilizzato con consegne SMS o push.
 >
 >* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
 >

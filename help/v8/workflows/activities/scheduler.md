@@ -4,10 +4,10 @@ title: Utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '526'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ L’attività del **Modulo di pianificazione** è un’attività di **Controllo 
 * Se desideri inviare una consegna unica nel flusso di lavoro, puoi aggiungere un’attività di pianificazione e impostarla per essere eseguita **una volta**. Puoi anche definire la **Pianificazione** nelle impostazioni della consegna.
 * Se desideri inviare una consegna ricorrente nel flusso di lavoro, devi utilizzare un’attività del **Modulo di pianificazione** e impostare la frequenza di esecuzione. L’attività di consegna ricorrente non ti consente di definire una pianificazione.
 
-## Configurazione{#scheduler-configuration}
+## Configurare l’attività Scheduler {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
