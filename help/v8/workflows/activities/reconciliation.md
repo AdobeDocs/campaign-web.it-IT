@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Riconciliazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Riconciliazione
 badge: label="Disponibilità limitata"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Attività di riconciliazione"
->abstract="Il **Reconciliation** l&#39;attività è un **Targeting** attività. Consente di collegare dati non identificati a risorse esistenti. Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella di lavoro."
+>abstract="Il **Reconciliation** l&#39;attività è un **Targeting** attività che ti consente di collegare dati non identificati a dati di Campaign esistenti. Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività ti consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella esterna."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 
 
-Il **Reconciliation** l&#39;attività è un **Targeting** attività. Consente di collegare dati non identificati a risorse esistenti. Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella di lavoro.
+Il **Reconciliation** l&#39;attività è un **Targeting** attività che ti consente di collegare dati non identificati a risorse esistenti. Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella di lavoro.
 
 
 ## Best practice {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Per configurare il **Reconciliation** attività:
 
 1. Seleziona i campi di riconciliazione da utilizzare per la deduplicazione. Puoi utilizzare uno o più criteri di riconciliazione.
 
-   1. Per utilizzare gli attributi per riconciliare i dati, selezionare **Attributi semplici** opzione. Ad esempio, seleziona la **E-mail** per deduplicare i profili in base al loro indirizzo e-mail. Il **Sorgente** campo elenca i campi disponibili nella transizione di input, che devono essere riconciliati. Il **Destinazione** corrisponde ai campi della dimensione di targeting selezionata. I dati vengono riconciliati quando l’origine e la destinazione sono uguali.
+   1. Per utilizzare gli attributi per riconciliare i dati, selezionare **Attributi semplici** opzione. Il **Sorgente** campo elenca i campi disponibili nella transizione di input, che devono essere riconciliati. Il **Destinazione** corrisponde ai campi della dimensione di targeting selezionata. I dati vengono riconciliati quando l’origine e la destinazione sono uguali. Ad esempio, seleziona la **E-mail** per deduplicare i profili in base al loro indirizzo e-mail.
 
       Per aggiungere un altro criterio di riconciliazione, fai clic su **Aggiungi regola** pulsante. Se sono specificate più condizioni di unione, è necessario verificarle TUTTE in modo che i dati possano essere collegati tra loro.
 
@@ -121,7 +121,7 @@ Viene generato con le seguenti attività:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Reconciliation** attività che identifica i dati in arrivo come profili, utilizzando **email** come criteri di riconciliazione.
+* A **Reconciliation** attività che identifica i dati in arrivo come profili, utilizzando **email** e **Data di nascita** come criteri di riconciliazione.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 

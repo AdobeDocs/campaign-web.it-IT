@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 badge: label="Disponibilità limitata"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 40%
+source-wordcount: '294'
+ht-degree: 39%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Attività di caricamento file"
->abstract="Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con i profili memorizzati in un file esterno."
+>abstract="Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con i dati memorizzati in un file esterno."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 40%
 >abstract="Formattazione per l’attività di caricamento file"
 
 
-Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con i profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare i profili.
+Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Per configurare il **Carica file** attività:
 
 
 1. Trascina una **Carica file** attività nel flusso di lavoro. Fai clic su **Seleziona da file** pulsante.
-1. Seleziona il file locale da usare. Il formato deve essere allineato con [file di esempio](../../audience/file-audience.md#sample-file).
+1. Seleziona il file locale da usare. Il formato deve essere allineato con questo [file di esempio](../../audience/file-audience.md#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
 1. Regola le impostazioni delle colonne e il formato dei dati dalle opzioni disponibili.
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
