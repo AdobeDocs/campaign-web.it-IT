@@ -3,11 +3,11 @@ audience: end-user
 title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
-workflow-type: ht
-source-wordcount: '1157'
-ht-degree: 100%
+badge: label="LA"
+source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 93%
 
 ---
 
@@ -43,7 +43,7 @@ Per iniziare a testare il contenuto del messaggio:
 
    A seconda del canale del messaggio, le bozze possono essere inviate ai seguenti tipi di destinatari:
 
-   * Per gli SMS e le e-mail, puoi utilizzare [profili di test](#test-profiles), che sono destinatari aggiuntivi specifici nel database. Questi destinatari vengono creati nella console client di [!DNL Campaign]. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
+   * Per gli SMS e le e-mail, puoi utilizzare [profili di test](#test-profiles), che sono destinatari aggiuntivi specifici nel database. [Ulteriori informazioni](../audience/test-profiles.md)
 
    * Per gli SMS e le e-mail, puoi anche utilizzare la modalità di [sostituzione dal target principale](#substitution-profiles): le bozze verranno inviate al numero di telefono o all’indirizzo di test e-mail e verranno utilizzati i dati di personalizzazione di un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
 
@@ -73,7 +73,9 @@ Per iniziare a testare il contenuto del messaggio:
 >title="Includi i profili di test nel pubblico principale"
 >abstract="Abilita questa opzione per inviare anche il messaggio finale ai destinatari della consegna di test."
 
-I profili di test sono indirizzi seed, che sono destinatari aggiuntivi nel database. Possono essere creati anche nella console client di [!DNL Adobe Campaign]. Di seguito sono riportati i passaggi per inviare bozze a indirizzi seed.
+I profili di test sono indirizzi seed, che sono destinatari aggiuntivi nel database. Possono essere create dalla **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
+
+Di seguito sono descritti i passaggi per inviare bozze agli indirizzi seed.
 
 1. Dal contenuto della consegna, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e **[!UICONTROL Test]**.
 
@@ -81,13 +83,23 @@ I profili di test sono indirizzi seed, che sono destinatari aggiuntivi nel datab
 
    ![](assets/simulate-profile-mode.png)
 
-1. Se hai già selezionato dei profili per [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, questi vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando il pulsante **[!UICONTROL Aggiungi profili di test]**.
-
    >[!NOTE]
    >
-   >I profili di test sono creati nella console del client di [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]** . Scopri come creare e gestire gli indirizzi seed nella [documentazione di Campaign v8 (console del client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}.
+   >I profili di test vengono creati da **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. Scopri come crearli e gestirli in [questa sezione](../audience/test-profiles.md#create-test-profiles).
+
+1. Se hai già selezionato dei profili per [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, questi vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando il pulsante **[!UICONTROL Aggiungi profili di test]**.
+
+1. Quando sfoglia l’elenco dei profili di test, puoi utilizzare i filtri per perfezionare la ricerca.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. [Ulteriori informazioni sui filtri avanzati](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. Per inviare il messaggio finale anche ai destinatari della consegna di test, seleziona l’opzione **[!UICONTROL Includi la popolazione di test nel target principale]**.
+
+   ![](assets/simulate-include-test.png)
 
 1. Una volta selezionati i profili di test, puoi [inviare la consegna di test](#send-test).
 
