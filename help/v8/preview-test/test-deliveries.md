@@ -4,23 +4,23 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilità limitata"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 93%
+source-wordcount: '1187'
+ht-degree: 77%
 
 ---
 
-# Inviare bozze {#send-test-deliveries}
+# Inviare consegne di test {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modalità anteprima"
 >abstract="Visualizza l’anteprima e verifica il messaggio includendo la popolazione di test nel target principale."
 
-Una volta definito il contenuto del messaggio, puoi visualizzarlo in anteprima e testarlo inviando bozze ai profili di test. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi visualizzarlo in anteprima e testarlo inviando consegne di test ai profili di test. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-Per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test prima di inviarli al pubblico target. Per convalidare il contenuto più recente, a ogni modifica deve essere inviata una bozza. L’invio di consegne di test (precedentemente note come “bozze”) è un passaggio importante nella convalida della campagna e utile per individuare potenziali problemi. I destinatari della bozza possono controllare vari elementi come collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
+Per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia le consegne di test ai profili di test prima di inviarle al pubblico di destinazione. Per convalidare il contenuto più recente, deve essere inviata una consegna di test ogni volta che viene apportata una modifica. L’invio di consegne di test (note anche come &quot;bozze&quot;) è un passaggio importante per convalidare la campagna e identificare potenziali problemi. I destinatari della consegna di prova possono controllare vari elementi, ad esempio collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
 
 ## Simulare il contenuto con destinatari di test {#simulate-content-test-deliveries}
 
@@ -29,23 +29,23 @@ Per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni d
 >title="Popolazione di test"
 >abstract="Seleziona una modalità per la popolazione di test."
 
-Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/about-recipients.md)
+Prima di inviare un test, assicurati di definire un pubblico target per la consegna. [Ulteriori informazioni](../audience/add-audience.md)
 
 Per iniziare a testare il contenuto del messaggio:
 
 1. Modifica il contenuto della consegna.
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
-1. Fai clic sul pulsante **[!UICONTROL Test]** per inviare bozze.
+1. Fai clic su **[!UICONTROL Test]** per inviare le consegne di test.
 
    ![](assets/simulate-test-button-email.png)
 
 1. Seleziona i destinatari del test.
 
-   A seconda del canale del messaggio, le bozze possono essere inviate ai seguenti tipi di destinatari:
+   A seconda del canale del messaggio, le consegne di prova possono essere inviate ai seguenti tipi di destinatari:
 
    * Per gli SMS e le e-mail, puoi utilizzare [profili di test](#test-profiles), che sono destinatari aggiuntivi specifici nel database. [Ulteriori informazioni](../audience/test-profiles.md)
 
-   * Per gli SMS e le e-mail, puoi anche utilizzare la modalità di [sostituzione dal target principale](#substitution-profiles): le bozze verranno inviate al numero di telefono o all’indirizzo di test e-mail e verranno utilizzati i dati di personalizzazione di un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
+   * Per gli SMS e le e-mail, puoi anche utilizzare [sostituzione dal target principale](#substitution-profiles) modalità, che invia le consegne di test a un indirizzo di test e-mail o a un numero di telefono e utilizza i dati di personalizzazione di un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
 
    * Per i messaggi push, puoi utilizzare [iscritti](#subscribers), che sono iscritti fittizi aggiunti al database. Vengono creati dalla console di [!DNL Campaign]. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
@@ -75,7 +75,7 @@ Per iniziare a testare il contenuto del messaggio:
 
 I profili di test sono indirizzi seed, che sono destinatari aggiuntivi nel database. Possono essere create dalla **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
 
-Di seguito sono descritti i passaggi per inviare bozze agli indirizzi seed.
+Di seguito sono riportati i passaggi per inviare le consegne di test agli indirizzi di seed.
 
 1. Dal contenuto della consegna, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e **[!UICONTROL Test]**.
 
@@ -93,9 +93,7 @@ Di seguito sono descritti i passaggi per inviare bozze agli indirizzi seed.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. [Ulteriori informazioni sui filtri avanzati](../get-started/list-filters.md#adv-attributes)
-
-   ![](assets/simulate-test-profile-filter-ex.png)
+   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. Scopri come aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
 1. Per inviare il messaggio finale anche ai destinatari della consegna di test, seleziona l’opzione **[!UICONTROL Includi la popolazione di test nel target principale]**.
 
@@ -105,7 +103,7 @@ Di seguito sono descritti i passaggi per inviare bozze agli indirizzi seed.
 
 ## Sostituire i dati del profilo {#substitution-profiles}
 
-Utilizza la sostituzione del profilo per inviare bozze a un indirizzo e-mail o a un numero di telefono specifico, mentre i dati visualizzati nel messaggio corrispondono a quelli di un profilo esistente del database di [!DNL Adobe Campaign]. Puoi selezionare questa modalità solo se il pubblico della consegna è stato definito.
+Utilizza la sostituzione del profilo per inviare le consegne di test a un indirizzo e-mail o a un numero di telefono specifico, durante la visualizzazione dei dati da un profilo esistente di [!DNL Adobe Campaign] database. Puoi selezionare questa modalità solo se il pubblico della consegna è stato definito.
 
 Per sostituire i dati di profilo dal target principale, segui i passaggi seguenti:
 
@@ -172,7 +170,7 @@ Al termine, puoi preparare la consegna e inviarla al target principale. Scopri c
 * [Inviare la notifica push](../push/send-push.md#send-push)
 * [Inviare la consegna SMS](../sms/send-sms.md#send-sms)
 
-## Accedere alle consegne di test inviate {#access-proofs}
+## Accedere alle consegne di test inviate {#access-test-deliveries}
 
 Una volta inviate le consegne di test, puoi accedere ai registri dedicati mediante il pulsante **[!UICONTROL Visualizza registro di test]**.
 
@@ -180,6 +178,6 @@ Questi registri consentono di accedere a tutti i test inviati per la consegna se
 
 ![](assets/simulate-test-log.png)
 
-Puoi anche accedere ai test inviati dall’[elenco delle consegne](../msg/gs-messages.md), come qualsiasi altra consegna.
+Puoi anche accedere ai test inviati da [elenco di consegna](../msg/gs-messages.md), come qualsiasi consegna.
 
 ![](assets/simulate-deliveries-list.png)

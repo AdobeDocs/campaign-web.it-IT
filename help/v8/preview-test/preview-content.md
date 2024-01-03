@@ -3,11 +3,11 @@ audience: end-user
 title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima il contenuto delle consegne nell’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+badge: label="Disponibilità limitata"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,7 @@ Utilizza la funzionalità di simulazione dei contenuti di [!DNL Campaign] per vi
 
 Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi indicati di seguito.
 
-1. Passa alla schermata per la modifica del contenuto della consegna.
-
-   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
+1. Passa alla schermata di modifica del contenuto della consegna o alla [E-mail Designer](../content/get-started-email-designer.md).
 
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
@@ -36,13 +34,17 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
    * La scheda **[!UICONTROL Profili di test]** contiene tutti gli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
 
+     ![](assets/simulate-select-profiles.png)
+
      >[!NOTE]
      >
-     >I profili di test possono essere creati nella console [!DNL Campaign] nella cartella **[!UICONTROL Risorse]** > **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Indirizzi seed]**. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}.
+     >I profili di test possono essere creati da **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
 
    * La scheda **[!UICONTROL Profili]** elenca tutti i destinatari memorizzati nella cartella **[!UICONTROL Profili e destinazioni]** dalla console di [!DNL Campaign] Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=it){target="_blank"}.
 
-   ![](assets/simulate-select-profiles.png)
+     >[!NOTE]
+     >
+     >Puoi anche visualizzare e gestire i profili dalla scheda corrispondente nell’interfaccia web di Campaign. [Ulteriori informazioni](../audience/about-recipients.md)
 
 1. Fai clic su **[!UICONTROL Seleziona]** per confermare la selezione.
 
@@ -56,7 +58,7 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
 1. Dalla schermata **[!UICONTROL Simula]** puoi anche eseguire le seguenti operazioni:
    * Inviare consegne di test a destinatari specifici per la convalida - [Ulteriori informazioni](test-deliveries.md)
-   * Accedere ai registri delle consegne di test inviate - [Ulteriori informazioni](test-deliveries.md#access-proofs)
+   * Accedere ai registri delle consegne di test inviate - [Ulteriori informazioni](test-deliveries.md#access-test-deliveries)
    * Solo per le e-mail: controllare il rendering del contenuto dei messaggi nei client e-mail più diffusi - [Ulteriori informazioni](email-rendering.md)
 
 

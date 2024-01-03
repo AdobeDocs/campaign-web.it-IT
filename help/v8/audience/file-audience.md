@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -109,4 +109,4 @@ Quando si utilizza un pubblico caricato da un file, Campaign Web consente di vis
 
    ![](assets/file-upload-test.png)
 
-1. Puoi monitorare l’invio dell’e-mail di test utilizzando il pulsante Visualizza registro e-mail di test in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle e-mail di test](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Puoi monitorare l’invio dell’e-mail di test utilizzando **[!UICONTROL Visualizza registro e-mail di test]** in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle e-mail di test](../preview-test/test-deliveries.md#access-test-deliveries)

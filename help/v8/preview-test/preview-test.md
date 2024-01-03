@@ -3,11 +3,11 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Beta"
-source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
+badge: label="Disponibilità limitata"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
@@ -30,9 +30,7 @@ A questo scopo, [!DNL Adobe Campaign] ti consente di effettuare quanto segue:
 * [Inviare consegne di test](test-deliveries.md) (bozze) a specifici destinatari o iscritti a scopo di test e convalida
 * [Verificare il rendering delle e-mail](email-rendering.md) nei client desktop, mobili e basati su web più diffusi
 
-Queste azioni possono essere eseguite dal pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata Modifica contenuto della consegna.
-
-<!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
+Queste azioni possono essere eseguite utilizzando **[!UICONTROL Simula contenuto]** , accessibile dalla schermata di modifica del contenuto della consegna oppure dalla [E-mail Designer](../content/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 
