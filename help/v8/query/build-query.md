@@ -2,10 +2,11 @@
 audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: ht
-source-wordcount: '1462'
-ht-degree: 100%
+badge: label="Disponibilità limitata"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

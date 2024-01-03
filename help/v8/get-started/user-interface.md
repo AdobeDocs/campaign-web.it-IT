@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1452'
 ht-degree: 90%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Creazione dei destinatari"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="Dettagli dei destinatari"
->abstract="Dettagli dei destinatari"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="Informazioni di contatto dei destinatari"
->abstract="Informazioni di contatto dei destinatari"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="Indirizzo dei destinatari"
->abstract="Indirizzo dei destinatari"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="Account dei destinatari"
->abstract="Account dei destinatari"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="Campi personalizzati dei destinatari"
->abstract="Campi personalizzati dei destinatari"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="Destinatari da non contattare più"
->abstract="Destinatari da non contattare più"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="Destinatari Altri"
->abstract="Destinatari Altri"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Panoramica sulla scheda Destinatari"
 >abstract="Panoramica sulla scheda Destinatari"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Punti di contatto dei destinatari"
 >abstract="Punti di contatto dei destinatari"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="Elenco iscrizioni dei destinatari"
->abstract="Elenco iscrizioni dei destinatari"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"

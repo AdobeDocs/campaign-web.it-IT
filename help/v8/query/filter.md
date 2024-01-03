@@ -2,9 +2,10 @@
 audience: end-user
 title: Filtra elenchi
 description: Scopri come filtrare gli elenchi web di Adobe Campaign utilizzando filtri incorporati e personalizzati.
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+badge: label="Disponibilità limitata"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---
