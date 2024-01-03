@@ -2,12 +2,12 @@
 audience: end-user
 title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 69%
+source-wordcount: '303'
+ht-degree: 89%
 
 ---
 
@@ -33,8 +33,6 @@ L’elenco mostra le colonne seguenti:
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi dell’elenco corrente. [Ulteriori informazioni](#adv-attributes)
-
 ## Ordinare i dati {#sort-lists}
 
 Per ordinare gli elementi dell’elenco, fai clic sulla relativa intestazione di colonna. Viene visualizzata una freccia (su o giù) che indica che l’elenco è ordinato per quella colonna.
@@ -53,35 +51,35 @@ Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di con
 
 Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole**, per accedere al generatore di regole.
 
-Trascina gli attributi per creare i criteri di filtro nella schermata **Filtri avanzati**.
+Definire e combinare i criteri di filtro in **Filtri avanzati** schermo.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Utilizza l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi dell’elenco corrente. [Ulteriori informazioni](#adv-attributes)
+I filtri personalizzati sono progettati con Campaign Query Modeler. Informazioni dettagliate su come utilizzarlo sono disponibili in [questa sezione](../query/query-modeler-overview.md).
 
-Il principio operativo del generatore di regole per filtri personalizzati è simile al generatore di regole utilizzato per creare tipi di pubblico. Informazioni dettagliate su come utilizzarlo sono disponibili nella sezione [documentazione sui tipi di pubblico](../audience/segment-builder.md).
-
-## Utilizzare gli attributi avanzati {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="Visualizza gli attributi avanzati"
->abstract="Nell&#39;elenco degli attributi vengono visualizzati per impostazione predefinita solo gli attributi più comuni. Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="Campi avanzati del generatore di regole"
->abstract="Nell&#39;elenco degli attributi vengono visualizzati per impostazione predefinita solo gli attributi più comuni. Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Attributi avanzati del generatore di regole"
->abstract="Nell&#39;elenco degli attributi vengono visualizzati per impostazione predefinita solo gli attributi più comuni. Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-Per impostazione predefinita, nelle schermate elenco attributi e configurazione filtro vengono mostrati solo gli attributi più comuni. Attributi impostati come `advanced` nello schema dati sono nascosti dalle schermate di configurazione.
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-Attiva il **Visualizzare attributi avanzati** attiva per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N. L’elenco degli attributi viene aggiornato immediatamente.
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->
