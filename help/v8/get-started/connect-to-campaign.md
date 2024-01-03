@@ -1,12 +1,12 @@
 ---
 title: Connessione all’interfaccia di Adobe Campaign Web
 description: Scopri come connetterti all’interfaccia utente di Adobe Campaign v8 Web
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 84%
 
 ---
 
@@ -51,11 +51,13 @@ Viene così impostata la connessione a Campaign. Per informazioni su come inizia
 
 ## Navigazione principale in Adobe Experience Cloud {#top-bar}
 
-Utilizza la barra superiore dell’interfaccia per:
+Sfoglia la barra superiore dell’interfaccia per:
 
-* condividere il tuo feedback come utente della versione Beta
 * passare da un’organizzazione all’altra
 * passare a un’altra soluzione e alle app di Adobe Experience Cloud
+* cerca aiuto su [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* controllare le notifiche dei prodotti
+* modifica il profilo di Adobe e gestisci le impostazioni, ad esempio [aggiornare la lingua preferita](#language-pref) o [passa al tema chiaro/scuro](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -87,9 +89,9 @@ Per cambiare la lingua:
 1. Quindi fai clic sul collegamento alla lingua visualizzato sotto il tuo indirizzo e-mail.
 1. Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
 
-## Tema scuro {#dark-theme}
+## Temi scuri e chiari {#dark-theme}
 
-Puoi passare al tema scuro dall’icona del tuo profilo. Utilizza l’opzione **Tema scuro** per attivarlo o disattivarlo.
+Adobe Campaign è disponibile nei temi chiaro e scuro. Per impostazione predefinita, l’interfaccia utente è abilitata nel tema chiaro. Per passare al tema scuro, fai clic sull’icona del tuo profilo e utilizza **Tema scuro** per attivarlo o disattivarlo.
 
 Le impostazioni del profilo utente e le preferenze di account sono descritte nei dettagli in [questa sezione](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it#preferences){target="_blank"}.
 
