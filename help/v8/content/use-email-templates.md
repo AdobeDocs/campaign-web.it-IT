@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="LA"
-source-git-commit: 8690bd24b5f31bc850734939ae9b7c2d830c1e5c
+badge: label="Disponibilità limitata"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 96%
 
 ---
@@ -54,7 +54,7 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Fai clic su **[!UICONTROL Usa questo modello]** in alto a destra.
+1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
 
-1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail Designer. [Ulteriori informazioni](create-email-content.md)
+1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail designer. [Ulteriori informazioni](create-email-content.md)
 
