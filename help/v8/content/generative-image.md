@@ -4,9 +4,11 @@ title: Generazione di immagini con Assistente contenuto
 description: Introduzione alla funzione Assistente contenuto
 badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '370'
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
+workflow-type: tm+mt
+source-wordcount: '378'
 ht-degree: 100%
 
 ---

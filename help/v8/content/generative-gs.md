@@ -4,7 +4,9 @@ title: Introduzione all’assistente ai contenuti
 description: Introduzione all’assistente ai contenuti
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 99%
@@ -18,8 +20,6 @@ ht-degree: 99%
 >title="Generazione di contenuti e-mail basata su intelligenza artificiale"
 >abstract="La tecnologia di Generazione basata su intelligenza artificiale utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Stimola le percentuali di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulta le note sulla versione"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

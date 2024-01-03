@@ -4,16 +4,16 @@ title: Testo con Assistente contenuto
 description: Introduzione alla funzione Assistente contenuto
 badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
+workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
 
 ---
 
 # Generazione di testo con Assistente contenuto {#generative-content}
-
-
 
 Dopo aver creato e personalizzato le e-mail, puoi utilizzare la funzione Assistente contenuto basata sull’intelligenza artificiale generativa per elaborare ulteriormente il contenuto.
 
