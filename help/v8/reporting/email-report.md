@@ -5,8 +5,8 @@ description: Scopri come accedere ai rapporti sulle consegne e-mail e come utili
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: ht
-source-wordcount: '2254'
+workflow-type: tm+mt
+source-wordcount: '2244'
 ht-degree: 100%
 
 ---
@@ -210,7 +210,7 @@ Le metriche disponibili sono le stesse del [Raggruppamento degli errori per tipo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Statistiche consegna"
->abstract="Il report **Statistiche di consegna** fornisce indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate: riuscite, aperte, click e altro."
+>abstract="Il report **Statistiche di consegna** fornisce indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate: completate, aperture, clic e altro."
 
 
 Il report **[!UICONTROL Statistiche di consegna]** fornisce indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
