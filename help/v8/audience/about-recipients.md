@@ -2,9 +2,9 @@
 title: Monitorare e gestire i profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 9%
 
 ---
@@ -50,7 +50,7 @@ Puoi filtrare l’elenco dei profili utilizzando il campo di ricerca o i filtri 
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="Indirizzo"
 >abstract="Questa sezione offre informazioni approfondite sull’indirizzo postale del profilo e sulla qualità dell’indirizzo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
 
 >[!CONTEXTUALHELP]
