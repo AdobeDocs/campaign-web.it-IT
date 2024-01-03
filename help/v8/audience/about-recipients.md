@@ -1,54 +1,48 @@
 ---
-title: Utilizzare destinatari e tipi di pubblico
-description: Scopri come utilizzare i destinatari di Campaign Web
-badge: label="Beta"
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+title: Monitorare e gestire i profili
+description: Scopri come monitorare e gestire i profili in Campaign Web.
+source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 93%
+source-wordcount: '363'
+ht-degree: 11%
 
 ---
 
-# Utilizzare destinatari e tipi di pubblico {#about-recipients}
+# Monitorare e gestire i profili {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="Visualizzazione 360 dei destinatari"
->abstract="Crea nuovi destinatari e monitorali tramite potenti rapporti e strumenti. Accedi agli attributi, alle interazioni e ai registri del destinatario. Utilizza le opzioni di filtro per sfogliare l’elenco dei destinatari, modificarne e aggiornare il profilo."
+>title="Visualizzazione 360 dei profili"
+>abstract="Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agli attributi, alle interazioni e ai registri dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarne e aggiornarne il profilo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulta le note sulla versione"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profili"
->abstract="Un profilo è un soggetto destinato a ricevere i messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare il profilo del destinatario. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi del destinatario."
+>abstract="Un profilo è un soggetto destinato a ricevere i messaggi inviati da Adobe Campaign. Da questo elenco, puoi visualizzare i dettagli dei profili in base alle autorizzazioni di cui disponi. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi dei profili."
 
-Un destinatario è un profilo destinato a ricevere i messaggi inviati da Adobe Campaign. In Adobe Campaign, i destinatari sono i profili target predefiniti per l’invio di consegne (e-mail, SMS, ecc). I dati dei destinatari memorizzati nel database consentono di creare tipi di pubblico che riceveranno una determinata consegna e di aggiungere dati di personalizzazione al contenuto della consegna. Nel database sono presenti altri tipi di profili. Sono progettati per utilizzi diversi: ad esempio, i profili seed vengono usati per testare le consegne prima di inviarle al pubblico finale.
+## Introduzione ai profili {#gs}
 
-I destinatari possono essere aggiunti solo dalla console client di Campaign. Tuttavia, sono visibili in Campaign Web dalla voce **Destinatari** nella barra di navigazione a sinistra. Puoi anche modificare gli attributi del destinatario da quella schermata.
+Un profilo in Adobe Campaign Web è una persona memorizzata nel database che funge da componente chiave per la creazione di tipi di pubblico per le consegne e l’aggiunta di dati di personalizzazione al contenuto. Nel database sono memorizzati vari tipi di profili, ad esempio Profili di test, progettati per testare le consegne prima che vengano inviate al pubblico finale. [Scopri come utilizzare i profili di test](test-profiles.md)
 
-Per modificare i dati del destinatario, fai clic sui tre punti accanto al nome e scegli **Modifica...**.
+I profili sono accessibili da **Profili** nella barra di navigazione a sinistra. È inoltre possibile accedervi da **Esplora** visualizzazione, in cui è possibile sfogliare, creare cartelle, sottocartelle e verificare le autorizzazioni associate.
 
-![Modificare il profilo di un destinatario](assets/recipient-edit.png)
+Puoi filtrare l’elenco dei profili utilizzando il campo di ricerca o i filtri disponibili nella sezione **Mostra filtri** pulsante.
 
-Puoi aggiornare un set limitato di attributi, ovvero: nome, cognome, indirizzo e-mail e numero di telefono.
-
-![Aggiornare il profilo di un destinatario](assets/recipient-update.png)
+![](assets/profiles-list.png)
 
 >[!NOTE]
 >
->Questo modulo di modifica del profilo limitato è fornito solo a scopo di test nel programma Beta. Sarà migliorato nella versione successiva. Consente all’utente di aggiungere rapidamente un indirizzo e-mail e un numero di telefono a qualsiasi profilo, in modo da poter testare i canali e-mail e SMS e ricevere i messaggi inviati.
+>A seconda delle autorizzazioni, potresti non avere accesso all’elenco completo dei profili memorizzati nel database. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../get-started/permissions.md).
 
-Puoi filtrare i destinatari utilizzando il campo di ricerca, dal pulsante **Mostra filtri**.
+## Accedere e modificare gli attributi dei profili {#access}
 
-Puoi anche accedere ai destinatari dalla vista **Explorer**, sfogliare e creare cartelle e sottocartelle e verificare le autorizzazioni associate.
+Per accedere ai dettagli di un profilo, fai clic sul nome nell’elenco dei profili.
 
-![Elenco destinatari dalla vista Explorer](assets/recipients-from-explorer.png)
+![](assets/profiles-details.png)
 
->[!NOTE]
->
->La possibilità di accedere all’elenco completo dei destinatari archiviati nel database dipende dalle autorizzazioni di cui disponi. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../get-started/permissions.md).
+Da questa schermata, puoi accedere alle informazioni dettagliate sul profilo:
 
-Inoltre, puoi gestire l’iscrizione e l’annullamento dell’iscrizione dei destinatari a servizi quali le newsletter. Scopri come utilizzare i servizi di iscrizione in [questa pagina](manage-services.md)
-
-Puoi creare flussi di lavoro per deduplicare, arricchire, combinare i profili e creare tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
+* Il **[!UICONTROL Dettagli]** consente di sfogliare gli attributi del profilo. Per modificare un attributo, apporta le modifiche desiderate nel campo desiderato e fai clic sul pulsante **[!UICONTROL Salva]** pulsante.
+* Il **[!UICONTROL Iscrizioni]** fornisce informazioni sui servizi a cui il profilo è abbonato. [Scopri come utilizzare i servizi di iscrizione](manage-services.md)
+* Il **[!UICONTROL Registri]** Questo pulsante, situato nell’angolo superiore destro della schermata, ti consente di visualizzare una cronologia delle interazioni del profilo tramite i registri di invio, esclusione e tracciamento, nonché le proposte presentate al profilo.
