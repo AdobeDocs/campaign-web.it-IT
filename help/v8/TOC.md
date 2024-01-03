@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Panoramica di Campaign
 hide: true
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 98%
+source-wordcount: '475'
+ht-degree: 97%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 98%
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
    + [Esempi di query](query/query-samples.md)
+   + [Filtra elenchi](query/filter.md)
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
    + [Indicatori chiave di performance](reporting/kpis.md)

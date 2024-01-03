@@ -4,18 +4,16 @@ title: Sfogliare, cercare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 badge: label="Disponibilità limitata"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 81%
 
 ---
 
 # Sfogliare, cercare e filtrare gli elenchi {#list-screens}
 
 La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elenchi di oggetti, ad esempio l’elenco di **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, nel modo descritto di seguito.
-
-Per rimuovere un filtro, fai clic sul pulsante **Cancella tutto**.
 
 ## Personalizzare le schermate di elenco {#custom-lists}
 
@@ -39,23 +37,13 @@ Per ordinare gli elementi dell’elenco, fai clic sulla relativa intestazione di
 
 Per le colonne numeriche o di data, la freccia **su** indica che l’elenco è ordinato in ordine crescente, mentre la freccia **giù** indica un ordine decrescente. Per le colonne con valori stringa o alfanumerici, i valori sono elencati in ordine alfabetico.
 
-## Filtri incorporati {#list-built-in-filters}
+## Filtri {#list-built-in-filters}
 
-Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtrare l’elenco in base a criteri contestuali.
+Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtri incorporati e personalizzati per adattare l’elenco in base a criteri contestuali.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di contatto o cartella. È inoltre possibile nascondere i test.
-
-## Filtri personalizzati{#list-custom-filters}
-
-Per creare filtri personalizzati sui dati, passa alla parte inferiore dei filtri e fai clic sul pulsante **Aggiungi regole**, per accedere al generatore di regole.
-
-Definire e combinare i criteri di filtro in **Filtri avanzati** schermo.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-I filtri personalizzati sono progettati con Campaign Query Modeler. Informazioni dettagliate su come utilizzarlo sono disponibili in [questa sezione](../query/query-modeler-overview.md).
+Informazioni dettagliate su come utilizzare i filtri e creare filtri personalizzati sono disponibili in [questa sezione](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
