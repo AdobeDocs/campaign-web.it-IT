@@ -1,9 +1,10 @@
 ---
 title: Monitorare e gestire i profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
-source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
+badge: label="Disponibilità limitata"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '380'
 ht-degree: 11%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 11%
 
 Un profilo in Adobe Campaign Web è una persona memorizzata nel database che funge da componente chiave per la creazione di tipi di pubblico per le consegne e l’aggiunta di dati di personalizzazione al contenuto. Nel database sono memorizzati vari tipi di profili, ad esempio Profili di test, progettati per testare le consegne prima che vengano inviate al pubblico finale. [Scopri come utilizzare i profili di test](test-profiles.md)
 
-I profili sono accessibili da **Profili** nella barra di navigazione a sinistra. È inoltre possibile accedervi da **Esplora** visualizzazione, in cui è possibile sfogliare, creare cartelle, sottocartelle e verificare le autorizzazioni associate.
+I profili possono essere aggiunti solo dalla console client di Campaign. Tuttavia, sono accessibili in Adobe Campaign Web dalla sezione **Profili** nella barra di navigazione a sinistra. È inoltre possibile accedervi da **Esplora** visualizzazione, in cui è possibile sfogliare, creare cartelle, sottocartelle e verificare le autorizzazioni associate.
 
 Puoi filtrare l’elenco dei profili utilizzando il campo di ricerca o i filtri disponibili nella sezione **Mostra filtri** pulsante.
 
