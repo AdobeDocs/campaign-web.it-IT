@@ -1,32 +1,30 @@
 ---
-title: Utilizzare destinatari e tipi di pubblico
-description: Scopri come utilizzare i destinatari e i tipi di pubblico in Campaign Web
-badge: label="Beta"
+title: Guida introduttiva a profili e pubblico
+description: Scopri come utilizzare profili e tipi di pubblico in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+badge: label="Disponibilità limitata"
+source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 93%
+source-wordcount: '391'
+ht-degree: 64%
 
 ---
 
-# Utilizzare destinatari e tipi di pubblico {#about-recipients}
+# Guida introduttiva a profili e pubblico {#about-profiles}
 
-## Destinatari e pubblico {#about}
+## Profili e pubblico {#about}
 
-In Adobe Campaign, la popolazione target di una consegna è un “pubblico”. Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Questa raccolta di persone può essere generata, selezionata o caricata [come descritto di seguito](#audiences).
-
-Nella maggior parte dei casi, il pubblico è costituito da profili, memorizzati come [destinatari](#recipients) in Adobe Campaign. Puoi anche lavorare con altre mappature target modificando la dimensione come spiegato [in questa sezione](#targeting-dimensions).
+In Adobe Campaign, la popolazione target di una consegna è un “pubblico”. Un pubblico è un insieme di profili che condividono comportamenti e/o caratteristiche simili. Questa raccolta di persone può essere generata, selezionata o caricata [come descritto di seguito](#audiences).
 
 ## Dimensioni di targeting {#targeting-dimensions}
 
-La dimensione targeting, detta anche mappatura target, è il tipo di dati gestito da un’operazione. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
+La dimensione targeting, detta anche mappatura target, è il tipo di dati gestito da un’operazione. Consente di definire la popolazione target: profili, beneficiari del contratto, operatori, abbonati, ecc.
 
-La dimensione targeting di un flusso di lavoro è definita dalla prima attività **[!UICONTROL Crea pubblico]** e viene utilizzata in tutte le ulteriori attività fino alla fine del flusso di lavoro. Ad esempio, se esegui una query sui destinatari del database, la transizione in uscita conterrà dati di tipo destinatario e verrà trasmessa all’attività successiva.
+La dimensione targeting di un flusso di lavoro è definita dalla prima attività **[!UICONTROL Crea pubblico]** e viene utilizzata in tutte le ulteriori attività fino alla fine del flusso di lavoro. Ad esempio, se esegui una query sui profili dal database, la transizione in uscita conterrà dati di tipo &quot;destinatario&quot; e verrà trasmessa all’attività successiva.
 
-Tieni presente che puoi cambiare la dimensione targeting in un flusso di lavoro utilizzando un’attività [Cambia dimensione](../workflows/activities/change-dimension.md). In questo modo, ad esempio, puoi eseguire query sul database per una tabella specifica, come acquisti o abbonamenti, e quindi cambiare la dimensione targeting in Destinatari per inviare le consegne ai destinatari corrispondenti.
+Tieni presente che puoi cambiare la dimensione targeting in un flusso di lavoro utilizzando un’attività [Cambia dimensione](../workflows/activities/change-dimension.md). Ciò ti consente, ad esempio, di eseguire query sul database su una tabella specifica, ad esempio acquisti o abbonamenti, e quindi di modificare la dimensione di targeting in Destinatari per inviare le consegne ai profili corrispondenti.
 
-Per impostazione predefinita, i modelli di consegna e-mail e SMS hanno come target i **[!UICONTROL Destinatari]**. La loro dimensione target utilizza quindi i campi della tabella **nms:recipient**. Per le notifiche push, la dimensione target predefinita è **Applicazioni in abbonamento nms:appSubscriptionRcp**, collegata alla tabella dei destinatari.
+Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati ai profili. La loro dimensione target utilizza quindi i campi della tabella **nms:recipient**. Per le notifiche push, la dimensione target predefinita è **Applicazioni in abbonamento nms:appSubscriptionRcp**, collegata alla tabella dei destinatari.
 
 Puoi anche utilizzare altre mappature target integrate nei flussi di lavoro e nelle consegne, elencate di seguito:
 
