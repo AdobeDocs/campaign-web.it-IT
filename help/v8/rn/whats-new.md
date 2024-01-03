@@ -4,7 +4,7 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilità limitata"
-source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 66%
@@ -84,7 +84,7 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
   Potenzia le tue campagne di marketing con il nostro **set esteso di attività del flusso di lavoro**. Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e stimolare migliori prestazioni della campagna.
 
-  Le nuove attività in arrivo con l’ultima versione di LA sono: **Reconciliation**, **Carica pubblico**, e **Salva pubblico**.
+  Le nuove attività in arrivo con l’ultima versione di LA sono: **Reconciliation**, **Carica file**, e **Salva pubblico**.
 
   Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
 
