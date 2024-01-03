@@ -2,11 +2,11 @@
 audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---

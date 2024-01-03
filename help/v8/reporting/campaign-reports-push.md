@@ -2,11 +2,11 @@
 audience: end-user
 title: Rapporti sulla campagna per il canale push
 description: Comprendere i rapporti sulla campagna per il canale push
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---

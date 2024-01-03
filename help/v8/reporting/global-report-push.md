@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti globali per il canale push
 description: Comprendere i rapporti globali per il canale push
 badge: label="Disponibilità limitata"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 

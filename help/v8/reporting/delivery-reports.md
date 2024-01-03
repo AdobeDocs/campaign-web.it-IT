@@ -3,21 +3,20 @@ audience: end-user
 title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="Disponibilità limitata"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 97%
 
 ---
 
-# Accedere ai rapporti sulle consegne {#reports}
+# Introduzione ai rapporti di consegna {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Reportistica aggregata per le consegne"
 >abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

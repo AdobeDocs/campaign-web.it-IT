@@ -1,11 +1,11 @@
 ---
 title: Indicatori chiave di performance
 description: Scopri come comprendere gli indicatori chiave di performance
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
-workflow-type: ht
-source-wordcount: '1200'
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+workflow-type: tm+mt
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
