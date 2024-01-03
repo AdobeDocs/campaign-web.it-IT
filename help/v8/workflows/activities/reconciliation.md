@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Riconciliazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Riconciliazione
 badge: label="Disponibilità limitata"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 15%
@@ -64,7 +64,7 @@ Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi 
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Selezionare una dimensione targeting"
 >abstract="Seleziona la dimensione di targeting per i dati in entrata con cui eseguire la riconciliazione."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="Dimensioni di targeting"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Dimensioni di targeting"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
