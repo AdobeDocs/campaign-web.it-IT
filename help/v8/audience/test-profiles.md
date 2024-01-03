@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,19 @@ I passaggi per inviare messaggi di test agli indirizzi di seed sono descritti in
 
 ## Accedere e gestire i profili di test {#access-test-profiles}
 
-Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** dal menu a sinistra e selezionare **[!UICONTROL Profili di test]** scheda.
+Per accedere all’elenco dei profili di test, seleziona **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** dal menu a sinistra e fare clic su **[!UICONTROL Profili di test]** scheda.
+
+![](assets/test-profile-list.png)
 
 Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa o aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 Per modificare un profilo di test, fai clic sull’elemento desiderato dall’elenco.
 
 Per eliminare un profilo di test, seleziona l’opzione corrispondente dal menu **[!UICONTROL Altre azioni]** menu.
+
+![](assets/test-profile-list-delete.png)
 
 ## Creare un profilo di test {#create-test-profile}
 
@@ -48,11 +54,7 @@ Per eliminare un profilo di test, seleziona l’opzione corrispondente dal menu 
 
 Per creare un profilo di test, segui i passaggi indicati di seguito.
 
-1. Sfoglia per **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]**.
-
-1. Seleziona la **[!UICONTROL Profili di test]** scheda.
-
-   ![](assets/test-profile-list.png)
+1. Sfoglia per **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** e seleziona la **[!UICONTROL Profili di test]** scheda.
 
 1. Fai clic su **[!UICONTROL Creare un profilo di test]** pulsante.
 
@@ -62,7 +64,7 @@ Per creare un profilo di test, segui i passaggi indicati di seguito.
 
    >[!NOTE]
    >
-   >L&#39;etichetta dell&#39;indirizzo viene automaticamente compilata con il nome e il cognome definiti.
+   >Il **[!UICONTROL Etichetta]** viene compilato automaticamente con il nome e il cognome definiti.
 
 1. Per impostazione predefinita, i profili di test sono memorizzati nella **[!UICONTROL Indirizzi seed]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Ulteriori informazioni](#seed-addresses-folders)
 
