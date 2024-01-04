@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 badge: label="Disponibilità limitata"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 6%
@@ -18,7 +18,7 @@ Il **Rapporti globali** funge da strumento efficace e offre un riepilogo consoli
 L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 
 * [Report globali e-mail](global-report-email.md)
-* [Rapporti globali SMS](global-report-email-sms.md)
+* [Rapporti globali SMS](global-report-sms.md)
 * [Rapporti globali push](global-report-push.md)
 
 ## Gestire la dashboard dei report {#manage-reports}
