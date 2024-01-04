@@ -5,7 +5,7 @@ description: Scopri come creare una consegna di notifiche push con Adobe Campaig
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Devi innanzitutto selezionare l’app, quindi puoi perfezionare il pubblico dell
 
    Scopri come selezionare un pubblico esistente in [questa pagina](../audience/add-audience.md)
 
-   Per scoprire come creare un nuovo pubblico, consulta [questa pagina](../audience/one-time-audience.md).
+   Per scoprire come creare un nuovo pubblico, consulta [questa pagina](../audience/one-time-audience.md)
 
 1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna. I messaggi non vengono inviati a tale gruppo di controllo, in modo da poter confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. [Ulteriori informazioni](../audience/control-group.md)
 
