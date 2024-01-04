@@ -4,10 +4,10 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 >id="acw_deliveries_email_options"
 >title="Modificare il tracciamento"
 >abstract="Per impostazione predefinita, quando il tracciamento è abilitato per la consegna, vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio. Puoi disattivare questa opzione da qui."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/email/design-email/message-tracking.html" text="Aggiungere collegamenti e tenere traccia dei messaggi"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=it" text="Aggiungere collegamenti e tenere traccia dei messaggi"
 
 La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
 
