@@ -4,7 +4,7 @@ title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 
    ![](assets/select-audience-folder.png)
 
-1. La sezione dei filtri consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere al generatore di regole, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare il generatore di regole](segment-builder.md)
+1. La sezione dei filtri consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere al generatore di regole, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare il generatore di regole](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
