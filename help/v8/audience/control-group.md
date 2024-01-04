@@ -4,8 +4,8 @@ title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente di Campaign Web
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: ht
+source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Nella sezione **Popolazione aggiuntiva** della schermata di definizione del **Gr
 
 * Per utilizzare un pubblico esistente, fai clic su **Seleziona pubblico**. Per ulteriori informazioni, consulta [questa sezione](add-audience.md).
 
-* Per definire una nuova query, seleziona **Crea nuovo** e definisci i criteri di esclusione utilizzando il generatore di regole. Per ulteriori informazioni, consulta [questa sezione](segment-builder.md).
+* Per definire una nuova query, seleziona **Crea nuovo** e definisci i criteri di esclusione utilizzando il generatore di regole. Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
 
 I profili inclusi nel pubblico o che corrispondono al risultato della query sono **esclusi** dal target della consegna e non ricevono alcun messaggio.
 
