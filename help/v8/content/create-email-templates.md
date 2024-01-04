@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 12%
 
 ---
@@ -106,15 +106,13 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
    ![](assets/content-template-create.png)
 
-1. Compila i dettagli del modello.
+1. Compila i dettagli del modello. È possibile selezionare la cartella in cui memorizzare il modello. Per impostazione predefinita, i modelli di contenuto sono memorizzati in un nodo dedicato della gerarchia di Adobe Campaign: **[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**. [Scopri come creare cartelle](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >Attualmente solo il **E-mail** channel e **HTML** sono supportati.
-
-1. Selezionare la cartella in cui si desidera memorizzare il modello. Per impostazione predefinita, i modelli di contenuto sono memorizzati in un nodo dedicato della gerarchia di Adobe Campaign: **[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**. [Scopri come creare cartelle](../get-started/permissions.md#folders)
 
 1. Clic **[!UICONTROL Crea]** e scegli come progettare il modello tra le diverse opzioni:
 
