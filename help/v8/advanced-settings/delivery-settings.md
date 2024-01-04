@@ -4,10 +4,10 @@ title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 100%
+source-wordcount: '2110'
+ht-degree: 99%
 
 ---
 
@@ -119,10 +119,9 @@ Il campo **importanza del destinatario** è una formula utilizzata per determina
 >title="Impostazioni del pubblico per la consegna"
 >abstract="Seleziona una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Puoi anche impostare i parametri di esclusione per la consegna. "
 
-In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. La dimensione targeting, o mappatura target, è il tipo di dati che un’operazione gestisce. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
+In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Il mapping di destinazione è il tipo di dati gestito da un&#39;operazione. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc.
 
-
-Per ulteriori informazioni sulle mappature target, consulta [questa sezione](../audience/about-recipients.md#targeting-dimensions).
+Per ulteriori informazioni sulle mappature target, consulta [questa sezione](../audience/targeting-dimensions.md).
 
 ## Consegna {#delivery}
 

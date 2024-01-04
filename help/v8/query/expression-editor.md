@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 95%
+source-wordcount: '1909'
+ht-degree: 88%
 
 ---
 
@@ -16,21 +16,23 @@ ht-degree: 95%
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
 
-Queste operazioni sono disponibili dal pulsante Modifica espressione del query modeler, disponibile per i campi Attributo e Valore durante la configurazione di una condizione personalizzata.
+Queste operazioni sono disponibili da Query Modeler **[!UICONTROL Modifica espressione]** disponibile per **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
 
 ![](assets/edit-expression.png)
 
 L’editor di espressioni mostra:
 
-* Un campo di input in cui è definita l’espressione.
-* L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione di targeting della query
-* L’elenco delle funzioni disponibili, ordinate per categoria.
+* Un **campo di input (1)** in cui è definita l&#39;espressione.
+* L’elenco delle **campi (2)** che può essere utilizzato nell’espressione e corrispondente alla dimensione di targeting della query.
+* **Funzioni helper (3)**, ordinato per categoria.
 
-Modifica l’espressione immettendone una direttamente nel campo di inserimento o utilizzando gli elenchi dei campi e delle funzioni disponibili. Per farlo, posiziona il cursore nell’espressione nel punto in cui desideri aggiungere l’elemento e fai doppio clic sul campo o sull’espressione desiderata.
+![](assets/expression-editor.png)
+
+Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
 
 ## Funzioni Helper
 
-Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati manipolati. Sono disponibili le seguenti funzioni:
+Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi in base ai risultati desiderati e ai tipi di dati manipolati. Sono disponibili le seguenti funzioni:
 
 ### Aggregato
 
