@@ -3,7 +3,7 @@ title: Guida introduttiva a profili e pubblico
 description: Scopri come utilizzare profili e tipi di pubblico in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilità limitata"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ Ora che sai cosa è possibile fare in Adobe Campaign Web, è necessario approfon
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Monitorare e gestire i profili</strong></a>
+<a href="about-recipients.md"><strong>Monitorare e gestire i profili</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lead" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Creare tipi di pubblico</strong>
+<div><a href="create-audience.md"><strong>Creare tipi di pubblico</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Ora che sai cosa è possibile fare in Adobe Campaign Web, è necessario approfon
 <img alt="Non frequente" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Gestire i servizi</strong></a>
+<a href="manage-services.md"><strong>Gestire i servizi</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Ora che sai cosa è possibile fare in Adobe Campaign Web, è necessario approfon
 <img alt="Non frequente" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Selezionare i destinatari della consegna</strong></a>
+<a href="add-audience.md"><strong>Selezionare i destinatari della consegna</strong></a>
 </div>
 <p></td>
 </tr></table>
