@@ -4,8 +4,8 @@ title: Gestire gli iscritti a un servizio
 description: Scopri come gestire e consegnare alle persone iscritte a un servizio in Adobe Campaign Web
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Dopo aver [creato un servizio](manage-services.md#create-service), puoi aggiungere utenti iscritti, annullare l’iscrizione dei destinatari e inviare messaggi agli iscritti al servizio.
 
-La gestione degli utenti iscritti è descritta in questa pagina. Per informazioni su come inviare messaggi alle persone iscritte, consulta [questa sezione](../content/send-to-subscribers.md).
+La gestione degli utenti iscritti è descritta in questa pagina. Per informazioni su come inviare messaggi alle persone iscritte, consulta [questa sezione](../msg/send-to-subscribers.md).
 
 ## Aggiungere iscritti al servizio {#add-subscribers}
 

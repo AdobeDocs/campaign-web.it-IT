@@ -4,7 +4,7 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilità limitata"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 66%
@@ -69,7 +69,7 @@ Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e no
 Utilizza la nuova interfaccia di Campaign Web per:
 
 * Creare, progettare, personalizzare, pianificare e inviare e-mail, SMS e notifiche push - [Ulteriori informazioni](../msg/gs-messages.md)
-* Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../content/edit-content.md)
+* Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../email/edit-content.md)
 * Inviare campagne cross-channel, inclusi SMS e notifiche push - [Ulteriori informazioni](../workflows/activities/channels.md)
 * Definire i tipi di pubblico target con il generatore di regole - [Ulteriori informazioni](../audience/about-recipients.md)
 * Visualizzare l‘anteprima, testare e inviare i messaggi  - [Ulteriori informazioni](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
   Abbandona la creazione manuale dei contenuti e dai il benvenuto a campagne efficienti e basate sui dati con la potenza della Generazione basata sull’intelligenza artificiale.  La tecnologia di Generazione basata sull’intelligenza artificiale utilizza algoritmi avanzati per **generare contenuti altamente coinvolgenti e personalizzati**. Stimola le percentuali di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale.
 
-  Per ulteriori informazioni, consulta [questa sezione](../content/generative-gs.md).
+  Per ulteriori informazioni, consulta [questa sezione](../email/generative-gs.md).
 
 
 * **Guida contestuale basata sull’intelligenza artificiale**
@@ -132,14 +132,14 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
   Ora puoi **importare e convertire qualsiasi contenuto HTML** nell’editor e-mail di Campaign. I blocchi di contenuto vengono identificati automaticamente e sono disponibili nell’E-mail designer: utilizza le sue potenti funzionalità di progettazione per aggiornarlo e personalizzarlo.
 
-  Per ulteriori informazioni, consulta [questa sezione](../content/existing-content.md).
+  Per ulteriori informazioni, consulta [questa sezione](../email/existing-content.md).
 
 
 * **SMS con offerte**
 
   La nuova interfaccia utente Web ora consente di **integrare le offerte tramite SMS**, oltre alle e-mail. Raggiungi il tuo pubblico sui dispositivi mobili, consegnando promozioni e notifiche al momento giusto. Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS sulla nostra piattaforma web avanzata.
 
-  Per ulteriori informazioni, consulta [questa sezione](../content/offers.md).
+  Per ulteriori informazioni, consulta [questa sezione](../msg/offers.md).
 
 ## Passaggio all’interfaccia utente di Campaign Web
 

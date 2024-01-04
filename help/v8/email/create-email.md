@@ -4,7 +4,7 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la tua prima e-mail con l’interfaccia utente di Campaign Web
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
-In base a un [modello di progettazione](../content/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
+In base a un [modello di progettazione](../email/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
 
 ## Creare una consegna e-mail {#create-email}
 
@@ -104,13 +104,13 @@ Per istruzioni su come lavorare con i tipi di pubblico, consulta [questa sezione
 
 Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In questo caso d’uso, per progettare l’e-mail viene utilizzato un [modello di consegna](../msg/delivery-template.md) e-mail già definito.<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. Nella dashboard della consegna e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
    ![](assets/email-edit-content.png)
 
-   Viene visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e accedere a E-mail designer. [Ulteriori informazioni](../content/edit-content.md)
+   Viene visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e accedere a E-mail designer. [Ulteriori informazioni](../email/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
-   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../content/create-email-templates.md).
+   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../email/create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. Dopo aver selezionato il modello, questo viene visualizzato in [E-mail designer](../content/create-email-content.md), dove puoi apportare le modifiche necessarie e aggiungere la personalizzazione.
+1. Dopo aver selezionato il modello, questo viene visualizzato in [E-mail designer](../email/create-email-content.md), dove puoi apportare le modifiche necessarie e aggiungere la personalizzazione.
 
    Ad esempio, per aggiungere la personalizzazione al titolo dell’e-mail, seleziona il blocco del componente e fai clic su **[!UICONTROL Aggiungi personalizzazione]**.
 

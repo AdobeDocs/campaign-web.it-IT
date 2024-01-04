@@ -4,7 +4,7 @@ title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima il contenuto delle consegne nell’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilità limitata"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%
@@ -18,7 +18,7 @@ Utilizza la funzionalità di simulazione dei contenuti di [!DNL Campaign] per vi
 
 Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi indicati di seguito.
 
-1. Passa alla schermata di modifica del contenuto della consegna o alla [E-mail Designer](../content/get-started-email-designer.md).
+1. Passa alla schermata di modifica del contenuto della consegna o alla [E-mail Designer](../email/get-started-email-designer.md).
 
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 

@@ -6,13 +6,13 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 100%
 
 ---
-
 
 # Blocchi di contenuto incorporati {#ootb-content-blocks}
 
@@ -39,7 +39,7 @@ I blocchi di contenuto incorporati sono:
 * **[!UICONTROL Funzione di formattazione per nomi propri]**: genera la funzione JavaScript **[!UICONTROL toSmartCase]**, che applica il maiuscolo alla prima lettera di ogni parola.
 * **[!UICONTROL Saluti]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,” 
 * **[!UICONTROL Inserisci logo]**: inserisce un logo definito nelle impostazioni dell’istanza.
-* **[!UICONTROL Collegamento a una pagina mirror]**: inserisce un collegamento alla [pagina mirror](../content/mirror-page.md). Il formato predefinito è: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”.
+* **[!UICONTROL Collegamento a una pagina mirror]**: inserisce un collegamento alla [pagina mirror](../email/mirror-page.md). Il formato predefinito è: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”.
 * **[!UICONTROL URL pagina mirror]**: inserisce l’URL della pagina mirror, consentendo ai designer della consegna di controllare il collegamento.
 * **[!UICONTROL Stile notifica]**
 * **[!UICONTROL URL per accettazione offerta in modalità unitaria]**: inserisce un URL che consente di impostare un’offerta su **[!UICONTROL Accettata]**. Questo blocco è disponibile se il modulo di interazione è abilitato
@@ -53,5 +53,4 @@ I blocchi di contenuto incorporati sono:
 
 >[!NOTE]
 >
->Puoi definire nuovi blocchi dalla console di Adobe Campaign v8, che ti consentono di ottimizzare la personalizzazione delle consegne. Ulteriori informazioni in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=it#create-custom-personalization-blocks){target="_blank"}.
-
+>Puoi definire nuovi blocchi dalla console di Adobe Campaign v8, che ti consentono di ottimizzare la personalizzazione delle consegne. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=it#create-custom-personalization-blocks){target="_blank"}.
