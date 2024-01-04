@@ -4,7 +4,7 @@ title: Monitorare e gestire i tipi di pubblico
 description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Per definire la popolazione di un pubblico, puoi:
 
 * [Creare nuovi tipi di pubblico](create-audience.md) dal menu **[!UICONTROL Tipi di pubblico]**
 * [Selezionare un pubblico esistente](add-audience.md) creato come elenco nella console client o proveniente da Adobe Experience Platform
-* [Creare un nuovo pubblico](segment-builder.md) con il generatore di regole definendo e combinando criteri di filtro
+* [Creare un nuovo pubblico](../query/query-modeler-overview.md) con il generatore di regole definendo e combinando criteri di filtro
 * [Utilizzare un pubblico da un file esterno](file-audience.md); questa opzione è disponibile solo per le consegne e-mail autonome e non può essere utilizzata nelle consegne delle campagne.
 
 Nel targeting di un pubblico, puoi definire dei **gruppi di controllo** per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne. [Scopri come impostare un gruppo di controllo](control-group.md)

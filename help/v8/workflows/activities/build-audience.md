@@ -4,7 +4,7 @@ title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Beta"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Per creare una query personalizzata, segui questi passaggi aggiuntivi:
 1. Seleziona **Crea una query personalizzata**.
 1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. Per ulteriori informazioni sulle dimensioni di targeting consulta [questa sezione](../../audience/about-recipients.md#targeting-dimensions).
 1. Fai clic su **Continua**.
-1. Utilizza il generatore di regole per definire la query, seguendo la stessa procedura con cu si crea un pubblico durante la progettazione di una nuova e-mail. Consulta questa [sezione](../../audience/segment-builder.md).
+1. Utilizza il generatore di regole per definire la query, seguendo la stessa procedura con cu si crea un pubblico durante la progettazione di una nuova e-mail. Consulta questa [sezione](../../audience/../query/query-modeler-overview.md).
 
 Per selezionare un pubblico esistente, segui questi passaggi:
 

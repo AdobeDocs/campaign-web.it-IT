@@ -4,9 +4,9 @@ title: Utilizzare un pubblico di Adobe Experience Platform
 description: Scopri come utilizzare un pubblico da Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+workflow-type: tm+mt
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Dopo aver creato un pubblico di Adobe Experience Platform e averlo reso disponib
 
 Per selezionare il pubblico di una consegna, puoi anche:
 
-* Creare un nuovo pubblico. [Ulteriori informazioni](segment-builder.md)
+* Creare un nuovo pubblico. [Ulteriori informazioni](../query/query-modeler-overview.md)
 * Caricare un pubblico da un file esterno. [Ulteriori informazioni](file-audience.md)
 * Utilizzare un pubblico esistente di Campaign. [Ulteriori informazioni](add-audience.md).
 
@@ -33,7 +33,7 @@ Per selezionare un pubblico di Adobe Experience Platform per la consegna, segui 
 
    ![](assets/create-audience.png)
 
-1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea nuovo**. Fai riferimento a questa [sezione](segment-builder.md).
+1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. Per creare un nuovo pubblico da utilizzare in questo messaggio e-mail, scegli **Crea nuovo**. Fai riferimento a questa [sezione](../query/query-modeler-overview.md).
 
    In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti che sono stati definiti nella console client di Adobe Campaign per la cartella corrente. Per scegliere un pubblico da Adobe Experience Platform, passa a `AEP Audiences folder` dalla sezione filtro dello schermo.
 
@@ -49,6 +49,6 @@ Per selezionare un pubblico di Adobe Experience Platform per la consegna, segui 
 
    ![](assets/refine-audience.png)
 
-1. Utilizzando il generatore di regole, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Consulta questa [sezione](segment-builder.md).
+1. Utilizzando il generatore di regole, puoi arricchire il pubblico con filtri aggiuntivi o combinando diversi tipi di pubblico. Consulta questa [sezione](../query/query-modeler-overview.md).
 
 1. Fai clic su **Salva**.
