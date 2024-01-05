@@ -3,7 +3,7 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 65%
@@ -88,8 +88,6 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
 Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
@@ -136,7 +134,7 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
 +++
 
-#### Utilizzare i dati aggregati {#aggregate}**
+#### Utilizzare i dati aggregati {#aggregate}
 
 Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, devi selezionare direttamente un attributo da una tabella di raccolta:
 
