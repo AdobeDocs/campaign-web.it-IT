@@ -3,7 +3,7 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 65%
@@ -118,7 +118,7 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
 1. Seleziona la **Acquisti** e confermare.
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
 
