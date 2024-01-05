@@ -4,10 +4,10 @@ title: Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service
 description: Scopri come gestire le risorse con Adobe Experience Manager Assets as a Cloud Service
 badge: label="Beta"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 98%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] è una piattaforma integrata e collaborativa progettata per semplificare il flusso di lavoro creativo e centralizzare le risorse digitali per una consegna fluida delle esperienze. Semplifica l’organizzazione, l’assegnazione di tag e il recupero delle risorse di produzione approvate, garantendo la coerenza del brand tra i team. Grazie alla sua interfaccia intuitiva, [!DNL Assets as Cloud Service] consente di accedere e condividere immediatamente le risorse all’interno delle applicazioni Adobe Creative ed Experience Cloud.
 
-Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/home.html){target="_blank"}.
+Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=it){target="_blank"}.
 
 ## Caricare e inserire le risorse{#add-asset}
 
 Per importare file in [!DNL Assets as Cloud Service], è innanzitutto necessario sfogliare o creare la cartella in cui memorizzarli. Potrai quindi inserirli nel contenuto dell’e-mail.
 
-Per ulteriori informazioni su come caricare le risorse, consulta la [documentazione di Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
+Per ulteriori informazioni su come caricare le risorse, consulta la [documentazione di Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=it){target="_blank"}.
 
 1. Dalla pagina Home, accedi al menu avanzato e seleziona [!DNL Experience Manager Assets].
 
@@ -47,11 +47,11 @@ Per ulteriori informazioni su come caricare le risorse, consulta la [documentazi
 
 1. Per accedere al menu Gestione risorse avanzato, seleziona la risorsa appena caricata.
 
-   Per ulteriori informazioni su come gestire le risorse, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/manage-organize-assets-view.html).
+   Per ulteriori informazioni su come gestire le risorse, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=it).
 
    ![](assets/assets_4.png)
 
-1. Per modificare ulteriormente le risorse con Adobe Photoshop Express, fai doppio clic sulle risorse. Quindi, dal menu a destra, seleziona l’icona corrispondente alla **[!UICONTROL Modalità di modifica]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
+1. Per modificare ulteriormente le risorse con Adobe Photoshop Express, fai doppio clic sulle risorse. Quindi, dal menu a destra, seleziona l’icona corrispondente alla **[!UICONTROL Modalità di modifica]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=it#edit-using-express){target="_blank"}.
 
 1. Da [!DNL Adobe Campaign], seleziona il menu **[!UICONTROL Selettore risorse]** nel riquadro a sinistra dell’E-mail designer.
 
