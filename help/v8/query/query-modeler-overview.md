@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 59%
+source-wordcount: '434'
+ht-degree: 58%
 
 ---
 
@@ -54,15 +54,15 @@ Il modellatore di query fornisce un’area di lavoro centrale in cui creare la q
 
 ### Area di lavoro centrale {#canvas}
 
-L’area di lavoro centrale di Query Modeler è il luogo in cui puoi aggiungere e combinare i diversi componenti che creano la query.
+L’area di lavoro centrale di Query Modeler è il luogo in cui puoi aggiungere e combinare i diversi componenti che creano la query. [Scopri come creare una query](build-query.md)
 
 La barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro offre opzioni per manipolare facilmente i componenti della query e navigare nell’area di lavoro:
 
-* Modalità di selezione multipla: seleziona più componenti di filtro per copiarli e incollarli nella posizione desiderata.
-* Ruota: consente di ruotare l’area di lavoro verticalmente.
-* Adatta allo schermo: adatta il livello di zoom dell’area di lavoro allo schermo.
-* Zoom out/Zoom in: Zoom out o zoom nell’area di lavoro.
-* Visualizza mappa: apre un’istantanea dell’area di lavoro che mostra la tua posizione.
+* **Modalità di selezione multipla**: seleziona più componenti filtro per copiarli e incollarli nella posizione desiderata.
+* **Ruota**: cambia l’area di lavoro verticalmente.
+* **Adatta allo schermo**: adatta il livello di zoom dell’area di lavoro allo schermo.
+* **Zoom indietro** / **Zoom in**: zoom indietro o nell’area di lavoro.
+* **Visualizza mappa**: apre un’istantanea dell’area di lavoro che mostra la tua posizione.
 
 ### Riquadro delle proprietà della regola {#rule-properties}
 

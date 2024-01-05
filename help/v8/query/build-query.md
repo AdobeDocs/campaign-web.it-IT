@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 89%
+source-wordcount: '1887'
+ht-degree: 65%
 
 ---
 
@@ -49,13 +49,13 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 1. Fai clic sul pulsante **+** sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**. Il pannello delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
 
-1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database di Campaign, inclusi gli attributi collegati alla tabella.
+1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >Il pulsante Modifica espressione consente di sfruttare l’editor di espressioni di Campaign Web per definire manualmente un’espressione utilizzando i campi dal database e le funzioni Helper.
+   >Il pulsante Modifica espressione consente di sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e del database. [Scopri come modificare le espressioni](expression-editor.md)
 
 1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
@@ -82,27 +82,35 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 +++
 
-1. Nel campo **Valore**, definisci il valore previsto. Puoi anche sfruttare l’editor di espressioni di Campaign Web per definire manualmente un’espressione utilizzando i campi dal database e le funzioni Helper. A questo scopo, fai clic sul pulsante **Modifica espressione**.
+1. Nel campo **Valore**, definisci il valore previsto. Puoi anche sfruttare l’editor di espressioni di Campaign Web per definire manualmente un’espressione utilizzando i campi dal database e le funzioni Helper. A questo scopo, fai clic su **Modifica espressione** pulsante. [Scopri come modificare le espressioni](expression-editor.md)
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
    ![](assets/query-custom-condition.png)
 
-**Condizioni personalizzate per tabelle distanti (collegamenti 1-1 e 1-N)**
 
-Le condizioni personalizzate consentono di eseguire query su tabelle distanti collegate alla tabella Destinatari.
 
-Per un **collegamento 1-1** con un’altra risorsa del database, seleziona un valore direttamente dalla tabella di destinazione.
+#### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
+
+Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
+
+Per un **Collegamento 1-1**, seleziona l’attributo direttamente dalla tabella di destinazione.
 
 +++Esempio di query
 
-In questo caso, la query esegue il targeting dei destinatari il cui paese o area geografica è incluso nei valori forniti (Regno Unito e Stati Uniti)
+In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot;in esecuzione&quot;.
 
-![](assets/custom-condition-1-1.png)
+1. Naviga all&#39;interno del **Marchio** e seleziona la **Etichetta** attributo.
+
+   ![](assets/1-1-attribute.png)
+
+1. Definisci il valore previsto per l’attributo.
+
+   ![](assets/1-1-table.png)
 
 +++
 
-Per un **collegamento 1-N** con un’altra risorsa del database, puoi definire condizioni secondarie sui campi di questa seconda risorsa.
+Per un **Collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query.
 
 Ad esempio, puoi selezionare l’operatore Esiste sugli acquisti del profilo per eseguire il targeting di tutti i profili per i quali esistono acquisti. Al termine, aggiungi una condizione personalizzata nella transizione in uscita e crea un filtro che soddisfi le tue esigenze.
 
@@ -110,9 +118,35 @@ Ad esempio, puoi selezionare l’operatore Esiste sugli acquisti del profilo per
 
 In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100$.
 
-![](assets/custom-condition-1-N.png)
+1. Seleziona la **Acquisti** e confermare.
+
+   ![](assets/1-n-collection.png)
+
+1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
+
+   ![](assets/1-n-subcondition.png)
+
+1. Seleziona la **Prezzo** acquisto di 1000$ o più come attributo e destinazione
+
+   ![](assets/1-n-price.png)
+
+1. Aggiungi condizioni secondarie in base alle tue esigenze. Qui abbiamo aggiunto una condizione per eseguire il targeting dei profili che hanno acquistato un prodotto BrewMaster.
+
+   ![](assets/custom-condition-1-N.png)
 
 +++
+
+#### Utilizzare i dati aggregati {#aggregate}**
+
+Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, devi selezionare direttamente un attributo da una tabella di raccolta:
+
+1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
+
+   ![](assets/aggregate-attribute.png)
+
+1. Nel riquadro delle proprietà, attivare **Aggregare i dati** e selezionare la funzione di aggregazione desiderata.
+
+   ![](assets/aggregate.png)
 
 ### Selezionare un pubblico
 
@@ -148,30 +182,7 @@ Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti o
 
    ![](assets/query-predefined-filter.png)
 
-## Combinare componenti di filtraggio con operatori {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Gruppo"
->abstract="Gruppo"
-
-Ogni volta che aggiungi un nuovo componente di filtraggio alla query, questo viene collegato automaticamente all’altro componente da un operatore AND. Ciò significa che i risultati di entrambi i componenti di filtraggio vengono combinati nei risultati della query.
-
-In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro preimpostato con un operatore AND, il che significa che i risultati della query includono i destinatari interessati dal filtro preimpostato “Madridians” e appartenenti al pubblico “Discount hunters”.
-
-![](assets/query-operator.png)
-
-Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtraggio, fai clic su di esso e seleziona l’operatore desiderato nel riquadro Gruppo che si apre sul lato destro.
-
-Gli operatori disponibili sono:
-
-* **AND (intersezione)**: combina i risultati che corrispondono a tutti i componenti di filtraggio nelle transizioni in uscita.
-* **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
-* **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
-
-![](assets/query-operator-change.png)
-
-### Copiare e incollare componenti di filtro {#copy}
+### Copiare e incollare componenti {#copy}
 
 Query Modeler consente di copiare uno o più componenti di filtro e incollarli al termine di una transizione. Questa operazione può essere eseguita nell’area di lavoro query corrente o in qualsiasi area di lavoro all’interno dell’istanza.
 
@@ -193,6 +204,35 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
 ![](assets/copy-paste.png)
 
+## Combinare componenti di filtraggio con operatori {#operators}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Gruppo"
+>abstract="Gruppo"
+
+Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo viene automaticamente collegato all’altro componente da un **E** operatore. Ciò significa che i risultati dei due componenti di filtraggio sono combinati.
+
+In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro predefinito con un **E** operatore, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
+
+![](assets/query-operator.png)
+
+Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtro, fai clic su di esso e seleziona l’operatore desiderato nella **Gruppo** che si apre sul lato destro.
+
+Gli operatori disponibili sono:
+
+* **AND (intersezione)**: combina i risultati che corrispondono a tutti i componenti di filtraggio nelle transizioni in uscita.
+* **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
+* **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
+
+![](assets/query-operator-change.png)
+
+È inoltre possibile creare gruppi intermedi di componenti facendo clic sul pulsante **+** su una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
+
+Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP da ricompensare&quot; o &quot;Super VIP&quot;.
+
+![](assets/query-intermediate-group.png)
+
 ## Controllare e convalidare la query
 
 >[!CONTEXTUALHELP]
@@ -210,3 +250,7 @@ Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando i
   >[!IMPORTANT]
   >
   >La selezione di un filtro preimpostato dal pannello Proprietà regole sostituisce la query creata nell’area di lavoro con il filtro selezionato.
+
+Quando la query è pronta, fai clic su **[!UICONTROL Conferma]** nell’angolo in alto a destra per salvarlo.
+
+Puoi modificare la query in qualsiasi momento aprendola. Tieni presente che all’apertura di una query esistente, questa viene visualizzata in una vista semplificata senza la visibilità di  **+** pulsanti. Per aggiungere nuovi elementi alla query, seleziona un componente o un operatore nell’area di lavoro per visualizzare **+** pulsanti.

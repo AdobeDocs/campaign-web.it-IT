@@ -3,22 +3,28 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 88%
+source-wordcount: '2008'
+ht-degree: 82%
 
 ---
 
 # Modifica espressioni {#expression}
 
-## Modificare un’espressione {#edit}
+La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche come la manipolazione di date, stringhe, campi numerici, ordinamenti, ecc.
 
-La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
+>[!IMPORTANT]
+>
+>La sezione seguente fornisce informazioni su come utilizzare l’editor di espressioni per creare regole. Tieni presente che la sintassi utilizzata per creare le regole è diversa da quella utilizzata per aggiungere la personalizzazione.
 
-Queste operazioni sono disponibili da Query Modeler **[!UICONTROL Modifica espressione]** disponibile per **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
+## Utilizzare l’editor di espressioni {#edit}
 
-![](assets/edit-expression.png)
+L’editor di espressioni è disponibile dal modellatore di query **[!UICONTROL Modifica espressione]** disponibile per **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
+
+| Accesso da **Attributo** campo | Accesso da **Valore** campo |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 L’editor di espressioni mostra:
 
@@ -29,6 +35,12 @@ L’editor di espressioni mostra:
 Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
 
 ![](assets/expression-editor.png)
+
+Quando l’espressione è pronta, fai clic su **[!UICONTROL Conferma]** pulsante. L’espressione viene visualizzata nel campo selezionato. Per modificarlo, apri l’editor di espressioni e apporta le modifiche desiderate.
+
+L’esempio seguente mostra un’espressione configurata per **[!UICONTROL Valore]** campo. Per modificarlo, devi aprire l’editor di espressioni utilizzando **[!UICONTROL Modifica espressione]** pulsante.
+
+![](assets/edit-expression-value.png)
 
 ## Funzioni Helper
 
