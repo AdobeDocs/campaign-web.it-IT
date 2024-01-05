@@ -4,10 +4,10 @@ title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
 badge: label="Disponibilità limitata"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 18%
+source-wordcount: '269'
+ht-degree: 23%
 
 ---
 
@@ -64,16 +64,3 @@ Per accedere e gestire i rapporti delle campagne, effettua le seguenti operazion
 1. Dalla sezione **[!UICONTROL URL e flussi di clic]**, è inoltre possibile scegliere **[!UICONTROL Collegamenti più visitati]** o **[!UICONTROL Periodo temporale]**.
 
    Il **[!UICONTROL Visualizza per]** Le opzioni consentono di filtrare in base a URL, etichette o categorie.
-
-## Esportare i rapporti {#export-reports}
-
-Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli, manipolarli o stamparli.
-
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL Esporta come file PDF]** o **[!UICONTROL Esporta come file CSV]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. Individua la cartella in cui desideri salvare il file, rinominala se necessario e fai clic su **[!UICONTROL Salva]**.
-
-Il rapporto è ora disponibile per la visualizzazione o la condivisione in un file PDF o CSV.
-

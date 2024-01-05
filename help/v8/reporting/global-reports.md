@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 badge: label="Disponibilità limitata"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 8%
 
 ---
 
@@ -27,6 +27,10 @@ Per accedere e gestire i rapporti globali, effettua le seguenti operazioni:
 
 1. Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generazione rapporti]** sezione.
 
+1. Nel menu a sinistra, seleziona un rapporto dall’elenco e naviga attraverso la scheda per visualizzare i dati da ciascun canale.
+
+   ![](assets/global_report_manage_3.png)
+
 1. Dal dashboard, scegli un **Inizio** e **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ Per accedere e gestire i rapporti globali, effettua le seguenti operazioni:
 1. Dalla sezione **[!UICONTROL URL e flussi di clic]**, è inoltre possibile scegliere **[!UICONTROL Collegamenti più visitati]** o **[!UICONTROL Periodo temporale]**.
 
    Il **[!UICONTROL Visualizza per]** Le opzioni consentono di filtrare in base a URL, etichette o categorie.
-
-## Esportare i rapporti {#export-reports}
-
-Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli, manipolarli o stamparli.
-
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL Esporta come file PDF]** o **[!UICONTROL Esporta come file CSV]**.
-
-   ![](assets/global_report_export.png)
-
-1. Individua la cartella in cui desideri salvare il file, rinominala se necessario e fai clic su **[!UICONTROL Salva]**.
-
-Il rapporto è ora disponibile per la visualizzazione o la condivisione in un file PDF o CSV.
-
