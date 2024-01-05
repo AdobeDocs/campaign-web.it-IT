@@ -2,14 +2,14 @@
 title: Monitorare e gestire i profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 7%
 
 ---
 
-# Monitorare e gestire i profili {#profiles}
+# Monitorare e modificare i profili {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Per accedere ai dettagli di un profilo e modificarli, effettua le seguenti opera
 
 1. Sfoglia per **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]**.
 
-1. Fai clic sull’elemento desiderato da **[!UICONTROL Profili]** elenco.
-
-1. Puoi accedere alle informazioni dettagliate sul profilo.
+1. Fai clic sull’elemento desiderato da **[!UICONTROL Profili]** elenco. Vengono visualizzate le informazioni dettagliate sul profilo.
 
    ![](assets/profile-details.png)
 
