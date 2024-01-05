@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1634'
+ht-degree: 89%
 
 ---
 
@@ -170,6 +170,28 @@ Gli operatori disponibili sono:
 * **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
 
 ![](assets/query-operator-change.png)
+
+### Copiare e incollare componenti di filtro {#copy}
+
+Query Modeler consente di copiare uno o più componenti di filtro e incollarli al termine di una transizione. Questa operazione può essere eseguita nell’area di lavoro query corrente o in qualsiasi area di lavoro all’interno dell’istanza.
+
+>[!NOTE]
+>
+>La selezione copiata viene mantenuta per tutto il tempo in cui si lavora nell’istanza. Se si disconnette e si effettua nuovamente l&#39;accesso, la selezione non sarà più disponibile per l&#39;incollamento.
+
+Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
+
+1. Seleziona il componente filtro da copiare facendo clic su di esso nell’area di lavoro della query. Per selezionare più componenti, utilizza lo strumento per la selezione multipla disponibile nella barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro.
+
+1. Fai clic su **[!UICONTROL Copia]** nel riquadro delle proprietà del componente oppure, se hai selezionato più componenti, sulla barra multifunzione blu nella parte inferiore dello schermo.
+
+   | Copiare un singolo componente | Copiare più componenti |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. Per incollare i componenti, fai clic sul pulsante + alla fine della transizione desiderata e seleziona **Incolla n elementi**.
+
+![](assets/copy-paste.png)
 
 ## Controllare e convalidare la query
 

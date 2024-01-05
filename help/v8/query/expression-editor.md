@@ -3,7 +3,7 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 88%
@@ -26,9 +26,9 @@ L’editor di espressioni mostra:
 * L’elenco delle **campi (2)** che può essere utilizzato nell’espressione e corrispondente alla dimensione di targeting della query.
 * **Funzioni helper (3)**, ordinato per categoria.
 
-![](assets/expression-editor.png)
-
 Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
+
+![](assets/expression-editor.png)
 
 ## Funzioni Helper
 
