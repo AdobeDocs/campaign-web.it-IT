@@ -2,10 +2,10 @@
 title: Monitorare e gestire i profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 9%
+source-wordcount: '901'
+ht-degree: 7%
 
 ---
 
@@ -24,17 +24,31 @@ ht-degree: 9%
 
 ## Introduzione ai profili {#gs}
 
-Un profilo in Adobe Campaign Web è una persona memorizzata nel database che funge da componente chiave per la creazione di tipi di pubblico per le consegne e l’aggiunta di dati di personalizzazione al contenuto. Nel database sono memorizzati vari tipi di profili, ad esempio Profili di test, progettati per testare le consegne prima che vengano inviate al pubblico finale. [Scopri come utilizzare i profili di test](test-profiles.md)
+Un profilo in Adobe Campaign Web è una persona memorizzata nel database che funge da componente chiave per la creazione di tipi di pubblico per le consegne e l’aggiunta di dati di personalizzazione al contenuto.
 
-I profili possono essere aggiunti solo dalla console client di Campaign. Tuttavia, sono accessibili in Adobe Campaign Web dalla sezione **Profili** nella barra di navigazione a sinistra. È inoltre possibile accedervi da **Esplora** visualizzazione, in cui è possibile sfogliare, creare cartelle, sottocartelle e verificare le autorizzazioni associate.
+Altri tipi di profili vengono memorizzati nel database, ad esempio **[!UICONTROL Profili di test]**, progettati per testare le consegne prima che vengano inviate al pubblico finale. [Scopri come utilizzare i profili di test](test-profiles.md)
 
-Puoi filtrare l’elenco dei profili utilizzando il campo di ricerca o i filtri disponibili nella sezione **Mostra filtri** pulsante.
-
-![](assets/profiles-list.png)
+I profili possono essere creati solo dalla console client di Adobe Campaign - [scopri come](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. Tuttavia, sono accessibili e modificabili in Adobe Campaign Web dalla sezione **[!UICONTROL Gestione clienti]** > **Profili** nella barra di navigazione a sinistra.
 
 >[!NOTE]
 >
 >A seconda delle autorizzazioni, potresti non avere accesso all’elenco completo dei profili memorizzati nel database. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../get-started/permissions.md).
+
+* Puoi filtrare i **[!UICONTROL Profili]** utilizzando il campo di ricerca o i filtri disponibili nella **Mostra filtri** pulsante. È possibile limitare i risultati a uno specifico [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa, oppure aggiungi regole utilizzando [query modeler](../query/query-modeler-overview.md).
+
+  ![](assets/profiles-list.png)
+
+* Per eliminare un profilo, selezionare l&#39;opzione corrispondente dalla **[!UICONTROL Altre azioni]** menu.
+
+* Per modificare un profilo, fai clic sull’elemento desiderato dall’elenco. [Ulteriori informazioni](#access)
+
+Puoi anche accedere ai profili tramite **[!UICONTROL Esplora]** vista, da **[!UICONTROL Profili e destinazioni]** > **[!UICONTROL Destinatari]** nodo.
+
+Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
+
+![](assets/profiles-explorer-folder.png)
+
+Dalla sezione **[!UICONTROL Esplora]** visualizzazione puoi anche filtrare, eliminare e [modifica](#access) profili.
 
 ## Accedere e modificare gli attributi dei profili {#access}
 
@@ -78,12 +92,36 @@ Puoi filtrare l’elenco dei profili utilizzando il campo di ricerca o i filtri 
 >title="Elenco iscrizioni dei destinatari"
 >abstract="Questa scheda elenca tutti i servizi a cui il profilo è abbonato."
 
-Per accedere ai dettagli di un profilo, fai clic sul nome nell’elenco dei profili.
+Per accedere ai dettagli di un profilo e modificarli, effettua le seguenti operazioni.
 
-![](assets/profiles-details.png)
+1. Sfoglia per **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]**.
 
-Da questa schermata, puoi accedere alle informazioni dettagliate sul profilo:
+1. Fai clic sull’elemento desiderato da **[!UICONTROL Profili]** elenco.
 
-* Il **[!UICONTROL Dettagli]** Questa scheda ti consente di sfogliare gli attributi incorporati e personalizzati del profilo. Per modificare un attributo, apporta le modifiche desiderate nel campo desiderato e fai clic sul pulsante **[!UICONTROL Salva]** pulsante.
-* Il **[!UICONTROL Iscrizioni]** fornisce informazioni sui servizi a cui il profilo è abbonato. [Scopri come utilizzare i servizi di iscrizione](manage-services.md)
-* Il **[!UICONTROL Registri]** Questo pulsante, situato nell’angolo superiore destro della schermata, ti consente di visualizzare una cronologia delle interazioni del profilo tramite i registri di invio, esclusione e tracciamento, nonché le proposte presentate al profilo.
+1. Puoi accedere alle informazioni dettagliate sul profilo.
+
+   ![](assets/profile-details.png)
+
+1. Il **[!UICONTROL Dettagli]** Questa scheda ti consente di sfogliare gli attributi incorporati e personalizzati del profilo. Per modificare un attributo, apporta le modifiche desiderate nel campo desiderato e fai clic sul pulsante **[!UICONTROL Salva]** pulsante.
+
+   1. Per impostazione predefinita, i profili sono memorizzati nel **[!UICONTROL Destinatari]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
+
+      ![](assets/profile-folder.png)
+
+   1. In **[!UICONTROL Informazioni di contatto]** sezione, puoi aggiornare l’indirizzo e-mail e altri dati rilevanti. L’indirizzo e-mail viene visualizzato tra parentesi dopo l’etichetta del profilo.
+
+      ![](assets/profile-address.png)
+
+   1. Controlla la **[!UICONTROL Non contattare più]** e aggiornarle, se necessario. Quando si seleziona una di queste opzioni, il profilo viene inserito nell&#39;elenco Bloccati in modalità di controllo. Queste informazioni vengono aggiunte ai dati di contatto se, ad esempio, il destinatario ha fatto clic su un collegamento di annullamento dell’abbonamento in una newsletter. Il destinatario non è più indirizzato ai canali selezionati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+
+      ![](assets/profile-no-longer-contact.png)
+
+   1. Se sono presenti **[!UICONTROL Campi personalizzati]**, è possibile aggiornarne i valori in base alle esigenze. I campi personalizzati sono attributi aggiuntivi aggiunti al **[!UICONTROL Profili]** tramite la console Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+
+      ![](assets/profile-custom-fields.png)
+
+1. Fai clic su **[!UICONTROL Iscrizioni]** per accedere alle informazioni sui servizi a cui il profilo è abbonato. [Scopri come utilizzare i servizi di iscrizione](manage-services.md)
+
+1. Fai clic su **[!UICONTROL Registri]** Questo pulsante si trova nell’angolo superiore destro della schermata per visualizzare la cronologia delle interazioni del profilo tramite i registri di invio, esclusione e tracciamento, nonché le offerte presentate al profilo. [Ulteriori informazioni sui registri di consegna](../monitor/delivery-logs.md)
+
+   ![](assets/profile-logs.png)

@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,25 @@ Per accedere all’elenco dei profili di test, seleziona **[!UICONTROL Gestione 
 
 ![](assets/test-profile-list.png)
 
-Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa o aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
+* Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa o aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-Per modificare un profilo di test, fai clic sull’elemento desiderato dall’elenco.
+* Puoi duplicare qualsiasi profilo di test e modificarlo in base alle esigenze.
 
-Per eliminare un profilo di test, seleziona l’opzione corrispondente dal menu **[!UICONTROL Altre azioni]** menu.
+* Per eliminare un profilo di test, seleziona l’opzione corrispondente dal menu **[!UICONTROL Altre azioni]** menu.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* Per modificare un profilo di test, fai clic sull’elemento desiderato dall’elenco.
+
+Puoi anche accedere ai profili di test tramite **[!UICONTROL Esplora]** vista, da **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** nodo.
+
+Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+Dalla sezione **[!UICONTROL Esplora]** visualizzazione puoi anche filtrare, eliminare, modificare e [creare](#create-test-profile) profili di test.
 
 ## Creare un profilo di test {#create-test-profile}
 
@@ -66,7 +76,7 @@ Per creare un profilo di test, segui i passaggi indicati di seguito.
    >
    >Il **[!UICONTROL Etichetta]** viene compilato automaticamente con il nome e il cognome definiti.
 
-1. Per impostazione predefinita, i profili di test sono memorizzati nella **[!UICONTROL Indirizzi seed]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Ulteriori informazioni](#seed-addresses-folders)
+1. Per impostazione predefinita, i profili di test sono memorizzati nella **[!UICONTROL Indirizzi seed]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. Se si seleziona la **[!UICONTROL Non contattare più (tramite alcun canale)]** , il profilo è in fase di inserisco nell&#39;elenco Bloccati. Tale destinatario non è più destinatario di alcun canale (e-mail, SMS, ecc.).
+1. Se si seleziona la **[!UICONTROL Non contattare più (tramite alcun canale)]** , il profilo di test è in fase di inserisco nell&#39;elenco Bloccati. Tale destinatario non è più destinatario di alcun canale (e-mail, SMS, ecc.).
 
 1. In **[!UICONTROL Dati aggiuntivi]** , immetti i dati di personalizzazione utilizzati per le consegne create nei flussi di lavoro di gestione dati e a cui desideri assegnare un valore specifico. [Ulteriori informazioni sui flussi di lavoro](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ Il profilo di test appena creato è ora pronto per essere utilizzato per inviare
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Gestire le cartelle degli indirizzi seed {#seed-addresses-folders}
-
-Gli indirizzi di seed vengono memorizzati in un nodo dedicato della gerarchia di Adobe Campaign: **[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]**.
-
-Per organizzare i profili di test, puoi creare sottocartelle dall’elenco a discesa Altre azioni. [Scopri come creare cartelle](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-Puoi anche creare un profilo di test da qualsiasi **[!UICONTROL Indirizzi seed]** cartella o sottocartella. Compila tutti i dettagli nello stesso modo in cui lo faresti dalla **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](#create-test-profile)
-
-Per modificare un profilo di test, fai clic sulla relativa etichetta nell’area **[!UICONTROL Profili di test]** dalla cartella in cui è memorizzato.
 
 
