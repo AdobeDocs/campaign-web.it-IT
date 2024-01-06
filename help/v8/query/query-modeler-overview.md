@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 58%
@@ -50,7 +50,7 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 
 Il modellatore di query fornisce un’area di lavoro centrale in cui creare la query e un riquadro a destra che fornisce informazioni sulla query.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){width="70%" align="center"}
 
 ### Area di lavoro centrale {#canvas}
 

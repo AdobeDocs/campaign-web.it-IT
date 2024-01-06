@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 65%
+source-wordcount: '1860'
+ht-degree: 64%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi aggiungere due tipi di elementi:
 
   *Destinatari che si sono iscritti alla newsletter “Sport”**AND**vivono a New York **OR**a San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
@@ -51,7 +51,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
 Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
 
-Per un **Collegamento 1-1**, seleziona l’attributo direttamente dalla tabella di destinazione.
+Per un **Collegamento 1-1**, passa alla tabella collegata, seleziona l’attributo desiderato e definisci il valore previsto.
 
 +++Esempio di query
 
@@ -100,17 +100,15 @@ In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot
 
 1. Naviga all&#39;interno del **Marchio** e seleziona la **Etichetta** attributo.
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. Definisci il valore previsto per l’attributo.
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-Per un **Collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query.
-
-Ad esempio, puoi selezionare l’operatore Esiste sugli acquisti del profilo per eseguire il targeting di tutti i profili per i quali esistono acquisti. Al termine, aggiungi una condizione personalizzata nella transizione in uscita e crea un filtro che soddisfi le tue esigenze.
+Per un **Collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell’esempio seguente.
 
 +++Esempio di query
 
@@ -118,19 +116,19 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
 1. Seleziona la **Acquisti** e confermare.
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. Seleziona la **Prezzo** acquisto di 1000$ o più come attributo e destinazione
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. Aggiungi condizioni secondarie in base alle tue esigenze. Qui abbiamo aggiunto una condizione per eseguire il targeting dei profili che hanno acquistato un prodotto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
 
 1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. Nel riquadro delle proprietà, attivare **Aggregare i dati** e selezionare la funzione di aggregazione desiderata.
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### Selezionare un pubblico
 
@@ -178,7 +176,7 @@ Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti o
 
    *Esempio di query che restituisce tutti i profili corrispondenti al filtro preimpostato “Clienti inattivi”:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### Copiare e incollare componenti {#copy}
 
@@ -200,7 +198,7 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
 1. Per incollare i componenti, fai clic sul pulsante + alla fine della transizione desiderata e seleziona **Incolla n elementi**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## Combinare componenti di filtraggio con operatori {#operators}
 
@@ -213,7 +211,7 @@ Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo vien
 
 In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro predefinito con un **E** operatore, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtro, fai clic su di esso e seleziona l’operatore desiderato nella **Gruppo** che si apre sul lato destro.
 
@@ -223,13 +221,13 @@ Gli operatori disponibili sono:
 * **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
 * **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 È inoltre possibile creare gruppi intermedi di componenti facendo clic sul pulsante **+** su una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
 
 Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP da ricompensare&quot; o &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## Controllare e convalidare la query
 
