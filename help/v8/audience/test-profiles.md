@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '554'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ I passaggi per inviare messaggi di test agli indirizzi di seed sono descritti in
 
 >[!NOTE]
 >
->I profili di test vengono esclusi automaticamente dai rapporti sulle seguenti statistiche di consegna: **[!UICONTROL Clic]**, **[!UICONTROL Aperture]**, **[!UICONTROL Annullamenti iscrizione]**.
+>I profili di test vengono esclusi automaticamente dai rapporti sulle seguenti statistiche di consegna: **[!UICONTROL Clic]**, **[!UICONTROL Aperture]**, **[!UICONTROL Annullamenti iscrizione]**. [Ulteriori informazioni sui rapporti]
 
 ## Accedere e gestire i profili di test {#access-test-profiles}
 
@@ -39,13 +39,13 @@ Per accedere all’elenco dei profili di test, seleziona **[!UICONTROL Gestione 
 
   ![](assets/test-profile-list-filters.png)
 
-* Puoi duplicare qualsiasi profilo di test e modificarlo in base alle esigenze.
+* Puoi duplicare qualsiasi profilo di test e aggiornarlo in base alle esigenze. I passaggi per modificare un profilo di test sono gli stessi di quando [creazione di un profilo di test](#create-test-profile).
 
 * Per eliminare un profilo di test, seleziona l’opzione corrispondente dal menu **[!UICONTROL Altre azioni]** menu.
 
   ![](assets/test-profile-list-delete.png)
 
-* Per modificare un profilo di test, fai clic sull’elemento desiderato dall’elenco.
+* Per modificare un profilo di test, fai clic sull’elemento desiderato dall’elenco. I passaggi per modificare un profilo di test sono gli stessi di quando [creazione di un profilo di test](#create-test-profile).
 
 Puoi anche accedere ai profili di test tramite **[!UICONTROL Esplora]** vista, da **[!UICONTROL Risorse]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Indirizzi seed]** nodo.
 
@@ -68,7 +68,9 @@ Per creare un profilo di test, segui i passaggi indicati di seguito.
 
 1. Fai clic su **[!UICONTROL Creare un profilo di test]** pulsante.
 
-1. Inserisci i dettagli del profilo di test. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. Compila i dettagli del profilo di test, se necessario. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 
