@@ -3,9 +3,9 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 64%
 
 ---
@@ -18,27 +18,23 @@ Puoi aggiungere due tipi di elementi:
 
 * **Componenti per il filtro** (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consente di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query. [Scopri come utilizzare i componenti per il filtro](#filtering)
 
-  Esempio:
-
   *Destinatari che si sono iscritti alla newsletter “Sport”*. *Destinatari che vivono a New York*, *Destinatari che vivono a San Francisco*
 
 * Gli **operatori del gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti per il filtro nel diagramma in base alle esigenze. [Scopri come utilizzare gli operatori](#filtering)
 
-  Esempio:
-
   *Destinatari che si sono iscritti alla newsletter “Sport”**AND**vivono a New York **OR**a San Francisco*.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
 I componenti per il filtro consentono di perfezionare la query utilizzando:
 
-* **Condizioni personalizzate**: per filtrare la query creando la tua condizione personalizzata con gli attributi dal database e le espressioni avanzate.
-* **Tipi di pubblico**: per filtrare la query utilizzando un pubblico esistente.
-* **Filtro predefinito**: per filtrare la query utilizzando filtri preimpostati esistenti.
+* **[Condizioni personalizzate](#custom-condition)**: per filtrare la query creando la tua condizione personalizzata con gli attributi dal database e le espressioni avanzate.
+* **[Tipi di pubblico](#audiences)**: per filtrare la query utilizzando un pubblico esistente.
+* **[Filtro predefinito](#predefined-filters)**: per filtrare la query utilizzando filtri preimpostati esistenti.
 
-### Configurare una condizione personalizzata
+### Configurare una condizione personalizzata {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate.
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -100,11 +96,11 @@ In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot
 
 1. Naviga all&#39;interno del **Marchio** e seleziona la **Etichetta** attributo.
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. Definisci il valore previsto per l’attributo.
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
 1. Seleziona la **Acquisti** e confermare.
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. Seleziona la **Prezzo** acquisto di 1000$ o più come attributo e destinazione
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. Aggiungi condizioni secondarie in base alle tue esigenze. Qui abbiamo aggiunto una condizione per eseguire il targeting dei profili che hanno acquistato un prodotto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
 
 1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. Nel riquadro delle proprietà, attivare **Aggregare i dati** e selezionare la funzione di aggregazione desiderata.
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### Selezionare un pubblico
+### Selezionare un pubblico {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti op
 
    ![](assets/query-audience.png)
 
-### Utilizzare un filtro preimpostato
+### Utilizzare un filtro preimpostato {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti o
 
    *Esempio di query che restituisce tutti i profili corrispondenti al filtro preimpostato “Clienti inattivi”:*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### Copiare e incollare componenti {#copy}
 
@@ -198,7 +194,7 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
 1. Per incollare i componenti, fai clic sul pulsante + alla fine della transizione desiderata e seleziona **Incolla n elementi**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## Combinare componenti di filtraggio con operatori {#operators}
 
@@ -211,7 +207,7 @@ Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo vien
 
 In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro predefinito con un **E** operatore, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtro, fai clic su di esso e seleziona l’operatore desiderato nella **Gruppo** che si apre sul lato destro.
 
@@ -221,13 +217,13 @@ Gli operatori disponibili sono:
 * **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
 * **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 È inoltre possibile creare gruppi intermedi di componenti facendo clic sul pulsante **+** su una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
 
 Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP da ricompensare&quot; o &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## Controllare e convalidare la query
 
@@ -250,3 +246,5 @@ Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando i
 Quando la query è pronta, fai clic su **[!UICONTROL Conferma]** nell’angolo in alto a destra per salvarlo.
 
 Puoi modificare la query in qualsiasi momento aprendola. Tieni presente che all’apertura di una query esistente, questa viene visualizzata in una vista semplificata senza la visibilità di  **+** pulsanti. Per aggiungere nuovi elementi alla query, seleziona un componente o un operatore nell’area di lavoro per visualizzare **+** pulsanti.
+
+![](assets/edit-audience.png)
