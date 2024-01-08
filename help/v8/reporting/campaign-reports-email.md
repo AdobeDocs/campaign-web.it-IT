@@ -4,10 +4,10 @@ title: Rapporti sulle campagne per il canale e-mail
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-mail
 badge: label="Disponibilità limitata"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Statistiche iniziali sul pubblico target"
->abstract="La tabella Statistiche iniziali sul pubblico target mostra i dati relativi ai destinatari"
+>abstract="La tabella Statistiche del pubblico di destinazione iniziale visualizza i dati relativi ai destinatari."
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
