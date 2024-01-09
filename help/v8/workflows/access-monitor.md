@@ -2,12 +2,12 @@
 audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -50,4 +50,6 @@ Informazioni dettagliate su come avviare e monitorare l’esecuzione di un fluss
 
 Nella scheda **[!UICONTROL Modelli]** sono elencati tutti i modelli di flusso di lavoro disponibili.
 
-I modelli di flusso di lavoro contengono attività preconfigurate e configurazioni di proprietà generali che possono essere riutilizzate per creare nuovi flussi di lavoro. Vengono creati dalla console client. [Scopri come utilizzare i modelli](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it#workflow-templates)
+I modelli di flusso di lavoro contengono attività preconfigurate e configurazioni di proprietà generali che possono essere riutilizzate per creare nuovi flussi di lavoro.
+
+È possibile creare modelli di workflow da un workflow esistente o da zero. [Scopri come creare modelli di flusso di lavoro](create-workflow.md#work-with-workflow-templates-workflow-templates)
