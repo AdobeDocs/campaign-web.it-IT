@@ -2,14 +2,15 @@
 product: campaign
 title: Utilizzare le consegne
 description: Scopri come creare la prima consegna in Campaign Web
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Disponibilità limitata"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+workflow-type: tm+mt
+source-wordcount: '1203'
+ht-degree: 96%
 
 ---
 
@@ -36,14 +37,17 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 
    ![](assets/create-a-delivery.png)
 
-1. Scegli un canale per la consegna. Per ulteriori informazioni sui canali di consegna e su come definirne il contenuto, consulta queste sezioni:
+1. Scegli un canale per la consegna.
+1. Definisci il pubblico della consegna per il target principale e il gruppo di controllo. Per ulteriori informazioni sui tipi di pubblico, consulta [questa sezione](../audience/about-recipients.md).
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. Definisci il contenuto del messaggio. Per ulteriori informazioni sui canali di consegna e su come definirne il contenuto, consulta queste sezioni:
 
    * [Canale e-mail](../email/create-email.md)
    * [Canale di notifica push](../push/gs-push.md)
    * [Canale SMS](../sms/create-sms.md)
 
-1. Definisci il pubblico della consegna per il target principale e il gruppo di controllo. Per ulteriori informazioni sui tipi di pubblico, consulta [questa sezione](../audience/about-recipients.md).
-1. Definisci il contenuto del messaggio.
 1. (facoltativo) Definisci la [pianificazione](#gs-schedule) della consegna. Se non è definita alcuna pianificazione, i messaggi vengono inviati immediatamente dopo aver fatto clic sul pulsante **[!UICONTROL Invia]**.
 1. Fai clic sul pulsante **[!UICONTROL Rivedi e invia]** per verificare le impostazioni.
 1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per verificare la consegna e le impostazioni di personalizzazione. Per ulteriori informazioni sulla simulazione di messaggi, consulta [questa sezione](../preview-test/preview-test.md).
@@ -56,13 +60,11 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 Per creare una consegna in un flusso di lavoro, segui questi passaggi:
 
 1. Crea un flusso di lavoro o apri un flusso di lavoro esistente. Ulteriori informazioni sui flussi di lavoro sono disponibili in [questa pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Aggiungi e configura un’attività di **[!UICONTROL Creazione del pubblico]** e fai clic sul pulsante `+`.
+1. Aggiungere e configurare un **[!UICONTROL Creare un pubblico]** attività. Ulteriori informazioni su **[!UICONTROL Creare un pubblico]** attività in [questa sezione](../workflows/activities/build-audience.md).
+1. Fai clic su `+` e seleziona un’attività di consegna: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**. Per ulteriori informazioni sulle attività dei canali di consegna in un flusso di lavoro e su come definire il contenuto della consegna, consulta questa [sezione](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
-   L’attività di **[!UICONTROL Creazione del pubblico]** è descritta in [questa sezione](../workflows/activities/build-audience.md).
-
-1. Seleziona un’attività di consegna: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**. Per ulteriori informazioni sulle attività dei canali di consegna in un flusso di lavoro e su come definire il contenuto della consegna, consulta questa [sezione](../workflows/activities/channels.md).
 1. Avvia il flusso di lavoro e controlla i registri.
 
 Puoi anche aggiungere consegne in una campagna senza creare un flusso di lavoro. A questo scopo, passa alla scheda **[!UICONTROL Consegne]** della campagna e fai clic sul pulsante **[!UICONTROL Crea consegna]**.
