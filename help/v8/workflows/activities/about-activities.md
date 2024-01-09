@@ -4,9 +4,9 @@ title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ Queste attività sono specifiche per il targeting, la gestione e l’arricchimen
 
 ## Attività di canale {#channel}
 
-Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente. I seguenti elementi **Canale** Le attività sono disponibili: e-mail, SMS, Android e notifiche push iOS.
-
-Scopri come impostare una consegna nel contesto di un flusso di lavoro in questo [sezione](channels.md).
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente. I seguenti elementi **Canale** Le attività sono disponibili: e-mail, SMS, Android e notifiche push iOS. [Scopri come impostare una consegna nel contesto di un flusso di lavoro](channels.md).
 
 ## Attività di controllo del flusso {#flow-control}
 

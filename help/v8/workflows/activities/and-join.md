@@ -2,12 +2,12 @@
 audience: end-user
 title: Utilizzare l’attività Unione AND nei flussi di lavoro
 description: Scopri come utilizzare l’attività Unione AND nei flussi di lavoro
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -43,4 +43,4 @@ Per configurare l’attività **Unione AND**, segui questi passaggi:
 
 L’esempio seguente mostra due rami del flusso di lavoro con consegna e-mail e SMS. L’Unione AND verrà attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push verranno quindi inviate solo al termine di entrambe le consegne.
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
