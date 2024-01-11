@@ -2,12 +2,12 @@
 audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare un flusso di lavoro con Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
@@ -25,20 +25,17 @@ ht-degree: 100%
 >title="Elenco dei flussi di lavoro nella campagna"
 >abstract="Nella scheda **Flussi di lavoro** sono elencati tutti i flussi di lavoro collegati alla campagna. Fai clic sul nome di un flusso di lavoro per modificarlo. Utilizza il pulsante **Crea flusso di lavoro** per aggiungere un nuovo flusso di lavoro per questa campagna."
 
-
 Puoi creare flussi di lavoro autonomi o flussi di lavoro all’interno di una campagna. Il primo passaggio consiste nel selezionare un modello e definirne le proprietà generali. Puoi quindi configurare impostazioni aggiuntive in base alle esigenze.
 
 Per farlo, segui questi passaggi:
 
-1. Per creare un **Flusso di lavoro autonomo**, passa al menu **Flussi di lavoro**.
-
-   Per creare un **Flusso di lavoro della campagna**, passa al menu **Campagne** e apri la campagna per la quale desideri creare un nuovo flusso di lavoro.
+1. Per creare un **Flusso di lavoro autonomo**, passare alla **Flussi di lavoro** menu. Per creare un **Flusso di lavoro della campagna**, passa al menu **Campagne** e apri la campagna per la quale desideri creare un nuovo flusso di lavoro.
 
 1. Fai clic sul pulsante **[!UICONTROL Crea flusso di lavoro]** nell’angolo in alto a destra della schermata.
 
    ![](assets/workflow-create.png)
 
-1. Nella finestra di dialogo **Proprietà** del flusso di lavoro, seleziona il modello da utilizzare per creare il flusso di lavoro (puoi anche utilizzare il modello predefinito incorporato). Per ulteriori informazioni sui modelli, consulta la [sezione seguente](#work-with-workflow-templates-workflow-templates).
+1. Nella finestra di dialogo **Proprietà** del flusso di lavoro, seleziona il modello da utilizzare per creare il flusso di lavoro (puoi anche utilizzare il modello predefinito incorporato). [Ulteriori informazioni sui modelli di workflow](#workflow-templates).
 
 1. Immetti un’etichetta per il flusso di lavoro. Inoltre, è vivamente consigliato aggiungere una descrizione al flusso di lavoro, nel campo dedicato della sezione **[!UICONTROL Opzioni aggiuntive]** nella schermata.
 
@@ -48,7 +45,7 @@ Per farlo, segui questi passaggi:
 
 1. Fai clic sul pulsante **[!UICONTROL Crea flusso di lavoro]** per confermare la creazione del flusso di lavoro.
 
-Il flusso di lavoro viene creato ed è disponibile nell’elenco dei flussi di lavoro. Ora puoi accedere alla relativa area di lavoro visiva e iniziare ad aggiungere, configurare e orchestrare le attività che eseguirà. Scopri come orchestrare le attività del flusso di lavoro in [questa pagina](orchestrate-activities.md).
+Il flusso di lavoro viene creato ed è disponibile nell’elenco dei flussi di lavoro. Ora puoi accedere alla relativa area di lavoro visiva e iniziare ad aggiungere, configurare e orchestrare le attività che eseguirà. [Scopri come orchestrare le attività del flusso di lavoro](orchestrate-activities.md).
 
 ## Utilizzare i modelli di flusso di lavoro {#workflow-templates}
 
