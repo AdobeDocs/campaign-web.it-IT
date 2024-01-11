@@ -4,10 +4,10 @@ title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 96%
+source-wordcount: '901'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >* [Creare una consegna SMS autonoma](../../sms/create-sms.md)
 >* [Creare una consegna push autonoma](../../push/create-push.md)
 
-## Creare il flusso di lavoro{#build-your-workflow}
+## Creare il flusso di lavoro {#build-your-workflow}
 
 Prima di inserire la consegna, inizia a creare il flusso di lavoro con le attività pertinenti:
 
@@ -35,6 +35,10 @@ Prima di inserire la consegna, inizia a creare il flusso di lavoro con le attivi
 * Aggiungi un’attività **Creazione del pubblico.** Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**. Consulta [questa sezione](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >Puoi anche eseguire il targeting di un pubblico caricato da un file. A tale scopo, utilizza un **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](../../audience/about-recipients.md)
 
 ## Configurare l’attività Canale {#create-a-delivery-in-a-workflow}
 

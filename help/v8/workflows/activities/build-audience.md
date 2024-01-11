@@ -4,10 +4,10 @@ title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 82%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
 >[!NOTE]
 >
->In questo contesto, non è possibile caricare un pubblico da un file. A questo scopo, devi creare una consegna e-mail autonoma. [Ulteriori informazioni](../../audience/about-recipients.md)
+>I tipi di pubblico caricati da un file non possono essere targetizzati utilizzando un’attività Genera pubblico. A questo scopo, è necessario utilizzare un’ **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 1. Fai clic su **Continua**.
 1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova consegna. Consulta questa [sezione](../../audience/add-audience.md).
 
->[!IMPORTANT]
->
->Se desideri utilizzare un’attività **[!UICONTROL Creazione di un pubblico]** che ha come target un pubblico di Experience Platform, dopo di essa è necessario aggiungere un’attività **[!UICONTROL Cambia dimensione]** per garantire che la dimensione targeting del pubblico sia impostata su “Destinatario”. Nella parte inferiore di questa pagina è disponibile un esempio di flusso di lavoro.
-
 >[!ENDTABS]
 
 ## Esempi{#build-audience-examples}
@@ -80,7 +76,3 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 Di seguito è riportato un esempio di un flusso di lavoro con due attività **Crea pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
 
 ![](../assets/workflow-audience-example.png)
-
-Ecco un altro esempio di flusso di lavoro in cui un pubblico di Adobe Experience Platform viene combinato con un pubblico di Adobe Campaign. Per consentire la combinazione di questi tipi di pubblico, è necessaria un’attività **[!UICONTROL Cambia dimensione]** con la dimensione targeting “Destinatario” aggiunta dopo il pubblico di Adobe Experience Platform. [Scopri come configurare un’attività Cambia dimensione](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)
