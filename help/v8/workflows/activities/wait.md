@@ -2,12 +2,12 @@
 audience: end-user
 title: Utilizzare l’attività Attendi nei flussi di lavoro
 description: Scopri come utilizzare l’attività Attendi nei flusso di lavoro
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 
 1. Specifica la **Durata** dell’attesa tra le transizioni in entrata e in uscita.
 
-1. Seleziona l’unità di tempo nel campo **Periodi**: secondi, minuti, ore.
+1. Selezionare l&#39;unità di tempo in **Periodi** campo: secondi, minuti, ore, giorni.
 
 ## Esempio{#wait-example}
 

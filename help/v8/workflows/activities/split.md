@@ -2,12 +2,12 @@
 audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 >id="acw_orchestration_split"
 >title="Attività Dividi"
 >abstract="L’attività **Dividi** consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione."
-
 
 L’attività **Dividi** è un’attività di **Targeting** che consente di segmentare le popolazioni in ingresso in più sottoinsiemi in base a criteri di selezione diversi, ad esempio le regole di filtro o le dimensioni della popolazione.
 
@@ -54,9 +53,9 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    >[!IMPORTANT]
    >
-   >Quando viene eseguita l’attività Dividi, la popolazione viene segmentata in diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
+   >Quando **Dividi** Quando si esegue un’attività, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
    >
-   > Prima di configurare i sottoinsiemi, accertati di averli aggiunti nell’ordine corretto, in quanto non è possibile modificarne la posizione.
+   >Prima di avviare il flusso di lavoro, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze. A tale scopo, utilizzare i pulsanti freccia per modificare la posizione di un sottoinsieme.
 
 1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Si consiglia vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro del flusso di lavoro.
 
