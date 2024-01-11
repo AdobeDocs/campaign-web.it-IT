@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 64%
+source-wordcount: '1920'
+ht-degree: 62%
 
 ---
 
@@ -90,6 +90,8 @@ Le condizioni personalizzate consentono di eseguire query sulle tabelle collegat
 
 Per un **Collegamento 1-1**, passa alla tabella collegata, seleziona l’attributo desiderato e definisci il valore previsto.
 
+Puoi anche selezionare direttamente un collegamento a una tabella nel **Valore** e confermare. In tal caso, i valori disponibili per la tabella selezionata devono essere selezionati utilizzando un selettore dedicato, come illustrato nell’esempio seguente.
+
 +++Esempio di query
 
 In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot;in esecuzione&quot;.
@@ -101,6 +103,10 @@ In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot
 1. Definisci il valore previsto per l’attributo.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Di seguito è riportato un esempio di query in cui è stato selezionato direttamente un collegamento di tabella. I valori disponibili per questa tabella devono essere selezionati da un selettore dedicato.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
