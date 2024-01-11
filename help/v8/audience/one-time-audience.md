@@ -4,16 +4,16 @@ title: Creare un pubblico una tantum per una consegna
 description: Scopri come creare un pubblico una tantum per una consegna.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Creare un pubblico una tantum per una consegna {#sone-time}
 
-Questa sezione descrive come creare un pubblico durante la creazione di una nuova consegna. In questo caso, il targeting dei destinatari da includere nel pubblico di consegna viene eseguito interrogando il database con il generatore di regole.
+Questa sezione descrive come creare un pubblico durante la creazione di una nuova consegna. In questo caso, il target dei destinatari da includere nel pubblico di consegna è rappresentato dalla query nel database con il modellatore di query.
 
 Il pubblico risultante viene utilizzato una sola volta per questa consegna. Non viene salvato nell’elenco dei tipi di pubblico.
 
@@ -28,7 +28,7 @@ Per creare un nuovo pubblico direttamente da una consegna, segui questi passaggi
 
    ![](assets/segment-builder0.png)
 
-1. Seleziona **Crea nuovo**. Viene visualizzato il generatore di regole. Questo consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. [Scopri come utilizzare il generatore di regole](../query/query-modeler-overview.md)
+1. Seleziona **Crea nuovo**. Viene visualizzato il modellatore di query. Questo consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

@@ -4,10 +4,10 @@ title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 Queste attività sono specifiche per il targeting, la gestione e l’arricchimento dei dati sulla popolazione. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
 
 * Utilizza il [Salva pubblico](save-audience.md) attività per aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
-* Utilizza il [Creare un pubblico](build-audience.md) per definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il generatore di regole per definire una query personalizzata.
+* Utilizza il [Creare un pubblico](build-audience.md) per definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
 * Utilizza il [Combina](combine.md) attività per eseguire la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
 * Utilizza il [Dividi](split.md) attività per segmentare la popolazione in ingresso in diversi sottoinsiemi.
 * Utilizza il [Reconciliation](reconciliation.md) attività per definire il collegamento tra i dati nel database di Adobe Campaign e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.

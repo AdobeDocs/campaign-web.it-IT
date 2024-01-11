@@ -3,10 +3,10 @@ title: Creare e utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati nell’interfaccia web di Adobe Campaign
 badge: label="Disponibilità limitata"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ Quando viene salvato un filtro come preferito, è disponibile per tutti gli uten
 
 ## Utilizza un filtro preimpostato {#use-predefined-filter}
 
-I filtri preimpostati sono disponibili quando si definiscono le proprietà delle regole. Per accedere ai filtri preimpostati, scegli **Seleziona filtro personalizzato** nel menu a discesa del generatore di regole.
+I filtri preimpostati sono disponibili quando si definiscono le proprietà delle regole. Per accedere ai filtri predefiniti, scegli **Seleziona filtro personalizzato** nell’elenco a discesa del modellatore di query.
 
 Puoi quindi accedere all’elenco completo dei filtri preimpostati disponibili per il contesto corrente.
 

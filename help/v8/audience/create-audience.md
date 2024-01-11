@@ -4,10 +4,10 @@ title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Per creare un pubblico, segui questi passaggi:
 
    * **[!UICONTROL Salva pubblico]**: questo rappresenta il passaggio finale nel flusso di lavoro; consente di salvare i risultati del flusso di lavoro come un nuovo pubblico.
 
-1. Apri l’attività **[!UICONTROL Crea pubblico]** e utilizza il generatore di regole per definire la popolazione da includere nel pubblico filtrando i dati contenuti nel database. [Scopri come configurare un’attività Crea pubblico](../workflows/activities/build-audience.md)
+1. Apri **[!UICONTROL Creare un pubblico]** e utilizza Query Modeler per definire la popolazione da includere nel pubblico filtrando i dati contenuti nel database. [Scopri come configurare un’attività Crea pubblico](../workflows/activities/build-audience.md)
 
 1. Se desideri eseguire operazioni aggiuntive sulla popolazione target nel flusso di lavoro, aggiungi tutte le attività necessarie e collegale tra loro. Per ulteriori informazioni su come configurare le attività del flusso di lavoro, consulta la [documentazione sui flussi di lavoro](../workflows/activities/about-activities.md).
 

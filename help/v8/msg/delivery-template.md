@@ -7,10 +7,10 @@ role: User
 level: Beginner
 badge: label="Beta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Per accedere all’elenco dei modelli di contenuto, dal menu a sinistra selezion
 
 Vengono visualizzati tutti i modelli che sono stati [creati](#create-a-delivery-template) nell’ambiente corrente.
 
-È possibile filtrare i modelli di contenuto per canali e cartelle. È inoltre possibile impostare filtri avanzati creando una regola con attributi di consegna. [Ulteriori informazioni sul generatore di regole](../audience/../query/query-modeler-overview.md)
+È possibile filtrare i modelli di contenuto per canali e cartelle. È inoltre possibile impostare filtri avanzati creando una regola con attributi di consegna. [Ulteriori informazioni su Query Modeler](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
