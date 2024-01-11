@@ -5,12 +5,12 @@ description: Scopri come creare e utilizzare i modelli di consegna in Campaign 
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 95%
+source-wordcount: '1087'
+ht-degree: 92%
 
 ---
 
@@ -122,6 +122,8 @@ Per salvare una consegna come modello, segui i passaggi seguenti:
 
    ![](assets/templates-convert-delivery.png)
 
+   Puoi anche selezionare un modello dall’elenco e selezionare questa opzione dalla schermata per la modifica del modello.
+
 1. Conferma la duplicazione.
 
 1. La nuova dashboard del modello si apre nella schermata centrale. Modifica le impostazioni del modello in base alle esigenze.
@@ -180,13 +182,11 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
    ![](assets/templates-simulate-button.png)
 
-1. Seleziona uno o più profili di test per controllare come vengono riprodotte le e-mail. Puoi anche selezionare profili reali dal tuo database.
+1. Seleziona uno o più profili di test per controllare come vengono riprodotte le e-mail. Puoi anche selezionare profili reali dal database. [Ulteriori informazioni sui profili di test](../audience/test-profiles.md)
 
-1. Passa da un profilo all’altro per ottenere una rappresentazione personalizzata del messaggio in base al profilo selezionato.
+1. Passa da un profilo all’altro per ottenere una rappresentazione personalizzata del messaggio in base al profilo selezionato. Puoi anche regolare il livello di zoom e scegliere la visualizzazione su desktop o dispositivo mobile.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   Puoi anche regolare il livello di zoom e scegliere la visualizzazione su desktop o dispositivo mobile.
+[Ulteriori informazioni sull’anteprima dei contenuti](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 >
 >Non puoi utilizzare il rendering di e-mail o inviare test in un modello di consegna.
 
-* [Ulteriori informazioni sull’anteprima del contenuto delle e-mail](../preview-test/preview-content.md)
 
-* [Ulteriori informazioni sull’anteprima del contenuto di SMS](../sms/content-sms.md)
-
-* [Ulteriori informazioni sull’anteprima dei contenuti push](../push/gs-push.md)
