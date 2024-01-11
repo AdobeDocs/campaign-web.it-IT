@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 badge: label="Disponibilità limitata"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 39%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 39%
 >title="Formattazione per l’attività di caricamento file"
 >abstract="Formattazione per l’attività di caricamento file"
 
-
 Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Per configurare il **Carica file** attività:
 
    ![](../assets/load-file.png)
 
-1. Regola le impostazioni delle colonne e il formato dei dati dalle opzioni disponibili.
+1. Utilizza il **Colonne** nel riquadro sinistro per regolare il tipo di dati e la larghezza di ogni colonna.
+
+1. In **Formattazione** nella configurazione delle colonne, specifica come viene formattato il file esterno per garantire che i dati vengano importati correttamente.
 
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
 
 ## Esempio{#load-example}
 
-Un esempio di caricamento di un file esterno è disponibile con **Reconciliation** attività in [questa sezione](reconciliation.md#example).
+Esempio di caricamento di un file esterno utilizzato con **Reconciliation** l&#39;attività è disponibile in [questa sezione](reconciliation.md#example).

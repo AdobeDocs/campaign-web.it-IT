@@ -4,10 +4,10 @@ title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 83%
+source-wordcount: '618'
+ht-degree: 82%
 
 ---
 
@@ -26,14 +26,12 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Formattazione dei parametri"
->abstract="Verificare i parametri di formattazione per il file esterno."
-
+>abstract="Specifica la formattazione del file esterno per garantire che i dati vengano importati correttamente."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Anteprima del file"
 >abstract="Controlla l’anteprima delle colonne del file esterno. Questa schermata mostra solo un massimo di 30 record."
-
 
 Puoi eseguire il targeting dei profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). Questo articolo descrive come caricare un profilo esterno durante la creazione di una consegna e-mail indipendente. Per caricare dati da un file in un flusso di lavoro, consulta [questa pagina](../workflows/activities/load-file.md).
 
