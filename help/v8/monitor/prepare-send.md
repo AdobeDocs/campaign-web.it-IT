@@ -3,11 +3,11 @@ audience: end-user
 title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilità limitata"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 99%
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Se hai pianificato l’invio dell’e-mail in una data e in un’ora successive,
 
 ## Sospendere o interrompere l’invio {#pause-stop-sending}
 
-Indipendentemente dal fatto che la consegna sia pianificata o meno, è possibile eseguire due azioni in qualsiasi momento durante il processo di invio:
+Se la consegna è pianificata o meno<!--TBC-->, è possibile eseguire due azioni in qualsiasi momento durante il processo di invio:
 
 * Fai clic su **[!UICONTROL Pausa invio]** per interrompere l’invio dei messaggi. Puoi riprendere l’invio in qualsiasi momento.
 
