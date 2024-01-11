@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Riconciliazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Riconciliazione
 badge: label="Disponibilità limitata"
-source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '836'
 ht-degree: 15%
 
 ---
@@ -17,12 +17,10 @@ ht-degree: 15%
 >title="Attività di riconciliazione"
 >abstract="Il **Reconciliation** l&#39;attività è un **Targeting** attività che ti consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno. Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività ti consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella esterna."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Campo di selezione riconciliazione"
 >abstract="Campo di selezione riconciliazione"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -34,10 +32,9 @@ ht-degree: 15%
 >title="Complemento generato da riconciliazione"
 >abstract="Complemento generato da riconciliazione"
 
+Il **Reconciliation** l&#39;attività è un **Targeting** attività che ti consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 
-
-Il **Reconciliation** l&#39;attività è un **Targeting** attività che ti consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno. Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella di lavoro.
-
+Ad esempio, il **Reconciliation** l’attività può essere inserita dopo un **Carica pubblico** attività per importare dati non standard nel database. In questo caso, il **Reconciliation** attività consente di definire il collegamento tra i dati nel database di Adobe Campaign e i dati nella tabella di lavoro.
 
 ## Best practice {#reconciliation-best-practices}
 
@@ -45,10 +42,8 @@ Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi 
 
 >[!NOTE]
 >L&#39;operazione Reconciliation implica che i dati delle dimensioni collegate siano già presenti nel database.  Ad esempio, se importi un file di acquisti che mostra quale prodotto è stato acquistato in un determinato momento da uno specifico cliente, ecc., il prodotto e il cliente devono già esistere nel database.
->
 
 ## Configurare l’attività Reconciliation {#reconciliation-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -71,7 +66,6 @@ Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi 
 >title="Mantieni dati non riconciliati"
 >abstract="Per impostazione predefinita, i dati non riconciliati vengono conservati nella transizione in uscita e sono disponibili nella tabella di lavoro per utilizzi futuri. Per rimuovere i dati non riconciliati, disattivare **Mantieni dati non riconciliati** opzione."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Attributo Reconciliation"
@@ -81,9 +75,9 @@ Per configurare il **Reconciliation** attività:
 
 1. Trascina una **Reconciliation** attività nel flusso di lavoro. Questa attività deve essere aggiunta dopo una transizione contenente un gruppo la cui dimensione di targeting non proviene direttamente da Adobe Campaign.
 
-1. Seleziona la nuova dimensione di targeting. Una dimensione ti consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc. Ulteriori informazioni sulle dimensioni di targeting in [questa pagina](../../audience/about-recipients.md#targeting-dimensions).
+1. Seleziona la nuova dimensione di targeting. Una dimensione ti consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions).
 
-1. Seleziona i campi di riconciliazione da utilizzare per la deduplicazione. Puoi utilizzare uno o più criteri di riconciliazione.
+1. Seleziona i campi da utilizzare per la riconciliazione. Puoi utilizzare uno o più criteri di riconciliazione.
 
    1. Per utilizzare gli attributi per riconciliare i dati, selezionare **Attributi semplici** opzione. Il **Sorgente** campo elenca i campi disponibili nella transizione di input, che devono essere riconciliati. Il **Destinazione** corrisponde ai campi della dimensione di targeting selezionata. I dati vengono riconciliati quando l’origine e la destinazione sono uguali. Ad esempio, seleziona la **E-mail** per deduplicare i profili in base al loro indirizzo e-mail.
 
