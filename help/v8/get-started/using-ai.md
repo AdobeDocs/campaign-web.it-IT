@@ -3,14 +3,14 @@ title: Utilizzo dell’aiuto contestuale basato sull’intelligenza artificiale 
 description: Porre domande nei popover della guida di Campaign Web
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 52%
+source-wordcount: '465'
+ht-degree: 49%
 
 ---
 
-# Utilizzo della Guida contestuale basata sull’intelligenza artificiale {#using-ai}
+# Aiuto contestuale basato sull’intelligenza artificiale {#using-ai}
 
 Ottieni risposte veloci e generate dall’intelligenza artificiale sulla base della documentazione del prodotto e del contesto di prodotto corrente, con l’Aiuto contestuale basato sull’intelligenza artificiale Q&amp;A disponibile nelle caselle di aiuto contestuali del prodotto.
 
@@ -18,7 +18,7 @@ Ottieni risposte veloci e generate dall’intelligenza artificiale sulla base de
 >
 >Questa funzionalità è disponibile in versione Alpha ed è soggetta a modifiche senza preavviso.
 >
->Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione.
+>Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che [lingua preferita](connect-to-campaign.md#language-pref) è impostato su English prima di utilizzare questa funzionalità.
 
 
 Il **Aiuto contestuale con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
