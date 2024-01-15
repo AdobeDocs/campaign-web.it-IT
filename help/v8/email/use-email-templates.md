@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: Utilizzare modelli di e-mail
-description: Scopri come utilizzare i modelli e-mail in Adobe Campaign
+title: Utilizzare i modelli di contenuto e-mail
+description: Scopri come utilizzare i modelli di contenuto e-mail in Adobe Campaign
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Disponibilità limitata"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 96%
 
 ---
 
-# Utilizzare modelli di e-mail {#use-email-templates}
+# Utilizzare i modelli di contenuto e-mail {#use-email-templates}
 
 Durante la [creazione di un’e-mail](../email/create-email.md), utilizza la sezione **[!UICONTROL Seleziona modello di progettazione]** dell’interfaccia **[!UICONTROL Crea e-mail]** per iniziare a creare i contenuti da un modello.
 

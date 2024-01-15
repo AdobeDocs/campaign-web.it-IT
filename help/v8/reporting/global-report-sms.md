@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti globali per il canale SMS
 description: Comprendere i rapporti globali per il canale SMS
 badge: label="Disponibilità limitata"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 19%

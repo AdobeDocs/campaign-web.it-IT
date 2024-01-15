@@ -3,14 +3,14 @@ title: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
 description: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 88%
 
 ---
 
-# Protezioni e limitazioni {#guardrails-limitations}
+# Guardrail e limitazioni {#guardrails-limitations}
 
 Durante l’utilizzo di componenti creati o modificati nella console client di Campaign nell’interfaccia utente di Campaign Web, si applicano i guardrail e le limitazioni elencate di seguito.
 

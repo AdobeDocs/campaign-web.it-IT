@@ -4,14 +4,14 @@ title: Inviare messaggi agli iscritti di un servizio
 description: Scopri come inviare messaggi agli iscritti di un servizio
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Inviare messaggi agli iscritti di un servizio
+# Inviare messaggi agli iscritti di un servizio {#send-to-subscribers}
 
 Puoi creare servizi di iscrizione in Adobe Campaign e inviare messaggi agli utenti iscritti. Per sccoprire come creare servizi di iscrizione, consulta [questa pagina](../audience//manage-services.md#create-service).
 

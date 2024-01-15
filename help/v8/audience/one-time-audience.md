@@ -4,14 +4,14 @@ title: Creare un pubblico una tantum per una consegna
 description: Scopri come creare un pubblico una tantum per una consegna.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 85%
 
 ---
 
-# Creare un pubblico una tantum per una consegna {#sone-time}
+# Creare un pubblico una tantum {#one-time}
 
 Questa sezione descrive come creare un pubblico durante la creazione di una nuova consegna. In questo caso, il target dei destinatari da includere nel pubblico di consegna è rappresentato dalla query nel database con il modellatore di query.
 
