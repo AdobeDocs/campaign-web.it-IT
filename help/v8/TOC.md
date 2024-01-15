@@ -6,10 +6,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 85%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 85%
    + [Introduzione](get-started/get-started.md)
    + [Connessione a Campaign](get-started/connect-to-campaign.md)
    + [Scopri l’interfaccia](get-started/user-interface.md)
-   + [Sfogliare, cercare e filtrare gli elenchi](get-started/list-filters.md)
+   + [Sfoglia e filtra gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Accesso e autorizzazioni](get-started/permissions.md)
-   + [Protezioni e limitazioni](get-started/guardrails.md)
+   + [Guardrail e limitazioni](get-started/guardrails.md)
    + [Funzionalità non supportate](get-started/unsupported.md)
    + [Aiuto contestuale basato sull’intelligenza artificiale](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
@@ -70,7 +70,7 @@ ht-degree: 85%
       + [Introduzione alle notifiche push](push/gs-push.md)
       + [Creare una consegna di notifica push](push/create-push.md)
       + [Progettare una consegna push](push/content-push.md)
-      + [Anteprima e invio di una consegna di notifica push](push/send-push.md)
+      + [Anteprima e invio di una consegna push](push/send-push.md)
    + SMS {#sms}
       + [Introduzione alle consegne SMS](sms/gs-sms.md)
       + [Creare una consegna SMS](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 85%
    + Personalizzare il contenuto dinamico {#dynamic-content}
       + [Introduzione al contenuto dinamico](personalization/gs-personalization.md)
       + [Aggiungere la personalizzazione](personalization/personalize.md)
-      + [Aggiungere contenuto condizionale](personalization/conditions.md)
+      + [Generare contenuti condizionali](personalization/conditions.md)
       + [Aggiungere blocchi di contenuto incorporati](personalization/content-blocks.md)
    + [Aggiungere offerte ai messaggi](msg/offers.md)
    + [Inviare messaggi agli iscritti](msg/send-to-subscribers.md)
@@ -87,9 +87,9 @@ ht-degree: 85%
       + [Informazioni su anteprima e test](preview-test/preview-test.md)
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
       + [Inviare consegne di test](preview-test/test-deliveries.md)
-      + [Rendering dell’e-mail](preview-test/email-rendering.md)
-+ Profiles &amp; audiences {#audiences}
-   + [Guida introduttiva a profili e pubblico](audience/gs-audiences-recipients.md)
+      + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
++ Profili e pubblico {#audiences}
+   + [Guida introduttiva a profili e tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
    + Utilizzare i profili {#work-with-profiles}
       + [Monitorare e gestire i profili](audience/about-recipients.md)
@@ -100,10 +100,10 @@ ht-degree: 85%
    + Selezionare i destinatari della consegna {#target-audiences}
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
-      + [Caricare un pubblico da un file](audience/file-audience.md)
+      + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
-      + [Gestire i servizi](audience/manage-services.md)
+      + [Creare e gestire servizi di abbonamento](audience/manage-services.md)
       + [Gestire gli abbonati](audience/manage-subscribers.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
@@ -117,7 +117,7 @@ ht-degree: 85%
       + [Creare il flusso di lavoro](workflows/create-workflow.md)
       + [Orchestrare le attività](workflows/orchestrate-activities.md)
       + [Configurare le impostazioni del flusso di lavoro](workflows/workflow-settings.md)
-      + [Avviare e monitorare il flusso di lavoro](workflows/start-monitor-workflows.md)
+      + [Avviare e monitorare i flussi di lavoro](workflows/start-monitor-workflows.md)
    + Utilizzare le attività del flusso di lavoro {#design-workflows}
       + [Informazioni sulle attività del flusso di lavoro](workflows/activities/about-activities.md)
       + [AND-join](workflows/activities/and-join.md)

@@ -4,10 +4,10 @@ title: Creare un pubblico con il generatore di regole di Campaign
 description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ La palette è divisa in due schede:
 
 * **Attributi**: questa scheda consente di accedere a tutti i campi disponibili provenienti dallo schema. L’elenco dei campi dipende dallo schema di targeting definito nel modello e-mail.
 
-* **Tipi di pubblico**: questa scheda consente di filtrare utilizzando uno dei tipi di pubblico esistenti definiti nella console Campaign Classic o da Adobe Experience Platform. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
+* **Tipi di pubblico**: questa scheda consente di filtrare utilizzando uno dei tipi di pubblico esistenti definiti nella console Campaign Classic o da Adobe Experience Platform. Scopri come monitorare e gestire i tipi di pubblico in [questa sezione](manage-audience.md)
 
   >[!NOTE]
   >
