@@ -1,21 +1,31 @@
 ---
-title: Creare e utilizzare filtri preimpostati
+title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati nell’interfaccia web di Adobe Campaign
 badge: label="Disponibilità limitata"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 84%
+source-wordcount: '822'
+ht-degree: 85%
 
 ---
 
 # Utilizzare filtri preimpostati {#predefined-filters}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card4"
+>title="Gestione dei filtri preimpostati"
+>abstract="Campaign Web ora offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Gestione dei filtri preimpostati"
 >abstract="Campaign Web ora offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
