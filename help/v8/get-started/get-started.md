@@ -4,7 +4,7 @@ title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilità limitata"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 95%
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
+>id="acw_homepage_learning_learnmore"
 >title="Introduzione"
 >abstract="La nuova interfaccia di Campaign Web v8 offre un’esperienza utente integrata, intuitiva e coerente."
 
