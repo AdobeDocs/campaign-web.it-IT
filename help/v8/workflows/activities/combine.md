@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
->title="Intersezione  Opzioni di riconciliazione"
+>title="Opzioni di riconciliazione intersezione"
 >abstract="Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati."
 
 >[!CONTEXTUALHELP]
