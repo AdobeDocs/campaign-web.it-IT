@@ -4,10 +4,10 @@ title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 badge: label="Disponibilità limitata"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 92%
+source-wordcount: '777'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,11 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 ## Configurare l’attività Dividi {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segmenti per attività Dividi"
+>abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando **Dividi** Quando si esegue un’attività, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare il flusso di lavoro, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Filtro attività Dividi"
 >abstract="Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
@@ -31,7 +36,6 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >id="acw_orchestration_split_limit"
 >title="Limite attività Dividi"
 >abstract="Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

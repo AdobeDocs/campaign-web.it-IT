@@ -4,10 +4,10 @@ title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 99%
+source-wordcount: '912'
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,10 @@ Nell’attività **Combina**, puoi configurare un’**Intersezione**. A questo s
 >title="Regole di esclusione"
 >abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione Regole di esclusione, fai clic su Aggiungi una regola e specifica le condizioni di modifica della dimensione. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Complemento generato da combinazione"
+>abstract="Attiva l’opzione Genera complemento per elaborare la popolazione rimanente in una transizione aggiuntiva."
 
 Nell’attività **Combina**, puoi configurare un’**Esclusione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
