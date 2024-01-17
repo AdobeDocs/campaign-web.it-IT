@@ -4,9 +4,9 @@ title: Inviare consegne di test
 description: Scopri come definire e inviare consegne di test
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilità limitata"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 77%
 
 ---
@@ -89,7 +89,7 @@ Di seguito sono riportati i passaggi per inviare le consegne di test agli indiri
 
 1. Se hai già selezionato dei profili per [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, questi vengono preselezionati come destinatari del test. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando il pulsante **[!UICONTROL Aggiungi profili di test]**.
 
-1. Quando sfoglia l’elenco dei profili di test, puoi utilizzare i filtri per perfezionare la ricerca.
+1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca.
 
    ![](assets/simulate-test-profile-filter.png)
 

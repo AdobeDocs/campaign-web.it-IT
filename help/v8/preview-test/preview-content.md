@@ -4,10 +4,10 @@ title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima il contenuto delle consegne nell’interfaccia utente di Campaign Web
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilità limitata"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,12 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
      >[!NOTE]
      >
      >Puoi anche visualizzare e gestire i profili dalla scheda corrispondente nell’interfaccia web di Campaign. [Ulteriori informazioni](../audience/about-recipients.md)
+
+1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. Scopri come aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
 1. Fai clic su **[!UICONTROL Seleziona]** per confermare la selezione.
 
