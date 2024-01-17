@@ -1,18 +1,18 @@
 ---
-title: Utilizzo dell’aiuto contestuale basato sull’intelligenza artificiale in Campaign Web
+title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale in Campaign Web
 description: Porre domande nei popover della guida di Campaign Web
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
+source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 49%
+source-wordcount: '463'
+ht-degree: 89%
 
 ---
 
 # Aiuto contestuale basato sull’intelligenza artificiale {#using-ai}
 
-Ottieni risposte veloci e generate dall’intelligenza artificiale sulla base della documentazione del prodotto e del contesto di prodotto corrente, con l’Aiuto contestuale basato sull’intelligenza artificiale Q&amp;A disponibile nelle caselle di aiuto contestuali del prodotto.
+Ottieni risposte rapide e generate dall’intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con le domande e risposte della guida contestuale basata sull’intelligenza artificiale disponibile nei relativi riquadri del prodotto.
 
 >[!CAUTION]
 >
@@ -21,9 +21,9 @@ Ottieni risposte veloci e generate dall’intelligenza artificiale sulla base de
 >Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che [lingua preferita](connect-to-campaign.md#language-pref) è impostato su English prima di utilizzare questa funzionalità.
 
 
-Il **Aiuto contestuale con Gen AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
+La **Guida contestuale con Generazione basata sull’intelligenza artificiale**, incorporata nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
 
-Grazie alle funzionalità di Campaign Gen AI, questo componente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu cerchi assistenza in un’attività complessa o che navighi in documenti estesi, l’Aiuto contestuale basato sull’intelligenza artificiale è il tuo compagno ideale, fornendo efficienza e precisione senza pari in ogni interazione.
+Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo componente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, la Guida contestuale basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -43,21 +43,21 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Risposte {#answers-ai}
 
-L’Aiuto contestuale basato sull’intelligenza artificiale di Adobe Campaign offre assistenza, ma è necessario verificare i fatti. Potrebbe generare informazioni non corrette, risposte inesatte o fuorvianti. Assicurati di controllare la documentazione del prodotto collegata in ogni riquadro della guida.
+La Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign offre assistenza, ma è necessario verificare i fatti. Potrebbe generare informazioni non corrette, risposte inesatte o fuorvianti. Assicurati di controllare la documentazione del prodotto collegata in ogni riquadro della guida.
 
-L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. L’Aiuto contestuale basato sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Ti consigliamo vivamente di utilizzare i pulsanti ?? ?? ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri tecnici.
+L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. La Guida contestuale basata sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Si consiglia vivamente di utilizzare <img src="assets/do-not-localize/thumb.png" width="10%"/> ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri ingegneri.
 
 ## Raccomandazioni  {#recommendations-ai}
 
-Quando si pone una domanda nella Guida contestuale basata sull’intelligenza artificiale, vengono presi in considerazione il contesto del prodotto corrente, ovvero la schermata in cui ci si trova e il contenuto della casella della guida corrente.
+Quando si pone una domanda nella Guida contestuale basata sull’intelligenza artificiale, vengono presi in considerazione il contesto del prodotto corrente, ovvero la schermata in cui ci si trova, e il contenuto del riquadro della guida corrente.
 
 Di conseguenza, è consigliabile porre domande relative al contesto dell’interfaccia utente. Ad esempio, per scoprire come inviare una consegna push in un flusso di lavoro, passa alla voce di menu a sinistra **Flusso di lavoro** e utilizza un riquadro della guida contestuale in tale contesto specifico. Per ulteriori informazioni sulle metriche di reporting, passa alla campagna o ai rapporti sulle consegne e inizia da lì.
 
 
-Inoltre, per ottenere il meglio dall’Aiuto contestuale basato sull’intelligenza artificiale, quando ti poni una domanda, ti consigliamo di:
+Inoltre, per ottenere il meglio dalla Guida contestuale basata sull’intelligenza artificiale, quando poni una domanda, ti consigliamo di:
 
 * Essere il più preciso e specifico possibile ed evitare ambiguità. La risposta sarà più accurata e utile.
-* Per aiutare l’Aiuto contestuale basato sull’intelligenza artificiale a trovare le informazioni corrette, aggiungi il maggior numero possibile di dettagli su ciò che stai cercando di apprendere.
+* Per aiutare la Guida contestuale basata sull’intelligenza artificiale a trovare le informazioni corrette, aggiungi il maggior numero possibile di dettagli su ciò che stai cercando di conoscere.
 * Riformula e perfeziona le tue domande per ottenere risposte migliori. Se la risposta non è accurata o utile, prova diversi approcci e aggiungi contesto per ottenere risultati migliori.
 * Utilizza termini e parole appropriati, con un tono neutro.
 * Valuta le risposte e fornisci feedback in modo che i nostri tecnici possano imparare dalla tua esperienza e migliorare i risultati.
