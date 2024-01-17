@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '802'
 ht-degree: 13%
 
 ---
@@ -106,7 +106,7 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
    ![](assets/content-template-create.png)
 
-1. Compila i dettagli del modello. È possibile selezionare la cartella in cui memorizzare il modello. Per impostazione predefinita, i modelli di contenuto sono memorizzati in un nodo dedicato della gerarchia di Adobe Campaign: **[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**. [Scopri come creare cartelle](../get-started/permissions.md#folders)
+1. Compila i dettagli del modello. È possibile selezionare la cartella in cui memorizzare il modello. Per impostazione predefinita, i modelli di contenuto sono memorizzati in una cartella dedicata della gerarchia di Adobe Campaign: **[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**. [Scopri come creare cartelle](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
    ![](assets/content-template-save-back.png)
 
-Questo modello è ora pronto per essere utilizzato quando crei un messaggio e-mail in [!DNL Adobe Campaign]. [Scopri come](use-email-templates.md)
+Il modello viene salvato nella cartella predefinita della gerarchia di Adobe Campaign (**[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**). [Ulteriori informazioni sulle cartelle](../get-started/permissions.md#folders)
+
+Viene anche visualizzato nel **[!UICONTROL Modelli di contenuto]** elenco. [Ulteriori informazioni](#access-manage-templates)
+
+Ora puoi utilizzare questo modello per creare un nuovo contenuto: è disponibile nella sezione **[!UICONTROL Modelli salvati]** della finestra di E-mail Designer. [Scopri come](use-email-templates.md)
 
 ### Salvare il contenuto di un’e-mail come modello {#save-as-template}
 
@@ -154,11 +158,13 @@ Per salvare un contenuto e-mail come modello, segui la procedura seguente:
 
    ![](assets/email_designer-template-name.png)
 
+Il modello viene salvato nella cartella predefinita della gerarchia di Adobe Campaign (**[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**). [Ulteriori informazioni sulle cartelle](../get-started/permissions.md#folders)
+
+Viene anche visualizzato nel **[!UICONTROL Modelli di contenuto]** elenco. Diventa un modello di contenuto autonomo accessibile, modificato ed eliminato come qualsiasi altro elemento dell’elenco. [Ulteriori informazioni](#access-manage-templates)
+
 Ora puoi utilizzare questo modello per creare un nuovo contenuto: è disponibile nella sezione **[!UICONTROL Modelli salvati]** della finestra di E-mail Designer. [Scopri come](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-Il modello viene salvato in **[!UICONTROL Modelli di contenuto]** , accessibile dalla [!DNL Adobe Campaign] menu dedicato. Diventa un modello di contenuto autonomo accessibile, modificato ed eliminato come qualsiasi altro elemento dell’elenco. [Ulteriori informazioni](#access-manage-templates)
 
 >[!NOTE]
 >
