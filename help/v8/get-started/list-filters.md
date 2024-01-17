@@ -7,7 +7,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Per le colonne numeriche o di data, la freccia **su** indica che l’elenco è o
 
 ## Filtri {#list-built-in-filters}
 
-Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o filtri incorporati e personalizzati per adattare l’elenco in base a criteri contestuali.
+Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca e i filtri personalizzati per adattare l’elenco in base a criteri contestuali.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 

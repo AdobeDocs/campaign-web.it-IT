@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Esportare i rapporti
+title: Esportazione dei rapporti
 description: Come esportare i rapporti
 badge: label="Disponibilità limitata"
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 21%
+ht-degree: 29%
 
 ---
 
 
-# Esportare i rapporti {#export-reports}
+# Esportazione dei rapporti {#export-reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Esportare i rapporti"
+>title="Esportazione dei rapporti"
 >abstract="Fai clic sul pulsante **Esporta** per esportare queste metriche nei formati PDF o CSV, che consentono di condividerle o di stamparle."
 
 Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli, manipolarli o stamparli.

@@ -6,7 +6,7 @@ badge: label="Disponibilità limitata"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 60%
+ht-degree: 63%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
 >title="Nuovo Query Modeler"
->abstract="Adobe Campaign Web dispone di un query modeler che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati."
+>abstract="Adobe Campaign Web dispone di un query modeler che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Tra i criteri figurano l’utilizzo di espressioni avanzate e operatori. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati."
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Nuovo Query Modeler"
->abstract="Adobe Campaign Web dispone di un query modeler che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati."
+>abstract="Adobe Campaign Web dispone di un query modeler che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Tra i criteri figurano l’utilizzo di espressioni avanzate e operatori. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati."
 
 <!--TO REMOVE ABOVE-->
 
