@@ -7,7 +7,7 @@ badge: label="Disponibilità limitata"
 source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 Adobe Campaign fornisce una piattaforma per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali.
 
-Inizialmente disponibile solo tramite una ricca [Console client](#ac-client), Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e un nuovo design per migliorare significativamente l’esperienza utente. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna delle campagne di marketing e garantisce coerenza, insieme ad altre soluzioni di Adobe, tra cui Adobe Experience Platform.
+Inizialmente disponibile solo tramite una ricca [Console client](#ac-client), Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e un nuovo design per migliorare significativamente l’esperienza utente. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform.
 
 ![](assets/home.png)
 
@@ -42,7 +42,7 @@ Se devi accedere a funzionalità di Campaign v8 che non sono disponibili nell’
 
 >[!NOTE]
 >
->Campaign v8 Web è attualmente in versione A disponibilità limitata (LA). L’accesso è limitato a un piccolo gruppo di clienti LA. Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
+>Campaign v8 Web è attualmente nella versione Disponibilità limitata (LA). L‘accesso è limitato a un piccolo gruppo di clienti a Disponibilità limitata (LA) Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
 
 Scopri come connetterti ad Adobe Campaign Web in [questa pagina](connect-to-campaign.md).
 
