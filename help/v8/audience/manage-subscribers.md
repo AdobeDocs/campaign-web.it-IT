@@ -2,12 +2,12 @@
 audience: end-user
 title: Gestire gli abbonati
 description: Scopri come gestire e consegnare alle persone iscritte a un servizio in Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 97%
+source-wordcount: '306'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Per aggiungere manualmente degli utenti iscritti, segui i passaggi seguenti.
 
 1. Seleziona un servizio esistente dall’elenco **[!UICONTROL Servizi di iscrizione]**.
 
-1. Seleziona la scheda **[!UICONTROL Iscritti]** e fai clic su **[!UICONTROL Aggiungi profili]**.
+1. Vai a **[!UICONTROL Abbonati]** e fai clic su **[!UICONTROL Aggiungi abbonati]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ Per aggiungere manualmente degli utenti iscritti, segui i passaggi seguenti.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Fai clic su **[!UICONTROL Invia]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> I destinatari selezionati verranno avvisati dell’avvenuta iscrizione tramite il [messaggio di conferma](manage-services.md#create-confirmation-message) che avevi selezionato al momento della [creazione del servizio](manage-services.md#create-service).
+1. Clic **[!UICONTROL Invia]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> per fare in modo che i destinatari selezionati ricevano l’abbonamento [messaggio di conferma](manage-services.md#create-confirmation-message) definito quando [creazione del servizio](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-I profili aggiunti vengono visualizzati nell’elenco **[!UICONTROL Iscritti]**. Questi sono ora iscritti al servizio.
+   >[!NOTE]
+   >
+   >Se si seleziona **[!UICONTROL Annulla]**, ai profili selezionati non viene inviato alcun messaggio di conferma, ma sono abbonati.
+
+I profili aggiunti vengono visualizzati nel **[!UICONTROL Abbonati]** scheda. Questi sono ora iscritti al servizio.
 
 ## Rimuovere degli iscritti dal servizio {#remove-subscribers}
 
@@ -49,11 +53,13 @@ Dopo aver [aggiunto iscritti](#add-subscribers) al servizio, puoi annullare manu
 
    ![](assets/service-subscribers-delete.png)
 
-1. Conferma l’eliminazione e fai clic su **[!UICONTROL Invia]**. Il destinatario selezionato verrà avvisato dell’annullamento dell’iscrizione tramite il [messaggio di conferma](manage-services.md#create-confirmation-message) che avevi selezionato al momento della [creazione del servizio](manage-services.md#create-service).
+1. Conferma l’eliminazione.
+
+1. Clic **[!UICONTROL Invia]** affinché il destinatario selezionato riceva l’annullamento dell’abbonamento [messaggio di conferma](manage-services.md#create-confirmation-message) definito quando [creazione del servizio](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-Il destinatario viene rimosso dall’elenco **[!UICONTROL Iscritti]** e non è più iscritto al servizio.
+Il destinatario viene rimosso dal **[!UICONTROL Abbonati]** e non è più abbonato al servizio.
 
 ### Annullare automaticamente l’iscrizione dei destinatari {#automatic-unsubscription}
 

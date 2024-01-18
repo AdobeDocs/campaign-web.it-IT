@@ -4,9 +4,9 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1410'
 ht-degree: 100%
 
 ---
@@ -325,9 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Condizione del contenuto condizionale nella riga dell’oggetto"
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulazione dei profili di test"
@@ -350,22 +347,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_totalnumber_subscribers"
->title="Numero totale di iscrizioni"
->abstract="Numero totale di iscrizioni"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overtheperiod_subscribers"
->title="Iscrizioni nel periodo"
->abstract="Iscrizioni nel periodo"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overallevolution_subscribers"
->title="Evoluzione complessiva delle iscrizioni"
->abstract="Evoluzione complessiva delle iscrizioni"
-
-
->[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenuto per direct mail"
 >abstract="Contenuto per direct mail"
@@ -379,8 +360,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Proprietà contenuto per direct Mail"
 >abstract="Proprietà contenuto per direct Mail"
-
-
 
 
 <!--

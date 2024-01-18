@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Per creare un profilo di test, segui i passaggi indicati di seguito.
 
 1. Per impostazione predefinita, i profili di test sono memorizzati nella **[!UICONTROL Indirizzi seed]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
-   ![](assets/test-profile-folder.png)
+   <!--![](assets/test-profile-folder.png)-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
