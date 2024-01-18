@@ -3,11 +3,11 @@ audience: end-user
 title: Aggiungere offerte ai messaggi
 description: Scopri come aggiungere e inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilità limitata"
+source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 73%
 
 ---
 
@@ -33,19 +33,19 @@ I passaggi per inviare offerte con una consegna sono i seguenti:
 >title="Impostare le impostazioni avanzate delle offerte"
 >abstract="Puoi abilitare l’esclusione dei destinatari per i quali non vi sono sufficienti offerte idonee e scegliere come verrà elaborato il messaggio nel caso in cui una delle proposte non esista."
 
-Adobe Campaign consente di proporre a un determinato contatto una o più offerte specifiche. Il modulo Interazione consente di rispondere in tempo reale durante un’interazione con un determinato contatto proponendo una o più offerte specifiche. Queste offerte possono essere semplici messaggi di comunicazione, offerte speciali su uno o più prodotti o un servizio.
+Adobe Campaign ti consente di rispondere in tempo reale durante un’interazione con un determinato contatto proponendo loro una o più offerte specifiche. Queste offerte possono essere semplici messaggi di comunicazione, offerte speciali su uno o più prodotti o un servizio.
 
 Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicati di seguito.
 
 1. Fai clic su **[!UICONTROL Configura le offerte]** dalla schermata di modifica del contenuto della consegna.
 
-   ![](assets/setup-offers.png)
+   ![](assets/offer-setup.png)
 
 1. Configura le offerte da proporre ai destinatari.
 
-   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio dell’offerta nella [documentazione di Campaign v8 (client console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}
+   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nel [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}.
 
-   ![](assets/create-content-offers.png)
+   ![](assets/offer-create-content.png)
 
 1. Per perfezionare le offerte scelte dal motore, seleziona la **[!UICONTROL Categoria offerta]** in base alla quale ordinare le offerte.
 
@@ -61,33 +61,35 @@ Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicat
 
 1. Se necessario, seleziona l’opzione **[!UICONTROL Escludi destinatari non idonei]**.
 
-   Questa opzione consente di attivare o disattivare l’esclusione dei destinatari per i quali non sono disponibili sufficienti offerte idonee.
+   Questa opzione consente di attivare o disattivare l’esclusione dei destinatari per i quali non vi sono sufficienti offerte idonee:
 
    * Se l’opzione è abilitata, i destinatari che non hanno abbastanza proposte vengono esclusi dalla consegna.
    * Se l’opzione è disabilitata, questi destinatari non vengono esclusi ma non possono disporre del numero di proposte richiesto.
 
 1. Se necessario, seleziona l’opzione **[!UICONTROL Nascondi tutto se non è selezionata alcuna offerta]**.
 
-   Questa opzione consente di scegliere come viene elaborato il messaggio nel caso in cui una delle proposte non esista.
+   Questa opzione consente di scegliere la modalità di elaborazione del messaggio nel caso in cui una delle proposte non esista:
 
    * Se l’opzione è abilitata, la rappresentazione della proposta mancante non viene visualizzata e nel messaggio per la proposta non viene visualizzato alcun contenuto.
    * Se l’opzione è disabilitata, il messaggio stesso viene annullato durante l’invio e i destinatari non possono più ricevere messaggi.
 
-Dopo aver configurato le offerte da proporre nella consegna, puoi inserirle nel contenuto della consegna utilizzando l’editor espressioni.
+Dopo aver configurato le offerte da proporre nella consegna, puoi inserirle nel contenuto della consegna.
 
 ## Inserire offerte nella consegna {#insert}
 
-Le offerte possono essere aggiunte alla consegna utilizzando l’[Editor espressioni](../personalization/gs-personalization.md#access). Possono essere inserite nella riga dell’oggetto o nel corpo della consegna.
+Le offerte possono essere aggiunte alla consegna utilizzando [editor di espressioni](../personalization/gs-personalization.md#access). Possono essere inserite nella riga dell’oggetto o nel corpo della consegna.
 
 >[!CAUTION]
 >
 >Prima di inserire un’offerta in una consegna, assicurati di aver [configurato quale offerta proporre con tale consegna](#configure).
 
-Per inserire un’offerta utilizzando l’editor di espressioni, effettua le seguenti operazioni.
+Per inserire un’offerta tramite l’editor di espressioni, segui la procedura riportata di seguito.
 
 1. Accedi all’oggetto o al contenuto di una consegna.
 
-1. Posiziona il cursore nel punto in cui desideri inserire l’offerta e apri l’editor espressioni utilizzando l’icona di personalizzazione.
+1. Posiziona il cursore del mouse nel punto in cui desideri inserire l’offerta e apri l’editor di espressioni utilizzando l’icona di personalizzazione.
+
+   ![](assets/offer-insert-perso-icon.png)
 
 1. Seleziona il menu **[!UICONTROL Proposte]**. Le proposte disponibili vengono visualizzate nell’elenco.
 
@@ -95,9 +97,7 @@ Per inserire un’offerta utilizzando l’editor di espressioni, effettua le seg
    >
    >Il numero di proposte viene definito quando si [configurano le offerte](#configure) per la consegna corrente.
 
-   ![](assets/offer-insertion.png)
-
-1. Aggiungi le proposte all’oggetto o al corpo della consegna utilizzando i campi di personalizzazione, le funzioni di rendering o gli attributi dell’offerta disponibili per ogni proposta.
+1. Definisci ogni proposta utilizzando i campi di personalizzazione, le funzioni di rendering o gli attributi di offerta disponibili.
 
    ![](assets/offer-inserted.png)
 
@@ -107,6 +107,6 @@ Per inserire un’offerta utilizzando l’editor di espressioni, effettua le seg
 
 1. Salva le modifiche.
 
-1. Completa il contenuto, esegui un test e invia la consegna.
+1. Completa il contenuto, verifica e invia la consegna. [Ulteriori informazioni](gs-messages.md)
 
 Ora, quando un destinatario riceve la consegna, viene visualizzata l’offerta giusta per quel profilo specifico.
