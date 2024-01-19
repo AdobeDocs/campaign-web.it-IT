@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilità limitata"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 66%
+source-wordcount: '1295'
+ht-degree: 99%
 
 ---
 
@@ -34,21 +34,21 @@ Siamo entusiasti di presentare la nuova versione dell’interfaccia utente web d
 
 Questa nuova interfaccia web di Campaign è attualmente disponibile in **Disponibilità limitata** con le seguenti funzionalità:
 
-**Esperienza moderna, amichevole e unificata**
+**Esperienza moderna, intuitiva e unificata**
 
 La nuova interfaccia Web di Campaign offre una nuova esperienza utente, allineata con tutte le soluzioni e le app Adobe Experience Cloud. Offre le seguenti funzionalità:
 
-* Accedi alla nuova interfaccia di Campaign e alle altre soluzioni di Adobe con una sessione utente singola e condivisa
+* Accesso alla nuova interfaccia di Campaign e ad altre soluzioni Adobe con una sessione utente singola e condivisa
 * Nuova esperienza di navigazione, con tutti i menu e le cartelle disponibili nella barra a sinistra
 * Possibilità di passare a un’altra soluzione o organizzazione, mediante l’apposito controllo nella barra superiore
 * Integrazione Unified Shell, con accesso diretto alla community, al centro assistenza e al supporto
 
-Scopri come accedere a Adobe Experience Cloud e connettersi a Campaign in [questa pagina](../get-started/connect-to-campaign.md).
+Scopri come accedere a Adobe Experience Cloud e come connettersi a Campaign in [questa pagina](../get-started/connect-to-campaign.md).
 
 
-**Nuove potenti funzionalità e processi ottimizzati**
+**Nuove potenti funzionalità e processi fluidi**
 
-L’interfaccia web di Adobe Campaign offre un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità. Viene fornito con:
+L’interfaccia utente Web di Adobe Campaign fornisce un ambiente grafico completo che consente di progettare processi complessi che possono aiutare a gestire le campagne di marketing con facilità. Viene fornito con:
 
 * Interfaccia dell’area di lavoro del flusso di lavoro riprogettata per progettare e gestire i processi
 * Contenuti dinamici per consegnare al pubblico esperienze altamente mirate e personalizzate
@@ -57,22 +57,22 @@ L’interfaccia web di Adobe Campaign offre un ambiente grafico completo che ti 
 
 Per ulteriori informazioni sulla nuova interfaccia, visita [questa pagina](../get-started/user-interface.md).
 
-**Nuovo modellatore di query semplificato e intuitivo**
+**Nuovo query modeler semplificato e intuitivo**
 
-Adobe Campaign Web offre un potente modellatore di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Puoi utilizzare il modellatore query per:
+Adobe Campaign Web dispone di un query modeler che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Puoi utilizzare il query modeler per:
 
-* Definisci i tipi di pubblico da destinare nei messaggi o nei flussi di lavoro e crea facilmente nuovi tipi di pubblico adatti alle tue esigenze
-* Applicare regole all’interno delle attività del flusso di lavoro, come Frazionamento e Riconciliazione, per allinearle ai requisiti specifici
-* Creare filtri predefiniti da utilizzare come scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna
-* Aggiungi una regola per filtrare i dati visualizzati nei rapporti.
-* Creare regole personalizzate per filtrare i dati visualizzati in elenchi quali destinatari, elenchi di consegne e altro ancora
+* Definire i tipi di pubblico per i quali desideri eseguire il targeting nei messaggi o nei flussi di lavoro e creare senza difficoltà nuovi tipi di pubblico in base alle tue esigenze.
+* Applicare regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, in modo da allinearle ai requisiti specifici.
+* Creare filtri preimpostati che fungono da scelte rapide durante varie operazioni di filtraggio, sia nell’utilizzo di elenchi di dati che nella formazione del tipo di pubblico per una consegna.
+* Aggiungere la regola per filtrare i dati visualizzati nei rapporti.
+* Creare regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc.
 
 Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
 
 
 **Funzionalità integrate di gestione delle campagne cross-channel**
 
-Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto riscontri l’interesesse del pubblico a cui è destinata.
+Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto riscontri l’interesse del pubblico a cui è destinata.
 
 Utilizza la nuova interfaccia di Campaign Web per:
 
@@ -84,28 +84,28 @@ Utilizza la nuova interfaccia di Campaign Web per:
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
 
-## Ultimi aggiornamenti delle versioni {#latest-release}
+## Aggiornamenti dell’ultima versione {#latest-release}
 
-Di seguito sono elencate le funzionalità principali disponibili con la versione a disponibilità limitata di Campaign.
+Di seguito sono elencate le funzionalità principali disponibili con la versione Disponibilità limitata di Campaign Web.
 
 * **Ulteriori attività del flusso di lavoro della campagna**
 
   Potenzia le tue campagne di marketing con il nostro **set esteso di attività del flusso di lavoro**. Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e stimolare migliori prestazioni della campagna.
 
-  Le nuove attività in arrivo con l’ultima versione di LA sono: **Reconciliation**, **Carica file**, e **Salva pubblico**.
+  Le nuove attività in arrivo con l’ultima versione di Disponibilità limitata sono: **Riconciliazione**, **Carica file**, e **Salva pubblico**.
 
   Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
 
 
-* **Pubblico di destinazione con il modellatore di query**
+* **Pubblico target con il query modeler**
 
-  Adobe Campaign Web offre funzionalità **modellatore di query potente e intuitivo** che semplifica il processo di filtraggio dei database per selezionare target specifici in base a vari criteri. Ciò include l’utilizzo di espressioni e operatori avanzati. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
+  Adobe Campaign Web dispone di un **query modeler potente e intuitivo** che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Tra i criteri figurano l’utilizzo di espressioni avanzate e operatori. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati.
 
   Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
 
 * **Facile creazione e gestione dei profili**
 
-  Puoi utilizzare la nuova interfaccia web per: **creare e aggiornare i destinatari** direttamente dal menu Destinatari. Un modulo di modifica del profilo semplificato consente di inserire le informazioni di contatto e gli attributi del destinatario e di aggiornare un destinatario esistente senza utilizzare la console client.
+  Puoi utilizzare la nuova interfaccia utente Web per **creare e aggiornare i destinatari** nel database direttamente dal menu Destinatari. Un modulo di modifica del profilo semplificato consente di inserire le informazioni di contatto e gli attributi del destinatario e di aggiornare un destinatario esistente senza utilizzare la console client.
 
   Per ulteriori informazioni, consulta [questa sezione](../audience/about-recipients.md).
 
@@ -116,17 +116,17 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+<!--
+* **Gen AI for Email content**
 
-* **Generazione di contenuti e-mail basata sull’intelligenza artificiale**
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  Abbandona la creazione manuale dei contenuti e dai il benvenuto a campagne efficienti e basate sui dati con la potenza della Generazione basata sull’intelligenza artificiale.  La tecnologia di Generazione basata sull’intelligenza artificiale utilizza algoritmi avanzati per **generare contenuti altamente coinvolgenti e personalizzati**. Stimola le percentuali di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata sull’intelligenza artificiale. Rimani un passo avanti rispetto alla concorrenza e migliora il marketing via e-mail grazie alla Generazione di contenuti e-mail basata sull’intelligenza artificiale.
-
-  Per ulteriori informazioni, consulta [questa sezione](../email/generative-gs.md).
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **Guida contestuale basata sull’intelligenza artificiale**
 
-  Poni le domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. Il nuovo **Guida contestuale basata sull’intelligenza artificiale** ti consente di acquisire e ampliare le tue competenze sulle nuove funzioni di Campaign. Sulla base della documentazione più recente relativa al prodotto, ti indirizzerà a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso. Questa funzione è attualmente disponibile in versione beta, per un numero limitato di utenti.
+  Poni le domande e trova le linee guida direttamente dall’interfaccia utente del prodotto. La nuova **Guida contestuale basata sull’intelligenza artificiale** consente di scoprire e ampliare le proprie competenze sulle nuove funzioni di Campaign. Sulla base della documentazione più recente relativa al prodotto, ti indirizzerà a trovare aiuto e ottenere assistenza immediata e dettagliata durante la creazione dei tuoi casi d’uso. Questa funzione è attualmente disponibile in versione beta, per un numero limitato di utenti.
 
   Per ulteriori informazioni, consulta [questa sezione](../get-started/using-ai.md).
 
@@ -155,7 +155,7 @@ In qualità di utente di Campaign, puoi comunque accedere alla console client pe
 
 Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dal menu di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Con il rilascio dell’interfaccia web di Campaign, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
+Con il rilascio dell’interfaccia utente Campaign Web, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
 
 ## Aggiornamenti terminologici {#terminology-updates}
 
@@ -169,9 +169,9 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 
 ## Limitazioni{#limitations-beta}
 
-A questa versione si applicano le limitazioni seguenti:
+Alla presente versione si applicano le seguenti limitazioni:
 
-* Gli oggetti modificabili sono: Destinatari, Consegne, Campagne, Flussi di lavoro, Tipi di pubblico, Servizi di abbonamento, Filtri predefiniti e Modelli. Gli altri sono di sola lettura. Utilizza filtri e crea regole per sfogliarli tutti.
+* Gli oggetti modificabili sono: Consegne, Campagne, Flussi di lavoro, Tipi di pubblico, Servizi di abbonamento, Filtri predefiniti e Modelli. Gli altri sono di sola lettura. Utilizza filtri e crea regole per sfogliarli tutti.
 * L&#39;interfaccia utente di amministrazione non è disponibile.
 * Le metriche di reporting (come le aperture e i dati di tracciamento) vengono aggiornate ogni ora.
 * I KPI del dashboard delle consegne vengono aggiornati ogni 5 minuti. - ma la preparazione della consegna avviene in tempo reale.
