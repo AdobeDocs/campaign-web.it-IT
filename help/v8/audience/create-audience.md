@@ -2,12 +2,12 @@
 audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 84%
+source-wordcount: '896'
+ht-degree: 50%
 
 ---
 
@@ -48,18 +48,20 @@ Dopo aver creato il flusso di lavoro, i tipi di pubblico risultanti vengono auto
 Per creare un pubblico, segui questi passaggi:
 
 1. Passa al menu **[!UICONTROL Tipi di pubblico]** e fai clic sul pulsante **[!UICONTROL Crea pubblico]** in alto a destra.
-1. Specifica l’etichetta da assegnare al pubblico.
-1. Espandi la sezione **[!UICONTROL Opzioni aggiuntive]** per configurare parametri di pubblico avanzati.
 
-   Per impostazione predefinita, i tipi di pubblico vengono creati dal menu **[!UICONTROL Profili e destinazioni]** / **[!UICONTROL Elenchi]** di Explorer. È possibile modificare il percorso di archiviazione predefinito utilizzando il campo **[!UICONTROL Cartella]**.
+1. Viene creato automaticamente un nuovo flusso di lavoro, che consente di combinare le attività per generare il pubblico. Per impostazione predefinita, l’area di lavoro contiene due attività principali:
 
-   ![](assets/audiences-settings.png)
+   * La &quot;Query&quot; **[!UICONTROL Creare un pubblico]** l’attività è il punto di partenza del flusso di lavoro, che consente di creare un pubblico e utilizzarlo come base per il flusso di lavoro.
 
-1. Dopo aver configurato le impostazioni per il pubblico, fai clic sul pulsante **[!UICONTROL Crea pubblico]**. Viene visualizzata un’area di lavoro per flussi di lavoro con due attività predefinite:
+   * Il &quot;Nuovo pubblico&quot; **[!UICONTROL Salva pubblico]** l’attività rappresenta il passaggio finale nel flusso di lavoro, che consente di salvare i risultati come un nuovo pubblico.
 
-   * **[!UICONTROL Crea pubblico]**: questo è il punto di partenza del flusso di lavoro; consente di creare un pubblico e utilizzarlo come base per il flusso di lavoro.
+   ![](assets/create-audience-blank.png)
 
-   * **[!UICONTROL Salva pubblico]**: questo rappresenta il passaggio finale nel flusso di lavoro; consente di salvare i risultati del flusso di lavoro come un nuovo pubblico.
+   >[!IMPORTANT]
+   >
+   >I flussi di lavoro del pubblico sono memorizzati nella **Flussi di lavoro** , insieme agli altri flussi di lavoro di Campaign. Sono progettati specificamente per creare tipi di pubblico e sono identificabili dalla loro area di lavoro verticale.
+
+1. Per una migliore leggibilità, si consiglia di modificare il nome del flusso di lavoro nelle relative impostazioni. **Etichetta** campo. [Scopri come configurare le impostazioni del flusso di lavoro](../workflows/workflow-settings.md)
 
 1. Apri **[!UICONTROL Creare un pubblico]** e utilizza Query Modeler per definire la popolazione da includere nel pubblico filtrando i dati contenuti nel database. [Scopri come configurare un’attività Crea pubblico](../workflows/activities/build-audience.md)
 
@@ -75,7 +77,7 @@ Per creare un pubblico, segui questi passaggi:
 
 1. Quando il flusso di lavoro è pronto, fai clic su **[!UICONTROL Avvia]** per eseguirlo.
 
-Il flusso di lavoro viene salvato nell’elenco **[!UICONTROL Flussi di lavoro]**, mentre i tipi di pubblico risultanti si trovano nell’elenco **[!UICONTROL Tipi di pubblico]**. Scopri come monitorare e gestire il pubblico in [questa sezione](manage-audience.md)
+Il flusso di lavoro viene salvato in **[!UICONTROL Flussi di lavoro]** , mentre i tipi di pubblico risultanti sono accessibili nel **[!UICONTROL Tipi di pubblico]** con l’etichetta definita nella sezione **Salva pubblico** attività. Scopri come monitorare e gestire i tipi di pubblico in [questa sezione](manage-audience.md)
 
 Ora puoi utilizzare questo pubblico come target principale di una consegna. [Ulteriori informazioni](add-audience.md)
 
@@ -89,3 +91,17 @@ L’esempio seguente mostra un flusso di lavoro del pubblico configurato per riv
 1. L’attività **[!UICONTROL Arricchimento]** arricchisce il pubblico con le informazioni contenute nella tabella Acquisti per identificare quale tipo di prodotto hanno acquistato le clienti.
 1. L’attività **[!UICONTROL Dividi]** separa il flusso di lavoro in due percorsi in base all’ultimo acquisto effettuato dalla cliente.
 1. Le attività **[!UICONTROL Salva pubblico]** alla fine di ciascun percorso creano due nuovi tipi di pubblico nel database, che includono la popolazione calcolata in ciascun percorso.
+
+## Modificare un pubblico {#edit}
+
+Puoi modificare un pubblico generato da un flusso di lavoro ogni volta che sia necessario rieseguendo il flusso di lavoro corrispondente. Questo consente di aggiornare facilmente i dati sul pubblico o di perfezionarlo regolando la query in base alle tue esigenze.
+
+1. Accedi a **Tipi di pubblico** e aprire il pubblico da modificare.
+1. In **Panoramica** , la scheda **Ultimo flusso di lavoro** fornisce un collegamento al flusso di lavoro utilizzato per generare il pubblico. Fai clic su di esso per accedere al flusso di lavoro.
+1. Apportare le modifiche desiderate e fare clic su **Inizio** per eseguire nuovamente il flusso di lavoro. Al termine, il pubblico risultante dal flusso di lavoro viene aggiornato automaticamente con i risultati del flusso di lavoro più recenti.
+
+Per impostazione predefinita, l’esecuzione ripetuta di un flusso di lavoro per un pubblico sostituisce l’intero contenuto del pubblico con nuovi dati, causando la perdita di dati precedenti.
+
+Se preferisci non sostituire i risultati del pubblico esistenti, configura il **Salva pubblico** attività per allinearle alle tue esigenze. Ad esempio, puoi modificare il **Etichetta del pubblico** per memorizzare i nuovi risultati in un nuovo pubblico o aggiungere i nuovi risultati al contenuto del pubblico esistente senza cancellare i dati precedenti. [Scopri come configurare un’attività Save audience](../workflows/activities/save-audience.md)
+
+![](assets/edit-audience-save.png)
