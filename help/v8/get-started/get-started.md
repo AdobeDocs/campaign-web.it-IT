@@ -4,15 +4,14 @@ title: Introduzione a Campaign Web v8
 description: Introduzione a Campaign Web v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilità limitata"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '570'
 ht-degree: 80%
 
 ---
 
-# Introduzione a Campaign Web {#get-started}
-
+# Introduzione a Campaign Web v8 {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
