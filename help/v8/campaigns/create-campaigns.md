@@ -2,12 +2,12 @@
 audience: end-user
 title: Creare campagne con Adobe Campaign Web
 description: Scopri come creare campagne cross-channel con Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 98%
+source-wordcount: '444'
+ht-degree: 92%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 98%
 >title="Proprietà campagna"
 >abstract="In questa schermata, puoi verificare e e aggiornare le impostazioni della campagna: l’etichetta, il nome interno, la cartella e la descrizione. Puoi anche visualizzare a quale utente è assegnata."
 
-Per creare una nuova campagna, devi definirne le proprietà, pianificarle e includere i flussi di lavoro e le consegne.
+Per creare una nuova campagna, devi definirne le impostazioni, pianificarne e includere flussi di lavoro e consegne.
 
-## Crea la campagna{#campaign-create}
+## Crea la campagna {#campaign-create}
 
 Per creare una nuova campagna, segui questi passaggi:
 
 1. Fai clic sul menu **[!UICONTROL Campagne]** e sul pulsante **[!UICONTROL Crea campagna]**.
+
+   ![Crea una nuova campagna](assets/create-campaign-button.png)
+
 1. Seleziona il **Modello** da utilizzare e specifica un’etichetta per la campagna. [Ulteriori informazioni](manage-campaigns.md#manage-campaign-templates).
 1. Se necessario, è possibile modificare le seguenti **Opzioni aggiuntive**: nome interno, cartella, assegnatario, descrizione e natura.
 1. Definisci la **Pianificazione** della campagna. Scopri come impostare la pianificazione della campagna in [questa sezione](#campaign-schedule)
 1. Fai clic su **Crea**.
+
+   ![Creare le proprietà della campagna](assets/create-a-campaign-properties.png)
+
 1. Aggiungi flussi di lavoro e consegne alla campagna:
 
    * Dalla scheda **Flussi di lavoro**, fai clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md).
-   * Dalla scheda **Consegne**, fai clic su **Crea consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
 
-1. Utilizza i pulsanti **Registri** e **Generazione rapporti** per analizzare le prestazioni della campagna.
+   * Dalla scheda **Consegne**, fai clic su **Crea consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
 
 ## Monitorare e tenere traccia della campagna{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti
 
 ## Definire la pianificazione della campagna {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Pianificazione della campagna"
@@ -61,8 +65,6 @@ Puoi anche visualizzare i rapporti dedicati facendo clic sul pulsante **Rapporti
 La campagna viene avviata quando viene raggiunta la data di inizio. Fino a quando la data di inizio non viene raggiunta, la campagna ha lo stato di **[!UICONTROL Bozza]**. Quindi, quando viene raggiunta la data di inizio, lo stato passa a **[!UICONTROL In corso]**. Una volta raggiunta la data di fine, la campagna viene impostata su **[!UICONTROL Completata]**.
 
 Le date di inizio e di fine vengono visualizzate nell’elenco delle campagne e possono essere utilizzate come filtro. Consulta questa [sezione](manage-campaigns.md#access-campaigns).
-
-![Definire le proprietà della campagna](assets/campaign-properties.png)
 
 >[!NOTE]
 >

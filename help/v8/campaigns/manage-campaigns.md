@@ -2,12 +2,12 @@
 audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >title="Pianificazione della campagna"
 >abstract="Impostare o modificare la pianificazione della campagna."
 
-Per creare una nuova campagna o gestire quelle esistenti, fai clic sul menu **[!UICONTROL Campagne]** nella barra di navigazione a sinistra.
+Per accedere e gestire le campagne, fai clic su **[!UICONTROL Campagne]** nel menu di navigazione a sinistra.
 
 ## Elenco delle campagne {#access-campaigns}
 
@@ -30,43 +30,65 @@ Nell’elenco delle campagne sono disponibili due schede:
 
 ![Elenco delle campagne](assets/campaign-list.png)
 
-Per impostazione predefinita, ogni campagna nell’elenco mostra varie informazioni, ad esempio il suo stato corrente, la data di creazione e dell’ultima modifica e così via.
+Per impostazione predefinita, ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulle date di inizio e di fine, sulla data di creazione, sull’ultima modifica e così via.
 
-Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configura le colonne per un layout personalizzato**, in alto a destra dell’elenco. Questo consente di aggiungere ulteriori informazioni all’elenco. Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens).
+Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configura le colonne per un layout personalizzato**, nell’angolo superiore a destra dell’elenco. Ciò ti consente di aggiungere o rimuovere colonne e di riordinare le informazioni nell’elenco delle campagne.
+
+Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens).
 
 Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza la sezione **Data inizio - fine**:
 
 ![Filtro per le campagne](assets/campaign-filter-on-dates.png)
 
-## Dashboard delle campagne{#campaign-dashboard}
+## Dashboard delle campagne {#campaign-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="Elenco delle consegne nella campagna"
 >abstract="Nella scheda **Consegne** sono elencate tutte le consegne collegate alla campagna corrente. Fai clic sul nome di una consegna per modificarla. Utilizza il pulsante Crea consegna per aggiungere una nuova consegna per questa campagna."
 
-Nella scheda **Sfoglia** dell’elenco delle campagne, fai clic su una campagna per visualizzarne i dettagli.
+In **Sfoglia** nell’elenco delle campagne, fai clic sul nome di una campagna per visualizzarne i dettagli.
 
 ![Dashboard delle campagne](assets/campaign-dashboard.png)
 
-Lo stato e la pianificazione della campagna sono visualizzati nella parte superiore della schermata. È possibile utilizzare l’icona **Configura le impostazioni della campagna** per modificare le proprietà della campagna definite durante la sua creazione. Tre pulsanti consentono di visualizzare i registri, generare rapporti, duplicare o eliminare la campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns)
+Lo stato e la pianificazione della campagna sono visualizzati nella parte superiore della schermata. È possibile utilizzare **Impostazioni** per aggiornare le proprietà della campagna, ad esempio l’etichetta, la cartella e la descrizione. Puoi anche modificare la pianificazione della campagna dalla schermata delle impostazioni. Ulteriori informazioni sulla pianificazione delle campagne in [questa sezione](create-campaigns.md#campaign-schedule).
 
-Sono disponibili due schede:
+Dal dashboard della campagna, utilizza **Registri** e **Rapporti** per monitorare la campagna. Ulteriori informazioni [sezione](create-campaigns.md#create-campaigns)
 
-* Nella scheda **Flussi di lavoro** sono elencati tutti i flussi di lavoro collegati alla campagna. Questa scheda consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
+Per ogni campagna, il dashboard mostra due schede principali: Flussi di lavoro e Consegne.
 
-* Nella scheda **Consegne** sono elencate tutte le consegne collegate alla campagna corrente. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
+* Il **Flussi di lavoro** Questa scheda elenca tutti i flussi di lavoro associati alla campagna. Questa scheda consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
-## Duplicare ed eliminare una campagna
-
-Puoi duplicare o eliminare una campagna:
-
-* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica** o **Elimina**.
-* dalla campagna stessa, fai clic sul pulsante **Altro** quindi seleziona **Duplica** o **Elimina**.
+* Il **Consegne** Questa scheda elenca tutte le consegne create nella campagna corrente. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
 >La scheda **Consegne** mostra tutte le consegne collegate alla campagna. Tuttavia, le consegne create in un flusso di lavoro non possono essere eliminate da tale percorso. Per eliminare una consegna creata nel contesto di un flusso di lavoro, è necessario eliminare l’attività di consegna dal flusso di lavoro stesso. [Ulteriori informazioni](../msg/gs-messages.md#delivery-delete).
+
+
+## Eliminare una campagna {#campaign-delete}
+
+Sono disponibili due modi per eliminare una campagna:
+
+* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Elimina**
+
+  ![Eliminare una campagna dall’elenco delle campagne](assets/delete-a-campaign-from-list.png)
+
+* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Elimina**
+
+  ![Eliminare una campagna dal dashboard della campagna](assets/delete-a-campaign-from-dashboard.png)
+
+
+## Duplicare una campagna {#campaign-duplicate}
+
+Sono disponibili due modi per duplicare una campagna:
+
+* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica**
+
+* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Duplica**
+
+In entrambi i casi, conferma la duplicazione per creare la nuova campagna. Etichetta della campagna **Copia di`<label of the initial campaign`**. Passa alle impostazioni della campagna per aggiornare questa etichetta.
+
 
 ## Utilizzare i modelli per campagne{#manage-campaign-templates}
 
@@ -74,7 +96,8 @@ I modelli per campagne contengono impostazioni preconfigurate che possono essere
 
 In un modello per campagne è possibile memorizzare le seguenti informazioni:
 
-* Impostazioni **Proprietà** e **Pianificazione** della campagna
+* la campagna **Impostazioni**
+* la campagna  **Pianificazione**
 * Modelli di flusso di lavoro
 * Modelli di consegna
 
