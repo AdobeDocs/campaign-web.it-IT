@@ -4,7 +4,7 @@ title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 82%
@@ -41,8 +41,6 @@ Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
    ![](assets/select-audience-folder.png)
 
 1. La sezione dei filtri consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere a query modeler, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. Fai clic su **Conferma** per aggiungere il pubblico come target principale della consegna. Al termine, puoi comunque perfezionare il pubblico utilizzando il modellatore di query facendo clic sul pulsante **Modifica regole** pulsante.
 
