@@ -3,7 +3,8 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 badge: label="Disponibilità limitata"
-source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
+exl-id: 230177e2-1926-451a-8a66-0db962ada514
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 31%
@@ -79,4 +80,4 @@ Per configurare il **Carica file** attività:
 
 ## Esempio{#load-example}
 
-Esempio di caricamento di un file esterno utilizzato con **Reconciliation** l&#39;attività è disponibile in [questa sezione](reconciliation.md#example).
+Esempio di caricamento di un file esterno utilizzato con **Reconciliation** l&#39;attività è disponibile in [questa sezione](reconciliation.md#reconciliation-example).

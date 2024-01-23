@@ -4,9 +4,9 @@ title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 70%
 
 ---
@@ -28,15 +28,18 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 ## Creare il flusso di lavoro {#build-your-workflow}
 
-Inizia a creare il flusso di lavoro con le attività rilevanti prima di inserire l’attività del canale:
+Inizia a creare il flusso di lavoro con le attività pertinenti:
 
-* Prima di inserire un’attività di consegna, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro della campagna, il pubblico del messaggio non è definito nell’attività del canale, ma all’interno di un’attività dedicata, ad esempio:
+* Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro della campagna, il pubblico del messaggio non è definito nell’attività del canale, ma all’interno di un’attività dedicata, ad esempio:
 
    * A **Creare un pubblico** attività. [Ulteriori informazioni](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Per inviare una consegna ricorrente, avvia il flusso di lavoro con una **Scheduler** attività. È inoltre possibile utilizzare un’ **Scheduler** attività per singole consegne singole per impostare la data di contatto per tale consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
