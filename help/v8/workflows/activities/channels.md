@@ -4,10 +4,10 @@ title: Utilizzare un’attività di consegna nei flussi di lavoro
 description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 94%
+source-wordcount: '905'
+ht-degree: 70%
 
 ---
 
@@ -28,17 +28,19 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 ## Creare il flusso di lavoro {#build-your-workflow}
 
-Prima di inserire la consegna, inizia a creare il flusso di lavoro con le attività pertinenti:
+Inizia a creare il flusso di lavoro con le attività rilevanti prima di inserire l’attività del canale:
 
-* Se desideri inviare una consegna ricorrente, avvia il flusso di lavoro con un’attività del **Modulo di pianificazione**. Se desideri inviare una consegna unica, puoi definire la data di contatto utilizzando un’attività del **Modulo di pianificazione** o definire la pianificazione nelle impostazioni della consegna. Consulta [questa sezione](scheduler.md).
+* Prima di inserire un’attività di consegna, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro della campagna, il pubblico del messaggio non è definito nell’attività del canale, ma all’interno di un’attività dedicata, ad esempio:
 
-* Aggiungi un’attività **Creazione del pubblico.** Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Crea pubblico**. Consulta [questa sezione](build-audience.md).
+   * A **Creare un pubblico** attività. [Ulteriori informazioni](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-  >[!NOTE]
-  >
-  >Puoi anche eseguire il targeting di un pubblico caricato da un file. A tale scopo, utilizza un **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](../../audience/about-recipients.md)
+   * A **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](load-file.md).
+
+
+* Per inviare una consegna ricorrente, avvia il flusso di lavoro con una **Scheduler** attività. È inoltre possibile utilizzare un’ **Scheduler** attività per singole consegne singole per impostare la data di contatto per tale consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
+
 
 ## Configurare l’attività Canale {#create-a-delivery-in-a-workflow}
 
@@ -68,24 +70,24 @@ Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi
 
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
-   * **Consegna singola**: si tratta di una consegna unica, inviata una sola volta, ad esempio un’e-mail relativa al Black Friday.
-   * **Consegna ricorrente**: per questo tipo di consegna, imposti la frequenza di esecuzione utilizzando un’[attività del Modulo di pianificazione](scheduler.md). Ogni volta che viene eseguito il flusso di lavoro, il pubblico viene ricalcolato e la consegna viene inviata con il contenuto aggiornato. Può trattarsi di una newsletter settimanale o di un’e-mail di compleanno ricorrente.
+   * A **Consegna singola** è una consegna in un’unica soluzione, inviata una sola volta, ad esempio un’e-mail del Black Friday.
+   * A **Consegna ricorrente** viene inviato più volte in base alla frequenza di esecuzione definita in un [attività di pianificazione](scheduler.md). Ogni volta che viene eseguito il flusso di lavoro, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
 
 1. Seleziona un **Modello** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita. [Ulteriori informazioni](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Puoi selezionare un altro modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l’attività **Crea pubblico** per selezionare un pubblico con la mappatura target corretta. Ulteriori informazioni sulle mappature di destinazione in [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}
+   Puoi selezionare il modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l’attività **Crea pubblico** per selezionare un pubblico con la mappatura target corretta. Ulteriori informazioni sulle mappature di destinazione in [questa sezione](../../audience/targeting-dimensions.md)
 
-1. Fai clic su **Crea consegna**. Definisci le impostazioni e il contenuto del messaggio seguendo la stessa procedura con cui si crea una consegna indipendente. Puoi anche pianificare e simulare il contenuto. [Ulteriori informazioni](../../msg/gs-messages.md)
+1. Fai clic su **Crea consegna**. Puoi quindi definire le impostazioni dei messaggi e il contenuto nello stesso modo in cui crei una consegna autonoma. Puoi anche testare e simulare il contenuto. [Ulteriori informazioni](../../msg/gs-messages.md)
 
-1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, **Generare una transizione in uscita** per aggiungere una transizione dopo l’attività del canale.
+1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva **Generare una transizione in uscita** per aggiungere una transizione dopo l’attività del canale.
 
 1. Fai clic su **Avvia** per avviare il flusso di lavoro.
 
    Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
 
-1. Apri l’attività di consegna per confermare l’invio, mediante il pulsante **Rivedi e invia**.
+1. Apri l’attività del canale per confermare l’invio da **Rivedi e invia** pulsante.
 
 1. Nella dashboard della consegna, fai clic su **Invia**.
 
