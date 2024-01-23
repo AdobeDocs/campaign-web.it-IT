@@ -2,12 +2,12 @@
 audience: end-user
 title: Utilizzare un pubblico di Adobe Experience Platform
 description: Scopri come utilizzare un pubblico da Adobe Experience Platform
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,8 @@ Per selezionare un pubblico di Adobe Experience Platform per la consegna, segui 
    ![](assets/select-audience-folder.png)
 
    Puoi anche definire una regola per filtrare in base all’origine dei tipi di pubblico, nel modo seguente:
+
+   La sezione dei filtri consente di accedere alle opzioni di filtro per perfezionare l’elenco dei tipi di pubblico. A questo scopo, fai clic su **Aggiungi regole** per accedere a query modeler, che consente di creare filtri avanzati per l’elenco dei tipi di pubblico. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

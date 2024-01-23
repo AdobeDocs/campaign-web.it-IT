@@ -3,11 +3,11 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="Disponibilità limitata"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 82%
+source-wordcount: '317'
+ht-degree: 66%
 
 ---
 
@@ -28,15 +28,15 @@ I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono a
 
 Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 
-1. Nella sezione **Pubblico** dell’assistente alla creazione di consegne, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** quindi scegli
+1. Dalla sezione **Pubblico** dell’assistente alla creazione della consegna, fai clic su **[!UICONTROL Seleziona pubblico]** quindi scegliere **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente.
 
    ![](assets/create-audience.png)
 
-1. Scegli **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente. In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti per la cartella corrente.
+1. In questa schermata vengono visualizzati tutti i tipi di pubblico esistenti per la cartella corrente.
 
    ![](assets/create-audience2.png)
 
-   Per scegliere un pubblico da Adobe Experience Platform, passa alla `AEP Audiences folder` dalla sezione dei filtri nella schermata.
+   Per scegliere un pubblico da Adobe Experience Platform, passa a `AEP Audiences folder` dalla sezione filter (filtro) dello schermo. [Scopri come utilizzare un pubblico di Adobe Experience Platform](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 

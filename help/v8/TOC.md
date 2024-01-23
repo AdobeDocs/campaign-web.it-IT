@@ -1,15 +1,15 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-user-guide-description: Documentazione del prodotto per Campaign v8 Web.
+user-guide-description: Documentazione di prodotto per Campaign v8 Web.
 title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 80%
+source-wordcount: '537'
+ht-degree: 88%
 
 ---
 
@@ -101,6 +101,7 @@ ht-degree: 80%
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
       + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
+      + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
       + [Creare e gestire servizi di abbonamento](audience/manage-services.md)
@@ -128,7 +129,7 @@ ht-degree: 80%
       + [E-mail, SMS e push](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Fork](workflows/activities/fork.md)
-      + [Attività Load file](workflows/activities/load-file.md)
+      + [Carica file](workflows/activities/load-file.md)
       + [Riconciliazione](workflows/activities/reconciliation.md)
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
       + [Modulo di pianificazione](workflows/activities/scheduler.md)
@@ -139,23 +140,23 @@ ht-degree: 80%
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
    + [Esempi di query](query/query-samples.md)
-   + [Filtra elenchi](query/filter.md)
+   + [Filtrare elenchi](query/filter.md)
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
-   + [Esportare i rapporti](reporting/export-reports.md)
+   + [Esportazione dei rapporti](reporting/export-reports.md)
    + [Indicatori chiave di performance](reporting/kpis.md)
    + Rapporti sulle consegne {#delivery-report}
       + [Introduzione ai rapporti di consegna](reporting/delivery-reports.md)
       + [Rapporto sulla consegna e-mail](reporting/email-report.md)
       + [Rapporto sulle consegne push](reporting/push-report.md)
       + [Rapporto sulla consegna SMS](reporting/sms-report.md)
-   + Rapporti sulle campagne {#campaign-report}
+   + Rapporti sulla campagna {#campaign-report}
       + [Introduzione ai rapporti delle campagne](reporting/campaign-reports.md)
-      + [Rapporto campagna e-mail](reporting/campaign-reports-email.md)
-      + [Rapporto campagna push](reporting/campaign-reports-push.md)
-      + [Rapporto campagna SMS](reporting/campaign-reports-sms.md)
+      + [Rapporto sulla campagna e-mail](reporting/campaign-reports-email.md)
+      + [Rapporto sulla campagna push](reporting/campaign-reports-push.md)
+      + [Rapporto sulla campagna SMS](reporting/campaign-reports-sms.md)
    + Rapporti globali {#global-report}
       + [Introduzione ai rapporti globali](reporting/global-reports.md)
-      + [Rapporto globale delle e-mail](reporting/global-report-email.md)
-      + [Rapporto globale delle notifiche push](reporting/global-report-push.md)
+      + [Rapporto globale e-mail](reporting/global-report-email.md)
+      + [Rapporto globale push](reporting/global-report-push.md)
       + [Rapporto globale SMS](reporting/global-report-sms.md)
