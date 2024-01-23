@@ -2,11 +2,11 @@
 audience: end-user
 title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 82%
 
 ---
