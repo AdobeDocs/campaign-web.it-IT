@@ -4,28 +4,33 @@ title: Inviare messaggi agli iscritti di un servizio
 description: Scopri come inviare messaggi agli iscritti di un servizio
 badge: label="Disponibilità limitata"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 61%
 
 ---
 
 # Inviare messaggi agli iscritti di un servizio {#send-to-subscribers}
 
-Puoi creare servizi di iscrizione in Adobe Campaign e inviare messaggi agli utenti iscritti. Per sccoprire come creare servizi di iscrizione, consulta [questa pagina](../audience//manage-services.md#create-service).
+Puoi creare servizi di iscrizione in Adobe Campaign e inviare messaggi agli utenti iscritti. Scopri come creare servizi di abbonamento su [questa pagina](../audience//manage-services.md#create-service).
 
 Per inviare messaggi agli iscritti, crea un pubblico specifico per identificare gli iscritti, quindi crea la consegna come descritto di seguito.
 
-1. Crea un pubblico. Per ulteriori informazioni sui tipi di pubblico, consulta [questa pagina](../audience/create-audience.md).
+1. Crea un pubblico. Viene creato automaticamente un nuovo flusso di lavoro. [Ulteriori informazioni sui tipi di pubblico](../audience/create-audience.md)
 
-1. Nell’attività **[!UICONTROL Crea pubblico]**, visualizza gli attributi avanzati e seleziona **[!UICONTROL Destinatario]** > **[!UICONTROL Iscrizioni]** > **[!UICONTROL Servizio]**.
+1. Per una migliore leggibilità, modifica il nome del flusso di lavoro nelle impostazioni del flusso di lavoro&quot; **Etichetta** campo. [Scopri come configurare le impostazioni del flusso di lavoro](../workflows/workflow-settings.md)
 
-   In questo esempio, seleziona gli utenti iscritti per il servizio con etichetta **Newsletter Luma**.
+1. Apri **[!UICONTROL Creare un pubblico]** attività e seleziona **[!UICONTROL Creare un pubblico]**. [Scopri come configurare un’attività Crea pubblico](../workflows/activities/build-audience.md)
+
+   ![](assets/service-create-audience.png)
+
+1. Nel flusso di creazione del pubblico, seleziona le seguenti condizioni personalizzate: **[!UICONTROL Sottoscrizioni]** esistono come **[!UICONTROL Servizio]** è uguale al servizio definito. In questo esempio, seleziona il tuo **Newsletter yoga Luma**.
 
    ![](assets/service-audience-subscribers.png)
 
-1. Salva il pubblico.
+1. Seleziona **[!UICONTROL Conferma]** e fai clic su **[!UICONTROL Inizio]** per eseguire il workflow.
+
 1. Crea una consegna. I passaggi per creare una consegna sono descritti in [questa pagina](../msg/gs-messages.md#create-delivery).
 1. Individua le impostazioni di consegna e modifica la mappatura target predefinita in **Abbonamenti (nms:subscriptions)**.
 
