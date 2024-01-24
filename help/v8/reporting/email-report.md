@@ -208,10 +208,10 @@ Le metriche disponibili sono le stesse del [Raggruppamento degli errori per tipo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Statistiche consegna"
->abstract="Il report **Statistiche di consegna** fornisce indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate: completate, aperture, clic e altro."
+>abstract="Il rapporto **Statistiche di consegna** fornisce indicatori chiave di prestazioni (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate: completate, aperture, clic e altro."
 
 
-Il report **[!UICONTROL Statistiche di consegna]** fornisce indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL Statistiche di consegna]** fornisce indicatori chiave di prestazioni (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
 
 ![](assets/reporting_email_5.png){align="center"}
 
@@ -261,10 +261,10 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** mostra i dat
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL e flussi di clic"
->abstract="Il rapporto **URL e flussi di clic** fornisce indicatori chiave di performance (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna."
+>abstract="Il rapporto **URL e flussi di clic** fornisce indicatori chiave di prestazioni (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna."
 
 
-Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di performance (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna.
+Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di prestazioni (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna.
 
 ![](assets/reporting_email_7.png){align="center"}
 

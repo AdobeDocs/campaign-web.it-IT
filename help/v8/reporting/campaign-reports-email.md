@@ -20,11 +20,11 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Panoramica della consegna"
->abstract="La **Panoramica della consegna** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail."
+>abstract="Il rapporto **Panoramica della consegna** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail."
 
 ### Panoramica della consegna {#delivery-summary-email-ovv}
 
-Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail. Le metriche sono descritte di seguito.
+La sezione **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_1.png)
 
@@ -184,7 +184,7 @@ La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]**
 >title="Statistiche consegna"
 >abstract="Il grafico **Statistiche consegna** descrive il successo della consegna e gli errori che si sono verificati."
 
-Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave di performance (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
+Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave di prestazioni (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_7.png)
 
@@ -233,9 +233,9 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL e flussi di clic"
->abstract="Il rapporto **URL e flussi di clic** fornisce indicatori chiave di performance (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna."
+>abstract="Il rapporto **URL e flussi di clic** fornisce indicatori chiave di prestazioni (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna."
 
-Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di performance (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di prestazioni (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign_report_email_9.png)
 

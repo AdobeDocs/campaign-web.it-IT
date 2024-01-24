@@ -1,6 +1,6 @@
 ---
-title: Indicatori chiave di performance
-description: Scopri come comprendere gli indicatori chiave di performance
+title: Indicatori chiave di prestazioni
+description: Scopri come comprendere gli indicatori chiave di prestazioni
 badge: label="Disponibilità limitata"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
@@ -10,19 +10,19 @@ ht-degree: 100%
 
 ---
 
-# Indicatori chiave di performance {#kpis}
+# Indicatori chiave di prestazioni {#kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
->title="Indicatori chiave di performance"
->abstract="La sezione **Indicatori chiave di performance** consente di verificare l’efficacia della piattaforma tramite KPI comuni."
+>title="Indicatori chiave di prestazioni"
+>abstract="La sezione **Indicatori chiave di prestazioni** consente di verificare l’efficacia della piattaforma tramite i KPI più diffusi."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="KPI spam"
 
-Passa alla pagina Home per verificare gli indicatori chiave di performance per la piattaforma. Questi indicatori mostrano il numero e la percentuale di messaggi consegnati, aperti, su cui è stato fatto clic, di annullamento degli abbonamenti e le percentuali di errori.
+Passa alla pagina Home per verificare gli indicatori chiave di prestazioni per la tua piattaforma. Questi indicatori mostrano il numero e la percentuale di messaggi consegnati, aperti, su cui è stato fatto clic, di annullamento degli abbonamenti e le percentuali di errori.
 
 Per impostazione predefinita, le metriche sono calcolate per le consegne inviate nei 7 giorni precedenti. Puoi modificare il periodo dall’elenco a discesa nella sezione in alto a destra della scheda. Sono esclusi i messaggi inviati ai profili di test.
 
