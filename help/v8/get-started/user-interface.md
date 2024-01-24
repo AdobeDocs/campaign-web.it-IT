@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilità limitata"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -35,7 +35,7 @@ La sezione superiore della home page fornisce dettagli sugli ultimi aggiornament
 
 ![](assets/home.png)
 
-Gli **Indicatori chiave di performance** consentono di verificare l’efficacia della piattaforma tramite KPI comuni. Ulteriori informazioni su questi KPI sono disponibili in [questa pagina](../reporting/kpis.md).
+Gli **Indicatori chiave di prestazioni** consentono di verificare l’efficacia della piattaforma tramite i KPI più diffusi. Ulteriori informazioni su questi KPI sono disponibili in [questa pagina](../reporting/kpis.md).
 
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica. Fai clic sul collegamento **Mostra altro** per caricare altre consegne.
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributi avanzati del generatore di regole"
 >abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Attiva l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="Questo modello è pronto solo"
+>abstract="TBC"
+
+
