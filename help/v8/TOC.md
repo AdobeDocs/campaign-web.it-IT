@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '536'
 ht-degree: 89%
 
 ---
@@ -103,7 +103,6 @@ ht-degree: 89%
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
       + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
-      + [Utilizzare un pubblico di Adobe Experience Platform](audience/aep-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
       + [Creare e gestire servizi di abbonamento](audience/manage-services.md)
