@@ -1,12 +1,12 @@
 ---
 title: Utilizzare filtri preimpostati
-description: Scopri come creare e gestire filtri preimpostati nell’interfaccia web di Adobe Campaign
+description: Scopri come creare e gestire filtri predefiniti in Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 85%
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 >title="Filtri preimpostati"
 >abstract="Campaign Web ora offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
-I filtri preimpostati sono filtri personalizzati che vengono creati e salvati per essere disponibili per un utilizzo futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro con Query Modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna.
+I filtri preimpostati sono filtri personalizzati che vengono creati e salvati per essere disponibili per un utilizzo futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro insieme al query modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna.
 
 Puoi utilizzare i filtri preimpostati esistenti per accedere a un sottoinsieme specifico dei tuoi dati o creare filtri preimpostati personalizzati e salvarli.
 
@@ -55,11 +55,11 @@ Puoi utilizzare i filtri preimpostati esistenti per accedere a un sottoinsieme s
 >title="Creare le regole del filtro preimpostato"
 >abstract="Per definire le condizioni del filtro personalizzato, fai clic sul pulsante “Crea regola”."
 
-### Creare un filtro da Query Modeler {#create-from-rule-builder}
+### Creare un filtro dal query modeler {#create-from-rule-builder}
 
-Puoi salvare un filtro personalizzato dalla sezione [query modeler](../query/query-modeler-overview.md) per poterlo utilizzare in futuro. Segui questi passaggi:
+Puoi salvare un filtro personalizzato dal [query modeler](../query/query-modeler-overview.md) al fine di renderlo disponibile per un utilizzo futuro. Segui questi passaggi:
 
-1. Apri il modellatore di query e definisci le condizioni di filtro. Nell’esempio seguente, puoi filtrare i destinatari che vivono a Madrid e che sono abbonati a una newsletter.
+1. Apri il query modeler e definisci le condizioni del filtro. Nell’esempio seguente, puoi filtrare i destinatari che vivono a Madrid e che sono iscritti a una newsletter.
 1. Fai clic sul pulsante **Seleziona o salva filtro** e seleziona **Salva come filtro**.
 
    ![](assets/predefined-filters-save.png)
@@ -94,7 +94,7 @@ Puoi creare un filtro dalla voce **Filtri preimpostati** nel menu a sinistra. Pe
    ![](assets/new-filter.png)
 
 
-Il filtro viene aggiunto all’elenco di filtri predefinito. Se necessario, puoi salvare il filtro come preferito. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
+Il filtro viene aggiunto all’elenco dei filtri preimpostati. Se necessario, puoi salvare il filtro come preferito. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
 
 
 ## Salva il filtro come preferito {#fav-filter}
@@ -151,7 +151,7 @@ Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza; inol
 * duplicare un filtro preimpostato;
 * eliminare un filtro preimpostato.
 
-Puoi aggiungere un filtro predefinito come preferito per un accesso rapido durante la creazione dei tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
+Puoi aggiungere un filtro preimpostato come preferito per un accesso rapido durante la creazione dei tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

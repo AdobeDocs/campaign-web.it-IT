@@ -3,10 +3,10 @@ title: Guida introduttiva a profili e tipi di pubblico
 description: Scopri come utilizzare i profili e i tipi di pubblico in Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilità limitata"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ In Adobe Campaign Web, un **profilo** è una persona memorizzata nel database ch
 
 I **tipi di pubblico** sono set di profili che condividono comportamenti e/o caratteristiche simili. Questo insieme di persone può essere generato, selezionato o caricato.  Una volta creati, i tipi di pubblico possono essere utilizzati come popolazione target delle consegne.
 
-Inoltre, Adobe Campaign Web può essere utilizzato per gestire e creare **servizi** come le newsletter e per controllarne le iscrizioni o gli annullamenti. Una volta fatto, puoi aggiungere utenti iscritti, annullare l’iscrizione dei profili e inviare messaggi agli iscritti ai servizi.
+Inoltre, Adobe Campaign Web può essere utilizzato per gestire e creare **servizi** ad esempio le newsletter, e per controllare gli abbonamenti o i loro annullamenti. Una volta fatto, puoi aggiungere utenti iscritti, annullare l’iscrizione dei profili e inviare messaggi agli iscritti ai servizi.
 
 Ora che sai cosa è possibile fare in Adobe Campaign Web, è necessario approfondire le sezioni della documentazione per iniziare a utilizzarlo.
 
