@@ -6,10 +6,10 @@ title: Documentazione di Adobe Campaign Web v8
 description: Documentazione di Campaign Web v8
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 88%
+source-wordcount: '542'
+ht-degree: 89%
 
 ---
 
@@ -92,8 +92,10 @@ ht-degree: 88%
    + [Guida introduttiva a profili e tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
    + Utilizzare i profili {#work-with-profiles}
-      + [Monitorare e gestire i profili](audience/about-recipients.md)
-      + [Creare e gestire i profili di test](audience/test-profiles.md)
+      + [Introduzione ai profili](audience/about-recipients.md)
+      + [Esplora i dettagli dei profili](audience/profile-view.md)
+      + [Creare un profilo](audience/create-profile.md)
+      + [Utilizzare i profili di test](audience/test-profiles.md)
    + Utilizzare i tipi di pubblico {#audiences}
       + [Creare tipi di pubblico](audience/create-audience.md)
       + [Monitorare e gestire i tipi di pubblico](audience/manage-audience.md)
@@ -144,7 +146,7 @@ ht-degree: 88%
 + Generazione rapporti {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
    + [Esportazione dei rapporti](reporting/export-reports.md)
-   + [Indicatori chiave di performance](reporting/kpis.md)
+   + [Indicatori chiave di prestazioni](reporting/kpis.md)
    + Rapporti sulle consegne {#delivery-report}
       + [Introduzione ai rapporti di consegna](reporting/delivery-reports.md)
       + [Rapporto sulla consegna e-mail](reporting/email-report.md)
