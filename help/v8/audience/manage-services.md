@@ -4,10 +4,10 @@ title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 68%
+source-wordcount: '951'
+ht-degree: 63%
 
 ---
 
@@ -91,6 +91,17 @@ Ora puoi:
 * Invia messaggi agli abbonati al servizio. [Scopri come](../msg/send-to-subscribers.md)
 
 ## Creare un messaggio di conferma {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Seleziona il modello di consegna delle sottoscrizioni"
+>abstract="Per inviare messaggi di conferma agli utenti abbonati al servizio, devi selezionare un modello di consegna specifico in base al **[!UICONTROL Iscrizioni]** mappatura del target, senza un target definito."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Seleziona il modello di consegna per annullare l’abbonamento"
+>abstract="Per inviare messaggi di conferma agli utenti che annullano l’abbonamento al servizio, devi selezionare un modello di consegna specifico in base al **[!UICONTROL Iscrizioni]** mappatura del target, senza un target definito."
 
 Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’iscrizione al servizio, devi creare un modello di consegna con mappatura target **[!UICONTROL Iscrizioni]**, senza un target definito. A questo scopo, segui questi passaggi.
 
