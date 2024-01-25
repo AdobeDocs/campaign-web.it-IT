@@ -4,10 +4,10 @@ title: Scopri l’interfaccia
 description: Interfaccia utente di Campaign Web v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilità limitata"
-source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 80%
+source-wordcount: '1703'
+ht-degree: 78%
 
 ---
 
@@ -153,6 +153,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
+
+
+<!-- Waves-->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_definition"
+>title="Definizione scaglioni"
+>abstract="Definisci le ondate per suddividere le consegne in più batch invece di inviare contemporaneamente elevati volumi di messaggi."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_size"
+>title="Dimensione dell&#39;onda"
+>abstract="È necessario specificare la dimensione dell&#39;onda. Immetti un valore numerico (numero di messaggi) o una percentuale (0-100%) nel campo dimensione."
+
+
 
 <!-- Workflows-->
 
