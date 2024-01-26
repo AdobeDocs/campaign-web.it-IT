@@ -4,10 +4,10 @@ description: Centro risorse di Campaign Web v8
 title: Documentazione di prodotto di Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilità limitata"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Elemento 4"
->abstract="Modellatore di query di nuova generazione e finestra di progettazione e-mail"
+>abstract="Modeler di query e e-mail designer di nuova generazione"
 
 <!--
 >[!CONTEXTUALHELP]
