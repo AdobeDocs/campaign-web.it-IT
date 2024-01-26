@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript 
 
 ## Accedere all’editor di espressioni {#access}
 
-Adobe Campaign V8 web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per i contenuti. L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con l’icona **[!UICONTROL Apri finestra di personalizzazione]** come il campo dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante.
+Adobe Campaign Web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per il contenuto. L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con l’icona **[!UICONTROL Apri finestra di personalizzazione]** come il campo dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante.
 
 Di seguito sono riportati alcuni esempi su come accedere all’editor di espressioni a seconda del contenuto che desideri rendere dinamico:
 

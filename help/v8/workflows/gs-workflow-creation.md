@@ -4,17 +4,17 @@ title: Principi chiave per la creazione di flussi di lavoro
 description: Scopri i principi chiave dei flussi di lavoro con Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 96%
+ht-degree: 87%
 
 ---
 
 
 # Principi chiave per la creazione di flussi di lavoro {#gs-workflow-creation}
 
-Con Campaign v8 Web, puoi creare flussi di lavoro in un’area di lavoro visiva per progettare processi cross-channel come la segmentazione, l’esecuzione di campagne e l’elaborazione di file.
+Con Adobe Campaign Web, puoi creare flussi di lavoro in un’area di lavoro visiva per progettare processi cross-channel come segmentazione, esecuzione di campagne, elaborazione di file.
 
 
 ## Cosa c’è all’nterno di un flusso di lavoro? {#gs-workflow-inside}
