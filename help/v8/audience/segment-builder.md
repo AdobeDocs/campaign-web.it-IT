@@ -4,10 +4,10 @@ title: Creare un pubblico con il generatore di regole di Campaign
 description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 98%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Il generatore di regole consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando l’attività **[!UICONTROL Crea pubblico]** o direttamente durante la creazione di una consegna per creare un pubblico una tantum.
 
-* [Scopri come creare un pubblico](create-audience.md)
+* [Scopri come creare e salvare un pubblico](create-audience.md)
 * [Scopri come creare un pubblico una tantum per una consegna](one-time-audience.md)
 
 ## La palette
