@@ -4,10 +4,10 @@ title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilità limitata"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
-ht-degree: 63%
+source-wordcount: '2316'
+ht-degree: 62%
 
 ---
 
@@ -136,6 +136,8 @@ Puoi definire quanto segue **[!UICONTROL Invio]** impostazioni:
 * **[!UICONTROL Test consegna SMTP]**: questa opzione viene utilizzata per verificare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
 * **[!UICONTROL CCN e-mail]**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn semplicemente aggiungendo un indirizzo e-mail Ccn alla destinazione del messaggio. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+
+* **[!UICONTROL Invia in più ondate]**: puoi aumentare progressivamente il volume inviato tramite scaglioni. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
 Puoi anche modificare il formato dei messaggi e-mail inviati:
 

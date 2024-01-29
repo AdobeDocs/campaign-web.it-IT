@@ -6,10 +6,10 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '536'
+ht-degree: 83%
 
 ---
 
@@ -64,8 +64,9 @@ ht-degree: 84%
             + [Aggiungere attributi di stile in linea](email/inline-styling.md)
       + Inviare e monitorare l’e-mail {#monitor}
          + [Preparare e inviare un’e-mail](monitor/prepare-send.md)
-         + [Monitorare i registri di consegna](monitor/delivery-logs.md)
          + [Impostazioni di consegna e-mail](advanced-settings/delivery-settings.md)
+         + [Invia in più scaglioni](advanced-settings/send-using-waves.md)
+         + [Monitorare i registri di consegna](monitor/delivery-logs.md)
    + Notifiche push {#push}
       + [Introduzione alle notifiche push](push/gs-push.md)
       + [Creare una consegna di notifica push](push/create-push.md)
