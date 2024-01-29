@@ -6,10 +6,10 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 83%
+source-wordcount: '558'
+ht-degree: 80%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 83%
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
       + [Inviare consegne di test](preview-test/test-deliveries.md)
       + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
++ Pagine di destinazione {#landing-pages}
+   + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
+   + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
+   + [Progettare il contenuto della pagina di destinazione](landing-pages/lp-content.md)
+   + [Utilizzare i modelli di pagina di destinazione](landing-pages/lp-templates.md)
 + Profili e pubblico {#audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
