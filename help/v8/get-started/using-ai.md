@@ -4,13 +4,13 @@ description: Porre domande nei popover della guida di Campaign Web
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Aiuto contestuale basato sull’intelligenza artificiale {#using-ai}
+# Guida contestuale basata sull’intelligenza artificiale {#using-ai}
 
 Ottieni risposte rapide e generate dall’intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con le domande e risposte della guida contestuale basata sull’intelligenza artificiale disponibile nei relativi riquadri del prodotto.
 
@@ -18,7 +18,7 @@ Ottieni risposte rapide e generate dall’intelligenza artificiale in base alla 
 >
 >Questa funzionalità è disponibile in versione Alpha ed è soggetta a modifiche senza preavviso.
 >
->Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che [lingua preferita](connect-to-campaign.md#language-pref) è impostato su English prima di utilizzare questa funzionalità.
+>Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che[la tua lingua preferita](connect-to-campaign.md#language-pref) sia impostata su inglese prima di utilizzare questa funzionalità.
 
 
 La **Guida contestuale con Generazione basata sull’intelligenza artificiale**, incorporata nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 La Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign offre assistenza, ma è necessario verificare i fatti. Potrebbe generare informazioni non corrette, risposte inesatte o fuorvianti. Assicurati di controllare la documentazione del prodotto collegata in ogni riquadro della guida.
 
-L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. La Guida contestuale basata sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Si consiglia vivamente di utilizzare <img src="assets/do-not-localize/thumb.png" width="10%"/> ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri ingegneri.
+L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. La Guida contestuale basata sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Ti consigliamo vivamente di utilizzare il pulsante <img src="assets/do-not-localize/thumb.png" width="10%"/> ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri tecnici.
 
 ## Raccomandazioni  {#recommendations-ai}
 

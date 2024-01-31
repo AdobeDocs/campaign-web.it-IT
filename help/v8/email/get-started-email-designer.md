@@ -5,9 +5,9 @@ description: Scopri come iniziare a creare i contenuti utilizzando E-mail design
 badge: label="Disponibilità limitata"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Nuovo E-Mail Designer"
->abstract="Campaign E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Che tu parta da una lavagna vuota, importi un contenuto esistente o sfrutti modelli esistenti, progetta e perfeziona tutto il contenuto per ogni e-mail!"
+>title="Nuovo E-mail Designer"
+>abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da una lavagna vuota o sfruttando i frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
->title="Nuovo E-Mail Designer"
->abstract="Campaign E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Che tu parta da una lavagna vuota, importi un contenuto esistente o sfrutti modelli esistenti, progetta e perfeziona tutto il contenuto per ogni e-mail!"
+>title="Nuovo E-mail Designer"
+>abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da una lavagna vuota o sfruttando i frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 <!--TO REMOVE ABOVE-->

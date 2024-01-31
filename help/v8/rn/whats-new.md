@@ -5,9 +5,9 @@ description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilità limitata"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web dispone di un query modeler che semplifica il processo di fil
 * Definire i tipi di pubblico per i quali desideri eseguire il targeting nei messaggi o nei flussi di lavoro e creare senza difficoltà nuovi tipi di pubblico in base alle tue esigenze.
 * Applicare regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, in modo da allinearle ai requisiti specifici.
 * Creare filtri preimpostati che fungono da scelte rapide durante varie operazioni di filtraggio, sia nell’utilizzo di elenchi di dati che nella formazione del tipo di pubblico per una consegna.
-* Aggiungi regola per filtrare i dati visualizzati nei rapporti
+* Aggiungere la regola per filtrare i dati visualizzati nei rapporti
 * Creare regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc.
 
 Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
@@ -79,8 +79,8 @@ Utilizza la nuova interfaccia di Campaign Web per:
 * Creare, progettare, personalizzare, pianificare e inviare e-mail, SMS e notifiche push - [Ulteriori informazioni](../msg/gs-messages.md)
 * Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../email/edit-content.md)
 * Inviare campagne cross-channel, inclusi SMS e notifiche push - [Ulteriori informazioni](../workflows/activities/channels.md)
-* Definire i tipi di pubblico target con Query Modeler: [Ulteriori informazioni](../audience/about-recipients.md)
-* Visualizzare l‘anteprima, testare e inviare i messaggi  - [Ulteriori informazioni](../monitor/prepare-send.md)
+* Definire i tipi di pubblico target con il query modeler : [ulteriori informazioni](../audience/about-recipients.md)
+* Visualizzare l‘anteprima, testare e inviare i messaggi - [Ulteriori informazioni](../monitor/prepare-send.md)
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
 

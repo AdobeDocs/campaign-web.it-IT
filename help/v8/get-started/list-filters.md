@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Sfoglia e filtra gli elenchi
+title: Sfogliare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 badge: label="Disponibilità limitata"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Sfoglia e filtra gli elenchi {#list-screens}
+# Sfogliare e filtrare gli elenchi {#list-screens}
 
 La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elenchi di oggetti, ad esempio l’elenco di **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, nel modo descritto di seguito.
 

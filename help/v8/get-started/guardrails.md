@@ -4,9 +4,9 @@ description: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Il posizionamento dei nodi viene aggiornato ogni volta che si aggiunge o si rimu
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Questo filtro è di sola lettura"
->abstract="Alcuni filtri preimpostati non sono disponibili nell’interfaccia utente di tale versione del prodotto. Questi filtri sono contrassegnati come di sola lettura. Anche se non è possibile visualizzare la rappresentazione grafica della query nel modellatore di query e non è possibile modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro in **Attributi** sezione della schermata."
+>abstract="Alcuni filtri preimpostati non sono disponibili nell’interfaccia utente di tale versione del prodotto. Questi filtri sono contrassegnati come di sola lettura. Anche se non è possibile visualizzare la rappresentazione grafica della query nel query modeler e modificare il filtro, è possibile comunque utilizzarlo e visualizzare le condizioni di filtro nella sezione **Attributi** della schermata."
 
 In tale versione del prodotto, durante la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro e alcuni filtri predefiniti non sono disponibili nell’interfaccia utente. Questi filtri sono contrassegnati come di sola lettura.
 
@@ -69,7 +69,7 @@ Viene visualizzato un messaggio di errore specifico.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Anche se non è possibile visualizzare la rappresentazione grafica della query nel modellatore di query e non è possibile modificare il filtro, è comunque possibile utilizzarlo e visualizzare le condizioni di filtro in **Attributi** sezione della schermata.
+Anche se non è possibile visualizzare la rappresentazione grafica della query nel query modeler e modificare il filtro, è possibile comunque utilizzarlo e visualizzare le condizioni di filtro nella sezione **Attributi** della schermata.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 
