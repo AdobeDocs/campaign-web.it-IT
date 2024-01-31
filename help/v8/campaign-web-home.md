@@ -7,7 +7,7 @@ badge: label="Disponibilità limitata"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 40%
+ht-degree: 84%
 
 ---
 
@@ -83,14 +83,14 @@ ht-degree: 40%
 
 <!--TO REMOVE ABOVE-->
 
-Siamo entusiasti di presentare la nuova versione dell’interfaccia utente web di Adobe Campaign. La nostra ultima versione è dotata di funzioni intuitive progettate per semplificare la creazione di campagne personalizzate multicanale, generare risultati eccezionali e offrire un vantaggio competitivo su tutti i canali. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform.
+Siamo entusiasti di presentare la nuova versione dell’interfaccia utente web di Adobe Campaign. La versione più recente è dotata di funzioni intuitive progettate per semplificare la creazione di campagne cross-channel personalizzate, ottenere risultati eccezionali e offrire un vantaggio competitivo su tutti i canali. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform.
 
 >[!AVAILABILITY]
 > Adobe Campaign Web è attualmente in versione con disponibilità limitata (LA). L‘accesso è limitato a un piccolo gruppo di clienti a Disponibilità limitata (LA) Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti introdotti nel prodotto Web Adobe Campaign e nella relativa documentazione. Per un elenco completo delle funzionalità principali e degli aggiornamenti delle versioni, vedi [questa pagina](rn/whats-new.md).
+Dai un’occhiata ai miglioramenti più recenti introdotti nel prodotto Web Adobe Campaign e nella relativa documentazione. Per un elenco completo delle funzionalità chiave e delle funzioni degli aggiornamenti di versione, consulta [questa pagina](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -102,19 +102,19 @@ Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi c
 
 >[!TAB Composizione del pubblico]
 
-Crea nuovi tipi di pubblico in un’area di lavoro del flusso di lavoro visivo. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Combina più tipi di pubblico in un unico pubblico, arricchisci il pubblico con attributi esterni o dividilo in più tipi di pubblico in base alle regole scelte.
+Crea nuovi tipi di pubblico in nell’area di lavoro del flusso di lavoro. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
 >[!TAB E-mail Designer]
 
-Campaign E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Che tu parta da una lavagna vuota, importi un contenuto esistente o sfrutti modelli esistenti, progetta e perfeziona tutto il contenuto per ogni e-mail!
+E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da una lavagna vuota o sfruttando i frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
 >[!TAB Profilo 360]
 
-Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agli attributi, alle interazioni e ai registri dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarne e aggiornarne il profilo.
+Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agli attributi, alle interazioni e ai registri dei tuoi profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarli e aggiornarli.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
@@ -130,7 +130,7 @@ Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agl
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Area di lavoro flusso di lavoro riprogettata</strong><br/>Scopri come creare flussi di lavoro per orchestrare l’intera gamma di processi e attività e migliorare la velocità e la scalabilità di ogni aspetto delle campagne di marketing.</div><br/>
+    <div><strong>Area di lavoro del flusso di lavoro riprogettata</strong><br/>Scopri come creare flussi di lavoro per orchestrare l’intera gamma di processi e attività e migliorare la velocità e la portata di ogni aspetto delle tue campagne di marketing.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -138,7 +138,7 @@ Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agl
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Rendi dinamico il contenuto</strong><br/>Scopri come personalizzare il contenuto in base alle informazioni raccolte sui destinatari, per renderlo più accattivante e aumentarne la probabilità di lettura.</div>
+    <div><strong>Rendi dinamici i tuoi contenuti</strong><br/>Scopri come personalizzare i tuoi contenuti in base alle informazioni che hai raccolto sui tuoi destinatari per rendere i tuoi contenuti più accattivanti e aumentare la probabilità che vengano letti.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -155,23 +155,23 @@ Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agl
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>Introduzione</strong><br/><a href="get-started/user-interface.md">Interfaccia utente</a> - <a href="get-started/connect-to-campaign.md">Connetti a Campaign</a> - <a href="get-started/using-ai.md">Aiuto contestuale basato sull’intelligenza artificiale</a> - <a href="get-started/permissions.md">Accesso e autorizzazioni</a>
+ <br/>
+ <strong>Introduzione</strong><br/><a href="get-started/user-interface.md">Interfaccia utente</a>: <a href="get-started/connect-to-campaign.md">Connettiti a Campaign</a> - <a href="get-started/using-ai.md">Guida contestuale basata sull’intelligenza artificiale</a> - <a href="get-started/permissions.md">Accesso e autorizzazioni</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>Esperienza del cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizzare con i flussi di lavoro</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestrazione campagna</a> - <a href="personalization/gs-personalization.md">Contenuto dinamico</a> - <a href="reporting/gs-reports.md">Reporting e analisi</a>
+ <br/>
+ <strong>Esperienza cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizza con i flussi di lavoro</a>: <a href="campaigns/gs-campaigns.md" target="_blank">Orchestrazione della campagna</a> - <a href="personalization/gs-personalization.md">Contenuti dinamici</a> - <a href="reporting/gs-reports.md"> Reporting e analisi</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-    <br/>
-      <strong>Inviare messaggi</strong><br/><a href="msg/gs-deliveries.md">Creare una consegna</a> - <a href="email/create-email.md">E-mail</a> -  <a href="push/gs-push.md">Notifiche push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelli di consegna</a> - <a href="preview-test/preview-test.md">Anteprima e prova</a> 
+ <br/>
+ <strong>Invia messaggi</strong><br/><a href="msg/gs-deliveries.md">Crea una consegna</a> - <a href="email/create-email.md">E-mail</a> -<a href="push/gs-push.md">Notifiche push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelli di consegna</a> - <a href="preview-test/preview-test.md">Anteprima e test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-    <br/>
-      <strong>Profili e pubblico</strong><br/><a href="audience/gs-audiences-recipients.md">Introduzione</a> - <a href="audience/create-audience.md">Creare tipi di pubblico</a> - <a href="audience/test-profiles.md">Profili di test</a> - <a href="audience/manage-services.md">Servizi di abbonamento</a> - <a href="query/query-modeler-overview.md">Query Modeler</a>
+ <br/>
+ <strong>Profili e tipi di pubblico</strong><br/><a href="audience/gs-audiences-recipients.md">Introduzione</a> - <a href="audience/create-audience.md">Crea tipi di pubblico</a> - <a href="audience/test-profiles.md">Profili di test</a> - <a href="audience/manage-services.md">Servizi in abbonamento</a> - <a href="query/query-modeler-overview.md">Query modeler</a>
     </td>
   </tr>
 </table>
@@ -179,4 +179,4 @@ Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agl
 ## Risorse aggiuntive
 
 * [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Documentazione di Adobe Campaign V8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it){target="_blank"}
+* [Documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=it){target="_blank"}

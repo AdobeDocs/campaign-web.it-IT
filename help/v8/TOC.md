@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 80%
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 80%
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
    + [Connessione a Campaign](get-started/connect-to-campaign.md)
-   + [Scopri l’interfaccia](get-started/user-interface.md)
-   + [Sfoglia e filtra gli elenchi](get-started/list-filters.md)
+   + [Scoprire l’interfaccia](get-started/user-interface.md)
+   + [Sfogliare e filtrare gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Accesso e autorizzazioni](get-started/permissions.md)
    + [Guardrail e limitazioni](get-started/guardrails.md)
    + [Funzionalità non supportate](get-started/unsupported.md)
-   + [Aiuto contestuale basato sull’intelligenza artificiale](get-started/using-ai.md)
+   + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
    + [Utilizzare le consegne](msg/gs-deliveries.md)
@@ -104,14 +104,14 @@ ht-degree: 80%
       + [Utilizzare i profili di test](audience/test-profiles.md)
    + Utilizzare i tipi di pubblico {#audiences}
       + [Creare tipi di pubblico](audience/create-audience.md)
-      + [Monitorare e gestire i tipi di pubblico](audience/manage-audience.md)
+      + [Monitorare e gestire tipi di pubblico](audience/manage-audience.md)
    + Selezionare i destinatari della consegna {#target-audiences}
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
       + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
-      + [Creare e gestire servizi di abbonamento](audience/manage-services.md)
+      + [Creare e gestire i servizi di abbonamento](audience/manage-services.md)
       + [Gestire gli abbonati](audience/manage-subscribers.md)
 + Campagne cross-channel {#campaigns}
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
@@ -153,12 +153,12 @@ ht-degree: 80%
    + [Esportazione dei rapporti](reporting/export-reports.md)
    + [Indicatori chiave di prestazioni](reporting/kpis.md)
    + Rapporti sulle consegne {#delivery-report}
-      + [Introduzione ai rapporti di consegna](reporting/delivery-reports.md)
+      + [Introduzione ai rapporti sulle consegne](reporting/delivery-reports.md)
       + [Rapporto sulla consegna e-mail](reporting/email-report.md)
       + [Rapporto sulle consegne push](reporting/push-report.md)
       + [Rapporto sulla consegna SMS](reporting/sms-report.md)
    + Rapporti sulla campagna {#campaign-report}
-      + [Introduzione ai rapporti delle campagne](reporting/campaign-reports.md)
+      + [Introduzione ai rapporti sulle campagne](reporting/campaign-reports.md)
       + [Rapporto sulla campagna e-mail](reporting/campaign-reports-email.md)
       + [Rapporto sulla campagna push](reporting/campaign-reports-push.md)
       + [Rapporto sulla campagna SMS](reporting/campaign-reports-sms.md)

@@ -6,7 +6,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Quando viene salvato un filtro come preferito, è disponibile per tutti gli uten
 
 ## Utilizza un filtro preimpostato {#use-predefined-filter}
 
-I filtri preimpostati sono disponibili quando si definiscono le proprietà delle regole. Per accedere ai filtri predefiniti, scegli **Seleziona filtro personalizzato** nell’elenco a discesa del modellatore di query.
+I filtri preimpostati sono disponibili quando si definiscono le proprietà delle regole. Per accedere ai filtri preimpostati, scegli l’opzione **Seleziona filtro personalizzato** nel menu a discesa del query modeler.
 
 Puoi quindi accedere all’elenco completo dei filtri preimpostati disponibili per il contesto corrente.
 

@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Viene così impostata la connessione a Campaign. Per informazioni su come inizia
 
 Sfoglia la barra superiore dell’interfaccia per:
 
-* invia feedback sull’interfaccia web di Campaign
+* condividere feedback sull’interfaccia utente web di Campaign
 * passare da un’organizzazione all’altra
 * passare a un’altra soluzione e alle app di Adobe Experience Cloud
 * cercare aiuto su [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=it){target="_blank"}
@@ -92,7 +92,7 @@ Per cambiare la lingua:
 
 >[!CAUTION]
 >
->Se prevedi di utilizzare [Aiuto contestuale basato sull’intelligenza artificiale](using-ai.md) è necessario impostare la lingua preferita sull&#39;inglese. Altre lingue non sono supportate.
+>Se prevedi di utilizzare le funzionalità della [Guida contestuale basata sull’intelligenza artificiale](using-ai.md), è necessario impostare la lingua preferita sull’inglese. Altre lingue non sono supportate.
 >
 
 
