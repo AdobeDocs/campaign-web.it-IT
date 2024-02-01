@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Pagine di destinazione"
->abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi immediatamente le pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire l’acquisizione dei dati di profilo e i flussi di consenso/rinuncia in modo rapido e semplice."
+>abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire, acquisire, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 
