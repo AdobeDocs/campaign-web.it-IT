@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Monitorare e gestire i tipi di pubblico
+title: Monitorare e gestire tipi di pubblico
 description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
-# Monitorare e gestire i tipi di pubblico {#monitor}
+# Monitorare e gestire tipi di pubblico {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"

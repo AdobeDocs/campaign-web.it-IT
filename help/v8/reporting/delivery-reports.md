@@ -7,18 +7,18 @@ badge: label="Disponibilità limitata"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 66%
+ht-degree: 74%
 
 ---
 
-# Introduzione ai rapporti di consegna {#reports}
+# Introduzione ai rapporti sulle consegne {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Reportistica aggregata per le consegne"
 >abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
 
-Il **Rapporti di consegna** fornisce informazioni approfondite e dati incentrati esclusivamente sulle tue **consegne** su ciascun canale. Tali rapporti forniscono una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
+I **Rapporti sulle consegne** forniscono informazioni approfondite e dati incentrati esclusivamente sulle **consegne** attraverso ciascun canale. Tali rapporti forniscono una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
 
 L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 

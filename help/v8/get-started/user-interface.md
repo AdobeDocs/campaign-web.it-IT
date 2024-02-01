@@ -1,37 +1,37 @@
 ---
 audience: end-user
-title: Scopri l’interfaccia
+title: Scoprire l’interfaccia
 description: Interfaccia utente web di Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilità limitata"
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 77%
+ht-degree: 96%
 
 ---
 
-# Scopri l’interfaccia {#user-interface}
+# Scoprire l’interfaccia {#user-interface}
 
 La nuova interfaccia web di Adobe Campaign offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna di campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni di Adobe Experience Cloud.
 
-Scopri come connetterti ad Adobe Campaign e scopri le nozioni di base sulla navigazione di Experience Cloud [in questo articolo](connect-to-campaign.md).
+Scopri come connetterti ad Adobe Campaign e le nozioni di base sulla navigazione in Experience Cloud [in questo articolo](connect-to-campaign.md).
 
 
 >[!NOTE]
 >
 >Questa documentazione viene spesso aggiornata per riflettere le recenti modifiche apportate all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia utente che visualizzi.
 
-## Home page di Campaign {#user-interface-home}
+## Pagina home di Campaign {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recenti"
 >abstract="L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica."
 
-La pagina Home di Campaign consente di sfogliare in modo rapido e semplice risorse chiave, indicatori e componenti.
+La pagina Home di Campaign ti consente di sfogliare rapidamente e facilmente risorse, indicatori e componenti chiave.
 
-La sezione superiore della home page fornisce dettagli sugli ultimi aggiornamenti e sulle nuove funzionalità disponibili nel prodotto, con un collegamento alle note sulla versione e alla documentazione dettagliata. Utilizzate la freccia sinistra per scorrere le schede delle feature.
+La sezione superiore della pagina Home fornisce dettagli sugli ultimi aggiornamenti e sulle nuove funzionalità disponibili nel prodotto, con collegamenti alle note sulla versione e alla documentazione dettagliata. Utilizza la freccia sinistra per scorrere le schede delle funzioni.
 
 ![](assets/home.png)
 
@@ -78,9 +78,9 @@ Nella sezione GESTIONE DELLE CAMPAGNE, puoi accedere a campagne di marketing, co
 
 ### Gestione dei contenuti {#user-interface-content-management}
 
-Nella sezione GESTIONE DEI CONTENUTI, puoi visualizzare i modelli di contenuto e i frammenti.
+Nella sezione GESTIONE DEI CONTENUTI puoi visualizzare i modelli e i frammenti dei contenuti.
 
-* **Modelli di contenuto** : per un processo di progettazione accelerato e migliorato, puoi creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Adobe Campaign]. Disponibile solo per le e-mail, questa funzionalità consente agli utenti orientati al contenuto di lavorare su modelli autonomi in modo che gli utenti di marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail. Per ulteriori informazioni, consulta [questa sezione](../email/create-email-templates.md).
+* **Modelli di contenuto**: per un processo di progettazione più rapido e migliore, puoi creare modelli autonomi che consentono di riutilizzare facilmente contenuti personalizzati in più campagne.[!DNL Adobe Campaign] Disponibile solo per le e-mail, questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli addetti al marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail. Per ulteriori informazioni, consulta [questa sezione](../email/create-email-templates.md).
 
 <!--
 * **Fragments** -
@@ -88,12 +88,12 @@ Nella sezione GESTIONE DEI CONTENUTI, puoi visualizzare i modelli di contenuto e
 
 ### Gestione clienti {#user-interface-customer-management}
 
-Nella sezione GESTIONE CLIENTI puoi visualizzare profili, tipi di pubblico e abbonamenti. Questi elenchi sono di sola lettura.
+Nella sezione GESTIONE CLIENTI, puoi visualizzare i profili, i tipi di pubblico e le iscrizioni. Questi elenchi sono di sola lettura.
 
-* **Profili** : crea e gestisci profili e accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Ulteriori informazioni sui profili in [questa sezione](../audience/about-recipients.md).
+* **Profili**: crea e gestisci profili e accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Per ulteriori informazioni sui profili, consulta [questa sezione](../audience/about-recipients.md).
 * **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, le date di creazione e ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Per ulteriori informazioni sui tipi di pubblico e gli elenchi, consulta [questa sezione](../audience/about-recipients.md).
-* **Servizi di abbonamento** - Sfogliare gli elenchi degli abbonamenti. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire le iscrizioni e il relativo annullamento nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=it){target="_blank"}.
-* **Filtri predefiniti** - I filtri predefiniti sono filtri personalizzati che vengono creati e salvati per essere disponibili in futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro con Query Modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna. Per ulteriori informazioni, consulta [questa sezione](predefined-filters.md).
+* **Servizi di iscrizione**: sfoglia gli elenchi delle iscrizioni. Per impostazione predefinita, puoi visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire le iscrizioni e il relativo annullamento nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=it){target="_blank"}.
+* **Filtri preimpostati**: i filtri preimpostati sono filtri personalizzati che vengono creati e salvati per essere disponibili per un utilizzo futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro insieme al query modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna. Per ulteriori informazioni, consulta [questa sezione](predefined-filters.md).
 
 
 ### Gestione delle decisioni {#decision-management}
@@ -110,9 +110,9 @@ Nella sezione GESTIONE DELLE DECISIONI, puoi visualizzare le offerte e i modelli
 
 Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa sezione](../msg/offers.md).
 
-### Reportistica {#left-nav-reporting}
+### Reporting {#left-nav-reporting}
 
-* **Rapporti** - Il **Report** La voce offre un riepilogo consolidato complessivo delle metriche di traffico e coinvolgimento per ciascun canale all’interno dell’ambiente Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna. Per ulteriori informazioni, consulta [questa sezione](../reporting/global-reports.md).
+* **Rapporti**: la voce **Rapporto** offre un riepilogo complessivo consolidato del traffico e delle metriche di coinvolgimento per ciascun canale all’interno dell’ambiente di Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna. Per ulteriori informazioni, consulta [questa sezione](../reporting/global-reports.md).
 
 
 ## Guida contestuale {#user-interface-help}
@@ -121,7 +121,7 @@ Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, 
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Attualmente rilasciata come versione beta nella nuova interfaccia utente web di Campaign, la **Knowledge Assistant con tecnologia AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
+Attualmente rilasciato come nuova versione beta all’interno dell’interfaccia utente di Campaign Web, il **Knowledge Assistant con Generazione basata sull’intelligenza artificiale**, incorporato nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure, esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
 
 Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, il Knowledge Assistant con Generazione basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
@@ -346,7 +346,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
->title="Questo modello è pronto solo"
+>title="Questo modello è solo pronto"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

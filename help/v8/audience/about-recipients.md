@@ -5,7 +5,7 @@ badge: label="Disponibilità limitata"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Visualizzazione 360 dei profili"
->abstract="Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agli attributi, alle interazioni e ai registri dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarne e aggiornarne il profilo."
+>abstract="Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agli attributi, alle interazioni e ai registri dei tuoi profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarli e aggiornarli."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="Visualizzazione 360 dei profili"
->abstract="Crea nuovi profili e monitorali tramite rapporti e strumenti potenti. Accedi agli attributi, alle interazioni e ai registri dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarne e aggiornarne il profilo."
+>abstract="Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agli attributi, alle interazioni e ai registri dei tuoi profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarli e aggiornarli."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 <!--TO REMOVE ABOVE-->

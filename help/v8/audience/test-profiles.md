@@ -5,14 +5,15 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilità limitata"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Creare e gestire i profili di test {#create-test-profiles}
+# Creare e gestire profili di test {#create-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
@@ -103,6 +104,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 Il profilo di test appena creato è ora pronto per essere utilizzato per inviare un test. [Ulteriori informazioni](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

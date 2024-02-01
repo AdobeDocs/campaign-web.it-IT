@@ -11,7 +11,7 @@ ht-degree: 63%
 
 ---
 
-# Creare e gestire servizi di abbonamento {#manage-services}
+# Creare e gestire i servizi di abbonamento {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

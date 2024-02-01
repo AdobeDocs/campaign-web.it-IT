@@ -7,11 +7,11 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 23%
+ht-degree: 31%
 
 ---
 
-# Introduzione ai rapporti delle campagne {#campaign-reports}
+# Introduzione ai rapporti sulle campagne {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
@@ -25,7 +25,7 @@ ht-degree: 23%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-Il **Rapporti sulle campagne** fornire una panoramica completa della **campagna**, includendo tutte le informazioni pertinenti relative alle diverse consegne incluse. Questi rapporti offrono un’analisi approfondita delle prestazioni di ogni consegna per canale: le percentuali di successo, il coinvolgimento del pubblico e altre metriche essenziali. Ti consentono di valutare l’efficacia e l’impatto complessivi della campagna.
+I **Rapporti sulla campagna** forniscono una panoramica completa sulla **campagna**, con tutte le informazioni pertinenti, relative alle diverse consegne incluse. Questi rapporti offrono un’analisi approfondita delle prestazioni di ogni consegna per canale: le percentuali di successo, il coinvolgimento del pubblico e altre metriche essenziali. Ti consentono di valutare l’efficacia e l’impatto complessivi della campagna.
 
 L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 
