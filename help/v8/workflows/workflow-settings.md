@@ -4,10 +4,10 @@ title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
+source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 77%
+source-wordcount: '957'
+ht-degree: 72%
 
 ---
 
@@ -77,7 +77,12 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
   >
   >Se il campo della **[!UICONTROL Cronologia in giorni]** è lasciato vuoto, il suo valore sarà considerato come “1”, il che significa che la cronologia verrà eliminata dopo 1 giorno.
 
-* **[!UICONTROL Affinità predefinita]**: se l’installazione include diversi server per il flusso di lavoro, utilizza questo campo per scegliere il computer su cui verrà eseguito il flusso di lavoro. Se il valore definito in questo campo non esiste su alcun server, il flusso di lavoro rimarrà in sospeso.
+* **[!UICONTROL Affinità predefinita]**: se l’installazione include diversi server del flusso di lavoro, utilizza questo campo per specificare il server su cui verrà eseguito il flusso di lavoro. Questo forza l’esecuzione di quel flusso di lavoro su un server particolare. Puoi scegliere un nome di affinità esistente, ma assicurati di non utilizzare spazi o segni di punteggiatura. Se si utilizzano server diversi, specificare nomi diversi, separati da virgole.
+
+  >[!IMPORTANT]
+  >
+  >Se il valore definito in questo campo non esiste su alcun server, il flusso di lavoro rimarrà in sospeso.
+
 
 * **[!UICONTROL Salvare le query SQL nel registro]**: seleziona questa opzione per salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creazione del pubblico]**. Quando questa opzione è selezionata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate nei registri del flusso di lavoro, consentendoti di analizzarle per ottimizzare le query o diagnosticare eventuali problemi.
 
