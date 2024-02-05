@@ -1,56 +1,56 @@
 ---
-title: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
-description: Protezioni e limitazioni nell’interfaccia utente di Campaign Web
+title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
+description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # Guardrail e limitazioni {#guardrails-limitations}
 
-Durante l’utilizzo di componenti creati o modificati nella console client di Campaign nell’interfaccia utente di Campaign Web, si applicano i guardrail e le limitazioni elencate di seguito.
+Quando si lavora nell’interfaccia utente di Campaign Web con componenti creati o modificati nella console client di Campaign, si applicano le protezioni e le limitazioni elencate di seguito.
 
 ## Flussi di lavoro {#wf-guardrails-limitations}
 
 ### Attività
 
-Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente web sono di sola lettura e vengono visualizzate come attività non compatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro che sono disponibili sia nell’interfaccia utente web che nella console client sono modificabili.
+Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente di Campaign Web sono di sola lettura e vengono visualizzate come attività incompatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro disponibili sia nell’interfaccia utente di Campaign Web che nella console client di Campaign sono modificabili.
 
-| Console | Interfaccia utente web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Le impostazioni delle attività del flusso di lavoro non ancora supportate nell’interfaccia utente web non vengono visualizzate. Tuttavia, quando il flusso di lavoro viene eseguito, si applicano queste impostazioni.
+Le impostazioni delle attività del flusso di lavoro non ancora supportate nell’interfaccia utente Web non vengono visualizzate. Tuttavia, quando il flusso di lavoro viene eseguito, si applicano queste impostazioni.
 
-| Console | Interfaccia utente web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-Nella console, l’attività di **arricchimento** può eseguire sia la riconciliazione che l’arricchimento. Nell’interfaccia utente web, le funzionalità di riconciliazione non sono ancora disponibili. Se hai definito le impostazioni di riconciliazione nell’attività di **Arricchimento** nella console, questa verrà visualizzata come attività di sola lettura non compatibile nell’interfaccia utente web.
+Nella console, l’attività di **arricchimento** può eseguire sia la riconciliazione che l’arricchimento. Nell’interfaccia utente di Campaign Web, le funzionalità di riconciliazione non sono ancora disponibili. Se hai definito, nella console client, le impostazioni di riconciliazione in **Arricchimento** verrà visualizzata come attività di sola lettura non compatibile nell’interfaccia utente di Campaign Web.
 
-| Console | Interfaccia utente web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Area di lavoro
 
-Quando crei un nuovo flusso di lavoro nell’interfaccia utente web, l’area di lavoro supporta un solo punto di ingresso. Tuttavia, se hai creato un flusso di lavoro nella console con più punti di ingresso, puoi aprirlo e modificarlo nell’interfaccia utente web.
+Quando si crea un nuovo flusso di lavoro nell’interfaccia utente di Campaign Web, l’area di lavoro supporta un solo punto di ingresso. Tuttavia, se hai creato un flusso di lavoro nella console con più punti di ingresso, puoi aprirlo e modificarlo nell’interfaccia utente di Campaign Web.
 
-| Console | Interfaccia utente web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-I cicli non sono ancora disponibili nell’interfaccia utente web. Se hai creato un flusso di lavoro che include un ciclo utilizzando la console, non puoi accedervi dall’interfaccia utente web. Viene visualizzato un messaggio di errore.
+I loop non sono ancora disponibili nell’interfaccia utente di Campaign Web. Se hai creato un flusso di lavoro che include un ciclo utilizzando la console, non puoi accedervi dall’interfaccia utente di Campaign Web. Viene visualizzato un messaggio di errore.
 
-| Console | Interfaccia utente web |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-Il posizionamento dei nodi viene aggiornato ogni volta che si aggiunge o si rimuove un’attività. Se crei un flusso di lavoro nella console, lo modifichi utilizzando l’interfaccia web e lo riapri nella console, potresti notare alcune lievi imperfezioni di posizionamento. Questo non ha alcun impatto sui processi e sulle attività del flusso di lavoro.
+Il posizionamento dei nodi viene aggiornato ogni volta che si aggiunge o si rimuove un’attività. Se crei un flusso di lavoro nella console, lo modifichi utilizzando l’interfaccia utente di Campaign Web e lo riapri nella console, potresti notare alcune lievi imperfezioni di posizionamento. Questo non ha alcun impatto sui processi e sulle attività del flusso di lavoro.
 
 | Flusso di lavoro iniziale | Modifica del posizionamento |
 | --- | --- |

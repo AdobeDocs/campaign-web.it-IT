@@ -4,10 +4,10 @@ title: Scoprire l’interfaccia
 description: Interfaccia utente web di Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilità limitata"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 96%
+source-wordcount: '1597'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, 
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Attualmente rilasciato come nuova versione beta all’interno dell’interfaccia utente di Campaign Web, il **Knowledge Assistant con Generazione basata sull’intelligenza artificiale**, incorporato nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure, esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
+Attualmente rilasciata come versione beta all’interno della nuova interfaccia utente web di Campaign, la **Knowledge Assistant con tecnologia AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
 
 Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, il Knowledge Assistant con Generazione basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 

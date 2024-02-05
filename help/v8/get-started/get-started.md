@@ -4,10 +4,10 @@ title: Introduzione a Adobe Campaign Web
 description: Introduzione a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilità limitata"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '577'
+ht-degree: 64%
 
 ---
 
@@ -43,9 +43,9 @@ Inizialmente disponibile solo tramite una ricca [Console client](#ac-client), Ca
 
 ![](assets/home.png)
 
-Questa nuova interfaccia utente soddisfa innanzitutto le esigenze del **professionista**; in questa prima versione non sono disponibili tutte le tipiche attività di amministrazione, ma verranno affrontate nelle versioni successive. Per il momento, nella nuova interfaccia utente non sono disponibili tutte le funzionalità o opzioni disponibili nella console client. Nelle versioni future saranno disponibili nuovi casi d’uso, opzioni e funzionalità.
+Questa nuova interfaccia utente Web soddisfa innanzitutto le esigenze del **professionista aziendale** - tutte le tipiche attività di amministrazione non sono disponibili in questa prima versione, ma verranno affrontate nelle versioni successive. Per il momento, nella nuova interfaccia utente non sono disponibili tutte le funzionalità o opzioni disponibili nella console client. Nelle versioni future saranno disponibili nuovi casi d’uso, opzioni e funzionalità.
 
-In qualità di utente esperto o amministratore, se devi accedere a funzionalità di Campaign v8 che non sono disponibili nell’interfaccia web, puoi utilizzare la [console client](#ac-client).
+In qualità di amministratore o di utente esperto, se hai bisogno di accedere alle funzionalità di Campaign v8 che non sono disponibili nell’interfaccia utente di Campaign Web, puoi connettersi al [console client](#ac-client).
 
 
 >[!NOTE]
@@ -58,7 +58,7 @@ Scopri come connetterti ad Adobe Campaign Web in [questa pagina](connect-to-camp
 
 La console client di Campaign è un’applicazione basata su browser installata sul sistema. Utilizza l’API dei servizi web per collegarsi al server dell’applicazione Campaign.
 
-I dati di Campaign vengono memorizzati nel server dell’applicazione. I dati sono disponibili sia dalla console client sia dall’interfaccia web. Ad esempio, se crei un modello di consegna utilizzando la console client, questo sarà disponibile anche nell’interfaccia web. E se crei una consegna e-mail nell’interfaccia web, questa è accessibile anche dalla console client.
+I dati di Campaign vengono memorizzati nel server dell’applicazione. I dati sono disponibili sia dalla console client che dall’interfaccia utente web di Campaign. Ad esempio, se crei un modello di consegna utilizzando la console client, questo sarà disponibile anche nell’interfaccia utente di Campaign Web. E se crei una consegna e-mail nell’interfaccia utente web di Campaign, tale consegna è accessibile anche dalla console client.
 
 Alcuni oggetti possono essere creati e gestiti solo nella console client. Possono essere visibili e utilizzati nell’interfaccia utente di Campaign Web, ma non possono essere creati né modificati da questo ambiente. Tutti gli oggetti e i componenti di Campaign sono disponibili nella vista Explorer, accessibile dal menu di navigazione a sinistra.
 

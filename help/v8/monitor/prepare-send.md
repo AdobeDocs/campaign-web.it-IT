@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Preparare e inviare un’e-mail
-description: Scopri come preparare e inviare un’e-mail dall’interfaccia utente di Campaign Web
+description: Scopri come preparare e inviare un’e-mail con l’interfaccia utente web di Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Disponibilità limitata"
-source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 97%
+source-wordcount: '893'
+ht-degree: 95%
 
 ---
 

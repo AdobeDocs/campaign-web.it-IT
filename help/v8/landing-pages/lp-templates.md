@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare i modelli di contenuto delle pagine di destinazione
 description: Scopri come salvare il contenuto della pagina di destinazione come modello di progettazione e riutilizzarlo nel web di Campaign
 badge: label="Disponibilità limitata"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 29%
@@ -56,4 +56,4 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 1. Modifica il contenuto nel modo desiderato utilizzando il designer della pagina di destinazione.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

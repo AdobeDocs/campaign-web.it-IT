@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Gestione delle autorizzazioni in Campaign Web
-description: Ulteriori informazioni sulle autorizzazioni in Campaign Web v8
+title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
+description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 

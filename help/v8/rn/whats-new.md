@@ -4,10 +4,10 @@ title: Novità di Campaign Web v8
 description: Scopri la nuova funzione in arrivo con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilità limitata"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
-source-wordcount: '1295'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 84%
 
 ---
 
@@ -32,11 +32,11 @@ Siamo entusiasti di presentare la nuova versione dell’interfaccia utente web d
 
 ## Funzionalità principali {#key-features}
 
-Questa nuova interfaccia web di Campaign è attualmente disponibile in **Disponibilità limitata** con le seguenti funzionalità:
+Questa nuova interfaccia utente di Campaign Web include le seguenti funzionalità:
 
 **Esperienza moderna, intuitiva e unificata**
 
-La nuova interfaccia Web di Campaign offre una nuova esperienza utente, allineata con tutte le soluzioni e le app Adobe Experience Cloud. Offre le seguenti funzionalità:
+La nuova interfaccia utente di Campaign offre una nuova esperienza utente, allineata con tutte le soluzioni e le app Adobe Experience Cloud. Offre le seguenti funzionalità:
 
 * Accesso alla nuova interfaccia di Campaign e ad altre soluzioni Adobe con una sessione utente singola e condivisa
 * Nuova esperienza di navigazione, con tutti i menu e le cartelle disponibili nella barra a sinistra
@@ -48,14 +48,14 @@ Scopri come accedere a Adobe Experience Cloud e come connettersi a Campaign in [
 
 **Nuove potenti funzionalità e processi fluidi**
 
-L’interfaccia utente Web di Adobe Campaign fornisce un ambiente grafico completo che consente di progettare processi complessi che possono aiutare a gestire le campagne di marketing con facilità. Viene fornito con:
+L’interfaccia utente web di Adobe Campaign offre un ambiente grafico completo che ti consente di progettare processi complessi che possono aiutarti a gestire le campagne di marketing con facilità. Viene fornito con:
 
 * Interfaccia dell’area di lavoro del flusso di lavoro riprogettata per progettare e gestire i processi
 * Contenuti dinamici per consegnare al pubblico esperienze altamente mirate e personalizzate
 * Integrazione nativa con i tipi di pubblico di Adobe Experience Platform
 * Gestione dei modelli per flussi di lavoro, consegne, campagne e contenuti
 
-Per ulteriori informazioni sulla nuova interfaccia, visita [questa pagina](../get-started/user-interface.md).
+Ulteriori informazioni sulla nuova interfaccia utente Web in [questa pagina](../get-started/user-interface.md).
 
 **Nuovo query modeler semplificato e intuitivo**
 
@@ -74,7 +74,7 @@ Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-ove
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto riscontri l’interesse del pubblico a cui è destinata.
 
-Utilizza la nuova interfaccia di Campaign Web per:
+Utilizza la nuova interfaccia utente di Campaign Web per:
 
 * Creare, progettare, personalizzare, pianificare e inviare e-mail, SMS e notifiche push - [Ulteriori informazioni](../msg/gs-messages.md)
 * Progettare contenuti e-mail personalizzati con l&#39;e-mail designer - [Ulteriori informazioni](../email/edit-content.md)
@@ -105,7 +105,7 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
 * **Facile creazione e gestione dei profili**
 
-  Puoi utilizzare la nuova interfaccia utente Web per **creare e aggiornare i destinatari** nel database direttamente dal menu Destinatari. Un modulo di modifica del profilo semplificato consente di inserire le informazioni di contatto e gli attributi del destinatario e di aggiornare un destinatario esistente senza utilizzare la console client.
+  È possibile utilizzare la nuova interfaccia utente di Campaign Web per **creare e aggiornare i destinatari** direttamente dal menu Destinatari. Un modulo di modifica del profilo semplificato consente di inserire le informazioni di contatto e gli attributi del destinatario e di aggiornare un destinatario esistente senza utilizzare la console client.
 
   Per ulteriori informazioni, consulta [questa sezione](../audience/about-recipients.md).
 
@@ -132,7 +132,7 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
 * **Filtri preimpostati**
 
-  Introduzione alla gestione predefinita dei filtri. L’interfaccia utente di Campaign Web ora offre un’interfaccia semplice e intuitiva per **gestire e personalizzare filtri preimpostati** per soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro.
+  Introduzione alla gestione predefinita dei filtri. L’interfaccia utente di Campaign Web offre un’interfaccia intuitiva per **gestire e personalizzare filtri predefiniti** per soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro.
 
   Per ulteriori informazioni, consulta [questa sezione](../get-started/predefined-filters.md).
 
@@ -145,17 +145,17 @@ Di seguito sono elencate le funzionalità principali disponibili con la versione
 
 * **SMS con offerte**
 
-  La nuova interfaccia utente Web ora consente di **integrare le offerte tramite SMS**, oltre alle e-mail. Raggiungi il tuo pubblico sui dispositivi mobili, consegnando promozioni e notifiche al momento giusto. Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS sulla nostra piattaforma web avanzata.
+  La nuova interfaccia utente di Campaign Web consente di: **integrare le offerte con SMS** oltre a E-mail. Raggiungi il tuo pubblico sui dispositivi mobili, consegnando promozioni e notifiche al momento giusto. Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS sulla nostra piattaforma web avanzata.
 
   Per ulteriori informazioni, consulta [questa sezione](../msg/offers.md).
 
-## Passaggio all’interfaccia utente di Campaign Web
+## Transizione all’interfaccia utente di Campaign Web
 
 In qualità di utente di Campaign, puoi comunque accedere alla console client per generare e gestire le risorse e i componenti di Campaign. I dati e le impostazioni vengono sincronizzati da un ambiente all’altro. Per ulteriori informazioni, consulta [questa sezione](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dal menu di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
+Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dalla barra di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Con il rilascio dell’interfaccia utente Campaign Web, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
+Con l’interfaccia utente di Campaign Web, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
 
 ## Aggiornamenti terminologici {#terminology-updates}
 

@@ -3,9 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Riconciliazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Riconciliazione
 badge: label="Disponibilità limitata"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 15%
 
 ---

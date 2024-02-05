@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Anteprima del contenuto della consegna
-description: Scopri come visualizzare in anteprima il contenuto delle consegne nell’interfaccia utente di Campaign Web
+description: Scopri come visualizzare in anteprima i contenuti della consegna con l’interfaccia utente web di Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilità limitata"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 78%
+source-wordcount: '381'
+ht-degree: 68%
 
 ---
 
@@ -30,21 +30,18 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
    * **[!UICONTROL Aggiungi iscritti]** per visualizzare in anteprima le notifiche push
 
-1. Puoi combinare profili di test e profili per visualizzare l’anteprima del messaggio e-mail o SMS.
+1. Puoi combinare profili e profili di test per visualizzare in anteprima il messaggio e-mail o SMS.
 
    * La scheda **[!UICONTROL Profili di test]** contiene tutti gli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >I profili di test possono essere creati da **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
+     I profili di test possono essere creati da **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
 
-   * La scheda **[!UICONTROL Profili]** elenca tutti i destinatari memorizzati nella cartella **[!UICONTROL Profili e destinazioni]** dalla console di [!DNL Campaign] Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=it){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >Puoi anche visualizzare e gestire i profili dalla scheda corrispondente nell’interfaccia web di Campaign. [Ulteriori informazioni](../audience/about-recipients.md)
+   * Il **[!UICONTROL Profili]** elenca tutti i destinatari archiviati in **[!UICONTROL Profili e destinazioni]** cartella da [!DNL Campaign] console client. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=it){target="_blank"}.
+
+     Puoi visualizzare, creare e gestire i profili dalla sezione **[!UICONTROL Profili]** scheda. [Ulteriori informazioni](../audience/about-recipients.md)
+
 
 1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca.
 
