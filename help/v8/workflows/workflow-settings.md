@@ -4,7 +4,7 @@ title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 72%
@@ -46,7 +46,7 @@ I valori possibili sono:
    * **Fuso orario del database** per utilizzare il fuso orario del server del database
    * Un fuso orario specifico
 * Quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato nel **[!UICONTROL Supervisori]** vengono notificati tramite e-mail.
-* *Si può anche inserire un **[!UICONTROL Descrizione]** del workflow.
+* È inoltre possibile immettere un **[!UICONTROL Descrizione]** del workflow.
 
 Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), viene visualizzato nel **[!UICONTROL Campagna collegata]** campo. Puoi aprire la campagna associata da quel campo.
 
