@@ -4,10 +4,10 @@ title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 96%
+source-wordcount: '917'
+ht-degree: 76%
 
 ---
 
@@ -29,23 +29,24 @@ A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile 
 >title="Proprietà del flusso di lavoro"
 >abstract="In questa sezione sono illustrate le proprietà generiche del flusso di lavoro accessibili anche durante la relativa creazione. Puoi scegliere il modello da utilizzare per creare il flusso di lavoro e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione del flusso di lavoro o il fuso orario."
 
-La sezione **[!UICONTROL Proprietà]** offre impostazioni generiche accessibili anche durante la creazione del flusso di lavoro.
+Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche durante la creazione del flusso di lavoro. Queste proprietà sono:
 
-* **[!UICONTROL Etichetta]**: l’etichetta del flusso di lavoro che viene visualizzata nell’elenco.
-* **[!UICONTROL Nome]**: il nome interno del flusso di lavoro.
-* **[!UICONTROL Cartella]**: la cartella in cui deve essere salvato il flusso di lavoro.
-* **[!UICONTROL Campagna collegata]**: questo campo viene visualizzato se il flusso di lavoro è stato creato all’interno di una campagna. Ti consente di aprire la campagna associata.
-* **[!UICONTROL Fuso orario]**: definisci un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
-Altri valori possibili sono:
+* Il **[!UICONTROL Etichetta]** del flusso di lavoro visualizzato nell’elenco.
+* Il **[!UICONTROL Nome]** del workflow.
+* Il **[!UICONTROL Cartella]** dove salvare il flusso di lavoro.
+* Il valore predefinito **[!UICONTROL Fuso orario]** da utilizzare in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
+I valori possibili sono:
    * **Fuso orario del server** per utilizzare il fuso orario del server dell’applicazione Adobe Campaign
    * **Fuso orario dell’operatore** per utilizzare il fuso orario dell’operatore di Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell’operatore, nella console client
    * **Fuso orario del database** per utilizzare il fuso orario del server del database
    * Un fuso orario specifico
+* Quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato nel **[!UICONTROL Supervisori]** vengono notificati tramite e-mail.
+* *Si può anche inserire un **[!UICONTROL Descrizione]** del workflow.
 
-* **[!UICONTROL Supervisori]**: quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato in questo campo ricevono una notifica tramite e-mail.
-* **[!UICONTROL Descrizione]**: utilizza questo campo per fornire una descrizione del flusso di lavoro.
+Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), viene visualizzato nel **[!UICONTROL Campagna collegata]** campo. Puoi aprire la campagna associata da quel campo.
 
-## Impostazioni di segmentazione
+
+## Impostazioni di segmentazione  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -56,9 +57,9 @@ Altri valori possibili sono:
 
 * **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione del flusso di lavoro. Le tabelle di lavoro delle esecuzioni precedenti vengono eliminate dal flusso di lavoro di pulizia, che viene eseguito su base giornaliera.
 
-  Se questa opzione è abilitata, le tabelle di lavoro verranno mantenute anche dopo l’esecuzione del flusso di lavoro. Puoi utilizzarlo a scopo di test e quindi solo in ambienti di sviluppo o di staging. Questa opzione non deve mai essere selezionata in un flusso di lavoro di produzione.
+  Se questa opzione è abilitata, le tabelle di lavoro verranno mantenute anche dopo l’esecuzione del flusso di lavoro. Puoi utilizzarlo a scopo di test e quindi deve essere utilizzato **solo** in ambienti di sviluppo o di staging. Questa opzione non deve mai essere selezionata in un flusso di lavoro di produzione.
 
-## Impostazioni di esecuzione
+## Impostazioni di esecuzione  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -73,16 +74,16 @@ Altri valori possibili sono:
 
 * **[!UICONTROL Affinità predefinita]**: se l’installazione include diversi server per il flusso di lavoro, utilizza questo campo per scegliere il computer su cui verrà eseguito il flusso di lavoro. Se il valore definito in questo campo non esiste su alcun server, il flusso di lavoro rimarrà in sospeso.
 
-* **[!UICONTROL Salva le query SQL nel registro]**: consente di salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creazione del pubblico]**. Quando questa opzione è selezionata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate nei registri del flusso di lavoro, consentendoti di analizzarle per ottimizzare le query o diagnosticare eventuali problemi.
+* **[!UICONTROL Salvare le query SQL nel registro]**: seleziona questa opzione per salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creazione del pubblico]**. Quando questa opzione è selezionata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate nei registri del flusso di lavoro, consentendoti di analizzarle per ottimizzare le query o diagnosticare eventuali problemi.
 
-## Impostazioni di gestione degli errori
+## Impostazioni di gestione degli errori  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Impostazioni di gestione degli errori"
->abstract="In questa sezione, puoi gestire il comportamento del flusso di lavoro quando si verifica un errore durante l’esecuzione (sospendi/interrompi l’esecuzione o ignora gli errori)."
+>abstract="In questa sezione puoi definire come il flusso di lavoro deve gestire gli errori durante la relativa esecuzione. È possibile scegliere di sospendere il processo, ignorare un certo numero di errori o arrestare l&#39;esecuzione del flusso di lavoro."
 
-* **[!UICONTROL Gestione degli errori]**: questo campo consente di definire le azioni da eseguire in caso di errori in un’attività del flusso di lavoro. Sono disponibili due opzioni possibili:
+* **[!UICONTROL Gestione degli errori]**: questo campo consente di definire le azioni da eseguire in caso di errori in un’attività del flusso di lavoro. Sono disponibili tre opzioni:
 
    * **[!UICONTROL Sospendi il processo]**: il flusso di lavoro viene messo automaticamente in pausa e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riprendi il flusso di lavoro utilizzando il pulsante **[!UICONTROL Riprendi]**.
    * **[!UICONTROL Ignora]**: lo stato dell’attività che ha attivato l’errore diventa **[!UICONTROL Non riuscito]**, ma il flusso di lavoro mantiene lo stato **[!UICONTROL Avviato]**.<!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
