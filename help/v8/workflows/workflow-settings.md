@@ -4,10 +4,10 @@ title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ Queste impostazioni sono preconfigurate nel modello selezionato durante la creaz
 
 A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Proprietà del flusso di lavoro {#properties}
 
@@ -29,10 +29,15 @@ A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile 
 >title="Proprietà del flusso di lavoro"
 >abstract="In questa sezione sono illustrate le proprietà generiche del flusso di lavoro accessibili anche durante la relativa creazione. Puoi scegliere il modello da utilizzare per creare il flusso di lavoro e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione del flusso di lavoro o il fuso orario."
 
-Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche accessibili anche durante la creazione del flusso di lavoro. Queste proprietà sono:
+La sezione **[!UICONTROL Proprietà]** offre impostazioni generiche accessibili anche durante la creazione del flusso di lavoro.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+Queste proprietà sono:
 
 * Il **[!UICONTROL Etichetta]** del flusso di lavoro visualizzato nell’elenco.
-* Il **[!UICONTROL Nome]** del workflow.
+* Il **[!UICONTROL Nome interno]** del workflow.
 * Il **[!UICONTROL Cartella]** dove salvare il flusso di lavoro.
 * Il valore predefinito **[!UICONTROL Fuso orario]** da utilizzare in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 I valori possibili sono:
