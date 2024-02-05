@@ -4,10 +4,10 @@ title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Disponibilità limitata"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 96%
+source-wordcount: '1367'
+ht-degree: 92%
 
 ---
 
@@ -144,11 +144,9 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 ## Pianificare l’invio {#schedule}
 
-Per pianificare l’invio dell’e-mail, segui i passaggi indicati di seguito.
+Quando una consegna viene inviata nel contesto di un flusso di lavoro, devi utilizzare **Scheduler** attività. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
 
-Per ulteriori istruzioni su come pianificare l’invio della consegna, consulta [questa sezione](../msg/gs-messages.md#gs-schedule).
-
-1. Passa alla sezione **[!UICONTROL Pianificazione]**.
+1. Accedi a **[!UICONTROL Pianificazione]** sezione delle proprietà di consegna.
 
 1. Utilizza l’opzione **[!UICONTROL Abilita pianificazione]** per attivarla.
 
@@ -156,7 +154,9 @@ Per ulteriori istruzioni su come pianificare l’invio della consegna, consulta 
 
    ![](assets/schedule.png)
 
-Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
+Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto definita.
+
+Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Anteprima e test dell’e-mail {#preview-test}
 

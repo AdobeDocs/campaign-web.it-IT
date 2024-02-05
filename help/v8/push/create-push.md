@@ -4,10 +4,10 @@ title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 89%
 
 ---
 
@@ -89,10 +89,21 @@ Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/p
 
 ## Pianificare l’invio della consegna {#schedule-push}
 
-Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione delle consegne, consulta [questa sezione](../msg/gs-messages.md#gs-schedule)
+Quando una consegna viene inviata nel contesto di un flusso di lavoro, devi utilizzare **Scheduler** attività. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
+
+Per pianificare una consegna push indipendente a una data e un’ora specifiche, effettua le seguenti operazioni:
+
+1. Accedi a **[!UICONTROL Pianificazione]** sezione delle proprietà di consegna.
+
+1. Utilizza l’opzione **[!UICONTROL Abilita pianificazione]** per attivarla.
+
+1. Imposta la data e l’ora desiderate per l’invio.
+
+Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario.
 
 ![](assets/push_create_3.png)
 
+Per ulteriori informazioni sulla pianificazione delle consegne, consulta [questa sezione](../msg/gs-messages.md#gs-schedule)
 
 ## Impostazioni avanzate per la consegna {#adv-push}
 
