@@ -4,10 +4,10 @@ title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 63%
+source-wordcount: '940'
+ht-degree: 60%
 
 ---
 
@@ -70,11 +70,11 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 
 1. Per impostazione predefinita, i servizi sono archiviati in **[!UICONTROL Servizi e abbonamenti]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
-1. Per impostazione predefinita, le iscrizioni hanno un periodo di validità illimitato. È possibile disattivare la **[!UICONTROL Periodo di validità illimitato]** per definire una durata di validità per il servizio.
+1. Per impostazione predefinita, gli abbonamenti sono illimitati.
 
-   Nell’esempio seguente, dopo 20 giorni:
-   * Nessun destinatario potrà più iscriversi a questo servizio.
-   * Tutte le iscrizioni a questo servizio verranno automaticamente annullate dopo 20 giorni. [Ulteriori informazioni](#automatic-unsubscription)
+   È possibile disattivare la **[!UICONTROL Periodo di validità illimitato]** per definire una durata di validità per il servizio. Al termine del periodo di validità:
+   * Nessun destinatario può più abbonarsi a questo servizio
+   * Tutti gli abbonati a questo servizio verranno automaticamente annullati
 
    ![](assets/service-create-validity-period.png)
 
