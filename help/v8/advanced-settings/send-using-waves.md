@@ -3,7 +3,7 @@ audience: end-user
 title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 2%
@@ -34,7 +34,11 @@ Per bilanciare il carico, puoi dividere le consegne in più batch. Configura il 
 
 1. Per configurare le ondate, puoi effettuare le seguenti operazioni:
 
-   * **[!UICONTROL Pianificazione di più scaglioni della stessa dimensione]**. Ad esempio, se si immette **[!UICONTROL 30%]** nel campo corrispondente, ogni ondata rappresenterà il 30% dei messaggi inclusi nella consegna, ad eccezione dell’ultimo, che rappresenterà il 10% dei messaggi.
+   * **[!UICONTROL Pianificazione di più scaglioni della stessa dimensione]**.
+
+     Ad esempio, se si immette **[!UICONTROL 30%]** nel campo corrispondente, ogni ondata rappresenterà il 30% dei messaggi inclusi nella consegna, ad eccezione dell’ultimo, che rappresenterà il 10% dei messaggi.
+
+     ![](assets/waves-same-size.png)
 
      In **[!UICONTROL Interval]** , specificare il ritardo tra l&#39;inizio di due scaglioni consecutivi. Ad esempio, se si immette **[!UICONTROL 2d]**, la prima ondata comincerà immediatamente, la seconda fra due giorni, la terza fra quattro giorni e così via.
 
@@ -44,7 +48,9 @@ Per bilanciare il carico, puoi dividere le consegne in più batch. Configura il 
 
      Nell’esempio seguente, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizierà immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
 
-     Una regola di controllo specifica per la tipologia, **[!UICONTROL Controllo programmazione ondata]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole sono configurate in **[!UICONTROL Tipologia]** delle impostazioni di consegna. Ulteriori informazioni sulle regole di controllo in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     Una regola di controllo specifica per la tipologia, **[!UICONTROL Controllo programmazione ondata]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole sono configurate in **[!UICONTROL Tipologia]** delle impostazioni di consegna. Ulteriori informazioni sulle regole di controllo in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ I due esempi seguenti sono i casi d’uso più comuni per l’utilizzo di più s
 
   A tale scopo, utilizza **[!UICONTROL Pianifica ondate in base a un calendario]** opzione. Ad esempio, imposta la prima ondata su 10%, la seconda su 15% e così via.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Campagne che coinvolgono un call center**
 
   Quando gestisci una campagna fedeltà telefonica, la tua organizzazione ha una capacità limitata di elaborare il numero di chiamate per contattare gli abbonati.
@@ -73,3 +81,5 @@ I due esempi seguenti sono i casi d’uso più comuni per l’utilizzo di più s
   Utilizzando le ondate, è possibile limitare il numero di messaggi a 20 al giorno, che rappresenta la capacità di elaborazione giornaliera di un call center.
 
   A questo scopo, seleziona la **[!UICONTROL Pianificazione di più scaglioni della stessa dimensione]** opzione. Invio **[!UICONTROL 20]** come la dimensione dell&#39;onda e **[!UICONTROL 1d]** nel **[!UICONTROL Periodo]** campo.
+
+  ![](assets/waves-call-center.png)

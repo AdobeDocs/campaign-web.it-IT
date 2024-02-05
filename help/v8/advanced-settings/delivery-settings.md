@@ -4,10 +4,10 @@ title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilità limitata"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 62%
+source-wordcount: '2326'
+ht-degree: 61%
 
 ---
 
@@ -125,9 +125,11 @@ In **[!UICONTROL Esclusione]** , puoi selezionare di escludere i destinatari che
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Impostazioni per la consegna"
->abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. È possibile attivare l’invio in Ccn per la consegna e modificare le modalità di consegna e di routine. Queste opzioni sono disponibili solo per utenti esperti."
+>abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. Puoi modificare le modalità di consegna e di routine, attivare e-mail in Ccn, inviare via ondata e scegliere anche il formato dei messaggi e-mail inviati. Queste opzioni sono disponibili solo per utenti esperti."
 
 **[!UICONTROL Consegna]** I parametri sono impostazioni tecniche che si applicano alla consegna.
+
+![](assets/delivery-settings-delivery.png)
 
 L’e-mail integrata **[!UICONTROL Indirizzamento]** l’account esterno è fornito per impostazione predefinita. Contiene i parametri tecnici che consentono all’applicazione di effettuare l’invio di e-mail.
 
