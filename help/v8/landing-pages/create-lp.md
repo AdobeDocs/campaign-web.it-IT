@@ -2,9 +2,9 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1003'
 ht-degree: 7%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creare e gestire le pagine di destinazione"
->abstract="Adobe Campaign consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione di comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter."
+>abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire, acquisire, sottoscrivere/annullare abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
 
-Per indirizzare i clienti a una pagina web definita che desideri visualizzare quando fanno clic su un collegamento specifico, crea una pagina di destinazione in [!DNL Adobe Campaign], progettarne il contenuto, testarlo e pubblicarlo.
+Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire, acquisire, sottoscrivere/annullare abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati.
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
