@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Pagine di destinazione"
->abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire, acquisire, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
+>abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire acquisizioni, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 
@@ -27,7 +27,7 @@ Una pagina di destinazione è una pagina web indipendente a cui un utente viene 
 * Configurazione **flussi di consenso e rinuncia** in modo rapido e semplice.
 * Creare servizi di abbonamento per consentire agli utenti di **abbonarsi a un servizio**. [Ulteriori informazioni](../audience/manage-services.md)
 * Fornisci ai destinatari le **possibilità di annullare l’abbonamento** dalla ricezione delle comunicazioni.
-* Invia un **email di conferma** al momento del consenso o della rinuncia.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

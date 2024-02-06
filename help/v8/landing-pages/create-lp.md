@@ -2,9 +2,9 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 7%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creare e gestire le pagine di destinazione"
->abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire, acquisire, sottoscrivere/annullare abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
+>abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire acquisizioni, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
 
-Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire, acquisire, sottoscrivere/annullare abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati.
+Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire acquisizioni, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati.
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -30,9 +30,9 @@ Il **[!UICONTROL Pagine di destinazione]** inventory visualizza tutti gli artico
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Non è possibile visualizzare le pagine di destinazione create dalla console client in Campaign Web. Per ulteriori informazioni, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client in Campaign Web. Per ulteriori informazioni, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui tre punti ac
 
    ![](assets/lp-pages.png)
 
-1. Il **[!UICONTROL Aggiornare il record precaricato]** è selezionato per impostazione predefinita. Se desideri aggiornare i profili memorizzati nel database tramite la pagina di destinazione, puoi utilizzare una casella di precaricamento. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database. Puoi anche scegliere tra i campi nel contesto corrente della pagina di destinazione, quelli che verranno utilizzati per trovare il profilo corrispondente nel database.
+1. Il **[!UICONTROL Aggiornare il record precaricato]** è selezionata per impostazione predefinita. Se desideri aggiornare i profili memorizzati nel database tramite la pagina di destinazione, puoi utilizzare una casella di precaricamento. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database. Puoi anche scegliere tra i campi nel contesto corrente della pagina di destinazione, quelli che verranno utilizzati per trovare il profilo corrispondente nel database.
 
    ![](assets/lp-storage-schedule.png)
 
