@@ -4,9 +4,9 @@ title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
 badge: label="Disponibilità limitata"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,11 @@ Se selezioni questa opzione, devi definire il giorno/ora di inizio per ogni scag
 
 * In **[!UICONTROL Dimensione]** , immettere un numero fisso o una percentuale.
 
-Aggiungi tutte le ondate necessarie.
+Aggiungi tutte le ondate che desideri. Puoi riordinarli in base alle tue esigenze.
+
+>[!NOTE]
+>
+>Se utilizzi percentuali, il totale per tutte le ondate non deve superare il 100%.
 
 Nell’esempio seguente, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizia immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
 
