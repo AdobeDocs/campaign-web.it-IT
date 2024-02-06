@@ -1,8 +1,9 @@
 ---
 title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
+feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 14%

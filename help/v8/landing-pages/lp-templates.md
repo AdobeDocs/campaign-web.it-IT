@@ -2,8 +2,9 @@
 audience: end-user
 title: Utilizzare i modelli di contenuto delle pagine di destinazione
 description: Scopri come salvare il contenuto della pagina di destinazione come modello di progettazione e riutilizzarlo nel web di Campaign
+feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 29%
