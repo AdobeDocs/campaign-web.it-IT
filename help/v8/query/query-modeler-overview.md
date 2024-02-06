@@ -3,7 +3,8 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 63%

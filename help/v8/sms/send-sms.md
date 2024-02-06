@@ -70,6 +70,6 @@ L’invio di SMS di test è un passaggio importante per garantire la qualità e 
 
 1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]**.
 
-Una volta inviata la consegna, puoi tenere traccia dei dati KPI (Key Performance Indicator) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
+Una volta inviata la consegna, puoi tenere traccia dei tuoi KPI (indicatori chiave di prestazioni) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
 
 Ora puoi iniziare a misurare l’impatto del messaggio utilizzando i rapporti incorporati. [Ulteriori informazioni](../reporting/sms-report.md)

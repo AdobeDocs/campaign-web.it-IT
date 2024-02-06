@@ -3,13 +3,13 @@ audience: end-user
 title: Esportazione dei rapporti
 description: Come esportare i rapporti
 badge: label="Disponibilità limitata"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 29%
 
 ---
-
 
 # Esportazione dei rapporti {#export-reports}
 
@@ -27,4 +27,3 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 1. Individua la cartella in cui desideri salvare il file, rinominala se necessario e fai clic su **[!UICONTROL Salva]**.
 
 Il rapporto è ora disponibile per la visualizzazione o la condivisione in un file PDF o CSV.
-

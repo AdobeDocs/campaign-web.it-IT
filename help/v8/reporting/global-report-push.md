@@ -3,7 +3,8 @@ audience: end-user
 title: Rapporti globali per il canale push
 description: Comprendere i rapporti globali per il canale push
 badge: label="Disponibilità limitata"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 34%
@@ -108,4 +109,3 @@ I tipi di errore per le notifiche push sono elencati nella [Documentazione di Ad
 ![](assets/global_report_push_delivery_throughput.png)
 
 Il **[!UICONTROL Velocità effettiva di consegna]** Il rapporto offre informazioni complete sull’efficacia del sistema di consegna delle notifiche push, offrendo un riepilogo dettagliato dei tassi di successo e di errore in un determinato periodo di tempo.
-

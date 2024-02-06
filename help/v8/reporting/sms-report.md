@@ -29,7 +29,7 @@ La **panoramica della consegna SMS** offre una panoramica completa della consegn
 >title="Panoramica della consegna SMS"
 >abstract="La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna."
 
-La **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sulle percentuali di successi ed errori e sul modo in cui i visitatori interagiscono con i messaggi SMS.
+Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sulle percentuali di successi ed errori e sul modo in cui i visitatori interagiscono con i messaggi SMS.
 
 ![](assets/reporting_sms_3.png)
 

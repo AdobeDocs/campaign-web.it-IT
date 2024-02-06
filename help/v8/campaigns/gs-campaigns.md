@@ -5,7 +5,7 @@ description: Scopri come iniziare a utilizzare le campagne cross-channel
 badge: label="Disponibilità limitata"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

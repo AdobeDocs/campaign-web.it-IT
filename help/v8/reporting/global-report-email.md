@@ -3,7 +3,8 @@ audience: end-user
 title: Rapporti globali per il canale e-mail
 description: Ulteriori informazioni sui rapporti globali per il canale e-mail
 badge: label="Disponibilità limitata"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 52%

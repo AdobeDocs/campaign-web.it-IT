@@ -7,7 +7,7 @@ exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ I destinatari del test possono rivedere elementi quali collegamenti, immagini e 
 
    ![](assets/push_send_4.png)
 
-Una volta inviata la consegna, puoi tenere traccia dei dati KPI (Key Performance Indicator) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
+Una volta inviata la consegna, puoi tenere traccia dei tuoi KPI (indicatori chiave di prestazioni) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
 
 Ora puoi iniziare a misurare l’impatto del messaggio utilizzando i rapporti incorporati. [Ulteriori informazioni](../reporting/push-report.md)

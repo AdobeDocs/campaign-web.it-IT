@@ -3,17 +3,17 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 badge: label="Disponibilità limitata"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 9%
+ht-degree: 34%
 
 ---
 
-
 # Introduzione ai rapporti globali {#global-report-gs}
 
-Il **Rapporti globali** funge da strumento efficace e offre un riepilogo consolidato generale delle metriche di traffico e coinvolgimento per ogni canale all’interno della tua istanza Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna.
+I **Rapporti globali** sono un valido strumento e offrono un riepilogo consolidato complessivo delle metriche di traffico e coinvolgimento per ogni canale all’interno di un’istanza Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna.
 
 L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 

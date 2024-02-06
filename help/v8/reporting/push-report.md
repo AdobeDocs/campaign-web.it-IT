@@ -29,7 +29,7 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 >title="Panoramica sulla consegna push"
 >abstract="La **Panoramica sulla consegna push** offre una panoramica completa della consegna push, con informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
-Il rapporto **[!UICONTROL Panioramica della consegna]** offre indicatori chiave di performance (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
+Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
 
 ![](assets/reporting_push_3.png)
 

@@ -8,7 +8,7 @@ level: Beginner
 badge: label="Disponibilità limitata"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
 
@@ -111,9 +111,9 @@ Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Imposta una data e un’ora di contatto"
->abstract="Definisci la data e l’ora esatta dell’invio della consegna. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi ottimizzare le percentuali di apertura."
+>abstract="Definisci la data e l’ora esatta dell’invio della consegna. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi ottimizzare i tassi di apertura."
 
-Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi ottimizzare le percentuali di apertura.
+Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo l’orario più appropriato per il messaggio di marketing, puoi ottimizzare i tassi di apertura.
 
 Per pianificare l’invio dell’e-mail, apri la consegna e passa alla sezione **[!UICONTROL Pianificazione]**. Utilizza l’interruttore **[!UICONTROL Abilita pianificazione]** per attivarla e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizierà dalla data di contatto definita.
 
