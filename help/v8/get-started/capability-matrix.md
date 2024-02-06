@@ -5,9 +5,9 @@ description: Elenco delle funzioni supportate nell’interfaccia utente di Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 13%
 
 ---
@@ -35,7 +35,7 @@ Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 
 * Marketing Resource Management (MRM), obiettivi, simulazioni e controllo dei costi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Gestione delle attività. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Canali di comunicazione{ #channels-capabilities}
+## Canali di comunicazione {#channels-capabilities}
 
 Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare e-mail, SMS e notifiche push e misurarne l’impatto utilizzando vari rapporti dedicati, come descritto di seguito. [in questa sezione](../msg/gs-messages.md). Tuttavia, i seguenti canali non sono disponibili in questa versione.
 
