@@ -2,12 +2,13 @@
 audience: end-user
 title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilità limitata"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 61%
+source-wordcount: '2425'
+ht-degree: 57%
 
 ---
 
@@ -133,15 +134,23 @@ In **[!UICONTROL Esclusione]** , puoi selezionare di escludere i destinatari che
 
 L’e-mail integrata **[!UICONTROL Indirizzamento]** l’account esterno è fornito per impostazione predefinita. Contiene i parametri tecnici che consentono all’applicazione di effettuare l’invio di e-mail.
 
-Puoi definire quanto segue **[!UICONTROL Invio]** impostazioni:
+È possibile definire **[!UICONTROL Invio]** di seguito.
+
+* **[!UICONTROL Priorità di consegna]**: utilizza questa opzione per modificare l’ordine di invio delle consegne impostandone il livello di priorità: normale, alto o basso.
+
+* **[!UICONTROL Quantità batch messaggi]**: utilizza questa opzione per definire il numero di messaggi raggruppati nello stesso pacchetto di consegna XML. Se il parametro è impostato su 0, i messaggi vengono raggruppati automaticamente. La dimensione del pacchetto è definita dal calcolo `<delivery size>/1024`, con un minimo di 8 e un massimo di 256 messaggi per pacchetto.
+
+  >[!IMPORTANT]
+  >
+  >Quando la consegna viene creata duplicandone una esistente, questo parametro viene reimpostato.
 
 * **[!UICONTROL Test consegna SMTP]**: questa opzione viene utilizzata per verificare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
 * **[!UICONTROL CCN e-mail]**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn semplicemente aggiungendo un indirizzo e-mail Ccn alla destinazione del messaggio. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
-* **[!UICONTROL Invia in più ondate]**: puoi aumentare progressivamente il volume inviato tramite scaglioni. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
+In **[!UICONTROL Definizione ondata]** , seleziona la sezione **[!UICONTROL Invia in più ondate]** per aumentare progressivamente il volume inviato utilizzando le scaglioni. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
-Puoi anche modificare il formato dei messaggi e-mail inviati:
+È inoltre possibile modificare **[!UICONTROL Formati e-mail]** dei messaggi e-mail inviati come descritto di seguito.
 
 * **[!UICONTROL Utilizzare le preferenze dei destinatari]** (modalità predefinita)
 

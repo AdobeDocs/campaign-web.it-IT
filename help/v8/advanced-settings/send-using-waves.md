@@ -2,10 +2,11 @@
 audience: end-user
 title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
+feature: Email
 badge: label="Disponibilità limitata"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '767'
 ht-degree: 5%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 5%
 >title="Definire la dimensione di ogni scaglione"
 >abstract="Immettete una dimensione per tutte le ondate che state aggiungendo. Immetti un valore numerico (numero di messaggi per ogni ondata) o una percentuale (0-100%)."
 
-Per bilanciare il carico, puoi dividere le consegne in più batch. Configura il numero di batch e la loro proporzione rispetto all’intera consegna, nonché l’intervallo tra due ondate.
+Per bilanciare il carico, puoi suddividere le consegne e-mail in più batch. Configura il numero di batch e la loro proporzione rispetto all’intera consegna, nonché l’intervallo tra due ondate.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Per inviare le consegne scaglionate, segui la procedura riportata di seguito.
 
    >[!CAUTION]
    >
-   >Assicurati che gli ultimi scaglioni non superino la scadenza di consegna, definita nella sezione **[!UICONTROL Validità]** scheda. In caso contrario, alcuni messaggi potrebbero non essere inviati. [Ulteriori informazioni](delivery-settings.md#validity)
+   >Assicurati che gli ultimi scaglioni non superino la scadenza di consegna, definita nella [Validità](delivery-settings.md#validity) , altrimenti alcuni messaggi potrebbero non essere inviati. Una regola di controllo specifica per la tipologia, **[!UICONTROL Controllo programmazione ondata]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Ulteriori informazioni sulle regole di controllo in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >È inoltre necessario concedere tempo sufficiente per i nuovi tentativi durante la configurazione degli ultimi scaglioni. [Ulteriori informazioni](delivery-settings.md#retries)
 
-1. Per monitorare gli invii, vai al [registri di consegna](../monitor/delivery-logs.md).
-
-   Puoi visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Inviato]** stato) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL In sospeso]** stato).
-
-Una regola di controllo specifica per la tipologia, **[!UICONTROL Controllo programmazione ondata]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole sono configurate in **[!UICONTROL Tipologia]** delle impostazioni di consegna. Ulteriori informazioni sulle regole di controllo in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Per monitorare gli invii, vai al [registri di consegna](../monitor/delivery-logs.md). Puoi visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Inviato]** stato) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL In sospeso]** stato).
 
 ## Pianifica più scaglioni della stessa dimensione. {#waves-same-size}
 
@@ -64,7 +61,7 @@ Se selezionate questa opzione, tutte le onde hanno la stessa dimensione (tranne 
 
 * Specifica la dimensione di tutte le ondate in cui si sta suddividendo la consegna. È possibile immettere una percentuale o un valore numerico. Solo l&#39;ultima ondata può variare in dimensioni in quanto deve includere il numero rimanente di messaggi.
 
-  Ad esempio, se si immette **[!UICONTROL 30%]** nel campo corrispondente, le prime tre ondate rappresentano il 30% di tutti i messaggi inclusi nella consegna, mentre la quarta rappresenta il restante 10%.
+  Ad esempio, se si immette **[!UICONTROL 30%]** nel **[!UICONTROL Dimensione scaglioni]** le prime tre ondate rappresentano il 30% di tutti i messaggi inclusi nella consegna, mentre la quarta rappresenta il restante 10%.
 
 * In **[!UICONTROL Interval]** , specificare il ritardo tra l&#39;inizio di due scaglioni consecutivi. Ad esempio, se si immette **[!UICONTROL 2 giorni]**, la prima ondata inizia immediatamente, la seconda inizierà tra due giorni, la terza ondata tra quattro giorni, e così via.
 
@@ -80,7 +77,7 @@ A questo scopo, seleziona la **[!UICONTROL Pianificazione di più scaglioni dell
 
 Se selezioni questa opzione, devi definire il giorno/ora di inizio per ogni scaglione che stai inviando, nonché la dimensione di ogni scaglione.
 
-* In **[!UICONTROL Inizio]** , specificare il ritardo tra l&#39;inizio di due ondate consecutive.
+* In **[!UICONTROL Inizio]** , specificare il ritardo tra l&#39;inizio di due scaglioni consecutivi.
 
 * In **[!UICONTROL Dimensione]** , immettere un numero fisso o una percentuale.
 
