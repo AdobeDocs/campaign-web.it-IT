@@ -6,7 +6,7 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 88%
@@ -27,7 +27,7 @@ ht-degree: 88%
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Accesso e autorizzazioni](get-started/permissions.md)
    + [Guardrail e limitazioni](get-started/guardrails.md)
-   + [Funzionalità non supportate](get-started/unsupported.md)
+   + [Funzionalità non supportate](get-started/capability-matrix.md)
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
