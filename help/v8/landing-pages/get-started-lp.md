@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 7%
+source-wordcount: '223'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 7%
 >abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire acquisizioni, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
+Adobe Campaign consente di creare, progettare e condividere pagine di destinazione. Nel contesto delle campagne di marketing, una pagina di destinazione è una pagina web indipendente in cui un visitatore viene indirizzato dopo aver fatto clic su un collegamento all’interno di un’e-mail, un SMS, una consegna push o un sito web.
 
-Una pagina di destinazione è una pagina web indipendente a cui un utente viene indirizzato dopo aver fatto clic da un’e-mail, un sito web, un annuncio o qualsiasi altra posizione digitale.
+[!DNL Adobe Campaign] consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter. Adobe Campaign viene fornito con quattro modelli per gestire l’acquisizione, gli abbonamenti, il loro annullamento e i casi d’uso inseriti nell&#39;elenco Bloccati.
 
-[!DNL Adobe Campaign] consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
+Le funzionalità principali sono elencate di seguito:
 
 * Sfruttare [!DNL Adobe Campaign] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
 * Configurazione **flussi di consenso e rinuncia** in modo rapido e semplice.

@@ -2,10 +2,10 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 badge: label="Disponibilità limitata"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 7%
+source-wordcount: '1031'
+ht-degree: 6%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creare e gestire le pagine di destinazione"
->abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire acquisizioni, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati."
+>abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire l’acquisizione, gli abbonamenti/annullamenti di abbonamenti e inserire nell&#39;elenco Bloccati casi di utilizzo, in base ai modelli incorporati."
 
-Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire acquisizioni, abbonamenti/annullamenti di abbonamenti e casi di utilizzo di elenchi Bloccati, in base a modelli incorporati.
+Adobe Campaign consente di creare, progettare e condividere pagine di destinazione. Nel contesto delle campagne di marketing, una pagina di destinazione è una pagina web indipendente in cui un visitatore viene indirizzato dopo aver fatto clic su un collegamento all’interno di un’e-mail, un SMS, una consegna push o un sito web. Adobe Campaign viene fornito con quattro modelli da gestire **acquisizione**, **abbonamenti**, **annullamento abbonamenti**, e **inserisco nell&#39;elenco Bloccati** casi di utilizzo.
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
