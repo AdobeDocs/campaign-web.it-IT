@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="IA generativa per i contenuti e-mail"
->abstract="La nostra tecnologia di IA generativa utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Aumenta i tassi di apertura, i tassi di click-through e le conversioni con la generazione intelligente di contenuti di Gen AI."
+>abstract="La nostra tecnologia di IA generativa utilizza algoritmi avanzati per generare contenuti altamente coinvolgenti e personalizzati. Aumenta i tassi di apertura e di click-through e le conversioni con la generazione intelligente di contenuti basata su IA generativa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 <!--TO REMOVE ABOVE-->
