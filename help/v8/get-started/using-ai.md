@@ -1,12 +1,12 @@
 ---
 title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale in Campaign Web
 description: Porre domande nei popover della guida di Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 Ottieni risposte rapide e generate dall’intelligenza artificiale in base alla documentazione del prodotto e al contesto di prodotto corrente, con le domande e risposte della guida contestuale basata sull’intelligenza artificiale disponibile nei relativi riquadri del prodotto.
 
->[!CAUTION]
->
->Questa funzionalità è disponibile in versione Alpha ed è soggetta a modifiche senza preavviso.
->
->Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che[la tua lingua preferita](connect-to-campaign.md#language-pref) sia impostata su inglese prima di utilizzare questa funzionalità.
-
-
 La **Guida contestuale con Generazione basata sull’intelligenza artificiale**, incorporata nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
 
 Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo componente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, la Guida contestuale basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>L’aiuto contestuale basato sull’intelligenza artificiale è disponibile nella versione beta e soggetto a modifiche senza preavviso.
+>
+>Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che[la tua lingua preferita](connect-to-campaign.md#language-pref) sia impostata su inglese prima di utilizzare questa funzionalità.
+>
+>Al momento, l’aiuto contestuale basato sull’intelligenza artificiale non è disponibile in Campaign E-mail Designer.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 La Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign offre assistenza, ma è necessario verificare i fatti. Potrebbe generare informazioni non corrette, risposte inesatte o fuorvianti. Assicurati di controllare la documentazione del prodotto collegata in ogni riquadro della guida.
 
 L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. La Guida contestuale basata sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Ti consigliamo vivamente di utilizzare il pulsante <img src="assets/do-not-localize/thumb.png" width="10%"/> ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri tecnici.
+
 
 ## Raccomandazioni  {#recommendations-ai}
 
