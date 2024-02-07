@@ -5,9 +5,9 @@ description: Elenco delle funzioni supportate nell’interfaccia utente di Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: bef5e0c93b32d5138df313dfd6c3051ec9303578
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 9%
 
 ---
@@ -174,7 +174,7 @@ Scopri come gestire le approvazioni di consegne, contenuti e targeting nelle cam
 
 ## Autorizzazioni  {#permissions-capabilities}
 
-Gli utenti di Campaign possono accedere all’interfaccia utente di Campaign Web solo con il proprio Adobe ID, basato su Adobe Identity Management System (IMS).
+Gli utenti di Campaign possono accedere all’interfaccia utente di Campaign Web solo con il proprio Adobe ID, tramite Adobe Identity Management System (IMS).
 
 Le autorizzazioni sono definite in dettaglio nella console client di Adobe Admin Console e Adobe Campaign [in questa sezione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=it). Dall’interfaccia utente web di Adobe Campaign non è possibile eseguire alcuna azione sulle autorizzazioni.
 
