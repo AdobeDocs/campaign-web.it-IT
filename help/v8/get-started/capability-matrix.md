@@ -5,7 +5,7 @@ description: Elenco delle funzioni supportate nell’interfaccia utente di Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 8%
@@ -114,7 +114,7 @@ Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 
 
 ## Flussi di lavoro {#wf-capabilities}
 
-La nuova interfaccia utente di Campaign Web include un’interfaccia dell’area di lavoro del flusso di lavoro riprogettata per progettare e gestire i processi. Le attività chiave del flusso di lavoro sono già disponibili nel loro nuovo design, alcune saranno disponibili in una versione futura. Ulteriori informazioni sulle funzionalità del flusso di lavoro, inclusi guardrail e limitazioni [in questa sezione](../workflows/gs-workflows.md)
+La nuova interfaccia utente di Campaign Web include un’interfaccia dell’area di lavoro del flusso di lavoro riprogettata per progettare e gestire i processi. Le attività chiave del flusso di lavoro sono già disponibili nel loro nuovo design, alcune saranno disponibili in una versione futura. Ulteriori informazioni sulle funzionalità del flusso di lavoro, inclusi guardrail e limitazioni [in questa sezione](../get-started/guardrails.md).
 
 Tieni presente che le seguenti funzionalità sono disponibili solo nella console client di Campaign:
 
