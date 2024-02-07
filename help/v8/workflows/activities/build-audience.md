@@ -4,10 +4,10 @@ title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 badge: label="Disponibilità limitata"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 71%
+source-wordcount: '379'
+ht-degree: 69%
 
 ---
 
@@ -35,11 +35,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## Configurare l’attività Creazione del pubblico{#build-audience-configuration}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Selezionare una dimensione targeting"
->abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari."
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
