@@ -3,10 +3,10 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 6%
+source-wordcount: '1185'
+ht-degree: 5%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creare e gestire le pagine di destinazione"
->abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire l’acquisizione, gli abbonamenti/annullamenti di abbonamenti e inserire nell&#39;elenco Bloccati casi di utilizzo, in base ai modelli incorporati."
+>abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire l’acquisizione, l’abbonamento/annullamento dell’abbonamento e inserire nell&#39;elenco Bloccati casi d’uso, in base ai modelli incorporati."
 
-Adobe Campaign consente di creare, progettare e condividere pagine di destinazione. Nel contesto delle campagne di marketing, una pagina di destinazione è una pagina web indipendente in cui un visitatore viene indirizzato dopo aver fatto clic su un collegamento all’interno di un’e-mail, un SMS, una consegna push o un sito web. Adobe Campaign viene fornito con quattro modelli da gestire **acquisizione**, **abbonamenti**, **annullamento abbonamenti**, e **inserisco nell&#39;elenco Bloccati** casi di utilizzo.
+L’interfaccia utente di Campaign Web consente di creare, progettare e pubblicare pagine di destinazione. Dopo la pubblicazione, puoi inserire un collegamento al modulo in una consegna. Dopo che i destinatari hanno fatto clic su tale collegamento, vengono indirizzati alla pagina di destinazione corrispondente.
+
+[!DNL Adobe Campaign] viene fornito con quattro modelli per gestire i seguenti casi d’uso: **acquisizione**, **abbonamento**, **annullamento iscrizione**, e **inserisco nell&#39;elenco Bloccati**.
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -33,11 +35,11 @@ Il **[!UICONTROL Pagine di destinazione]** inventory visualizza tutti gli artico
 
 >[!CAUTION]
 >
->Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client in Campaign Web. Per ulteriori informazioni, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client (moduli web) nell’interfaccia utente di Campaign Web. Per ulteriori informazioni, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata.
+Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di sospensione accanto a una pagina di destinazione per selezionare l’azione desiderata.
 
 ## Creare una pagina di destinazione {#create-landing-page}
 
@@ -48,14 +50,13 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui tre punti ac
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Definire il contenuto delle pagine"
->abstract="Modifica il contenuto di ogni pagina che fa parte di questa pagina di destinazione."
+>title="Definire il contenuto di ogni pagina"
+>abstract="Regola il contenuto di ogni pagina che fa parte di questa pagina di destinazione, ad esempio il modulo stesso, la pagina di conferma visualizzata al momento dell’invio del modulo oppure la pagina a cui gli utenti vengono indirizzati nel caso si verifichi un errore."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Pianificare la pagina di destinazione"
->abstract="Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Quando la pagina è scaduta, il **Scade** viene visualizzata."
-
+>abstract="Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Al termine del periodo di validità della pagina, il modulo non è più disponibile. Il **Scade** viene invece visualizzata la pagina."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -77,15 +78,17 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui tre punti ac
 
 1. Seleziona un modello:
    * **[!UICONTROL Acquisizione]**: questo è il modello predefinito per le pagine di destinazione, che ti consente di acquisire e aggiornare i dati del profilo.
-   * **[!UICONTROL Abbonamento]**: utilizza questo modello per offrire abbonamenti a un servizio.
-   * **[!UICONTROL Annullamento iscrizione]**: è possibile collegare questo modello da un’e-mail inviata agli abbonati a un servizio, per consentire loro di annullare l’abbonamento a tale servizio.
+   * **[!UICONTROL Abbonamento]**: utilizza questo modello per consentire agli utenti di abbonarsi a uno specifico [servizio](manage-services.md).
+   * **[!UICONTROL Annullamento iscrizione]**: questo modello può essere utilizzato in una consegna inviata agli abbonati di un servizio, per consentire loro di annullare l’abbonamento [servizio](manage-services.md).
    * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo non desidera più essere contattato da Campaign. Ulteriori informazioni sulla gestione dei inserisce nell&#39;elenco Bloccati di
 
    ![](assets/lp-templates.png)
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-1. Compila i campi delle proprietà, ad esempio l’etichetta. Per impostazione predefinita, le pagine di destinazione sono memorizzate in **[!UICONTROL Applicazioni web]** cartella. È possibile modificarlo individuando la posizione desiderata nella **[!UICONTROL Opzioni aggiuntive]**. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
+1. Compila il **[!UICONTROL Proprietà]** campi come l’etichetta.
+
+   Per impostazione predefinita, le pagine di destinazione sono memorizzate in **[!UICONTROL Applicazioni web]** cartella. È possibile modificarlo individuando la posizione desiderata nella **[!UICONTROL Opzioni aggiuntive]**. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
    ![](assets/lp-properties.png)
 
@@ -99,15 +102,31 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui tre punti ac
 
    ![](assets/lp-pages.png)
 
-1. Il **[!UICONTROL Aggiornare il record precaricato]** è selezionata per impostazione predefinita. Se desideri aggiornare i profili memorizzati nel database tramite la pagina di destinazione, puoi utilizzare una casella di precaricamento. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database. Puoi anche scegliere tra i campi nel contesto corrente della pagina di destinazione, quelli che verranno utilizzati per trovare il profilo corrispondente nel database.
+1. Il **[!UICONTROL Aggiornare il record precaricato]** è selezionata per impostazione predefinita. Consente di aggiornare i profili memorizzati nel database tramite la pagina di destinazione. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database.
 
-   ![](assets/lp-storage-schedule.png)
+   Puoi anche scegliere tra i campi nel contesto corrente della pagina di destinazione, quelli che verranno utilizzati per trovare il profilo corrispondente nel database. Per farlo, deseleziona la **[!UICONTROL Aggiornare il record precaricato]** e seleziona i campi desiderati in **[!UICONTROL Opzioni di riconciliazione]**.
 
-1. Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Seleziona **[!UICONTROL Abilita pianificazione]** e impostare le date. Quando la pagina è scaduta, il **[!UICONTROL Scade]** viene visualizzata.
+   ![](assets/lp-storage.png)
+
+1. Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Seleziona **[!UICONTROL Abilita pianificazione]** e impostare le date.
+
+   ![](assets/lp-schedule.png)
+
+   * La pagina di destinazione viene pubblicata automaticamente nella data/ora di inizio specificata.
+
+     >[!NOTE]
+     >
+     >Se non è definita alcuna data di inizio, la pagina di destinazione diventa attiva non appena viene pubblicata.
+
+   * Quando la pagina raggiunge la data di fine, la pubblicazione della pagina di destinazione viene automaticamente annullata e il modulo non è più disponibile. Il **[!UICONTROL Scade]** viene invece visualizzata la pagina.
+
+     >[!NOTE]
+     >
+     >Per motivi di sicurezza e prestazioni della piattaforma, l’Adobe consiglia di impostare una data di fine.
 
 1. Clic **[!UICONTROL Revisione e pubblicazione]**.
 
-Dopo aver configurato e progettato tutte le pagine, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
+Una volta definite tutte le impostazioni e [progettato](lp-content.md) tutte le pagine, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
 
 ## Verifica della pagina di destinazione {#test-landing-page}
 
@@ -125,9 +144,9 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!CAUTION]
 >
->Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. Scopri come [creare profili di test](../audience/test-profiles.md).
+>Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. [Ulteriori informazioni sui profili di test](../audience/test-profiles.md)
 
-1. Nell’interfaccia della pagina di destinazione, fai clic su **[!UICONTROL Simula contenuto]** per accedere alla selezione del profilo di test.
+1. Dopo aver fatto clic su **[!UICONTROL Revisione e pubblicazione]**, seleziona la **[!UICONTROL Simula contenuto]** dal dashboard della pagina di destinazione per accedere alla selezione del profilo di test.
 
    ![](assets/lp-simulate-content.png)
 
@@ -141,6 +160,8 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 1. L’anteprima della pagina di destinazione viene visualizzata in una nuova scheda. Gli elementi personalizzati vengono sostituiti dai dati del profilo di test selezionati.
 
+   Se hai selezionato **[!UICONTROL Precompilare con i dati a cui si fa riferimento nel modulo]** nelle impostazioni della pagina di destinazione, i campi del modulo vengono precompilati automaticamente con i dati del profilo di test corrispondenti.<!--TBC-->
+
    ![](assets/lp-preview.png)
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
@@ -149,12 +170,14 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 ## Pubblicare la pagina di destinazione {#publish-landing-page}
 
-Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
+Quando la pagina di destinazione è pronta, pubblicala per renderla disponibile per l’utilizzo in una consegna utilizzando il pulsante corrispondente.
 
-Una volta pubblicata, la pagina di destinazione viene aggiunta all’elenco delle pagine di destinazione con **[!UICONTROL Pubblicato]** stato. Ora è attivo e pronto per essere utilizzato.
+Dopo la pubblicazione:
+
+* La pagina di destinazione viene aggiunta all’elenco delle pagine di destinazione con **[!UICONTROL Pubblicato]** stato. Ora è attivo e pronto per essere utilizzato come riferimento nei contenuti.
+
+* È possibile copiare e incollare **[!UICONTROL URL della pagina di destinazione]** che viene visualizzata nella parte superiore della pagina in un browser web.
 
 ![](assets/lp-published.png)
 
-Dopo la pubblicazione, puoi copiare e incollare i **[!UICONTROL URL della pagina di destinazione]** che viene visualizzata nella parte superiore della pagina in un browser web.
-
-Puoi monitorare l’impatto della pagina di destinazione tramite registri e rapporti specifici.
+Puoi monitorare l’impatto della pagina di destinazione tramite i registri<!--and specific reports-->. Fai clic su **[!UICONTROL Registri]** pulsante.
