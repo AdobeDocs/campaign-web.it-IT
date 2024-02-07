@@ -5,16 +5,16 @@ description: Elenco delle funzioni supportate nell’interfaccia utente di Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1485'
 ht-degree: 9%
 
 ---
 
 # Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web {#capabilities-matrix}
 
-Le seguenti funzionalità sono accessibili solo dalla console client di Campaign. Alcuni saranno disponibili in una versione successiva dell’interfaccia utente web di Campaign.
+Le funzionalità principali di Campaign sono disponibili nell’interfaccia utente di Campaign Web. Tuttavia, alcune impostazioni e funzionalità sono accessibili, create o gestite solo dalla console client di Campaign. Alcuni saranno disponibili in una versione successiva dell’interfaccia utente web di Campaign.
 
 <!--
 **Homepage**
