@@ -4,10 +4,10 @@ title: Scoprire l’interfaccia
 description: Interfaccia utente web di Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilità limitata"
-source-git-commit: 5badcc46be14fb2cd218fd525b0c5eed8788a680
+source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 93%
+source-wordcount: '1636'
+ht-degree: 92%
 
 ---
 
@@ -143,7 +143,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Autorizzazione necessaria"
@@ -154,11 +153,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Autorizzazione necessaria"
 >abstract="Prima di poter creare un segmento, l’amministratore deve concederti l’autorizzazione."
 
-<!-- Workflows-->
-
-
 <!-- delivery template settings-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
@@ -174,8 +169,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="Elenco dei flussi di lavoro in una campagna"
 >abstract="Elenco dei flussi di lavoro in una campagna"
-
-<!-- delivery settings-->
 
 
 <!-- FOR BETA (alignment) -->
@@ -322,6 +315,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Proprietà contenuto per direct Mail"
 >abstract="Proprietà contenuto per direct Mail"
+
+<!-- FOR POST-GA -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_data_source"
+>title="Cambia origine dati"
+>abstract="Il **Cambia origine dati** attività ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
 
 <!--
