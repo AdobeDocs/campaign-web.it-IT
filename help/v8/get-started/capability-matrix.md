@@ -5,9 +5,9 @@ description: Elenco delle funzioni supportate nell’interfaccia utente di Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 8%
 
 ---
@@ -184,8 +184,13 @@ Le autorizzazioni sono definite in dettaglio nella console client di Adobe Admin
 
 Le funzionalità di monitoraggio della piattaforma Campaign sono disponibili solo nella console client e nel pannello di controllo Campaign. Non compaiono nell’interfaccia utente di Campaign Web.
 
-Sfoglia i collegamenti forniti per [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"} per ulteriori informazioni.
+Per ulteriori informazioni, consulta i collegamenti forniti alla documentazione di Campaign v8 (console client) e al Pannello di controllo Campaign.
 
 * [Monitoraggio dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Mappa di calore del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Monitoraggio delle prestazioni](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it){target="_blank"}
+* [Monitoraggio della consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
