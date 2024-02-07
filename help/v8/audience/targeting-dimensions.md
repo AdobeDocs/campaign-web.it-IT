@@ -3,14 +3,24 @@ title: Dimensioni di targeting
 description: Ulteriori informazioni sulle dimensioni di targeting in Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: a7c640c39e04443c5925f36ce966e7b5125e9a33
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 61%
+source-wordcount: '457'
+ht-degree: 60%
 
 ---
 
 # Dimensioni di targeting {#targeting-dimensions}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Selezionare una dimensione targeting"
+>abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting"
+>title="Dimensione targeting"
+>abstract="Seleziona la nuova dimensione di targeting. Una dimensione ti consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc. Per impostazione predefinita, è selezionata la dimensione di targeting corrente."
 
 La dimensione targeting, detta anche mappatura target, è il tipo di dati gestito da un’operazione. Consente di definire la popolazione target: profili, beneficiari del contratto, operatori, abbonati, ecc.
 
