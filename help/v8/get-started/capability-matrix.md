@@ -5,16 +5,18 @@ description: Elenco delle funzioni supportate nell’interfaccia utente di Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
+source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 9%
+source-wordcount: '1503'
+ht-degree: 8%
 
 ---
 
 # Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web {#capabilities-matrix}
 
-Le funzionalità principali di Campaign sono disponibili nell’interfaccia utente di Campaign Web. Tuttavia, alcune impostazioni e funzionalità sono accessibili, create o gestite solo dalla console client di Campaign. Alcuni saranno disponibili in una versione successiva dell’interfaccia utente web di Campaign.
+Le funzionalità principali di Campaign sono disponibili nell’interfaccia utente di Campaign Web. Questa interfaccia è stata progettata principalmente per consentire agli addetti al marketing di pianificare, avviare e misurare le campagne di marketing. Sono elencate tutte le funzionalità [in questa pagina](../rn/whats-new.md).
+
+La personalizzazione della piattaforma Campaign in base alle esigenze aziendali e di dati e la connessione ad altri sistemi sono gestite nella console client di Campaign. Di conseguenza, alcune impostazioni e funzionalità sono accessibili, create o gestite solo dalla console client di Campaign. Alcuni saranno disponibili in una versione successiva dell’interfaccia utente web di Campaign.
 
 <!--
 **Homepage**
@@ -61,7 +63,7 @@ Di conseguenza, nella console client di Campaign non è possibile modificare, ag
 
 Puoi creare, gestire e aggiornare profili e profili di test sia nella console client di Campaign che nell’interfaccia utente di Campaign Web. Tutte le modifiche eseguite in un’interfaccia utente sono visibili nell’altra. Tuttavia, nella nuova interfaccia utente web di Campaign potrebbero mancare alcune impostazioni specifiche dei destinatari e alcuni parametri avanzati. Il termine &quot;destinatario&quot; è stato modificato in &quot;profilo&quot; nella nuova interfaccia utente web.
 
-La composizione del pubblico è una nuova funzionalità introdotta con l’interfaccia utente web di Campaign. Di conseguenza, nella console client di Campaign non è possibile modificare, aggiornare o modificare un’ [pubblico creato con Query Modeler](../query/query-modeler-overview.md).
+<!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
 Tutti i tipi di pubblico creati nella console client di Campaign o in Adobe Experience Platform sono disponibili nell’interfaccia utente di Campaign Web.
 
@@ -82,18 +84,18 @@ Sfoglia [Documentazione di Campaign v8 (console client)](https://experienceleagu
 
 Il nuovo E-mail Designer in arrivo con l’interfaccia utente web di Adobe Campaign consente di creare e-mail accattivanti e personalizzate tramite un’intuitiva interfaccia a trascinamento. Indipendentemente dal fatto che si inizi da una lavagna vuota, importando un contenuto esistente o sfruttando i modelli esistenti, è possibile progettare e perfezionare tutto il contenuto per ogni e-mail. [Ulteriori informazioni](../email/edit-content.md)
 
-Con questa nuova interfaccia utente, puoi anche utilizzare Assets da Adobe Experience Manager 6.5 in un contenuto e-mail, gestire la sincronizzazione dei modelli e-mail da Adobe Experience Manager e integrarli con Adobe Experience Manager as a Cloud Service.
+Con questa nuova interfaccia utente, puoi gestire la sincronizzazione dei modelli e-mail da Adobe Experience Manager e integrarli con Adobe Experience Manager as a Cloud Service.
 
-Tieni presente che le seguenti funzionalità non sono disponibili in questa versione del prodotto. Utilizza i collegamenti forniti per sfogliare la documentazione di Campaign v8 (console client) e ulteriori informazioni su queste funzioni (funzioni con `*` non sono supportate né nella console client di Campaign].
+Tieni presente che le seguenti funzionalità non sono disponibili in questa versione del prodotto. Utilizza i collegamenti forniti per sfogliare la documentazione di Campaign v8 (console client) e ulteriori informazioni su queste funzioni.
 
 * Contenuto da risorse pubbliche - VALUTAZIONE DA CONFERMARE
 * Creazione di blocchi di personalizzazione personalizzati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Contenuto di moduli personalizzati (modulo Gestione contenuti). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP per le e-mail. [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* Contenuto da URL`*`
-* Salvare un contenuto HTML come modello`*`
-* Frammenti e-mail`*`
-* Caso d’uso multilingue/multivariante`*`
+<!--
+* Content from a URL`*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`-->
 
 ## Tipologie e regole di tipologia {#rules-capabilities}
 
@@ -149,13 +151,12 @@ Alcune funzionalità sono disponibili solo dalla console client. Sfoglia i colle
 * Analisi descrittiva. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 * Analisi della campagna/Rapporti cubo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target="_blank"}
 * Condivisione di rapporti secondo la pianificazione come PDF e CSV o collegamento. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}
-* Esportare/scaricare un rapporto come file CSV o PDF. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html){target="_blank"}
 
 ## Modellazione e acquisizione dei dati {#data-capabilities}
 
 L’interfaccia utente di Campaign Web non presenta le seguenti funzionalità. Sono disponibili solo nella console client.
 
-Sfoglia i collegamenti forniti per cercare [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"} e ulteriori informazioni.
+Sfoglia i collegamenti forniti in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"} e ulteriori informazioni.
 
 * Account esterni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Creazione ed estensione dello schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
@@ -174,9 +175,17 @@ Scopri come gestire le approvazioni di consegne, contenuti e targeting nelle cam
 
 ## Autorizzazioni {#permissions-capabilities}
 
-Gli utenti di Campaign possono accedere all’interfaccia utente di Campaign Web solo con il proprio Adobe ID, tramite Adobe Identity Management System (IMS).
+Gli utenti di Campaign possono accedere all’interfaccia utente di Campaign Web solo con il proprio Adobe ID, tramite Adobe Identity Management System (IMS). Le autorizzazioni concesse agli utenti si applicano anche nell’interfaccia utente di Campaign Web.
 
 Le autorizzazioni sono definite in dettaglio nella console client di Adobe Admin Console e Adobe Campaign [in questa sezione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=it). Dall’interfaccia utente web di Adobe Campaign non è possibile eseguire alcuna azione sulle autorizzazioni.
 
 
+## Monitoraggio {#monitoring-capabilities}
+
+Le funzionalità di monitoraggio della piattaforma Campaign sono disponibili solo nella console client e nel pannello di controllo Campaign. Non compaiono nell’interfaccia utente di Campaign Web.
+
+Sfoglia i collegamenti forniti per [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"} per ulteriori informazioni.
+
+* [Monitoraggio dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
+* [Mappa di calore del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
