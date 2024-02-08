@@ -3,9 +3,9 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1237'
 ht-degree: 5%
 
 ---
@@ -176,7 +176,11 @@ Dopo la pubblicazione:
 
 * La pagina di destinazione viene aggiunta all’elenco delle pagine di destinazione con **[!UICONTROL Pubblicato]** stato. Ora è attivo e pronto per essere utilizzato come riferimento nei contenuti.
 
-* È possibile copiare e incollare **[!UICONTROL URL della pagina di destinazione]** che viene visualizzata nella parte superiore della pagina in un browser web.
+* È possibile copiare e incollare **[!UICONTROL URL della pagina di destinazione]** che viene visualizzata nella parte superiore della pagina in un browser web per visualizzare l’anteprima della pagina di destinazione.
+
+>[!CAUTION]
+>
+>Per testare o sfruttare appieno la pagina di destinazione, non puoi copiare e incollare questo collegamento direttamente in un browser web o nelle consegne. Invece, utilizza [Simula contenuto](#test-landing-page) per testarlo e seguire i passaggi descritti in [questa sezione](lp-use-cases.md) per utilizzare correttamente la pagina di destinazione.
 
 ![](assets/lp-published.png)
 

@@ -3,9 +3,9 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '750'
 ht-degree: 14%
 
 ---
@@ -19,22 +19,11 @@ ht-degree: 14%
 
 Quando modifichi il contenuto di una pagina della pagina di destinazione, questa è già precompilata.
 
-La pagina principale è quella che viene visualizzata immediatamente dagli utenti dopo che hanno fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web. La pagina principale è già precompilata con [componente modulo specifico per la pagina di destinazione](#use-form-component) per consentire agli utenti di selezionare e inviare le proprie scelte. Puoi anche definire [stili specifici della pagina di destinazione](#lp-form-styles).
+La prima pagina, che viene visualizzata immediatamente dopo aver fatto clic sul collegamento alla pagina di destinazione, è già precompilata con il [componente modulo specifico per la pagina di destinazione](#use-form-component) per il modello selezionato per consentire agli utenti di selezionare e inviare le proprie scelte. Puoi anche definire [stili specifici della pagina di destinazione](#lp-form-styles).
 
 Per progettare ulteriormente il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+Il contenuto della **[!UICONTROL Conferma]**, **[!UICONTROL Errore]** e **[!UICONTROL Scade]** anche le pagine sono precompilate. Modificali in base alle esigenze.
 
 ## Utilizzare il componente modulo {#use-form-component}
 
@@ -80,7 +69,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    Definisci se questa casella di controllo deve consentire agli utenti di partecipare o uscire. Seleziona tra le due opzioni seguenti:
 
-   * **[!UICONTROL Sottoscrivi se selezionato]**: gli utenti devono selezionare la casella per il consenso (opt-in).
+   * **[!UICONTROL Iscriviti se selezionato]**: gli utenti devono selezionare la casella per il consenso (opt-in).
    * **[!UICONTROL Annulla iscrizione se selezionato]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
 
 1. È possibile eliminare e aggiungere tutti i campi di testo e/o le caselle di controllo necessari.
