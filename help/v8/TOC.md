@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 87%
       + Inviare e monitorare l’e-mail {#monitor}
          + [Preparare e inviare un’e-mail](monitor/prepare-send.md)
          + [Impostazioni di consegna e-mail](advanced-settings/delivery-settings.md)
-         + [Invia in più scaglioni](advanced-settings/send-using-waves.md)
+         + [Inviare in più scaglioni](advanced-settings/send-using-waves.md)
          + [Monitorare i registri di consegna](monitor/delivery-logs.md)
    + Notifiche push {#push}
       + [Introduzione alle notifiche push](push/gs-push.md)
@@ -92,13 +92,13 @@ ht-degree: 87%
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
    + [Progettare il contenuto della pagina di destinazione](landing-pages/lp-content.md)
-   + [Utilizzare i modelli di pagina di destinazione](landing-pages/lp-templates.md)
+   + [Lavorare con i modelli di pagine di destinazione](landing-pages/lp-templates.md)
 + Profili e pubblico {#audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
    + Utilizzare i profili {#work-with-profiles}
       + [Introduzione ai profili](audience/about-recipients.md)
-      + [Esplora i dettagli dei profili](audience/profile-view.md)
+      + [Esplorare i dettagli dei profili](audience/profile-view.md)
       + [Creare un profilo](audience/create-profile.md)
       + [Utilizzare i profili di test](audience/test-profiles.md)
    + Utilizzare i tipi di pubblico {#audiences}
@@ -107,7 +107,7 @@ ht-degree: 87%
    + Selezionare i destinatari della consegna {#target-audiences}
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
-      + [Caricare un pubblico dell’email da un file](audience/file-audience.md)
+      + [Caricare un pubblico per consegne e-mail da un file](audience/file-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
       + [Creare e gestire i servizi di abbonamento](audience/manage-services.md)

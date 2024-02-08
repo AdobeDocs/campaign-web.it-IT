@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Scoprire l’interfaccia
-description: Interfaccia utente web di Adobe Campaign
+description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilità limitata"
 source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
 # Scoprire l’interfaccia {#user-interface}
 
-La nuova interfaccia web di Adobe Campaign offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna di campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni di Adobe Experience Cloud.
+La nuova interfaccia di Adobe Campaign Web offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni di Adobe Experience Cloud.
 
 Scopri come connetterti ad Adobe Campaign e le nozioni di base sulla navigazione in Experience Cloud [in questo articolo](connect-to-campaign.md).
 
@@ -39,11 +39,11 @@ Gli **Indicatori chiave di prestazioni** consentono di verificare l’efficacia 
 
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica. Fai clic sul collegamento **Mostra altro** per caricare altre consegne.
 
-Inoltre, puoi accedere alle pagine della guida della chiave web di Adobe Campaign dalla sezione **Apprendimento** sezione della pagina.
+Puoi anche accedere alle principali pagine della guida di Adobe Campaign Web dalla sezione **Apprendimento** della pagina.
 
 ## Menu di navigazione a sinistra {#user-interface-left-nav}
 
-Sfoglia i collegamenti a sinistra per accedere alle funzionalità web di Adobe Campaign. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni che ti servono. Consulta questa [sezione](#list-screens). Alcune schermate di elenco sono di sola lettura. Gli elementi visualizzati nel menu di navigazione a sinistra e negli elenchi dipendono dalle autorizzazioni utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
+Sfoglia i collegamenti a sinistra per accedere alle funzionalità di Adobe Campaign Web. Diversi collegamenti presentano elenchi di oggetti che possono essere ordinati e filtrati. Puoi anche configurare le colonne per visualizzare tutte le informazioni che ti servono. Consulta questa [sezione](#list-screens). Alcune schermate di elenco sono di sola lettura. Gli elementi visualizzati nel menu di navigazione a sinistra e negli elenchi dipendono dalle autorizzazioni utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
 
 
 ### Explorer {#user-interface-explorer}

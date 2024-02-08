@@ -1,18 +1,18 @@
 ---
 title: Connessione all’interfaccia di Adobe Campaign Web
-description: Scopri come connettersi all’interfaccia utente web di Adobe Campaign
+description: Scopri come connetterti all’interfaccia utente di Adobe Campaign Web
 badge: label="Disponibilità limitata"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # Connessione ad Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi. Scopri come connetterti a Adobe Experience Cloud e accedere all’interfaccia web di Adobe Campaign in questa pagina.
+Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi. Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web in questa pagina.
 
 ## Accesso ad Adobe Experience Cloud {#sign-in-to-exc}
 
