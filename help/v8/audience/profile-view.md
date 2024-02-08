@@ -1,15 +1,15 @@
 ---
-title: Esplora i dettagli dei profili
+title: Esplorare i dettagli dei profili
 description: Scopri come esplorare i dettagli di un profilo.
 badge: label="Disponibilità limitata"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Esplora i dettagli dei profili {#profile-view}
+# Esplorare i dettagli dei profili {#profile-view}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
