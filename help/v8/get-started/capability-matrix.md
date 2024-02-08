@@ -3,9 +3,9 @@ audience: end-user
 title: Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1779'
 ht-degree: 7%
 
 ---
@@ -42,7 +42,7 @@ Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare e-
 Utilizza i collegamenti forniti per sfogliare la documentazione di Campaign v8 (console client) e ulteriori informazioni su questi canali.
 
 * **Direct mail**. Il canale direct mailing ti consente di inviare una corrispondenza fisica ai tuoi clienti, fornitori o ad altri, come avvisi, fatture, rendiconti, offerte di marketing e altro ancora. Questo canale è disponibile solo nella console client.  [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* **Messaggistica LINE**. LINE è un&#39;applicazione per la messaggistica istantanea gratuita, chiamate vocali e video, disponibile su tutti i dispositivi mobili e su PC. Adobe Campaign consente di inviare messaggi LINE solo dalla console client.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Messaggistica LINE**. LINE è un&#39;applicazione per la messaggistica istantanea gratuita, chiamate vocali e video, disponibile su tutti i dispositivi mobili e su PC. Adobe Campaign consente di inviare messaggi LINE solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Call center e canali personalizzati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Social marketing con X (Twitter). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
@@ -124,7 +124,7 @@ Ulteriori informazioni sulle attività del flusso di lavoro disponibili nella do
 
 ## Gestione delle offerte {#offer-capabilities}
 
-Adobe Campaign Web consente di inviare con le consegne le offerte create nella console utilizzando **[!UICONTROL Interazione]** modulo. La progettazione dell’offerta, le regole di idoneità e la gestione delle offerte sono disponibili solo nella console client di Campaign. [Ulteriori informazioni](../msg/offers.md)
+Puoi inviare le offerte nelle consegne create nell’interfaccia utente web di Adobe Campaign. Queste offerte devono essere state create nella console client utilizzando **[!UICONTROL Interazione]** modulo. La progettazione dell’offerta, le regole di idoneità e la gestione delle offerte sono disponibili solo nella console client di Campaign. [Ulteriori informazioni](../msg/offers.md)
 
 Scopri come gestire un catalogo di offerte in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
