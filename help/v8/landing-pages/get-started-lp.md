@@ -4,10 +4,10 @@ title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
