@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 8%
+source-wordcount: '1704'
+ht-degree: 7%
 
 ---
 
@@ -28,12 +28,12 @@ Con l’interfaccia utente web di Campaign, puoi creare campagne cross-channel n
 
 Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 (console client) e scopri come utilizzare queste funzionalità.
 
-* Calendario di marketing. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
-* Programmi e piani. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* Fornitori, gestione del budget e dei costi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* Marketing distribuito (marketing centrale/locale). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}
-* Marketing Resource Management (MRM), obiettivi, simulazioni e controllo dei costi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
-* Gestione delle attività. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+* **Calendario di marketing**. Il calendario della campagna mostra tutti i programmi, i piani, le campagne e le consegne in una sequenza temporale globale. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* **Programmi e piani**. Ogni campagna appartiene a un programma che appartiene a un piano. Nell’interfaccia utente di Campaign Web, tutte le campagne sono associate a un piano e a un programma predefiniti. Puoi creare e gestire piani e programmi solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* **Fornitori, gestione del budget e dei costi**. Puoi configurare i provider di servizi coinvolti nei processi eseguiti all’interno delle campagne, incluse le strutture dei costi, e gestire i budget all’interno di ciascun programma e campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **Marketing distribuito** (marketing centrale/locale). Adobe Campaign offre un’app di marketing distribuito per implementare campagne di cooperazione tra enti centrali (sedi centrali, dipartimenti di marketing, ecc.) e gli enti locali (punti vendita, agenzie regionali, ecc.). Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}
+* **Gestione delle risorse marketing** (MRM), obiettivi, simulazioni e controllo dei costi. Adobe Campaign offre un’app di gestione delle risorse di marketing (MRM) che consente di controllare le azioni di marketing in modalità collaborativa tramite la gestione completa e il tracciamento in tempo reale delle attività, dei budget e delle risorse di marketing coinvolte. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* **Gestione attività**. Come parte dell’app MRM, le attività di Campaign possono essere create, assegnate, tracciate e monitorate dal dashboard della campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
 ## Canali di comunicazione {#channels-capabilities}
 
