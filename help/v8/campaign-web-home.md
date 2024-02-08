@@ -1,13 +1,13 @@
 ---
 keywords: Campaign Web;home;argomenti popolari
-description: Centro assistenza web di Campaign
-title: Documentazione del prodotto Web Adobe Campaign
+description: Centro risorse di Campaign Web
+title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilità limitata"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Elemento 3"
->abstract="UX riprogettata per tipi di pubblico, abbonamento, AEM Assets, pagine di destinazione"
+>abstract="Esperienza utente riprogettata per segmenti di pubblico, iscrizioni, AEM Assets, pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Elemento 4"
->abstract="Modeler di query e e-mail designer di nuova generazione"
+>abstract="Query modeler ed E-mail designer di nuova generazione"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -86,11 +86,11 @@ ht-degree: 84%
 Siamo entusiasti di presentare la nuova versione dell’interfaccia utente web di Adobe Campaign. La versione più recente è dotata di funzioni intuitive progettate per semplificare la creazione di campagne cross-channel personalizzate, ottenere risultati eccezionali e offrire un vantaggio competitivo su tutti i canali. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Adobe Campaign Web è attualmente in versione con disponibilità limitata (LA). L‘accesso è limitato a un piccolo gruppo di clienti a Disponibilità limitata (LA) Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
+> Adobe Campaign Web è attualmente in versione Disponibilità limitata (LA). L‘accesso è limitato a un piccolo gruppo di clienti a Disponibilità limitata (LA) Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti introdotti nel prodotto Web Adobe Campaign e nella relativa documentazione. Per un elenco completo delle funzionalità chiave e delle funzioni degli aggiornamenti di versione, consulta [questa pagina](rn/whats-new.md).
+Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla documentazione di Adobe Campaign Web. Per un elenco completo delle funzionalità chiave e delle funzioni degli aggiornamenti di versione, consulta [questa pagina](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agl
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>Scopri la nuova interfaccia utente</strong><br/>Esplora la nuova interfaccia e l’esperienza di navigazione di Adobe Campaign Web integrate con Adobe Experience Platform.</div>
+    <div><strong>Scopri la nuova interfaccia utente</strong><br/>Esplora la nuova interfaccia di Adobe Campaign Web e l’esperienza di navigazione integrata con Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agl
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Incontra E-mail designer</strong><br/>Scopri come iniziare da un modello o utilizzare il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice.
+    <div><strong>Scopri E-mail designer</strong><br/>Inizia da un modello oppure utilizza il nuovo E-mail designer di Adobe Campaign per creare e-mail senza dover scrivere una singola riga di codice.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
