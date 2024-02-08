@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -170,8 +169,6 @@ Pertanto, devi sempre includere un **collegamento per annullare l’abbonamento*
 Per consentire agli utenti di rinunciare a tutte le consegne, devi creare e pubblicare un’ **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** pagina di destinazione.
 
 Quando un utente fa clic sul collegamento della pagina di destinazione, **[!UICONTROL Non contattare più (tramite alcun canale)]** nel profilo viene selezionata automaticamente.
-
-![](assets/blocklisting_allchannels.png)
 
 definisci un **[!UICONTROL Rinuncia]** e scegli di aggiornare **[!UICONTROL Canale (e-mail)]**: il profilo che controlla la casella di rinuncia nella pagina di destinazione verrà escluso da tutte le comunicazioni.
 

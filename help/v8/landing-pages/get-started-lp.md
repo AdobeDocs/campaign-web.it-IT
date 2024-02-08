@@ -4,10 +4,10 @@ title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 9%
+source-wordcount: '271'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 9%
 
 [!DNL Adobe Campaign] consente di creare, progettare e condividere pagine di destinazione.
 
-Nel contesto delle campagne di marketing, una pagina di destinazione è una pagina web indipendente in cui un visitatore viene indirizzato dopo aver fatto clic su un collegamento all’interno di un’e-mail, un SMS, una consegna push o un sito web.
+Nel contesto delle campagne di marketing, una pagina di destinazione è una pagina web indipendente in cui un visitatore viene indirizzato dopo aver fatto clic su un collegamento all’interno di una consegna o su un sito web.
 
-Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
+Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i dati, rinunciare o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ Le pagine di destinazione consentono di indirizzare gli utenti a moduli online i
 
 Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 
-* Sfruttare [!DNL Adobe Campaign] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
-* Configurazione **flussi di consenso e rinuncia** in modo rapido e semplice.
-* Creare servizi di abbonamento per consentire agli utenti di **abbonarsi a un servizio**. [Ulteriori informazioni](../audience/manage-services.md)
-* Fornisci ai destinatari le **possibilità di annullare l’abbonamento** dalla ricezione delle comunicazioni.
+* Crea, progetta e condividi istantaneamente le pagine di destinazione utilizzando pronte per l’uso **modelli precompilati** corrisponde a diversi casi d’uso. [Ulteriori informazioni](create-lp.md)
+* Sfruttare [!DNL Adobe Campaign] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**. [Ulteriori informazioni](lp-content.md)
+* Configurazione **flussi di consenso e rinuncia** in modo rapido e semplice. [Ulteriori informazioni](lp-use-cases.md)
+* Creare servizi di abbonamento per consentire agli utenti di **abbonarsi a un servizio**. [Ulteriori informazioni](lp-use-cases.md#lp-subscription)
+* Fornisci ai destinatari le **possibilità di annullare l’abbonamento** dalla ricezione delle comunicazioni. [Ulteriori informazioni](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
