@@ -4,10 +4,10 @@ title: Testare il rendering delle e-mail
 description: Scopri come verificare il rendering delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilità limitata"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 94%
+source-wordcount: '231'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ A questo scopo, puoi sfruttare l’account **Litmus** in [!DNL Adobe Campaign] p
 Per accedere alle funzionalità di rendering di e-mail, è necessario:
 
 * Avere un account Litmus
-* Selezionare i profili di test: scopri come in [questa sezione](preview-content.md)
+* Selezionare profili e/o profili di test - Scopri come nella [questa sezione](preview-content.md)
 
 Quindi, segui i passaggi indicati di seguito.
 

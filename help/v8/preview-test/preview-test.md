@@ -4,10 +4,10 @@ title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilità limitata"
-source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 73%
+source-wordcount: '201'
+ht-degree: 61%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Mostra anteprima e verifica il contenuto"
->abstract="Una volta definito il contenuto, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
+>abstract="Una volta definito il contenuto, puoi utilizzare profili e profili di test per visualizzarlo in anteprima e testarlo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare consegne di test"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test delle pagine di destinazione"
 
-Una volta definito il contenuto della consegna, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo prima di inviarlo.
+Una volta definito il contenuto della consegna, puoi utilizzare profili e profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio.
 
 Questo è un passaggio fondamentale per garantire che sia accurato ma anche privo di errori sia nelle impostazioni del contenuto che della personalizzazione.
 

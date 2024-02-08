@@ -2,10 +2,10 @@
 title: Introduzione ai profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
 badge: label="Disponibilità limitata"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 23%
+source-wordcount: '527'
+ht-degree: 19%
 
 ---
 
@@ -33,17 +33,15 @@ ht-degree: 23%
 
 ## Che cos’è un profilo? {#what}
 
-Un profilo in Adobe Campaign Web è un individuo memorizzato nel database che funge da componente chiave per [creare tipi di pubblico](create-audience.md) per consegne e [aggiungi personalizzazione](../personalization/personalize.md) ai tuoi contenuti.
+A **profilo**, noto anche come &quot;destinatari&quot; nella console client, rappresenta una persona memorizzata nel database di Campaign e funge da componente chiave per [creare tipi di pubblico](create-audience.md) per consegne e [aggiungi personalizzazione](../personalization/personalize.md) ai tuoi contenuti. Adobe Campaign consente di gestire facilmente i profili, dalla creazione di nuove voci all’accesso a una visualizzazione completa di tutti gli attributi e gli abbonamenti ai servizi dei profili, il tutto tramite l’interfaccia utente web di Campaign.
 
-Adobe Campaign consente di creare e monitorare i profili direttamente dall’interfaccia. Da qui puoi creare profili, accedere a una visualizzazione dettagliata dei profili e modificarli.
+Inoltre, **[!UICONTROL profili di test]**, identificati come &quot;profili di seed&quot; nella console client, ti consentono di eseguire il targeting di altri destinatari che non corrispondono ai criteri di targeting di una determinata consegna. Questi profili contengono informazioni di contatto fittizie o informazioni di contatto controllate dal mittente. Possono essere aggiunti al pubblico di un messaggio per rilevare eventuali utilizzi fraudolenti del database dei destinatari o per assicurarsi che le e-mail arrivino nelle caselle in entrata. [Scopri come utilizzare i profili di test](test-profiles.md)
 
-Altri tipi di profili vengono memorizzati nel database, ad esempio **[!UICONTROL Profili di test]**, progettati per testare le consegne prima che vengano inviate al pubblico finale. [Scopri come utilizzare i profili di test](test-profiles.md)
+Sia i profili che i profili di test possono essere utilizzati per testare le consegne prima che raggiungano il pubblico previsto. In questo modo puoi visualizzare in anteprima il contenuto e la personalizzazione del messaggio, inviare bozze per il test e la convalida, valutare il rendering delle e-mail su varie piattaforme e dispositivi e verificare le pagine di destinazione. [Scopri come visualizzare in anteprima e testare le consegne](../preview-test/preview-test.md)
 
 ## Accedere all’elenco dei profili {#access}
 
-I profili sono accessibili e modificabili in Adobe Campaign Web dalla **[!UICONTROL Gestione clienti]** > **Profili** nella barra di navigazione a sinistra.
-
-Puoi anche accedervi tramite il **[!UICONTROL Esplora]** vista, da **[!UICONTROL Profili e destinazioni]** > **[!UICONTROL Destinatari]** nodo. Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
+I profili sono accessibili e modificabili in Adobe Campaign Web dalla **[!UICONTROL Gestione clienti]** > **Profili** nella barra di navigazione a sinistra. È inoltre possibile accedervi nel **[!UICONTROL Esplora]** vista, da **[!UICONTROL Profili e destinazioni]** > **[!UICONTROL Destinatari]** nodo. Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >

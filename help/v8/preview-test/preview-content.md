@@ -4,10 +4,10 @@ title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima i contenuti della consegna con l’interfaccia utente web di Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilità limitata"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 68%
+source-wordcount: '352'
+ht-degree: 65%
 
 ---
 
@@ -32,22 +32,17 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
 1. Puoi combinare profili e profili di test per visualizzare in anteprima il messaggio e-mail o SMS.
 
-   * La scheda **[!UICONTROL Profili di test]** contiene tutti gli indirizzi seed, che sono destinatari aggiuntivi e fittizi nel database.
-     ![](assets/simulate-select-profiles.png)
+   * Il **[!UICONTROL Profili di test]** La scheda elenca tutti i profili di test, che sono destinatari aggiuntivi e fittizi nel database. [Scopri come utilizzare i profili di test](../audience/test-profiles.md)
 
-     I profili di test possono essere creati da **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
+   * Il **[!UICONTROL Profili]** Questa scheda elenca tutti i profili memorizzati nel database. [Scopri come utilizzare i profili](../audience/about-recipients.md)
 
-
-   * Il **[!UICONTROL Profili]** elenca tutti i destinatari archiviati in **[!UICONTROL Profili e destinazioni]** cartella da [!DNL Campaign] console client. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=it){target="_blank"}.
-
-     Puoi visualizzare, creare e gestire i profili dalla sezione **[!UICONTROL Profili]** scheda. [Ulteriori informazioni](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. Scopri come aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
+   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. [Scopri come aggiungere regole utilizzando Query Modeler](../query/query-modeler-overview.md).
 
 1. Fai clic su **[!UICONTROL Seleziona]** per confermare la selezione.
 
