@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 1%
 
 ---
@@ -145,6 +145,8 @@ Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla
 
 ## Annullamento iscrizione {#lp-unsubscription}
 
+Puoi consentire ai clienti di annullare l’abbonamento a un servizio utilizzando una pagina di destinazione.
+
 1. Assicurati di aver creato un modello di conferma per l’annullamento dell’abbonamento al servizio da parte degli utenti, in modo da poterlo selezionare facilmente al momento della creazione del servizio. [Ulteriori informazioni](../audience/manage-services.md#create-confirmation-message)
 
 1. Nel tuo [servizio di abbonamento](../audience/manage-services.md), seleziona il modello creato come e-mail di conferma che gli utenti riceveranno al momento dell’annullamento dell’abbonamento.
@@ -167,11 +169,11 @@ Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla
 
 1. Revisione e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
 
-1. Creare un [email](../email/create-email.md) e [aggiungi un collegamento](../email/message-tracking.md#insert-links) per indirizzare il traffico alla pagina di destinazione della registrazione.
+1. Creare un [email](../email/create-email.md) e [aggiungi un collegamento](../email/message-tracking.md#insert-links) alla pagina di destinazione.
 
-Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, verranno indirizzati alla pagina di conferma dell’annullamento dell’abbonamento e verranno rimossi dall’elenco degli abbonamenti.
+Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, verranno indirizzati alla pagina di conferma dell’annullamento dell’abbonamento e verranno rimossi dal servizio di abbonamento corrispondente.
 
-## Impostazione delle pagine di destinazione di rinuncia {#lp-denylist}
+## Elenco Bloccati {#lp-denylist}
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. Pertanto, devi sempre includere un **collegamento per annullare l’abbonamento** in ogni e-mail inviata ai destinatari. Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 
