@@ -3,9 +3,9 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1279'
 ht-degree: 5%
 
 ---
@@ -80,9 +80,13 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
    * **[!UICONTROL Acquisizione]**: questo è il modello predefinito per le pagine di destinazione, che ti consente di acquisire e aggiornare i dati del profilo.
    * **[!UICONTROL Abbonamento]**: utilizza questo modello per consentire agli utenti di abbonarsi a uno specifico [servizio](../audience/manage-services.md).
    * **[!UICONTROL Annullamento iscrizione]**: questo modello può essere utilizzato in una consegna inviata agli abbonati di un servizio, per consentire loro di annullare l’abbonamento [servizio](../audience/manage-services.md).
-   * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo non desidera più essere contattato da Campaign. Ulteriori informazioni sulla gestione dei inserisce nell&#39;elenco Bloccati di
+   * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo non desidera più essere contattato da Campaign.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Scopri come implementare i diversi casi d’uso corrispondenti a ciascun modello in [questa sezione](lp-use-cases.md).
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
@@ -94,7 +98,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 1. In **[!UICONTROL Precaricamento dati]** , le due opzioni seguenti sono selezionate per impostazione predefinita:
 
-   * Il **[!UICONTROL Precompilare con i dati a cui si fa riferimento nel modulo]** consente di precaricare automaticamente i dati che corrispondono ai campi di input e di unione nel modulo.
+   * Quando **[!UICONTROL Precompilare con i dati a cui si fa riferimento nel modulo]** se l’opzione è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. L’utente deve solo compilare i campi mancanti e, se necessario, aggiornare i valori esistenti. Questo consente di unire i dati per i profili esistenti invece di creare duplicati.
 
    * Il **[!UICONTROL Salta il precaricamento se non è presente alcun ID]** deve essere selezionata se non desideri aggiornare i profili. In questo caso, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo. Questa opzione viene utilizzata, ad esempio, quando il modulo viene pubblicato su un sito Web.
 
@@ -118,7 +122,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
      >
      >Se non è definita alcuna data di inizio, la pagina di destinazione diventa attiva non appena viene pubblicata.
 
-   * Quando la pagina raggiunge la data di fine, la pubblicazione della pagina di destinazione viene automaticamente annullata e il modulo non è più disponibile. Il **[!UICONTROL Scade]** viene invece visualizzata la pagina.
+   * Quando la pagina raggiunge la data di fine, <!--the landing page is automatically unpublished and -->modulo non più disponibile. Il **[!UICONTROL Scade]** viene invece visualizzata la pagina.
 
      >[!NOTE]
      >

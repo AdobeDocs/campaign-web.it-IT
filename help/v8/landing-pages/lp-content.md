@@ -3,10 +3,10 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 14%
+source-wordcount: '861'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 Quando modifichi il contenuto di una pagina della pagina di destinazione, questa è già precompilata.
 
-La prima pagina, che viene visualizzata immediatamente dopo aver fatto clic sul collegamento alla pagina di destinazione, è già precompilata con il [componente modulo specifico per la pagina di destinazione](#use-form-component) per il modello selezionato per consentire agli utenti di selezionare e inviare le proprie scelte. Puoi anche definire [stili specifici della pagina di destinazione](#lp-form-styles).
+La prima pagina, che viene visualizzata immediatamente dopo aver fatto clic sul collegamento alla pagina di destinazione, è già precompilata con il [componente modulo specifico per la pagina di destinazione](#use-form-component) per il modello selezionato<!-- to enable users to select and submit their choices-->. Puoi anche definire [stili per la pagina di destinazione](#lp-form-styles).
 
 Per progettare ulteriormente il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
@@ -53,7 +53,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
    >
    >Passa a **[!UICONTROL Stili]** per modificare gli stili del contenuto del componente modulo. [Ulteriori informazioni](#lp-form-styles)
 
-1. Espandere il primo campo di testo. Dalla sezione **[!UICONTROL Campo testo 1]** , è possibile modificare il tipo di campo, il campo del database, l&#39;etichetta e il testo che verrà visualizzato all&#39;interno del campo prima che l&#39;utente compili il campo.
+1. Espandere il primo campo di testo, se presente, o aggiungerne uno utilizzando **[!UICONTROL Aggiungi]** pulsante. Dalla sezione **[!UICONTROL Campo testo 1]** , è possibile modificare il tipo di campo, il campo del database da aggiornare, l&#39;etichetta e il testo che verrà visualizzato all&#39;interno del campo prima che gli utenti immettano un valore.
 
    ![](assets/lp-form-text-field.png)
 
@@ -63,18 +63,24 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
    >
    >Se non viene compilato un campo obbligatorio, quando l’utente invia la pagina viene visualizzato un messaggio di errore.
 
-1. Aggiungi una casella di controllo. Seleziona questa opzione se la casella di controllo deve aggiornare un servizio o un campo dal database.
+1. Espandi la casella di controllo, se presente, oppure aggiungine una utilizzando **[!UICONTROL Aggiungi]** pulsante. Seleziona questa opzione se la casella di controllo deve aggiornare un servizio o un campo dal database.
 
    ![](assets/lp-form-checkbox.png)
 
-   Definisci se questa casella di controllo deve consentire agli utenti di partecipare o uscire. Seleziona tra le due opzioni seguenti:
+   Se si seleziona **[!UICONTROL Abbonamento e servizi]**, selezionare un servizio dall&#39;elenco e scegliere tra le due opzioni seguenti:
 
    * **[!UICONTROL Iscriviti se selezionato]**: gli utenti devono selezionare la casella per il consenso (opt-in).
    * **[!UICONTROL Annulla iscrizione se selezionato]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
 
-1. È possibile eliminare e aggiungere tutti i campi di testo e/o le caselle di controllo necessari.
+   Se si seleziona **[!UICONTROL Campo]**, selezionare un campo dall&#39;elenco attributi e scegliere tra le due opzioni seguenti:
 
-1. Dopo aver aggiunto tutte le caselle di controllo e/o i campi di testo desiderati, fai clic su **[!UICONTROL Invito all’azione]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nella **[!UICONTROL Modulo]** componente.
+   * **[!UICONTROL Sì se selezionato]**<!--TBC-->
+
+   * **[!UICONTROL No se selezionato]**<!--TBC-->
+
+1. È possibile eliminare e aggiungere tutti i campi, ad esempio campi di testo, pulsanti di scelta, caselle di controllo, elenchi a discesa e così via. secondo necessità.
+
+1. Una volta aggiunti o aggiornati tutti i campi, fai clic su **[!UICONTROL Invito all’azione]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nella **[!UICONTROL Modulo]** componente.
 
    ![](assets/lp-call-to-action.png)
 
@@ -84,38 +90,34 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    * **[!UICONTROL URL di reindirizzamento]**: immetti l’URL della pagina a cui verranno reindirizzati gli utenti.
 
-1. Per apportare ulteriori aggiornamenti all&#39;invio del modulo, selezionare **[!UICONTROL Aggiornamenti aggiuntivi]**, scegli **[!UICONTROL Consenso accordato]** o **[!UICONTROL Rinuncia]**, e definisci se desideri aggiornare un elenco di abbonamenti, il canale o solo l’indirizzo e-mail utilizzato.
+1. Per apportare ulteriori aggiornamenti all&#39;invio del modulo, selezionare **[!UICONTROL Aggiornamenti aggiuntivi]** e selezionare l&#39;elemento che si desidera aggiornare:
+   * Un servizio di abbonamento: in tal caso, definisci se desideri dare il consenso o rinunciare agli utenti al momento dell’invio del modulo.
+   * Indirizzo e-mail utilizzato per compilare il modulo.
+   * Tutti i canali: dopo l’invio del modulo, gli utenti saranno inclusi o esclusi (a seconda del modello selezionato) da/per tutte le comunicazioni del tuo marchio su tutti i canali
+   * Campo del database: selezionare un campo dall&#39;elenco degli attributi e definire se deve essere impostato su True o False al momento dell&#39;invio del modulo.
 
    ![](assets/lp-form-additionnal-updates.png)
 
-1. Salva il contenuto per tornare a [proprietà pagina di destinazione](create-lp.md).
+1. Salva il contenuto per tornare a [proprietà pagina di destinazione](create-lp.md#create-landing-page).
 
 ## Definire gli stili del modulo della pagina di destinazione {#lp-form-styles}
 
-1. Per modificare gli stili del contenuto del componente modulo, passa in qualsiasi momento a **[!UICONTROL Stile]** scheda.
+1. Per modificare gli stili del contenuto del componente modulo, passa in qualsiasi momento a **[!UICONTROL Stili]** scheda.
 
-   ![](assets/lp_designer-form-style.png)
+1. Il **[!UICONTROL Campo di testo]** viene espansa per impostazione predefinita. Consente di modificare l&#39;aspetto dei campi di testo, ad esempio il carattere dell&#39;etichetta, la posizione dell&#39;etichetta, il colore di sfondo del campo o il bordo del campo.
 
-1. Il **[!UICONTROL Campi]** La sezione viene espansa per impostazione predefinita e consente di modificare l&#39;aspetto del campo di testo, ad esempio il carattere dell&#39;etichetta e del segnaposto, la posizione dell&#39;etichetta, il colore di sfondo del campo o il bordo del campo.
+   ![](assets/lp-text-styles.png)
 
-   ![](assets/lp_designer-form-style-fields.png)
+1. Espandi **[!UICONTROL Casella di controllo]** per definire l&#39;aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile regolare la famiglia e la dimensione del carattere o il colore del bordo della casella di controllo.
 
-1. Espandi **[!UICONTROL Caselle di controllo]** per definire l&#39;aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile regolare la famiglia o la dimensione del carattere o il colore del bordo della casella di controllo.
+   ![](assets/lp-checkbox-style.png)
 
-   ![](assets/lp_designer-form-style-checkboxes.png)
+1. Espandi e modifica qualsiasi altra sezione corrispondente agli altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
 
-1. Espandi **[!UICONTROL Pulsanti]** per modificare l&#39;aspetto del pulsante nel modulo del componente. È ad esempio possibile modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
+1. Espandi **[!UICONTROL Invito all’azione]** per modificare l&#39;aspetto del pulsante nel modulo del componente. È ad esempio possibile modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 
-   ![](assets/lp_designer-form-style-buttons.png)
+   ![](assets/lp-call-to-action-style.png)
 
-   Puoi visualizzare in anteprima alcune impostazioni, ad esempio il colore delle etichette dei pulsanti al passaggio del mouse, utilizzando **[!UICONTROL Simula contenuto]** pulsante. Ulteriori informazioni sulla verifica delle pagine di destinazione [qui](create-lp.md#test-landing-page).
+   Puoi visualizzare in anteprima alcune impostazioni, ad esempio il colore delle etichette dei pulsanti al passaggio del mouse, utilizzando **[!UICONTROL Simula contenuto]** pulsante. [Ulteriori informazioni](create-lp.md#test-landing-page)
 
-1. Espandi **[!UICONTROL Layout modulo]** per modificare le impostazioni di layout, ad esempio il colore di sfondo, la spaziatura interna o il margine.
-
-   ![](assets/lp_designer-form-style-layout.png)
-
-<!--
-1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
-
-    ![](assets/lp_designer-form-error-preview.png)-->
-
+1. Salva le modifiche.
