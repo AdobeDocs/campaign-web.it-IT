@@ -3,9 +3,9 @@ audience: end-user
 title: Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1772'
 ht-degree: 7%
 
 ---
@@ -41,8 +41,8 @@ Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare e-
 
 Utilizza i collegamenti forniti per sfogliare la documentazione di Campaign v8 (console client) e ulteriori informazioni su questi canali.
 
-* Direct mailing [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* Messaggistica LINE. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Direct mail**. Il canale direct mailing ti consente di inviare una corrispondenza fisica ai tuoi clienti, fornitori o ad altri, come avvisi, fatture, rendiconti, offerte di marketing e altro ancora. Questo canale è disponibile solo nella console client.  [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
+* **Messaggistica LINE**. LINE è un&#39;applicazione per la messaggistica istantanea gratuita, chiamate vocali e video, disponibile su tutti i dispositivi mobili e su PC. Adobe Campaign consente di inviare messaggi LINE solo dalla console client.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Call center e canali personalizzati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Social marketing con X (Twitter). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
