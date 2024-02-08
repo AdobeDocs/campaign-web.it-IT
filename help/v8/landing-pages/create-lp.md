@@ -3,7 +3,7 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 badge: label="Disponibilità limitata"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 5%
@@ -78,8 +78,8 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 1. Seleziona un modello:
    * **[!UICONTROL Acquisizione]**: questo è il modello predefinito per le pagine di destinazione, che ti consente di acquisire e aggiornare i dati del profilo.
-   * **[!UICONTROL Abbonamento]**: utilizza questo modello per consentire agli utenti di abbonarsi a uno specifico [servizio](manage-services.md).
-   * **[!UICONTROL Annullamento iscrizione]**: questo modello può essere utilizzato in una consegna inviata agli abbonati di un servizio, per consentire loro di annullare l’abbonamento [servizio](manage-services.md).
+   * **[!UICONTROL Abbonamento]**: utilizza questo modello per consentire agli utenti di abbonarsi a uno specifico [servizio](../audience/manage-services.md).
+   * **[!UICONTROL Annullamento iscrizione]**: questo modello può essere utilizzato in una consegna inviata agli abbonati di un servizio, per consentire loro di annullare l’abbonamento [servizio](../audience/manage-services.md).
    * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo non desidera più essere contattato da Campaign. Ulteriori informazioni sulla gestione dei inserisce nell&#39;elenco Bloccati di
 
    ![](assets/lp-templates.png)
