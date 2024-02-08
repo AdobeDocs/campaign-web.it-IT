@@ -4,10 +4,10 @@ title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilità limitata"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 74%
+source-wordcount: '197'
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 74%
 >id="acw_deliveries_simulate"
 >title="Mostra anteprima e verifica il contenuto"
 >abstract="Una volta definito il contenuto, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=it" text="Visualizzare in anteprima il contenuto del messaggio"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare consegne di test"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test delle pagine di destinazione"
 
