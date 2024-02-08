@@ -4,10 +4,10 @@ title: Novità dell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilità limitata"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Se sei già utente di Campaign, tieni presente che alcuni concetti sono stati ri
 
 Alla presente versione si applicano le seguenti limitazioni:
 
-* Gli oggetti modificabili sono: Consegne, Campagne, Flussi di lavoro, Tipi di pubblico, Servizi di abbonamento, Filtri predefiniti e Modelli. Gli altri sono di sola lettura. Utilizza filtri e crea regole per sfogliarli tutti.
+* Gli oggetti modificabili sono: Destinatari, Consegne, Campagne, Flussi di lavoro, Tipi di pubblico, Servizi di abbonamento, Filtri predefiniti, Modelli e Pagine di destinazione. Gli altri sono di sola lettura. Utilizza filtri e crea regole per sfogliarli tutti.
 * Le funzionalità di amministrazione e configurazione avanzata non sono disponibili nell’interfaccia utente di Campaign Web.
 * Le metriche di reporting (come le aperture e i dati di tracciamento) vengono aggiornate ogni ora.
 * I KPI del dashboard delle consegne vengono aggiornati ogni 5 minuti. - ma la preparazione della consegna avviene in tempo reale.

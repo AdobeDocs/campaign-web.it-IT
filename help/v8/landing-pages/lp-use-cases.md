@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
-source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 0%
+source-wordcount: '1272'
+ht-degree: 1%
 
 ---
 
@@ -30,12 +30,7 @@ Per utilizzare correttamente la pagina di destinazione, utilizza l’opzione ded
 
 In [!DNL Adobe Campaign Web] quattro modelli predefiniti consentono di implementare diversi casi d’uso. Tuttavia, le fasi principali rimangono le stesse e sono descritte di seguito.
 
-1. [Creare una pagina di destinazione](create-lp.md#create-landing-page) e seleziona il modello desiderato, in base al caso d’uso:
-
-   * [Acquisizione](#lp-acquisition)
-   * [Iscrizione](#lp-subscription)
-   * [Annullamento iscrizione](#lp-unsubscription)
-   * [Elenco Bloccati](#lp-denylist)
+1. [Creare una pagina di destinazione](create-lp.md#create-landing-page) e seleziona il modello desiderato, in base al caso d’uso.
 
 1. Definisci le proprietà e le impostazioni della pagina di destinazione.
 
@@ -47,41 +42,68 @@ In [!DNL Adobe Campaign Web] quattro modelli predefiniti consentono di implement
 
    ![](assets/lp-uc-form.png)
 
-1. Effettua tutti gli altri aggiornamenti necessari alle etichette e ai campi della pagina di destinazione. Modifica il resto del contenuto nel modo desiderato, salva le modifiche e chiudi.
+1. Modifica il contenuto in base al modello selezionato:
 
-1. Segui i passaggi descritti di seguito per ogni caso d’uso.
+   * [Acquisizione](#lp-acquisition)
+   * [Iscrizione](#lp-subscription)
+   * [Annullamento iscrizione](#lp-unsubscription)
+   * [Elenco Bloccati](#lp-denylist)
 
-1. Modifica il **[!UICONTROL Conferma]** , come necessario, nonché **[!UICONTROL Errore]** e **[!UICONTROL Scade]** pagine. Verrà visualizzata ai destinatari dopo l&#39;invio del modulo di registrazione.
+1. Modifica il resto del contenuto in base alle esigenze, salva le modifiche e chiudi.
+
+1. Modifica il **[!UICONTROL Conferma]** , come necessario, nonché **[!UICONTROL Errore]** e **[!UICONTROL Scade]** pagine. Il **[!UICONTROL Conferma]** La pagina verrà visualizzata ai destinatari dopo l’invio del modulo.
 
    ![](assets/lp-uc-confirmation-page.png)
 
-1. Test e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
+1. [Test](create-lp.md#test-landing-page) e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
 
 1. Creare un [email](../email/create-email.md) consegna per indirizzare il traffico alla pagina di destinazione.
 
-1. [Inserire un collegamento](../email/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Pagina di destinazione]** come **[!UICONTROL Tipo di collegamento]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) che hai creato.
+1. [Inserire un collegamento](../email/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Pagina di destinazione]** come **[!UICONTROL Tipo di collegamento]** e scegli la pagina di destinazione creata.
 
-   ![](assets/lp_subscription-uc-link.png)
+   ![](assets/lp-uc-email-link.png)
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#create-landing-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. [Ulteriori informazioni](create-lp.md#create-landing-page)
 
-Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo della pagina di destinazione, verranno indirizzati alla pagina di conferma e verrà applicata qualsiasi altra azione definita nella pagina di destinazione (ad esempio, gli utenti saranno abbonati al servizio o non riceveranno ulteriori comunicazioni da parte tua).
+Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo:
 
-Di seguito sono riportati alcuni esempi di come utilizzare [!DNL Adobe Campaign] pagine di destinazione per consentire ai clienti di accettare o rinunciare alla ricezione di alcune o di tutte le comunicazioni.
+* Verranno indirizzati alla pagina di conferma.
+
+* Verrà applicata qualsiasi altra azione definita nella pagina di destinazione. Ad esempio, gli utenti verranno abbonati al servizio o non riceveranno più comunicazioni da te.
+
+Di seguito sono riportati alcuni esempi di come utilizzare [!DNL Adobe Campaign] pagine di destinazione nei diversi casi d’uso possibili.
 
 ## Acquisizione profilo {#lp-acquisition}
 
-1. [Creare una pagina di destinazione](create-lp.md#create-landing-page). Seleziona la **[!UICONTROL Acquisizione]** modello.
+Il primo modello consente di aggiungere o aggiornare un profilo al database di Campaign.
 
-1. Definisci le proprietà e le impostazioni della pagina di destinazione.
+1. Quando [creazione della pagina di destinazione](create-lp.md#create-landing-page), seleziona la **[!UICONTROL Acquisizione]** modello.
 
-   ![](assets/lp-uc-properties.png)
+1. Nelle proprietà della pagina di destinazione, assicurati di selezionare **[!UICONTROL Precompilare con i dati a cui si fa riferimento nel modulo]** per precaricare le informazioni esistenti dal profilo ed evitare la creazione di duplicati.
 
 1. Seleziona la **[!UICONTROL Acquisizione]** per modificarne il contenuto.
 
-1. Viene visualizzato il contenuto della pagina. Seleziona la parte corrispondente al modulo della pagina di destinazione.
+1. Modifica i campi di testo in base alle esigenze, in base alle informazioni che desideri raccogliere sui profili.
+
+1. Inoltre, puoi aggiungere una casella di controllo che invita i clienti ad abbonarsi al servizio newsletter. [Scopri come creare un servizio](../audience/manage-services.md)
+
+   ![](assets/lp-uc-acquisition-page.png)
+
+1. Modifica il contenuto in base alle esigenze e salva le modifiche.
+
+1. Revisione e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
+
+1. Creare un [email](../email/create-email.md) e [aggiungi un collegamento](../email/message-tracking.md#insert-links) alla pagina di destinazione.
+
+Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, il loro profilo verrà aggiunto al database di Campaign o aggiornato in base alle informazioni fornite.
+
+![](assets/lp-uc-profile-updated.png)
+
+Se hanno acconsentito alla ricezione della newsletter, saranno abbonati al servizio corrispondente.
+
+![](assets/lp-uc-newsletter-subscriber.png)
 
 ## Abbonamento a un servizio {#lp-subscription}
 
@@ -101,88 +123,89 @@ Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonarsi
 
 1. [Creare una pagina di destinazione](create-lp.md#create-landing-page) per consentire ai destinatari di registrarsi all’evento. Seleziona la **[!UICONTROL Abbonamento]** modello.
 
-   <!--![](assets/lp-uc-subscription-template.png)-->
-
-1. Definisci le proprietà e le impostazioni della pagina di destinazione.
-
-   <!--![](assets/lp-uc-properties.png)-->
-
 1. Seleziona la **[!UICONTROL Abbonamento]** per modificarne il contenuto.
-
-   ![](assets/lp-uc-subscription-page-edit.png)
 
 1. Viene visualizzato il contenuto della pagina. Seleziona la parte corrispondente al modulo della pagina di destinazione ed espandi la **[!UICONTROL Casella di controllo 1]** sezione.
 
-   In **[!UICONTROL Abbonamenti e servizi]** , seleziona il servizio creato per l’evento. Lascia **[!UICONTROL Sottoscrivi se selezionato]** opzione abilitata.
+1. In **[!UICONTROL Abbonamenti e servizi]** , seleziona il servizio creato per l’evento. Lascia **[!UICONTROL Iscriviti se selezionato]** opzione abilitata.
 
    ![](assets/lp-uc-subscription-checkbox-1.png)
-
-1. Ad esempio, puoi aggiungere una casella di controllo aggiuntiva per offrire l’abbonamento alla newsletter.
-
 <!--
+1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
-1. You can also update the profiles who register for your event for the email channel. Expand the **[!UICONTROL Call to action]** section and select Additional updates.
+1. Modifica il contenuto in base alle esigenze e salva le modifiche.
 
-    ![](assets/lp-uc-subscription-call-to-action.png)-->
+1. Revisione e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
 
-1. Effettua tutti gli altri aggiornamenti necessari alle etichette e ai campi della pagina di destinazione. Modifica il resto del contenuto nel modo desiderato, salva le modifiche e chiudi.
+1. Creare un [email](../email/create-email.md) e [aggiungi un collegamento](../email/message-tracking.md#insert-links) per indirizzare il traffico alla pagina di destinazione della registrazione.
 
-1. Modifica il **[!UICONTROL Conferma]** , come necessario, nonché **[!UICONTROL Errore]** e **[!UICONTROL Scade]** pagine. Verrà visualizzata ai destinatari dopo l&#39;invio del modulo di registrazione.
+1. Progetta l’e-mail per annunciare che la registrazione è ora aperta per il tuo evento.
 
-   ![](assets/lp-uc-confirmation-page.png)
-
-1. Test e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
-
-1. Creare un **E-mail** consegna per indirizzare il traffico alla pagina di destinazione della registrazione. Progetta l’e-mail per annunciare che la registrazione è ora aperta per il tuo evento.
-
-1. [Inserire un collegamento](../email/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Pagina di destinazione]** come **[!UICONTROL Tipo di collegamento]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
-
-   ![](assets/lp_subscription-uc-link.png)
-
-   >[!NOTE]
-   >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#create-landing-page).
-
-Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo della pagina di destinazione, verranno indirizzati alla pagina di conferma e aggiunti all’elenco degli abbonamenti.
+Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, verranno indirizzati alla pagina di conferma e aggiunti all’elenco degli abbonamenti.
 
 ## Annullamento iscrizione {#lp-unsubscription}
 
-1. [Creare una pagina di destinazione](create-lp.md#create-landing-page). Seleziona la **[!UICONTROL Annullamento iscrizione]** modello.
+1. Assicurati di aver creato un modello di conferma per l’annullamento dell’abbonamento al servizio da parte degli utenti, in modo da poterlo selezionare facilmente al momento della creazione del servizio. [Ulteriori informazioni](../audience/manage-services.md#create-confirmation-message)
 
-1. Definisci le proprietà e le impostazioni della pagina di destinazione.
+1. Nel tuo [servizio di abbonamento](../audience/manage-services.md), seleziona il modello creato come e-mail di conferma che gli utenti riceveranno al momento dell’annullamento dell’abbonamento.
+
+1. [Creare una pagina di destinazione](create-lp.md#create-landing-page). Seleziona la **[!UICONTROL Annullamento iscrizione]** modello.
 
 1. Seleziona la **[!UICONTROL Annullamento iscrizione]** per modificarne il contenuto.
 
 1. Viene visualizzato il contenuto della pagina. Seleziona la parte corrispondente al modulo della pagina di destinazione.
 
+1. Puoi aggiungere una **[!UICONTROL Casella di controllo]** , selezionare il servizio e selezionare **[!UICONTROL Annulla iscrizione se selezionato]** opzione.
+
+   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+
+1. È inoltre possibile espandere **[!UICONTROL Invito all’azione]** e seleziona la **[!UICONTROL Aggiornamenti aggiuntivi]** opzione. Seleziona il servizio e seleziona la **[!UICONTROL Rinuncia]** opzione.
+
+   ![](assets/lp-uc-unsubscription-call-to-action.png)
+
+1. Modifica il contenuto in base alle esigenze e salva le modifiche.
+
+1. Revisione e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
+
+1. Creare un [email](../email/create-email.md) e [aggiungi un collegamento](../email/message-tracking.md#insert-links) per indirizzare il traffico alla pagina di destinazione della registrazione.
+
+Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, verranno indirizzati alla pagina di conferma dell’annullamento dell’abbonamento e verranno rimossi dall’elenco degli abbonamenti.
+
 ## Impostazione delle pagine di destinazione di rinuncia {#lp-denylist}
 
-Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. Per ulteriori informazioni sulle normative applicabili, consulta [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
-
-Pertanto, devi sempre includere un **collegamento per annullare l’abbonamento** in ogni e-mail inviata ai destinatari:
-
-* Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
-* Facendo clic sul pulsante di opt-out, i dati del profilo verranno aggiornati con queste informazioni.
+Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. Pertanto, devi sempre includere un **collegamento per annullare l’abbonamento** in ogni e-mail inviata ai destinatari. Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 
 È possibile impostare un **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** pagina di destinazione che consentirà agli utenti di rinunciare a tutte le consegne.
 
-Per consentire agli utenti di rinunciare a tutte le consegne, devi creare e pubblicare un’ **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** pagina di destinazione.
+1. Quando [creazione della pagina di destinazione](create-lp.md#create-landing-page), seleziona la **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** modello.
 
-Quando un utente fa clic sul collegamento della pagina di destinazione, **[!UICONTROL Non contattare più (tramite alcun canale)]** nel profilo viene selezionata automaticamente.
+1. Seleziona la **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** per modificarne il contenuto.
 
-definisci un **[!UICONTROL Rinuncia]** e scegli di aggiornare **[!UICONTROL Canale (e-mail)]**: il profilo che controlla la casella di rinuncia nella pagina di destinazione verrà escluso da tutte le comunicazioni.
+1. Espandi **[!UICONTROL Invito all’azione]** e seleziona la **[!UICONTROL Aggiornamenti aggiuntivi]** opzione.
 
-Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento per annullare l’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
+1. Dall’elenco a discesa corrispondente, seleziona **[!UICONTROL Canale (e-mail)]** per consentire ai destinatari di rinunciare solo alle comunicazioni e-mail. Puoi anche selezionare **[!UICONTROL Per tutti i canali]** per scegliere tutti i canali da tutte le comunicazioni.
 
-![](assets/lp_opt-out-submit-form.png)
+   ![](assets/lp-uc-denylist.png)
 
-Se il destinatario seleziona la casella e invia il modulo:
+1. Modifica il contenuto in base alle esigenze e salva le modifiche.
 
-* Il destinatario che ha rinunciato viene reindirizzato alla schermata del messaggio di conferma.
+1. Revisione e [pubblicare](create-lp.md#publish-landing-page) la pagina di destinazione.
 
-* I dati del profilo vengono aggiornati e non riceveranno comunicazioni dal brand a meno che non si rinnovi l’abbonamento.
+1. Creare un [email](../email/create-email.md) e [aggiungi un collegamento](../email/message-tracking.md#insert-links) nella pagina di destinazione per consentire agli utenti di rinunciare alla ricezione di comunicazioni.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa a Profili e seleziona il profilo.
+Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, verranno indirizzati alla pagina di conferma del inserisco nell&#39;elenco Bloccati di e il loro profilo verrà aggiornato con le informazioni fornite.
+
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa alla **[!UICONTROL Profili]** e selezionare tale profilo.
+
+Ad esempio, se hai scelto di aggiornare **[!UICONTROL Canale (e-mail)]** nella pagina di destinazione, il **[!UICONTROL Non contattare più tramite e-mail]** verrà selezionata.
+
+![](assets/lp-uc-denylist-profile.png)
+
+Questo profilo non riceverà comunicazioni e-mail dal tuo marchio, a meno che non si sia nuovamente iscritti.
+
+
+
+
 
 
 
