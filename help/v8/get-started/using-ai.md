@@ -3,7 +3,7 @@ title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale i
 description: Porre domande nei popover della guida di Campaign Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Grazie alle funzionalità della Generazione basata sull’intelligenza artificia
 
 >[!AVAILABILITY]
 >
->L’aiuto contestuale basato sull’intelligenza artificiale è disponibile nella versione beta e soggetto a modifiche senza preavviso.
+>* L’aiuto contestuale basato sull’intelligenza artificiale è disponibile nella versione beta e soggetto a modifiche senza preavviso.
 >
->Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che[la tua lingua preferita](connect-to-campaign.md#language-pref) sia impostata su inglese prima di utilizzare questa funzionalità.
+>* Questa funzionalità è disponibile solo in **lingua inglese**. Altre lingue non sono supportate in questa versione. Di conseguenza, assicurati che[la tua lingua preferita](connect-to-campaign.md#language-pref) sia impostata su inglese prima di utilizzare questa funzionalità.
 >
->Al momento, l’aiuto contestuale basato sull’intelligenza artificiale non è disponibile in Campaign E-mail Designer.
+>* Al momento, l’aiuto contestuale basato sull’intelligenza artificiale non è disponibile in Campaign E-mail Designer.
 
 
 <!--
