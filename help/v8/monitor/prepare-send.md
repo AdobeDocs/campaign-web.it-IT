@@ -3,11 +3,10 @@ audience: end-user
 title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail con l’interfaccia utente web di Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Disponibilità limitata"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 95%
+source-wordcount: '911'
+ht-degree: 93%
 
 ---
 
@@ -26,12 +25,12 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
 1. Dalla dashboard della consegna, fai clic su **[!UICONTROL Rivedi e invia]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. Fai clic sul pulsante **[!UICONTROL Prepara]** in alto a destra e conferma.
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    Puoi interrompere la preparazione in qualsiasi momento utilizzando il pulsante **[!UICONTROL Interrompi preparazione]**.
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >Durante la fase di preparazione, non vengono inviati messaggi. È quindi possibile iniziare o interrompere questo processo senza alcun rischio.
 
 1. Al termine della preparazione, controlla i KPI. Se il numero di messaggi da inviare non corrisponde alle tue aspettative, modifica il pubblico e riavvia la preparazione.
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    Di seguito sono riportati i diversi KPI visualizzati:
 
@@ -58,11 +57,11 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
 1. Fai clic sul pulsante **[!UICONTROL Registri]** e controlla che non vi siano errori. L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. [Ulteriori informazioni](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. Se la preparazione rileva un errore critico che impedisce l’invio della consegna, nella dashboard delle consegne lo stato di preparazione viene visualizzato come “Non riuscito”.
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. Se si apportano eventuali modifiche alla consegna dopo la preparazione, affinché tali modifiche vengano prese in considerazione è necessario riavviare la preparazione.
 
@@ -81,7 +80,7 @@ Per inviare immediatamente un’e-mail, segui la procedura indicata di seguito.
 
 1. Nella dashboard delle consegne, fai clic sul pulsante **[!UICONTROL Invia]** in alto a destra.
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. Conferma questa azione per inviare immediatamente il messaggio al target principale.
 
@@ -95,7 +94,7 @@ Se hai pianificato l’invio dell’e-mail in una data e in un’ora successive,
 
 1. Nella dashboard della consegna, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**, in alto a destra.
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. Fai clic su **[!UICONTROL Conferma invio]**. Alla data pianificata, la consegna viene inviata al target principale.
 
@@ -111,7 +110,7 @@ Se la consegna è pianificata o meno<!--TBC-->, è possibile eseguire due azioni
 
 * Fai clic su **[!UICONTROL Interrompi invio]** per interrompere immediatamente l’invio. Una volta interrotti, né la preparazione né l’invio possono essere ripresi.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## Controllare i KPI {#check-kpis}
 
@@ -151,7 +150,7 @@ Se la consegna è pianificata o meno<!--TBC-->, è possibile eseguire due azioni
 
 Una volta completato l’invio, puoi controllare i KPI visualizzati:
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL Inviato]**: numero di messaggi consegnati. La percentuale visualizzata si basa sul numero totale di messaggi da consegnare.
 

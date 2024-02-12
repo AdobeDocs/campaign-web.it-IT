@@ -2,11 +2,10 @@
 audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '902'
 ht-degree: 57%
 
 ---
@@ -55,7 +54,7 @@ Per creare un pubblico, segui questi passaggi:
 
    * Il &quot;Nuovo pubblico&quot; **[!UICONTROL Salva pubblico]** l’attività rappresenta il passaggio finale nel flusso di lavoro, che consente di salvare i risultati come un nuovo pubblico.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Per creare un pubblico, segui questi passaggi:
    >
    >Le attività del canale non sono disponibili per l’utilizzo nei flussi di lavoro relativi al pubblico.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. Configura l’attività **[!UICONTROL Salva pubblico]** per specificare come salvare la popolazione calcolata a monte nel flusso di lavoro. [Scopri come configurare un’attività Salva pubblico](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Ora puoi utilizzare questo pubblico come target principale di una consegna. [Ult
 
 L’esempio seguente mostra un flusso di lavoro del pubblico configurato per rivolgersi alle clienti di sesso femminile che vivono a New York e creare due nuovi tipi di pubblico in base al loro ultimo acquisto (articoli da yoga o da corsa).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. L’attività **[!UICONTROL Crea pubblico]** è indirizzata a tutti i profili femminili che vivono a New York.
 1. L’attività **[!UICONTROL Arricchimento]** arricchisce il pubblico con le informazioni contenute nella tabella Acquisti per identificare quale tipo di prodotto hanno acquistato le clienti.
@@ -104,4 +103,4 @@ Per impostazione predefinita, l’esecuzione ripetuta di un flusso di lavoro per
 
 Se preferisci non sostituire i risultati del pubblico esistenti, configura il **Salva pubblico** attività per allinearle alle tue esigenze. Ad esempio, puoi modificare il **Etichetta del pubblico** per memorizzare i nuovi risultati in un nuovo pubblico o aggiungere i nuovi risultati al contenuto del pubblico esistente senza cancellare i dati precedenti. [Scopri come configurare un’attività Save audience](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

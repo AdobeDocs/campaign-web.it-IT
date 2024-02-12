@@ -2,12 +2,11 @@
 audience: end-user
 title: Gestire gli abbonati
 description: Scopri come gestire e consegnare alle persone iscritte a un servizio in Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 68%
+source-wordcount: '316'
+ht-degree: 66%
 
 ---
 
@@ -25,15 +24,15 @@ Per aggiungere manualmente degli utenti iscritti, segui i passaggi seguenti.
 
 1. Vai a **[!UICONTROL Abbonati]** e fai clic su **[!UICONTROL Aggiungi abbonati]**.
 
-   ![](assets/service-subscribers-tab.png)
+   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona nell’elenco i profili da aggiungere e fai clic su **[!UICONTROL Conferma]**.
 
-   ![](assets/service-subscribers-select-profiles.png)
+   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Invia]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> per fare in modo che i destinatari selezionati ricevano l’abbonamento [messaggio di conferma](manage-services.md#create-confirmation-message) definito quando [creazione del servizio](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-confirmation-msg.png)
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -51,13 +50,13 @@ Dopo aver [aggiunto iscritti](#add-subscribers) al servizio, puoi annullare manu
 
 1. Fai clic sull’icona con i tre punti accanto al nome del destinatario desiderato e seleziona **[!UICONTROL Elimina]**.
 
-   ![](assets/service-subscribers-delete.png)
+   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
 
 1. Conferma l’eliminazione.
 
 1. Clic **[!UICONTROL Invia]** affinché il destinatario selezionato riceva l’annullamento dell’abbonamento [messaggio di conferma](manage-services.md#create-confirmation-message) definito quando [creazione del servizio](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-delete-confirmation.png)
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
 
 Il destinatario viene rimosso dal **[!UICONTROL Abbonati]** e non è più abbonato al servizio.
 
@@ -67,6 +66,6 @@ Un servizio di iscrizione può avere una durata limitata. L’iscrizione dei des
 
 Questo periodo viene specificato durante la [creazione del servizio](manage-services.md#create-service). Dalle **[!UICONTROL Opzioni aggiuntive]**, disabilita l’opzione **[!UICONTROL Periodo di validità illimitato]** e definisci un periodo di validità per il servizio.
 
-![](assets/service-create-validity-period.png)
+![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 Alla scadenza della durata specificata, per tutti gli iscritti verrà automaticamente annullata l’iscrizione a tale servizio.

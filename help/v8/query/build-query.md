@@ -2,12 +2,11 @@
 audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
-badge: label="Disponibilità limitata"
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 62%
+source-wordcount: '1960'
+ht-degree: 60%
 
 ---
 
@@ -25,7 +24,7 @@ Puoi aggiungere due tipi di elementi:
 
   *Destinatari che si sono iscritti alla newsletter “Sport”**AND**vivono a New York **OR**a San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
@@ -48,7 +47,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -83,7 +82,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -99,15 +98,15 @@ In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot
 
 1. Naviga all&#39;interno del **Marchio** e seleziona la **Etichetta** attributo.
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Definisci il valore previsto per l’attributo.
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 Di seguito è riportato un esempio di query in cui è stato selezionato direttamente un collegamento di tabella. I valori disponibili per questa tabella devono essere selezionati da un selettore dedicato.
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -119,19 +118,19 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
 1. Seleziona la **Acquisti** e confermare.
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Seleziona la **Prezzo** acquisto di 1000$ o più come attributo e destinazione
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Aggiungi condizioni secondarie in base alle tue esigenze. Qui abbiamo aggiunto una condizione per eseguire il targeting dei profili che hanno acquistato un prodotto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -141,11 +140,11 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
 
 1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Nel riquadro delle proprietà, attivare **Aggregare i dati** e selezionare la funzione di aggregazione desiderata.
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### Selezionare un pubblico {#audiences}
 
@@ -162,7 +161,7 @@ Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti op
 
    *Esempio di query che restituisce tutti i profili appartenenti al pubblico “Partecipanti al festival”:*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### Utilizzare un filtro preimpostato {#predefined-filters}
 
@@ -179,7 +178,7 @@ Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti o
 
    *Esempio di query che restituisce tutti i profili corrispondenti al filtro preimpostato “Clienti inattivi”:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### Copiare e incollare componenti {#copy}
 
@@ -197,11 +196,11 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
    | Copiare un singolo componente | Copiare più componenti |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. Per incollare i componenti, fai clic sul pulsante + alla fine della transizione desiderata e seleziona **Incolla n elementi**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## Combinare componenti di filtraggio con operatori {#operators}
 
@@ -214,7 +213,7 @@ Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo vien
 
 In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro predefinito con un **E** operatore, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 Per modificare l’operatore utilizzato per collegare insieme le condizioni di filtro, fai clic su di esso e seleziona l’operatore desiderato nella **Gruppo** che si apre sul lato destro.
 
@@ -224,13 +223,13 @@ Gli operatori disponibili sono:
 * **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
 * **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 È inoltre possibile creare gruppi intermedi di componenti facendo clic sul pulsante **+** su una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
 
 Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP da ricompensare&quot; o &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## Controllare e convalidare la query
 
@@ -254,4 +253,4 @@ Quando la query è pronta, fai clic su **[!UICONTROL Conferma]** nell’angolo i
 
 Puoi modificare la query in qualsiasi momento aprendola. Tieni presente che all’apertura di una query esistente, questa viene visualizzata in una vista semplificata senza la visibilità di  **+** pulsanti. Per aggiungere nuovi elementi alla query, seleziona un componente o un operatore nell’area di lavoro per visualizzare **+** pulsanti.
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

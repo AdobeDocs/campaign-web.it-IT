@@ -2,12 +2,11 @@
 audience: end-user
 title: Creare una consegna SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 94%
+source-wordcount: '506'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +41,7 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. Immetti un’**[!UICONTROL etichetta]** per la consegna e accedi al menu a discesa **[!UICONTROL Opzioni aggiuntive]**. Se la consegna è basata su uno schema esteso, sono disponibili campi specifici di **Opzioni personalizzate**.
 
@@ -56,7 +55,7 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni sui tipi di pubblico](../audience/about-recipients.md)
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    Scopri come selezionare un pubblico esistente in [questa pagina](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
 1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a progettare il contenuto del messaggio SMS. [Ulteriori informazioni](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../msg/offers.md).
 
@@ -78,4 +77,4 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
 1. Clic **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

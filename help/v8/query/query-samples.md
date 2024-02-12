@@ -4,11 +4,10 @@ title: Esempi di query
 description: Scopri come utilizzare Query Modeler.
 hide: true
 hidefromtoc: true
-badge: label="Disponibilità limitata"
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '177'
 ht-degree: 95%
 
 ---

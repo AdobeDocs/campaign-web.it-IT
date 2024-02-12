@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Disponibilità limitata"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 96%
+source-wordcount: '260'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 96%
 
 Durante la [creazione di un’e-mail](../email/create-email.md), utilizza la sezione **[!UICONTROL Seleziona modello di progettazione]** dell’interfaccia **[!UICONTROL Crea e-mail]** per iniziare a creare i contenuti da un modello.
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 Puoi scegliere tra:
 
@@ -42,17 +41,17 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 
 1. Per utilizzare un modello personalizzato esistente, passa alla scheda **[!UICONTROL Modelli salvati]**.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. Viene visualizzato l’elenco di tutti i [modelli salvati](#save-as-template). Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona un modello dall’elenco per visualizzarne il contenuto.
 
 1. Utilizza le frecce destra e sinistra per spostarti tra i modelli (di esempio o salvati, a seconda della selezione).
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
 

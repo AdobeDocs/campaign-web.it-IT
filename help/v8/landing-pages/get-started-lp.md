@@ -3,10 +3,9 @@ audience: end-user
 title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 feature: Landing Pages
-badge: label="Disponibilità limitata"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 11%
 
 ---

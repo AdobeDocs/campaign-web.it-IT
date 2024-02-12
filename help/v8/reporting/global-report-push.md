@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapporti globali per il canale push
 description: Comprendere i rapporti globali per il canale push
-badge: label="Disponibilità limitata"
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 34%
+source-wordcount: '554'
+ht-degree: 33%
 
 ---
 
@@ -28,7 +27,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul coinvolgimento dei visitatori con ogni consegna di notifiche push. Le metriche sono descritte di seguito.
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -51,7 +50,7 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 
 Il **[!UICONTROL Pubblico di destinazione]** La tabella e il grafico presentano i dati relativi ai destinatari per ogni consegna di notifiche push inviata. Le metriche sono descritte di seguito.
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
@@ -72,7 +71,7 @@ Il **[!UICONTROL Pubblico di destinazione]** La tabella e il grafico presentano 
 
 Il **[!UICONTROL Statistiche consegna]** La tabella descrive il completamento di ogni consegna di notifiche push. Le metriche sono descritte di seguito.
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -106,6 +105,6 @@ I tipi di errore per le notifiche push sono elencati nella [Documentazione di Ad
 >title="Rapporto velocità di consegna"
 >abstract="Il **Velocità effettiva di consegna** Il rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna delle notifiche push dell’intera piattaforma in un arco temporale specificato."
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 Il **[!UICONTROL Velocità effettiva di consegna]** Il rapporto offre informazioni complete sull’efficacia del sistema di consegna delle notifiche push, offrendo un riepilogo dettagliato dei tassi di successo e di errore in un determinato periodo di tempo.

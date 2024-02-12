@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '659'
-ht-degree: 100%
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript 
 
 * **Personalizza i messaggi** per ogni destinatario specifico sfruttando i dati del profilo come il nome, gli interessi, dove vive, cosa ha acquistato e molto altro. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione relativo al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. Per inserire nel contenuto la città del destinatario, utilizza la seguente sintassi: &lt;%= recipient.location.city %>.
 
-  ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Crea contenuti condizionali** per adattare le consegne a ciascun destinatario e mostrare solo il contenuto rilevante per determinati clienti in base alle informazioni che hai raccolto su di loro. Questo consente di visualizzare blocchi di testo e/o immagini specifici in base alle condizioni. Ad esempio, adatta un banner e-mail in base all’iscrizione dei destinatari a un servizio specifico.
 
-  ![](assets/condition-sample.png){width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Utilizza i blocchi di personalizzazione** per risparmiare tempo e sfruttare contenuti personalizzati riutilizzabili nei messaggi. Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio e-mail. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione.
 
-  ![](assets/content-blocks.png){width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 ## Accedere all’editor di espressioni {#access}
 
@@ -51,15 +51,15 @@ Di seguito sono riportati alcuni esempi su come accedere all’editor di espress
 
 * *Accesso all’editor di espressioni dal campo Nome mittente*
 
-  ![](assets/expression-editor-access.png){width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Accesso all’editor di espressioni da un componente di testo e-mail*
 
-  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Accesso all’editor di espressioni da un collegamento in un e-mail*
 
-  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 >[!NOTE]
 >

@@ -1,12 +1,11 @@
 ---
 title: Creare un profilo
 description: Scopri come creare un profilo in Campaign Web.
-badge: label="Disponibilità limitata"
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -53,7 +52,7 @@ Per creare un profilo, effettua le seguenti operazioni:
 
 1. L’elenco degli attributi disponibili per la visualizzazione del profilo, organizzato in diverse sezioni descritte nella tabella seguente.
 
-   ![](assets/create-profile.png)
+   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
 
    | Sezione Attributi | Descrizione |
    |  ---  |  ---  |

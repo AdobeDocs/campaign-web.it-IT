@@ -1,12 +1,11 @@
 ---
 title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 94%
+source-wordcount: '844'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +35,7 @@ I filtri preimpostati sono filtri personalizzati che vengono creati e salvati pe
 
 Puoi utilizzare i filtri preimpostati esistenti per accedere a un sottoinsieme specifico dei tuoi dati o creare filtri preimpostati personalizzati e salvarli.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
@@ -62,11 +61,11 @@ Puoi salvare un filtro personalizzato dal [query modeler](../query/query-modeler
 1. Apri il query modeler e definisci le condizioni del filtro. Nell’esempio seguente, puoi filtrare i destinatari che vivono a Madrid e che sono iscritti a una newsletter.
 1. Fai clic sul pulsante **Seleziona o salva filtro** e seleziona **Salva come filtro**.
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona **Crea un nuovo filtro** e immetti un nome e una descrizione per il filtro.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    Se necessario, puoi salvare il filtro come preferito. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
 
@@ -86,12 +85,12 @@ Puoi creare un filtro dalla voce **Filtri preimpostati** nel menu a sinistra. Pe
 
 1. Definisci la regola per il filtro. Ad esempio, per i profili con più di 30 anni.
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. Salva le modifiche.
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 Il filtro viene aggiunto all’elenco dei filtri preimpostati. Se necessario, puoi salvare il filtro come preferito. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
@@ -104,7 +103,7 @@ Quando crei un filtro preimpostato, puoi abilitare l’opzione **Salva come pref
 
 Quando viene salvato un filtro come preferito, è disponibile per tutti gli utenti nella sezione **Filtri preferiti** dell’elenco di filtri creati, come illustrato di seguito:
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## Utilizza un filtro preimpostato {#use-predefined-filter}
 
@@ -121,21 +120,21 @@ Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passa
 1. Immetti il nome del pubblico e fai clic su **Crea pubblico**.
 1. Seleziona l’attività **Query** e, nel riquadro di destra, fai clic sul pulsante **Crea pubblico**.
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
 1. Dal pulsante **Seleziona o salva filtro**, scegli l’opzione **Seleziona filtro personalizzato**.
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. Passa al filtro preimpostato da usare per creare il pubblico, selezionalo e conferma.
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. Controlla le proprietà della regola per questo filtro e conferma.
 
    Il filtro viene ora utilizzato come query nell’attività **Query**.
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Salva le modifiche e fai clic sul pulsante **Inizia** per creare il pubblico e renderlo disponibile nell’elenco dei tipi di pubblico.
 
@@ -143,7 +142,7 @@ Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passa
 
 I filtri preimpostati sono tutti raggruppati nella voce dedicata del menu di navigazione a sinistra.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
 Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza; inoltre, puoi:
 

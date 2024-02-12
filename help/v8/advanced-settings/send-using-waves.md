@@ -3,11 +3,10 @@ audience: end-user
 title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
-badge: label="Disponibilità limitata"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 5%
+source-wordcount: '796'
+ht-degree: 4%
 
 ---
 
@@ -57,7 +56,7 @@ Per inviare le consegne scaglionate, segui la procedura riportata di seguito.
 
 Se selezionate questa opzione, tutte le onde hanno la stessa dimensione (tranne l&#39;ultima) e il ritardo tra ogni onda è sempre lo stesso.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * Specifica la dimensione di tutte le ondate in cui si sta suddividendo la consegna. È possibile immettere una percentuale o un valore numerico. Solo l&#39;ultima ondata può variare in dimensioni in quanto deve includere il numero rimanente di messaggi.
 
@@ -71,7 +70,7 @@ Utilizzando le ondate, è possibile limitare il numero di messaggi a 20 al giorn
 
 A questo scopo, seleziona la **[!UICONTROL Pianificazione di più scaglioni della stessa dimensione]** opzione. Invio **[!UICONTROL 20]** come dimensione delle onde e **[!UICONTROL 1 giorno]** nel **[!UICONTROL Interval]** campo.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## Pianifica scaglioni in base a un calendario {#waves-calendar}
 
@@ -89,7 +88,7 @@ Aggiungi tutte le ondate che desideri. Puoi riordinarli in base alle tue esigenz
 
 Nell’esempio seguente, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizia immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 Un caso d’uso comune per l’utilizzo di più scaglioni secondo un calendario è durante il processo di incremento.
 
@@ -99,7 +98,7 @@ Per evitare di essere contrassegnati come spam, puoi aumentare progressivamente 
 
 A tale scopo, utilizza **[!UICONTROL Pianifica ondate in base a un calendario]** opzione. Ad esempio, imposta la prima ondata su 10%, la seconda su 15%, la terza su 20% e così via.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

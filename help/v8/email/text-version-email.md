@@ -3,11 +3,10 @@ audience: end-user
 title: Creare la versione testuale di un’e-mail
 description: Scopri come creare la versione testuale di un’e-mail
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Disponibilità limitata"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 96%
 
 ---
 
@@ -21,15 +20,15 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 
 1. Dal messaggio e-mail, seleziona la scheda **[!UICONTROL Testo normale]**.
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. Utilizza l’interruttore **[!UICONTROL Sincronizza con HTML]** per disabilitare la sincronizzazione.
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. Fai clic sul segno di spunta per confermare la scelta.
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. Puoi quindi modificare la versione di testo normale come desiderato.
 

@@ -3,11 +3,10 @@ audience: end-user
 title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima i contenuti della consegna con l’interfaccia utente web di Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Disponibilità limitata"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 65%
+source-wordcount: '358'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +21,7 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Per selezionare i profili da utilizzare per l’anteprima dei contenuti personalizzati, utilizza le seguenti opzioni:
 
@@ -36,11 +35,11 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
    * Il **[!UICONTROL Profili]** Questa scheda elenca tutti i profili memorizzati nel database. [Scopri come utilizzare i profili](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. [Scopri come aggiungere regole utilizzando Query Modeler](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
    Viene visualizzata un’anteprima del contenuto della consegna nel riquadro a destra della schermata **[!UICONTROL Simula]**. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. Se hai aggiunto più profili, puoi passare da un profilo all’altro nell’elenco per visualizzare in anteprima il contenuto della consegna corrispondente. Puoi anche aggiungere altri profili di test e cancellare la selezione utilizzando i pulsanti corrispondenti nel riquadro a sinistra.
 

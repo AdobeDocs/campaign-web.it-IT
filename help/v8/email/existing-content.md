@@ -3,11 +3,10 @@ audience: end-user
 title: Importare il contenuto dell’e-mail
 description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Disponibilità limitata"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
 1. Nella pagina Home di [E-mail designer](get-started-email-designer.md), seleziona **[!UICONTROL Importa HTML]**.
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. Trascina il file HTML o .zip con il contenuto HTML e fai clic su **[!UICONTROL Importa]**.
 
@@ -39,11 +38,11 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
    In questa modalità, puoi solo personalizzare il testo, aggiungere collegamenti o includere risorse nel contenuto.
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. Per poter sfruttare i componenti di contenuto di E-mail designer, accedi alla scheda **[!UICONTROL Convertitore HTML]** e fai clic su **[!UICONTROL Converti]**.
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

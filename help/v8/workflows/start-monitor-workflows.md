@@ -2,12 +2,11 @@
 audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +22,7 @@ Una volta eseguito il flusso di lavoro, ogni attività nell’area di lavoro vie
 
 Puoi monitorare l’avanzamento dei profili target in tempo reale utilizzando un flusso visivo. Questo consente di identificare rapidamente lo stato di ciascuna attività e il numero di profili che passano da un’attività all’altra.
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
 
 ## Transizioni del flusso di lavoro {#transitions}
 
@@ -32,7 +31,7 @@ Nei flussi di lavoro, i dati trasportati da un’attività all’altra tramite t
 * Fai clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
 * Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata.
 
-![](assets/transition.png)
+![](assets/transition.png){zoomable=&quot;yes&quot;}
 
 ## Monitorare l’esecuzione dell’attività {#activities}
 
@@ -40,10 +39,10 @@ Gli indicatori visivi nell’angolo superiore a destra di ciascuna casella di at
 
 | Indicatore visivo | Descrizione |
 |-----|------------|
-| ![](assets/activity-status-pending.png){width="70%"} | L’attività è attualmente in esecuzione. |
-| ![](assets/activity-status-orange.png){width="70%"} | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
-| ![](assets/activity-status-red.png){width="70%"} | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
-| ![](assets/activity-status-green.png){width="70%"} | L’attività è stata eseguita correttamente. |
+| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | L’attività è attualmente in esecuzione. |
+| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | L’attività richiede la tua attenzione. Ciò potrebbe implicare la conferma dell’invio di una consegna o l’adozione di un’azione necessaria. |
+| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | L’attività ha rilevato un errore. Per risolvere il problema, apri i registri del flusso di lavoro per ulteriori informazioni. |
+| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | L’attività è stata eseguita correttamente. |
 
 ## Monitorare i registri e le attività {#logs-tasks}
 
@@ -51,7 +50,7 @@ Il monitoraggio dei registri e delle attività dei flussi di lavoro è un passag
 
 Il menu **[!UICONTROL Registri e attività]** fornisce una cronologia dell’esecuzione del flusso di lavoro, registrando tutte le azioni dell’utente e gli errori riscontrati. Questa cronologia viene salvata per la durata specificata nelle [opzioni di esecuzione](workflow-settings.md) del flusso di lavoro. Durante questo periodo, tutti i messaggi vengono salvati, anche dopo che il flusso di lavoro è stato riavviato. Se non desideri salvare i messaggi di un’esecuzione precedente, fai clic sul pulsante **[!UICONTROL Elimina cronologia]**.
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
 
 Sono disponibili due tipi di informazioni:
 

@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 96%
 
 ---
 
@@ -35,11 +35,11 @@ Nell’esempio seguente, scopri come sfruttare la funzione Assistente contenuto 
 
 1. Dal menu di destra, seleziona **[!UICONTROL Generazione di esperienze]**.
 
-   ![](assets/image-genai-1.png)
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Aggiungi un prompt per ottimizzare i risultati.
 
-   ![](assets/image-genai-2.png)
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere eventuali risorse del tuo marchio in cui siano presenti contenuti che possano fornire ulteriore contesto alla funzione Assistente contenuto.
 
@@ -51,20 +51,20 @@ Nell’esempio seguente, scopri come sfruttare la funzione Assistente contenuto 
 
 1. Personalizza le impostazioni di **[!UICONTROL Colore e tono]**, **[!UICONTROL Tipo di contenuto]**, **[!UICONTROL Illuminazione]** e **[!UICONTROL Composizione]** in base alle caratteristiche desiderate per la risorsa.
 
-   ![](assets/image-genai-3.png)
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Una volta completata la configurazione del prompt, fai clic su **[!UICONTROL Genera]**.
 
 1. Sfoglia i **[!UICONTROL Suggerimenti per le varianti]** per trovare la risorsa desiderata. Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
 
-   ![](assets/image-genai-5.png)
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
-   ![](assets/image-genai-6.png)
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Dopo aver definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e verificare le impostazioni di personalizzazione con i profili di test.  [Ulteriori informazioni](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png)
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la consegna e-mail. [Ulteriori informazioni](../monitor/prepare-send.md)

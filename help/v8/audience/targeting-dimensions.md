@@ -1,9 +1,8 @@
 ---
 title: Dimensioni di targeting
 description: Ulteriori informazioni sulle dimensioni di targeting in Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 64%
@@ -27,7 +26,7 @@ Tieni presente che puoi cambiare la dimensione targeting in un flusso di lavoro 
 
 Durante la selezione di una dimensione di targeting (nelle impostazioni del flusso di lavoro o in attività come **Creare un pubblico**, **Reconciliation** o **Cambia dimensione**), nell’elenco viene visualizzata per impostazione predefinita una selezione di schemi comunemente utilizzati. Per visualizzare tutti gli schemi disponibili, attiva **[!UICONTROL Mostra tutti gli schemi]** pulsante. La selezione delle opzioni viene salvata per ogni utente.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## Dimensioni di targeting {#list}
 

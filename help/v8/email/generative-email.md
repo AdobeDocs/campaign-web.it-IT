@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Per generare un contenuto e-mail con Assitente contenuto, segui i passaggi segue
 
 1. Dal menu di destra, seleziona **[!UICONTROL Generazione di esperienze]**.
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare.
 
@@ -46,9 +46,9 @@ Per generare un contenuto e-mail con Assitente contenuto, segui i passaggi segue
    * Per feedback e sondaggi: crea un’e-mail che invita la clientela a fornire feedback sulla recente esperienza software e a partecipare a un sondaggio sul miglioramento dei prodotti.
    * Per e-mail di anniversario o compleanno: genera un’e-mail di compleanno per celebrare questo giorno speciale e offrire uno sconto per il compleanno.
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Se desideri aggiungere una risorsa del marchio con contenuto che possa fornire ulteriore contesto all&#39;Assistente contenuto, seleziona **[!UICONTROL Carica file]**.
+1. Seleziona **[!UICONTROL Carica file]** se desideri aggiungere eventuali risorse del tuo marchio in cui siano presenti contenuti che possano fornire ulteriore contesto alla funzione Assistente contenuto.
 
    Puoi anche fare clic su **[!UICONTROL Contenuto caricato]** per trovare i file aggiornati in precedenza. tieni presente che i contenuti caricati possono essere riutilizzati solo da parte dell’utente corrente.
 
@@ -56,7 +56,7 @@ Per generare un contenuto e-mail con Assitente contenuto, segui i passaggi segue
 
 1. Scegli la **[!UICONTROL Lingua]** e il **[!UICONTROL Tono]** da applicare al testo generato. Il testo generato sarà quindi appropriato per il pubblico e lo scopo a cui è destinato.
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Personalizza le impostazioni delle risorse del **[!UICONTROL Tipo di contenuto]** per farle corrispondere con le caratteristiche desiderate.
 
@@ -64,16 +64,16 @@ Per generare un contenuto e-mail con Assitente contenuto, segui i passaggi segue
 
 1. Sfoglia i **[!UICONTROL Suggerimenti per le varianti]** per trovare l’e-mail desiderata. Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail in base ai dati dei profili o, se necessario, per personalizzare ulteriormente il contenuto. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
 1. Dopo aver definito il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e verificare le impostazioni di personalizzazione con i profili di test.  [Ulteriori informazioni](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la consegna e-mail. [Ulteriori informazioni](../monitor/prepare-send.md)

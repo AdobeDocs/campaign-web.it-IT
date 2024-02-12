@@ -2,12 +2,11 @@
 audience: end-user
 title: Inviare una consegna di notifica push
 description: Scopri come inviare una consegna di tipo notifica push con Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 96%
 
 ---
 
@@ -21,17 +20,17 @@ I passaggi principali per visualizzare in anteprima la notifica push sono i segu
 
 1. Dalla pagina dei contenuti della consegna, puoi utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati.
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Fai clic su **[!UICONTROL Aggiungi iscritti]** per selezionare uno o più profili in modo da visualizzarne in anteprima i dati nel contenuto della notifica push.
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. Nel riquadro a destra è disponibile un’anteprima della notifica push, in cui gli elementi personalizzati vengono sostituiti dinamicamente con i dati del profilo selezionato.
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 Ora puoi rivedere e inviare le notifiche push al pubblico.
 
@@ -42,19 +41,19 @@ I destinatari del test possono rivedere elementi quali collegamenti, immagini e 
 
 ![](../assets/do-not-localize/book.png) Scopri come inviare notifiche push di test in [questa sezione](../preview-test/test-deliveries.md#subscribers).
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Inviare la consegna di notifiche push {#send-push}
 
 1. Dopo aver personalizzato il contenuto della notifica push, fai clic su **[!UICONTROL Rivedi e invia]** nella pagina **[!UICONTROL Consegna]**.
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. Fai clic su **[!UICONTROL Prepara]** e monitora l’avanzamento e le statistiche fornite.
 
    Se si verificano degli errori, fai riferimento al menu Registri per informazioni dettagliate sull’errore.
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. Per inviare i messaggi, fai clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale.
 
@@ -62,7 +61,7 @@ I destinatari del test possono rivedere elementi quali collegamenti, immagini e 
 
    Se la consegna push è stata pianificata, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 Una volta inviata la consegna, puoi tenere traccia dei tuoi KPI (indicatori chiave di prestazioni) dalla pagina della consegna e dei dati dal menu **[!UICONTROL Registri]**.
 

@@ -4,11 +4,10 @@ description: Scopri come creare e gestire i profili di test in Adobe Campaign
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-badge: label="Disponibilità limitata"
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -34,17 +33,17 @@ I passaggi per inviare messaggi di test agli indirizzi di seed sono descritti in
 
 Per accedere all’elenco dei profili di test, seleziona **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** dal menu a sinistra e fare clic su **[!UICONTROL Profili di test]** scheda.
 
-![](assets/test-profile-list.png)
+![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
 
 * Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa o aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
 
 * Puoi duplicare qualsiasi profilo di test e aggiornarlo in base alle esigenze. I passaggi per modificare un profilo di test sono gli stessi di quando [creazione di un profilo di test](#create-test-profile).
 
 * Per eliminare un profilo di test, seleziona l’opzione corrispondente dal menu **[!UICONTROL Altre azioni]** menu.
 
-  ![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
 
 * Per modificare un profilo di test, fai clic sull’elemento desiderato dall’elenco. I passaggi per modificare un profilo di test sono gli stessi di quando [creazione di un profilo di test](#create-test-profile).
 
@@ -52,7 +51,7 @@ Puoi anche accedere ai profili di test tramite **[!UICONTROL Esplora]** vista, d
 
 Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png)
+![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
 
 Dalla sezione **[!UICONTROL Esplora]** visualizzazione puoi anche filtrare, eliminare, modificare e [creare](#create-test-profile) profili di test.
 
@@ -69,11 +68,11 @@ Per creare un profilo di test, segui i passaggi indicati di seguito.
 
 1. Fai clic su **[!UICONTROL Creare un profilo di test]** pulsante.
 
-   ![](assets/test-profile-create.png)
+   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
 
 1. Compila i dettagli del profilo di test, se necessario. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png)
+   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -81,7 +80,7 @@ Per creare un profilo di test, segui i passaggi indicati di seguito.
 
 1. Per impostazione predefinita, i profili di test sono memorizzati nella **[!UICONTROL Indirizzi seed]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
-   <!--![](assets/test-profile-folder.png)-->
+   <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -89,13 +88,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. In **[!UICONTROL Informazioni di contatto]** , immettere l&#39;indirizzo di posta elettronica e altri dati rilevanti. L’indirizzo e-mail viene visualizzato tra parentesi dopo l’etichetta del profilo di test.
 
-   ![](assets/test-profile-address.png)
+   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
 
 1. Se si seleziona la **[!UICONTROL Non contattare più (tramite alcun canale)]** , il profilo di test è in fase di inserisco nell&#39;elenco Bloccati. Tale destinatario non è più destinatario di alcun canale (e-mail, SMS, ecc.).
 
 1. In **[!UICONTROL Dati aggiuntivi]** , immetti i dati di personalizzazione utilizzati per le consegne create nei flussi di lavoro di gestione dati e a cui desideri assegnare un valore specifico. [Ulteriori informazioni sui flussi di lavoro](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png)
+   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
 
    Assicurati che siano stati definiti dati di destinazione aggiuntivi con un alias che inizia con &quot;@&quot; nel **[!UICONTROL Arricchimento]** attività del flusso di lavoro. In caso contrario, non puoi utilizzarlo correttamente con gli indirizzi seed nell’attività di consegna. [Ulteriori informazioni sull’attività Enrichment](../workflows/activities/enrichment.md)
 

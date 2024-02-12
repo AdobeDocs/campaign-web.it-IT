@@ -2,12 +2,11 @@
 audience: end-user
 title: Progettare una consegna SMS
 description: Scopri come progettare la consegna SMS
-badge: label="Disponibilità limitata"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 95%
+source-wordcount: '260'
+ht-degree: 94%
 
 ---
 
@@ -31,11 +30,11 @@ Per progettare il contenuto di una consegna SMS, segui questi passaggi:
 
    Inoltre, facendo clic su **[!UICONTROL Apri finestra di dialogo di personalizzazione]**, puoi includere nel messaggio campi di personalizzazione, blocchi di contenuto e contenuto dinamico.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. Digita il messaggio di testo nel campo **[!UICONTROL Messaggio]** o fai clic sul pulsante **[!UICONTROL Apri finestra di dialogo di personalizzazione]** per definire il contenuto e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. Per impostazione predefinita, il tracciamento è abilitato per le consegne. Puoi disattivare questa opzione dalla **[!UICONTROL sezione Funzioni facoltative]**.
 

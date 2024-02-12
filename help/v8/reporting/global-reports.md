@@ -2,12 +2,11 @@
 audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
-badge: label="Disponibilità limitata"
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 34%
+source-wordcount: '211'
+ht-degree: 32%
 
 ---
 
@@ -29,15 +28,15 @@ Per accedere e gestire i rapporti globali, effettua le seguenti operazioni:
 
 1. Nel menu a sinistra, seleziona un rapporto dall’elenco e naviga attraverso la scheda per visualizzare i dati da ciascun canale.
 
-   ![](assets/global_report_manage_3.png)
+   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
 
 1. Dal dashboard, scegli un **Inizio** e **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
 
-   ![](assets/global_report_manage_1.png)
+   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
 
 1. Dalla sezione **[!UICONTROL Seleziona cartella]** , seleziona se desideri eseguire il targeting delle consegne o della campagna da una cartella specifica.
 
-   ![](assets/global_report_manage_2.png)
+   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Aggiungi regole]** per iniziare a creare query per filtrare meglio i dati di reporting. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
 

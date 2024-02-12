@@ -3,11 +3,10 @@ audience: end-user
 title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente web di Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Disponibilità limitata"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 95%
+source-wordcount: '797'
+ht-degree: 94%
 
 ---
 
@@ -67,7 +66,7 @@ Ad esempio, per creare un gruppo di controllo con i 100 nuovi destinatari più g
 1. Aggiungi il campo **Data di creazione**. Seleziona l’opzione di ordinamento **Decrescente**.
 1. Definisci 100 come soglia nella sezione **Dimensione limite**.
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 Questi 100 nuovi destinatari più giovani verranno esclusi dal target principale.
 
@@ -75,27 +74,27 @@ Questi 100 nuovi destinatari più giovani verranno esclusi dal target principale
 
 Puoi visualizzare i registri per controllare e identificare i profili esclusi. Prendiamo l’esempio di un’esclusione casuale su cinque profili.
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 Dopo la preparazione della consegna, puoi rivedere come sono state applicate le esclusioni:
 
 * Nella dashboard della consegna, prima dell’invio, controlla il KPI **Da escludere**.
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * Nei registri di consegna, la scheda Registri mostra il passaggio di esclusione.
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * La scheda **Cause di esclusione** mostrano il numero di profili esclusi per ogni regola di tipologia.
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](../monitor/delivery-logs.md).
 
@@ -110,7 +109,7 @@ Un altro modo per definire un gruppo di controllo consiste nel selezionare una p
 
 Nella sezione **Popolazione aggiuntiva** della schermata di definizione del **Gruppo di controllo**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * Per utilizzare un pubblico esistente, fai clic su **Seleziona pubblico**. Per ulteriori informazioni, consulta [questa sezione](add-audience.md).
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapporti globali per il canale e-mail
 description: Ulteriori informazioni sui rapporti globali per il canale e-mail
-badge: label="Disponibilità limitata"
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 52%
+source-wordcount: '1618'
+ht-degree: 51%
 
 ---
 
@@ -28,7 +27,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 
 Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna di e-mail. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -54,7 +53,7 @@ Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
@@ -75,7 +74,7 @@ Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati re
 
 Il **[!UICONTROL Statistiche consegna]** La tabella fornisce una suddivisione del successo di ogni consegna e-mail, con metriche dettagliate descritte di seguito.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -96,7 +95,7 @@ Il **[!UICONTROL Statistiche consegna]** La tabella fornisce una suddivisione de
 >title="Cause di esclusione"
 >abstract="Il **Cause di esclusione** i grafici e le tabelle illustrano i motivi specifici del rifiuto dei messaggi durante la preparazione della consegna, offrendo un raggruppamento dettagliato per regola."
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Il grafico e la tabella Esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
@@ -109,7 +108,7 @@ I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campa
 >title="Velocità di consegna"
 >abstract="Questo **Velocità effettiva di consegna** fornisce informazioni complete sulla velocità effettiva di consegna, evidenziando i tassi di successo e di errore in un arco temporale specificato."
 
-![](assets/global_report_email_delivery_throughput.png){align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Il rapporto Throughput di consegna fornisce informazioni approfondite sull’efficienza del processo di consegna, presentando una panoramica dettagliata dei tassi di successo e di errore in un arco temporale specificato.
 
@@ -130,7 +129,7 @@ Il rapporto Throughput di consegna fornisce informazioni approfondite sull’eff
 >title="Raggruppamento degli errori per tipo"
 >abstract="La tabella e il grafico che descrivono **Raggruppamento degli errori per tipo** include informazioni sui vari tipi di errore riscontrati durante il processo, tra cui utente sconosciuto, cassetta postale piena, dominio non valido e altri."
 
-![](assets/global_report_email_breakdown_type.png){align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Il **[!UICONTROL Raggruppamento degli errori per tipo]** la tabella e il grafico presentano i dati relativi a potenziali errori riscontrati in vari domini, con le metriche specifiche fornite di seguito.
 
@@ -161,7 +160,7 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 >title="Raggruppamento degli errori per dominio"
 >abstract="Tabella e grafico che illustrano **Raggruppamento degli errori per dominio** presenta i dati corrispondenti a ciascun tipo di errore incontrato, suddivisi per domini specifici."
 
-![](assets/global_report_email_breakdown_domain.png){align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Il **[!UICONTROL Raggruppamento degli errori per dominio]** la tabella e il grafico mostrano i dati relativi a potenziali errori all’interno di ciascun dominio. Le metriche sono comuni alla tabella e al grafico **[!UICONTROL Raggruppamento degli errori per tipo]** descritti in precedenza.
 
@@ -176,7 +175,7 @@ Il **[!UICONTROL Raggruppamento degli errori per dominio]** la tabella e il graf
 
 Il **[!UICONTROL Statistiche consegna]** Le metriche offrono indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati associati a ogni consegna e-mail. Ulteriori dettagli su queste metriche sono forniti di seguito.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -204,7 +203,7 @@ Il **[!UICONTROL Statistiche consegna]** Le metriche offrono indicatori di prest
 
 La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_opens.png){align="center"}
+![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del tasso di apertura e click-through.
 
@@ -230,7 +229,7 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 
 Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL che hanno ricevuto il maggior numero di clic durante una consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_9.png){align="center"}
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sugli URL e sulle metriche di flusso di clic.
 
@@ -252,7 +251,7 @@ Il **[!UICONTROL URL e flussi di clic]** Il rapporto fornisce indicatori di pres
 
 Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_top10.png){align="center"}
+![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche dei 10 collegamenti più visitati.
 
@@ -271,7 +270,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
-![](assets/global_report_email_breakdown_clicks.png){align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## Attività degli utenti {#user-activities-email}
 
@@ -282,7 +281,7 @@ Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati di
 
 Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche di questo rapporto sono descritte di seguito.
 
-![](assets/global_report_email_user.png){align="center"}
+![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle attività utente.
 

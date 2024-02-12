@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapporti globali per il canale di direct mailing
 description: Ulteriori informazioni sui rapporti globali per il canale di direct mailing
-badge: label="Disponibilità limitata"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 45%
+source-wordcount: '634'
+ht-degree: 44%
 
 ---
 
@@ -22,7 +21,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 
 Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna di e-mail. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -39,7 +38,7 @@ Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
@@ -55,7 +54,7 @@ Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati re
 
 Il **[!UICONTROL Statistiche consegna]** La tabella fornisce una suddivisione del successo di ogni consegna di direct mailing, con le metriche dettagliate descritte di seguito.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -71,7 +70,7 @@ Il **[!UICONTROL Statistiche consegna]** La tabella fornisce una suddivisione de
 
 ### Cause di esclusione {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 Il grafico e la tabella Esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 

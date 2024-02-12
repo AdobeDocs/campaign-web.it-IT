@@ -2,12 +2,11 @@
 audience: end-user
 title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
-badge: label="Disponibilità limitata"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 82%
+source-wordcount: '626'
+ht-degree: 80%
 
 ---
 
@@ -50,7 +49,7 @@ Per eseguire il targeting dei profili da un file locale direttamente dall’inte
 1. Apri una consegna e-mail esistente oppure [crea una nuova consegna e-mail](../email/create-email.md).
 1. Nella finestra di creazione della consegna e-mail, dalla sezione **Pubblico**, fai clic sul pulsante **Seleziona pubblico** e scegli l’opzione **Seleziona da file**.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona il file locale da usare. Il formato deve essere allineato con il [file di esempio](#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
@@ -60,7 +59,7 @@ Per eseguire il targeting dei profili da un file locale direttamente dall’inte
 
 Durante la creazione e la personalizzazione del contenuto del messaggio, puoi selezionare i campi dal file di input nell’[editor di personalizzazione](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## File di esempio {#sample-file}
 
@@ -93,7 +92,7 @@ Quando si utilizza un pubblico caricato da un file, Campaign Web consente di vis
 
 1. Viene visualizzata un’anteprima del contenuto della consegna nel riquadro a destra della schermata. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra. [Ulteriori informazioni sull’anteprima dei contenuti della consegna](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. Per inviare e-mail di test, fai clic sul pulsante **[!UICONTROL Test]**.
 
@@ -105,6 +104,6 @@ Quando si utilizza un pubblico caricato da un file, Campaign Web consente di vis
 
 1. Quando i destinatari della bozza vengono aggiunti ed è tutto pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia e-mail di test]** e conferma l’invio.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. Puoi monitorare l’invio dell’e-mail di test utilizzando **[!UICONTROL Visualizza registro e-mail di test]** in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle e-mail di test](../preview-test/test-deliveries.md#access-test-deliveries)

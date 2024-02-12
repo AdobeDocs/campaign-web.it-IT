@@ -1,12 +1,11 @@
 ---
 title: Connessione all’interfaccia di Adobe Campaign Web
 description: Scopri come connetterti all’interfaccia utente di Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 96%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -26,11 +25,11 @@ Per accedere ad Adobe Experience Cloud, i passaggi di base sono:
 
    Dopo aver effettuato l’accesso ad Experience Cloud, puoi accedere rapidamente a tutte le soluzioni e le app.
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. Verifica di essere nell’organizzazione corretta.
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    Trovi ulteriori informazioni sulle organizzazioni in Adobe Experience Cloud in [questo articolo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it){target="_blank"}.
 
@@ -41,11 +40,11 @@ Per accedere all’ambiente Campaign, seleziona **Campaign** dalla sezione **Acc
 
 Se sei già connesso a un’altra soluzione Adobe Experience Cloud, puoi anche passare all’ambiente Campaign dal selettore della soluzione in alto a destra dello schermo.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 Se hai accesso a più ambienti, incluso il Pannello di controllo di Campaign, fai clic sul pulsante **Avvia** per l&#39;istanza corretta.
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 Viene così impostata la connessione a Campaign. Per informazioni su come iniziare a utilizzare l’interfaccia utente, visita [questa pagina](user-interface.md).
 
@@ -60,7 +59,7 @@ Sfoglia la barra superiore dell’interfaccia per:
 * controllare le notifiche dei prodotti
 * modificare il profilo di Adobe e gestire le impostazioni, ad esempio [aggiornare la lingua preferita](#language-pref) o [passare al tema chiaro/scuro](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## Browser supportati {#browsers}
 

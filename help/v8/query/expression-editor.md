@@ -2,11 +2,10 @@
 audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
-badge: label="Disponibilità limitata"
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2014'
 ht-degree: 82%
 
 ---
@@ -25,7 +24,7 @@ L’editor di espressioni è disponibile dal modellatore di query **[!UICONTROL 
 
 | Accesso da **Attributo** campo | Accesso da **Valore** campo |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 L’editor di espressioni mostra:
 
@@ -35,13 +34,13 @@ L’editor di espressioni mostra:
 
 Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 Quando l’espressione è pronta, fai clic su **[!UICONTROL Conferma]** pulsante. L’espressione viene visualizzata nel campo selezionato. Per modificarlo, apri l’editor di espressioni e apporta le modifiche desiderate.
 
 L’esempio seguente mostra un’espressione configurata per **[!UICONTROL Valore]** campo. Per modificarlo, devi aprire l’editor di espressioni utilizzando **[!UICONTROL Modifica espressione]** pulsante.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## Funzioni Helper
 

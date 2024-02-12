@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 97%
+source-wordcount: '432'
+ht-degree: 96%
 
 ---
 
@@ -24,13 +24,13 @@ Per aggiungere un blocco di contenuto a una consegna, segui questi passaggi:
 
 1. Individua il campo in cui desideri aggiungere un blocco di contenuto e fai clic sull’icona **[!UICONTROL Apri finestra di personalizzazione]** per aprire l’editor di espressioni.
 
-   ![](assets/content-block-access.png){width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Nell’editor di espressioni, passa al menu a sinistra **[!UICONTROL Blocchi di contenuto]**.
 
 1. Per aggiungere un blocco di contenuto, posiziona il cursore nella posizione desiderata all’interno del contenuto e fai clic sul pulsante “+” per inserirlo.
 
-   ![](assets/content-blocks.png){width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 I blocchi di contenuto incorporati sono:
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapporti sulle consegne push
 description: Scopri come accedere ai rapporti sulle consegne push e come utilizzarli
-badge: label="Disponibilità limitata"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Il **Rapporto sulle consegne push** offre una panoramica completa del canale pus
 
 Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con i messaggi push.
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
@@ -54,7 +53,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico: messaggi da consegnare ed esclusioni. Le metriche sono descritte di seguito.
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
@@ -73,7 +72,7 @@ Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubbl
 
 Il rapporto **Statistiche complessive** presenta i dati per le notifiche push inviate: consegna riuscita, errori e quarantene. Le metriche sono descritte di seguito.
 
-![](assets/reporting_push_5.png)
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne push.
 
@@ -95,7 +94,7 @@ Il rapporto **Statistiche complessive** presenta i dati per le notifiche push in
 Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png)
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## Velocità di consegna {#delivery-throughput}
 
@@ -106,4 +105,4 @@ Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i vari motivi che h
 
 Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

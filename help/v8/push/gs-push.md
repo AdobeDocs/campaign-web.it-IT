@@ -2,11 +2,10 @@
 audience: end-user
 title: Introduzione alle notifiche push
 description: Scopri come creare e inviare notifiche push con Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---

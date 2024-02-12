@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapporti globali per il canale SMS
 description: Comprendere i rapporti globali per il canale SMS
-badge: label="Disponibilità limitata"
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '593'
 ht-degree: 19%
 
 ---
@@ -28,7 +27,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto offre indicatori di prestazioni chiave (KPI, Key Performance Indicators) completi con informazioni approfondite sui modelli di interazione dei visitatori con ogni consegna di SMS. Di seguito sono descritte le metriche seguenti.
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -51,7 +50,7 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto offre indicatori di pr
 
 Il **[!UICONTROL Pubblico di destinazione]** tabella e grafico presentano i dati relativi ai destinatari per ogni consegna SMS inviata. Le metriche sono descritte di seguito.
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
@@ -72,7 +71,7 @@ Il **[!UICONTROL Pubblico di destinazione]** tabella e grafico presentano i dati
 
 Il **[!UICONTROL Statistiche consegna]** la tabella descrive il successo di ogni consegna SMS. Le metriche sono descritte di seguito.
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -99,7 +98,7 @@ Il **[!UICONTROL Cause di esclusione]** Il grafico e la tabella mostrano i motiv
 
 I tipi di errore sono elencati in [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## Velocità di consegna {#delivery-throughput-sms}
 
@@ -108,6 +107,6 @@ I tipi di errore sono elencati in [Documentazione di Adobe Campaign v8 (console 
 >title="Velocità di consegna SMS"
 >abstract="Il **Velocità effettiva di consegna** Questo rapporto fornisce informazioni approfondite sull’efficienza del sistema di consegna dei messaggi SMS, presentando una panoramica dettagliata dei tassi di successo e di errore in un arco temporale specificato."
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 Il **[!UICONTROL Velocità effettiva di consegna]** Questo rapporto offre informazioni complete sull’efficacia del sistema di consegna dei messaggi SMS, offrendo un riepilogo dettagliato dei tassi di successo e di errore in un determinato periodo di tempo.

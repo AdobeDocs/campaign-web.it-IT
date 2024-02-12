@@ -3,11 +3,10 @@ audience: end-user
 title: Aggiungere attributi di stile in linea
 description: Scopri come aggiungere attributi di stile in linea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Disponibilità limitata"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '127'
+ht-degree: 96%
 
 ---
 
@@ -20,13 +19,13 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 
 1. Dalla scheda **[!UICONTROL Stili]**, fai clic sul menu a discesa **[!UICONTROL Avanzate]**.
 
-   ![](assets/styles_1.png)
+   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
 
 1. Modifica i valori degli attributi esistenti.
 
 1. Per aggiungere nuove proprietà, utilizza il pulsante **+**. Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
 
-   ![](assets/styles_2.png)
+   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
 
 Lo stile viene applicato all’elemento selezionato.
 

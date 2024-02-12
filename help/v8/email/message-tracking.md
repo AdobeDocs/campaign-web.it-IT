@@ -3,11 +3,10 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Disponibilità limitata"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. Aggiungi un’**[!UICONTROL Etichetta]** e un **[!UICONTROL Collegamento]**.
 
@@ -38,7 +37,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
    * Puoi modificare il collegamento e modificarne la relativa **[!UICONTROL Destinazione]**.
    * Puoi scegliere di sottolineare o meno il collegamento, selezionando l’opzione corrispondente.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla p
 
 1. Per modificare un collegamento, fai clic sull’icona a forma di matita corrispondente.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. Se necessario, puoi modificare il **[!UICONTROL Tipo di tracciamento]**:
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    Per ogni URL tracciato, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
@@ -71,6 +70,6 @@ In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla p
 
 1. Aggiungi una **[!UICONTROL Categoria]** al collegamento per raggruppare i collegamenti tracciati e fai clic su **[!UICONTROL Salva]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. Dopo aver inviato la consegna, accedi al rapporto di consegna. Nel menu **[!UICONTROL Tracciamento]**, il rapporto di **[!UICONTROL URL e flussi di clic]** mostra gli URL di consegna più visitati. [Ulteriori informazioni](../reporting/gs-reports.md)

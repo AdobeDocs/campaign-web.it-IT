@@ -3,11 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Disponibilità limitata"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 74%
+source-wordcount: '268'
+ht-degree: 71%
 
 ---
 
@@ -36,24 +35,24 @@ Per visualizzare e gestire i rapporti, effettua le seguenti operazioni:
 
 1. Dalla dashboard **[!UICONTROL Consegna]**, fai clic su **[!UICONTROL Rapporti]**.
 
-   ![](assets/manage_delivery_report_1.png)
+   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
 
    In alternativa, è possibile utilizzare i tre punti **Altre azioni** accanto al nome della consegna nell’elenco consegne e seleziona **[!UICONTROL Visualizza rapporto]**.
 
-   ![](assets/manage_delivery_report_2.png)
+   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
 
 1. Dal menu a sinistra, seleziona un rapporto dall’elenco.
 
-   ![](assets/manage_delivery_report_3.png)
+   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Se la consegna è ricorrente, puoi selezionare una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
 
    Puoi anche applicare un periodo di tempo al rapporto selezionando la **[!UICONTROL Data di contatto]**.
 
-   ![](assets/delivery-recurring.png)
+   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
 
 1. Dalla sezione **[!UICONTROL URL e flussi di clic]**, è inoltre possibile scegliere **[!UICONTROL Collegamenti più visitati]** o **[!UICONTROL Periodo temporale]**.
 
    Il **[!UICONTROL Visualizza per]** Le opzioni consentono di filtrare in base a URL, etichette o categorie.
 
-   ![](assets/manage_delivery_report_5.png)
+   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}

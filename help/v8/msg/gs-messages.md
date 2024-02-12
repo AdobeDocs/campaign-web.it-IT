@@ -2,11 +2,10 @@
 audience: end-user
 title: Introduzione ai messaggi e alle consegne in Adobe Campaign Web
 description: Scopri come utilizzare le consegne e inviare messaggi con Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 78%
 
 ---

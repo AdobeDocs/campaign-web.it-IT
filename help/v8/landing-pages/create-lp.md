@@ -2,10 +2,9 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
-badge: label="Disponibilità limitata"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1301'
 ht-degree: 5%
 
 ---
@@ -25,11 +24,11 @@ L’interfaccia utente di Campaign Web consente di creare, progettare e pubblica
 
 Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
 
-![](assets/lp-inventory.png)
+![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
 Il **[!UICONTROL Pagine di destinazione]** inventory visualizza tutti gli articoli creati. Puoi filtrarli utilizzando **Mostra filtri** pulsante. È possibile limitare i risultati a uno specifico [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa, oppure aggiungi regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png)
+![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -70,11 +69,11 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 <!--The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png)-->
+![](assets/lp-creation-process.png){zoomable="yes"}-->
 
 1. Dalla sezione **[!UICONTROL Pagine di destinazione]** inventory, fai clic su **[!UICONTROL Crea pagina di destinazione]**.
 
-   ![](assets/lp-create-button.png)
+   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona un modello:
    * **[!UICONTROL Acquisizione]**: questo è il modello predefinito per le pagine di destinazione, che ti consente di acquisire e aggiornare i dati del profilo.
@@ -82,7 +81,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
    * **[!UICONTROL Annullamento iscrizione]**: questo modello può essere utilizzato in una consegna inviata agli abbonati di un servizio, per consentire loro di annullare l’abbonamento [servizio](../audience/manage-services.md).
    * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo non desidera più essere contattato da Campaign.
 
-   ![](assets/lp-templates.png)
+   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -94,7 +93,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
    Per impostazione predefinita, le pagine di destinazione sono memorizzate in **[!UICONTROL Applicazioni web]** cartella. È possibile modificarlo individuando la posizione desiderata nella **[!UICONTROL Opzioni aggiuntive]**. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png)
+   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
 1. In **[!UICONTROL Precaricamento dati]** , le due opzioni seguenti sono selezionate per impostazione predefinita:
 
@@ -104,17 +103,17 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 1. In **[!UICONTROL Pagine]** , fare clic sul pulsante **[!UICONTROL Modifica contenuto]** per ogni pagina che desideri progettare per questa pagina di destinazione. Il contenuto di ogni pagina è già precompilato. Modificali in base alle esigenze. [Ulteriori informazioni](lp-content.md)
 
-   ![](assets/lp-pages.png)
+   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
 1. Il **[!UICONTROL Aggiornare il record precaricato]** è selezionata per impostazione predefinita. Consente di aggiornare i profili memorizzati nel database tramite la pagina di destinazione. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database.
 
    Puoi anche scegliere tra i campi nel contesto corrente della pagina di destinazione, quelli che verranno utilizzati per trovare il profilo corrispondente nel database. Per farlo, deseleziona la **[!UICONTROL Aggiornare il record precaricato]** e seleziona i campi desiderati in **[!UICONTROL Opzioni di riconciliazione]**.
 
-   ![](assets/lp-storage.png)
+   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
 1. Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Seleziona **[!UICONTROL Abilita pianificazione]** e impostare le date.
 
-   ![](assets/lp-schedule.png)
+   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
 
    * La pagina di destinazione viene pubblicata automaticamente nella data/ora di inizio specificata.
 
@@ -152,7 +151,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 1. Dopo aver fatto clic su **[!UICONTROL Revisione e pubblicazione]**, seleziona la **[!UICONTROL Simula contenuto]** dal dashboard della pagina di destinazione per accedere alla selezione del profilo di test.
 
-   ![](assets/lp-simulate-content.png)
+   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
 
 1. Dalla sezione **[!UICONTROL Simula]** , seleziona uno o più profili di test.
 
@@ -160,13 +159,13 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 1. Seleziona **[!UICONTROL Apri anteprima]** per verificare la pagina di destinazione.
 
-   ![](assets/lp-open-preview.png)
+   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
 
 1. L’anteprima della pagina di destinazione viene visualizzata in una nuova scheda. Gli elementi personalizzati vengono sostituiti dai dati del profilo di test selezionati.
 
    Se hai selezionato **[!UICONTROL Precompilare con i dati a cui si fa riferimento nel modulo]** nelle impostazioni della pagina di destinazione, i campi del modulo vengono precompilati automaticamente con i dati del profilo di test corrispondenti.<!--TBC-->
 
-   ![](assets/lp-preview.png)
+   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
 
@@ -186,6 +185,6 @@ Dopo la pubblicazione:
 >
 >Per testare o sfruttare appieno la pagina di destinazione, non puoi copiare e incollare questo collegamento direttamente in un browser web o nelle consegne. Invece, utilizza [Simula contenuto](#test-landing-page) per testarlo e seguire i passaggi descritti in [questa sezione](lp-use-cases.md) per utilizzare correttamente la pagina di destinazione.
 
-![](assets/lp-published.png)
+![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 
 Puoi monitorare l’impatto della pagina di destinazione tramite i registri<!--and specific reports-->. Fai clic su **[!UICONTROL Registri]** pulsante.

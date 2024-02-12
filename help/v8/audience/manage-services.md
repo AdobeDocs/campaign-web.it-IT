@@ -2,12 +2,11 @@
 audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 60%
+source-wordcount: '960'
+ht-degree: 59%
 
 ---
 
@@ -34,11 +33,11 @@ Per accedere ai servizi di iscrizione disponibili per la tua piattaforma, segui 
 
 1. Accedi al menu **[!UICONTROL Servizi di iscrizione]** nella barra di navigazione a sinistra.
 
-   ![](assets/service-list.png)
+   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
 1. Viene mostrato l’elenco di tutti i servizi di iscrizione esistenti. Puoi cercare i servizi e filtrare per canale, cartella o aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png)
+   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
 1. Per modificare un servizio esistente, fai clic sul suo nome.
 
@@ -60,13 +59,13 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 
 1. Seleziona il pulsante **[!UICONTROL Crea servizio iscrizione]**.
 
-   ![](assets/service-create-button.png)
+   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona un canale: **[!UICONTROL E-mail]** o **[!UICONTROL SMS]**.
 
 1. Nelle proprietà del servizio, immetti un’etichetta e definisci **[!UICONTROL Opzioni aggiuntive]** come desiderato.
 
-   ![](assets/service-create-properties.png)
+   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
 
 1. Per impostazione predefinita, i servizi sono archiviati in **[!UICONTROL Servizi e abbonamenti]** cartella. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
@@ -76,11 +75,11 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
    * Nessun destinatario può più abbonarsi a questo servizio
    * Tutti gli abbonati a questo servizio verranno automaticamente annullati
 
-   ![](assets/service-create-validity-period.png)
+   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 1. Quando un utente si iscrive o annulla l’iscrizione a un servizio, puoi inviare un messaggio di conferma. Seleziona i modelli da utilizzare per tale messaggio in base al tuo caso d’uso. Questi modelli devono essere configurati con la mappatura target **[!UICONTROL Iscrizioni]**. [Ulteriori informazioni](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png)
+   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
 1. Fai clic su **[!UICONTROL Salva e rivedi]**. Il nuovo servizio viene aggiunto all’elenco **[!UICONTROL Servizi di iscrizione]**.
 
@@ -109,7 +108,7 @@ Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’is
 
 1. Non selezionare un pubblico per questa consegna. Al contrario, accedi alla consegna **[!UICONTROL Impostazioni]**, passare alla [Pubblico](../advanced-settings/delivery-settings.md#audience) e seleziona la scheda **[!UICONTROL Iscrizioni]** mappatura target dall’elenco.
 
-   ![](assets/service-confirmation-template-mapping.png)
+   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -117,7 +116,7 @@ Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’is
 
 1. Modifica il contenuto del modello di consegna, salvalo e chiudilo.
 
-   ![](assets/service-confirmation-template.png)
+   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -148,13 +147,13 @@ Per misurare l’efficacia dei servizi di iscrizione per i canali SMS e E-mail, 
 
 1. Seleziona un servizio dall’elenco **[!UICONTROL Servizi di iscrizione]**. Clic **[!UICONTROL Calcola]** il ottiene il numero totale di abbonati.
 
-   ![](assets/service-logs-subscribers-count.png)
+   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
 
 1. Dal dashboard del servizio, seleziona **[!UICONTROL Registri]** per visualizzare l’elenco degli abbonati a questo servizio.
 
    Puoi controllare il numero totale di abbonati, il nome e l’indirizzo di ciascun destinatario e quando ha effettuato o annullato l’abbonamento. Puoi anche applicare dei filtri.
 
-   ![](assets/service-logs.png)
+   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
 
 1. Dalla dashboard del servizio, seleziona **[!UICONTROL Rapporti]**. Verifica i seguenti indicatori:
 
@@ -162,7 +161,7 @@ Per misurare l’efficacia dei servizi di iscrizione per i canali SMS e E-mail, 
 
    * Puoi visualizzare il numero di iscrizioni e annullamenti di iscrizione in un dato periodo. Utilizza l’elenco a discesa per modificare l’intervallo di tempo.
 
-     ![](assets/service-reports.png)
+     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
 
    * Il grafico **[!UICONTROL Evoluzione complessiva delle iscrizioni]** mostra il raggruppamento per periodo, inclusi iscrizioni, annullamenti di iscrizione, evoluzione in termini numerici e percentuale di fedeltà.<!--what is Registered?-->
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
-badge: label="Disponibilità limitata"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 31%
+source-wordcount: '277'
+ht-degree: 30%
 
 ---
 
@@ -39,27 +38,27 @@ Per accedere e gestire i rapporti delle campagne, effettua le seguenti operazion
 
 1. Accedi a **[!UICONTROL Campagne]** menu. Fai clic su **Rapporti** dal dashboard della campagna.
 
-   ![](assets/manage_campaign_report_2.png)
+   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
 
    In alternativa, è possibile utilizzare i tre punti **Altre azioni** accanto al nome della campagna nell’elenco delle campagne e seleziona **[!UICONTROL Visualizza rapporto]**.
 
-   ![](assets/manage_campaign_report_1.png)
+   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
 
 1. Dal menu a sinistra, seleziona un rapporto dall’elenco e naviga attraverso la scheda per visualizzare i dati da ciascun canale.
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Dal dashboard, fai clic su **[!UICONTROL Seleziona consegne]** se desideri eseguire il targeting di una consegna specifica inclusa nella campagna.
 
 1. In **[!UICONTROL Velocità effettiva di consegna]** , scegli un **Inizio** e **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
 
-   ![](assets/manage_campaign_report_3.png)
+   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Dalla sezione **[!UICONTROL Seleziona cartella]** , seleziona se desideri eseguire il targeting delle consegne o della campagna da una cartella specifica.
 
    Puoi anche selezionare **[!UICONTROL Aggiungi regole]** per iniziare a creare query per filtrare meglio i dati di reporting. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Dalla sezione **[!UICONTROL URL e flussi di clic]**, è inoltre possibile scegliere **[!UICONTROL Collegamenti più visitati]** o **[!UICONTROL Periodo temporale]**.
 

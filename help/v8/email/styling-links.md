@@ -3,11 +3,10 @@ audience: end-user
 title: Definire uno stile per i collegamenti
 description: Scopri come definire uno stile per i collegamenti
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Disponibilità limitata"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +19,7 @@ In E-mail Designer è possibile sottolineare un collegamento e selezionarne il c
 
 1. Nel scheda **[!UICONTROL Impostazioni]**, seleziona **[!UICONTROL Sottolinea collegamento]** per sottolinearne l’etichetta.
 
-   ![](assets/link_1.png)
+   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
 
 1. Per scegliere in che modo il pubblico verrà reindirizzato, usa il menu a discesa **[!UICONTROL Destinazione]**:
 
@@ -30,10 +29,10 @@ In E-mail Designer è possibile sottolineare un collegamento e selezionarne il c
    * **[!UICONTROL Principale]**: il collegamento viene aperto nel frame principale.
    * **[!UICONTROL Superiore]**: il collegamento viene aperto nel corpo completo della finestra.
 
-   ![](assets/link_2.png)
+   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
 
 1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dalla scheda **[!UICONTROL Stili]**.
 
-   ![](assets/link_3.png)
+   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
 
 1. Salva le modifiche.

@@ -2,12 +2,11 @@
 audience: end-user
 title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 96%
 
 ---
 
@@ -67,11 +66,11 @@ Per visualizzare le autorizzazioni relative a una cartella, segui questi passagg
 1. Seleziona una cartella dal menu di navigazione a sinistra **Explorer**.
 1. Fai clic sui tre punti nell’angolo in alto a destra e seleziona **Autorizzazioni cartella**.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Controlla i dettagli nella schermata di seguito:
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Un gruppo o un operatore può disporre di autorizzazioni di lettura, scrittura e/o eliminazione per i dati memorizzati nella cartella selezionata.
 
@@ -96,8 +95,8 @@ Per creare una nuova cartella, segui questi passaggi:
 1. Fai clic sui tre punti nell’angolo superiore destro e scegli **Crea nuova sottocartella**.
 1. Immetti il nome della cartella e salvala.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    La cartella viene aggiunta come sottocartella della cartella corrente. Passa alla nuova cartella per creare i componenti direttamente al suo interno. Puoi creare anche un componente da qualsiasi cartella e salvarlo in quella nuova dalla sezione **Opzioni aggiuntive** delle proprietà per una consegna, come indicato di seguito:
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

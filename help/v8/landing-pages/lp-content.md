@@ -2,10 +2,9 @@
 title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
-badge: label="Disponibilità limitata"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -47,7 +46,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 1. Selezionala. Il **[!UICONTROL Contenuto modulo]** La scheda viene visualizzata nella palette a destra per consentire la modifica dei diversi campi del modulo.
 
-   ![](assets/lp-form-component.png)
+   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 1. Espandere il primo campo di testo, se presente, o aggiungerne uno utilizzando **[!UICONTROL Aggiungi]** pulsante. Dalla sezione **[!UICONTROL Campo testo 1]** , è possibile modificare il tipo di campo, il campo del database da aggiornare, l&#39;etichetta e il testo che verrà visualizzato all&#39;interno del campo prima che gli utenti immettano un valore.
 
-   ![](assets/lp-form-text-field.png)
+   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
 1. Controlla la **[!UICONTROL Rendi obbligatorio il campo modulo]** se necessario. In tal caso, la pagina di destinazione può essere inviata solo se l’utente ha compilato questo campo.
 
@@ -65,7 +64,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 1. Espandi la casella di controllo, se presente, oppure aggiungine una utilizzando **[!UICONTROL Aggiungi]** pulsante. Seleziona questa opzione se la casella di controllo deve aggiornare un servizio o un campo dal database.
 
-   ![](assets/lp-form-checkbox.png)
+   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
    Se si seleziona **[!UICONTROL Abbonamento e servizi]**, selezionare un servizio dall&#39;elenco e scegliere tra le due opzioni seguenti:
 
@@ -82,7 +81,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 1. Una volta aggiunti o aggiornati tutti i campi, fai clic su **[!UICONTROL Invito all’azione]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nella **[!UICONTROL Modulo]** componente.
 
-   ![](assets/lp-call-to-action.png)
+   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. Definisci cosa accade quando fai clic sul pulsante:
 
@@ -96,7 +95,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
    * Tutti i canali: dopo l’invio del modulo, gli utenti saranno inclusi o esclusi (a seconda del modello selezionato) da/per tutte le comunicazioni del tuo marchio su tutti i canali
    * Campo del database: selezionare un campo dall&#39;elenco degli attributi e definire se deve essere impostato su True o False al momento dell&#39;invio del modulo.
 
-   ![](assets/lp-form-additionnal-updates.png)
+   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
 1. Salva il contenuto per tornare a [proprietà pagina di destinazione](create-lp.md#create-landing-page).
 
@@ -106,17 +105,17 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 1. Il **[!UICONTROL Campo di testo]** viene espansa per impostazione predefinita. Consente di modificare l&#39;aspetto dei campi di testo, ad esempio il carattere dell&#39;etichetta, la posizione dell&#39;etichetta, il colore di sfondo del campo o il bordo del campo.
 
-   ![](assets/lp-text-styles.png)
+   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
 1. Espandi **[!UICONTROL Casella di controllo]** per definire l&#39;aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile regolare la famiglia e la dimensione del carattere o il colore del bordo della casella di controllo.
 
-   ![](assets/lp-checkbox-style.png)
+   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. Espandi e modifica qualsiasi altra sezione corrispondente agli altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
 
 1. Espandi **[!UICONTROL Invito all’azione]** per modificare l&#39;aspetto del pulsante nel modulo del componente. È ad esempio possibile modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 
-   ![](assets/lp-call-to-action-style.png)
+   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 
    Puoi visualizzare in anteprima alcune impostazioni, ad esempio il colore delle etichette dei pulsanti al passaggio del mouse, utilizzando **[!UICONTROL Simula contenuto]** pulsante. [Ulteriori informazioni](create-lp.md#test-landing-page)
 

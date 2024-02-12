@@ -3,11 +3,10 @@ audience: end-user
 title: Monitorare i registri di consegna
 description: Scopri come monitorare i registri di consegna
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Disponibilità limitata"
-source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -41,39 +40,39 @@ Vengono elencati tutti i passaggi, le avvertenze e gli errori di convalida. Le i
 * L’icona gialla indica un errore di elaborazione non critico.
 * L’icona rossa indica un errore critico che impedisce l’invio della consegna. Affinché la consegna possa essere inviata, è necessario correggere gli errori critici.
 
-![](assets/logs.png)
+![](assets/logs.png){zoomable=&quot;yes&quot;}
 
 
 ## Consegne {#deliveries-tab}
 
 La scheda **Registri di invio** offre una cronologia di ogni occorrenza della consegna. L’elenco dei messaggi inviati e i relativi stati sono archiviati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
 
-![](assets/logs2.png)
+![](assets/logs2.png){zoomable=&quot;yes&quot;}
 
 ## Esclusioni {#exclusion-tab}
 
 La scheda **Registri di esclusione** elenca tutti i messaggi che sono stati esclusi dal target e specifica il motivo dell’errore di invio.
 
-![](assets/logs3.png)
+![](assets/logs3.png){zoomable=&quot;yes&quot;}
 
 ## Cause di esclusione {#exclusion-causes-tab}
 
 Nella scheda **Cause di esclusione** viene visualizzato il numero di messaggi esclusi dal target per ogni possibile causa.
 
-![](assets/logs4.png)
+![](assets/logs4.png){zoomable=&quot;yes&quot;}
 
 ## URL tracciati {#tracked-urls-tab}
 
 La scheda **URL tracciati** raggruppa gli URL contenuti nel messaggio inviato e ne specifica il tipo di URL e l’URL di origine.
 
-![](assets/logs5.png)
+![](assets/logs5.png){zoomable=&quot;yes&quot;}
 
 ## Tracciamento {#tracking-tab}
 
 La scheda **Tracciamento** elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzati i dati di tracciamento per i messaggi inviati, ovvero tutti gli URL che vengono tracciati da Adobe Campaign.
 
 
-![](assets/logs6.png)
+![](assets/logs6.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

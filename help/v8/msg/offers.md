@@ -3,11 +3,10 @@ audience: end-user
 title: Aggiungere offerte ai messaggi
 description: Scopri come aggiungere e inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Disponibilità limitata"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 67%
+source-wordcount: '768'
+ht-degree: 66%
 
 ---
 
@@ -40,13 +39,13 @@ Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicat
 
 1. Fai clic su **[!UICONTROL Configura le offerte]** dalla schermata di modifica del contenuto della consegna.
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. Configura le offerte da proporre ai destinatari.
 
    Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nel [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. Per perfezionare le offerte scelte dal motore, seleziona la **[!UICONTROL Categoria offerta]** in base alla quale ordinare le offerte.
 
@@ -90,7 +89,7 @@ Per inserire un’offerta tramite l’editor di espressioni, segui la procedura 
 
 1. Posiziona il cursore del mouse nel punto in cui desideri inserire l’offerta e apri l’editor di espressioni utilizzando l’icona di personalizzazione.
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona il menu **[!UICONTROL Proposte]**. Le proposte disponibili vengono visualizzate nell’elenco.
 
@@ -100,7 +99,7 @@ Per inserire un’offerta tramite l’editor di espressioni, segui la procedura 
 
 1. Definisci ogni proposta utilizzando i campi di personalizzazione, le funzioni di rendering o gli attributi di offerta disponibili.
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

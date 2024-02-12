@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
-badge: label="Disponibilità limitata"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 100%
+source-wordcount: '2283'
+ht-degree: 98%
 
 ---
 
@@ -31,11 +30,11 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 
 Il grafico **[!UICONTROL Popolazione target iniziale]** mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
 
-![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 Passa il puntatore del mouse su una parte del grafico per visualizzare il numero esatto.
 
-![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
@@ -58,7 +57,7 @@ Passa il puntatore del mouse su una parte del grafico per visualizzare il numero
 
 Il grafico **[!UICONTROL Statistiche consegna]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
-![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -81,7 +80,7 @@ Il grafico **[!UICONTROL Statistiche consegna]** descrive il successo della cons
 
 Il grafico e la tabella **[!UICONTROL Cause di esclusione]** mostrano il raggruppamento per regola dei messaggi rifiutati durante la preparazione della consegna. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){_blank}.
 
-![](assets/reporting_email_3.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -110,7 +109,7 @@ Il grafico e la tabella **[!UICONTROL Cause di esclusione]** mostrano il raggrup
 
 Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna dell’intera piattaforma in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
-![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 
 ## Statistiche di trasmissione {#broadcast-statistics}
@@ -122,7 +121,7 @@ Questo rapporto presenta informazioni dettagliate sulla velocità effettiva di c
 
 La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponibili per i possibili errori riscontrati in ciascun dominio. Le metriche sono descritte di seguito.
 
-![](assets/reporting_email_4.png){align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -154,7 +153,7 @@ La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per tipo]** co
 
 Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
-![](assets/campaign_report_email_6.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -186,11 +185,11 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 
 La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 Fai clic sull’icona accanto al nome di ciascun dominio per visualizzare i dettagli.
 
-![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
 
 Le metriche disponibili sono le stesse del [Raggruppamento degli errori per tipo](#email-delivery-breakdown-type) descritto in precedenza.
 
@@ -213,7 +212,7 @@ Le metriche disponibili sono le stesse del [Raggruppamento degli errori per tipo
 
 Il rapporto **[!UICONTROL Statistiche di consegna]** fornisce indicatori chiave di prestazioni (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
 
-![](assets/reporting_email_5.png){align="center"}
+![](assets/reporting_email_5.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -241,7 +240,7 @@ Il rapporto **[!UICONTROL Statistiche di consegna]** fornisce indicatori chiave 
 
 La tabella **[!UICONTROL Percentuale di apertura e click-through]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-![](assets/reporting_email_6.png){align="center"}
+![](assets/reporting_email_6.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -266,7 +265,7 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** mostra i dat
 
 Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di prestazioni (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna.
 
-![](assets/reporting_email_7.png){align="center"}
+![](assets/reporting_email_7.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -291,7 +290,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 
 Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento.
 
-![](assets/reporting_email_8.png){align="center"}
+![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -312,7 +311,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
-![](assets/reporting_email_9.png){align="center"}
+![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## Attività degli utenti {#user-activities-email}
 
@@ -323,7 +322,7 @@ Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati di
 
 Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Puoi scegliere il periodo di tempo in cui eseguire il targeting dei dati: ultimo giorno, ultima ora o ultimi 30 minuti.
 
-![](assets/reporting_email_10.png){align="center"}
+![](assets/reporting_email_10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -342,7 +341,7 @@ Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di 
 
 Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su aperture e clic. Puoi selezionare l’arco temporale specifico per il targeting dei dati.
 
-![](assets/reporting_email_11.png){align="center"}
+![](assets/reporting_email_11.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -365,7 +364,7 @@ Il rapporto **Raggruppamento per dispositivo** mostra, per il periodo in questio
 
 Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza il numero esatto e la percentuale per ciascun tipo di dispositivo.
 
-![](assets/reporting_email_13.png){align="center"}
+![](assets/reporting_email_13.png){zoomable=&quot;yes&quot;}{align="center"}
 
 
 ### Raggruppamento delle aperture per sistema operativo {#breakdown-opens-os}
@@ -379,7 +378,7 @@ Il rapporto **Raggruppamento per sistema operativo** mostra, per il periodo in q
 
 Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative alle aperture su sistemi operativi di computer e dispositivi mobili. Il secondo visualizza il numero e la percentuale esatti per ciascun sistema operativo.
 
-![](assets/reporting_email_13.1.png){align="center"}
+![](assets/reporting_email_13.1.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ### Raggruppamento delle aperture per browser {#breakdown-opens-browser}
 
@@ -392,7 +391,7 @@ Il rapporto **Raggruppamento per browser** mostra il raggruppamento delle apertu
 
 Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative alle aperture su sistemi operativi di computer e dispositivi mobili. Il secondo mostra il numero esatto e la percentuale per ciascun browser.
 
-![](assets/reporting_email_13.2.png){align="center"}
+![](assets/reporting_email_13.2.png){zoomable=&quot;yes&quot;}{align="center"}
 
 
 ## Hotclicks {#hotclicks}
@@ -404,4 +403,4 @@ Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statis
 
 Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti per annullare l’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono mostrati nel rapporto.
 
-![](assets/reporting11.png)
+![](assets/reporting11.png){zoomable=&quot;yes&quot;}

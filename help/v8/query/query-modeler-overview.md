@@ -2,12 +2,11 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
-badge: label="Disponibilità limitata"
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 63%
+source-wordcount: '495'
+ht-degree: 62%
 
 ---
 
@@ -41,17 +40,17 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 
 | Utilizzo | Esempio |
 |  ---  |  ---  |
-| **Definire i tipi di pubblico**: specifica la popolazione per la quale desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, in modo da allinearle ai requisiti specifici. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **Filtri preimpostati**: crea filtri preimpostati che fungono da scelte rapide durante varie operazioni di filtraggio, sia nell’utilizzo di elenchi di dati che nella formazione del tipo di pubblico per una consegna. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Definire i tipi di pubblico**: specifica la popolazione per la quale desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, in modo da allinearle ai requisiti specifici. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtri preimpostati**: crea filtri preimpostati che fungono da scelte rapide durante varie operazioni di filtraggio, sia nell’utilizzo di elenchi di dati che nella formazione del tipo di pubblico per una consegna. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -60,7 +59,7 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 
 Il modellatore di query fornisce un’area di lavoro centrale in cui creare la query e un riquadro a destra che fornisce informazioni sulla query.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### Area di lavoro centrale {#canvas}
 

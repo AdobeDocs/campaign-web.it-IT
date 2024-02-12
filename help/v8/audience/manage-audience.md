@@ -2,12 +2,11 @@
 audience: end-user
 title: Monitorare e gestire tipi di pubblico
 description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 86%
+source-wordcount: '541'
+ht-degree: 85%
 
 ---
 
@@ -45,7 +44,7 @@ Nel targeting di un pubblico, puoi definire dei **gruppi di controllo** per evit
 
 L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 I tipi di pubblico possono provenire da più origini. Le colonne **[!UICONTROL Origine]** indicano dove è stato creato un determinato pubblico:
 
@@ -63,6 +62,6 @@ Per ottenere ulteriori informazioni su un pubblico, aprilo dall’elenco. Vengon
 
 La scheda **[!UICONTROL Dati]** consente di visualizzare i profili che fanno parte del pubblico. Puoi personalizzare questa vista aggiungendo più colonne o sfruttando filtri avanzati per ottimizzare i dati visualizzati.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Per duplicare o eliminare un pubblico, fai clic sul pulsante **[!UICONTROL Altre azioni]** disponibile nell’elenco dei tipi di pubblico accanto al nome del pubblico o all’interno della schermata dei dettagli del pubblico.

@@ -1,11 +1,10 @@
 ---
 title: Introduzione ai profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
-badge: label="Disponibilità limitata"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -49,7 +48,7 @@ I profili sono accessibili e modificabili in Adobe Campaign Web dalla **[!UICONT
 
 Puoi filtrare i **[!UICONTROL Profili]** utilizzando il campo di ricerca o i filtri disponibili nella **Mostra filtri** pulsante. È possibile limitare i risultati a uno specifico [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa, oppure aggiungi regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 Per accedere ai dettagli di un profilo, fai clic sul nome dall’elenco. Viene visualizzata una vista dettagliata del profilo, che consente di esplorarne gli attributi e i servizi a cui si è abbonato. [Scopri come esplorare i dettagli dei profili](create-profile.md)
 

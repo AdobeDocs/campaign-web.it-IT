@@ -2,12 +2,11 @@
 audience: end-user
 title: Rapporti sulle campagne per il canale e-mail
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-mail
-badge: label="Disponibilità limitata"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 99%
+source-wordcount: '1595'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +25,7 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 
 La sezione **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna e-mail. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_1.png)
+![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -51,7 +50,7 @@ La sezione **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -72,7 +71,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -97,7 +96,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 La tabella **[!UICONTROL Statistiche di reazione]** contiene i dati disponibili per l’attività del destinatario della consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -121,7 +120,7 @@ La tabella **[!UICONTROL Statistiche di reazione]** contiene i dati disponibili 
 
 La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_5.png)
+![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -146,7 +145,7 @@ La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per tipo]** co
 
 Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -186,7 +185,7 @@ La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]**
 
 Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave di prestazioni (KPI) e informazioni dettagliate sui dati disponibili per le e-mail inviate. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -212,7 +211,7 @@ Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave d
 
 La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_8.png)
+![](assets/campaign_report_email_8.png){zoomable=&quot;yes&quot;}
 
 +++ Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -237,7 +236,7 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 
 Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di prestazioni (KPI) che offrono informazioni dettagliate sugli URL più cliccati durante una consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}
 
 +++ Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -260,7 +259,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 
 Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -279,7 +278,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoomable=&quot;yes&quot;}
 
 ## Attività degli utenti {#user-activities-email}
 
@@ -290,7 +289,7 @@ Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati di
 
 Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche di questo rapporto sono descritte di seguito.
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 

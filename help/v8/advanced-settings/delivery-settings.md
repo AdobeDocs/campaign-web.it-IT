@@ -4,11 +4,10 @@ title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Disponibilità limitata"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 57%
+source-wordcount: '2429'
+ht-degree: 56%
 
 ---
 
@@ -44,7 +43,7 @@ Quando si associa una tipologia a un messaggio o a un modello di messaggio, le r
 
 Le tipologie consentono di assicurarsi che le e-mail contengano sempre alcuni elementi (come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) o regole di filtro per escludere i gruppi dal target previsto (come utenti non abbonati, concorrenti o clienti non fidelizzati).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ In **[!UICONTROL Esclusione]** , puoi selezionare di escludere i destinatari che
 
 **[!UICONTROL Consegna]** I parametri sono impostazioni tecniche che si applicano alla consegna.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 L’e-mail integrata **[!UICONTROL Indirizzamento]** l’account esterno è fornito per impostazione predefinita. Contiene i parametri tecnici che consentono all’applicazione di effettuare l’invio di e-mail.
 
@@ -250,7 +249,7 @@ Puoi anche scegliere di specificare le date. A questo scopo, seleziona **[!UICON
 
 **[!UICONTROL Limite validità risorse]** viene utilizzato per le risorse caricate, principalmente per la pagina speculare e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco). Superato il limite, le risorse non sono più disponibili.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

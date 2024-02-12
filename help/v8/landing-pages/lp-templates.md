@@ -3,11 +3,10 @@ audience: end-user
 title: Utilizzare i modelli di contenuto delle pagine di destinazione
 description: Scopri come salvare il contenuto della pagina di destinazione come modello di progettazione e riutilizzarlo nel web di Campaign
 feature: Landing Pages
-badge: label="Disponibilità limitata"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 29%
+source-wordcount: '213'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +20,7 @@ Dopo aver progettato [contenuto della pagina di destinazione](lp-content.md), è
 
 1. Seleziona **[!UICONTROL Salva come modello di contenuto]** dal menu a discesa.
 
-   ![](assets/lp-save-as-template.png)
+   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
 
 1. Aggiungi il nome da assegnare al modello.
 
@@ -29,7 +28,7 @@ Dopo aver progettato [contenuto della pagina di destinazione](lp-content.md), è
 
 La prossima volta che crei una pagina di destinazione, puoi utilizzare questo modello per creare i contenuti. Scopri come nella [sezione](#use-saved-template) di seguito.
 
-![](assets/lp-saved-template.png)
+![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
 
 ## Utilizzare un modello salvato {#use-saved-template}
 
@@ -37,7 +36,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 1. Quando modifichi il contenuto di una pagina di destinazione, fai clic su **[!UICONTROL Altro]** e seleziona **[!UICONTROL Cambia il design]**.
 
-   ![](assets/lp-change-your-design.png)
+   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
 
 1. Conferma la tua scelta.
 
@@ -47,11 +46,11 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 1. L’elenco di tutti i modelli salvati in precedenza viene visualizzato nel **[!UICONTROL Modelli salvati]** scheda. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
-   ![](assets/lp-saved-templates.png)
+   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Seleziona dall’elenco il modello desiderato. Una volta selezionato, è possibile spostarsi tra tutti i modelli salvati utilizzando le frecce destra e sinistra.
 
-   ![](assets/lp-select-saved-template.png)
+   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Usa questo modello]**.
 

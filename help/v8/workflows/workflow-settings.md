@@ -2,12 +2,11 @@
 audience: end-user
 title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
-badge: label="Disponibilità limitata"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 72%
+source-wordcount: '959'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +19,7 @@ Queste impostazioni sono preconfigurate nel modello selezionato durante la creaz
 
 A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Proprietà del flusso di lavoro {#properties}
 
@@ -31,7 +30,7 @@ A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile 
 
 La sezione **[!UICONTROL Proprietà]** offre impostazioni generiche accessibili anche durante la creazione del flusso di lavoro.
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 Queste proprietà sono:
