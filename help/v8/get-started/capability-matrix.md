@@ -3,9 +3,9 @@ audience: end-user
 title: Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 
 
 ## Canali di comunicazione {#channels-capabilities}
 
-Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare e-mail, SMS e notifiche push e misurarne l’impatto utilizzando vari rapporti dedicati, come descritto di seguito. [in questa sezione](../msg/gs-messages.md). Tuttavia, i seguenti canali non sono attualmente disponibili.
+Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare **email**, **SMS** e **notifiche push** e misurarne l’impatto utilizzando vari rapporti dedicati, come descritto di seguito [in questa sezione](../msg/gs-messages.md). Tuttavia, i seguenti canali sono attualmente **non** disponibile: in-app, direct mail, LINE, call center/canale personalizzato, social marketing con X (Twitter).
 
 Utilizza i collegamenti forniti per sfogliare la documentazione di Campaign v8 (console client) e ulteriori informazioni su questi canali.
 
