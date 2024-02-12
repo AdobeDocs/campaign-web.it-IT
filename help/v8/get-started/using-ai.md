@@ -3,10 +3,10 @@ title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale i
 description: Porre domande nei popover della guida di Campaign Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '541'
+ht-degree: 82%
 
 ---
 
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Dal campo di input, la Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign presenta tre domande consigliate. Queste domande sono generate da AI e si riferiscono alla casella della guida e al contesto del prodotto corrente. Selezionare una domanda per ottenere la risposta.
 
+![Domande suggerite dall’Aiuto contestuale](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## Risposte {#answers-ai}
 
 La Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign offre assistenza, ma è necessario verificare i fatti. Potrebbe generare informazioni non corrette, risposte inesatte o fuorvianti. Assicurati di controllare la documentazione del prodotto collegata in ogni riquadro della guida.
 
 È possibile copiare una risposta negli Appunti utilizzando **Copia** nella parte inferiore del popover della guida.
+
+![Copia di una risposta nella Guida contestuale](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## Feedback {#feedback-ai}
 
