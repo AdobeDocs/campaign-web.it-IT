@@ -3,7 +3,7 @@ audience: end-user
 title: Aggiungere offerte ai messaggi
 description: Scopri come aggiungere e inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 66%

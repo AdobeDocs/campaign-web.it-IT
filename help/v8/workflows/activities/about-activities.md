@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%

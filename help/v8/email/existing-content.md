@@ -3,7 +3,7 @@ audience: end-user
 title: Importare il contenuto dell’e-mail
 description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 97%

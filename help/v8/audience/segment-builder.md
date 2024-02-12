@@ -3,10 +3,9 @@ audience: end-user
 title: Creare un pubblico con il generatore di regole di Campaign
 description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta"
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 93%
 
 ---

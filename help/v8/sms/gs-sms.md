@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione alle consegne SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%

@@ -3,7 +3,7 @@ audience: end-user
 title: Testare il rendering delle e-mail
 description: Scopri come verificare il rendering delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 86%

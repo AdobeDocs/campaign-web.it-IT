@@ -3,7 +3,7 @@ audience: end-user
 title: Regolare l’allineamento verticale e la spaziatura in E-mail Designer
 description: Scopri come regolare l’allineamento verticale e la spaziatura
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 95%
