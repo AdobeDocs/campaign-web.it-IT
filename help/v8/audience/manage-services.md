@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 59%
+source-wordcount: '933'
+ht-degree: 58%
 
 ---
 
@@ -19,13 +19,11 @@ ht-degree: 59%
 
 Utilizza Adobe Campaign Web per gestire e creare i tuoi servizi, ad esempio le newsletter, e per controllare gli abbonamenti o i loro annullamenti.
 
+Possono essere definiti in parallelo diversi servizi, ad esempio: newsletter per specifiche categorie di prodotti, temi o aree di un sito web, iscrizioni a vari tipi di messaggi di avviso e notifiche in tempo reale.
+
 >[!NOTE]
 >
 >Le iscrizioni si applicano solo alla consegna di e-mail e SMS.
-
-Possono essere definiti in parallelo diversi servizi, ad esempio: newsletter per specifiche categorie di prodotti, temi o aree di un sito web, iscrizioni a vari tipi di messaggi di avviso e notifiche in tempo reale.
-
-Per ulteriori informazioni sulla gestione delle iscrizioni e sul loro annullamento, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html?lang=it){target="_blank"}.
 
 ## Accedere ai servizi di iscrizione {#access-services}
 
@@ -102,7 +100,7 @@ Ora puoi:
 >title="Seleziona il modello di consegna per annullare l’abbonamento"
 >abstract="Per inviare messaggi di conferma agli utenti che annullano l’abbonamento al servizio, devi selezionare un modello di consegna specifico in base al **[!UICONTROL Iscrizioni]** mappatura del target, senza un target definito."
 
-Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’iscrizione al servizio, devi creare un modello di consegna con mappatura target **[!UICONTROL Iscrizioni]**, senza un target definito. A questo scopo, segui questi passaggi.
+Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’iscrizione al servizio, devi creare un modello di consegna con mappatura target **[!UICONTROL Iscrizioni]**, senza un target definito. A questo scopo, segui i passaggi riportati qui sotto:
 
 1. Crea un modello di consegna per la conferma dell’iscrizione. [Scopri come creare un modello](../msg/delivery-template.md)
 
@@ -112,7 +110,7 @@ Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’is
 
    >[!NOTE]
    >
-   >Se non selezioni la mappatura target **[!UICONTROL Iscrizioni]**, gli utenti iscritti non riceveranno il messaggio di conferma. Le mappature target sono definite nella console Campaign v8. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
+   >Se non selezioni la mappatura target **[!UICONTROL Iscrizioni]**, gli utenti iscritti non riceveranno il messaggio di conferma. Ulteriori informazioni sulle mappature di destinazione in [questa sezione](../audience/targeting-dimensions.md) .
 
 1. Modifica il contenuto del modello di consegna, salvalo e chiudilo.
 
