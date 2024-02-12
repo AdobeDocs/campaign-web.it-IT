@@ -2,9 +2,9 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1340'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,8 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+Per creare una pagina di destinazione, effettua le seguenti operazioni:
+
 1. Dalla sezione **[!UICONTROL Pagine di destinazione]** inventory, fai clic su **[!UICONTROL Crea pagina di destinazione]**.
 
    ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
@@ -79,13 +81,13 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
    * **[!UICONTROL Acquisizione]**: questo è il modello predefinito per le pagine di destinazione, che ti consente di acquisire e aggiornare i dati del profilo.
    * **[!UICONTROL Abbonamento]**: utilizza questo modello per consentire agli utenti di abbonarsi a uno specifico [servizio](../audience/manage-services.md).
    * **[!UICONTROL Annullamento iscrizione]**: questo modello può essere utilizzato in una consegna inviata agli abbonati di un servizio, per consentire loro di annullare l’abbonamento [servizio](../audience/manage-services.md).
-   * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo non desidera più essere contattato da Campaign.
+   * **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**: questo modello deve essere utilizzato quando un profilo fa clic su un collegamento di rinuncia in una consegna e non desidera più essere contattato.
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Scopri come implementare i diversi casi d’uso corrispondenti a ciascun modello in [questa sezione](lp-use-cases.md).
+   >Scopri come implementare i diversi casi d’uso corrispondenti a ciascun modello in [questa pagina](lp-use-cases.md).
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
@@ -101,7 +103,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
    * Il **[!UICONTROL Salta il precaricamento se non è presente alcun ID]** deve essere selezionata se non desideri aggiornare i profili. In questo caso, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo. Questa opzione viene utilizzata, ad esempio, quando il modulo viene pubblicato su un sito Web.
 
-1. In **[!UICONTROL Pagine]** , fare clic sul pulsante **[!UICONTROL Modifica contenuto]** per ogni pagina che desideri progettare per questa pagina di destinazione. Il contenuto di ogni pagina è già precompilato. Modificali in base alle esigenze. [Ulteriori informazioni](lp-content.md)
+1. Una pagina di destinazione può avere pagine successive. Per aggiungere delle pagine, sfoglia **[!UICONTROL Pagine]** e fare clic sul pulsante **[!UICONTROL Modifica contenuto]** per ogni pagina che desideri progettare per questa pagina di destinazione. Il contenuto di ogni pagina è già precompilato. Modificali in base alle esigenze. [Ulteriori informazioni](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 1. Clic **[!UICONTROL Revisione e pubblicazione]**.
 
-Una volta definite tutte le impostazioni e [progettato](lp-content.md) tutte le pagine, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
+Una volta definite tutte le impostazioni e [progettato](lp-content.md) tutte le pagine, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione come descritto di seguito.
 
 ## Verifica della pagina di destinazione {#test-landing-page}
 
@@ -148,6 +150,8 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 >[!CAUTION]
 >
 >Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. [Ulteriori informazioni sui profili di test](../audience/test-profiles.md)
+
+Per verificare la pagina di destinazione, effettua le seguenti operazioni:
 
 1. Dopo aver fatto clic su **[!UICONTROL Revisione e pubblicazione]**, seleziona la **[!UICONTROL Simula contenuto]** dal dashboard della pagina di destinazione per accedere alla selezione del profilo di test.
 
@@ -173,7 +177,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 ## Pubblicare la pagina di destinazione {#publish-landing-page}
 
-Quando la pagina di destinazione è pronta, pubblicala per renderla disponibile per l’utilizzo in una consegna utilizzando il pulsante corrispondente.
+Una volta che la pagina di destinazione è pronta e convalidata, pubblicala per renderla disponibile per l’utilizzo in una consegna utilizzando il pulsante corrispondente.
 
 Dopo la pubblicazione:
 

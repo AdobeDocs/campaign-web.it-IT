@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 11%
+source-wordcount: '275'
+ht-degree: 10%
 
 ---
 
@@ -26,9 +26,9 @@ Le pagine di destinazione consentono di indirizzare gli utenti a moduli online i
 
 >[!CAUTION]
 >
->Le pagine di destinazione create nell’interfaccia utente di Campaign Web sono diverse dai moduli web creati dalla console client. Non è possibile visualizzare o modificare i moduli web nell’interfaccia utente di Campaign Web.
+>Le pagine di destinazione create nell’interfaccia utente di Campaign Web sono diverse dai moduli web creati dalla console client. Non è possibile visualizzare o modificare i moduli web creati nella console client nell’interfaccia utente di Campaign Web.
 >
->Per ulteriori informazioni sui moduli web, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Per ulteriori informazioni sui moduli web, consulta [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 

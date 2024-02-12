@@ -2,9 +2,9 @@
 title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '872'
 ht-degree: 12%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 12%
 >title="Utilizzare i componenti per contenuti"
 >abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
 
-Quando modifichi il contenuto di una pagina della pagina di destinazione, questa è già precompilata.
+Puoi modificare il contenuto di qualsiasi pagina della pagina di destinazione.
 
-La prima pagina, che viene visualizzata immediatamente dopo aver fatto clic sul collegamento alla pagina di destinazione, è già precompilata con il [componente modulo specifico per la pagina di destinazione](#use-form-component) per il modello selezionato<!-- to enable users to select and submit their choices-->. Puoi anche definire [stili per la pagina di destinazione](#lp-form-styles).
 
-Per progettare ulteriormente il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
+La prima pagina, che viene visualizzata immediatamente dopo aver fatto clic sul collegamento alla pagina di destinazione, è già precompilata con il [componente modulo specifico per la pagina di destinazione](#use-form-component) per il modello selezionato<!-- to enable users to select and submit their choices-->.
 
 Il contenuto della **[!UICONTROL Conferma]**, **[!UICONTROL Errore]** e **[!UICONTROL Scade]** anche le pagine sono precompilate. Modificali in base alle esigenze.
+
+Puoi anche definire [stili per la pagina di destinazione](#lp-form-styles).
+
+Per progettare ulteriormente il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
 ## Utilizzare il componente modulo {#use-form-component}
 
@@ -36,7 +39,7 @@ Il contenuto della **[!UICONTROL Conferma]**, **[!UICONTROL Errore]** e **[!UICO
 >title="Eventi successivi al clic sul pulsante"
 >abstract="Definisci gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
 
-Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le scelte effettuate dalla pagina di destinazione, utilizza **[!UICONTROL Modulo]** componente. A questo scopo, segui questi passaggi.
+Per definire un contenuto specifico che consenta agli utenti di selezionare e inviare le scelte effettuate dalla pagina di destinazione, modifica il **[!UICONTROL Modulo]** componente. A questo scopo, segui questi passaggi.
 
 1. Le specifiche della pagina di destinazione **[!UICONTROL Modulo]** il componente è già visualizzato nell’area di lavoro del modello selezionato.
 
