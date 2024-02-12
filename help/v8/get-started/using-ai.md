@@ -3,10 +3,10 @@ title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale i
 description: Porre domande nei popover della guida di Campaign Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '532'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ La **Guida contestuale con Generazione basata sull’intelligenza artificiale**,
 
 Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo componente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, la Guida contestuale basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -44,19 +44,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
+## Domande consigliate {#questions-ai}
+
+Dal campo di input, la Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign presenta tre domande consigliate. Queste domande sono generate da AI e si riferiscono alla casella della guida e al contesto del prodotto corrente. Selezionare una domanda per ottenere la risposta.
+
 ## Risposte {#answers-ai}
 
 La Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign offre assistenza, ma è necessario verificare i fatti. Potrebbe generare informazioni non corrette, risposte inesatte o fuorvianti. Assicurati di controllare la documentazione del prodotto collegata in ogni riquadro della guida.
 
-L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. La Guida contestuale basata sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Ti consigliamo vivamente di utilizzare il pulsante <img src="assets/do-not-localize/thumb.png" width="10%"/> ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri tecnici.
+È possibile copiare una risposta negli Appunti utilizzando **Copia** nella parte inferiore del popover della guida.
 
+## Feedback {#feedback-ai}
+
+L’intelligenza artificiale e i modelli di apprendimento automatico migliorano nel tempo per affrontare meglio casi d’uso specifici. La Guida contestuale basata sull’intelligenza artificiale di Campaign continuerà a migliorare nei prossimi mesi. Ti consigliamo vivamente di utilizzare il pulsante <img src="assets/do-not-localize/thumb.png" width="10%"/> ogni volta che leggi una risposta, per segnalare eventuali risposte inappropriate ai nostri tecnici.
 
 ## Raccomandazioni  {#recommendations-ai}
 
 Quando si pone una domanda nella Guida contestuale basata sull’intelligenza artificiale, vengono presi in considerazione il contesto del prodotto corrente, ovvero la schermata in cui ci si trova, e il contenuto del riquadro della guida corrente.
 
 Di conseguenza, è consigliabile porre domande relative al contesto dell’interfaccia utente. Ad esempio, per scoprire come inviare una consegna push in un flusso di lavoro, passa alla voce di menu a sinistra **Flusso di lavoro** e utilizza un riquadro della guida contestuale in tale contesto specifico. Per ulteriori informazioni sulle metriche di reporting, passa alla campagna o ai rapporti sulle consegne e inizia da lì.
-
 
 Inoltre, per ottenere il meglio dalla Guida contestuale basata sull’intelligenza artificiale, quando poni una domanda, ti consigliamo di:
 
