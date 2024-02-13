@@ -10,12 +10,12 @@ ht-degree: 96%
 
 ---
 
-# Guida introduttiva a E-mail Designer {#get-started-email-designer}
+# Introduzione a E-mail Designer {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Nuovo E-mail Designer"
->abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da una lavagna vuota o sfruttando i frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
+>abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da zero o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="Nuovo E-mail Designer"
->abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da una lavagna vuota o sfruttando i frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
+>abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da zero o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 <!--TO REMOVE ABOVE-->

@@ -104,7 +104,7 @@ Crea nuovi tipi di pubblico in nell’area di lavoro del flusso di lavoro. Oltre
 
 >[!TAB E-mail Designer]
 
-E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da una lavagna vuota o sfruttando i frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail.
+E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da zero o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 

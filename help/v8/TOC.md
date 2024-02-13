@@ -38,7 +38,7 @@ ht-degree: 92%
          + [Configurare il contenuto dell’e-mail](email/edit-content.md)
          + [Utilizzare i modelli di contenuto](email/create-email-templates.md)
          + Iniziare a definire l’e-mail {#start-design}
-            + [Guida introduttiva a E-mail Designer](email/get-started-email-designer.md)
+            + [Introduzione a E-mail Designer](email/get-started-email-designer.md)
             + [Iniziare da zero](email/create-email-content.md)
             + [Importare il contenuto dell’e-mail](email/existing-content.md)
             + [Creare il codice del contenuto](email/code-content.md)
