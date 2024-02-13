@@ -3,10 +3,10 @@ audience: end-user
 title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 96%
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,6 @@ Per creare una nuova cartella, segui questi passaggi:
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   La cartella viene aggiunta come sottocartella della cartella corrente. Passa alla nuova cartella per creare i componenti direttamente al suo interno. Puoi creare anche un componente da qualsiasi cartella e salvarlo in quella nuova dalla sezione **Opzioni aggiuntive** delle proprietà per una consegna, come indicato di seguito:
+   La cartella viene aggiunta come sottocartella della cartella corrente. Passa alla nuova cartella per creare i componenti direttamente al suo interno. Puoi anche creare un componente da qualsiasi cartella e salvarlo in quella nuova cartella dall’ **Opzioni aggiuntive** nelle proprietà, come mostrato di seguito per una consegna:
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

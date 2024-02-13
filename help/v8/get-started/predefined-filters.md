@@ -2,10 +2,10 @@
 title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 92%
+source-wordcount: '816'
+ht-degree: 74%
 
 ---
 
@@ -36,11 +36,6 @@ I filtri preimpostati sono filtri personalizzati che vengono creati e salvati pe
 Puoi utilizzare i filtri preimpostati esistenti per accedere a un sottoinsieme specifico dei tuoi dati o creare filtri preimpostati personalizzati e salvarli.
 
 ![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->In tale versione del prodotto, durante la creazione di regole, la selezione del pubblico di una consegna o la creazione di un pubblico in un flusso di lavoro e alcuni filtri preimpostati non sono disponibili nell’interfaccia utente. Tuttavia, puoi ancora usarli. [Ulteriori informazioni](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
 
 ## Creare un filtro preimpostato {#create-predefined-filter}
 
@@ -109,20 +104,17 @@ Quando viene salvato un filtro come preferito, è disponibile per tutti gli uten
 
 I filtri preimpostati sono disponibili quando si definiscono le proprietà delle regole. Per accedere ai filtri preimpostati, scegli l’opzione **Seleziona filtro personalizzato** nel menu a discesa del query modeler.
 
-Puoi quindi accedere all’elenco completo dei filtri preimpostati disponibili per il contesto corrente.
-
-Puoi anche utilizzare le scelte rapide per i filtri disponibili nella sezione **Filtri preferiti** del menu a discesa. Per ulteriori informazioni sui preferiti, consulta [questa sezione](#fav-filter).
+Puoi quindi accedere all’elenco completo dei filtri predefiniti disponibili per il contesto corrente e utilizzare i collegamenti disponibili nel **Filtri preferiti** del menu a discesa. Per ulteriori informazioni sui preferiti, consulta [questa sezione](#fav-filter).
 
 Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passaggi:
 
-1. Passa alla voce **Tipi di pubblico** nel menu a sinistra.
-1. Fai clic sul pulsante **Crea pubblico**.
+1. Accedi a **Tipi di pubblico** nel menu a sinistra e fare clic su **Crea pubblico** nell’angolo superiore sinistro dell’elenco dei tipi di pubblico.
 1. Immetti il nome del pubblico e fai clic su **Crea pubblico**.
-1. Seleziona l’attività **Query** e, nel riquadro di destra, fai clic sul pulsante **Crea pubblico**.
+1. Seleziona la **Query** e, nel riquadro di destra, fare clic sul pulsante **Creare un pubblico** pulsante.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Dal pulsante **Seleziona o salva filtro**, scegli l’opzione **Seleziona filtro personalizzato**.
+1. Dalla sezione **Seleziona o salva il filtro** , scegliere il pulsante **Seleziona filtro personalizzato** opzione.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -140,17 +132,17 @@ Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passa
 
 ## Gestire i filtri preimpostati {#manage-predefined-filter}
 
-I filtri preimpostati sono tutti raggruppati nella voce dedicata del menu di navigazione a sinistra.
+Tutti i filtri predefiniti sono raggruppati nella voce dedicata del menu di navigazione a sinistra.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza; inoltre, puoi:
+Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza ed eseguire le azioni elencate di seguito:
 
-* modificare un filtro esistente comprese regole e proprietà;
-* duplicare un filtro preimpostato;
-* eliminare un filtro preimpostato.
+* Modifica un filtro esistente, modificane regole e proprietà.
+* Duplica un filtro predefinito.
+* Elimina un filtro predefinito.
 
-Puoi aggiungere un filtro preimpostato come preferito per un accesso rapido durante la creazione dei tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
+Puoi anche aggiungere un filtro predefinito come preferito per un accesso rapido durante la creazione dei tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
