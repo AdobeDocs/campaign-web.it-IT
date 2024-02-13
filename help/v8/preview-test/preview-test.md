@@ -3,10 +3,10 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 60%
+source-wordcount: '198'
+ht-degree: 47%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 60%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare consegne di test"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Test delle pagine di destinazione"
 
-Una volta definito il contenuto della consegna, puoi utilizzare profili e profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio.
+Una volta definito il contenuto della consegna, puoi utilizzare profili e profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio. Si tratta di un passaggio fondamentale per garantirne l’accuratezza, ma anche l’assenza di errori nelle impostazioni di contenuto e personalizzazione.
 
-Questo è un passaggio fondamentale per garantire che sia accurato ma anche privo di errori sia nelle impostazioni del contenuto che della personalizzazione.
-
-A questo scopo, [!DNL Adobe Campaign] ti consente di effettuare quanto segue:
+[!DNL Adobe Campaign Web user interface] consente di:
 
 * [Visualizzare in anteprima il contenuto e la personalizzazione del messaggio](preview-content.md)
 * [Inviare consegne di test](test-deliveries.md) (bozze) a specifici destinatari o iscritti a scopo di test e convalida

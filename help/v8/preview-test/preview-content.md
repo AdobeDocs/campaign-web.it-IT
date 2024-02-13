@@ -3,10 +3,10 @@ audience: end-user
 title: Anteprima del contenuto della consegna
 description: Scopri come visualizzare in anteprima i contenuti della consegna con l’interfaccia utente web di Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 63%
+source-wordcount: '359'
+ht-degree: 54%
 
 ---
 
@@ -23,11 +23,7 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Per selezionare i profili da utilizzare per l’anteprima dei contenuti personalizzati, utilizza le seguenti opzioni:
-
-   * **[!UICONTROL Aggiungi profili di test]** per visualizzare in anteprima le consegne e-mail e SMS
-
-   * **[!UICONTROL Aggiungi iscritti]** per visualizzare in anteprima le notifiche push
+1. Seleziona i profili da utilizzare per visualizzare in anteprima il contenuto. A questo scopo, fai clic su **[!UICONTROL Aggiungi profili di test]** (per e-mail e SMS) o **[!UICONTROL Aggiungi sottoscrittori]** (per le notifiche push).
 
 1. Puoi combinare profili e profili di test per visualizzare in anteprima il messaggio e-mail o SMS.
 
@@ -37,11 +33,9 @@ Per visualizzare l’anteprima del contenuto della consegna, segui i passaggi in
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca.
+1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca. Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. [Scopri come aggiungere regole utilizzando Query Modeler](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. [Scopri come aggiungere regole utilizzando Query Modeler](../query/query-modeler-overview.md).
 
 1. Fai clic su **[!UICONTROL Seleziona]** per confermare la selezione.
 
