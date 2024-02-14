@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
 product: journey optimizer
 title: Casi di utilizzo della pagina di destinazione
 description: Scopri i casi d’uso più comuni con le pagine di destinazione in Journey Optimizer
@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3dcd4631a79ce2752e829f8259e0de1177f21984
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 1%
