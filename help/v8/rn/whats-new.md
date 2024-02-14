@@ -3,9 +3,9 @@ audience: end-user
 title: Novità dell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1291'
 ht-degree: 74%
 
 ---
@@ -23,7 +23,7 @@ Siamo entusiasti di presentare la nuova versione di **Interfaccia utente web di 
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile per tutti gli utenti che iniziano il rilascio di Campaign v8.6. Ulteriori informazioni sulle versioni di Adobe Campaign in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>Questa versione è disponibile per tutti gli utenti che iniziano [Versione v8.6 di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Ulteriori informazioni sulle versioni di Adobe Campaign in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## Funzionalità principali {#key-features}

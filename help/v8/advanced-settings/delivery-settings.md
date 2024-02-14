@@ -4,9 +4,9 @@ title: Impostazioni consegna
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2417'
 ht-degree: 56%
 
 ---
@@ -145,7 +145,7 @@ L’e-mail integrata **[!UICONTROL Indirizzamento]** l’account esterno è forn
 
 * **[!UICONTROL Test consegna SMTP]**: questa opzione viene utilizzata per verificare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **[!UICONTROL CCN e-mail]**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn semplicemente aggiungendo un indirizzo e-mail Ccn alla destinazione del messaggio. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
+* **[!UICONTROL CCN e-mail]**: questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite Ccn semplicemente aggiungendo un indirizzo e-mail Ccn alla destinazione del messaggio. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 In **[!UICONTROL Definizione ondata]** , seleziona la sezione **[!UICONTROL Invia in più ondate]** per aumentare progressivamente il volume inviato utilizzando le scaglioni. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
@@ -192,8 +192,6 @@ Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 <!--Currently not visible in UI > ??-->
 
 I messaggi temporaneamente non consegnati a causa di un errore di tipo Soft o Ignorato sono soggetti a un nuovo tentativo automatico. Per impostazione predefinita, per il primo giorno della consegna sono pianificati cinque nuovi tentativi con un intervallo minimo di un’ora distribuiti nelle 24 ore del giorno.
-
-Per ulteriori informazioni sulla gestione dei nuovi tentativi, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=it){target="_blank"}.
 
 ## Approvazione {#approval}
 
