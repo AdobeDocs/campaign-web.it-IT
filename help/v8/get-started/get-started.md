@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ad Adobe Campaign Web
 description: Introduzione ad Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 75%
+source-wordcount: '543'
+ht-degree: 74%
 
 ---
 
@@ -46,10 +46,6 @@ Questa nuova interfaccia utente Web soddisfa innanzitutto le esigenze del **prof
 
 In qualità di amministratore o di utente esperto, se hai bisogno di accedere alle funzionalità di Campaign v8 che non sono disponibili nell’interfaccia utente di Campaign Web, puoi connettersi al [console client](#ac-client).
 
-
->[!NOTE]
->
->Adobe Campaign Web è attualmente in versione Disponibilità limitata (LA). L‘accesso è limitato a un piccolo gruppo di clienti a Disponibilità limitata (LA) Tieni presente che l’interfaccia, le funzionalità e i flussi di utilizzo dei prodotti possono cambiare senza preavviso.
 
 Scopri come connetterti ad Adobe Campaign Web in [questa pagina](connect-to-campaign.md).
 
