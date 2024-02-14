@@ -1,15 +1,15 @@
 ---
-title: Guardrail e limitazioni nell’interfaccia utente web di Campaign
-description: Guardrail e limitazioni nell’interfaccia utente web di Campaign
+title: Guardrail e limitazioni nei flussi di lavoro dell’interfaccia utente web di Campaign
+description: Guardrail e limitazioni nell’utilizzo dei flussi di lavoro nell’interfaccia utente web di Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# Guardrail e limitazioni {#guardrails-limitations}
+# Guardrail e limitazioni per i flussi di lavoro {#guardrails-limitations}
 
 Quando si lavora nell’interfaccia utente di Campaign Web con flussi di lavoro creati o modificati nella console client di Campaign, si applicano le protezioni e le limitazioni elencate di seguito.
 
