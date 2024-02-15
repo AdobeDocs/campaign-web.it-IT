@@ -1,9 +1,9 @@
 ---
 title: Introduzione ai profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '549'
 ht-degree: 18%
 
 ---
@@ -38,6 +38,8 @@ Inoltre, **[!UICONTROL profili di test]**, identificati come &quot;profili di se
 
 Sia i profili che i profili di test possono essere utilizzati per testare le consegne prima che raggiungano il pubblico previsto. In questo modo puoi visualizzare in anteprima il contenuto e la personalizzazione del messaggio, inviare bozze per il test e la convalida, valutare il rendering delle e-mail su varie piattaforme e dispositivi e verificare le pagine di destinazione. [Scopri come visualizzare in anteprima e testare le consegne](../preview-test/preview-test.md)
 
+➡️ [Scopri questa funzione nel video](#video)
+
 ## Accedere all’elenco dei profili {#access}
 
 I profili sono accessibili e modificabili in Adobe Campaign Web dalla **[!UICONTROL Gestione clienti]** > **Profili** nella barra di navigazione a sinistra. È inoltre possibile accedervi nel **[!UICONTROL Esplora]** vista, da **[!UICONTROL Profili e destinazioni]** > **[!UICONTROL Destinatari]** nodo. Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ Puoi filtrare i **[!UICONTROL Profili]** utilizzando il campo di ricerca o i fil
 Per accedere ai dettagli di un profilo, fai clic sul nome dall’elenco. Viene visualizzata una vista dettagliata del profilo, che consente di esplorarne gli attributi e i servizi a cui si è abbonato. [Scopri come esplorare i dettagli dei profili](create-profile.md)
 
 Per eliminare un profilo, selezionare l&#39;opzione corrispondente dalla **[!UICONTROL Altre azioni]** menu.
+
+## Video tutorial {#video}
+
+Scopri come accedere, gestire ed esplorare i profili tramite l’interfaccia utente web di Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
