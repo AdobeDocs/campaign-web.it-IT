@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -90,6 +90,12 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
+>[!TAB Integrazione con Adobe Experience Manager as a Cloud Service]
+
+L’integrazione tra l’interfaccia web di Adobe Campaign e Adobe Experience Manager as a Cloud Service semplifica la gestione dei contenuti dell’e-mail. Ora puoi creare e modificare il contenuto delle e-mail direttamente in Adobe Experience Manager, quindi importare facilmente i modelli finiti in Adobe Campaign per le consegne.
+
+[![immagine](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Flussi di lavoro cross-channel]
 
 Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e stimolare migliori prestazioni della campagna.
@@ -107,12 +113,6 @@ Crea nuovi tipi di pubblico in nell’area di lavoro del flusso di lavoro. Oltre
 E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da zero o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Profilo 360]
-
-Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agli attributi, alle interazioni e ai registri dei tuoi profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarli e aggiornarli.
-
-[![immagine](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
