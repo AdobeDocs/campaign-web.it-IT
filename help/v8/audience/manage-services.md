@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 72%
+source-wordcount: '960'
+ht-degree: 70%
 
 ---
 
@@ -128,8 +128,13 @@ Ora puoi selezionare questi messaggi durante la [creazione di un servizio di isc
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Numero totale di iscritti"
+>title="Numero abbonati"
 >abstract="Fai clic su **Calcola** per ottenere il numero totale di iscritti a questo servizio."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Numero totale di iscritti"
+>abstract="L’indicatore di prestazioni chiave (KPI, Key Performance Indicator) fornisce una panoramica completa della base di abbonati, mostrando il numero totale di utenti che si sono abbonati a questo servizio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
