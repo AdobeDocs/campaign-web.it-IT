@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Properties"
->abstract="Qui puoi trovare un riepilogo delle proprietà del pubblico, come l’origine, la cartella di archiviazione o il relativo stato. Fai clic sul collegamento nella sezione **Ultimo flusso di lavoro** per aprire il flusso di lavoro utilizzato per creare il pubblico."
+>abstract="Qui è disponibile un riepilogo delle proprietà del pubblico, come l’origine, la cartella di archiviazione o il relativo stato. Fai clic sul collegamento nella sezione **Ultimo flusso di lavoro** per aprire il flusso di lavoro utilizzato per creare il pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Dimensione del pubblico"
->abstract="Qui puoi trovare il numero totale di profili all’interno del pubblico. Fai clic sul pulsante Calcola per aggiornare e ricalcolare i risultati del pubblico."
+>abstract="Qui è disponibile il numero totale di profili all’interno del pubblico. Fai clic sul pulsante Calcola per aggiornare e ricalcolare i risultati del pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

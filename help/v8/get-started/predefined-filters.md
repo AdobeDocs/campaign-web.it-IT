@@ -5,7 +5,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Gestione dei filtri preimpostati"
->abstract="L’interfaccia utente di Campaign Web offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
+>abstract="L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
 
 <!--TO REMOVE BELOW-->
@@ -29,7 +29,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtri preimpostati"
->abstract="L’interfaccia utente di Campaign Web offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base a esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
+>abstract="L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
 I filtri preimpostati sono filtri personalizzati che vengono creati e salvati per essere disponibili per un utilizzo futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro insieme al query modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna.
 

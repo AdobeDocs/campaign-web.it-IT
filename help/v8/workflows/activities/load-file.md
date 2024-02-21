@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 28%
+ht-degree: 37%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Attività di caricamento file"
->abstract="Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con i dati memorizzati in un file esterno."
+>abstract="L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per utilizzare i dati memorizzati in un file esterno."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -63,7 +63,7 @@ ht-degree: 28%
 >abstract="Nuova mappatura dei valori per l’attività Load file"
 
 
-Il **Carica file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
+L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
 
 >[!NOTE]
 >Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).

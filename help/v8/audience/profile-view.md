@@ -4,7 +4,7 @@ description: Scopri come esplorare i dettagli di un profilo.
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="Elenco iscrizioni dei destinatari"
->abstract="Questa scheda elenca tutti i servizi a cui il profilo è abbonato."
+>abstract="Questa scheda elenca tutti i servizi a cui il profilo è iscritto."
 
 Per accedere ai dettagli di un profilo, passa a **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** quindi fai clic sul profilo a cui desideri accedere.
 

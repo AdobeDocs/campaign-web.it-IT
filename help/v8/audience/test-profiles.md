@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Creare profili di test"
->abstract="I profili di test vengono creati come indirizzi di seed. Si tratta di destinatari aggiuntivi nel database utilizzato per eseguire il targeting di profili fittizi che non corrispondono ai criteri di destinazione definiti."
+>abstract="I profili di test vengono creati come indirizzi seed. Si tratta di destinatari aggiuntivi nel database utilizzati per eseguire il targeting di profili fittizi che non corrispondono ai criteri di destinazione definiti."
 
-I profili di test vengono creati come indirizzi di seed. Si tratta di destinatari aggiuntivi nel database utilizzato per eseguire il targeting di profili fittizi che non corrispondono ai criteri di destinazione definiti. Ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare la consegna, inviando loro delle bozze.
+I profili di test vengono creati come indirizzi seed. Si tratta di destinatari aggiuntivi nel database utilizzato per eseguire il targeting di profili fittizi che non corrispondono ai criteri di destinazione definiti. Ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare la consegna, inviando loro delle bozze.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -60,7 +60,7 @@ Dalla sezione **[!UICONTROL Esplora]** visualizzazione puoi anche filtrare, elim
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="Dati aggiuntivi dei profili di test"
->abstract="Immetti i dati di personalizzazione utilizzati per le consegne create nei flussi di lavoro di gestione dati e a cui desideri assegnare un valore specifico."
+>abstract="Immetti i dati di personalizzazione utilizzati per le consegne create nei flussi di lavoro di gestione dati a cui desideri assegnare un valore specifico."
 
 Per creare un profilo di test, segui i passaggi indicati di seguito.
 

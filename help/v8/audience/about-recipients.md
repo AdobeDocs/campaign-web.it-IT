@@ -4,7 +4,7 @@ description: Scopri come monitorare e gestire i profili in Campaign Web.
 source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profili"
->abstract="Un profilo è un record il cui target è ricevere messaggi inviati da Adobe Campaign. Da questo elenco, puoi visualizzare i dettagli dei profili in base alle autorizzazioni di cui disponi. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi dei profili."
+>abstract="Un profilo è un record il cui target è ricevere messaggi inviati da Adobe Campaign. Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare i dettagli dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi dei profili."
 
 ## Che cos’è un profilo? {#what}
 

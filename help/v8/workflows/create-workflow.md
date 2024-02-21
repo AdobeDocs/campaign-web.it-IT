@@ -6,7 +6,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ Il flusso di lavoro viene creato ed è disponibile nell’elenco dei flussi di l
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_creation_properties"
 >title="Proprietà del flusso di lavoro"
->abstract="I modelli di flusso di lavoro contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuovi flussi di lavoro. In questa schermata, immetti l’etichetta del modello di flusso di lavoro e configurane le impostazioni, ad esempio il nome interno, la cartella e le cartelle di esecuzione, il fuso orario e il gruppo di supervisori."
+>abstract="I modelli di flusso di lavoro contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuovi flussi di lavoro. In questa schermata, immetti l’etichetta del modello di flusso di lavoro e configurane le impostazioni, ad esempio il nome interno, la cartella e le cartelle di esecuzione, il fuso orario e il gruppo di supervisione."
 
 I modelli di flusso di lavoro contengono impostazioni e attività preconfigurate che possono essere riutilizzate per creare nuovi flussi di lavoro. Durante la creazione di un flusso di lavoro, puoi selezionare il modello del flusso di lavoro dalle relative proprietà. Per impostazione predefinita, viene fornito un modello vuoto.
 

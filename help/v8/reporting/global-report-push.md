@@ -6,7 +6,7 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 33%
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 >[!CONTEXTUALHELP]
 >id="acw_push_global_report_overview"
 >title="Panoramica sulla consegna push"
->abstract="Il Push **panoramica della consegna** I KPI forniscono un esame approfondito delle consegne push, con informazioni dettagliate e dati specifici. Fornisce dettagli completi sulle prestazioni, l’efficacia e i risultati delle consegne."
+>abstract="I KPI della **panoramica sulla consegna** push forniscono un esame approfondito delle consegne push, con informazioni approfondite e dati specifici. Fornisce dettagli completi sulle prestazioni, l’efficacia e i risultati delle consegne."
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul coinvolgimento dei visitatori con ogni consegna di notifiche push. Le metriche sono descritte di seguito.
 
@@ -46,7 +46,7 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="Popolazione target della consegna push"
->abstract="Il **Popolazione target** grafici e tabelle mostrano i dati relativi al pubblico dei messaggi push, presentando informazioni sui messaggi da consegnare ed esclusioni."
+>abstract="Il grafico e la tabella della **Popolazione target** mostrano i dati relativi al pubblico della messaggistica push, presentando informazioni sui messaggi da consegnare e sulle esclusioni."
 
 Il **[!UICONTROL Pubblico di destinazione]** La tabella e il grafico presentano i dati relativi ai destinatari per ogni consegna di notifiche push inviata. Le metriche sono descritte di seguito.
 
@@ -66,8 +66,8 @@ Il **[!UICONTROL Pubblico di destinazione]** La tabella e il grafico presentano 
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_delivery_stats"
->title="Statistiche consegna push"
->abstract="Il **Statistiche generali** Il rapporto fornisce informazioni sulle notifiche push inviate, tra cui tassi di successo, errori e quarantene."
+>title="Statistiche di consegna push"
+>abstract="Il rapporto **Statistiche complessive** fornisce informazioni sulle notifiche push inviate, tra cui tassi di successo, errori e quarantene."
 
 Il **[!UICONTROL Statistiche consegna]** La tabella descrive il completamento di ogni consegna di notifiche push. Le metriche sono descritte di seguito.
 
@@ -91,8 +91,8 @@ Il **[!UICONTROL Statistiche consegna]** La tabella descrive il completamento di
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_exclusion"
->title="Cause push di esclusione"
->abstract="Il **Cause di esclusione** i grafici e le tabelle illustrano i diversi motivi che hanno impedito ai profili utente di ricevere le notifiche push."
+>title="Cause di esclusione push"
+>abstract="Il grafico e la tabella **Cause di esclusione** illustrano i diversi motivi che hanno impedito ai profili utente di ricevere le notifiche push."
 
 Il **[!UICONTROL Cause di esclusione]** il grafico e la tabella mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
 
@@ -103,7 +103,7 @@ I tipi di errore per le notifiche push sono elencati nella [Documentazione di Ad
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_push"
 >title="Rapporto velocità di consegna"
->abstract="Il **Velocità effettiva di consegna** Il rapporto presenta informazioni dettagliate sulla velocità effettiva di consegna delle notifiche push dell’intera piattaforma in un arco temporale specificato."
+>abstract="Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità di consegna delle notifiche push dell’intera piattaforma in un arco temporale specifico."
 
 ![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 

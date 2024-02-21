@@ -6,22 +6,22 @@ feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
 
-# Invia in ondate {#send-using-waves}
+# Inviare utilizzando gli scaglioni {#send-using-waves}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="Dividere le consegne in più batch"
->abstract="Invece di inviare grandi volumi di messaggi contemporaneamente, definisci le ondate per suddividere le consegne in più batch. Puoi configurare più scaglioni della stessa dimensione o impostare un calendario per le diverse scaglioni da inviare."
+>abstract="Invece di inviare grandi volumi di messaggi contemporaneamente, definisci gli scaglioni per suddividere le consegne in più batch. Puoi configurare più scaglioni della stessa dimensione o impostare un calendario per i diversi scaglioni da inviare."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
 >title="Definire la dimensione di ogni scaglione"
->abstract="Immettete una dimensione per tutte le ondate che state aggiungendo. Immetti un valore numerico (numero di messaggi per ogni ondata) o una percentuale (0-100%)."
+>abstract="Immetti una dimensione per tutti gli scaglioni che stai aggiungendo. Immetti un valore numerico (numero di messaggi per ogni scaglione) o una percentuale (0-100%)."
 
 Per bilanciare il carico, puoi suddividere le consegne e-mail in più batch. Configura il numero di batch e la loro proporzione rispetto all’intera consegna, nonché l’intervallo tra due ondate.
 

@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 19%
+ht-degree: 45%
 
 ---
 
@@ -23,7 +23,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="Panoramica della consegna SMS"
->abstract="Il **Panoramica della consegna SMS** I KPI forniscono un riepilogo completo della consegna SMS, con informazioni dettagliate e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
+>abstract="I KPI della **panoramica della consegna degli SMS** forniscono un riepilogo dettagliato della consegna degli SMS, fornendo informazioni approfondite e dettagliate e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna."
 
 Il **[!UICONTROL Panoramica della consegna]** Il rapporto offre indicatori di prestazioni chiave (KPI, Key Performance Indicators) completi con informazioni approfondite sui modelli di interazione dei visitatori con ogni consegna di SMS. Di seguito sono descritte le metriche seguenti.
 
@@ -46,7 +46,7 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto offre indicatori di pr
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="Popolazione target degli SMS"
->abstract="Il grafico e la tabella per **Popolazione target** presentare i dati relativi al pubblico SMS, incluse informazioni sui messaggi da consegnare ed esclusioni."
+>abstract="Il grafico e la tabella della **Popolazione target** presentano i dati relativi al pubblico degli SMS, incluse informazioni sui messaggi da consegnare e sulle esclusioni."
 
 Il **[!UICONTROL Pubblico di destinazione]** tabella e grafico presentano i dati relativi ai destinatari per ogni consegna SMS inviata. Le metriche sono descritte di seguito.
 
@@ -66,8 +66,8 @@ Il **[!UICONTROL Pubblico di destinazione]** tabella e grafico presentano i dati
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
->title="Statistiche di consegna SMS"
->abstract="Il **Statistiche consegna** Il rapporto fornisce informazioni complete sull’SMS inviato, offrendo un raggruppamento di varie metriche quali tassi di successo, occorrenze di errori e pubblico messo in quarantena. Questa presentazione dettagliata consente di esaminare in modo approfondito le prestazioni complessive e i risultati del processo di consegna degli SMS."
+>title="Statistiche di consegna degli SMS"
+>abstract="Il rapporto **Statistiche di consegna** fornisce informazioni complete sull’SMS inviato, offrendo un raggruppamento di varie metriche quali tassi di successo, occorrenze di errori e pubblico messo in quarantena. Questa presentazione dettagliata consente di esaminare in modo approfondito le prestazioni complessive e i risultati del processo di consegna degli SMS."
 
 Il **[!UICONTROL Statistiche consegna]** la tabella descrive il successo di ogni consegna SMS. Le metriche sono descritte di seguito.
 
@@ -91,8 +91,8 @@ Il **[!UICONTROL Statistiche consegna]** la tabella descrive il successo di ogni
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
->title="Cause di esclusione degli SMS"
->abstract="Il **Cause di esclusione** I grafici e le tabelle illustrano i diversi motivi che hanno impedito ai profili utente di ricevere i messaggi SMS."
+>title="Cause di esclusione SMS"
+>abstract="Il grafico e la tabella **Cause di esclusione** illustrano i diversi motivi che hanno impedito ai profili utente di ricevere i messaggi SMS."
 
 Il **[!UICONTROL Cause di esclusione]** Il grafico e la tabella mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere le consegne SMS.
 
@@ -105,7 +105,7 @@ I tipi di errore sono elencati in [Documentazione di Adobe Campaign v8 (console 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"
 >title="Velocità di consegna SMS"
->abstract="Il **Velocità effettiva di consegna** Questo rapporto fornisce informazioni approfondite sull’efficienza del sistema di consegna dei messaggi SMS, presentando una panoramica dettagliata dei tassi di successo e di errore in un arco temporale specificato."
+>abstract="Il rapporto **Velocità di consegna** fornisce informazioni approfondite ed esaurienti sull’efficienza del sistema di consegna dei messaggi SMS, presentando una panoramica dettagliata dei tassi di successo e di errore in un arco temporale specifico."
 
 ![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 

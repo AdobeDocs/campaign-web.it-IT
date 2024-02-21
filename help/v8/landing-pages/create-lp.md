@@ -5,7 +5,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 5%
+ht-degree: 24%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="Creare e gestire le pagine di destinazione"
->abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire l’acquisizione, l’abbonamento/annullamento dell’abbonamento e inserire nell&#39;elenco Bloccati casi d’uso, in base ai modelli incorporati."
+>title="Creare e gestire pagine di destinazione"
+>abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire l’acquisizione, l’iscrizione/annullamento dell’iscrizione e inserire nell’elenco Bloccati casi d’uso, in base ai modelli incorporati."
 
 L’interfaccia utente di Campaign Web consente di creare, progettare e pubblicare pagine di destinazione. Dopo la pubblicazione, puoi inserire un collegamento al modulo in una consegna. Dopo che i destinatari hanno fatto clic su tale collegamento, vengono indirizzati alla pagina di destinazione corrispondente.
 
@@ -45,17 +45,17 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="Definire le proprietà della pagina di destinazione"
->abstract="Compila i campi delle proprietà, ad esempio l’etichetta, e modifica lo schema, se necessario. Inoltre, puoi modificare il nome interno, cambiare la cartella in cui è memorizzata la pagina di destinazione e fornire una descrizione."
+>abstract="Compila i campi delle proprietà, ad esempio l’etichetta, e, se necessario, modifica lo schema. Inoltre, puoi modificare il nome interno, cambiare la cartella in cui è memorizzata la pagina di destinazione e fornire una descrizione."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Definire il contenuto di ogni pagina"
->abstract="Regola il contenuto di ogni pagina che fa parte di questa pagina di destinazione, ad esempio il modulo stesso, la pagina di conferma visualizzata al momento dell’invio del modulo oppure la pagina a cui gli utenti vengono indirizzati nel caso si verifichi un errore."
+>title="Definire il contenuto di ciascuna pagina"
+>abstract="Adatta il contenuto di ogni pagina appartenente a questa pagina di destinazione, ad esempio il modulo stesso, la pagina di conferma visualizzata al momento dell’invio del modulo oppure la pagina a cui gli utenti vengono indirizzati nel caso in cui si verifichi un errore."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Pianificare la pagina di destinazione"
->abstract="Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Al termine del periodo di validità della pagina, il modulo non è più disponibile. Il **Scade** viene invece visualizzata la pagina."
+>abstract="Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Al termine del periodo di validità della pagina, il modulo non è più disponibile. Viene invece visualizzata la pagina la pagina **Scadenza**."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -64,8 +64,8 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Impostare la pagina di destinazione dell’abbonamento"
->abstract="Una pagina di abbonamento consente ai clienti di abbonarsi a un servizio."
+>title="Impostare la pagina di destinazione dell&#39;iscrizione"
+>abstract="Una pagina di iscrizione consente ai clienti di iscriversi a un servizio."
 
 <!--The main steps to create landing pages are as follows:
 
@@ -123,7 +123,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
      >
      >Se non è definita alcuna data di inizio, la pagina di destinazione diventa attiva non appena viene pubblicata.
 
-   * Quando la pagina raggiunge la data di fine, <!--the landing page is automatically unpublished and -->modulo non più disponibile. Il **[!UICONTROL Scade]** viene invece visualizzata la pagina.
+   * Quando la pagina raggiunge la data di fine, <!--the landing page is automatically unpublished and -->modulo non più disponibile. Viene invece visualizzata la pagina la pagina **[!UICONTROL Scadenza]**.
 
      >[!NOTE]
      >
@@ -133,11 +133,11 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
 Una volta definite tutte le impostazioni e [progettato](lp-content.md) tutte le pagine, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione come descritto di seguito.
 
-## Verifica della pagina di destinazione {#test-landing-page}
+## Verificare la pagina di destinazione {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simulare la pagina di destinazione"
+>title="Simulare una pagina di destinazione"
 >abstract="Puoi visualizzare un’anteprima della pagina di destinazione nell’interfaccia utente di Campaign Web oppure aprirla in una nuova scheda del browser web."
 
 >[!CONTEXTUALHELP]

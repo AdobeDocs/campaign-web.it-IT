@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 10%
+ht-degree: 21%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Modelli di contenuto"
->abstract="Per accelerare e migliorare il processo di progettazione, puoi creare modelli e-mail autonomi per riutilizzare facilmente i contenuti personalizzati in Adobe Campaign. Questi modelli di contenuto possono essere progettati da zero, basati su modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto."
+>abstract="Per un processo di progettazione più rapido e migliore, puoi creare modelli e-mail indipendenti che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto."
 
-Per un processo di progettazione accelerato e migliorato, puoi creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Adobe Campaign]. Questi modelli di contenuto possono essere progettati da zero, basati su modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto.
+Per un processo di progettazione accelerato e migliorato, puoi creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Adobe Campaign]. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto.
 
 Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli utenti di marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail.
 
@@ -35,7 +35,7 @@ Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Modificare il contenuto del modello"
->abstract="Fai clic su **Modifica contenuto** per aggiornare il contenuto con E-mail Designer."
+>abstract="Fai clic sul pulsante **Modifica contenuto** per aggiornare il contenuto con E-mail Designer."
 
 Per accedere all&#39;elenco dei modelli di contenuto, passare alla **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** dalla barra a sinistra.
 
@@ -70,7 +70,7 @@ Una volta salvato, ora puoi utilizzare questo modello per crearne uno [email](..
 >
 >* Allo stesso modo, quando i modelli vengono utilizzati in un messaggio e-mail, eventuali modifiche apportate al contenuto dell’e-mail non influiscono sul modello di contenuto utilizzato in precedenza.
 
-### Crea un nuovo modello di contenuto {#create-template-from-scratch}
+### Creare un nuovo modello di contenuto {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"

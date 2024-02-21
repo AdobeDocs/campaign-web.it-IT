@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
 workflow-type: tm+mt
 source-wordcount: '1640'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -318,8 +318,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
->title="Cambia origine dati"
->abstract="Il **Cambia origine dati** attività ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
+>title="Modificare l’origine dati"
+>abstract="L’attività **Modifica l’origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
 
 <!--
@@ -359,15 +359,15 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Servizi di abbonamento"
+>title="Servizi di iscrizione"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parametri dei servizi di abbonamento"
+>title="Parametri dei servizi di iscrizione"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="Transizione in uscita dei servizi di abbonamento"
+>title="Transizione in uscita dei servizi di iscrizione"
 >abstract="TBC"

@@ -6,7 +6,7 @@ exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ L’attività del **Modulo di pianificazione** è un’attività di **Controllo 
 * Se desideri inviare una consegna unica nel flusso di lavoro, puoi aggiungere un’attività di pianificazione e impostarla per essere eseguita **una volta**. Puoi anche definire la **Pianificazione** nelle impostazioni della consegna.
 * Se desideri inviare una consegna ricorrente nel flusso di lavoro, devi utilizzare un’attività del **Modulo di pianificazione** e impostare la frequenza di esecuzione. L’attività di consegna ricorrente non ti consente di definire una pianificazione.
 
-## Configurare l’attività Scheduler {#scheduler-configuration}
+## Configurare l’attività di pianificazione {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 58%
+ht-degree: 72%
 
 ---
 
@@ -91,14 +91,14 @@ Ora puoi:
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
->title="Seleziona il modello di consegna delle sottoscrizioni"
->abstract="Per inviare messaggi di conferma agli utenti abbonati al servizio, devi selezionare un modello di consegna specifico in base al **[!UICONTROL Iscrizioni]** mappatura del target, senza un target definito."
+>title="Selezionare il modello di consegna delle iscrizioni"
+>abstract="Per inviare messaggi di conferma agli utenti che si iscrivono al servizio, devi selezionare un modello di consegna specifico con mappatura target **[!UICONTROL Iscrizioni]**, senza un target definito."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
->title="Seleziona il modello di consegna per annullare l’abbonamento"
->abstract="Per inviare messaggi di conferma agli utenti che annullano l’abbonamento al servizio, devi selezionare un modello di consegna specifico in base al **[!UICONTROL Iscrizioni]** mappatura del target, senza un target definito."
+>title="Selezionare il modello di consegna per annullare le iscrizioni"
+>abstract="Per inviare messaggi di conferma agli utenti che annullano l’iscrizione al servizio, devi selezionare un modello di consegna specifico con mappatura target **[!UICONTROL Iscrizioni]**, senza un target definito."
 
 Per inviare messaggi di conferma agli utenti che si iscrivono o annullano l’iscrizione al servizio, devi creare un modello di consegna con mappatura target **[!UICONTROL Iscrizioni]**, senza un target definito. A questo scopo, segui i passaggi riportati qui sotto:
 
@@ -129,17 +129,17 @@ Ora puoi selezionare questi messaggi durante la [creazione di un servizio di isc
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Numero totale di iscritti"
->abstract="Clic **Calcola** ottenere il numero totale di abbonati a questo servizio."
+>abstract="Fai clic su **Calcola** per ottenere il numero totale di iscritti a questo servizio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="Numero di abbonamenti per il periodo"
->abstract="Utilizza l’elenco a discesa per modificare l’intervallo di tempo e visualizzare il numero di abbonamenti e annullamenti di abbonamenti nel periodo selezionato."
+>title="Numero di iscritti per il periodo"
+>abstract="Utilizza l’elenco a discesa per modificare l’intervallo di tempo e visualizzare il numero di iscrizioni e annullamenti di iscrizione nel periodo selezionato."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evoluzione complessiva delle iscrizioni"
->abstract="Questo grafico mostra la suddivisione per periodo, compresi gli abbonamenti, gli annullamenti degli abbonamenti, l’evoluzione dei numeri e la percentuale di fedeltà."
+>abstract="Il grafico mostra il raggruppamento per periodo, inclusi iscrizioni, annullamenti di iscrizione, evoluzione in termini numerici e percentuale di fedeltà."
 
 Per misurare l’efficacia dei servizi di iscrizione per i canali SMS e E-mail, puoi accedere ai registri e ai rapporti per un determinato servizio.
 

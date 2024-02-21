@@ -10,7 +10,7 @@ keywords: destinazione, pagina di destinazione, caso d’uso
 source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
 source-wordcount: '1309'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
->title="Copia URL con cautela"
->abstract="Per testare o sfruttare appieno la pagina di destinazione, non puoi copiare e incollare questo collegamento direttamente in un browser web o nelle consegne. Invece, utilizza **Simula contenuto** per testarlo e seguire i passaggi descritti nella documentazione per utilizzare correttamente la pagina di destinazione."
+>title="Copiare l’URL con attenzione"
+>abstract="Per testare o sfruttare appieno la pagina di destinazione, non puoi copiare e incollare questo collegamento direttamente in un browser web o nelle consegne. Piuttosto, utilizza la funzione **Simula contenuto** per testarla e segui i passaggi descritti nella documentazione per utilizzare correttamente la pagina di destinazione."
 
 Per utilizzare correttamente la pagina di destinazione, utilizza l’opzione dedicata per farvi riferimento come collegamento all’interno di una consegna.
 

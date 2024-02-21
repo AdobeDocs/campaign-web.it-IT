@@ -6,7 +6,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 10%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Pagine di destinazione"
->abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire casi di utilizzo di acquisizione, abbonamento/annullamento dell’abbonamento e inserire nell&#39;elenco Bloccati l’accesso, in base ai modelli incorporati."
+>abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire casi d’uso di acquisizione, iscrizione/annullamento dell’iscrizione e inserire nell&#39;elenco Bloccati, in base ai modelli incorporati."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
 
 [!DNL Adobe Campaign] consente di creare, progettare e condividere pagine di destinazione.

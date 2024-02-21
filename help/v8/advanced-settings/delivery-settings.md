@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 56%
+ht-degree: 61%
 
 ---
 
@@ -60,7 +60,7 @@ Le tipologie consentono di assicurarsi che le e-mail contengano sempre alcuni el
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Peso consegna"
->abstract="Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
+>abstract="Il peso delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità."
 
 In questa sezione, i parametri di pressione consentono di definire un **soglia** per impostare le regole di gestione dell’affaticamento, che è il numero massimo di messaggi che possono essere inviati a un profilo in un determinato periodo di tempo.
 
@@ -91,7 +91,7 @@ Utilizza il campo **[!UICONTROL Modalità di consegna]** per selezionare la moda
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Impostazioni della capacità per la consegna"
->abstract="Prima di consegnare i messaggi, utilizza le regole di capacità per assicurarti che la tua organizzazione possa elaborare la consegna, i messaggi in entrata che la consegna può generare e il numero di chiamate da effettuare, ad esempio, per contattare chi possiede un abbonamento. Le regole di capacità sono definite nella console di Adobe Campaign v8. In questa schermata, seleziona una regola associata al canale e-mail."
+>abstract="Prima di consegnare i messaggi, utilizza le regole di capacità per assicurarti che la tua organizzazione possa elaborare la consegna, i messaggi in entrata che la consegna può generare e il numero di chiamate da effettuare, ad esempio, per contattare chi possiede un abbonamento. Le regole di capacità sono definite nella console Adobe Campaign v8. In questa schermata, seleziona una regola associata al canale e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -125,7 +125,7 @@ In **[!UICONTROL Esclusione]** , puoi selezionare di escludere i destinatari che
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Impostazioni per la consegna"
->abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. Puoi modificare le modalità di consegna e di routine, attivare e-mail in Ccn, inviare via ondata e scegliere anche il formato dei messaggi e-mail inviati. Queste opzioni sono disponibili solo per utenti esperti."
+>abstract="I parametri di consegna sono impostazioni tecniche applicabili alla consegna. Puoi modificare le modalità di consegna e di routine, attivare Ccn per le e-mail, inviare usando scaglioni e scegliere anche il formato dei messaggi e-mail inviati. Queste opzioni sono disponibili solo per utenti esperti."
 
 **[!UICONTROL Consegna]** I parametri sono impostazioni tecniche che si applicano alla consegna.
 
@@ -220,12 +220,12 @@ Puoi selezionare un’altra modalità di approvazione nel campo appropriato. Le 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Validità delle impostazioni"
->abstract="Il campo **Durata consegna** consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità.<br>Il **Limite validità risorse** viene utilizzato per le risorse caricate, ad esempio per la pagina speculare o per le immagini. Una volta raggiunto il limite, le risorse non sono più disponibili."
+>abstract="Il campo **Durata consegna** consente di specificare il limite per i nuovi tentativi di consegna globali. Questo significa che Adobe Campaign invia i messaggi a partire dalla data di inizio e quindi, per i messaggi che restituiscono un errore, vengono eseguiti nuovi tentativi regolari e configurabili fino al raggiungimento del limite di validità.<br>Il campo **Limite di validità delle risorse** viene utilizzato per le risorse caricate, come la pagina mirror o le immagini. Una volta raggiunto il limite, le risorse non sono più disponibili."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Limite di validità delle risorse"
->abstract="Il **Limite validità risorse** viene utilizzato per le risorse caricate, ad esempio la pagina speculare o le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
+>abstract="Il campo **Limite di validità delle risorse** viene utilizzato per le risorse caricate, come la pagina mirror e le immagini. Queste risorse sono valide per un periodo di tempo limitato: una volta raggiunto il limite, non sono più disponibili."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -284,7 +284,7 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 
 **[!UICONTROL URL sostitutivo per URL scaduti]**: utilizza questa opzione per immettere un URL per una pagina web di fallback: viene visualizzata alla scadenza del tracciamento.
 
-## Impostazioni bozza {#test-setttings}
+## Impostazioni di bozza {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
