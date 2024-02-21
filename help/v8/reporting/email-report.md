@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 98%
+source-wordcount: '2329'
+ht-degree: 94%
 
 ---
 
@@ -30,12 +30,11 @@ Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifi
 
 Il grafico **[!UICONTROL Popolazione target iniziale]** mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 Passa il puntatore del mouse su una parte del grafico per visualizzare il numero esatto.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
 
@@ -48,16 +47,14 @@ Passa il puntatore del mouse su una parte del grafico per visualizzare il numero
 
 ### Statistiche consegna {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Statistiche consegna"
 >abstract="Il grafico **Statistiche consegna** descrive il successo della consegna e gli errori che si sono verificati."
 
-
 Il grafico **[!UICONTROL Statistiche consegna]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
 
@@ -147,7 +144,12 @@ La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponib
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Raggruppamento degli errori per tipo"
->abstract="La tabella e il grafico **Raggruppamento degli errori per tipo** contengono i dati disponibili per ogni tipo di errore riscontrato: utente sconosciuto, cassetta postale piena, dominio non valido e altro ancora."
+>abstract="Il **Raggruppamento degli errori per tipo** il grafico contiene i dati disponibili per ogni tipo di errore rilevato: utente sconosciuto, cassetta postale piena, dominio non valido e altro ancora."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Raggruppamento degli errori per tipo"
+>abstract="Il **Raggruppamento degli errori per tipo** La tabella fornisce una suddivisione completa dell’occorrenza di ciascun tipo di errore."
 
 La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per tipo]** contengono i dati disponibili per ciascun tipo di errore riscontrato. Le metriche sono descritte di seguito.
 
@@ -173,15 +175,17 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 
 +++
 
-
 ### Raggruppamento degli errori per dominio {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Raggruppamento degli errori per dominio"
->abstract="La tabella e il grafico **Raggruppamento degli errori per dominio** contengono i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
+>abstract="Il **Raggruppamento degli errori per dominio** in grafo vengono visualizzati i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Raggruppamento degli errori per dominio"
+>abstract="Il **Raggruppamento degli errori per dominio** La tabella fornisce una suddivisione completa dell’occorrenza di ogni errore in base al dominio utilizzato."
 
 La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
