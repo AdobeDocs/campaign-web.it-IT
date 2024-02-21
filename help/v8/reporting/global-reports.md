@@ -3,16 +3,18 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 32%
+source-wordcount: '244'
+ht-degree: 28%
 
 ---
 
 # Introduzione ai rapporti globali {#global-report-gs}
 
 I **Rapporti globali** sono un valido strumento e offrono un riepilogo consolidato complessivo delle metriche di traffico e coinvolgimento per ogni canale all’interno di un’istanza Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna.
+
+Gli indicatori prestazioni chiave (KPI, Key Performance Indicators) vengono aggiornati ogni ora, garantendo informazioni aggiornate. Per impostazione predefinita, i dati vengono filtrati in modo da coprire gli ultimi 30 giorni, offrendo una prospettiva corrente e rilevante sulle prestazioni delle campagne e delle consegne.
 
 L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 
