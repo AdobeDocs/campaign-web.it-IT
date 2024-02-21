@@ -3,10 +3,10 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 57%
+source-wordcount: '928'
+ht-degree: 55%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 57%
 Campaign Web consente di creare nuovi tipi di pubblico in un’area di lavoro visiva per i flussi di lavoro. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Ad esempio, puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte
 
 Dopo aver creato il flusso di lavoro, i tipi di pubblico risultanti vengono automaticamente memorizzati nel database di Campaign insieme a quelli esistenti. Questi tipi di pubblico possono quindi essere utilizzati come target nei flussi di lavoro o nelle consegne autonome.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Creare il primo pubblico {#create}
 
@@ -104,3 +106,9 @@ Per impostazione predefinita, l’esecuzione ripetuta di un flusso di lavoro per
 Se preferisci non sostituire i risultati del pubblico esistenti, configura il **Salva pubblico** attività per allinearle alle tue esigenze. Ad esempio, puoi modificare il **Etichetta del pubblico** per memorizzare i nuovi risultati in un nuovo pubblico o aggiungere i nuovi risultati al contenuto del pubblico esistente senza cancellare i dati precedenti. [Scopri come configurare un’attività Save audience](../workflows/activities/save-audience.md)
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
+
+## Video tutorial {#video}
+
+Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

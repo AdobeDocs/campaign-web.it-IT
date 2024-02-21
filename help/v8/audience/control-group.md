@@ -3,16 +3,18 @@ audience: end-user
 title: Impostare un gruppo di controllo
 description: Scopri come impostare un gruppo di controllo per i messaggi nell’interfaccia utente web di Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 94%
+source-wordcount: '803'
+ht-degree: 93%
 
 ---
 
 # Impostare un gruppo di controllo {#control-group}
 
 Un gruppo di controllo è una sottopopolazione esclusa dalla consegna. Puoi definire un gruppo di controllo per evitare di inviare messaggi a una parte del pubblico e confrontare il comportamento successivo alla consegna rispetto al target principale. Questa opzione consente di misurare l’impatto della campagna.
+
+➡️ [Scopri questa funzione nel video](create-audience.md#video)
 
 ## Abilita gruppo di controllo{#add-a-control-group}
 
@@ -122,5 +124,3 @@ I profili inclusi nel pubblico o che corrispondono al risultato della query sono
 Una volta inviata la consegna, puoi estrarre i registri di invio per confrontare il comportamento tra i profili che non hanno ricevuto la comunicazione e il target effettivo. Puoi anche utilizzare i registri di consegna per creare un nuovo targeting.
 
 Per vedere quali profili sono stati rimossi dal target, controlla i **Registri di consegna**. Per ulteriori informazioni, consulta [questa sezione](#check-control-group).
-
-
