@@ -3,21 +3,26 @@ audience: end-user
 title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 75%
+source-wordcount: '1025'
+ht-degree: 69%
 
 ---
 
 
 # Configurare le impostazioni del flusso di lavoro {#workflow-settings}
 
-Durante l’orchestrazione delle attività del flusso di lavoro nell’area di lavoro, puoi accedere alle impostazioni avanzate relative al flusso di lavoro. Ad esempio, puoi impostare un fuso orario specifico per il flusso di lavoro, gestirne il comportamento in caso di errore oppure gestire il ritardo dopo il quale la cronologia del flusso di lavoro deve essere eliminata.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Proprietà del flusso di lavoro"
+>abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi **Opzioni aggiuntive** per configurare altre impostazioni, ad esempio il nome interno del flusso di lavoro, la cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+
+Durante la creazione di un flusso di lavoro o l’orchestrazione delle attività del flusso di lavoro nell’area di lavoro, puoi accedere alle impostazioni avanzate relative al flusso di lavoro. Ad esempio, puoi impostare un fuso orario specifico per il flusso di lavoro, gestirne il comportamento in caso di errore oppure gestire il ritardo dopo il quale la cronologia del flusso di lavoro deve essere eliminata.
 
 Queste impostazioni sono preconfigurate nel modello selezionato durante la creazione del flusso di lavoro, ma possono essere modificate in base alle esigenze per il flusso di lavoro specifico.
 
-A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni]** disponibile 
 >title="Proprietà del flusso di lavoro"
 >abstract="In questa sezione sono illustrate le proprietà generiche del flusso di lavoro accessibili anche durante la relativa creazione. Puoi scegliere il modello da utilizzare per creare il flusso di lavoro e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione del flusso di lavoro o il fuso orario."
 
-La sezione **[!UICONTROL Proprietà]** offre impostazioni generiche accessibili anche durante la creazione del flusso di lavoro.
+Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche che possono essere configurate durante la creazione di un flusso di lavoro. Per accedere alle proprietà di un flusso di lavoro esistente, fai clic su **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
