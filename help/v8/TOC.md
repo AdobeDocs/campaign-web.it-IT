@@ -1,21 +1,21 @@
 ---
 audience: end-user
 user-guide-title: Interfaccia utente di Adobe Campaign Web
-user-guide-description: Documentazione del prodotto per l’interfaccia utente di Adobe Campaign Web.
+user-guide-description: Documentazione del prodotto dell’interfaccia utente di Adobe Campaign Web.
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Documentazione di Adobe Campaign Web {#v8}
 
-+ [Documentazione sull’interfaccia utente web di Adobe Campaign](campaign-web-home.md)
++ [Documentazione dell’interfaccia utente di Adobe Campaign Web](campaign-web-home.md)
 + [Novità](rn/whats-new.md)
 + [Aggiornamenti della documentazione](rn/documentation-updates.md)
 + Introduzione ad Adobe Campaign {#start}
@@ -25,7 +25,7 @@ ht-degree: 93%
    + [Sfogliare e filtrare gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Accesso e autorizzazioni](get-started/permissions.md)
-   + [Console client Campaign Web e Campaign](get-started/capability-matrix.md)
+   + [Console client di Campaign Web e Campaign](get-started/capability-matrix.md)
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
@@ -91,9 +91,9 @@ ht-degree: 93%
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
    + [Progettare il contenuto della pagina di destinazione](landing-pages/lp-content.md)
    + [Lavorare con i modelli di pagine di destinazione](landing-pages/lp-templates.md)
-   + [Scopri i casi d’uso](landing-pages/lp-use-cases.md)
+   + [Apprendere attraverso i casi d’uso](landing-pages/lp-use-cases.md)
 + Profili e pubblico {#audiences}
-   + [Guida introduttiva a profili e tipi di pubblico](audience/gs-audiences-recipients.md)
+   + [Guida introduttiva ai profili e ai tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
    + Utilizzare i profili {#work-with-profiles}
       + [Introduzione ai profili](audience/about-recipients.md)

@@ -5,33 +5,33 @@ exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 19%
+ht-degree: 93%
 
 ---
 
 # Guardrail e limitazioni per i flussi di lavoro {#guardrails-limitations}
 
-Quando si lavora nell’interfaccia utente di Campaign Web con flussi di lavoro creati o modificati nella console client di Campaign, si applicano le protezioni e le limitazioni elencate di seguito.
+Durante l’utilizzo deli flussi di lavoro creati o modificati nella console client di Campaign nell’interfaccia utente di Campaign Web, si applicano i guardrail e le limitazioni elencate di seguito.
 
 Tieni presente che, anche se questa pagina identifica considerazioni chiave quando si lavora con i flussi di lavoro nella console e nell’interfaccia utente web, non include tutte le potenziali incompatibilità tra le due interfacce.
 
-## Attività dei flussi di lavoro {#wkf-activities}
+## Attività del flussi di lavoro {#wkf-activities}
 
-Le attività del flusso di lavoro non ancora supportate nel web di Campaign sono di sola lettura e vengono visualizzate come attività incompatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro disponibili sia nel web di Campaign che nella console client sono modificabili.
+Le attività del flusso di lavoro non ancora supportate in Campaign Web sono di sola lettura e vengono visualizzate come attività non compatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro che sono disponibili sia in Campaign Web che nella console client sono modificabili.
 
-Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente di Campaign Web sono di sola lettura e vengono visualizzate come attività incompatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro disponibili sia nell’interfaccia utente di Campaign Web che nella console client di Campaign sono modificabili.
+Le attività del flusso di lavoro non ancora supportate nell’interfaccia utente di Campaign Web sono di sola lettura e vengono visualizzate come attività non compatibili. Puoi eseguire comunque il flusso di lavoro, inviare messaggi, verificare i registri e così via. Le attività del flusso di lavoro che sono disponibili sia nell’interfaccia utente di Campaign Web che nella console client di Campaign sono modificabili.
 
 | Console | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
-Quando un **Query** o un **Arricchimento** L’attività è configurata con dati aggiuntivi nella console; i dati di arricchimento vengono presi in considerazione in Campaign Web e trasmessi nella transizione in uscita, ma non possono essere modificati.
+Quando un’attività di **Query** o **Arricchimento** è configurata con dati aggiuntivi nella console; i dati di arricchimento vengono presi in considerazione in Campaign Web e trasmessi nella transizione in uscita, ma non possono essere modificati.
 
 | Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
-Nella console, l’attività di **arricchimento** può eseguire sia la riconciliazione che l’arricchimento. Se hai definito, nella console client, le impostazioni di riconciliazione in **Arricchimento** attività, verrà visualizzato come **Reconciliation** attività nell’interfaccia utente di Campaign Web.
+Nella console, l’attività di **arricchimento** può eseguire sia la riconciliazione che l’arricchimento. Se hai definito le impostazioni di riconciliazione nell’attività di **arricchimento** nella console client, questa verrà visualizzata come attività di **riconciliazione** nell’interfaccia utente di Campaign Web.
 
 | Console | Web |
 | --- | --- |
@@ -39,7 +39,7 @@ Nella console, l’attività di **arricchimento** può eseguire sia la riconcili
 
 ## Area di lavoro del flusso di lavoro {#wkf-canvas}
 
-Quando si crea un nuovo flusso di lavoro nell’interfaccia utente di Campaign Web, l’area di lavoro supporta un solo punto di ingresso. Tuttavia, se hai creato un flusso di lavoro nella console con più punti di ingresso, puoi aprirlo e modificarlo nell’interfaccia utente di Campaign Web.
+Quando crei un nuovo flusso di lavoro nell’interfaccia utente di Campaign Web, l’area di lavoro supporta un solo punto di ingresso. Tuttavia, se hai creato un flusso di lavoro nella console con più punti di ingresso, puoi aprirlo e modificarlo nell’interfaccia utente di Campaign Web.
 
 | Console | Web |
 | --- | --- |

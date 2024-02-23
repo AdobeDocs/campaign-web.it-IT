@@ -6,11 +6,11 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
-# Documentazione sull’interfaccia utente web di Adobe Campaign {#campaign-documentation}
+# Documentazione dell’interfaccia utente di Adobe Campaign Web {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"

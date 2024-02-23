@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ Nella sezione GESTIONE DELLE DECISIONI, puoi visualizzare le offerte e i modelli
 
 Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa sezione](../msg/offers.md).
 
-### Reporting {#left-nav-reporting}
+### Reportistica {#left-nav-reporting}
 
 * **Rapporti**: la voce **Rapporto** offre un riepilogo complessivo consolidato del traffico e delle metriche di coinvolgimento per ciascun canale all’interno dell’ambiente di Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna. Per ulteriori informazioni, consulta [questa sezione](../reporting/global-reports.md).
 
@@ -120,7 +120,7 @@ Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, 
 
 ![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
-Attualmente rilasciata come versione beta all’interno della nuova interfaccia utente web di Campaign, la **Knowledge Assistant con tecnologia AI** l’aiuto contestuale incorporato rivoluziona la ricerca della documentazione e le risposte alle domande semplificando il setacciamento di ampi archivi di documentazione, con l’individuazione immediata e precisa delle informazioni necessarie.
+Attualmente rilasciato come nuova versione beta all’interno della nuova interfaccia utente di Campaign Web, il **Knowledge Assistant con Generazione basata sull’intelligenza artificiale**, incorporato nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure, esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
 
 Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, il Knowledge Assistant con Generazione basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Modificare l’origine dati"
->abstract="L’attività **Modifica l’origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
+>abstract="L’attività **Cambia origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
 
 <!--
@@ -359,17 +359,17 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Servizi di iscrizione"
+>title="Servizi di abbonamento"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parametri dei servizi di iscrizione"
+>title="Parametri dei servizi di abbonamento"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="Transizione in uscita dei servizi di iscrizione"
+>title="Transizione in uscita dei servizi di abbonamento"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

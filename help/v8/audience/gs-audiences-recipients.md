@@ -5,13 +5,13 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
-# Guida introduttiva a profili e tipi di pubblico {#about-profiles}
+# Guida introduttiva ai profili e ai tipi di pubblico {#about-profiles}
 
-In Adobe Campaign Web, una **profilo** è un record memorizzato nel database che funge da componente chiave per creare tipi di pubblico per le consegne e aggiungere dati di personalizzazione al contenuto. Nel database sono memorizzati vari tipi di profili, ad esempio **Profili di test**, progettati per testare le consegne prima che vengano inviate al pubblico finale.
+In Adobe Campaign Web, un **profilo** è un record memorizzato nel database, che funge da componente chiave per creare tipi di pubblico per le consegne e aggiungere dati di personalizzazione al contenuto. Nel database sono memorizzati vari tipi di profili, ad esempio **Profili di test**, progettati per testare le consegne prima che vengano inviate al pubblico finale.
 
 I **tipi di pubblico** sono set di profili che condividono comportamenti e/o caratteristiche simili. Questa raccolta di persone può essere generata, selezionata o caricata. Una volta creati, i tipi di pubblico possono essere utilizzati come popolazione target delle consegne.
 
