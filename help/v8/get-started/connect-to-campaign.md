@@ -3,9 +3,9 @@ title: Connessione all’interfaccia di Adobe Campaign Web
 description: Scopri come connetterti all’interfaccia utente di Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per
 
 ## Accesso ad Adobe Experience Cloud {#sign-in-to-exc}
 
-Per connettersi a Campaign, è possibile utilizzare solo Single Sign-On (SSO). In genere, sono gli amministratori di Experience Cloud a concedere l’accesso alle applicazioni e ai servizi. Segui i passaggi contenuti nell’e-mail di invito ad Experience Cloud.
+Puoi anche utilizzare il Single Sign-On (SSO) per connetterti a Campaign. In genere, sono gli amministratori di Experience Cloud a concedere l’accesso alle applicazioni e ai servizi. Segui i passaggi contenuti nell’e-mail di invito ad Experience Cloud.
 
 Per accedere ad Adobe Experience Cloud, i passaggi di base sono:
 
@@ -42,7 +42,7 @@ Se sei già connesso a un’altra soluzione Adobe Experience Cloud, puoi anche p
 
 ![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
-Se hai accesso a più ambienti, incluso il Pannello di controllo di Campaign, fai clic sul pulsante **Avvia** per l&#39;istanza corretta.
+Se hai accesso a più ambienti, incluso il Pannello di controllo di Campaign, fai clic sul pulsante **Avvia** per l’istanza corretta.
 
 ![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
@@ -52,7 +52,7 @@ Viene così impostata la connessione a Campaign. Per informazioni su come inizia
 
 Sfoglia la barra superiore dell’interfaccia per:
 
-* invia feedback sull’interfaccia utente di Campaign Web
+* condividere feedback sull’interfaccia utente di Campaign Web
 * passare da un’organizzazione all’altra
 * passare a un’altra soluzione e alle app di Adobe Experience Cloud
 * cercare aiuto su [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=it){target="_blank"}

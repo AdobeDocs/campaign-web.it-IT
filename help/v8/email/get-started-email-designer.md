@@ -4,9 +4,9 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come iniziare a creare i contenuti utilizzando E-mail designer nell’interfaccia utente di Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

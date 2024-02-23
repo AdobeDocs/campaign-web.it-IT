@@ -3,9 +3,9 @@ title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Gestione dei filtri preimpostati"
->abstract="L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
+>abstract="L’interfaccia utente di Campaign Web ora offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati per soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
 
 <!--TO REMOVE BELOW-->
@@ -29,7 +29,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtri preimpostati"
->abstract="L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati, al fine di soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
+>abstract="L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per gestire e personalizzare filtri preimpostati per soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro."
 
 I filtri preimpostati sono filtri personalizzati che vengono creati e salvati per essere disponibili per un utilizzo futuro. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro insieme al query modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna.
 
@@ -104,17 +104,17 @@ Quando viene salvato un filtro come preferito, è disponibile per tutti gli uten
 
 I filtri preimpostati sono disponibili quando si definiscono le proprietà delle regole. Per accedere ai filtri preimpostati, scegli l’opzione **Seleziona filtro personalizzato** nel menu a discesa del query modeler.
 
-Puoi quindi accedere all’elenco completo dei filtri predefiniti disponibili per il contesto corrente e utilizzare i collegamenti disponibili nel **Filtri preferiti** del menu a discesa. Per ulteriori informazioni sui preferiti, consulta [questa sezione](#fav-filter).
+Puoi quindi accedere all’elenco completo dei filtri predefiniti disponibili per il contesto corrente e utilizzare i collegamenti disponibili nella sezione **Filtri preferiti** del menu a discesa. Per ulteriori informazioni sui preferiti, consulta [questa sezione](#fav-filter).
 
 Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passaggi:
 
-1. Accedi a **Tipi di pubblico** nel menu a sinistra e fare clic su **Crea pubblico** nell’angolo superiore sinistro dell’elenco dei tipi di pubblico.
+1. Accedi a **Tipi di pubblico** nel menu a sinistra e fai clic sul pulsante **Crea pubblico** nell’angolo in alto a sinistra dell’elenco dei tipi di pubblico.
 1. Immetti il nome del pubblico e fai clic su **Crea pubblico**.
-1. Seleziona la **Query** e, nel riquadro di destra, fare clic sul pulsante **Creare un pubblico** pulsante.
+1. Seleziona l’attività **Query** e, nel riquadro di destra, fai clic sul pulsante **Crea pubblico**.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Dalla sezione **Seleziona o salva il filtro** , scegliere il pulsante **Seleziona filtro personalizzato** opzione.
+1. Dal pulsante **Seleziona o salva filtro**, scegli l’opzione **Seleziona filtro personalizzato**.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -132,17 +132,17 @@ Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passa
 
 ## Gestire i filtri preimpostati {#manage-predefined-filter}
 
-Tutti i filtri predefiniti sono raggruppati nella voce dedicata del menu di navigazione a sinistra.
+Tutti i filtri preimpostati sono raggruppati nella voce dedicata del menu di navigazione a sinistra.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
 Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza ed eseguire le azioni elencate di seguito:
 
-* Modifica un filtro esistente, modificane regole e proprietà.
-* Duplica un filtro predefinito.
-* Elimina un filtro predefinito.
+* modificare un filtro esistente comprese regole e proprietà;
+* duplicare un filtro preimpostato;
+* eliminare un filtro preimpostato.
 
-Puoi anche aggiungere un filtro predefinito come preferito per un accesso rapido durante la creazione dei tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
+Puoi aggiungere un filtro preimpostato come preferito per accedervi rapidamente durante la creazione dei tipi di pubblico. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
