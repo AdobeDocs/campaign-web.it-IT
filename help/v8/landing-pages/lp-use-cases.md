@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 5%
+source-wordcount: '1381'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 5%
 >title="Copiare l’URL con attenzione"
 >abstract="Per testare o sfruttare appieno la pagina di destinazione, non puoi copiare e incollare questo collegamento direttamente in un browser web o nelle consegne. Piuttosto, utilizza la funzione **Simula contenuto** per testarla e segui i passaggi descritti nella documentazione per utilizzare correttamente la pagina di destinazione."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="Copiare l’URL con attenzione"
+>abstract="Durante la creazione di una pagina di destinazione, quattro modelli predefiniti ti consentono di implementare diversi casi d’uso: aggiungere o aggiornare un profilo al database di Campaign, abbonare i clienti a un servizio, annullare l’abbonamento a un servizio o rinunciare agli utenti."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Creare una pagina di destinazione"
+
 Per utilizzare correttamente la pagina di destinazione, utilizza l’opzione dedicata per farvi riferimento come collegamento all’interno di una consegna.
 
 >[!CAUTION]
 >
->Per sfruttare appieno la pagina di destinazione, non puoi copiare e incollare il collegamento visualizzato nel dashboard di consegna pubblicato direttamente nelle consegne o in una pagina web.
+>Per sfruttare appieno la pagina di destinazione, non puoi copiare e incollare il collegamento visualizzato nel dashboard di consegna pubblicato direttamente nelle consegne o in una pagina web. Scopri come farlo correttamente in questa sezione.
 
 In [!DNL Adobe Campaign Web] quattro modelli predefiniti consentono di implementare diversi casi d’uso. Tuttavia, le fasi principali rimangono le stesse e sono descritte di seguito.
 
@@ -105,6 +111,11 @@ Se hanno acconsentito alla ricezione della newsletter, saranno abbonati al servi
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Abbonamento a un servizio {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Impostare la pagina di destinazione dell&#39;iscrizione"
+>abstract="Una pagina di iscrizione consente ai clienti di iscriversi a un servizio."
 
 Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonarsi a un servizio](../audience/manage-services.md) (ad esempio una newsletter o un evento) tramite una pagina di destinazione. Segui i passaggi seguenti.
 

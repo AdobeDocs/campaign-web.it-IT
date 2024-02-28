@@ -2,10 +2,10 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 24%
+source-wordcount: '1376'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 L’interfaccia utente di Campaign Web consente di creare, progettare e pubblicare pagine di destinazione. Dopo la pubblicazione, puoi inserire un collegamento al modulo in una consegna. Dopo che i destinatari hanno fatto clic su tale collegamento, vengono indirizzati alla pagina di destinazione corrispondente.
 
-[!DNL Adobe Campaign] viene fornito con quattro modelli per gestire i seguenti casi d’uso: **acquisizione**, **abbonamento**, **annullamento iscrizione**, e **inserisco nell&#39;elenco Bloccati**.
+[!DNL Adobe Campaign] viene fornito con quattro modelli per gestire i seguenti casi d’uso: **acquisizione**, **abbonamento**, **annullamento iscrizione**, e **inserisco nell&#39;elenco Bloccati**. [Ulteriori informazioni](lp-use-cases.md)
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -34,7 +34,7 @@ Il **[!UICONTROL Pagine di destinazione]** inventory visualizza tutti gli artico
 
 >[!CAUTION]
 >
->Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client (moduli web) nell’interfaccia utente di Campaign Web. Per ulteriori informazioni, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client (moduli web) nell’interfaccia utente di Campaign Web. Per ulteriori informazioni, consulta [Documentazione della console di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=it){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -58,14 +58,14 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >abstract="Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Al termine del periodo di validità della pagina, il modulo non è più disponibile. Viene invece visualizzata la pagina la pagina **Scadenza**."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Definire le impostazioni della pagina principale"
->abstract="La pagina principale viene visualizzata immediatamente dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
+>id="acw_landingpages_preload"
+>title="Definire le opzioni di precaricamento"
+>abstract="Quando **Precompilare con i dati a cui si fa riferimento nel modulo** se l’opzione è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con il **Salta il precaricamento se non è presente alcun ID** opzione selezionata, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Impostare la pagina di destinazione dell&#39;iscrizione"
->abstract="Una pagina di iscrizione consente ai clienti di iscriversi a un servizio."
+>id="acw_landingpages_storage"
+>title="Definire le opzioni di archiviazione"
+>abstract="La sezione di precaricamento consente di indicare come trovare il record da aggiornare nel database."
 
 <!--The main steps to create landing pages are as follows:
 
