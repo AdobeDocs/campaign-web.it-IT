@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -36,7 +36,6 @@ Queste attività sono specifiche per il targeting, la gestione e l’arricchimen
 * Utilizza il [Deduplicazione](deduplication.md) attività per eliminare i duplicati nei risultati delle attività in entrata.
 * Utilizza il [Cambia dimensione](change-dimension.md) attività per modificare la dimensione di targeting durante la creazione del flusso di lavoro.
 * Utilizza il [Carica file](load-file.md) per lavorare con profili e dati memorizzati in un file esterno.
-
 
 ## Attività di canale {#channel}
 

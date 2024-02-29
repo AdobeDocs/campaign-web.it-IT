@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 37%
+source-wordcount: '376'
+ht-degree: 41%
 
 ---
 
@@ -54,14 +54,23 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="File di destinazione per l&#39;attività di caricamento file"
->abstract="File di destinazione per l&#39;attività di caricamento file"
+>title="File target per l’attività di caricamento file"
+>abstract="File target per l’attività di caricamento file"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
->title="Nuova mappatura dei valori per l’attività Load file"
->abstract="Nuova mappatura dei valori per l’attività Load file"
+>title="Rimappatura del valore per l’attività di caricamento file"
+>abstract="Rimappatura del valore per l’attività di caricamento file"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Comando Load File"
+>abstract="Consentire un comando arbitrario per la pre-elaborazione è un problema di sicurezza, disabilita l’opzione di sicurezza XtkSecurity_Disable_Preproc per forzare l’uso di un elenco predefinito di comandi."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Elimina file dopo l’importazione"
+>abstract="TBC"
 
 L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
 
