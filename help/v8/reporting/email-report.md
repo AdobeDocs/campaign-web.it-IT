@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -144,12 +144,12 @@ La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponib
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Raggruppamento degli errori per tipo"
->abstract="Il **Raggruppamento degli errori per tipo** il grafico contiene i dati disponibili per ogni tipo di errore rilevato: utente sconosciuto, cassetta postale piena, dominio non valido e altro ancora."
+>abstract="Il grafico **Raggruppamento di errori per tipo** riporta i dati disponibili per ciascun tipo di errore riscontrato: utente sconosciuto, cassetta postale piena, dominio non valido e altri ancora."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Raggruppamento degli errori per tipo"
->abstract="Il **Raggruppamento degli errori per tipo** La tabella fornisce una suddivisione completa dell’occorrenza di ciascun tipo di errore."
+>abstract="La tabella **Raggruppamento di errori per tipo** fornisce un raggruppamento completo dell’occorrenza di ciascun tipo di errore."
 
 La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per tipo]** contengono i dati disponibili per ciascun tipo di errore riscontrato. Le metriche sono descritte di seguito.
 
@@ -180,12 +180,12 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Raggruppamento degli errori per dominio"
->abstract="Il **Raggruppamento degli errori per dominio** in grafo vengono visualizzati i dati disponibili per ogni tipo di errore riscontrato in base a ciascun dominio."
+>abstract="Il grafico **Raggruppamento di errori per dominio** mostra i dati disponibili per ciascun tipo di errore riscontrato a seconda del dominio."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Raggruppamento degli errori per dominio"
->abstract="Il **Raggruppamento degli errori per dominio** La tabella fornisce una suddivisione completa dell’occorrenza di ogni errore in base al dominio utilizzato."
+>abstract="La tabella **Raggruppamento di errori per dominio** fornisce un raggruppamento completo dell’occorrenza di ogni errore a seconda del dominio utilizzato."
 
 La tabella e il grafico **[!UICONTROL Raggruppamento degli errori per dominio]** contengono i dati disponibili per i possibili errori riscontrati con ciascun dominio.
 
