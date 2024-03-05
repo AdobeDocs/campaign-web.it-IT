@@ -3,10 +3,10 @@ audience: end-user
 title: Eseguire il targeting dei destinatari da un file
 description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 80%
+source-wordcount: '620'
+ht-degree: 79%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Anteprima e verifica dell’e-mail {#test}
 
-Quando si utilizza un pubblico caricato da un file, Campaign Web consente di visualizzare in anteprima e inviare e-mail di test. Per farlo, segui questi passaggi:
+Campaign Web consente di visualizzare in anteprima e inviare bozze quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
 
 1. Fai clic sul **[!UICONTROL pulsante Simula contenuto]** dalla schermata di modifica dei contenuti della consegna e sul pulsante **[!UICONTROL Aggiungi profili di test]**.
 
@@ -94,7 +94,7 @@ Quando si utilizza un pubblico caricato da un file, Campaign Web consente di vis
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Per inviare e-mail di test, fai clic sul pulsante **[!UICONTROL Test]**.
+1. Per inviare le bozze, fai clic su **[!UICONTROL Invia bozza]** pulsante.
 
 1. Fai clic sul pulsante **[!UICONTROL Carica i profili di bozza]** e seleziona il file .txt o .csv che contiene i destinatari della bozza.
 
@@ -102,8 +102,8 @@ Quando si utilizza un pubblico caricato da un file, Campaign Web consente di vis
    >
    >Assicurati che il formato del file corrisponda a quello utilizzato per caricare il pubblico. Per eventuali errori di formato verrà visualizzato un avviso.
 
-1. Quando i destinatari della bozza vengono aggiunti ed è tutto pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia e-mail di test]** e conferma l’invio.
+1. Quando i destinatari della bozza vengono aggiunti e sei pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia bozza]** e conferma l’invio.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Puoi monitorare l’invio dell’e-mail di test utilizzando **[!UICONTROL Visualizza registro e-mail di test]** in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle e-mail di test](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Puoi monitorare l’invio della bozza utilizzando **[!UICONTROL Visualizza bozze]** in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle bozze](../preview-test/test-deliveries.md#access-test-deliveries)

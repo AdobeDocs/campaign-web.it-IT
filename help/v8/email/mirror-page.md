@@ -3,10 +3,10 @@ audience: end-user
 title: Aggiungere un collegamento alla pagina mirror
 description: Scopri come aggiungere e gestire il collegamento alla pagina mirror
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento d
 
 >[!NOTE]
 >
->Nell’e-mail di test inviata ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
+>Nella bozza inviata ai profili di test, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
 
 Per impostazione predefinita, il periodo di conservazione di una pagina mirror è di 60 giorni. Trascorso tale periodo, la pagina mirror non è più disponibile.
 

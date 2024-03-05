@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare una consegna di notifica push
 description: Scopri come inviare una consegna di tipo notifica push con Adobe Campaign Web
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 96%
+source-wordcount: '390'
+ht-degree: 90%
 
 ---
 
@@ -36,10 +36,8 @@ Ora puoi rivedere e inviare le notifiche push al pubblico.
 
 ## Test della consegna di notifiche push {#test-push}
 
-In **Adobe Campaign** puoi testare le notifiche push prima di inviarle al pubblico principale. Questo passaggio è importante per convalidare la consegna e individuare eventuali problemi.
-I destinatari del test possono rivedere elementi quali collegamenti, immagini e impostazioni di personalizzazione, al fine di garantire prestazioni ottimali e rilevare eventuali errori. Questo processo è utile per perfezionare e ottimizzare le notifiche push prima di inviarle al pubblico principale.
-
-![](../assets/do-not-localize/book.png) Scopri come inviare notifiche push di test in [questa sezione](../preview-test/test-deliveries.md#subscribers).
+Utilizzo di **Adobe Campaign**, puoi inviare le bozze prima di inviarle al pubblico principale. Questo passaggio è importante per convalidare la consegna e individuare eventuali problemi.
+I destinatari del test possono rivedere elementi quali collegamenti, immagini e impostazioni di personalizzazione, al fine di garantire prestazioni ottimali e rilevare eventuali errori. Questo processo ti aiuta a perfezionare e ottimizzare le notifiche push prima di raggiungere il pubblico principale. [Scopri come inviare bozze](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

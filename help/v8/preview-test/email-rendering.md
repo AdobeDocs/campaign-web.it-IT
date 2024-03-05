@@ -3,10 +3,10 @@ audience: end-user
 title: Testare il rendering delle e-mail
 description: Scopri come verificare il rendering delle e-mail nell’interfaccia utente di Campaign Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 86%
+source-wordcount: '235'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ A questo scopo, puoi sfruttare l’account **Litmus** in [!DNL Adobe Campaign] p
 
 >[!CAUTION]
 >
->L’utilizzo del rendering di e-mail in Campaign invia un messaggio e-mail di test a un sistema di terze parti. Collegando il tuo account Litmus con [!DNL Campaign], prendi atto che Adobe non è responsabile per i dati che potresti inviare a tali terze parti. I criteri e-mail di conservazione dei dati Litmus si applicano a queste e-mail, inclusi i dati di personalizzazione che possono essere inclusi in questi messaggi di test. Per accedere o eliminare tali dati, sarà necessario contattare direttamente Litmus.
+>L’utilizzo del rendering di e-mail in Campaign invia una bozza a un sistema di terze parti. Collegando il tuo account Litmus con [!DNL Campaign], prendi atto che Adobe non è responsabile per i dati che potresti inviare a tali terze parti. I criteri e-mail di conservazione dei dati Litmus si applicano a queste e-mail, inclusi i dati di personalizzazione che possono essere inclusi in queste bozze. Per accedere o eliminare tali dati, sarà necessario contattare direttamente Litmus.
 
 Per accedere alle funzionalità di rendering di e-mail, è necessario:
 

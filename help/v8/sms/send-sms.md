@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 97%
+source-wordcount: '428'
+ht-degree: 88%
 
 ---
 
@@ -44,9 +44,9 @@ Ora puoi esaminare e inviare il messaggio SMS al pubblico.
 
 Con **Adobe Campaign**, puoi testare un messaggio prima di inviarlo al pubblico principale, cioè utilizzando un passaggio essenziale per convalidare la campagna e-mail e identificare potenziali problemi.
 
-L’invio di SMS di test è un passaggio importante per garantire la qualità e l’efficacia della consegna. I destinatari del test possono rivedere vari elementi come collegamenti, collegamenti di rinuncia e immagini, nonché identificare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione degli SMS. Questo processo ti aiuta a valutare e ottimizzare accuratamente gli SMS prima di raggiungere il pubblico principale.
+L’invio di bozze è un passaggio importante per garantire la qualità e l’efficacia della consegna. I destinatari della bozza possono esaminare vari elementi come collegamenti, collegamenti di rinuncia e immagini, nonché identificare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione degli SMS. Questo processo ti aiuta a valutare e ottimizzare accuratamente gli SMS prima di raggiungere il pubblico principale.
 
-![](../assets/do-not-localize/book.png)Scopri come inviare SMS di test in [questa sezione](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) Scopri come inviare bozze in [questa sezione](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
-workflow-type: ht
-source-wordcount: '585'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 99%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 100%
    + [Aggiungere offerte ai messaggi](msg/offers.md)
    + [Inviare messaggi agli iscritti](msg/send-to-subscribers.md)
    + Anteprima e test della consegna {#preview-test}
-      + [Informazioni su anteprima e test](preview-test/preview-test.md)
+      + [Informazioni su anteprima e bozze](preview-test/preview-test.md)
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
-      + [Inviare consegne di test](preview-test/test-deliveries.md)
+      + [Inviare bozze](preview-test/test-deliveries.md)
       + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)

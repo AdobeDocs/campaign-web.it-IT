@@ -3,7 +3,7 @@ audience: end-user
 title: Filtrare elenchi
 description: Scopri come filtrare gli elenchi web di Adobe Campaign utilizzando filtri incorporati e personalizzati.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Filtrare elenchi {#filter-lists}
 
-Adobe Campaign Web fornisce filtri all’interno di ogni elenco di oggetti, consentendo di filtrare le informazioni in base a criteri contestuali specifici. Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di contatto o cartella. È inoltre possibile nascondere i test.
+Adobe Campaign Web fornisce filtri all’interno di ogni elenco di oggetti, consentendo di filtrare le informazioni in base a criteri contestuali specifici. Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di contatto o cartella. È inoltre possibile nascondere le bozze.
 
 ## Applicare i filtri{#apply}
 

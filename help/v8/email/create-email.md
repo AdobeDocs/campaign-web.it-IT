@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 92%
+source-wordcount: '1393'
+ht-degree: 83%
 
 ---
 
@@ -157,17 +157,17 @@ Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto
 
 Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Anteprima e test dell’e-mail {#preview-test}
+## Anteprima di un’e-mail e invio di bozze {#preview-test}
 
 Prima di inviare l’e-mail, puoi visualizzarla in anteprima e testarla per assicurarti che soddisfi le tue aspettative.
 
-In questo caso d’uso, puoi visualizzare in anteprima l’e-mail e inviare versioni di test a indirizzi e-mail specifici impersonando alcuni dei profili di destinazione.
+In questo caso d’uso, puoi visualizzare in anteprima il messaggio e-mail e inviare bozze a indirizzi e-mail specifici, rappresentando al contempo alcuni dei profili target.
 
-Per ulteriori informazioni su come visualizzare in anteprima e testare le e-mail, consulta [questa sezione](../preview-test/preview-test.md).
+Ulteriori informazioni su come visualizzare in anteprima un’e-mail e inviare bozze sono disponibili in [questa sezione](../preview-test/preview-test.md).
 
 1. Per esaminare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, nonché tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno di questi elementi, fai clic sul pulsante Modifica.
 
-1. Per visualizzare in anteprima l’e-mail e inviare le versioni di test, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
+1. Per visualizzare in anteprima l’e-mail e inviare le bozze, fai clic sul pulsante **[!UICONTROL Simula contenuto]** pulsante.
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ Per ulteriori informazioni su come visualizzare in anteprima e testare le e-mail
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Per inviare le versioni di test dell’e-mail, fai clic sul pulsante **[!UICONTROL Test]** e scegli la modalità da utilizzare.
+1. Per inviare le bozze, fai clic su **[!UICONTROL Inviare bozze]** quindi scegliere la modalità da utilizzare.
 
-   In questo esempio, utilizza la modalità **[!UICONTROL Sostituisci dal target principale]**, per inviare le versioni di test a indirizzi e-mail specifici impersonando di alcuni dei profili target dell’e-mail.
+   In questo esempio, utilizza **[!UICONTROL Sostituisci dal target principale]** , che invia bozze a indirizzi e-mail specifici impersonando alcuni dei profili target dell’e-mail.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica gli indirizzi e-mail a cui inviare le versioni di test.
+1. Clic **[!UICONTROL Aggiungi indirizzo]** e specifica gli indirizzi e-mail che ricevono le bozze.
 
    Per ogni indirizzo e-mail, seleziona il profilo da impersonare. Puoi anche consentire ad Adobe Campaign di selezionare un profilo casuale dal target.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. Fai clic su **[!UICONTROL Invia e-mail di test]** e conferma l’invio.
+1. Clic **[!UICONTROL Invia bozza]** e conferma l’invio.
 
-   Le versioni di test vengono inviate agli indirizzi e-mail specificati utilizzando il profilo selezionato, con il prefisso **[Bozza x]**.
+   Le bozze vengono inviate agli indirizzi e-mail specificati utilizzando il profilo selezionato con il **[Bozza x]** prefisso.
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   In qualsiasi momento puoi controllare lo stato dell’invio e accedere alle e-mail di test inviate, facendo clic sul pulsante **[!UICONTROL Visualizza registro e-mail di test]** nella schermata di simulazione del contenuto.
+   Puoi controllare lo stato dell’invio e accedere alle bozze inviate in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Visualizza bozze]** nella schermata simula contenuto.
 
 ## Inviare e monitorare l’e-mail {#prepare-send}
 

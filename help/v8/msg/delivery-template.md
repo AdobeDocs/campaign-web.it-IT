@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -193,6 +193,6 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 >[!NOTE]
 >
->Non puoi utilizzare il rendering di e-mail o inviare test in un modello di consegna.
+>Da un modello di consegna non è possibile utilizzare il rendering delle e-mail né inviare delle bozze.
 
 
