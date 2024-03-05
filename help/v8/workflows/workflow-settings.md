@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 69%
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Proprietà del flusso di lavoro"
->abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi **Opzioni aggiuntive** per configurare altre impostazioni, ad esempio il nome interno del flusso di lavoro, la cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+>abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi la sezione **opzioni aggiuntive** per configurare altre impostazioni quali il nome interno del flusso di lavoro, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
 
 Durante la creazione di un flusso di lavoro o l’orchestrazione delle attività del flusso di lavoro nell’area di lavoro, puoi accedere alle impostazioni avanzate relative al flusso di lavoro. Ad esempio, puoi impostare un fuso orario specifico per il flusso di lavoro, gestirne il comportamento in caso di errore oppure gestire il ritardo dopo il quale la cronologia del flusso di lavoro deve essere eliminata.
 

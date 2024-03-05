@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -128,13 +128,13 @@ Ora puoi selezionare questi messaggi durante la [creazione di un servizio di isc
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Numero abbonati"
+>title="Conteggio abbonati"
 >abstract="Fai clic su **Calcola** per ottenere il numero totale di iscritti a questo servizio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
 >title="Numero totale di iscritti"
->abstract="L’indicatore di prestazioni chiave (KPI, Key Performance Indicator) fornisce una panoramica completa della base di abbonati, mostrando il numero totale di utenti che si sono abbonati a questo servizio."
+>abstract="L’indicatore di prestazioni chiave (KPI, Key Performance Indicator) fornisce una panoramica completa della base di abbonati, mostrando il numero totale di singoli utenti che si sono iscritti a questo servizio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"

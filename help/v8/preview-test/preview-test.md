@@ -3,10 +3,10 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 53%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 58%
 >id="acw_deliveries_simulate"
 >title="Mostrare l’anteprima e verificare il contenuto"
 >abstract="Una volta definito il contenuto, puoi utilizzare i i profili e i profili di test per visualizzarlo in anteprima e testarlo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare consegne di test"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare bozze"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=it#test-landing-page" text="Pagine di destinazione di prova"
 
 Una volta definito il contenuto della consegna, puoi utilizzare profili e profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio. Si tratta di un passaggio fondamentale per garantirne l’accuratezza, ma anche l’assenza di errori nelle impostazioni di contenuto e personalizzazione.
@@ -24,7 +24,7 @@ Una volta definito il contenuto della consegna, puoi utilizzare profili e profil
 [!DNL Adobe Campaign Web user interface] consente di:
 
 * [Visualizzare in anteprima il contenuto e la personalizzazione del messaggio](preview-content.md)
-* [Inviare consegne di test](test-deliveries.md) (bozze) a specifici destinatari o iscritti a scopo di test e convalida
+* [Inviare bozze](test-deliveries.md) (bozze) a destinatari o abbonati specifici per la verifica e la convalida
 * [Verificare il rendering delle e-mail](email-rendering.md) nei client desktop, mobili e basati su web più diffusi
 * [Anteprima e verifica delle pagine di destinazione](../landing-pages/create-lp.md#test-landing-page)
 
