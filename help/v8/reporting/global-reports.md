@@ -3,14 +3,19 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 28%
+source-wordcount: '277'
+ht-degree: 27%
 
 ---
 
 # Introduzione ai rapporti globali {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="Rapporto globale"
+>abstract="I rapporti globali offrono un modo potente ed efficiente di analizzare le prestazioni della campagna. Questi rapporti forniscono una visualizzazione consolidata del traffico chiave e delle metriche di coinvolgimento per ogni canale all’interno della campagna."
 
 I **Rapporti globali** sono un valido strumento e offrono un riepilogo consolidato complessivo delle metriche di traffico e coinvolgimento per ogni canale all’interno di un’istanza Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna.
 
