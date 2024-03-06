@@ -3,10 +3,10 @@ audience: end-user
 title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -51,7 +51,7 @@ Configura le impostazioni di consegna nel modo descritto di seguito:
    * **[!UICONTROL Cartella]**: memorizza la consegna in una cartella specifica.
    * **[!UICONTROL Codice di consegna]**: organizza le consegne in base alla convenzione di denominazione.
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
-   * **[!UICONTROL Natura]**: specifica la natura dell’e-mail a scopo di classificazione.
+   * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
 +++
 
 

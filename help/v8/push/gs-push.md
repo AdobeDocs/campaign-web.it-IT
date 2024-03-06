@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle notifiche push
 description: Scopri come creare e inviare notifiche push con Adobe Campaign Web
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,9 +16,9 @@ Le notifiche push sono essenziali per contattare gli utenti delle app mobili, an
 
 Per creare notifiche push, puoi scegliere tra tre opzioni:
 
-* **Flussi di lavoro**: dopo aver aggiunto un’attività del canale push al flusso di lavoro e aver configurato le impostazioni di base, puoi creare il contenuto delle notifiche push dal menu del riquadro a destra. Per istruzioni dettagliate su come configurare il flusso di lavoro, consulta questa pagina.
+* **Flussi di lavoro**: dopo aver aggiunto un’attività del canale push al flusso di lavoro e aver configurato le impostazioni di base, puoi creare il contenuto delle notifiche push dal menu del riquadro a destra. Per istruzioni dettagliate su come configurare il flusso di lavoro, consulta [questa pagina](../workflows/gs-workflows.md).
 
-* **Campagne**: dopo aver creato una campagna, puoi creare una consegna di notifiche push. Per ulteriori informazioni sulla configurazione della campagna, consulta questa pagina.
+* **Campagne**: dopo aver creato una campagna, puoi creare una consegna di notifiche push. Per ulteriori informazioni sulla configurazione della campagna, consulta [questa pagina](../campaigns/gs-campaigns.md).
 
 * **Consegne indipendenti**: coinvolgi la clientela direttamente e all’istante con la consegna di singole notifiche push, senza la necessità di flussi di lavoro o campagne.
 
