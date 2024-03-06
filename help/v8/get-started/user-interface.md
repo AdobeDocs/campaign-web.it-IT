@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1629'
 ht-degree: 100%
 
 ---
@@ -335,13 +335,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_contenttemplate_readonlymode"
 >title="Questo modello è solo pronto"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_generatesubsets"
->title="Genera tutti i sottoinsiemi nella stessa tabella"
->abstract="TBC"
-
-<!-- ML: not found in wiki pages-->
 
 
 <!-- Subscription activity-->
