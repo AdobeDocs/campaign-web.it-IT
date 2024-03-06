@@ -3,9 +3,9 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 53%
 
 ---
@@ -24,7 +24,7 @@ Una volta definito il contenuto della consegna, puoi utilizzare profili e profil
 [!DNL Adobe Campaign Web user interface] consente di:
 
 * [Visualizzare in anteprima il contenuto e la personalizzazione del messaggio](preview-content.md)
-* [Inviare bozze](test-deliveries.md) (bozze) a destinatari o abbonati specifici per la verifica e la convalida
+* [Inviare bozze](test-deliveries.md) a destinatari o abbonati specifici per la verifica e la convalida
 * [Verificare il rendering delle e-mail](email-rendering.md) nei client desktop, mobili e basati su web più diffusi
 * [Anteprima e verifica delle pagine di destinazione](../landing-pages/create-lp.md#test-landing-page)
 
