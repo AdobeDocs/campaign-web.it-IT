@@ -3,10 +3,10 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 64%
 
 ---
 
@@ -35,7 +35,7 @@ Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 
    ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   Per scegliere un pubblico da Adobe Experience Platform, passa alla `AEP Audiences folder` dalla sezione dei filtri nella schermata.
+   Per scegliere un pubblico da Adobe Experience Platform, passa a `AEP Audiences folder` dalla sezione filter (filtro) dello schermo. [Ulteriori informazioni sui tipi di pubblico di Adobe Experience Platform](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
