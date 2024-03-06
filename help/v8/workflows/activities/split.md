@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 92%
+source-wordcount: '796'
+ht-degree: 91%
 
 ---
 
@@ -46,6 +46,11 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >title="Complemento generato da suddivisione"
 >abstract="Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **Genera complemento**."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Genera tutti i sottoinsiemi nella stessa tabella"
+>abstract="Attiva questa opzione per raggruppare tutti i sottoinsiemi in una singola transizione di output."
+
 Per configurare l’attività **Dividi** segui questi passaggi:
 
 1. Aggiungi un’attività **Dividi** al flusso di lavoro.
@@ -76,7 +81,6 @@ Per configurare l’attività **Dividi** segui questi passaggi:
       >[!NOTE]
       >
       >Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **[!UICONTROL Abilita ordinamento]**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto.
-
 
 1. Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**.
 
