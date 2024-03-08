@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1357'
 ht-degree: 83%
 
 ---
@@ -17,17 +17,6 @@ ht-degree: 83%
 >id="acw_homepage_learning_card3"
 >title="Introduzione alle e-mail"
 >abstract="Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. Scopri come creare la consegna, selezionare il pubblico e progettare il contenuto dell’e-mail."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Introduzione alle e-mail"
->abstract="Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. Scopri come creare la consegna, selezionare il pubblico e progettare il contenuto dell’e-mail."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
