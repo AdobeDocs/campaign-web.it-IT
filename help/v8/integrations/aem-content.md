@@ -2,22 +2,23 @@
 audience: end-user
 title: Gestire le risorse con Adobe Experience Manager as a Cloud Service
 description: Scopri come gestire i contenuti con Adobe Experience Manager as a Cloud Service
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 9%
 
 ---
 
-# Gestire i modelli con [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# Gestire i modelli con [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## Introduzione a [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## Introduzione a [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 L’integrazione dell’interfaccia web di Adobe Campaign con Adobe Experience Manager facilita la gestione semplificata dei contenuti e dei moduli di consegna e-mail direttamente all’interno della piattaforma Adobe Experience Manager.
 
 ![](assets/do-not-localize/book.png)[Ulteriori informazioni su Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## Creare un modello in [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## Creare un modello in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. Accedi al tuo [!DNL Adobe Experience Manager] istanza di authoring e fai clic su Esperienza di Adobe nell’angolo superiore sinistro della pagina. Scegli **[!UICONTROL Sites]** dal menu.
 
@@ -47,7 +48,7 @@ L’integrazione dell’interfaccia web di Adobe Campaign con Adobe Experience M
 
 La newsletter è ora pronta e sincronizzata in Adobe Campaign.
 
-## Importare un modello di Adobe Experience Manager as a Cloud Service{#aem-templates-perso}
+## Importare un modello Adobe Experience Manager as a Cloud Service{#aem-templates-perso}
 
 Una volta che il modello di Experience Manager è disponibile in Adobe Campaign Web come modello di contenuto, puoi identificare e incorporare il contenuto necessario per l’e-mail, inclusa la personalizzazione.
 
