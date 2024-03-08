@@ -3,10 +3,10 @@ audience: end-user
 title: Creare un pubblico con il generatore di regole di Campaign
 description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Sul lato destro, il riquadro **Proprietà delle regole** consente di eseguire le
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Visualizza i risultati:** visualizza l’elenco dei destinatari target del pubblico.
+* **Visualizza risultati:** visualizza l’elenco dei profili target del pubblico.
 * **Vista codice**: visualizza una versione del pubblico basata su codice in SQL.
 * **Visualizza gli attributi avanzati**: seleziona questa opzione per visualizzare l’elenco completo degli attributi nella palette a sinistra: nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N.
 * **Calcola**: aggiorna e visualizza il numero di profili interessati dalla query.

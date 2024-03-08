@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Creare profili di test"
->abstract="I profili di test vengono creati come indirizzi seed. Si tratta di destinatari aggiuntivi nel database utilizzati per eseguire il targeting di profili fittizi che non corrispondono ai criteri di destinazione definiti."
+>abstract="I profili di test sono destinatari aggiuntivi che ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare i messaggi. Puoi selezionare un profilo di test quando visualizzi l’anteprima del contenuto di un messaggio e inviare bozze ai profili di test per controllare e convalidare il contenuto e le impostazioni del messaggio."
 
-I profili di test vengono creati come indirizzi seed. Si tratta di destinatari aggiuntivi nel database utilizzato per eseguire il targeting di profili fittizi che non corrispondono ai criteri di destinazione definiti. Ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare la consegna, inviando loro delle bozze.
+I profili di test vengono utilizzati per inviare bozze e convalidare il contenuto e le impostazioni del messaggio. Questi profili sono destinatari aggiuntivi che ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare i messaggi. Puoi selezionare un profilo di test quando visualizzi l’anteprima del contenuto di un messaggio e inviare bozze ai profili di test per controllare e convalidare il contenuto e le impostazioni del messaggio.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-I passaggi per inviare bozze agli indirizzi seed sono descritti in [questa sezione](../preview-test/test-deliveries.md#test-profiles).
+I passaggi per inviare bozze ai profili di test sono descritti in [questa sezione](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->I profili di test vengono esclusi automaticamente dai rapporti sulle seguenti statistiche di consegna: **[!UICONTROL Clic]**, **[!UICONTROL Aperture]**, **[!UICONTROL Annullamenti iscrizione]**. [Ulteriori informazioni sui rapporti]
+>* I profili di test vengono creati come indirizzi di seed nella console Client.
+>
+>* I profili di test vengono esclusi automaticamente dai rapporti sulle seguenti statistiche di consegna: **[!UICONTROL Clic]**, **[!UICONTROL Aperture]**, **[!UICONTROL Annullamenti iscrizione]**.
 
 ## Accedere e gestire i profili di test {#access-test-profiles}
 
@@ -62,7 +64,7 @@ Dalla sezione **[!UICONTROL Esplora]** visualizzazione puoi anche filtrare, elim
 >title="Dati aggiuntivi dei profili di test"
 >abstract="Immetti i dati di personalizzazione utilizzati per le consegne create nei flussi di lavoro di gestione dati a cui desideri assegnare un valore specifico."
 
-Per creare un profilo di test, segui i passaggi indicati di seguito.
+Per creare un profilo di test, effettua le seguenti operazioni:
 
 1. Sfoglia per **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** e seleziona la **[!UICONTROL Profili di test]** scheda.
 

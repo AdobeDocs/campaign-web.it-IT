@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Deduplica nei flussi di lavoro
 description: Scopri come utilizzare l’attività Deduplica nei flussi di lavoro
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -62,6 +62,6 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 ## Esempio{#deduplication-example}
 
-Nell’esempio seguente, utilizza un’attività di deduplica per escludere i duplicati dal target prima di inviare una consegna. I destinatari duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Scegli l’indirizzo **E-mail** per identificare i duplicati. Mantieni una voce e seleziona il metodo di deduplica **Casuale**.
+Nell’esempio seguente, utilizza un’attività di deduplica per escludere i duplicati dal target prima di inviare una consegna. I profili duplicati identificati vengono aggiunti a un pubblico dedicato che può essere riutilizzato, se necessario. Scegli l’indirizzo **E-mail** per identificare i duplicati. Mantieni una voce e seleziona il metodo di deduplica **Casuale**.
 
 ![](../assets/workflow-deduplication-example.png)

@@ -1,10 +1,11 @@
 ---
 title: Introduzione ai profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
-source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '538'
+ht-degree: 26%
 
 ---
 
@@ -32,9 +33,9 @@ ht-degree: 25%
 
 ## Che cos’è un profilo? {#what}
 
-A **profilo**, noto anche come &quot;destinatari&quot; nella console client, rappresenta un record memorizzato nel database di Campaign e funge da componente chiave per [creare tipi di pubblico](create-audience.md) per consegne e [aggiungi personalizzazione](../personalization/personalize.md) ai tuoi contenuti. Adobe Campaign consente di gestire facilmente i profili, dalla creazione di nuove voci all’accesso a una visualizzazione completa di tutti gli attributi e gli abbonamenti ai servizi dei profili, il tutto tramite l’interfaccia utente web di Campaign.
+A **profilo**, noto anche come &quot;destinatario&quot; nella console client, rappresenta un record memorizzato nel database di Campaign e funge da componente chiave per [creare tipi di pubblico](create-audience.md) per consegne e [aggiungi personalizzazione](../personalization/personalize.md) ai tuoi contenuti. Adobe Campaign consente di gestire facilmente i profili, dalla creazione di nuove voci all’accesso a una visualizzazione completa di tutti gli attributi e gli abbonamenti ai servizi dei profili, il tutto tramite l’interfaccia utente web di Campaign.
 
-Inoltre, **[!UICONTROL profili di test]**, identificati come &quot;profili di seed&quot; nella console client, ti consentono di eseguire il targeting di altri destinatari che non corrispondono ai criteri di targeting di una determinata consegna. Questi profili contengono informazioni di contatto fittizie o informazioni di contatto controllate dal mittente. Possono essere aggiunti al pubblico di un messaggio per rilevare eventuali utilizzi fraudolenti del database dei destinatari o per assicurarsi che le e-mail arrivino nelle caselle in entrata. [Scopri come utilizzare i profili di test](test-profiles.md)
+Inoltre, **[!UICONTROL profili di test]**, identificati come &quot;profili di seed&quot; nella console client, ti consentono di eseguire il targeting di altri destinatari che non corrispondono ai criteri di targeting di una determinata consegna. Questi profili contengono informazioni di contatto fittizie o informazioni di contatto controllate dal mittente. I profili di test sono destinatari di bozze: vengono utilizzati per testare i messaggi inviando bozze. [Scopri come utilizzare i profili di test](test-profiles.md)
 
 Sia i profili che i profili di test possono essere utilizzati per testare le consegne prima che raggiungano il pubblico previsto. In questo modo puoi visualizzare in anteprima il contenuto e la personalizzazione del messaggio, inviare bozze per il test e la convalida, valutare il rendering delle e-mail su varie piattaforme e dispositivi e verificare le pagine di destinazione. [Scopri come visualizzare in anteprima e testare le consegne](../preview-test/preview-test.md)
 

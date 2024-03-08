@@ -2,10 +2,10 @@
 title: Dimensioni di targeting
 description: Ulteriori informazioni sulle dimensioni di targeting in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 64%
+source-wordcount: '447'
+ht-degree: 51%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Selezionare una dimensione targeting"
->abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari."
+>abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
 
 La dimensione targeting, detta anche mappatura target, è il tipo di dati gestito da un’operazione. Consente di definire la popolazione target: profili, beneficiari del contratto, operatori, abbonati, ecc.
 
@@ -36,12 +36,12 @@ Puoi anche utilizzare altre mappature target integrate nei flussi di lavoro e ne
 
 | Nome | Utilizza per | Schema |
 |---|---|---|
-| Destinatari | Consegnare ai destinatari (tabella dei destinatari incorporata) | nms:recipient |
+| Destinatari | Consegna a profili/destinatari (tabella dei destinatari incorporata) | nms:recipient |
 | Visitatori | Consegnare ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | mns:visitor |
-| Abbonamenti | Consegnare ai destinatari abbonati o iscritti a un servizio informativo, ad esempio una newsletter | nms:subscription |
+| Abbonamenti | Distribuisci ai profili abbonati a un servizio di informazioni, ad esempio una newsletter | nms:subscription |
 | Abbonamenti visitatore | Consegnare ai visitatori abbonati o iscritti a un servizio informativo | nms:visitorSub |
 | Operatori | Consegnare agli operatori Adobe Campaign | nms:operator |
 | File esterno | Consegnare tramite un file contenente tutte le informazioni necessarie per la consegna | Nessuno schema collegato, nessuna destinazione immessa |
-| Applicazioni in abbonamento | Consegnare ai destinatari abbonati o iscritti a un’applicazione | nms:appSubscriptionRcp |
+| Applicazioni in abbonamento | Consegna ai profili abbonati a un’applicazione | nms:appSubscriptionRcp |
 
-Inoltre, puoi creare una nuova mappatura target in base alle tue esigenze. Questa operazione viene eseguita dalla console client. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it#new-mapping){target="_blank"}
+Inoltre, puoi creare una nuova mappatura target in base alle tue esigenze. Questa operazione viene eseguita solo dalla console client. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it#new-mapping){target="_blank"}.

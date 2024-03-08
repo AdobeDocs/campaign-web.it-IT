@@ -3,7 +3,7 @@ audience: end-user
 title: Inviare bozze
 description: Scopri come definire e inviare bozze
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 55%
@@ -21,7 +21,7 @@ Una volta definito il contenuto del messaggio, puoi visualizzarlo in anteprima e
 
 Per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test prima di inviarli al pubblico target. Per convalidare il contenuto più recente, a ogni modifica deve essere inviata una bozza. L’invio di bozze è un passaggio importante per convalidare la campagna e identificare potenziali problemi. I destinatari della bozza possono controllare vari elementi come collegamenti, collegamenti di rinuncia, immagini o pagine mirror, nonché rilevare eventuali errori nel rendering, nel contenuto, nelle impostazioni di personalizzazione e nella configurazione della consegna.
 
-## Simulare il contenuto con destinatari di test {#simulate-content-test-deliveries}
+## Simulare contenuti con profili di test {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

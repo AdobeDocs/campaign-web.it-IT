@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorare e gestire tipi di pubblico
 description: Scopri come monitorare e gestire i tipi di pubblico in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 ## Cos’è un pubblico? {#what}
 
-Il pubblico è il target principale della consegna: i destinatari che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. Ulteriori informazioni sui modelli di consegna sono disponibili in [questa pagina](../msg/delivery-template.md).
+Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. Il tipo di pubblico dipende dalla mappatura target definita nel modello di consegna. Ulteriori informazioni sui modelli di consegna sono disponibili in [questa pagina](../msg/delivery-template.md).
 
 Per definire la popolazione di un pubblico, puoi:
 

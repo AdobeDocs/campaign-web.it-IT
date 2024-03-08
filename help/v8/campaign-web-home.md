@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizz
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Rendi dinamici i tuoi contenuti</strong><br/>Scopri come personalizzare i tuoi contenuti in base alle informazioni che hai raccolto sui tuoi destinatari per rendere i tuoi contenuti più accattivanti e aumentare la probabilità che vengano letti.</div>
+    <div><strong>Rendi dinamico il contenuto</strong><br/>Scopri come personalizzare il contenuto in base alle informazioni raccolte sui profili, per renderlo più accattivante e aumentarne la probabilità di lettura.</div>
     </td>
   </tr>
   <tr style="border: 0;">

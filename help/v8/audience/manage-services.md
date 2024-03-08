@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 75%
@@ -70,7 +70,7 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 1. Per impostazione predefinita, gli abbonamenti sono illimitati.
 
    È possibile disattivare la **[!UICONTROL Periodo di validità illimitato]** per definire una durata di validità per il servizio. Al termine del periodo di validità:
-   * Nessun destinatario può più abbonarsi a questo servizio
+   * Nessun profilo può più abbonarsi a questo servizio
    * Tutti gli abbonati a questo servizio verranno automaticamente annullati
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 
 Ora puoi:
 
-* Aggiungi abbonati a questo servizio e annulla l’abbonamento dei destinatari. [Ulteriori informazioni](../msg/send-to-subscribers.md)
+* Aggiungi abbonati a questo servizio e annulla l’abbonamento dei profili. [Ulteriori informazioni](../msg/send-to-subscribers.md)
 
 * Invia messaggi agli abbonati al servizio. [Scopri come](../msg/send-to-subscribers.md)
 

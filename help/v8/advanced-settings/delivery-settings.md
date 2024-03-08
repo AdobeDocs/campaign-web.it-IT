@@ -4,10 +4,10 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 56%
+source-wordcount: '2420'
+ht-degree: 54%
 
 ---
 
@@ -70,7 +70,9 @@ Nel campo **[!UICONTROL Tipo di peso]** sono disponibili tre opzioni:
 
 Utilizza il campo **[!UICONTROL Peso consegna]** per definire il livello di priorità della consegna. Ogni consegna ha un peso che rappresenta il suo livello di priorità. Per impostazione predefinita, il peso di una consegna è impostato su 5. Le regole di pressione consentono di definire il peso delle consegne a cui sono applicate. I pesi possono essere impostati o calcolati tramite una formula adatta ai destinatari. Ad esempio, puoi definire il peso di una consegna in base agli interessi dei destinatari.
 
-Utilizza il campo **[!UICONTROL Modalità di consegna]** per selezionare la modalità di valutazione del target. Sono disponibili tre modalità:
+Utilizza il **[!UICONTROL Modalità di consegna]** per selezionare la modalità di valutazione target.
+
+Sono disponibili tre modalità:
 
 * **[!UICONTROL Stima target e personalizzazione messaggio]**
 * **[!UICONTROL Stima e approvazione del target provvisorio]**
@@ -78,7 +80,7 @@ Utilizza il campo **[!UICONTROL Modalità di consegna]** per selezionare la moda
 
 >[!NOTE]
 >
->La gestione dell’eccesso è configurata nella console client di Campaign. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}.
+>La gestione dell’eccesso e le regole di pressione sono configurate nella console client di Campaign. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}.
 
 ### Impostazioni capacità {#capacity-settings}
 
@@ -90,11 +92,11 @@ Utilizza il campo **[!UICONTROL Modalità di consegna]** per selezionare la moda
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importanza del destinatario"
->abstract="L’importanza del destinatario è una formula utilizzata per determinare quali destinatari mantenere se vengono superate le regole di tipologia della capacità."
+>abstract="L’importanza del destinatario è una formula utilizzata per determinare quali profili vengono conservati quando vengono superate le regole di tipologia della capacità."
 
 In questa sezione puoi selezionare una regola di capacità definita nella console Adobe Campaign v8. Questa regola è associata al canale.
 
-Il **[!UICONTROL Importanza del destinatario]** Il campo è una formula utilizzata per determinare quali destinatari vengono mantenuti quando vengono superate le regole della tipologia di capacità.
+Il **[!UICONTROL Importanza del destinatario]** Il campo è una formula utilizzata per determinare quali profili vengono conservati quando vengono superate le regole di tipologia della capacità.
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ Il **[!UICONTROL Importanza del destinatario]** Il campo è una formula utilizza
 
 In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Il mapping di destinazione è il tipo di dati gestito da un&#39;operazione. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc. [Ulteriori informazioni sulle mappature di destinazione](../audience/targeting-dimensions.md).
 
-In **[!UICONTROL Esclusione]** , puoi selezionare di escludere i destinatari che non desiderano più essere contattati o che sono in quarantena. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+In **[!UICONTROL Esclusione]** , puoi selezionare di escludere i profili che non desiderano più essere contattati o che sono in quarantena. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Consegna {#delivery}
 
@@ -276,7 +278,7 @@ Oltre alla modalità predefinita, sono disponibili anche le seguenti opzioni:
 
 In questa sezione puoi impostare i parametri di esclusione. Le opzioni disponibili sono:
 
-* **[!UICONTROL Mantieni duplicati]** consente di autorizzare più consegne a destinatari che soddisfano diversi criteri di targeting.
+* **[!UICONTROL Mantieni duplicati]** consente di autorizzare più consegne a profili che soddisfano diversi criteri di targeting.
 * **[!UICONTROL Mantieni indirizzi inseriti nell’elenco Bloccati]**: consente di mantenere i profili che non rientrano più nel target della consegna, ad esempio dopo un annullamento dell’iscrizione (rinuncia).
 * **[!UICONTROL Mantieni indirizzi in quarantena]**: consente di mantenere i profili del target il cui indirizzo non risponde.
 

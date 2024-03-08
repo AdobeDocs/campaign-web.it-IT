@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Eseguire il targeting dei destinatari da un file
-description: Scopri come utilizzare i destinatari da un file esterno per creare il pubblico dell’e-mail
+title: Caricare un pubblico per consegne e-mail da un file
+description: Scopri come caricare i profili da un file esterno per creare il pubblico delle e-mail
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 79%
+source-wordcount: '622'
+ht-degree: 77%
 
 ---
 
@@ -102,7 +102,7 @@ Campaign Web consente di visualizzare in anteprima e inviare bozze quando si uti
    >
    >Assicurati che il formato del file corrisponda a quello utilizzato per caricare il pubblico. Per eventuali errori di formato verrà visualizzato un avviso.
 
-1. Quando i destinatari della bozza vengono aggiunti e sei pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia bozza]** e conferma l’invio.
+1. Quando i profili di bozza vengono aggiunti e sei pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia bozza]** e conferma l’invio.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

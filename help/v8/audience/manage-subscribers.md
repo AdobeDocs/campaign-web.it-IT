@@ -3,10 +3,10 @@ audience: end-user
 title: Gestire gli abbonati
 description: Scopri come gestire e consegnare alle persone iscritte a un servizio in Adobe Campaign Web
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ I profili aggiunti vengono visualizzati nel **[!UICONTROL Abbonati]** scheda. Qu
 
 ## Rimuovere degli iscritti dal servizio {#remove-subscribers}
 
-### Annullare manualmente l’iscrizione dei destinatari {#manual-unsubscription}
+### Annullare manualmente l’abbonamento dei profili {#manual-unsubscription}
 
 Dopo aver [aggiunto iscritti](#add-subscribers) al servizio, puoi annullare manualmente l’iscrizione di ciascuno di essi. Segui i passaggi seguenti.
 
@@ -62,7 +62,7 @@ Il destinatario viene rimosso dal **[!UICONTROL Abbonati]** e non è più abbona
 
 ### Annullare automaticamente l’iscrizione dei destinatari {#automatic-unsubscription}
 
-Un servizio di iscrizione può avere una durata limitata. L’iscrizione dei destinatari viene automaticamente annullata alla scadenza di tale periodo di validità.
+Un servizio di iscrizione può avere una durata limitata. L’abbonamento ai profili viene annullato automaticamente alla scadenza del periodo di validità.
 
 Questo periodo viene specificato durante la [creazione del servizio](manage-services.md#create-service). Dalle **[!UICONTROL Opzioni aggiuntive]**, disabilita l’opzione **[!UICONTROL Periodo di validità illimitato]** e definisci un periodo di validità per il servizio.
 
