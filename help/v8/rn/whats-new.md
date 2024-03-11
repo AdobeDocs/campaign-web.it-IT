@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Siamo entusiasti di presentare la nuova versione dell’**interfaccia utente di 
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile per tutti gli utenti che iniziano [Versione v8.6 di Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Per ulteriori informazioni sulle versioni di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+>Questa versione è disponibile per tutti gli utenti a partire dalla [versione di Campaign v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Per ulteriori informazioni sulle versioni di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
 
 
 ## Funzionalità principali {#key-features}
@@ -81,14 +81,14 @@ Utilizza la nuova interfaccia utente di Campaign Web:
 
 
 
-**Attività del flusso di lavoro per campagne nuove e riprogettate**
+**Attività del flusso di lavoro delle campagne nuove e riprogettate**
 
-Potenzia le tue campagne di marketing con il nostro **set esteso di attività del flusso di lavoro**. Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le nostre attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e migliorare le prestazioni della campagna. Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
+Potenzia le tue campagne di marketing con il nostro **set esteso di attività del flusso di lavoro**. Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e stimolare migliori prestazioni della campagna. Per ulteriori informazioni, consulta [questa sezione](../workflows/gs-workflows.md).
 
 
 **Pubblico target con il query modeler**
 
-Adobe Campaign Web dispone di un **query modeler potente e intuitivo** che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Tra i criteri figurano l’utilizzo di espressioni avanzate e operatori. Query Modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati. Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
+Adobe Campaign Web dispone di un **query modeler potente e intuitivo** che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Tra i criteri figurano l’utilizzo di espressioni avanzate e operatori. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati. Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
 
 **Facile creazione e gestione dei profili**
 
@@ -115,11 +115,11 @@ Poni le domande e trova le linee guida direttamente dall’interfaccia utente de
 
 **Filtri preimpostati**
 
-Introduzione alla gestione predefinita dei filtri. L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per **gestire e personalizzare filtri preimpostati** per soddisfare esigenze specifiche. Crea una volta e salva per un utilizzo futuro. Per ulteriori informazioni, consulta [questa sezione](../get-started/predefined-filters.md).
+Introduzione alla gestione predefinita dei filtri. L’interfaccia utente di Campaign Web offre un’interfaccia semplice e intuitiva per **gestire e personalizzare filtri preimpostati** per soddisfare esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro. Per ulteriori informazioni, consulta [questa sezione](../get-started/predefined-filters.md).
 
 **Convertitore HTML per la progettazione delle e-mail**
 
-Ora puoi **importare e convertire qualsiasi contenuto HTML** nell’editor e-mail di Campaign. I blocchi di contenuto vengono identificati automaticamente e sono disponibili nell’e-mail designer: utilizza le sue potenti funzionalità di progettazione per aggiornarlo e personalizzarlo. Per ulteriori informazioni, consulta [questa sezione](../email/existing-content.md).
+Ora puoi **importare e convertire qualsiasi contenuto HTML** nell’editor e-mail di Campaign. I blocchi di contenuto vengono identificati automaticamente e sono disponibili nell’E-mail designer: utilizza le sue potenti funzionalità di progettazione per aggiornarli e personalizzarli. Per ulteriori informazioni, consulta [questa sezione](../email/existing-content.md).
 
 
 **SMS con offerte**
@@ -134,9 +134,9 @@ In qualità di utente di Campaign, puoi comunque accedere alla console client pe
 
 Inoltre, tutti i dati e le impostazioni già disponibili nella console client sono visibili nell’interfaccia utente di Campaign Web, dal menu di navigazione a sinistra di Explorer. Per ulteriori informazioni sulla vista di Explorer, consulta [questa sezione](../get-started/user-interface.md#user-interface-explorer).
 
-Con l’interfaccia utente di Campaign Web, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni in [questa pagina](../get-started/permissions.md).
+Con l’interfaccia utente di Campaign Web, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
 
-Funzionalità supportate e non supportate e interoperabilità tra l’interfaccia utente di Campaign Web e la console client di Campaign [in questa pagina](../get-started/capability-matrix.md).
+Le funzionalità supportate/non supportate e l’interoperabilità tra l’interfaccia utente di Campaign Web e la console client di Campaign, sono disponibili [in questa pagina](../get-started/capability-matrix.md).
 
 ## Aggiornamenti terminologici {#terminology-updates}
 
@@ -158,6 +158,6 @@ Alla presente versione si applicano le seguenti limitazioni:
 * I KPI del dashboard delle consegne vengono aggiornati ogni 5 minuti. - ma la preparazione della consegna avviene in tempo reale.
 * Le notifiche Adobe Experience Cloud e la Guida unificata disponibili nella barra superiore finora non sono state integrate.
 
-Quando si lavora nell’interfaccia utente di Campaign Web con flussi di lavoro creati o modificati nella console client di Campaign, si applicano protezioni e limitazioni specifiche. Sono elencati [in questa sezione](../get-started/guardrails.md).
+Durante l’utilizzo deli flussi di lavoro creati o modificati nella console client di Campaign nell’interfaccia utente di Campaign Web, si applicano specifici guardrail e limitazioni. Sono elencati [in questa sezione](../get-started/guardrails.md).
 
-Ulteriori informazioni sulle funzionalità supportate/non supportate e sull’interoperabilità tra l’interfaccia utente di Campaign Web e la console client di Campaign [in questa pagina](../get-started/capability-matrix.md).
+Ulteriori informazioni sulle funzionalità supportate/non supportate e sull’interoperabilità tra l’interfaccia utente di Campaign Web e la console client di Campaign, sono disponibili [in questa pagina](../get-started/capability-matrix.md).
