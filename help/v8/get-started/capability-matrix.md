@@ -4,9 +4,9 @@ title: Matrice di funzionalità dell’interfaccia utente/console client di Camp
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -158,19 +158,19 @@ L’interfaccia utente di Campaign Web non presenta le seguenti funzionalità. S
 
 Adobe Campaign è dotato di un set di account esterni predefiniti per la connessione con i sistemi esterni. In qualità di amministratore di sistema di Campaign, puoi creare e gestire account esterni solo dalla console client.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=it){target="_blank"}
 
-### Creazione ed estensione dello schema {#schema}
+### Creazione ed estensione di uno schema {#schema}
 
 La creazione, la modifica e l’estensione degli schemi sono riservate agli utenti avanzati. Queste funzionalità sono disponibili solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=it){target="_blank"}
 
 ### Funzionalità di gestione dei dati dei flussi di lavoro {#data}
 
-La gestione dei dati combina una serie di attività per risolvere problemi di targeting complessi offrendo strumenti più efficienti e flessibili come il caricamento dei dati, l’estrazione (file), l’aggiornamento dei dati, la modifica dello schema o i flussi di lavoro tecnici per l’importazione o l’esportazione. [Scopri le funzionalità di gestione dei dati dei flussi di lavoro nella console client](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=it#data-management){target="_blank"}
+La Gestione dei dati combina una serie di attività che risolvono problemi di targeting complessi offrendo strumenti più efficienti e flessibili come il caricamento dei dati, l’estrazione (file), l’aggiornamento dei dati, la modifica dello schema o i flussi di lavoro tecnici per l’importazione o l’esportazione. [Scopri le funzionalità di gestione dei dati dei flussi di lavoro nella console client](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=it#data-management){target="_blank"}
 
 >[!NOTE]
 >
->Alcune di queste attività sono disponibili solo nella console client, altre nell’interfaccia utente di Campaign Web, ad esempio **Arricchimento**, **Carica file** o **Cambia dimensione** attività. [Ulteriori informazioni sulle attività di targeting e gestione dati nell’interfaccia utente web di Campaign](../workflows/activities/about-activities.md#targeting)
+>Alcune di queste attività sono disponibili solo nella console client, altre nell’interfaccia utente di Campaign Web, come ad esempio **Arricchimento**, **Carica file** o **Cambia dimensione**. [Ulteriori informazioni sulle attività di targeting e gestione dati nell’interfaccia utente di Campaign Web](../workflows/activities/about-activities.md#targeting)
 
-### Configurazione Federated Data Access {#fda}
+### Configurazione Federated Data Access (FDA) {#fda}
 
 La configurazione e la connessione di Campaign a sistemi esterni sono limitate agli utenti avanzati e sono disponibili solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=it){target="_blank"}
 

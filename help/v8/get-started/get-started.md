@@ -4,9 +4,9 @@ title: Introduzione ad Adobe Campaign Web
 description: Introduzione ad Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Utilizza Campaign per:
 * **Integrare** nel percorso cliente canali e-mail, mobili, online e offline
 * **Automatizzare** la consegna di messaggi e offerte significativi e tempestivi
 
-## Scopri l’interfaccia di utilizzo web di Campaign {#web}
+## Scopri l’interfaccia utente di Campaign Web {#web}
 
 Inizialmente disponibile solo tramite una ricca [Console client](#ac-client), Campaign offre ora una nuova interfaccia utente web con funzionalità migliorate, accessibilità e un nuovo design per migliorare significativamente l’esperienza utente. Questa nuova interfaccia utente moderna semplifica la progettazione e la consegna di campagne di marketing e introduce maggiore coerenza con altre soluzioni Adobe, tra cui Adobe Experience Platform.
 
@@ -61,7 +61,7 @@ Alcuni oggetti possono essere creati e gestiti solo nella console client. Posson
 
 Per ulteriori informazioni su come utilizzare Campaign v8 con la console client, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.
 
-## Video tutorial {#video}
+## Video dimostrativo {#video}
 
 Scopri come accedere e navigare nell’interfaccia utente di Campaign Web e come personalizzare gli elenchi di inventario. Scopri il Knowledge Assistant con Generazione basata sull’intelligenza artificiale.
 

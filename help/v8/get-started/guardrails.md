@@ -1,11 +1,11 @@
 ---
-title: Guardrail e limitazioni nei flussi di lavoro dell’interfaccia utente web di Campaign
+title: Guardrail e limitazioni nei flussi di lavoro dell’interfaccia utente di Campaign Web
 description: Guardrail e limitazioni nell’utilizzo dei flussi di lavoro nell’interfaccia utente web di Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
