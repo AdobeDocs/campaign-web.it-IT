@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
+source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 80%
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 
 >[!CONTEXTUALHELP]
->id="acw_generate_emagica"
+>id="acw_emagica_generate"
 >title="Termini di IA generativa di Adobe"
 >abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di Adobe Experience Cloud Generative AI. Qualsiasi suggerimento, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito Web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere collegato a un individuo specifico). Controlla l’accuratezza degli output generati da questa funzione e assicurati che sia appropriata al tuo caso d’uso"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe di linee guida utente per l’intelligenza artificiale generativa"
