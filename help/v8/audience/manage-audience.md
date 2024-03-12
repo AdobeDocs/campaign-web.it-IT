@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ Nel targeting di un pubblico, puoi definire dei **gruppi di controllo** per evit
 >
 >Quando si inviano messaggi nel contesto del flusso di lavoro di una campagna, il pubblico viene definito in una specifica attività **Crea pubblico** del flusso di lavoro. In questo contesto, non puoi caricare un pubblico da un file per una consegna e-mail e il pubblico è definito solo in questa attività dedicata. Scopri come definire il pubblico della consegna in un flusso di lavoro della campagna in [questa sezione](../workflows/activities/build-audience.md)
 
-## Monitorare i tipi di pubblico {#monitor}
+## Monitora i tipi di pubblico {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
@@ -68,7 +68,7 @@ La scheda **[!UICONTROL Dati]** consente di visualizzare i profili che fanno par
 
 Per duplicare o eliminare un pubblico, fai clic sul pulsante **[!UICONTROL Altre azioni]** disponibile nell’elenco dei tipi di pubblico accanto al nome del pubblico o all’interno della schermata dei dettagli del pubblico.
 
-## Video tutorial {#video}
+## Video dimostrativo {#video}
 
 Scopri come creare una destinazione per utilizzare un pubblico di Experienci Platform nell’interfaccia utente web di Adobe Campaign.
 

@@ -7,10 +7,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -24,8 +25,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="Copiare l’URL con attenzione"
->abstract="Durante la creazione di una pagina di destinazione, quattro modelli predefiniti ti consentono di implementare diversi casi d’uso: aggiungere o aggiornare un profilo al database di Campaign, abbonare i clienti a un servizio, annullare l’abbonamento a un servizio o rinunciare agli utenti."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Creare una pagina di destinazione"
+>abstract="Durante la creazione di una pagina di destinazione, quattro modelli predefiniti consentono di implementare diversi casi d’uso: aggiungere o aggiornare un profilo al database di Campaign, iscrivere i clienti a un servizio, annullare l’iscrizione a un servizio o negare il consenso agli utenti."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=it#create-landing-page" text="Creare una pagina di destinazione"
 
 Per utilizzare correttamente la pagina di destinazione, utilizza l’opzione dedicata per farvi riferimento come collegamento all’interno di una consegna.
 
@@ -214,14 +215,3 @@ Ad esempio, se hai scelto di aggiornare **[!UICONTROL Canale (e-mail)]** nella p
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 Questo profilo non riceverà comunicazioni e-mail dal tuo marchio, a meno che non si sia nuovamente iscritti.
-
-
-
-
-
-
-
-
-
-
-

@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 59%
+ht-degree: 63%
 
 ---
 
@@ -236,7 +236,7 @@ Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i ris
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Proprietà delle regole"
->abstract="Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando **Proprietà delle regole** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e controllare il numero di record di destinazione.<br/>Utilizza il **Seleziona o salva il filtro** per salvare la query come filtro predefinito o sostituire il contenuto dell’area di lavoro con un filtro esistente."
+>abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **Proprietà delle regole** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record mirati.<br/>Utilizza il pulsante **Seleziona o salva filtro** per salvare la query come filtro predefinito o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
 
 Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **Proprietà delle regole** sul lato destro. Le operazioni disponibili sono:
 

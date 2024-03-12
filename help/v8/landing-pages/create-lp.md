@@ -2,10 +2,11 @@
 title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 22%
+ht-degree: 30%
 
 ---
 
@@ -60,7 +61,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definire le opzioni di precaricamento"
->abstract="Quando **Precompilare con i dati a cui si fa riferimento nel modulo** se l’opzione è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con il **Salta il precaricamento se non è presente alcun ID** opzione selezionata, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo."
+>abstract="Quando l’opzione **Precompila con i dati a cui si fa riferimento nel modulo** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con l’opzione **Salta il precaricamento se non è presente alcun ID** selezionata, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -99,7 +100,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
 1. In **[!UICONTROL Precaricamento dati]** , le due opzioni seguenti sono selezionate per impostazione predefinita:
 
-   * Quando **[!UICONTROL Precompilare con i dati a cui si fa riferimento nel modulo]** se l’opzione è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. L’utente deve solo compilare i campi mancanti e, se necessario, aggiornare i valori esistenti. Questo consente di unire i dati per i profili esistenti invece di creare duplicati.
+   * Quando l’opzione **[!UICONTROL Precompila con i dati a cui si fa riferimento nel modulo]** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. L’utente deve solo compilare i campi mancanti e, se necessario, aggiornare i valori esistenti. Questo consente di unire i dati per i profili esistenti invece di creare duplicati.
 
    * Il **[!UICONTROL Salta il precaricamento se non è presente alcun ID]** deve essere selezionata se non desideri aggiornare i profili. In questo caso, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo. Questa opzione viene utilizzata, ad esempio, quando il modulo viene pubblicato su un sito Web.
 
