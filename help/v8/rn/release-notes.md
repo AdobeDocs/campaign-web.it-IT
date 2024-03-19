@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione più recente
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 45795b35fd2c02f7b513b0d4952504ca3f5f45c3
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '289'
+ht-degree: 9%
 
 ---
 
@@ -24,22 +24,22 @@ I rilasci dell’interfaccia utente web di Adobe Campaign funzionano secondo un 
 
 ### Canale direct mailing {#24-3-dm}
 
-**Direct mail** channel è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. La direct mailing è un canale offline che ti consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di direct mailing per inviare e-mail ai tuoi clienti.
+**Direct mail** channel è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. La direct mailing è un canale offline che ti consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di direct mailing per inviare e-mail ai tuoi clienti. [Ulteriori informazioni](../direct-mail/gs-direct-mail.md)
 
 ![](../assets/do-not-localize/direct-mail.gif)
 
 ### Nuova attività del flusso di lavoro Modifica origine dati {#24-3-change-data-source}
 
-Il **Cambia origine dati** l’attività di targeting ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.
+Il **Cambia origine dati** l’attività di targeting ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni. [Ulteriori informazioni](../workflows/activities/change-data-source.md)
 
 ![](../assets/do-not-localize/change-data-source.gif)
 
 ### Miglioramento dell’attività di suddivisione del flusso di lavoro {#24-3-split}
 
-Ora puoi utilizzare la **Genera tutti i sottoinsiemi nella stessa tabella** opzione in **Dividi** attività del flusso di lavoro per raggruppare tutti i sottoinsiemi in una singola transizione di output.
+Ora puoi utilizzare la **Genera tutti i sottoinsiemi nella stessa tabella** opzione in **Dividi** attività del flusso di lavoro per raggruppare tutti i sottoinsiemi in una singola transizione di output. [Ulteriori informazioni](../workflows/activities/split.md)
 
 ### Query modeler {#24-3-query-modeler}
 
-* Il modellatore di query è ora disponibile per l’utilizzo in E-mail Designer. Consente di creare le condizioni durante la creazione di contenuto condizionale.
-* Durante la creazione di una condizione personalizzata sono ora disponibili valori predefiniti per gli attributi di tipo data.
-* Non è più possibile aggiungere operatori a una nuova transizione nel diagramma. Possono essere aggiunte solo a una transizione esistente prima di filtrare i componenti per raggrupparli.
+* Il modellatore di query è ora disponibile per l’utilizzo in E-mail Designer. Consente di creare le condizioni durante la creazione di contenuto condizionale. [Ulteriori informazioni](../personalization/conditions.md)
+* Durante la creazione di una condizione personalizzata sono ora disponibili valori predefiniti per gli attributi di tipo data. [Ulteriori informazioni](../query/build-query.md)
+* Non è più possibile aggiungere operatori a una nuova transizione nel diagramma. Possono essere aggiunte solo a una transizione esistente prima di filtrare i componenti per raggrupparli. [Ulteriori informazioni](../query/build-query.md)
