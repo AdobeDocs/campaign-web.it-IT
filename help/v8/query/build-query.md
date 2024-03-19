@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -39,7 +39,7 @@ I componenti per il filtro consentono di perfezionare la query utilizzando:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Condizione personalizzata"
->abstract="Le condizioni personalizzate filtrano i componenti che consentono di filtrare la query creando una condizione personalizzata con gli attributi del database e le espressioni avanzate."
+>abstract="Le condizioni personalizzate sono componenti di filtraggio che consentono di filtrare la query creando la propria condizione con attributi provenienti dal database ed espressioni avanzate."
 
 Per filtrare la query utilizzando una condizione personalizzata, effettua le seguenti operazioni:
 
