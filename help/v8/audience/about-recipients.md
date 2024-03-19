@@ -2,10 +2,10 @@
 title: Introduzione ai profili
 description: Scopri come monitorare e gestire i profili in Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 20%
+source-wordcount: '493'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 20%
 >id="acw_homepage_welcome_rn4"
 >title="Visualizzazione a 360° dei profili"
 >abstract="Crea nuovi profili e monitorali tramite potenti rapporti e strumenti. Accedi agli attributi, alle interazioni e ai registri dei tuoi profili. Utilizza le opzioni di filtro per sfogliare l’elenco dei profili, modificarli e aggiornarli."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=it" text="Consulta le note sulla versione"
+
+<!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -48,7 +49,7 @@ Per accedere ai dettagli di un profilo, fai clic sul nome dall’elenco. Viene v
 
 Per eliminare un profilo, selezionare l&#39;opzione corrispondente dalla **[!UICONTROL Altre azioni]** menu.
 
-## Video tutorial {#video}
+## Video dimostrativo {#video}
 
 Scopri come accedere, gestire ed esplorare i profili tramite l’interfaccia utente web di Campaign.
 

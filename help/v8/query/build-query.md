@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 64%
+source-wordcount: '2088'
+ht-degree: 61%
 
 ---
 
@@ -16,15 +16,17 @@ Per iniziare a creare una query, accedi al query modeler dalla posizione desider
 
 Puoi aggiungere due tipi di elementi:
 
-* **Componenti per il filtro** (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consente di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query. [Scopri come utilizzare i componenti per il filtro](#filtering)
+* **Componenti per il filtro** (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consente di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare i componenti per il filtro](#filtering)
 
-  *Destinatari che si sono iscritti alla newsletter “Sport”*. *Destinatari che vivono a New York*, *Destinatari che vivono a San Francisco*
+  Esempio: *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;*. *Destinatari che vivono a New York*, *Destinatari che vivono a San Francisco*
 
-* Gli **operatori del gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti per il filtro nel diagramma in base alle esigenze. [Scopri come utilizzare gli operatori](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *Destinatari che si sono iscritti alla newsletter “Sport”**AND**vivono a New York **OR**a San Francisco*.
+* **Operatori di gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma. Vengono aggiunte alle transizioni esistenti prima di un componente di filtro. [Scopri come utilizzare gli operatori](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  Esempio: *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;**E**che vivono a New York **OPPURE**San Francisco*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
@@ -51,7 +53,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
    >[!NOTE]
    >
-   >Il pulsante Modifica espressione consente di sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e del database. [Scopri come modificare le espressioni](expression-editor.md)
+   >Il **Modifica espressione** Questo pulsante consente di sfruttare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. [Scopri come modificare le espressioni](expression-editor.md)
 
 1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
@@ -83,6 +85,10 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzando **[!UICONTROL Predefiniti]** opzione.
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -211,7 +217,7 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
 Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo viene automaticamente collegato all’altro componente da un **E** operatore. Ciò significa che i risultati dei due componenti di filtraggio sono combinati.
 
-In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione del tipo di filtro predefinito con un **E** operatore, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
+In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione di filtro predefinita con un **E** operatore, il che significa che i risultati della query includono i destinatari interessati dal filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

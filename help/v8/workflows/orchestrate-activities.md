@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 73%
+source-wordcount: '699'
+ht-degree: 69%
 
 ---
 
@@ -45,6 +45,10 @@ Quando si aggiungono delle attività, nel riquadro delle proprietà sono disponi
 * **Pausa/Riprendi** l’attività. Quando il flusso di lavoro viene eseguito, viene messo in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+Diversi **Targeting** attività, come **Combina** o **Deduplicazione**, ti consente di elaborare la popolazione rimanente e di includerla in un’ulteriore transizione in uscita. Ad esempio, se utilizzi un’ **Dividi** attività, il complemento è costituito dalla popolazione che non corrisponde a nessuno dei sottoinsiemi precedentemente definiti. Per utilizzare questa funzionalità, attiva **Genera complemento** opzione.
+
+![](assets/workflow-split-complement.png)
 
 ## Esempio {#example}
 

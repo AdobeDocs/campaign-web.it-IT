@@ -5,8 +5,8 @@ description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Ca
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 98%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,10 @@ ht-degree: 98%
 
 Siamo entusiasti di presentare la nuova versione dell’**interfaccia utente di Adobe Campaign Web**. La versione più recente è dotata di funzioni intuitive progettate per semplificare la creazione di campagne cross-channel personalizzate, ottenere risultati eccezionali e offrire un vantaggio competitivo su tutti i canali. L’interfaccia utente di Campaign Web offre un’area di lavoro connessa con Adobe Experience Platform per un’esperienza unificata.
 
-Le modifiche, le nuove funzionalità e i miglioramenti sono elencati in [note sulla versione mensili](release-notes.md).
+
+>[!AVAILABILITY]
+>
+>Questa versione è disponibile per tutti gli utenti a partire dalla [versione di Campaign v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Per ulteriori informazioni sulle versioni di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
 
 
 ## Funzionalità principali {#key-features}

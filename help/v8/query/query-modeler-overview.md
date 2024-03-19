@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 48%
+source-wordcount: '559'
+ht-degree: 27%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 48%
 >id="acw_homepage_learning_card5"
 >title="Nuovo query modeler"
 >abstract="Adobe Campaign Web dispone di un query modeler che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri. Tra i criteri figurano l’utilizzo di espressioni avanzate e operatori. Il query modeler è disponibile in ogni contesto in cui è necessario definire regole per filtrare i dati."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
@@ -33,20 +32,12 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 
 | Utilizzo | Esempio |
 |  ---  |  ---  |
-| **Definire i tipi di pubblico**: specifica la popolazione per la quale desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Personalizzare le attività del flusso di lavoro**: applica regole all’interno delle attività del flusso di lavoro, come Suddivisione e Riconciliazione, in modo da allinearle ai requisiti specifici. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Filtri preimpostati**: crea filtri preimpostati che fungono da scelte rapide durante varie operazioni di filtraggio, sia nell’utilizzo di elenchi di dati che nella formazione del tipo di pubblico per una consegna. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-
-<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
-
-+++Example
-
-![](assets/access-audience.png){zoomable="yes"}
-
- +++
--->
+| **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nei messaggi o nei flussi di lavoro e crea senza difficoltà nuovi tipi di pubblico in base alle tue esigenze. [Scopri come creare tipi di pubblico](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personalizzare le attività del flusso di lavoro**: applica regole nelle attività del flusso di lavoro, ad esempio **Dividi** e **Reconciliation**, per allinearlo ai requisiti specifici. [Ulteriori informazioni sulle attività del flusso di lavoro](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtri predefiniti**: crea filtri predefiniti che fungono da scelte rapide durante varie operazioni di filtro, sia che si utilizzino elenchi di dati che che si formi il pubblico per una consegna. [Scopri come utilizzare i filtri preimpostati](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Filtrare i dati dei rapporti**: aggiungi la regola per filtrare i dati visualizzati nei rapporti. [Scopri come utilizzare i rapporti](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. [Scopri come filtrare gli elenchi](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Creare contenuti condizionali**: rende dinamico il contenuto delle e-mail creando condizioni che definiscono quale contenuto deve essere visualizzato a destinatari diversi, garantendo messaggi personalizzati e pertinenti. [Scopri come creare contenuti condizionali](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## Interfaccia del query modeler {#interface}
 

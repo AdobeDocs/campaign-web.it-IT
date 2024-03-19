@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna
 description: Scopri come accedere ai rapporti sulle consegne e come utilizzarli
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 30%
+source-wordcount: '281'
+ht-degree: 33%
 
 ---
 
@@ -31,6 +31,7 @@ L’elenco completo dei rapporti e delle metriche associate a ciascun canale è 
 * [Canale campagna e-mail](campaign-reports-email.md)
 * [Canale della campagna SMS](campaign-reports-sms.md)
 * [Canale della campagna push](campaign-reports-push.md)
+* [Canale campagna direct mail](campaign-reports-direct-mail.md)
 
 ## Gestire la dashboard dei report {#manage-reports}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 83%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 83%
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
 In base a un [modello di progettazione](../email/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Creare una consegna e-mail {#create-email}
 
@@ -211,3 +213,9 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 1. Dopo l’invio dell’e-mail, puoi accedere ai rapporti dedicati per ulteriori analisi facendo clic sul pulsante **[!UICONTROL Reporting]**.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## Video dimostrativo {#video}
+
+Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

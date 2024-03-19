@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Riconciliazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Riconciliazione
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 43%
+source-wordcount: '860'
+ht-degree: 40%
 
 ---
 
@@ -53,7 +53,8 @@ Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Regole di riconciliazione"
->abstract="Seleziona i campi di riconciliazione da utilizzare per la deduplica. Puoi utilizzare uno o più criteri di riconciliazione."
+>abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplicazione. Per utilizzare gli attributi, selezionare **Attributi semplici** e scegliere i campi di origine e di destinazione. Per creare una condizione di riconciliazione personalizzata utilizzando Query Modeler, seleziona la **Condizioni di riconciliazione avanzate** opzione."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utilizzo del query modeler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ Per configurare il **Reconciliation** attività:
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Per utilizzare altri attributi per riconciliare i dati, selezionare **Condizioni di riconciliazione avanzate** opzione. Puoi quindi creare una condizione di riconciliazione personalizzata utilizzando Query Modeler. Scopri come utilizzare Query Modeler in [questa sezione](../../query/query-modeler-overview.md).
+   1. Per utilizzare altri attributi per riconciliare i dati, selezionare **Condizioni di riconciliazione avanzate** opzione. Puoi quindi creare una condizione di riconciliazione personalizzata utilizzando Query Modeler. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md).
 
-1. È possibile filtrare i dati da riconciliare utilizzando **Crea filtro** pulsante. Questo consente di creare una condizione personalizzata utilizzando [query modeler](../../query/query-modeler-overview.md).
+1. È possibile filtrare i dati da riconciliare utilizzando **Crea filtro** pulsante. Questo consente di creare una condizione personalizzata utilizzando il modellatore di query. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
 Per impostazione predefinita, i dati non riconciliati vengono conservati nella transizione in uscita e sono disponibili nella tabella di lavoro per utilizzi futuri. Per rimuovere i dati non riconciliati, disattiva l’opzione **Mantieni i dati non riconciliati**.
 

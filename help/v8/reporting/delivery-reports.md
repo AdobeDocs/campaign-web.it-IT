@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 71%
+source-wordcount: '272'
+ht-degree: 74%
 
 ---
 
@@ -24,6 +24,7 @@ L’elenco completo dei rapporti e delle metriche associate a ciascun canale è 
 * [Rapporti sulle consegne e-mail](email-report.md)
 * [Rapporti sulle consegne SMS](sms-report.md)
 * [Rapporti sulle consegne push](push-report.md)
+* [Rapporti di consegna direct mail](direct-mail.md)
 
 ## Gestire la dashboard dei report {#manage-reports}
 

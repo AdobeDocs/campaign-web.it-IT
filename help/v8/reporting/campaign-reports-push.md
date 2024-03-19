@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna per il canale push
 description: Comprendere i rapporti sulla campagna per il canale push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 98%
+source-wordcount: '507'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
-* **[!UICONTROL Totale inviato]**: numero totale di messaggi elaborati durante la preparazione della consegna.
+* **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -71,7 +71,6 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
-workflow-type: ht
-source-wordcount: '1629'
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '1578'
 ht-degree: 100%
 
 ---
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="Contenuto per direct mail"
->abstract="Contenuto per direct mail"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="Proprietà file per direct Mail"
->abstract="Proprietà file per direct Mail"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="Proprietà contenuto per direct Mail"
->abstract="Proprietà contenuto per direct Mail"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="Modificare l’origine dati"
->abstract="L’attività **Cambia origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Attributi avanzati del generatore di regole"
 >abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Attiva l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

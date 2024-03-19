@@ -3,7 +3,7 @@ audience: end-user
 title: Filtrare elenchi
 description: Scopri come filtrare gli elenchi web di Adobe Campaign utilizzando filtri incorporati e personalizzati.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -31,6 +31,7 @@ Una volta applicati a un elenco, i filtri sono visibili sotto la barra di ricerc
 I filtri personalizzati ti consentono di perfezionare gli elenchi in base a criteri specifici. Sono progettate utilizzando il modellatore di query di Campaign. Per creare un filtro personalizzato, effettua le seguenti operazioni:
 
 1. Apri il riquadro dei filtri e fai clic su **Aggiungi regole** nella parte inferiore del riquadro.
+
 1. Viene aperto Query Modeler. Definisci e combina i criteri di filtro in base alle tue esigenze. Informazioni dettagliate sull’utilizzo di Query Modeler sono disponibili in [questa sezione](../query/query-modeler-overview.md).
 
    L’esempio seguente mostra un filtro personalizzato progettato per visualizzare nell’elenco delle campagne le campagne SMS eseguite dagli operatori dei dipartimenti in esecuzione o Yoga.

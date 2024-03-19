@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 27%
+source-wordcount: '281'
+ht-degree: 38%
 
 ---
 
@@ -26,6 +26,7 @@ L’elenco completo dei rapporti e delle metriche associate a ciascun canale è 
 * [Report globali e-mail](global-report-email.md)
 * [Rapporti globali SMS](global-report-sms.md)
 * [Rapporti globali push](global-report-push.md)
+* [Report globali direct mail](global-report-direct.md)
 
 ## Gestire la dashboard dei report {#manage-reports}
 

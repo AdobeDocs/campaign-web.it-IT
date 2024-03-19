@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '947'
 ht-degree: 82%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 ## Introduzione ai contenuti condizionali {#gs}
 
-I contenuti condizionali rappresentano una funzionalità potente, che consente di definire la personalizzazione dinamica in base al profilo del destinatario, mediante la sostituzione automatica blocchi di testo e immagini se vengono soddisfatte determinate condizioni. Con questa funzione puoi creare campagne più sofisticate e offrire al tuo pubblico esperienze altamente mirate e personalizzate.
+Il contenuto condizionale è una funzione potente che consente di creare una personalizzazione dinamica basata sui dati del profilo del destinatario, sostituendo automaticamente blocchi di testo e immagini quando vengono soddisfatte determinate condizioni. Con questa funzione puoi creare campagne più sofisticate e offrire al tuo pubblico esperienze altamente mirate e personalizzate.
 
 Configurando i campi per contenuti condizionali, puoi creare ad esempio una personalizzazione dinamica avanzata in base al profilo del destinatario. I blocchi di testo, i collegamenti, l’oggetto e/o le immagini vengono sostituiti nel contenuto del messaggio quando viene soddisfatta una particolare condizione. Ad esempio, puoi visualizzare “Sig.” o “Sig.ra” in base al valore del campo Genere nel database di Adobe Campaign oppure includere un collegamento diverso in base alla lingua preferita del destinatario.
 
@@ -84,7 +84,7 @@ Il contenuto condizionale nelle e-mail può essere creato in due modi:
 * nell’editor di espressioni, creando una condizione con funzioni Helper;
 * in un generatore di contenuti condizionali dedicato, accessibile durante la progettazione di un’e-mail.
 
-La sezione seguente fornisce istruzioni dettagliate su come creare condizioni utilizzando la funzionalità di contenuto condizionale di E-mail designer. Sono disponibili informazioni dettagliate su come creare condizioni utilizzando l’editor di espressioni [qui](#condition-perso-editor).
+La sezione seguente fornisce istruzioni dettagliate su come creare condizioni utilizzando la funzionalità di contenuto condizionale di E-mail Designer. Sono disponibili informazioni dettagliate su come creare condizioni utilizzando l’editor di espressioni [qui](#condition-perso-editor).
 
 In questo esempio, vogliamo creare un messaggio e-mail con più varianti in base alla lingua dei destinatari. Segui questi passaggi:
 
@@ -100,13 +100,9 @@ In questo esempio, vogliamo creare un messaggio e-mail con più varianti in base
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Viene visualizzato un generatore di regole. Fornisce **Profilo**, **Messaggio**, e **Consegna** attributi che puoi sfruttare per creare la condizione.
+1. Viene aperto Query Modeler. Ti consente di creare una condizione filtrando i dati del profilo del destinatario. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md).
 
-   Inoltre, la **Condizioni** Il menu fornisce condizioni predefinite che puoi aggiungere all’area di lavoro per creare facilmente la variante. Per utilizzarli, fai clic su **Aggiungi** quindi sostituire gli elementi tra `<` e `>`dagli elementi desiderati. Assicurati che il valore specificato per `<value>` l&#39;oggetto è racchiuso tra virgolette.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. Quando la condizione per la prima variante del messaggio è pronta, fai clic su **[!UICONTROL Conferma]**. In questo esempio, stiamo creando una regola destinata ai destinatari la cui lingua è “francese”.
+   Quando la condizione per la prima variante del messaggio è pronta, fai clic su **[!UICONTROL Conferma]**. In questo esempio, stiamo creando una regola destinata ai destinatari la cui lingua è “francese”.
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

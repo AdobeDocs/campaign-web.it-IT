@@ -3,10 +3,10 @@ audience: end-user
 title: Importare il contenuto dell’e-mail
 description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 97%
+source-wordcount: '278'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,9 @@ Puoi importare i contenuti HTML esistenti in E-mail designer. Tali contenuti pos
   >
   >La struttura del file .zip non è soggetta a specifici vincoli. Tuttavia, i riferimenti devono essere relativi e coerenti con la struttura ad albero della cartella .zip.
 
-Per importare un file con contenuto HTML, effettua le seguenti operazioni:
+➡️ [Scopri questa funzione nel video](#video)
+
+Per importare un file contenente contenuti HTML, segui la procedura riportata di seguito.
 
 1. Nella pagina Home di [E-mail designer](get-started-email-designer.md), seleziona **[!UICONTROL Importa HTML]**.
 
@@ -50,3 +52,8 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
 1. Ora puoi personalizzare il file importato in base alle esigenze con le funzionalità di E-mail designer [Ulteriori informazioni](content-components.md).
 
+## Video dimostrativo {#video}
+
+Scopri come creare un’e-mail caricando HTML, come renderla compatibile con E-mail designer e come convertirla in un modello.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

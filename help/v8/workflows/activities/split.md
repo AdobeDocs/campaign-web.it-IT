@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 93%
+source-wordcount: '839'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,8 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Filtro attività Dividi"
->abstract="Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
+>abstract="Per applicare una condizione di filtro al sottoinsieme, fare clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utilizzando query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utilizzo del query modeler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    1. Apri il sottoinsieme per visualizzarne le proprietà.
 
-   1. Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database.
+   1. Per applicare una condizione di filtro al sottoinsieme, fare clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utilizzando query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
    1. Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere.
 
@@ -85,6 +86,10 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 1. Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**.
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >Il **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** consente di raggruppare tutti i sottoinsiemi in una singola transizione di output.
 
 L’attività adesso è configurata. All’esecuzione del flusso di lavoro, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
 

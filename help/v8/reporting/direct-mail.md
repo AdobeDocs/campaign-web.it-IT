@@ -1,0 +1,125 @@
+---
+audience: end-user
+title: Rapporti direct mail
+description: Scopri come accedere e utilizzare i report Direct mail
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 37%
+
+---
+
+# Rapporto di consegna direct mail {#direct-mail-report}
+
+Il **Rapporto di consegna direct mail** offre informazioni complete e dati specifici per la consegna direct mailing. Fornisce una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
+
+## Riepilogo della consegna {#delivery-summary-direct-mail}
+
+### Panoramica della consegna {#delivery-overview-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_overview_direct_mail"
+>title="Panoramica della consegna"
+>abstract="Il **Panoramica della consegna** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct mailing. Le metriche sono descritte di seguito."
+
+Il **[!UICONTROL Panoramica della consegna]** fornisce informazioni dettagliate su come i visitatori interagiscono con ciascuna consegna di direct mailing, mostrando metriche di prestazioni chiave (KPI, Key Performance Metrics) essenziali.  Le metriche sono descritte di seguito.
+
+![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
+
+* **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
+
+* **[!UICONTROL Target]**: numero di profili utente idonei come profili target per i messaggi di direct mailing.
+
+* **[!UICONTROL Da escludere]**: numero di profili utente, esclusi dai profili target, che non riceveranno i messaggi di direct mailing.
++++
+
+### Popolazione target iniziale {#direct-mail-delivery-targeted-population}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target_direct_mail"
+>title="Popolazione target iniziale"
+>abstract="Il grafico della **Popolazione target iniziale** mostra i dati relativi ai destinatari e ai messaggi, in base ai risultati della preparazione della consegna."
+
+Il grafico **[!UICONTROL Popolazione target iniziale]** mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
+
+![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
+
+Passa il puntatore del mouse su una parte del grafico per visualizzare il numero esatto.
+
+![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
+
++++Ulteriori informazioni sulle metriche dei rapporti di consegna Direct mail.
+
+* **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
+
+* **[!UICONTROL Da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
+
+* **[!UICONTROL Esclusione]**: numero totale di destinatari esclusi dalla popolazione target.
++++
+
+### Statistiche consegna {#direct-mail-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
+>title="Statistiche consegna"
+>abstract="Il **Statistiche consegna** Il grafico descrive il successo della consegna direct mailing e gli errori che si sono verificati."
+
+Il **[!UICONTROL Statistiche consegna]** graph fornisce una panoramica completa delle prestazioni di consegna e metriche dettagliate per misurarne il successo e l’efficacia.
+
+![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
+
++++Ulteriori informazioni sulle metriche dei rapporti delle campagne direct mail.
+
+* **[!UICONTROL Messaggio inviato]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
+
+* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
+
+* **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
+
+* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
+
++++
+
+### Cause di esclusione {#direct-mail-delivery-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_causes_exclusion_direct_mail"
+>title="Cause di esclusione della consegna"
+>abstract="Il **Cause di esclusione** il grafico illustra la distribuzione dei messaggi rifiutati durante la preparazione per la consegna, suddivisi per regola."
+
+Il **[!UICONTROL Cause di esclusione]** Il grafico fornisce una suddivisione dettagliata dei motivi alla base del rifiuto dei messaggi durante il processo di preparazione della consegna. Questa disaggregazione è organizzata in base a diverse regole, offrendo una visione completa dei fattori che contribuiscono all’esclusione dei messaggi. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){_blank}.
+
+![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+
++++Ulteriori informazioni sulle metriche Cause di esclusione.
+
+* **[!UICONTROL Indirizzo in quarantena]**: tipo di errore generato quando l’indirizzo viene messo in quarantena.
+
+* **[!UICONTROL Indirizzo non specificato]**: tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste.
+
+* **[!UICONTROL Indirizzo di qualità non valida]**: tipo di errore generato quando la valutazione della qualità dell’indirizzo postale è troppo bassa.
+
+* **[!UICONTROL Inserire nell&#39;elenco Bloccati Indirizzo]**: tipo di errore generato quando il destinatario è stato inserito nell&#39;elenco Bloccati al momento dell’esecuzione della consegna.
+
+* **[!UICONTROL Doppio]**: tipo di errore generato quando il destinatario è stato escluso perché i suoi valori delle chiavi non erano univoci.
+
+* **[!UICONTROL Gruppo di controllo]**: l’indirizzo del destinatario fa parte del gruppo di controllo.
+
+* **[!UICONTROL Target di dimensioni limitate]**: è stata raggiunta la dimensione massima di consegna per il destinatario.
+
++++
+
+### Esclusioni {#direct-mail-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusions_direct_mail"
+>title="Esclusioni"
+>abstract="Il **[!UICONTROL Esclusioni]** nella tabella viene visualizzata una suddivisione dettagliata, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
+
+Il **[!UICONTROL Esclusioni]** La tabella fornisce una suddivisione approfondita, suddivisa per regole specifiche, dei messaggi rifiutati durante la fase di preparazione della consegna. Questa suddivisione completa consente di comprendere chiaramente i motivi dell’esclusione di tali messaggi dal processo di consegna.
+
+![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+
+Le metriche disponibili sono le stesse della [Cause di esclusione](#direct-mail-delivery-exclusions) descritto in precedenza.
