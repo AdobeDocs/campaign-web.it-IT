@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB Integrazione con Adobe Experience Manager as a Cloud Service]
+>[!TAB Canale direct mail]
 
-L’integrazione tra l’interfaccia di Adobe Campaign Web e Adobe Experience Manager as a Cloud Service semplifica la gestione dei contenuti e-mail. Ora puoi creare e modificare il contenuto e-mail direttamente in Adobe Experience Manager, quindi importare facilmente i modelli finiti in Adobe Campaign per le consegne.
+**Direct mail** channel è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. La direct mailing è un canale offline che ti consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di direct mailing per inviare e-mail ai tuoi clienti.
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![immagine](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Flussi di lavoro cross-channel]
+[![immagine](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Sfrutta nuove possibilità di automazione e ottimizzazione per creare percorsi clienti più dinamici e personalizzati. Dalla segmentazione avanzata ai trigger condizionali, le attività di flusso di lavoro aggiuntive ti consentono di inviare messaggi mirati e stimolare migliori prestazioni della campagna.
+>[!TAB Modellatore di query in E-mail Designer]
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+Il modellatore di query è ora disponibile per l’utilizzo in E-mail Designer. Consente di creare le condizioni durante la creazione di contenuto condizionale.
 
->[!TAB Composizione del pubblico]
+[![immagine](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Crea nuovi tipi di pubblico in nell’area di lavoro del flusso di lavoro. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte.
+>[!TAB Nuova attività del flusso di lavoro Modifica origine dati]
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+Il **Cambia origine dati** l’attività di targeting ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.
 
->[!TAB E-mail Designer]
+![immagine](assets/do-not-localize/change-data-source.gif)
 
-E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da zero o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail.
-
-[![immagine](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
