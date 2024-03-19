@@ -2,15 +2,22 @@
 audience: end-user
 title: Introduzione alle consegne di direct mailing
 description: Scopri come creare e inviare consegne di direct mailing con Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 
 # Introduzione alle consegne di direct mailing {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Direct mail"
+>abstract="Il canale direct mailing è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. La direct mailing è un canale offline che ti consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di direct mailing per inviare e-mail ai tuoi clienti."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulta le note sulla versione"
+
 
 La direct mailing è un canale offline che consente di produrre file per consegnare in massa lettere personalizzate ai clienti come cartoline, volantini o cataloghi.
 
