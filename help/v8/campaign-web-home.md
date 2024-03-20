@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ Il **Cambia origine dati** l’attività di targeting ti consente di modificare 
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Rendi dinamico il contenuto</strong><br/>Scopri come personalizzare il contenuto in base alle informazioni raccolte sui profili, per renderlo più accattivante e aumentarne la probabilità di lettura.</div>
+    <div><strong>Rendi dinamici i contenuti</strong><br/>Scopri come personalizzare i contenuti in base alle informazioni che hai raccolto sui profili per rendere i contenuti più accattivanti e aumentare la probabilità che vengano letti.</div>
     </td>
   </tr>
   <tr style="border: 0;">
