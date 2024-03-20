@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 71%
 
 ---
 
@@ -51,6 +51,12 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
+>[!TAB La versione di marzo è live!]
+
+Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.3 dell’interfaccia utente web di Adobe Campaign.
+
+[![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Canale direct mail]
 
 **Direct mail** channel è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. La direct mailing è un canale offline che ti consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di direct mailing per inviare e-mail ai tuoi clienti.
@@ -58,12 +64,6 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 ![immagine](assets/do-not-localize/direct-mail.gif)
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Modellatore di query in E-mail Designer]
-
-Il modellatore di query è ora disponibile per l’utilizzo in E-mail Designer. Consente di creare le condizioni durante la creazione di contenuto condizionale.
-
-[![immagine](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Nuova attività del flusso di lavoro Modifica origine dati]
 
