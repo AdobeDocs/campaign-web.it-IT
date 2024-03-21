@@ -3,13 +3,13 @@ audience: end-user
 title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
-
 
 # Inviare utilizzando gli scaglioni {#send-using-waves}
 
@@ -46,7 +46,7 @@ Per inviare le consegne scaglionate, segui la procedura riportata di seguito.
 
    >[!CAUTION]
    >
-   >Assicurati che gli ultimi scaglioni non superino la scadenza di consegna, definita nella [Validità](delivery-settings.md#validity) , altrimenti alcuni messaggi potrebbero non essere inviati. Una regola di controllo specifica per la tipologia, **[!UICONTROL Controllo programmazione ondata]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Ulteriori informazioni sulle regole di controllo in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Assicurati che gli ultimi scaglioni non superino la scadenza di consegna, definita nella [Validità](delivery-settings.md#validity) , altrimenti alcuni messaggi potrebbero non essere inviati. Una regola di controllo specifica per la tipologia, **[!UICONTROL Controllo programmazione ondata]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Ulteriori informazioni sulle regole di controllo in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=it).
    >
    >È inoltre necessario concedere tempo sufficiente per i nuovi tentativi durante la configurazione degli ultimi scaglioni. [Ulteriori informazioni](delivery-settings.md#retries)
 
@@ -99,6 +99,3 @@ Per evitare di essere contrassegnati come spam, puoi aumentare progressivamente 
 A tale scopo, utilizza **[!UICONTROL Pianifica ondate in base a un calendario]** opzione. Ad esempio, imposta la prima ondata su 10%, la seconda su 15%, la terza su 20% e così via.
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-

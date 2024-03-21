@@ -3,10 +3,11 @@ audience: end-user
 title: Utilizzare i modelli di contenuto delle pagine di destinazione
 description: Scopri come salvare il contenuto della pagina di destinazione come modello di progettazione e riutilizzarlo nel web di Campaign
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
