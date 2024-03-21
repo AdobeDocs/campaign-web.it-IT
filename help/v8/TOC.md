@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+source-wordcount: '634'
+ht-degree: 94%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 95%
       + [Cambiare dimensione](workflows/activities/change-dimension.md)
       + [Combina](workflows/activities/combine.md)
       + [Deduplica](workflows/activities/deduplication.md)
-      + [E-mail, SMS e push](workflows/activities/channels.md)
+      + [E-mail, SMS, push, direct mail](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Fork](workflows/activities/fork.md)
       + [Carica file](workflows/activities/load-file.md)
