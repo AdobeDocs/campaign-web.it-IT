@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
-description: Scopri come aggiungere un’attività di consegna (e-mail, push, SMS) nei flussi di lavoro
+description: Scopri come aggiungere un’attività del flusso di lavoro di consegna (e-mail, push, SMS, direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 70%
+source-wordcount: '971'
+ht-degree: 60%
 
 ---
 
-# Attività e-mail, SMS e push {#channel}
+# Attività di e-mail, SMS, push e direct mail {#channel}
 
-Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su canali e-mail, SMS e push. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento della clientela.
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su e-mail, SMS, direct mail e canali push. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento della clientela.
 
-Ad esempio, puoi creare una campagna e-mail di benvenuto che include una serie di messaggi su diversi canali, come e-mail, SMS e push. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
+Ad esempio, puoi creare una campagna e-mail di benvenuto che includa una serie di messaggi su diversi canali, come e-mail, SMS, push e direct mail. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di auguri di compleanno personalizzato a un cliente tramite SMS.
 
 Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono la clientela su più punti di contatto e danno impulso alle conversioni.
 
@@ -24,6 +24,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >* [Creare una consegna e-mail autonoma](../../email/create-email.md)
 >* [Creare una consegna SMS autonoma](../../sms/create-sms.md)
 >* [Creare una consegna push autonoma](../../push/create-push.md)
+>* [Creare una consegna direct mailing autonoma](../../direct-mail/create-direct-mail.md)
 
 ## Prerequisiti {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * Per inviare una consegna ricorrente, avvia il flusso di lavoro con una **Scheduler** attività. È inoltre possibile utilizzare un’ **Scheduler** attività per singole consegne singole per impostare la data di contatto per tale consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
-
 
 ## Configurare l’attività Canale {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 >title="Attività push Android"
 >abstract="L’attività Push Android semplifica il processo di invio delle notifiche push Android come parte del flusso di lavoro. Consente la consegna di messaggi sia una tantum che ricorrenti, automatizzando l’invio di notifiche push Android a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento della clientela."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="Attività direct mail"
+>abstract="L’attività di direct mailing facilita l’invio di direct mailing all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mailing. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento della clientela."
+
 Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 
-1. Seleziona un’attività del canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]** o **[!UICONTROL Notifica push (iOS)]**.
+1. Aggiungi un’attività di canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
 
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
