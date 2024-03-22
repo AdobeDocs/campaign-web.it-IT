@@ -2,21 +2,15 @@
 audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica origine dati
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica origine dati
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 11%
+source-wordcount: '297'
+ht-degree: 12%
 
 ---
 
 # Modificare l’origine dati {#change-data-source}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Modificare l’origine dati nei flussi di lavoro"
->abstract="L’attività Change data source targeting ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
