@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione più recente
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 9%
+source-wordcount: '342'
+ht-degree: 8%
 
 ---
 
@@ -26,19 +26,6 @@ I rilasci dell’interfaccia utente web di Adobe Campaign funzionano secondo un 
 >Questa versione è disponibile per tutti gli utenti che iniziano [Campaign (console) v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Ulteriori informazioni sulle versioni e sugli aggiornamenti della console client di Adobe Campaign in [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
 
 ## Note sulla versione di marzo {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Direct mail"
->abstract="Il canale direct mailing è ora disponibile per l’utilizzo nei flussi di lavoro e nelle consegne autonome. Utilizza il canale offline Direct mailing per creare, personalizzare e generare un file di estrazione e condividerlo con i provider di direct mailing per inviare e-mail ai clienti."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulta le note sulla versione"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Modificare l’origine dati"
->abstract="Utilizza la nuova attività di targeting del flusso di lavoro Modifica origine dati per modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulta le note sulla versione"
-
 
 **Data di rilascio**: 19-20 marzo 2024
 
