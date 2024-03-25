@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 90%
+source-wordcount: '641'
+ht-degree: 89%
 
 ---
 
@@ -63,6 +63,7 @@ ht-degree: 90%
    + Notifiche push {#push}
       + [Introduzione alle notifiche push](push/gs-push.md)
       + [Creare una consegna di notifica push](push/create-push.md)
+      + [Progettare una consegna push potenziata per Android](push/rich-push.md)
       + [Progettare una consegna push](push/content-push.md)
       + [Anteprima e invio di una consegna push](push/send-push.md)
    + SMS {#sms}
