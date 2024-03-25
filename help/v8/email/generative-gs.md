@@ -1,29 +1,40 @@
 ---
 audience: end-user
-title: Introduzione all’assistente ai contenuti
-description: Introduzione all’assistente ai contenuti
-badge: label="Alpha"
+title: Introduzione all’Assistente AI
+description: Introduzione all’Assistente AI
+badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 63%
 
 ---
 
-# Introduzione all’assistente ai contenuti {#generative-gs}
+# Introduzione all’Assistente AI {#generative-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sommario**
+
+* **[Introduzione all’Assistente AI](generative-gs.md)**
+* [Generazione di e-mail con l’Assistente AI](generative-content.md)
+* [Generazione di SMS con l’Assistente AI](generative-sms.md)
+* [Generazione di notifiche push con l’Assistente AI](generative-push.md)
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Assistente contenuto"
->abstract="Dopo aver creato e personalizzato la consegna, puoi migliorarne i contenuti utilizzando la funzione Assistente contenuto. Questa semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+>title="Assistente AI"
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente AI per migliorare i contenuti. Questa semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Definire il contesto per la generazione di contenuti"
+>title="Definire il contesto con l’Assistente IA in Campaign"
 >abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuti, attiva l’interruttore **Migliora con il contenuto corrente**. Puoi anche caricare le risorse del tuo marchio per utilizzarle come origine. Se non utilizzi il contenuto selezionato, devi obbligatoriamente caricare e selezionare le risorse di un marchio."
 
 
@@ -33,13 +44,9 @@ ht-degree: 100%
 >abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Qualsiasi suggerimento, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere collegato a un individuo specifico). Dovresti verificare che ogni output generato da questa funzione sia accurato e assicurarti che sia appropriato al caso d’uso"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=it" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
-
-La funzione Assistente contenuto, basata su IA generativa, è uno strumento prezioso per migliorare il contenuto delle e-mail. Semplifica la personalizzazione e il miglioramento dei contenuti, ottimizzando le consegne e-mail per il tuo pubblico in modo da renderle più efficaci.
+L’Assistente AI è uno strumento prezioso per migliorare il contenuto delle e-mail. Semplifica la personalizzazione e il miglioramento dei contenuti, ottimizzando le consegne e-mail per il tuo pubblico in modo da renderle più efficaci.
 
 Questa funzione genera in automatico dicontenuti e-mail completi, consentendoti di risparmiare tempo e di ottenere contenuti di qualità e coerenti. Utilizzando la IA generativa, puoi creare e-mail coinvolgenti senza difficoltà, migliorando l’efficacia e l’efficienza delle comunicazioni.
-
-
-La funzione Assistente contenuto di Campaign può essere sfruttata nelle e-mail per: [generare immagini](generative-image.md), [generare contenuti di testo](generative-content.md), [generare l’intero contenuto HTML](generative-email.md).
 
 >[!NOTE]
 >
@@ -47,47 +54,47 @@ La funzione Assistente contenuto di Campaign può essere sfruttata nelle e-mail 
 
 ## Guardrail e limitazioni {#generative-guardrails}
 
-Di seguito sono elencate alcune linee guida generali su come utilizza Assistente contenuto nella generazione di e-mail:
+Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assistente IA in Campaign per la generazione di e-mail:
 
 * La qualità del contenuto generato è fortemente influenzata dalla finalità dell’iniziativa di marketing e dal prompt che inserisci nelle impostazioni. Inserisci un prompt chiaro e preciso nelle impostazioni, per consentire al modello GenAI di interpretarle con precisione. 
 * Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Puoi caricare contenuti nei seguenti formati: file PDF, immagini JPEG o PNG, o file ZIP (contenenti formati di file supportati).
-* La risorsa del marchio caricata dovrebbe essere di diemnsione inferiore a 10 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
-* Per creare il contenuto dell’e-mail, utilizza un modello creato in Adobe Campaign o, preferibilmente, uno dei [modelli e-mail incorporati](../email/create-email-templates.md). Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
+* La risorsa del marchio caricata dovrebbe essere di diemnsione inferiore a 50MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
+* Utilizza un modello e-mail creato da Adobe Campaign, preferibilmente [modelli e-mail incorporati](../email/create-email-templates.md), modello specifico per il brand o modello personalizzato per creare il contenuto delle e-mail. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 
 
-La funzione Assistente contenuto di Campaign è soggetta alle seguenti limitazioni:
+All’Assistente IA in Campaign si applicano le seguenti limitazioni:
 
-* È supportata solo la lingua inglese.
-* È disponibile solo per il canale E-mail.
-* Il contenuto GenAI potrebbe non essere sempre accurato: condividi il tuo feedback in modo che i nostri tecnici possano perfezionare i modelli.
-* Puoi caricare più risorse del tuo marchio, ma puoi sfruttarne una sola per una generazione specifica.
+* La lingua supportata è solo inglese.
+* Disponibile solo per i canali e-mail, push e SMS.
+* Il contenuto GenAI potrebbe non essere sempre accurato: condividi il tuo feedback in modo che i nostri ingegneri possano perfezionare i modelli.
+* Puoi caricare più risorse per il brand, ma puoi sfruttarne una sola per una generazione specifica.
 
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="Generazione di testo" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Generazione di e-mail" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Generazione di testo con Assistente contenuto</strong></a>
+<a href="generative-content.md"><strong>Generazione di e-mail con l’Assistente AI</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-image.md">
-<img alt="Generazione di immagini" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-sms.md">
+<img alt="Generazione di SMS" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Generazione di immagini con Assistente contenuto</strong>
+<div><a href="generative-sms.md"><strong>Generazione di SMS con l’Assistente AI</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-email.md">
-<img alt="Generazione di e-mail" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-push.md">
+<img alt="Generazione push" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Generazione di e-mail con Assistente contenuto</strong></a>
+<a href="generative-push.md"><strong>Generazione di notifiche push con l’Assistente AI</strong></a>
 </div>
 <p></td>
 </tr></table>
