@@ -5,10 +5,10 @@ description: Introduzione all’Assistente IA in Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 42%
+ht-degree: 35%
 
 ---
 
@@ -75,7 +75,7 @@ Questo comodo strumento offre suggerimenti intelligenti per perfezionare i conte
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
+1. Inserisci campi di personalizzazione per personalizzare il contenuto SMS in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ Questo comodo strumento offre suggerimenti intelligenti per perfezionare i conte
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la consegna e-mail. [Ulteriori informazioni](../monitor/prepare-send.md)
+1. Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la consegna SMS. [Ulteriori informazioni](../monitor/prepare-send.md)
