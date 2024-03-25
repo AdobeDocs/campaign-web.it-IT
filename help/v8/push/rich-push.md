@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Progettare una consegna di notifiche push potenziata
-description: Scopri come progettare una consegna di notifiche push potenziata con Adobe Campaign Web
+description: Scopri come progettare una consegna di notifiche push potenziata per Android con Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 32%
+source-wordcount: '1394'
+ht-degree: 33%
 
 ---
 
-# Progettare una consegna push potenziata per Android {#content-push}
+# Progettare una consegna push potenziata per Android {#rich-push}
 
 Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
@@ -23,9 +23,7 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
 ## Definisci il contenuto della notifica {#push-message}
 
-Una volta creata la consegna push, puoi definirne il contenuto. Sfoglia le schede seguenti per scoprire come comporre il messaggio per ciascun modello.
-
-Sono disponibili tre modelli:
+Una volta creata la consegna push, puoi definirne il contenuto. Sono disponibili tre modelli:
 
 * **Modello predefinito** consente di inviare notifiche con una semplice icona e un’immagine associata.
 
