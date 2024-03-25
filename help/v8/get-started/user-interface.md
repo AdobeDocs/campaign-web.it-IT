@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1600'
+ht-degree: 99%
 
 ---
 
@@ -376,3 +376,44 @@ Deprecated IDs - to remove in GA: -->
 >title="Aggiornare i dati"
 >abstract="TBC"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="Segnale esterno"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="Parametri del segnale esterno"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="Fine trigger"
+>abstract="TBC"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Codice JavaScript"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="Snippet JavaScript"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Esecuzione JavaScript"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="Transizione JavaScript"
+>abstract="TBC"
