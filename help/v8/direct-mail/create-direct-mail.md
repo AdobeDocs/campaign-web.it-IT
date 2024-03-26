@@ -2,13 +2,13 @@
 audience: end-user
 title: Creare una consegna direct mailing
 description: Scopri come creare una consegna di direct mailing con Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 35%
 
 ---
-
 
 # Creare una consegna direct mailing {#create-direct-mail}
 
@@ -64,4 +64,3 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. Quando la consegna direct mailing è pronta, fai clic sul pulsante **[!UICONTROL Rivedi e invia]** per convalidare e inviare la consegna e generare il file di estrazione. [Scopri come visualizzare in anteprima e inviare una consegna direct mailing](send-direct-mail.md)
-
