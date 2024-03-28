@@ -6,26 +6,26 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
-# Progettare il file di estrazione {#design-direct-mail}
+# Creare il file di estrazione {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenuto del file di estrazione"
->abstract="Fai clic su **Modifica contenuto** per iniziare a progettare il file di estrazione richiesto dal provider di direct mailing. Questo consente di definire le proprietà del file, come l’etichetta e il formato, e di specificare le colonne da includere nel file."
+>abstract="Fai clic sul pulsante **Modifica contenuto** per iniziare a progettare il file di estrazione richiesto dal provider di direct mail. Questo consente di definire le proprietà del file, come l’etichetta e il formato, e di specificare le colonne da includere nel file."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Proprietà file"
->abstract="Configura le proprietà del file di estrazione, ad esempio il nome e il formato. Puoi personalizzare il nome del file utilizzando gli attributi del database utilizzando l’editor di espressioni."
+>abstract="Configura le proprietà del file di estrazione, ad esempio il nome e il formato. Puoi personalizzare il nome del file utilizzando gli attributi del database attraverso l’editor di espressioni."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Contenuto"
->abstract="In questa sezione, specifica le colonne da visualizzare nel file di estrazione. Al termine, puoi ottenere un’anteprima del file di estrazione utilizzando **Simula contenuto** pulsante."
+>abstract="In questa sezione, specifica le colonne da visualizzare nel file di estrazione. Al termine, puoi ottenere un’anteprima del file di estrazione utilizzando il pulsante **Simula contenuto**."
 
 Per progettare il contenuto del file di estrazione generato dalla consegna direct mailing, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla pagina di consegna, quindi configura le proprietà e il contenuto del file.
 

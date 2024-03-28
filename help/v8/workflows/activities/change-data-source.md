@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 12%
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Modificare l’origine dati"
->abstract="Il **Cambia origine dati** L’attività ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
+>abstract="L’attività **Modifica origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
 Il **Cambia origine dati** l&#39;attività è un **targeting** attività. Questa attività ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Ciò offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.
 

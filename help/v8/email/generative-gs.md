@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Introduzione all’Assistente AI
+title: Introduzione all’Assistente IA
 description: Introduzione all’Assistente AI
 badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
-# Introduzione all’Assistente AI {#generative-gs}
+# Introduzione all’Assistente IA {#generative-gs}
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Assistente AI"
+>title="Assistente IA"
 >abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente AI per migliorare i contenuti. Questa semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 

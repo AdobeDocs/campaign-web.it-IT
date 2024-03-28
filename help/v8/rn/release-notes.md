@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 8%
+ht-degree: 29%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Novità"
->abstract="I rilasci dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Le note sulla versione vengono aggiornate diverse volte al mese. **La versione di marzo è ora live**, tra cui il canale direct mailing, la nuova attività del flusso di lavoro Modifica origine dati e altri miglioramenti."
+>abstract="Le versioni dell’interfaccia utente di Adobe Customer Web funzionano su un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Le note sulla versione vengono aggiornate diverse volte al mese. **La versione di marzo è ora live**, tra cui il canale direct mail, la nuova attività del flusso di lavoro Modifica origine dati e altri miglioramenti."
 
 
 <!--Last update: **March 19, 2024**-->
 
-I rilasci dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di distribuzione continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Controllali regolarmente.
+Le versioni dell’interfaccia utente di Adobe Customer Web funzionano su un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Controllali regolarmente.
 
 >[!AVAILABILITY]
 >

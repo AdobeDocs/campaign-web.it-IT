@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -53,8 +53,8 @@ Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Regole di riconciliazione"
->abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplicazione. Per utilizzare gli attributi, selezionare **Attributi semplici** e scegliere i campi di origine e di destinazione. Per creare una condizione di riconciliazione personalizzata utilizzando Query Modeler, seleziona la **Condizioni di riconciliazione avanzate** opzione."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utilizzo del query modeler"
+>abstract="Seleziona le regole di riconciliazione da utilizzare per la deduplica. Per utilizzare gli attributi, seleziona l’opzione **Attributi semplici** e scegli i campi di origine e di destinazione. Per creare una condizione di riconciliazione personalizzata utilizzando query modeler, seleziona l’opzione **Condizioni di riconciliazione avanzate**."
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utilizzo del query modeler"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"

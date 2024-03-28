@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 60%
+ht-degree: 64%
 
 ---
 
@@ -67,7 +67,7 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Attività direct mail"
->abstract="L’attività di direct mailing facilita l’invio di direct mailing all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mailing. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento della clientela."
+>abstract="L’attività direct mail facilita l’invio con direct mail all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel che possono attivare specifiche azioni in base al comportamento della clientela."
 
 Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 

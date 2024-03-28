@@ -6,7 +6,7 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 23%
+ht-degree: 51%
 
 ---
 
@@ -23,9 +23,9 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="Panoramica della consegna"
->abstract="Il **Panoramica della consegna** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct mailing. Le metriche sono descritte di seguito."
+>abstract="La **Panoramica della consegna** presenta le metriche delle prestazioni chiave (KPI) che offrono informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct maili. Le metriche sono descritte di seguito."
 
-Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct mailing. Le metriche sono descritte di seguito.
+La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI) che offrono informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct maili. Le metriche sono descritte di seguito.
 
 ![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -45,12 +45,12 @@ Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="Pubblico target"
->abstract="I dati del destinatario e le informazioni sul messaggio vengono visualizzati nel **Pubblico di destinazione** grafico che riflette l’analisi della preparazione della consegna."
+>abstract="I dati del destinatario e le informazioni sul messaggio vengono visualizzati nel grafico **Pubblico target** che riflette l’analisi della preparazione della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="Pubblico target"
->abstract="Il **Pubblico di destinazione** La tabella fornisce una suddivisione dettagliata dei destinatari e dei messaggi corrispondenti, in base ai risultati del processo di preparazione della consegna."
+>abstract="La tabella **Pubblico target** fornisce una suddivisione dettagliata dei destinatari e dei messaggi corrispondenti, in base ai risultati del processo di preparazione della consegna."
 
 Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
 
@@ -71,12 +71,12 @@ Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati re
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="Statistiche consegna"
->abstract="Il **Statistiche consegna** Il grafico fornisce informazioni sull’efficacia delle consegne Direct mailing, incluse le consegne riuscite ed eventuali errori riscontrati."
+>abstract="Il grafico **Statistiche di consegna** fornisce informazioni sull’efficacia delle consegne direct mail, incluse le consegne riuscite ed eventuali errori riscontrati."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="Statistiche consegna"
->abstract="Il **Statistiche consegna** La tabella descrive il completamento della consegna Direct mailing e gli errori che si sono verificati."
+>abstract="La tabella **Statistiche di consegna** descrive il successo della consegna direct mail e gli errori che si sono verificati."
 
 Il **[!UICONTROL Statistiche consegna]** grafico e tabella forniscono una suddivisione del successo di ogni consegna di direct mailing, con metriche dettagliate descritte di seguito.
 
@@ -97,12 +97,12 @@ Il **[!UICONTROL Statistiche consegna]** grafico e tabella forniscono una suddiv
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="Esclusioni"
->abstract="Il **Cause di esclusione** nella tabella viene visualizzata una suddivisione dettagliata, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
+>abstract="La tabella **Cause di esclusione** mostra una suddivisione dettagliata, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="Cause di esclusione della consegna"
->abstract="Il **Cause di esclusione** il grafico illustra la distribuzione dei messaggi rifiutati durante la preparazione per la consegna, suddivisi per regola."
+>abstract="Il grafico **Cause di esclusione** illustra la distribuzione dei messaggi rifiutati durante la preparazione per la consegna, suddivisi per regola."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 

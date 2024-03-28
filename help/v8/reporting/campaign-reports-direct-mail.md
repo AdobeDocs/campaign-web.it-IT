@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Panoramica della consegna"
->abstract="Il **Panoramica della consegna** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct mailing. Le metriche sono descritte di seguito."
+>abstract="La **Panoramica della consegna** presenta le metriche delle prestazioni chiave (KPI) che offrono informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct maili. Le metriche sono descritte di seguito."
 
 Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna Direct mail. Le metriche sono descritte di seguito.
 
@@ -44,7 +44,7 @@ Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Statistiche iniziali sul pubblico target"
->abstract="I dati del destinatario e le informazioni sul messaggio vengono visualizzati nel **Statistiche del pubblico di destinazione iniziale** tabella che riflette l’analisi della preparazione della consegna."
+>abstract="I dati del destinatario e le informazioni sul messaggio vengono visualizzati nella tabella **Statistiche iniziali sul pubblico target** che riflette l’analisi della preparazione della consegna."
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
 
@@ -65,7 +65,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Statistiche consegna"
->abstract="Il **Statistiche di esecuzione** La tabella descrive il completamento della consegna Direct mailing e gli errori che si sono verificati."
+>abstract="La tabella **Statistiche di esecuzione** descrive il successo della consegna direct mail e gli errori che si sono verificati."
 
 ![](assets/direct-mail-campaign-exec.png)
 
