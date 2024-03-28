@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -51,23 +51,23 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di marzo è live!]
+>[!TAB La versione di marzo è ora live]
 
-Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.3 dell’interfaccia utente web di Adobe Campaign.
+Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.3 dell’interfaccia utente di Adobe Campaign Web.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Canale direct mail]
+>[!TAB Canale Direct mail]
 
-**Direct mail** channel è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. La direct mailing è un canale offline che ti consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di direct mailing per inviare e-mail ai tuoi clienti.
+Il canale **Direct mail** è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. Direct mail è un canale offline che consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di servizi di direct mail per inviare comunicazioni per posta alla clientela.
 
 ![immagine](assets/do-not-localize/direct-mail.gif)
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
->[!TAB Nuova attività del flusso di lavoro Modifica origine dati]
+>[!TAB Nuova attività per flussi di lavoro Cambia origine dati]
 
-Il **Cambia origine dati** l’attività di targeting ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.
+L’attività di targeting **Cambia origine dati** consente di cambiare l’origine dati della tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra diversi database e migliorare le prestazioni.
 
 ![immagine](assets/do-not-localize/change-data-source.gif)
 

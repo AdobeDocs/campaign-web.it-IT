@@ -4,9 +4,9 @@ title: Matrice di funzionalità dell’interfaccia utente/console client di Camp
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 
 
 ## Canali di comunicazione {#channels-capabilities}
 
-Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare **email**, **SMS**, **notifiche push**, **direct mail** e misurarne l’impatto utilizzando vari rapporti dedicati, come dettagliato [in questa sezione](../msg/gs-messages.md). Tuttavia, i seguenti canali sono attualmente **non** disponibile: in-app, LINE, Call center/canale personalizzato, Social marketing con X (Twitter).
+Con l’interfaccia utente di Campaign Web, puoi creare, progettare e inviare **e-mail**, **SMS**, **notifiche push** e **direct mail** e misurarne l’impatto utilizzando vari rapporti dedicati, come descritto di seguito [in questa sezione](../msg/gs-messages.md). Tuttavia, i seguenti canali **non** sono attualmente disponibili: in-app, LINE, call center/canale personalizzato, social marketing con X (Twitter).
 
 Utilizza i collegamenti forniti per sfogliare la documentazione di Campaign v8 (console client) e scoprire ulteriori informazioni su questi canali.
 
@@ -167,7 +167,7 @@ La Gestione dei dati combina una serie di attività che risolvono problemi di ta
 
 >[!NOTE]
 >
->Alcune di queste attività sono disponibili solo nella console client, altre nell’interfaccia utente di Campaign Web, ad esempio **Arricchimento**, **Carica file**, **Cambia origine dati** o **Cambia dimensione** attività. [Ulteriori informazioni sulle attività di targeting e gestione dati nell’interfaccia utente di Campaign Web](../workflows/activities/about-activities.md#targeting)
+>Alcune di queste attività sono disponibili solo nella console client, altre nell’interfaccia utente di Campaign Web, come ad esempio **Arricchimento**, **Carica file**, **Cambia origine dati** o **Cambia dimensione**. [Ulteriori informazioni sulle attività di targeting e gestione dati nell’interfaccia utente di Campaign Web](../workflows/activities/about-activities.md#targeting)
 
 ### Configurazione Federated Data Access (FDA) {#fda}
 
