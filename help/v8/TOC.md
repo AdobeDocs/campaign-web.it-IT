@@ -8,7 +8,7 @@ breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -71,13 +71,13 @@ ht-degree: 89%
       + [Creare una consegna SMS](sms/create-sms.md)
       + [Progettare una consegna SMS](sms/content-sms.md)
       + [Anteprima e invio di una consegna SMS](sms/send-sms.md)
-   + Direct mailing {#direct-mail}
-      + [Introduzione alle consegne di direct mailing](direct-mail/gs-direct-mail.md)
-      + [Creare una consegna direct mailing](direct-mail/create-direct-mail.md)
+   + Direct mail {#direct-mail}
+      + [Introduzione alle consegne Direct mail](direct-mail/gs-direct-mail.md)
+      + [Creare una consegna Direct mail](direct-mail/create-direct-mail.md)
       + [Progettare il file di estrazione](direct-mail/content-direct-mail.md)
-      + [Anteprima e invio di una consegna direct mailing](direct-mail/send-direct-mail.md)
+      + [Anteprima e invio di una consegna Direct mail](direct-mail/send-direct-mail.md)
    + Assistente AI {#ai-assistant}
-      + [Introduzione all’Assistente AI](email/generative-gs.md)
+      + [Introduzione all’Assistente IA](email/generative-gs.md)
       + [Generazione di e-mail con l’Assistente AI](email/generative-content.md)
       + [Generazione di SMS con l’Assistente AI](email/generative-sms.md)
       + [Generazione di notifiche push con l’Assistente AI](email/generative-push.md)
@@ -137,7 +137,7 @@ ht-degree: 89%
       + [Informazioni sulle attività del flusso di lavoro](workflows/activities/about-activities.md)
       + [AND-join](workflows/activities/and-join.md)
       + [Creazione del pubblico](workflows/activities/build-audience.md)
-      + [Modificare l’origine dati](workflows/activities/change-data-source.md)
+      + [Cambiare l’origine dati](workflows/activities/change-data-source.md)
       + [Cambiare dimensione](workflows/activities/change-dimension.md)
       + [Combina](workflows/activities/combine.md)
       + [Deduplica](workflows/activities/deduplication.md)
@@ -165,19 +165,19 @@ ht-degree: 89%
       + [Rapporto sulla consegna e-mail](reporting/email-report.md)
       + [Rapporto sulle consegne push](reporting/push-report.md)
       + [Rapporto sulla consegna SMS](reporting/sms-report.md)
-      + [Rapporto di consegna direct mail](reporting/direct-mail.md)
-   + Rapporti sulla campagna {#campaign-report}
+      + [Rapporto sulle consegne Direct mail](reporting/direct-mail.md)
+   + Rapporti sulle campagne {#campaign-report}
       + [Introduzione ai rapporti sulle campagne](reporting/campaign-reports.md)
       + [Rapporto sulla campagna e-mail](reporting/campaign-reports-email.md)
       + [Rapporto sulla campagna push](reporting/campaign-reports-push.md)
       + [Rapporto sulla campagna SMS](reporting/campaign-reports-sms.md)
-      + [Report campagna direct mail](reporting/campaign-reports-direct-mail.md)
+      + [Rapporto sulle campagne Direct mail](reporting/campaign-reports-direct-mail.md)
    + Rapporti globali {#global-report}
       + [Introduzione ai rapporti globali](reporting/global-reports.md)
       + [Rapporto globale e-mail](reporting/global-report-email.md)
       + [Rapporto globale push](reporting/global-report-push.md)
       + [Rapporto globale SMS](reporting/global-report-sms.md)
-      + [Report globale direct mail](reporting/global-report-direct.md)
+      + [Rapporto globale Direct mail](reporting/global-report-direct.md)
 + Integrazioni {#integrations}
    + [Utilizzare altre soluzioni di Adobe](integrations/integration.md)
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
