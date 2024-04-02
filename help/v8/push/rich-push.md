@@ -4,14 +4,20 @@ title: Progettare una consegna di notifiche push potenziata
 description: Scopri come progettare una consegna di notifiche push potenziata per Android con Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 33%
+source-wordcount: '1417'
+ht-degree: 32%
 
 ---
 
 # Progettare una consegna push potenziata per Android {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Pulsante Ricorda più tardi"
+>abstract="Il **Ricorda più tardi** fornisce l’opzione per pianificare un promemoria. Il campo Timestamp richiede un valore che rappresenti l’epoca in secondi."
 
 Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
@@ -99,7 +105,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Clic **[!UICONTROL Aggiungi promemoria in un secondo momento]** per aggiungere un’opzione Ricordami più tardi alla notifica push. Immetti un **[!UICONTROL Etichetta]** e **[!UICONTROL Timestamp]**.
 
-   Nel campo Timestamp è previsto un valore che rappresenta un’epoca in secondi.
+   Il campo Timestamp prevede un valore che rappresenti l’epoca in secondi.
 
    ![](assets/rich_push_basic_5.png)
 
