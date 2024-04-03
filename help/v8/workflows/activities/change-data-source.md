@@ -6,21 +6,21 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
-# Modificare l’origine dati {#change-data-source}
+# Cambiare l’origine dati {#change-data-source}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Modificare l’origine dati"
->abstract="Utilizza la nuova attività di targeting del flusso di lavoro Modifica origine dati per modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Consulta le note sulla versione"
+>title="Cambiare l’origine dati"
+>abstract="Utilizza la nuova attività di targeting del flusso di lavoro Modifica l’origine dati per cambiare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra diversi database e migliorare le prestazioni."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
->title="Modificare l’origine dati"
+>title="Cambiare l’origine dati"
 >abstract="L’attività **Modifica origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
 Il **Cambia origine dati** l&#39;attività è un **targeting** attività. Questa attività ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Ciò offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.

@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 65%
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Assistente IA"
->abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente AI per migliorare i contenuti. Questa semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA per migliorare il contenuto. Questa semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 
 >[!CONTEXTUALHELP]

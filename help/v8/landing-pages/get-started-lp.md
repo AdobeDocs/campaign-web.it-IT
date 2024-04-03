@@ -7,7 +7,7 @@ exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 >id="acw_homepage_welcome_rn5"
 >title="Pagine di destinazione"
 >abstract="Scopri la nuova esperienza della pagina di destinazione. Crea, progetta e condividi all’istante pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire casi di utilizzo di acquisizione, abbonamento/annullamento dell’abbonamento e inserire nell’elenco Bloccati i casi d’uso, in base ai modelli incorporati."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Consulta le note sulla versione"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 [!DNL Adobe Campaign] consente di creare, progettare e condividere pagine di destinazione.
 
