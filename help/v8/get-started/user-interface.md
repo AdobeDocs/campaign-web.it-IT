@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 82%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Questo modello è solo pronto"
->abstract="TBC"
-
+>abstract="Non si dispone delle autorizzazioni necessarie per modificare questo modello. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Pagine di destinazione predefinite"
->abstract="TBC"
+>title="Pagina di destinazione predefinita"
+>abstract="Seleziona la pagina di destinazione predefinita associata a questo servizio di abbonamento."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Servizi di abbonamento"
->abstract="TBC"
+>title="Attività del servizio di abbonamento"
+>abstract="Utilizza Adobe Campaign per creare e monitorare servizi come le newsletter e per verificare le iscrizioni o i loro annullamenti. Le iscrizioni si applicano solo alla consegna di e-mail e SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parametri dei servizi di abbonamento"
->abstract="TBC"
+>title="Parametri del servizio di abbonamento"
+>abstract="Seleziona e conferma le impostazioni per il servizio di abbonamento."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transizione in uscita dei servizi di abbonamento"
->abstract="TBC"
+>abstract="Attiva/disattiva **Generare una transizione in uscita** per aggiungere una transizione dopo l’attività."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Aggiornare i dati"
->abstract="TBC"
+>abstract="Il **Aggiorna dati** l’attività esegue un aggiornamento di massa dei campi nel database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Aggiornare i dati"
->abstract="TBC"
+>title="Seleziona come aggiornare i dati"
+>abstract="Il **Tipo di operazione** consente di scegliere il processo da eseguire sui dati del database. Seleziona la prima opzione per aggiungere dati o aggiornarli (se sono già stati aggiunti). È inoltre possibile aggiungere, aggiornare o eliminare solo dati. Seleziona la **Aggiornare e unire le raccolte** selezionare un record principale a cui collegare i duplicati ed eliminarli in modo sicuro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Aggiornare i dati"
->abstract="TBC"
+>title="Identificazione record"
+>abstract="Specifica come identificare i record nel database: se i dati si riferiscono a una dimensione di targeting esistente, seleziona la **Utilizzo della dimensione di targeting** e seleziona la dimensione di targeting e i campi da aggiornare. In caso contrario, specifica uno o più collegamenti personalizzati per identificare i dati nel database o l’uso diretto delle chiavi di riconciliazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Aggiornare i dati"
->abstract="TBC"
+>title="Seleziona i campi da aggiornare"
+>abstract="Seleziona i campi da aggiornare e le impostazioni di riconciliazione. È possibile utilizzare **Mappatura automatica** per identificare automaticamente i campi da aggiornare."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Aggiornare i dati"
->abstract="TBC"
+>title="Opzioni avanzate per aggiornare i dati"
+>abstract="Il **Opzioni avanzate** La sezione ti consente di specificare impostazioni aggiuntive per gestire dati e duplicati."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Aggiornare i dati"
->abstract="TBC"
+>title="Genera una transizione in uscita"
+>abstract="Attiva/disattiva **Generare una transizione in uscita** per aggiungere una transizione in uscita che verrà attivata alla fine dell’esecuzione del **Aggiorna dati** attività. L’aggiornamento in genere segna la fine di un flusso di lavoro di targeting e pertanto l’opzione non è attivata per impostazione predefinita."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Aggiornare i dati"
->abstract="TBC"
+>title="Genera una transizione in uscita per i rifiuti."
+>abstract="Attiva/disattiva **Generare una transizione in uscita per i rifiuti** opzione per aggiungere una transizione in uscita contenente record che non sono stati elaborati correttamente dopo l’aggiornamento (ad esempio se è presente un duplicato). L’aggiornamento in genere segna la fine di un flusso di lavoro di targeting e pertanto l’opzione non è attivata per impostazione predefinita."
 
 
 

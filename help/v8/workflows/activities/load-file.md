@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 49%
+source-wordcount: '394'
+ht-degree: 46%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Elimina file dopo l’importazione"
->abstract="TBC"
+>abstract="Attiva/disattiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo l&#39;importazione."
 
 L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
 
