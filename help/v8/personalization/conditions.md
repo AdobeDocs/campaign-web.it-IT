@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 82%
+source-wordcount: '946'
+ht-degree: 81%
 
 ---
 
@@ -42,7 +42,7 @@ Per definire il contenuto condizionale di una consegna utilizzando l’editor di
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. Nell’editor di personalizzazione, passa al menu **[!UICONTROL Funzioni Helper]** a sinistra.
+1. Nell’editor di personalizzazione, passa a **[!UICONTROL Condizioni]** menu a sinistra.
 
 1. Per iniziare a creare la condizione, fai clic sull’icona “+” accanto alla funzione **If** (se). La seguente riga viene aggiunta alla schermata centrale: `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
