@@ -3,10 +3,10 @@ audience: end-user
 title: Caricare un pubblico per consegne e-mail da un file
 description: Scopri come caricare i profili da un file esterno per creare il pubblico delle e-mail
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 77%
+source-wordcount: '657'
+ht-degree: 51%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 77%
 >title="Anteprima del file"
 >abstract="Controlla l’anteprima delle colonne del file esterno. Questa schermata mostra solo un massimo di 30 record."
 
-Puoi eseguire il targeting dei profili memorizzati in un file esterno. I profili non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la [personalizzazione](../personalization/gs-personalization.md). Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). Questo articolo descrive come caricare un profilo esterno durante la creazione di una consegna e-mail indipendente. Per caricare dati da un file in un flusso di lavoro, consulta [questa pagina](../workflows/activities/load-file.md).
+L’interfaccia utente web di Adobe Campaign consente di eseguire il targeting dei profili memorizzati in un file esterno. Una volta caricati i profili, tutti i campi del file di input sono disponibili per l’utilizzo per personalizzare la consegna [Scopri come personalizzare i contenuti](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Questa funzionalità è disponibile solo per **consegne e-mail**. Non può essere utilizzato con consegne SMS o push.
->
->* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
->
->* I profili non vengono aggiunti al database ma vengono caricati e sono disponibili solo per questa consegna e-mail autonoma specifica.
+I profili del file di input non vengono aggiunti al database. Sono caricati e disponibili solo per questa consegna e-mail autonoma specifica.
 
-## Selezionare e configurare il file {#upload}
+>[!NOTE]
+>
+>Questa pagina descrive come caricare profili esterni da un file durante la creazione di una consegna e-mail autonoma. Per caricare dati da un file nel contesto di un flusso di lavoro, consulta [questa pagina](../workflows/activities/load-file.md).
 
-Per eseguire il targeting dei profili da un file locale direttamente dall’interfaccia e-mail, segui questi passaggi:
+## Da leggere {#must-read}
+
+* Questa funzionalità è disponibile per **consegne e-mail** solo.
+* Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV).
+* Non è possibile utilizzare i [gruppi di controllo](control-group.md) durante il caricamento della popolazione target da un file esterno.
+
+## Seleziona e configura il file di input {#upload}
+
+Per eseguire il targeting dei profili da un file nelle e-mail, effettua le seguenti operazioni:
 
 1. Apri una consegna e-mail esistente oppure [crea una nuova consegna e-mail](../email/create-email.md).
-1. Nella finestra di creazione della consegna e-mail, dalla sezione **Pubblico**, fai clic sul pulsante **Seleziona pubblico** e scegli l’opzione **Seleziona da file**.
+1. In **Pubblico** , fare clic sul pulsante **Seleziona pubblico** quindi scegliere **Seleziona da file**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Seleziona il file locale da usare. Il formato deve essere allineato con il [file di esempio](#sample-file).
+1. Selezionare il file locale da caricare. Il formato del file deve essere allineato con [file di esempio](#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
-1. Scegli la colonna che contiene l’indirizzo e-mail dall’elenco a discesa **Campo indirizzo**. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna dell’elenco bloccati.
-1. Regola le impostazioni delle colonne e il formato dei dati dalle opzioni disponibili.
+
+   ![](assets/select-from-file-map.png)
+
+1. Specifica la colonna contenente l’indirizzo e-mail del **Campo indirizzo** elenco a discesa. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna dell’elenco bloccati.
+1. Regola le impostazioni delle colonne e come formattare i dati dalle opzioni disponibili.
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
 
-Durante la creazione e la personalizzazione del contenuto del messaggio, puoi selezionare i campi dal file di input nell’[editor di personalizzazione](../personalization/gs-personalization.md).
+Quando crei il contenuto del messaggio, puoi aggiungere la personalizzazione sfruttando i campi del file di input. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ Durante la creazione e la personalizzazione del contenuto del messaggio, puoi se
 >title="Caricare un pubblico da un file"
 >abstract="Sono supportati i formati di file TXT e CSV. Utilizza la prima riga come intestazione di colonna. Allinea il formato del file con il file di esempio fornito nel collegamento seguente."
 
-Sono supportati i formati TXT e CSV. La prima riga è l’intestazione della colonna.
+Quando carichi un file esterno per eseguire il targeting dei profili nelle consegne, assicurati che il file di input corrisponda ai consigli seguenti:
 
-Allinea il formato del file con il file di esempio di seguito:
+* I formati supportati sono TXT e CSV.
+* La prima riga del file è l’intestazione della colonna.
+* Allinea il formato del file con il file di esempio di seguito:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Anteprima e verifica dell’e-mail {#test}
 

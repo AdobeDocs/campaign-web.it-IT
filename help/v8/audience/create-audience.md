@@ -3,10 +3,10 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 53%
+source-wordcount: '898'
+ht-degree: 46%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Tipi di pubblico"
->abstract="Da questa schermata, puoi accedere all’elenco di tutti i tipi di pubblico a cui è possibile indirizzare le consegne. Fai clic su **Crea** per creare nuovi tipi di pubblico in un’area di lavoro visiva utilizzando varie attività del flusso di lavoro, ad esempio **Dividi** o **Escludi**."
+>abstract="Da questa schermata, puoi accedere all’elenco di tutti i tipi di pubblico a cui è possibile indirizzare le attività nei flussi di lavoro o nelle consegne autonome. Clic **Crea** per creare un nuovo pubblico in un’area di lavoro visiva utilizzando varie attività del flusso di lavoro, ad esempio **Dividi** o **Escludi**.<br/><br/>Il **[!UICONTROL Origine]** le colonne indicano le origini dei tipi di pubblico: **[!UICONTROL Adobe Campaign]** i tipi di pubblico sono stati creati nella console di Adobe Campaign v8 o nell’interfaccia utente web, mentre **[!UICONTROL Adobe Experience Platform:]** I tipi di pubblico sono stati creati all’interno di Adobe Experience Platform e integrati in Campaign utilizzando l’integrazione Adobe Sources and Destinations."
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="Impostazioni pubblico"
->abstract="Immetti il nome del pubblico ed eventuali opzioni aggiuntive, quindi fai clic sul pulsante **Crea pubblico**."
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Campaign Web consente di creare nuovi tipi di pubblico in un’area di lavoro visiva per i flussi di lavoro. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Ad esempio, puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte
 

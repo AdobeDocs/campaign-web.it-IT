@@ -3,10 +3,10 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 64%
+source-wordcount: '333'
+ht-degree: 65%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 64%
 >abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona “Mostra filtri” per filtrare l’elenco o seleziona una cartella specifica."
 
 Questa sezione spiega come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna. Quando definisci il target principale di una consegna, puoi anche:
-
 * [Creare un pubblico una tantum](one-time-audience.md) utilizzando il modellatore di query.
 * [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 
-I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dal menu **Pubblico** a sinistra. Provengono da più origini, ad esempio dalla console client, da flussi di lavoro per pubblico di Campaign Web o da Adobe Experience Platform. [Scopri come monitorare e gestire i tipi di pubblico](manage-audience.md)
+I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dal menu **Pubblico** a sinistra. Provengono da più origini, ad esempio dalla console client, da flussi di lavoro per pubblico di Campaign Web o da Adobe Experience Platform. [Ulteriori informazioni sul pubblico](manage-audience.md)
 
 Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 
-1. Dalla sezione **Pubblico** dell’assistente alla creazione della consegna, fai clic su **[!UICONTROL Seleziona pubblico]** quindi scegliere **[!UICONTROL Seleziona pubblico]** per utilizzare un pubblico esistente.
+1. Dalla sezione **Pubblico** dell’assistente alla creazione della consegna, fai clic su **[!UICONTROL Seleziona pubblico]** quindi scegliere **[!UICONTROL Seleziona pubblico]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
