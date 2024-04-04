@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ I blocchi di contenuto incorporati sono:
 
 * **[!UICONTROL Banner di rinuncia predefinito]**
 * **[!UICONTROL Enabled by Adobe Campaign]** : inserisce il logo “Enabled by Adobe Campaign”.
-* **[!UICONTROL Funzione di formattazione per nomi propri]**: genera la funzione JavaScript **[!UICONTROL toSmartCase]**, che applica il maiuscolo alla prima lettera di ogni parola.
+* **[!UICONTROL Funzione di formattazione per i sostantivi corretti]**: genera il **[!UICONTROL toSmartCase]** Funzione JavaScript, che trasforma la prima lettera di ogni parola in maiuscolo.
 * **[!UICONTROL Saluti]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,” 
 * **[!UICONTROL Inserisci logo]**: inserisce un logo definito nelle impostazioni dell’istanza.
 * **[!UICONTROL Collegamento a una pagina mirror]**: inserisce un collegamento alla [pagina mirror](../email/mirror-page.md). Il formato predefinito è: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”.
