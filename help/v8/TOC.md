@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 95%
+source-wordcount: '646'
+ht-degree: 94%
 
 ---
 
@@ -109,9 +109,10 @@ ht-degree: 95%
       + [Creare un profilo](audience/create-profile.md)
       + [Utilizzare i profili di test](audience/test-profiles.md)
    + Utilizzare i tipi di pubblico {#audiences}
+      + [Introduzione ai tipi di pubblico](audience/manage-audience.md)
       + [Creare tipi di pubblico](audience/create-audience.md)
-      + [Monitorare e gestire tipi di pubblico](audience/manage-audience.md)
    + Selezionare i destinatari della consegna {#target-audiences}
+      + [Introduzione alla selezione del pubblico](audience/delivery-recipients.md)
       + [Selezionare un pubblico esistente](audience/add-audience.md)
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
       + [Caricare un pubblico per consegne e-mail da un file](audience/file-audience.md)
