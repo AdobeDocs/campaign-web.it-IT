@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2f39b200df146762fdff6e6a76aecb039d1fab6b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '726'
 ht-degree: 82%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 82%
 >id="acw_orchestration_enrichment_data"
 >title="Attività di Arricchimento"
 >abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di Arricchimento per segmentare la clientela in gruppi distinti in base ai comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico target."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Unione semplice"
+>abstract="Unione semplice"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
