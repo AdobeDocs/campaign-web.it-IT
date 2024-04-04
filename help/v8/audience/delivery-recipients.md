@@ -2,13 +2,13 @@
 audience: end-user
 title: Selezionare i destinatari della consegna
 description: Scopri come selezionare i destinatari delle consegne
-source-git-commit: e0a5a5d8d24df05e3bdb98ecb57eb89d26c8bf3d
+exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 28%
 
 ---
-
 
 # Selezionare i destinatari della consegna {#add-audience}
 
@@ -19,3 +19,4 @@ Per definire i destinatari di una consegna, puoi:
 * [Caricare un pubblico da un file esterno](file-audience.md). Questa opzione è disponibile solo per le consegne di e-mail autonome.
 
 Nel targeting di un pubblico, puoi definire dei **gruppi di controllo** per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne. [Scopri come impostare un gruppo di controllo](control-group.md)
+

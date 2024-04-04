@@ -3,7 +3,7 @@ audience: end-user
 title: Caricare un pubblico per consegne e-mail da un file
 description: Scopri come caricare i profili da un file esterno per creare il pubblico delle e-mail
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 51%
