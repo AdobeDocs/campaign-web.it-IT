@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 88%
+source-wordcount: '845'
+ht-degree: 87%
 
 ---
 
@@ -51,6 +51,11 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >id="acw_orchestration_split_generatesubsets"
 >title="Genera tutti i sottoinsiemi nella stessa tabella"
 >abstract="Attiva questa opzione per raggruppare tutti i sottoinsiemi in una singola transizione di output."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Ignora transizione vuota"
+>abstract="Salta la transizione vuota."
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
