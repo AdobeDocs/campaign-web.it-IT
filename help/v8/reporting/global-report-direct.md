@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporti globali per il canale di direct mailing
 description: Ulteriori informazioni sui rapporti globali per il canale di direct mailing
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 51%
 
 ---
@@ -101,7 +101,7 @@ Il **[!UICONTROL Statistiche consegna]** grafico e tabella forniscono una suddiv
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Cause di esclusione della consegna"
+>title="Cause di esclusione"
 >abstract="Il grafico **Cause di esclusione** illustra la distribuzione dei messaggi rifiutati durante la preparazione per la consegna, suddivisi per regola."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
