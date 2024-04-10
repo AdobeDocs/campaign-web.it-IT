@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
 source-wordcount: '2209'
-ht-degree: 75%
+ht-degree: 98%
 
 ---
 
@@ -313,29 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Questo modello è solo pronto"
->abstract="Non si dispone delle autorizzazioni necessarie per modificare questo modello. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
+>abstract="Non disponi delle autorizzazioni necessarie per modificare questo modello. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Pagina di destinazione predefinita"
->abstract="Seleziona la pagina di destinazione predefinita associata a questo servizio di abbonamento."
+>abstract="Seleziona la pagina di destinazione predefinita associata a questo servizio in abbonamento."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Attività del servizio di abbonamento"
+>title="Attività del servizio in abbonamento"
 >abstract="Utilizza Adobe Campaign per creare e monitorare servizi come le newsletter e per verificare le iscrizioni o i loro annullamenti. Le iscrizioni si applicano solo alla consegna di e-mail e SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parametri del servizio di abbonamento"
->abstract="Seleziona e conferma le impostazioni per il servizio di abbonamento."
+>title="Parametri dei servizi in abbonamento"
+>abstract="Seleziona e conferma le impostazioni per il servizio in abbonamento."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transizione in uscita dei servizi di abbonamento"
->abstract="Attiva/disattiva **Generare una transizione in uscita** per aggiungere una transizione dopo l’attività."
+>abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l’attività."
 
 
 <!--Update file-->
@@ -343,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Aggiornare i dati"
->abstract="Il **Aggiorna dati** l’attività esegue un aggiornamento di massa dei campi nel database."
+>abstract="L’attività **Aggiorna dati** esegue un aggiornamento di massa dei campi nel database."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="Seleziona come aggiornare i dati"
->abstract="Il **Tipo di operazione** consente di scegliere il processo da eseguire sui dati del database. Seleziona la prima opzione per aggiungere dati o aggiornarli (se sono già stati aggiunti). È inoltre possibile aggiungere, aggiornare o eliminare solo dati. Seleziona la **Aggiornare e unire le raccolte** selezionare un record principale a cui collegare i duplicati ed eliminarli in modo sicuro."
+>abstract="Il campo **Tipo di operazione** ti consente di scegliere il processo da eseguire sui dati del database. Seleziona la prima opzione per aggiungere dati o aggiornarli (se sono già stati aggiunti). È inoltre possibile solo aggiungere, aggiornare o eliminare dati. Scegli **Aggiorna e unisci le raccolte** per selezionare un record principale a cui collegare i duplicati e quindi eliminarli in modo sicuro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="Identificazione record"
->abstract="Specifica come identificare i record nel database: se i dati si riferiscono a una dimensione di targeting esistente, seleziona la **Utilizzo della dimensione di targeting** e seleziona la dimensione di targeting e i campi da aggiornare. In caso contrario, specifica uno o più collegamenti personalizzati per identificare i dati nel database o l’uso diretto delle chiavi di riconciliazione."
+>abstract="Specifica come identificare i record nel database: se i dati si riferiscono a una dimensione di targeting esistente, seleziona l’opzione **Utilizzo della dimensione di targeting** e quindi la dimensione di targeting e i campi da aggiornare. In caso contrario, specifica uno o più collegamenti personalizzati per identificare i dati nel database o l’uso diretto delle chiavi di riconciliazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="Seleziona i campi da aggiornare"
->abstract="Seleziona i campi da aggiornare e le impostazioni di riconciliazione. È possibile utilizzare **Mappatura automatica** per identificare automaticamente i campi da aggiornare."
+>abstract="Seleziona i campi da aggiornare e le impostazioni di riconciliazione. È possibile utilizzare l’opzione **Mappatura automatica** per identificare automaticamente i campi da aggiornare."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="Opzioni avanzate per aggiornare i dati"
->abstract="Il **Opzioni avanzate** La sezione ti consente di specificare impostazioni aggiuntive per gestire dati e duplicati."
+>abstract="La sezione **Opzioni avanzate** ti consente di specificare impostazioni aggiuntive per gestire dati e duplicati."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="Genera una transizione in uscita"
->abstract="Attiva/disattiva **Generare una transizione in uscita** per aggiungere una transizione in uscita che verrà attivata alla fine dell’esecuzione del **Aggiorna dati** attività. L’aggiornamento in genere segna la fine di un flusso di lavoro di targeting e pertanto l’opzione non è attivata per impostazione predefinita."
+>abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione in uscita che verrà attivata alla fine dell’esecuzione dell’attività **Aggiorna dati**. L’aggiornamento in genere segna la fine di un flusso di lavoro di targeting e pertanto l’opzione non è attivata per impostazione predefinita."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Genera una transizione in uscita per i rifiuti."
->abstract="Attiva/disattiva **Generare una transizione in uscita per i rifiuti** opzione per aggiungere una transizione in uscita contenente record che non sono stati elaborati correttamente dopo l’aggiornamento (ad esempio se è presente un duplicato). L’aggiornamento in genere segna la fine di un flusso di lavoro di targeting e pertanto l’opzione non è attivata per impostazione predefinita."
+>title="Genera una transizione in uscita per i valori rifiutati"
+>abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita per i valori rifiutati** per aggiungere una transizione in uscita contenente record che non sono stati elaborati correttamente dopo l’aggiornamento (ad esempio se è presente un duplicato). L’aggiornamento in genere segna la fine di un flusso di lavoro di targeting e pertanto l’opzione non è attivata per impostazione predefinita."
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Segnale esterno"
->abstract="Il **Segnale esterno** L’attività ti consente di attivare l’esecuzione di un set di attività in un flusso di lavoro da un’API o da un altro flusso di lavoro."
+>abstract="L’attività **Segnale esterno** ti consente di attivare l’esecuzione di un set di attività in un flusso di lavoro da un’API o da un altro flusso di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,24 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Codice JavaScript"
->abstract="Il **Codice JavaScript** L’attività esegue un codice JavaScript nel contesto di un flusso di lavoro."
+>abstract="L’attività **Codice JavaScript** esegue un codice JavaScript nel contesto di un flusso di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Snippet JavaScript"
 >abstract="Configura il codice da eseguire."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Ulteriori informazioni sono disponibili nella documentazione di Campaign v8 (console)"
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/api" text="Ulteriori informazioni sono disponibili nella documentazione di Campaign v8 (console)"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="Esecuzione JavaScript"
->abstract="Per impostazione predefinita, la fase di esecuzione non può superare 1 ora. Dopo questo ritardo, il processo viene interrotto con un messaggio di errore e l’esecuzione dell’attività non riesce. Attiva/disattiva **Interrompi esecuzione dopo** per definire un ritardo personalizzato. Per ignorare questo limite, imposta il valore su 0."
+>abstract="Per impostazione predefinita, la fase di esecuzione non può superare 1 ora. Dopo questo ritardo, il processo viene interrotto con un messaggio di errore e l’esecuzione dell’attività non riesce. Attiva/disattiva l’opzione **Interrompi esecuzione dopo** per definire un ritardo personalizzato. Per ignorare questo limite, imposta il valore su 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Errori di processo"
->abstract="Attiva/disattiva **Errori di processo** per aggiungere una transizione in uscita contenente errori."
+>abstract="Attiva/disattiva l’opzione **Errori di processo** per aggiungere una transizione in uscita contenente errori."
 
 
 
@@ -426,13 +426,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
->title="Attività Extract file"
->abstract="Attività Extract file"
+>title="Estrai file"
+>abstract="Attività di estrazione file"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="File da estrarre"
->abstract="Selezionare il file da estrarre."
+>abstract="Seleziona il file da estrarre."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
@@ -442,17 +442,17 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post-elaborazione"
->abstract="Definire un passaggio di post-elaborazione"
+>abstract="Definisci un passaggio di post-elaborazione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Transizione in uscita"
->abstract="Attiva/disattiva **Generare una transizione in uscita** per aggiungere una transizione in uscita dopo l’attività corrente."
+>abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione in uscita dopo l’attività corrente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Errori di processo"
->abstract="Attiva/disattiva **Errori di processo** per aggiungere una transizione in uscita contenente errori."
+>abstract="Attiva/disattiva l’opzione **Errori di processo** per aggiungere una transizione in uscita contenente errori."
 
 <!-- Workflow settings -->
 
