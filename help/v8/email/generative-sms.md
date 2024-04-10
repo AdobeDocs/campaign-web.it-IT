@@ -5,10 +5,11 @@ description: Introduzione all’Assistente IA in Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 35%
 
 **Sommario**
 
-* [Introduzione all’Assistente AI](generative-gs.md)
+* [Introduzione all’Assistente IA](generative-gs.md)
 * [Generazione di e-mail con l’Assistente AI](generative-content.md)
 * **[Generazione di SMS con l’Assistente AI](generative-sms.md)**
 * [Generazione di notifiche push con l’Assistente AI](generative-push.md)

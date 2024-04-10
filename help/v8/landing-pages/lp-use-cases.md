@@ -52,7 +52,7 @@ In [!DNL Adobe Campaign Web] quattro modelli predefiniti consentono di implement
 
    * [Acquisizione](#lp-acquisition)
    * [Iscrizione](#lp-subscription)
-   * [Annullamento iscrizione](#lp-unsubscription)
+   * [Annullamento dell’abbonamento](#lp-unsubscription)
    * [Elenco Bloccati](#lp-denylist)
 
 1. Modifica il resto del contenuto in base alle esigenze, salva le modifiche e chiudi.
@@ -154,7 +154,7 @@ Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonarsi
 
 Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione e inviano il modulo, verranno indirizzati alla pagina di conferma e aggiunti all’elenco degli abbonamenti.
 
-## Annullamento iscrizione {#lp-unsubscription}
+## Annullamento dell’abbonamento {#lp-unsubscription}
 
 Puoi consentire ai clienti di annullare l’abbonamento a un servizio utilizzando una pagina di destinazione.
 

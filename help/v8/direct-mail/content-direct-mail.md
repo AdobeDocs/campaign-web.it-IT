@@ -10,7 +10,7 @@ ht-degree: 22%
 
 ---
 
-# Creare il file di estrazione {#design-direct-mail}
+# Progettare il file di estrazione {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"

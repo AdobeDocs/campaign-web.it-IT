@@ -10,7 +10,7 @@ ht-degree: 50%
 
 ---
 
-# Rapporto di consegna direct mail {#direct-mail-report}
+# Rapporto sulle consegne Direct mail {#direct-mail-report}
 
 Il **Rapporto di consegna direct mail** offre informazioni complete e dati specifici per la consegna direct mailing. Fornisce una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
 
