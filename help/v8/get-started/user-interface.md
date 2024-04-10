@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 76%
+source-wordcount: '2209'
+ht-degree: 75%
 
 ---
 
@@ -421,6 +421,7 @@ Deprecated IDs - to remove in GA: -->
 >abstract="Attiva/disattiva **Errori di processo** per aggiungere una transizione in uscita contenente errori."
 
 
+
 <!--ExtractFile-->
 
 >[!CONTEXTUALHELP]
@@ -474,3 +475,74 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="Script di inizializzazione dell’esecuzione"
 >abstract="Script di inizializzazione dell’esecuzione"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="Query incrementale"
+>abstract="Query incrementale"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="Cronologia query incrementale"
+>abstract="Cronologia query incrementale"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="Attività Transfer file"
+>abstract="Attività Transfer file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="Opzioni di trasferimento file"
+>abstract="Opzioni di trasferimento file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="Attività di trasferimento file"
+>abstract="Attività di trasferimento file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="Trasferisci file server remoto"
+>abstract="Trasferisci file server remoto"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="Trasferisci origine file"
+>abstract="Trasferisci origine file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Elimina i file di origine dopo il trasferimento"
+>abstract="Elimina i file di origine dopo il trasferimento"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Visualizza i registri di sessione"
+>abstract="Visualizza i registri di sessione"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Elenca tutti i file"
+>abstract="Elenca tutti i file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Storicizzazione del file"
+>abstract="Storicizzazione del file"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Elabora file mancanti"
+>abstract="Elabora file mancanti"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Errori di processo"
+>abstract="Errori di processo"
