@@ -33,7 +33,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Non contattare più"
+>title="Da non contattare più"
 >abstract="Questa sezione offre informazioni approfondite sulle preferenze di contatto del profilo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
