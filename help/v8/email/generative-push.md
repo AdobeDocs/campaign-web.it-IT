@@ -6,33 +6,42 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 34%
+source-wordcount: '546'
+ht-degree: 30%
 
 ---
 
-# Generazione di notifiche push con l’Assistente AI {#generative-push}
+# Generazione di notifiche push con l’Assistente IA {#generative-push}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
 * [Introduzione all’Assistente IA](generative-gs.md)
-* [Generazione di e-mail con l’Assistente AI](generative-content.md)
-* [Generazione di SMS con l’Assistente AI](generative-sms.md)
+* [Generazione di e-mail con l’Assistente IA](generative-content.md)
+* [Generazione di SMS con l’Assistente IA](generative-sms.md)
 * **[Generazione di notifiche push con l’Assistente AI](generative-push.md)**
 
 >[!ENDSHADEBOX]
 
-Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente all’intelligenza artificiale in Campaign basato sull’intelligenza artificiale generativa per portare il contenuto al livello successivo.
 
 L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
+
+Con l’Assistente AI, il contenuto può essere elevato a nuove altezze. Ad esempio, può essere utilizzato per:
+
+* **Riepiloga**: comprimi contenuti lunghi in riepiloghi succinti per le notifiche push. Arriva subito al punto e assicurati che i destinatari comprendano immediatamente il messaggio chiave.
+* **Elaborare**: espandi gli argomenti delle notifiche push, fornendo ulteriori dettagli e contesto per una migliore comprensione.
+* **Semplificare il linguaggio**: rendi le notifiche push accessibili a un pubblico più ampio utilizzando un linguaggio chiaro e conciso.
+* **Riformula**: evita le ripetizioni quando l’Assistente AI riformula il messaggio in modi diversi
+* **Cambia tono**: modifica il tono emotivo delle notifiche push. Che tu voglia essere informativo, giocoso o urgente, l’Assistente AI può adattare il messaggio di conseguenza.
 
 >[!NOTE]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](generative-gs.md#guardrails-and-limitations).
+
+Nell’esempio seguente, sfrutteremo l’assistente AI per creare messaggi convincenti per creare un’esperienza del cliente più coinvolgente.
 
 1. Dopo aver creato e configurato la consegna delle notifiche push, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -87,3 +96,4 @@ L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne suggere
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la consegna push. [Ulteriori informazioni](../monitor/prepare-send.md)
+

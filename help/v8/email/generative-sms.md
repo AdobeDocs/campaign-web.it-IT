@@ -6,23 +6,23 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 36%
+source-wordcount: '473'
+ht-degree: 21%
 
 ---
 
-# Generazione di SMS con l’Assistente AI {#generative-sms}
+# Generazione di SMS con l’Assistente IA {#generative-sms}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
 * [Introduzione all’Assistente IA](generative-gs.md)
-* [Generazione di e-mail con l’Assistente AI](generative-content.md)
+* [Generazione di e-mail con l’Assistente IA](generative-content.md)
 * **[Generazione di SMS con l’Assistente AI](generative-sms.md)**
-* [Generazione di notifiche push con l’Assistente AI](generative-push.md)
+* [Generazione di notifiche push con l’Assistente IA](generative-push.md)
 
 >[!ENDSHADEBOX]
 
@@ -46,35 +46,42 @@ Questo comodo strumento offre suggerimenti intelligenti per perfezionare i conte
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. Abilita **[!UICONTROL Usa contenuto originale]** Opzione per l’Assistente AI per personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
+
+   >[!IMPORTANT]
+   >
+   > Il prompt deve sempre essere associato a un contesto specifico caricando una risorsa del brand o abilitando **[!UICONTROL Migliora il contenuto corrente]** opzione.
+
 1. Ottimizza il contenuto descrivendo cosa desideri generare nel **[!UICONTROL Prompt]** campo.
 
    Se stai cercando assistenza per creare il tuo prompt, accedi al **[!UICONTROL Libreria dei prompt]** che offre una vasta gamma di idee per migliorare le tue consegne.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Abilita **[!UICONTROL Migliora con il contesto corrente]** Opzione per l’Assistente AI per personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
-
-   >[!IMPORTANT]
-   >
-   > Il prompt deve sempre essere associato a un contesto specifico caricando una risorsa del brand o abilitando **[!UICONTROL Migliora il contenuto corrente]** opzione.
-
 1. Seleziona **[!UICONTROL Carica risorsa marchio]** per aggiungere qualsiasi risorsa del brand contenente contenuti che possano fornire ulteriore contesto all’Assistente AI.
 
-1. Seleziona la **[!UICONTROL Strategia di comunicazione]** più adatta alle tue esigenze. Questa influisce sul tono e sullo stile del testo generato.
+1. Personalizza il prompt con le diverse opzioni:
 
-1. Scegli la **[!UICONTROL Lingua]** e il **[!UICONTROL Tono]** da applicare al testo generato. Il testo generato sarà quindi appropriato per il pubblico e lo scopo a cui è destinato.
+   * **[!UICONTROL Strategia di comunicazione]**: seleziona l’approccio di comunicazione desiderato per il testo generato.
+   * **[!UICONTROL Lingua]**: scegli la lingua per il contenuto della variante.
+   * **[!UICONTROL Tono]**: assicurati che il testo sia appropriato per il pubblico e lo scopo.
+   * **[!UICONTROL Lunghezza]**: seleziona la lunghezza del contenuto utilizzando il cursore intervallo.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Utilizza il cursore per impostare la lunghezza del testo generato.
-
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
-1. Sfoglia le **[!UICONTROL Varianti]** generate, individua il contenuto apprpriato e fai clic su **[!UICONTROL Applica]**.
+1. Sfoglia il generato **[!UICONTROL Varianti]** e fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
 
-   Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
+1. Accedi a **[!UICONTROL Perfeziona]** all&#39;interno del **[!UICONTROL Anteprima]** finestra per accedere a funzioni di personalizzazione aggiuntive e perfezionare la variante in base alle preferenze:
+
+   * **Semplifica lingua**: l’assistente AI ti aiuta a scrivere messaggi chiari e concisi che tutti possono comprendere.
+
+   * **Riformula**: l’Assistente AI riformula il messaggio per mantenere il coinvolgimento per diversi tipi di pubblico.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto SMS in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ Questo comodo strumento offre suggerimenti intelligenti per perfezionare i conte
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la consegna SMS. [Ulteriori informazioni](../monitor/prepare-send.md)
+Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la consegna SMS. [Ulteriori informazioni](../monitor/prepare-send.md)
