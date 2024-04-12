@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 68%
+source-wordcount: '637'
+ht-degree: 52%
 
 ---
 
@@ -42,15 +42,15 @@ ht-degree: 68%
 >id="acw_emagica_generate"
 >title="Termini di IA generativa di Adobe"
 >abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Qualsiasi suggerimento, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere collegato a un individuo specifico). Dovresti verificare che ogni output generato da questa funzione sia accurato e assicurarti che sia appropriato al caso d’uso"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=it" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
+>additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
-L’Assistente per l’intelligenza artificiale, basato su Azure OpenAI e sulla visione di Azure AI, rappresenta uno strumento prezioso per migliorare il contenuto delle e-mail. Semplifica la personalizzazione e il miglioramento dei contenuti, ottimizzando le consegne e-mail per il tuo pubblico in modo da renderle più efficaci.
+Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. L’Assistente per l’intelligenza artificiale in Campaign è la funzionalità di generazione di contenuti basata sull’intelligenza artificiale di Adobe che rivoluziona il modo in cui i professionisti del marketing creano contenuti professionali e coerenti con il brand su canali diversi, come e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
 
-Questa funzione genera in automatico dicontenuti e-mail completi, consentendoti di risparmiare tempo e di ottenere contenuti di qualità e coerenti. Utilizzando la IA generativa, puoi creare e-mail coinvolgenti senza difficoltà, migliorando l’efficacia e l’efficienza delle comunicazioni.
+Ai Assistant rende la creazione e l’esecuzione di campagne di marketing su canali diversi come e-mail, SMS e push intuitivi, semplici e senza problemi, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori.
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile in versione Alpha ed è soggetta a modifiche senza preavviso. Verrà attivata all’inizio di ottobre.
+>Questa funzionalità è disponibile nella versione beta e soggetta a modifiche senza preavviso.
 
 ## Guardrail e limitazioni {#generative-guardrails}
 
@@ -58,10 +58,10 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assiste
 
 * La qualità del contenuto generato è fortemente influenzata dalla finalità dell’iniziativa di marketing e dal prompt che inserisci nelle impostazioni. Inserisci un prompt chiaro e preciso nelle impostazioni, per consentire al modello GenAI di interpretarle con precisione. 
 * Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Puoi caricare contenuti nei seguenti formati: file PDF, immagini JPEG o PNG, o file ZIP (contenenti formati di file supportati).
-* La risorsa del marchio caricata dovrebbe essere di diemnsione inferiore a 50MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
+* La dimensione massima per la risorsa del brand caricata è di 50 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
 * Utilizza un modello e-mail creato da Adobe Campaign, preferibilmente [modelli e-mail incorporati](../email/create-email-templates.md), modello specifico per il brand o modello personalizzato per creare il contenuto delle e-mail. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 * Assicurati di segnalare eventuali output problematici utilizzando le icone thumb up, thumb down o flag durante la selezione delle varianti.
-* L’utilizzo dell’assistente IA è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=it)
+* L’utilizzo dell’assistente IA è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 All’Assistente IA in Campaign si applicano le seguenti limitazioni:
 
