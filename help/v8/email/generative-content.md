@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 23%
@@ -81,9 +81,9 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un’e-m
 
 1. Accedi a **[!UICONTROL Perfeziona]** all&#39;interno del **[!UICONTROL Anteprima]** finestra per accedere ad altre funzioni di personalizzazione:
 
-   * **Riformula**: l’Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
+   * **[!UICONTROL Riformula]**: l’Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
-   * **Usa lingua semplice**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
+   * **[!UICONTROL Usa lingua semplice]**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
