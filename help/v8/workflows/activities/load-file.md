@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 46%
 
 ---
@@ -83,7 +83,7 @@ Questa attività può essere utilizzata con [Reconciliation](reconciliation.md) 
 
 Per configurare il **Carica file** attività:
 
-1. Trascina una **Carica file** attività nel flusso di lavoro. Fai clic su **Seleziona da file** pulsante.
+1. Aggiungi un **Carica file** attività nel flusso di lavoro. Fai clic su **Seleziona da file** pulsante.
 
 1. Seleziona il file locale da usare. Il formato deve essere allineato con questo [file di esempio](../../audience/file-audience.md#sample-file).
 
