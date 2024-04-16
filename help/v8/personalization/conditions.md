@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 81%
@@ -26,7 +26,7 @@ Il contenuto condizionale è una funzione potente che consente di creare una per
 
 Configurando i campi per contenuti condizionali, puoi creare ad esempio una personalizzazione dinamica avanzata in base al profilo del destinatario. I blocchi di testo, i collegamenti, l’oggetto e/o le immagini vengono sostituiti nel contenuto del messaggio quando viene soddisfatta una particolare condizione. Ad esempio, puoi visualizzare “Sig.” o “Sig.ra” in base al valore del campo Genere nel database di Adobe Campaign oppure includere un collegamento diverso in base alla lingua preferita del destinatario.
 
-Per creare contenuti condizionali, è necessario creare condizioni nell’**editor di espressioni** tramite funzioni Helper specifiche. Questo metodo è disponibile per tutti i canali di consegna in qualsiasi campo in cui è possibile accedere all’editor di espressioni, ad esempio la riga dell’oggetto o i collegamenti e-mail e i componenti di contenuto di tipo testo o pulsante. [Scopri come accedere all’editor di espressioni](gs-personalization.md/#access)
+Per creare contenuti condizionali, è necessario creare condizioni nell’**editor di espressioni** tramite funzioni Helper specifiche. Questo metodo è disponibile per tutti i canali di consegna in qualsiasi campo in cui è possibile accedere all’editor di espressioni, ad esempio la riga dell’oggetto o i collegamenti e-mail e i componenti di contenuto di tipo testo o pulsante. [Scopri come accedere all’editor di espressioni](gs-personalization.md#access)
 
 Oltre all’editor di espressioni, puoi sfruttare una **generatore di contenuti condizionali** durante la progettazione di un’e-mail che ti consente di creare più varianti per un elemento del corpo dell’e-mail. [Scopri come creare contenuti condizionali nelle e-mail](#condition-condition-builder)
 
