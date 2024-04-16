@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Elimina file dopo l’importazione"
->abstract="Attiva/disattiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo l&#39;importazione."
+>abstract="Attiva/disattiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo averlo importato."
 
 L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalizzazione](../../personalization/gs-personalization.md), o per aggiornare profili o qualsiasi altra tabella.
 

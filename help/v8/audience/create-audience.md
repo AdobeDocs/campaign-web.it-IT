@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Tipi di pubblico"
->abstract="Da questa schermata, puoi accedere all’elenco di tutti i tipi di pubblico a cui è possibile indirizzare le attività nei flussi di lavoro o nelle consegne autonome. Clic **Crea** per creare un nuovo pubblico in un’area di lavoro visiva.<br/><br/>Oltre a iniziare da zero per creare un pubblico semplice, puoi anche sfruttare le attività del flusso di lavoro per perfezionare il pubblico. Ad esempio, puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte"
+>abstract="Da questa schermata, puoi accedere all’elenco di tutti i tipi di pubblico a cui è possibile indirizzare i flussi di lavoro e le consegne. Fai clic su **Crea** per creare un nuovo pubblico in un’area di lavoro visiva.<br/><br/>Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Ad esempio, puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte"
 
 <!--
 [!CONTEXTUALHELP]

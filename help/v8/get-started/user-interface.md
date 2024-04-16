@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -486,8 +486,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
->title="Cronologia query incrementale"
->abstract="Cronologia query incrementale"
+>title="Cronologia della query incrementale"
+>abstract="Cronologia della query incrementale"
 
 
 <!-- Transfer file activity -->
@@ -504,18 +504,18 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="Attività di trasferimento file"
->abstract="Attività di trasferimento file"
+>title="Attività Estrarre file"
+>abstract="Attività Estrarre file"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="Trasferisci file server remoto"
->abstract="Trasferisci file server remoto"
+>title="Trasferimento file su server remoto"
+>abstract="Trasferimento file su server remoto"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="Trasferisci origine file"
->abstract="Trasferisci origine file"
+>title="Trasferimento origine file"
+>abstract="Trasferimento origine file"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -524,8 +524,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Visualizza i registri di sessione"
->abstract="Visualizza i registri di sessione"
+>title="Visualizzare i registri di sessione"
+>abstract="Visualizzare i registri di sessione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
