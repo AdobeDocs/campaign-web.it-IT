@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenuto push per Android"
->abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per iniziare a comporre il messaggio, fai clic sul pulsante **Modifica contenuto**."
+>abstract="Definire il contenuto della notifica push per i dispositivi Android. Per iniziare a comporre il messaggio, fai clic sul pulsante **Modifica contenuto**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
@@ -33,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Messaggio push Android"
->abstract="Definisci il contenuto della notifica push per i dispositivi Android. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor di espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore. Per una configurazione più personalizzata, vai alla sezione **Impostazioni avanzate**."
+>abstract="Definire il contenuto della notifica push per i dispositivi Android. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor di espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore. Per una configurazione più personalizzata, vai alla sezione **Impostazioni avanzate**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
