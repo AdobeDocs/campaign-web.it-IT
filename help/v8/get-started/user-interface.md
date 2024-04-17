@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 100%
+source-wordcount: '2279'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Errori di processo"
 >abstract="Errori di processo"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="Avvisi di consegna"
+>id="acw_delivery_alerting_criteria"
+>title="Dashboard dei criteri di avviso della consegna"
+>abstract="Dashboard dei criteri di avviso della consegna"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Dashboard di avvisi di consegna"
+>abstract="Dashboard di avvisi di consegna"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Creare criteri di avviso per la consegna"
+>abstract="Creare criteri di avviso per la consegna"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicatori da aggiungere negli avvisi"
+>abstract="Indicatori da aggiungere negli avvisi"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Tipo di avviso"
+>abstract="Tipo di avviso"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Frequenza criterio"
+>abstract="Frequenza criterio"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Criteri per gli avvisi di consegna"
+>abstract="Criteri per gli avvisi di consegna"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Parametri generali degli avvisi sulla consegna"
 >abstract="Avvisi di consegna"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Parametri dei criteri di avviso sulla consegna"
+>abstract="Avvisi di consegna"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Avvisi di consegna inviati"
+>abstract="Avvisi di consegna inviati"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Cronologia avvisi di consegna"
+>abstract="Cronologia avvisi di consegna"
