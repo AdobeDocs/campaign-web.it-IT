@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 21%
+source-wordcount: '461'
+ht-degree: 22%
 
 ---
 
@@ -50,7 +50,7 @@ Questo comodo strumento offre suggerimenti intelligenti per perfezionare i conte
 
    >[!IMPORTANT]
    >
-   > Il prompt deve sempre essere associato a un contesto specifico caricando una risorsa del brand o abilitando **[!UICONTROL Migliora il contenuto corrente]** opzione.
+   > La richiesta deve essere sempre associata al contenuto corrente.
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare nel **[!UICONTROL Prompt]** campo.
 

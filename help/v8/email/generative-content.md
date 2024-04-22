@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 23%
+source-wordcount: '1351'
+ht-degree: 24%
 
 ---
 
@@ -52,7 +52,7 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un’e-m
 
 1. Abilita **[!UICONTROL Usa contenuto originale]** Opzione per l’Assistente AI per personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
 
-   Il prompt deve sempre essere associato a un contesto specifico caricando una risorsa del brand o abilitando **[!UICONTROL Migliora il contenuto corrente]** opzione.
+   La richiesta deve essere sempre associata al contenuto corrente.
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare nel **[!UICONTROL Prompt]** campo.
 
@@ -109,7 +109,7 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenu
 
 1. Abilita **[!UICONTROL Usa contenuto originale]** Opzione per l’Assistente AI per personalizzare i nuovi contenuti in base alla consegna, al nome della consegna e al pubblico selezionato.
 
-   Il prompt deve sempre essere associato a un contesto specifico caricando una risorsa del brand o abilitando **[!UICONTROL Migliora il contenuto corrente]** opzione.
+   La richiesta deve essere sempre associata al contenuto corrente.
 
 1. Ottimizza il contenuto descrivendo cosa desideri generare nel **[!UICONTROL Prompt]** campo.
 

@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 18%
+source-wordcount: '473'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 18%
 * **[Generazione di notifiche push con l’Assistente AI](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
 
@@ -51,7 +50,7 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per creare messaggi convi
 
    >[!IMPORTANT]
    >
-   > Il prompt deve sempre essere associato a un contesto specifico caricando una risorsa del brand o abilitando **[!UICONTROL Migliora il contenuto corrente]** opzione.
+   > La richiesta deve essere sempre associata al contenuto corrente.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
