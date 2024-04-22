@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 22%
+source-wordcount: '479'
+ht-degree: 21%
 
 ---
 
@@ -75,9 +75,11 @@ Questo comodo strumento offre suggerimenti intelligenti per perfezionare i conte
 
 1. Accedi a **[!UICONTROL Perfeziona]** all&#39;interno del **[!UICONTROL Anteprima]** finestra per accedere a funzioni di personalizzazione aggiuntive e perfezionare la variante in base alle preferenze:
 
-   * **Semplifica lingua**: l’assistente AI ti aiuta a scrivere messaggi chiari e concisi che tutti possono comprendere.
+   * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante scelta fungerà da contenuto di riferimento per la generazione di altri risultati.
 
-   * **Riformula**: l’Assistente AI riformula il messaggio per mantenere il coinvolgimento per diversi tipi di pubblico.
+   * **[!UICONTROL Utilizza un linguaggio più semplice]**: l’assistente AI ti aiuta a scrivere messaggi chiari e concisi che tutti possono comprendere.
+
+   * **[!UICONTROL Riformula]**: l’Assistente AI riformula il messaggio per mantenere il coinvolgimento per diversi tipi di pubblico.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 

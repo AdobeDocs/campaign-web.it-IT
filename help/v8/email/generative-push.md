@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 19%
+source-wordcount: '490'
+ht-degree: 18%
 
 ---
 
@@ -78,9 +78,11 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per creare messaggi convi
 
 1. Accedi a **[!UICONTROL Perfeziona]** all&#39;interno del **[!UICONTROL Anteprima]** finestra per accedere ad altre funzioni di personalizzazione:
 
+   * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante scelta fungerà da contenuto di riferimento per la generazione di altri risultati.
+
    * **[!UICONTROL Riformula]**: l’Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
-   * **[!UICONTROL Usa lingua semplice]**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
+   * **[!UICONTROL Utilizza un linguaggio più semplice]**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 

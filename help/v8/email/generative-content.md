@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 24%
+source-wordcount: '1368'
+ht-degree: 23%
 
 ---
 
@@ -81,9 +81,11 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per perfezionare un’e-m
 
 1. Accedi a **[!UICONTROL Perfeziona]** all&#39;interno del **[!UICONTROL Anteprima]** finestra per accedere ad altre funzioni di personalizzazione:
 
+   * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante scelta fungerà da contenuto di riferimento per la generazione di altri risultati.
+
    * **[!UICONTROL Riformula]**: l’Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
-   * **[!UICONTROL Usa lingua semplice]**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
+   * **[!UICONTROL Utilizza un linguaggio più semplice]**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per migliorare il contenu
 
 1. Accedi a **[!UICONTROL Perfeziona]** all&#39;interno del **[!UICONTROL Anteprima]** finestra per accedere ad altre funzioni di personalizzazione:
 
-   * **Utilizza come contenuto di riferimento**: la variante scelta fungerà da contenuto di riferimento per la generazione di altri risultati.
+   * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante scelta fungerà da contenuto di riferimento per la generazione di altri risultati.
 
-   * **Elaborare**: l’Assistente AI può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
+   * **[!UICONTROL Elaborare]**: l’Assistente AI può aiutarti a espandere argomenti specifici, fornendo ulteriori dettagli per una migliore comprensione e coinvolgimento.
 
-   * **Riepiloga**: informazioni lunghe possono sovraccaricare i destinatari delle e-mail. Utilizza l’Assistente per l’intelligenza artificiale per condensare i punti chiave in riepiloghi chiari e concisi che catturino l’attenzione e li incoraggino a leggere ulteriormente.
+   * **[!UICONTROL Riepiloga]**: informazioni lunghe possono sovraccaricare i destinatari delle e-mail. Utilizza l’Assistente per l’intelligenza artificiale per condensare i punti chiave in riepiloghi chiari e concisi che catturino l’attenzione e li incoraggino a leggere ulteriormente.
 
-   * **Riformula**:L’Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
+   * **[!UICONTROL Riformula]**:L’Assistente AI può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
 
-   * **Usa lingua semplice**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
+   * **[!UICONTROL Utilizza un linguaggio più semplice]**: sfrutta l’Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
