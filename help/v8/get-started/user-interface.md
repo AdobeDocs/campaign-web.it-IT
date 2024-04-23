@@ -4,9 +4,9 @@ title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -417,7 +417,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Errori di processo"
+>title="Errori del processo"
 >abstract="Attiva/disattiva l’opzione **Errori di processo** per aggiungere una transizione in uscita contenente errori."
 
 
@@ -451,7 +451,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Errori di processo"
+>title="Errori del processo"
 >abstract="Attiva/disattiva l’opzione **Errori di processo** per aggiungere una transizione in uscita contenente errori."
 
 <!-- Workflow settings -->
@@ -494,8 +494,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
->title="Attività Transfer file"
->abstract="Attività Transfer file"
+>title="Trasferimento file"
+>abstract="Trasferimento file"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -544,25 +544,25 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
->title="Errori di processo"
->abstract="Errori di processo"
+>title="Errori del processo"
+>abstract="Errori del processo"
 
 <!-- Delivery alerting -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Dashboard dei criteri di avviso della consegna"
->abstract="Dashboard dei criteri di avviso della consegna"
+>title="Dashboard dei criteri per gli avvisi di consegna"
+>abstract="Dashboard dei criteri per gli avvisi di consegna"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
->title="Dashboard di avvisi di consegna"
->abstract="Dashboard di avvisi di consegna"
+>title="Dashboard degli avvisi di consegna"
+>abstract="Dashboard degli avvisi di consegna"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="Creare criteri di avviso per la consegna"
->abstract="Creare criteri di avviso per la consegna"
+>title="Crea criteri per gli avvisi di consegna"
+>abstract="Crea criteri per gli avvisi di consegna"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
@@ -586,13 +586,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="Parametri generali degli avvisi sulla consegna"
->abstract="Avviso di consegna"
+>title="Parametri generali degli avvisi di consegna"
+>abstract="Avvisi di consegna"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="Parametri dei criteri di avviso sulla consegna"
->abstract="Avviso di consegna"
+>title="Parametri dei criteri degli avvisi di consegna"
+>abstract="Avvisi di consegna"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
@@ -601,5 +601,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
->title="Cronologia avvisi di consegna"
->abstract="Cronologia avvisi di consegna"
+>title="Cronologia degli avvisi di consegna"
+>abstract="Cronologia degli avvisi di consegna"
