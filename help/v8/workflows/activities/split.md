@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '855'
 ht-degree: 88%
 
 ---
@@ -56,6 +56,11 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >id="acw_orchestration_split_emptytransition"
 >title="Salta transizione vuota"
 >abstract="Salta transizione vuota."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Abilita la sovrapposizione delle popolazioni di output"
+>abstract="Abilita la sovrapposizione delle popolazioni di output"
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
