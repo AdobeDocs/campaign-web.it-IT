@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Variabili evento flusso di lavoro
+title: Variabili evento del flusso di lavoro
 description: Scopri come sfruttare le variabili evento nei flussi di lavoro.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Variabili evento flusso di lavoro {#event-variables}
+# Variabili evento del flusso di lavoro {#event-variables}
 
 Alcune attività del flusso di lavoro consentono di modificare gli script nell’editor di espressioni per eseguire azioni specifiche, ad esempio recuperare dati provenienti da attività precedenti, creare condizioni o calcolare nomi di file in base a variabili evento.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Matrice di funzionalità dell’interfaccia utente/console client di Campaign Web
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -167,7 +167,7 @@ La Gestione dei dati combina una serie di attività che risolvono problemi di ta
 
 >[!NOTE]
 >
->Alcune di queste attività sono disponibili solo nella console client, altre nell’interfaccia utente di Campaign Web, come ad esempio **Arricchimento**, **Carica file**, **Cambia origine dati** o **Cambia dimensione**. [Ulteriori informazioni sulle attività di targeting e gestione dati nell’interfaccia utente di Campaign Web](../workflows/activities/about-activities.md#targeting)
+>Alcune di queste attività sono disponibili solo nella console client, altre nell’interfaccia utente di Campaign Web, come ad esempio **Arricchimento**, **Carica file**, **Cambia origine dati** o **Cambia dimensione**. [Ulteriori informazioni sulle attività di targeting e gestione dati nell’interfaccia utente web di Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configurazione Federated Data Access (FDA) {#fda}
 

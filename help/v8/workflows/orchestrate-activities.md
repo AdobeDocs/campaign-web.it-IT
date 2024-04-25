@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ Dopo aver [creato un flusso di lavoro](create-workflow.md), dal menu del flusso 
 
 In questa fase della configurazione, il diagramma viene visualizzato con un’icona di avvio che rappresenta l’inizio del flusso di lavoro. Per aggiungere la prima attività, fai clic su **+** all&#39;icona di avvio.
 
-Viene visualizzato un elenco di attività che possono essere aggiunte al diagramma. Le attività disponibili dipendono dalla posizione all’interno del diagramma del flusso di lavoro. Ad esempio, quando aggiungi la prima attività, puoi avviare il flusso di lavoro eseguendo il targeting di un pubblico, suddividendo il percorso del flusso di lavoro o impostando un **Wait** per ritardare l’esecuzione del flusso di lavoro. D&#39;altra parte, dopo un **Creare un pubblico** attività, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo di flusso di lavoro con le attività di controllo del flusso.
+Viene visualizzato un elenco di attività che possono essere aggiunte al diagramma. Le attività disponibili dipendono dalla posizione all’interno del diagramma del flusso di lavoro. Ad esempio, quando aggiungi la prima attività, puoi avviare il flusso di lavoro eseguendo il targeting di un pubblico, suddividendo il percorso del flusso di lavoro o impostando un **Wait** per ritardare l’esecuzione del flusso di lavoro. D&#39;altra parte, dopo un **Creare un pubblico** attività, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività di canale o organizzare il processo di flusso di lavoro con le attività di controllo del flusso.
 
 ![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
@@ -36,7 +36,7 @@ Per rimuovere un’attività, selezionala nell’area di lavoro e fai clic su **
 
 ## Gestire le attività {#manage}
 
-Quando si aggiungono delle attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi eseguire le seguenti azioni:
+Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi eseguire le seguenti azioni:
 
 * **Elimina** l’attività dall’area di lavoro.
 * **Disattiva/Attiva** l’attività. Quando il flusso di lavoro viene eseguito, le attività disabilitate e le attività successive sullo stesso percorso non vengono eseguite e il flusso di lavoro viene interrotto.
