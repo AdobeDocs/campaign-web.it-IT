@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 99%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="Creazione dei destinatari"
->abstract="Creazione dei destinatari"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Panoramica sulla scheda Destinatari"
 >abstract="Panoramica sulla scheda Destinatari"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Visualizzare gli attributi avanzati"
->abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Attiva l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Campi avanzati del generatore di regole"
->abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Attiva l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Attributi avanzati del generatore di regole"
->abstract="Per impostazione predefinita, nell’elenco degli attributi vengono mostrati solo gli attributi più comuni. Attiva l’interruttore **Visualizza attributi avanzati** per visualizzare tutti gli attributi disponibili per l’elenco corrente nella palette a sinistra del generatore di regole, ad esempio nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="Questo modello è solo pronto"
->abstract="Non disponi delle autorizzazioni necessarie per modificare questo modello. Se necessario, contatta l’amministratore per farti autorizzare l’accesso."
 
 <!-- Subscription activity-->
 
