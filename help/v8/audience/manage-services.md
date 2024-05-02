@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 75%
+source-wordcount: '1074'
+ht-degree: 68%
 
 ---
 
@@ -53,6 +53,11 @@ Per accedere ai servizi di iscrizione disponibili per la tua piattaforma, segui 
 >title="Selezionare un messaggio di conferma"
 >abstract="Quando un utente si iscrive o annulla l’iscrizione a un servizio, puoi inviare un messaggio di conferma. Seleziona i modelli da utilizzare per tale messaggio."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Pagina di destinazione predefinita"
+>abstract="Seleziona le pagine di destinazione predefinite associate a questo servizio."
+
 Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 
 1. Seleziona il pulsante **[!UICONTROL Crea servizio iscrizione]**.
@@ -81,9 +86,25 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 
 1. Fai clic su **[!UICONTROL Salva e rivedi]**. Il nuovo servizio viene aggiunto all’elenco **[!UICONTROL Servizi di iscrizione]**.
 
+1. Puoi anche selezionare le pagine di destinazione predefinite per l’abbonamento e il suo annullamento associate a questo servizio.
+
+   >[!AVAILABILITY]
+   >
+   >Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   Al termine, quando [inserimento di un collegamento](../email/message-tracking.md) in un messaggio e-mail, seleziona **[!UICONTROL Collegamento di abbonamento]** o **[!UICONTROL Collegamento per annullare l’iscrizione]**. Facendo clic su tale collegamento, gli utenti verranno indirizzati alla pagina di destinazione per l’abbonamento o il suo annullamento a cui si fa riferimento nel servizio. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. Salva e rivedi le modifiche.
+
 Ora puoi:
 
-* Aggiungi abbonati a questo servizio e annulla l’abbonamento dei profili. [Ulteriori informazioni](../msg/send-to-subscribers.md)
+* Aggiungi manualmente gli abbonati a questo servizio e annulla l’abbonamento dei profili. [Ulteriori informazioni](../audience/manage-subscribers.md)
+
+* Invita i tuoi clienti ad abbonarsi a questo servizio tramite una pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Invia messaggi agli abbonati al servizio. [Scopri come](../msg/send-to-subscribers.md)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 88%
+source-wordcount: '905'
+ht-degree: 83%
 
 ---
 
@@ -55,7 +55,7 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Salta transizione vuota"
->abstract="Salta transizione vuota."
+>abstract="Attiva/disattiva **[!UICONTROL Salta transizione vuota]** opzione su per disabilitare la transizione di output per questo sottoinsieme se il gruppo in ingresso è vuoto."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ Per configurare l’attività **Dividi** segui questi passaggi:
    1. Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utiizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
    1. Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere.
+
+   1. Per disabilitare una transizione se il gruppo in ingresso è vuoto, attiva/disattiva **[!UICONTROL Salta transizione vuota]** opzione attivata. Se nessun profilo corrisponde al sottoinsieme, il flusso di lavoro non passerà all’attività successiva.
 
       ![](../assets/workflow-split-subset.png)
 
