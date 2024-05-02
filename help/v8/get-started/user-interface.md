@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1670'
 ht-degree: 99%
 
 ---
@@ -113,19 +113,20 @@ Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa
 
 * **Rapporti**: la voce **Rapporto** offre un riepilogo complessivo consolidato del traffico e delle metriche di coinvolgimento per ciascun canale all’interno dell’ambiente di Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna. Per ulteriori informazioni, consulta [questa sezione](../reporting/global-reports.md).
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## Guida contestuale {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-Nell’interfaccia è disponibile una guida contestuale. Quando è disponibile, fai clic sull’icona `?` per visualizzare le informazioni della guida e i relativi collegamenti alla documentazione.
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-Attualmente rilasciato come nuova versione beta all’interno della nuova interfaccia utente di Campaign Web, il **Knowledge Assistant con Generazione basata sull’intelligenza artificiale**, incorporato nella guida contestuale, rivoluziona la ricerca della documentazione e le risposte alle domande relative alle procedure, esaminando attentamente gli archivi di documentazione con l’individuazione immediata e precisa delle informazioni necessarie.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo assistente trasforma la tua esperienza, rendendo estremamente semplice il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando assistenza in un’attività complessa o esplorando una vasta documentazione, il Knowledge Assistant con Generazione basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
+Learn more in [this section](using-ai.md).
 
-Per ulteriori informazioni, consulta [questa sezione](using-ai.md).
-
+-->
 
 ## Ulteriori informazioni {#learn-more}
 

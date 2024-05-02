@@ -2,9 +2,9 @@
 audience: end-user
 title: Transizione da Campaign Standard ad Adobe Campaign Web
 description: Scopri l’interfaccia utente web di Campaign
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,6 @@ Approfondiamo le funzionalità chiave di Campaign v8:
 * Attività del flusso di lavoro delle campagne nuove e riprogettate. [Ulteriori informazioni](../workflows/gs-workflows.md)
 * Pubblico di destinazione con il modellatore di query. [Ulteriori informazioni](../query/query-modeler-overview.md)
 * Facile creazione e gestione dei profili. [Ulteriori informazioni](../audience/about-recipients.md)
-* Guida contestuale basata sull’intelligenza artificiale. [Ulteriori informazioni](../get-started/using-ai.md)
 * Filtri predefiniti. [Ulteriori informazioni](../get-started/predefined-filters.md)
 * HTML Converter per la progettazione di e-mail. [Ulteriori informazioni](../email/existing-content.md)
 * SMS con offerte. [Ulteriori informazioni](../msg/offers.md)

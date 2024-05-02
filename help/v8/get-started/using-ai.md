@@ -2,8 +2,10 @@
 title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale in Campaign Web
 description: Porre domande nei popover della guida di Campaign Web
 badge: label="Beta"
+hide: true
+hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
