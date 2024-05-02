@@ -3,10 +3,10 @@ audience: end-user
 title: Novità nell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -129,6 +129,8 @@ Inoltre, tutti i dati e le impostazioni già disponibili nella console client so
 Con l’interfaccia utente di Campaign Web, l’interfaccia utente riflette le autorizzazioni dell’utente. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../get-started/permissions.md)
 
 Le funzionalità supportate/non supportate e l’interoperabilità tra l’interfaccia utente di Campaign Web e la console client di Campaign, sono disponibili [in questa pagina](../get-started/capability-matrix.md).
+
+In qualità di utente Campaign Standard che passa a Campaign v8, [fai riferimento a questa pagina](../rn/acs-migration.md).
 
 ## Aggiornamenti terminologici {#terminology-updates}
 
