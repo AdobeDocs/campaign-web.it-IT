@@ -3,10 +3,10 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 30%
+source-wordcount: '1504'
+ht-degree: 27%
 
 ---
 
@@ -61,7 +61,9 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definire le opzioni di precaricamento"
->abstract="Quando l’opzione **Precompila con i dati a cui si fa riferimento nel modulo** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con l’opzione **Salta il precaricamento se non è presente alcun ID** selezionata, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo."
+>abstract="Quando l’opzione **Precompila con i dati a cui si fa riferimento nel modulo** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con il **Autorizza assenza di ID** opzione selezionata, tutti i visitatori, inclusi gli utenti anonimi, possono accedere alla pagina di destinazione."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -98,21 +100,41 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. In **[!UICONTROL Precaricamento dati]** , le due opzioni seguenti sono selezionate per impostazione predefinita:
+1. In **[!UICONTROL Precaricamento dati]** , sono disponibili le due opzioni seguenti:
 
    * Quando l’opzione **[!UICONTROL Precompila con i dati a cui si fa riferimento nel modulo]** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. L’utente deve solo compilare i campi mancanti e, se necessario, aggiornare i valori esistenti. Questo consente di unire i dati per i profili esistenti invece di creare duplicati.
 
-   * Il **[!UICONTROL Salta il precaricamento se non è presente alcun ID]** deve essere selezionata se non desideri aggiornare i profili. In questo caso, ogni profilo inserito verrà aggiunto al database dopo l’approvazione del modulo. Questa opzione viene utilizzata, ad esempio, quando il modulo viene pubblicato su un sito Web.
+     >[!NOTE]
+     >
+     >Questa opzione è selezionata per impostazione predefinita per tutti i modelli di pagina di destinazione.
 
-1. Una pagina di destinazione può avere pagine successive. Per aggiungere delle pagine, sfoglia **[!UICONTROL Pagine]** e fare clic sul pulsante **[!UICONTROL Modifica contenuto]** per ogni pagina che desideri progettare per questa pagina di destinazione. Il contenuto di ogni pagina è già precompilato. Modificali in base alle esigenze. [Ulteriori informazioni](lp-content.md)
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * Il **[!UICONTROL Autorizza assenza di ID]** consente a qualsiasi visitatore di accedere alla pagina di destinazione. Deselezionando questa opzione si impedisce ai visitatori anonimi di utilizzarla, il che significa che solo gli utenti identificati possono accedere al modulo e inviarlo.
+
+     >[!AVAILABILITY]
+     >
+     >Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+
+     Per **[!UICONTROL Acquisizione]** e **[!UICONTROL Abbonamento]** modelli, questa opzione è selezionata per impostazione predefinita. Per **[!UICONTROL Annullamento iscrizione]** e **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** modelli, questa opzione è deselezionata per impostazione predefinita e non può essere modificata<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+
+1. Una pagina di destinazione può avere pagine successive. Per aggiungere pagine, sfoglia il **[!UICONTROL Pagine]** e fare clic sul pulsante **[!UICONTROL Modifica contenuto]** per ogni pagina che desideri progettare per questa pagina di destinazione. Il contenuto di ogni pagina è già precompilato. Modificali in base alle esigenze. [Ulteriori informazioni](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. Il **[!UICONTROL Aggiornare il record precaricato]** è selezionata per impostazione predefinita. Consente di aggiornare i profili memorizzati nel database tramite la pagina di destinazione. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database.
+1. In **[!UICONTROL Storage]** sezione, il **[!UICONTROL Aggiornare il record precaricato]** è selezionata per impostazione predefinita. Consente di aggiornare i profili memorizzati nel database tramite la pagina di destinazione. La casella di precaricamento consente di indicare come trovare il record da aggiornare nel database.
 
    Puoi anche scegliere tra i campi nel contesto corrente della pagina di destinazione, quelli che verranno utilizzati per trovare il profilo corrispondente nel database. Per farlo, deseleziona la **[!UICONTROL Aggiornare il record precaricato]** e seleziona i campi desiderati in **[!UICONTROL Opzioni di riconciliazione]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. Crea **[!UICONTROL Dati aggiuntivi]** per memorizzare i dati interni durante l’invio della pagina di destinazione. Questi dati non sono visibili agli utenti che visitano la pagina. Vengono presi in considerazione solo i valori costanti.
+
+   >[!AVAILABILITY]
+   >
+   >Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. Puoi definire una data di inizio e una data di fine per la pagina di destinazione. Seleziona **[!UICONTROL Abilita pianificazione]** e impostare le date.
 
@@ -161,6 +183,8 @@ Per verificare la pagina di destinazione, effettua le seguenti operazioni:
 1. Dalla sezione **[!UICONTROL Simula]** , seleziona uno o più profili di test.
 
    I passaggi per selezionare i profili di test sono gli stessi utilizzati per testare un messaggio. Sono descritte in dettaglio nella [Anteprima e test](../preview-test/preview-test.md) sezione.
+
+1. Durante il test di una pagina di destinazione dinamica (con **[!UICONTROL Servizio da URL]** opzione selezionata - [ulteriori informazioni](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Seleziona **[!UICONTROL Apri anteprima]** per verificare la pagina di destinazione.
 
