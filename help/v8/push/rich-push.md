@@ -5,9 +5,9 @@ description: Scopri come progettare una consegna di notifiche push potenziata pe
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 34%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 34%
 >id="acw_deliveries_push_remind_later"
 >title="Pulsante Ricorda più tardi"
 >abstract="Il pulsante **Ricorda più tardi** conente di pianificare un promemoria. Il campo Timestamp richiede un valore che rappresenti il passaggio del tempo in secondi."
+
+>[!AVAILABILITY]
+>
+>Questa funzione è in **Disponibilità limitata** (LA).
 
 Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 

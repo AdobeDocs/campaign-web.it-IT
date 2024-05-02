@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [Novità](rn/whats-new.md)
    + [Ultima versione](rn/release-notes.md)
    + [Aggiornamenti della documentazione](rn/documentation-updates.md)
+   + [Transizione di Campaign Standard a Campaign v8](rn/acs-migration.md)
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
    + [Connessione a Campaign](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 100%
       + [Deduplica](workflows/activities/deduplication.md)
       + [E-mail, SMS, push, direct mail](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
+      + [Attività External signal](workflows/activities/external-signal.md)
+      + [Estrai file](workflows/activities/extract-file.md)
       + [Fork](workflows/activities/fork.md)
+      + [Query incrementale](workflows/activities/incremental-query.md)
+      + [Codice JavaScript](workflows/activities/javascript-code.md)
       + [Carica file](workflows/activities/load-file.md)
       + [Riconciliazione](workflows/activities/reconciliation.md)
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
       + [Modulo di pianificazione](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
+      + [Servizi di abbonamento](workflows/activities/subscription-services.md)
+      + [Attività Test](workflows/activities/test.md)
+      + [Trasferimento file](workflows/activities/transfer-file.md)
+      + [Aggiornare i dati](workflows/activities/update-data.md)
       + [Attendi](workflows/activities/wait.md)
 + Eseguire una query sul database {#query-database}
    + [Utilizzo del query modeler](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 100%
    + [Utilizzare altre soluzioni di Adobe](integrations/integration.md)
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gestire i modelli con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Amministrazione {#administration}
+   + [Configurare campi personalizzati](administration/custom-fields.md)
 

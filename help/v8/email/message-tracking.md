@@ -3,10 +3,10 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,29 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
 
+1. Scegli il tipo di collegamento da creare:
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Collegamento esterno]**: inserisci un collegamento a un URL esterno.
+
+     >[!AVAILABILITY]
+     >
+     >Le seguenti funzionalità (collegamento a **[!UICONTROL Pagina di destinazione]**, **[!UICONTROL Collegamento di abbonamento]** e **[!UICONTROL Collegamento per annullare l’iscrizione]**) sono in Disponibilità limitata (LA). Sono limitati ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+
+   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. Se selezioni una pagina di destinazione dinamica (con **[!UICONTROL Servizio da URL]** selezionato), è possibile selezionare qualsiasi servizio dall’elenco. [Ulteriori informazioni](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Collegamento di abbonamento]**: inserisci un collegamento a un servizio di abbonamento. Quando gli utenti fanno clic sul collegamento, verranno indirizzati alla pagina di destinazione dell’abbonamento a cui si fa riferimento nel servizio selezionato. [Ulteriori informazioni](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Collegamento per annullare l’iscrizione]**: inserisci un collegamento a un servizio di annullamento dell’abbonamento. Quando gli abbonati fanno clic sul collegamento, verranno indirizzati alla pagina di destinazione per l’annullamento dell’abbonamento a cui si fa riferimento nel servizio selezionato. [Ulteriori informazioni](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. Inserisci l’URL desiderato nel campo corrispondente, oppure seleziona una pagina di destinazione o un servizio, e definisci le impostazioni e gli stili del collegamento.
 
 1. Aggiungi un’**[!UICONTROL Etichetta]** e un **[!UICONTROL Collegamento]**.
 
@@ -41,7 +63,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) viene definita a livello di superficie di canale (ad esempio, nel predefinito per messaggi) e durante la creazione del messaggio.
+>I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) viene definito a livello della superficie di canale e durante la creazione del messaggio.
 
 In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla pagina mirror. Ulteriori informazioni sulla pagina mirror in [questa sezione](mirror-page.md).
 

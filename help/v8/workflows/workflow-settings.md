@@ -3,10 +3,10 @@ audience: end-user
 title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 71%
+source-wordcount: '1067'
+ht-degree: 69%
 
 ---
 
@@ -103,3 +103,8 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
    * **[!UICONTROL Interrompi il processo]**: il flusso di lavoro viene interrotto automaticamente e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavvia il flusso di lavoro utilizzando il pulsante **[!UICONTROL Avvia]**.
 
 * **[!UICONTROL Errori consecutivi]**: questo campo diventa disponibile quando il valore **[!UICONTROL Ignora]** è selezionato nel campo **[!UICONTROL In caso di errori]**. È possibile specificare il numero di errori che possono essere ignorati prima dell’interruzione del processo. Una volta raggiunto questo numero, lo stato del flusso di lavoro diventa **[!UICONTROL Non riuscito]**. Se il valore di questo campo è 0, il flusso di lavoro non verrà mai interrotto indipendentemente dal numero di errori.
+
+## Script di inizializzazione {#initialization-script}
+
+Il **Script di inizializzazione** consente di inizializzare le variabili o modificare le proprietà dell’attività. Fai clic su **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+

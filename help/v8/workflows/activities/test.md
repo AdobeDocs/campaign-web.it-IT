@@ -1,0 +1,45 @@
+---
+audience: end-user
+title: Utilizzare l’attività del flusso di lavoro di test
+description: Scopri come utilizzare l’attività del flusso di lavoro di test
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 0%
+
+---
+
+# Attività Test {#test}
+
+Il **Test** l&#39;attività è un **Controllo del flusso** attività. Consente di abilitare le transizioni in base a condizioni specificate.
+
+## Configurare l’attività di test {#test-configuration}
+
+Per configurare il **Test** attività:
+
+1. Aggiungi un **Test** al flusso di lavoro.
+
+1. Per impostazione predefinita, il **[!UICONTROL Test]** activity presenta un semplice test booleano. Se la condizione definita nella transizione &quot;True&quot; è soddisfatta, questa transizione verrà attivata. In caso contrario, verrà attivata una transizione predefinita &quot;False&quot;.
+
+1. Per configurare la condizione associata a una transizione, fai clic sul pulsante **[!UICONTROL Apri finestra di dialogo per personalizzazione]** icona. Utilizza l’editor di espressioni per definire le regole necessarie per attivare questa transizione. Puoi anche sfruttare le variabili evento, le condizioni e le funzioni data/ora. [Scopri come utilizzare le variabili evento e l’editor di espressioni](../event-variables.md)
+
+   Inoltre, puoi modificare i **[!UICONTROL Etichetta]** per personalizzare il nome della transizione nell’area di lavoro del flusso di lavoro.
+
+   ![](../assets/workflow-test-default.png)
+
+1. È possibile aggiungere più transizioni di output a un **[!UICONTROL Test]** attività. A questo scopo, fai clic su **[!UICONTROL Aggiungi condizione]** e configura l’etichetta e la condizione associata per ciascuna transizione.
+
+1. Durante l’esecuzione del flusso di lavoro, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, il flusso di lavoro continua lungo il percorso del **[!UICONTROL Condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, i flussi di lavoro si interrompono a questo punto.
+
+## Esempio {#example}
+
+In questo esempio, vengono attivate diverse transizioni in base al numero di profili interessati da un **[!UICONTROL Creare un pubblico]** attività:
+* Se il targeting riguarda più di 10.000 profili, viene inviato un messaggio e-mail.
+* Per un numero di profili compreso tra 1.000 e 10.000, viene inviato un SMS.
+* Se i profili target scendono al di sotto di 1.000, vengono indirizzati a una transizione &quot;non contattare&quot;.
+
+![](../assets/workflow-test-example.png)
+
+Per eseguire questa operazione, il `vars.recCount` la variabile dell’evento è stata utilizzata nelle condizioni &quot;e-mail&quot; e &quot;sms&quot; per contare il numero di profili target e attivare la transizione appropriata.
+
+![](../assets/workflow-test-example-config.png)

@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 64%
+source-wordcount: '1088'
+ht-degree: 43%
 
 ---
 
@@ -34,13 +34,25 @@ Per rimuovere un’attività, selezionala nell’area di lavoro e fai clic su **
 >
 >Hai la possibilità di personalizzare il nome delle transizioni tra ciascuna attività. A questo scopo, seleziona la transizione e modifica la relativa etichetta nel riquadro a destra.
 
+## Barra degli strumenti {#toolbar}
+
+La barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro offre opzioni per manipolare facilmente le attività e navigare nell’area di lavoro:
+
+* **Modalità di selezione multipla**: seleziona più attività per eliminarle tutte contemporaneamente o copiarle e incollarle. Consulta [questa sezione](#copy).
+* **Ruota**: cambia l’area di lavoro verticalmente.
+* **Adatta allo schermo**: adatta il livello di zoom dell’area di lavoro allo schermo.
+* **Zoom indietro** / **Zoom in**: zoom indietro o nell’area di lavoro.
+* **Visualizza mappa**: apre un’istantanea dell’area di lavoro che mostra la tua posizione.
+
+![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+
 ## Gestire le attività {#manage}
 
 Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi eseguire le seguenti azioni:
 
 * **Elimina** l’attività dall’area di lavoro.
 * **Disattiva/Attiva** l’attività. Quando il flusso di lavoro viene eseguito, le attività disabilitate e le attività successive sullo stesso percorso non vengono eseguite e il flusso di lavoro viene interrotto.
-* **Copia** l’attività. Puoi quindi incollarlo in qualsiasi flusso di lavoro facendo clic sul pulsante **+** su una transizione e selezionando &quot;Incolla 1 attività&quot;.
+* **Copia** l’attività. Consulta [questa sezione](#copy).
 * Accedi a **Registri e attività**.
 * **Pausa/Riprendi** l’attività. Quando il flusso di lavoro viene eseguito, viene messo in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
 
@@ -49,6 +61,50 @@ Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili p
 Diversi **Targeting** attività, come **Combina** o **Deduplicazione**, ti consente di elaborare la popolazione rimanente e di includerla in un’ulteriore transizione in uscita. Ad esempio, se utilizzi un’ **Dividi** attività, il complemento è costituito dalla popolazione che non corrisponde a nessuno dei sottoinsiemi precedentemente definiti. Per utilizzare questa funzionalità, attiva **Genera complemento** opzione.
 
 ![](assets/workflow-split-complement.png)
+
+## Copiare attività {#copy}
+
+Puoi copiare le attività del flusso di lavoro e incollarle in qualsiasi flusso di lavoro. Il flusso di lavoro di destinazione può trovarsi in una scheda del browser diversa.
+
+Per copiare le attività, puoi scegliere tra due opzioni:
+
+* copia un’attività utilizzando il pulsante azione.
+
+  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+* copia più attività tramite il pulsante della barra degli strumenti.
+
+  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+Per incollare le attività copiate, fai clic su **+** su una transizione e selezionare &quot;Paste X activity&quot; (Incolla attività X).
+
+![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+## Execution options {#execution}
+
+Tutte le attività ti consentono di gestire le relative opzioni di esecuzione. Seleziona un’attività e fai clic su **Opzioni di esecuzione** pulsante. Questo ti consente di definire la modalità di esecuzione dell’attività e il comportamento in caso di errori.
+
+![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+### Properties
+
+Il **Esecuzione** consente di definire l&#39;azione da eseguire all&#39;avvio dell&#39;attività.
+
+Il **Durata massima dell’esecuzione** consente di specificare una durata, ad esempio &quot;30s&quot; o &quot;1h&quot;. Se l’attività non viene completata dopo la scadenza della durata specificata, viene attivato un avviso. Questo non ha alcun impatto sul funzionamento del flusso di lavoro.
+
+Il **Fuso orario** consente di selezionare il fuso orario dell’attività. Adobe Campaign consente di gestire le differenze di tempo tra più paesi nella stessa istanza. L’impostazione applicata viene configurata al momento della creazione dell’istanza.
+
+**Affinità** consente di forzare l’esecuzione di un flusso di lavoro o di un’attività del flusso di lavoro su un determinato computer. A questo scopo, devi specificare una o più affinità per il flusso di lavoro o l’attività in questione.
+
+Il **Comportamento** consente di definire la procedura da seguire se vengono utilizzate attività asincrone.
+
+### Gestione degli errori
+
+Il **In caso di errore** consente di specificare l’azione da eseguire in caso di errore dell’attività.
+
+### Script di inizializzazione
+
+Il **Script di inizializzazione** consente di inizializzare le variabili o modificare le proprietà dell’attività. Fai clic su **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 
 ## Esempio {#example}
 
