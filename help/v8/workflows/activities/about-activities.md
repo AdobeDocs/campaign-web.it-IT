@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 35%
+source-wordcount: '567'
+ht-degree: 30%
 
 ---
 
@@ -23,19 +23,31 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 ![](../assets/workflow-activities.png)
 
-## Attività di targeting e gestione dei dati {#targeting}
+## Attività di targeting {#targeting}
 
-Queste attività sono specifiche per il targeting, la gestione e l’arricchimento dei dati sulla popolazione. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
+Queste attività sono specifiche per il targeting. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
 
-* Utilizza il [Salva pubblico](save-audience.md) attività per aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
-* Utilizza il [Creare un pubblico](build-audience.md) per definire la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
-* Utilizza il [Combina](combine.md) attività per eseguire la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
-* Utilizza il [Dividi](split.md) attività per segmentare la popolazione in ingresso in diversi sottoinsiemi.
-* Utilizza il [Reconciliation](reconciliation.md) attività per definire il collegamento tra i dati nel database di Adobe Campaign e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
-* Utilizza il [Arricchimento](enrichment.md) per definire i dati aggiuntivi da elaborare nel flusso di lavoro. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
-* Utilizza il [Deduplicazione](deduplication.md) attività per eliminare i duplicati nei risultati delle attività in entrata.
-* Utilizza il [Cambia dimensione](change-dimension.md) attività per modificare la dimensione di targeting durante la creazione del flusso di lavoro.
-* Utilizza il [Carica file](load-file.md) per lavorare con profili e dati memorizzati in un file esterno.
+* [Creare un pubblico](build-audience.md): definisci la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
+* [Cambia origine dati](change-data-source.md): modifica l’origine dati per la tabella di lavoro del flusso di lavoro.&quot;
+* [Cambia dimensione](change-dimension.md): modifica la dimensione di targeting durante la creazione del flusso di lavoro.
+* [Combina](combine.md): esegui la segmentazione sulla popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
+* [Deduplicazione](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
+* [Arricchimento](enrichment.md): definisci i dati aggiuntivi da elaborare nel flusso di lavoro. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
+* [Query incrementale](incremental-query.md): esegui una query sul database in base a una pianificazione. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi.
+* [Reconciliation](reconciliation.md): definisci il collegamento tra i dati nel database di Adobe Campaign e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
+* [Salva pubblico](save-audience.md): aggiorna un pubblico esistente o creane uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
+* [Dividi](split.md): segmenta la popolazione in ingresso in diversi sottoinsiemi.
+
+## Attività di gestione dati {#data}
+
+Queste attività sono specifiche per la manipolazione e l’arricchimento dei dati sulla popolazione.
+
+* [Extract file](extract-file.md): esporta dati da Adobe Campaign a un altro sistema come file esterno.
+* [Carica file](load-file.md): utilizza profili e dati memorizzati in un file esterno.
+* [Trasferisci file](transfer-file.md): ricezione o invio di file, verifica della presenza di file o elenco di file su un server. Il protocollo utilizzato può essere un protocollo server-to-server o HTTP.
+* [Codice JavaScript](javascript-code.md): esegui uno snippet di codice JavaScript nel contesto di un flusso di lavoro.
+* [Servizi di abbonamento](subscription-services.md): possibilità di abbonare o annullare l’abbonamento di più profili a/da un servizio in una singola azione.
+* [Aggiorna dati](update-data.md): esegui aggiornamenti di massa sui campi del database. Diverse opzioni consentono di personalizzare l’aggiornamento dei dati.
 
 ## Attività di canale {#channel}
 
@@ -50,18 +62,10 @@ Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing s
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
-* Utilizza il [Scheduler](scheduler.md) attività da pianificare all’avvio del flusso di lavoro.
-* Utilizza il [And-join](and-join.md) attività per sincronizzare più rami di esecuzione di un flusso di lavoro.
-* Aggiungi un **Fine** per contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
-* Utilizza il [Fork](fork.md) attività per creare transizioni in uscita e avviare più attività contemporaneamente.
-* Aggiungi un [Wait](wait.md) attività per mettere momentaneamente in pausa l’esecuzione di una parte di un flusso di lavoro.
-
-<!--
-## Data management activities {#data-management}
-
-overview: what they're used for
-which use case you can perform with them
-
-list available activities + short description + ref to section
--->
-
+* [And-join](and-join.md): sincronizza più rami di esecuzione di un flusso di lavoro.
+* **Fine**: contrassegna graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa
+* [Segnale esterno](external-signal.md): attiva l’esecuzione di un flusso di lavoro da un altro flusso di lavoro o da una chiamata API.
+* [Fork](fork.md): crea transizioni in uscita per avviare più attività in contemporanea.
+* [Scheduler](scheduler.md): pianifica l’avvio del flusso di lavoro.
+* [Test](test.md): abilita le transizioni in base a condizioni specificate.
+* [Wait](wait.md): sospende temporaneamente l’esecuzione di una parte di un flusso di lavoro.
