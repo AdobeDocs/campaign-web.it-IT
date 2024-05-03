@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di marzo è ora live]
+>[!TAB La versione di aprile è live.]
 
-Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.3 dell’interfaccia utente di Adobe Campaign Web.
+Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.4 dell’interfaccia utente di Adobe Campaign Web.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Canale Direct mail]
+>[!TAB Nuove attività del flusso di lavoro]
 
-Il canale **Direct mail** è ora disponibile per l’utilizzo nei flussi di lavoro e come consegne autonome. Direct mail è un canale offline che consente di creare, personalizzare e generare un file di estrazione e di condividerlo con i provider di servizi di direct mail per inviare comunicazioni per posta alla clientela.
+Questa versione include le seguenti attività del flusso di lavoro: Update data (Aggiorna dati), Subscription services (Servizi di abbonamento), Extract file (Estrai file), Transfer file (Trasferisci file), Test, Codice JavaScript, External signal (Segnale esterno), Incremental query (Query incrementale).
 
-![immagine](assets/do-not-localize/direct-mail.gif)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Notifica push potenziata]
 
->[!TAB Nuova attività per flussi di lavoro Cambia origine dati]
+Ora puoi inviare notifiche push potenziate tramite Android. La notifica push potenziata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media.
 
-L’attività di targeting **Cambia origine dati** consente di cambiare l’origine dati della tabella di lavoro del flusso di lavoro. Questa attività offre maggiore flessibilità consentendo di gestire i dati tra diversi database e migliorare le prestazioni.
-
-![immagine](assets/do-not-localize/change-data-source.gif)
-
-[![immagine](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
