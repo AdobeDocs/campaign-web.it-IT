@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare i frammenti
 description: Scopri come utilizzare i frammenti
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ Questa funzionalità consente di precreare più blocchi di contenuto personalizz
 Per utilizzare al meglio i frammenti:
 
 * Crea frammenti visivi personalizzati, come descritto di seguito.
-* Puoi utilizzarli tutte le volte che è necessario nel contenuto tramite E-mail Designer. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md)
+* Puoi utilizzarli tutte le volte che è necessario nel contenuto tramite E-mail Designer. Consulta [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md).
 
 ## Creare un frammento visivo {#create-fragments}
 
@@ -102,8 +102,6 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
    ![](assets/fragment-designer.png)
 
 1. Quando il frammento è pronto, fai clic su **[!UICONTROL Salva e chiudi]**. Viene aggiunto al [elenco frammenti](#access-manage-fragments).
-
-1. Se necessario, fai clic sulla freccia accanto al nome del frammento per tornare al **[!UICONTROL Dettagli]** e modificarlo.
 
 Questo frammento è ora pronto per essere utilizzato durante la creazione di qualsiasi [email](../email/get-started-email-designer.md) o [modello di contenuto](use-email-templates.md) all’interno di Campaign. [Scopri come](../email/use-visual-fragments.md)
 
