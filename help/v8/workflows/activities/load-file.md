@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 13%
+source-wordcount: '1227'
+ht-degree: 14%
 
 ---
 
@@ -42,10 +42,6 @@ Il **Carica file** la configurazione dell’attività prevede due passaggi. Inna
 ![](../assets/workflow-load-file.png)
 
 ### Configurare il file di esempio {#sample}
-
->[!AVAILABILITY]
->
->Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti in esecuzione su un server Campaign v8.7 e non può essere distribuito in nessun altro ambiente.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
 >
 >Prima di caricare il file di destinazione, accertati che sia conforme alla formattazione del file di esempio. Eventuali discrepanze nel formato del file, nella struttura delle colonne o nel numero di colonne possono causare errori durante l’esecuzione del flusso di lavoro.
 
+Per definire il file di destinazione da caricare, effettua le seguenti operazioni:
+
 1. In **[!UICONTROL File di destinazione]** , specificare l&#39;azione da eseguire durante il recupero del file da caricare sul server.
 
    * **[!UICONTROL Carica file dal computer locale]**: seleziona il file da caricare dal computer.
@@ -150,10 +148,6 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
 >title="Elimina file dopo l’importazione"
 >abstract="Attiva/disattiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo averlo importato."
 
-
->[!AVAILABILITY]
->
->Queste opzioni sono disponibili in Disponibilità limitata (LA). Sono limitati ai clienti che eseguono su un server Campaign v8.7 e non possono essere distribuiti in nessun altro ambiente.
 
 1. In **Gestione dei rifiuti** , specifica il comportamento dell&#39;attività in caso di errori:
 
