@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: Utilizzare i frammenti
-description: Scopri come utilizzare i frammenti
+title: Creare frammenti di contenuto
+description: Scopri come creare con i frammenti di contenuto
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '843'
 ht-degree: 5%
 
 ---
 
-# Utilizzare i frammenti {#fragments}
+# Creare frammenti di contenuto {#fragments}
 
 
 >[!CONTEXTUALHELP]
