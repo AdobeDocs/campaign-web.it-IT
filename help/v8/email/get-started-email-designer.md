@@ -3,20 +3,15 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come iniziare a creare i contenuti utilizzando E-mail designer nell’interfaccia utente di Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
-workflow-type: ht
-source-wordcount: '427'
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
 # Introduzione a E-mail Designer {#get-started-email-designer}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Nuovo E-mail Designer"
->abstract="E-mail Designer di Campaign consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Partendo da zero o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
 

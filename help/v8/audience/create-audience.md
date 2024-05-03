@@ -3,20 +3,14 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 52%
+source-wordcount: '879'
+ht-degree: 49%
 
 ---
 
 # Creare tipi di pubblico {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Composizione del pubblico"
->abstract="Crea nuovi tipi di pubblico in nell’area di lavoro del flusso di lavoro. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

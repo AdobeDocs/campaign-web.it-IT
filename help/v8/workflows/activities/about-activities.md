@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 30%
+source-wordcount: '686'
+ht-degree: 26%
 
 ---
 
@@ -40,6 +40,12 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 
 ## Attività di gestione dati {#data}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Attività Extract File e Load File"
+>abstract="Sono disponibili nuove attività di gestione dati nei flussi di lavoro. Utilizza l’attività Extract File per esportare i dati da Adobe Campaign in un altro sistema come file esterno. Utilizza l’attività Load File per lavorare con profili e dati memorizzati in un file esterno."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
 Queste attività sono specifiche per la manipolazione e l’arricchimento dei dati sulla popolazione.
 
 * [Extract file](extract-file.md): esporta dati da Adobe Campaign a un altro sistema come file esterno.
@@ -54,6 +60,15 @@ Queste attività sono specifiche per la manipolazione e l’arricchimento dei da
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su più canali. Puoi combinare le attività dei canali nell’area di lavoro per creare flussi di lavoro cross-channel che possono attivare azioni in base al comportamento del cliente. I seguenti elementi **Canale** Le attività sono disponibili: e-mail, SMS, Android e notifiche push iOS. [Scopri come impostare una consegna nel contesto di un flusso di lavoro](channels.md).
 
 ## Attività di controllo del flusso {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Attività di flusso di lavoro avanzate"
+>abstract="Ora puoi configurare le attività Test, Codice JavaScript e Segnale esterno in un flusso di lavoro. Utilizza l’attività Test per abilitare le transizioni del flusso di lavoro in base alle condizioni. Aggiungi un’attività Codice JavaScript per eseguire uno snippet di codice JS nel contesto del flusso di lavoro. Configura un’attività External Signal per attivare l’esecuzione del flusso di lavoro da un’API o da un altro flusso di lavoro."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

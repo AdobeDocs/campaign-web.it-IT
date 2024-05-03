@@ -2,14 +2,21 @@
 audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Incremental query
 description: Scopri come utilizzare l’attività del flusso di lavoro Incremental query
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 16%
+source-wordcount: '786'
+ht-degree: 18%
 
 ---
 
 # Query incrementale {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Attività query incrementale"
+>abstract="Utilizza la nuova attività Incremental Query per eseguire query sul database su base pianificata. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
@@ -34,7 +41,7 @@ Il **[!UICONTROL Query incrementale]** L’attività può essere utilizzata per 
 
 La popolazione già interessata dalle esecuzioni precedenti viene memorizzata nel flusso di lavoro. Ciò significa che due flussi di lavoro avviati dallo stesso modello non condividono lo stesso registro. Tuttavia, due attività basate sulla stessa query incrementale nello stesso flusso di lavoro utilizzano lo stesso registro.
 
-Se il risultato di una query incrementale è uguale a 0 durante una delle sue esecuzioni, il flusso di lavoro viene sospeso fino alla successiva esecuzione programmata della query. Le transizioni e le attività che seguono la query incrementale non vengono quindi elaborate prima dell’esecuzione successiva.
+Se il risultato di una query incrementale è uguale a 0 durante una delle esecuzioni, il flusso di lavoro viene sospeso fino alla successiva esecuzione programmata della query. Le transizioni e le attività che seguono la query incrementale non vengono quindi elaborate prima dell’esecuzione successiva.
 
 ## Configurare l’attività Incremental query {#incremental-query-configuration}
 
