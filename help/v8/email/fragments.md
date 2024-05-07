@@ -4,9 +4,10 @@ title: Creare frammenti di contenuto
 description: Scopri come creare con i frammenti di contenuto
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '870'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Definisci il tuo frammento"
->abstract="Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail di campagne diverse."
+>abstract="Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail di campagne diverse. Questa funzionalità viene utilizzata per precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
