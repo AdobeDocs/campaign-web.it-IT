@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [Sfogliare e filtrare gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Accesso e autorizzazioni](get-started/permissions.md)
-   + [Console web e client di Campaign](get-started/capability-matrix.md)
+   + [Campaign Web e Console client](get-started/capability-matrix.md)
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [Configurare il contenuto dell’e-mail](email/edit-content.md)
          + Gestire i contenuti riutilizzabili {#manage-reusable-content}
             + [Utilizzare i modelli di contenuto](email/create-email-templates.md)
-            + [Utilizzare i frammenti](email/fragments.md)
+            + [Utilizzare frammenti visivi](email/fragments.md)
             + [Aggiungi frammenti visivi alle e-mail](email/use-visual-fragments.md)
          + Iniziare a definire l’e-mail {#start-design}
             + [Introduzione a E-mail Designer](email/get-started-email-designer.md)
@@ -149,7 +149,7 @@ ht-degree: 96%
       + [Deduplica](workflows/activities/deduplication.md)
       + [E-mail, SMS, push, direct mail](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
-      + [Attività External signal](workflows/activities/external-signal.md)
+      + [Segnale esterno](workflows/activities/external-signal.md)
       + [Estrai file](workflows/activities/extract-file.md)
       + [Fork](workflows/activities/fork.md)
       + [Query incrementale](workflows/activities/incremental-query.md)
@@ -160,7 +160,7 @@ ht-degree: 96%
       + [Modulo di pianificazione](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
       + [Servizi di abbonamento](workflows/activities/subscription-services.md)
-      + [Attività Test](workflows/activities/test.md)
+      + [Test](workflows/activities/test.md)
       + [Trasferimento file](workflows/activities/transfer-file.md)
       + [Aggiornare i dati](workflows/activities/update-data.md)
       + [Attendi](workflows/activities/wait.md)

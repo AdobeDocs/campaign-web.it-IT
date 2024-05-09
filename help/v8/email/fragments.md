@@ -5,10 +5,10 @@ description: Scopri come creare con i frammenti di contenuto
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 5%
+source-wordcount: '887'
+ht-degree: 4%
 
 ---
 
@@ -167,7 +167,7 @@ Per eliminare un frammento, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Durante l’eliminazione di un frammento di contenuto, le consegne e i modelli e-mail che lo utilizzano vengono aggiornati e il frammento viene rimosso dal contenuto del messaggio. Se necessario, puoi interrompere l’ereditarietà. [Ulteriori informazioni](use-visual-fragments.md#break-inheritance)
+>Durante l’eliminazione di un frammento di contenuto, le consegne e i modelli e-mail che lo utilizzano vengono aggiornati: il frammento viene rimosso dal contenuto dell’e-mail, ma vi si fa ancora riferimento. Per mantenere il contenuto del frammento in tali consegne e modelli, è necessario interrompere l’ereditarietà prima di eliminare il frammento, [come descritto in questa sezione](use-visual-fragments.md#break-inheritance).
 >
 
 ### Duplicare un frammento {#duplicate-fragments}

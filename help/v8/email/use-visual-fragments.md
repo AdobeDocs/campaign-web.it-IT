@@ -4,7 +4,8 @@ title: Aggiungi frammenti visivi alle e-mail
 description: Scopri come aggiungere frammenti visivi alle e-mail
 hide: true
 hidefromtoc: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -52,9 +53,10 @@ Per inserire un frammento in un contenuto e-mail, effettua le seguenti operazion
    Dalla sezione **[!UICONTROL Impostazioni]** , è possibile:
 
    * Scegli i dispositivi su cui vuoi visualizzare il frammento.
-   * Apri il frammento in una nuova scheda per modificarlo, se necessario. [Ulteriori informazioni](../email/fragments.md#edit-fragments)
+   * 
+      1. Fai clic su **Modifica contenuto** per aprire il contenuto di questo frammento. [Ulteriori informazioni](../email/fragments.md#edit-fragments)
 
-   Puoi personalizzare ulteriormente il frammento utilizzando **[!UICONTROL Stili]** scheda.
+     Puoi personalizzare ulteriormente il frammento utilizzando **[!UICONTROL Stili]** scheda.
 
 1. Se necessario, puoi interrompere l’ereditarietà con il frammento originale. [Ulteriori informazioni](#break-inheritance)
 Puoi anche eliminare il frammento dal contenuto o duplicarlo. Queste azioni possono essere eseguite direttamente dal menu contestuale visualizzato sopra il frammento.
