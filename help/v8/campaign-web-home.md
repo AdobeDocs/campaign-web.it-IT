@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di aprile è live.]
+>[!TAB La versione di aprile è ora disponibile!]
 
 Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.4 dell’interfaccia utente di Adobe Campaign Web.
 
@@ -59,13 +59,13 @@ Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.4 dell�
 
 >[!TAB Nuove attività del flusso di lavoro]
 
-Questa versione include le seguenti attività del flusso di lavoro: Update data (Aggiorna dati), Subscription services (Servizi di abbonamento), Extract file (Estrai file), Transfer file (Trasferisci file), Test, Codice JavaScript, External signal (Segnale esterno), Incremental query (Query incrementale).
+Questa versione include le seguenti attività del flusso di lavoro: Aggiorna dati, Servizi di abbonamento, Estrai file, Trasferisci file, Test, Codice JavaScript, Segnale esterno, Query incrementale.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Notifica push potenziata]
+>[!TAB Notifica Push avanzata]
 
-Ora puoi inviare notifiche push potenziate tramite Android. La notifica push potenziata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media.
+Ora puoi inviare notifiche push avanzate tramite Android. La notifica push avanzata è una forma di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ Ora puoi inviare notifiche push potenziate tramite Android. La notifica push pot
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introduzione</strong><br/><a href="get-started/user-interface.md">Interfaccia utente</a> - <a href="get-started/connect-to-campaign.md">Connetti a Campaign</a> - <a href="get-started/permissions.md">Accesso e autorizzazioni</a>
+      <strong>Introduzione</strong><br/><a href="get-started/user-interface.md">Interfaccia utente</a> - <a href="get-started/connect-to-campaign.md">Connettiti a Campaign</a> - <a href="get-started/permissions.md">Accesso e autorizzazioni</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

@@ -4,9 +4,9 @@ title: Novità nell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Con l’interfaccia utente di Campaign Web, l’interfaccia utente riflette le a
 
 Le funzionalità supportate/non supportate e l’interoperabilità tra l’interfaccia utente di Campaign Web e la console client di Campaign, sono disponibili [in questa pagina](../get-started/capability-matrix.md).
 
-In qualità di utente Campaign Standard che passa a Campaign v8, [fai riferimento a questa pagina](../rn/acs-migration.md).
+In qualità di utente Campaign Standard che esegue la migrazione a Campaign v8, [fai riferimento a questa pagina](../rn/acs-migration.md).
 
 ## Aggiornamenti terminologici {#terminology-updates}
 
