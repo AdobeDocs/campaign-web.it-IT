@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Cambia dimensione
 description: Scopri come utilizzare l’attività Cambia dimensione nel flusso di lavoro
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 86%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 100%
 L’attività **Cambia dimensione** è un’attività di **targeting**. Questa attività ti consente di modificare la dimensione targeting durante la creazione del flusso di lavoro. Sposta l’asse in base al modello di dati e alla dimensione di input. [Ulteriori informazioni sulle dimensioni targeting](../../audience/about-recipients.md#targeting-dimensions)
 
 Ad esempio, puoi cambiare la dimensione di targeting di un flusso di lavoro da “Destinatari” ad “Applicazione per abbonati” per inviare notifiche push ai destinatari target.
+
+>[!IMPORTANT]
+>
+>Tieni presente che **[!UICONTROL Cambia dimensione]** e **[!UICONTROL Cambia origine dati]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROOL Arricchimento]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 ## Configurare l’attività Cambia dimensione {#configure}
 

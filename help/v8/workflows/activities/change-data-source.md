@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica origine dati
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica origine dati
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 19%
+source-wordcount: '343'
+ht-degree: 16%
 
 ---
 
@@ -24,6 +24,10 @@ Nei flussi di lavoro, i dati trasportati da un’attività all’altra tramite t
 In alcuni casi, i dati non sono disponibili nel database corrente o non sono abbastanza efficienti per eseguire operazioni unitarie. Potrebbe pertanto essere necessario forzare il flusso di lavoro a utilizzare un database diverso per eseguire tali operazioni aggiungendo un **[!UICONTROL Cambia origine dati]** attività.
 
 Informazioni dettagliate sull’architettura di Campaign sono disponibili in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+
+>[!IMPORTANT]
+>
+>Tieni presente che **[!UICONTROL Cambia dimensione]** e **[!UICONTROL Cambia origine dati]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROOL Arricchimento]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 <!--
 
