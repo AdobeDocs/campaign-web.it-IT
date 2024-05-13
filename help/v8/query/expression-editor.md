@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 82%
+source-wordcount: '2106'
+ht-degree: 79%
 
 ---
 
@@ -91,6 +91,11 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Restituisce la deviazione standard in una colonna numerica, stringa o data<br /> </td> 
    <td> StdDev(&lt;valore&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringaAgg</strong><br /> </td> 
+   <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento<br /> </td> 
+   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Somma</strong><br /> </td> 
@@ -145,6 +150,16 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Converte la marca temporale NTZ (marca temporale senza fuso orario) in TZ (marca temporale con fuso orario) applicando la sessione definita TZ<br/> </td> 
    <td> ConvertNTZ (&lt;data+ora&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Confrontare due date<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Converte una stringa in una data + ora<br /> </td> 
    <td> ToDateTime(&lt;stringa&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Converte una stringa in una marca temporale<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Convertire una data + ora in fuso orario<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ Questa tabella contiene le altre funzioni disponibili.
    <td> <strong>Descrizione</strong><br /> </td> 
    <td> <strong>Sintassi</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Stringa di crittografia fornita nell’argomento<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Restituisce il valore 1 se la condizione è vera. In caso contrario, restituisce il valore 2.<br /> </td> 
@@ -522,11 +547,11 @@ Questa tabella contiene le altre funzioni disponibili.
    <td> Restituisce il valore 2 se la stringa è vuota, altrimenti restituisce il valore 3<br /> </td> 
    <td> IsEmptyString(&lt;valore 1&gt;, &lt;valore 2&gt;, &lt;valore 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> Restituisce un ID univoco<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Restituisce la stringa vuota se l’argomento è NULL<br /> </td> 
@@ -631,11 +656,11 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> Restituisce la lunghezza della stringa<br /> </td> 
    <td> Length(&lt;stringa&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Linea</strong><br /> </td> 
+   <td> Estrai riga n da stringa<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Restituisce la stringa in caratteri minuscoli<br /> </td> 
@@ -665,6 +690,11 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Estrae il valore di un campo XML dal relativo XPath e dai dati del campo<br /> </td> 
    <td> ValoreNodo (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Sostituisce tutte le occorrenze di un valore stringa specificato con un altro valore stringa.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
