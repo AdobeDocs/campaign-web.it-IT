@@ -2,14 +2,15 @@
 audience: end-user
 title: Utilizzare l’attività External signal
 description: Scopri come utilizzare l’attività del flusso di lavoro External signal
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 3%
 
 ---
 
-# Attività External signal {#external-signal}
+# Segnale esterno {#external-signal}
 
 <!--External Signal End-->
 
