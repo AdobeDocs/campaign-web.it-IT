@@ -3,10 +3,10 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL 
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-Il **[!UICONTROL Pagine di destinazione]** inventory visualizza tutti gli articoli creati. Puoi filtrarli utilizzando **Mostra filtri** pulsante. È possibile limitare i risultati a uno specifico [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa, oppure aggiungi regole utilizzando [query modeler](../query/query-modeler-overview.md).
+Il **[!UICONTROL Pagine di destinazione]** inventory visualizza tutti gli articoli creati. Puoi filtrarli utilizzando **[!UICONTROL Mostra filtri]** pulsante. È possibile limitare i risultati a uno specifico [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa, oppure aggiungi regole utilizzando [query modeler](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
@@ -61,7 +61,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definire le opzioni di precaricamento"
->abstract="Quando l’opzione **Precompila con i dati a cui si fa riferimento nel modulo** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con il **Autorizza assenza di ID** opzione selezionata, tutti i visitatori, inclusi gli utenti anonimi, possono accedere alla pagina di destinazione."
+>abstract="Quando l’opzione **Precompila con i dati a cui si fa riferimento nel modulo** è selezionata, se il visitatore della pagina di destinazione corrisponde a un profilo del database, le informazioni del profilo vengono precaricate automaticamente nel modulo. Con l’opzione **Autorizza l’assenza di ID** selezionata, tutti i visitatori, inclusi gli utenti anonimi, possono accedere alla pagina di destinazione."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -114,7 +114,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
      >[!AVAILABILITY]
      >
-     >Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+     >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
      Per **[!UICONTROL Acquisizione]** e **[!UICONTROL Abbonamento]** modelli, questa opzione è selezionata per impostazione predefinita. Per **[!UICONTROL Annullamento iscrizione]** e **[!UICONTROL Inserisco nell&#39;elenco Bloccati]** modelli, questa opzione è deselezionata per impostazione predefinita e non può essere modificata<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
@@ -132,7 +132,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
    >[!AVAILABILITY]
    >
-   >Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+   >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
