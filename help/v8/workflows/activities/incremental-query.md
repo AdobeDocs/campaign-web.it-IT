@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Incremental query
 description: Scopri come utilizzare l’attività del flusso di lavoro Incremental query
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 18%
+source-wordcount: '794'
+ht-degree: 19%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 18%
 >id="acw_orchestration_incrementalquery_history"
 >title="Cronologia della query incrementale"
 >abstract="Cronologia della query incrementale"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Dati elaborati della query incrementale"
+>abstract="Dati elaborati della query incrementale"
 
 Il **Query incrementale** l&#39;attività è un **Targeting** attività che consente di eseguire query sul database su base pianificata. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi.
 
