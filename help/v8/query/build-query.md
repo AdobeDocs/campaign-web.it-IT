@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 61%
+source-wordcount: '2138'
+ht-degree: 60%
 
 ---
 
@@ -157,7 +157,7 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Selezionare il tipo di pubblico"
->abstract="Selezionare il tipo di pubblico"
+>abstract="Utilizzando il **Seleziona pubblico** , puoi scegliere il pubblico da utilizzare per filtrare la query."
 
 Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti operazioni:
 
@@ -174,7 +174,7 @@ Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti op
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Filtro preimpostato"
->abstract="Filtro preimpostato"
+>abstract="Utilizzando il **Filtro predefinito** , è possibile selezionare un filtro predefinito dall&#39;elenco dei filtri personalizzati o dai preferiti."
 
 Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti operazioni:
 
@@ -213,7 +213,7 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Gruppo"
->abstract="Gruppo"
+>abstract="In questo riquadro, puoi modificare l’operatore utilizzato per collegare insieme le condizioni di filtro."
 
 Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo viene automaticamente collegato all’altro componente da un **E** operatore. Ciò significa che i risultati dei due componenti di filtraggio sono combinati.
 

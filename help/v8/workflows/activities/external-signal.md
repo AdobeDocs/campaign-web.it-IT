@@ -6,7 +6,7 @@ exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Segnale esterno"
->abstract="Il **Segnale esterno** L’attività ti consente di attivare l’esecuzione di un flusso di lavoro da un altro flusso di lavoro o da una chiamata API."
+>abstract="L’attività **Segnale esterno** ti consente di attivare l’esecuzione di un flusso di lavoro da un altro flusso di lavoro o da una chiamata API."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"

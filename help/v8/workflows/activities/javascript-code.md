@@ -2,10 +2,11 @@
 audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Codice JavaScript
 description: Scopri come utilizzare l’attività del flusso di lavoro del codice JavaScript
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 8%
+ht-degree: 29%
 
 ---
 
@@ -14,12 +15,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Codice JavaScript"
->abstract="Il **Codice JavaScript** attività ti consente di eseguire uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di eseguire azioni o raccogliere informazioni dal database. Utilizzare **Semplice** Attività di codice JavaScript per eseguire un frammento di codice all’esecuzione del flusso di lavoro. **Avanzate** Le attività di codice JavaScript consentono di eseguire operazioni più complesse eseguendo due diversi snippet di codice in ordine sequenziale. La prima volta che viene avviato il flusso di lavoro, viene eseguita la prima chiamata. Ogni volta che il flusso di lavoro viene eseguito di nuovo, viene eseguito il codice definito nella seconda chiamata."
+>abstract="L’attività **Codice JavaScript** esegue uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di eseguire azioni o raccogliere informazioni dal database. Utilizza **semplici** attività Codice JavaScript per eseguire uno snippet di codice durante l’esecuzione del flusso di lavoro. Le attività Codice JavaScript **avanzate** consentono di eseguire operazioni più complesse eseguendo due diversi snippet di codice in ordine sequenziale. La prima volta che viene avviato il flusso di lavoro, viene eseguita la prima chiamata. Ogni volta che il flusso di lavoro viene eseguito di nuovo, viene eseguito il codice definito nella seconda chiamata."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Snippet JavaScript"
->abstract="Definisci lo script da eseguire durante l’esecuzione dell’attività. Se stai configurando un’ **Avanzate** Attività JavaScript, devi modificare due snippet di codice: il primo codice di chiamata da eseguire alla prima esecuzione del flusso di lavoro e il codice di chiamata successivo da eseguire alle chiamate successive del flusso di lavoro."
+>abstract="Definisci lo script da eseguire durante l’esecuzione dell’attività. Se stai configurando un’attività JavaScript **avanzata**, devi modificare due snippet di codice: il primo codice di chiamata da eseguire alla prima esecuzione del flusso di lavoro e il codice di chiamata successivo da eseguire alle chiamate successive del flusso di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
@@ -29,7 +30,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transizione JavaScript"
->abstract="Per aggiungere più transizioni di output, fare clic sul pulsante **[!UICONTROL Aggiungere transizioni]** pulsante. Ciò ti consente, ad esempio, di attivare una transizione specifica basata su una condizione specifica definita nell’attività del codice JavaScript. Questa opzione è disponibile per **Avanzate** Solo attività di codice JavaScript."
+>abstract="Per aggiungere più transizioni di output, fai clic sul pulsante **[!UICONTROL Aggiungi transizioni]**. Questo ti consente, ad esempio, di attivare una determinata transizione basata su una condizione specifica definita nell’attività Codice JavaScript. Questa opzione è disponibile solo per le attività Codice JavaScript **Avanzate**."
 
 Il **Codice JavaScript** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per eseguire uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di raccogliere informazioni dal database o di eseguire altre operazioni complesse.
 

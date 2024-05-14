@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 69%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -33,12 +33,12 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configurare l’attività Creazione del pubblico{#build-audience-configuration}
+## Configurare l’attività Creazione del pubblico {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Pubblico"
->abstract="Pubblico"
+>abstract="Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova consegna."
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 

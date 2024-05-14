@@ -2,10 +2,11 @@
 audience: end-user
 title: Utilizzare l’attività Transfer file
 description: Scopri come utilizzare l’attività del flusso di lavoro Trasferisci file
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="Trasferimento file"
->abstract="Il **Trasferisci file** attività consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo server-to-server o HTTP."
+>abstract="L’attività **Trasferimento file** consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -66,7 +67,7 @@ ht-degree: 11%
 >title="Errori del processo"
 >abstract="Errori del processo"
 
-Il **Trasferisci file** l&#39;attività è un **Gestione dati** attività. Consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo server-to-server o HTTP.
+Il **Trasferisci file** l&#39;attività è un **Gestione dati** attività. Consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 
 >[!NOTE]
 >

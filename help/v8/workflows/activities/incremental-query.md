@@ -6,7 +6,7 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 19%
+ht-degree: 24%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Attività query incrementale"
->abstract="Utilizza la nuova attività Incremental Query per eseguire query sul database su base pianificata. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
+>abstract="Utilizza la nuova attività Query incrementale per eseguire query sul database su base pianificata. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Query incrementale"
->abstract="Il **Query incrementale** l&#39;attività è un **Targeting** che consente di eseguire query sul database utilizzando Query Modeler. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
+>abstract="La **Query incrementale** è un’attività di **Targeting** che consente di eseguire query sul database utilizzando il query modeler. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"

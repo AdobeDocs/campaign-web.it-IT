@@ -2,10 +2,11 @@
 audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Estrai file
 description: Scopri come utilizzare l’attività del flusso di lavoro Extract file
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 7%
+source-wordcount: '875'
+ht-degree: 15%
 
 ---
 
@@ -14,13 +15,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Estrai file"
->abstract="Il **Extract file** attività ti consente di esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione Cloud o il server della campagna utilizzando un’attività Transfer file."
+>abstract="L’attività **Estrai file** ti consente di esportare dati da Adobe Campaign come file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file."
 
-Il **Extract file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione Cloud o il server della campagna utilizzando un’attività Transfer file.
+Il **Extract file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file.
 
 Per configurare **Extract file** attività, aggiungi un **Extract file** nel flusso di lavoro, quindi segui i passaggi indicati di seguito.
 
-## Configura il file da estrarre {#extract-configuration}
+## Configurare il file da estrarre {#extract-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
@@ -53,7 +54,7 @@ Il **[!UICONTROL File da estrarre]** consente di configurare le proprietà del f
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Formato di destinazione"
->abstract="Seleziona il formato."
+>abstract="Selezionare le diverse opzioni per configurare la formattazione del file estratto."
 
 Il **[!UICONTROL Destinazione]** sezione di formato consente di configurare la formattazione del file estratto.
 
@@ -76,12 +77,12 @@ Il **[!UICONTROL Destinazione]** sezione di formato consente di configurare la f
 
    ![](../assets/extract-file-format.png)
 
-## Aggiungi una fase di post-elaborazione {#script}
+## Aggiungere una fase di post-elaborazione {#script}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post-elaborazione"
->abstract="Definisci un passaggio di post-elaborazione"
+>abstract="Definisci un passaggio di post-elaborazione da applicare, ad esempio zip o crittografia."
 
 Il **[!UICONTROL Esporta script di modifica]** consente di applicare una fase di elaborazione da eseguire durante l’estrazione dei dati, ad esempio la compressione o la crittografia. A questo scopo, fai clic su **[!UICONTROL Modifica script]** pulsante.
 

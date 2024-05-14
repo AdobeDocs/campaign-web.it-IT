@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 26%
+ht-degree: 43%
 
 ---
 
@@ -42,15 +42,15 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Attività Extract e Load File"
->abstract="Sono disponibili nuove attività di gestione dati nei flussi di lavoro. Utilizza l’attività Extract File per esportare i dati da Adobe Campaign in un altro sistema come file esterno. Utilizza l’attività Load File per lavorare con profili e dati memorizzati in un file esterno."
+>title="Attività di estrazione e caricamento file"
+>abstract="Sono disponibili nuove attività di gestione dati nei flussi di lavoro. Utilizza l’attività Estrai file per esportare i dati da Adobe Campaign in un altro sistema come file esterno. Utilizza l’attività di caricamento file per utilizzare profili e dati memorizzati in un file esterno."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Queste attività sono specifiche per la manipolazione e l’arricchimento dei dati sulla popolazione.
 
 * [Extract file](extract-file.md): esporta dati da Adobe Campaign a un altro sistema come file esterno.
 * [Carica file](load-file.md): utilizza profili e dati memorizzati in un file esterno.
-* [Trasferisci file](transfer-file.md): ricezione o invio di file, verifica della presenza di file o elenco di file su un server. Il protocollo utilizzato può essere un protocollo server-to-server o HTTP.
+* [Trasferisci file](transfer-file.md): ricezione o invio di file, verifica della presenza di file o elenco di file su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 * [Codice JavaScript](javascript-code.md): esegui uno snippet di codice JavaScript nel contesto di un flusso di lavoro.
 * [Servizi di abbonamento](subscription-services.md): possibilità di abbonare o annullare l’abbonamento di più profili a/da un servizio in una singola azione.
 * [Aggiorna dati](update-data.md): esegui aggiornamenti di massa sui campi del database. Diverse opzioni consentono di personalizzare l’aggiornamento dei dati.
@@ -64,8 +64,8 @@ Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing s
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="Attività di flusso di lavoro avanzate"
->abstract="Ora puoi configurare le attività Test, Codice JavaScript e Segnale esterno in un flusso di lavoro. Utilizza l’attività Test per abilitare le transizioni del flusso di lavoro in base alle condizioni. Aggiungi un’attività Codice JavaScript per eseguire uno snippet di codice JS nel contesto del flusso di lavoro. Configura un’attività External Signal per attivare l’esecuzione del flusso di lavoro da un’API o da un altro flusso di lavoro."
+>title="Attività dei flussi di lavoro avanzati"
+>abstract="Ora puoi configurare le attività Verifica, Codice JavaScript e Segnale esterno in un flusso di lavoro. Utilizza l’attività di verifica per abilitare le transizioni del flusso di lavoro in base alle condizioni. Aggiungi un’attività codice JavaScript per eseguire uno snippet di codice JS nel contesto del flusso di lavoro. Configura un’attività Segnale esterno per attivare l’esecuzione del flusso di lavoro da un’API o da un altro flusso di lavoro."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 

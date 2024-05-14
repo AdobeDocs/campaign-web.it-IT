@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 60%
+source-wordcount: '726'
+ht-degree: 59%
 
 ---
 
@@ -49,7 +49,7 @@ Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pa
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Elenco dei flussi di lavoro in una campagna"
->abstract="Elenco dei flussi di lavoro in una campagna"
+>abstract="Il **Flusso di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna corrente."
 
 In **Sfoglia** nell’elenco delle campagne, fai clic sul nome di una campagna per visualizzarne i dettagli.
 

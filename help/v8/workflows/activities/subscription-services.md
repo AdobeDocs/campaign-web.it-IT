@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Attività Subscription Services"
->abstract="Utilizza la nuova attività del flusso di lavoro Subscription Services per gestire gli abbonamenti a un servizio. Puoi sottoscrivere o annullare l’abbonamento a una popolazione e anche aggiornare più abbonamenti da un file esterno. In alternativa, puoi inviare un messaggio di conferma agli abbonati."
+>title="Attività dei servizi di iscrizione"
+>abstract="Utilizza la nuova attività del flusso di lavoro dei Servizi di iscrizione per gestire le iscrizioni a un servizio. Puoi sottoscrivere o annullare l’iscrizione a una popolazione e anche aggiornare più iscrizioni da un file esterno. In alternativa, puoi inviare un messaggio di conferma agli iscritti."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Attività dei servizi di abbonamento"
->abstract="L’attività Subscription services consente a più profili di effettuare o annullare l’abbonamento a un servizio in un’unica azione."
+>title="Attività dei servizi di iscrizione"
+>abstract="L’attività Servizi di iscrizione consente a più profili di effettuare l’iscrizione a un servizio o annullarla, in un’unica azione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parametri generali del servizio di abbonamento"
->abstract="Scegli il servizio desiderato e scegli l’azione da eseguire (abbonamento o annullamento dell’abbonamento). Attiva **Invia messaggio di conferma** opzione su per notificare alla popolazione l’abbonamento o l’annullamento dell’abbonamento al servizio selezionato."
+>title="Parametri dei servizi di iscrizione"
+>abstract="Scegli il servizio desiderato e scegli l’azione da eseguire (iscrizione o annullamento dell’iscrizione). Attiva l’opzione **Invia messaggio di conferma** per notificare alla popolazione l’iscrizione o l’annullamento dell’iscrizione al servizio selezionato."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"

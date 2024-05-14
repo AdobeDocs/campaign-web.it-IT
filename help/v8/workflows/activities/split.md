@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -55,7 +55,7 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Salta transizione vuota"
->abstract="Attiva/disattiva **[!UICONTROL Salta transizione vuota]** opzione su per disabilitare la transizione di output per questo sottoinsieme se il gruppo in ingresso è vuoto."
+>abstract="Attiva l’opzione **[!UICONTROL Salta transizione vuota]** per disabilitare la transizione di output per questo sottoinsieme se la popolazione in ingresso è vuota."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"

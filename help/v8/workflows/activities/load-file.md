@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 14%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Attività di caricamento file"
->abstract="L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con i dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la personalizzazione, per l’aggiornamento dei profili o di qualsiasi altra tabella. "
+>abstract="L’attività **Carica file** è un’attività di **gestione dati**. Usa questa attività per utilizzare i dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la personalizzazione, per l’aggiornamento dei profili o di qualsiasi altra tabella. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -51,12 +51,12 @@ Il **Carica file** la configurazione dell’attività prevede due passaggi. Inna
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="Formattazione per l’attività di caricamento file"
->abstract="In **Formattazione** , specificare la formattazione del file per garantire che i dati vengano importati correttamente."
+>abstract="Nella sezione **Formattazione**, specifica la formattazione del file per garantire che i dati vengano importati correttamente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Rimappatura del valore per l’attività di caricamento file"
->abstract="Utilizza questa opzione per mappare valori specifici dai file caricati con nuovi valori. Ad esempio, se la colonna contiene i valori &quot;True&quot;/&quot;False&quot;, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri &quot;0&quot;/&quot;1&quot;."
+>abstract="Utilizza questa opzione per mappare valori specifici dai file caricati con nuovi valori. Ad esempio, se la colonna contiene i valori “True”/“False”, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri “0”/“1”."
 
 Segui questi passaggi per configurare il file di esempio utilizzato per definire la struttura di file prevista:
 
@@ -86,28 +86,28 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
    * **[!UICONTROL Separatori]** (tipi di dati data, ora, numero intero e numero)*: specifica i caratteri da utilizzare come separatori.
    * **[!UICONTROL Consenti valori NULL]**: specifica come gestire i valori vuoti nella colonna. Se è presente un valore vuoto, l’opzione &quot;Adobe Campaign default&quot; genera un errore.
    * **[!UICONTROL Errore di elaborazione]** (tipo di dati stringa): specifica il comportamento in caso di errori in una delle righe.
-   * **[!UICONTROL Modifica del valore]**: questa opzione consente di mappare valori specifici con valori nuovi. Ad esempio, se la colonna contiene i valori &quot;True&quot;/&quot;False&quot;, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri &quot;0&quot;/&quot;1&quot;.
+   * **[!UICONTROL Modifica del valore]**: questa opzione consente di mappare valori specifici con valori nuovi. Ad esempio, se la colonna contiene i valori “True”/“False”, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri “0”/“1”.
 
 +++
 
-1. In **Formattazione** , specificare la formattazione del file per garantire che i dati vengano importati correttamente.
+1. Nella sezione **Formattazione**, specifica la formattazione del file per garantire che i dati vengano importati correttamente.
 
-### Definisci il file di destinazione da caricare {#target}
+### Definire il file target da caricare {#target}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="File target per l’attività di caricamento file"
->abstract="In **[!UICONTROL File di destinazione]** , specifica come recuperare il file da caricare sul server."
+>abstract="Nella sezione **[!UICONTROL File target]**, specifica come recuperare il file da caricare sul server."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="Nome del file"
->abstract="Specifica il nome del campo da caricare sul server. Fai clic su **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per utilizzare l’editor di espressioni, incluse le variabili evento, per calcolare il nome del file."
+>abstract="Specifica il nome del campo da caricare sul server. Fai clic sull’icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per sfruttare l’editor di espressioni, incluse le variabili evento, per calcolare il nome del file."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Database di destinazione"
->abstract="Se stai accedendo a un **[!UICONTROL Carica file]** che è già stata configurata nella console client, un&#39;ulteriore **[!UICONTROL Database di destinazione]** Questa sezione è disponibile se hai configurato l’attività per caricare il file in un database esterno."
+>abstract="Se stai accedendo a un’attività **[!UICONTROL Carica file]** che è già stata configurata nella console client, se hai configurato l’attività per caricare il file in un database esterno è disponibile un’ulteriore sezione **[!UICONTROL Database di destinazione]**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -128,7 +128,7 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 
    * **[!UICONTROL Pre-elabora il file]**: carica il file specificato nella transizione precedente e applica a tale file un comando di pre-elaborazione, ad esempio **[!UICONTROL Decompressione]** o **[!UICONTROL Decrittografa]**.
 
-   * **[!UICONTROL Calcolato]**: carica il file il cui nome è specificato nella **[!UICONTROL Nome file]** campo. Fai clic su **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per utilizzare l’editor di espressioni, incluse le variabili evento, per calcolare il nome del file.
+   * **[!UICONTROL Calcolato]**: carica il file il cui nome è specificato nella **[!UICONTROL Nome file]** campo. Fai clic sull’icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per sfruttare l’editor di espressioni, incluse le variabili evento, per calcolare il nome del file.
 
    ![](../assets/workflow-load-file-config.png)
 
@@ -141,7 +141,7 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="Rifiuta la gestione per l’attività di caricamento file"
->abstract="In **Gestione dei rifiuti** , specifica il comportamento dell&#39;attività in caso di errori. Puoi definire il numero massimo di errori da consentire e attivare/disattivare la **[!UICONTROL Mantieni i rifiuti in un file]** per scaricare sul server un file contenente gli errori verificatisi durante l’importazione."
+>abstract="La sezione **Rifiuta gestione** , specifica il comportamento dell’attività in caso di errori. Puoi definire il numero massimo di errori da consentire e attivare/disattivare l’opzione **[!UICONTROL Mantieni i valori rifiutati in un file]** per scaricare sul server un file contenente gli errori che si sono verificati durante l’importazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

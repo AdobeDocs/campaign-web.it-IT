@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '968'
 ht-degree: 23%
 
 ---
@@ -53,12 +53,12 @@ Dall’elenco, puoi modificare, duplicare o eliminare i modelli di contenuto esi
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Progettazione del modello di contenuto"
->abstract="Progettazione del modello di contenuto"
+>abstract="Progetta il modello di contenuto dell’e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Selezione del modello di contenuto"
->abstract="Selezione del modello di contenuto"
+>abstract="Seleziona il modello di contenuto e-mail."
 
 I modelli di contenuto possono essere creati da [salvataggio di un’e-mail esistente come modello](#save-as-template), o dall&#39;elenco dei modelli e-mail, tramite **Crea modello di contenuto** pulsante, [come descritto di seguito](#create-template-from-scratch).
 
