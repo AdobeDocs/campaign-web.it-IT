@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Transfer file
 description: Scopri come utilizzare l’attività del flusso di lavoro Trasferisci file
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 15%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Trasferimento file su server remoto"
->abstract="Trasferimento file su server remoto"
+>abstract="Specificare il server da connettere."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Elimina i file di origine dopo il trasferimento"
->abstract="Elimina i file di origine dopo il trasferimento"
+>abstract="Cancella i file di origine dopo un trasferimento riuscito."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Visualizzare i registri di sessione"
->abstract="Visualizzare i registri di sessione"
+>abstract="Le informazioni relative all’operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Elenca tutti i file"
->abstract="Elenca tutti i file"
+>abstract="Questa opzione indicizza tutti i file presenti sul server in **vars.filenames** variabile evento."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Elabora file mancanti"
->abstract="Elabora file mancanti"
+>abstract="Questa opzione ti consente di attivare una transizione in uscita &quot;No file&quot; dopo l’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Errori del processo"
->abstract="Errori del processo"
+>abstract="Questa opzione consente di attivare una transizione in uscita di tipo &quot;Errore&quot; dopo l’attività."
 
 Il **Trasferisci file** l&#39;attività è un **Gestione dati** attività. Consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 
@@ -108,7 +108,7 @@ Segui i passaggi descritti di seguito per configurare **Trasferisci file** attiv
 
 ## Definire la destinazione del trasferimento {#destination}
 
-1. In **[!UICONTROL Server remoto]** , specificare il server a cui connettersi utilizzando uno dei seguenti metodi:
+1. In **[!UICONTROL Server remoto]** , specificare il server da connettere utilizzando uno dei seguenti metodi:
 
    * **[!UICONTROL Utilizzare i parametri di connessione definiti in un account esterno]**: connettiti a un server utilizzando i parametri di connessione di un account esterno. In **[!UICONTROL Cartella server]** , specificare il percorso del file (o della cartella per l&#39;elenco delle azioni).
    * **[!UICONTROL Configurazione rapida]**: immetti l’URL del file (o della cartella per le azioni di elenco dei file).
@@ -145,7 +145,7 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
    +++Opzioni aggiuntive per **[!UICONTROL Trasferimento file]** attività di tipo
 
    * **[!UICONTROL Elimina i file di origine dopo il trasferimento]**: cancella i file sorgente dopo un trasferimento riuscito.
-   * **[!UICONTROL Visualizzare i registri di sessione]**: quando questa opzione viene attivata, le informazioni relative all’operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro dopo l’esecuzione del flusso di lavoro.
+   * **[!UICONTROL Visualizzare i registri di sessione]**: quando questa opzione viene attivata, le informazioni relative all’operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro una volta eseguito il flusso di lavoro.
    * **[!UICONTROL Elenca tutti i file]** (azioni di elenco file): questa opzione indicizza tutti i file presenti sul server in `vars.filenames` variabile di evento, in cui i nomi dei file sono separati da `n` caratteri. [Scopri come utilizzare le variabili evento](../event-variables.md)
 
 +++
