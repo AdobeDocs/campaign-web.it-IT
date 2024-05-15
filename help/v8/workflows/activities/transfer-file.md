@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Transfer file
 description: Scopri come utilizzare l’attività del flusso di lavoro Trasferisci file
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1177'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Trasferimento origine file"
->abstract="Trasferimento origine file"
+>abstract="Immetti il nome file desiderato."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Elabora file mancanti"
->abstract="Questa opzione ti consente di attivare una transizione in uscita &quot;No file&quot; dopo l’attività."
+>abstract="Questa opzione consente di attivare una **Nessun file** transizione in uscita dopo l’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Errori del processo"
->abstract="Questa opzione consente di attivare una transizione in uscita di tipo &quot;Errore&quot; dopo l’attività."
+>abstract="Questa opzione consente di attivare un’ **Errore** transizione in uscita dopo l’attività."
 
 Il **Trasferisci file** l&#39;attività è un **Gestione dati** attività. Consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 
