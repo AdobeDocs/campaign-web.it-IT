@@ -1,10 +1,13 @@
 ---
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
+hide: true
+hidefromtoc: true
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
@@ -31,19 +34,19 @@ Per configurare i campi personalizzati, effettua le seguenti operazioni:
 
 1. Sotto **Amministrazione**, fai clic su **Schemi**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. Individua lo schema desiderato, ad esempio **Destinatari (nms)** schema.
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. Fai clic su **Altre azioni** e seleziona **Modifica dettagli personalizzati**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    Il **Modifica dettagli personalizzati** nella schermata vengono visualizzati tutti i campi personalizzati e il relativo tipo.
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    Questa schermata consente di eseguire le azioni seguenti:
 
@@ -54,4 +57,4 @@ Per configurare i campi personalizzati, effettua le seguenti operazioni:
 
 1. Passa alla schermata che visualizza il campo personalizzato. Nel nostro esempio, si tratta della schermata dei dettagli del profilo.
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}

@@ -2,9 +2,9 @@
 title: Note sulla versione più recente
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: ht
-source-wordcount: '1185'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,9 @@ I miglioramenti riportati di seguito sono disponibili per tutti i clienti a part
 
 * L’opzione “Non attivare la transizione se la popolazione è vuota” nell’**attività Dividi** consente di scegliere se il flusso di lavoro deve passare all’attività successiva quando il risultato del segmento è vuoto. [Ulteriori informazioni](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* I **Campi personalizzati** sono ulteriori attributi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Nell’interfaccia web di Campaign, questi campi personalizzati sono ora visibili in varie schermate, ad esempio nei dettagli di un profilo o in un profilo di test. Nell’interfaccia web, non è possibile creare campi personalizzati, ma ora è possibile modificare il modo in cui vengono visualizzati. [Ulteriori informazioni](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## Note sulla versione di marzo {#24-3-release}
 
