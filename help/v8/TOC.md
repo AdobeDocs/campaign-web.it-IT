@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
+source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -196,6 +196,6 @@ ht-degree: 99%
    + [Utilizzare altre soluzioni di Adobe](integrations/integration.md)
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gestire i modelli con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
-+ Amministrazione {#administration}
++ Configurazione {#conf}
    + [Configurare campi personalizzati](administration/custom-fields.md)
-+ [Documentazione della console client di Campaign v8 >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Documentazione di Campaign v8 (console) >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
