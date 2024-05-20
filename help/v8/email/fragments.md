@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Definisci il tuo frammento"
->abstract="Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail tra campagne. Questa funzionalità viene utilizzata per precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato."
+>abstract="Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail tra campagne. Questa funzionalità viene utilizzata per precostruire più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
