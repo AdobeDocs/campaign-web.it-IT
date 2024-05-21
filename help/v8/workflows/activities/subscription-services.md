@@ -3,21 +3,17 @@ audience: end-user
 title: Utilizzare l’attività Subscription services
 description: Scopri come utilizzare l’attività del flusso di lavoro Subscription services
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 24%
+source-wordcount: '940'
+ht-degree: 20%
 
 ---
 
 # Servizi di abbonamento {#subscriptipon-services}
 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Attività dei servizi di iscrizione"
->abstract="Utilizza la nuova attività del flusso di lavoro dei Servizi di iscrizione per gestire le iscrizioni a un servizio. Puoi sottoscrivere o annullare l’iscrizione a una popolazione e anche aggiornare più iscrizioni da un file esterno. In alternativa, puoi inviare un messaggio di conferma agli iscritti."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
 
 
 >[!CONTEXTUALHELP]

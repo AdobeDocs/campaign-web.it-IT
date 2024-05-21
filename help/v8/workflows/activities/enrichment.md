@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 47%
+source-wordcount: '1251'
+ht-degree: 46%
 
 ---
 
@@ -76,6 +76,12 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
    ![](../assets/workflow-enrichment1.png)
 
 ## Creare collegamenti tra tabelle {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Collegamenti tra tabelle"
+>abstract="Nell’attività del flusso di lavoro Arricchimento ora puoi creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Il **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili.
 

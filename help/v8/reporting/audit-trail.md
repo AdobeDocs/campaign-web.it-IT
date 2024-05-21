@@ -3,21 +3,28 @@ product: campaign
 title: Audit trail
 description: Scopri come monitorare l’istanza con Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 2%
 
 ---
 
 # Audit trail{#audit-trail}
 
->[!IMPORTANT]
->
->L’interfaccia utente di Adobe Campaign Web non controlla le modifiche apportate all’interno di diritti utente, modelli, personalizzazioni o campagne.\
->L’audit trail può essere gestito solo dagli amministratori dell’istanza.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Audit trail"
+>abstract="La nuova funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’istanza Adobe Campaign in tempo reale."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
 
 Nell’interfaccia utente di Adobe Campaign Web, il **[!UICONTROL Audit trail]** Questa funzione offre agli utenti piena visibilità su tutte le modifiche apportate ad entità importanti all’interno dell’istanza, in genere quelle che influiscono in modo significativo sul regolare funzionamento dell’istanza.
+
+>[!IMPORTANT]
+>
+>* L’interfaccia utente di Adobe Campaign Web non controlla le modifiche apportate all’interno di diritti utente, modelli, personalizzazioni o campagne.
+>* L’audit trail può essere gestito solo dagli amministratori dell’istanza.
 
 **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all’interno dell’istanza di Adobe Campaign. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
 

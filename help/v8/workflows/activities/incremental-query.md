@@ -3,20 +3,22 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Incremental query
 description: Scopri come utilizzare l’attività del flusso di lavoro Incremental query
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 24%
+source-wordcount: '751'
+ht-degree: 19%
 
 ---
 
 # Query incrementale {#incremental-query}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Attività query incrementale"
->abstract="Utilizza la nuova attività Query incrementale per eseguire query sul database su base pianificata. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+>title="Incremental Query activity"
+>abstract="Use the new Incremental Query activity to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="See release notes"
+-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

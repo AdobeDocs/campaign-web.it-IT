@@ -3,23 +3,14 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Aggiorna dati
 description: Scopri come utilizzare l’attività del flusso di lavoro Aggiorna dati
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 24%
+source-wordcount: '498'
+ht-degree: 18%
 
 ---
 
 # Aggiornare i dati {#update-data}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Attività Aggiorna dati"
->abstract="L’attività Aggiorna dati è ora disponibile per l’utilizzo nei flussi di lavoro. Utilizza l’attività Aggiorna dati per eseguire un aggiornamento di massa sui campi del database. Sono disponibili diverse opzioni per personalizzare il tipo di aggiornamento."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
-
 
 Il **Aggiorna dati** l&#39;attività è un **Gestione dati** attività. Consente di eseguire un aggiornamento di massa sui campi del database. Diverse opzioni consentono di personalizzare l’aggiornamento dei dati.
 

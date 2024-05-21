@@ -2,14 +2,22 @@
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 7b6b769c5825ef046fd4e5a1206b955ecf432b0d
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 2%
+source-wordcount: '255'
+ht-degree: 4%
 
 ---
 
 # Configurare campi personalizzati {#custom-fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Campi personalizzati"
+>abstract="I campi personalizzati sono attributi aggiuntivi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Sono ora disponibili nell’interfaccia utente web."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
+
 
 I campi personalizzati sono attributi aggiuntivi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
