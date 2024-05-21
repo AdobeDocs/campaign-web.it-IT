@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
+source-git-commit: fa2d596a36652f504112c7a8543453d845462021
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 81%
+source-wordcount: '1223'
+ht-degree: 47%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Unione semplice"
+>title="Definizione collegamento"
 >abstract="Unione semplice"
 
 >[!CONTEXTUALHELP]
@@ -53,15 +53,21 @@ Una volta aggiunti i dati di arricchimento al flusso di lavoro, questi possono e
 
 Ad esempio, è possibile aggiungere alla tabella di lavoro del flusso di lavoro le informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro acquisto più recente o con l’importo speso per tali acquisti.
 
-## Configurare l’attività di Arricchimento {#enrichment-configuration}
+## Aggiungere un’attività Enrichment {#enrichment-configuration}
 
 Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 1. Aggiungi attività come **Crea pubblico** e **Combina**.
 1. Aggiungi un’attività **Arricchimento**.
+1. Se nel flusso di lavoro sono state configurate più transizioni, puoi utilizzare **[!UICONTROL Set primario]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
+
+## Aggiungi dati di arricchimento {#enrichment-add}
+
 1. Clic **Aggiungere dati di arricchimento** e seleziona l’attributo da utilizzare per arricchire i dati.
 
-   È possibile selezionare due tipi di dati di arricchimento: un [attributo di arricchimento singolo](#single-attribute) dalla dimensione target, oppure un [collegamento di raccolta](#collection-link).
+   Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ciascuno di questi tipi è descritto negli esempi seguenti:
+   * [Attributo di arricchimento singolo](#single-attribute)
+   * [Collegamento raccolta](#collection-link)
 
    >[!NOTE]
    >
@@ -69,7 +75,39 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
    ![](../assets/workflow-enrichment1.png)
 
-## Attributo di arricchimento singolo {#single-attribute}
+## Creare collegamenti tra tabelle {#create-links}
+
+Il **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili.
+
+Sono disponibili diversi tipi di collegamenti:
+
+* **[!UICONTROL Collegamento semplice con cardinalità 1]**: ogni record del set principale può essere associato a un solo record dei dati collegati.
+* **[!UICONTROL Collegamento semplice con cardinalità 0 o 1]**: ogni record del set principale può essere associato a 0 o 1 record dei dati collegati, ma non a più di uno.
+* **[!UICONTROL Collegamento raccolta con cardinalità N]**: ogni record del set principale può essere associato a 0, 1 o più record (N) dei dati collegati.
+
+Per creare un collegamento, effettua le seguenti operazioni:
+
+1. In **[!UICONTROL Definizione collegamento]** , fare clic sul pulsante **[!UICONTROL Aggiungi collegamento]** pulsante.
+
+   ![](../assets/workflow-enrichment-link.png)
+
+1. In **Tipo di relazione** scegliere il tipo di collegamento che si desidera creare.
+
+1. Identifica la destinazione a cui vuoi collegare il set principale:
+
+   * Per collegare una tabella esistente nel database, scegliere **[!UICONTROL Schema del database]** e seleziona la tabella desiderata da **[!UICONTROL Schema di destinazione]** campo.
+   * Per collegare i dati della transizione di input, scegli **Schema temporaneo** e seleziona la transizione di cui desideri utilizzare i dati.
+
+1. Definisci i criteri di riconciliazione per far corrispondere i dati del set principale con lo schema collegato. Sono disponibili due tipi di join:
+
+   * **Unione semplice**: seleziona un attributo specifico per far corrispondere i dati dei due schemi. Clic **Aggiungi join** e seleziona la **Sorgente** e **Destinazione** attributi da utilizzare come criteri di riconciliazione.
+   * **Unione avanzata**: crea un join utilizzando condizioni avanzate. Clic **Aggiungi join** e fai clic su **Crea condizione** per aprire Query Modeler.
+
+Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example) sezione.
+
+## Esempi {#example}
+
+### Attributo di arricchimento singolo {#single-attribute}
 
 In questo caso, viene semplicemente aggiunto un attributo di arricchimento singolo, ad esempio, la data di nascita. Segui questi passaggi:
 
@@ -79,7 +117,7 @@ In questo caso, viene semplicemente aggiunto un attributo di arricchimento singo
 
 ![](../assets/workflow-enrichment2.png)
 
-## Collegamento di raccolta {#collection-link}
+### Collegamento di raccolta {#collection-link}
 
 In questo caso d’uso più complesso, selezioneremo un collegamento di raccolta che è un collegamento con cardinalità 1-N tra le tabelle. Recuperiamo i tre ultimi acquisti che sono inferiori a 100 $. A questo scopo è necessario definire:
 
@@ -88,7 +126,7 @@ In questo caso d’uso più complesso, selezioneremo un collegamento di raccolta
 * un filtro: per escludere gli articoli superiori a 100 $
 * un ordinamento: ordine decrescente sul campo **Data ordine**.
 
-### Aggiungere l’attributo {#add-attribute}
+#### Aggiungere l’attributo {#add-attribute}
 
 Qui puoi selezionare il collegamento di raccolta da utilizzare come dati di arricchimento.
 
@@ -98,7 +136,7 @@ Qui puoi selezionare il collegamento di raccolta da utilizzare come dati di arri
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definire le impostazioni di raccolta{#collection-settings}
+#### Definire le impostazioni di raccolta{#collection-settings}
 
 A questo punto, definisci come vengono raccolti i dati e quanti record recuperare.
 
@@ -111,7 +149,7 @@ Se, ad esempio, desideri ottenere l’importo medio degli acquisti per un client
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definire i filtri{#collection-filters}
+#### Definire i filtri{#collection-filters}
 
 Ora puoi definire il valore massimo per l’attributo di arricchimento. Gli elementi superiori a 100$ vengono filtrati. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
@@ -121,7 +159,7 @@ Ora puoi definire il valore massimo per l’attributo di arricchimento. Gli elem
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definire l’ordinamento{#collection-sorting}
+#### Definire l’ordinamento{#collection-sorting}
 
 Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più recenti**.
 
@@ -132,6 +170,20 @@ Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più
 1. Seleziona **Decrescente** nel menu a discesa **Ordina**.
 
 ![](../assets/workflow-enrichment7.png)
+
+
+### Arricchimento con dati collegati {#link-example}
+
+L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra due transizioni. La prima transizione esegue il targeting dei dati di profilo utilizzando un’attività Query, mentre la seconda include i dati di acquisto memorizzati in un file caricato tramite un’attività Load file.
+
+* Il primo **Arricchimento** l’attività collega il nostro set principale (dati provenienti dal **Query** con lo schema da **Carica file** attività. Questo ci consente di far corrispondere ogni profilo target della query con i dati di acquisto corrispondenti.
+* Un secondo **Arricchimento** per arricchire i dati dalla tabella del flusso di lavoro con i dati di acquisto provenienti dal **Carica file** attività. Questo ci consente di utilizzare tali dati in ulteriori attività, ad esempio per personalizzare i messaggi inviati ai clienti con le informazioni sul loro acquisto.
+
+  ![](../assets/workflow-enrichment-example.png)
+
+
+
+
 
 <!--
 

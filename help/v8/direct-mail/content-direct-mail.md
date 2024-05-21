@@ -3,10 +3,10 @@ audience: end-user
 title: Progettare una consegna direct mail
 description: Scopri come progettare la consegna di direct mailing con Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -52,14 +52,18 @@ Per progettare il contenuto del file di estrazione generato dalla consegna direc
 
 1. Attiva **[!UICONTROL Quantità richiesta]** per limitare il numero di destinatari per la consegna.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Configurare le colonne del file di estrazione {#content}
 
 In **[!UICONTROL Contenuto]** , specificare le colonne da visualizzare nel file di estrazione. Per farlo, segui questi passaggi:
 
 1. Fai clic su **[!UICONTROL Aggiungi attributo]** per creare una nuova colonna.
-1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. Una volta aggiunta la colonna, puoi modificarne l’etichetta e l’attributo associato utilizzando l’icona di modifica.
+1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. Puoi sfruttare l’editor espressioni per selezionare l’attributo da utilizzare facendo clic su **[!UICONTROL Modifica espressione]** pulsante.
+
+   ![](assets/dm-add-attribute.png)
+
+1. Una volta aggiunta la colonna, puoi modificarne l’etichetta e l’attributo associato utilizzando l’icona di modifica.
 1. Ripeti questi passaggi per aggiungere tutte le colonne necessarie per il file di estrazione.
 1. Per ordinare il file di estrazione utilizzando una delle colonne, fai clic sull’icona nella **[!UICONTROL Ordinamento]** e selezionare il metodo di ordinamento desiderato.
 1. Per modificare la posizione di una colonna, utilizzare le frecce su e giù.
