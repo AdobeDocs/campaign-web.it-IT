@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 
 1. In **Gestione dei rifiuti** , specifica il comportamento dell&#39;attività in caso di errori:
 
-   * In **[!UICONTROL Dele]** specificare il numero massimo di errori autorizzati durante l&#39;elaborazione del file da caricare. Ad esempio, se il valore è impostato su &quot;20&quot;, l’esecuzione del flusso di lavoro avrà esito negativo se si verificano più di 20 errori durante il caricamento del file.
+   * In **[!UICONTROL Numero di errori consentiti]** , specificare il numero massimo di errori autorizzati durante l&#39;elaborazione del file da caricare. Ad esempio, se il valore è impostato su &quot;20&quot;, l’esecuzione del flusso di lavoro avrà esito negativo se si verificano più di 20 errori durante il caricamento del file.
 
    * Per mantenere gli errori che si sono verificati durante il caricamento del file, attiva/disattiva **[!UICONTROL Mantieni i rifiuti in un file]** e specificare il nome desiderato per il file nella **[!UICONTROL File di rifiuto]** campo.
 
