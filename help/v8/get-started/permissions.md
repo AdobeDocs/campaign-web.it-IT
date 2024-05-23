@@ -3,10 +3,10 @@ audience: end-user
 title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ Per ulteriori informazioni sulle autorizzazioni per le cartelle consulta la [doc
 
 
 ## Utilizzare le cartelle {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Proprietà cartella"
+>abstract="Proprietà cartella"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Sicurezza delle cartelle"
+>abstract="Sicurezza delle cartelle"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restrizioni cartelle"
+>abstract="Restrizioni cartelle"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Pianificazione cartella"
+>abstract="Pianificazione cartella"
 
 Puoi creare, rinominare, riordinare e spostare cartelle per organizzare i componenti e i dati. È possibile inoltre eliminare le cartelle dallo stesso menu.
 
