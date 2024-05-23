@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -54,7 +54,7 @@ Il **[!UICONTROL File da estrarre]** consente di configurare le proprietà del f
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Formato di destinazione"
->abstract="Selezionare le diverse opzioni per configurare la formattazione del file estratto."
+>abstract="Seleziona le diverse opzioni per configurare la formattazione del file estratto."
 
 Il **[!UICONTROL Destinazione]** sezione di formato consente di configurare la formattazione del file estratto.
 
@@ -82,7 +82,7 @@ Il **[!UICONTROL Destinazione]** sezione di formato consente di configurare la f
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post-elaborazione"
->abstract="Definisci un passaggio di post-elaborazione da applicare, ad esempio zip o crittografia."
+>abstract="Definisci un passaggio di post-elaborazione da applicare, ad esempio compressione o crittografia."
 
 Il **[!UICONTROL Esporta script di modifica]** consente di applicare una fase di elaborazione da eseguire durante l’estrazione dei dati, ad esempio la compressione o la crittografia. A questo scopo, fai clic su **[!UICONTROL Modifica script]** pulsante.
 

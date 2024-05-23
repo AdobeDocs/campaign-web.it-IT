@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Trasferimento file su server remoto"
->abstract="Specificare il server da connettere."
+>abstract="Specifica il server da connettere."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -50,7 +50,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Elenca tutti i file"
->abstract="Questa opzione indicizza tutti i file presenti sul server in **vars.filenames** variabile evento."
+>abstract="Questa opzione indicizza tutti i file presenti sul server nella variabile evento **vars.filenames**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Elabora file mancanti"
->abstract="Questa opzione consente di attivare una **Nessun file** transizione in uscita dopo l’attività."
+>abstract="Questa opzione consente di attivare una transizione in uscita **Nessun file** dopo l’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Errori del processo"
->abstract="Questa opzione consente di attivare un’ **Errore** transizione in uscita dopo l’attività."
+>abstract="Questa opzione consente di attivare una transizione in uscita **Errore** dopo l’attività."
 
 Il **Trasferisci file** l&#39;attività è un **Gestione dati** attività. Consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 

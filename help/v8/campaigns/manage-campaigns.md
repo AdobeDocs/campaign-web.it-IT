@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -49,7 +49,7 @@ Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pa
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Elenco dei flussi di lavoro in una campagna"
->abstract="Il **Flusso di lavoro** nella scheda sono elencati tutti i flussi di lavoro collegati alla campagna corrente."
+>abstract="Nella scheda **Flusso di lavoro** sono elencati tutti i flussi di lavoro collegati alla campagna corrente."
 
 In **Sfoglia** nell’elenco delle campagne, fai clic sul nome di una campagna per visualizzarne i dettagli.
 
