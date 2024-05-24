@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 46%
+source-wordcount: '1300'
+ht-degree: 44%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 46%
 >abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di Arricchimento per segmentare la clientela in gruppi distinti in base ai comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico target."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili."
+>abstract="Definizione collegamento"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Riconciliazione dell’arricchimento"
 >abstract="riconciliazione dell’arricchimento"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Definizione collegamento"
->abstract="Unione semplice"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
