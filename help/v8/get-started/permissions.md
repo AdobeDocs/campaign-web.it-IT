@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -111,12 +111,12 @@ Puoi creare, rinominare, riordinare e spostare cartelle per organizzare i compon
 Per creare una nuova cartella, segui questi passaggi:
 
 1. Seleziona una cartella dal menu di navigazione a sinistra **Explorer**.
-1. Fai clic sui tre punti nell’angolo superiore destro e scegli **Crea nuova cartella**.
-1. Immettere il nome della cartella.
+1. Fai clic sui tre punti nell’angolo in alto a destra e scegli **Crea nuova cartella**.
+1. Immetti il nome della cartella.
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Seleziona il tipo di cartella. Per impostazione predefinita, nel nostro esempio viene selezionato il tipo di cartella principale, &quot;Consegne&quot;. Per modificare il tipo di cartella, fai clic sull’icona della cartella e seleziona un altro tipo.
+1. Seleziona il tipo di cartella. Per impostazione predefinita, nel nostro esempio viene selezionato il tipo di cartella principale, “Consegne”. Per modificare il tipo di cartella, fai clic sull’icona della cartella e seleziona qualsiasi altro tipo.
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
