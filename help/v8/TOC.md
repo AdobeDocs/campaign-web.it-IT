@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 99%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 99%
          + [Preparare e inviare un’e-mail](monitor/prepare-send.md)
          + [Inviare in più scaglioni](advanced-settings/send-using-waves.md)
          + [Monitorare i registri di consegna](monitor/delivery-logs.md)
+         + [Pianificare l’invio di una consegna](monitor/schedule-sending.md)
    + Notifiche push {#push}
       + [Introduzione alle notifiche push](push/gs-push.md)
       + [Creare una consegna di notifica push](push/create-push.md)

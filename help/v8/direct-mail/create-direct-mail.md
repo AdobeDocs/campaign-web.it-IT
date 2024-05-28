@@ -3,10 +3,10 @@ audience: end-user
 title: Creare una consegna Direct mail
 description: Scopri come creare una consegna di direct mailing con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 35%
+source-wordcount: '460'
+ht-degree: 33%
 
 ---
 
@@ -22,11 +22,11 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. Immetti un’**[!UICONTROL etichetta]** per la consegna e accedi al menu a discesa **[!UICONTROL Opzioni aggiuntive]**. Se la consegna è basata su uno schema esteso, sono disponibili campi specifici di **Opzioni personalizzate**.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Configura le seguenti impostazioni in base alle tue esigenze.
    * **[!UICONTROL Nome interno]**: assegna un identificatore univoco alla consegna.
@@ -41,7 +41,7 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
    * [Scopri come selezionare un pubblico esistente](../audience/add-audience.md)
    * [Scopri come creare un nuovo pubblico](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
 
 1. Clic **[!UICONTROL Modifica contenuto]** per definire le informazioni (colonne) da esportare nel file di estrazione. [Ulteriori informazioni](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il file di estrazione viene generato automaticamente alla data e all’ora esatte definite. [Scopri come pianificare le consegne](../msg/gs-messages.md#gs-schedule).
+1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il file di estrazione viene generato automaticamente alla data e all’ora esatte definite. [Scopri come pianificare le consegne](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -61,6 +61,6 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
 
 1. Clic **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. Quando la consegna direct mailing è pronta, fai clic sul pulsante **[!UICONTROL Rivedi e invia]** per convalidare e inviare la consegna e generare il file di estrazione. [Scopri come visualizzare in anteprima e inviare una consegna direct mailing](send-direct-mail.md)
