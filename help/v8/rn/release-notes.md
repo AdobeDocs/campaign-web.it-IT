@@ -1,11 +1,11 @@
 ---
-title: Note sulla versione dell’interfaccia utente di Campaign v8 Web
-description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente web di Campaign
+title: Note sulla versione dell’interfaccia utente di Campaign Web v8
+description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 ## Note sulla versione di maggio {#24-5-release}
 
-**Data di rilascio**: mercoledì 21 maggio 2024
+**Data di rilascio**: 21 maggio 2024
 
-A partire dalla versione di maggio, le seguenti funzioni e miglioramenti sono disponibili per tutti gli utenti.
+Le seguenti funzioni e i miglioramenti sono disponibili per tutti gli utenti a partire dalla versione di maggio.
 
 ### Audit trail  {#24-5-1}
 
-Il nuovo **Audit trail** fornisce una registrazione dettagliata e cronologica di tutte le azioni e gli eventi che sono stati effettuati nell’istanza di Adobe Campaign in tempo reale. Offre un metodo pratico per tracciare tutte le modifiche apportate ai dati di Campaign e affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza. [Ulteriori informazioni](../reporting/audit-trail.md)
+La nuova funzionalità **Audit trail** fornisce un record dettagliato e cronologico di tutte le azioni e gli eventi che sono stati effettuati nell’istanza di Adobe Campaign in tempo reale. Offre un metodo pratico per tracciare tutte le modifiche apportate ai dati di Campaign, affrontando argomenti quali: lo stato dei flussi di lavoro, i singoli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza. [Ulteriori informazioni](../reporting/audit-trail.md)
 
 ### Campi personalizzati {#24-5-2}
 
@@ -34,7 +34,7 @@ I **Campi personalizzati** sono ulteriori attributi aggiunti agli schemi predefi
 
 ### Creare collegamenti tra tabelle {#24-5-3}
 
-È ora possibile creare collegamenti con un’altra tabella nella sezione **Arricchimento** attività del flusso di lavoro. Utilizza il nuovo **Definizione collegamento** nei parametri dell’attività per creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili. [Ulteriori informazioni](../workflows/activities/enrichment.md#create-links)
+Nell’attività del flusso di lavoro **Arricchimento**, ora è possibile creare collegamenti con un’altra tabella. Utilizza la nuova sezione **Definizione collegamento** nei parametri dell’attività per creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei rispettivi profili. [Ulteriori informazioni](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ I **Campi personalizzati** sono ulteriori attributi aggiunti agli schemi predefi
 
 ### Miglioramenti generali {#improvements-24-5}
 
-* **Direct mail** - Ora puoi sfruttare l’editor espressioni per selezionare gli attributi da visualizzare nei file di estrazione direct mailing. [Ulteriori informazioni](../direct-mail/content-direct-mail.md)
+* **Direct mail**: ora puoi sfruttare l’editor di espressioni per selezionare gli attributi da visualizzare nei file di estrazione direct mail. [Ulteriori informazioni](../direct-mail/content-direct-mail.md)
 
-* **Gestione cartelle** - È ora possibile creare una sottocartella di un tipo diverso rispetto alla cartella principale. [Ulteriori informazioni](../get-started/permissions.md#folders)
+* **Gestione cartelle**: è ora possibile creare una sottocartella di un tipo diverso rispetto alla cartella principale. [Ulteriori informazioni](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **Globalizzazione** - Nell’ambito del nostro impegno continuo per offrire un’esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app Adobe Experience Cloud. Questo influisce sul termine tedesco &quot;Titel&quot; che viene modificato in &quot;Label&quot; quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione di.
+* **Globalizzazione**: nell’ambito del nostro impegno continuo per offrire un’esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app di Adobe Experience Cloud. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
 ## Note sulla versione di aprile {#april-24-4-release}
