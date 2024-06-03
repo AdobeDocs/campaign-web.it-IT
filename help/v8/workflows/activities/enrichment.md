@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
+source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 47%
@@ -25,7 +25,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definizione dei collegamenti"
->abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili.
+>abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
