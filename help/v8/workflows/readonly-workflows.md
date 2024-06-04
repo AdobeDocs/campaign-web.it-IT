@@ -5,7 +5,7 @@ description: Scopri perché i flussi di lavoro sono in modalità di sola lettura
 source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="Questo flusso di lavoro è di sola lettura"
->abstract="Impossibile modificare il flusso di lavoro a causa dei diritti o del tipo di flusso di lavoro."
+>abstract="Impossibile modificare questo flusso di lavoro a causa dei diritti o del tipo di flusso di lavoro."
 
 Alcuni flussi di lavoro possono essere in modalità di sola lettura. Puoi visualizzarlo con:
 

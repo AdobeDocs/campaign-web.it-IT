@@ -6,7 +6,7 @@ feature: Audit Trail, Monitoring, Workflows
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Audit trail"
->abstract="La nuova funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’istanza Adobe Campaign in tempo reale."
+>abstract="La nuova funzionalità Audit trail fornisce un record dettagliato e cronologico di tutte le azioni e di tutti gli eventi eseguiti nell’istanza di Adobe Campaign in tempo reale."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
