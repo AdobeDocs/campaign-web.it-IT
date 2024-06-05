@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Salva pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Fork nei flussi di lavoro
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
+source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -53,4 +53,4 @@ Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizz
 
 ## Esempio{#save-audience-example}
 
-L’esempio seguente illustra un semplice aggiornamento del pubblico dal targeting. Viene aggiunto un modulo di pianificazione per eseguire il flusso di lavoro una volta al mese. Una query recupera tutti i profili iscritti ai diversi servizi applicativi disponibili. L’attività **Salva pubblico** aggiorna il pubblico eliminando i profili per i quali è stata annullata l’iscrizione al servizio dall’ultima esecuzione del flusso di lavoro e aggiungendo i nuovi profili iscritti.
+L’esempio seguente illustra un semplice aggiornamento del pubblico dal targeting. Viene aggiunto un modulo di pianificazione per eseguire il flusso di lavoro una volta al mese. Una query recupera tutti i profili abbonati alle diverse applicazioni disponibili. L’attività **Salva pubblico** aggiorna il pubblico eliminando i profili per i quali è stata annullata l’iscrizione al servizio dall’ultima esecuzione del flusso di lavoro e aggiungendo i nuovi profili iscritti.
