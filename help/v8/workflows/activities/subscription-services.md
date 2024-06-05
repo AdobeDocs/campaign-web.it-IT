@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Subscription services
 description: Scopri come utilizzare l’attività del flusso di lavoro Subscription services
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 17%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 17%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Genera una transizione in uscita"
 >abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l’attività."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Informazioni aggiuntive"
+>abstract="Informazioni aggiuntive"
 
 Il **Servizi di abbonamento** l&#39;attività è un **Gestione dati** attività. Consente di creare o eliminare un abbonamento a un servizio di informazioni per la popolazione specificata nella transizione.
 
