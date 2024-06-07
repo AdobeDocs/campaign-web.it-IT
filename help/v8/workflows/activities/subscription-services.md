@@ -10,7 +10,7 @@ ht-degree: 17%
 
 ---
 
-# Servizi di abbonamento {#subscriptipon-services}
+# Servizi di iscrizione {#subscriptipon-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parametri dei servizi di iscrizione"
+>title="Parametri generali dei servizi di iscrizione"
 >abstract="Scegli il servizio desiderato e scegli l’azione da eseguire (iscrizione o annullamento dell’iscrizione). Attiva l’opzione **Invia messaggio di conferma** per notificare alla popolazione l’iscrizione o l’annullamento dell’iscrizione al servizio selezionato."
 
 >[!CONTEXTUALHELP]
