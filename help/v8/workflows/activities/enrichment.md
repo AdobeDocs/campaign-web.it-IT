@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 47%
+ht-degree: 54%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definizione dei collegamenti"
->abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili."
+>abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
@@ -83,7 +83,7 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >abstract="Nell’attività del flusso di lavoro Arricchimento ora puoi creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
-Il **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili.
+Il **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili.
 
 Sono disponibili diversi tipi di collegamenti:
 
