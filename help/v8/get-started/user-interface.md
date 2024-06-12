@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
+source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1660'
 ht-degree: 98%
 
 ---
@@ -352,11 +352,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_create_general"
 >title="Parametri generali degli avvisi di consegna"
 >abstract="Avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Pagina di destinazione predefinita"
->abstract="Seleziona la pagina di destinazione predefinita associata a questo servizio in abbonamento."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
