@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '704'
 ht-degree: 99%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 99%
 + [Documentazione dell’interfaccia utente di Adobe Campaign Web](campaign-web-home.md)
 + Note sulla versione {#release-notes}
    + [Novità](rn/whats-new.md)
+   + [Note preliminari sulla versione](rn/e-release-notes.md)
    + [Ultima versione](rn/release-notes.md)
    + [Aggiornamenti della documentazione](rn/documentation-updates.md)
 + Introduzione ad Adobe Campaign {#start}
@@ -161,7 +162,7 @@ ht-degree: 99%
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
       + [Modulo di pianificazione](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
-      + [Servizi di abbonamento](workflows/activities/subscription-services.md)
+      + [Servizi di iscrizione](workflows/activities/subscription-services.md)
       + [Test](workflows/activities/test.md)
       + [Trasferimento file](workflows/activities/transfer-file.md)
       + [Aggiornare i dati](workflows/activities/update-data.md)
