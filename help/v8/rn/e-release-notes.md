@@ -3,10 +3,10 @@ title: Note preliminari sulla versione dell’interfaccia utente di Campaign v8 
 description: Scopri le nuove funzioni in arrivo con la prossima versione dell’interfaccia utente web di Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ A partire dalla versione di giugno, le seguenti funzioni e miglioramenti sono di
 
 ### Frammenti di contenuto {#24-6-1}
 
-* Ora puoi creare, utilizzare e salvare **frammenti visivi** per assemblare rapidamente e-mail e modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail in Adobe Campaign per migliorare e accelerare il processo di progettazione. [Ulteriori informazioni](../email/fragments.md)
-
-* Ora puoi creare, utilizzare e gestire **frammenti di espressione** per creare rapidamente contenuti personalizzati. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più contenuti in Adobe Campaign per migliorare e accelerare il processo di progettazione.
+Ora puoi creare, utilizzare e gestire **visivo** e **espressione** frammenti per assemblare rapidamente le e-mail e i modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail in Adobe Campaign per migliorare e accelerare il processo di progettazione.
 
 ### Elenchi seed {#24-6-2}
 
@@ -42,3 +40,4 @@ Ora puoi creare piani e programmi per organizzare le campagne. Definendo una ger
 
 ### Miglioramenti {#improvements-24-6}
 
+* **Attività Reconciliation in Enrichment**: l’attività Enrichment può ora essere utilizzata per riconciliare i dati provenienti dallo schema del database di Campaign con i dati provenienti da un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Load file. Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign.
