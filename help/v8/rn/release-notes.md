@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 100%
 >abstract="Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, le note sulla versione di Campaign vengono aggiornate diverse volte al mese, con le funzioni, i miglioramenti e le correzioni più recenti. Si consiglia di controllarle regolarmente."
 
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
+
+## Note sulla versione di giugno {#24-6-release}
+
+**Data di rilascio**: 18-19 giugno 2024
+
+A partire dalla versione di giugno, le seguenti funzioni e miglioramenti sono disponibili per tutti gli utenti.
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### Avvisi di consegna {#24-6-3}
+
+La funzione di avviso sulla consegna è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
+
+### Piani e programmi {#24-6-4}
+
+Ora puoi creare piani e programmi per organizzare le campagne. Definendo una gerarchia di cartelle, puoi organizzare le campagne in programmi e i programmi in piani. [Ulteriori informazioni](../administration/plans-programs.md)
+
+### Miglioramenti {#improvements-24-6}
+
+* **Attività Reconciliation in Enrichment**: l’attività Enrichment può ora essere utilizzata per riconciliare i dati provenienti dallo schema del database di Campaign con i dati provenienti da un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Load file. Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign. [Ulteriori informazioni](../workflows/activities/enrichment.md)
 
 ## Note sulla versione di maggio {#24-5-release}
 
@@ -67,7 +93,7 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 **Nuove attività del flusso di lavoro**
 
 * **Aggiorna dati**: utilizza questa attività per eseguire aggiornamenti di massa sui campi del database. Esistono varie opzioni per personalizzare l’aggiornamento dei dati. [Ulteriori informazioni](../workflows/activities/update-data.md)
-* **Servizi di abbonamento**: utilizza questa attività per abbonare o annullare l’abbonamento di più profili a/da un servizio in una singola azione. [Ulteriori informazioni](../workflows/activities/subscription-services.md)
+* **Servizi di iscrizione**: utilizza questa attività per abbonare o annullare l’abbonamento di più profili a/da un servizio in una singola azione. [Ulteriori informazioni](../workflows/activities/subscription-services.md)
 * **Estrai file**: utilizza questa attività per esportare i dati da Adobe Campaign a un altro sistema come file esterno. [Ulteriori informazioni](../workflows/activities/extract-file.md)
 * **Trasferisci file**: utilizza questa attività per ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP. [Ulteriori informazioni](../workflows/activities/transfer-file.md)
 * **Test**: utilizza questa attività per abilitare le transizioni in base a condizioni specifiche. [Ulteriori informazioni](../workflows/activities/test.md)
