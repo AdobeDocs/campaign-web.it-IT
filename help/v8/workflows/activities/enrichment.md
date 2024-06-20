@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 42%
+source-wordcount: '1681'
+ht-degree: 40%
 
 ---
 
@@ -77,12 +77,6 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 ## Creare collegamenti tra tabelle {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Collegamenti tra tabelle"
->abstract="Nell’attività del flusso di lavoro Arricchimento ora puoi creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
 Il **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili.
 
 Sono disponibili diversi tipi di collegamenti:
@@ -112,6 +106,14 @@ Per creare un collegamento, effettua le seguenti operazioni:
 Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example) sezione.
 
 ## Riconciliazione dei dati {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Riconciliazione dei dati"
+>abstract="L’attività Enrichment del flusso di lavoro può ora essere utilizzata per riconciliare i dati dello schema del database di Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Load file."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
 
 Il **Arricchimento** L’attività può essere utilizzata per riconciliare i dati dello schema del database Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati utilizzando un’attività Load file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Adobe Campaign crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco.
 

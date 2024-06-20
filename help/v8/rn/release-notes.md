@@ -2,7 +2,7 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 90%
@@ -42,7 +42,7 @@ Ora puoi creare piani e programmi per organizzare le campagne. Definendo una ger
 
 ### Miglioramenti {#improvements-24-6}
 
-* **Attività Reconciliation in Enrichment**: l’attività Enrichment può ora essere utilizzata per riconciliare i dati provenienti dallo schema del database di Campaign con i dati provenienti da un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Load file. Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign. [Ulteriori informazioni](../workflows/activities/enrichment.md)
+* **Attività Reconciliation in Enrichment**: Il **Arricchimento** L’attività può ora essere utilizzata per riconciliare i dati dallo schema del database Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, come i dati caricati utilizzando un’attività Load file. Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign. [Ulteriori informazioni](../workflows/activities/enrichment.md)
 
 ## Note sulla versione di maggio {#24-5-release}
 
