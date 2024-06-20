@@ -2,7 +2,8 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 7%
