@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 99%
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
       + [Inviare bozze](preview-test/test-deliveries.md)
       + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
+   + Avvisi sulla consegna {#delivery-alerting}
+      + [Introduzione agli avvisi di consegna](msg/delivery-alerting.md)
+      + [Dashboard di avvisi sulla consegna](msg/delivery-alerting-dashboards.md)
+      + [Criteri per gli avvisi di consegna](msg/delivery-alerting-criteria.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 99%
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
    + [Accedere alle campagne e gestirle](campaigns/manage-campaigns.md)
    + [Creare la prima campagna](campaigns/create-campaigns.md)
+   + [Piani e programmi](administration/plans-programs.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
    + [Guardrail e limitazioni](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 99%
    + [Gestire i modelli con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configurazione {#conf}
    + [Configurare campi personalizzati](administration/custom-fields.md)
+   + [Creare e gestire una cartella](administration/create-manage-folder.md)
 + [Documentazione di Campaign v8 (console) >](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

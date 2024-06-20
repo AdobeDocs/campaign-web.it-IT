@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 89%
 
 ---
 
@@ -51,29 +51,24 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di maggio è ora disponibile.]
+>[!TAB La versione di giugno è live!]
 
-Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.4 dell’interfaccia utente di Adobe Campaign Web.
+Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.6 dell’interfaccia utente di Adobe Campaign Web.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Audit trail]
+>[!TAB Avvisi sulla consegna]
 
-La nuova funzionalità Audit trail fornisce un record dettagliato e cronologico di tutte le azioni e di tutti gli eventi eseguiti nell’istanza di Adobe Campaign in tempo reale.
+Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della consegna.
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB Campi personalizzati]
+>[!TAB Piani e programmi]
 
-I Campi personalizzati sono ulteriori attributi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Adesso sono disponibili nell’interfaccia utente web.
+Adobe Campaign consente di configurare la gerarchia di cartelle per i piani e i programmi di marketing.
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB Collegare le tabelle]
-
-Nell’attività del flusso di lavoro Arricchimento ora puoi creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign.
-
-[![immagine](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

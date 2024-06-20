@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Script di inizializzazione dell’esecuzione"
 >abstract="Script di inizializzazione dell’esecuzione"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="Dashboard dei criteri per gli avvisi di consegna"
->abstract="Dashboard dei criteri per gli avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="Dashboard degli avvisi di consegna"
->abstract="Dashboard degli avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="Crea criteri per gli avvisi di consegna"
->abstract="Crea criteri per gli avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="Indicatori da aggiungere negli avvisi"
->abstract="Indicatori da aggiungere negli avvisi"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="Tipo di avviso"
->abstract="Tipo di avviso"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="Frequenza criterio"
->abstract="Frequenza criterio"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="Criteri per gli avvisi di consegna"
->abstract="Criteri per gli avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="Parametri generali degli avvisi di consegna"
->abstract="Avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="Parametri dei criteri degli avvisi di consegna"
->abstract="Avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="Avvisi di consegna inviati"
->abstract="Avvisi di consegna inviati"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="Cronologia degli avvisi di consegna"
->abstract="Cronologia degli avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="Creare una dashboard per gli avvisi di consegna"
->abstract="Creare una dashboard per gli avvisi di consegna"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Creare un criterio di avviso"
->abstract="Per creare filtri di consegna personalizzati, crea un nuovo filtro predefinito nella console Campaign v8 da **Amministrazione** > **Configurazione** > **Filtri predefiniti** nodo."
 
 <!-- IDs -->
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 54%
+source-wordcount: '1664'
+ht-degree: 42%
 
 ---
 
@@ -111,6 +111,36 @@ Per creare un collegamento, effettua le seguenti operazioni:
 
 Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example) sezione.
 
+## Riconciliazione dei dati {#reconciliation}
+
+Il **Arricchimento** L’attività può essere utilizzata per riconciliare i dati dello schema del database Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati utilizzando un’attività Load file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Adobe Campaign crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco.
+
+Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign.
+
+Segui i passaggi per configurare una **Arricchimento** attività con un collegamento di riconciliazione:
+
+1. Fai clic su **Aggiungi collegamento** pulsante in **Reconciliation** sezione.
+1. Identifica i dati con cui desideri creare un collegamento di riconciliazione.
+
+   * Per creare un collegamento di riconciliazione con i dati del database di Campaign, seleziona **Schema del database** e scegli lo schema in cui è memorizzata la destinazione.
+   * Per creare un collegamento di riconciliazione con i dati provenienti dalla transizione di input, seleziona **Schema temporaneo** e scegli la transizione del flusso di lavoro in cui vengono memorizzati i dati di destinazione.
+
+1. Il **Etichetta** e **Nome** I campi vengono compilati automaticamente in base allo schema di destinazione selezionato. Se necessario, è possibile modificarne i valori.
+
+1. In **Criteri di riconciliazione** , specificare la modalità di riconciliazione dei dati delle tabelle di origine e di destinazione:
+
+   * **Unione semplice**: riconcilia un campo specifico della tabella di origine con un altro campo della tabella di destinazione. A questo scopo, fai clic su **Aggiungi join** e specificare **Sorgente** e **Destinazione** campi da utilizzare per la riconciliazione.
+
+     >[!NOTE]
+     >
+     >Puoi utilizzare uno o più **Unione semplice** criteri, nel qual caso devono essere tutti verificati in modo che i dati possano essere collegati tra loro.
+
+   * **Unione avanzata**: utilizza Query Modeler per configurare i criteri di riconciliazione. A questo scopo, fai clic su **Crea condizione** quindi definisci i criteri di riconciliazione creando una regola personalizzata utilizzando le operazioni AND e OR.
+
+L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra la tabella Destinatari del database di Adobe Campaign e una tabella temporanea generata da **Carica file** attività. In questo esempio, l’attività Enrichment esegue la riconciliazione di entrambe le tabelle utilizzando l’indirizzo e-mail come criterio di riconciliazione.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## Esempi {#example}
 
 ### Attributo di arricchimento singolo {#single-attribute}
@@ -177,48 +207,17 @@ Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### Arricchimento con dati collegati {#link-example}
 
-L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra due transizioni. La prima transizione esegue il targeting dei dati di profilo utilizzando un’attività Query, mentre la seconda include i dati di acquisto memorizzati in un file caricato tramite un’attività Load file.
+L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra due transizioni. Le prime transizioni eseguono il targeting dei dati di profilo utilizzando un **Query** mentre la seconda transizione include i dati di acquisto memorizzati in un file caricato tramite un’attività Load file.
 
-* Il primo **Arricchimento** l’attività collega il nostro set principale (dati provenienti dal **Query** con lo schema da **Carica file** attività. Questo ci consente di far corrispondere ogni profilo target della query con i dati di acquisto corrispondenti.
+![](../assets/enrichment-uc-link.png)
+
+* Il primo **Arricchimento** l’attività collega il set principale (dati provenienti dalla sezione **Query** con lo schema da **Carica file** attività. Questo ci consente di far corrispondere ogni profilo target della query con i dati di acquisto corrispondenti.
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * Un secondo **Arricchimento** per arricchire i dati dalla tabella del flusso di lavoro con i dati di acquisto provenienti dal **Carica file** attività. Questo ci consente di utilizzare tali dati in ulteriori attività, ad esempio per personalizzare i messaggi inviati ai clienti con le informazioni sul loro acquisto.
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
