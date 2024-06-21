@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 97%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 97%
 + Profili e pubblico {#audiences}
    + [Guida introduttiva ai profili e ai tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
+   + [Quarantena](audience/quarantine.md)
    + Utilizzare i profili {#work-with-profiles}
       + [Introduzione ai profili](audience/about-recipients.md)
       + [Esplorare i dettagli dei profili](audience/profile-view.md)
