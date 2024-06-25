@@ -6,37 +6,37 @@ exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 2%
+ht-degree: 25%
 
 ---
 
-# Dashboard di avvisi sulla consegna {#delivery-alerting-dashboards}
+# Dashboard di avviso di consegna {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
->title="Dashboard di avvisi sulla consegna"
->abstract="Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della consegna. Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate."
+>title="Dashboard di avviso di consegna"
+>abstract="Avviso di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della propria consegna. Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per l’invio e accedere alla cronologia di tutte le notifiche inviate."
 
 Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate. Sono accessibili dalla sezione **Avvisi sulla consegna** nel riquadro di navigazione a sinistra, sotto il **Dashboard** scheda.
 
 ![](assets/alerting-dashboard-list.png)
 
-## Creare un dashboard di consegna {#dashboards}
+## Creare una dashboard di consegna {#dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
 >title="Creare una dashboard per gli avvisi di consegna"
->abstract="La creazione di un dashboard di avviso sulla consegna consente di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate."
+>abstract="La creazione di un dashboard di avviso di consegna consente di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare e accedere alla cronologia di tutte le notifiche inviate."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Parametri generali degli avvisi di consegna"
->abstract="Specifica le proprietà generali del dashboard di avvisi di consegna. Il **Seleziona gruppo di avvisi** campo consente di specificare **gruppo di operatori** per ricevere gli avvisi inviati da questo dashboard."
+>abstract="Specifica le proprietà generali della dashboard di avviso di consegna. Il campo **Seleziona gruppo di avvisi** consente di specificare **gruppo di operatori** che deve ricevere gli avvisi inviati da questa dashboard."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="Criteri per gli avvisi di consegna"
->abstract="In questa sezione, aggiungi i criteri che desideri utilizzare per inviare avvisi da questo dashboard. Scegli un criterio predefinito o creane uno personalizzato da allineare a esigenze specifiche."
+>abstract="In questa sezione, aggiungi i criteri che desideri utilizzare per inviare avvisi da questa dashboard. Scegli un criterio predefinito o creane uno personalizzato da allineare a esigenze specifiche."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
@@ -91,7 +91,7 @@ Viene visualizzato il dashboard degli avvisi con dati vuoti. Quando sei pronto a
 
 Ora, ogni volta che una consegna soddisfa i criteri definiti in questo dashboard, viene inviata una notifica di avviso al gruppo di operatori specificato.
 
-## Gestire le dashboard degli avvisi
+## Gestire le dashboard di avviso
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
@@ -101,7 +101,7 @@ Ora, ogni volta che una consegna soddisfa i criteri definiti in questo dashboard
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="Cronologia degli avvisi di consegna"
->abstract="Il **Cronologia** contiene tutti gli avvisi inviati da questo dashboard. Fare clic su un elemento per accedere agli avvisi corrispondenti inviati in un determinato momento."
+>abstract="Il riquadro **Cronologia** contiene tutti gli avvisi inviati da questa dashboard. Fare clic su un elemento per accedere agli avvisi corrispondenti inviati in un determinato momento."
 
 Tutte le dashboard di avviso create sono accessibili dalla **Avvisi sulla consegna** nel menu **Dashboard** scheda.
 

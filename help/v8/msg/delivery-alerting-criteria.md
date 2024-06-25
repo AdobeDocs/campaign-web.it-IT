@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 7%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Dashboard dei criteri per gli avvisi di consegna"
->abstract="L’interfaccia utente di Campaign Web fornisce criteri di avviso predefiniti (consegne con bassa velocità effettiva, consegne la cui preparazione non è riuscita...) che puoi aggiungere al dashboard. Puoi anche creare criteri personalizzati in base alle tue esigenze."
+>abstract="L’interfaccia utente di Campaign Web fornisce criteri di avviso predefiniti (consegne con bassa velocità, consegne la cui preparazione non è riuscita...) che puoi aggiungere alla dashboard. Puoi anche creare criteri personalizzati in base alle tue esigenze."
 
 L’interfaccia utente di Campaign Web fornisce criteri di avviso predefiniti (consegne con bassa velocità effettiva, consegne la cui preparazione non è riuscita...) che puoi aggiungere al dashboard. Puoi anche creare criteri personalizzati in base alle tue esigenze.
 
@@ -49,12 +49,12 @@ Nell’interfaccia utente di Campaign Web sono disponibili criteri di avviso pre
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicatori da aggiungere negli avvisi"
->abstract="Seleziona gli indicatori da visualizzare come colonne nella sezione &quot;Dettagli&quot; degli avvisi e-mail."
+>abstract="Seleziona gli indicatori da visualizzare come colonne nella sezione “Dettagli” degli avvisi e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Tipo di avviso"
->abstract="Specifica la **Tipo di avviso** per il criterio, ovvero l’etichetta e il colore da visualizzare accanto al criterio di consegna nella sezione &quot;Riepilogo&quot; degli avvisi."
+>abstract="Specifica il **Tipo di avviso** per il criterio, ovvero l’etichetta e il colore da mostrare accanto al criterio di consegna nella sezione “Riepilogo” degli avvisi."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
@@ -85,7 +85,7 @@ Per creare un nuovo criterio, effettua le seguenti operazioni:
 
 1. In **Indicatori da aggiungere agli avvisi** , scegli gli indicatori da visualizzare come colonne nella sezione &quot;Dettagli&quot; degli avvisi e-mail.
 
-1. Specifica la **Tipo di avviso** per il criterio, ovvero l’etichetta e il colore da visualizzare accanto al criterio di consegna nella sezione &quot;Riepilogo&quot; degli avvisi.
+1. Specifica il **Tipo di avviso** per il criterio, ovvero l’etichetta e il colore da mostrare accanto al criterio di consegna nella sezione “Riepilogo” degli avvisi.
 
 1. Il **Frequenza criteri** Questa sezione ti consente di controllare la frequenza giornaliera degli avvisi per ogni consegna che soddisfa il criterio:
 
