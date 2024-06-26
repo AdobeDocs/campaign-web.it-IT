@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 **Data di rilascio**: 18-19 giugno 2024
 
-A partire dalla versione di giugno, le seguenti funzioni e miglioramenti sono disponibili per tutti gli utenti.
+Le seguenti funzioni e i miglioramenti sono disponibili per tutti gli utenti a partire dalla versione di giugno.
 <!--
 ### Visual fragments {#24-6-1}
 
@@ -34,7 +34,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### Avvisi di consegna {#24-6-3}
 
-La funzione di avviso sulla consegna è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
+La funzione Avvisi di consegna è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
 
 ### Piani e programmi {#24-6-4}
 

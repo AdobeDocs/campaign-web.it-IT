@@ -8,7 +8,7 @@ breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -100,8 +100,8 @@ ht-degree: 97%
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
       + [Inviare bozze](preview-test/test-deliveries.md)
       + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
-   + Avvisi sulla consegna {#delivery-alerting}
-      + [Introduzione agli avvisi di consegna](msg/delivery-alerting.md)
+   + Avviso di consegna {#delivery-alerting}
+      + [Introduzione agli avvisi sulle consegne](msg/delivery-alerting.md)
       + [Dashboard di avvisi sulla consegna](msg/delivery-alerting-dashboards.md)
       + [Criteri per gli avvisi di consegna](msg/delivery-alerting-criteria.md)
 + Pagine di destinazione {#landing-pages}
