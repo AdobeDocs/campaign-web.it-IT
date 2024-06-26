@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -51,13 +51,13 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di giugno è live!]
+>[!TAB La versione di giugno è ora disponibile!]
 
 Scopri le nuove funzioni e i miglioramenti introdotti con la versione 24.6 dell’interfaccia utente di Adobe Campaign Web.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Avvisi sulla consegna]
+>[!TAB Avvisi di consegna]
 
 Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della consegna.
 
