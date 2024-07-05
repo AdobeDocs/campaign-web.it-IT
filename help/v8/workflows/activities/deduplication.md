@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Deduplica nei flussi di lavoro
 description: Scopri come utilizzare l’attività Deduplica nei flussi di lavoro
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 95%
+source-wordcount: '602'
+ht-degree: 82%
 
 ---
 
@@ -54,9 +54,10 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 1. Seleziona il **Metodo di deduplica** da utilizzare:
 
-   * **Selezione casuale**: seleziona in modo casuale il record da escludere dai duplicati.
-   * **Utilizzo di un’espressione**: questo consente di conservare i record in cui il valore dell’espressione immessa corrisponde al valore minore o maggiore.
-   * **In base a un elenco di valori**: consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori.
+   * **Selezione casuale**: seleziona casualmente il record da escludere dai duplicati.
+   * **Utilizzo di un’espressione**: conserva i record in cui il valore dell’espressione immessa è il minore o il maggiore.
+   * **Valori non vuoti**: conserva i record per i quali l’espressione non è vuota.
+   * **Seguendo un elenco di valori**: definisci una priorità di valore per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic su **Pulsante Aggiungi** si trova sopra l’elenco dei valori.
 
 1. Se desideri sfruttare il gruppo rimanente, seleziona l’opzione **Genera complemento**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
 
