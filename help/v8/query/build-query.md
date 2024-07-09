@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 61%
+source-wordcount: '2103'
+ht-degree: 60%
 
 ---
 
@@ -244,7 +244,7 @@ Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i ris
 >title="Proprietà delle regole"
 >abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **Proprietà delle regole** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record mirati.<br/>Utilizza il pulsante **Seleziona o salva filtro** per salvare la query come filtro predefinito o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
 
-Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **Proprietà delle regole** sul lato destro. Le operazioni disponibili sono:
+Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando **Proprietà delle regole** riquadro a destra Questo riquadro viene visualizzato quando si crea una query per la creazione di un pubblico. Le operazioni disponibili sono:
 
 * **Visualizza risultati:** visualizza i dati risultanti dalla query.
 * **Vista codice**: visualizza una versione della query basata su codice in SQL.
