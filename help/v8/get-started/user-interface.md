@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
+source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1629'
 ht-degree: 95%
 
 ---
@@ -332,6 +332,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="Proprietà dei messaggi transazionali"
 >abstract="Proprietà dei messaggi transazionali"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_mobileapp"
+>title="App mobile di messaggistica transazionale"
+>abstract="App mobile di messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
