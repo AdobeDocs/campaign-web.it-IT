@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -330,8 +330,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="Proprietà dei messaggi transazionali"
->abstract="Proprietà dei messaggi transazionali"
+>title="Proprietà di messaggistica transazionale"
+>abstract="Proprietà di messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
@@ -340,8 +340,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="Evento di messaggistica transazionale"
->abstract="Evento di messaggistica transazionale"
+>title="Eventi di messaggistica transazionale"
+>abstract="Eventi di messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
@@ -350,18 +350,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="Contenuto della messaggistica transazionale"
->abstract="Contenuto della messaggistica transazionale"
+>title="Contenuto di messaggistica transazionale"
+>abstract="Contenuto di messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
->title="Personalizzazione della messaggistica transazionale"
->abstract="Personalizzazione della messaggistica transazionale"
+>title="Personalizzazione di messaggistica transazionale"
+>abstract="Personalizzazione di messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
->title="Registri di esclusione della messaggistica transazionale"
->abstract="Registri di esclusione della messaggistica transazionale"
+>title="Registri di esclusione di messaggistica transazionale"
+>abstract="Registri di esclusione di messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
