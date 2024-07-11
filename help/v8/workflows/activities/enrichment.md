@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
@@ -100,7 +100,7 @@ Per creare un collegamento, effettua le seguenti operazioni:
 
 1. Definisci i criteri di riconciliazione per far corrispondere i dati del set principale con lo schema collegato. Sono disponibili due tipi di join:
 
-   * **Unione semplice**: seleziona un attributo specifico per far corrispondere i dati dei due schemi. Clic **Aggiungi join** e seleziona la **Sorgente** e **Destinazione** attributi da utilizzare come criteri di riconciliazione.
+   * **Unione semplice**: seleziona un attributo specifico per far corrispondere i dati dei due schemi. Clic **Aggiungi join** e seleziona la **Source** e **Destinazione** attributi da utilizzare come criteri di riconciliazione.
    * **Unione avanzata**: crea un join utilizzando condizioni avanzate. Clic **Aggiungi join** e fai clic su **Crea condizione** per aprire Query Modeler.
 
 Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example) sezione.
@@ -131,7 +131,7 @@ Segui i passaggi per configurare una **Arricchimento** attività con un collegam
 
 1. In **Criteri di riconciliazione** , specificare la modalità di riconciliazione dei dati delle tabelle di origine e di destinazione:
 
-   * **Unione semplice**: riconcilia un campo specifico della tabella di origine con un altro campo della tabella di destinazione. A questo scopo, fai clic su **Aggiungi join** e specificare **Sorgente** e **Destinazione** campi da utilizzare per la riconciliazione.
+   * **Unione semplice**: riconcilia un campo specifico della tabella di origine con un altro campo della tabella di destinazione. A questo scopo, fai clic su **Aggiungi join** e specificare **Source** e **Destinazione** campi da utilizzare per la riconciliazione.
 
      >[!NOTE]
      >
