@@ -43,13 +43,13 @@ I dati di arricchimento possono provenire:
 
 * **Dalla stessa tabella di lavoro** definita come target nel flusso di lavoro:
 
-  *Eseguire il targeting di un gruppo di clienti e aggiungere il campo &quot;Data di nascita&quot; alla tabella di lavoro corrente*.
+  *Eseguire il targeting di un gruppo di clienti e aggiungere il campo Data di nascita alla tabella di lavoro corrente*.
 
 * **Da un’altra tabella di lavoro**:
 
   *Esegui il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
 
-Una volta aggiunti i dati di arricchimento al flusso di lavoro, questi possono essere utilizzati nelle attività aggiunte dopo **Arricchimento** attività per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
+Una volta aggiunti i dati di arricchimento al flusso di lavoro, è possibile utilizzarli nelle attività aggiunte dopo l&#39;attività **Arricchimento** per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
 
 Ad esempio, è possibile aggiungere alla tabella di lavoro del flusso di lavoro le informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro acquisto più recente o con l’importo speso per tali acquisti.
 
@@ -59,11 +59,11 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 1. Aggiungi attività come **Crea pubblico** e **Combina**.
 1. Aggiungi un’attività **Arricchimento**.
-1. Se nel flusso di lavoro sono state configurate più transizioni, puoi utilizzare **[!UICONTROL Set primario]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
+1. Se nel flusso di lavoro sono state configurate più transizioni, è possibile utilizzare il campo **[!UICONTROL Set principale]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
 
 ## Aggiungi dati di arricchimento {#enrichment-add}
 
-1. Clic **Aggiungere dati di arricchimento** e seleziona l’attributo da utilizzare per arricchire i dati.
+1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati.
 
    Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ciascuno di questi tipi è descritto negli esempi seguenti:
    * [Attributo di arricchimento singolo](#single-attribute)
@@ -71,39 +71,39 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
    >[!NOTE]
    >
-   >Il **Pulsante espressione Modifica** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l’attributo. [Scopri come utilizzare l’editor di espressioni](../../query/expression-editor.md)
+   >Il pulsante **Modifica espressione** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l&#39;attributo. [Scopri come utilizzare l&#39;editor di espressioni](../../query/expression-editor.md)
 
    ![](../assets/workflow-enrichment1.png)
 
 ## Creare collegamenti tra tabelle {#create-links}
 
-Il **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili.
+La sezione **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili.
 
 Sono disponibili diversi tipi di collegamenti:
 
-* **[!UICONTROL Collegamento semplice con cardinalità 1]**: ogni record del set principale può essere associato a un solo record dei dati collegati.
-* **[!UICONTROL Collegamento semplice con cardinalità 0 o 1]**: ogni record del set principale può essere associato a 0 o 1 record dei dati collegati, ma non a più di uno.
-* **[!UICONTROL Collegamento raccolta con cardinalità N]**: ogni record del set principale può essere associato a 0, 1 o più record (N) dei dati collegati.
+* Collegamento semplice con cardinalità **[!UICONTROL 1]**: ogni record del set principale può essere associato a un solo record dei dati collegati.
+* Collegamento semplice **[!UICONTROL 0 o 1 cardinalità]**: ogni record del set principale può essere associato a 0 o 1 record dei dati collegati, ma non a più di uno.
+* **[!UICONTROL N collegamento raccolta cardinalità]**: ogni record del set principale può essere associato a 0, 1 o più record (N) dei dati collegati.
 
 Per creare un collegamento, effettua le seguenti operazioni:
 
-1. In **[!UICONTROL Definizione collegamento]** , fare clic sul pulsante **[!UICONTROL Aggiungi collegamento]** pulsante.
+1. Nella sezione **[!UICONTROL Definizione collegamento]**, fare clic sul pulsante **[!UICONTROL Aggiungi collegamento]**.
 
    ![](../assets/workflow-enrichment-link.png)
 
-1. In **Tipo di relazione** scegliere il tipo di collegamento che si desidera creare.
+1. Nell&#39;elenco a discesa **Tipo di relazione**, scegliere il tipo di collegamento che si desidera creare.
 
 1. Identifica la destinazione a cui vuoi collegare il set principale:
 
-   * Per collegare una tabella esistente nel database, scegliere **[!UICONTROL Schema del database]** e seleziona la tabella desiderata da **[!UICONTROL Schema di destinazione]** campo.
-   * Per collegare i dati della transizione di input, scegli **Schema temporaneo** e seleziona la transizione di cui desideri utilizzare i dati.
+   * Per collegare una tabella esistente nel database, scegliere **[!UICONTROL Schema del database]** e selezionare la tabella desiderata dal campo **[!UICONTROL Schema di destinazione]**.
+   * Per collegare i dati della transizione di input, scegliere **Schema temporaneo** e selezionare la transizione di cui si desidera utilizzare i dati.
 
 1. Definisci i criteri di riconciliazione per far corrispondere i dati del set principale con lo schema collegato. Sono disponibili due tipi di join:
 
-   * **Unione semplice**: seleziona un attributo specifico per far corrispondere i dati dei due schemi. Clic **Aggiungi join** e seleziona la **Source** e **Destinazione** attributi da utilizzare come criteri di riconciliazione.
-   * **Unione avanzata**: crea un join utilizzando condizioni avanzate. Clic **Aggiungi join** e fai clic su **Crea condizione** per aprire Query Modeler.
+   * **Unione semplice**: seleziona un attributo specifico che corrisponda ai dati dei due schemi. Fai clic su **Aggiungi join** e seleziona gli attributi **Source** e **Destination** da utilizzare come criteri di riconciliazione.
+   * **Advanced join**: crea un join utilizzando condizioni avanzate. Fai clic su **Aggiungi join** e sul pulsante **Crea condizione** per aprire Query Modeler.
 
-Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example) sezione.
+Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example).
 
 ## Riconciliazione dei dati {#reconciliation}
 
@@ -115,31 +115,31 @@ Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella 
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
-Il **Arricchimento** L’attività può essere utilizzata per riconciliare i dati dello schema del database Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati utilizzando un’attività Load file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Adobe Campaign crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco.
+L&#39;attività **Enrichment** può essere utilizzata per riconciliare i dati dello schema del database di Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un&#39;attività Load file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Adobe Campaign crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco.
 
 Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign.
 
-Segui i passaggi per configurare una **Arricchimento** attività con un collegamento di riconciliazione:
+Segui i passaggi per configurare un&#39;attività **Enrichment** con un collegamento di riconciliazione:
 
-1. Fai clic su **Aggiungi collegamento** pulsante in **Reconciliation** sezione.
+1. Fai clic sul pulsante **Aggiungi collegamento** nella sezione **Riconciliazione**.
 1. Identifica i dati con cui desideri creare un collegamento di riconciliazione.
 
-   * Per creare un collegamento di riconciliazione con i dati del database di Campaign, seleziona **Schema del database** e scegli lo schema in cui è memorizzata la destinazione.
-   * Per creare un collegamento di riconciliazione con i dati provenienti dalla transizione di input, seleziona **Schema temporaneo** e scegli la transizione del flusso di lavoro in cui vengono memorizzati i dati di destinazione.
+   * Per creare un collegamento di riconciliazione con i dati del database Campaign, selezionare **Schema del database** e scegliere lo schema in cui è memorizzata la destinazione.
+   * Per creare un collegamento di riconciliazione con i dati provenienti dalla transizione di input, selezionare **Schema temporaneo** e scegliere la transizione del flusso di lavoro in cui vengono memorizzati i dati di destinazione.
 
-1. Il **Etichetta** e **Nome** I campi vengono compilati automaticamente in base allo schema di destinazione selezionato. Se necessario, è possibile modificarne i valori.
+1. I campi **Etichetta** e **Nome** vengono compilati automaticamente in base allo schema di destinazione selezionato. Se necessario, è possibile modificarne i valori.
 
-1. In **Criteri di riconciliazione** , specificare la modalità di riconciliazione dei dati delle tabelle di origine e di destinazione:
+1. Nella sezione **Criteri di riconciliazione** specificare la modalità di riconciliazione dei dati delle tabelle di origine e di destinazione:
 
-   * **Unione semplice**: riconcilia un campo specifico della tabella di origine con un altro campo della tabella di destinazione. A questo scopo, fai clic su **Aggiungi join** e specificare **Source** e **Destinazione** campi da utilizzare per la riconciliazione.
+   * **Unione semplice**: riconciliare un campo specifico della tabella di origine con un altro campo della tabella di destinazione. A tale scopo, fare clic sul pulsante **Aggiungi join** e specificare i campi **Source** e **Destination** da utilizzare per la riconciliazione.
 
      >[!NOTE]
      >
-     >Puoi utilizzare uno o più **Unione semplice** criteri, nel qual caso devono essere tutti verificati in modo che i dati possano essere collegati tra loro.
+     >È possibile utilizzare uno o più criteri di **Unione semplice**, nel qual caso devono essere tutti verificati in modo che i dati possano essere collegati tra loro.
 
-   * **Unione avanzata**: utilizza Query Modeler per configurare i criteri di riconciliazione. A questo scopo, fai clic su **Crea condizione** quindi definisci i criteri di riconciliazione creando una regola personalizzata utilizzando le operazioni AND e OR.
+   * **Unione avanzata**: utilizza il modellatore di query per configurare i criteri di riconciliazione. A questo scopo, fai clic sul pulsante **Crea condizione**, quindi definisci i criteri di riconciliazione creando la tua regola utilizzando le operazioni AND e OR.
 
-L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra la tabella Destinatari del database di Adobe Campaign e una tabella temporanea generata da **Carica file** attività. In questo esempio, l’attività Enrichment esegue la riconciliazione di entrambe le tabelle utilizzando l’indirizzo e-mail come criterio di riconciliazione.
+L&#39;esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra la tabella dei destinatari del database di Adobe Campaign e una tabella temporanea generata da un&#39;attività **Load file**. In questo esempio, l’attività Enrichment esegue la riconciliazione di entrambe le tabelle utilizzando l’indirizzo e-mail come criterio di riconciliazione.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -211,15 +211,15 @@ Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più
 
 ### Arricchimento con dati collegati {#link-example}
 
-L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra due transizioni. Le prime transizioni eseguono il targeting dei dati di profilo utilizzando un **Query** mentre la seconda transizione include i dati di acquisto memorizzati in un file caricato tramite un’attività Load file.
+L’esempio seguente mostra un flusso di lavoro configurato per creare un collegamento tra due transizioni. Le prime transizioni eseguono il targeting dei dati del profilo utilizzando un&#39;attività **Query**, mentre la seconda transizione include i dati di acquisto memorizzati in un file caricato tramite un&#39;attività Load file.
 
 ![](../assets/enrichment-uc-link.png)
 
-* Il primo **Arricchimento** l’attività collega il set principale (dati provenienti dalla sezione **Query** con lo schema da **Carica file** attività. Questo ci consente di far corrispondere ogni profilo target della query con i dati di acquisto corrispondenti.
+* La prima attività **Enrichment** collega il set principale (dati dell&#39;attività **Query**) allo schema dell&#39;attività **Load file**. Questo ci consente di far corrispondere ogni profilo target della query con i dati di acquisto corrispondenti.
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Un secondo **Arricchimento** per arricchire i dati dalla tabella del flusso di lavoro con i dati di acquisto provenienti dal **Carica file** attività. Questo ci consente di utilizzare tali dati in ulteriori attività, ad esempio per personalizzare i messaggi inviati ai clienti con le informazioni sul loro acquisto.
+* È stata aggiunta una seconda attività **Enrichment** per arricchire i dati della tabella del flusso di lavoro con i dati di acquisto provenienti dall&#39;attività **Load file**. Questo ci consente di utilizzare tali dati in ulteriori attività, ad esempio per personalizzare i messaggi inviati ai clienti con le informazioni sul loro acquisto.
 
   ![](../assets/enrichment-uc-link-data.png)
 

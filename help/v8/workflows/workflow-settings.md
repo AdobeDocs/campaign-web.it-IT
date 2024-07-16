@@ -5,7 +5,7 @@ description: Scopri come configurare le impostazioni del flusso di lavoro con Ad
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1063'
 ht-degree: 69%
 
 ---
@@ -22,7 +22,7 @@ Durante la creazione di un flusso di lavoro o l’orchestrazione delle attività
 
 Queste impostazioni sono preconfigurate nel modello selezionato durante la creazione del flusso di lavoro, ma possono essere modificate in base alle esigenze per il flusso di lavoro specifico.
 
-![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Proprietà del flusso di lavoro {#properties}
 
@@ -31,27 +31,27 @@ Queste impostazioni sono preconfigurate nel modello selezionato durante la creaz
 >title="Proprietà del flusso di lavoro"
 >abstract="In questa sezione sono illustrate le proprietà generiche del flusso di lavoro accessibili anche durante la relativa creazione. Puoi scegliere il modello da utilizzare per creare il flusso di lavoro e specificare un’etichetta. Espandi la sezione Opzioni aggiuntive per configurare impostazioni specifiche, ad esempio la cartella di archiviazione del flusso di lavoro o il fuso orario."
 
-Il **[!UICONTROL Proprietà]** fornisce impostazioni generiche che possono essere configurate durante la creazione di un flusso di lavoro. Per accedere alle proprietà di un flusso di lavoro esistente, fai clic su **[!UICONTROL Impostazioni]** disponibile nella barra delle azioni sopra l’area di lavoro del flusso di lavoro.
+La sezione **[!UICONTROL Proprietà]** fornisce impostazioni generiche che possono essere configurate durante la creazione di un flusso di lavoro. Per accedere alle proprietà di un flusso di lavoro esistente, fai clic sul pulsante **[!UICONTROL Impostazioni]** nella barra delle azioni sopra l&#39;area di lavoro del flusso di lavoro.
 
 
-![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
 
 
 Queste proprietà sono:
 
-* Il **[!UICONTROL Etichetta]** del flusso di lavoro visualizzato nell’elenco.
-* Il **[!UICONTROL Nome interno]** del workflow.
-* Il **[!UICONTROL Cartella]** dove salvare il flusso di lavoro.
-* Il valore predefinito **[!UICONTROL Fuso orario]** da utilizzare in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
+* **[!UICONTROL Etichetta]** del flusso di lavoro visualizzato nell&#39;elenco.
+* **[!UICONTROL Nome interno]** del flusso di lavoro.
+* **[!UICONTROL Cartella]** in cui salvare il flusso di lavoro.
+* Il **[!UICONTROL Fuso orario]** predefinito da utilizzare in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 I valori possibili sono:
    * **Fuso orario del server** per utilizzare il fuso orario del server dell’applicazione Adobe Campaign
    * **Fuso orario dell’operatore** per utilizzare il fuso orario dell’operatore di Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell’operatore, nella console client
    * **Fuso orario del database** per utilizzare il fuso orario del server del database
    * Un fuso orario specifico
-* Quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato nel **[!UICONTROL Supervisori]** vengono notificati tramite e-mail.
-* È inoltre possibile immettere un **[!UICONTROL Descrizione]** del workflow.
+* Quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato nel campo **[!UICONTROL Supervisori]** ricevono una notifica tramite e-mail.
+* Puoi anche immettere una **[!UICONTROL Descrizione]** del flusso di lavoro.
 
-Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), viene visualizzato nel **[!UICONTROL Campagna collegata]** campo. Puoi aprire la campagna associata da quel campo.
+Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), viene visualizzato nel campo **[!UICONTROL Campagna collegata]**. Puoi aprire la campagna associata da quel campo.
 
 
 ## Impostazioni di segmentazione  {#segmentation-settings}
@@ -61,7 +61,7 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 >title="Impostazioni di segmentazione"
 >abstract="In questa sezione, puoi selezionare la dimensione di targeting per eseguire il targeting dei profili nel flusso di lavoro e scegliere di mantenere i risultati del flusso di lavoro tra due esecuzioni. Questa opzione deve essere utilizzata solo a scopo di test e non deve mai essere abilitata in un flusso di lavoro di produzione."
 
-* **[!UICONTROL Dimensione targeting]**: seleziona la dimensione di targeting da utilizzare per eseguire il targeting dei profili: destinatari, beneficiari del contratto, operatore, abbonati, ecc. [Ulteriori informazioni sulle dimensioni di targeting](../audience/targeting-dimensions.md)
+* **[!UICONTROL Dimensione targeting]**: seleziona la dimensione targeting da utilizzare per eseguire il targeting dei profili: destinatari, beneficiari del contratto, operatore, abbonati, ecc. [Ulteriori informazioni sulle dimensioni di targeting](../audience/targeting-dimensions.md)
 
 * **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione del flusso di lavoro. Le tabelle di lavoro delle esecuzioni precedenti vengono eliminate dal flusso di lavoro di pulizia, che viene eseguito su base giornaliera.
 
@@ -80,14 +80,14 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
   >
   >Se il campo della **[!UICONTROL Cronologia in giorni]** è lasciato vuoto, il suo valore sarà considerato come “1”, il che significa che la cronologia verrà eliminata dopo 1 giorno.
 
-* **[!UICONTROL Affinità predefinita]**: se l’installazione include diversi server del flusso di lavoro, utilizza questo campo per specificare il server su cui verrà eseguito il flusso di lavoro. Questo forza l’esecuzione di quel flusso di lavoro su un server particolare. Puoi scegliere un nome di affinità esistente, ma assicurati di non utilizzare spazi o segni di punteggiatura. Se si utilizzano server diversi, specificare nomi diversi, separati da virgole.
+* **[!UICONTROL Affinità predefinita]**: se l&#39;installazione include più server del flusso di lavoro, utilizzare questo campo per specificare il server su cui verrà eseguito il flusso di lavoro. Questo forza l’esecuzione di quel flusso di lavoro su un server particolare. Puoi scegliere un nome di affinità esistente, ma assicurati di non utilizzare spazi o segni di punteggiatura. Se si utilizzano server diversi, specificare nomi diversi, separati da virgole.
 
   >[!IMPORTANT]
   >
   >Se il valore definito in questo campo non esiste su alcun server, il flusso di lavoro rimarrà in sospeso.
 
 
-* **[!UICONTROL Salvare le query SQL nel registro]**: seleziona questa opzione per salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creazione del pubblico]**. Quando questa opzione è selezionata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate nei registri del flusso di lavoro, consentendoti di analizzarle per ottimizzare le query o diagnosticare eventuali problemi.
+* **[!UICONTROL Salva query SQL nel registro]**: selezionare questa opzione per salvare le query SQL dal flusso di lavoro nei registri. Questa funzionalità è riservata agli utenti avanzati. Si applica ai flussi di lavoro che contengono attività di targeting come **[!UICONTROL Creazione del pubblico]**. Quando questa opzione è selezionata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate nei registri del flusso di lavoro, consentendoti di analizzarle per ottimizzare le query o diagnosticare eventuali problemi.
 
 ## Impostazioni di gestione degli errori  {#error-settings}
 
@@ -106,5 +106,5 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 
 ## Script di inizializzazione {#initialization-script}
 
-Il **Script di inizializzazione** consente di inizializzare le variabili o modificare le proprietà dell’attività. Fai clic su **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 

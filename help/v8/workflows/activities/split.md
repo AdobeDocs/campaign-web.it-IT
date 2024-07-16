@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 72%
+ht-degree: 85%
 
 ---
 
@@ -59,8 +59,8 @@ L’attività **Dividi** è un’attività di **Targeting** che consente di segm
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="Abilita la sovrapposizione delle popolazioni di output"
->abstract=" Il **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti. Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi."
+>title="Abilita la sovrapposizione di popolazioni di output"
+>abstract=" L’opzione **[!UICONTROL Abilita la sovrapposizione di popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi."
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
@@ -72,7 +72,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    >[!IMPORTANT]
    >
-   >Quando **Dividi** Quando si esegue un’attività, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
+   >Quando l&#39;attività **Split** viene eseguita, il gruppo viene segmentato tra i diversi sottoinsiemi nell&#39;ordine in cui vengono aggiunti all&#39;attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
    >
    >Prima di avviare il flusso di lavoro, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze. A tale scopo, utilizzare i pulsanti freccia per modificare la posizione di un sottoinsieme.
 
@@ -86,7 +86,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    1. Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere.
 
-   1. Per disabilitare una transizione se il gruppo in ingresso è vuoto, attiva/disattiva **[!UICONTROL Salta transizione vuota]** opzione attivata. Se nessun profilo corrisponde al sottoinsieme, il flusso di lavoro non passerà all’attività successiva.
+   1. Per disabilitare una transizione se il gruppo in ingresso è vuoto, attiva l&#39;opzione **[!UICONTROL Ignora transizione vuota]**. Se nessun profilo corrisponde al sottoinsieme, il flusso di lavoro non passerà all’attività successiva.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -101,9 +101,9 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** consente di raggruppare tutti i sottoinsiemi in una singola transizione di output.
+   >L&#39;opzione **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** consente di raggruppare tutti i sottoinsiemi in un&#39;unica transizione di output.
 
-1. Il **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
+1. L&#39;opzione **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
 
    * Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
    * Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi.
