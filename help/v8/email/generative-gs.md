@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
+source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 52%
+source-wordcount: '581'
+ht-degree: 44%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 52%
 
 >[!BEGINSHADEBOX]
 
-**Sommario**
+**Tabella dei contenuti**
 
 * Introduzione all’Assistente IA
 * [Generazione di e-mail con l’Assistente IA](generative-content.md)
@@ -41,10 +41,10 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termini di IA generativa di Adobe"
->abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Qualsiasi prompt, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere collegato a un individuo specifico). Dovresti verificare che ogni output generato da questa funzione sia accurato e assicurarti che sia appropriato al caso d’uso"
+>abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Controlla l’accuratezza dell’output di questa funzione e assicurati che sia appropriato per il tuo caso d’uso."
 >additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
-Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. L’Assistente per l’intelligenza artificiale in Campaign, basato su Azure OpenAI e sulla visione di Azure, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che rivoluziona il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand su canali diversi, come e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
+Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. L’Assistente per l’intelligenza artificiale in Campaign, basato su Azure OpenAI, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che rivoluziona il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand su canali diversi, come e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
 
 Ai Assistant rende la creazione e l’esecuzione di campagne di marketing su canali diversi come e-mail, SMS e push intuitivi, semplici e senza problemi, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori.
 
@@ -59,7 +59,7 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assiste
 * La qualità del contenuto generato è fortemente influenzata dalla finalità dell’iniziativa di marketing e dal prompt che inserisci nelle impostazioni. Inserisci un prompt chiaro e preciso nelle impostazioni, per consentire al modello GenAI di interpretarle con precisione. 
 * Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Puoi caricare contenuti nei seguenti formati: file PDF, immagini JPEG o PNG, o file ZIP (contenenti formati di file supportati).
 * La dimensione massima per la risorsa del brand caricata è di 50 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
-* Utilizza un modello e-mail creato da Adobe Campaign, preferibilmente [modelli e-mail incorporati](../email/create-email-templates.md), modello specifico per il brand o modello personalizzato per creare il contenuto delle e-mail. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
+* Utilizza un modello di e-mail creato da Adobe Campaign, preferibilmente [modelli e-mail incorporati](../email/create-email-templates.md), un modello specifico per il brand o un modello personalizzato per creare il contenuto delle e-mail. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 * Assicurati di segnalare eventuali output problematici utilizzando le icone thumb up, thumb down o flag durante la selezione delle varianti.
 * L’utilizzo dell’assistente IA è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
@@ -76,7 +76,7 @@ All’Assistente IA in Campaign si applicano le seguenti limitazioni:
 <img alt="Generazione di e-mail" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Generazione di e-mail con l’Assistente AI</strong></a>
+<a href="generative-content.md"><strong>Generazione di e-mail con l'Assistente AI</strong></a>
 </div>
 <p>
 </td>
@@ -84,7 +84,7 @@ All’Assistente IA in Campaign si applicano le seguenti limitazioni:
 <a href="generative-sms.md">
 <img alt="Generazione di SMS" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>Generazione di SMS con l’Assistente AI</strong>
+<div><a href="generative-sms.md"><strong>Generazione di SMS con l'Assistente AI</strong>
 </div>
 <p>
 </td>
@@ -93,7 +93,7 @@ All’Assistente IA in Campaign si applicano le seguenti limitazioni:
 <img alt="Generazione push" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Generazione di notifiche push con l’Assistente AI</strong></a>
+<a href="generative-push.md"><strong>Generazione di notifiche push con l'Assistente IA</strong></a>
 </div>
 <p></td>
 </tr></table>
