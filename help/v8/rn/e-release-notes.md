@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Ora puoi inviare notifiche push potenziate. Una notifica push potenziata è una 
 
 #### Frammenti di contenuto {#LA-24-7}
 
-Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più contenuti in Adobe Campaign per migliorare e accelerare il processo di progettazione.
+Ora puoi creare e utilizzare frammenti di contenuto. Un frammento di contenuto è un componente riutilizzabile a cui è possibile fare riferimento in uno o più messaggi. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente il contenuto dei messaggi in un processo di progettazione migliorato.
 
-* Ora puoi creare, utilizzare e gestire **frammenti di espressione** per creare rapidamente contenuti personalizzati.
+Sono disponibili due tipi di frammenti:
 
-* Ora puoi creare, utilizzare e salvare **frammenti visivi** per assemblare rapidamente le e-mail e i modelli di contenuto. [Ulteriori informazioni](../email/fragments.md)
+* I **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell&#39;editor espressioni.
+* I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più consegne e-mail o in modelli di contenuto. [Ulteriori informazioni](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**I frammenti visivi** sono in disponibilità limitata (LA). Questa funzionalità è limitata ai clienti che eseguono la migrazione di **da Adobe Campaign Standard ad Adobe Campaign v8** e non può essere distribuita in nessun altro ambiente.
