@@ -2,25 +2,21 @@
 audience: end-user
 title: Aggiungi frammenti visivi alle e-mail
 description: Scopri come aggiungere frammenti visivi alle e-mail
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 4%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
 # Aggiungi frammenti visivi alle e-mail {#use-visual-fragments}
 
-Puoi utilizzare un frammento visivo in una [consegna e-mail](get-started-email-designer.md) o in un [modello di contenuto](use-email-templates.md). I passaggi sono descritti di seguito.
+Puoi utilizzare un frammento visivo in una [consegna e-mail](get-started-email-designer.md) o in un [modello di contenuto](use-email-templates.md). I passaggi sono descritti di seguito. Scopri come creare e gestire i frammenti in [questa sezione](fragments.md).
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Scopri come creare e gestire i frammenti in [questa sezione](fragments.md).
-
+>Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Utilizzare un frammento {#use-fragment}
 

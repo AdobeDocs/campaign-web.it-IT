@@ -2,18 +2,15 @@
 audience: end-user
 title: Creare frammenti di contenuto
 description: Scopri come creare con i frammenti di contenuto
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 22%
+source-wordcount: '916'
+ht-degree: 24%
 
 ---
 
 # Creare frammenti di contenuto {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ Questa funzionalità consente di precreare più blocchi di contenuto personalizz
 
 ![](assets/fragments.gif)
 
-
 Per utilizzare al meglio i frammenti:
 
 * Crea frammenti visivi personalizzati, come descritto di seguito.
 * Utilizzali il numero di volte necessario nel contenuto tramite E-mail Designer. Consulta [Aggiungere frammenti visivi alle e-mail](../email/use-visual-fragments.md).
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Creare un frammento visivo {#create-fragments}
 
