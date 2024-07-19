@@ -5,7 +5,7 @@ description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,17 @@ Per definire la preintestazione dell’e-mail, segui i passaggi indicati di segu
 
 1. Fai clic sull’icona **[!UICONTROL Struttura di navigazione]** nel riquadro a sinistra e seleziona **[!UICONTROL Corpo]**.
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
 1. Nella scheda **[!UICONTROL Impostazioni]**, immetti del testo per la preintestazione.
 
 1. Per personalizzarlo ulteriormente, fai clic sull’icona **[!UICONTROL Aggiungi personalizzazione]** a sinistra del campo **[!UICONTROL preintestazione]**.
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
 1. Dalla finestra **[!UICONTROL Modifica personalizzazione]**, puoi aggiungere [campi di personalizzazione](../personalization/personalize.md), [blocchi di contenuto](../personalization/content-blocks.md) e [contenuto condizionale](../personalization/conditions.md) utilizzando le relative voci a sinistra.
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Conferma]**.
 

@@ -5,7 +5,7 @@ description: Scopri come inviare SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '418'
 ht-degree: 88%
 
 ---
@@ -25,7 +25,7 @@ I passaggi principali per visualizzare in anteprima la consegna di SMS sono i se
 
 1. Dalla pagina dei contenuti della consegna, puoi utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima i contenuti personalizzati.
 
-   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_1.png){zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Aggiungi profili di test]** per selezionare uno o più profili di test o profili.
 
@@ -36,7 +36,7 @@ I passaggi principali per visualizzare in anteprima la consegna di SMS sono i se
 
 1. Nel riquadro a destra è disponibile un’anteprima della consegna SMS in cui gli elementi personalizzati vengono sostituiti dinamicamente con i dati del profilo selezionato.
 
-   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_3.png){zoomable="yes"}
 
 Ora puoi esaminare e inviare il messaggio SMS al pubblico.
 
@@ -48,13 +48,13 @@ L’invio di bozze è un passaggio importante per garantire la qualità e l’ef
 
 ![](../assets/do-not-localize/book.png) Scopri come inviare bozze in [questa sezione](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
+![](assets/sms_send_6.png){zoomable="yes"}
 
 ## Inviare la consegna SMS {#send-sms}
 
 1. Dopo aver personalizzato il contenuto SMS, fai clic su **[!UICONTROL Rivedi e invia]** dalla pagina **[!UICONTROL Consegna]**.
 
-   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_4.png){zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Prepara]** e monitora l’avanzamento e le statistiche fornite.
 
@@ -62,7 +62,7 @@ L’invio di bozze è un passaggio importante per garantire la qualità e l’ef
 
 1. Per inviare i messaggi, fai clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale.
 
-   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_5.png){zoomable="yes"}
 
    Se la consegna SMS è stata pianificata, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-messages.md#schedule-the-delivery-sending).
 

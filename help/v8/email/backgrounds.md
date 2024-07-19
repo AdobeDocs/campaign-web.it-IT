@@ -5,7 +5,7 @@ description: Scopri come personalizzare lo sfondo delle e-mail
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -27,15 +27,15 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
 * Imposta un **[!UICONTROL Colore di sfondo]** per l’intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dal riquadro a sinistra.
 
-  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_1.png){zoomable="yes"}
 
 * Per impostare lo stesso colore di sfondo per tutti i componenti della struttura, seleziona **[!UICONTROL Colore di sfondo del riquadro di visualizzazione]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
 
-  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_2.png){zoomable="yes"}
 
 * Imposta un colore di sfondo diverso per ciascun componente della struttura. Per applicare un colore di sfondo specifico a una sola struttura, selezionala nell’albero di navigazione nel riquadro a sinistra .
 
-  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
 * Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
 
-  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -51,7 +51,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
 * Imposta un colore di sfondo a livello di colonna.
 
-  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >

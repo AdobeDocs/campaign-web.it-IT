@@ -51,7 +51,7 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    Di seguito sono riportati i diversi KPI visualizzati:
 
-   * **[!UICONTROL Target]**: il numero di destinatari interessati.
+   * **[!UICONTROL Destinati]**: il numero di destinatari interessati.
    * **[!UICONTROL Da consegnare]**: numero di messaggi che verranno inviati.
    * **[!UICONTROL Da escludere]**[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
 
@@ -104,7 +104,7 @@ Se hai pianificato l’invio dell’e-mail in una data e in un’ora successive,
 
 ## Sospendere o interrompere l’invio {#pause-stop-sending}
 
-Se la consegna è pianificata o meno<!--TBC-->, è possibile eseguire due azioni in qualsiasi momento durante il processo di invio:
+Che la consegna sia pianificata o meno<!--TBC-->, è possibile eseguire due azioni in qualsiasi momento durante il processo di invio:
 
 * Fai clic su **[!UICONTROL Pausa invio]** per interrompere l’invio dei messaggi. Puoi riprendere l’invio in qualsiasi momento.
 

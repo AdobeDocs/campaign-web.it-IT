@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Aggiungi frammenti visivi alle e-mail {#use-visual-fragments}
 
-È possibile utilizzare un frammento visivo in una [consegna e-mail](get-started-email-designer.md), o in un [modello di contenuto](use-email-templates.md). I passaggi sono descritti di seguito.
+Puoi utilizzare un frammento visivo in una [consegna e-mail](get-started-email-designer.md) o in un [modello di contenuto](use-email-templates.md). I passaggi sono descritti di seguito.
 
 
 >[!NOTE]
@@ -28,7 +28,7 @@ Per inserire un frammento in un contenuto e-mail, effettua le seguenti operazion
 
 1. Apri qualsiasi contenuto e-mail o modello utilizzando [E-mail Designer](get-started-email-designer.md).
 
-1. Seleziona la **[!UICONTROL Frammenti]** dalla barra a sinistra.
+1. Seleziona l&#39;icona **[!UICONTROL Frammenti]** dalla barra a sinistra.
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +42,7 @@ Per inserire un frammento in un contenuto e-mail, effettua le seguenti operazion
    >
    >I frammenti sono ordinati per data di creazione: i frammenti visivi aggiunti di recente vengono visualizzati per primi nell’elenco.
 
-   Se alcuni frammenti sono stati modificati o aggiunti durante la modifica del contenuto, fai clic sul pulsante **Aggiorna** per aggiornare l’elenco con le modifiche più recenti.
+   Se alcuni frammenti sono stati modificati o aggiunti durante la modifica del contenuto, fai clic sull&#39;icona **Aggiorna** per aggiornare l&#39;elenco con le modifiche più recenti.
 
 1. Trascina un frammento dall’elenco nell’area in cui desideri inserirlo. Come qualsiasi altro componente, puoi spostare il frammento all’interno del contenuto.
 
@@ -50,17 +50,17 @@ Per inserire un frammento in un contenuto e-mail, effettua le seguenti operazion
 
    ![](assets/fragment-right-pane.png)
 
-   Dalla sezione **[!UICONTROL Impostazioni]** , è possibile:
+   Dalla scheda **[!UICONTROL Impostazioni]** puoi effettuare le seguenti operazioni:
 
    * Scegli i dispositivi su cui vuoi visualizzare il frammento.
-   * Fai clic su **Modifica contenuto** per aprire il contenuto di questo frammento. [Ulteriori informazioni](../email/fragments.md#edit-fragments)
+   * Fai clic sul pulsante **Modifica contenuto** per aprire il contenuto di questo frammento. [Ulteriori informazioni](../email/fragments.md#edit-fragments)
 
-     Puoi personalizzare ulteriormente il frammento utilizzando **[!UICONTROL Stili]** scheda.
+     Puoi personalizzare ulteriormente il frammento utilizzando la scheda **[!UICONTROL Stili]**.
 
 1. Se necessario, puoi interrompere l’ereditarietà con il frammento originale. [Ulteriori informazioni](#break-inheritance)
 Puoi anche eliminare il frammento dal contenuto o duplicarlo. Queste azioni possono essere eseguite direttamente dal menu contestuale visualizzato sopra il frammento.
 
-1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le tue modifiche.
+1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le modifiche.
 
 ## Interrompi ereditarietà {#break-inheritance}
 

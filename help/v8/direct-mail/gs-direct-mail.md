@@ -18,9 +18,9 @@ Durante la creazione di una consegna direct mailing, Adobe Campaign genera autom
 
 Per creare consegne di direct mailing, hai tre opzioni:
 
-* **Flussi di lavoro**: dopo aver aggiunto al flusso di lavoro un’attività del canale direct mailing e aver configurato le impostazioni di base, puoi quindi creare il contenuto delle consegne di direct mailing dal menu del riquadro a destra. Per istruzioni dettagliate su come configurare il flusso di lavoro, consulta [questa pagina](../workflows/gs-workflow-creation.md).
+* **Flussi di lavoro**: dopo aver aggiunto al flusso di lavoro un&#39;attività del canale direct mailing e aver configurato le impostazioni di base, puoi quindi creare il contenuto delle consegne di direct mailing dal menu del riquadro a destra. Per istruzioni dettagliate su come configurare il flusso di lavoro, consulta [questa pagina](../workflows/gs-workflow-creation.md).
 * **Campagne**: dopo aver creato una campagna, puoi creare una consegna direct mailing. Per ulteriori informazioni sulla configurazione della campagna, consulta [questa pagina](../campaigns/gs-campaigns.md).
-* **Consegne autonome**: coinvolgi i clienti direttamente e istantaneamente con la consegna di direct mailing individuale, senza la necessità di flussi di lavoro o campagne. [Scopri come creare una consegna](../msg/gs-deliveries.md)
+* **Consegne autonome**: coinvolgi i clienti direttamente e immediatamente con la consegna di direct mailing individuale, senza la necessità di flussi di lavoro o campagne. [Scopri come creare una consegna](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

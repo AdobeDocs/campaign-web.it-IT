@@ -5,8 +5,8 @@ description: Ulteriori informazioni sui rapporti globali per il canale di direct
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 51%
+source-wordcount: '620'
+ht-degree: 50%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 51%
 
 I report globali Direct mail forniscono agli utenti una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale.
 
-Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generazione rapporti]** sezione. Puoi filtrare i dati in base alla data del rapporto, alla cartella o alle regole. [Ulteriori informazioni](global-reports.md)
+Passa al menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Reporting]**. Puoi filtrare i dati in base alla data del rapporto, alla cartella o alle regole. [Ulteriori informazioni](global-reports.md)
 
 ## Riepilogo della consegna {#delivery-summary-direct}
 
@@ -27,7 +27,7 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 
 La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI) che offrono informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct maili. Le metriche sono descritte di seguito.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -37,7 +37,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 * **[!UICONTROL Errori]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Annulla iscrizione]**: numero di destinatari che hanno fatto clic sull’opzione per annullare l’abbonamento.
+* **[!UICONTROL Annullamenti abbonamenti]**: numero di destinatari che hanno fatto clic sull&#39;annullamento degli abbonamenti.
 +++
 
 ### Pubblico target {#delivery-summary-direct-initial-target}
@@ -52,17 +52,17 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 >title="Pubblico target"
 >abstract="La tabella **Pubblico target** fornisce una suddivisione dettagliata dei destinatari e dei messaggi corrispondenti, in base ai risultati del processo di preparazione della consegna."
 
-Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
+La tabella e il grafico per **[!UICONTROL Pubblico di destinazione]** mostrano i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
-* **[!UICONTROL Pubblico di destinazione]**: numero totale di destinatari target.
+* **[!UICONTROL Pubblico di destinazione]**: numero totale di destinatari di destinazione.
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Esclusione]**: numero totale di indirizzi ignorati durante l’analisi durante l’applicazione delle regole: indirizzo mancante, messo in quarantena, in fase di inserisce nell&#39;elenco Bloccati del, ecc.
+* inserire nell&#39;elenco Bloccati **[!UICONTROL Esclusione]**: numero totale di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione delle regole: indirizzo mancante, messo in quarantena, al momento dell&#39;, ecc.
 
 +++
 
@@ -78,7 +78,7 @@ Tabella e grafico per **[!UICONTROL Pubblico di destinazione]** mostra i dati re
 >title="Statistiche consegna"
 >abstract="La tabella **Statistiche di consegna** descrive il successo della consegna direct mail e gli errori che si sono verificati."
 
-Il **[!UICONTROL Statistiche consegna]** grafico e tabella forniscono una suddivisione del successo di ogni consegna di direct mailing, con metriche dettagliate descritte di seguito.
+Il grafico e la tabella **[!UICONTROL Statistiche di consegna]** forniscono una suddivisione del successo di ogni consegna di direct mailing, con le metriche dettagliate descritte di seguito.
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -86,7 +86,7 @@ Il **[!UICONTROL Statistiche consegna]** grafico e tabella forniscono una suddiv
 
 * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Errori/mancati recapiti]**: numero totale di errori accumulati durante le consegne ed elaborazione automatica del rimbalzo in relazione al numero di messaggi da consegnare.
+* **[!UICONTROL Errori / mancati recapiti]**: numero totale di errori cumulati durante le consegne ed elaborazione automatica dei rimbalzi in relazione al numero di messaggi da recapitare.
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
 
@@ -104,24 +104,24 @@ Il **[!UICONTROL Statistiche consegna]** grafico e tabella forniscono una suddiv
 >title="Cause di esclusione"
 >abstract="Il grafico **Cause di esclusione** illustra la distribuzione dei messaggi rifiutati durante la preparazione per la consegna, suddivisi per regola."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 Il grafico e la tabella Esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
 +++Ulteriori informazioni sulle metriche Cause di esclusione.
 
-* **[!UICONTROL Indirizzo in quarantena]**: tipo di errore generato quando l’indirizzo viene messo in quarantena.
+* **[!UICONTROL Indirizzo in quarantena]**: tipo di errore generato quando l&#39;indirizzo viene messo in quarantena.
 
-* **[!UICONTROL Indirizzo non specificato]**: tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste.
+* **[!UICONTROL Indirizzo non specificato]**: tipo di errore generato durante l&#39;invio di una consegna per indicare che l&#39;indirizzo non esiste.
 
-* **[!UICONTROL Indirizzo di qualità non valida]**: tipo di errore generato quando la valutazione della qualità dell’indirizzo postale è troppo bassa.
+* **[!UICONTROL Indirizzo di qualità non valido]**: tipo di errore generato quando la valutazione della qualità dell&#39;indirizzo postale è troppo bassa.
 
-* **[!UICONTROL Inserire nell&#39;elenco Bloccati Indirizzo]**: tipo di errore generato quando il destinatario è stato inserito nell&#39;elenco Bloccati al momento dell’esecuzione della consegna.
+* inserire nell&#39;elenco Bloccati inserire nell&#39;elenco Bloccati **[!UICONTROL Indirizzo]**: tipo di errore generato quando il destinatario è stato al momento dell&#39;esecuzione della consegna.
 
-* **[!UICONTROL Doppio]**: tipo di errore generato quando il destinatario è stato escluso perché i suoi valori delle chiavi non erano univoci.
+* **[!UICONTROL Doppio]**: tipo di errore generato quando il destinatario è stato escluso perché i valori delle chiavi non sono univoci.
 
-* **[!UICONTROL Gruppo di controllo]**: l’indirizzo del destinatario fa parte del gruppo di controllo.
+* **[!UICONTROL Gruppo di controllo]**: l&#39;indirizzo del destinatario fa parte del gruppo di controllo.
 
-* **[!UICONTROL Target di dimensioni limitate]**: è stata raggiunta la dimensione massima di consegna per il destinatario.
+* **[!UICONTROL Destinazione con dimensione limitata]**: è stata raggiunta la dimensione massima di consegna per il destinatario.
 
 +++

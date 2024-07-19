@@ -5,7 +5,7 @@ description: Scopri come impostare un gruppo di controllo per i messaggi nell’
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '791'
 ht-degree: 91%
 
 ---
@@ -68,7 +68,7 @@ Ad esempio, per creare un gruppo di controllo con i 100 nuovi profili più giova
 1. Aggiungi il campo **Data di creazione**. Seleziona l’opzione di ordinamento **Decrescente**.
 1. Definisci 100 come soglia nella sezione **Dimensione limite**.
 
-   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
+   ![](assets/control-group2.png){zoomable="yes"}
 
 Questi 100 nuovi profili più giovani sono quindi esclusi dal target principale.
 
@@ -76,17 +76,17 @@ Questi 100 nuovi profili più giovani sono quindi esclusi dal target principale.
 
 Puoi visualizzare i registri per controllare e identificare i profili esclusi. Prendiamo l’esempio di un’esclusione casuale su cinque profili.
 
-![](assets/control-group4.png){zoomable=&quot;yes&quot;}
+![](assets/control-group4.png){zoomable="yes"}
 
 Dopo la preparazione della consegna, puoi rivedere come sono state applicate le esclusioni:
 
 * Nella dashboard della consegna, prima dell’invio, controlla il KPI **Da escludere**.
 
-  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group5.png){zoomable="yes"}
 
 * Nei registri di consegna, la scheda Registri mostra il passaggio di esclusione.
 
-  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group-sample-logs.png){zoomable="yes"}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -96,7 +96,7 @@ Dopo la preparazione della consegna, puoi rivedere come sono state applicate le 
 
 * La scheda **Cause di esclusione** mostrano il numero di profili esclusi per ogni regola di tipologia.
 
-  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group7.png){zoomable="yes"}
 
 Per ulteriori informazioni sui registri di consegna, consulta questa [sezione](../monitor/delivery-logs.md).
 
@@ -111,11 +111,11 @@ Un altro modo per definire un gruppo di controllo consiste nel selezionare una p
 
 Nella sezione **Popolazione aggiuntiva** della schermata di definizione del **Gruppo di controllo**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
-![](assets/control-group3.png){zoomable=&quot;yes&quot;}
+![](assets/control-group3.png){zoomable="yes"}
 
 * Per utilizzare un pubblico esistente, fai clic su **Seleziona pubblico**. Per ulteriori informazioni, consulta [questa sezione](add-audience.md).
 
-* Per definire una nuova query, seleziona **Crea il tuo** e definiscono i criteri di esclusione utilizzando Query Modeler. Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
+* Per definire una nuova query, seleziona **Crea la tua** e definisci i criteri di esclusione utilizzando il modellatore di query. Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
 
 I profili inclusi nel pubblico o che corrispondono al risultato della query sono **esclusi** dal target della consegna e non ricevono alcun messaggio.
 

@@ -5,7 +5,7 @@ description: Comprendere i rapporti sulla campagna per il canale push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 
 Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna delle notifiche push. Le metriche sono descritte di seguito.
 
-![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
@@ -48,7 +48,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
@@ -70,7 +70,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 
@@ -95,7 +95,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne push.
 

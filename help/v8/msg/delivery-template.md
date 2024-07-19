@@ -8,7 +8,7 @@ level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1085'
 ht-degree: 93%
 
 ---
@@ -35,7 +35,7 @@ Un modello può includere:
 
 >[!NOTE]
 >
->I modelli di consegna sono diversi da [modelli di contenuto](../email/create-email-templates.md), che ti consente di riutilizzare solo il contenuto delle e-mail e di iniziare a creare contenuti con uno dei modelli e-mail di esempio forniti come predefiniti.
+>I modelli di consegna sono diversi dai [modelli di contenuto](../email/create-email-templates.md), che consentono di riutilizzare solo il contenuto delle e-mail e di iniziare a creare contenuti con uno dei modelli di e-mail di esempio forniti come predefiniti.
 
 
 ## Accedere ai modelli di consegna e gestirli {#access-manage-templates}
@@ -48,24 +48,24 @@ Un modello può includere:
 
 Per accedere all’elenco dei modelli di contenuto, dal menu a sinistra seleziona **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]** e passa alla scheda **Modelli**.
 
-![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
+![](assets/templates-tab.png){zoomable="yes"}
 
 Vengono visualizzati tutti i modelli che sono stati [creati](#create-a-delivery-template) nell’ambiente corrente.
 
 È possibile filtrare i modelli di contenuto per canali e cartelle. È inoltre possibile impostare filtri avanzati creando una regola con attributi di consegna. [Ulteriori informazioni su Query Modeler](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
+![](assets/templates-filters.png){zoomable="yes"}
 
 Per modificare un modello, fai clic sull’elemento desiderato nell’elenco. Quindi puoi eseguire le seguenti operazioni:
 
 * Puoi modificarne il contenuto, le proprietà, il pubblico ed eventuali offerte associate.
 * Puoi anche testare il modello. [Ulteriori informazioni](#test-template)
 
-![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
+![](assets/templates-edition.png){zoomable="yes"}
 
 Per eliminare o [duplicare](#copy-an-existing-template) un modello, seleziona l’azione corrispondente dal menu **[!UICONTROL Altre azioni]**, nell’elenco **[!UICONTROL Modelli]** o in una schermata per la modifica dei modelli.
 
-![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
+![](assets/templates-more-actions.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -96,15 +96,15 @@ Per duplicare un modello di consegna, segui questi passaggi:
 
 1. Conferma la duplicazione.
 
-   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
 
 1. La nuova dashboard del modello si apre nella schermata centrale. Modifica le impostazioni del modello in base alle esigenze.
 
-   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicated-item.png){zoomable="yes"}
 
 1. Fai clic sul pulsante **[!UICONTROL Rivedi]** per salvare e rivedere il modello. Potrai sempre modificarne le impostazioni, eliminarlo e duplicarlo.
 
-   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-review-screen.png){zoomable="yes"}
 
 1. Se necessario, puoi testare come viene riprodotto il modello. [Ulteriori informazioni](#test-template)
 
@@ -119,7 +119,7 @@ Per salvare una consegna come modello, segui i passaggi seguenti:
 1. Sfoglia nel menu **[!UICONTROL Gestione delle campagne]** > **[!UICONTROL Consegne]**.
 1. Nella scheda **[!UICONTROL Sfoglia]**, fai clic sul pulsante **[!UICONTROL Altre azioni]** a destra del nome della consegna desiderata e seleziona **[!UICONTROL Copia come modello]**.
 
-   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-convert-delivery.png){zoomable="yes"}
 
    Puoi anche selezionare un modello dall’elenco e selezionare questa opzione dalla schermata per la modifica del modello.
 
@@ -144,12 +144,12 @@ Per configurare un modello di consegna da zero, segui la procedura seguente:
 1. Passa alla scheda **Modelli**, dal menu a sinistra delle **Consegne**. [Ulteriori informazioni](#access-manage-templates)
 1. Fai clic sul pulsante **[!UICONTROL Crea modello]**.
 
-   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-create-button.png){zoomable="yes"}
 
 1. Seleziona il canale da utilizzare per il modello.
 1. Per impostazione predefinita, viene utilizzato il modello di consegna integrato per tale canale per facilitare la creazione di un modello personalizzato. Se necessario, utilizza il pulsante dedicato a destra del canale selezionato per selezionare un altro modello.
 
-   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-channel-browse.png){zoomable="yes"}
 
 1. Fai di nuovo clic sul pulsante **[!UICONTROL Crea modello]**.
 
@@ -179,7 +179,7 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** in alto a destra.
 
-   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-simulate-button.png){zoomable="yes"}
 
 1. Seleziona uno o più profili di test per controllare come vengono riprodotte le e-mail. Puoi anche selezionare profili reali dal database. [Ulteriori informazioni sui profili di test](../audience/test-profiles.md)
 
@@ -187,7 +187,7 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 [Ulteriori informazioni sull’anteprima dei contenuti](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-stimulate.png){zoomable="yes"}
 
 1. Chiudi la finestra per tornare alla schermata della modifica del modello.
 

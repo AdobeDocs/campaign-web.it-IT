@@ -29,23 +29,23 @@ ht-degree: 9%
 >title="Trigger di fine"
 >abstract="Trigger di fine"
 
-Il **Segnale esterno** l&#39;attività è un **Controllo del flusso** attività. Consente di attivare l’esecuzione di un flusso di lavoro da un altro flusso di lavoro o da una chiamata API.
+L&#39;attività **External signal** è un&#39;attività **Flow control**. Consente di attivare l’esecuzione di un flusso di lavoro da un altro flusso di lavoro o da una chiamata API.
 
 >[!NOTE]
 >
->Questa pagina illustra i passaggi principali per configurare una **[!UICONTROL Segnale esterno]** nell’interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro e le relative best practice, e come lavorare con le API di Campaign sono disponibili nella sezione [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>In questa pagina sono descritti i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro e le relative best practice e come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
 
-Per configurare il **Segnale esterno** attività e attivarne l’esecuzione:
+Segui questi passaggi per configurare l&#39;attività **External signal** e attivarne l&#39;esecuzione:
 
-1. Aggiungi un **Segnale esterno** attività nel flusso di lavoro.
+1. Aggiungi un&#39;attività **External signal** al flusso di lavoro.
 
-1. Completa la configurazione del flusso di lavoro e avviane l’esecuzione. Il **[!UICONTROL Segnale esterno]** L’attività viene visualizzata come &quot;In sospeso&quot;, in attesa di essere attivata.
+1. Completa la configurazione del flusso di lavoro e avviane l’esecuzione. L&#39;attività **[!UICONTROL External Signal]** viene visualizzata come &quot;In sospeso&quot; in attesa di essere attivata.
 
    ![](../assets/external-signal-pending.png)
 
 1. Recupera le informazioni seguenti:
 
-   * Il **nome interno del workflow**, che viene visualizzato accanto alla relativa etichetta.
+   * Il nome interno del flusso di lavoro ****, visualizzato accanto alla relativa etichetta.
 
      +++Esempio di visualizzazione
 
@@ -53,7 +53,7 @@ Per configurare il **Segnale esterno** attività e attivarne l’esecuzione:
 
 +++
 
-   * Il **Nome dell’attività del segnale esterno**, visualizzato nel file del flusso di lavoro di **[!UICONTROL Opzioni di esecuzione]**.
+   * Il nome dell&#39;attività **External signal**, visualizzato nelle **[!UICONTROL opzioni di esecuzione]** del flusso di lavoro.
 
      +++Esempio di visualizzazione
 
@@ -61,11 +61,11 @@ Per configurare il **Segnale esterno** attività e attivarne l’esecuzione:
 
 +++
 
-1. Per attivare il flusso di lavoro, è necessario eseguire `PostEvent` Funzione JavaScript. Questa funzione ti consente di trasmettere le variabili con i valori selezionati e di sfruttarle nel flusso di lavoro attivato.
+1. Per attivare il flusso di lavoro, è necessario eseguire la funzione JavaScript `PostEvent`. Questa funzione ti consente di trasmettere le variabili con i valori selezionati e di sfruttarle nel flusso di lavoro attivato.
 
-   Il `PostEvent` La funzione può essere eseguita da un altro flusso di lavoro o da una chiamata API.
+   La funzione `PostEvent` può essere eseguita da un altro flusso di lavoro o da una chiamata API.
 
-   * Per attivare un **[!UICONTROL Segnale esterno]** da un flusso di lavoro, eseguire la funzione PostEvent dalla **[!UICONTROL Script di inizializzazione]** , accessibile dal riquadro dell&#39;attività **[!UICONTROL Opzioni di esecuzione]**. Per **[!UICONTROL Codice JavaScript]** esegua la funzione dallo script dell’attività.
+   * Per attivare un&#39;attività **[!UICONTROL External signal]** da un flusso di lavoro, eseguire la funzione PostEvent dal riquadro **[!UICONTROL Script di inizializzazione]**, accessibile dalle **[!UICONTROL opzioni di esecuzione]** dell&#39;attività. Per l&#39;attività **[!UICONTROL Codice JavaScript]**, eseguire la funzione dallo script dell&#39;attività.
 
      La sintassi è la seguente:
 
@@ -81,4 +81,4 @@ Per configurare il **Segnale esterno** attività e attivarne l’esecuzione:
 
 +++
 
-   * Per attivare un **[!UICONTROL Segnale esterno]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il `PostEvent` metodo](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)

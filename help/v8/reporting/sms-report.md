@@ -5,7 +5,7 @@ description: Scopri come accedere ai rapporti sulle consegne sms e come utilizza
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ La **panoramica della consegna SMS** offre una panoramica completa della consegn
 
 Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sulle percentuali di successi ed errori e sul modo in cui i visitatori interagiscono con i messaggi SMS.
 
-![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
@@ -53,7 +53,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico. Le metriche sono descritte di seguito.
 
-![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
@@ -72,7 +72,7 @@ Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubbl
 
 Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati. Le metriche sono descritte di seguito.
 
-![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
@@ -92,7 +92,7 @@ Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati
 
 Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Velocità di consegna {#delivery-throughput}
 
@@ -103,4 +103,4 @@ Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno 
 
 Questo rapporto presenta informazioni dettagliate sulla velocità di consegna in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
-![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_2.png){zoomable="yes"}

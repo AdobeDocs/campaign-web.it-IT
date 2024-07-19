@@ -17,7 +17,7 @@ ht-degree: 61%
 >title="Pianificazione della campagna"
 >abstract="Impostare o modificare la pianificazione della campagna."
 
-Per accedere e gestire le campagne, fai clic su **[!UICONTROL Campagne]** nel menu di navigazione a sinistra.
+Per accedere alle campagne e gestirle, fai clic sul menu **[!UICONTROL Campagne]** nell&#39;area di navigazione a sinistra.
 
 ## Elenco delle campagne {#access-campaigns}
 
@@ -51,19 +51,19 @@ Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pa
 >title="Elenco dei flussi di lavoro in una campagna"
 >abstract="Nella scheda **Flusso di lavoro** sono elencati tutti i flussi di lavoro collegati alla campagna corrente."
 
-In **Sfoglia** nell’elenco delle campagne, fai clic sul nome di una campagna per visualizzarne i dettagli.
+Nella scheda **Sfoglia** dell&#39;elenco delle campagne, fai clic sul nome di una campagna per visualizzarne i dettagli.
 
 ![Dashboard delle campagne](assets/campaign-dashboard.png)
 
-Lo stato e la pianificazione della campagna sono visualizzati nella parte superiore della schermata. È possibile utilizzare **Impostazioni** per aggiornare le proprietà della campagna, ad esempio l’etichetta, la cartella e la descrizione. Puoi anche modificare la pianificazione della campagna dalla schermata delle impostazioni. Ulteriori informazioni sulla pianificazione delle campagne in [questa sezione](create-campaigns.md#campaign-schedule).
+Lo stato e la pianificazione della campagna sono visualizzati nella parte superiore della schermata. Puoi utilizzare il pulsante **Impostazioni** per aggiornare le proprietà della campagna, ad esempio l&#39;etichetta, la cartella e la descrizione. Puoi anche modificare la pianificazione della campagna dalla schermata delle impostazioni. Ulteriori informazioni sulla pianificazione delle campagne in [questa sezione](create-campaigns.md#campaign-schedule).
 
-Dal dashboard della campagna, utilizza **Registri** e **Rapporti** per monitorare la campagna. Ulteriori informazioni [sezione](create-campaigns.md#create-campaigns)
+Dal dashboard della campagna, utilizza i pulsanti **Registri** e **Rapporti** per monitorare la campagna. Ulteriori informazioni in questa [sezione](create-campaigns.md#create-campaigns)
 
 Per ogni campagna, il dashboard mostra due schede principali: Flussi di lavoro e Consegne.
 
-* Il **Flussi di lavoro** Questa scheda elenca tutti i flussi di lavoro associati alla campagna. Questa scheda consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
+* Nella scheda **Flussi di lavoro** sono elencati tutti i flussi di lavoro associati alla campagna. Questa scheda consente anche di creare un nuovo flusso di lavoro all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
-* Il **Consegne** Questa scheda elenca tutte le consegne create nella campagna corrente. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
+* Nella scheda **Consegne** sono elencate tutte le consegne create nella campagna corrente. Puoi anche creare una nuova consegna all’interno della campagna. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
@@ -74,11 +74,11 @@ Per ogni campagna, il dashboard mostra due schede principali: Flussi di lavoro e
 
 Sono disponibili due modi per eliminare una campagna:
 
-* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Elimina**
+* dall&#39;elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Elimina**
 
-  ![Eliminare una campagna dall’elenco delle campagne](assets/delete-a-campaign-from-list.png)
+  ![Eliminare una campagna dall&#39;elenco delle campagne](assets/delete-a-campaign-from-list.png)
 
-* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Elimina**
+* dalla campagna stessa, fai clic sul pulsante **Altro**, quindi seleziona **Elimina**
 
   ![Eliminare una campagna dal dashboard della campagna](assets/delete-a-campaign-from-dashboard.png)
 
@@ -87,9 +87,9 @@ Sono disponibili due modi per eliminare una campagna:
 
 Sono disponibili due modi per duplicare una campagna:
 
-* dall’elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica**
+* dall&#39;elenco delle campagne, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica**
 
-* dalla campagna stessa, fai clic su **Altro** quindi selezionare **Duplica**
+* dalla campagna stessa, fai clic sul pulsante **Altro**, quindi seleziona **Duplica**
 
 In entrambi i casi, conferma la duplicazione per creare la nuova campagna. Etichetta della campagna **Copia di`<label of the initial campaign`**. Passa alle impostazioni della campagna per aggiornare questa etichetta.
 
@@ -101,7 +101,7 @@ I modelli per campagne contengono impostazioni preconfigurate che possono essere
 In un modello per campagne è possibile memorizzare le seguenti informazioni:
 
 * la campagna **Impostazioni**
-* la campagna  **Pianificazione**
+* la campagna **Pianificazione**
 * Modelli di flusso di lavoro
 * Modelli di consegna
 

@@ -5,7 +5,7 @@ description: Scopri come progettare la consegna SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 95%
 
 ---
@@ -30,15 +30,15 @@ Per progettare il contenuto di una consegna SMS, segui questi passaggi:
 
    Inoltre, facendo clic su **[!UICONTROL Apri finestra di dialogo di personalizzazione]**, puoi includere nel messaggio campi di personalizzazione, blocchi di contenuto e contenuto dinamico.
 
-   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_1.png){zoomable="yes"}
 
 1. Digita il messaggio di testo nel campo **[!UICONTROL Messaggio]** o fai clic sul pulsante **[!UICONTROL Apri finestra di dialogo di personalizzazione]** per definire il contenuto e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. Per impostazione predefinita, il tracciamento è abilitato per le consegne. Puoi disattivare questa opzione dalla **[!UICONTROL sezione Funzioni facoltative]**.
 
-1. Clic **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+1. Fai clic su **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
 1. Per visualizzare in anteprima i contenuti personalizzati, accedi al menu **[!UICONTROL Simula contenuto]**. [Ulteriori informazioni](send-sms.md#preview-sms)
 

@@ -5,8 +5,8 @@ description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 74%
+source-wordcount: '262'
+ht-degree: 73%
 
 ---
 
@@ -36,24 +36,24 @@ Per visualizzare e gestire i rapporti, effettua le seguenti operazioni:
 
 1. Dalla dashboard **[!UICONTROL Consegna]**, fai clic su **[!UICONTROL Rapporti]**.
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   In alternativa, è possibile utilizzare i tre punti **Altre azioni** accanto al nome della consegna nell’elenco consegne e seleziona **[!UICONTROL Visualizza rapporto]**.
+   In alternativa, puoi utilizzare il pulsante tre punti **Altre azioni** accanto al nome della consegna nell&#39;elenco delle consegne e selezionare **[!UICONTROL Visualizza rapporto]**.
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. Dal menu a sinistra, seleziona un rapporto dall’elenco.
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
 1. Se la consegna è ricorrente, puoi selezionare una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
 
    Puoi anche applicare un periodo di tempo al rapporto selezionando la **[!UICONTROL Data di contatto]**.
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
-1. Dalla sezione **[!UICONTROL URL e flussi di clic]**, è inoltre possibile scegliere **[!UICONTROL Collegamenti più visitati]** o **[!UICONTROL Periodo temporale]**.
+1. Dai **[!UICONTROL URL e flussi di clic]**, puoi anche scegliere i **[!UICONTROL Collegamenti più visitati]** o il **[!UICONTROL periodo di tempo]**.
 
-   Il **[!UICONTROL Visualizza per]** Le opzioni consentono di filtrare in base a URL, etichette o categorie.
+   Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare in base a URL, etichette o categorie.
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

@@ -14,9 +14,9 @@ ht-degree: 28%
 
 Per definire i destinatari di una consegna, puoi:
 
-* [Seleziona un pubblico esistente](add-audience.md) create nella console del client Adobe Campaign o nell’interfaccia utente web, o provenienti da Adobe Experience Platform,
-* [Creare un pubblico una tantum](one-time-audience.md) da utilizzare una volta per questa consegna specifica. A tal fine, definisci e combina i criteri di filtro nel modellatore di query.
-* [Caricare un pubblico da un file esterno](file-audience.md). Questa opzione è disponibile solo per le consegne di e-mail autonome.
+* [Seleziona un pubblico esistente](add-audience.md) creato nella console client di Adobe Campaign o nell&#39;interfaccia utente Web o proveniente da Adobe Experience Platform,
+* [Crea un pubblico una tantum](one-time-audience.md) da utilizzare una volta per questa consegna specifica. A tal fine, definisci e combina i criteri di filtro nel modellatore di query.
+* [Carica un pubblico da un file esterno](file-audience.md). Questa opzione è disponibile solo per le consegne di e-mail autonome.
 
 Nel targeting di un pubblico, puoi definire dei **gruppi di controllo** per evitare di inviare messaggi a una parte del pubblico, in modo da misurare l’impatto delle campagne. [Scopri come impostare un gruppo di controllo](control-group.md)
 

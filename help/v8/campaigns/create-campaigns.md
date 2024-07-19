@@ -38,11 +38,11 @@ Per creare una nuova campagna, segui questi passaggi:
 1. Definisci la **Pianificazione** della campagna. Scopri come impostare la pianificazione della campagna in [questa sezione](#campaign-schedule)
 1. Fai clic su **Crea**.
 
-   ![Creare le proprietà della campagna](assets/create-a-campaign-properties.png)
+   ![Crea proprietà campagna](assets/create-a-campaign-properties.png)
 
 1. Aggiungi flussi di lavoro e consegne alla campagna:
 
-   * Dalla scheda **Flussi di lavoro**, fai clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Scopri come [creare un flusso di lavoro](../workflows/create-workflow.md).
+   * Dalla scheda **Flussi di lavoro**, fai clic su **Crea flusso di lavoro**. Quando crei la campagna, viene aggiunto automaticamente un flusso di lavoro predefinito. Ulteriori informazioni su come [creare un flusso di lavoro](../workflows/create-workflow.md).
 
    * Dalla scheda **Consegne**, fai clic su **Crea consegna**. [Ulteriori informazioni](../msg/gs-messages.md)
 

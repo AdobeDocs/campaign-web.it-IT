@@ -28,7 +28,7 @@ Ad esempio, puoi cambiare la dimensione di targeting di un flusso di lavoro da �
 
 >[!IMPORTANT]
 >
->Tieni presente che **[!UICONTROL Cambia dimensione]** e **[!UICONTROL Cambia origine dati]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROL Arricchimento]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 ## Configurare l’attività Cambia dimensione {#configure}
 

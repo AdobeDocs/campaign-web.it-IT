@@ -5,7 +5,7 @@ description: Ulteriori informazioni sui rapporti sulle campagne per il canale SM
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 
 Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna SMS. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -49,7 +49,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
 
-![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -74,7 +74,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
 
-![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -100,7 +100,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 

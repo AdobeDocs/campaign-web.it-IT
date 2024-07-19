@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Progettare una consegna di notifiche push potenziata
-description: Scopri come progettare una consegna di notifiche push potenziata per Android con Adobe Campaign Web
+description: Scopri come progettare una consegna di notifiche push potenziata da Android con Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
@@ -20,7 +20,7 @@ ht-degree: 34%
 
 >[!AVAILABILITY]
 >
->Questa funzione è in **Disponibilità limitata** (LA).
+>Questa funzionalità si trova in **Disponibilità limitata** (LA).
 
 Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
@@ -34,11 +34,11 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
 Una volta creata la consegna push, puoi definirne il contenuto. Sono disponibili tre modelli:
 
-* **Modello predefinito** consente di inviare notifiche con una semplice icona e un’immagine associata.
+* **Modello predefinito** ti consente di inviare notifiche con una semplice icona e un&#39;immagine associata.
 
-* **Modello di base** può includere testo, immagini e pulsanti nelle notifiche.
+* **Modello base** può includere testo, immagini e pulsanti nelle notifiche.
 
-* **Modello carosello** consente di inviare notifiche con testo e più immagini scorrevoli dagli utenti.
+* **Modello carosello** consente di inviare notifiche con testo e più immagini scorrevoli.
 
 Per ulteriori informazioni su come personalizzare questi modelli, accedi alle schede seguenti.
 
@@ -46,114 +46,114 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 >[!TAB Modello predefinito]
 
-1. Dalla sezione **[!UICONTROL Modello]** a discesa, seleziona **[!UICONTROL Predefinito]**.
+1. Dal menu a discesa **[!UICONTROL Modello]**, seleziona **[!UICONTROL Predefinito]**.
 
    ![](assets/rich_push_default.png)
 
-1. Per comporre il messaggio, immetti il testo nella **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]** campi.
+1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**.
 
    ![](assets/rich_push_default_2.png)
 
 1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Definisci il **[!UICONTROL Azione clic]** associato a un utente, fai clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Definisci l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere un **[!UICONTROL Immagine]** URL da aggiungere alla notifica push e al **[!UICONTROL Icona]** da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente la notifica push, puoi scegliere un URL **[!UICONTROL Immagine]** da aggiungere alla notifica push e l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
 
    ![](assets/rich_push_default_3.png)
 
-1. Configurare **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
->[!TAB Modello di base]
+>[!TAB Modello base]
 
-1. Dalla sezione **[!UICONTROL Modello]** a discesa, seleziona **[!UICONTROL Base]**.
+1. Dal menu a discesa **[!UICONTROL Modello]**, selezionare **[!UICONTROL Base]**.
 
    ![](assets/rich_push_basic.png)
 
-1. Per comporre il messaggio, immetti il testo nella **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]** campi.
+1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]**.
 
-   Il **[!UICONTROL Messaggio]** il testo viene visualizzato nella vista compressa mentre **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
+   Il testo del **[!UICONTROL Messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
 
    ![](assets/rich_push_basic_2.png)
 
 1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi l’URL che definisce **[!UICONTROL Azione clic]** associato a un utente, fai clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Seleziona la **[!UICONTROL Tipo di collegamento]** dell’URL aggiunto al **[!UICONTROL Azione clic]** campo:
+1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
 
-   * **[!UICONTROL URL web]**: gli URL web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
+   * **[!UICONTROL URL Web]**: gli URL Web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
 
-   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all’interno di un’app, anche se l’app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
+   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
 
-   * **[!UICONTROL Apri app]**: gli URL aperti dell’app ti consentono di connettersi direttamente al contenuto all’interno di un’applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
+   * **[!UICONTROL Apri app]**: gli URL aperti dell&#39;app consentono di connettersi direttamente al contenuto di un&#39;applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
 
-   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta [Documentazione per sviluppatori Android](https://developer.android.com/training/app-links).
+   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_basic_3.png)
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere un **[!UICONTROL Immagine]** URL da aggiungere alla notifica push e al **[!UICONTROL Icona]** da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente la notifica push, puoi scegliere un URL **[!UICONTROL Immagine]** da aggiungere alla notifica push e l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
 
-1. Clic **[!UICONTROL Pulsante Aggiungi]** e compilare i campi seguenti:
+1. Fai clic su **[!UICONTROL Aggiungi pulsante]** e compila i campi seguenti:
 
    * **[!UICONTROL Etichetta]**: testo visualizzato sul pulsante.
-   * **[!UICONTROL URI collegamento]**: specifica l’URI da eseguire facendo clic sul pulsante.
-   * **[!UICONTROL Tipo di collegamento]**: tipo di collegamento **[!UICONTROL URL web]**, **[!UICONTROL Deeplink]**, o **[!UICONTROL Apri app]**.
+   * **[!UICONTROL URI collegamento]**: specificare l&#39;URI da eseguire facendo clic sul pulsante.
+   * **[!UICONTROL Tipo di collegamento]**: tipo di collegamento **[!UICONTROL URL Web]**, **[!UICONTROL Deeplink]** o **[!UICONTROL Apri app]**.
 
-   È possibile includere fino a tre pulsanti nella notifica push. Se scegli il **[!UICONTROL Pulsante Ricorda più tardi]**, è possibile includere solo un massimo di due pulsanti.
+   È possibile includere fino a tre pulsanti nella notifica push. Se si sceglie il pulsante **[!UICONTROL Ricordare più tardi]**, è possibile includere solo un massimo di due pulsanti.
 
    ![](assets/rich_push_basic_4.png)
 
-1. Clic **[!UICONTROL Aggiungi promemoria in un secondo momento]** per aggiungere un’opzione Ricordami più tardi alla notifica push. Immetti un **[!UICONTROL Etichetta]** e **[!UICONTROL Timestamp]**.
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi promemoria più tardi]** per aggiungere un&#39;opzione Ricordami più tardi alla notifica push. Immetti un **[!UICONTROL Etichetta]** e un **[!UICONTROL Timestamp]**.
 
    Il campo Timestamp prevede un valore che rappresenti l’epoca in secondi.
 
    ![](assets/rich_push_basic_5.png)
 
-1. Configurare **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
 >[!TAB Modello carosello]
 
-1. Dalla sezione **[!UICONTROL Modello]** a discesa, seleziona **[!UICONTROL Carosello]**.
+1. Dal menu a discesa **[!UICONTROL Modello]**, seleziona **[!UICONTROL Carosello]**.
 
    ![](assets/rich_push_carousel.png)
 
-1. Per comporre il messaggio, immetti il testo nella **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]** campi.
+1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]**.
 
-   Il **[!UICONTROL Messaggio]** il testo viene visualizzato nella vista compressa mentre **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
+   Il testo del **[!UICONTROL Messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
 
    ![](assets/rich_push_carousel_1.png)
 
 1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi l’URL che definisce **[!UICONTROL Azione clic]** associato a un utente, fai clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Seleziona la **[!UICONTROL Tipo di collegamento]** dell’URL aggiunto al **[!UICONTROL Azione clic]** campo:
+1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
 
-   * **[!UICONTROL URL web]**L: gli URL web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
+   * **[!UICONTROL URL Web]**L: gli URL Web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
 
-   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all’interno di un’app, anche se l’app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
+   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
 
-   * **[!UICONTROL Apri app]**: gli URL aperti dell’app ti consentono di connettersi direttamente al contenuto all’interno di un’applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
+   * **[!UICONTROL Apri app]**: gli URL aperti dell&#39;app consentono di connettersi direttamente al contenuto di un&#39;applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
 
-   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta [Documentazione per sviluppatori Android](https://developer.android.com/training/app-links).
+   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_carousel_2.png)
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere la **[!UICONTROL Icona]** da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente la notifica push, puoi scegliere l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
 
-1. Scegli come **[!UICONTROL carosello]** viene azionato:
+1. Scegli come funziona il **[!UICONTROL carosello]**:
 
-   * **[!UICONTROL Automatico]**: passa automaticamente da un’immagine all’altra sotto forma di diapositive, con una transizione a intervalli predefiniti.
+   * **[!UICONTROL Automatico]**: scorre automaticamente le immagini come diapositive, passando a intervalli predefiniti.
    * **[!UICONTROL Manuale]**: consente agli utenti di scorrere manualmente tra le diapositive per spostarsi tra le immagini.
 
-     Abilita **[!UICONTROL Filmstrip]** opzione per includere anteprime delle immagini precedenti e successive accanto alla diapositiva principale.
+     Abilita l&#39;opzione **[!UICONTROL Filmstrip]** per includere anteprime delle immagini precedenti e successive accanto alla diapositiva principale.
 
-1. Clic **[!UICONTROL Aggiungi immagine]** e immetti l’URL dell’immagine e il testo.
+1. Fai clic su **[!UICONTROL Aggiungi immagine]** e immetti l&#39;URL e il testo dell&#39;immagine.
 
    Assicurati di includere un minimo di tre immagini e un massimo di cinque.
 
@@ -161,7 +161,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Gestire l&#39;ordine delle immagini con le frecce Giù e Su.
 
-1. Configurare **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 

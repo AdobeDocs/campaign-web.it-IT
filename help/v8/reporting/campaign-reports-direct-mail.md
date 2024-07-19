@@ -5,7 +5,7 @@ description: Comprendere i rapporti sulle campagne per il canale Direct mail
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 76%
 
 ---
@@ -23,9 +23,9 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 >title="Panoramica della consegna"
 >abstract="La **Panoramica della consegna** presenta le metriche delle prestazioni chiave (KPI) che offrono informazioni approfondite sull’interazione dei visitatori con ogni consegna di direct maili. Le metriche sono descritte di seguito."
 
-Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics), con informazioni approfondite sull’interazione dei visitatori con ogni consegna Direct mail. Le metriche sono descritte di seguito.
+La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics) e offre informazioni approfondite sull&#39;interazione dei visitatori con ogni consegna direct mailing. Le metriche sono descritte di seguito.
 
-![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -48,7 +48,7 @@ Il **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche sul pubblico di destinazione iniziale.
 
@@ -69,7 +69,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 ![](assets/direct-mail-campaign-exec.png)
 
-Il **[!UICONTROL Statistiche di esecuzione]** La tabella fornisce una suddivisione del successo di ogni consegna di direct mailing, con le metriche dettagliate descritte di seguito.
+La tabella **[!UICONTROL Statistiche di esecuzione]** fornisce una suddivisione del successo di ogni consegna di direct mailing, con le metriche dettagliate descritte di seguito.
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -90,9 +90,9 @@ Il **[!UICONTROL Statistiche di esecuzione]** La tabella fornisce una suddivisio
 >title="Flussi di clic generati"
 >abstract="La tabella **Flussi di clic generati** mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
-Il **Flussi di clic generati** Nella tabella sono illustrati i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
+La tabella **Flussi di clic generati** illustra i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
 +++Ulteriori informazioni sulle metriche dei flussi di clic generati.
 

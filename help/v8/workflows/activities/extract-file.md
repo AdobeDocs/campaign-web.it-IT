@@ -17,9 +17,9 @@ ht-degree: 18%
 >title="Estrai file"
 >abstract="L’attività **Estrai file** ti consente di esportare dati da Adobe Campaign come file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file."
 
-Il **Extract file** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file.
+L&#39;attività **Extract file** è un&#39;attività **Data management**. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file.
 
-Per configurare **Extract file** attività, aggiungi un **Extract file** nel flusso di lavoro, quindi segui i passaggi indicati di seguito.
+Per configurare l&#39;attività **Estrai file**, aggiungi un&#39;attività **Estrai file** nel flusso di lavoro, quindi segui la procedura riportata di seguito.
 
 ## Configurare il file da estrarre {#extract-configuration}
 
@@ -28,26 +28,26 @@ Per configurare **Extract file** attività, aggiungi un **Extract file** nel flu
 >title="File da estrarre"
 >abstract="Seleziona il file da estrarre."
 
-Il **[!UICONTROL File da estrarre]** consente di configurare le proprietà del file e i dati da includere.
+La sezione **[!UICONTROL File da estrarre]** consente di configurare le proprietà del file e i dati da includere.
 
 ![](../assets/extract-file-file.png)
 
-1. In **[!UICONTROL Nome file]** , immettere il nome desiderato per il file da estrarre.
+1. Nel campo **[!UICONTROL Nome file]** immettere il nome desiderato per il file da estrarre.
 
-   Puoi personalizzare il nome del file utilizzando variabili evento, condizioni e funzioni data/ora. A questo scopo, fai clic su **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per aprire l’editor di espressioni. [Scopri come utilizzare le variabili evento e l’editor di espressioni](../event-variables.md)
+   Puoi personalizzare il nome del file utilizzando variabili evento, condizioni e funzioni data/ora. A questo scopo, fai clic sull&#39;icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per aprire l&#39;editor espressioni. [Scopri come utilizzare le variabili evento e l&#39;editor di espressioni](../event-variables.md)
 
 1. Specificare le colonne da presentare nel file estratto. Per farlo, segui questi passaggi:
 
-   1. Fai clic su **[!UICONTROL Aggiungi colonna di output]**.
+   1. Fare clic sulla **[!UICONTROL colonna di output Aggiungi]**.
    1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. Gli attributi disponibili dipendono dalla dimensione di targeting del flusso di lavoro.
-   1. Una volta aggiunta la colonna, puoi modificarne la **[!UICONTROL Etichetta]** e modificare il **[!UICONTROL Attributo]**.
+   1. Una volta aggiunta la colonna, è possibile modificarne **[!UICONTROL Label]** e modificare l&#39;**[!UICONTROL Attribute]** associato.
    1. Per applicare una trasformazione ai valori della colonna, selezionarla dall&#39;elenco a discesa. Ad esempio, è possibile convertire tutti i valori nella colonna selezionata in maiuscolo.
 
 1. Ripeti questi passaggi per aggiungere tutte le colonne necessarie nel file di estrazione. Per modificare la posizione di una colonna, utilizzare le frecce su e giù.
 
-1. Per rimuovere tutte le righe duplicate dal file estratto, attivare **[!UICONTROL Rimuovi righe duplicate(Elenco)]** opzione.
+1. Per rimuovere tutte le righe duplicate dal file estratto, attivare l&#39;opzione **[!UICONTROL Rimuovi righe duplicate(Elenco)]**.
 
-1. Per ordinare il file estratto in base a un attributo, attivare **[!UICONTROL Abilita ordinamento]** quindi scegliere l&#39;attributo in base al quale si desidera ordinare il file, insieme al metodo di ordinamento desiderato (crescente o decrescente). Puoi ordinare in base a qualsiasi attributo della dimensione di targeting corrente, indipendentemente dal fatto che sia stato aggiunto o meno alle colonne del file.
+1. Per ordinare il file estratto in base a un attributo, attivare l&#39;opzione **[!UICONTROL Abilita ordinamento]**, quindi scegliere l&#39;attributo in base al quale si desidera ordinare il file, insieme al metodo di ordinamento desiderato (crescente o decrescente). Puoi ordinare in base a qualsiasi attributo della dimensione di targeting corrente, indipendentemente dal fatto che sia stato aggiunto o meno alle colonne del file.
 
 ## Configurare il formato del file estratto {#file}
 
@@ -56,22 +56,22 @@ Il **[!UICONTROL File da estrarre]** consente di configurare le proprietà del f
 >title="Formato di destinazione"
 >abstract="Seleziona le diverse opzioni per configurare la formattazione del file estratto."
 
-Il **[!UICONTROL Destinazione]** sezione di formato consente di configurare la formattazione del file estratto.
+La sezione relativa al formato **[!UICONTROL Destinazione]** consente di configurare la formattazione del file estratto.
 
-1. Scegli la **[!UICONTROL Formato di output]** per il file estratto: **Testo**, **Testo con colonne fisse**, **CSV (Excel)** o **XML**.
+1. Scegli il **[!UICONTROL formato di output]** per il file estratto: **Testo**, **Testo con colonne fisse**, **CSV (Excel)** o **XML**.
 
-1. Fai clic su **[!UICONTROL Formato di estrazione]** per accedere alle opzioni specifiche relative al formato selezionato. Per ulteriori informazioni, espandi la sezione seguente.
+1. Fare clic sul pulsante **[!UICONTROL Formato estrazione]** per accedere alle opzioni specifiche relative al formato selezionato. Per ulteriori informazioni, espandi la sezione seguente.
 
 +++ Opzioni di formato di estrazione disponibili
 
-   * **[!UICONTROL Usa prima riga come intestazione di colonna]** (Formato Testo/CSV (Excel)): attiva questa opzione per utilizzare la prima colonna come intestazione.
-   * **[!UICONTROL Separatore colonne]** (formato testo): specifica il carattere da utilizzare come separatore di colonna nel file di output.
-   * **[!UICONTROL Delimitatore stringa]** (Formato testo): specifica come delimitare le stringhe nel file di output.
-   * **[!UICONTROL Fine riga]** (formato testo): specifica come delimitare la fine delle righe nel file di output.
-   * **[!UICONTROL Codifica]**: scegli la codifica del file di output.
-   * **[!UICONTROL Formato data e separatori]**: specifica come formattare le date nel file di output.
-   * **[!UICONTROL Formato numero]**: specifica come formattare i numeri nel file di output.
-   * **[!UICONTROL Esporta etichette anziché valori interni delle enumerazioni]**: attiva questa opzione se esporti valori di enumerazione e desideri recuperare le etichette delle colonne, che sono più facili da comprendere, anziché gli ID interni.
+   * **[!UICONTROL Utilizza la prima riga come intestazione di colonna]** (formato Testo/CSV (Excel)): attiva questa opzione per utilizzare la prima colonna come intestazione.
+   * **[!UICONTROL Separatore colonne]** (formato testo): specificare il carattere da utilizzare come separatore colonne nel file di output.
+   * **[!UICONTROL Delimitatore stringa]** (formato testo): specificare come delimitare le stringhe nel file di output.
+   * **[!UICONTROL Fine riga]** (formato testo): specificare come delimitare la fine delle righe nel file di output.
+   * **[!UICONTROL Codifica]**: scegliere la codifica del file di output.
+   * **[!UICONTROL Formato data e separatori]**: specificare la formattazione delle date nel file di output.
+   * **[!UICONTROL Formato numero]**: specificare la formattazione dei numeri nel file di output.
+   * **[!UICONTROL Esporta etichette invece dei valori interni delle enumerazioni]**: attiva questa opzione se esporti valori di enumerazione e desideri recuperare le etichette delle colonne, che sono più facili da comprendere, piuttosto che gli ID interni.
 
 +++
 
@@ -84,9 +84,9 @@ Il **[!UICONTROL Destinazione]** sezione di formato consente di configurare la f
 >title="Post-elaborazione"
 >abstract="Definisci un passaggio di post-elaborazione da applicare, ad esempio compressione o crittografia."
 
-Il **[!UICONTROL Esporta script di modifica]** consente di applicare una fase di elaborazione da eseguire durante l’estrazione dei dati, ad esempio la compressione o la crittografia. A questo scopo, fai clic su **[!UICONTROL Modifica script]** pulsante.
+Lo script di modifica **[!UICONTROL Esporta]** consente di applicare una fase di elaborazione da eseguire durante l&#39;estrazione dei dati, ad esempio la compressione o la crittografia. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica script]**.
 
-Viene aperto l’editor espressioni, che consente di immettere il comando da applicare al file. Il riquadro a sinistra fornisce sintassi predefinite che è possibile utilizzare per creare lo script. [Scopri come utilizzare le variabili evento e l’editor di espressioni](../event-variables.md)
+Viene aperto l’editor espressioni, che consente di immettere il comando da applicare al file. Il riquadro a sinistra fornisce sintassi predefinite che è possibile utilizzare per creare lo script. [Scopri come utilizzare le variabili evento e l&#39;editor di espressioni](../event-variables.md)
 
 ![](../assets/extract-file-script.png)
 
@@ -104,17 +104,17 @@ Viene aperto l’editor espressioni, che consente di immettere il comando da app
 
 Una volta configurata l’estrazione del file di output, sono disponibili opzioni aggiuntive relative alle transizioni e alla gestione degli errori:
 
-* **[!UICONTROL Genera transizione in uscita]**: attiva questa opzione per aggiungere una transizione in uscita e configurarne l’etichetta.
-* **[!UICONTROL Non generare un file se la transizione in entrata è vuota]**: attiva questa opzione per saltare l’estrazione del file se la transizione in entrata non contiene dati.
-* **[!UICONTROL Errore di processo]**: attiva questa opzione per aggiungere una transizione in uscita se si verifica un errore durante l’estrazione del file.
+* **[!UICONTROL Genera transizione in uscita]**: attiva questa opzione per aggiungere una transizione in uscita e configurarne l&#39;etichetta.
+* **[!UICONTROL Non generare un file se la transizione in entrata è vuota]**: attivare questa opzione per ignorare l&#39;estrazione del file se la transizione in entrata non contiene dati.
+* **[!UICONTROL Errore di processo]**: attivare questa opzione per aggiungere una transizione in uscita se si verifica un errore durante l&#39;estrazione del file.
 
 ## Esempio {#example}
 
-Nell’esempio seguente viene utilizzato un **Creare un pubblico** attività seguita da **Extract file** per estrarre tutti i profili target in un file CSV.
+Nell&#39;esempio seguente viene utilizzata un&#39;attività **Genera pubblico** seguita da un&#39;attività **Estrai file** per estrarre tutti i profili target in un file CSV.
 
 ![](../assets/extract-file-example.png)
 
-* Il **[!UICONTROL Nome file]** è configurato per includere la data dell’estrazione.
+* Il campo **[!UICONTROL Nome file]** è configurato per includere la data dell&#39;estrazione.
 
   ![](../assets/extract-file-example-name.png)
 

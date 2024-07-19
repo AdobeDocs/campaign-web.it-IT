@@ -5,8 +5,8 @@ description: Comprendere i rapporti globali
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 38%
+source-wordcount: '275'
+ht-degree: 37%
 
 ---
 
@@ -32,22 +32,22 @@ L’elenco completo dei rapporti e delle metriche associate a ciascun canale è 
 
 Per accedere e gestire i rapporti globali, effettua le seguenti operazioni:
 
-1. Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generazione rapporti]** sezione.
+1. Passa al menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Reporting]**.
 
 1. Nel menu a sinistra, seleziona un rapporto dall’elenco e naviga attraverso la scheda per visualizzare i dati da ciascun canale.
 
-   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_3.png){zoomable="yes"}
 
-1. Dal dashboard, scegli un **Inizio** e **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
+1. Dal dashboard, scegli un **Inizio** e un **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
 
-   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. Dalla sezione **[!UICONTROL Seleziona cartella]** , seleziona se desideri eseguire il targeting delle consegne o della campagna da una cartella specifica.
+1. Dal campo **[!UICONTROL Seleziona cartella]**, seleziona se desideri eseguire il targeting delle consegne o della campagna da una cartella specifica.
 
-   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Aggiungi regole]** per iniziare a creare query per filtrare meglio i dati di reporting. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
+1. Fai clic su **[!UICONTROL Aggiungi regole]** per iniziare a creare query per filtrare meglio i dati di reporting. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
 
-1. Dalla sezione **[!UICONTROL URL e flussi di clic]**, è inoltre possibile scegliere **[!UICONTROL Collegamenti più visitati]** o **[!UICONTROL Periodo temporale]**.
+1. Dai **[!UICONTROL URL e flussi di clic]**, puoi anche scegliere i **[!UICONTROL Collegamenti più visitati]** o il **[!UICONTROL periodo di tempo]**.
 
-   Il **[!UICONTROL Visualizza per]** Le opzioni consentono di filtrare in base a URL, etichette o categorie.
+   Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare in base a URL, etichette o categorie.

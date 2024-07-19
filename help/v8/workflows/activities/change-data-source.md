@@ -17,17 +17,17 @@ ht-degree: 16%
 >title="Cambiare l’origine dati"
 >abstract="L’attività **Modifica origine dati** ti consente di selezionare un’origine dati diversa per la tabella di lavoro del flusso di lavoro."
 
-Il **Cambia origine dati** l&#39;attività è un **targeting** attività. Questa attività ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Ciò offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.
+L&#39;attività **Modifica origine dati** è un&#39;attività **targeting**. Questa attività ti consente di modificare l’origine dati utilizzata dalla tabella di lavoro del flusso di lavoro. Ciò offre maggiore flessibilità consentendo di gestire i dati tra i diversi database e migliorare le prestazioni.
 
-Nei flussi di lavoro, i dati trasportati da un’attività all’altra tramite transizioni vengono memorizzati in un archivio temporaneo **Tavolo di lavoro**. Per impostazione predefinita, le tabelle di lavoro vengono create nello stesso database dell&#39;origine dei dati elaborati. Ad esempio, quando si esegue una query sulla tabella &quot;Profiles&quot; memorizzata nel database Cloud, viene creata una tabella di lavoro sullo stesso database Cloud.
+Nei flussi di lavoro, i dati trasportati da un&#39;attività all&#39;altra tramite transizioni vengono memorizzati in una **Tabella di lavoro** temporanea. Per impostazione predefinita, le tabelle di lavoro vengono create nello stesso database dell&#39;origine dei dati elaborati. Ad esempio, quando si esegue una query sulla tabella &quot;Profiles&quot; memorizzata nel database Cloud, viene creata una tabella di lavoro sullo stesso database Cloud.
 
-In alcuni casi, i dati non sono disponibili nel database corrente o non sono abbastanza efficienti per eseguire operazioni unitarie. Potrebbe pertanto essere necessario forzare il flusso di lavoro a utilizzare un database diverso per eseguire tali operazioni aggiungendo un **[!UICONTROL Cambia origine dati]** attività.
+In alcuni casi, i dati non sono disponibili nel database corrente o non sono abbastanza efficienti per eseguire operazioni unitarie. Potrebbe pertanto essere necessario forzare il flusso di lavoro a utilizzare un database diverso per eseguire tali operazioni aggiungendo un&#39;attività **[!UICONTROL Modifica origine dati]**.
 
-Informazioni dettagliate sull’architettura di Campaign sono disponibili in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Informazioni dettagliate sull&#39;architettura di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
 
 >[!IMPORTANT]
 >
->Tieni presente che **[!UICONTROL Cambia dimensione]** e **[!UICONTROL Cambia origine dati]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROL Arricchimento]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 <!--
 
@@ -49,12 +49,12 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
 ![](../assets/workflow-change-data-source-add.png)
 
-1. Aggiungi un **Cambia origine dati** al flusso di lavoro.
+1. Aggiungi un&#39;attività **Modifica origine dati** al flusso di lavoro.
 
 1. Definire l&#39;origine dati in cui spostare la tabella di lavoro:
 
-   * **[!UICONTROL Database predefinito di Campaign (PostgreSQL)]**: utilizza il database locale predefinito di Campaign.
-   * **[!UICONTROL Account esterno FDA]**: utilizza database cloud esterni collegati ad Adobe Campaign tramite la funzionalità Federated Data Access.
+   * **[!UICONTROL Database predefinito di Campaign (PostgreSQL)]**: utilizzare il database locale predefinito di Campaign.
+   * **[!UICONTROL Account esterno FDA]**: utilizza database cloud esterni connessi ad Adobe Campaign tramite la funzionalità Federated Data Access.
 
      >[!AVAILABILITY]
      >

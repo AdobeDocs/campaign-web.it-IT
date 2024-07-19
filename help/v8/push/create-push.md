@@ -88,11 +88,11 @@ Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/p
 
 ## Pianificare l’invio della consegna {#schedule-push}
 
-Quando una consegna viene inviata nel contesto di un flusso di lavoro, devi utilizzare **Scheduler** attività. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
+Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
 
 Per pianificare una consegna push indipendente a una data e un’ora specifiche, effettua le seguenti operazioni:
 
-1. Accedi a **[!UICONTROL Pianificazione]** sezione delle proprietà di consegna.
+1. Passa alla sezione **[!UICONTROL Pianificazione]** delle proprietà di consegna.
 
 1. Utilizza l’opzione **[!UICONTROL Abilita pianificazione]** per attivarla.
 

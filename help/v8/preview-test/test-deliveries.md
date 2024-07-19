@@ -5,8 +5,8 @@ description: Scopri come definire e inviare bozze
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 56%
+source-wordcount: '1124'
+ht-degree: 55%
 
 ---
 
@@ -34,15 +34,15 @@ Per iniziare a testare il contenuto del messaggio:
 
 1. Modifica il contenuto della consegna.
 1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
-1. Fai clic su **[!UICONTROL Invia bozza]** per inviare bozze.
+1. Fai clic sul pulsante **[!UICONTROL Invia bozza]** per inviare le bozze.
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Seleziona i destinatari della bozza.
 
    A seconda del canale del messaggio, le bozze possono essere inviate ai seguenti tipi di destinatari:
 
-   * Per gli SMS e le e-mail, puoi utilizzare [profili di test](#test-profiles), che sono destinatari aggiuntivi specifici nel database. È inoltre possibile utilizzare [sostituzione dal target principale](#substitution-profiles) modalità, che invia la bozza a un indirizzo di prova e-mail o a un numero di telefono e utilizza i dati di personalizzazione di un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
+   * Per gli SMS e le e-mail, puoi utilizzare [profili di test](#test-profiles), che sono destinatari aggiuntivi specifici nel database. Puoi anche utilizzare la modalità [sostituzione dalla destinazione principale](#substitution-profiles), che invia la bozza a un indirizzo di prova e-mail o a un numero di telefono e utilizza i dati di personalizzazione di un profilo esistente. Questo consente di vivere l’esperienza del messaggio così come verrà ricevuta dai destinatari, con una rappresentazione accurata del contenuto per quello specifico profilo.
 
    * Per i messaggi push, puoi utilizzare [iscritti](#subscribers), che sono iscritti fittizi aggiunti al database. Vengono creati dalla console di [!DNL Campaign]. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}
 
@@ -70,27 +70,27 @@ Per iniziare a testare il contenuto del messaggio:
 >title="Includi i profili di test nel pubblico principale"
 >abstract="Abilita questa opzione per inviare anche il messaggio finale ai destinatari della bozza."
 
-I profili di test sono destinatari aggiuntivi nel database. Vengono creati dalla sezione **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** menu. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
+I profili di test sono destinatari aggiuntivi nel database. Vengono creati dal menu **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]**. [Ulteriori informazioni](../audience/test-profiles.md#create-test-profiles)
 
 I passaggi per inviare bozze ai profili di test sono descritti di seguito.
 
-1. Dal contenuto della consegna, fai clic su **[!UICONTROL Simula contenuto]** e **[!UICONTROL Invia bozza]** pulsante.
+1. Dal contenuto della consegna, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e sul pulsante **[!UICONTROL Invia bozza]**.
 
-1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **[!UICONTROL Profili di test]** per eseguire il targeting di destinatari fittizi che riceveranno la bozza o la consegna di SMS.
+1. Dall&#39;elenco a discesa **[!UICONTROL Modalità]**, scegli **[!UICONTROL Profili di test]** per eseguire il targeting di destinatari fittizi che riceveranno la bozza o la consegna SMS.
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
-1. Se hai già selezionato i profili da [visualizzare l’anteprima del messaggio](preview-content.md) nella schermata simulazione contenuto, tali profili sono preselezionati come destinatari delle bozze. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando il pulsante **[!UICONTROL Aggiungi profili di test]**.
+1. Se hai già selezionato profili per [visualizzare l&#39;anteprima del messaggio](preview-content.md) nella schermata di simulazione del contenuto, tali profili vengono preselezionati come destinatari delle bozze. Puoi cancellare la selezione e/o aggiungere altri destinatari utilizzando il pulsante **[!UICONTROL Aggiungi profili di test]**.
 
-1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca. Ad esempio, puoi definire una regola per trovare tutti i profili di test con **[!UICONTROL Potenziale cliente]** stato. Scopri come aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
+1. Quando esplori il profilo di test o gli elenchi di profili, puoi utilizzare i filtri per perfezionare la ricerca. Ad esempio, puoi definire una regola per trovare tutti i profili di test con lo stato **[!UICONTROL Prospect]**. Scopri come aggiungere regole utilizzando [modeler query](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
-1. Per inviare il messaggio finale anche ai destinatari della bozza, seleziona la **[!UICONTROL Includi la popolazione di test nel target principale]** opzione.
+1. Per inviare il messaggio finale anche ai destinatari della bozza, selezionare l&#39;opzione **[!UICONTROL Includi gruppo di test nel target principale]**.
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
-1. Una volta selezionati i profili di test, puoi [invia la bozza](#send-test).
+1. Una volta selezionati i profili di test, puoi [inviare la bozza](#send-test).
 
 ## Sostituire i dati del profilo {#substitution-profiles}
 
@@ -98,59 +98,59 @@ Utilizza la sostituzione del profilo per inviare bozze a un indirizzo e-mail o a
 
 Per sostituire i dati di profilo dal target principale, segui i passaggi seguenti:
 
-1. Dal contenuto della consegna, fai clic su **[!UICONTROL Simula contenuto]** e **[!UICONTROL Invia bozza]** pulsante.
+1. Dal contenuto della consegna, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e sul pulsante **[!UICONTROL Invia bozza]**.
 
-1. Dalla sezione **[!UICONTROL Modalità]** elenco a discesa, scegliere **[!UICONTROL Sostituisci dal target principale]** per inviare una bozza a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente.
+1. Dall&#39;elenco a discesa **[!UICONTROL Modalità]**, scegli **[!UICONTROL Sostituisci dalla destinazione principale]** per inviare una bozza a un indirizzo e-mail o a un numero di telefono specifico durante la visualizzazione dei dati da un profilo esistente.
 
    >[!CAUTION]
    >
    >Se non hai selezionato un [pubblico](../audience/about-recipients.md) per la consegna, l’opzione **[!UICONTROL Sostituisci dal target principale]** sarà disattivata e non sarà possibile selezionare profili di sostituzione.
 
-1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica l’indirizzo e-mail o il numero di telefono che riceverà la bozza.
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l&#39;indirizzo e-mail o il numero di telefono che riceverà la bozza.
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Puoi inserire qualsiasi indirizzo e-mail o numero di telefono. Ciò ti consente di inviare bozze a qualsiasi destinatario, anche se non è utente di [!DNL Adobe Campaign].
+   >Puoi inserire qualsiasi indirizzo e-mail o numero di telefono. Ciò ti consente di inviare bozze a qualsiasi destinatario, anche se non è un utente di [!DNL Adobe Campaign].
 
 1. Seleziona il profilo dal target definito per la consegna da utilizzare come sostituto. Puoi anche consentire ad [!DNL Adobe Campaign] di selezionare un profilo casuale dal target. I dati del profilo dal profilo selezionato verranno visualizzati nella bozza.
 
 1. Conferma il destinatario e ripeti l’operazione per aggiungere tutti gli indirizzi e-mail o i numeri di telefono necessari.
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
-1. Per inviare il messaggio finale anche ai destinatari della bozza, seleziona la **[!UICONTROL Includi la popolazione di test nel target principale]** opzione.
+1. Per inviare il messaggio finale anche ai destinatari della bozza, selezionare l&#39;opzione **[!UICONTROL Includi gruppo di test nel target principale]**.
 
-1. Una volta selezionati i profili di sostituzione, puoi [invia la bozza](#send-test).
+1. Una volta selezionati i profili di sostituzione, puoi [inviare la bozza](#send-test).
 
 ## Inviare bozze agli abbonati all’app {#subscribers}
 
 Durante la progettazione con notifiche push, le bozze possono essere inviate solo agli abbonati all’app. Per selezionarli, segui questi passaggi.
 
-1. Dal contenuto della consegna push, fai clic su **[!UICONTROL Simula contenuto]** e **[!UICONTROL Invia bozza]** pulsante.
+1. Dal contenuto della consegna push, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e sul pulsante **[!UICONTROL Invia bozza]**.
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. Se hai già selezionato degli abbonati per [visualizzare l’anteprima della consegna](preview-content.md) nella schermata di simulazione del contenuto, questi profili vengono preselezionati come abbonati a scopo di test.
 
    Puoi cancellare la selezione e/o aggiungere altri abbonati utilizzando il pulsante dedicato.
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. Per inviare la notifica push finale anche agli abbondati a scopo di test, seleziona l’opzione **[!UICONTROL Includi la popolazione di test nel target principale]**.
 
-1. Una volta selezionati gli abbonati, puoi [invia la bozza](#send-test).
+1. Una volta selezionati gli abbonati, puoi [inviare la bozza](#send-test).
 
 ## Inviare la bozza {#send-test}
 
 Per inviare la bozza ai destinatari selezionati, effettua le seguenti operazioni.
 
-1. Fai clic su **[!UICONTROL Invia bozza]** pulsante.
+1. Fare clic sul pulsante **[!UICONTROL Invia bozza]**.
 
 1. Conferma l’invio.
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. Invia tutte le bozze necessarie fino a quando non avrai finalizzato il contenuto della consegna.
 
@@ -162,12 +162,12 @@ Al termine, puoi preparare la consegna e inviarla al target principale. Scopri c
 
 ## Accedere alle bozze inviate {#access-test-deliveries}
 
-Una volta inviate le bozze, puoi accedere ai relativi registri da **[!UICONTROL Simula contenuto]** schermo.
+Una volta inviate le bozze, puoi accedere ai relativi registri dalla schermata **[!UICONTROL Simula contenuto]**.
 
 Questi registri ti consentono di accedere a tutte le bozze inviate per la consegna selezionata e di visualizzare statistiche specifiche relative al loro invio. [Scopri come monitorare i registri di consegna](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
-Puoi anche accedere alle bozze inviate da [elenco di consegna](../msg/gs-messages.md), come qualsiasi consegna.
+Puoi anche accedere alle bozze inviate dall&#39;[elenco di consegna](../msg/gs-messages.md), come qualsiasi consegna.
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

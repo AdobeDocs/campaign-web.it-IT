@@ -4,7 +4,7 @@ description: Scopri come comprendere gli indicatori chiave di prestazioni
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Per impostazione predefinita, le metriche sono calcolate per le consegne inviate
 
 Puoi selezionare il canale da visualizzare. Per impostazione predefinita, questi indicatori riflettono le metriche per il canale e-mail.
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## Messaggio consegnato {#ui-delivered-kpi}
 

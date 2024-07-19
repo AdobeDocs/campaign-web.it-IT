@@ -22,13 +22,13 @@ ht-degree: 22%
 >title="Modelli di contenuto"
 >abstract="Per un processo di progettazione più rapido e migliore, puoi creare modelli e-mail indipendenti che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto."
 
-Per un processo di progettazione accelerato e migliorato, puoi creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Adobe Campaign]. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto.
+Per accelerare e migliorare il processo di progettazione, è possibile creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Adobe Campaign]. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto.
 
 Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli utenti di marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail.
 
 >[!NOTE]
 >
->Attualmente solo **email** sono supportati i modelli di contenuto.
+>Al momento sono supportati solo **modelli di contenuto e-mail**.
 
 ## Accedere ai modelli di contenuto {#access-templates}
 
@@ -37,11 +37,11 @@ Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su 
 >title="Modificare il contenuto del modello"
 >abstract="Fai clic sul pulsante **Modifica contenuto** per aggiornare il contenuto con E-mail Designer."
 
-Per accedere all&#39;elenco dei modelli di contenuto, passare alla **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** dalla barra a sinistra.
+Per accedere all&#39;elenco dei modelli di contenuto, passa al menu **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli di contenuto]** dalla barra a sinistra.
 
 ![](assets/content-template-list.png){zoomable="yes"}
 
-Questo dashboard mostra tutti i modelli di contenuto disponibili come un elenco. Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) utilizzando l’elenco a discesa o aggiungere regole utilizzando [query modeler](../query/query-modeler-overview.md).
+Questo dashboard mostra tutti i modelli di contenuto disponibili come un elenco. Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) specifica utilizzando l&#39;elenco a discesa oppure aggiungere regole utilizzando [modellatore query](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png){zoomable="yes"}
 
@@ -60,9 +60,9 @@ Dall’elenco, puoi modificare, duplicare o eliminare i modelli di contenuto esi
 >title="Selezione del modello di contenuto"
 >abstract="Seleziona il modello di contenuto delle e-mail."
 
-I modelli di contenuto possono essere creati da [salvataggio di un’e-mail esistente come modello](#save-as-template), o dall&#39;elenco dei modelli e-mail, tramite **Crea modello di contenuto** pulsante, [come descritto di seguito](#create-template-from-scratch).
+I modelli di contenuto possono essere creati [salvando un&#39;e-mail esistente come modello](#save-as-template) o dall&#39;elenco dei modelli di e-mail tramite il pulsante **Crea modello di contenuto**, [come descritto di seguito](#create-template-from-scratch).
 
-Una volta salvato, ora puoi utilizzare questo modello per crearne uno [email](../email/create-email.md) entro [!DNL Adobe Campaign]. [Scopri come](use-email-templates.md)
+Una volta salvato, ora puoi utilizzare questo modello per creare qualsiasi [e-mail](../email/create-email.md) in [!DNL Adobe Campaign]. [Scopri come](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -79,21 +79,21 @@ Una volta salvato, ora puoi utilizzare questo modello per crearne uno [email](..
 
 Per creare un nuovo modello di contenuto dal dashboard modelli di contenuto, effettua le seguenti operazioni:
 
-1. Dall&#39;elenco **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** barra a sinistra.
+1. Dalla barra a sinistra **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli di contenuto]**, accedi all&#39;elenco dei modelli di contenuto.
 
 1. Seleziona **[!UICONTROL Crea modello]**.
 
    ![](assets/content-template-create.png){zoomable="yes"}
 
-1. Immetti l’etichetta del modello e le proprietà. È possibile selezionare la cartella in cui memorizzare il modello. Per impostazione predefinita, i modelli di contenuto sono memorizzati in una cartella dedicata della gerarchia di Adobe Campaign: **[!UICONTROL Esplora]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**. Ulteriori informazioni sulle cartelle in [questa pagina](../get-started/permissions.md#folders)
+1. Immetti l’etichetta del modello e le proprietà. È possibile selezionare la cartella in cui memorizzare il modello. Per impostazione predefinita, i modelli di contenuto sono archiviati in una cartella dedicata della gerarchia Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Risorse]** > **[!UICONTROL Modelli]** > **[!UICONTROL Modelli di contenuto]**. Ulteriori informazioni sulle cartelle in [questa pagina](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Crea]** e scegli come progettare il modello tra le diverse opzioni:
+1. Fai clic su **[!UICONTROL Crea]** e scegli la modalità di progettazione del modello tra le diverse opzioni:
 
-   * [Creare contenuti da zero](create-email-content.md) tramite l’interfaccia di E-mail Designer.
+   * [Progetta il contenuto da zero](create-email-content.md) tramite l&#39;interfaccia di E-mail Designer.
 
-   * [Codice o copia-incolla raw HTML](code-content.md) direttamente in E-mail Designer.
+   * [Codice o copia-incolla HTML raw](code-content.md) direttamente nel Designer e-mail.
 
    * [Importa contenuto HTML esistente](existing-content.md) da un file o da una cartella .zip.
 
@@ -101,19 +101,19 @@ Per creare un nuovo modello di contenuto dal dashboard modelli di contenuto, eff
 
    ![](assets/email_designer-templates.png){zoomable="yes"}
 
-1. Viene visualizzato E-mail designer. Modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail, in base all’opzione selezionata. Scopri come utilizzare E-mail Designer in [questa sezione](get-started-email-designer.md).
+1. Viene visualizzato E-mail Designer. Modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail, in base all’opzione selezionata. Scopri come utilizzare il Designer e-mail in [questa sezione](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
 1. Quando il modello è pronto, fai clic su **[!UICONTROL Salva]**.
 
-   Se necessario, fai clic sulla freccia accanto al nome del modello per tornare al **[!UICONTROL Dettagli]** e modificare il modello.
+   Se necessario, fai clic sulla freccia accanto al nome del modello per tornare alla schermata **[!UICONTROL Dettagli]** e modificare il modello.
 
    ![](assets/content-template-save-back.png){zoomable="yes"}
 
-Il modello è disponibile nella sezione **[!UICONTROL Modelli di contenuto]** elenco. [Ulteriori informazioni](#access-templates)
+Il modello è disponibile nell&#39;elenco **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](#access-templates)
 
-Ora puoi utilizzare questo modello per creare un nuovo contenuto: è disponibile nella sezione **[!UICONTROL Modelli salvati]** della finestra di E-mail Designer. [Scopri come](use-email-templates.md)
+Ora puoi utilizzare questo modello per creare un nuovo contenuto: è disponibile nella scheda **[!UICONTROL Modelli salvati]** di E-mail Designer. [Scopri come](use-email-templates.md)
 
 ### Salvare il contenuto di un’e-mail come modello {#save-as-template}
 
@@ -121,7 +121,7 @@ Dopo aver [progettato un’e-mail](create-email-content.md), puoi salvarne il co
 
 Per salvare un contenuto e-mail come modello, segui la procedura seguente:
 
-1. Dalla finestra di progettazione e-mail, fai clic su **[!UICONTROL Altro]** in alto a destra.
+1. In E-mail Designer, fai clic sul pulsante **[!UICONTROL Altro]** in alto a destra dello schermo.
 
 1. Seleziona **[!UICONTROL Salva come modello di contenuto]** dal menu a discesa.
 
@@ -131,9 +131,9 @@ Per salvare un contenuto e-mail come modello, segui la procedura seguente:
 
    ![](assets/email_designer-template-name.png){zoomable="yes"}
 
-Il modello viene salvato e visualizzato in **[!UICONTROL Modelli di contenuto]** elenco. Diventa un modello di contenuto autonomo accessibile, modificato ed eliminato come qualsiasi altro elemento dell’elenco. [Ulteriori informazioni](#access-manage-templates)
+Il modello viene salvato e visualizzato nell&#39;elenco **[!UICONTROL Modelli di contenuto]**. Diventa un modello di contenuto autonomo accessibile, modificato ed eliminato come qualsiasi altro elemento dell’elenco. [Ulteriori informazioni](#access-manage-templates)
 
-Ora puoi utilizzare questo modello per creare un nuovo contenuto: è disponibile nella sezione **[!UICONTROL Modelli salvati]** della finestra di E-mail Designer. [Scopri come](use-email-templates.md)
+Ora puoi utilizzare questo modello per creare un nuovo contenuto: è disponibile nella scheda **[!UICONTROL Modelli salvati]** di E-mail Designer. [Scopri come](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png){zoomable="yes"}
 
@@ -165,7 +165,7 @@ Per aggiornare un modello di contenuto esistente, effettua le seguenti operazion
 
 1. Dall’elenco dei modelli di contenuto, fai clic sull’etichetta del modello da modificare per modificarlo.
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** per aggiornare il contenuto con [E-mail Designer](get-started-email-designer.md).
+1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per aggiornare il contenuto con [Invia e-mail a Designer](get-started-email-designer.md).
 
 ![](assets/content-template-edition.png){zoomable="yes"}
 
@@ -177,11 +177,11 @@ Per aggiornare un modello di contenuto esistente, effettua le seguenti operazion
 
 Sono disponibili due modi per eliminare un modello di contenuto:
 
-* dall’elenco dei modelli di contenuto, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Elimina**
+* dall&#39;elenco dei modelli di contenuto, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Elimina**
 
   ![Eliminare un modello di contenuto dal dashboard](assets/content-template-list-delete.png)
 
-* dal modello di contenuto stesso, fai clic su **Altro** quindi selezionare **Elimina**
+* dal modello di contenuto stesso, fai clic sul pulsante **Altro** e seleziona **Elimina**
 
 
 >[!NOTE]
@@ -193,9 +193,9 @@ Sono disponibili due modi per eliminare un modello di contenuto:
 
 Sono disponibili due modi per duplicare un modello di contenuto:
 
-* dall’elenco dei modelli di contenuto, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica**
+* dall&#39;elenco dei modelli di contenuto, fai clic sul pulsante con i puntini di sospensione, quindi seleziona **Duplica**
 
-* dal modello di contenuto stesso, fai clic su **Altro** quindi selezionare **Duplica**
+* dal modello di contenuto stesso, fai clic sul pulsante **Altro** e seleziona **Duplica**
 
-In entrambi i casi, conferma la duplicazione per creare il nuovo modello di contenuto. L’etichetta del nuovo modello di contenuto è **Copia di`<label of the initial campaign`**. Selezionare le impostazioni del modello per aggiornare l&#39;etichetta.
+In entrambi i casi, conferma la duplicazione per creare il nuovo modello di contenuto. L&#39;etichetta del nuovo modello di contenuto è **Copia di`<label of the initial campaign`**. Selezionare le impostazioni del modello per aggiornare l&#39;etichetta.
 

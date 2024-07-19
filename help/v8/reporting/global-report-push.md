@@ -5,8 +5,8 @@ description: Comprendere i rapporti globali per il canale push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 56%
+source-wordcount: '546'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 56%
 
 I rapporti globali forniscono agli utenti una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale.
 
-Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generazione rapporti]** sezione. Puoi filtrare i dati in base alla data del rapporto, alla cartella o alle regole. [Ulteriori informazioni](global-reports.md)
+Passa al menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Reporting]**. Puoi filtrare i dati in base alla data del rapporto, alla cartella o alle regole. [Ulteriori informazioni](global-reports.md)
 
 ## Riepilogo della consegna {#delivery-summary-push}
 
@@ -25,9 +25,9 @@ Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Generaz
 >title="Panoramica sulla consegna push"
 >abstract="I KPI della **panoramica sulla consegna** push forniscono un esame approfondito delle consegne push, con informazioni approfondite e dati specifici. Fornisce dettagli completi sulle prestazioni, l’efficacia e i risultati delle consegne."
 
-Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul coinvolgimento dei visitatori con ogni consegna di notifiche push. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL Panoramica consegna]** fornisce indicatori prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sul coinvolgimento dei visitatori con ogni consegna di notifiche push. Le metriche sono descritte di seguito.
 
-![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -48,17 +48,17 @@ Il **[!UICONTROL Panoramica della consegna]** Il rapporto fornisce indicatori di
 >title="Popolazione target della consegna push"
 >abstract="Il grafico e la tabella della **Popolazione target** mostrano i dati relativi al pubblico della messaggistica push, presentando informazioni sui messaggi da consegnare e sulle esclusioni."
 
-Il **[!UICONTROL Pubblico di destinazione]** La tabella e il grafico presentano i dati relativi ai destinatari per ogni consegna di notifiche push inviata. Le metriche sono descritte di seguito.
+La tabella e il grafico **[!UICONTROL Pubblico di destinazione]** presentano i dati relativi ai destinatari per ogni consegna di notifiche push inviata. Le metriche sono descritte di seguito.
 
-![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
-* **[!UICONTROL Pubblico di destinazione]**: numero totale di destinatari target.
+* **[!UICONTROL Pubblico di destinazione]**: numero totale di destinatari di destinazione.
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Esclusione]**: numero totale di indirizzi ignorati durante l’analisi durante l’applicazione delle regole: indirizzo mancante, messo in quarantena, in fase di inserisce nell&#39;elenco Bloccati del, ecc.
+* inserire nell&#39;elenco Bloccati **[!UICONTROL Esclusione]**: numero totale di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione delle regole: indirizzo mancante, messo in quarantena, al momento dell&#39;, ecc.
 
 +++
 
@@ -69,17 +69,17 @@ Il **[!UICONTROL Pubblico di destinazione]** La tabella e il grafico presentano 
 >title="Statistiche di consegna push"
 >abstract="Il rapporto **Statistiche complessive** fornisce informazioni sulle notifiche push inviate, tra cui tassi di successo, errori e quarantene."
 
-Il **[!UICONTROL Statistiche consegna]** La tabella descrive il completamento di ogni consegna di notifiche push. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Statistiche di consegna]** descrive il completamento di ogni consegna di notifica push. Le metriche sono descritte di seguito.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
-* **[!UICONTROL Messaggi totali]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
+* **[!UICONTROL Messaggi totali]**: numero totale di messaggi da recapitare dopo la preparazione della consegna.
 
 * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Errori/mancati recapiti]**: numero totale di errori accumulati durante le consegne ed elaborazione automatica del rimbalzo in relazione al numero di messaggi da consegnare.
+* **[!UICONTROL Errori / mancati recapiti]**: numero totale di errori cumulati durante le consegne ed elaborazione automatica dei rimbalzi in relazione al numero di messaggi da recapitare.
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (ad esempio a causa di una registrazione non valida, un rifiuto del messaggio, un errore di payload) rispetto al numero di messaggi da consegnare.
 
@@ -94,7 +94,7 @@ Il **[!UICONTROL Statistiche consegna]** La tabella descrive il completamento di
 >title="Cause di esclusione push"
 >abstract="Il grafico e la tabella **Cause di esclusione** illustrano i diversi motivi che hanno impedito ai profili utente di ricevere le notifiche push."
 
-Il **[!UICONTROL Cause di esclusione]** il grafico e la tabella mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio.
+Il grafico e la tabella **[!UICONTROL Cause di esclusione]** visualizzano i motivi che hanno impedito ai profili utente esclusi dai profili target di ricevere il messaggio.
 
 I tipi di errore per le notifiche push sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
 
@@ -105,6 +105,6 @@ I tipi di errore per le notifiche push sono elencati nella [Documentazione di Ad
 >title="Rapporto velocità di consegna"
 >abstract="Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità di consegna delle notifiche push dell’intera piattaforma in un arco temporale specifico."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
-Il **[!UICONTROL Velocità effettiva di consegna]** Il rapporto offre informazioni complete sull’efficacia del sistema di consegna delle notifiche push, offrendo un riepilogo dettagliato dei tassi di successo e di errore in un determinato periodo di tempo.
+Il rapporto **[!UICONTROL Throughput di consegna]** offre informazioni complete sull&#39;efficacia del sistema di consegna delle notifiche push, offrendo un riepilogo dettagliato dei tassi di successo e di errore in un periodo specificato.

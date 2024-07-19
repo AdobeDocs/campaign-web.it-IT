@@ -5,7 +5,7 @@ description: Scopri come creare un flusso di lavoro con Adobe Campaign Web
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '733'
 ht-degree: 97%
 
 ---
@@ -22,11 +22,11 @@ Puoi creare flussi di lavoro autonomi o flussi di lavoro all’interno di una ca
 
 Per farlo, segui questi passaggi:
 
-1. Per creare un **Flusso di lavoro autonomo**, passare alla **Flussi di lavoro** menu. Per creare un **Flusso di lavoro della campagna**, passa al menu **Campagne** e apri la campagna per la quale desideri creare un nuovo flusso di lavoro.
+1. Per creare un **flusso di lavoro autonomo**, passare al menu **Flussi di lavoro**. Per creare un **Flusso di lavoro della campagna**, passa al menu **Campagne** e apri la campagna per la quale desideri creare un nuovo flusso di lavoro.
 
 1. Fai clic sul pulsante **[!UICONTROL Crea flusso di lavoro]** nell’angolo in alto a destra della schermata.
 
-   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-create.png){zoomable="yes"}
 
 1. Nella finestra di dialogo **Proprietà** del flusso di lavoro, seleziona il modello da utilizzare per creare il flusso di lavoro (puoi anche utilizzare il modello predefinito incorporato). [Ulteriori informazioni sui modelli di workflow](#workflow-templates).
 
@@ -34,7 +34,7 @@ Per farlo, segui questi passaggi:
 
 1. Espandi la sezione **[!UICONTROL Opzioni aggiuntive]** per configurare altre impostazioni per il flusso di lavoro. Scopri come configurare le proprietà del flusso di lavoro in [questa pagina](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-additional-options.png){zoomable="yes"}
 
 1. Fai clic sul pulsante **[!UICONTROL Crea flusso di lavoro]** per confermare la creazione del flusso di lavoro.
 
@@ -65,14 +65,14 @@ Per creare un modello da un flusso di lavoro esistente, segui questi passaggi:
 1. Apri il menu **Flussi di lavoro** e passa al flusso di lavoro per salvarlo come modello.
 1. Fai clic sui tre punti a destra del nome del flusso di lavoro e scegli **Copia come modello**.
 
-   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. Conferma la creazione del modello nella finestra a comparsa.
 1. Nell’area di lavoro del modello del flusso di lavoro, seleziona, aggiungi e configura le attività in base alle esigenze.
 1. Accedi alle impostazioni dal pulsante **Impostazioni** per modificare il nome del modello del flusso di lavoro e immettere una descrizione.
 1. Seleziona la **cartella** e la **cartella di esecuzione** del modello. La cartella è la posizione in cui viene salvato il modello del flusso di lavoro. La cartella di esecuzione è la cartella in cui vengono salvati i flussi di lavoro creati in base a questo modello.
 
-   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-settings-template.png){zoomable="yes"}
 
    Le altre proprietà sono comuni ai flussi di lavoro. Per ulteriori informazioni, consulta [questa pagina](workflow-settings.md#properties)
 
@@ -91,14 +91,14 @@ Per creare un modello di flusso di lavoro da zero, segui questi passaggi:
 1. Immetti l’etichetta e apri le opzioni aggiuntive per immettere una descrizione del modello del flusso di lavoro.
 1. Seleziona la cartella e la cartella di esecuzione del modello. La cartella è la posizione in cui viene salvato il modello del flusso di lavoro. La cartella di esecuzione è la cartella in cui vengono salvati i flussi di lavoro creati in base a questo modello.
 
-   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-wf-template.png){zoomable="yes"}
 
    Le altre proprietà sono comuni ai flussi di lavoro. Per ulteriori informazioni, consulta [questa pagina](workflow-settings.md#properties)
 
 1. Fai clic sul pulsante **Crea** per confermare le impostazioni.
 1. Nell’area di lavoro del modello di flusso di lavoro, aggiungi e configura le attività in base alle esigenze.
 
-   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Salva le modifiche.
 

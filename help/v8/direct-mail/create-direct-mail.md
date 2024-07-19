@@ -18,7 +18,7 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
 
 1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
-1. Sotto **[!UICONTROL Canale]** , scegliere **[!UICONTROL Direct mail]** come canale e seleziona un modello. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
+1. Nella sezione **[!UICONTROL Canale]**, scegli **[!UICONTROL Direct mail]** come canale e seleziona un modello. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
@@ -36,7 +36,7 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
 +++
 
-1. Fai clic su **[!UICONTROL Seleziona pubblico]** per rivolgerti a un pubblico esistente o crearne uno tuo.
+1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo.
 
    * [Scopri come selezionare un pubblico esistente](../audience/add-audience.md)
    * [Scopri come creare un nuovo pubblico](../audience/one-time-audience.md)
@@ -49,7 +49,7 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
 
 1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna. I messaggi non vengono inviati a tale gruppo di controllo, in modo da poter confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Scopri come utilizzare i gruppi di controllo](../audience/control-group.md)
 
-1. Clic **[!UICONTROL Modifica contenuto]** per definire le informazioni (colonne) da esportare nel file di estrazione. [Ulteriori informazioni](content-direct-mail.md)
+1. Fare clic su **[!UICONTROL Modifica contenuto]** per definire le informazioni (colonne) da esportare nel file di estrazione. [Ulteriori informazioni](content-direct-mail.md)
 
    ![](assets/dm-content.png){zoomable="yes"}
 
@@ -57,9 +57,9 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Quando una consegna viene inviata nel contesto di un flusso di lavoro, devi utilizzare **Scheduler** attività. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md).
+   >Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md).
 
-1. Clic **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+1. Fai clic su **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
    ![](assets/dm-settings.png){zoomable="yes"}
 

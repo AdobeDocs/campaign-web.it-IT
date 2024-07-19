@@ -5,8 +5,8 @@ description: Scopri come creare un pubblico una tantum per una consegna.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 63%
+source-wordcount: '224'
+ht-degree: 62%
 
 ---
 
@@ -22,12 +22,12 @@ Per creare un nuovo pubblico una tantum per una consegna, segui questi passaggi:
 
 1. Nella sezione **Pubblico** dell’assistente alla creazione di consegne, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
-   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder0.png){zoomable="yes"}
 
-1. Seleziona **Crea il tuo** per aprire Query Modeler, che consente di definire la popolazione target filtrando i dati contenuti nel database. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
+1. Seleziona **Crea** per aprire Query Modeler, che ti consente di definire la popolazione target filtrando i dati contenuti nel database. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-modeler.png){zoomable="yes"}
 
-1. Quando la query è pronta, fai clic su **Conferma** per utilizzare il pubblico risultante come target principale della consegna.
+1. Quando la query è pronta, fai clic su **Conferma** per utilizzare il pubblico risultante come destinazione principale della consegna.
 
    Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò consente di confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. [Ulteriori informazioni](control-group.md)

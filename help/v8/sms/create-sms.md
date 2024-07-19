@@ -73,8 +73,8 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
    >[!NOTE]
    >
-   >Quando una consegna viene inviata nel contesto di un flusso di lavoro, devi utilizzare **Scheduler** attività. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md).
+   >Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md).
 
-1. Clic **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
+1. Fai clic su **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png){zoomable="yes"}

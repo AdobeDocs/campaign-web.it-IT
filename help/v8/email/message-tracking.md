@@ -5,8 +5,8 @@ description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi i
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 66%
+source-wordcount: '535'
+ht-degree: 69%
 
 ---
 
@@ -28,23 +28,23 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Scegli il tipo di collegamento da creare:
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
-   * **[!UICONTROL Collegamento esterno]**: inserisci un collegamento a un URL esterno.
+   * **[!UICONTROL Collegamento esterno]**: inserire un collegamento a un URL esterno.
 
      >[!AVAILABILITY]
      >
-     >Le seguenti funzionalità (collegamento a **[!UICONTROL Pagina di destinazione]**, **[!UICONTROL Collegamento di abbonamento]** e **[!UICONTROL Collegamento per annullare l’iscrizione]**) sono in Disponibilità limitata (LA). Sono limitati ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+     >Le seguenti funzionalità (collegamento a **[!UICONTROL Pagina di destinazione]**, **[!UICONTROL Collegamento abbonamento]** e **[!UICONTROL Collegamento annullamento abbonamento]**) sono in disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
 
-   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. Se selezioni una pagina di destinazione dinamica (con **[!UICONTROL Servizio da URL]** selezionato), è possibile selezionare qualsiasi servizio dall’elenco. [Ulteriori informazioni](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. Se selezioni una pagina di destinazione dinamica (con l&#39;opzione **[!UICONTROL Servizio dall&#39;URL]** selezionata), puoi selezionare qualsiasi servizio dall&#39;elenco. [Ulteriori informazioni](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-   * **[!UICONTROL Collegamento di abbonamento]**: inserisci un collegamento a un servizio di abbonamento. Quando gli utenti fanno clic sul collegamento, verranno indirizzati alla pagina di destinazione dell’abbonamento a cui si fa riferimento nel servizio selezionato. [Ulteriori informazioni](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Collegamento sottoscrizione]**: inserire un collegamento a un servizio di sottoscrizione. Quando gli utenti fanno clic sul collegamento, verranno indirizzati alla pagina di destinazione dell’abbonamento a cui si fa riferimento nel servizio selezionato. [Ulteriori informazioni](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-   * **[!UICONTROL Collegamento per annullare l’iscrizione]**: inserisci un collegamento a un servizio di annullamento dell’abbonamento. Quando gli abbonati fanno clic sul collegamento, verranno indirizzati alla pagina di destinazione per l’annullamento dell’abbonamento a cui si fa riferimento nel servizio selezionato. [Ulteriori informazioni](../audience/manage-services.md#create-service)
+   * **[!UICONTROL Collegamento per l&#39;annullamento dell&#39;abbonamento]**: inserire un collegamento a un servizio di annullamento dell&#39;abbonamento. Quando gli abbonati fanno clic sul collegamento, verranno indirizzati alla pagina di destinazione per l’annullamento dell’abbonamento a cui si fa riferimento nel servizio selezionato. [Ulteriori informazioni](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -59,11 +59,11 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
    * Puoi modificare il collegamento e modificarne la relativa **[!UICONTROL Destinazione]**.
    * Puoi scegliere di sottolineare o meno il collegamento, selezionando l’opzione corrispondente.
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) viene definito a livello della superficie di canale e durante la creazione del messaggio.
+>I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita a livello della superficie di canale e durante la creazione del messaggio.
 
 In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla pagina mirror. Ulteriori informazioni sulla pagina mirror in [questa sezione](mirror-page.md).
 
@@ -77,11 +77,11 @@ In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla p
 
 1. Per modificare un collegamento, fai clic sull’icona a forma di matita corrispondente.
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. Se necessario, puoi modificare il **[!UICONTROL Tipo di tracciamento]**:
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    Per ogni URL tracciato, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
@@ -92,6 +92,6 @@ In tutti i messaggi e-mail deve essere aggiunto un collegamento specifico alla p
 
 1. Aggiungi una **[!UICONTROL Categoria]** al collegamento per raggruppare i collegamenti tracciati e fai clic su **[!UICONTROL Salva]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. Dopo aver inviato la consegna, accedi al rapporto di consegna. Nel menu **[!UICONTROL Tracciamento]**, il rapporto di **[!UICONTROL URL e flussi di clic]** mostra gli URL di consegna più visitati. [Ulteriori informazioni](../reporting/gs-reports.md)

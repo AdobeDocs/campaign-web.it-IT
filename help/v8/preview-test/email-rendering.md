@@ -5,8 +5,8 @@ description: Scopri come verificare il rendering delle e-mail nell’interfaccia
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 77%
+source-wordcount: '227'
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ A questo scopo, puoi sfruttare l’account **Litmus** in [!DNL Adobe Campaign] p
 Per accedere alle funzionalità di rendering di e-mail, è necessario:
 
 * Avere un account Litmus
-* Selezionare profili e/o profili di test - Scopri come nella [questa sezione](preview-content.md)
+* Seleziona profili e/o profili di test. Scopri come in [questa sezione](preview-content.md)
 
 Quindi, segui i passaggi indicati di seguito.
 
@@ -32,21 +32,21 @@ Quindi, segui i passaggi indicati di seguito.
 
 1. Seleziona il pulsante **[!UICONTROL Rendering dell’e-mail]**.
 
-   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-button.png){zoomable="yes"}
 
 1. Fai clic su **Connetti il tuo account Litmus** nella sezione superiore destra.
 
-   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. Immetti le credenziali e accedi.
 
-   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
 1. Fai clic su **Esegui test** per generare anteprime e-mail.
 
 1. Verifica il contenuto delle e-mail nei client desktop, mobili e basati su web più diffusi.
 
-   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-previews.png){zoomable="yes"}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.

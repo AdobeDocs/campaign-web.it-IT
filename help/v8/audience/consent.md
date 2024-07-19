@@ -18,7 +18,7 @@ ht-degree: 13%
 
 * Innanzitutto, evita di inviare e-mail, notifiche push e messaggi SMS non richiesti (&quot;spam&quot;). Adobe crede fermamente nei principi del permission marketing per promuovere la fedeltà e il valore del ciclo di vita del cliente, e pertanto vieta severamente l’utilizzo di Adobe Campaign per l’invio di messaggi non richiesti. [Ulteriori informazioni](#denylisted-profiles)
 
-* Assicurati che i destinatari ricevano sempre le comunicazioni fornendo loro la possibilità di rinunciare alle tue consegne<!-- and keep honoring opt-out requests as quickly as possible-->. [Ulteriori informazioni](#opt-out)
+* Assicurati che i destinatari accettino sempre di ricevere comunicazioni fornendo loro la capacità di rifiutare le tue consegne<!-- and keep honoring opt-out requests as quickly as possible-->. [Ulteriori informazioni](#opt-out)
 
 * Attraverso il processo di gestione degli abbonamenti, puoi gestire le preferenze dei destinatari e tenere traccia dei destinatari che hanno acconsentito all’abbonamento e di che tipo di abbonamento si tratta. [Ulteriori informazioni](../../delivery/using/about-services-and-subscriptions.md)
 
@@ -35,7 +35,7 @@ Quando invii consegne tramite Adobe Campaign Web, devi sempre assicurarti che i 
 
 ### Rinuncia e-mail {#email-opt-out}
 
-Per consentire ai destinatari di annullare l’abbonamento alla ricezione di comunicazioni e-mail, devi sempre includere un **collegamento per annullare l’abbonamento** in ogni e-mail inviata ai destinatari.
+Per consentire ai destinatari di annullare l&#39;abbonamento alla ricezione di comunicazioni e-mail, è necessario includere sempre un **collegamento per annullare l&#39;abbonamento** in ogni e-mail inviata ai destinatari.
 
 A tale scopo, segui la procedura indicata di seguito.
 
@@ -47,17 +47,17 @@ A tale scopo, segui la procedura indicata di seguito.
 
    ![](../email/assets/message-tracking-insert-link.png)
 
-1. In **[!UICONTROL Url]** , incolla il collegamento alla pagina di destinazione della terza parte.
+1. Nel campo **[!UICONTROL Url]**, incolla il collegamento alla pagina di destinazione delle terze parti.
 
 1. Fai clic sull’icona **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare l’elenco di tutti gli URL del contenuto da tracciare.
 
 1. Fai clic sull’icona a forma di matita accanto al nuovo collegamento per modificarlo.
 
-1. Modifica il **[!UICONTROL Tipo di tracciamento]** e impostarlo su **[!UICONTROL Rinuncia]**.
+1. Modifica il **[!UICONTROL Tipo di tracciamento]** e impostalo su **[!UICONTROL Rinuncia]**.
 
    ![](../email/assets/message-tracking-edit-a-link.png)
 
-1. Clic **[!UICONTROL Salva]** e invia il messaggio. [Ulteriori informazioni](../monitor/prepare-send.md)
+1. Fai clic su **[!UICONTROL Salva]** e invia il messaggio. [Ulteriori informazioni](../monitor/prepare-send.md)
 
 1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento per annullare l’abbonamento, viene visualizzata la pagina di destinazione.
 
@@ -67,13 +67,13 @@ A tale scopo, segui la procedura indicata di seguito.
 
 ## Inserire nell&#39;elenco Bloccati Profili {#denylisted-profiles}
 
-Dopo l’annullamento dell’abbonamento (rinuncia), i profili si trovano sul **inserisco nell&#39;elenco Bloccati** per un determinato canale: ciò implica che non sono più oggetto di targeting da parte di alcuna consegna.
+Dopo l&#39;annullamento dell&#39;abbonamento (rinuncia), i profili si trovano nel **inserisco nell&#39;elenco Bloccati di** per un determinato canale: ciò implica che non sono più oggetto di targeting da alcuna consegna.
 
 >[!NOTE]
 >
->Se un profilo nel inserisco nell&#39;elenco Bloccati di invio del per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi dalla consegna.
+>Se un profilo nel inserisco nell&#39;elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi dalla consegna.
 
-Puoi verificare se un profilo si trova nel inserisco nell&#39;elenco Bloccati di per uno o più canali nel **[!UICONTROL Non contattare più]** sezione del profilo di **[!UICONTROL Dettagli]** scheda. [Ulteriori informazioni](../audience/about-recipients.md#access)
+Puoi verificare se un profilo si trova nel inserisco nell&#39;elenco Bloccati di per uno o più canali nella sezione **[!UICONTROL Non contattare più]** della scheda **[!UICONTROL Dettagli]** del profilo. [Ulteriori informazioni](../audience/about-recipients.md#access)
 
 ![](assets/profile-no-longer-contact.png)
 

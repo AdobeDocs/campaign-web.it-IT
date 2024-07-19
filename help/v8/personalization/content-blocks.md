@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 93%
+source-wordcount: '427'
+ht-degree: 92%
 
 ---
 
@@ -23,19 +23,19 @@ Per aggiungere un blocco di contenuto a una consegna, segui questi passaggi:
 
 1. Individua il campo in cui desideri aggiungere un blocco di contenuto e fai clic sull’icona **[!UICONTROL Apri finestra di personalizzazione]** per aprire l’editor di espressioni.
 
-   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable="yes"}{width="800" align="center"}
 
 1. Nell’editor di espressioni, passa al menu a sinistra **[!UICONTROL Blocchi di contenuto]**.
 
 1. Per aggiungere un blocco di contenuto, posiziona il cursore nella posizione desiderata all’interno del contenuto e fai clic sul pulsante “+” per inserirlo.
 
-   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 I blocchi di contenuto incorporati sono:
 
 * **[!UICONTROL Banner di rinuncia predefinito]**
 * **[!UICONTROL Enabled by Adobe Campaign]** : inserisce il logo “Enabled by Adobe Campaign”.
-* **[!UICONTROL Funzione di formattazione per i sostantivi corretti]**: genera il **[!UICONTROL toSmartCase]** Funzione JavaScript, che trasforma la prima lettera di ogni parola in maiuscolo.
+* **[!UICONTROL Funzione di formattazione per i nomi corretti]**: genera la funzione di JavaScript **[!UICONTROL toSmartCase]**, che modifica la prima lettera di ogni parola in maiuscolo.
 * **[!UICONTROL Saluti]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,” 
 * **[!UICONTROL Inserisci logo]**: inserisce un logo definito nelle impostazioni dell’istanza.
 * **[!UICONTROL Collegamento a una pagina mirror]**: inserisce un collegamento alla [pagina mirror](../email/mirror-page.md). Il formato predefinito è: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”.

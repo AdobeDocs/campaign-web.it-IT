@@ -5,7 +5,7 @@ description: Scopri i diversi modi per regolare lo stile del contenuto delle e-m
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Una volta iniziato a creare il contenuto delle e-mail in [!DNL Adobe Campaign], 
 
 Puoi applicare le modifiche al corpo dell’e-mail, a un componente struttura o a un componente contenuto.
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 Segui i collegamenti riportati di seguito per scoprire come regolare alcune delle impostazioni di stile delle e-mail.
 

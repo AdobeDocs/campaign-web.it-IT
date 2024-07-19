@@ -5,7 +5,7 @@ description: Scopri come utilizzare i tipi di pubblico in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '352'
 ht-degree: 67%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 67%
 
 Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
-![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-list.png){zoomable="yes"}
 
 I tipi di pubblico possono provenire da più origini. Le colonne **[!UICONTROL Origine]** indicano dove è stato creato un determinato pubblico:
 
-* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati in [Interfaccia utente web di Adobe Campaign](create-audience.md) o nella [Console client Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati in [Interfaccia utente Web Adobe Campaign](create-audience.md) o nella [console client Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Questi tipi di pubblico sono stati creati all’interno di Adobe Experience Platform e sono integrati in Campaign Web utilizzando l’integrazione Adobe Sources and Destinations. Per ulteriori informazioni su come impostare questa integrazione, consulta la [Documentazione su Campaign v8 (console del client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** questi tipi di pubblico sono stati creati in Adobe Experience Platform e sono integrati in Campaign Web mediante l&#39;integrazione Adobe Sources and Destinations. Per ulteriori informazioni su come impostare questa integrazione, consulta la [Documentazione su Campaign v8 (console del client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
 
   ➡️ [Scopri questa funzione nel video](#video)
 
@@ -43,7 +43,7 @@ Per ottenere ulteriori informazioni su un pubblico, aprilo dall’elenco. Vengon
 
 La scheda **[!UICONTROL Dati]** consente di visualizzare i profili che fanno parte del pubblico. Puoi personalizzare questa vista aggiungendo più colonne o sfruttando filtri avanzati per ottimizzare i dati visualizzati.
 
-![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-details.png){zoomable="yes"}
 
 Per duplicare o eliminare un pubblico, fai clic sul pulsante **[!UICONTROL Altre azioni]** disponibile nell’elenco dei tipi di pubblico accanto al nome del pubblico o all’interno della schermata dei dettagli del pubblico.
 
@@ -53,4 +53,4 @@ Scopri come creare una destinazione per utilizzare un pubblico di Experienci Pla
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Informazioni dettagliate su come impostare l’integrazione Adobe Sources and Destinations sono disponibili in [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
+Informazioni dettagliate su come impostare l&#39;integrazione di origini e destinazioni Adobe sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.

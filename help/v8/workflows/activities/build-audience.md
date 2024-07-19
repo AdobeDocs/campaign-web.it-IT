@@ -6,7 +6,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 66%
+ht-degree: 70%
 
 ---
 
@@ -27,7 +27,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
 >[!NOTE]
 >
->I tipi di pubblico caricati da un file non possono essere targetizzati utilizzando un’attività Genera pubblico. A questo scopo, è necessario utilizzare un’ **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](../../audience/about-recipients.md)
+>I tipi di pubblico caricati da un file non possono essere targetizzati utilizzando un’attività Genera pubblico. A tale scopo, è necessario utilizzare un&#39;attività **Load file** seguita da un&#39;attività **Reconciliation**. [Ulteriori informazioni](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

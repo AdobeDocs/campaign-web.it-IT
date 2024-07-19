@@ -24,7 +24,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >* [Creare una consegna e-mail autonoma](../../email/create-email.md)
 >* [Creare una consegna SMS autonoma](../../sms/create-sms.md)
 >* [Creare una consegna push autonoma](../../push/create-push.md)
->* [Creare una consegna direct mailing autonoma](../../direct-mail/create-direct-mail.md)
+>* [Crea consegna direct mailing autonoma](../../direct-mail/create-direct-mail.md)
 
 ## Prerequisiti {#channel-activity-prereq}
 
@@ -32,15 +32,15 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 
 * Prima di inserire un’attività di canale, è necessario definire il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro della campagna, il pubblico del messaggio non è definito nell’attività del canale, ma all’interno di un’attività dedicata, ad esempio:
 
-   * A **Creare un pubblico** attività. [Ulteriori informazioni](build-audience.md).
+   * Un&#39;attività **Genera pubblico**. [Ulteriori informazioni](build-audience.md).
 
      ![](../../msg/assets/add-delivery-in-wf.png)
 
-   * A **Carica file** attività seguita da **Reconciliation** attività. [Ulteriori informazioni](load-file.md).
+   * Attività **Load file** seguita da attività **Reconciliation**. [Ulteriori informazioni](load-file.md).
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-* Per inviare una consegna ricorrente, avvia il flusso di lavoro con una **Scheduler** attività. È inoltre possibile utilizzare un’ **Scheduler** attività per singole consegne singole per impostare la data di contatto per tale consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
+* Per inviare una consegna ricorrente, avvia il flusso di lavoro con un&#39;attività **Scheduler**. Puoi anche utilizzare un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
 
 ## Configurare l’attività Canale {#create-a-delivery-in-a-workflow}
 
@@ -71,28 +71,28 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 
 Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 
-1. Aggiungi un’attività di canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
+1. Aggiungi un&#39;attività del canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
 
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
-   * A **Consegna singola** è una consegna in un’unica soluzione, inviata una sola volta, ad esempio un’e-mail del Black Friday.
-   * A **Consegna ricorrente** viene inviato più volte in base alla frequenza di esecuzione definita in un [attività di pianificazione](scheduler.md). Ogni volta che viene eseguito il flusso di lavoro, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
+   * Una **consegna singola** è una consegna one-shot, inviata una sola volta, ad esempio un&#39;e-mail del Black Friday.
+   * Una **consegna ricorrente** viene inviata più volte in base alla frequenza di esecuzione definita in una [attività di pianificazione](scheduler.md). Ogni volta che viene eseguito il flusso di lavoro, il pubblico viene ricalcolato e la consegna al pubblico aggiornato viene inviata con il contenuto aggiornato. Ad esempio, una newsletter settimanale o un’e-mail di compleanno ricorrente.
 
 1. Seleziona un **Modello** di consegna. I modelli sono impostazioni di consegna preconfigurate, specifiche per un canale. Per ogni canale è disponibile un modello incorporato, precompilato per impostazione predefinita. [Ulteriori informazioni](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Puoi selezionare il modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l’attività **Crea pubblico** per selezionare un pubblico con la mappatura target corretta. Ulteriori informazioni sulle mappature di destinazione in [questa sezione](../../audience/targeting-dimensions.md)
+   Puoi selezionare il modello dal riquadro a sinistra della configurazione dell’attività del canale. Se il pubblico selezionato in precedenza non è compatibile con il canale, non puoi selezionare un modello. Per risolvere questo problema, aggiorna l’attività **Crea pubblico** per selezionare un pubblico con la mappatura target corretta. Ulteriori informazioni sui mapping di destinazione in [questa sezione](../../audience/targeting-dimensions.md)
 
 1. Fai clic su **Crea consegna**. Puoi quindi definire le impostazioni dei messaggi e il contenuto nello stesso modo in cui crei una consegna autonoma. Puoi anche testare e simulare il contenuto. [Ulteriori informazioni](../../msg/gs-messages.md)
 
-1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva **Generare una transizione in uscita** per aggiungere una transizione dopo l’attività del canale.
+1. Torna al flusso di lavoro. Se desideri continuare il flusso di lavoro, attiva l&#39;opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l&#39;attività del canale.
 
 1. Fai clic su **Avvia** per avviare il flusso di lavoro.
 
    Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva la fase di preparazione dei messaggi, senza inviare immediatamente il messaggio.
 
-1. Apri l’attività del canale per confermare l’invio da **Rivedi e invia** pulsante.
+1. Apri l&#39;attività del canale per confermare l&#39;invio dal pulsante **Rivedi e invia**.
 
 1. Nella dashboard della consegna, fai clic su **Invia**.
 

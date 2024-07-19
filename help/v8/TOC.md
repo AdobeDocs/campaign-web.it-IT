@@ -6,7 +6,7 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ ht-degree: 100%
       + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
    + Avviso di consegna {#delivery-alerting}
       + [Introduzione agli avvisi sulle consegne](msg/delivery-alerting.md)
-      + [Dashboard di avvisi sulla consegna](msg/delivery-alerting-dashboards.md)
+      + [Dashboard di avvisi di consegna](msg/delivery-alerting-dashboards.md)
       + [Criteri per gli avvisi di consegna](msg/delivery-alerting-criteria.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)

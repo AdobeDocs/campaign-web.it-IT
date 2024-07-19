@@ -16,13 +16,13 @@ Alcune attività del flusso di lavoro consentono di modificare gli script nell�
 
 ## Cosa sono le variabili evento {#scripting}
 
-Gli script eseguiti nel contesto di un workflow accedono a una serie di **oggetti** ad esempio il flusso di lavoro stesso in esecuzione (`ìnstance`), le sue varie attività (`task`) o gli eventi che hanno attivato una determinata attività (`event`).
+Gli script eseguiti nel contesto di un flusso di lavoro accedono a una serie di **oggetti** globali aggiuntivi, ad esempio il flusso di lavoro stesso in esecuzione (`ìnstance`), le varie attività (`task`) o gli eventi che hanno attivato una determinata attività (`event`).
 
-A ogni tipo di **oggetto** è associato a una categoria di **Variabili** che possono essere utilizzate nell’editor espressioni durante la modifica di script in attività come **[!UICONTROL Codice JavaScript]** o **[!UICONTROL Test]**.
+A ogni tipo di **oggetto** è associata una categoria di **variabili** che possono essere utilizzate nell&#39;editor espressioni durante la modifica di script in attività quali **[!UICONTROL codice JavaScript]** o **[!UICONTROL Test]**.
 
-* **Variabili di istanza** (`instance.vars.xxx`) sono paragonabili alle variabili globali. Sono condivise da tutte le attività.
-* **Variabili attività** (`task.vars.xxx`) sono paragonabili a variabili locali. Vengono utilizzati solo dall&#39;attività corrente. Queste variabili vengono utilizzate dalle attività persistenti per conservare i dati e talvolta vengono utilizzate per scambiare dati tra i diversi script di una stessa attività.
-* **Variabili evento** (`vars.xxx`) consente lo scambio di dati tra le attività elementari di un processo del flusso di lavoro. Queste variabili vengono passate dall&#39;attività che ha attivato l&#39;attività in corso. Vengono quindi passate alle seguenti attività. **Variabili evento** sono le variabili utilizzate più di frequente e devono essere utilizzate al posto delle variabili di istanza.
+* **Le variabili di istanza** (`instance.vars.xxx`) sono paragonabili alle variabili globali. Sono condivise da tutte le attività.
+* **Le variabili attività** (`task.vars.xxx`) sono paragonabili alle variabili locali. Vengono utilizzati solo dall&#39;attività corrente. Queste variabili vengono utilizzate dalle attività persistenti per conservare i dati e talvolta vengono utilizzate per scambiare dati tra i diversi script di una stessa attività.
+* **Le variabili evento** (`vars.xxx`) consentono lo scambio di dati tra le attività elementari di un processo di workflow. Queste variabili vengono passate dall&#39;attività che ha attivato l&#39;attività in corso. Vengono quindi passate alle seguenti attività. **Le variabili evento** sono le variabili utilizzate più di frequente e devono essere utilizzate al posto delle variabili di istanza.
 
 >[!NOTE]
 >
@@ -36,4 +36,4 @@ Le variabili di evento predefinite sono disponibili per l’utilizzo nel riquadr
 
 ![](assets/event-variables.png)
 
-Oltre a queste variabili evento, puoi anche sfruttare **[!UICONTROL Condizioni]** nel riquadro a sinistra per creare le condizioni e il **[!UICONTROL Aggiungi data corrente]** per utilizzare le funzioni relative alla formattazione della data.
+Oltre a queste variabili evento, puoi anche sfruttare il menu **[!UICONTROL Condizioni]** nel riquadro a sinistra per creare le condizioni e il menu **[!UICONTROL Aggiungi data corrente]** per utilizzare le funzioni relative alla formattazione delle date.

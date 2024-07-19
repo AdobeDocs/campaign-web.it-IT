@@ -19,7 +19,7 @@ ht-degree: 19%
 
 
 
-I Campi personalizzati sono ulteriori attributi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+I Campi personalizzati sono ulteriori attributi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
 Questi campi personalizzati vengono visualizzati in varie schermate, ad esempio nei dettagli di un profilo o di un profilo di test.
 
@@ -38,28 +38,28 @@ I campi personalizzati sono disponibili nei seguenti schemi:
 
 Per configurare i campi personalizzati, effettua le seguenti operazioni:
 
-1. Sotto **Amministrazione**, fai clic su **Schemi**.
+1. In **Amministrazione**, fare clic su **Schemi**.
 
    ![](assets/custom-fields.png){zoomable="yes"}
 
-1. Individua lo schema desiderato, ad esempio **Destinatari (nms)** schema.
+1. Individua lo schema desiderato, ad esempio lo schema **Destinatari (nms)**.
 
    ![](assets/custom-fields2.png){zoomable="yes"}
 
-1. Fai clic su **Altre azioni** e seleziona **Modifica dettagli personalizzati**.
+1. Fai clic sul pulsante **Altre azioni** e seleziona **Modifica dettagli personalizzati**.
 
    ![](assets/custom-fields3.png){zoomable="yes"}
 
-   Il **Modifica dettagli personalizzati** nella schermata vengono visualizzati tutti i campi personalizzati e il relativo tipo.
+   Nella schermata **Modifica dettagli personalizzati** vengono visualizzati tutti i campi personalizzati e il relativo tipo.
 
    ![](assets/custom-fields4.png){zoomable="yes"}
 
    Questa schermata consente di eseguire le azioni seguenti:
 
    * modificare l&#39;ordine dei diversi campi utilizzando le frecce su e giù.
-   * rendere il campo obbligatorio: seleziona la **Obbligatorio** casella.
-   * rendere visibile o nascondere il campo: fare clic sul pulsante **Visibile** pulsante.
-   * aggiungi una condizione di visibilità: fai clic su **Visibile se** e scrivere l’espressione xtk utilizzando le funzioni xtk disponibili.
+   * rendi il campo obbligatorio: seleziona la casella **Obbligatorio**.
+   * rendere visibile o nascondere il campo: fare clic sul pulsante **Visibile**.
+   * aggiungi una condizione di visibilità: fai clic sul pulsante **Visible if** e scrivi l&#39;espressione xtk utilizzando le funzioni xtk disponibili.
 
 1. Passa alla schermata che visualizza il campo personalizzato. Nel nostro esempio, si tratta della schermata dei dettagli del profilo.
 

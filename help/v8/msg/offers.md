@@ -5,7 +5,7 @@ description: Scopri come aggiungere e inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '760'
 ht-degree: 67%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 67%
 
 # Aggiungere offerte ai messaggi {#offers-content}
 
-Puoi aggiungere offerte alle consegne nell’interfaccia utente web di Adobe Campaign. Queste offerte sono disponibili nella **Offerte** menu a sinistra che consente di accedere all’elenco delle offerte. Tutte queste offerte sono di sola lettura e devono essere state create nella console client di Campaign utilizzando **[!UICONTROL Interazione]** modulo. Per ulteriori informazioni su Interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Puoi aggiungere offerte alle consegne nell’interfaccia utente web di Adobe Campaign. Queste offerte sono disponibili dal menu a sinistra **Offerte** che consente di accedere all&#39;elenco delle offerte. Tutte queste offerte sono di sola lettura e devono essere state create nella console client di Campaign utilizzando il modulo **[!UICONTROL Interaction]**. Per ulteriori informazioni su Interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
 
 I passaggi per inviare offerte con una consegna sono i seguenti:
@@ -39,13 +39,13 @@ Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicat
 
 1. Fai clic su **[!UICONTROL Configura le offerte]** dalla schermata di modifica del contenuto della consegna.
 
-   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-setup.png){zoomable="yes"}
 
 1. Configura le offerte da proporre ai destinatari.
 
-   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nel [Documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}.
+   Seleziona prima lo **[!UICONTROL Spazio dell’offerta]** che corrisponde all’ambiente dell’offerta. Scopri come creare uno spazio delle offerte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}.
 
-   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. Per perfezionare le offerte scelte dal motore, seleziona la **[!UICONTROL Categoria offerta]** in base alla quale ordinare le offerte.
 
@@ -77,7 +77,7 @@ Dopo aver configurato le offerte da proporre nella consegna, puoi inserirle nel 
 
 ## Inserire offerte nella consegna {#insert}
 
-Le offerte possono essere aggiunte alla consegna utilizzando [editor di espressioni](../personalization/gs-personalization.md#access). Possono essere inserite nella riga dell’oggetto o nel corpo della consegna.
+Le offerte possono essere aggiunte alla consegna utilizzando l&#39;[editor espressioni](../personalization/gs-personalization.md#access). Possono essere inserite nella riga dell’oggetto o nel corpo della consegna.
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ Per inserire un’offerta tramite l’editor di espressioni, segui la procedura 
 
 1. Posiziona il cursore del mouse nel punto in cui desideri inserire l’offerta e apri l’editor di espressioni utilizzando l’icona di personalizzazione.
 
-   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
 1. Seleziona il menu **[!UICONTROL Proposte]**. Le proposte disponibili vengono visualizzate nell’elenco.
 
@@ -99,7 +99,7 @@ Per inserire un’offerta tramite l’editor di espressioni, segui la procedura 
 
 1. Definisci ogni proposta utilizzando i campi di personalizzazione, le funzioni di rendering o gli attributi di offerta disponibili.
 
-   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
+   ![](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >

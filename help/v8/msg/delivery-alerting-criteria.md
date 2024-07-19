@@ -19,7 +19,7 @@ ht-degree: 26%
 
 L’interfaccia utente di Campaign Web fornisce criteri di avviso predefiniti (consegne con bassa velocità effettiva, consegne la cui preparazione non è riuscita...) che puoi aggiungere al dashboard. Puoi anche creare criteri personalizzati in base alle tue esigenze.
 
-I criteri di avviso sono accessibili dalla sezione **Avvisi sulla consegna** nel riquadro di navigazione a sinistra, sotto il **Criteri** scheda.
+I criteri di avviso sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Criteri**.
 
 ![](assets/alerting-criteria-list.png)
 
@@ -27,17 +27,17 @@ I criteri di avviso sono accessibili dalla sezione **Avvisi sulla consegna** nel
 
 Nell’interfaccia utente di Campaign Web sono disponibili criteri di avviso predefiniti. Tali criteri coprono una serie di scenari, elencati di seguito:
 
-* **Consegne non riuscite**: qualsiasi consegna pianificata all’interno di un intervallo definito, con uno stato errato.
-* **Consegne con preparazione non riuscita**: qualsiasi consegna modificata all’interno di un intervallo definito, per la quale la fase di preparazione (calcolo del target e generazione del contenuto) non è riuscita.
-* **Consegna con percentuale di errori errata per mancati recapiti non permanenti**: qualsiasi consegna pianificata all’interno di un intervallo definito, con uno stato almeno In corso, con un rapporto di errore di mancato recapito non permanente maggiore di una percentuale definita.
-* **Consegna con percentuale di errori errata per mancati recapiti permanenti**: qualsiasi consegna pianificata all’interno di un intervallo definito, con uno stato almeno In corso, con un rapporto di errore per mancati recapiti permanenti superiore a una percentuale definita.
-* **Consegne con inizio lungo in sospeso**: qualsiasi consegna pianificata all’interno di un intervallo definito, con uno stato Start in sospeso più lungo di una durata definita. Lo stato Start in sospeso indica che i messaggi non sono ancora stati presi in considerazione dal sistema.
-* **Consegne a bassa velocità**: qualsiasi consegna avviata per una durata superiore a una determinata, con meno di una percentuale definita di messaggi elaborati, con una velocità effettiva inferiore a un valore definito.
-* **Consegne in corso**: qualsiasi consegna pianificata all’interno di un intervallo definito, con lo stato In corso.
+* **Consegne non riuscite**: qualsiasi consegna pianificata entro un intervallo definito, con uno stato errato.
+* **Consegne con preparazione non riuscita**: qualsiasi consegna modificata all&#39;interno di un intervallo definito, per la quale la fase di preparazione (calcolo della destinazione e generazione del contenuto) non è riuscita.
+* **Consegna con percentuale di errori non validi per mancati recapiti non permanenti**: qualsiasi consegna pianificata all&#39;interno di un intervallo definito, con uno stato almeno In corso, con una percentuale di errori non permanenti maggiore di una percentuale definita.
+* **Consegna con percentuale di errori non validi per mancati recapiti permanenti**: qualsiasi consegna pianificata all&#39;interno di un intervallo definito, con uno stato almeno In corso, con un tasso di errore non recapitato maggiore di una percentuale definita.
+* **Consegne con inizio lungo in sospeso**: qualsiasi consegna pianificata all&#39;interno di un intervallo definito, con uno stato Avvio in sospeso per un periodo di tempo superiore a quello definito. Lo stato Avvio in sospeso indica che i messaggi non sono ancora stati presi in considerazione dal sistema.
+* **Consegne con bassa velocità effettiva**: qualsiasi consegna iniziata per un periodo di tempo superiore a quello definito, con meno di una percentuale definita di messaggi elaborati, con una velocità effettiva inferiore a un valore definito.
+* **Consegne in corso**: qualsiasi consegna pianificata entro un intervallo definito, con lo stato In corso.
 
 >[!NOTE]
 >
->I valori predefiniti vengono applicati a tutti i parametri per i criteri di cui sopra. Questi valori possono essere personalizzati nel **Parametri dei criteri** nelle dashboard degli avvisi di consegna in cui vengono utilizzati. [Scopri come utilizzare le dashboard](../msg/delivery-alerting-dashboards.md)
+>I valori predefiniti vengono applicati a tutti i parametri per i criteri di cui sopra. Questi valori possono essere personalizzati nella sezione **Parametri dei criteri** dei dashboard di avviso sulla consegna in cui vengono utilizzati. [Scopri come utilizzare i dashboard](../msg/delivery-alerting-dashboards.md)
 
 ## Creare un criterio di avviso {#criteria}
 
@@ -68,26 +68,26 @@ Nell’interfaccia utente di Campaign Web sono disponibili criteri di avviso pre
 
 Per creare un nuovo criterio, effettua le seguenti operazioni:
 
-1. Accedi a **Avvisi di consegna** nel riquadro di navigazione a sinistra e selezionare **Criteri** scheda.
-1. Fai clic su **Creare criteri di avviso sulla consegna** pulsante.
+1. Passa al menu **Delivery Àlerting** nel riquadro di navigazione a sinistra e seleziona la scheda **Criteri**.
+1. Fai clic sul pulsante **Crea criteri di avviso consegna**.
 1. Fornisci un’etichetta per il criterio. Il nome interno viene popolato automaticamente e di sola lettura.
-1. Il **Filtro di consegna applicato da questo criterio** consente di perfezionare l’ambito del criterio applicando a esso un filtro predefinito.
+1. Il filtro di consegna **applicato da questo criterio** consente di perfezionare l&#39;ambito del criterio applicando un filtro predefinito.
 
-   Nell’esempio seguente, il **Consegne in corso (critInProgressDeliveries)** È stato selezionato un filtro, il che significa che il criterio prende in considerazione solo le consegne con lo stato &quot;In corso&quot;.
+   Nell&#39;esempio seguente, il filtro **Consegne in corso (critInProgressDeliveries)** è stato selezionato, il che significa che il criterio prende in considerazione solo le consegne con lo stato &quot;In corso&quot;.
 
    ![](assets/alerting-criteria-properties.png)
 
    >[!NOTE]
    >
-   >Se nessuno dei filtri predefiniti soddisfa le tue esigenze, puoi contattare il tuo amministratore per creare un filtro personalizzato.  Informazioni dettagliate su come creare filtri predefiniti nella console Campaign sono disponibili nel [Documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}
+   >Se nessuno dei filtri predefiniti soddisfa le tue esigenze, puoi contattare il tuo amministratore per creare un filtro personalizzato.  Informazioni dettagliate su come creare filtri predefiniti nella console Campaign sono disponibili nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}
    >
    >Questa operazione deve essere eseguita solo da utenti esperti.
 
-1. In **Indicatori da aggiungere agli avvisi** , scegli gli indicatori da visualizzare come colonne nella sezione &quot;Dettagli&quot; degli avvisi e-mail.
+1. Nella sezione **Indicatori da aggiungere negli avvisi**, scegli gli indicatori da visualizzare come colonne nella sezione &quot;Dettagli&quot; degli avvisi e-mail.
 
 1. Specifica il **Tipo di avviso** per il criterio, ovvero l’etichetta e il colore da mostrare accanto al criterio di consegna nella sezione “Riepilogo” degli avvisi.
 
-1. Il **Frequenza criteri** Questa sezione ti consente di controllare la frequenza giornaliera degli avvisi per ogni consegna che soddisfa il criterio:
+1. La sezione **Frequenza criteri** ti consente di controllare la frequenza giornaliera degli avvisi per ogni consegna che soddisfa il criterio:
 
-   * **Questo criterio di consegna verrà ripetuto in ogni notifica**: mostra una consegna che soddisfa il criterio in ogni avviso e-mail della giornata.
-   * **Questo criterio di consegna viene inviato solo alla prima occorrenza del giorno**: mostra una consegna che soddisfa il criterio solo nel primo rapporto della giornata, non ripetuta negli avvisi e-mail successivi.
+   * **Questo criterio di consegna verrà ripetuto in ogni notifica**: visualizza una consegna che soddisfa il criterio in ogni avviso e-mail della giornata.
+   * **Questo criterio di consegna viene inviato solo alla prima occorrenza del giorno**: visualizza una consegna che soddisfa il criterio solo nel primo rapporto del giorno, non ripetuta negli avvisi e-mail successivi.

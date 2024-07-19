@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Utilizzare l’attività del flusso di lavoro Codice JavaScript
+title: Utilizzare l’attività del flusso di lavoro codice JavaScript
 description: Scopri come utilizzare l’attività del flusso di lavoro del codice JavaScript
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
@@ -32,48 +32,48 @@ ht-degree: 29%
 >title="Transizione JavaScript"
 >abstract="Per aggiungere più transizioni di output, fai clic sul pulsante **[!UICONTROL Aggiungi transizioni]**. Questo ti consente, ad esempio, di attivare una determinata transizione basata su una condizione specifica definita nell’attività Codice JavaScript. Questa opzione è disponibile solo per le attività Codice JavaScript **Avanzate**."
 
-Il **Codice JavaScript** l&#39;attività è un **Gestione dei dati** attività. Utilizza questa attività per eseguire uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di raccogliere informazioni dal database o di eseguire altre operazioni complesse.
+L&#39;attività **codice JavaScript** è un&#39;attività **Gestione dati**. Utilizza questa attività per eseguire uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di raccogliere informazioni dal database o di eseguire altre operazioni complesse.
 
 ## Configurare l’attività del codice JavaScript {#javascript-code-configuration}
 
-Per configurare il **Codice JavaScript** attività:
+Per configurare l&#39;attività **codice JavaScript**, eseguire la procedura seguente:
 
-1. Aggiungi un **Codice JavaScript** attività nel flusso di lavoro.
+1. Aggiungi un&#39;attività **codice JavaScript** al flusso di lavoro.
 
 1. Scegli il tipo di attività da creare:
 
-   * **Semplice**: esegui un frammento di codice.
-   * **Avanzate**: questa opzione consente di eseguire operazioni più avanzate eseguendo due diversi snippet di codice. [Scopri come configurare un’attività JavaScript avanzata](#advanced)
+   * **Semplice**: eseguire uno snippet di codice.
+   * **Avanzate**: questa opzione consente di eseguire operazioni più avanzate eseguendo due diversi snippet di codice. [Scopri come configurare un&#39;attività JavaScript avanzata](#advanced)
 
    >[!NOTE]
    >
-   >Con l’interfaccia utente di Campaign Web, abbiamo consolidato due attività in una unendo entrambe **Semplice** e **Avanzate** Funzionalità del codice JavaScript. Questo consolidamento non influisce in alcun modo sulla funzionalità dell’attività.
+   >Con l&#39;interfaccia utente di Campaign Web, sono state consolidate due attività in un&#39;unica attività unendo le funzionalità del codice JavaScript **Semplice** e **Avanzate**. Questo consolidamento non influisce in alcun modo sulla funzionalità dell’attività.
 
-1. Conferma quindi fai clic su **[!UICONTROL Modifica codice]** per aprire l’editor di espressioni. Il riquadro a sinistra fornisce sintassi predefinite che è possibile utilizzare per creare il codice, incluse le variabili evento. [Scopri come utilizzare le variabili evento e l’editor di espressioni](../event-variables.md)
+1. Conferma quindi fai clic sul pulsante **[!UICONTROL Modifica codice]** per aprire l&#39;editor espressioni. Il riquadro a sinistra fornisce sintassi predefinite che è possibile utilizzare per creare il codice, incluse le variabili evento. [Scopri come utilizzare le variabili evento e l&#39;editor di espressioni](../event-variables.md)
 
    ![](../assets/javascript-editor.png)
 
-1. In **[!UICONTROL Esecuzione]** , configura il ritardo per arrestare l&#39;attività dopo un periodo di esecuzione. Per impostazione predefinita, la fase di esecuzione non può superare 1 ora. Dopo questo ritardo, il processo viene interrotto con un messaggio di errore e l’esecuzione dell’attività non riesce. Per ignorare questo limite, imposta il valore su 0.
+1. Nella sezione **[!UICONTROL Esecuzione]** configurare il ritardo per interrompere l&#39;attività dopo un periodo di esecuzione. Per impostazione predefinita, la fase di esecuzione non può superare 1 ora. Dopo questo ritardo, il processo viene interrotto con un messaggio di errore e l’esecuzione dell’attività non riesce. Per ignorare questo limite, imposta il valore su 0.
 
    ![](../assets/javascript-config.png)
 
-1. Attiva **[!UICONTROL Errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva.
+1. Attiva l&#39;opzione **[!UICONTROL Elabora errori]** per mantenere gli errori che si verificano durante l&#39;esecuzione dello script in una transizione di output aggiuntiva.
 
-## Attività di codice JavaScript avanzate {#advanced}
+## Attività avanzate codice JavaScript {#advanced}
 
-Le attività JavaScript avanzate consentono di eseguire operazioni complesse. Consente di:
+Le attività avanzate di JavaScript consentono di eseguire operazioni complesse. Consente di:
 
 * Eseguire due diversi snippet di codice. Il primo frammento di codice viene eseguito la prima volta che il flusso di lavoro viene avviato. Ogni volta che il flusso di lavoro viene eseguito di nuovo, viene eseguito lo snippet di codice definito nella seconda chiamata.
 * Aggiungi più transizioni di output con cui puoi interagire in modo dinamico utilizzando uno script.
 
 Per configurare un’attività di codice JavaScript avanzato, effettua le seguenti operazioni:
 
-1. Seleziona la **Avanzate** digita, quindi configura gli snippet di codice da eseguire:
+1. Seleziona il tipo **Avanzate**, quindi configura gli snippet di codice da eseguire:
 
-   * Clic **[!UICONTROL Modifica il codice della prima chiamata]** per definire lo script da eseguire durante la prima chiamata.
-   * Clic **[!UICONTROL Modifica il codice della chiamata successiva]** per definire lo script da eseguire durante le chiamate successive del flusso di lavoro. (facoltativo)
+   * Fai clic su **[!UICONTROL Modifica codice prima chiamata]** per definire lo script da eseguire durante la prima chiamata.
+   * Fai clic su **[!UICONTROL Modifica codice chiamata successiva]** per definire lo script da eseguire durante le chiamate successive del flusso di lavoro. (facoltativo)
 
-1. Per aggiungere una o più transizioni di output, fare clic sul pulsante **[!UICONTROL Aggiungere transizioni]** e specifica un’etichetta e un nome interno per ciascuna transizione.
+1. Per aggiungere una o più transizioni di output, fare clic sul pulsante **[!UICONTROL Aggiungi transizioni]** e specificare un&#39;etichetta e un nome interno per ogni transizione.
 
    In questo esempio abbiamo configurato due transizioni che vengono attivate dallo script nel frammento di codice in base a condizioni specifiche.
 
@@ -96,9 +96,9 @@ In questo caso, eseguiamo il targeting dei profili VIP dal nostro database. Vogl
 
 Per farlo, segui questi passaggi:
 
-1. Aggiungi un **Codice JavaScript** attività con il tipo **Semplice** dopo il **Creare un pubblico** attività.
+1. Aggiungi un&#39;attività **Codice JavaScript** di tipo **Semplice** dopo l&#39;attività **Genera pubblico**.
 
-1. Clic **Modifica codice** e configura lo snippet di codice come segue:
+1. Fai clic su **Modifica codice** e configura lo snippet di codice come segue:
 
    ```
    if (vars.recCount > 1000)
@@ -107,7 +107,7 @@ Per farlo, segui questi passaggi:
        vars.channel = "sms"
    ```
 
-1. Avvia il flusso di lavoro. La variabile &quot;channel&quot; viene creata con il valore &quot;email&quot; o &quot;sms&quot;, a seconda del numero di profili interessati dal **Creare un pubblico** attività.
+1. Avvia il flusso di lavoro. La variabile &quot;channel&quot; viene creata con il valore &quot;email&quot; o &quot;sms&quot;, a seconda del numero di profili interessati dall&#39;attività **Build audience**.
 
 ### Attiva le transizioni in base al valore di una variabile {#example2}
 
@@ -115,17 +115,17 @@ Questo esempio mostra come attivare una transizione basata sul valore di una var
 
 ![](../assets/javascript-example2-transitions.png)
 
-In questo caso, il flusso di lavoro inizia con **Segnale esterno** attività, in cui una variabile (`interest`) viene passato da un altro flusso di lavoro. Il valore della variabile è &quot;in esecuzione&quot; o &quot;yoga&quot;, a seconda delle operazioni di filtro eseguite nel flusso di lavoro iniziale.
+In questo caso, il flusso di lavoro inizia con un&#39;attività **External signal**, in cui viene passata una variabile (`interest`) da un altro flusso di lavoro. Il valore della variabile è &quot;in esecuzione&quot; o &quot;yoga&quot;, a seconda delle operazioni di filtro eseguite nel flusso di lavoro iniziale.
 
 Vogliamo attivare diverse transizioni nel flusso di lavoro, in base al valore della variabile.
 
 Per farlo, segui questi passaggi:
 
-1. Aggiungi un **Codice JavaScript** attività dopo l’attività External signal con il tipo **Avanzate**.
+1. Aggiungi un&#39;attività **Codice JavaScript** dopo l&#39;attività External signal con tipo **Avanzate**.
 
 1. Aggiungi due transizioni: una per ogni possibile valore della variabile (&quot;in esecuzione&quot;, &quot;yoga&quot;).
 
-1. Clic **Modifica il codice della prima chiamata** e configura lo snippet di codice come segue:
+1. Fai clic su **Modifica codice prima chiamata** e configura lo snippet di codice come segue:
 
    ```
    if (vars.interest=="running")
@@ -134,4 +134,4 @@ Per farlo, segui questi passaggi:
        task.postEvent(task.transitionByName("yoga"));
    ```
 
-1. Completa la configurazione di ciascuna transizione in base alle tue esigenze, quindi avvia il flusso di lavoro. Viene attivata una delle due transizioni di output, in base al valore della `interest` variabile passata tramite **Segnale esterno** attività.
+1. Completa la configurazione di ciascuna transizione in base alle tue esigenze, quindi avvia il flusso di lavoro. Una delle due transizioni di output è attivata in base al valore della variabile `interest` passata tramite l&#39;attività **External signal**.

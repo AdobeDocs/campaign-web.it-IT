@@ -5,8 +5,8 @@ description: Scopri come inviare la prima e-mail con l’interfaccia utente web 
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 83%
+source-wordcount: '1348'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
    >
    >I modelli sono impostazioni di consegna preconfigurate e salvate per poter essere riutilizzate. [Ulteriori informazioni](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/channel-template.png){zoomable="yes"}
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 1. Specifica un’etichetta per la consegna e configura opzioni aggiuntive in base alle tue esigenze:
@@ -65,7 +65,7 @@ Per creare una nuova consegna e-mail autonoma, segui i passaggi indicati di segu
    >
    >Se hai esteso lo schema con campi personalizzati specifici, puoi accedervi nella sezione **[!UICONTROL Opzioni personalizzate]**.
 
-   ![](assets/email-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-properties.png){zoomable="yes"}
 
 1. Inoltre, è possibile accedere alle impostazioni avanzate, come le regole di tipologia e le mappature dei target, tramite il pulsante **[!UICONTROL Impostazioni]** che si trova in alto a destra della schermata. Queste impostazioni sono preconfigurate nel modello selezionato, ma possono essere modificate in base alle esigenze per questo specifico messaggio e-mail. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
@@ -86,7 +86,7 @@ Per istruzioni su come lavorare con i tipi di pubblico, consulta [questa sezione
 
    In questo esempio, verrà utilizzato un pubblico di targeting esistente per i clienti appartenenti ai livelli di punti fedeltà Silver e Gold.
 
-   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Per istruzioni su come lavorare con i tipi di pubblico, consulta [questa sezione
 
 1. Una volta selezionato il pubblico, puoi perfezionare ulteriormente il target applicando regole aggiuntive.
 
-   ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
+   ![](assets/audience-selected.png){zoomable="yes"}
 
 1. Puoi anche impostare un gruppo di controllo per analizzare il comportamento dei destinatari delle e-mail rispetto a quelli non interessati dal targeting. [Scopri come utilizzare i gruppi di controllo](../audience/control-group.md)
 
@@ -106,43 +106,43 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 1. Nella dashboard della consegna e-mail, fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
-   ![](assets/email-edit-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content.png){zoomable="yes"}
 
    Viene visualizzata un’interfaccia dedicata in cui puoi configurare il contenuto dell’e-mail e accedere a E-mail designer. [Ulteriori informazioni](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/edit-content.png){zoomable="yes"}
 
 1. Immetti l’oggetto dell’e-mail e personalizzalo utilizzando l’editor di espressioni. [Scopri come personalizzare i contenuti](../personalization/personalize.md)
 
-   ![](assets/subject-line.png){zoomable=&quot;yes&quot;}
+   ![](assets/subject-line.png){zoomable="yes"}
 
 1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
    Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](create-email-templates.md).
 
-   ![](assets/select-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-template.png){zoomable="yes"}
 
 1. Dopo aver selezionato il modello, questo viene visualizzato in [E-mail designer](create-email-content.md), dove puoi apportare le modifiche necessarie e aggiungere la personalizzazione.
 
    Ad esempio, per aggiungere la personalizzazione al titolo dell’e-mail, seleziona il blocco del componente e fai clic su **[!UICONTROL Aggiungi personalizzazione]**.
 
-   ![](assets/add-perso.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-perso.png){zoomable="yes"}
 
 1. Una volta ottenuto il contenuto desiderato, salva e chiudi il progetto. Fai clic su **[!UICONTROL Salva]** per tornare alla schermata di creazione dell’e-mail.
 
-   ![](assets/save-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/save-content.png){zoomable="yes"}
 
 ## Pianificare l’invio {#schedule}
 
-Quando una consegna viene inviata nel contesto di un flusso di lavoro, devi utilizzare **Scheduler** attività. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
+Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
 
-1. Accedi a **[!UICONTROL Pianificazione]** sezione delle proprietà di consegna.
+1. Passa alla sezione **[!UICONTROL Pianificazione]** delle proprietà di consegna.
 
 1. Utilizza l’opzione **[!UICONTROL Abilita pianificazione]** per attivarla.
 
 1. Imposta la data e l’ora desiderate per l’invio.
 
-   ![](assets/schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/schedule.png){zoomable="yes"}
 
 Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto definita.
 
@@ -154,42 +154,42 @@ Prima di inviare l’e-mail, puoi visualizzarla in anteprima e testarla per assi
 
 In questo caso d’uso, puoi visualizzare in anteprima il messaggio e-mail e inviare bozze a indirizzi e-mail specifici, rappresentando al contempo alcuni dei profili target.
 
-Ulteriori informazioni su come visualizzare in anteprima un’e-mail e inviare bozze sono disponibili in [questa sezione](../preview-test/preview-test.md).
+Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare bozze sono disponibili in [questa sezione](../preview-test/preview-test.md).
 
 1. Per esaminare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, nonché tutte le proprietà, il pubblico e la pianificazione configurati. Per modificare uno di questi elementi, fai clic sul pulsante Modifica.
 
-1. Per visualizzare in anteprima l’e-mail e inviare le bozze, fai clic sul pulsante **[!UICONTROL Simula contenuto]** pulsante.
+1. Per visualizzare l&#39;anteprima dell&#39;e-mail e inviare le bozze, fare clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
-   ![](assets/review-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/review-email.png){zoomable="yes"}
 
 1. Sul lato sinistro, seleziona i profili da utilizzare per visualizzare l’anteprima del messaggio e-mail.
 
    Nel riquadro a destra viene visualizzata un’anteprima del messaggio e-mail in base al profilo selezionato. Se hai aggiunto più profili, puoi passare da un profilo all’altro per visualizzare in anteprima l’e-mail corrispondente.
 
-   ![](assets/preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/preview.png){zoomable="yes"}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Per inviare le bozze, fai clic su **[!UICONTROL Inviare bozze]** quindi scegliere la modalità da utilizzare.
+1. Per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia bozze]**, quindi scegli la modalità da utilizzare.
 
-   In questo esempio, utilizza **[!UICONTROL Sostituisci dal target principale]** , che invia bozze a indirizzi e-mail specifici impersonando alcuni dei profili target dell’e-mail.
+   In questo esempio, utilizza la modalità **[!UICONTROL Sostituisci da destinazione principale]**, che invia bozze a indirizzi e-mail specifici impersonando alcuni dei profili target dell&#39;e-mail.
 
-   ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-mode.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Aggiungi indirizzo]** e specifica gli indirizzi e-mail che ricevono le bozze.
+1. Fai clic su **[!UICONTROL Aggiungi indirizzo]** e specifica gli indirizzi e-mail che ricevono le bozze.
 
    Per ogni indirizzo e-mail, seleziona il profilo da impersonare. Puoi anche consentire ad Adobe Campaign di selezionare un profilo casuale dal target.
 
-   ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-test-profile.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Invia bozza]** e conferma l’invio.
+1. Fai clic su **[!UICONTROL Invia bozza]** e conferma l&#39;invio.
 
-   Le bozze vengono inviate agli indirizzi e-mail specificati utilizzando il profilo selezionato con il **[Bozza x]** prefisso.
+   Le bozze vengono inviate agli indirizzi e-mail specificati utilizzando il profilo selezionato con il prefisso **[Proof x]**.
 
-   ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
+   ![](assets/proof-sent.png){zoomable="yes"}
 
-   Puoi controllare lo stato dell’invio e accedere alle bozze inviate in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Visualizza bozze]** nella schermata simula contenuto.
+   Puoi controllare lo stato dell&#39;invio e accedere alle bozze inviate in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Visualizza bozze]** nella schermata simula contenuto.
 
 ## Inviare e monitorare l’e-mail {#prepare-send}
 
@@ -197,13 +197,13 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 1. Per avviare la preparazione dell’e-mail, fai clic su **[!UICONTROL Prepara]**. [Scopri come preparare un’e-mail](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/preparation.png){zoomable="yes"}
 
 1. Quando l’e-mail è pronta per essere inviata, fai clic sul pulsante **[!UICONTROL Invia]** (oppure su **[!UICONTROL Invia come pianificato]**, se ne hai pianificato l’invio) e conferma l’invio.
 
 1. Durante il processo di invio, puoi tracciarne l’avanzamento e visualizzare le statistiche in tempo reale direttamente in questa schermata.
 
-   ![](assets/sending-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/sending-email.png){zoomable="yes"}
 
    <!--
     ![](assets/sent-email.png){zoomable="yes"}-->
@@ -212,7 +212,7 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 1. Dopo l’invio dell’e-mail, puoi accedere ai rapporti dedicati per ulteriori analisi facendo clic sul pulsante **[!UICONTROL Reporting]**.
 
-![](assets/reports.png){zoomable=&quot;yes&quot;}
+![](assets/reports.png){zoomable="yes"}
 
 ## Video dimostrativo {#video}
 

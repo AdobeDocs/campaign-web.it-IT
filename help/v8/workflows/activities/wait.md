@@ -27,7 +27,7 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 
 1. Specifica la **Durata** dell’attesa tra le transizioni in entrata e in uscita.
 
-1. Selezionare l&#39;unità di tempo in **Periodi** campo: secondi, minuti, ore, giorni.
+1. Selezionare l&#39;unità di tempo nel campo **Periodi**: secondi, minuti, ore, giorni.
 
 ## Esempio{#wait-example}
 

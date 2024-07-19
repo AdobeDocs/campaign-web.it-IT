@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -65,23 +65,23 @@ Questa funzionalità consente di precreare più blocchi di contenuto personalizz
 Per utilizzare al meglio i frammenti:
 
 * Crea frammenti visivi personalizzati, come descritto di seguito.
-* Puoi utilizzarli tutte le volte che è necessario nel contenuto tramite E-mail Designer. Consulta [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md).
+* Utilizzali il numero di volte necessario nel contenuto tramite E-mail Designer. Consulta [Aggiungere frammenti visivi alle e-mail](../email/use-visual-fragments.md).
 
 ## Creare un frammento visivo {#create-fragments}
 
 Esistono due modi per creare i frammenti:
 
-* Creare un frammento da zero utilizzando **[!UICONTROL Frammenti]** menu dedicato. [Scopri come](#create-from-scratch)
+* Crea un frammento da zero utilizzando il menu dedicato **[!UICONTROL Frammenti]**. [Scopri come](#create-from-scratch)
 
 * Durante la progettazione di un contenuto, salva una parte del contenuto come frammento. [Scopri come](#save-as-fragment)
 
-Una volta salvato, il frammento è disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Indipendentemente dal fatto che sia stato creato da zero o da un contenuto esistente, ora puoi utilizzare questo frammento durante la creazione di qualsiasi contenuto all’interno di Campaign. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md).
+Una volta salvato, il frammento è disponibile per l’utilizzo in un’e-mail o in un modello e-mail. Indipendentemente dal fatto che sia stato creato da zero o da un contenuto esistente, ora puoi utilizzare questo frammento durante la creazione di qualsiasi contenuto all’interno di Campaign. Vedi [Aggiungi frammenti visivi](../email/use-visual-fragments.md).
 
 ### Creare un frammento da zero {#create-from-scratch}
 
 Per creare un frammento da zero, segui la procedura riportata di seguito.
 
-1. [Accedere all’elenco dei frammenti](#access-manage-fragments) tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
+1. [Accedi all&#39;elenco di frammenti](#access-manage-fragments) tramite il menu a sinistra **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**.
 
    ![](assets/fragments-list.png)
 
@@ -97,28 +97,28 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
    >
    >Per il momento, puoi creare solo frammenti visivi.
 
-1. Fai clic su **Crea** per configurare il contenuto del frammento.
+1. Fai clic sul pulsante **Crea** per configurare il contenuto del frammento.
 
-1. Il [E-mail Designer](../email/get-started-email-designer.md) visualizzazioni. Modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di una campagna. Puoi aggiungere immagini, collegamenti, campi di personalizzazione e contenuti dinamici.
+1. Viene visualizzato [E-mail Designer](../email/get-started-email-designer.md). Modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di una campagna. Puoi aggiungere immagini, collegamenti, campi di personalizzazione e contenuti dinamici.
 
    ![](assets/fragment-designer.png)
 
-1. Quando il frammento è pronto, fai clic su **[!UICONTROL Salva e chiudi]**. Viene aggiunto al [elenco frammenti](#access-manage-fragments).
+1. Quando il frammento è pronto, fai clic su **[!UICONTROL Salva e chiudi]**. È stato aggiunto all&#39;[elenco frammenti](#access-manage-fragments).
 
-Questo frammento è ora pronto per essere utilizzato durante la creazione di qualsiasi [email](../email/get-started-email-designer.md) o [modello di contenuto](use-email-templates.md) all’interno di Campaign. [Scopri come](../email/use-visual-fragments.md)
+Questo frammento è ora pronto per essere utilizzato quando si crea un [e-mail](../email/get-started-email-designer.md) o un [modello di contenuto](use-email-templates.md) all&#39;interno di Campaign. [Scopri come](../email/use-visual-fragments.md)
 
 
 ### Salvare un contenuto come frammento {#save-as-fragment}
 
-Qualsiasi contenuto e-mail può essere salvato come frammento per riutilizzi futuri. Durante la progettazione di un [modello di contenuto](use-email-templates.md) o un [email](../email/get-started-email-designer.md) di distribuzione, puoi salvare una parte del contenuto come frammento visivo. A questo scopo, segui la procedura indicata di seguito:
+Qualsiasi contenuto e-mail può essere salvato come frammento per riutilizzi futuri. Durante la progettazione di un [modello di contenuto](use-email-templates.md) o di una consegna [e-mail](../email/get-started-email-designer.md), puoi salvare una parte del contenuto come frammento visivo. A questo scopo, segui la procedura indicata di seguito:
 
-1. In [E-mail Designer](../email/get-started-email-designer.md), fare clic su **Altro** in alto a destra.
+1. In [E-mail Designer](../email/get-started-email-designer.md), fai clic sul pulsante **Altro** in alto a destra dello schermo.
 
 1. Seleziona **[!UICONTROL Salva come frammento]** dal menu a discesa.
 
    ![](assets/fragment-save-as.png)
 
-1. Il **[!UICONTROL Salva come frammento]** schermo. Seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico.
+1. Viene visualizzata la schermata **[!UICONTROL Salva come frammento]**. Seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico.
 
    >[!CAUTION]
    >
@@ -130,7 +130,7 @@ Qualsiasi contenuto e-mail può essere salvato come frammento per riutilizzi fut
 
    ![](assets/fragment-save-confirm.png)
 
-   Questo contenuto è ora un frammento autonomo , aggiunto al [elenco frammenti](#manage-fragments), e accessibile dal menu dedicato. Ora puoi utilizzare questo frammento durante la creazione di qualsiasi [email](../email/get-started-email-designer.md) o [modello di contenuto](use-email-templates.md) all’interno di Campaign. [Scopri come](../email/use-visual-fragments.md)
+   Il contenuto è ora un frammento autonomo , aggiunto all&#39;[elenco frammenti](#manage-fragments) e accessibile dal menu dedicato. Ora puoi utilizzare questo frammento durante la creazione di qualsiasi [e-mail](../email/get-started-email-designer.md) o [modello di contenuto](use-email-templates.md) all&#39;interno di Campaign. [Scopri come](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
@@ -144,8 +144,8 @@ Qualsiasi contenuto e-mail può essere salvato come frammento per riutilizzi fut
 
 Per modificare un frammento, effettua le seguenti operazioni.
 
-1. Fai clic sul nome del frammento da modificare dal menu **[!UICONTROL Frammenti]** elenco.
-1. Fai clic su **Modifica contenuto** per aprire il contenuto di questo frammento.
+1. Fare clic sul nome del frammento da modificare dall&#39;elenco **[!UICONTROL Frammenti]**.
+1. Fai clic sul pulsante **Modifica contenuto** per aprire il contenuto di questo frammento.
 
    ![](assets/fragment-edit-content.png)
 
@@ -160,22 +160,22 @@ Per modificare un frammento, effettua le seguenti operazioni.
 
 Per eliminare un frammento, effettua le seguenti operazioni:
 
-1. Individua l’elenco dei frammenti e fai clic su **[!UICONTROL Altre azioni]** accanto al frammento da eliminare.
-1. Clic **Elimina** e confermare.
+1. Individua l&#39;elenco dei frammenti e fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al frammento da eliminare.
+1. Fai clic su **Elimina** e conferma.
 
    ![](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->Durante l’eliminazione di un frammento di contenuto, le consegne e i modelli e-mail che lo utilizzano vengono aggiornati: il frammento viene rimosso dal contenuto dell’e-mail, ma vi si fa ancora riferimento. Per mantenere il contenuto del frammento in tali consegne e modelli, è necessario interrompere l’ereditarietà prima di eliminare il frammento, [come descritto in questa sezione](use-visual-fragments.md#break-inheritance).
+>Durante l’eliminazione di un frammento di contenuto, le consegne e i modelli e-mail che lo utilizzano vengono aggiornati: il frammento viene rimosso dal contenuto dell’e-mail, ma vi si fa ancora riferimento. Per mantenere il contenuto del frammento in tali consegne e modelli, è necessario interrompere l&#39;ereditarietà prima di eliminare il frammento, [come descritto in questa sezione](use-visual-fragments.md#break-inheritance).
 >
 
 ### Duplicare un frammento {#duplicate-fragments}
 
 Puoi duplicare facilmente un frammento per crearne uno nuovo. Per duplicare un frammento esistente, effettua le seguenti operazioni:
 
-1. Individua l’elenco dei frammenti e fai clic su **[!UICONTROL Altre azioni]** accanto al frammento da eliminare.
-1. Clic **Duplica** e confermare.
+1. Individua l&#39;elenco dei frammenti e fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al frammento da eliminare.
+1. Fai clic su **Duplica** e conferma.
 1. Inserisci l’etichetta del nuovo frammento e salva le modifiche.
 
    Il frammento viene aggiunto all’elenco dei frammenti. Puoi modificarlo e configurarlo in base alle esigenze.

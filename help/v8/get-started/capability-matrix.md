@@ -4,7 +4,7 @@ title: Matrice di funzionalità dell’interfaccia utente/console client di Camp
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2141'
 ht-degree: 100%
 

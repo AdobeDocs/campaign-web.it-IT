@@ -5,7 +5,7 @@ description: Scopri come modificare il contenuto delle e-mail nell’interfaccia
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '624'
 ht-degree: 98%
 
 ---
@@ -47,11 +47,11 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla schermata della [dashboard di consegna e-mail](../email/create-email.md).
 
-   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. Viene visualizzata la schermata di modifica del contenuto dell’e-mail.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
 1. Espandi la sezione **[!UICONTROL Campi Rispondi a]**. Il nome e gli indirizzi del mittente vengono utilizzati per le risposte per impostazione predefinita. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
 1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato oppure apri l’editor di espressioni per aggiungere la [personalizzazione](../personalization/personalize.md) mediante vari attributi e blocchi di contenuto o offerte.
 

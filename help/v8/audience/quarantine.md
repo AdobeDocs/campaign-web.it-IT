@@ -2,7 +2,8 @@
 audience: end-user
 title: Informazioni sulla quarantena
 description: Comprendere la gestione degli indirizzi in quarantena
-source-git-commit: 9abf58c35fcf396e3003f9ecba728cd77df844a1
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
+source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Adobe Campaign gestisce gli indirizzi in quarantena (e-mail, SMS, notifiche push).
 
-La quarantena si applica solo a un **indirizzo e-mail**, a **numero di telefono** o un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo con un indirizzo e-mail messo in quarantena può aggiornare il profilo e immettere un nuovo indirizzo, per poi essere nuovamente indirizzato mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena.
+La quarantena si applica solo a un **indirizzo e-mail**, un **numero di telefono** o un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo con un indirizzo e-mail messo in quarantena può aggiornare il profilo e immettere un nuovo indirizzo, per poi essere nuovamente indirizzato mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena.
 
 
 >[!CAUTION]
@@ -43,7 +44,7 @@ Molti motivi possono mettere un indirizzo in quarantena :
 
 ## Dove trovare gli indirizzi di quarantena
 
-Puoi visualizzare tutti gli indirizzi in quarantena della tua istanza in **[!UICONTROL Esplora]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Gestione non consegnabili]** > **[!UICONTROL Non consegnabili e indirizzi]**. In questa sezione sono elencati gli elementi messi in quarantena per i canali e-mail, SMS e di notifiche push.
+Puoi visualizzare tutti gli indirizzi di quarantena della tua istanza in **[!UICONTROL Explorer]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Gestione non deliverable]** > **[!UICONTROL Indirizzi e non deliverable]**. In questa sezione sono elencati gli elementi messi in quarantena per i canali e-mail, SMS e di notifiche push.
 
 ![](assets/quarantine_location.png){zoomable="yes"}
 
