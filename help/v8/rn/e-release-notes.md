@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 50%
+source-wordcount: '379'
+ht-degree: 55%
 
 ---
 
@@ -22,10 +22,6 @@ L’interfaccia utente di Adobe Campaign Web offre continuamente nuove funzioni,
 **Data di rilascio**: 30-31 luglio 2024
 
 Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di luglio.
-
-### Frammenti di espressione {#24-7-1}
-
-Ora puoi creare, utilizzare e gestire **frammenti di espressione** per creare rapidamente contenuti personalizzati. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più contenuti in Adobe Campaign per migliorare e accelerare il processo di progettazione.
 
 ### Elenchi seed {#24-7-2}
 
@@ -42,4 +38,26 @@ Ora puoi inviare notifiche push potenziate. Una notifica push potenziata è una 
 
 ### Miglioramenti {#improvements-24-7}
 
-* **Gestione cartelle** - È ora possibile gestire autorizzazioni e restrizioni sulle cartelle.
+**Gestione cartelle** - È ora possibile gestire autorizzazioni e restrizioni sulle cartelle.
+
+### Nuove funzioni in Disponibilità limitata {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
+>
+>Consulta le seguenti pagine della documentazione: [Transizione da Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it).
+
+#### Frammenti di contenuto {#LA-24-7}
+
+Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più contenuti in Adobe Campaign per migliorare e accelerare il processo di progettazione.
+
+* Ora puoi creare, utilizzare e gestire **frammenti di espressione** per creare rapidamente contenuti personalizzati.
+
+* Ora puoi creare, utilizzare e salvare **frammenti visivi** per assemblare rapidamente le e-mail e i modelli di contenuto. [Ulteriori informazioni](../email/fragments.md)
+
+
+
+
+
+
