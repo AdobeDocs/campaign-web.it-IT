@@ -2,7 +2,7 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ I **Campi personalizzati** sono ulteriori attributi aggiunti agli schemi predefi
 
 Nell’attività del flusso di lavoro **Arricchimento**, ora è possibile creare collegamenti con un’altra tabella. Utilizza la nuova sezione **Definizione collegamento** nei parametri dell’attività per creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei rispettivi profili. [Ulteriori informazioni](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### Miglioramenti generali {#improvements-24-5}
 
 * **Direct mail**: ora puoi sfruttare l’editor di espressioni per selezionare gli attributi da visualizzare nei file di estrazione direct mail. [Ulteriori informazioni](../direct-mail/content-direct-mail.md)
 
 * **Gestione cartelle**: è ora possibile creare una sottocartella di un tipo diverso rispetto alla cartella principale. [Ulteriori informazioni](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalizzazione**: nell’ambito del nostro impegno continuo per offrire un’esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app di Adobe Experience Cloud. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
@@ -125,22 +114,15 @@ Al momento questa funzione è presente in **Disponibilità limitata** (LA).
 ### Miglioramenti generali {#improvements-24-4}
 
 I miglioramenti riportati di seguito sono disponibili per tutti i clienti a partire dalla versione di aprile.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * L’attività **Carica file** è stata migliorata con diverse sezioni che consentono di caricare un file di esempio, gestire gli errori e i rifiuti ed eliminare i file caricati dopo l’esecuzione dell’attività. [Ulteriori informazioni](../workflows/activities/load-file.md)
 
 
 * Ora puoi **copiare e incollare le attività** da un flusso di lavoro a un altro in una scheda diversa del browser. [Ulteriori informazioni](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * Tutte le attività del flusso di lavoro ora consentono di gestire le relative **opzioni di esecuzione**. Questo consente di definire la modalità di esecuzione dell’attività e il comportamento in caso di errori. [Ulteriori informazioni](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * L’opzione “Non attivare la transizione se la popolazione è vuota” nell’**attività Dividi** consente di scegliere se il flusso di lavoro deve passare all’attività successiva quando il risultato del segmento è vuoto. [Ulteriori informazioni](../workflows/activities/split.md)
-
-
 
 ## Note sulla versione di marzo {#24-3-release}
 
