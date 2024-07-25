@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 7de6d85036eac7289e7fcf3a82a7c11be12d9c6e
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Termini di IA generativa di Adobe"
->abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Controlla l’accuratezza dell’output di questa funzione e assicurati che sia appropriato per il tuo caso d’uso."
+>abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Verifica che ogni output generato da questa funzione sia accurato e assicurati che sia appropriato al caso d’uso."
 >additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
 Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. L’Assistente per l’intelligenza artificiale in Campaign, basato su Azure OpenAI, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che rivoluziona il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand su canali diversi, come e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
