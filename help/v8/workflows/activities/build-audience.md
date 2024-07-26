@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '392'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
 * Seleziona un pubblico esistente, creato come elenco nella console client.
 * Seleziona un pubblico di Adobe Experience Platform.
-* Crea un nuovo pubblico con il generatore di modellatori di query definendo e combinando criteri di filtro.
+* Crea un nuovo pubblico con Query Modeler definendo e combinando criteri di filtro.
 
 >[!NOTE]
 >
