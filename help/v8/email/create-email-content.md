@@ -3,10 +3,10 @@ audience: end-user
 title: Creare e-mail in E-mail Designer
 description: Scopri come creare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 99%
+source-wordcount: '620'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Aggiungere strutture"
->abstract="Le strutture definiscono il layout del frammento. Per iniziare a progettare il frammento di contenuto, trascina un componente **Struttura** nell’area di lavoro."
+>abstract="Le strutture definiscono il layout del frammento di contenuto. Per iniziare a progettare il frammento di contenuto, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definizione delle colonne in un frammento"
->abstract="E-mail Designer consente di definire facilmente il layout del frammento definendone la struttura a colonne."
+>title="Definizione delle colonne dei frammenti di contenuto"
+>abstract="Il Designer e-mail consente di definire facilmente il layout del frammento di contenuto definendo la struttura delle colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

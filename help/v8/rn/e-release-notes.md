@@ -4,8 +4,8 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
-workflow-type: ht
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Ora puoi creare e utilizzare i frammenti di contenuto. Un frammento di contenuto
 Sono disponibili due tipi di frammenti:
 
 * I **frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell’editor di espressioni.
-* I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più consegne e-mail o in modelli di contenuto. [Ulteriori informazioni](../email/fragments.md)
+* I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più consegne e-mail o in modelli di contenuto. [Ulteriori informazioni](../content/fragments.md)
 
   >[!AVAILABILITY]
   >

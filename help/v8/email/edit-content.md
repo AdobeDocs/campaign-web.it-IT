@@ -3,10 +3,10 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente web di Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l’oggetto direttamente nel campo dedicato oppure apri l’editor di espressioni per aggiungere la [personalizzazione](../personalization/personalize.md) mediante vari attributi e blocchi di contenuto o offerte.
+1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l&#39;oggetto direttamente nel campo dedicato, oppure apri l&#39;editor espressioni per aggiungere [personalizzazione](../personalization/personalize.md) utilizzando vari attributi e frammenti di espressione, o offerte.
 
 1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi seleziona uno o più file.
 

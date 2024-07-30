@@ -3,10 +3,10 @@ audience: end-user
 title: Progettare una consegna SMS
 description: Scopri come progettare la consegna SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenuto SMS"
->abstract="Crea il contenuto delle consegne SMS e personalizzalo con campi di personalizzazione, blocchi di contenuto e contenuti dinamici. Per iniziare a comporre il messaggio, fai clic sul pulsante **Modifica contenuto**."
+>abstract="Crea il contenuto delle consegne SMS e personalizzalo con campi di personalizzazione, frammenti di espressione e contenuto dinamico. Per iniziare a comporre il messaggio, fai clic sul pulsante **Modifica contenuto**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ Per progettare il contenuto di una consegna SMS, segui questi passaggi:
 
 1. Nella pagina **[!UICONTROL Modifica contenuto]**, puoi personalizzare il nome del mittente accedendo al **[!UICONTROL Campo mittente]** e immettendo il nome preferito.
 
-   Inoltre, facendo clic su **[!UICONTROL Apri finestra di dialogo di personalizzazione]**, puoi includere nel messaggio campi di personalizzazione, blocchi di contenuto e contenuto dinamico.
+   Inoltre, facendo clic su **[!UICONTROL Apri finestra di dialogo per la personalizzazione]**, puoi includere nel messaggio campi di personalizzazione, frammenti di espressione e contenuto dinamico.
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

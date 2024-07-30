@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 91%
 
 ---
 
@@ -89,9 +89,9 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
   I campi di personalizzazione vengono utilizzati per la personalizzazione di primo livello dei messaggi. Puoi selezionare qualsiasi campo disponibile nel database dall’editor di personalizzazione. Per una consegna, puoi selezionare qualsiasi campo correlato al destinatario, al messaggio o alla consegna. Questi attributi di personalizzazione possono essere inseriti nella riga dell’oggetto o nel corpo dei messaggi. [Ulteriori informazioni](../personalization/personalize.md)
 
-* Inserimento di **blocchi di contenuto** predefiniti
+* Inserimento di **frammenti di espressione predefiniti**
 
-  Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione. [Ulteriori informazioni](../personalization/personalize.md#ootb-content-blocks)
+  Campaign viene fornito con un set di frammenti di espressione che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. i frammenti di espressione sono disponibili da una voce dedicata nell’editor di personalizzazione. Inoltre, puoi anche creare frammenti di espressione personalizzati in base alle tue esigenze. [Scopri come utilizzare i frammenti di espressione](../content/use-expression-fragments.md)
 
 * Creare **contenuto condizionale**
 

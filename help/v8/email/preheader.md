@@ -3,10 +3,10 @@ audience: end-user
 title: Aggiungere una preintestazione in E-mail Designer
 description: Progettare il contenuto delle e-mail
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -39,7 +39,7 @@ Per definire la preintestazione dell’e-mail, segui i passaggi indicati di segu
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Dalla finestra **[!UICONTROL Modifica personalizzazione]**, puoi aggiungere [campi di personalizzazione](../personalization/personalize.md), [blocchi di contenuto](../personalization/content-blocks.md) e [contenuto condizionale](../personalization/conditions.md) utilizzando le relative voci a sinistra.
+1. Dalla finestra **[!UICONTROL Modifica Personalization]**, puoi aggiungere [campi di personalizzazione](../personalization/personalize.md), [frammenti di espressione](../content/use-expression-fragments.md) e [contenuto condizionale](../personalization/conditions.md) utilizzando le voci dedicate a sinistra.
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

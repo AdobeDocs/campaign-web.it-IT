@@ -3,10 +3,10 @@ audience: end-user
 title: Aggiungere un collegamento alla pagina mirror
 description: Scopri come aggiungere e gestire il collegamento alla pagina mirror
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -36,11 +36,9 @@ Per aggiungere un collegamento a una pagina mirror nel messaggio e-mail:
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Blocco di contenuto]**, seleziona **[!UICONTROL URL pagina mirror]** e fai clic su **[!UICONTROL Aggiungi]**.
+1. Dal menu **[!UICONTROL Frammenti]**, seleziona **[!UICONTROL URL pagina mirror]** e fai clic su **[!UICONTROL Aggiungi]**. [Scopri come utilizzare i frammenti di espressione](../content/use-expression-fragments.md)
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
-
-   Per ulteriori informazioni sull’inserimento di blocchi di contenuto personalizzati, consulta [questa sezione](../personalization/personalize.md#personalize-emails).
 
 La pagina mirror viene creata automaticamente.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
-workflow-type: ht
-source-wordcount: '1629'
-ht-degree: 100%
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 97%
 
 ---
 
@@ -81,9 +81,9 @@ Nella sezione GESTIONE DEI CONTENUTI puoi visualizzare i modelli e i frammenti 
 
 * **Modelli di contenuto**: per un processo di progettazione più rapido e migliore, puoi creare modelli autonomi che consentono di riutilizzare facilmente contenuti personalizzati in più campagne.[!DNL Adobe Campaign] Disponibile solo per le e-mail, questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli addetti al marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail. Per ulteriori informazioni, consulta [questa sezione](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Frammenti** - Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più consegne nelle campagne. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza. [Scopri come utilizzare i frammenti](../content/fragments.md)
+
+Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
 
 ### Gestione clienti {#user-interface-customer-management}
 
