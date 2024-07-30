@@ -2,7 +2,7 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma
 ### Miglioramenti {#improvements-24-7}
 
 **Gestione cartelle**: è ora possibile gestire autorizzazioni e restrizioni sulle cartelle.
-
 
 ## Note sulla versione di giugno {#24-6-release}
 
