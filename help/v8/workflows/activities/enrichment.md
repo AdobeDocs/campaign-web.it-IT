@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 44%
+source-wordcount: '1636'
+ht-degree: 43%
 
 ---
 
@@ -106,14 +106,6 @@ Per creare un collegamento, effettua le seguenti operazioni:
 Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example).
 
 ## Riconciliazione dei dati {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Riconciliazione dei dati"
->abstract="L’attività di arricchimento del flusso di lavoro può ora essere utilizzata per riconciliare i dati dello schema del database di Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Carica file."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
 
 L&#39;attività **Enrichment** può essere utilizzata per riconciliare i dati dello schema del database di Campaign con i dati di un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un&#39;attività Load file. Questo tipo di collegamento definisce una riconciliazione verso un record univoco. Adobe Campaign crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna per la memorizzazione di un riferimento al record univoco.
 
