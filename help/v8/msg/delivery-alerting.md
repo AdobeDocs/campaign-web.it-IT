@@ -3,7 +3,7 @@ audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 19%
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="Avvisi di consegna"
 >abstract="L’avviso di consegna è ora disponibile in Campaign. Questa funzionalità è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sull’esecuzione delle proprie consegne."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"

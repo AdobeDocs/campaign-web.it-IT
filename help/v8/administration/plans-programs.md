@@ -3,7 +3,7 @@ audience: end-user
 title: Piani e programmi
 description: Scopri come creare e configurare piani e programmi in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # Piani e programmi {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Piani e programmi"
 >abstract="Ora puoi configurare la gerarchia di cartelle per i piani e i programmi di marketing nell’interfaccia utente di Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
@@ -82,7 +82,7 @@ Puoi configurarli:
 
 Puoi collegare una campagna a un programma in due modi:
 
-### Modo #1 : disponi già di un programma e desideri creare una campagna ad esso collegata
+### Modo #1: disponi già di un programma e desideri creare una campagna collegata
 
 Per collegare una nuova campagna al programma, crea direttamente la campagna nel programma:
 
@@ -92,7 +92,7 @@ Le impostazioni di **[!UICONTROL Cartella]** verranno archiviate automaticamente
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Modalità #2 : Disponi già di una campagna e desideri collegarla a un programma esistente
+### #2: disponi già di una campagna e desideri collegarla a un programma esistente
 
 Passa al pulsante **[!UICONTROL Impostazioni]** della campagna da collegare al programma:
 

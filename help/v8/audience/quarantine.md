@@ -3,7 +3,7 @@ audience: end-user
 title: Informazioni sulla quarantena
 description: Comprendere la gestione degli indirizzi in quarantena
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -33,7 +33,7 @@ La quarantena ti aiuterà a ridurre i costi di invio degli SMS escludendo numeri
 
 ## Perché un indirizzo viene messo in quarantena
 
-Molti motivi possono mettere un indirizzo in quarantena :
+Molti motivi possono mettere un indirizzo in quarantena:
 
 - Per gli SMS, numeri di telefono errati
 - Per gli SMS, quando il profilo risponde a un messaggio SMS con una parola chiave come &quot;STOP&quot;
