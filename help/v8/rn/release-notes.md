@@ -2,9 +2,9 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1939'
 ht-degree: 97%
 
 ---
@@ -44,6 +44,8 @@ Un **gruppo di trap** è un elenco di indirizzi di seed. Viene utilizzato per in
 ### Modelli di notifiche push avanzate {#24-7-3}
 
 Ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma migliorata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push avanzate per le app iOS e Android.
+
+[Ulteriori informazioni](../push/rich-push.md)
 
 >[!AVAILABILITY]
 >
