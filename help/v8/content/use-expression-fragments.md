@@ -5,7 +5,7 @@ description: Scopri come creare con i frammenti di contenuto
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Frammenti"
->abstract="In questo elenco vengono visualizzati tutti i frammenti di espressione creati nella sandbox corrente. Per utilizzare un frammento, fai clic sul pulsante + per aggiungere l’ID frammento nell’editor."
+>abstract="In questo elenco vengono visualizzati tutti i frammenti di espressione creati nella sandbox attuale. Per utilizzare un frammento, fai clic sul pulsante + per aggiungere l’ID frammento nell’editor."
 
 <!-- pas vu dans l'UI-->
 

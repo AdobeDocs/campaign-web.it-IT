@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definizione delle colonne dei frammenti di contenuto"
->abstract="Il Designer e-mail consente di definire facilmente il layout del frammento di contenuto definendo la struttura delle colonne."
+>title="Definizione delle colonne di un frammento di contenuto"
+>abstract="E-mail Designer consente di definire facilmente il layout del frammento di contenuto definendo la struttura a colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

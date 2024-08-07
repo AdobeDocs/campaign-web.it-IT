@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ Puoi utilizzare un frammento visivo in una [consegna e-mail](../email/get-starte
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Opzioni frammenti"
->abstract="Questo riquadro fornisce le opzioni relative al frammento selezionato. Consente di scegliere i dispositivi su cui visualizzare il frammento e di aprire il contenuto del frammento. Utilizza la scheda **[!UICONTROL Stili]** per personalizzare ulteriormente il frammento. Puoi anche interrompere l’ereditarietà con il frammento visivo originale."
+>abstract="Questo riquadro fornisce le opzioni relative al frammento selezionato. Consente di scegliere i dispositivi su cui desideri visualizzare il frammento e di aprirne il contenuto. Per personalizzare ulteriormente il frammento, utilizza la scheda **[!UICONTROL Stili]**. Puoi interrompere anche l’ereditarietà con il frammento visivo originale."
 
 <!-- pas vu dans l'UI-->
 

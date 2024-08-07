@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="Informazioni sul contenuto"
->abstract="I componenti di contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di un frammento di contenuto."
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti da utilizzare per creare il layout di un frammento di contenuto."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

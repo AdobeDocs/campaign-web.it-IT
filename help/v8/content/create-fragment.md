@@ -5,7 +5,7 @@ description: Scopri come creare frammenti di contenuto
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 6%
+ht-degree: 29%
 
 ---
 
@@ -14,20 +14,20 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="Definire frammenti di contenuto personalizzati"
->abstract="Definisci le proprietà del frammento e il tipo di frammento che desideri creare. Puoi quindi utilizzare e-mail designer o l’editor di espressioni per configurare il contenuto del frammento."
+>title="Definire i frammenti di contenuto personalizzati"
+>abstract="Definisci le proprietà del frammento e il tipo di frammento che desideri creare. Puoi utilizzare E-mail designer o l’editor di espressioni per configurare il contenuto del frammento."
 
 <!-- pas vu dans l'UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Proprietà dei frammenti"
->abstract="Inserisci l’etichetta del frammento. Se necessario, puoi definire opzioni aggiuntive, ad esempio il nome interno del frammento, la relativa cartella e una descrizione."
+>abstract="Immetti l’etichetta del frammento. Se necessario, puoi definire opzioni aggiuntive, ad esempio, il nome interno del frammento, la relativa cartella e una descrizione."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Tipo di frammento di contenuto"
->abstract="Scegli il tipo di frammento da creare. I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più consegne e-mail o in modelli di contenuto. I **frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell’editor di espressioni."
+>abstract="Scegli il tipo di frammento che desideri creare. I **frammenti visivi** sono blocchi visivi predefiniti riutilizzabili in più consegne e-mail o in modelli di contenuto. I **frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell’editor di espressioni."
 
 Esistono due modi per creare frammenti di contenuto:
 
@@ -48,7 +48,7 @@ Per creare un frammento di contenuto da zero, effettua le seguenti operazioni.
 
    ![](assets/fragments-list.png)
 
-1. Inserisci l’etichetta del frammento. Se necessario, puoi definire opzioni aggiuntive, ad esempio il nome interno del frammento, la relativa cartella e una descrizione.
+1. Immetti l’etichetta del frammento. Se necessario, puoi definire opzioni aggiuntive, ad esempio, il nome interno del frammento, la relativa cartella e una descrizione.
 
 1. Scegliere il tipo di frammento da creare: **Frammento visivo** o **Frammento di espressione**. [Scopri le differenze tra i frammenti visivi e quelli di espressione](fragments.md)
 
@@ -79,7 +79,7 @@ Il frammento di contenuto è ora pronto per essere utilizzato quando si crea una
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Salva come frammento"
->abstract="Per salvare un contenuto come frammento visivo, seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. Potete selezionare solo le sezioni adiacenti. Non puoi selezionare una struttura vuota o un altro frammento di contenuto. Il contenuto sarà quindi un frammento autonomo , aggiunto all’elenco dei frammenti e accessibile dal menu dedicato. Puoi utilizzare questo frammento durante la creazione di qualsiasi e-mail o modello di contenuto all’interno di Campaign."
+>abstract="Per salvare un contenuto come frammento visivo, seleziona gli elementi che desideri includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. Puoi selezionare solo le sezioni adiacenti l’una all’altra. Non puoi selezionare una struttura vuota o un altro frammento di contenuto. Il contenuto sarà quindi un frammento autonomo, aggiunto all’elenco dei frammenti e accessibile dal menu dedicato. Puoi utilizzare questo frammento durante la creazione di qualsiasi e-mail o modello di contenuto all’interno di una campagna."
 
 <!--pas vu dans l'UI-->
 
@@ -95,7 +95,7 @@ Qualsiasi contenuto e-mail può essere salvato come frammento visivo per riutili
 
    >[!CAUTION]
    >
-   >Potete selezionare solo le sezioni adiacenti. Non puoi selezionare una struttura vuota o un altro frammento di contenuto.
+   >Puoi selezionare solo le sezioni adiacenti l’una all’altra. Non puoi selezionare una struttura vuota o un altro frammento di contenuto.
 
    ![](assets/fragment-save-as-screen.png)
 
