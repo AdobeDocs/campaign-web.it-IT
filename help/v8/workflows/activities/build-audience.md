@@ -14,7 +14,7 @@ ht-degree: 70%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Attività Creazione del pubblico"
+>title="Attività Crea pubblico"
 >abstract="L’attività **Creazione del pubblico** consente di definire il pubblico che sarà inserito nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Creazione del pubblico**."
 
 L’attività **Crea pubblico** è un’attività di **targeting**. Questa attività consente di definire il pubblico che sarà inserito nel flusso di lavoro. Quando si inviano messaggi nel contesto di un flusso di lavoro, il pubblico del messaggio non è definito nell’attività del canale, ma nell’attività **Creazione del pubblico**.
