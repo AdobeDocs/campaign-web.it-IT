@@ -3,9 +3,9 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Sono disponibili due tipi di frammenti:
   >
   >I **frammenti visivi** sono in disponibilità limitata (LA). Questa funzionalità è limitata a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non può essere distribuita in nessun altro ambiente.
 
-### Gruppo spia {#24-7-2}
+### Gruppo trappola {#24-7-2}
 
-Un **gruppo di trap** è un elenco di indirizzi di seed. Viene utilizzato per includere indirizzi specifici nelle consegne e quindi eseguire il targeting dei profili che non corrispondono ai criteri di targeting definiti. In questo modo, i destinatari che non rientrano nel pubblico della consegna possono riceverla, come farebbe qualsiasi altro destinatario di targeting. Puoi utilizzare gli indirizzi seed quando invii le bozze o per proteggere la mailing list. [Ulteriori informazioni](../audience/trap-group.md)
+Un **Gruppo trappola**, è un elenco di indirizzi seed. Viene utilizzato per includere indirizzi specifici nelle consegne e quindi eseguire il targeting dei profili che non corrispondono ai criteri di targeting definiti. In questo modo, i destinatari che non rientrano nel pubblico della consegna possono riceverla, come farebbe qualsiasi altro destinatario di targeting. Puoi utilizzare gli indirizzi seed quando invii le bozze o per proteggere la mailing list. [Ulteriori informazioni](../audience/trap-group.md)
 
 ### Modelli di notifiche push avanzate {#24-7-3}
 
@@ -49,7 +49,7 @@ Ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma
 
 >[!AVAILABILITY]
 >
->Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Ulteriori informazioni nella console client [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} di Campaign v8.
+>Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Per ulteriori informazioni, consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} della  console client di Campaign v8.
 
 ### Miglioramenti {#improvements-24-7}
 

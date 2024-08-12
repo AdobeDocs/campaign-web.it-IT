@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di luglio è live!]
+>[!TAB La versione di luglio è ora disponibile]
 
-Scopri le nuove funzioni e i miglioramenti introdotti nell’interfaccia utente web di Adobe Campaign, versione del 24 luglio.
+Scopri le nuove funzioni e i miglioramenti introdotti con la versione dell’interfaccia utente di Adobe Campaign Web di luglio 2024.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 

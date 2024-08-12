@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 93%
    + Notifiche push {#push}
       + [Introduzione alle notifiche push](push/gs-push.md)
       + [Creare una consegna di notifica push](push/create-push.md)
-      + Push avanzato {#rich-push}
-         + [Progettare una consegna push potenziata per Android](push/rich-push.md)
-         + [Progettare una consegna push potenziata per iOS](push/rich-push-ios.md)
+      + Push avanzata {#rich-push}
+         + [Progettare una consegna push avanzata per Android](push/rich-push.md)
+         + [Progettare una consegna push iOS avanzata](push/rich-push-ios.md)
       + [Progettare una consegna push](push/content-push.md)
       + [Anteprima e invio di una consegna push](push/send-push.md)
    + SMS {#sms}
@@ -80,7 +80,7 @@ ht-degree: 93%
       + [Dashboard di avvisi di consegna](msg/delivery-alerting-dashboards.md)
       + [Criteri per gli avvisi di consegna](msg/delivery-alerting-criteria.md)
 + Gestione dei contenuti {#content}
-   + Crea contenuto dinamico {#dynamic-content}
+   + Creare contenuto dinamico {#dynamic-content}
       + [Come rendere dinamico il contenuto?](personalization/gs-personalization.md)
       + [Aggiungere la personalizzazione](personalization/personalize.md)
       + [Generare contenuti condizionali](personalization/conditions.md)
@@ -88,8 +88,8 @@ ht-degree: 93%
       + [Utilizzare i modelli di contenuto](email/create-email-templates.md)
       + Frammenti di contenuto {#fragments}
          + [Introduzione ai frammenti di contenuto](content/fragments.md)
-         + [Creare e modificare frammenti di contenuto](content/create-fragment.md)
-         + [Utilizzare frammenti visivi nelle e-mail](content/use-visual-fragments.md)
+         + [Creare e modificare i frammenti di contenuto](content/create-fragment.md)
+         + [Utilizzare i frammenti visivi nelle e-mail](content/use-visual-fragments.md)
          + [Utilizzare i frammenti di espressione nell’editor di espressioni](content/use-expression-fragments.md)
    + Progettare le e-mail {#email-design}
       + [Introduzione a E-mail Designer](email/get-started-email-designer.md)
@@ -134,7 +134,7 @@ ht-degree: 93%
       + [Creare un pubblico una tantum](audience/one-time-audience.md)
       + [Caricare un pubblico per consegne e-mail da un file](audience/file-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
-      + [Aggiungere un gruppo di trap](audience/trap-group.md)
+      + [Aggiungere un gruppo trappola](audience/trap-group.md)
    + Utilizzare i servizi di abbonamento {#work-with-services}
       + [Creare e gestire i servizi di abbonamento](audience/manage-services.md)
       + [Gestire gli abbonati](audience/manage-subscribers.md)

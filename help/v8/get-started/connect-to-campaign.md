@@ -3,9 +3,9 @@ title: Connessione all’interfaccia di Adobe Campaign Web
 description: Scopri come connetterti all’interfaccia utente di Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Durante la navigazione nell’interfaccia utente di Campaign Web, puoi accedere 
 
 Scopri come [visualizzare e gestire le autorizzazioni qui](permissions.md).
 
-## Navigazione principale in Adobe Experience Cloud {#top-bar}
+## Navigazione superiore in Adobe Experience Cloud {#top-bar}
 
 Sfoglia la barra superiore dell’interfaccia per:
 
