@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
 source-wordcount: '1713'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -335,18 +335,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="Proprietà e-mail per messaggi transazionali"
->abstract="Proprietà e-mail per messaggi transazionali"
+>title="Proprietà della messaggistica e-mail transazionale"
+>abstract="Proprietà della messaggistica e-mail transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="Proprietà SMS di messaggistica transazionale"
->abstract="Proprietà SMS di messaggistica transazionale"
+>title="Proprietà della messaggistica SMS transazionale"
+>abstract="Proprietà della messaggistica SMS transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="Proprietà push di messaggistica transazionale"
->abstract="Proprietà push di messaggistica transazionale"
+>title="Proprietà della messaggistica push transazionale"
+>abstract="Proprietà della messaggistica push transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
