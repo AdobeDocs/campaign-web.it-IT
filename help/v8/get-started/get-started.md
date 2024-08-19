@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione ad Adobe Campaign Web
 description: Introduzione ad Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
+source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 96%
 
 ---
@@ -61,8 +61,10 @@ Alcuni oggetti possono essere creati e gestiti solo nella console client. Posson
 
 Per ulteriori informazioni su come utilizzare Campaign v8 con la console client, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it){target="_blank"}.
 
-## Video dimostrativo {#video}
+<!--
+## How-to video {#video}
 
-Scopri come accedere e navigare nell’interfaccia utente di Campaign Web e come personalizzare gli elenchi di inventario. Scopri il Knowledge Assistant con Generazione basata sull’intelligenza artificiale.
+Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
+-->
