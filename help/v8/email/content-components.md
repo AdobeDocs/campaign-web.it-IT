@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i componenti per contenuti di E-mail Designer
 description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 100%
+source-wordcount: '1195'
+ht-degree: 97%
 
 ---
 
@@ -147,6 +147,11 @@ Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse 
 >Per rendere semplicemente un contenuto esterno conforme a E-mail designer, Adobe consiglia di [creare un messaggio da zero](create-email-content.md) e di copiare il contenuto dell’e-mail esistente nei componenti.
 
 ## Immagine {#image}
+
+>[!IMPORTANT]
+>
+>L’accesso al menu di Assets è limitato agli utenti con una licenza Adobe Essentials attiva. Se non si dispone di questa licenza, il menu Assets non sarà disponibile.
+
 
 Utilizza il componente **[!UICONTROL Immagine]** per inserire nell’e-mail un file di immagine presente nel computer.
 
