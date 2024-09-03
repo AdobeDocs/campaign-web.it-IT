@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
-source-wordcount: '745'
-ht-degree: 100%
+source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
    + [Novità](rn/whats-new.md)
    + [Note preliminari sulla versione](rn/e-release-notes.md)
    + [Ultima versione](rn/release-notes.md)
+   + Versioni precedenti {#previous-release-notes}
+      + [Versioni 2024](rn/release-notes-24.md)
    + [Aggiornamenti della documentazione](rn/documentation-updates.md)
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
@@ -34,7 +36,8 @@ ht-degree: 100%
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
-   + [Utilizzare le consegne](msg/gs-deliveries.md)
+   + [Accedere alle consegne](msg/gs-deliveries.md)
+   + [Creare una consegna](msg/create-deliveries.md)
    + [Utilizzare i modelli di consegna](msg/delivery-template.md)
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)

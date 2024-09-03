@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 54%
 
 ---
 
@@ -77,3 +77,33 @@ Per eliminare una cartella, selezionala nella struttura **[!UICONTROL Explorer]*
 Scegli **[!UICONTROL Elimina cartella]**.
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## Distribuzione dei valori in una cartella {#distribution-values-folder}
+
+La distribuzione dei valori consente di conoscere la percentuale di un valore in una colonna di una tabella.
+
+Per conoscere la distribuzione dei valori in una cartella, procedere come segue:
+
+Ad esempio, tra le consegne vogliamo conoscere la distribuzione dei valori della colonna **Canale**.
+
+Per ottenere queste informazioni, vai alla cartella **[!UICONTROL Consegne]** e fai clic sull&#39;icona **[!UICONTROL Configura colonne]**.
+
+Nella finestra **[!UICONTROL Configura colonne]**, fai clic sull&#39;icona **[!UICONTROL Informazioni]** della colonna che desideri conoscere. Quindi, fai clic sul pulsante **[!UICONTROL Distribuzione di valori]**.
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+Otterrai la percentuale dei valori nella colonna **[!UICONTROL Canale]**.
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Per le colonne con molti valori, verranno visualizzati solo i primi venti valori. Verrà visualizzato un avviso con una notifica **[!UICONTROL Caricamento parziale]**.
+
+Puoi anche avere la distribuzione dei valori di un collegamento.
+
+Nell&#39;elenco degli attributi fare clic sul pulsante **+** accanto al collegamento desiderato, come illustrato di seguito. Questo aggiunge il collegamento alle **[!UICONTROL colonne di output]**. È ora possibile disporre dell&#39;icona **[!UICONTROL Informazioni]**, che consente di visualizzare la distribuzione dei relativi valori. Se non desideri mantenere il collegamento nelle **[!UICONTROL Colonne di output]**, assicurati di fare clic sul pulsante **[!UICONTROL Annulla]**.
+
+![](assets/values_link.png){zoomable="yes"}
+
+È inoltre possibile disporre della distribuzione dei valori in un modellatore di query. [Ulteriori informazioni](../query/build-query.md#distribution-of-values-in-a-query).

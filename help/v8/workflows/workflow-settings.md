@@ -3,10 +3,10 @@ audience: end-user
 title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -100,7 +100,7 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 
    * **[!UICONTROL Sospendi il processo]**: il flusso di lavoro viene messo automaticamente in pausa e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riprendi il flusso di lavoro utilizzando il pulsante **[!UICONTROL Riprendi]**.
    * **[!UICONTROL Ignora]**: lo stato dell’attività che ha attivato l’errore diventa **[!UICONTROL Non riuscito]**, ma il flusso di lavoro mantiene lo stato **[!UICONTROL Avviato]**.<!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Interrompi il processo]**: il flusso di lavoro viene interrotto automaticamente e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavvia il flusso di lavoro utilizzando il pulsante **[!UICONTROL Avvia]**.
+   * **[!UICONTROL Interrompi il processo]**: il flusso di lavoro viene interrotto automaticamente e il relativo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavvia il flusso di lavoro utilizzando il pulsante **[!UICONTROL Avvia]**.
 
 * **[!UICONTROL Errori consecutivi]**: questo campo diventa disponibile quando il valore **[!UICONTROL Ignora]** è selezionato nel campo **[!UICONTROL In caso di errori]**. È possibile specificare il numero di errori che possono essere ignorati prima dell’interruzione del processo. Una volta raggiunto questo numero, lo stato del flusso di lavoro diventa **[!UICONTROL Non riuscito]**. Se il valore di questo campo è 0, il flusso di lavoro non verrà mai interrotto indipendentemente dal numero di errori.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 60%
+source-wordcount: '2210'
+ht-degree: 57%
 
 ---
 
@@ -27,6 +27,22 @@ Puoi aggiungere due tipi di elementi:
   Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**che vivono a New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## Distribuzione dei valori in una query {#distribution-values-query}
+
+La distribuzione dei valori consente di conoscere la percentuale di un valore in un campo all’interno di una tabella. Conoscere la distribuzione dei valori all’interno di una query può aiutarti a perfezionare la segmentazione.
+
+Per accedere alla funzione, nella query fai clic sul pulsante di selezione dell’attributo come mostrato di seguito. Quindi, fai clic sull&#39;icona **[!UICONTROL Informazioni]** accanto all&#39;attributo selezionato. Puoi accedere al pulsante **[!UICONTROL Distribuzione di valori]**.
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Per i campi con molti valori, verranno visualizzati solo i primi venti valori. Verrà visualizzato un avviso con una notifica **[!UICONTROL Caricamento parziale]**.
+
+>[!NOTE]
+>
+> La funzionalità **[!UICONTROL Distribuzione di valori]** è accessibile in ogni selettore di attributi.
 
 ## Aggiungere i componenti per il filtro {#filtering}
 

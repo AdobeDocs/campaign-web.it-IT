@@ -3,10 +3,10 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 66%
+source-wordcount: '323'
+ht-degree: 64%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 66%
 >id="acw_deliveries_email_audience_select"
 >title="Selezionare un pubblico esistente"
 >abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona “Mostra filtri” per filtrare l’elenco o seleziona una cartella specifica."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="Perfeziona il target"
->abstract="Queste regole possono essere modificate solo nella console desktop."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="Target aggiuntivo"
->abstract="Queste regole possono essere modificate solo nella console desktop."
 
 Questa sezione spiega come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna. Quando definisci il target principale di una consegna, puoi anche:
 * [Crea un pubblico una tantum](one-time-audience.md) utilizzando il modellatore di query.
@@ -58,4 +48,4 @@ Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò consente di confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. [Ulteriori informazioni](control-group.md)
+1. Puoi anche impostare un gruppo di controllo per misurare l’impatto delle campagne. Il gruppo di controllo non riceve il messaggio. Ciò consente di confrontare il comportamento di chi ha ricevuto il messaggio con quello dei contatti che non lo hanno ricevuto. [Ulteriori informazioni](control-group.md)

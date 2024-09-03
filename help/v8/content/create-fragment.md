@@ -2,10 +2,10 @@
 audience: end-user
 title: Creare frammenti di contenuto
 description: Scopri come creare frammenti di contenuto
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 29%
+source-wordcount: '1013'
+ht-degree: 26%
 
 ---
 
@@ -141,11 +141,23 @@ Per eliminare un frammento di contenuto, effettua le seguenti operazioni:
 >
 >Durante l’eliminazione di un frammento, le consegne e i modelli che lo utilizzano vengono aggiornati: il frammento viene rimosso dal contenuto, ma vi si fa ancora riferimento. Per mantenere il contenuto del frammento in tali consegne e modelli, è necessario interrompere l&#39;ereditarietà prima di eliminare il frammento, [come descritto in questa sezione](use-visual-fragments.md#break-inheritance).
 
+### Archiviare un frammento di contenuto {#archive}
+
+Puoi eliminare dall’elenco i frammenti che non sono più rilevanti per il tuo marchio. A tale scopo, fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al frammento desiderato e seleziona **[!UICONTROL Archivia]**. Il frammento viene rimosso dall’elenco dei frammenti, impedendo agli utenti di utilizzarlo in e-mail o modelli futuri.
+
+Per accedere ai frammenti archiviati, utilizza il riquadro dei filtri per visualizzarli. Per annullare l&#39;archiviazione di un frammento, fai clic sul pulsante **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Annulla archiviazione]**.
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>Se archivi un frammento utilizzato in un contenuto, tale contenuto non viene interessato.
+
 ### Duplicare un frammento di contenuto {#duplicate-fragments}
 
 Puoi duplicare facilmente un frammento di contenuto per crearne uno nuovo. Per duplicare un frammento esistente, effettua le seguenti operazioni:
 
-1. Individua l&#39;elenco dei frammenti e fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al frammento da eliminare.
+1. Individua l&#39;elenco dei frammenti e fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto al frammento da duplicare.
 1. Fai clic su **Duplica** e conferma.
 1. Inserisci l’etichetta del nuovo frammento e salva le modifiche.
 

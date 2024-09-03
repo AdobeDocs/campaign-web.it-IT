@@ -3,10 +3,10 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 30%
+source-wordcount: '1619'
+ht-degree: 27%
 
 ---
 
@@ -98,6 +98,8 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
    Per impostazione predefinita, le pagine di destinazione sono memorizzate nella cartella **[!UICONTROL Applicazioni Web]**. Puoi modificarlo sfogliando la posizione desiderata nelle **[!UICONTROL Opzioni aggiuntive]**. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
+   Puoi anche impostare il captcha per proteggere la pagina di destinazione. [Ulteriori informazioni](#captcha).
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. Nella sezione **[!UICONTROL Precaricamento dati]** sono disponibili le due opzioni seguenti:
@@ -155,6 +157,28 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 1. Fai clic su **[!UICONTROL Rivedi e pubblica]**.
 
 Una volta definite tutte le impostazioni e [progettate](lp-content.md) tutte le pagine, puoi [testare](#test-landing-page) e [pubblicare](#publish-landing-page) la tua pagina di destinazione come descritto di seguito.
+
+## Proteggi la pagina di destinazione con un captcha {#captcha}
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che utilizzano **Adobe Campaign v8.7.2 aggiornato con l&#39;ultima versione di correzione** e non può essere distribuito in nessun altro ambiente.
+
+La configurazione di un captcha ti aiuta a proteggere la pagina di destinazione da spam e abusi.
+
+Per utilizzarlo, vai alle **[!UICONTROL Proprietà]** della pagina di destinazione.
+Anche nelle **[!UICONTROL Opzioni aggiuntive]**. Attiva l&#39;interruttore **[!UICONTROL Soluzione Captcha aggiuntiva]**.
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+Per verificare le impostazioni captcha, fare clic sul pulsante **[!UICONTROL Rivedi e pubblica]** e su **[!UICONTROL Simula contenuto]**. Durante l’invio del modulo, viene visualizzato il widget captcha che funziona durante la convalida come indicato di seguito.
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Il widget captcha in Adobe Campaign v8 è ALTCHA e funziona in modalità mobile. Viene visualizzato durante la convalida e scompare al termine del processo.
+
 
 ## Verificare la pagina di destinazione {#test-landing-page}
 

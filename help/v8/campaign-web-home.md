@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
@@ -51,23 +51,23 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di luglio è ora disponibile]
+>[!TAB La versione di agosto è live!]
 
 Scopri le nuove funzioni e i miglioramenti introdotti con la versione dell’interfaccia utente di Adobe Campaign Web di luglio 2024.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Avvisi di consegna]
+>[!TAB Distribuzione dei valori]
 
-Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della propria consegna.
+Quando accedi all’elenco dei campi per la personalizzazione, ora puoi controllare come vengono distribuiti i valori per ciascun campo.
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Piani e programmi]
+>[!TAB Captcha nelle pagine di destinazione]
 
-Adobe Campaign consente di configurare la gerarchia di cartelle per i piani e i programmi di marketing.
+Ora puoi aggiungere captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Questa funzionalità è a disponibilità limitata.
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
