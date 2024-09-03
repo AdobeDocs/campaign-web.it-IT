@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 25%
+source-wordcount: '620'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 25%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Query modeler"
 >abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altra dimensione targeting dal database. Approfitta del pubblico di Adobe Experience Platform per migliorare ulteriormente il pubblico target e massimizzare l’impatto della campagna."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Perfeziona il target"
+>abstract="Queste regole possono essere modificate solo nella console client."
 
 L’interfaccia utente web di Adobe Campaign dispone di un modellatore di query che semplifica il processo di filtraggio del database in base a vari criteri. Garantisce la piena compatibilità con le query create nella console client, semplificando la transizione all’interfaccia utente web.
 
@@ -38,6 +43,12 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 | **Filtrare i dati dei rapporti**: aggiungi una regola per filtrare i dati visualizzati nei rapporti. [Scopri come utilizzare i report](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Personalizza elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. [Scopri come filtrare gli elenchi](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Crea contenuto condizionale**: rendi dinamico il contenuto delle e-mail creando condizioni che definiscono quale contenuto deve essere visualizzato a destinatari diversi, garantendo messaggi personalizzati e pertinenti. [Scopri come creare contenuti condizionali](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>Quando si accede a un oggetto creato nella console client in cui sono state applicate regole quali un pubblico o un filtro predefinito, è possibile che venga visualizzata la sezione **[!UICONTROL Perfeziona destinazione]**. Ciò significa che sono stati configurati parametri aggiuntivi per perfezionare il target della regola. Questi parametri possono essere modificati solo nella console.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Interfaccia del query modeler {#interface}
 
