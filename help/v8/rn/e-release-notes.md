@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
+source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 42%
+source-wordcount: '330'
+ht-degree: 44%
 
 ---
 
@@ -23,11 +23,8 @@ L’interfaccia utente di Adobe Campaign Web offre continuamente nuove funzioni,
 
 Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di agosto.
 
-* **Consegna esterna** - È ora possibile definire le consegne esterne e i modelli di consegna esterna nell&#39;interfaccia utente Web di Campaign. Con questa modalità, i messaggi vengono generati in un file di input che può essere condiviso con il provider esterno. La modalità di consegna esterna è la modalità predefinita per il canale di direct mailing.
+**Distribuzione dei valori** - Quando si accede all&#39;elenco dei campi per la personalizzazione, è ora possibile controllare la distribuzione dei valori per ciascun campo. Una finestra a comparsa dedicata mostra il numero e la percentuale per ciascun valore.
 
-* **Frammenti visivi** - È ora possibile archiviare frammenti di contenuto visivo.
-
-* **Distribuzione dei valori** - Quando si accede all&#39;elenco dei campi per la personalizzazione, è ora possibile controllare la distribuzione dei valori per ciascun campo. Una finestra a comparsa dedicata mostra il numero e la percentuale per ciascun valore.
 
 ### Nuove funzioni in Disponibilità limitata {#acs-24-8}
 
@@ -35,13 +32,14 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 >
 >Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
 >
->Consulta le seguenti pagine della documentazione: [Transizione da Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it).
+>Consulta le seguenti pagine della documentazione: [Passaggio di Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
 
 * **Branding per Direct Mail** - Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull&#39;identità di un brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Ora puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli.
 
-* **Pagine di destinazione reCaptcha** - È ora possibile utilizzare il meccanismo Google reCAPTCHA per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito.
+* **Iscrizioni con pagine di destinazione** - È ora possibile collegare una pagina di destinazione a un servizio e inviare un messaggio di conferma quando gli utenti lo convalidano.
 
-* **Abbonamenti con pagine di destinazione** - È ora possibile collegare una pagina di destinazione a un servizio in modo che i profili possano abbonarsi a un servizio specifico durante la convalida.
+* **Frammenti visivi** - È ora possibile archiviare frammenti di contenuto visivo.
 
+* **Pagine di destinazione captcha** - È ora possibile aggiungere captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito.
 
-
+* **API REST** - DESC. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.
