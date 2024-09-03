@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
+source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 44%
+source-wordcount: '346'
+ht-degree: 42%
 
 ---
 
@@ -42,4 +42,4 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 
 * **Pagine di destinazione captcha** - È ora possibile aggiungere captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito.
 
-* **API REST** - DESC. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.
+* **API REST** - In qualità di utente Campaign Standard migrato, ora puoi utilizzare le API REST per lavorare con i messaggi transazionali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.
