@@ -4,9 +4,9 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
+source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
-source-wordcount: '2801'
+source-wordcount: '2852'
 ht-degree: 49%
 
 ---
@@ -345,6 +345,7 @@ Se necessario, i valori vengono codificati automaticamente.
 >title="Variabili"
 >abstract="Puoi aggiungere variabili alla consegna, che possono essere utili per il tracciamento e la personalizzazione. Queste variabili sono accessibili sia dal contenuto della consegna che dai flussi di lavoro."
 
+Puoi aggiungere variabili alla consegna, che possono essere utili per il tracciamento e la personalizzazione. Queste variabili sono accessibili sia dal contenuto della consegna che dai flussi di lavoro. Le variabili memorizzate vengono utilizzate per impostare valori che rimangono costanti in tutti i messaggi all’interno della consegna. Possono essere configurati anche nei modelli di consegna.
 
 Per aggiungere una variabile, passare alla scheda **[!UICONTROL Variabili]** come illustrato di seguito.
 
