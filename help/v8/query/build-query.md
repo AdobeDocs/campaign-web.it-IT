@@ -3,9 +3,9 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 57%
 
 ---
@@ -30,19 +30,17 @@ Puoi aggiungere due tipi di elementi:
 
 ## Distribuzione dei valori in una query {#distribution-values-query}
 
-La distribuzione dei valori consente di conoscere la percentuale di un valore in un campo all’interno di una tabella. Conoscere la distribuzione dei valori all’interno di una query può aiutarti a perfezionare la segmentazione.
+La distribuzione dei valori mostra la percentuale di ciascun valore di un campo all’interno di una tabella, in base ai parametri di query correnti. Conoscere la distribuzione dei valori all’interno di una query può aiutarti a perfezionare la segmentazione.
 
-Per accedere alla funzione, nella query fai clic sul pulsante di selezione dell’attributo come mostrato di seguito. Quindi, fai clic sull&#39;icona **[!UICONTROL Informazioni]** accanto all&#39;attributo selezionato. Puoi accedere al pulsante **[!UICONTROL Distribuzione di valori]**.
+Per accedere a questa opzione, nella query fai clic sul pulsante di selezione dell’attributo come mostrato di seguito. Quindi, fai clic sull&#39;icona **[!UICONTROL Informazioni]** accanto all&#39;attributo selezionato. Puoi accedere al pulsante **[!UICONTROL Distribuzione di valori]**.
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Per i campi con molti valori, verranno visualizzati solo i primi venti valori. Verrà visualizzato un avviso con una notifica **[!UICONTROL Caricamento parziale]**.
-
->[!NOTE]
+>* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In tal caso, un avviso **[!UICONTROL Carico parziale]** ti avvisa.
 >
-> La funzionalità **[!UICONTROL Distribuzione di valori]** è accessibile in ogni selettore di attributi.
+>* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi.
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
