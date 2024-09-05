@@ -7,7 +7,7 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 42%
+ht-degree: 76%
 
 ---
 
@@ -21,9 +21,9 @@ L’interfaccia utente di Adobe Campaign Web offre continuamente nuove funzioni,
 
 **Data di rilascio**: 3 settembre 2024
 
-Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di agosto.
+Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di agosto.
 
-**Distribuzione dei valori** - Quando si accede all&#39;elenco dei campi per la personalizzazione, è ora possibile controllare la distribuzione dei valori per ciascun campo. Una finestra a comparsa dedicata mostra il numero e la percentuale per ciascun valore.
+**Distribuzione dei valori**: accedendo all’elenco dei campi per la personalizzazione, ora è possibile controllare come vengono distribuiti i valori per ciascun campo. Finestra popup dedicata che mostra il numero e la percentuale per ciascun valore.
 
 
 ### Nuove funzioni in Disponibilità limitata {#acs-24-8}
@@ -34,13 +34,13 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 >
 >Consulta le seguenti pagine della documentazione: [Passaggio di Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
 
-* **Branding per Direct Mail** - Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull&#39;identità di un brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Ora puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli.
+* **Branding per direct mail**: gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. I brand ora possono essere creati e collegati a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli.
 
 * **Iscrizioni con pagine di destinazione** - È ora possibile collegare una pagina di destinazione a un servizio e inviare un messaggio di conferma quando gli utenti lo convalidano.
 
-* **Frammenti visivi** - È ora possibile archiviare frammenti di contenuto visivo.
+* **Frammenti visivi**: è ora possibile archiviare i frammenti di contenuti visivi.
 
-* **Pagine di destinazione captcha** - È ora possibile aggiungere captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito.
+* **Pagine di destinazione captcha** - È ora possibile aggiungere captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito.
 
 * **API Rest** - In qualità di utente Campaign Standard migrato, ora puoi utilizzare le API Rest per lavorare con i messaggi transazionali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.
 
