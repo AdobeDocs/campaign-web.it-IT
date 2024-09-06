@@ -3,14 +3,24 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro di test
 description: Scopri come utilizzare l’attività del flusso di lavoro di test
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
 # Test {#test}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="Attività di test"
+>abstract="L&#39;attività **Test** consente di abilitare le transizioni in base alle condizioni specificate. Per impostazione predefinita, l’attività presenta un semplice test booleano. Se la condizione definita nella transizione &quot;True&quot; è soddisfatta, la transizione verrà attivata. In caso contrario, verrà attivata una transizione predefinita &quot;False&quot;. Puoi configurare le condizioni in base alle tue esigenze."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="Condizioni"
+>abstract="Fai clic sul pulsante **[!UICONTROL Aggiungi condizione]** per aggiungere più transizioni di output all&#39;attività. Durante l’esecuzione del flusso di lavoro, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, il flusso di lavoro continua lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, i flussi di lavoro si interrompono a questo punto."
 
 L&#39;attività **Test** è un&#39;attività **Controllo flusso**. Consente di abilitare le transizioni in base a condizioni specificate.
 
