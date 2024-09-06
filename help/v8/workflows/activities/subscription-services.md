@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Subscription services
 description: Scopri come utilizzare l’attività del flusso di lavoro Subscription services
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 18%
+source-wordcount: '1067'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Informazioni aggiuntive"
->abstract="Informazioni aggiuntive"
+>abstract="Specifica i dati e l’origine della sottoscrizione per ciascun record. Puoi lasciare vuota questa sezione, nel qual caso non verrà impostata alcuna data o origine durante l’esecuzione del flusso di lavoro. Se i dati in entrata contengono una colonna che indica la data di abbonamento del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**. Nel campo **[!UICONTROL Percorso origine]**, definisci l&#39;origine della sottoscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l&#39;opzione **[!UICONTROL Imposta una costante come origine]**."
 
 L&#39;attività **Subscription services** è un&#39;attività **Data Management**. Consente di creare o eliminare un abbonamento a un servizio di informazioni per la popolazione specificata nella transizione.
 

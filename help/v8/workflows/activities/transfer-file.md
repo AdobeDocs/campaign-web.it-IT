@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Transfer file
 description: Scopri come utilizzare l’attività del flusso di lavoro Trasferisci file
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 18%
+source-wordcount: '1246'
+ht-degree: 17%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 18%
 >id="acw_orchestration_transferfile_source"
 >title="Trasferimento origine file"
 >abstract="Immetti il nome file desiderato."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Elimina i file di origine dopo il trasferimento"
->abstract="Cancella i file di origine dopo un trasferimento riuscito."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Visualizzare i registri di sessione"
->abstract="Le informazioni relative all’operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Elenca tutti i file"
->abstract="Questa opzione indicizza tutti i file presenti sul server nella variabile evento **vars.filenames**."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Storicizzazione del file"
->abstract="Storicizzazione del file"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Elabora file mancanti"
->abstract="Questa opzione consente di attivare una transizione in uscita **Nessun file** dopo l’attività."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Errori del processo"
->abstract="Questa opzione consente di attivare una transizione in uscita **Errore** dopo l’attività."
 
 L&#39;attività **Transfer file** è un&#39;attività **Data Management**. Consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 
@@ -122,6 +92,11 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 
 ## Impostazioni di storicizzazione {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Storicizzazione del file"
+>abstract="Ogni volta che viene eseguita un&#39;attività di **[!UICONTROL Trasferimento file]**, i file caricati o scaricati vengono memorizzati in una cartella dedicata. Viene creata una cartella per ogni attività Transfer file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattivare l&#39;opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immettere il percorso della directory."
+
 Ogni volta che viene eseguita un&#39;attività di **[!UICONTROL Trasferimento file]**, i file caricati o scaricati vengono memorizzati in una cartella dedicata. Viene creata una cartella per ogni attività Transfer file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattivare l&#39;opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immettere il percorso della directory.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 >Se l’attività non viene eseguita nuovamente, la relativa cartella non viene né controllata né eliminata. In quest’ottica, fai attenzione durante il trasferimento di file di grandi dimensioni.
 
 ## Opzioni avanzate e di gestione degli errori {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Elimina i file di origine dopo il trasferimento"
+>abstract="Cancella i file di origine dopo un trasferimento riuscito."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="Visualizzare i registri di sessione"
+>abstract="Le informazioni relative all’operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Elenca tutti i file"
+>abstract="Questa opzione indicizza tutti i file presenti sul server nella variabile evento **vars.filenames**."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Elabora file mancanti"
+>abstract="Questa opzione consente di attivare una transizione in uscita **Nessun file** dopo l’attività."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Errori del processo"
+>abstract="Questa opzione consente di attivare una transizione in uscita **Errore** dopo l’attività."
 
 1. Nelle **[!UICONTROL Opzioni avanzate]** sono disponibili opzioni aggiuntive in base al tipo di attività che si sta configurando. Per ulteriori informazioni, espandi le sezioni seguenti.
 

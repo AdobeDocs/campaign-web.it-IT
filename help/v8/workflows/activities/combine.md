@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selezionare il tipo di segmentazione"
->abstract="Seleziona la modalità di combinazione dei tipi di pubblico: unione, intersezione o esclusione."
+>abstract="Seleziona come combinare i tipi di pubblico. L&#39;**Unione** ti consente di raggruppare il risultato di più attività in un&#39;unica destinazione. L&#39;**intersezione** ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell&#39;attività. L’attività **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri. "
 
 Per iniziare a configurare l’attività **Combina**, segui questi passaggi comuni:
 
@@ -57,14 +57,9 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 ## Unione {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="Opzioni di riconciliazione dell’intersezione"
->abstract="Seleziona il tipo di riconciliazione per definire la modalità di gestione dei duplicati."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Opzioni di riconciliazione"
->abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati."
+>abstract="Selezionare il tipo di **riconciliazione** per definire la modalità di gestione dei duplicati. Per impostazione predefinita, l&#39;opzione **Chiavi** è attivata, il che significa che l&#39;attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l&#39;opzione **Selezione di colonne** per definire l&#39;elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
 Nell’attività **Combina**, puoi configurare un’**Unione**. Per l’attività Unione, è necessario selezionare il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati:
 
@@ -72,6 +67,11 @@ Nell’attività **Combina**, puoi configurare un’**Unione**. Per l’attivit�
 * **Una seleziona di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
 
 ## Intersezione {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Opzioni di riconciliazione dell’intersezione"
+>abstract="Selezionare il tipo di **riconciliazione** per definire la modalità di gestione dei duplicati. Per impostazione predefinita, l&#39;opzione **Chiavi** è attivata, il che significa che l&#39;attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l&#39;opzione **Selezione di colonne** per definire l&#39;elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
 Nell’attività **Combina**, puoi configurare un’**Intersezione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
