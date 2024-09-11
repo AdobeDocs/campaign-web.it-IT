@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e9022e53ff8733ecdfcca1aec2ba31ca6c79c3ad
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 52%
+source-wordcount: '481'
+ht-degree: 59%
 
 ---
 
@@ -18,13 +18,33 @@ ht-degree: 52%
 
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
 
+## Aggiornamenti di settembre {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente AI in Adobe Campaign Web - Acceleratore contenuto</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dopo aver creato e personalizzato il messaggio, passa a un livello successivo con l’Assistente AI in Adobe Campaign Web for Content Acceleration. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
+<p>Immergiti in un'esperienza pratica con <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima delle funzionalità live</a>, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/generative-gs.md">documentazione dettagliata</a>.</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Note sulla versione di agosto {#24-8-release}
 
 **Data di rilascio**: 3 settembre 2024
 
-Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di agosto.
+Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di agosto.
 
-* **Distribuzione dei valori** - Quando si accede all&#39;elenco dei campi per la personalizzazione, è ora possibile controllare la distribuzione dei valori per ciascun campo. Una finestra a comparsa dedicata mostra il numero e la percentuale per ciascun valore. [Ulteriori informazioni](../query/build-query.md#distribution-values-query)
+* **Distribuzione dei valori**: accedendo all’elenco dei campi per la personalizzazione, ora è possibile controllare come vengono distribuiti i valori per ciascun campo. Una finestra a comparsa dedicata mostra il numero e la percentuale per ciascun valore. [Ulteriori informazioni](../query/build-query.md#distribution-values-query)
 
 * **Parametri SMTP** - Le impostazioni SMTP sono ora disponibili nelle impostazioni di consegna e-mail. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#smtp)
 
@@ -38,7 +58,7 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 >
 >Consulta le seguenti pagine della documentazione: [Passaggio di Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
 
-* **Branding per Direct Mail** - Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull&#39;identità di un brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Ora puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **Branding per direct mail**: gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. I brand ora possono essere creati e collegati a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **Iscrizioni con pagine di destinazione** - È ora possibile collegare una pagina di destinazione a un servizio e inviare un messaggio di conferma quando gli utenti lo convalidano. [Ulteriori informazioni](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 

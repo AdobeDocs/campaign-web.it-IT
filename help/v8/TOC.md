@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [Creare una consegna Direct mail](direct-mail/create-direct-mail.md)
       + [Progettare il file di estrazione](direct-mail/content-direct-mail.md)
       + [Anteprima e invio di una consegna Direct mail](direct-mail/send-direct-mail.md)
-   + Assistente IA {#ai-assistant}
-      + [Introduzione all’Assistente IA](email/generative-gs.md)
-      + [Generazione di e-mail con l’Assistente IA](email/generative-content.md)
-      + [Generazione di SMS con l’Assistente IA](email/generative-sms.md)
-      + [Generazione di notifiche push con l’Assistente IA](email/generative-push.md)
    + [Aggiungere offerte ai messaggi](msg/offers.md)
    + [Inviare messaggi agli iscritti](msg/send-to-subscribers.md)
    + [Configurare le impostazioni di consegna](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [Regolare l’allineamento verticale e la spaziatura](email/alignment-and-padding.md)
          + [Definire uno stile per i collegamenti](email/styling-links.md)
          + [Aggiungere attributi di stile in linea](email/inline-styling.md)
+   + Assistente di IA per l&#39;acceleratore di contenuti {#ai-assistant}
+      + [Introduzione all’Assistente IA](email/generative-gs.md)
+      + [Generazione di e-mail con l’Assistente IA](email/generative-content.md)
+      + [Generazione di SMS con l’Assistente IA](email/generative-sms.md)
+      + [Generazione di notifiche push con l’Assistente IA](email/generative-push.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
