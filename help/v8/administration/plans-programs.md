@@ -3,7 +3,7 @@ audience: end-user
 title: Piani e programmi
 description: Scopri come creare e configurare piani e programmi in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # Piani e programmi {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="Piani e programmi"
 >abstract="Ora puoi configurare la gerarchia di cartelle per i piani e i programmi di marketing nell’interfaccia utente di Campaign Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"

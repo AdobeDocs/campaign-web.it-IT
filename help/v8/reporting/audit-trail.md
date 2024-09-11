@@ -4,21 +4,14 @@ title: Audit trail
 description: Scopri come monitorare l’istanza con Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 1%
 
 ---
 
 # Audit trail{#audit-trail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Audit trail"
->abstract="La nuova funzionalità Audit trail fornisce un record dettagliato e cronologico di tutte le azioni e di tutti gli eventi eseguiti nell’istanza di Adobe Campaign in tempo reale."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
 
 Nell&#39;interfaccia utente di Adobe Campaign Web, la funzione **[!UICONTROL Audit trail]** fornisce agli utenti la piena visibilità di tutte le modifiche apportate a entità importanti all&#39;interno dell&#39;istanza, in genere quelle che influiscono in modo significativo sul corretto funzionamento dell&#39;istanza.
 
