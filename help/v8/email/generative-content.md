@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: Contenuto generativo
-description: Guida introduttiva all’Assistente AI in Adobe Campaign Web per l’accelerazione dei contenuti
+description: Guida introduttiva all’Assistente AI per l’accelerazione dei contenuti
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1585'
 ht-degree: 17%
 
 ---
 
-# Generazione di e-mail con l’Assistente all’intelligenza artificiale in Adobe Campaign Web - Content Accelerator {#generative-content}
+# Generazione di e-mail con AI Assistant - Content Accelerator {#generative-content}
 
 >[!IMPORTANT]
 >

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS con l’assistente AI in Adobe Campaign Web per l’accelerazione dei contenuti
-description: Guida introduttiva all’Assistente AI in Adobe Campaign Web per l’accelerazione dei contenuti
+title: SMS con l’Assistente AI per l’accelerazione dei contenuti
+description: Guida introduttiva all’Assistente AI per l’accelerazione dei contenuti
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '901'
 ht-degree: 13%
 
 ---
 
-# Generazione di SMS con l’Assistente IA in Adobe Campaign Web - Content Accelerator {#generative-sms}
+# Generazione di SMS con IA Assistant - Content Accelerator {#generative-sms}
 
 >[!IMPORTANT]
 >
