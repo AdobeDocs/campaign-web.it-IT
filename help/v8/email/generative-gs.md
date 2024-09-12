@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione a AI Assistant Content Accelerator
 description: Guida introduttiva di AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 30%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 30%
 
 >[!INFO]
 >
->Immergiti in un&#39;esperienza pratica con [la nostra demo interattiva](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
+>Immergiti in un&#39;esperienza pratica con [la nostra anteprima live delle funzionalità](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
 
 Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. L’Assistente AI in Adobe Campaign Web for Content Acceleration, basato su Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti basata su IA di Adobe che rivoluziona il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand su canali diversi, come e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
