@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!TAB Distribuzione dei valori]
 
-Quando accedi all’elenco dei campi per la personalizzazione, ora puoi controllare come vengono distribuiti i valori per ciascun campo.
+Accedendo all’elenco dei campi per la personalizzazione, ora è possibile controllare come vengono distribuiti i valori per ciascun campo.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
 >[!TAB Captcha nelle pagine di destinazione]
 
-Ora puoi aggiungere captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Questa funzionalità è a disponibilità limitata.
+Ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Per il momento, questa funzionalità è in disponibilità limitata.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
