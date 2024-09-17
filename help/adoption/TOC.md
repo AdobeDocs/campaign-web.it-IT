@@ -2,12 +2,13 @@
 audience: end-user
 user-guide-title: Guida all’adozione di Campaign
 title: Guida all’adozione di Adobe Campaign
-description: Utenti Campaign Standard che passano a Campaign v8, scopri come iniziare.
+user-guide-description: Utenti Campaign Standard che passano a Campaign v8, scopri come iniziare.
+description: Utenti Campaign Standard, scopri come iniziare a utilizzare Campaign v8.
 breadcrumb-title: Guida all’adozione di Campaign
-source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
+source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
