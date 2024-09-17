@@ -2,14 +2,15 @@
 audience: end-user
 title: Progettare una consegna di notifiche push potenziata da iOS
 description: Scopri come progettare una consegna di notifiche push potenziata da iOS con Adobe Campaign Web
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 13%
 
 ---
 
-# Progettare una consegna push potenziata per iOS {#rich-push}
+# Progettare una consegna push iOS avanzata {#rich-push}
 
 >[!IMPORTANT]
 >
@@ -210,4 +211,3 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 | **[!UICONTROL ID thread]** | Imposta l’identificatore utilizzato per raggruppare le notifiche correlate. |
 | **[!UICONTROL Categoria]** | Imposta il nome dell&#39;ID categoria che visualizzerà i pulsanti di azione. Queste notifiche forniscono all’utente un modo più rapido per eseguire diverse attività in risposta a una notifica senza aprire o esplorare l’applicazione. |
 | **[!UICONTROL ID contenuto target]** | Impostare un identificatore utilizzato per impostare la finestra dell&#39;applicazione da portare avanti quando viene aperta la notifica. |
-

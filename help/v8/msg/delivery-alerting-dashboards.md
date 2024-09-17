@@ -53,7 +53,7 @@ Per creare un dashboard di consegna, segui questi passaggi:
 
 1. Nel campo **Seleziona gruppo di avvisi**, specifica il **gruppo di operatori** per ricevere gli avvisi inviati da questo dashboard. Tutti i membri del gruppo di operatori selezionato riceveranno gli avvisi.
 
-   Ulteriori informazioni sulle autorizzazioni e sui gruppi di operatori nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Ulteriori informazioni sulle autorizzazioni e sui gruppi di operatori nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. Nella sezione **Criteri di avviso di consegna**, aggiungi i criteri che desideri utilizzare per inviare gli avvisi. Scegli un criterio predefinito o creane uno personalizzato da allineare a esigenze specifiche. [Scopri come utilizzare i criteri](../msg/delivery-alerting-criteria.md)
 

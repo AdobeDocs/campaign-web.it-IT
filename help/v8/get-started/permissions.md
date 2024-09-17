@@ -4,7 +4,7 @@ title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: f352f4e726eff50527d0b9a04d0506600c12b822
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 

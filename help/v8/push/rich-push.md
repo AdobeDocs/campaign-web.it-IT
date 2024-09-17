@@ -10,7 +10,7 @@ ht-degree: 19%
 
 ---
 
-# Progettare una consegna push potenziata per Android {#rich-push}
+# Progettare una consegna push avanzata per Android {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -19,7 +19,7 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->* Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Ulteriori informazioni nella console client [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} di Campaign v8.
+>* Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Per ulteriori informazioni, consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} della  console client di Campaign v8.
 >
 >* Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per informazioni dettagliate sulla procedura, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
