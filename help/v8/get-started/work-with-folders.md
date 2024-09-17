@@ -4,9 +4,9 @@ title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -84,26 +84,26 @@ La distribuzione dei valori consente di conoscere la percentuale di un valore in
 
 Per conoscere la distribuzione dei valori in una cartella, procedere come segue:
 
-Ad esempio, tra le consegne vogliamo conoscere la distribuzione dei valori della colonna **Canale**.
+Ad esempio, tra le consegne, desideriamo conoscere la distribuzione dei valori della colonna **Canale**.
 
-Per ottenere queste informazioni, vai alla cartella **[!UICONTROL Consegne]** e fai clic sull&#39;icona **[!UICONTROL Configura colonne]**.
+Per ottenere queste informazioni, passare alla cartella **[!UICONTROL Consegne]** e fare clic sull’icona **[!UICONTROL Configura colonne]**.
 
-Nella finestra **[!UICONTROL Configura colonne]**, fai clic sull&#39;icona **[!UICONTROL Informazioni]** della colonna che desideri conoscere. Quindi, fai clic sul pulsante **[!UICONTROL Distribuzione di valori]**.
+Nella finestra **[!UICONTROL Configura colonne]**, fare clic sull’icona **[!UICONTROL Informazioni]** della colonna che desideri conoscere. Quindi, fare clic sul pulsante **[!UICONTROL Distribuzione dei valori]**.
 
 ![](assets/values_deliveries.png){zoomable="yes"}
 
-Otterrai la percentuale dei valori nella colonna **[!UICONTROL Canale]**.
+Nella colonna **[!UICONTROL Canale]** si otterrà la percentuale dei valori.
 
 ![](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Per le colonne con molti valori, verranno visualizzati solo i primi venti valori. Verrà visualizzato un avviso con una notifica **[!UICONTROL Caricamento parziale]**.
+> Per le colonne con molti valori, verranno visualizzati solo i primi venti valori. Verrà visualizzato un avviso con la notifica **[!UICONTROL Caricamento parziale]**.
 
-Puoi anche avere la distribuzione dei valori di un collegamento.
+È anche possibile avere la distribuzione dei valori di un collegamento.
 
-Nell&#39;elenco degli attributi fare clic sul pulsante **+** accanto al collegamento desiderato, come illustrato di seguito. Questo aggiunge il collegamento alle **[!UICONTROL colonne di output]**. È ora possibile disporre dell&#39;icona **[!UICONTROL Informazioni]**, che consente di visualizzare la distribuzione dei relativi valori. Se non desideri mantenere il collegamento nelle **[!UICONTROL Colonne di output]**, assicurati di fare clic sul pulsante **[!UICONTROL Annulla]**.
+Nell’elenco degli attributi, fare clic sul pulsante **+** accanto al collegamento desiderato, come illustrato di seguito. Questo aggiunge il collegamento alle **[!UICONTROL colonne di output]**. È ora possibile disporre dell&#39;icona **[!UICONTROL Informazioni]**, che consente di visualizzare la distribuzione dei relativi valori. Se non si desidera mantenere il collegamento nelle **[!UICONTROL Colonne di output]**, assicurarsi di fare clic sul pulsante **[!UICONTROL Annulla]**.
 
 ![](assets/values_link.png){zoomable="yes"}
 
-È inoltre possibile disporre della distribuzione dei valori in un modellatore di query. [Ulteriori informazioni](../query/build-query.md#distribution-of-values-in-a-query).
+È inoltre possibile disporre della distribuzione dei valori in un query modeler. [Ulteriori informazioni](../query/build-query.md#distribution-of-values-in-a-query).
