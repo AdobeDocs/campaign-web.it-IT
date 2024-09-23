@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 99%
+source-wordcount: '1765'
+ht-degree: 98%
 
 ---
 
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Informazioni sui pacchetti"
 >abstract="Informazioni sui pacchetti"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="Schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="Tipi di schema"
+>abstract="Tipi di schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="Proprietà dello schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="Seleziona schema esistente"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="Seleziona database esterno"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Aggiungi tabelle"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="Registri e attività dei flussi di lavoro"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="Aggiorna database"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="Aggiorna script"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="Avvia aggiornamento database"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Aggiungi tabelle"
+>abstract="Schema"
