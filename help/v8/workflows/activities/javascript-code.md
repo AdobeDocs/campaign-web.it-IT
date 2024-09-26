@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 26%
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transizione JavaScript"
->abstract="Attiva l&#39;opzione **[!UICONTROL Elabora errori]** per mantenere gli errori che si verificano durante l&#39;esecuzione dello script in una transizione di output aggiuntiva."
+>abstract="Attiva l’opzione **[!UICONTROL errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
@@ -62,7 +62,7 @@ Per configurare l&#39;attività **codice JavaScript**, eseguire la procedura seg
 
    ![](../assets/javascript-config.png)
 
-1. Attiva l&#39;opzione **[!UICONTROL Elabora errori]** per mantenere gli errori che si verificano durante l&#39;esecuzione dello script in una transizione di output aggiuntiva.
+1. Attiva l’opzione **[!UICONTROL errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva.
 
 ## Attività avanzate codice JavaScript {#advanced}
 

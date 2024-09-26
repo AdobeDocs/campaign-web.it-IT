@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 23%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
->title="Perfeziona il target"
->abstract="Queste regole possono essere modificate solo nella console client."
+>title="Perfezionare la destinazione"
+>abstract="Questi regole possono essere modificate solo nella console client."
 
 L’interfaccia utente web di Adobe Campaign dispone di un modellatore di query che semplifica il processo di filtraggio del database in base a vari criteri. Garantisce la piena compatibilità con le query create nella console client, semplificando la transizione all’interfaccia utente web.
 

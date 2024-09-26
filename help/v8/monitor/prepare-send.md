@@ -118,34 +118,34 @@ Che la consegna sia pianificata o meno<!--TBC-->, è possibile eseguire due azio
 >id="acw_deliveries_email_metrics_delivered"
 >title="Consegnati"
 >abstract="Numero di messaggi recapitati correttamente. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata si basa sul numero totale di messaggi inviati."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Aperture"
 >abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clic"
 >abstract="Numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Metriche di invio"
 >abstract="Numero totale di messaggi elaborati durante l’analisi della consegna."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metriche di errori"
 >abstract="Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 
 
 Una volta completato l’invio, puoi controllare i KPI visualizzati:

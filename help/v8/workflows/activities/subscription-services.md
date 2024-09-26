@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 16%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Informazioni aggiuntive"
->abstract="Specifica i dati e l’origine della sottoscrizione per ciascun record. Puoi lasciare vuota questa sezione, nel qual caso non verrà impostata alcuna data o origine durante l’esecuzione del flusso di lavoro. Se i dati in entrata contengono una colonna che indica la data di abbonamento del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**. Nel campo **[!UICONTROL Percorso origine]**, definisci l&#39;origine della sottoscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l&#39;opzione **[!UICONTROL Imposta una costante come origine]**."
+>abstract="Specifica i dati e l’origine dell’iscrizione per ciascun record. Puoi lasciare vuota questa sezione, nel qual caso non verrà impostata alcuna data o origine durante l’esecuzione del flusso di lavoro. Se i dati in entrata contengono una colonna che indica la data di iscrizione del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**. Nel campo **[!UICONTROL Percorso origine]**, definisci l’origine dell’iscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l’opzione **[!UICONTROL Imposta una costante come origine]**."
 
 L&#39;attività **Subscription services** è un&#39;attività **Data Management**. Consente di creare o eliminare un abbonamento a un servizio di informazioni per la popolazione specificata nella transizione.
 
@@ -70,7 +70,7 @@ Segui questi passaggi per configurare l&#39;attività **Subscription services**:
 
    * Se i dati in entrata contengono una colonna che indica la data di abbonamento del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**.
 
-   * Nel campo **[!UICONTROL Percorso origine]**, definisci l&#39;origine della sottoscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l&#39;opzione **[!UICONTROL Imposta una costante come origine]**.
+   * Nel campo **[!UICONTROL Percorso origine]**, definisci l’origine dell’iscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l’opzione **[!UICONTROL Imposta una costante come origine]**.
 
    ![](../assets/workflow-subscription-service-additional.png)
 

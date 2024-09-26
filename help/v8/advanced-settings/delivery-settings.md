@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
 source-wordcount: '2852'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -338,14 +338,14 @@ Se necessario, i valori vengono codificati automaticamente.
 >
 >L’aggiunta di uno script per l’inserimento di intestazioni SMTP aggiuntive è un’operazione riservata agli utenti avanzati. La sintassi di questo script deve essere conforme ai requisiti di questo tipo di contenuto: nessuno spazio inutilizzato, nessuna linea vuota e così via.
 
-## Aggiunta di variabili {#variables-delivery}
+## Aggiungere variabili {#variables-delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variabili"
->abstract="Puoi aggiungere variabili alla consegna, che possono essere utili per il tracciamento e la personalizzazione. Queste variabili sono accessibili sia dal contenuto della consegna che dai flussi di lavoro."
+>abstract="Alla consegna puoi aggiungere variabili, che possono essere utili per il tracciamento e la personalizzazione. Queste variabili sono accessibili sia dal contenuto della consegna che dai flussi di lavoro."
 
-Puoi aggiungere variabili alla consegna, che possono essere utili per il tracciamento e la personalizzazione. Queste variabili sono accessibili sia dal contenuto della consegna che dai flussi di lavoro. Le variabili memorizzate vengono utilizzate per impostare valori che rimangono costanti in tutti i messaggi all’interno della consegna. Possono essere configurati anche nei modelli di consegna.
+Alla consegna puoi aggiungere variabili, che possono essere utili per il tracciamento e la personalizzazione. Queste variabili sono accessibili sia dal contenuto della consegna che dai flussi di lavoro. Le variabili memorizzate vengono utilizzate per impostare valori che rimangono costanti in tutti i messaggi all’interno della consegna. Possono essere configurati anche nei modelli di consegna.
 
 Per aggiungere una variabile, passare alla scheda **[!UICONTROL Variabili]** come illustrato di seguito.
 

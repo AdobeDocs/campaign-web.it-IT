@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -95,9 +95,9 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="Storicizzazione del file"
->abstract="Ogni volta che viene eseguita un&#39;attività di **[!UICONTROL Trasferimento file]**, i file caricati o scaricati vengono memorizzati in una cartella dedicata. Viene creata una cartella per ogni attività Transfer file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattivare l&#39;opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immettere il percorso della directory."
+>abstract="Tutte le volte che esegui un’attività **[!UICONTROL Trasferisci file]**, memorizzi i file caricati o scaricati in una cartella dedicata. Viene creata una cartella per ogni attività Trasferisci file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattiva l’opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immetti il percorso della directory."
 
-Ogni volta che viene eseguita un&#39;attività di **[!UICONTROL Trasferimento file]**, i file caricati o scaricati vengono memorizzati in una cartella dedicata. Viene creata una cartella per ogni attività Transfer file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattivare l&#39;opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immettere il percorso della directory.
+Tutte le volte che esegui un’attività **[!UICONTROL Trasferisci file]**, memorizzi i file caricati o scaricati in una cartella dedicata. Viene creata una cartella per ogni attività Trasferisci file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattiva l’opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immetti il percorso della directory.
 
 ![](../assets/workflow-transfer-file-historization.png)
 

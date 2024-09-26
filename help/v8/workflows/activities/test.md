@@ -6,7 +6,7 @@ exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 0%
+ht-degree: 35%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="Attività di test"
->abstract="L&#39;attività **Test** è un&#39;attività **Controllo flusso**. Consente di abilitare le transizioni in base a condizioni specificate."
+>abstract="L’attività **Test** è un’attività di **Controllo del flusso**. Consente di abilitare le transizioni in base a condizioni specificate."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Condizioni"
->abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione del flusso di lavoro, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, il flusso di lavoro continua lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, i flussi di lavoro si interrompono a questo punto."
+>abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione del flusso di lavoro, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, il flusso di lavoro prosegue lungo il percorso della **[!UICONTROL condizione di impostazione predefinita]**. Se non viene attivata alcuna condizione di impostazione predefinita, i flussi di lavoro si interrompono in questo punto."
 
-L&#39;attività **Test** è un&#39;attività **Controllo flusso**. Consente di abilitare le transizioni in base a condizioni specificate.
+L’attività **Test** è un’attività di **Controllo del flusso**. Consente di abilitare le transizioni in base a condizioni specificate.
 
 ## Configurare l’attività di test {#test-configuration}
 
@@ -40,7 +40,7 @@ Per configurare l&#39;attività **Test**, eseguire la procedura seguente:
 
 1. È possibile aggiungere più transizioni di output a un&#39;attività **[!UICONTROL Test]**. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi condizione]** e configurare l&#39;etichetta e la condizione associata per ogni transizione.
 
-1. Durante l’esecuzione del flusso di lavoro, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, il flusso di lavoro continua lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, i flussi di lavoro si interrompono a questo punto.
+1. Durante l’esecuzione del flusso di lavoro, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, il flusso di lavoro prosegue lungo il percorso della **[!UICONTROL condizione di impostazione predefinita]**. Se non viene attivata alcuna condizione di impostazione predefinita, i flussi di lavoro si interrompono in questo punto.
 
 ## Esempio {#example}
 
