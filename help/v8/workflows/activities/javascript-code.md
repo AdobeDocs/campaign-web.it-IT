@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro codice JavaScript
 description: Scopri come utilizzare l’attività del flusso di lavoro del codice JavaScript
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
+source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 30%
+source-wordcount: '969'
+ht-degree: 29%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transizione JavaScript"
->abstract="Attiva l’opzione **[!UICONTROL errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva."
+>abstract="Per aggiungere una o più transizioni di output, fare clic sul pulsante **[!UICONTROL Aggiungi transizioni]** e specificare un&#39;etichetta e un nome interno per ogni transizione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
 >title="Errori del processo"
->abstract="errori di processo"
+>abstract="Attiva l’opzione **[!UICONTROL errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva."
 
 L&#39;attività **codice JavaScript** è un&#39;attività **Gestione dati**. Utilizza questa attività per eseguire uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di raccogliere informazioni dal database o di eseguire altre operazioni complesse.
 
