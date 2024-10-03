@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1709'
 ht-degree: 49%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 49%
 >id="acw_orchestration_enrichment"
 >title="Attività Arricchimento"
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Proposta di offerte"
+>abstract="Proposta di offerte"
 
 L’attività **Arricchimento** è un’attività di **targeting**. Consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione.
 
