@@ -4,9 +4,9 @@ title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -464,5 +464,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
->title="Avvia aggiornamento database"
+>title="Inizia aggiornamento database"
 >abstract="Schema"

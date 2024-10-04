@@ -4,9 +4,9 @@ title: Passaggio da Campaign Standard ad Adobe Campaign Web
 description: Interfaccia utente di Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Siamo entusiasti di annunciare che chi usa Adobe Campaign Standard ora può pass
 * Integrazione con Adobe Experience Platform: Managed Cloud Service v8 si connette direttamente con Adobe Experience Platform e permette così di sfruttare tutto il potenziale dei propri dati e fornire campagne personalizzate e di impatto su tutti i canali.
 * Interfaccia utente ed esperienza coerenti: il passaggio a Managed Cloud Services v8 avviene senza ripercussioni sul tuo attuale flusso di lavoro. L’interfaccia e l’esperienza utente rimarranno così come le conosci già e la curva di apprendimento per il tuo team è davvero minima.
 
-**In qualità di utente Campaign Standard che passa a Campaign v8, scopri come avviare [in questo documento](../../adoption/home.md).**
+**In qualità di utente di Campaign Standard che passa a Campaign v8, scopri come iniziare [in questo documento](../../adoption/home.md).**
 
 <!--
 As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.

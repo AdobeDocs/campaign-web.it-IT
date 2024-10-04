@@ -4,9 +4,9 @@ title: Novità nell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Utilizza la nuova interfaccia utente di Campaign Web:
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
 
-**Generazione di contenuti con l&#39;Assistente AI Content Accelerator**
+**Generazione di contenuti con l’Accelerazione dei contenuti dell’Assistente IA**
 
-Dì addio al problema della creazione manuale dei contenuti e abbraccia una nuova era di campagne semplificate con il nostro innovativo designer di contenuti basato su Microsoft Azure OpenAI e Adobe Firefly.
+Dimentica la difficoltà della creazione manuale dei contenuti e inizia una nuova era di campagne semplificate con il nostro innovativo designer contenuto basato su Microsoft Azure OpenAI e Adobe Firefly.
 
-Ridefinisci la distribuzione dei contenuti con il nostro editor drag-and-drop avanzato WYSIWYG, progettato per semplicità ed efficienza. Grazie all’integrazione perfetta dell’AEM, alle funzionalità di contenuti dinamici e all’Assistente Content Accelerator per l’intelligenza artificiale, questo strumento all-in-one rende la creazione della consegna intuitiva, efficiente e altamente personalizzata.
+Ridefinisci la consegna dei contenuti con il nostro editor con funzione di trascinamento avanzato WYSIWYG, progettato per semplicità ed efficienza. Grazie all’integrazione perfetta di AEM, alle funzionalità di contenuti dinamici e all’Accelerazione dei contenuti dell’Assistente IA, questo strumento all-in-one rende la creazione della consegna intuitiva, efficiente e altamente personalizzata.
 
-Sfrutta la potenza degli algoritmi avanzati di AI Assistant Content Accelerator per creare contenuti coinvolgenti e personalizzati che producono risultati. Aumenta i tassi di apertura, i click-through e le conversioni con una generazione di contenuti intelligente e basata sull’intelligenza artificiale. Per ulteriori informazioni, consulta [questa sezione](../email/generative-gs.md).
+Sfrutta la potenza degli algoritmi avanzati dell’Accelerazione dei contenuti dell’Assistente IA per creare contenuti coinvolgenti e personalizzati che producono risultati. Aumenta i tassi di apertura, i click-through e le conversioni con una generazione di contenuti intelligente e basata sull’intelligenza artificiale. Per ulteriori informazioni, consulta [questa sezione](../email/generative-gs.md).
 
 **Attività del flusso di lavoro delle campagne nuove e riprogettate**
 
@@ -121,7 +121,7 @@ Ora puoi **importare e convertire qualsiasi contenuto HTML** nell’editor e-mai
 
 **SMS con offerte**
 
-L’interfaccia utente di Campaign Web consente di **integrare le offerte tramite SMS**, oltre alle e-mail. Raggiungi il tuo pubblico sui dispositivi mobili, consegnando promozioni e notifiche al momento giusto. Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS sulla nostra piattaforma web avanzata. Per ulteriori informazioni, consulta [questa sezione](../msg/offers.md).
+L’interfaccia utente di Campaign Web consente di **integrare le offerte tramite SMS**, oltre alle e-mail. Raggiungi il tuo pubblico sui dispositivi mobili, consegnando promozioni e notifiche al momento giusto. Migliora le tue attività di marketing sfruttando la potenza delle offerte integrate tramite SMS sulla nostra piattaforma Web avanzata. Per ulteriori informazioni, consulta [questa sezione](../msg/offers.md).
 
 ## Passaggio all’interfaccia utente di Campaign Web
 

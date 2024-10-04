@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ ht-degree: 96%
          + [Regolare l’allineamento verticale e la spaziatura](email/alignment-and-padding.md)
          + [Definire uno stile per i collegamenti](email/styling-links.md)
          + [Aggiungere attributi di stile in linea](email/inline-styling.md)
-   + Assistente di IA per l&#39;acceleratore di contenuti {#ai-assistant}
-      + [Utilizzo di AI Assistant Content Accelerator](email/generative-gs.md)
-      + [Generazione di e-mail con IA](email/generative-content.md)
-      + [Generazione di SMS con IA](email/generative-sms.md)
-      + [Generazione di notifiche push con IA](email/generative-push.md)
+   + Accelerazione dei contenuti dell’Assistente IA {#ai-assistant}
+      + [Utilizzare l’acceleratore di contenuti dell’Assistente IA](email/generative-gs.md)
+      + [Generazione di e-mail con l’IA](email/generative-content.md)
+      + [Generazione di SMS con l’IA](email/generative-sms.md)
+      + [Generazione di notifiche push con l’IA](email/generative-push.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
