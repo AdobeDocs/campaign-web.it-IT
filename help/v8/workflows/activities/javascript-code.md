@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transizione JavaScript"
->abstract="Per aggiungere una o più transizioni di output, fare clic sul pulsante **[!UICONTROL Aggiungi transizioni]** e specificare un&#39;etichetta e un nome interno per ogni transizione."
+>abstract="Per aggiungere una o più transizioni di output, fai clic sul pulsante **[!UICONTROL Aggiungi transizioni]** e specifica un’etichetta e un nome interno per ogni transizione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
 >title="Errori del processo"
->abstract="Attiva l’opzione **[!UICONTROL errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva."
+>abstract="Attiva l’opzione **[!UICONTROL Errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva."
 
 L&#39;attività **codice JavaScript** è un&#39;attività **Gestione dati**. Utilizza questa attività per eseguire uno script JavaScript nel contesto di un flusso di lavoro. Questo consente di raccogliere informazioni dal database o di eseguire altre operazioni complesse.
 
@@ -62,7 +62,7 @@ Per configurare l&#39;attività **codice JavaScript**, eseguire la procedura seg
 
    ![](../assets/javascript-config.png)
 
-1. Attiva l’opzione **[!UICONTROL errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva.
+1. Attiva l’opzione **[!UICONTROL Errori di processo]** per mantenere gli errori che si verificano durante l’esecuzione dello script in una transizione di output aggiuntiva.
 
 ## Attività avanzate codice JavaScript {#advanced}
 
@@ -78,7 +78,7 @@ Per configurare un’attività di codice JavaScript avanzato, effettua le seguen
    * Fai clic su **[!UICONTROL Modifica codice prima chiamata]** per definire lo script da eseguire durante la prima chiamata.
    * Fai clic su **[!UICONTROL Modifica codice chiamata successiva]** per definire lo script da eseguire durante le chiamate successive del flusso di lavoro. (facoltativo)
 
-1. Per aggiungere una o più transizioni di output, fare clic sul pulsante **[!UICONTROL Aggiungi transizioni]** e specificare un&#39;etichetta e un nome interno per ogni transizione.
+1. Per aggiungere una o più transizioni di output, fai clic sul pulsante **[!UICONTROL Aggiungi transizioni]** e specifica un’etichetta e un nome interno per ogni transizione.
 
    In questo esempio abbiamo configurato due transizioni che vengono attivate dallo script nel frammento di codice in base a condizioni specifiche.
 
