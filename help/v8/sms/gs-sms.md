@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione alle consegne SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 
 * **Consegne indipendenti**: crea singole consegne SMS per comunicare in modo rapido e diretto con i clienti, senza dover ricorrere a flussi di lavoro o campagne.
 
-![](../assets/do-not-localize/book.png)Scopri come configurare il canale SMS nella [documentazione di Campaign v8 (console client)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html){target="_blank"}.
+![](../assets/do-not-localize/book.png)Scopri come configurare il canale SMS nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
