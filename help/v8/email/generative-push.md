@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Notifica push con l’Assistente AI per l’accelerazione dei contenuti
-description: Guida introduttiva all’Assistente AI per l’accelerazione dei contenuti
+title: Notifica push con l’Acceleratore dei contenuti dell’Assistente AI
+description: Guida introduttiva di AI Assistant Content Accelerator
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '576'
 ht-degree: 8%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 8%
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](generative-gs.md#generative-guardrails).
 ></br>
 >
->È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Adobe Campaign Web for Content Acceleration. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>È necessario accettare un [contratto per l&#39;utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-L’Assistente AI per l’accelerazione dei contenuti può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il tuo pubblico.
+L’AI Assistant Content Accelerator può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il tuo pubblico.
 
 Nell’esempio seguente, sfrutteremo l’assistente AI per creare messaggi convincenti per creare un’esperienza del cliente più coinvolgente.
 

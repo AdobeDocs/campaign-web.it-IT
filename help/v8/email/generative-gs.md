@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione all’acceleratore dei contenuti dell’Assistente IA
 description: Guida introduttiva di AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 39%
+source-wordcount: '835'
+ht-degree: 40%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Acceleratore di contenuti Assistente IA"
+>title="Accelerazione dei contenuti dell’Assistente IA"
 >abstract="L’Assistente IA rende la creazione e l’esecuzione di campagne di marketing su canali diversi come e-mail, SMS e push intuitivi, semplici e senza problemi, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
@@ -38,10 +38,10 @@ ht-degree: 39%
 
 >[!INFO]
 >
->Immergiti in un&#39;esperienza pratica con [la nostra anteprima live delle funzionalità](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
+>Immergiti in un&#39;esperienza pratica con [la nostra anteprima live delle funzionalità](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
 
-Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. L’Assistente AI in Adobe Campaign Web for Content Acceleration, basato su Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti basata su IA di Adobe che rivoluziona il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand su canali diversi, come e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
+Man mano che il settore Marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in modo efficiente e rapido. IA Assistant Content Accelerator in Adobe Campaign Web, basato su Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti AI di Adobe che rivoluziona il modo in cui i professionisti del marketing creano contenuti professionali e coerenti con il brand attraverso canali quali e-mail, SMS e push. Con modelli GenAI avanzati e una profonda comprensione delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, con contenuti ottimizzati per stili, layout, toni e altro ancora delineati dal brand.
 
 L’Assistente IA rende la creazione e l’esecuzione di campagne di marketing su canali diversi come e-mail, SMS e push intuitivi, semplici e senza problemi, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori.
 
@@ -49,7 +49,7 @@ L’Assistente IA rende la creazione e l’esecuzione di campagne di marketing s
 >
 >* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](#generative-guardrails).
 >
->* È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Adobe Campaign Web for Content Acceleration. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>* È necessario accettare un [contratto per l&#39;utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 ## Accedere ad AI Assistant Content Accelerator {#generative-access}
 
@@ -70,7 +70,7 @@ Scopri come definire le autorizzazioni in Campaign in [questa sezione](../get-st
 
 ## Guardrail e limitazioni {#generative-guardrails}
 
-Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assistente IA in Adobe Campaign Web for Content Acceleration per la generazione di e-mail:
+Di seguito sono elencate le linee guida generali per l’utilizzo di AI Assistant Content Accelerator in Adobe Campaign Web per la generazione di e-mail:
 
 * La qualità del contenuto generato è fortemente influenzata dalla finalità dell’iniziativa di marketing e dal prompt che inserisci nelle impostazioni. Inserisci un prompt chiaro e preciso nelle impostazioni, per consentire al modello GenAI di interpretarle con precisione. 
 * Per ottenere contenuti accurati e in linea con i requisiti del marchio, carica una risorsa del marchio. In caso contrario, il contenuto verrà generato sulla base di informazioni di pubblico dominio. Puoi caricare contenuti nei seguenti formati: file PDF, immagini JPEG o PNG, o file ZIP (contenenti formati di file supportati).
@@ -80,9 +80,9 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assiste
 * L’utilizzo dell’assistente IA è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Come parte dell’impegno di Adobe di promuovere la trasparenza nell’utilizzo degli strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applicherà i Content credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata dal Firefly. [Ulteriori informazioni](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-Le seguenti limitazioni si applicano all’Assistente IA in Adobe Campaign Web for Content Acceleration:
+Le seguenti limitazioni si applicano ad AI Assistant Content Accelerator in Adobe Campaign Web:
 
-* L’Assistente IA in Adobe Campaign Web per l’accelerazione dei contenuti è attualmente supportato solo in inglese. Gli input non in inglese possono produrre risultati incoerenti o errati. Le questioni sollevate da risposte non in lingua inglese non saranno al momento affrontate né migliorate.
+* L’acceleratore di contenuti di AI Assistant nel web di Adobe Campaign è attualmente supportato solo in inglese. Gli input non in inglese possono produrre risultati incoerenti o errati. Le questioni sollevate da risposte non in lingua inglese non saranno al momento affrontate né migliorate.
 * Disponibile solo per i canali e-mail, push e SMS.
 * Il contenuto GenAI potrebbe non essere sempre accurato: condividi il tuo feedback in modo che i nostri ingegneri possano perfezionare i modelli.
 * Puoi caricare più risorse per il brand, ma puoi sfruttarne una sola per una generazione specifica.
