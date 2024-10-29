@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Pianificazione cartella"
 >abstract="Pianificazione cartella"
 
-## Informazioni sulle cartelle
+## Informazioni sulle cartelle {#about-folders}
 
 In Adobe Campaign le cartelle sono oggetti che consentono di organizzare i componenti e i dati.
 
@@ -43,7 +43,7 @@ In Adobe Campaign le cartelle sono oggetti che consentono di organizzare i compo
 Puoi impostare un tipo di cartella. Ad esempio: una cartella di consegne.
 L’icona della cartella cambia in base a questo tipo.
 
-## Creare una nuova cartella
+## Creare una nuova cartella {#create-a-folder}
 
 Per creare una nuova cartella nell’interfaccia utente di Adobe Campaign Web, segui questi passaggi:
 
@@ -52,8 +52,7 @@ Nel menu **[!UICONTROL ...]**, è disponibile **[!UICONTROL Crea nuova cartella]
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Per impostazione predefinita, quando si crea una nuova cartella, il tipo di cartella è quello della cartella principale.
-Nel nostro esempio, creiamo una cartella nella cartella **[!UICONTROL Consegne]**.
+Per impostazione predefinita, quando si crea una nuova cartella, il tipo di cartella è quello della cartella principale. Nel nostro esempio, creiamo una cartella nella cartella **[!UICONTROL Consegne]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Per creare una cartella senza un tipo specifico, scegli il tipo **[!UICONTROL Ca
 
 È, inoltre, possibile [creare e gestire cartelle nella console di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Eliminare una cartella
+## Eliminare una cartella {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ Nell’elenco degli attributi, fare clic sul pulsante **+** accanto al collegame
 ![](assets/values_link.png){zoomable="yes"}
 
 È inoltre possibile disporre della distribuzione dei valori in un query modeler. [Ulteriori informazioni](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filtrare i valori {#filter-values}
+
+Utilizzando i **[!UICONTROL Filtri avanzati]** nella finestra di distribuzione dei valori, puoi filtrare i risultati in base a condizioni specificate.
+
+Nell&#39;esempio dell&#39;elenco di consegna riportato sopra, che mostra la distribuzione per canale, è possibile, ad esempio, filtrarla per visualizzare solo le consegne il cui stato è **Completato**.
+
+![](assets/values_filter.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 42%
+source-wordcount: '1189'
+ht-degree: 38%
 
 ---
 
@@ -48,21 +48,27 @@ La barra degli strumenti situata nell’angolo superiore destro dell’area di l
 
 ## Gestire le attività {#manage}
 
-Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni. Puoi eseguire le seguenti azioni:
+Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili pulsanti di azione che consentono di eseguire più operazioni.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+Puoi eseguire le seguenti azioni:
 
 * **Elimina** l’attività dall’area di lavoro.
 * **Disattiva/Attiva** l’attività. Quando il flusso di lavoro viene eseguito, le attività disabilitate e le attività successive sullo stesso percorso non vengono eseguite e il flusso di lavoro viene interrotto.
-* **Copia** l’attività. Consulta [questa sezione](#copy).
-* Accedi a **Registri e attività**.
 * **Pausa/Riprendi** l’attività. Quando il flusso di lavoro viene eseguito, viene messo in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Copia** l’attività. Consulta [questa sezione](#copy).
+* **Sposta** un&#39;attività e tutti i relativi nodi figlio in un&#39;altra transizione. Vedi [questa sezione](#move)
+* Accedi alle **opzioni di esecuzione** dell&#39;attività.
+* Accedi a **Registri e attività**.
 
 Diverse attività di **targeting**, come **Combina** o **Deduplicazione**, ti consentono di elaborare il gruppo rimanente e includerlo in un&#39;ulteriore transizione in uscita. Ad esempio, se utilizzi un&#39;attività **Split**, il complemento è costituito dal gruppo che non corrisponde a nessuno dei sottoinsiemi definiti in precedenza. Per utilizzare questa funzionalità, attivare l&#39;opzione **Genera complemento**.
 
 ![](assets/workflow-split-complement.png)
 
-## Copiare attività {#copy}
+## Spostare o copiare attività {#move-copy}
+
+### Attività di copia e incolla {#copy}
 
 Puoi copiare le attività del flusso di lavoro e incollarle in qualsiasi flusso di lavoro. Il flusso di lavoro di destinazione può trovarsi in una scheda del browser diversa.
 
@@ -72,13 +78,27 @@ Per copiare le attività, puoi scegliere tra due opzioni:
 
   ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
-* copia più attività tramite il pulsante della barra degli strumenti.
+* copia più attività utilizzando il pulsante della barra degli strumenti.
 
   ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Per incollare le attività copiate, fare clic sul pulsante **+** su una transizione e selezionare &quot;Incolla attività X&quot;.
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Spostare le attività e i relativi nodi figlio {#move}
+
+Journey Optimizer consente di spostare un’attività, insieme all’intero contenuto dei relativi nodi secondari (incluse tutte le transizioni e le attività al suo interno), alla fine di un’altra transizione all’interno dello stesso flusso di lavoro.
+
+Questo processo disconnette l’attività e tutto ciò che si trova nella sua transizione in uscita dalla posizione iniziale, spostandola nella nuova transizione di destinazione.
+
+Per spostare un’attività:
+
+1. Seleziona l’attività da spostare.
+1. Nel riquadro delle proprietà dell&#39;attività fare clic sul pulsante **Sposta**.
+1. Seleziona la transizione in cui desideri inserire l’attività e la relativa transizione in uscita, quindi conferma.
+
+![](assets/activity-move.png)
 
 ## Execution options {#execution}
 

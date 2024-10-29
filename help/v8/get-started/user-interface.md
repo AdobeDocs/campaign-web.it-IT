@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa
 ### Reportistica {#left-nav-reporting}
 
 * **Rapporti**: la voce **Rapporto** offre un riepilogo complessivo consolidato del traffico e delle metriche di coinvolgimento per ciascun canale all’interno dell’ambiente di Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna. Per ulteriori informazioni, consulta [questa sezione](../reporting/global-reports.md).
+
+### Amministrazione {#left-nav-admin}
+
+
+* **Audit trail** - La voce **Audit trail** fornisce agli utenti piena visibilità di tutte le modifiche apportate a entità importanti all&#39;interno dell&#39;istanza, in genere quelle che influiscono in modo significativo sul corretto funzionamento dell&#39;istanza. [Ulteriori informazioni](../reporting/audit-trail.md)
+
+* **Account esterni** - Crea nuovi account esterni utilizzando l&#39;interfaccia utente Web per soddisfare esigenze specifiche e garantire trasferimenti di dati senza problemi. [Ulteriori informazioni](../administration/external-account.md)
+
+* **Schemi** - I campi personalizzati sono attributi aggiuntivi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. [Ulteriori informazioni](../administration/custom-fields.md)
+
+* **Avvisi di consegna** - Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Messaggistica transazionale"
->abstract="Messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Proprietà di messaggistica transazionale"
->abstract="Proprietà di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="Proprietà della messaggistica e-mail transazionale"
->abstract="Proprietà della messaggistica e-mail transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="Proprietà della messaggistica SMS transazionale"
->abstract="Proprietà della messaggistica SMS transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="Proprietà della messaggistica push transazionale"
->abstract="Proprietà della messaggistica push transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="App mobile di messaggistica transazionale"
->abstract="App mobile di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Eventi di messaggistica transazionale"
->abstract="Eventi di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Contesto di messaggistica transazionale"
->abstract="Contesto di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Contenuto di messaggistica transazionale"
->abstract="Contenuto di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Personalizzazione di messaggistica transazionale"
->abstract="Personalizzazione di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Registri di esclusione di messaggistica transazionale"
->abstract="Registri di esclusione di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Contesto di messaggistica transazionale"
->abstract="Contesto di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Cronologia eventi di messaggistica transazionale"
->abstract="Cronologia eventi di messaggistica transazionale"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Anteprima cronologia eventi di messaggistica transazionale"
->abstract="Anteprima cronologia eventi di messaggistica transazionale"
 
 <!--about-->
 

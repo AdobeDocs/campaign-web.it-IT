@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 49%
+source-wordcount: '2061'
+ht-degree: 39%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 49%
 >title="Attività Arricchimento"
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Proposta di offerte"
->abstract="Proposta di offerte"
 
 L’attività **Arricchimento** è un’attività di **targeting**. Consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione.
 
@@ -140,6 +136,56 @@ L&#39;esempio seguente mostra un flusso di lavoro configurato per creare un coll
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Aggiungere offerte {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Proposta di offerta"
+>abstract="L’attività Enrichment ti consente di aggiungere offerte per ciascun profilo."
+
+L&#39;attività **[!UICONTROL Enrichment]** ti consente di aggiungere offerte per ciascun profilo.
+
+A tale scopo, segui la procedura per configurare un&#39;attività **[!UICONTROL Enrichment]** con un&#39;offerta:
+
+1. Nell&#39;attività **[!UICONTROL Enrichment]**, nella sezione **[!UICONTROL Proposta di offerte]**, fare clic sul pulsante **[!UICONTROL Aggiungi offerta]**
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. Sono disponibili due opzioni per la selezione dell’offerta:
+
+   * **[!UICONTROL Cerca l&#39;offerta migliore nella categoria]**: seleziona questa opzione e specifica i parametri di chiamata del motore di offerta (spazio dell&#39;offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcolerà le offerte migliori da aggiungere in base a questi parametri. È consigliabile completare il campo Categoria o Tema, anziché entrambi contemporaneamente.
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL Offerta predefinita]**: seleziona questa opzione e specifica uno spazio dell&#39;offerta, un&#39;offerta specifica e una data di contatto per configurare direttamente l&#39;offerta da aggiungere senza chiamare il motore delle offerte.
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. Dopo aver selezionato l&#39;offerta, fai clic sul pulsante **[!UICONTROL Conferma]**.
+
+Ora puoi utilizzare l’offerta nell’attività di consegna.
+
+### Utilizzo delle offerte dall’attività Enrichment
+
+All’interno di un flusso di lavoro, se desideri utilizzare le offerte che ottieni da un’attività di arricchimento nella consegna, segui i passaggi seguenti:
+
+1. Apri l’attività di consegna e vai nell’edizione dei contenuti. Fai clic sul pulsante **[!UICONTROL Impostazioni offerte]** e seleziona nell&#39;elenco a discesa lo spazio **[!UICONTROL Offerte]** corrispondente alla tua offerta.
+Se si desidera visualizzare solo le offerte dell&#39;attività di arricchimento, impostare il numero di **[!UICONTROL proposte]** su 0 e salvare le modifiche.
+
+   ![](../assets/offers-settings.png)
+
+1. Nella finestra di progettazione e-mail, quando si aggiunge una personalizzazione con offerte, fare clic sull&#39;icona **[!UICONTROL Proposte]** per visualizzare le offerte ottenute dall&#39;attività **[!UICONTROL Arricchimento]**. Apri l’offerta da scegliere facendo clic su di essa.
+
+   ![](../assets/offers-propositions.png)
+
+   Accedi a **[!UICONTROL Funzioni di rendering]** e scegli **[!UICONTROL Rendering HTML]** o **[!UICONTROL Rendering testo]** in base alle tue esigenze.
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>Se scegli di avere più di un&#39;offerta nell&#39;attività **[!UICONTROL Arricchimento]** all&#39;opzione **[!UICONTROL Numero di offerte da mantenere]**, tutte le offerte vengono visualizzate quando si fa clic sull&#39;icona **[!UICONTROL Proposte]**.
+
 ## Esempi {#example}
 
 ### Attributo di arricchimento singolo {#single-attribute}
@@ -156,10 +202,10 @@ In questo caso, viene semplicemente aggiunto un attributo di arricchimento singo
 
 In questo caso d’uso più complesso, selezioneremo un collegamento di raccolta che è un collegamento con cardinalità 1-N tra le tabelle. Recuperiamo i tre ultimi acquisti che sono inferiori a 100 $. A questo scopo è necessario definire:
 
-* un attributo di arricchimento: il campo **Importo totale**
+* un attributo di arricchimento: il campo **Prezzo**
 * il numero di righe da recuperare: 3
 * un filtro: per escludere gli articoli superiori a 100 $
-* un ordinamento: ordine decrescente sul campo **Data ordine**.
+* un ordinamento: ordinamento decrescente nel campo **Data ordine**.
 
 #### Aggiungere l’attributo {#add-attribute}
 
@@ -167,9 +213,9 @@ Qui puoi selezionare il collegamento di raccolta da utilizzare come dati di arri
 
 1. Fai clic all’interno del campo **Attributo**.
 1. Fai clic su **Visualizza gli attributi avanzati**.
-1. Seleziona il campo **Importo totale** dalla tabella **Acquisti**.
+1. Selezionare il campo **Prezzo** dalla tabella **Acquisti**.
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Definire le impostazioni di raccolta{#collection-settings}
 
@@ -178,21 +224,23 @@ A questo punto, definisci come vengono raccolti i dati e quanti record recuperar
 1. Seleziona **Raccogli dati** nel menu a discesa **Seleziona la modalità di raccolta dei dati**.
 1. Digita “3” nel campo **Righe da recuperare (colonne da creare)**.
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 Se, ad esempio, desideri ottenere l’importo medio degli acquisti per un cliente, seleziona **Dati aggregati** e seleziona **Media** nel menu a discesa **Funzione di aggregazione**.
 
-![](../assets/workflow-enrichment5.png)
+Utilizza i campi **Etichetta** e **Alias** del tuo attributo per renderlo più comprensibile, come illustrato di seguito.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Definire i filtri{#collection-filters}
 
 Ora puoi definire il valore massimo per l’attributo di arricchimento. Gli elementi superiori a 100$ vengono filtrati. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
-1. Fai clic su **Modifica filtri**.
-1. Aggiungi i due filtri seguenti: **Importo totale** esiste E **Importo totale** è minore di 100. Il primo filtra i valori NULL, in quanto apparirebbero come il valore maggiore.
+1. Fai clic su **Crea filtri**.
+1. Aggiungi i due seguenti filtri: **Il prezzo** esiste E **Il prezzo** è inferiore a 100. Il primo filtra i valori NULL, in quanto apparirebbero come il valore maggiore.
 1. Fai clic su **Conferma**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Definire l’ordinamento{#collection-sorting}
 
@@ -204,7 +252,7 @@ Ora è necessario applicare l’ordinamento per recuperare i tre acquisti **più
 1. Fai clic su **Conferma**.
 1. Seleziona **Decrescente** nel menu a discesa **Ordina**.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Arricchimento con dati collegati {#link-example}
 

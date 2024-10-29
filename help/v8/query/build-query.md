@@ -3,9 +3,9 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2227'
 ht-degree: 57%
 
 ---
@@ -41,6 +41,7 @@ Per accedere a questa opzione, nella query fai clic sul pulsante di selezione de
 >* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In tal caso, un avviso **[!UICONTROL Carico parziale]** ti avvisa.
 >
 >* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi.
+>* Puoi aggiungere condizioni ai risultati utilizzando **[!Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
