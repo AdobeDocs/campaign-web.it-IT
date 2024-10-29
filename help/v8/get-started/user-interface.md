@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 La nuova interfaccia di Adobe Campaign Web offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni di Adobe Experience Cloud.
 
 Scopri come connetterti ad Adobe Campaign e le nozioni di base sulla navigazione in Experience Cloud [in questo articolo](connect-to-campaign.md).
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Gli **Indicatori chiave di prestazioni** consentono di verificare l’efficacia 
 L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica. Fai clic sul collegamento **Mostra altro** per caricare altre consegne.
 
 Puoi anche accedere alle principali pagine della guida di Adobe Campaign Web dalla sezione **Apprendimento** della pagina.
+
+### Collegamento Informazioni su {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="Pagina Informazioni su"
+>abstract="La pagina Informazioni fornisce dettagli sull’istanza di Adobe Campaign"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="Informazioni sull&#39;istanza"
+>abstract="La sezione Istanza fornisce informazioni chiave sul client della console, incluso il numero di versione e di build associato"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Informazioni sul Web"
+>abstract="La sezione Web mostra la versione dell’interfaccia utente di Campaign Web, con l’ultima data di aggiornamento, se disponibile."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="Informazioni sui pacchetti installati"
+>abstract="La sezione Pacchetti installati elenca tutti i moduli, le funzionalità e le integrazioni presenti nell’istanza."
+
+Nella parte inferiore della pagina, il collegamento **[!UICONTROL Informazioni]** fornisce dettagli sull&#39;istanza di Adobe Campaign. tali informazioni sono in modalità di sola lettura.
+
+![](assets/about-link.png){zoomable="yes"}
+
+La sezione **Istanza** fornisce informazioni chiave sul client della console, inclusa la **versione** e il numero di **build** associato.
+
+* La **versione** fa riferimento alla versione ufficiale in uso,
+* La **build** fa riferimento a una specifica iterazione di tale versione.
+
+I numeri di versione e di build sono fondamentali per la risoluzione dei problemi, in quanto aiutano a determinare esattamente quali funzioni e correzioni sono presenti nell’ambiente.
+
+Nella sezione **Web** viene visualizzata la versione dell&#39;interfaccia utente di Campaign Web, con l&#39;ultima data di aggiornamento, se disponibile. In questo modo è possibile tenere traccia delle modifiche o dei miglioramenti apportati all’interfaccia utente di Campaign Web.
+
+Nella sezione **Pacchetti installati** sono elencati tutti i moduli, le funzionalità e le integrazioni presenti nell&#39;istanza. Questi pacchetti estendono le funzionalità di Adobe Campaign, consentendogli di eseguire attività specializzate, come l’integrazione con altre soluzioni Adobe o l’abilitazione di flussi di lavoro specifici. Dato il numero elevato di pacchetti, puoi eseguire una ricerca all’interno di questa sezione per verificare rapidamente se un particolare modulo è installato nell’istanza.
+
+![](assets/about.png){zoomable="yes"}
 
 ## Menu di navigazione a sinistra {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Modifica attributi personalizzati"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="Informazioni su"
->abstract="Informazioni su"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="Informazioni sull’istanza"
->abstract="Informazioni sull’istanza"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="Informazioni sul Web"
->abstract="Informazioni sul Web"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="Informazioni sui pacchetti"
->abstract="Informazioni sui pacchetti"
 
 <!--Schema-->
 
