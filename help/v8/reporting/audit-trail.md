@@ -4,9 +4,9 @@ title: Audit trail
 description: Scopri come monitorare l’istanza con Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo re
 
 * **Account esterno** consente di controllare le modifiche apportate agli account esterni in Campaign V8, utilizzate da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro per campagne.
 
-  Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](../administration/external-account.md).
 
 * **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alla mappatura consegna in Campaign V8.
 

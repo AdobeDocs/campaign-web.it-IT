@@ -3,9 +3,9 @@ title: Introduzione ad Adobe Campaign v8 per amministratori e sviluppatori.
 description: Questo tutorial offre una panoramica delle funzionalità chiave di amministrazione e gestione dati di Campaign v8. È destinato agli amministratori e all’addetto marketing tecnico che eseguono la migrazione da Campaign Standard a Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2657'
 ht-degree: 8%
 
 ---
@@ -71,7 +71,7 @@ Le procedure di sicurezza sono profondamente radicate nei nostri processi e stru
 
 Adobe Campaign ti consente di definire e gestire i diritti assegnati agli utenti. Queste autorizzazioni vengono definite combinando le autorizzazioni del gruppo di operatori, i diritti denominati e le autorizzazioni per le cartelle.
 
-In qualità di utente Campaign Standard che passa a Campaign v8, le autorizzazioni e i diritti di accesso rimangono gli stessi. I gruppi di sicurezza sono stati spostati per Adobe nei gruppi di operatori di Campaign v8 e le autorizzazioni per unità organizzative sono state trasferite alle autorizzazioni della cartella. Utenti di Campaign   utilizza il proprio Adobe ID per connetterti a Campaign v8 e quindi può utilizzare gli stessi login e password di Campaign Standard.
+In qualità di utente Campaign Standard che passa a Campaign v8, le autorizzazioni e i diritti di accesso rimangono gli stessi. I gruppi di sicurezza sono stati spostati da Adobe nei gruppi di operatori di Campaign v8 e le autorizzazioni per unità organizzative sono state trasferite nelle autorizzazioni della cartella. Utenti di Campaign   utilizza il proprio Adobe ID per connetterti a Campaign v8 e quindi può utilizzare gli stessi login e password di Campaign Standard.
 
 Le [cartelle](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} della campagna sono nodi nella struttura dell&#39;elenco delle cartelle della console client. In base al tipo, contengono determinati tipi di dati. I programmi vengono materializzati dalle cartelle in Campaign v8. Puoi creare cartelle e gestirne le autorizzazioni per limitarne l’accesso. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
@@ -229,9 +229,9 @@ In qualità di amministratore, devi definire le configurazioni del canale. Per u
 
 In qualità di amministratore, sei responsabile della configurazione e della manutenzione degli account esterni di Campaign. Come in Campaign Standard, gli account esterni vengono utilizzati da processi tecnici come flussi di lavoro tecnici o flussi di lavoro per campagne.
 
-Il processo di transizione a Campaign v8 si occupa degli account esterni Campaign Standard esistenti: sono ora disponibili nella console client.
+Il processo di transizione a Campaign v8 si occupa degli account esterni Campaign Standard esistenti.
 
-Ulteriori informazioni sulla [configurazione account esterno](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}.
+Ulteriori informazioni sono disponibili nella [documentazione dell&#39;account esterno](../../v8/administration/external-account.md).
 
 
 <!--

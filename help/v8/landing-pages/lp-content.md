@@ -3,7 +3,7 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 17%
@@ -145,7 +145,9 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 Per inviare automaticamente un messaggio di conferma dopo l’invio di una pagina di destinazione, effettua le seguenti operazioni:
+
 1. Nella sezione **[!UICONTROL INVITO ALL&#39;AZIONE]**, seleziona l&#39;opzione **[!UICONTROL Invia messaggio di conferma]**.
+
 1. Nell’elenco a discesa associato, scegli il modello di messaggio transazionale da inviare.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
