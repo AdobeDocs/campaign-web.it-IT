@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ Imposta il tipo di cartella facendo clic sul pulsante **[!UICONTROL Conferma]**.
 Per creare una cartella senza un tipo specifico, scegli il tipo **[!UICONTROL Cartella generica]**.
 
 È, inoltre, possibile [creare e gestire cartelle nella console di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+
+## Riordina cartelle {#reorder-folders}
+
+Puoi riordinare le cartelle in base alle tue esigenze. A tale scopo, fare clic su **[!UICONTROL Riordina cartelle]** come illustrato di seguito.
+
+Nel nostro esempio, la cartella **Consegne** contiene 4 cartelle.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+Puoi modificare l&#39;ordine delle cartelle trascinandole **o trascinandole** oppure utilizzando **frecce verso l&#39;alto o verso il basso**.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## Eliminare una cartella {#delete-a-folder}
 
