@@ -4,10 +4,10 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2852'
-ht-degree: 51%
+source-wordcount: '2888'
+ht-degree: 50%
 
 ---
 
@@ -351,6 +351,8 @@ Per aggiungere una variabile, passare alla scheda **[!UICONTROL Variabili]** com
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Fai clic sul pulsante **[!UICONTROL Aggiungi variabili]** per immettere i dettagli della variabile, quindi fai clic su **[!UICONTROL Conferma]** per salvare le modifiche.
+Fai clic sul pulsante **[!UICONTROL Aggiungi variabili]** per immettere i dettagli della variabile. È possibile aggiungerne direttamente il valore o utilizzarne un&#39;espressione attivando la casella di controllo **[!UICONTROL Il valore è il risultato di un&#39;espressione]**. Quindi fai clic su **[!UICONTROL Conferma]** per salvare le modifiche.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+Ulteriori informazioni sull&#39;utilizzo di [variabili per la personalizzazione](../personalization/personalize.md#variables-personalization) e di [variabili per il contenuto dinamico](../personalization/conditions.md#variables-conditional).

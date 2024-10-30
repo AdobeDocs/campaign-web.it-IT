@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 80%
+source-wordcount: '1011'
+ht-degree: 74%
 
 ---
 
@@ -116,3 +116,20 @@ In questo esempio, vogliamo creare un messaggio e-mail con più varianti in base
 
    >[!NOTE]
    >Se nessuna delle regole definite nelle varianti è soddisfatta durante l’invio del messaggio, il componente contenuto visualizzerà il contenuto definito nella **[!UICONTROL Variante predefinita]**, nel riquadro **[!UICONTROL Contenuto condizionale]**.
+
+## Utilizzare le variabili per il contenuto condizionale {#variables-conditional}
+
+Le variabili possono essere utilizzate per il contenuto condizionale nella consegna.
+
+Ulteriori informazioni sull&#39;[aggiunta di variabili a una consegna](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Scegli l’elemento in cui vuoi inserire un contenuto condizionale.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+Per utilizzare la variabile, configurare la condizione utilizzando il pulsante **[!UICONTROL Modifica espressione]**, come illustrato di seguito.
+In questo esempio, questa immagine viene visualizzata quando il valore della variabile è `launch`.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+È inoltre possibile creare un&#39;altra variante con il valore `reminder`, ad esempio, in cui viene visualizzata un&#39;immagine diversa.
