@@ -2,16 +2,68 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 100%
+source-wordcount: '2206'
+ht-degree: 98%
 
 ---
 
 # Note sulla versione 2024 {#2024-release}
 
 In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2024**. Le note più recenti sulla versione sono disponibili in [questa pagina](release-notes.md).
+
+
+## Aggiornamenti di settembre {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Accelerazione dei contenuti dell’Assistente IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dopo aver creato e personalizzato il messaggio, portalo al livello successivo con l’AI Assistant Content Accelerator in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
+<p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima delle funzionalità live</a>, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/generative-gs.md">documentazione dettagliata</a>.</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>Data di disponibilità: 12 settembre</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Versione di agosto {#24-8-release}
+
+**Data di rilascio**: 3 settembre 2024
+
+Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di agosto.
+
+* **Parametri SMTP**: le impostazioni SMTP sono ora disponibili nelle impostazioni di consegna e-mail. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#smtp)
+
+* **Variabili globali**: è ora possibile definire le variabili globali per stabilire i valori per le consegne. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#variables-delivery)
+
+### Nuove funzioni in Disponibilità limitata {#acs-24-8}
+
+>[!AVAILABILITY]
+>
+>Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
+>
+>Consulta le seguenti pagine della documentazione: [Transizione da Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
+
+* **Branding per direct mail**: gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. I brand ora possono essere creati e collegati a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/branding/branding-assign)
+
+* **Abbonamenti con pagine di destinazione**: è ora possibile collegare una pagina di destinazione a un servizio e inviare un messaggio di conferma quando gli utenti lo convalidano. [Ulteriori informazioni](../landing-pages/lp-content.md#lp-message){target="_blank"}.
+
+* **Frammenti visivi**: è ora possibile archiviare i frammenti di contenuti visivi. [Ulteriori informazioni](../content/create-fragment.md#archive)
+
+* **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
+
+<!--
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+
 
 ## Note sulla versione di luglio {#24-7-release}
 
