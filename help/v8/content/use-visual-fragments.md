@@ -4,10 +4,10 @@ title: Aggiungi frammenti visivi alle e-mail
 description: Scopri come aggiungere frammenti visivi alle e-mail
 badge: label="Disponibilità limitata"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 18%
 
 ---
 
@@ -68,6 +68,18 @@ Per inserire un frammento visivo in un contenuto e-mail, effettua le seguenti op
    Puoi anche eliminare il frammento dal contenuto o duplicarlo. Queste azioni possono essere eseguite direttamente dal menu contestuale visualizzato sopra il frammento.
 
 1. Aggiungi tutti i frammenti visivi desiderati e **[!UICONTROL Salva]** le modifiche.
+
+### Frammento visivo in modalità di sola lettura {#fragment-readonly}
+
+I diritti di accesso possono essere applicati ai frammenti visivi.
+
+Se non si dispone delle autorizzazioni di modifica per un particolare frammento visivo, il modello di contenuto verrà visualizzato in **modalità di sola lettura**. In questo caso, il pulsante **[!UICONTROL Modifica contenuto]** viene sostituito dal pulsante **[!UICONTROL Visualizza contenuto]**, che consente di visualizzare il frammento senza apportare modifiche.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+Come mostrato di seguito, tutte le icone delle funzioni sono disattivate, limitando l’interazione alla sola visualizzazione.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Interrompi ereditarietà {#break-inheritance}
 

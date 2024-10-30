@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 22%
+source-wordcount: '1018'
+ht-degree: 21%
 
 ---
 
@@ -47,6 +47,17 @@ Questo dashboard mostra tutti i modelli di contenuto disponibili come un elenco.
 
 Dall’elenco, puoi modificare, duplicare o eliminare i modelli di contenuto esistenti. Utilizza il pulsante nella sezione superiore per creare un modello di contenuto.
 
+### Modello di contenuto in modalità di sola lettura {#template-readonly}
+
+I diritti di accesso possono essere applicati ai modelli di contenuto.
+
+Se non si dispone delle autorizzazioni di modifica per un modello di contenuto specifico, il modello di contenuto verrà visualizzato in **modalità di sola lettura**. In questo caso, il pulsante **[!UICONTROL Modifica contenuto]** viene sostituito dal pulsante **[!UICONTROL Visualizza contenuto]**, che consente di visualizzare il modello senza apportare modifiche.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+Come mostrato di seguito, tutte le icone delle funzioni sono disattivate, limitando l’interazione alla sola visualizzazione.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Creare modelli di contenuto {#create-content-templates}
 
