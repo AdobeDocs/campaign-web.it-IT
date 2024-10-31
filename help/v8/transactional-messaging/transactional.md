@@ -2,10 +2,10 @@
 audience: end-user
 title: Messaggistica transazionale
 description: Informazioni sulla messaggistica transazionale con Adobe Campaign Web
-source-git-commit: ccb0c7805dd063b41f0277b4afc42596444db716
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,16 @@ ht-degree: 1%
 >title="Messaggistica transazionale"
 >abstract="La messaggistica transazionale è un modulo specializzato in Adobe Campaign progettato per gestire i messaggi attivati."
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Messaggistica transazionale"
+>abstract="La messaggistica transazionale è un modulo specializzato in Adobe Campaign progettato per gestire i messaggi attivati. Questi messaggi vengono generati automaticamente in risposta a eventi provenienti da sistemi di informazione."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
 <!-- >>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
-
 
 La messaggistica transazionale è un modulo specializzato in Adobe Campaign progettato per gestire i messaggi attivati. Questi messaggi vengono generati automaticamente in risposta a eventi provenienti da sistemi di informazione. Esempi comuni di tali eventi includono clic su pulsanti o collegamenti, abbandono del carrello, richiesta di avvisi sulla disponibilità del prodotto, creazione o modifica dell’account, ecc.
 

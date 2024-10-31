@@ -3,20 +3,14 @@ audience: end-user
 title: Utilizzare un gruppo trappola
 description: Scopri come utilizzare un gruppo di trappole per la consegna nell’interfaccia utente web di Campaign
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 13%
+source-wordcount: '397'
+ht-degree: 5%
 
 ---
 
 # Utilizzare un gruppo trappola {#trap-group}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Gruppo trappola"
->abstract="Puoi utilizzare un gruppo trappola per includere indirizzi specifici nelle consegne per monitorare e verificare il processo di distribuzione eseguendo il targeting di profili che non corrispondono ai criteri di destinazione definiti."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Un **[!UICONTROL gruppo trap]** (noto anche come **[!UICONTROL elenco seed]**) viene utilizzato per includere indirizzi specifici nelle consegne per monitorare e verificare il processo di distribuzione eseguendo il targeting di profili che non corrispondono ai criteri di destinazione definiti. In questo modo, i destinatari che non rientrano nell’ambito di consegna possono ricevere la consegna, come farebbe qualsiasi altro destinatario.
 

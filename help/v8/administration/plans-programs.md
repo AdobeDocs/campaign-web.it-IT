@@ -3,24 +3,18 @@ audience: end-user
 title: Piani e programmi
 description: Scopri come creare e configurare piani e programmi in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 10%
+source-wordcount: '391'
+ht-degree: 5%
 
 ---
 
 # Piani e programmi {#plan-and-programs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Piani e programmi"
->abstract="Ora puoi configurare la gerarchia di cartelle per i piani e i programmi di marketing nell’interfaccia utente di Campaign Web."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
 Adobe Campaign consente di configurare la gerarchia di cartelle per i piani e i programmi di marketing.
 
-Per organizzarle meglio, l&#39;Adobe consiglia la seguente gerarchia: Pianifica `>` programmi `>` campagne
+Per organizzarle meglio, Adobe consiglia la seguente gerarchia: Pianificare `>` programmi `>` campagne
 
 * Un **piano** può contenere più programmi. Definisce obiettivi strategici per un certo periodo di tempo.
 * Un **programma** può contenere altri programmi, oltre a campagne, flussi di lavoro e pagine di destinazione.
