@@ -4,9 +4,9 @@ title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Nel menu **[!UICONTROL ...]**, è disponibile **[!UICONTROL Crea nuova cartella]
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Per impostazione predefinita, quando si crea una nuova cartella, il tipo di cartella è quello della cartella principale. Nel nostro esempio, creiamo una cartella nella cartella **[!UICONTROL Consegne]**.
+Per impostazione predefinita, quando viene creata una nuova cartella, il tipo di cartella è quello della cartella principale. Nel nostro esempio, creiamo una cartella nella cartella **[!UICONTROL Consegne]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,15 +67,15 @@ Per creare una cartella senza un tipo specifico, scegli il tipo **[!UICONTROL Ca
 È, inoltre, possibile [creare e gestire cartelle nella console di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
 
-## Riordina cartelle {#reorder-folders}
+## Riordinare le cartelle {#reorder-folders}
 
-Puoi riordinare le cartelle in base alle tue esigenze. A tale scopo, fare clic su **[!UICONTROL Riordina cartelle]** come illustrato di seguito.
+Puoi riordinare le cartelle in base alle tue esigenze. A tale scopo, fai clic su **[!UICONTROL Riordina cartelle]** come mostrato di seguito.
 
 Nel nostro esempio, la cartella **Consegne** contiene 4 cartelle.
 
 ![](assets/folder-reorder.png){zoomable="yes"}
 
-Puoi modificare l&#39;ordine delle cartelle trascinandole **o trascinandole** oppure utilizzando **frecce verso l&#39;alto o verso il basso**.
+Puoi cambiare l’ordine delle cartelle **trascinandole** oppure utilizzando le icone **freccia su e freccia giù.**
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
@@ -125,6 +125,6 @@ Nell’elenco degli attributi, fare clic sul pulsante **+** accanto al collegame
 
 Utilizzando i **[!UICONTROL Filtri avanzati]** nella finestra di distribuzione dei valori, puoi filtrare i risultati in base a condizioni specificate.
 
-Nell&#39;esempio dell&#39;elenco di consegna riportato sopra, che mostra la distribuzione per canale, è possibile, ad esempio, filtrarla per visualizzare solo le consegne il cui stato è **Completato**.
+Nell’esempio dell’elenco delle consegne riportato sopra, che mostra la distribuzione per canale, è possibile, ad esempio, filtrarlo per visualizzare solo le consegne il cui stato è **Completato**.
 
 ![](assets/values_filter.png){zoomable="yes"}

@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,16 +52,16 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 >[!BEGINTABS]
 
 
->[!TAB Ottobre &#39;24 versione]
+>[!TAB Versione di ottobre 2024]
 
-La versione di ottobre è ora live e include funzionalità di messaggistica transazionale, account esterni e ulteriori miglioramenti.
+La versione di ottobre è ora disponibile e include messaggistica transazionale, account esterni e ulteriori miglioramenti.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB Accelerazione dei contenuti dell’Assistente IA]
+>[!TAB Acceleratore di contenuti di Assistente IA]
 
-✨ Immergiti in un’esperienza pratica con l’anteprima della funzionalità live dell’[Accelerazione dei contenuti dell’Assistente IA](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
+✨ Immergiti in un’esperienza pratica con l’anteprima della funzionalità live dell’[Acceleratore di contenuti di Assistente IA](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
 [![immagine](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

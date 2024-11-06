@@ -4,9 +4,9 @@ title: Sfogliare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informaz
 
 Nella schermata **Configura le colonne**, aggiungi o rimuovi le colonne e modificane l’ordine di visualizzazione.
 
-Puoi modificare l&#39;ordine dell&#39;elenco trascinandolo **o utilizzando** frecce verso l&#39;alto o verso il basso **come illustrato di seguito:**
+Puoi cambiare l’ordine dell’elenco **trascinando** oppure utilizzando le icone **freccia su e freccia giù**, come mostrato di seguito:
 
 ![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

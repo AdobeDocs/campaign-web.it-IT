@@ -4,9 +4,9 @@ title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -39,43 +39,43 @@ L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate d
 
 Puoi anche accedere alle principali pagine della guida di Adobe Campaign Web dalla sezione **Apprendimento** della pagina.
 
-### Collegamento Informazioni su {#user-interface-about}
+### Collegamento Informazioni {#user-interface-about}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="Pagina Informazioni su"
+>title="Pagina Informazioni"
 >abstract="La pagina Informazioni fornisce dettagli sull’istanza di Adobe Campaign"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Informazioni sull&#39;istanza"
->abstract="La sezione Istanza fornisce informazioni chiave sul client della console, incluso il numero di versione e di build associato"
+>title="Informazioni sull’istanza"
+>abstract="La sezione Istanza fornisce informazioni chiave sul client della console, incluso i relativi numeri di versione e di build"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="Informazioni sul Web"
->abstract="La sezione Web mostra la versione dell’interfaccia utente di Campaign Web, con l’ultima data di aggiornamento, se disponibile."
+>title="Informazioni su Web"
+>abstract="La sezione Web mostra la versione dell’interfaccia utente di Campaign Web, con l’eventuale data dell’ultimo aggiornamento."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="Informazioni sui pacchetti installati"
->abstract="La sezione Pacchetti installati elenca tutti i moduli, le funzionalità e le integrazioni presenti nell’istanza."
+>title="Informazioni su Pacchetti installati"
+>abstract="Nella sezione Pacchetti installati sono elencati tutti i moduli, le funzioni e le integrazioni presenti nell’istanza."
 
-Nella parte inferiore della pagina, il collegamento **[!UICONTROL Informazioni]** fornisce dettagli sull&#39;istanza di Adobe Campaign. tali informazioni sono in modalità di sola lettura.
+Nella parte inferiore della pagina, il collegamento **[!UICONTROL Informazioni]** fornisce dettagli sull’istanza di Adobe Campaign. tali informazioni sono in modalità di sola lettura.
 
 ![](assets/about-link.png){zoomable="yes"}
 
-La sezione **Istanza** fornisce informazioni chiave sul client della console, inclusa la **versione** e il numero di **build** associato.
+La sezione **Istanza** fornisce informazioni chiave sul client della console, inclusi i relativi numeri di **versione** e di **build**.
 
-* La **versione** fa riferimento alla versione ufficiale in uso,
+* La **versione** fa riferimento alla versione ufficiale in uso.
 * La **build** fa riferimento a una specifica iterazione di tale versione.
 
-I numeri di versione e di build sono fondamentali per la risoluzione dei problemi, in quanto aiutano a determinare esattamente quali funzioni e correzioni sono presenti nell’ambiente.
+I numeri di versione e di build sono fondamentali per la risoluzione dei problemi, in quanto aiutano a determinare esattamente quali funzioni e correzioni sono presenti nell’ambiente in uso.
 
-Nella sezione **Web** viene visualizzata la versione dell&#39;interfaccia utente di Campaign Web, con l&#39;ultima data di aggiornamento, se disponibile. In questo modo è possibile tenere traccia delle modifiche o dei miglioramenti apportati all’interfaccia utente di Campaign Web.
+Nella sezione **Web** viene visualizzata la versione dell’interfaccia utente di Campaign Web, con l’eventuale data dell’ultimo aggiornamento. In questo modo è possibile tenere traccia delle modifiche o dei miglioramenti apportati all’interfaccia utente di Campaign Web.
 
-Nella sezione **Pacchetti installati** sono elencati tutti i moduli, le funzionalità e le integrazioni presenti nell&#39;istanza. Questi pacchetti estendono le funzionalità di Adobe Campaign, consentendogli di eseguire attività specializzate, come l’integrazione con altre soluzioni Adobe o l’abilitazione di flussi di lavoro specifici. Dato il numero elevato di pacchetti, puoi eseguire una ricerca all’interno di questa sezione per verificare rapidamente se un particolare modulo è installato nell’istanza.
+Nella sezione **Pacchetti installati** sono elencati tutti i moduli, le funzioni e le integrazioni presenti nell’istanza. Questi pacchetti estendono le funzionalità di Adobe Campaign, per eseguire attività specializzate come l’integrazione con altre soluzioni Adobe o l’abilitazione di flussi di lavoro specifici. Dato il numero elevato di pacchetti, in questa sezione puoi eseguire una ricerca per verificare rapidamente se un particolare modulo è installato nella tua istanza.
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa
 ### Amministrazione {#left-nav-admin}
 
 
-* **Audit trail** - La voce **Audit trail** fornisce agli utenti piena visibilità di tutte le modifiche apportate a entità importanti all&#39;interno dell&#39;istanza, in genere quelle che influiscono in modo significativo sul corretto funzionamento dell&#39;istanza. [Ulteriori informazioni](../reporting/audit-trail.md)
+* **Audit trail** - La voce **Audit trail** fornisce agli utenti piena visibilità di tutte le modifiche apportate a entità importanti all’interno dell’istanza; in genere si tratta delle modifiche che influiscono in modo significativo sul corretto funzionamento dell’istanza. [Ulteriori informazioni](../reporting/audit-trail.md)
 
-* **Account esterni** - Crea nuovi account esterni utilizzando l&#39;interfaccia utente Web per soddisfare esigenze specifiche e garantire trasferimenti di dati senza problemi. [Ulteriori informazioni](../administration/external-account.md)
+* **Account esterni** - Crea nuovi account esterni utilizzando l’interfaccia utente web per soddisfare esigenze specifiche e garantire trasferimenti di dati senza problemi. [Ulteriori informazioni](../administration/external-account.md)
 
-* **Schemi** - I campi personalizzati sono attributi aggiuntivi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. [Ulteriori informazioni](../administration/custom-fields.md)
+* **Schemi** - I campi personalizzati sono ulteriori attributi aggiunti agli schemi preconfigurati tramite la console Adobe Campaign. [Ulteriori informazioni](../administration/custom-fields.md)
 
-* **Avvisi di consegna** - Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
+* **Avvisi sulle consegne** - Questo sistema di gestione degli avvisi consente a gruppi di utenti di ricevere notifiche e-mail automatiche con informazioni sulle esecuzioni delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 

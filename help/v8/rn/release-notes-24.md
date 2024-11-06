@@ -3,9 +3,9 @@ title: Note sulla versione precedente dell’interfaccia utente di Campaign Web 
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili 
 <table>
 <thead>
 <tr>
-<th><strong>Accelerazione dei contenuti dell’Assistente IA</strong><br/></th>
+<th><strong>Acceleratore di contenuti di Assistente IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, portalo al livello successivo con l’AI Assistant Content Accelerator in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
+<p>Dopo aver creato e personalizzato il messaggio, fai ancora di più con l’Acceleratore di contenuti di Assistente IA in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima delle funzionalità live</a>, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/generative-gs.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

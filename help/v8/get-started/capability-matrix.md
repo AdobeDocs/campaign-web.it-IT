@@ -4,9 +4,9 @@ title: Matrice di funzionalità dell’interfaccia utente/console client di Camp
 description: Elenco delle funzioni supportate nell’interfaccia utente di Campaign Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ L’interfaccia utente di Campaign Web non presenta le seguenti funzionalità. S
 
 ### Account esterni {#external}
 
-Adobe Campaign è dotato di un set di account esterni predefiniti per la connessione con i sistemi esterni. In qualità di amministratore di sistema di Campaign, puoi creare e gestire account esterni. [Ulteriori informazioni](../administration/external-account.md)
+Adobe Campaign è dotato di un set di account esterni predefiniti per la connessione con i sistemi esterni. In qualità di amministratore di sistema di Campaign, puoi creare e gestire gli account esterni. [Ulteriori informazioni](../administration/external-account.md)
 
 ### Creazione ed estensione di uno schema {#schema}
 
