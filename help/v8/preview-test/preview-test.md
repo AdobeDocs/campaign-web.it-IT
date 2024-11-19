@@ -14,7 +14,7 @@ ht-degree: 52%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Mostra anteprima e verifica il contenuto"
+>title="Anteprima e test del contenuto"
 >abstract="Una volta definito il contenuto, puoi utilizzare i profili e i profili di test per visualizzarlo in anteprima e testarlo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=it" text="Inviare bozze"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=it#test-landing-page" text="Testare le pagine di destinazione"
