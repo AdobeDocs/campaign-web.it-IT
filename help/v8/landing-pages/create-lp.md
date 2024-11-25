@@ -3,9 +3,9 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1629'
 ht-degree: 27%
 
 ---
@@ -23,11 +23,15 @@ L’interfaccia utente di Campaign Web consente di creare, progettare e pubblica
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
-Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione campagne]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
+Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-Nell&#39;inventario **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli utilizzando il pulsante **[!UICONTROL Mostra filtri]**. È possibile limitare i risultati a una [cartella](../get-started/permissions.md#folders) specifica utilizzando l&#39;elenco a discesa oppure aggiungere regole utilizzando [modeler query](../query/query-modeler-overview.md).
+Nell&#39;inventario **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli utilizzando il pulsante **[!UICONTROL Mostra filtri]**.
+
+* Puoi filtrare gli elementi creati o modificati.
+
+* È possibile limitare i risultati a una [cartella](../get-started/permissions.md#folders) specifica utilizzando l&#39;elenco a discesa oppure aggiungere regole utilizzando [modeler query](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 
@@ -152,7 +156,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
      >[!NOTE]
      >
-     >Per motivi di sicurezza e prestazioni della piattaforma, l’Adobe consiglia di impostare una data di fine.
+     >Per motivi di sicurezza e prestazioni della piattaforma, Adobe consiglia di impostare una data di fine.
 
 1. Fai clic su **[!UICONTROL Rivedi e pubblica]**.
 

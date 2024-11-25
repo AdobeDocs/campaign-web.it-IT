@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 70%
+source-wordcount: '1051'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +29,7 @@ Possono essere definiti in parallelo diversi servizi, ad esempio: newsletter per
 
 Per accedere ai servizi di iscrizione disponibili per la tua piattaforma, segui i passaggi riportati di seguito.
 
-1. Accedi al menu **[!UICONTROL Servizi di iscrizione]** nella barra di navigazione a sinistra.
+1. Passa al menu **[!UICONTROL Servizi di abbonamento]** nella barra di navigazione a sinistra, in **[!UICONTROL Gestione clienti]**.
 
    ![](assets/service-list.png){zoomable="yes"}
 
