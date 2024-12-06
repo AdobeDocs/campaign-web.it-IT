@@ -3,13 +3,13 @@ title: Introduzione a Adobe Campaign v8 per gli esperti di marketing
 description: Scopri le funzionalità chiave di Campaign v8. È destinato agli addetti al marketing che eseguono la migrazione da Campaign Standard a Campaign v8.
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Introduzione per i marketer {#acs-gs-marketers}
 
@@ -182,7 +182,7 @@ Collegamenti utili:
    * Scopri come [pianificare una consegna autonoma](../../v8/msg/gs-deliveries.md#gs-schedule)
    * Scopri come [pianificare una consegna in un flusso di lavoro](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **AGGIUNGI offerte** - Puoi aggiungere offerte alle consegne nell&#39;interfaccia utente Web di Adobe Campaign. Queste offerte sono disponibili dal menu a sinistra Offerte, che consente di accedere all’elenco delle offerte.  Scopri come [aggiungere offerte ai messaggi](../../v8/msg/offers.md)
+* **Aggiungi offerte** - Puoi aggiungere offerte alle consegne nell&#39;interfaccia utente Web di Adobe Campaign. Queste offerte sono disponibili dal menu a sinistra Offerte, che consente di accedere all’elenco delle offerte.  Scopri come [aggiungere offerte ai messaggi](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
@@ -316,7 +316,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 ### Direct mail {#acs-gs-marketers-direct-mail}
 
-La direct mailing è un canale offline che consente di produrre file per consegnare in massa lettere personalizzate ai clienti come cartoline, volantini o cataloghi. Durante la creazione di una consegna direct mailing, Adobe Campaign genera automaticamente un file di estrazione contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi del profilo.
+Direct mail è un canale offline che consente di creare file per consegnare in massa lettere personalizzate alla clientela, come cartoline, volantini o cataloghi. Durante la creazione di una consegna direct mail, Adobe Campaign genera automaticamente un file di estrazione contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi del profilo.
 
 In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna direct mailing sono simili a quelli per Campaign Standard.
 
@@ -327,7 +327,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 ### Canale in-app {#acs-gs-marketers-in-app}
 
-Il canale in-app non è disponibile in Campaign v8. Se devi inviare una notifica in-app, contatta il rappresentante del tuo Adobe.
+Il canale in-app non è disponibile in Campaign v8. Se devi inviare una notifica in-app, contatta il tuo rappresentante Adobe.
 
 ## Creare e gestire pagine di destinazione {#acs-gs-marketers-lp}
 
