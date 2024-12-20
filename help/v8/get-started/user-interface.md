@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
+source-git-commit: 7efaac360dc00f5bd92b47efbe113cfe99042eb6
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2064'
 ht-degree: 98%
 
 ---
@@ -472,11 +472,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Archivio mappatura destinazione"
 >abstract="Archiviazione negata mappatura destinazione"
 
-
-
 <!-- Favorites & recents -->
 
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
 >title="Preferiti e recenti"
 >abstract="Preferiti e recenti"
+
+<!-- Options -->
+
+>[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Opzioni"
+>abstract="Opzioni"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Crea opzione"
+>abstract="Crea opzione"
