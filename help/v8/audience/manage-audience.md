@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione ai tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 67%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 67%
 >abstract="Qui è disponibile il numero totale di profili all’interno del pubblico. Fai clic sul pulsante **Calcola** per aggiornare e ricalcolare i risultati del pubblico."
 
 >[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Targeting"
+>abstract="Targeting"
+
+>[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="Errore pubblico"
 >abstract="Dati del pubblico non disponibili. Attendi la fine dell’esecuzione del flusso di lavoro."
@@ -35,7 +40,7 @@ I tipi di pubblico possono provenire da più origini. Le colonne **[!UICONTROL O
 
 * **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati in [Interfaccia utente Web Adobe Campaign](create-audience.md) o nella [console client Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** questi tipi di pubblico sono stati creati in Adobe Experience Platform e sono integrati in Campaign Web mediante l&#39;integrazione Adobe Sources and Destinations. Per ulteriori informazioni su come impostare questa integrazione, consulta la [Documentazione su Campaign v8 (console del client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** questi tipi di pubblico sono stati creati in Adobe Experience Platform e sono integrati in Campaign Web tramite l&#39;integrazione di Adobe Sources e Destinations. Per ulteriori informazioni su come impostare questa integrazione, consulta la [Documentazione su Campaign v8 (console del client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
 
   ➡️ [Scopri questa funzione nel video](#video)
 
@@ -53,4 +58,4 @@ Scopri come creare una destinazione per utilizzare un pubblico di Experienci Pla
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Informazioni dettagliate su come impostare l&#39;integrazione di origini e destinazioni Adobe sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
+Informazioni dettagliate su come impostare l&#39;integrazione di Adobe Sources e Destinations sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
