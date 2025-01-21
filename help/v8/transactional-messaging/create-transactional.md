@@ -2,10 +2,11 @@
 audience: end-user
 title: Creare messaggi transazionali
 description: Scopri come creare un messaggio transazionale nell’interfaccia utente di Campaign Web
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 0%
+source-wordcount: '1209'
+ht-degree: 1%
 
 ---
 
@@ -116,6 +117,11 @@ Il contenuto del contesto dipende dalla personalizzazione necessaria.
 >id="acw_transacmessages_personalization"
 >title="Personalizzazione della messaggistica transazionale"
 >abstract="Scopri come personalizzare il contenuto dei messaggi transazionali"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="Contesto dell’evento"
+>abstract="Questo menu fornisce variabili dell’evento trigger che puoi sfruttare per personalizzare il contenuto dei messaggi transazionali."
 
 Lavorare sul contenuto di un messaggio transazionale è come creare il contenuto di una consegna. Fai clic su **[!UICONTROL Apri e-mail designer]** o **[!UICONTROL Modifica corpo e-mail]** e seleziona un contenuto del modello o importa il codice HTML.
 

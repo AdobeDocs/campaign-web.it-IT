@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai frammenti di contenuto
 description: Scopri come creare con i frammenti di contenuto
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 61%
+source-wordcount: '433'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 61%
 >id="acw_fragments_menu"
 >title="Definire i frammenti di contenuto personalizzati"
 >abstract="Un frammento di contenuto è un componente riutilizzabile a cui è possibile fare riferimento in una o più campagne. Questa funzionalità viene utilizzata per precostruire più blocchi di contenuto personalizzati e utilizzabili dagli utenti di marketing per assemblare rapidamente i contenuti in un processo di progettazione migliorato. Esistono due tipi di frammenti di contenuto: frammenti visivi, disponibili in E-mail designer, e frammenti di espressione, nell’editor di espressioni."
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="Aggiungere frammenti di espressione"
+>abstract="I frammenti di espressione sono blocchi di contenuto predefiniti che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. Puoi anche creare frammenti di espressione personalizzati in base alle tue esigenze."
 
 ## Cosa sono i frammenti di contenuto? {#what}
 

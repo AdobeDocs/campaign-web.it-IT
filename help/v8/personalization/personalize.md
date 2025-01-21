@@ -6,15 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 66%
+source-wordcount: '599'
+ht-degree: 64%
 
 ---
 
 
 # Personalizzare i contenuti {#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="Aggiungi data corrente"
+>abstract="Questo menu fornisce funzioni relative alla formattazione della data che puoi sfruttare per personalizzare il contenuto."
 
 Il Personalization di contenuti di consegna è una funzione chiave che consente di adattare i messaggi ai singoli destinatari, rendendo la comunicazione più rilevante e coinvolgente.
 
