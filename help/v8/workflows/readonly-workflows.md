@@ -3,7 +3,7 @@ audience: end-user
 title: Informazioni sui flussi di lavoro di sola lettura
 description: Scopri perché i flussi di lavoro sono in modalità di sola lettura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Alcuni flussi di lavoro possono essere in modalità di sola lettura. Puoi visualizzarlo con:
 
-- La menzione **[!UICONTROL ** Sola lettura **]** accanto al pulsante **[!UICONTROL Impostazioni]**
+- La menzione **[!UICONTROL Sola lettura]** accanto al pulsante **[!UICONTROL Impostazioni]**
 - Pulsanti di azione non accessibili
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
