@@ -3,10 +3,10 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 96%
+source-wordcount: '2086'
+ht-degree: 98%
 
 ---
 
@@ -519,35 +519,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="Elenco dei valori di enumerazione"
 >abstract="Elenco dei valori di enumerazione"
-
-<!-- Typology rules -->
-
->[!CONTEXTUALHELP]
->id="acw_business_rules"
->title="Regole aziendali"
->abstract="Regole aziendali"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_properties"
->title="Proprietà tipologia"
->abstract="Proprietà set di regole"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_ip_affinity"
->title="Affinità IP"
->abstract="La gestione delle affinità con gli indirizzi IP consente un migliore controllo del traffico SMTP in uscita associando diversi indirizzi IP a ciascun tipo di traffico in base alla tipologia della relativa azione di consegna."
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_properties"
->title="Proprietà delle regole di tipologia"
->abstract="Proprietà delle regole"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_filtering"
->title="Filtro"
->abstract="Filtro"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_code"
->title="Codice"
->abstract="Codice"

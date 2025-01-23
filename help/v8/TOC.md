@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: ht
-source-wordcount: '773'
-ht-degree: 100%
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
    + [Accedere alle consegne](msg/gs-deliveries.md)
    + [Creare una consegna](msg/create-deliveries.md)
    + [Utilizzare i modelli di consegna](msg/delivery-template.md)
+   + [Utilizzare le tipologie](msg/typologies.md)
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)
       + [Configurare il contenuto dell’e-mail](email/edit-content.md)
