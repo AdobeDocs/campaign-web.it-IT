@@ -4,9 +4,9 @@ title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -464,13 +464,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="Elenco Bloccati di mappatura target"
->abstract="Elenco Bloccati di mappatura target"
+>title="Elenco Bloccati mappatura target"
+>abstract="Elenco Bloccati mappatura target"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
->title="Archivio mappatura destinazione"
->abstract="Archiviazione negata mappatura destinazione"
+>title="Archiviazione mappatura target"
+>abstract="Nega archiviazione mappatura target"
 
 <!-- Favorites & recents -->
 
@@ -512,8 +512,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
->title="Properties"
->abstract="Properties"
+>title="Proprietà"
+>abstract="Proprietà"
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
