@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,8 @@ Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript 
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
+➡️ [Scopri questa funzione nel video](#video)
+
 ## Accedere all’editor di espressioni {#access}
 
 Adobe Campaign Web fornisce un editor di espressioni in cui è possibile selezionare, disporre, personalizzare e convalidare tutti i dati per creare un’esperienza personalizzata per i contenuti. L’editor di espressioni è disponibile per tutti i canali, in tutti i campi con l’icona **[!UICONTROL Apri finestra di personalizzazione]** come il campo dell’oggetto o i collegamenti e-mail e i componenti di contenuto testo/pulsante.
@@ -60,3 +62,9 @@ Di seguito sono riportati alcuni esempi su come accedere all’editor di espress
 >[!NOTE]
 >
 >Oltre all’editor di espressioni, durante la progettazione di una e-mail, puoi anche sfruttare un generatore di contenuti condizionali dedicato. [Scopri come creare contenuti condizionali nelle e-mail](conditions.md)
+
+## Video dimostrativo {#video}
+
+Scopri come rendere dinamico il contenuto dei messaggi utilizzando l’editor di espressioni per personalizzarlo o aggiungere contenuto condizionale.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
