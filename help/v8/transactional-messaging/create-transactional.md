@@ -6,7 +6,7 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 1%
+ht-degree: 19%
 
 ---
 
@@ -37,27 +37,27 @@ Per creare un modello per messaggi transazionali, effettua le seguenti operazion
 
   ![](assets/transactional-template-configuration.png){zoomable="yes"}
 
-### Proprietà dei messaggi transazionali {#transactional-properties}
+### Proprietà messaggio transazionale {#transactional-properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="Proprietà dei messaggi transazionali"
->abstract="Compila questo modulo per configurare le proprietà dei messaggi transazionali"
+>title="Proprietà della messaggistica transazionale"
+>abstract="Compila questo modulo per configurare le proprietà della messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="Proprietà e-mail dei messaggi transazionali"
->abstract="Compila questo modulo per configurare le proprietà delle e-mail per la messaggistica transazionale"
+>title="Proprietà e-mail della messaggistica transazionale"
+>abstract="Compila questo modulo per configurare le proprietà delle e-mail della messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="Proprietà SMS di messaggistica transazionale"
->abstract="Compila questo modulo per configurare le proprietà degli SMS di messaggistica transazionale"
+>title="Proprietà SMS della messaggistica transazionale"
+>abstract="Compila questo modulo per configurare le proprietà degli SMS della messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="Proprietà push dei messaggi transazionali"
->abstract="Compila questo modulo per configurare le proprietà push di messaggistica transazionale"
+>title="Proprietà push della messaggistica transazionale"
+>abstract="Compila questo modulo per configurare le proprietà push della messaggistica transazionale"
 
 La sezione **[!UICONTROL Proprietà]** di un messaggio sulle transazioni ti aiuterà a impostare:
 
@@ -75,10 +75,10 @@ La sezione **[!UICONTROL Proprietà]** di un messaggio sulle transazioni ti aiut
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
->title="App mobile per la messaggistica transazionale"
->abstract="In questa sezione puoi selezionare l’applicazione in cui desideri inviare il messaggio push."
+>title="App mobile di messaggistica transazionale"
+>abstract="In questa sezione puoi selezionare l’applicazione su cui desideri inviare il messaggio push."
 
-In questa sezione puoi selezionare l’applicazione in cui desideri inviare il messaggio push.
+In questa sezione puoi selezionare l’applicazione su cui desideri inviare il messaggio push.
 
 Facendo clic sull’icona Ricerca, accedi all’app mobile elencata nella tua istanza di Adobe Campaign.
 
@@ -89,14 +89,14 @@ Facendo clic sull’icona Ricerca, accedi all’app mobile elencata nella tua is
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
 >title="Contesto della messaggistica transazionale"
->abstract="L’esempio di contesto ti consente di creare un evento di test per visualizzare in anteprima il messaggio transazionale ricevuto con la personalizzazione del profilo."
+>abstract="L’esempio di contesto ti consente di creare un evento di prova per visualizzare in anteprima il messaggio transazionale ricevuto con la personalizzazione del profilo."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
 >title="Contesto della messaggistica transazionale"
->abstract="L’esempio di contesto ti consente di creare un evento di test per visualizzare in anteprima il messaggio transazionale ricevuto con la personalizzazione del profilo. "
+>abstract="L’esempio di contesto ti consente di creare un evento di prova per visualizzare in anteprima il messaggio transazionale ricevuto con la personalizzazione del profilo. "
 
-L’esempio di contesto ti consente di creare un evento di test per visualizzare in anteprima il messaggio transazionale ricevuto con la personalizzazione del profilo.
+L’esempio di contesto ti consente di creare un evento di prova per visualizzare in anteprima il messaggio transazionale ricevuto con la personalizzazione del profilo.
 
 Questo passaggio è facoltativo. Puoi utilizzare il modello senza l’esempio di contesto, ma il problema è che non puoi visualizzare in anteprima il contenuto personalizzato.
 
@@ -106,17 +106,17 @@ Il contenuto del contesto dipende dalla personalizzazione necessaria.
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### Contenuto del modello di messaggio transazionale {#transactional-content}
+### Contenuto del modello per messaggi transazionali {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
 >title="Contenuto della messaggistica transazionale"
->abstract="Scopri come creare il contenuto dei messaggi transazionali"
+>abstract="Scopri come creare il contenuto per la messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Personalizzazione della messaggistica transazionale"
->abstract="Scopri come personalizzare il contenuto dei messaggi transazionali"
+>abstract="Scopri come personalizzare il contenuto per la messaggistica transazionale"
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
@@ -183,7 +183,7 @@ Ora i trigger possono inviare in push il messaggio transazionale.
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
->title="Evento di messaggistica transazionale"
+>title="Evento della messaggistica transazionale"
 >abstract="La configurazione del tipo di evento collega il messaggio all’evento trigger."
 
 La configurazione del tipo di evento collega il messaggio all’evento trigger.

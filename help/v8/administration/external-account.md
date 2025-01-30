@@ -1,10 +1,11 @@
 ---
 title: Account esterno
 description: Scopri come configurare gli account esterni
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Account esterni"
->abstract="Ora puoi connetterti a piattaforme aggiuntive o personalizzare le connessioni per adattarle al tuo flusso di lavoro, e creare facilmente nuovi account esterni per soddisfare le tue esigenze specifiche e garantire trasferimenti di dati fluidi."
+>abstract="Ora puoi connetterti a piattaforme aggiuntive o personalizzare le connessioni per adattarle al tuo flusso di lavoro, creare facilmente nuovi account esterni per soddisfare le tue esigenze specifiche e garantire trasferimenti di dati senza interruzioni."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
@@ -94,7 +95,7 @@ Per configurare l&#39;account esterno **[!UICONTROL Messaggi non recapitati (POP
    * Per impostazione predefinita (POP3 se porta 110, POP3S se porta 995)
    * POP3 che cambia in SSL dopo l’invio di uno STARTTLS
    * POP3 non sicuro (porta 110 per impostazione predefinita)
-   * Protezione POP3 su SSL (porta 995 per impostazione predefinita)
+   * POP3 sicuro superiore a SSL (porta 995 per impostazione predefinita)
 
 * **[!UICONTROL Funzione]**
 

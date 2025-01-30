@@ -141,7 +141,7 @@ L&#39;esempio seguente mostra un flusso di lavoro configurato per creare un coll
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="Proposta di offerta"
->abstract="L’attività Enrichment ti consente di aggiungere offerte per ciascun profilo."
+>abstract="L’attività Arricchimento ti consente di aggiungere offerte per ciascun profilo."
 
 L&#39;attività **[!UICONTROL Enrichment]** ti consente di aggiungere offerte per ciascun profilo.
 
