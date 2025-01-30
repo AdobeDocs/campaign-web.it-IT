@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
+source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 32%
 
 ---
 
@@ -17,31 +17,120 @@ L’interfaccia utente di Adobe Campaign Web offre continuamente nuove funzioni,
 
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio**. I collegamenti, le schermate e la documentazione aggiornata sono pubblicati nella [note sulla versione](release-notes.md), alla data di rilascio.
 
-## Note sulla versione di agosto {#24-8-release}
+## Versione di gennaio 2025 {#25-1-release}
 
-**Data di rilascio**: 3 settembre 2024
+**Data di rilascio**: 5 febbraio 2025
 
-Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di agosto.
+Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di gennaio.
 
-**Distribuzione dei valori**: accedendo all’elenco dei campi per la personalizzazione, ora è possibile controllare come vengono distribuiti i valori per ciascun campo. Finestra popup dedicata che mostra il numero e la percentuale per ciascun valore.
+### Funzioni {#25-1-features}
 
 
-### Nuove funzioni in Disponibilità limitata {#acs-24-8}
+<table>
+<thead>
+<tr>
+<th><strong>Creare e utilizzare frammenti visivi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I frammenti visivi sono blocchi visivi predefiniti che puoi riutilizzare in più consegne e-mail o in modelli di contenuto. Questa funzione è ora disponibile per tutti i clienti che eseguono su server build 8.6.4 e successive.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content/use-visual-fragments.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
->[!AVAILABILITY]
->
->Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
->
->Consulta le seguenti pagine della documentazione: [Transizione da Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Utilizzare un sistema di terze parti per inviare le consegne</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi definire le consegne esterne e i modelli di consegna esterna nell’interfaccia utente web di Campaign. Con questa modalità, i messaggi vengono generati in un file di input che può essere condiviso con il provider esterno. La modalità di consegna esterna è la modalità predefinita per il canale direct mail.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Branding per direct mail**: gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. I brand ora possono essere creati e collegati a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli.
+<table>
+<thead>
+<tr>
+<th><strong>Controllare e filtrare l’invio della consegna con le tipologie</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile creare tipologie e regole di tipologia nell’interfaccia utente web di Adobe Campaign. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. Le tipologie convalidano che le consegne contengano sempre gli elementi richiesti (ad esempio un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) oppure regole di filtro per escludere i gruppi dal target previsto (ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati).</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Abbonamenti con pagine di destinazione**: è ora possibile collegare una pagina di destinazione a un servizio e inviare un messaggio di conferma quando gli utenti lo convalidano.
+<table>
+<thead>
+<tr>
+<th><strong>Gestire le enumerazioni</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile creare enumerazioni direttamente tramite l’interfaccia utente web di Adobe Campaign. Un’enumerazione è un elenco di valori suggeriti dal sistema per compilare i campi. Utilizza le enumerazioni per standardizzare i valori di questi campi, aiutarti con l’input di dati o utilizzare all’interno di query.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Frammenti visivi**: è ora possibile archiviare i frammenti di contenuti visivi.
+<table>
+<thead>
+<tr>
+<th><strong>Creare opzioni personalizzate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi accedere alle opzioni tecniche nell’interfaccia utente web di Adobe Campaign e creare opzioni personalizzate in base alle tue esigenze. Ciò è particolarmente utile quando si lavora con attività del flusso di lavoro del codice JavaScript per memorizzare dati intermedi.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito.
 
-* **API Rest**: in qualità di utente Campaign Standard migrato, ora è possibile utilizzare le API Rest per utilizzare i messaggi transazionali. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Definire e chiamare i codici JavaScript</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile creare codici JavaScript nell’interfaccia utente web di Adobe Campaign. Questo consente di creare funzioni riutilizzabili che possono essere utilizzate in tutti i flussi di lavoro, in modo simile a una libreria.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#25-1-improvements}
+
+* Personalizza la visualizzazione dei campi personalizzati nell’interfaccia:
+
+   * Ora puoi selezionare campi personalizzati aggiuntivi da visualizzare nell’interfaccia
+   * È ora possibile impostare regole per la visualizzazione di campi personalizzati di tipo collegamento, ad esempio limitare i valori di elenco in base all&#39;input di un altro campo
+   * Ora è possibile disporre i campi nell’interfaccia in modo più flessibile: i campi possono estendersi su una singola colonna o essere raggruppati in sottosezioni per una migliore organizzazione
+   * È ora possibile impostare campi specifici come di sola lettura.
+
+* Filtri recenti e Preferiti: per riutilizzare rapidamente gli attributi utilizzati di frequente, è ora possibile aggiungerli ai preferiti. In questo modo, sono facilmente accessibili per le attività future. Oltre ai preferiti, puoi anche visualizzare e utilizzare gli attributi selezionati più di recente.
 
 
