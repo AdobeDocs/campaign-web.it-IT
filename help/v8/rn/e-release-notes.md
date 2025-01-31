@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni in arrivo con la prossima versione dell’
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 28%
+source-wordcount: '511'
+ht-degree: 18%
 
 ---
 
@@ -51,7 +51,7 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire le consegne esterne e i modelli di consegna esterna nell’interfaccia utente web di Campaign. Con questa modalità, i messaggi vengono generati in un file di input che può essere condiviso con il provider esterno. La modalità di consegna esterna è la modalità predefinita per il canale direct mail.</p>
+<p>Ora puoi definire consegne esterne e modelli di consegna esterna nell’interfaccia web di Campaign. In questa modalità, i messaggi vengono compilati in un file di input che può essere condiviso con il provider esterno. Per impostazione predefinita, per il canale direct mailing viene utilizzata la modalità di consegna esterna.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 <table>
 <thead>
 <tr>
-<th><strong>Controllare e filtrare l’invio della consegna con le tipologie</strong><br/></th>
+<th><strong>Creare regole business (regole di tipologia)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare tipologie e regole di tipologia nell’interfaccia utente web di Adobe Campaign. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. Le tipologie convalidano che le consegne contengano sempre gli elementi richiesti (ad esempio un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) oppure regole di filtro per escludere i gruppi dal target previsto (ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati).</p>
+<p>Ora puoi creare tipologie e regole di tipologia nell’interfaccia web di Adobe Campaign. Una tipologia è una raccolta di regole di tipologia che consentono di controllare, filtrare e assegnare priorità alle consegne. Le tipologie garantiscono che le consegne contengano sempre gli elementi richiesti (ad esempio un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) e applichino regole di filtro per escludere gruppi specifici dal pubblico di destinazione (ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
