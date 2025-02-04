@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: ht
-source-wordcount: '776'
+source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 100%
    + [Campaign Web e Console client](get-started/capability-matrix.md)
    + [Da Campaign Standard a v8](rn/acs-migration.md)
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
+   + [Domande frequenti](get-started/faq.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
    + [Accedere alle consegne](msg/gs-deliveries.md)
