@@ -1,9 +1,9 @@
 ---
 title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale in Campaign Web
 description: Porre domande nei popover della guida di Campaign Web
-source-git-commit: eea1be08c1af02fbdf6d048f33e0279f0c42711d
+source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '803'
 ht-degree: 5%
 
 ---
@@ -77,5 +77,5 @@ Per ora, tutte le funzioni saranno disponibili tramite la console se non sono di
 
 +++ Esistono guardrail o limitazioni della nuova interfaccia utente web?
 
-Guardrail e limitazioni possono essere rivisti in [questa pagina](../get-started/guardrails.md).
+I guardrail e le limitazioni per Campaign v8 sono elencati [qui](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Inoltre, all’interno dell’interfaccia utente web, ai flussi di lavoro si applicano protezioni specifiche. Possono essere rivisti in [questa pagina](../get-started/guardrails.md). Vedi anche [Adobe Campaign Managed Cloud Services | Descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 +++
