@@ -2,8 +2,12 @@
 audience: end-user
 title: Utilizzare le tipologie
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 5%
