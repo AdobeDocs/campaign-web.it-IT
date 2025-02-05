@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai frammenti di contenuto
 description: Scopri come creare con i frammenti di contenuto
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 58%
+source-wordcount: '423'
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Sono disponibili due tipi di frammenti:
 
   >[!AVAILABILITY]
   >
-  >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+  >Questa funzionalità richiede un aggiornamento a Campaign v8.6.4. Ulteriori informazioni sono disponibili nelle [Note sulla versione della console client di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Approfondiamo
 

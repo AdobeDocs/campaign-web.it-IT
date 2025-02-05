@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Estrai file
 description: Scopri come utilizzare l’attività del flusso di lavoro Extract file
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '885'
 ht-degree: 18%
 
 ---
@@ -39,7 +39,7 @@ La sezione **[!UICONTROL File da estrarre]** consente di configurare le propriet
 1. Specificare le colonne da presentare nel file estratto. Per farlo, segui questi passaggi:
 
    1. Fare clic sulla **[!UICONTROL colonna di output Aggiungi]**.
-   1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. Gli attributi disponibili dipendono dalla dimensione di targeting del flusso di lavoro.
+   1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. Gli attributi disponibili dipendono dalla dimensione di targeting del flusso di lavoro. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md)
    1. Una volta aggiunta la colonna, è possibile modificarne **[!UICONTROL Label]** e modificare l&#39;**[!UICONTROL Attribute]** associato.
    1. Per applicare una trasformazione ai valori della colonna, selezionarla dall&#39;elenco a discesa. Ad esempio, è possibile convertire tutti i valori nella colonna selezionata in maiuscolo.
 

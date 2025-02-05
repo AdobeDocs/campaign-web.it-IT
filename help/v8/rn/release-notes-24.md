@@ -2,9 +2,9 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
-source-wordcount: '2206'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # Note sulla versione 2024 {#2024-release}
 
 In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2024**. Le note più recenti sulla versione sono disponibili in [questa pagina](release-notes.md).
+
+
+## Versione di ottobre 2024 {#24-10-release}
+
+**Data di rilascio**: 29 ottobre 2024
+
+Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di ottobre.
+
+### Funzioni
+
+<table>
+<thead>
+<tr>
+<th><strong>Account esterni</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi impostare e gestire account esterni direttamente tramite l’interfaccia utente web di Adobe Campaign. Questa nuova funzione semplifica la configurazione di diversi tipi di account esterni, ad esempio e-mail non recapitate (POP3) o istanze di esecuzione.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Messaggistica transazionale</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La messaggistica transazionale (Centro messaggi) è ora disponibile nell’interfaccia utente web di Campaign. Questo componente aggiuntivo è progettato per attivare messaggi generati da eventi attivati da sistemi informativi e può includere: fattura, conferma dell’ordine, conferma della spedizione, modifica della password, notifica di indisponibilità del prodotto, estratto conto, creazione di account del sito web, ecc.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../transactional-messaging/transactional.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Miglioramenti
+
+* **Attività dei flussi di lavoro** - È ora possibile spostare un’attività e tutti i relativi nodi secondari da una transizione a un&#39;altra all’interno di un flusso di lavoro. Per eseguire questa operazione, nel riquadro delle proprietà dell’attività è disponibile il pulsante dedicato **Sposta**. [Ulteriori informazioni](../workflows/orchestrate-activities.md#move)
+
+* **Attività di arricchimento nei flussi di lavoro**
+
+   * È ora possibile definire un alias e un’etichetta durante la creazione di un nuovo campo nell’attività **Arricchimento**. [Ulteriori informazioni](../workflows/activities/enrichment.md#collection-settings)
+   * Ora è possibile aggiungere offerte per ogni profilo nell’attività **Arricchimento**. [Ulteriori informazioni](../workflows/activities/enrichment.md##add-offers)
+
+* **Distribuzione dei valori**: accedendo all’elenco dei campi per la personalizzazione, ora è possibile controllare come vengono distribuiti i valori per ciascun campo. Finestra popup dedicata che mostra il numero e la percentuale per ciascun valore. [Ulteriori informazioni](../query/build-query.md#distribution-values-query)
+
+* **Informazioni sulla versione e sul sistema** - Ora è possibile accedere ai dettagli delle versioni delle istanze, sia per la console client che per l’interfaccia utente web. In questa nuova sezione sono elencati anche tutti i pacchetti incorporati installati nell’ambiente. [Ulteriori informazioni](../get-started/user-interface.md#user-interface-about)
+
+* **Elenchi** - Ora è possibile riordinare facilmente i valori di un elenco. [Ulteriori informazioni](../get-started/work-with-folders.md)
+
+* **Consegna** - La variabile di consegna è ora accessibile dai campi di personalizzazione. [Ulteriori informazioni](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## Aggiornamenti di settembre {#9-2024}

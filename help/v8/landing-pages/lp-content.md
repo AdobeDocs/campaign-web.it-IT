@@ -3,7 +3,7 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 17%
@@ -87,13 +87,12 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
    * **[!UICONTROL Effettua l&#39;abbonamento se selezionato]**: gli utenti devono selezionare la casella per il consenso (consenso).
    * **[!UICONTROL Annulla iscrizione se selezionato]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
 
-   Se si seleziona **[!UICONTROL Campo]**, selezionare un campo dall&#39;elenco degli attributi e scegliere tra le due opzioni seguenti:
+   Se si seleziona **[!UICONTROL Campo]**, selezionare un campo dall&#39;[elenco attributi](../get-started/attributes.md) e scegliere tra le due opzioni seguenti:
 
    * **[!UICONTROL Sì se selezionato]**.<!--TBC-->
-
    * **[!UICONTROL No se selezionato]**.<!--TBC-->
 
-1. È possibile eliminare e aggiungere tutti i campi, ad esempio campi di testo, pulsanti di scelta, caselle di controllo, elenchi a discesa e così via. secondo necessità.
+1. È possibile eliminare e aggiungere tutti i campi (ad esempio campi di testo, pulsanti di scelta, caselle di controllo, elenchi a discesa e così via) necessari.
 
 1. Una volta aggiunti o aggiornati tutti i campi, fai clic su **[!UICONTROL Invito all&#39;azione]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nel componente **[!UICONTROL Modulo]**. [Scopri come](#define-actions-on-form-submission)
 
@@ -164,7 +163,7 @@ Per inviare automaticamente un messaggio di conferma dopo l’invio di una pagin
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Espandi e modifica qualsiasi altra sezione corrispondente agli altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
+1. Espandere e modificare qualsiasi altra sezione corrispondente ad altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
 
 1. Espandi la sezione **[!UICONTROL Invito all&#39;azione]** per modificare l&#39;aspetto del pulsante nel modulo del componente. È ad esempio possibile modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 

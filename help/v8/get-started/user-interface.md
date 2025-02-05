@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2032'
 ht-degree: 100%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Script di inizializzazione dell’esecuzione"
 >abstract="Script di inizializzazione dell’esecuzione"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="Modifica dettagli personalizzati"
->abstract="Modifica dettagli personalizzati"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="Proprietà separatore"
->abstract="Proprietà separatore"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="Impostazioni attributo"
->abstract="Impostazioni attributo"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="Generale"
->abstract="Generale"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="Proprietà collegamento"
->abstract="Proprietà LaLink"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="Layout"
->abstract="Layout"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="Archiviazione mappatura target"
 >abstract="Nega archiviazione mappatura target"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="Preferiti e recenti"
->abstract="Preferiti e recenti"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Opzioni"
->abstract="Opzioni"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Crea opzione"
->abstract="Crea opzione"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="Codici JavaScript"
->abstract="Codici JavaScript"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="Crea codice JavaScript"
->abstract="Crea codice JavaScript"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="Enumerazioni"
->abstract="Enumerazioni"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="Proprietà"
->abstract="Proprietà"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="Elenco dei valori di enumerazione"
->abstract="Elenco dei valori di enumerazione"

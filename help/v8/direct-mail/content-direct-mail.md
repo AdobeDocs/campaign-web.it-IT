@@ -3,9 +3,9 @@ audience: end-user
 title: Progettare una consegna direct mail
 description: Scopri come progettare la consegna di direct mailing con Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '573'
 ht-degree: 21%
 
 ---
@@ -59,7 +59,7 @@ Per progettare il contenuto del file di estrazione generato dalla consegna di di
 Nella sezione **[!UICONTROL Contenuto]**, specifica le colonne da visualizzare nel file di estrazione. Per farlo, segui questi passaggi:
 
 1. Fare clic sul pulsante **[!UICONTROL Aggiungi attributo]** per creare una nuova colonna.
-1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. È possibile sfruttare l&#39;editor espressioni per selezionare l&#39;attributo da utilizzare facendo clic sul pulsante **[!UICONTROL Modifica espressione]**.
+1. Scegli l’attributo da visualizzare nella colonna, quindi conferma. È possibile sfruttare l&#39;editor espressioni per selezionare l&#39;attributo da utilizzare facendo clic sul pulsante **[!UICONTROL Modifica espressione]**. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

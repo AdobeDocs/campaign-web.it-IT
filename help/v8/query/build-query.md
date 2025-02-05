@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 57%
+source-wordcount: '2242'
+ht-degree: 56%
 
 ---
 
@@ -40,7 +40,7 @@ Per accedere a questa opzione, nella query fai clic sul pulsante di selezione de
 >
 >* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In tal caso, un avviso **[!UICONTROL Carico parziale]** ti avvisa.
 >
->* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi.
+>* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi. [Scopri come selezionare gli attributi](../get-started/attributes.md)
 >* Puoi aggiungere condizioni ai risultati utilizzando **[!Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
 
 ## Aggiungere i componenti per il filtro {#filtering}
@@ -62,7 +62,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 1. Fai clic sul pulsante **+** sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**. Il pannello delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
 
-1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate.
+1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 85%
+ht-degree: 82%
 
 ---
 
@@ -93,7 +93,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
       >[!NOTE]
       >
-      >Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **[!UICONTROL Abilita ordinamento]**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto.
+      >Quando si imposta un limite di popolazione per un sottoinsieme, è possibile classificare i profili selezionati in base a un attributo di profilo [specifico](../../get-started/attributes.md), in ordine crescente o decrescente. A tale scopo, attiva l’opzione **[!UICONTROL Abilita ordinamento]**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto.
 
 1. Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**.
 

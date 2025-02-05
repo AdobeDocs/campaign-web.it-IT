@@ -1,16 +1,15 @@
 ---
-title: Account esterno
+title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 15%
+source-wordcount: '726'
+ht-degree: 12%
 
 ---
 
-# Configurare account esterni {#external-accounts}
-
+# Gestire account esterni {#external-accounts}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -18,17 +17,16 @@ ht-degree: 15%
 >abstract="Ora puoi connetterti a piattaforme aggiuntive o personalizzare le connessioni per adattarle al tuo flusso di lavoro, creare facilmente nuovi account esterni per soddisfare le tue esigenze specifiche e garantire trasferimenti di dati senza interruzioni."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
-
 >[!AVAILABILITY]
 >
-> Gli account esterni sono attualmente disponibili solo per le e-mail non recapitate (POP3) e per l’istanza Execution, con tipi di account aggiuntivi da aggiungere in futuro.
+> Gli account esterni sono attualmente disponibili solo per le e-mail non recapitate (POP3), l’istanza di indirizzamento e l’istanza di esecuzione, con ulteriori tipi di account da aggiungere in futuro.
 > Gli account esterni non supportati creati nella console di Adobe Campaign sono visibili nell’interfaccia utente web ma non possono essere modificati né utilizzati.
 
 Adobe Campaign viene fornito con un set di account esterni preconfigurati per una facile integrazione con vari sistemi. Se devi connetterti a piattaforme aggiuntive o personalizzare le connessioni in base al tuo flusso di lavoro, ora puoi facilmente creare nuovi account esterni utilizzando l’Interfaccia utente web per soddisfare le tue esigenze specifiche e garantire trasferimenti di dati fluidi.
 
 ## Creare un account esterno {#create-ext-account}
 
-Per creare un nuovo account esterno, segui i passaggi indicati di seguito. Le impostazioni dettagliate dipendono dal tipo di account esterno.
+Per creare un nuovo account esterno, segui i passaggi indicati di seguito. Le impostazioni dettagliate dipendono dal tipo di account esterno. [Ulteriori informazioni](#campaign-specific)
 
 1. Dal menu del riquadro di sinistra, selezionare **[!UICONTROL Account esterni]** in **[!UICONTROL Amministrazione]**.
 
@@ -36,23 +34,29 @@ Per creare un nuovo account esterno, segui i passaggi indicati di seguito. Le im
 
    ![](assets/external_account_create_1.png)
 
-1. Immetti la **[!UICONTROL etichetta]** e seleziona il tuo account esterno **[!UICONTROL Tipo]**.
+1. Immetti la **[!UICONTROL etichetta]** e seleziona l&#39;account esterno **[!UICONTROL Tipo]**.
+
+   >[!NOTE]
+   >
+   >Le impostazioni per i tipi specifici di Campaign sono descritte in [questa sezione](#campaign-specific).
 
    ![](assets/external_account_create_2.png)
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Opzioni avanzate]**, è possibile modificare il percorso **[!UICONTROL Internal name]** o **[!UICONTROL Folder]** se necessario.
+1. Se necessario, puoi modificare il percorso **[!UICONTROL Internal name]** o **[!UICONTROL Folder]** dall&#39;elenco a discesa **[!UICONTROL Additional options]**.
 
    ![](assets/external_account_create_3.png)
 
-1. Abilita **[!UICONTROL Esportato automaticamente]** se desideri che i dati gestiti da questo account esterno vengano esportati automaticamente.
+1. Abilita l&#39;opzione **[!UICONTROL Esportato automaticamente nei pacchetti]** se desideri che i dati gestiti da questo account esterno vengano esportati automaticamente. <!--Exported where??-->
 
-1. Configura l’accesso all’account specificando le credenziali in base al tipo di account esterno scelto.
+   ![](assets/external_account_create_exported.png)
 
-1. Fai clic su **[!UICONTROL Verifica la connessione]** per verificare che la configurazione sia corretta
+1. Nella sezione **[!UICONTROL Dettagli]** configura l&#39;accesso all&#39;account specificando le credenziali in base al tipo di account esterno scelto. [Ulteriori informazioni](#bounce)
 
-1. Dal menu **[!UICONTROL Altro...]**, duplica o elimina il tuo account esterno.
+1. Fai clic su **[!UICONTROL Verifica connessione]** per verificare che la configurazione sia corretta.
+
+1. Dal menu **[!UICONTROL Altro...]**, puoi duplicare o eliminare il tuo account esterno.
 
    ![](assets/external_account_create_4.png)
 
@@ -60,48 +64,65 @@ Per creare un nuovo account esterno, segui i passaggi indicati di seguito. Le im
 
 ## Account esterni specifici per la campagna {#campaign-specific}
 
+A seconda del tipo di account esterno selezionato, segui i passaggi seguenti per configurare le impostazioni dell’account.
+
 ### Messaggi non recapitati (POP3) {#bounce}
 
 >[!AVAILABILITY]
 >
 > OAuth 2.0 non è attualmente supportato.
 
-L&#39;account esterno Posta non recapitata specifica l&#39;account POP3 esterno utilizzato per connettersi al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono ricevere la posta di ritorno.
+L’account esterno Messaggi non recapitati specifica l’account POP3 esterno utilizzato per connettersi al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono ricevere la posta di ritorno.
 
 ![](assets/external_account_bounce.png)
 
-Per configurare l&#39;account esterno **[!UICONTROL Messaggi non recapitati (POP3)]**:
+Per configurare l&#39;account esterno **[!UICONTROL Messaggi non recapitati (POP3)]**, compila i campi seguenti:
 
-* **[!UICONTROL Server]**
+* **[!UICONTROL Server]** - URL del server POP3
 
-  URL del server POP3
+* **[!UICONTROL Porta]** - Numero porta di connessione POP3 (la porta predefinita è 110)
 
-* **[!UICONTROL Porta]**
+* **[!UICONTROL Account]** - Nome dell&#39;utente
 
-  Numero porta di connessione POP3 (la porta predefinita è 110)
+* **[!UICONTROL Password]** - Password dell&#39;account utente
 
-* **[!UICONTROL Account]**
-
-  Nome dell’utente
-
-* **[!UICONTROL Password]**
-
-  Password account utente
-
-* **[!UICONTROL Crittografia]**
-
-  Tipo di crittografia scelta tra:
+* **[!UICONTROL Crittografia]** - Tipo di crittografia scelta tra:
 
    * Per impostazione predefinita (POP3 se porta 110, POP3S se porta 995)
    * POP3 che cambia in SSL dopo l’invio di uno STARTTLS
    * POP3 non sicuro (porta 110 per impostazione predefinita)
    * POP3 sicuro superiore a SSL (porta 995 per impostazione predefinita)
 
-* **[!UICONTROL Funzione]**
+* **[!UICONTROL Funzione]** - E-mail in entrata, quando l&#39;account esterno è configurato per ricevere e-mail in entrata, o router SOAP, per gestire le richieste SOAP.
 
-  E-mail in entrata, quando l’account esterno è configurato per ricevere e-mail in entrata, o router SOAP, per gestire le richieste SOAP.
+### Indirizzamento {#routing}
 
-### Istanza di esecuzione{#instance-exec}
+Per configurare un account esterno specifico che verrà utilizzato nelle consegne esterne, segui i passaggi seguenti.
+
+1. Crea un account esterno. [Ulteriori informazioni](../administration/external-account.md#create-ext-account)
+
+1. Selezionare il tipo **[!UICONTROL Indirizzamento]**.
+
+   ![](assets/external-account-routing.png){zoomable="yes"}
+
+1. Selezionare il canale desiderato e fare clic su **[!UICONTROL Crea]**.
+
+1. Nella sezione **[!UICONTROL Dettagli]** dell&#39;account esterno, **[!UICONTROL Esterno]** è selezionato per impostazione predefinita come **[!UICONTROL Modalità di consegna]**.
+
+   ![](assets/external-account-delivery-mode.png){zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >Attualmente **[!UICONTROL External]** è l&#39;unica modalità disponibile.
+
+1. Per gestire il processo dopo l’esecuzione della consegna, puoi esternalizzarlo in un flusso di lavoro di post-elaborazione. A tale scopo, è necessario creare un flusso di lavoro con un&#39;attività [External signal](../workflows/activities/external-signal.md) e selezionarla dal campo **[!UICONTROL Post-elaborazione]**.
+
+   ![](assets/external-account-post-processing.png){zoomable="yes"}
+
+1. Nel campo **[!UICONTROL Attività]** puoi modificare il nome dell&#39;attività del flusso di lavoro di post-elaborazione che verrà visualizzata nei registri. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
+
+
+### Istanza di esecuzione {#instance-exec}
 
 Se si dispone di un&#39;architettura segmentata, è necessario identificare le istanze di esecuzione associate all&#39;istanza di controllo e stabilire connessioni tra di esse. I modelli di messaggi transazionali vengono distribuiti nell’istanza di esecuzione.
 

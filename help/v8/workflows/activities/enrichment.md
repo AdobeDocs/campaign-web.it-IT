@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2071'
 ht-degree: 39%
 
 ---
@@ -54,7 +54,7 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >title="Attività di Arricchimento"
 >abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di Arricchimento per segmentare la clientela in gruppi distinti in base ai comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico target."
 
-1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati.
+1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md)
 
    Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ciascuno di questi tipi è descritto negli esempi seguenti:
    * [Attributo di arricchimento singolo](#single-attribute)

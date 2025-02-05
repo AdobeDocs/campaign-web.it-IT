@@ -4,10 +4,10 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 50%
+source-wordcount: '2765'
+ht-degree: 49%
 
 ---
 
@@ -25,24 +25,16 @@ Le impostazioni di consegna sono **parametri tecnici di consegna** definiti nel 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione. Le tipologie e le relative regole vengono create nella console client di Campaign."
+>abstract="Le tipologie consentono di standardizzare le pratiche aziendali, su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Impostazioni della tipologia per la consegna"
->abstract="Le regole di tipologia consentono ai marketer di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione. Le tipologie e le relative regole vengono create nella console client di Campaign."
+>abstract="Le regole di tipologia ti consentono di standardizzare le pratiche aziendali, su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
-Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di preparazione per applicare facilmente più regole di filtro a una consegna. Consentono ai marketer di standardizzare le pratiche aziendali su tutte le consegne in quanto consentono loro di controllare, filtrare e assegnare priorità all’invio delle consegne.
-
-Quando si associa una tipologia a un messaggio o a un modello di messaggio, le regole di tipologia incluse nella tipologia vengono eseguite per verificare la validità della consegna durante la preparazione dei messaggi. I profili che soddisfano i criteri di una regola di tipologia vengono quindi esclusi dai tipi di pubblico di consegna.
-
-Le tipologie consentono di assicurarsi che le consegne contengano sempre alcuni elementi (come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) o regole di filtro per escludere i gruppi dal target previsto (come utenti non abbonati, concorrenti o clienti non fidelizzati).
+Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di preparazione per applicare facilmente più regole di filtro a una consegna. Consentono agli esperti di marketing di standardizzare le pratiche aziendali su tutte le consegne in quanto consentono loro di controllare, filtrare e assegnare priorità all’invio delle consegne. [Scopri come creare tipologie e regole di tipologia](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->Le tipologie e le relative regole vengono create nella console client di Campaign. Per ulteriori informazioni sulle regole di pressione e su come configurare la gestione dell’eccesso, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
 
 ### Parametri di pressione {#pressure-parameters}
 

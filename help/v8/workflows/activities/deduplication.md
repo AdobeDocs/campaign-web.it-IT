@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Deduplica nei flussi di lavoro
 description: Scopri come utilizzare l’attività Deduplica nei flussi di lavoro
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 82%
+source-wordcount: '612'
+ht-degree: 79%
 
 ---
 
@@ -42,7 +42,7 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 1. Aggiungi un’attività **Deduplica** al flusso di lavoro.
 
-1. Nella sezione **Campi per identificare i duplicati**, fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
+1. Nella sezione **Campi per identificare i duplicati**, fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi ti consente di specificare quali elaborare per primi. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md)
 
 1. Nella sezione **Impostazioni deduplicazione** selezionare il numero di **duplicati univoci da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
 
