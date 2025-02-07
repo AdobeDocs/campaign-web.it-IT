@@ -3,7 +3,8 @@ title: Migrazione degli utenti tecnici alla console Adobe Developer
 description: Scopri come migrare la gestione degli accessi utente da Campaign Standard a Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 2%
@@ -108,11 +109,3 @@ Di seguito è riportato un elenco dei mapping dei gruppi di sicurezza di Campaig
 * Application manager Adobe Experience Manager
 
 * Account Relay
- 
-
-
- 
-
- 
-
-

@@ -3,13 +3,13 @@ title: Introduzione ad Adobe Campaign v8 dopo la transizione da Campaign Standar
 description: Scopri i passaggi necessari per iniziare a utilizzare la nuova applicazione Campaign v8
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 29%
 
 ---
-
 
 # Da Campaign Standard a v8 {#ac-acs}
 
@@ -230,4 +230,3 @@ Per scoprire la nuova esperienza utente con Adobe Campaign v8, accedi alla guida
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

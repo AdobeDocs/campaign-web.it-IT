@@ -20,7 +20,7 @@ L’integrazione dell’interfaccia web di Adobe Campaign con Adobe Experience M
 
 ## Crea un modello in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
-1. Passa all&#39;istanza dell&#39;autore [!DNL Adobe Experience Manager] e fai clic su Esperienza di Adobe nell&#39;angolo superiore sinistro della pagina. Scegliere **[!UICONTROL Siti]** dal menu.
+1. Passa all&#39;istanza dell&#39;autore [!DNL Adobe Experience Manager] e fai clic su Esperienza Adobe nell&#39;angolo superiore sinistro della pagina. Scegliere **[!UICONTROL Siti]** dal menu.
 
 1. Accedi a **[!UICONTROL Campagne > Nome del tuo marchio > Area principale > Nome della tua pagina]**.
 

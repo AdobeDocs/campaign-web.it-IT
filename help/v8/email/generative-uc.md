@@ -1,7 +1,8 @@
 ---
 title: Casi d’uso di AI Assistant per Content Accelerator
 description: Scopri come utilizzare AI Assistant per Content Accelerator nei casi d’uso
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
+source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 5%

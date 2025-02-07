@@ -106,7 +106,7 @@ Tutte le attività ti consentono di gestire le relative opzioni di esecuzione. S
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Properties
+### Proprietà
 
 Il campo **Esecuzione** consente di definire l&#39;azione da eseguire all&#39;avvio dell&#39;attività.
 

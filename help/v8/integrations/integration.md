@@ -1,5 +1,5 @@
 ---
-title: Utilizzare Campaign e altre soluzioni di Adobe
+title: Utilizzare Campaign e altre soluzioni Adobe
 description: Scopri come utilizzare l’interfaccia utente web di Adobe Campaign e le soluzioni e le app Adobe Experience Cloud
 feature: Overview
 role: Admin, User
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# Utilizzare Campaign e altre soluzioni di Adobe {#gs-integration}
+# Utilizzare Campaign e altre soluzioni Adobe {#gs-integration}
 
 Puoi collegare il tuo ambiente Campaign con soluzioni e app Adobe Experience Cloud per combinare le funzionalità.
 
@@ -22,7 +22,7 @@ Scopri quali soluzioni e app possono essere collegate a Campaign e i casi d&#39;
 
 Inoltre, con la nuova interfaccia utente di Campaign Web, puoi collegare il tuo ambiente Adobe Experience Manager as a Cloud Service per ottenere i seguenti casi d’uso:
 
-* Gestisci le risorse as a Cloud Service gestite dall’esperienza Adobe. [Ulteriori informazioni](aem-assets.md)
+* Gestisci le risorse as a Cloud Service gestite da Adobe Experience. [Ulteriori informazioni](aem-assets.md)
 * Gestisci i modelli con Adobe Experience Manager as a Cloud Service. [Ulteriori informazioni](aem-content.md)
 
 Questa connessione viene gestita tramite un account esterno dedicato configurato nella console client di Adobe Campaign.

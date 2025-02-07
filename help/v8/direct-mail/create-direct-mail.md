@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Creare una consegna Direct mail
+title: Creare una consegna direct mail
 description: Scopri come creare una consegna di direct mailing con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
@@ -10,7 +10,7 @@ ht-degree: 33%
 
 ---
 
-# Creare una consegna Direct mail {#create-direct-mail}
+# Creare una consegna direct mail {#create-direct-mail}
 
 Puoi creare una consegna di direct mailing autonoma o una consegna di direct mailing nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna direct mailing indipendente (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

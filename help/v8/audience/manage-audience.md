@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Properties"
+>title="Proprietà"
 >abstract="Qui è disponibile un riepilogo delle proprietà del pubblico, come l’origine o la cartella di archiviazione. Fai clic sul collegamento nella sezione **Ultimo flusso di lavoro** per aprire il flusso di lavoro utilizzato per creare il pubblico."
 
 >[!CONTEXTUALHELP]

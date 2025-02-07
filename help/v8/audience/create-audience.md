@@ -27,7 +27,7 @@ Campaign Web consente di creare nuovi tipi di pubblico in un’area di lavoro vi
 
 Dopo aver creato il flusso di lavoro, i tipi di pubblico risultanti vengono automaticamente memorizzati nel database di Campaign insieme a quelli esistenti. Questi tipi di pubblico possono quindi essere utilizzati come target nei flussi di lavoro o nelle consegne autonome.
 
-Le colonne **[!UICONTROL Origin]** indicano le origini dei tipi di pubblico: sono stati creati **[!UICONTROL tipi di pubblico Adobe Campaign]** nella console Adobe Campaign v8 o nell&#39;interfaccia utente Web, mentre sono stati creati **[!UICONTROL tipi di pubblico Adobe Experience Platform:]** in Adobe Experience Platform e integrati in Campaign utilizzando l&#39;integrazione Adobe Sources and Destinations.
+Le colonne **[!UICONTROL Origin]** indicano le origini dei tipi di pubblico: sono stati creati **[!UICONTROL tipi di pubblico di Adobe Campaign]** nella console Adobe Campaign v8 o nell&#39;interfaccia utente Web, mentre sono stati creati **[!UICONTROL tipi di pubblico di Adobe Experience Platform:]** in Adobe Experience Platform e integrati in Campaign tramite l&#39;integrazione di Adobe Sources and Destinations.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
