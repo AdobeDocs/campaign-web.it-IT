@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 55%
+ht-degree: 65%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="Aggiungere frammenti di espressione"
->abstract="I frammenti di espressione sono blocchi di contenuto predefiniti che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. Puoi anche creare frammenti di espressione personalizzati in base alle tue esigenze."
+>abstract="I frammenti di espressione sono blocchi di contenuti predefiniti contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. Puoi anche creare frammenti di espressione personalizzati in base alle esigenze."
 
 ## Cosa sono i frammenti di contenuto? {#what}
 
@@ -34,7 +34,7 @@ Un frammento di contenuto è un componente riutilizzabile a cui è possibile far
 
 Sono disponibili due tipi di frammenti:
 
-* I **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell&#39;editor espressioni. Campaign viene fornito con un set di blocchi di contenuto predefiniti che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. Puoi anche creare frammenti di espressione personalizzati in base alle tue esigenze.
+* I **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell&#39;editor espressioni. Campaign viene fornito con un set di blocchi di contenuto predefiniti che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. Puoi anche creare frammenti di espressione personalizzati in base alle esigenze.
 
 * I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più [consegne e-mail](../email/get-started-email-designer.md) o in [modelli di contenuto](../email/use-email-templates.md).
 
