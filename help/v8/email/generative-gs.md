@@ -3,20 +3,14 @@ audience: end-user
 title: Introduzione all’Acceleratore di contenuti di Assistente IA
 description: Guida introduttiva di AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 40%
+source-wordcount: '797'
+ht-degree: 37%
 
 ---
 
 # Utilizzare l’acceleratore di contenuti dell’Assistente IA  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Acceleratore di contenuti di Assistente IA"
->abstract="L’Assistente IA rende la creazione e l’esecuzione di campagne di marketing su canali diversi come e-mail, SMS e push intuitivi, semplici e senza problemi, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
 >[!CONTEXTUALHELP]

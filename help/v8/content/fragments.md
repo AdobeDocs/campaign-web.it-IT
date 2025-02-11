@@ -3,20 +3,14 @@ audience: end-user
 title: Introduzione ai frammenti di contenuto
 description: Scopri come creare con i frammenti di contenuto
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 65%
+source-wordcount: '383'
+ht-degree: 62%
 
 ---
 
 # Introduzione ai frammenti di contenuto {#gs-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Frammenti di contenuto"
->abstract="Ora puoi creare e utilizzare i frammenti di contenuto. Un frammento di contenuto è un componente riutilizzabile a cui è possibile fare riferimento in uno o più messaggi. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"

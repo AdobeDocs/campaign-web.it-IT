@@ -2,7 +2,7 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
+source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,6 +145,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <tr>
 <td>
 <p>L’Assistente AI Content Accelerator è ora disponibile con le consegne delle pagine di destinazione, consentendo di generare testo, immagini o layout di pagina completi.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
 <p>Per ulteriori informazioni su AI Assistant Content Accelerator, consulta la <a href="../email/generative-lp.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>

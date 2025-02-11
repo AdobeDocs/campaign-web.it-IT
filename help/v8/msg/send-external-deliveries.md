@@ -3,14 +3,21 @@ audience: end-user
 title: Introduzione alle consegne esterne
 description: Scopri come creare e inviare consegne esterne con Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 8%
+source-wordcount: '518'
+ht-degree: 14%
 
 ---
 
 # Inviare consegne esterne {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Creare consegne esterne"
+>abstract="È ora possibile definire le consegne esterne e i modelli di consegna esterna nell’interfaccia Web di Campaign. In questa modalità, i messaggi vengono compilati in un file di output che può essere condiviso con il provider esterno. La modalità del canale direct mailing è la consegna esterna per impostazione predefinita."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
 
 Adobe Campaign consente di gestire le consegne create al di fuori di Campaign per inviare in massa e-mail personalizzate, messaggi SMS o notifiche push (iOS e Android) tramite un sistema esterno.
 

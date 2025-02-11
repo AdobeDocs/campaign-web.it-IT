@@ -3,21 +3,15 @@ audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 19%
+source-wordcount: '306'
+ht-degree: 9%
 
 ---
 
 # Introduzione all’avviso di consegna {#gs-delivery-alerting}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Avvisi di consegna"
->abstract="L’avviso di consegna è ora disponibile in Campaign. Questa funzionalità è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sull’esecuzione delle proprie consegne."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della propria consegna. I destinatari possono monitorare le consegne in corso elaborate da Adobe Campaign e intraprendere azioni appropriate in caso di problemi.
 

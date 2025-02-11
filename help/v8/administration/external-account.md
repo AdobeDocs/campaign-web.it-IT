@@ -2,25 +2,20 @@
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 12%
+source-wordcount: '686'
+ht-degree: 7%
 
 ---
 
 # Gestire account esterni {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Account esterni"
->abstract="Ora puoi connetterti a piattaforme aggiuntive o personalizzare le connessioni per adattarle al tuo flusso di lavoro, creare facilmente nuovi account esterni per soddisfare le tue esigenze specifiche e garantire trasferimenti di dati senza interruzioni."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
 >[!AVAILABILITY]
 >
-> Gli account esterni sono attualmente disponibili solo per le e-mail non recapitate (POP3), l’istanza di indirizzamento e l’istanza di esecuzione, con ulteriori tipi di account da aggiungere in futuro.
-> Gli account esterni non supportati creati nella console di Adobe Campaign sono visibili nell’interfaccia utente web ma non possono essere modificati né utilizzati.
+>* Gli account esterni sono attualmente disponibili solo per le e-mail non recapitate (POP3), il routing e l’istanza di esecuzione. Ulteriori tipi di account verranno aggiunti in futuro.
+>
+>* Gli account esterni non supportati creati nella console di Adobe Campaign sono visibili nell’interfaccia utente web ma non possono essere modificati né utilizzati.
 
 Adobe Campaign viene fornito con un set di account esterni preconfigurati per una facile integrazione con vari sistemi. Se devi connetterti a piattaforme aggiuntive o personalizzare le connessioni in base al tuo flusso di lavoro, ora puoi facilmente creare nuovi account esterni utilizzando l’Interfaccia utente web per soddisfare le tue esigenze specifiche e garantire trasferimenti di dati fluidi.
 
