@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '798'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 + [Documentazione dell’interfaccia utente di Adobe Campaign Web](campaign-web-home.md)
 + Note sulla versione {#release-notes}
    + [Novità](rn/whats-new.md)
-   + [Versione anticipata](rn/e-release-notes.md)
+   + [Versione preliminare](rn/e-release-notes.md)
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-release-notes}
       + [Versioni 2024](rn/release-notes-24.md)
@@ -30,7 +30,7 @@ ht-degree: 96%
    + [Sfogliare e filtrare gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Utilizzare le cartelle](get-started/work-with-folders.md)
-   + [Seleziona gli attributi e aggiungili ai preferiti](get-started/attributes.md)
+   + [Selezionare gli attributi e aggiungerli ai preferiti](get-started/attributes.md)
    + [Autorizzazioni](get-started/permissions.md)
    + [Campaign Web e Console client](get-started/capability-matrix.md)
    + [Da Campaign Standard a v8](rn/acs-migration.md)
@@ -121,7 +121,7 @@ ht-degree: 96%
       + [Generazione di e-mail con l’IA](email/generative-content.md)
       + [Generazione di SMS con l’IA](email/generative-sms.md)
       + [Generazione di notifiche push con l’IA](email/generative-push.md)
-      + [Generazione di pagine di destinazione con IA](email/generative-lp.md)
+      + [Generazione di pagine di destinazione con l’IA](email/generative-lp.md)
       + [Casi d’uso dell’Assistente IA](email/generative-uc.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
@@ -231,6 +231,6 @@ ht-degree: 96%
    + [Configurare account esterni](administration/external-account.md)
    + [Utilizzare le tipologie](administration/typologies.md)
    + [Gestire le enumerazioni](administration/enumerations.md)
-   + [Configura  [!DNL Campaign]  opzioni](administration/options.md)
+   + [Configurare le opzioni di  [!DNL Campaign] ](administration/options.md)
    + [Utilizzare i codici JavaScript](administration/javascript-codes.md)
 + [Documentazione di Campaign v8 (console) >](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

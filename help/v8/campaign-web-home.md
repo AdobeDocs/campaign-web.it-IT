@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 >[!BEGINTABS]
 
 
->[!TAB Versione del 25 gennaio]
+>[!TAB Versione di gennaio 2025]
 
-È ora disponibile la versione di gennaio, che include la messaggistica transazionale, account esterni e ulteriori miglioramenti.
+La versione di gennaio è ora disponibile e include funionalità per messaggistica transazionale, account esterni e ulteriori miglioramenti.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

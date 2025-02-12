@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <tbody>
 <tr>
 <td>
-<p>È ora possibile definire le consegne esterne e i modelli di consegna esterna nell’interfaccia Web di Campaign. In questa modalità, i messaggi vengono compilati in un file di input che può essere condiviso con il provider esterno. La modalità del canale direct mailing è la consegna esterna per impostazione predefinita.</p>
+<p>È ora possibile definire le consegne esterne e i modelli di consegna esterna nell’interfaccia Web di Campaign. In questa modalità, i messaggi vengono compilati in un file di input che può essere condiviso con il provider esterno. Per impostazione predefinita, la modalità di consegna esterna viene utilizzata per il canale direct mail.</p>
 </td>
 </tr>
 </tbody>
