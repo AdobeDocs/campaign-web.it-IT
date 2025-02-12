@@ -6,7 +6,7 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Creare consegne esterne"
->abstract="È ora possibile definire le consegne esterne e i modelli di consegna esterna nell’interfaccia Web di Campaign. In questa modalità, i messaggi vengono compilati in un file di output che può essere condiviso con il provider esterno. La modalità del canale direct mailing è la consegna esterna per impostazione predefinita."
+>abstract="È ora possibile definire le consegne esterne e i modelli di consegna esterna nell’interfaccia Web di Campaign. In questa modalità, i messaggi vengono compilati in un file di output che può essere condiviso con il provider esterno. Per impostazione predefinita, la modalità di consegna esterna viene utilizzata per il canale direct mail."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
