@@ -2,10 +2,10 @@
 title: Utilizzo della giuda contestuale basata sull’intelligenza artificiale in Campaign Web
 description: Porre domande nei popover della guida di Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 0183534ca68960261fa59582dba2e2220e60b024
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Per informazioni su come iniziare, visita [questa pagina](../get-started/get-sta
 
 +++ Quali sono le nuove funzioni e funzionalità della nuova interfaccia utente web?
 
-La nuova interfaccia utente di Adobe Campaign v8 è coerente con Adobe Experience Platform ed è progettata per migliorare l’efficienza del marketing. La nuova area per i flussi di lavoro è intuitiva e offre funzioni avanzate per la composizione del pubblico, la gestione dei flussi di lavoro e la progettazione dei contenuti, oltre a casi d’uso integrati con applicazioni native di Adobe Experience Platform come Journey Optimizer e Real-Time CDP.  Accendi la tua creatività, aumenta la produttività e personalizza campagne cross-channel su larga scala con l’Acceleratore di contenuti dell’Assistente IA, incorporato in modo nativo nel designer WYSIWYG di messaggi.
+La nuova interfaccia utente di Adobe Campaign v8 è coerente con Adobe Experience Platform ed è progettata per migliorare l’efficienza del marketing. La nuova area per i flussi di lavoro è intuitiva e offre funzioni avanzate per la composizione del pubblico, la gestione dei flussi di lavoro e la progettazione dei contenuti, oltre a casi d’uso integrati con applicazioni native di Adobe Experience Platform come Journey Optimizer e Real-Time CDP.  Parla della creatività, aumenta la produttività e personalizza campagne cross-channel su larga scala con AI Assistant, incorporato in modo nativo nella finestra di progettazione dei messaggi di WYSIWYG.
 
 Gli addetti al marketing possono utilizzare l’intelligenza artificiale generativa per la progettazione completa di e-mail HTML e per generare testo e immagini con suggerimenti di perfezionamento e varianti. Per uleriori informazioni sulle nuove funzioni e funzionalità, visita [questa pagina](../rn/whats-new.md). Per ulteriori informazioni sulla nuova interfaccia e per vederla in azione, visita [questa pagina](../get-started/user-interface.md). Inoltre, nella sezione [Tutorial](https://experienceleague.adobe.com/it/docs/campaign-web-learn/tutorials/overview){target="_blank"} trovi una serie di video dimostrativi sulla nuova interfaccia.
 

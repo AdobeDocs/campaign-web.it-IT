@@ -1,15 +1,15 @@
 ---
-title: Casi d’uso di AI Assistant per Content Accelerator
-description: Scopri come utilizzare AI Assistant per Content Accelerator nei casi d’uso
+title: Casi d’uso dell’Assistente IA
+description: Scopri come utilizzare l’Assistente IA nei casi d’uso
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 5%
+source-wordcount: '525'
+ht-degree: 7%
 
 ---
 
-# Casi d’uso di AI Assistant per Content Accelerator {#generative-uc}
+# Casi d’uso dell’Assistente IA {#generative-uc}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 1. Apri la sezione **[!UICONTROL Assistente AI]**.
 
-1. Attiva la funzione **[!UICONTROL Utilizza il contenuto originale]** nell&#39;Assistente AI per Content Accelerator per personalizzare il nuovo contenuto in base ai dettagli di consegna, inclusi il nome della consegna e il pubblico di destinazione.
+1. Attiva la funzionalità **[!UICONTROL Utilizza il contenuto originale]** nell&#39;Assistente AI per personalizzare i nuovi contenuti in base ai dettagli di consegna, inclusi il nome della consegna e il pubblico di destinazione.
 
 1. Modifica il contenuto specificando la richiesta nella casella **[!UICONTROL Prompt]** e personalizza le impostazioni in base alle esigenze.
 
@@ -89,11 +89,11 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per
 
 1. Dopo aver configurato e configurato la consegna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Scegli la risorsa da modificare utilizzando l’Assistente IA per l’acceleratore di contenuti.
+1. Scegli la risorsa da modificare utilizzando l’Assistente IA.
 
 1. Scegliere **[!UICONTROL Assistente AI]** dal menu del riquadro di destra.
 
-1. Attiva l&#39;opzione **[!UICONTROL Stile riferimento]** in modo che l&#39;Assistente AI per l&#39;acceleratore di contenuti possa generare nuovo contenuto utilizzando il materiale di riferimento.
+1. Attiva l&#39;opzione **[!UICONTROL Stile riferimento]** in modo che l&#39;Assistente AI possa generare nuovo contenuto utilizzando il materiale di riferimento.
 
 1. Fai clic su **[!UICONTROL Carica immagine]** per includere un&#39;immagine che aggiunge contesto alla variante.
 

@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -138,15 +138,15 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <table>
 <thead>
 <tr>
-<th><strong>Generare la pagina di destinazione con l’Acceleratore di contenuti di Assistente IA</strong><br/></th>
+<th><strong>Generazione di pagine di destinazione con l’Assistente AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’Acceleratore di contenuti dell’Assistente IA è ora disponibile per le consegne di pagine di destinazione e consente di generare testo, immagini o layout di pagina completi.</p>
+<p>L’Assistente AI è ora disponibile con le consegne delle pagine di destinazione, consentendoti di generare testo, immagini o layout di pagina completi.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Per ulteriori informazioni sull’Acceleratore di contenuti di Assistente IA, consulta la <a href="../email/generative-lp.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni sull'Assistente AI, consulta la <a href="../email/generative-lp.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

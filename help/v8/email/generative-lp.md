@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Pagina di destinazione con IA Assistant Content Accelerator
-description: Guida introduttiva di AI Assistant Content Accelerator
+title: Pagina di destinazione con l’Assistente AI
+description: Introduzione all’Assistente AI
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 8%
+source-wordcount: '1521'
+ht-degree: 7%
 
 ---
 
-# Generare la pagina di destinazione con l’Acceleratore di contenuti di Assistente IA {#generative-lp}
+# Generazione di pagine di destinazione con l’Assistente AI{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Generare pagine di destinazione con IA"
->abstract="È ora possibile utilizzare l’Acceleratore contenuto dell’Assistente AI per creare le consegne della pagina di destinazione, consentendo di generare testo, immagini o layout di pagina completi."
+>abstract="Ora puoi utilizzare l’Assistente AI per creare le consegne della pagina di destinazione, consentendoti di generare testo, immagini o layout di pagina completi."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
@@ -24,19 +24,19 @@ ht-degree: 8%
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](generative-gs.md#generative-guardrails).
 ></br>
 >
->È necessario accettare un [contratto per l&#39;utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-Trasforma le pagine di destinazione con AI Assistant Content Accelerator in Adobe Campaign Web, basato sull’intelligenza artificiale generativa.
+Trasforma le pagine di destinazione con l’Assistente AI in Adobe Campaign Web, basato sull’intelligenza artificiale generativa.
 
 Crea contenuti di grande impatto, incluse pagine complete, frammenti di testo personalizzati e effetti visivi personalizzati che suonano bene con il tuo pubblico, aumentando il coinvolgimento e l’interazione.
 
-Esplora le schede seguenti per scoprire come utilizzare l’Acceleratore dei contenuti dell’Assistente AI in Adobe Campaign Web.
+Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB Generazione pagina di destinazione completa]
 
-Nell’esempio seguente, sfrutteremo IA Assistant Content Accelerator per perfezionare un modello di pagina di destinazione esistente.
+Nell’esempio seguente, sfrutteremo l’Assistente AI per perfezionare un modello di pagina di destinazione esistente.
 
 1. Dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -46,7 +46,7 @@ Nell’esempio seguente, sfrutteremo IA Assistant Content Accelerator per perfez
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale per personalizzare il nuovo contenuto in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -99,7 +99,7 @@ Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla
 
 >[!TAB Generazione solo testo]
 
-Nell’esempio seguente, sfrutteremo AI Assistant Content Accelerator per migliorare il contenuto della pagina di destinazione.
+Nell’esempio seguente, sfrutteremo l’Assistente AI per migliorare il contenuto della pagina di destinazione.
 
 1. Dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -109,7 +109,7 @@ Nell’esempio seguente, sfrutteremo AI Assistant Content Accelerator per miglio
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Acceleratore contenuto dell&#39;Assistente di intelligenza artificiale per personalizzare il nuovo contenuto in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -159,19 +159,19 @@ Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla
 
 >[!TAB Generazione solo immagini]
 
-Nell’esempio seguente, scopri come sfruttare AI Assistant Content Accelerator per ottimizzare e migliorare le risorse, garantendo un’esperienza più semplice da usare.
+Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare e migliorare le risorse, garantendo un’esperienza più semplice da usare.
 
 1. Dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Modifica contenuto]**.
 
    Per ulteriori informazioni su come configurare la pagina di destinazione, consulta [questa pagina](../landing-pages/create-lp.md).
 
-1. Seleziona la risorsa da modificare con l’Acceleratore contenuto dell’Assistente di intelligenza artificiale.
+1. Seleziona la risorsa da modificare con l’Assistente AI.
 
 1. Dal menu di destra, selezionare **[!UICONTROL Assistente AI]**.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** per l&#39;Acceleratore contenuto dell&#39;Assistente IA per personalizzare il nuovo contenuto in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
+1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
