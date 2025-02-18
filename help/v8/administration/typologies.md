@@ -1,20 +1,16 @@
 ---
 audience: end-user
-title: Utilizzare le tipologie
+title: Utilizzare le regole business (tipologie)
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 22%
 
 ---
 
-# Utilizzare le tipologie {#typologies}
+# Utilizzare le regole business (tipologie) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
