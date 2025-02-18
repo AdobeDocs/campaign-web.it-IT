@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 3%
+ht-degree: 25%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Modifica dettagli personalizzati"
->abstract="Tutti i campi personalizzati visualizzati nell’interfaccia per lo schema selezionato vengono visualizzati. È possibile modificare l&#39;ordine di visualizzazione dei campi nell&#39;interfaccia tramite le frecce su e giù e raggruppare i campi in sottosezioni aggiungendo separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
+>abstract="Vengono visualizzati tutti i campi dell’interfaccia personalizzati per lo schema selezionato. È possibile modificare l’ordine di visualizzazione dei campi nell’interfaccia tramite le frecce su e giù e raggruppare i campi in sottosezioni mediante l’aggiunta di separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
 >title="Generale"
->abstract="Definisci le impostazioni generali del campo personalizzato. Se non viene fornita alcuna etichetta, verrà visualizzata l’etichetta definita nello schema. Utilizza il campo **Visible if** per definire una condizione utilizzando un&#39;espressione xtk che controlla quando viene visualizzato il campo. Puoi anche contrassegnare il campo come obbligatorio o di sola lettura nell’interfaccia."
+>abstract="Definisci le impostazioni generali del campo personalizzato. Se non viene specificata un’etichetta, verrà visualizzata quella definita nello schema. Utilizza il campo **Visibile se** per definire una condizione attraverso un’espressione XTK che stabilisce quando viene visualizzato il campo. Puoi anche contrassegnare il campo come obbligatorio o di sola lettura nell’interfaccia."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Proprietà collegamento"
->abstract="Utilizza il modellatore di query per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, limita i valori di elenco in base all’input di un altro campo."
+>abstract="Utilizza il query modeler per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, puoi limitare i valori di elenco in base all’input di un altro campo."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
 >title="Layout"
->abstract="Per impostazione predefinita, i campi personalizzati vengono visualizzati nell’interfaccia in due colonne. Attiva questa opzione per visualizzare il campo personalizzato in tutta la larghezza dello schermo anziché in due colonne."
+>abstract="Per impostazione predefinita, i campi personalizzati vengono visualizzati nell’interfaccia su due colonne. Attiva questa opzione per visualizzare i campi personalizzati su tutta la larghezza dello schermo anziché su due colonne."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
@@ -106,7 +106,7 @@ Le impostazioni disponibili sono:
 * **[!UICONTROL Visibile se]**: definire una condizione utilizzando un&#39;espressione xtk che controlla quando viene visualizzato il campo. Nascondere ad esempio questo campo se un altro campo è vuoto.
 * **[!UICONTROL Obbligatorio]**: rendi obbligatorio il campo nell&#39;interfaccia.
 * **[!UICONTROL Sola lettura]**: rendere il campo di sola lettura nell&#39;interfaccia. Gli utenti non potranno modificare il valore del campo.
-* **[!UICONTROL Impostazioni filtro]** (per campi di tipo collegamento): utilizzare il modellatore di query per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, limita i valori di elenco in base all’input di un altro campo.
+* **[!UICONTROL Impostazioni filtro]** (per campi di tipo collegamento): utilizzare il modellatore di query per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, puoi limitare i valori di elenco in base all’input di un altro campo.
 
   È inoltre possibile fare riferimento al valore immesso in altri campi nelle condizioni utilizzando la sintassi `$(<field-name>)`. Ciò ti consente di fare riferimento al valore corrente di un campo come immesso nel modulo, anche se non è ancora stato salvato nel database.
 
@@ -118,7 +118,7 @@ Le impostazioni disponibili sono:
 
 +++
 
-* **[!UICONTROL Estendi due colonne]**: per impostazione predefinita, i campi personalizzati vengono visualizzati nell&#39;interfaccia in due colonne. Attiva questa opzione per visualizzare il campo personalizzato in tutta la larghezza dello schermo anziché in due colonne.
+* **[!UICONTROL Estendi due colonne]**: per impostazione predefinita, i campi personalizzati vengono visualizzati nell&#39;interfaccia in due colonne. Attiva questa opzione per visualizzare i campi personalizzati su tutta la larghezza dello schermo anziché su due colonne.
 
 ## Organizzare i campi personalizzati in sottosezioni {#separator}
 

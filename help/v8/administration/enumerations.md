@@ -5,7 +5,7 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 12%
+ht-degree: 27%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Proprietà"
->abstract="Definisci le proprietà dell’enumerazione, ad esempio il nome, il nome interno e il tipo. Le enumerazioni **[!UICONTROL Closed]** hanno un elenco fisso di valori che possono essere modificati solo dal menu **[!UICONTROL Enumerations]**. Le enumerazioni **[!UICONTROL Open]** consentono agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione. Le enumerazioni **[!UICONTROL System]** sono associate ai campi di sistema. Le enumerazioni **[!UICONTROL Emoticon]** vengono utilizzate per aggiornare l&#39;elenco delle emoticon."
+>abstract="Definisci le proprietà dell’enumerazione, ad esempio nome, nome interno e tipo. Le enumerazioni **[!UICONTROL chiuse]** contengono un elenco fisso di valori che possono essere modificati solo dal menu **[!UICONTROL Enumerazioni]**. Le enumerazioni **[!UICONTROL aperte]** consentono agli utenti di aggiungere nuovi valori direttamente nei campi, in base all’enumerazione corrente. Le enumerazioni di **[!UICONTROL sistema]** sono associate ai campi di sistema. Le enumerazioni di **[!UICONTROL emoticon]** vengono utilizzate per aggiornare l’elenco delle emoticon."
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
 >title="Elenco dei valori di enumerazione"
->abstract="Per aggiungere un valore all&#39;enumerazione, fare clic sul pulsante **[!UICONTROL Aggiungi valore]** e configurarlo in base alle esigenze."
+>abstract="Per aggiungere un valore all’enumerazione, fai clic sul pulsante **[!UICONTROL Aggiungi valore]** e configuralo in base alle esigenze."
 
 ## Cosa sono le enumerazioni? {#about}
 
@@ -56,7 +56,7 @@ Per creare un’enumerazione, effettua le seguenti operazioni:
    * Le enumerazioni **[!UICONTROL Closed]** hanno un elenco fisso di valori che possono essere modificati solo dal menu **[!UICONTROL Enumerations]**.
    * Le enumerazioni **[!UICONTROL Open]** consentono agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione.
    * Le enumerazioni **[!UICONTROL System]** sono associate ai campi di sistema.
-   * Le enumerazioni **[!UICONTROL Emoticon]** vengono utilizzate per aggiornare l&#39;elenco delle emoticon.
+   * Le enumerazioni di **[!UICONTROL emoticon]** vengono utilizzate per aggiornare l’elenco delle emoticon.
 
 1. Fai clic su **[!UICONTROL Crea]**. Vengono visualizzati i dettagli di enumerazione, che consentono di aggiungere valori all’elenco.
 

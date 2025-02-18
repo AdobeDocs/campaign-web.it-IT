@@ -1,15 +1,15 @@
 ---
-title: Configura  [!DNL Campaign]  opzioni
+title: 'Configurare le opzioni di  [!DNL Campaign] '
 description: Scopri come configurare le opzioni di Campaign e creare opzioni personalizzate.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Configura opzioni [!DNL Campaign] {#options}
+# Configurare opzioni [!DNL Campaign] {#options}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
@@ -31,7 +31,7 @@ Adobe Campaign Web include opzioni tecniche che consentono di configurare l’ap
 
 >[!IMPORTANT]
 >
->Le opzioni incorporate sono preconfigurate e devono essere modificate solo da utenti avanzati. In caso di domande o richieste, contatta il rappresentante del tuo Adobe.
+>Le opzioni incorporate sono preconfigurate e devono essere modificate solo da utenti avanzati. In caso di domande o richieste, contatta il tuo rappresentante Adobe.
 
 ## Accedere alle opzioni di Campaign {#access}
 

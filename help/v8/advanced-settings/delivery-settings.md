@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '2765'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -25,12 +25,12 @@ Le impostazioni di consegna sono **parametri tecnici di consegna** definiti nel 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipologia"
->abstract="Le tipologie consentono di standardizzare le pratiche aziendali, su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
+>abstract="Le tipologie consentono di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Impostazioni della tipologia per la consegna"
->abstract="Le regole di tipologia ti consentono di standardizzare le pratiche aziendali, su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
+>abstract="Le regole di tipologia consentono di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
 Le tipologie sono insiemi di **regole di tipologia** che vengono eseguite durante la fase di preparazione per applicare facilmente più regole di filtro a una consegna. Consentono agli esperti di marketing di standardizzare le pratiche aziendali su tutte le consegne in quanto consentono loro di controllare, filtrare e assegnare priorità all’invio delle consegne. [Scopri come creare tipologie e regole di tipologia](../administration/typologies.md)
 
@@ -144,7 +144,7 @@ Per le e-mail, puoi anche modificare i **[!UICONTROL formati di posta]** dei mes
   >
   >Questa opzione include entrambe le versioni del documento. Di conseguenza, influisce sulla velocità di consegna, perché la dimensione dell’e-mail è maggiore.
 
-* **[!UICONTROL Invia tutti i messaggi in formato testo]**: l&#39;e-mail viene inviata in formato testo. Il formato HTML non verrà inviato, ma verrà utilizzato per la pagina speculare solo quando il destinatario farà clic sull’e-mail.
+* **[!UICONTROL Invia tutti i messaggi in formato testo]**: l&#39;e-mail viene inviata in formato testo. Il formato HTML non verrà inviato, ma utilizzato per la pagina speculare solo quando il destinatario fa clic sull’e-mail.
 
 ## Analisi web {#web-analytics}
 

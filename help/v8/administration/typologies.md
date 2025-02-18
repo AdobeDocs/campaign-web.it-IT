@@ -10,7 +10,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
 source-wordcount: '1414'
-ht-degree: 5%
+ht-degree: 22%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Tipologie e regole di tipologia"
->abstract="Le tipologie consentono di standardizzare le pratiche aziendali, su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
+>abstract="Le tipologie consentono di standardizzare le pratiche aziendali per tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
 ## Informazioni sulle tipologie
 
-Le tipologie consentono di standardizzare le pratiche aziendali, su tutte le consegne. Una **tipologia** è una raccolta di **regole di tipologia** che consente di controllare, filtrare e assegnare priorità all&#39;invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione.
+Le tipologie consentono di standardizzare le pratiche aziendali per tutte le consegne. Una **tipologia** è una raccolta di **regole di tipologia** che consente di controllare, filtrare e assegnare priorità all&#39;invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione.
 
 Le tipologie garantiscono che le consegne contengano sempre alcuni elementi (come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) o regole di filtro per escludere i gruppi dal target previsto (come utenti non abbonati, concorrenti o clienti non fidelizzati).
 
@@ -47,7 +47,7 @@ I passaggi principali per applicare le tipologie ai messaggi sono i seguenti:
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Proprietà tipologia"
->abstract="Definisci le proprietà della tipologia ed espandi la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate. Utilizza il campo **[!UICONTROL Affinità IP]** per associare le affinità IP alle tipologie. Questo consente di controllare meglio il traffico SMTP in uscita, definendo quali indirizzi IP specifici possono essere utilizzati per ogni affinità."
+>abstract="Definisci le proprietà della tipologia ed espandi la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate. Utilizza il campo **[!UICONTROL Affinità IP]** per associare le affinità IP alle tipologie. Questo consente di controllare meglio il traffico SMTP in uscita, definendo quali indirizzi IP specifici possono essere utilizzati per ciascuna affinità."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -79,7 +79,7 @@ La tipologia apre i dettagli. Da questa schermata, puoi fare riferimento diretta
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="Proprietà regola di tipologia"
->abstract="Definisci le proprietà della regola di tipologia. **Le regole di controllo** verificano la qualità e la validità dei messaggi prima dell&#39;invio, mentre le regole di **filtro** escludono i segmenti del pubblico di destinazione in base a criteri specifici.<br/><br/>È inoltre possibile modificare l&#39;ordine di esecuzione della regola per gestire la sequenza di esecuzione delle regole di tipologia quando più regole dello stesso tipo vengono eseguite durante la stessa fase di elaborazione dei messaggi."
+>abstract="Definisci le proprietà della regola di tipologia. Le regole di **Controllo** verificano la qualità e la validità del messaggio prima dell’invio, mentre le regole di **Filtro** escludono i segmenti del pubblico target in base a criteri specifici.<br/><br/>È inoltre possibile modificare l’ordine di esecuzione della regola per gestire la sequenza di esecuzione delle regole di tipologia, quando più regole dello stesso tipo vengono eseguite durante la stessa fase di elaborazione del messaggio."
 
 Per creare una regola di tipologia, passa al menu **[!UICONTROL Regole aziendali]**, quindi seleziona la scheda **[!UICONTROL Regole di tipologia]**.
 
@@ -97,7 +97,7 @@ Definisci le proprietà della regola di tipologia:
 
    * **Controllo**: assicura la qualità e la validità del messaggio pre-invio (ad esempio visualizzazione dei caratteri, lunghezza dell&#39;SMS, formato dell&#39;indirizzo, abbreviazione dell&#39;URL). Vengono creati utilizzando un’interfaccia di script per definire una logica complessa per i controlli e le modifiche dei contenuti.
 
-   * **Le regole di filtro** escludono i segmenti del pubblico di destinazione in base a criteri specifici (ad esempio, età, posizione, paese, numeri di telefono). Queste regole sono collegate a una dimensione di targeting.
+   * Le regole di **filtro** escludono i segmenti del pubblico target in base a criteri specifici (ad esempio, età, posizione, Paese, numeri di telefono). Queste regole sono collegate a una dimensione di targeting.
 
    >[!NOTE]
    >
@@ -150,12 +150,12 @@ Definisci le proprietà della regola di tipologia:
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtro"
->abstract="**Le regole di filtro** escludono i segmenti del pubblico di destinazione in base a criteri specifici (ad esempio, età, posizione, paese, numeri di telefono). Seleziona la dimensione di targeting della regola di tipologia e fai clic sul pulsante **[!UICONTROL Aggiungi regole]** per accedere al modellatore di query e generare la regola."
+>abstract="Le regole di **filtro** escludono i segmenti del pubblico target in base a criteri specifici (ad esempio, età, posizione, Paese, numeri di telefono). Seleziona la dimensione di targeting della regola di tipologia e fai clic sul pulsante **[!UICONTROL Aggiungi regole]** per accedere al query modeler e creare la regola."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Codice"
->abstract="**Le regole di controllo** verificano la qualità e la validità del messaggio pre-invio (ad esempio, visualizzazione dei caratteri, lunghezza dell&#39;SMS, formato dell&#39;indirizzo, abbreviazione dell&#39;URL). Vengono creati utilizzando il codice JavaScript."
+>abstract="Le regole di **controllo** verificano la qualità e la validità del messaggio prima dell’invio (ad esempio, visualizzazione dei caratteri, lunghezza SMS, formato dell’indirizzo, abbreviazione dell’URL). Queste vengono create utilizzando il codice JavaScript."
 
 Una volta definite le proprietà della regola di tipologia, puoi crearne il contenuto.
 
