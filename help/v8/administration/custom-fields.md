@@ -2,10 +2,10 @@
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="Proprietà collegamento"
->abstract="Utilizza il query modeler per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, puoi limitare i valori di elenco in base all’input di un altro campo."
+>abstract="Utilizza il query modeler per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, limita i valori di elenco in base all’input di un altro campo."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -38,6 +38,7 @@ ht-degree: 24%
 >abstract="Specifica il nome da visualizzare nell’interfaccia per la sottosezione."
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="Impostazioni attributo"
@@ -108,7 +109,7 @@ Le impostazioni disponibili sono:
 * **[!UICONTROL Visibile se]**: definire una condizione utilizzando un&#39;espressione xtk che controlla quando viene visualizzato il campo. Nascondere ad esempio questo campo se un altro campo è vuoto.
 * **[!UICONTROL Obbligatorio]**: rendi obbligatorio il campo nell&#39;interfaccia.
 * **[!UICONTROL Sola lettura]**: rendere il campo di sola lettura nell&#39;interfaccia. Gli utenti non potranno modificare il valore del campo.
-* **[!UICONTROL Impostazioni filtro]** (per campi di tipo collegamento): utilizzare il modellatore di query per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, puoi limitare i valori di elenco in base all’input di un altro campo.
+* **[!UICONTROL Impostazioni filtro]** (per campi di tipo collegamento): utilizzare il modellatore di query per specificare le regole per la visualizzazione di un campo personalizzato di tipo collegamento. Ad esempio, limita i valori di elenco in base all’input di un altro campo.
 
   È inoltre possibile fare riferimento al valore immesso in altri campi nelle condizioni utilizzando la sintassi `$(<field-name>)`. Ciò ti consente di fare riferimento al valore corrente di un campo come immesso nel modulo, anche se non è ancora stato salvato nel database.
 

@@ -2,7 +2,7 @@
 title: Indicatori chiave di prestazioni
 description: Scopri come comprendere gli indicatori chiave di prestazioni
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 100%
@@ -17,6 +17,7 @@ ht-degree: 100%
 >abstract="La sezione **Indicatori chiave di prestazioni** consente di verificare l’efficacia della piattaforma tramite i KPI più diffusi."
 
 <!-- à enlever? -->
+
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
