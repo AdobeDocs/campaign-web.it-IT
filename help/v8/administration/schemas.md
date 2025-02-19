@@ -1,19 +1,27 @@
 ---
 title: Utilizzare gli schemi
 description: Scopri come utilizzare gli schemi.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # Utilizzare gli schemi {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Utilizzare gli schemi"
+>abstract="È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. L&#39;edizione dei campi personalizzati è accessibile anche dal pulsante **Modifica dettagli personalizzati**."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemi"
->abstract="**[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all&#39;interno dell&#39;applicazione. Da questa schermata puoi visualizzare tutti gli schemi esistenti. I filtri sono disponibili per aiutare a perfezionare l’elenco, ad esempio per visualizzare solo gli schemi modificabili."
+>abstract="**[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all&#39;interno dell&#39;applicazione. Da questa schermata, puoi visualizzare tutti gli schemi esistenti e accedere ai dettagli di uno schema selezionandone il nome nell’elenco. I filtri sono disponibili per aiutare a perfezionare l’elenco, ad esempio per visualizzare solo gli schemi modificabili."
 
 ## Informazioni sugli schemi {#about}
 
