@@ -2,7 +2,7 @@
 title: Utilizzare i codici JavaScript
 description: Scopri come utilizzare i codici JavaScript.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
@@ -10,8 +10,6 @@ ht-degree: 4%
 ---
 
 # Utilizzare i codici JavaScript {#javascript-codes}
-
-<!-- JavaScript codes -->
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"

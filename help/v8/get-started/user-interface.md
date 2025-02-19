@@ -3,9 +3,9 @@ audience: end-user
 title: Scoprire l’interfaccia
 description: Interfaccia utente di Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2003'
 ht-degree: 100%
 
 ---
@@ -361,12 +361,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Script di inizializzazione dell’esecuzione"
 >abstract="Script di inizializzazione dell’esecuzione"
 
-<!--Schema-->
-
->[!CONTEXTUALHELP]
->id="acw_schema"
->title="Schema"
->abstract="Schema"
+<!-- Schema creation -->
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_type"
@@ -412,32 +407,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Inizia aggiornamento database"
 >abstract="Schema"
-
-
-
-<!-- Target Mapping -->
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_list"
->title="Mappature target"
->abstract="Mappature target"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_properties"
->title="Proprietà mappatura target"
->abstract="Proprietà mappatura target"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_mapping"
->title="Mappatura target"
->abstract="Mappatura target"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_denylist"
->title="Elenco Bloccati mappatura target"
->abstract="Elenco Bloccati mappatura target"
-
->[!CONTEXTUALHELP]
->id="acw_targetmapping_storage"
->title="Archiviazione mappatura target"
->abstract="Nega archiviazione mappatura target"

@@ -2,10 +2,10 @@
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 25%
+source-wordcount: '925'
+ht-degree: 24%
 
 ---
 
@@ -68,9 +68,11 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
 
    Utilizza il filtro **[!UICONTROL Modificabile]** nel riquadro dei filtri per identificare rapidamente gli schemi con campi personalizzati.
 
-   ![](assets/custom-fields-list.png)
+   ![](assets/custom-fields-open.png)
 
-1. Fai clic sull’icona a forma di matita posta accanto al nome dello schema per accedere ai campi personalizzati. In questo esempio, si desidera aggiungere campi per lo schema **[!UICONTROL Destinatari]**.
+1. Seleziona il nome dello schema nell’elenco per aprirlo. Una visualizzazione schema dettagliata visualizza [Ulteriori informazioni sui dettagli dello schema](../administration/schemas.md). Fai clic sul pulsante **[!UICONTROL Modifica dettagli personalizzati]** per accedere ai campi personalizzati. In questo esempio, si desidera aggiungere campi per lo schema **[!UICONTROL Destinatari]**.
+
+   ![](assets/custom-fields-edit.png)
 
 1. Elenco dei campi personalizzati visualizzati nell’interfaccia per la visualizzazione dello schema. In questo caso, il campo &quot;CRM Id&quot; è visibile nella schermata dei dettagli dei profili ed è stato contrassegnato come obbligatorio.
 
@@ -78,9 +80,9 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. Per aggiungere un campo personalizzato all&#39;interfaccia, fare clic sul pulsante **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro dello schermo e scegliere una delle opzioni seguenti:
+1. Per aggiungere un campo personalizzato all’interfaccia, fai clic sul pulsante con i puntini di sospensione e scegli una delle seguenti opzioni:
 
-   * **[!UICONTROL Attributi personalizzati]**: selezionare uno o più campi personalizzati da visualizzare nell&#39;interfaccia.
+   * **[!UICONTROL Seleziona campi personalizzati]**: seleziona uno o più campi personalizzati da visualizzare nell&#39;interfaccia.
    * **[!UICONTROL Compila automaticamente l&#39;elenco dei campi personalizzati]**: aggiungi all&#39;interfaccia tutti i campi personalizzati definiti per lo schema.
 
    ![](assets/custom-fields-add.png)
@@ -91,7 +93,7 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
    * **Rendi obbligatori i campi**: seleziona la casella di controllo **Obbligatorio**.
    * **Modifica impostazioni campi**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Modifica]**. [Ulteriori informazioni](#settings)
    * **Elimina campi**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Elimina]**.
-   * **Organizza i campi in sottosezioni nell&#39;interfaccia**: fai clic su **[!UICONTROL Aggiungi]** e scegli **[!UICONTROL Separatore]**. [Ulteriori informazioni](#separator)
+   * **Organizza i campi in sottosezioni nell&#39;interfaccia**: fai clic sul pulsante con i puntini di sospensione accanto alle frecce su e giù e scegli **[!UICONTROL Aggiungi separatore]**. [Ulteriori informazioni](#separator)
 
 ## Configurare le impostazioni dei campi personalizzati {#settings}
 
@@ -124,7 +126,7 @@ Le impostazioni disponibili sono:
 
 L’interfaccia utente di Campaign Web consente di aggiungere separatori per raggruppare i campi personalizzati nell’interfaccia di per migliorarne la leggibilità. Per farlo, segui questi passaggi:
 
-1. Fai clic sul pulsante **[!UICONTROL Aggiungi]** e seleziona **[!UICONTROL Separatore]**.
+1. Fai clic sul pulsante con i puntini di sospensione accanto alle frecce su e giù e seleziona **[!UICONTROL Aggiungi separatore]**.
 
 1. All&#39;elenco viene aggiunta una nuova riga che rappresenta il separatore. Fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Modifica]** per denominare la sottosezione.
 

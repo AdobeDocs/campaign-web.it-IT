@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
 
 Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencati [in questa pagina](release-notes-24.md).
+
+## Versione di febbraio 2025 {#25-2-release}
+
+**Data di rilascio**: 18 febbraio 2025
+
+Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di febbraio.
+
+### Funzioni {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Creare regole aziendali (regole di tipologia)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile creare tipologie e regole di tipologia nell’interfaccia utente web di Adobe Campaign. Le tipologie consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. Le tipologie vengono utilizzate per verificare che le consegne contengano sempre componenti obbligatori (come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) o regole di filtro per escludere i gruppi dal pubblico (come utenti non abbonati, concorrenti o clienti non fidelizzati).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../administration/typologies.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mappature target</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile creare mappature di destinazione nell’interfaccia utente di Campaign Web. Le mappature di Target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema. La mappatura del target ti consente di definire il pubblico target: profili, beneficiari del contratto, operatori, abbonati, potenziali clienti, ecc.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../administration/target-mappings.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dettagli schema</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. L'edizione dei campi personalizzati è ora accessibile dal pulsante <b>Modifica campi personalizzati</b> disponibile nei dettagli dello schema.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versione di gennaio 2025  {#25-1-release}
 
@@ -62,25 +121,6 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Miglioramenti {#25-1-improvements}
