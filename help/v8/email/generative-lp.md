@@ -6,16 +6,16 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# Generazione di pagine di destinazione con l’Assistente AI{#generative-lp}
+# Generazione della pagina di destinazione con l’Assistente IA{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Generare pagine di destinazione con IA"
->abstract="Ora puoi utilizzare l’Assistente AI per creare le consegne della pagina di destinazione, consentendoti di generare testo, immagini o layout di pagina completi."
+>title="Generare pagine di destinazione con l’IA"
+>abstract="Ora puoi utilizzare l’Assistente IA per creare le consegne delle pagine di destinazione, con la possibilità di generare testo, immagini o layout di pagina completi."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
