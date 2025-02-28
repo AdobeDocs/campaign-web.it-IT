@@ -1,10 +1,11 @@
 ---
 title: Gestire le mappature target
 description: Scopri come gestire le mappature di destinazione.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Mappature target"
->abstract="È ora possibile creare mappature di destinazione nell’interfaccia utente di Campaign Web. Le mappature di Target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema."
+>abstract="Ora puoi creare mappature target nell’interfaccia utente di Campaign Web. Le mappature target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
@@ -32,17 +33,17 @@ I mapping di destinazione sono accessibili dal menu **[!UICONTROL Amministrazion
 
 Per ulteriori informazioni sui mapping di destinazione incorporati forniti con Adobe Campaign, consulta la [documentazione della console client di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
 
-## Creare una mappatura di destinazione {#create-mapping}
+## Creare una mappatura target {#create-mapping}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="Proprietà mappatura target"
->abstract="La sezione **[!UICONTROL Proprietà]** consente di definire impostazioni generiche per la mappatura di destinazione e la popolazione di destinazione."
+>abstract="La sezione **[!UICONTROL Proprietà]** ti consente di definire impostazioni generiche per mappatura e popolazione target."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="Mappatura target"
->abstract="La sezione **[!UICONTROL Mapping]** ti consente di identificare gli attributi dallo schema della mappatura di destinazione da utilizzare per i vari campi dell&#39;indirizzo di consegna."
+>abstract="La sezione **[!UICONTROL Mappatura]** ti consente di identificare gli attributi dallo schema della mappatura target da utilizzare per i vari campi dell’indirizzo di consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"

@@ -1,10 +1,11 @@
 ---
 title: Utilizzare gli schemi
 description: Scopri come utilizzare gli schemi.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 26%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Utilizzare gli schemi"
->abstract="È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. L&#39;edizione dei campi personalizzati è accessibile anche dal pulsante **Modifica dettagli personalizzati**."
+>abstract="Ora puoi accedere ai dettagli di uno schema selezionandone il nome nell’elenco. La modifica dei campi personalizzati è accessibile anche dal pulsante **Modifica dettagli personalizzati**."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 
@@ -21,11 +22,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemi"
->abstract="**[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all&#39;interno dell&#39;applicazione. Da questa schermata, puoi visualizzare tutti gli schemi esistenti e accedere ai dettagli di uno schema selezionandone il nome nell’elenco. I filtri sono disponibili per aiutare a perfezionare l’elenco, ad esempio per visualizzare solo gli schemi modificabili."
+>abstract="**[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all’interno dell’applicazione. Da questa schermata, puoi visualizzare tutti gli schemi esistenti e accedere ai dettagli di uno schema selezionandone il nome nell’elenco. I filtri sono disponibili per aiutarti a perfezionare l’elenco, ad esempio per visualizzare solo gli schemi modificabili."
 
 ## Informazioni sugli schemi {#about}
 
-**[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all&#39;interno dell&#39;applicazione. Uno schema è un documento XML collegato a una tabella di database che definisce:
+**[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all’interno dell’applicazione. Uno schema è un documento XML collegato a una tabella di database che definisce:
 
 * Struttura della tabella SQL (nome della tabella, campi, relazioni).
 * Struttura dei dati XML (elementi, attributi, gerarchia, tipi, valori predefiniti, etichette).
@@ -46,7 +47,7 @@ Gli schemi sono accessibili dal menu **[!UICONTROL Amministrazione]** > **[!UICO
 
 ![](assets/schemas-list.png)
 
-Da questa schermata puoi visualizzare tutti gli schemi esistenti. I filtri sono disponibili per aiutare a perfezionare l’elenco, ad esempio per visualizzare solo gli schemi modificabili.
+Da questa schermata puoi visualizzare tutti gli schemi esistenti. I filtri sono disponibili per aiutarti a perfezionare l’elenco, ad esempio per visualizzare solo gli schemi modificabili.
 
 Per aprire uno schema, selezionarne il nome. Viene visualizzata una vista di schema dettagliata.
 
