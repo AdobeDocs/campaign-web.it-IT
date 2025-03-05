@@ -4,7 +4,7 @@ description: Scopri come migrare la gestione degli accessi utente da Campaign St
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 2%
@@ -89,7 +89,9 @@ Utilizzando **Gruppi** e **Diritti denominati**, è possibile concedere a **Oper
 Poiché un **Programma** è trattato come una **Cartella** in Campaign V8, il suo accesso può essere gestito nello stesso modo di qualsiasi altra cartella. Dopo la migrazione, gli amministratori di Campaign Standard possono seguire questi passaggi:
 
 1. In Esplora, fare clic con il pulsante destro del mouse su una cartella e selezionare **[!UICONTROL Proprietà...]**.
+
 1. Passare alla scheda **[!UICONTROL Protezione]**.
+
 1. Modifica le autorizzazioni del gruppo di operatori in base al modello di accesso desiderato. 
 
 ## Mappatura del profilo di prodotto per accedere alle API REST 
