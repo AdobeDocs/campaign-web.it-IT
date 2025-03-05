@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: 256d78c616891b4893186c6ad58cb6cbc4f6cde1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -21,20 +21,20 @@ L’interfaccia utente di Adobe Campaign Web offre continuamente nuove funzioni,
 
 **Data di rilascio**: 18 febbraio 2025
 
-Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di febbraio.
+Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di febbraio.
 
 ### Funzioni {#25-2-ern-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Creare regole aziendali (regole di tipologia)</strong><br/></th>
+<th><strong>Creare regole di business (regole di tipologia)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare tipologie e regole di tipologia nell’interfaccia utente web di Adobe Campaign. Le tipologie consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. Le tipologie vengono utilizzate per verificare che le consegne contengano sempre componenti obbligatori (come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) o regole di filtro per escludere i gruppi dal pubblico (come utenti non abbonati, concorrenti o clienti non fidelizzati).</p>
+<p>Ora è possibile creare tipologie e regole di tipologia nell’interfaccia utente di Adobe Campaign Web. Le tipologie consentono di controllare, filtrare e definire le priorità per l’invio delle consegne. Consentono di convalidare che le consegne contengano sempre i componenti obbligatori (come un collegamento per l’annullamento dell’abbonamento o un oggetto), oppure regole di filtro per escludere determinati gruppi dal pubblico (ad esempio utenti che hanno annullato l’abbonamento, concorrenti o clientela non fidelizzata).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../administration/typologies.md">documentazione dettagliata</a>.</p>
 </td>
@@ -51,7 +51,7 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare mappature di destinazione nell’interfaccia utente di Campaign Web. Le mappature di Target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema. La mappatura del target ti consente di definire il pubblico target: profili, beneficiari del contratto, operatori, abbonati, potenziali clienti, ecc.</p>
+<p>È ora possibile creare mappature target nell’interfaccia utente di Campaign Web. Le mappature target definiscono il collegamento tra i diversi canali di consegna (e-mail, SMS, notifiche push) e i campi dati di uno schema. La mappatura target consente di definire il pubblico target: profili, beneficiari di contratti, operatori, iscritti, potenziali clienti, ecc.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../administration/typologies.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>

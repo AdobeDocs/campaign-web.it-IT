@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,14 +54,14 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!TAB Versione del 25 febbraio]
 
-È ora disponibile la versione di febbraio, che include le regole business, le mappature di Target e altri miglioramenti.
+La versione di ottobre è ora disponibile e include regole di business, mappature target e ulteriori miglioramenti.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB Assistente IA]
 
-✨ Immergiti in un&#39;esperienza pratica con l&#39;anteprima delle funzionalità live di [AI Assistant](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
+✨ Immergiti in un’esperienza pratica con l’anteprima della funzione live dell’[Assistente IA](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzioni in prima persona e comprenderne appieno le funzionalità.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

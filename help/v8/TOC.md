@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 98%
          + [Definire uno stile per i collegamenti](email/styling-links.md)
          + [Aggiungere attributi di stile in linea](email/inline-styling.md)
    + Assistente IA {#ai-assistant}
-      + [Utilizzare l’Assistente AI](email/generative-gs.md)
+      + [Utilizzare l’Assistente IA](email/generative-gs.md)
       + [Generazione di e-mail con l’IA](email/generative-content.md)
       + [Generazione di SMS con l’IA](email/generative-sms.md)
       + [Generazione di notifiche push con l’IA](email/generative-push.md)
@@ -228,11 +228,11 @@ ht-degree: 98%
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gestire i modelli con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configurazione {#conf}
-   + [Utilizzare le regole business (tipologie)](administration/typologies.md)
+   + [Utilizzare le regole di business (tipologie)](administration/typologies.md)
    + [Gestire le mappature target](administration/target-mappings.md)
    + [Utilizzare gli schemi](administration/schemas.md)
-   + [Configurare campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di  [!DNL Campaign] ](administration/options.md)
+   + [Configurare i campi personalizzati](administration/custom-fields.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Configurare account esterni](administration/external-account.md)
    + [Gestire le enumerazioni](administration/enumerations.md)
    + [Utilizzare i codici JavaScript](administration/javascript-codes.md)

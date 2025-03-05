@@ -4,9 +4,9 @@ title: Novità nell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Utilizza la nuova interfaccia utente di Campaign Web:
 * Monitorare i risultati di invio e misurazione con i rapporti incorporati - [Ulteriori informazioni](../reporting/delivery-reports.md)
 
 
-**Generazione di contenuti con Assistente IA**
+**Generazione di contenuti con l’Assistente IA**
 
 Dimentica la difficoltà della creazione manuale dei contenuti e inizia una nuova era di campagne semplificate con il nostro innovativo designer contenuto basato su Microsoft Azure OpenAI e Adobe Firefly.
 
-Ridefinisci la consegna dei contenuti con il nostro editor con funzione di trascinamento avanzato WYSIWYG, progettato per semplicità ed efficienza. Dotato di integrazione perfetta con AEM, funzionalità di contenuti dinamici e l’Assistente all’intelligenza artificiale innovativa, questo strumento all-in-one rende la creazione della consegna intuitiva, efficiente e altamente personalizzata.
+Ridefinisci la consegna dei contenuti con il nostro editor con funzione di trascinamento avanzato WYSIWYG, progettato per semplicità ed efficienza. Grazie alla perfetta integrazione di AEM, alle funzionalità dei contenuti dinamici e all’innovativo Assistente IA, questo strumento all-in-one rende la creazione della consegna intuitiva, efficiente e altamente personalizzata.
 
-Sfrutta la potenza degli algoritmi avanzati di AI Assistant per creare contenuti coinvolgenti e personalizzati che producono risultati. Aumenta i tassi di apertura, i click-through e le conversioni con una generazione di contenuti intelligente e basata sull’intelligenza artificiale. Per ulteriori informazioni, consulta [questa sezione](../email/generative-gs.md).
+Sfrutta la potenza degli algoritmi avanzati dell’Assistente IA per creare contenuti coinvolgenti e personalizzati che producono risultati. Aumenta i tassi di apertura, i click-through e le conversioni con una generazione di contenuti intelligente e basata sull’intelligenza artificiale. Per ulteriori informazioni, consulta [questa sezione](../email/generative-gs.md).
 
 **Attività del flusso di lavoro delle campagne nuove e riprogettate**
 

@@ -3,9 +3,9 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,20 +24,20 @@ Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencat
 
 **Data di rilascio**: 18 febbraio 2025
 
-Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione di febbraio.
+Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione di febbraio.
 
 ### Funzioni {#25-2-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Creare regole aziendali (regole di tipologia)</strong><br/></th>
+<th><strong>Creare regole di business (regole di tipologia)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare tipologie e regole di tipologia nell’interfaccia utente web di Adobe Campaign. Le tipologie consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. Le tipologie vengono utilizzate per verificare che le consegne contengano sempre componenti obbligatori (come un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto) o regole di filtro per escludere i gruppi dal pubblico (come utenti non abbonati, concorrenti o clienti non fidelizzati).</p>
+<p>Ora è possibile creare tipologie e regole di tipologia nell’interfaccia utente di Adobe Campaign Web. Le tipologie consentono di controllare, filtrare e definire le priorità per l’invio delle consegne. Consentono di convalidare che le consegne contengano sempre i componenti obbligatori (come un collegamento per l’annullamento dell’abbonamento o un oggetto), oppure regole di filtro per escludere determinati gruppi dal pubblico (ad esempio utenti che hanno annullato l’abbonamento, concorrenti o clientela non fidelizzata).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../administration/typologies.md">documentazione dettagliata</a>.</p>
 </td>
@@ -54,7 +54,7 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare mappature di destinazione nell’interfaccia utente di Campaign Web. Le mappature di Target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema. La mappatura del target ti consente di definire il pubblico target: profili, beneficiari del contratto, operatori, abbonati, potenziali clienti, ecc.</p>
+<p>È ora possibile creare mappature target nell’interfaccia utente di Campaign Web. Le mappature target definiscono il collegamento tra i diversi canali di consegna (e-mail, SMS, notifiche push) e i campi dati di uno schema. La mappatura target consente di definire il pubblico target: profili, beneficiari di contratti, operatori, iscritti, potenziali clienti, ecc.</p>
 <img src="assets/do-not-localize/target-mapping.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../administration/target-mappings.md">documentazione dettagliata</a>.</p>
 </td>
@@ -65,13 +65,13 @@ Le seguenti funzioni e miglioramenti sono disponibili a partire dalla versione d
 <table>
 <thead>
 <tr>
-<th><strong>Dettagli schema</strong><br/></th>
+<th><strong>Dettagli degli schemi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. L'edizione dei campi personalizzati è ora accessibile dal pulsante <b>Modifica campi personalizzati</b> disponibile nei dettagli dello schema.</p>
+<p>È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. La modifica dei campi personalizzati è ora accessibile dal pulsante <b>Modifica campi personalizzati</b> disponibile nei dettagli dello schema.</p>
 <img src="assets/do-not-localize/schemas.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
 </td>
@@ -177,15 +177,15 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <table>
 <thead>
 <tr>
-<th><strong>Generazione di pagine di destinazione con l’Assistente AI</strong><br/></th>
+<th><strong>Generazione della pagina di destinazione con l’Assistente IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’Assistente AI è ora disponibile con le consegne delle pagine di destinazione, consentendoti di generare testo, immagini o layout di pagina completi.</p>
+<p>L’Assistente IA è ora disponibile per le consegne di pagine di destinazione e consente di generare testo, immagini o layout di pagina completi.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Per ulteriori informazioni sull'Assistente AI, consulta la <a href="../email/generative-lp.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni sull’Assistente IA, consulta la <a href="../email/generative-lp.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
