@@ -5,7 +5,7 @@ description: Scopri come creare e gestire le linee guida per il brand
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -104,6 +104,6 @@ Per creare e gestire le linee guida per i marchi, puoi immettere autonomamente i
 
    ![](assets/brands_5.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;assistente AI, consentendo di generare contenuti e risorse in linea con le specifiche dell&#39;utente. [Ulteriori informazioni sull&#39;assistente di IA](gs-generative.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;assistente AI, consentendo di generare contenuti e risorse in linea con le specifiche dell&#39;utente. [Ulteriori informazioni sull&#39;assistente di IA](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
