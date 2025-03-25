@@ -3,8 +3,8 @@ audience: end-user
 title: Novità nell’interfaccia utente di Campaign Web
 description: Scopri la nuova funzione in arrivo con l’interfaccia utente di Campaign Web
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: ht
+source-git-commit: f9bb4369bcad48cde111965433763dea14c4c97c
+workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Adobe Campaign Web dispone di un query modeler che semplifica il processo di fil
 Per ulteriori informazioni, consulta [questa sezione](../query/query-modeler-overview.md).
 
 
-**Funzionalità integrate di gestione delle campagne cross-channel**
+**Funzionalità incorporate per la gestione delle campagne cross-channel**
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS e notifiche push; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Aggiungendo più flussi di lavoro e consegne specifici per la campagna, puoi creare esperienze personalizzate su vari canali, assicurandoti che ogni punto di contatto riscontri l’interesse del pubblico a cui è destinata.
 
@@ -108,7 +108,8 @@ Puoi utilizzare la nuova interfaccia utente di Campaign Web per **creare e aggio
 
 **AI-powered Contextual Help**
 
-Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).
+-->
 
 **Filtri preimpostati**
 
