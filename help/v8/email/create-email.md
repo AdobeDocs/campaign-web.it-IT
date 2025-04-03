@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 83%
+source-wordcount: '1493'
+ht-degree: 75%
 
 ---
 
@@ -162,6 +162,10 @@ Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >Il pulsante **[!UICONTROL Simula contenuto]** è disabilitato in casi d&#39;uso specifici. Le limitazioni sono dettagliate [in questa sezione](#content-simulation-limitations).
+
 1. Sul lato sinistro, seleziona i profili da utilizzare per visualizzare l’anteprima del messaggio e-mail.
 
    Nel riquadro a destra viene visualizzata un’anteprima del messaggio e-mail in base al profilo selezionato. Se hai aggiunto più profili, puoi passare da un profilo all’altro per visualizzare in anteprima l’e-mail corrispondente.
@@ -190,6 +194,37 @@ Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare
    ![](assets/proof-sent.png){zoomable="yes"}
 
    Puoi controllare lo stato dell&#39;invio e accedere alle bozze inviate in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Visualizza bozze]** nella schermata simula contenuto.
+
+## Limiti della simulazione dei contenuti {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="La simulazione del contenuto non è supportata"
+>abstract="Il pulsante **Simula contenuto** è disabilitato perché la consegna multilingue contiene una sola lingua."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="La simulazione del contenuto non è supportata"
+>abstract="Il pulsante **Simula contenuto** è disabilitato perché non è compatibile con le consegne riconciliate in questa fase."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="La simulazione del contenuto non è supportata"
+>abstract="Il pulsante **Simula contenuto** è disabilitato perché non supportato in modalità FFDA (Full Federated Access) di Campaign Enterprise."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="La simulazione del contenuto non è supportata"
+>abstract="Il pulsante **Simula contenuto** è disabilitato perché non è stato caricato alcun contenuto."
+
+In alcuni casi non è possibile eseguire la simulazione del contenuto e il pulsante **[!UICONTROL Simula contenuto]** è disabilitato.
+
+La simulazione del contenuto non è supportata in questi casi:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* Con consegne riconciliate,
+* Quando il modello di distribuzione di Campaign è [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Quando non è stato caricato alcun file.
 
 ## Inviare e monitorare l’e-mail {#prepare-send}
 
