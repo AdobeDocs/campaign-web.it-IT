@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Utilizzare le regole aziendali (tipologie)
+title: Utilizzare le regole di business (tipologie)
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
@@ -10,12 +10,12 @@ ht-degree: 24%
 
 ---
 
-# Utilizzare le regole aziendali (tipologie) {#typologies}
+# Utilizzare le regole di business (tipologie) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Regole aziendali"
->abstract="Ora puoi creare tipologie e regole di tipologia nell’interfaccia utente di Adobe Campaign Web. Le tipologie ti consentono di controllare, filtrare e dare priorità all’invio delle consegne."
+>title="Regole di business"
+>abstract="Ora è possibile creare tipologie e regole di tipologia nell’interfaccia utente di Adobe Campaign Web. Le tipologie ti consentono di controllare, filtrare e dare priorità all’invio delle consegne."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 

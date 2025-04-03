@@ -44,7 +44,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="Altri"
->abstract="Questa sezione fornisce attributi integrati aggiuntivi. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
+>abstract="Questa sezione fornisce attributi incorporati aggiuntivi. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 Per creare un profilo, effettua le seguenti operazioni:
 
