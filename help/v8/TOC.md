@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,12 +77,12 @@ ht-degree: 99%
    + [Aggiungere offerte ai messaggi](msg/offers.md)
    + [Inviare messaggi agli iscritti](msg/send-to-subscribers.md)
    + [Configurare le impostazioni di consegna](advanced-settings/delivery-settings.md)
-   + Anteprima e test della consegna {#preview-test}
+   + Visualizzare in ’anteprima e verificare la consegna {#preview-test}
       + [Informazioni su anteprima e bozze](preview-test/preview-test.md)
       + [Visualizzare in anteprima il contenuto del messaggio](preview-test/preview-content.md)
       + [Inviare bozze](preview-test/test-deliveries.md)
       + [Testare il rendering delle e-mail](preview-test/email-rendering.md)
-   + Avviso di consegna {#delivery-alerting}
+   + Avvisi di consegna {#delivery-alerting}
       + [Introduzione agli avvisi sulle consegne](msg/delivery-alerting.md)
       + [Dashboard di avvisi di consegna](msg/delivery-alerting-dashboards.md)
       + [Criteri per gli avvisi di consegna](msg/delivery-alerting-criteria.md)
@@ -124,14 +124,14 @@ ht-degree: 99%
       + [Generazione di notifiche push con l’IA](email/generative-push.md)
       + [Generazione di pagine di destinazione con l’IA](email/generative-lp.md)
       + [Casi d’uso dell’Assistente IA](email/generative-uc.md)
-      + [Creare e gestire i brand (versione beta)](content/brands.md)
+      + [Creare e gestire i brand (Beta)](content/brands.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
    + [Progettare il contenuto della pagina di destinazione](landing-pages/lp-content.md)
    + [Lavorare con i modelli di pagine di destinazione](landing-pages/lp-templates.md)
    + [Apprendere attraverso i casi d’uso](landing-pages/lp-use-cases.md)
-+ Profili e pubblico {#audiences}
++ Profili e tipi di pubblico {#audiences}
    + [Guida introduttiva ai profili e ai tipi di pubblico](audience/gs-audiences-recipients.md)
    + [Dimensioni di targeting](audience/targeting-dimensions.md)
    + [Quarantena](audience/quarantine.md)
@@ -150,7 +150,7 @@ ht-degree: 99%
       + [Caricare un pubblico per consegne e-mail da un file](audience/file-audience.md)
       + [Impostare un gruppo di controllo](audience/control-group.md)
       + [Aggiungere un gruppo trappola](audience/trap-group.md)
-   + Utilizzare i servizi di abbonamento {#work-with-services}
+   + Utilizzare i servizi di iscrizione {#work-with-services}
       + [Creare e gestire i servizi di abbonamento](audience/manage-services.md)
       + [Gestire gli abbonati](audience/manage-subscribers.md)
 + Campagne cross-channel {#campaigns}
@@ -194,14 +194,14 @@ ht-degree: 99%
       + [Test](workflows/activities/test.md)
       + [Trasferimento file](workflows/activities/transfer-file.md)
       + [Aggiornare i dati](workflows/activities/update-data.md)
-      + [Attendi](workflows/activities/wait.md)
-+ Eseguire una query sul database {#query-database}
+      + [Attendere](workflows/activities/wait.md)
++ Eseguire query sul database {#query-database}
    + [Utilizzo del query modeler](query/query-modeler-overview.md)
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
    + [Esempi di query](query/query-samples.md)
    + [Filtrare elenchi](query/filter.md)
-+ Generazione rapporti {#reports}
++ Reportistica {#reports}
    + [Introduzione ai rapporti](reporting/gs-reports.md)
    + [Audit trail](reporting/audit-trail.md)
    + [Esportazione dei rapporti](reporting/export-reports.md)
@@ -212,7 +212,7 @@ ht-degree: 99%
       + [Rapporto sulle consegne push](reporting/push-report.md)
       + [Rapporto sulla consegna SMS](reporting/sms-report.md)
       + [Rapporto sulle consegne Direct mail](reporting/direct-mail.md)
-   + Rapporti sulle campagne {#campaign-report}
+   + Rapporti sulla campagna {#campaign-report}
       + [Introduzione ai rapporti sulle campagne](reporting/campaign-reports.md)
       + [Rapporto sulla campagna e-mail](reporting/campaign-reports-email.md)
       + [Rapporto sulla campagna push](reporting/campaign-reports-push.md)
