@@ -3,9 +3,9 @@ audience: end-user
 title: Convalidare messaggi transazionali
 description: Scopri come convalidare un messaggio transazionale nell’interfaccia utente di Campaign Web
 exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
@@ -18,30 +18,30 @@ Durante o dopo la creazione del messaggio transazionale, puoi convalidare il con
 
 Per simulare il contenuto del messaggio, segui la procedura riportata di seguito:
 
-* Assicurati che il percorso di personalizzazione nel contenuto del messaggio corrisponda all’esempio di contesto. Nell&#39;esempio seguente, per visualizzare il nome del profilo di test, viene utilizzato il percorso *rtEvent.ctx.basicDetails.firstName*
+* Assicurati che il percorso di personalizzazione nel contenuto del messaggio corrisponda all’esempio di contesto. Nell&#39;esempio seguente, per visualizzare il nome del profilo di test, utilizzare il percorso *rtEvent.ctx.basicDetails.firstName*.
 
   Puoi modificare il contenuto del messaggio o l’esempio di contesto per allinearli.
 
-  ![](assets/validate-verification.png){zoomable="yes"}
+  ![Schermata che mostra la verifica dei percorsi di personalizzazione nel contenuto del messaggio](assets/validate-verification.png){zoomable="yes"}
 
 * Fai clic sul pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il messaggio transazionale con i dati immessi nell&#39;esempio di contesto.
 
-  ![](assets/validate-simulate.png){zoomable="yes"}
+  ![Schermata che mostra il pulsante Simula contenuto e la funzionalità di anteprima](assets/validate-simulate.png){zoomable="yes"}
 
-  Dopo aver verificato il contenuto, fai clic sul pulsante **[!UICONTROL Chiudi]**.
+  Dopo aver esaminato il contenuto, fai clic sul pulsante **[!UICONTROL Chiudi]**.
 
-* Non dimenticare di fare clic sul pulsante **[!UICONTROL Ripubblica]** se sono state apportate modifiche al contenuto.
+* Se hai apportato modifiche al contenuto, fai clic sul pulsante **[!UICONTROL Ripubblica]**.
 
 ## Invia bozza
 
-Se desideri testare e provare il messaggio transazionale così come verrebbe distribuito attraverso il canale scelto (ad esempio e-mail, SMS o notifiche push), puoi utilizzare la funzione bozza.
+Per testare e provare il messaggio transazionale così come verrebbe consegnato attraverso il canale scelto, ad esempio e-mail, SMS o notifiche push, utilizza la funzione bozza.
 
 Nella finestra del contenuto della [simulazione](#simulate-content), fare clic sul pulsante **[!UICONTROL Invia bozza]**.
 
-![](assets/transactional-proof.png){zoomable="yes"}
+![Schermata che mostra il pulsante Invia bozza nella finestra del contenuto della simulazione](assets/transactional-proof.png){zoomable="yes"}
 
-Nella nuova finestra visualizzata, inserisci l’indirizzo e-mail (o il numero di telefono, a seconda del canale) dove desideri ricevere la bozza. Dopo aver inserito l&#39;indirizzo desiderato, fai clic su **[!UICONTROL Invia bozza]** e sui pulsanti **[!UICONTROL Conferma]**. Questa azione ti consente di inviare un esempio del messaggio transazionale, garantendo che tutte le personalizzazioni, il contenuto dinamico e la formattazione vengano visualizzati correttamente come farebbero per gli utenti finali.
+Nella nuova finestra visualizzata, inserisci l’indirizzo e-mail o il numero di telefono, a seconda del canale, dove desideri ricevere la bozza. Dopo aver immesso l&#39;indirizzo desiderato, fare clic sui pulsanti **[!UICONTROL Invia bozza]** e **[!UICONTROL Conferma]**. Questa azione invia un esempio del messaggio transazionale, garantendo che tutte le personalizzazioni, il contenuto dinamico e la formattazione vengano visualizzati correttamente come farebbero per gli utenti finali.
 
-![](assets/transactional-sendproof.png){zoomable="yes"}
+![Schermata che mostra la funzionalità Send proof e il processo di conferma](assets/transactional-sendproof.png){zoomable="yes"}
 
-Si tratta di un passaggio essenziale per identificare potenziali problemi prima di pubblicare il messaggio sulle transazioni.
+Questo passaggio è essenziale per identificare eventuali problemi prima di pubblicare il messaggio sulle transazioni.

@@ -3,10 +3,10 @@ audience: end-user
 title: Piani e programmi
 description: Scopri come creare e configurare piani e programmi in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 5%
+source-wordcount: '518'
+ht-degree: 3%
 
 ---
 
@@ -14,63 +14,63 @@ ht-degree: 5%
 
 Adobe Campaign consente di configurare la gerarchia di cartelle per i piani e i programmi di marketing.
 
-Per organizzarle meglio, Adobe consiglia la seguente gerarchia: Pianificare `>` programmi `>` campagne
+Per una migliore organizzazione di questi componenti, Adobe consiglia la seguente gerarchia: Pianificare `>` programmi `>` campagne.
 
-* Un **piano** può contenere più programmi. Definisce obiettivi strategici per un certo periodo di tempo.
+* Un **piano** può contenere più programmi. Definisce obiettivi strategici per un periodo specifico.
 * Un **programma** può contenere altri programmi, oltre a campagne, flussi di lavoro e pagine di destinazione.
 * Una **campagna** può contenere consegne, flussi di lavoro e pagine di destinazione.
 
 ## Creare e configurare un piano {#create-plan}
 
-Per creare un piano, devi creare una cartella con tipo di cartella **[!UICONTROL Piano]** [Ulteriori informazioni sulla creazione di una cartella](../get-started/work-with-folders.md).
+Per creare un piano, creare una cartella con il tipo di cartella **[!UICONTROL Piano]**. [Ulteriori informazioni sulla creazione di una cartella](../get-started/work-with-folders.md)
 
-![](assets/plan_create.png){zoomable="yes"}
+![Schermata che mostra la creazione di una cartella del piano](assets/plan_create.png){zoomable="yes"}
 
 Vai alle **[!UICONTROL impostazioni cartella]** del piano per gestirlo.
 
-![](assets/plan_settings.png){zoomable="yes"}
+![Schermata che mostra le impostazioni della cartella per un piano](assets/plan_settings.png){zoomable="yes"}
 
-Puoi definire **[!UICONTROL Opzioni personalizzate]** e impostare la data di pianificazione del piano.
+Definisci **[!UICONTROL Opzioni personalizzate]** e imposta la data di pianificazione del piano.
 
-![](assets/plan_options.png){zoomable="yes"}
+![Schermata che mostra le opzioni personalizzate per un piano](assets/plan_options.png){zoomable="yes"}
 
 Per gestire le **[!UICONTROL opzioni personalizzate]**:
 
-1. Individua gli **[!UICONTROL schemi]**
-1. Scegli gli schemi **[!UICONTROL Modificabili]** nei filtri
-1. Fai clic sull&#39;icona di **[!UICONTROL Modifica dettagli personalizzati]**
+1. Individua gli **[!UICONTROL Schemi]**.
+1. Scegli gli schemi **[!UICONTROL Modificabili]** nei filtri.
+1. Fai clic sull&#39;icona **[!UICONTROL Modifica dettagli personalizzati]**.
 
-![](assets/plan_edit.png){zoomable="yes"}
+![Schermata che mostra la modifica dei dettagli personalizzati per un piano](assets/plan_edit.png){zoomable="yes"}
 
-Puoi configurarli:
+Configura le opzioni personalizzate:
 
-![](assets/plan_customfields.png){zoomable="yes"}
+![Schermata che mostra la configurazione dei campi personalizzati per un piano](assets/plan_customfields.png){zoomable="yes"}
 
 ## Creare e configurare un programma
 
-Per creare un programma nel piano ([Ulteriori informazioni sulla creazione di un piano](#create-plan)), devi essere nel piano e creare una cartella con il tipo di cartella **[!UICONTROL Programma]** [Ulteriori informazioni sulla creazione di una cartella](../get-started/work-with-folders.md).
+Per creare un programma nel piano ([Ulteriori informazioni sulla creazione di un piano](#create-plan)), passare al piano e creare una cartella con il tipo di cartella **[!UICONTROL Programma]**. [Ulteriori informazioni sulla creazione di una cartella](../get-started/work-with-folders.md).
 
-![](assets/program_create.png){zoomable="yes"}
+![Schermata che mostra la creazione di una cartella di programmi](assets/program_create.png){zoomable="yes"}
 
 Vai a **[!UICONTROL Impostazioni cartella]** del programma per gestirlo.
 
-![](assets/program_settings.png){zoomable="yes"}
+![Schermata che mostra le impostazioni della cartella per un programma](assets/program_settings.png){zoomable="yes"}
 
-Puoi definire **[!UICONTROL Opzioni personalizzate]** e impostare la data di pianificazione del programma.
+Definisci **[!UICONTROL Opzioni personalizzate]** e imposta la data di pianificazione del programma.
 
-![](assets/program_options.png){zoomable="yes"}
+![Schermata che mostra le opzioni personalizzate per un programma](assets/program_options.png){zoomable="yes"}
 
 Per gestire le **[!UICONTROL opzioni personalizzate]**:
 
-1. Individua gli **[!UICONTROL schemi]**
-1. Scegli gli schemi **[!UICONTROL Modificabili]** nei filtri
-1. Fai clic sull&#39;icona di **[!UICONTROL Modifica dettagli personalizzati]**
+1. Individua gli **[!UICONTROL Schemi]**.
+1. Scegli gli schemi **[!UICONTROL Modificabili]** nei filtri.
+1. Fai clic sull&#39;icona **[!UICONTROL Modifica dettagli personalizzati]**.
 
-![](assets/program_edit.png){zoomable="yes"}
+![Schermata che mostra la modifica dei dettagli personalizzati per un programma](assets/program_edit.png){zoomable="yes"}
 
-Puoi configurarli:
+Configura le opzioni personalizzate:
 
-![](assets/program_customfields.png){zoomable="yes"}
+![Schermata che mostra la configurazione dei campi personalizzati per un programma](assets/program_customfields.png){zoomable="yes"}
 
 ## Come collegare una campagna a un programma
 
@@ -78,28 +78,28 @@ Puoi collegare una campagna a un programma in due modi:
 
 ### Modo #1: disponi già di un programma e desideri creare una campagna collegata
 
-Per collegare una nuova campagna al programma, crea direttamente la campagna nel programma:
+Per collegare una nuova campagna al programma, creala direttamente all’interno del programma.
 
-![](assets/program_campaign_create.png){zoomable="yes"}
+![Schermata che mostra la creazione di una campagna all&#39;interno di un programma](assets/program_campaign_create.png){zoomable="yes"}
 
-Le impostazioni di **[!UICONTROL Cartella]** verranno archiviate automaticamente nel percorso del programma.
+Le impostazioni di **[!UICONTROL Cartella]** verranno compilate automaticamente con il percorso del programma.
 
-![](assets/program_campaign_folder.png){zoomable="yes"}
+![Schermata che mostra le impostazioni della cartella per una campagna collegata a un programma](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### #2: disponi già di una campagna e desideri collegarla a un programma esistente
 
-Passa al pulsante **[!UICONTROL Impostazioni]** della campagna da collegare al programma:
+Passa al pulsante **[!UICONTROL Impostazioni]** della campagna da collegare al programma.
 
-![](assets/campaign_settings.png){zoomable="yes"}
+![Schermata che mostra il pulsante delle impostazioni per una campagna](assets/campaign_settings.png){zoomable="yes"}
 
 Nelle **[!UICONTROL Proprietà]**, fai clic sull&#39;icona **[!UICONTROL Cartella]** nelle impostazioni **[!UICONTROL Cartella]** per scegliere la cartella **[!UICONTROL Programma]**.
 
-![](assets/campaign_folder.png){zoomable="yes"}
+![Schermata che mostra la selezione della cartella per collegare una campagna a un programma](assets/campaign_folder.png){zoomable="yes"}
 
-Seleziona la cartella **[!UICONTROL Programma]** e fai clic sul pulsante **[!UICONTROL Conferma]**, quindi sul pulsante **[!UICONTROL Salva e chiudi]**.
+Seleziona la cartella **[!UICONTROL Programma]**, fai clic sul pulsante **[!UICONTROL Conferma]** e quindi sul pulsante **[!UICONTROL Salva e chiudi]**.
 
-![](assets/campaign_linked.png){zoomable="yes"}
+![Schermata che mostra una campagna collegata a un programma](assets/campaign_linked.png){zoomable="yes"}
 
-La campagna è ora elencata nel programma:
+La campagna è ora elencata nel programma.
 
-![](assets/campaign_in_program.png){zoomable="yes"}
+![Schermata che mostra una campagna elencata in un programma](assets/campaign_in_program.png){zoomable="yes"}

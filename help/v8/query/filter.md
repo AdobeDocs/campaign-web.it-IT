@@ -3,10 +3,10 @@ audience: end-user
 title: Filtrare elenchi
 description: Scopri come filtrare gli elenchi web di Adobe Campaign utilizzando filtri incorporati e personalizzati.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 5%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 5%
 
 Adobe Campaign Web fornisce filtri all’interno di ogni elenco di oggetti, consentendo di filtrare le informazioni in base a criteri contestuali specifici. Ad esempio, puoi filtrare le consegne in base al loro stato, canale, data di contatto o cartella. È inoltre possibile nascondere le bozze.
 
-## Applicare i filtri{#apply}
+## Applicare i filtri {#apply}
 
 Per applicare i filtri a un elenco, fare clic sul pulsante **[!UICONTROL Mostra filtri]** nell&#39;angolo superiore sinistro dell&#39;elenco, accanto alla barra di ricerca.
 
 Viene visualizzato il riquadro Filtri, in cui sono visualizzati i filtri disponibili per l’elenco selezionato. Ad esempio, puoi filtrare le campagne in base al loro stato, alle date di inizio e fine o alla cartella di archiviazione, mentre l’elenco dei servizi di abbonamento può essere filtrato in base al loro canale e alla loro cartella di archiviazione.
 
-![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Riquadro Filtri che mostra i filtri disponibili per gli elenchi](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Per filtrare un elenco in base a criteri personalizzati, crea un filtro personalizzato. A tale scopo, spostarsi nella parte inferiore del riquadro dei filtri e fare clic sul pulsante **Aggiungi regole**. [Scopri come creare filtri personalizzati](#custom)
+Per filtrare un elenco in base a criteri personalizzati, crea un filtro personalizzato. A tale scopo, spostarsi nella parte inferiore del riquadro dei filtri e fare clic sul pulsante **Aggiungi regole**. [Scopri come creare filtri personalizzati](#custom).
 
 Una volta applicati a un elenco, i filtri sono visibili sotto la barra di ricerca. È possibile rimuovere un singolo filtro in qualsiasi momento oppure rimuovere tutti i filtri facendo clic sul pulsante **Cancella tutto**.
 
@@ -36,6 +36,6 @@ I filtri personalizzati ti consentono di perfezionare gli elenchi in base a crit
 
    L’esempio seguente mostra un filtro personalizzato progettato per visualizzare nell’elenco delle campagne le campagne SMS eseguite dagli operatori dei dipartimenti in esecuzione o Yoga.
 
-   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![Esempio di filtro personalizzato che mostra le campagne SMS filtrate per reparto](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Una volta configurato il filtro personalizzato, fai clic su **[!UICONTROL Conferma]** per applicarlo all&#39;elenco.

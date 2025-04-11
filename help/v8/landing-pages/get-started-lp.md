@@ -4,10 +4,10 @@ title: Introduzione alle pagine di destinazione
 description: Scopri le pagine di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 Nel contesto delle campagne di marketing, una pagina di destinazione è una pagina web indipendente in cui un visitatore viene indirizzato dopo aver fatto clic su un collegamento all’interno di una consegna o su un sito web.
 
-Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i dati, acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
+Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i propri dati, acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
 
 >[!CAUTION]
 >
 >Le pagine di destinazione create nell’interfaccia utente di Campaign Web sono diverse dai moduli web creati dalla console client. Non è possibile visualizzare o modificare i moduli web creati nella console client nell’interfaccia utente di Campaign Web.
 >
->Per ulteriori informazioni sui moduli web, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=it){target="_blank"}.
+>Ulteriori informazioni sui moduli Web nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=it){target="_blank"}.
 
 Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 
@@ -37,7 +37,7 @@ Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Creare pagine di destinazione utilizzando modelli precompilati" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Creare pagina di destinazione</strong>
 </div>
@@ -45,7 +45,7 @@ Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Non frequente" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Configurare i servizi di abbonamento per gli utenti" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>Creare servizi in abbonamento</strong></a>
@@ -53,7 +53,7 @@ Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Convalida" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Progettare pagine di destinazione dinamiche" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Progettare pagine di destinazione</strong></a>
@@ -62,7 +62,7 @@ Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="Convalida" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Utilizzare i modelli di contenuto per le pagine di destinazione" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>Utilizzare i modelli di contenuto</strong></a>

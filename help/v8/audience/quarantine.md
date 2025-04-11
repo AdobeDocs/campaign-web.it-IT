@@ -3,9 +3,9 @@ audience: end-user
 title: Informazioni sulla quarantena
 description: Comprendere la gestione degli indirizzi in quarantena
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 3e99bf1453ef38ec915dc82828f44c7d7ffb2acd
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe Campaign gestisce gli indirizzi in quarantena per i canali e-mail, push e SMS.
 
-La quarantena si applica solo a un **indirizzo e-mail**, un **numero di telefono** o un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo con un indirizzo e-mail messo in quarantena può aggiornare il profilo e immettere un nuovo indirizzo, per poi essere nuovamente indirizzato mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena.
+La quarantena si applica solo a un **indirizzo e-mail**, un **numero di telefono** o un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo il cui indirizzo e-mail è in quarantena può essere aggiornato con un nuovo indirizzo. Il profilo potrebbe quindi essere nuovamente oggetto di targeting tramite azioni di consegna. Allo stesso modo, se due profili condividono lo stesso numero di telefono, entrambi saranno interessati se il numero viene messo in quarantena.
 
 >[!CAUTION]
 >
@@ -22,16 +22,15 @@ La quarantena si applica solo a un **indirizzo e-mail**, un **numero di telefono
 
 ## Cos’è la quarantena {#quarantines-what}
 
-La quarantena è il modo per **gestire gli indirizzi non validi nelle consegne**.
+La quarantena è il metodo utilizzato per **gestire indirizzi non validi nelle consegne**.
 
-Se una consegna ha un’alta percentuale di indirizzi non validi, può essere considerata come spam. Inserire nell&#39;elenco Bloccati La gestione di tali indirizzi con quarantena evita di essere dai provider Internet. Questo è importante per la tua reputazione.
+Se una consegna ha un’alta percentuale di indirizzi non validi, può essere considerata spam. Inserire nell&#39;elenco Bloccati La gestione di tali indirizzi con la quarantena aiuta a evitare che vengano da provider Internet. Questo è importante per mantenere la tua reputazione.
 
 Quando un indirizzo viene messo in quarantena in Adobe Campaign, il profilo viene escluso automaticamente dal target durante l’analisi della consegna.
 
-La quarantena ti aiuterà a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
+La quarantena riduce i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 
 Ulteriori informazioni sulle quarantene sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
-
 
 ## Perché un indirizzo viene messo in quarantena {#quarantines-why}
 
@@ -46,16 +45,16 @@ Ulteriori informazioni sugli errori di consegna nella [documentazione di Campaig
 
 ## Dove trovare gli indirizzi di quarantena {#quarantines-where}
 
-Puoi visualizzare tutti gli indirizzi di quarantena della tua istanza in **[!UICONTROL Explorer]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Gestione non deliverable]** > **[!UICONTROL Indirizzi e non deliverable]**. In questa sezione sono elencati gli elementi messi in quarantena per i canali e-mail, SMS e di notifiche push.
+Puoi visualizzare tutti gli indirizzi in quarantena nella tua istanza in **[!UICONTROL Explorer]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Gestione campagne]** > **[!UICONTROL Gestione non deliverable]** > **[!UICONTROL Indirizzi e non deliverable]**. In questa sezione sono elencati gli elementi messi in quarantena per i canali e-mail, SMS e di notifiche push.
 
-![](assets/quarantine_location.png){zoomable="yes"}
+![Posizione di quarantena nell&#39;interfaccia di Adobe Campaign](assets/quarantine_location.png){zoomable="yes"}
 
-Puoi anche avere il rapporto sulla quarantena nella tua istanza:
+Puoi anche accedere a un rapporto sulla quarantena nella tua istanza:
 
-![](assets/quarantine_reports.png){zoomable="yes"}
+![Quarantena rapporti nell&#39;interfaccia di Adobe Campaign](assets/quarantine_reports.png){zoomable="yes"}
 
-Per ogni consegna, puoi anche controllare il rapporto di riepilogo della consegna: mostra il numero di indirizzi in quarantena nel target della consegna:
+Per ogni consegna, puoi controllare il rapporto di riepilogo della consegna. Mostra il numero di indirizzi in quarantena nel target di consegna:
 
-![](assets/quarantine_delivery.png){zoomable="yes"}
+![Rapporto di riepilogo delle consegne con indirizzi messi in quarantena](assets/quarantine_delivery.png){zoomable="yes"}
 
-Puoi avere più possibilità di gestire gli indirizzi in quarantena nella console Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses)
+Puoi esplorare altre opzioni per gestire gli indirizzi in quarantena nella console Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

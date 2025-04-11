@@ -3,10 +3,10 @@ audience: end-user
 title: Notifica push con l’Assistente AI
 description: Introduzione all’Assistente AI
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 10%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
@@ -14,52 +14,52 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](generative-gs.md#generative-guardrails).
+>Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](generative-gs.md#generative-guardrails) correlate.
 ></br>
 >
->È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare l&#39;Assistente IA in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;Assistente IA in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
+L’Assistente AI consente di ottimizzare l’impatto delle consegne suggerendo contenuti diversi che suonano con il pubblico.
 
-Nell’esempio seguente, sfrutteremo l’assistente AI per creare messaggi convincenti per creare un’esperienza del cliente più coinvolgente.
+Nell’esempio seguente, l’Assistente AI viene utilizzato per creare messaggi convincenti per creare un’esperienza del cliente più coinvolgente.
 
 1. Dopo aver creato e configurato la consegna delle notifiche push, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-   Per ulteriori informazioni su come configurare la consegna push, consulta [questa pagina](../push/create-push.md).
+   Per ulteriori informazioni sulla configurazione della consegna push, consulta [questa pagina](../push/create-push.md).
 
 1. Accedere al menu **[!UICONTROL Mostra Assistente AI]**.
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![Schermata che mostra il menu Mostra Assistente AI](assets/push-genai-1.png){zoomable="yes"}
 
 1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
-   Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le consegne.
+   Se hai bisogno di assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]**, che fornisce una vasta gamma di idee per migliorare le consegne.
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![Schermata che mostra l&#39;interfaccia della libreria di richieste](assets/push-genai-2.png){zoomable="yes"}
 
 1. Scegli il campo da generare: **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e/o **[!UICONTROL Immagine]**.
 
-1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]**:
+1. Personalizza la richiesta utilizzando l&#39;opzione **[!UICONTROL Impostazioni testo]**:
 
    * **[!UICONTROL Strategia di comunicazione]**: scegli lo stile di comunicazione più adatto al testo generato.
-   * **[!UICONTROL Tono]**: il tono dell&#39;e-mail dovrebbe risuonare con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI può adattare il messaggio di conseguenza.
+   * **[!UICONTROL Tono]**: regola il tono dell&#39;e-mail in modo che risuonino con il pubblico. Che tu voglia essere informativo, giocoso o persuasivo, l’Assistente AI adatta il messaggio di conseguenza.
 
-   ![](assets/push-genai-3.png){zoomable="yes"}
+   ![Schermata che mostra le opzioni delle impostazioni del testo](assets/push-genai-3.png){zoomable="yes"}
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
-   * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
-   * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
-   * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
+   * **[!UICONTROL Intensità visiva]**: controlla l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) crea un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) rende l&#39;immagine più vibrante e visivamente potente.
+   * **[!UICONTROL Illuminazione]**: regola l&#39;illuminazione nell&#39;immagine per modellarne l&#39;atmosfera ed evidenziare elementi specifici.
+   * **[!UICONTROL Composizione]**: dispone gli elementi all&#39;interno della cornice dell&#39;immagine.
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![Schermata che mostra le opzioni delle impostazioni immagine](assets/push-genai-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che possa fornire ulteriore contesto all&#39;Assistente IA o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente IA, oppure selezionane una caricata in precedenza.
 
-   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
+   I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. Attiva/disattiva le risorse da includere nella generazione.
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
@@ -67,21 +67,18 @@ Nell’esempio seguente, sfrutteremo l’assistente AI per creare messaggi convi
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
-   * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante scelta fungerà da contenuto di riferimento per generare altri risultati.
-
-   * **[!UICONTROL Riformula]**: l&#39;Assistente di intelligenza artificiale può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
-
-   * **[!UICONTROL Usa un linguaggio più semplice]**: sfrutta l&#39;Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
+   * **[!UICONTROL Utilizza come contenuto di riferimento]**: utilizza la variante scelta come contenuto di riferimento per generare altri risultati.
+   * **[!UICONTROL Riformula]**: riformula il messaggio in diversi modi per mantenere la scrittura fresca e coinvolgente per diversi tipi di pubblico.
+   * **[!UICONTROL Usa un linguaggio più semplice]**: semplifica la lingua per garantire chiarezza e accessibilità a un pubblico più ampio.
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![Schermata che mostra le opzioni di ottimizzazione](assets/push-genai-5.png){zoomable="yes"}
 
-1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
+1. Fai clic su **[!UICONTROL Seleziona]** una volta trovato il contenuto appropriato.
 
-1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail in base ai dati dei profili. Quindi, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../preview-test/preview-content.md)
+1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail in base ai dati del profilo. Quindi, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e controllare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../preview-test/preview-content.md)
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![Schermata che mostra il pulsante Simula contenuto](assets/push-genai-6.png){zoomable="yes"}
 
-Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la consegna push. [Ulteriori informazioni](../monitor/prepare-send.md)
-
+Quando definisci il contenuto, il pubblico e la pianificazione, prepara la consegna push. [Ulteriori informazioni](../monitor/prepare-send.md)

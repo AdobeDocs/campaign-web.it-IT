@@ -2,10 +2,10 @@
 title: Utilizzare i codici JavaScript
 description: Scopri come utilizzare i codici JavaScript.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 4%
+source-wordcount: '479'
+ht-degree: 3%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 4%
 
 ## Informazioni sui codici JavaScript {#about}
 
-I codici JavaScript ti consentono di creare funzioni riutilizzabili che possono essere utilizzate nei vari flussi di lavoro, in modo simile a una libreria. Queste funzioni sono memorizzate nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Codici JavaScript]** nel riquadro di navigazione a sinistra.
+I codici JavaScript ti consentono di creare funzioni riutilizzabili che possono essere utilizzate in tutti i flussi di lavoro, in modo simile a una libreria. Queste funzioni sono memorizzate nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Codici JavaScript]** nel riquadro di navigazione a sinistra.
 
-![](assets/javascript-list.png)
+![Interfaccia elenco codici JavaScript con le opzioni disponibili](assets/javascript-list.png)
 
 Nell&#39;elenco Codici di JavaScript è possibile:
 
 * **Duplicare o eliminare un codice**: fare clic sul pulsante con i puntini di sospensione e selezionare l&#39;azione desiderata.
-* **Modificare un codice**: fare clic sul nome di un codice per aprirne le proprietà. Apporta le modifiche e salva.
+* **Modifica un codice**: fai clic sul nome di un codice per aprirne le proprietà, apportare le modifiche e salvare.
 * **Crea un nuovo codice JavaScript**: fare clic sul pulsante **[!UICONTROL Crea codice JavaScript]**.
 
 >[!NOTE]
@@ -46,10 +46,10 @@ Per creare un codice JavaScript, effettua le seguenti operazioni:
 1. Definisci le proprietà del codice:
 
    * **[!UICONTROL Spazio dei nomi]**: specifica lo spazio dei nomi relativo alle risorse personalizzate. Per impostazione predefinita, lo spazio dei nomi è &quot;cus&quot;, ma può variare a seconda dell’implementazione.
-   * **[!UICONTROL Nome]**: identificatore univoco da utilizzare per fare riferimento al codice.
-   * **[!UICONTROL Etichetta]**: etichetta descrittiva da visualizzare nell&#39;elenco dei codici di JavaScript.
+   * **[!UICONTROL Nome]**: identificatore univoco utilizzato per fare riferimento al codice.
+   * **[!UICONTROL Etichetta]**: etichetta descrittiva visualizzata nell&#39;elenco dei codici di JavaScript.
 
-   ![](assets/javascript-create.png)
+   ![Interfaccia di creazione codice JavaScript con spazio dei nomi, nome ed etichetta dei campi](assets/javascript-create.png)
 
    >[!NOTE]
    >
@@ -59,24 +59,24 @@ Per creare un codice JavaScript, effettua le seguenti operazioni:
 
 1. Fai clic sul pulsante **[!UICONTROL Crea codice]** per definire il codice JavaScript. Il riquadro a sinistra include due menu che consentono di utilizzare funzioni predefinite relative alle condizioni e alla formattazione della data.
 
-   ![](assets/javascript-code.png)
+   ![Interfaccia dell&#39;editor di codice JavaScript con funzioni predefinite](assets/javascript-code.png)
 
 1. Fai clic su **[!UICONTROL Conferma]** per salvare il codice.
 
-1. Quando il codice JavaScript è pronto, fai clic su **[!UICONTROL Crea]**.  Il codice JavaScript è ora disponibile per l’utilizzo in tutti i flussi di lavoro.
+1. Quando il codice JavaScript è pronto, fai clic su **[!UICONTROL Crea]**. Il codice JavaScript è ora disponibile per l’utilizzo in tutti i flussi di lavoro.
 
 ## Utilizzare un codice JavaScript da un flusso di lavoro {#workflow}
 
 ### Caricare librerie di codice di JavaScript {#library}
 
-Puoi fare riferimento ai codici JavaScript nei flussi di lavoro per evitare di riscrivere il codice per attività ripetitive. Per utilizzare questi codici, devi innanzitutto caricare la libreria corrispondente nello script di inizializzazione del flusso di lavoro. Ciò ti consente di caricare tutte le librerie contenenti le funzioni che desideri utilizzare nel flusso di lavoro una sola volta.
+Puoi fare riferimento ai codici JavaScript nei flussi di lavoro per evitare di riscrivere il codice per attività ripetitive. Per utilizzare questi codici, carica la libreria corrispondente nello script di inizializzazione del flusso di lavoro. Ciò ti consente di caricare tutte le librerie contenenti le funzioni che desideri utilizzare nel flusso di lavoro una sola volta.
 
 Per caricare una libreria, effettua le seguenti operazioni:
 
 1. Apri un flusso di lavoro e fai clic sul pulsante **[!UICONTROL Impostazioni]**.
 1. Passare alla sezione **[!UICONTROL Script di inizializzazione]** e fare clic su **[!UICONTROL Crea codice]**.
 
-   ![](assets/javascript-initialization.png)
+   ![L&#39;interfaccia dello script di inizializzazione del flusso di lavoro mostra l&#39;opzione di creazione del codice](assets/javascript-initialization.png)
 
 1. Utilizza la sintassi seguente nel codice per caricare una libreria:
 
@@ -93,4 +93,4 @@ Per caricare una libreria, effettua le seguenti operazioni:
 
 Una volta caricata la libreria JavaScript, puoi fare riferimento alle funzioni definite nel codice JavaScript direttamente all&#39;interno del flusso di lavoro, in genere utilizzando un&#39;attività **[!UICONTROL Codice JavaScript]**.
 
-![](assets/javascript-function.png)
+![Interfaccia del flusso di lavoro che mostra l&#39;utilizzo delle funzioni di JavaScript](assets/javascript-function.png)

@@ -3,12 +3,13 @@ audience: end-user
 title: Introduzione alle consegne SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '160'
 ht-degree: 100%
 
 ---
+
 
 # Introduzione alle consegne SMS {#sms}
 
@@ -27,7 +28,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="assets/do-not-localize/create_sms.png">
+<img alt="Creare una consegna SMS" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>Creare una consegna SMS</strong>
 </div>
@@ -35,7 +36,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Non frequente" src="assets/do-not-localize/design_sms.png">
+<img alt="Progettare una consegna SMS" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>Progettare una consegna SMS<strong></strong></a>
@@ -43,7 +44,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="Convalida" src="assets/do-not-localize/send_sms.png">
+<img alt="Inviare una consegna SMS" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>Inviare una consegna SMS</strong></a>
@@ -52,7 +53,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Convalida" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="Rapporto sulla consegna SMS" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>Rapporto sulle consegne SMS</strong></a>

@@ -3,10 +3,10 @@ audience: end-user
 title: Creare e gestire una cartella
 description: Scopri come creare e gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 34%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 34%
 
 In Adobe Campaign puoi creare nuove cartelle per gestire la struttura di navigazione. In **[!UICONTROL Explorer]**, vai alla cartella in cui desideri creare la nuova cartella.
 
-Nel pulsante **[!UICONTROL ...]**, hai **[!UICONTROL Crea nuova cartella]**
+Nel pulsante **[!UICONTROL ...]**, seleziona **[!UICONTROL Crea nuova cartella]**.
 
-![](assets/folder_create.png){zoomable="yes"}
+![Schermata che mostra l&#39;opzione Crea nuova cartella sotto il pulsante ...](assets/folder_create.png){zoomable="yes"}
 
-Per impostazione predefinita, quando si crea una nuova cartella, il tipo di cartella è quello della cartella principale.
-Nel nostro esempio, creiamo una cartella nella cartella **[!UICONTROL Consegne]**.
+Quando si crea una nuova cartella, per impostazione predefinita il tipo di cartella corrisponde al tipo della cartella padre.\
+In questo esempio viene creata una cartella nella cartella **[!UICONTROL Deliveries]**.
 
-![](assets/folder_new.png){zoomable="yes"}
+![Schermata che mostra una nuova cartella creata nella cartella Consegne](assets/folder_new.png){zoomable="yes"}
 
-Puoi modificare il tipo di cartella facendo clic sull’icona di Tipo cartella e sceglierla nell’elenco presentato:
+Per modificare il tipo di cartella, fai clic sull’icona Tipo di cartella e seleziona un tipo dall’elenco presentato.
 
-![](assets/folder_type.png){zoomable="yes"}
+![Schermata che mostra l&#39;elenco dei tipi di cartelle disponibili per la selezione](assets/folder_type.png){zoomable="yes"}
 
-Per impostare il tipo di cartella, fai clic sul pulsante **[!UICONTROL Conferma]**.
+Impostare il tipo di cartella facendo clic sul pulsante **[!UICONTROL Conferma]**.
 
-Per creare una cartella senza un tipo specifico, scegli il tipo **[!UICONTROL Cartella generica]**.
+Per creare una cartella senza un tipo specifico, selezionare il tipo **[!UICONTROL Cartella generica]**.
 
-Nella console Adobe Campaign è possibile creare e gestire una cartella [qui](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views) e configurare le autorizzazioni per le cartelle. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Nella console di Adobe Campaign, il processo di creazione e gestione delle cartelle è illustrato [qui](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views). Puoi anche impostare le autorizzazioni per le cartelle. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/folder-permissions).

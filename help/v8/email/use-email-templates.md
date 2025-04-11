@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 96%
+source-wordcount: '277'
+ht-degree: 49%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 96%
 
 Durante la [creazione di un’e-mail](../email/create-email.md), utilizza la sezione **[!UICONTROL Seleziona modello di progettazione]** dell’interfaccia **[!UICONTROL Crea e-mail]** per iniziare a creare i contenuti da un modello.
 
-![](assets/email_designer-templates.png){zoomable="yes"}
+![L&#39;interfaccia di E-mail Designer mostra i modelli disponibili](assets/email_designer-templates.png){zoomable="yes"}
 
 Puoi scegliere tra:
 
 * **Modelli di esempio**. Campaign viene fornito con un set di modelli incorporati tra cui puoi scegliere.
 
-* **Modelli salvati**. Puoi anche utilizzare un modello personalizzato salvato come modello da un contenuto esistente.
+* **Modelli salvati**. Puoi anche utilizzare un modello personalizzato salvato come modello dal contenuto esistente.
 
-Nelle sezioni seguenti, scopri come utilizzare i modelli e come salvare un contenuto e-mail come modello.
+Scopri come utilizzare i modelli e come salvare il contenuto delle e-mail come modello nelle sezioni seguenti.
 
 >[!NOTE]
 >
->I modelli di contenuto e-mail sono diversi dai [modelli di consegna](../msg/delivery-template.md). Questi consentono di riutilizzare solo il contenuto delle e-mail, mentre i modelli di consegna consentono di riutilizzare il contenuto ma anche tutte le impostazioni e le proprietà di consegna come tipologie, indirizzo del mittente, tipi di pubblico e così via.
+>I modelli di contenuto e-mail sono diversi dai [modelli di consegna](../msg/delivery-template.md). Consentono di riutilizzare solo il contenuto delle e-mail, mentre i modelli di consegna ti consentono di riutilizzare il contenuto della consegna e tutte le impostazioni e proprietà di consegna, come tipologie, indirizzo del mittente e tipi di pubblico.
 
 Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui questi passaggi.
 
@@ -41,19 +41,18 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 
 1. Per utilizzare un modello personalizzato esistente, passa alla scheda **[!UICONTROL Modelli salvati]**.
 
-   ![](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
+   ![Scheda Modelli salvati in Email Designer](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
 1. Viene visualizzato l’elenco di tutti i [modelli salvati](#save-as-template). Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
-   ![](assets/email_designer-saved-templates.png){zoomable="yes"}
+   ![Elenco dei modelli salvati in E-mail Designer](assets/email_designer-saved-templates.png){zoomable="yes"}
 
 1. Seleziona un modello dall’elenco per visualizzarne il contenuto.
 
-1. Utilizza le frecce destra e sinistra per spostarti tra i modelli (di esempio o salvati, a seconda della selezione).
+1. Utilizza le frecce destra e sinistra per spostarti tra i modelli (esempio o salvato a seconda della selezione).
 
-   ![](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
+   ![Frecce di spostamento per i modelli in E-mail Designer](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
+1. Fai clic su **[!UICONTROL Usa questo modello]** in alto a destra dello schermo.
 
 1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail designer. [Ulteriori informazioni](create-email-content.md)
-

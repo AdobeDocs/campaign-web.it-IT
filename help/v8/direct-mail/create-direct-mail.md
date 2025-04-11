@@ -3,10 +3,10 @@ audience: end-user
 title: Creare una consegna direct mail
 description: Scopri come creare una consegna di direct mailing con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 33%
+source-wordcount: '502'
+ht-degree: 24%
 
 ---
 
@@ -16,17 +16,17 @@ Puoi creare una consegna di direct mailing autonoma o una consegna di direct mai
 
 Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti operazioni:
 
-1. Passa al menu **[!UICONTROL Consegne]** nella barra di navigazione a sinistra, quindi fai clic sul pulsante **[!UICONTROL Crea consegna]**.
+1. Passa al menu **[!UICONTROL Consegne]** nella barra a sinistra e fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
 1. Nella sezione **[!UICONTROL Canale]**, scegli **[!UICONTROL Direct mail]** come canale e seleziona un modello. [Ulteriori informazioni sui modelli](../msg/delivery-template.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
-   ![](assets/dm-create.png){zoomable="yes"}
+   ![Schermata che mostra la creazione di una consegna direct mailing](assets/dm-create.png){zoomable="yes"}
 
-1. Immetti un’**[!UICONTROL etichetta]** per la consegna e accedi al menu a discesa **[!UICONTROL Opzioni aggiuntive]**. Se la consegna è basata su uno schema esteso, sono disponibili campi specifici di **Opzioni personalizzate**.
+1. Immetti un **[!UICONTROL Label]** per la consegna e accedi al menu a discesa **[!UICONTROL Opzioni aggiuntive]**. Se la consegna è basata su uno schema esteso, sono disponibili campi specifici di **Opzioni personalizzate**.
 
-   ![](assets/dm-properties.png){zoomable="yes"}
+   ![Schermata che mostra la configurazione delle proprietà per una consegna direct mailing](assets/dm-properties.png){zoomable="yes"}
 
    +++Configura le seguenti impostazioni in base alle tue esigenze.
    * **[!UICONTROL Nome interno]**: assegna un identificatore univoco alla consegna.
@@ -41,26 +41,26 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
    * [Scopri come selezionare un pubblico esistente](../audience/add-audience.md)
    * [Scopri come creare un nuovo pubblico](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable="yes"}
+   ![Schermata che mostra la selezione del pubblico per una consegna direct mailing](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >I destinatari della direct mailing devono contenere almeno i propri nomi e indirizzi postali. Un indirizzo è considerato completo se il nome, il campo CAP e i campi città non sono vuoti. Tutti i destinatari con indirizzi incompleti saranno esclusi dalle consegne di direct mailing.
 
-1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna. I messaggi non vengono inviati a tale gruppo di controllo, in modo da poter confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Scopri come utilizzare i gruppi di controllo](../audience/control-group.md)
+1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna. I messaggi non vengono inviati a tale gruppo di controllo, pertanto puoi confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Scopri come utilizzare i gruppi di controllo](../audience/control-group.md)
 
 1. Fare clic su **[!UICONTROL Modifica contenuto]** per definire le informazioni (colonne) da esportare nel file di estrazione. [Ulteriori informazioni](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable="yes"}
+   ![Schermata che mostra la modifica del contenuto per una consegna direct mailing](assets/dm-content.png){zoomable="yes"}
 
 1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il file di estrazione viene generato automaticamente alla data e all’ora esatte definite. [Scopri come pianificare le consegne](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md).
+   >Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Ulteriori informazioni su [questa pagina](../workflows/activities/scheduler.md).
 
 1. Fai clic su **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable="yes"}
+   ![Schermata che mostra le impostazioni avanzate per una consegna direct mailing](assets/dm-settings.png){zoomable="yes"}
 
 1. Quando la consegna direct mailing è pronta, fai clic sul pulsante **[!UICONTROL Rivedi e invia]** per convalidare e inviare la consegna e generare il file di estrazione. [Scopri come visualizzare in anteprima e inviare una consegna direct mailing](send-direct-mail.md)

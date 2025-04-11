@@ -2,10 +2,10 @@
 title: Gestire le enumerazioni
 description: Scopri come utilizzare le enumerazioni
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 30%
+source-wordcount: '672'
+ht-degree: 27%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 30%
 >title="Creare enumerazioni"
 >abstract="È ora possibile creare enumerazioni direttamente tramite l’interfaccia utente web di Adobe Campaign. Un’enumerazione è un elenco di valori suggeriti dal sistema per compilare i campi."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
@@ -35,11 +34,11 @@ ht-degree: 30%
 
 ## Cosa sono le enumerazioni? {#about}
 
-Un’enumerazione è un elenco di valori suggeriti dal sistema per compilare i campi. Utilizza le enumerazioni per standardizzare i valori di questi campi, aiutarti con l’input di dati o utilizzare all’interno di query. L&#39;elenco di valori viene visualizzato come elenco a discesa dal quale è possibile selezionare il valore da immettere nel campo. L’elenco a discesa consente inoltre l’input predittivo: inserisci le prime lettere e l’applicazione compila le altre.
+Un’enumerazione è un elenco di valori suggeriti dal sistema per compilare i campi. Utilizza le enumerazioni per standardizzare i valori di questi campi, aiutarti con l’input dei dati o utilizzare all’interno di query. L&#39;elenco di valori viene visualizzato come elenco a discesa dal quale è possibile selezionare il valore da immettere nel campo. L’elenco a discesa consente inoltre l’input predittivo: inserisci le prime lettere e l’applicazione compila le altre.
 
 I valori per questo tipo di campo sono definiti tramite il menu **[!UICONTROL Amministrazione]** / **[!UICONTROL Enumerazioni]** nel riquadro di spostamento a sinistra.
 
-![](assets/enumeration-list.png)
+![Elenco enumerazioni visualizzato nel menu Amministrazione](assets/enumeration-list.png)
 
 ## Creare un’enumerazione {#create}
 
@@ -49,18 +48,18 @@ Per creare un’enumerazione, effettua le seguenti operazioni:
 
 1. Immettere un **[!UICONTROL etichetta]** e un **[!UICONTROL nome interno]** per l&#39;enumerazione.
 
-   ![](assets/enumeration-create.png)
+   ![Crea schermata di enumerazione con i campi etichetta e nome interno](assets/enumeration-create.png)
 
 1. Selezionare l&#39;enumerazione **[!UICONTROL Type]**:
 
-   * Le enumerazioni **[!UICONTROL Closed]** hanno un elenco fisso di valori che possono essere modificati solo dal menu **[!UICONTROL Enumerations]**.
+   * Le enumerazioni **[!UICONTROL Closed]** hanno un elenco fisso di valori, che può essere modificato solo dal menu **[!UICONTROL Enumerations]**.
    * Le enumerazioni **[!UICONTROL Open]** consentono agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione.
    * Le enumerazioni **[!UICONTROL System]** sono associate ai campi di sistema.
    * Le enumerazioni di **[!UICONTROL emoticon]** vengono utilizzate per aggiornare l’elenco delle emoticon.
 
 1. Fai clic su **[!UICONTROL Crea]**. Vengono visualizzati i dettagli di enumerazione, che consentono di aggiungere valori all’elenco.
 
-   ![](assets/enumeration-details.png)
+   ![Schermata dei dettagli enumerazione che mostra le opzioni per l&#39;aggiunta di valori](assets/enumeration-details.png)
 
 1. Per aggiungere un valore, fare clic sul pulsante **[!UICONTROL Aggiungi valore]**, quindi configurarlo in base alle esigenze:
 
@@ -68,35 +67,34 @@ Per creare un’enumerazione, effettua le seguenti operazioni:
    * **[!UICONTROL Nome interno]**: il nome interno del valore (per le enumerazioni di sistema).
    * **[!UICONTROL U+ (nome interno)]** (enumerazioni emoticon): codice unicode per l&#39;emoticon (per le enumerazioni emoticon).
 
-   ![](assets/enumeration-emoticon.png)
+   ![Schermata Aggiungi valore con campi per etichetta, nome interno e codice unicode](assets/enumeration-emoticon.png)
 
-1. Salva le modifiche. L’enumerazione viene ora aggiornata nelle schermate in cui viene utilizzata.
+1. Salva le modifiche. L’enumerazione viene aggiornata nelle schermate in cui viene utilizzata.
 
 ## Caso d’uso: aggiungere valori predefiniti a un’enumerazione {#uc}
 
 Per impostazione predefinita, il campo &quot;Origine&quot; nella schermata dei dettagli del profilo consente agli utenti di immettere liberamente qualsiasi valore.
 
-![](assets/enumeration-uc-profile.png)
+![Schermata dei dettagli del profilo che mostra il campo Origin](assets/enumeration-uc-profile.png)
 
-Ogni volta che un utente immette un valore per il campo, questo viene aggiunto automaticamente all’enumerazione &quot;Origin&quot;, che nel tempo può causare valori ridondanti, incoerenti o errati nell’elenco dei valori.
+Ogni volta che un utente immette un valore per il campo, questo viene aggiunto automaticamente all’enumerazione &quot;Origin&quot;. Questo può causare nel tempo valori ridondanti, incoerenti o errati nell’elenco dei valori.
 
-![](assets/enumeration-uc-choice.png)
+![L&#39;enumerazione dell&#39;origine mostra valori immessi dall&#39;utente incoerenti](assets/enumeration-uc-choice.png)
 
-Per garantire la coerenza dei dati e guidare gli utenti durante la compilazione del campo, puoi definire un set di valori predefiniti. Segui questi passaggi:
+Per garantire la coerenza dei dati e guidare gli utenti durante la compilazione del campo, definisci un set di valori predefiniti. Segui questi passaggi:
 
 1. Vai al menu **[!UICONTROL Enumerazioni]** e apri l&#39;enumerazione &quot;Origin&quot;.
 
 2. Rivedi l’elenco dei valori immessi dall’utente e puliscilo. Fai clic sul pulsante con i puntini di sospensione accanto a un valore per eliminarlo. Se l&#39;elenco contiene troppe incoerenze, eliminare l&#39;intera enumerazione e ricrearla da zero.
 
-   ![](assets/enumeration-uc-clean.png)
+   ![Schermata che mostra le opzioni per pulire i valori immessi dall&#39;utente](assets/enumeration-uc-clean.png)
 
 3. Aggiungere valori predefiniti. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi valore]** e immettere i valori predefiniti che gli utenti devono selezionare.
 
-   ![](assets/enumeration-uc-create.png)
+   ![Schermata che mostra i valori predefiniti aggiunti all&#39;enumerazione](assets/enumeration-uc-create.png)
 
-4. Per applicare la coerenza, impostare il tipo di enumerazione su **[!UICONTROL Chiuso]**, che limita gli utenti ai valori predefiniti.
-Se è necessaria flessibilità, tienilo **[!UICONTROL aperto]** per consentire nuove voci utente.
+4. Per applicare la coerenza, impostare il tipo di enumerazione su **[!UICONTROL Chiuso]**, che limita gli utenti ai valori predefiniti. Se è necessaria flessibilità, tienilo **[!UICONTROL aperto]** per consentire nuove voci utente.
 
 5. Torna alla schermata dei dettagli del profilo. Nel campo &quot;Origin&quot; vengono ora visualizzati i valori predefiniti per la selezione.
 
-   ![](assets/enumeration-uc-populated.png)
+   ![Schermata dei dettagli del profilo che mostra i valori predefiniti nel campo Origine](assets/enumeration-uc-populated.png)
