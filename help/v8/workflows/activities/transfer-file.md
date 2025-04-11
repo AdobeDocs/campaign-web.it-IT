@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Transfer file
 description: Scopri come utilizzare l’attività del flusso di lavoro Trasferisci file
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 29%
+source-wordcount: '1253'
+ht-degree: 25%
 
 ---
 
@@ -41,7 +41,7 @@ L&#39;attività **Transfer file** è un&#39;attività **Data Management**. Conse
 
 >[!NOTE]
 >
->Con l&#39;interfaccia utente di Campaign Web, abbiamo consolidato due attività in un&#39;unica, unendo le funzionalità **Trasferimento file** e **Download Web**. Questo consolidamento non influisce in alcun modo sulla funzionalità dell’attività.
+>Con l&#39;interfaccia utente di Campaign Web, due attività sono state consolidate in una unendo le funzionalità **Trasferimento file** e **Download Web**. Questo consolidamento non influisce in alcun modo sulla funzionalità dell’attività.
 
 Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura seguente.
 
@@ -49,7 +49,7 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 
 1. Aggiungi un&#39;attività **Transfer file** nel flusso di lavoro, quindi specifica il tipo di trasferimento da eseguire a seconda del protocollo che desideri utilizzare:
 
-   * Per il protocollo HTTP, selezionare **[!UICONTROL Download Web]**. Questo consente di eseguire il download di un file GET o POST su un URL esplicito, un account esterno o un’istanza di Adobe Campaign.
+   * Per il protocollo HTTP, selezionare **[!UICONTROL Download Web]**. Questo consente di eseguire un’operazione GET o POST per scaricare un file su un URL esplicito, un account esterno o un’istanza Adobe Campaign.
    * Per altri protocolli server-to-server e azioni correlate, selezionare **[!UICONTROL Trasferimento file]**.
 
 1. Seleziona l’azione da eseguire con l’attività. Le azioni disponibili dipendono dal tipo di trasferimento selezionato. Per ulteriori informazioni, espandi le sezioni seguenti.
@@ -70,7 +70,7 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 
 +++
 
-   ![](../assets/workflow-transfer-file-action.png)
+   ![Schermata che mostra le opzioni di azione del file di trasferimento del flusso di lavoro](../assets/workflow-transfer-file-action.png)
 
 1. Per impostazione predefinita, per le azioni di caricamento file, l’attività utilizza il file specificato nell’attività precedente. Per utilizzare un file diverso, disattivare l&#39;opzione **[!UICONTROL Usa file dell&#39;attività precedente]** e fare clic sul pulsante **[!UICONTROL Aggiungi file]**.
 
@@ -84,9 +84,9 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
    * **[!UICONTROL Configurazione rapida]**: immettere l&#39;URL del file (o della cartella per le azioni di elenco file).
    * **[!UICONTROL Istanza di Adobe Campaign]** (attività di tipo download Web): scarica un file da un server di istanze di Adobe Campaign.
 
-   ![](../assets/workflow-transfer-file-server.png)
+   ![Schermata che mostra le opzioni di configurazione del file server per il trasferimento del flusso di lavoro](../assets/workflow-transfer-file-server.png)
 
-1. Per le azioni POST di download web, con l’operazione puoi trasmettere parametri aggiuntivi. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi parametro]** e quindi specificare il nome e il valore dei parametri. Puoi aggiungere tutti i parametri necessari.
+1. Per il download web delle azioni POST, con l’operazione puoi trasmettere parametri aggiuntivi. A tale scopo, fare clic sul pulsante **[!UICONTROL Aggiungi parametro]**, quindi specificare il nome e il valore dei parametri. Puoi aggiungere tutti i parametri necessari.
 
 1. Per impostazione predefinita, per il caricamento di file, i file caricati su un server vengono salvati automaticamente. Se non si desidera mantenere questa cronologia, disattivare l&#39;opzione **[!UICONTROL Mantieni cronologia dei file inviati]**.
 
@@ -99,19 +99,19 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 
 Tutte le volte che esegui un’attività **[!UICONTROL Trasferisci file]**, memorizzi i file caricati o scaricati in una cartella dedicata. Viene creata una cartella per ogni attività Trasferisci file di un flusso di lavoro. Per impostazione predefinita, i file vengono salvati nella directory di archiviazione predefinita della cartella di installazione di Adobe Campaign (`/vars`) prima di essere elaborati. Per utilizzare una cartella specifica, disattiva l’opzione **[!UICONTROL Utilizza una directory di archiviazione predefinita]** e immetti il percorso della directory.
 
-![](../assets/workflow-transfer-file-historization.png)
+![Schermata che mostra le impostazioni di storicizzazione dei file di trasferimento del flusso di lavoro](../assets/workflow-transfer-file-historization.png)
 
-È importante essere in grado di limitare le dimensioni di questa cartella per preservare lo spazio fisico sul server. A questo scopo, puoi definire un numero massimo di file o una dimensione totale per la cartella dell’attività. Per impostazione predefinita sono autorizzati 100 file e 50 MB.
+È importante limitare le dimensioni di questa cartella per preservare lo spazio fisico sul server. Per farlo, definisci un numero massimo di file o una dimensione totale per la cartella dell’attività. Per impostazione predefinita sono autorizzati 100 file e 50 MB.
 
 Tutte le volte che l’attività viene eseguita, la cartella viene controllata come segue:
 
 * Vengono presi in considerazione solo file creati più di 24 ore prima dell’esecuzione dell’attività.
-* Se il numero di file considerati è maggiore del valore del campo **[!UICONTROL Numero di file]**, i file meno recenti vengono eliminati finché non viene raggiunto il numero massimo di file consentito.
-* Se la dimensione totale dei file considerati è maggiore del valore del parametro **[!UICONTROL Dimensione massima (in MB)]**, i file meno recenti vengono eliminati fino al raggiungimento della dimensione massima (in MB) consentita.
+* Se il numero di file considerati supera il valore del campo **[!UICONTROL Numero di file]**, i file meno recenti vengono eliminati fino al raggiungimento del numero massimo di file consentito.
+* Se la dimensione totale dei file considerati supera il valore del parametro **[!UICONTROL Dimensione massima (in MB)]**, i file meno recenti vengono eliminati finché non viene raggiunta la dimensione massima consentita.
 
 >[!CAUTION]
 >
->Se l’attività non viene eseguita nuovamente, la relativa cartella non viene né controllata né eliminata. In quest’ottica, fai attenzione durante il trasferimento di file di grandi dimensioni.
+>Se l’attività non viene eseguita nuovamente, la relativa cartella non viene selezionata o eliminata. Presta attenzione quando trasferisci file di grandi dimensioni.
 
 ## Opzioni avanzate e di gestione degli errori {#advanced}
 
@@ -144,7 +144,7 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 
    +++Opzioni aggiuntive per le attività di tipo **[!UICONTROL Trasferimento file]**
 
-   * **[!UICONTROL Elimina i file di origine dopo il trasferimento]**: cancella i file di origine dopo un trasferimento completato.
+   * **[!UICONTROL Elimina i file di origine dopo il trasferimento]**: cancella i file di origine dopo un trasferimento riuscito.
    * **[!UICONTROL Visualizza i registri di sessione]**: quando questa opzione è attivata, le informazioni relative all&#39;operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro dopo l&#39;esecuzione del flusso di lavoro.
    * **[!UICONTROL Elenca tutti i file]** (azioni di elenco file): questa opzione indicizza tutti i file presenti nel server nella variabile evento `vars.filenames`, in cui i nomi dei file sono separati da `n` caratteri. [Scopri come utilizzare le variabili evento](../event-variables.md)
 

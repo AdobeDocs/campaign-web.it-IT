@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Cambia dimensione
 description: Scopri come utilizzare l’attività Cambia dimensione nel flusso di lavoro
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 86%
+source-wordcount: '346'
+ht-degree: 46%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="Generare un complemento"
->abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**"
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="Attività Cambia dimensione"
->abstract="Questa attività ti consente di modificare la dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione “contratti” alla dimensione “clienti”."
+>abstract="Questa attività ti consente di modificare la dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione &quot;contratti&quot; alla dimensione &quot;clienti&quot;."
 
-L’attività **Cambia dimensione** è un’attività di **targeting**. Questa attività ti consente di modificare la dimensione targeting durante la creazione del flusso di lavoro. Sposta l’asse in base al modello di dati e alla dimensione di input. [Ulteriori informazioni sulle dimensioni targeting](../../audience/about-recipients.md#targeting-dimensions)
+L’attività **Cambia dimensione** è un’attività di **targeting**. Questa attività ti consente di modificare la dimensione targeting durante la creazione del flusso di lavoro. Sposta l’asse in base al modello di dati e alla dimensione di input. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions).
 
-Ad esempio, puoi cambiare la dimensione di targeting di un flusso di lavoro da “Destinatari” ad “Applicazione per abbonati” per inviare notifiche push ai destinatari target.
+Ad esempio, puoi cambiare la dimensione di targeting di un flusso di lavoro da &quot;Destinatari&quot; a &quot;Applicazione abbonati&quot; per inviare notifiche push ai destinatari interessati.
 
 >[!IMPORTANT]
 >
->Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, includi un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 ## Configurare l’attività Cambia dimensione {#configure}
 
@@ -36,16 +36,16 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
 1. Aggiungi un’attività **Cambia dimensione** al flusso di lavoro.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![Schermata che mostra l&#39;attività Modifica dimensione aggiunta a un flusso di lavoro](../assets/workflow-change-dimension.png)
 
 1. Definisci la **Nuova dimensione target**. Durante la modifica della dimensione, tutti i record vengono mantenuti. Altre opzioni non sono ancora disponibili.
 
-1. Esegui il flusso di lavoro per visualizzare il risultato. Confronta i dati nelle tabelle prima e dopo l’attività Cambia dimensione e confronta la struttura delle tabelle del flusso di lavoro.
+1. Esegui il flusso di lavoro per visualizzare il risultato. Confronta i dati nelle tabelle prima e dopo l’attività Modifica dimensione e confronta la struttura delle tabelle del flusso di lavoro.
 
 ## Esempio {#example}
 
-In questo esempio, si desidera inviare una consegna SMS a tutti i profili che hanno effettuato un acquisto. A questo scopo, viene prima utilizzata un’ attività **[!UICONTROL Creazione del pubblico]** collegata a una dimensione targeting “Acquisto” personalizzata per eseguire il targeting di tutti gli acquisti effettuati.
+In questo esempio, invia una consegna SMS a tutti i profili che hanno effettuato un acquisto. Innanzitutto, utilizza un&#39;attività **[!UICONTROL Genera pubblico]** collegata a una dimensione di targeting &quot;Acquisto&quot; personalizzata per eseguire il targeting di tutti gli acquisti che si sono verificati.
 
-Quindi viene utilizzata un’attività **[!UICONTROL Cambia dimensione]** per cambiare la dimensione targeting del flusso di lavoro in “Destinatari”. Questo consente di eseguire il targeting dei destinatari che corrispondono alla query.
+Quindi, utilizza un&#39;attività **[!UICONTROL Modifica dimensione]** per cambiare la dimensione di targeting del flusso di lavoro in &quot;Destinatari&quot;. Questo consente di eseguire il targeting dei destinatari che corrispondono alla query.
 
-![](../assets/workflow-change-dimension-example.png)
+![Schermata che mostra un esempio dell&#39;attività Change dimension utilizzata in un flusso di lavoro](../assets/workflow-change-dimension-example.png)

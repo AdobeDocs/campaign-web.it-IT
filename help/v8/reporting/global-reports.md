@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai rapporti globali
 description: Comprendere i rapporti globali
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 37%
+source-wordcount: '305'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 37%
 
 I **Rapporti globali** sono un valido strumento e offrono un riepilogo consolidato complessivo delle metriche di traffico e coinvolgimento per ogni canale all’interno di un’istanza Campaign. Questi rapporti sono costituiti da vari widget, ciascuno dei quali offre una prospettiva distinta sulle prestazioni della campagna o della consegna.
 
-Gli indicatori prestazioni chiave (KPI, Key Performance Indicators) vengono aggiornati ogni ora, garantendo informazioni aggiornate. Per impostazione predefinita, i dati vengono filtrati in modo da coprire gli ultimi 30 giorni, offrendo una prospettiva corrente e rilevante sulle prestazioni delle campagne e delle consegne.
+Gli indicatori prestazioni chiave (KPI, Key Performance Indicators) vengono aggiornati ogni ora, garantendo informazioni aggiornate. Per impostazione predefinita, i filtri dati coprono gli ultimi 30 giorni, offrendo una prospettiva corrente e rilevante sulle prestazioni delle campagne e delle consegne.
 
 L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
 
@@ -36,18 +36,18 @@ Per accedere e gestire i rapporti globali, effettua le seguenti operazioni:
 
 1. Nel menu a sinistra, seleziona un rapporto dall’elenco e naviga attraverso la scheda per visualizzare i dati da ciascun canale.
 
-   ![](assets/global_report_manage_3.png){zoomable="yes"}
+   ![Schermata che mostra il menu a sinistra e le schede per la navigazione dei dati da ciascun canale](assets/global_report_manage_3.png){zoomable="yes"}
 
 1. Dal dashboard, scegli un **Inizio** e un **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
 
-   ![](assets/global_report_manage_1.png){zoomable="yes"}
+   ![Schermata che mostra il dashboard con opzioni per selezionare l&#39;ora di inizio e di fine per il targeting dei dati](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. Dal campo **[!UICONTROL Seleziona cartella]**, seleziona se desideri eseguire il targeting delle consegne o della campagna da una cartella specifica.
+1. Dal campo **[!UICONTROL Seleziona cartella]**, seleziona se eseguire il targeting di consegne o campagne da una cartella specifica.
 
-   ![](assets/global_report_manage_2.png){zoomable="yes"}
+   ![Schermata che mostra il campo della cartella di selezione per selezionare consegne o campagne](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Aggiungi regole]** per iniziare a creare query per filtrare meglio i dati di reporting. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md)
+1. Fai clic su **[!UICONTROL Aggiungi regole]** per iniziare a creare query per filtrare meglio i dati di reporting. [Scopri come utilizzare Query Modeler](../query/query-modeler-overview.md).
 
-1. Dai **[!UICONTROL URL e flussi di clic]**, puoi anche scegliere i **[!UICONTROL Collegamenti più visitati]** o il **[!UICONTROL periodo di tempo]**.
+1. Dai **[!UICONTROL URL e dai flussi di clic]**, scegli i **[!UICONTROL Collegamenti più visitati]** o il **[!UICONTROL periodo di tempo]**.
 
-   Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare in base a URL, etichette o categorie.
+   Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare URL, etichette o categorie.

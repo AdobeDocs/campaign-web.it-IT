@@ -2,10 +2,10 @@
 title: Indicatori chiave di prestazioni
 description: Scopri come comprendere gli indicatori chiave di prestazioni
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 100%
+source-wordcount: '1191'
+ht-degree: 37%
 
 ---
 
@@ -23,70 +23,66 @@ ht-degree: 100%
 >title="Spam"
 >abstract="KPI spam"
 
-Passa alla pagina Home per verificare gli indicatori chiave di prestazioni per la tua piattaforma. Questi indicatori mostrano il numero e la percentuale di messaggi consegnati, aperti, su cui è stato fatto clic, di annullamento degli abbonamenti e le percentuali di errori.
+Passa alla pagina Home per verificare gli indicatori chiave di prestazioni per la tua piattaforma. Questi indicatori mostrano il numero e la percentuale di messaggi consegnati, aperti, su cui è stato fatto clic, di annullamenti di abbonamenti e di tassi di errore.
 
-Per impostazione predefinita, le metriche sono calcolate per le consegne inviate nei 7 giorni precedenti. Puoi modificare il periodo dall’elenco a discesa nella sezione in alto a destra della scheda. Sono esclusi i messaggi inviati ai profili di test.
+Per impostazione predefinita, le metriche sono calcolate per le consegne inviate nei sette giorni precedenti. Puoi modificare il periodo dall’elenco a discesa nella sezione superiore destra della scheda. Sono esclusi i messaggi inviati ai profili di test.
 
 Puoi selezionare il canale da visualizzare. Per impostazione predefinita, questi indicatori riflettono le metriche per il canale e-mail.
 
-![](assets/kpi.png){zoomable="yes"}
+![Schermata che mostra la scheda KPI con le metriche per il canale e-mail.](assets/kpi.png){zoomable="yes"}
 
 ## Messaggio consegnato {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Consegnati"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi elaborati e la percentuale di messaggi consegnati correttamente rispetto al numero totale di messaggi inviati."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi elaborati con successo e la percentuale di messaggi consegnati con successo rispetto al numero totale di messaggi inviati."
 
-Il numero di messaggi consegnati riflette la percentuale di recapitabilità. Non può mai essere pari al 100% per i seguenti motivi: alcuni indirizzi o numeri di telefono possono essere errati, i filtri anti-spam dei provider di posta elettronica potrebbero rifiutare i messaggi oppure possono verificarsi problemi di recapitabilità.
+Il numero di messaggi consegnati riflette la percentuale di recapitabilità. Non può mai essere 100% per i seguenti motivi: alcuni indirizzi o numeri di telefono possono essere errati, i bloccanti della posta indesiderata presso i provider di posta elettronica possono rifiutare i messaggi o possono verificarsi problemi di recapito.
 
-L’indicatore **Consegnato** mostra i KPI seguenti per ogni canale:
+L&#39;indicatore **Delivered** mostra i KPI seguenti per ogni canale:
 
-* Percentuale del numero di messaggi consegnati correttamente rispetto al numero totale di messaggi inviati.
+* Percentuale del numero di messaggi consegnati con successo rispetto al numero totale di messaggi inviati.
 
 * Somma di tutti i messaggi elaborati correttamente.
 
 In Adobe Campaign, la regola per contrassegnare un messaggio come “Consegnato” è:
 
-Numero di messaggi per i quali il campo “Indirizzo seed” è uguale a “No” e con uno stato uguale a “Considerato dal fornitore di servizi” (per gli SMS) o “Inviato” (per le e-mail) o “Ricevuto su dispositivo mobile” (per le notifiche push).
-
+Numero di messaggi per i quali il campo &quot;Indirizzo seed&quot; è uguale a &quot;No&quot; e con uno stato uguale a &quot;Preso in considerazione dal provider di servizi&quot; (per SMS), &quot;Inviato&quot; (per e-mail) o &quot;Ricevuto su dispositivi mobili&quot; (per notifiche push).
 
 ## Aperture totali {#ui-open-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aperture"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi aperti e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi aperti e la percentuale di messaggi aperti rispetto al numero totale di messaggi consegnati con successo."
 
-Il totale delle aperture è calcolato mediante tracciamento del numero totale di volte che un messaggio viene aperto, indipendentemente dal numero di singoli destinatari da cui tali aperture vengono generate. Questo indicatore è disponibile solo per le e-mail.
+Il totale delle aperture viene calcolato tenendo traccia del numero totale di volte in cui un messaggio viene aperto, indipendentemente dal numero di singoli destinatari che generano tali aperture. Questo indicatore è disponibile solo per le e-mail.
 
-L’indicatore **Aperture** mostra i KPI seguenti per ogni canale:
+L&#39;indicatore **Opens** mostra i KPI seguenti per ogni canale:
 
-* Percentuale del numero di messaggi aperti rispetto al numero totale di messaggi consegnati correttamente.
+* Percentuale del numero di messaggi aperti rispetto al numero totale di messaggi consegnati con successo.
 
 * Somma di tutti i messaggi aperti per canale.
 
-Adobe Campaign rileva le aperture dei messaggi quando il destinatario scarica le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine a 0 pixel, che consente di rilevare quali messaggi sono stati aperti. Poiché i messaggi in formato di testo non includono immagini, è impossibile rilevare se sono stati aperti o meno. I valori calcolati in base alle aperture dei messaggi sono sempre delle stime, a causa del margine di errore legato alla visualizzazione delle immagini.
-
-
+Adobe Campaign rileva le aperture dei messaggi quando il destinatario scarica le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine a 0 pixel, che consente di rilevare i messaggi aperti. Poiché i messaggi in formato testo non includono immagini, è impossibile rilevare se sono stati aperti. I valori calcolati in base all’apertura dei messaggi sono sempre stime dovute al margine di errore collegato alla visualizzazione delle immagini.
 
 ## Tasso di click-through {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clic"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli URL su cui è stato fatto clic nei messaggi e la percentuale di clic rispetto al numero totale di messaggi consegnati correttamente."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli URL su cui è stato fatto clic nei messaggi e la percentuale di clic rispetto al numero totale di messaggi consegnati con successo."
 
-Gli URL possono essere aggiunti al contenuto del messaggio per reindirizzare i destinatari a una pagina specifica. La percentuale di click-through misura il numero e il tasso di destinatari che hanno fatto clic su un collegamento nel messaggio.
+Aggiungi URL nel contenuto del messaggio per reindirizzare i destinatari a una pagina particolare. Il tasso di click-through misura il numero e la percentuale di destinatari che hanno fatto clic su un collegamento nel messaggio.
 
-L’indicatore **Clic** mostra i KPI seguenti per ogni canale:
+L&#39;indicatore **Clic** mostra i KPI seguenti per ogni canale:
 
 * Percentuale del numero di clic rispetto al numero totale di messaggi consegnati con successo.
 
-* Numero di persone distinte che hanno fatto clic almeno una volta in una consegna. Sono esclusi i collegamenti di annullamento dell’abbonamento e i collegamenti alla pagina mirror dell’e-mail.
+* Numero di persone distinte che hanno fatto clic almeno una volta in una consegna. I collegamenti di annullamento dell’abbonamento e i collegamenti alla pagina mirror dell’e-mail sono esclusi.
 
-Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:trackingStats`). Questa tabella aggregata viene utilizzata per motivi di prestazioni quando si visualizzano i report al posto della tabella dei registri di tracciamento dei destinatari (`nms:trackingLogRcp`) e non viene calcolata in tempo reale. La tabella viene generata pochi minuti dopo il recupero dei registri di tracciamento.
-
+Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:trackingStats`). Questa tabella aggregata viene utilizzata per motivi di prestazioni durante la visualizzazione dei report, anziché per la tabella dei registri di tracciamento dei destinatari (`nms:trackingLogRcp`). Non viene calcolato in tempo reale. La tabella viene generata pochi minuti dopo il recupero dei registri di tracciamento.
 
 ## Percentuali di abbonamento {#ui-sub-kpi}
 
@@ -95,11 +91,11 @@ Queste metriche si basano sulla tabella di tracciamento consolidata (`nms:tracki
 >title="Abbonamenti"
 >abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli abbonamenti a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
 
+I destinatari possono acconsentire alle comunicazioni e-mail e SMS.
 
-I destinatari possono fornire il consenso alle comunicazioni via e-mail e SMS.
+L&#39;indicatore **Sottoscrizioni** mostra i KPI seguenti per ogni canale:
 
-L’indicatore **Abbonamenti** mostra i KPI seguenti: per ogni canale la percentuale del numero di abbonamenti rispetto al numero totale di messaggi consegnati con successo.
-
+* Percentuale del numero di abbonamenti rispetto al numero totale di messaggi consegnati con successo.
 
 >[!NOTE]
 >
@@ -112,15 +108,13 @@ L’indicatore **Abbonamenti** mostra i KPI seguenti: per ogni canale la percent
 >title="Annullamenti dell’iscrizione"
 >abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli annullamenti di iscrizione a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
 
+I destinatari devono essere in grado di rinunciare a e-mail e SMS tramite un collegamento dedicato di annullamento dell’abbonamento nel contenuto dell’e-mail o rispondendo STOP a un SMS.
 
-I destinatari devono essere in grado di ricorrere alla funzione di rinuncia alla ricezione di e-mail e SMS tramite un collegamento dedicato di annullamento dell’abbonamento nel contenuto dell’e-mail o rispondendo INTERROMPI a un SMS.
-
-L’indicatore **Annullamenti dell’abbonamento** mostra i KPI seguenti per ogni canale:
+L&#39;indicatore **Annullamenti abbonamenti** mostra i KPI seguenti per ogni canale:
 
 * Percentuale del numero di annullamenti di abbonamento rispetto al numero totale di messaggi consegnati correttamente.
 
-* La somma di tutti i clic su un collegamento di annullamento dell’abbonamento, ovvero con una categoria URL equivalente a “Rinuncia”.
-
+* Somma di tutti i clic su un collegamento di annullamento dell’abbonamento, ovvero con una categoria URL uguale a &quot;Rinuncia&quot;.
 
 >[!NOTE]
 >
@@ -133,11 +127,11 @@ L’indicatore **Annullamenti dell’abbonamento** mostra i KPI seguenti per ogn
 >title="Errori"
 >abstract="Numero totale di errori accumulati durante le consegne ed elaborazione automatica dei mancati recapiti. Il tasso associato è il rapporto con il numero di messaggi da consegnare."
 
-Alcuni messaggi inviati dalla piattaforma Adobe Campaign potrebbero non raggiungere la destinazione. Ciò può verificarsi quando l’indirizzo o il numero di telefono dell’utente contiene errori di ortografici, oppure se il destinatario ha cambiato il proprio indirizzo e-mail o se la cassetta postale è piena. Se non è possibile inviare un messaggio a un profilo, il server remoto invia automaticamente un messaggio di errore ad Adobe Campaign. Questo errore consente di determinare se l’indirizzo e-mail, il numero di telefono o il dispositivo devono essere messi in quarantena.
+Alcuni messaggi inviati dalla piattaforma Adobe Campaign potrebbero non raggiungere la destinazione. Può verificarsi quando l’indirizzo utente o il telefono ha errori di battitura, se il destinatario ha cambiato il proprio indirizzo e-mail o se la casella di posta è piena. Se non è possibile inviare un messaggio a un profilo, il server remoto invia automaticamente un messaggio di errore ad Adobe Campaign. Questo errore consente di determinare se l’indirizzo e-mail, il numero di telefono o il dispositivo devono essere messi in quarantena.
 
-Di conseguenza, devi sempre verificare e aggiornare il database e assicurarti che tutti i profili siano attivi e reali. Gli errori di consegna possono essere temporanei o permanenti, con mancati recapiti permanenti o non permanenti, a seconda del motivo per cui il messaggio non è stato consegnato.
+Controlla e aggiorna regolarmente il database e assicurati che tutti i profili siano attivi e reali. Gli errori di consegna possono essere temporanei o permanenti, soft o hard bounce, a seconda del motivo per cui il messaggio non è stato consegnato.
 
-L’indicatore **Errori** mostra i KPI seguenti per ogni canale:
+L&#39;indicatore **Errori** mostra i KPI seguenti per ogni canale:
 
 * Percentuale del numero di errori rispetto al numero totale di messaggi da consegnare.
 
@@ -150,15 +144,14 @@ L’indicatore **Errori** mostra i KPI seguenti per ogni canale:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Inviato"
->abstract="Questa metrica mostra, per il canale di direct mail, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
+>abstract="Questa metrica mostra, per il canale di direct mailing, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
 
-Durante la fase di preparazione, viene generato il file di estrazione di direct mail, ma le informazioni relative ai destinatari (ad esempio i registri di consegna) non vengono aggiornate.  Lo stato di una consegna spostata da In sospeso a Inviata quando l’utente di Campaign conferma l’invio della consegna. Quindi la consegna viene impostata su Completata.
+Durante la fase di preparazione, viene generato il file di estrazione della direct mailing, ma le informazioni relative ai destinatari (registri di consegna) non vengono aggiornate. Lo stato di una consegna passa da In sospeso a Inviato quando l’utente di Campaign conferma l’invio della consegna. Quindi la consegna viene impostata su Completata.
 
-Dal momento che alcuni indirizzi possono essere mancanti o incompleti, la percentuale dei messaggi inviati non può mai essere del 100% rispetto al totale dei messaggi preparati.
+Non può mai essere il 100% dei messaggi inviati rispetto al totale dei messaggi preparati, in quanto alcuni indirizzi possono essere mancanti o incompleti.
 
-L’indicatore **Inviati** mostra i KPI seguenti per il canale direct mail:
+L&#39;indicatore **Inviato** mostra i KPI seguenti per il canale direct mailing:
 
 * Percentuale del numero di messaggi inviati rispetto al numero totale di messaggi preparati.
 
 * Somma di tutti i messaggi inviati.
-

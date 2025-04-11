@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modifica origine dati
 description: Scopri come utilizzare l’attività del flusso di lavoro Modifica origine dati
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 16%
+source-wordcount: '354'
+ht-degree: 13%
 
 ---
 
@@ -23,15 +23,15 @@ Nei flussi di lavoro, i dati trasportati da un&#39;attività all&#39;altra trami
 
 In alcuni casi, i dati non sono disponibili nel database corrente o non sono abbastanza efficienti per eseguire operazioni unitarie. Potrebbe pertanto essere necessario forzare il flusso di lavoro a utilizzare un database diverso per eseguire tali operazioni aggiungendo un&#39;attività **[!UICONTROL Modifica origine dati]**.
 
-Informazioni dettagliate sull&#39;architettura di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Informazioni dettagliate sull&#39;architettura di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
->Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Le attività **[!UICONTROL Modifica dimensione]** e **[!UICONTROL Modifica origine dati]** non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, includi un&#39;attività **[!UICONTROL Arricchimento]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configurare l’attività Modifica origine dati {#configure}
 
-Per configurare l’attività **Cambia dimensione** segui questi passaggi:
+Per configurare l&#39;attività **Modifica origine dati**, eseguire la procedura seguente:
 
-![](../assets/workflow-change-data-source-add.png)
+![Schermata che mostra come aggiungere l&#39;attività Modifica origine dati a un flusso di lavoro.](../assets/workflow-change-data-source-add.png)
 
 1. Aggiungi un&#39;attività **Modifica origine dati** al flusso di lavoro.
 
@@ -65,6 +65,6 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

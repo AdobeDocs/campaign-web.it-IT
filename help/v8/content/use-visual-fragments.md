@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Aggiungi frammenti visivi alle e-mail
+title: Aggiungere frammenti visivi alle e-mail
 description: Scopri come aggiungere frammenti visivi alle e-mail
 badge: label="Disponibilità limitata"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 14%
+source-wordcount: '609'
+ht-degree: 13%
 
 ---
 
-# Aggiungi frammenti visivi alle e-mail {#use-visual-fragments}
+# Aggiungere frammenti visivi alle e-mail {#use-visual-fragments}
 
 >[!AVAILABILITY]
 >
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 Nell&#39;interfaccia Web di Campaign, i **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più [consegne e-mail](../email/get-started-email-designer.md) o in [modelli di contenuto](../email/use-email-templates.md). Scopri come creare e gestire frammenti di contenuto in [questa sezione](fragments.md).
 
-![](assets/do-not-localize/fragments.gif)
+![Rappresentazione visiva dei frammenti visivi in uso](assets/do-not-localize/fragments.gif)
 
 ## Utilizzare un frammento visivo {#use-fragment}
 
@@ -30,31 +30,31 @@ Nell&#39;interfaccia Web di Campaign, i **frammenti visivi** sono blocchi visivi
 
 <!-- pas vu dans l'UI-->
 
-Per inserire un frammento visivo in un contenuto e-mail, effettua le seguenti operazioni:
+Per inserire un frammento visivo nel contenuto dell’e-mail, effettua le seguenti operazioni:
 
 1. Apri qualsiasi contenuto e-mail o modello utilizzando [E-mail Designer](../email/get-started-email-designer.md).
 
 1. Seleziona l&#39;icona **[!UICONTROL Frammenti]** dalla barra a sinistra.
 
-   ![](assets/fragments-in-designer.png)
+   ![Schermata che mostra l&#39;icona Frammenti nell&#39;interfaccia di E-mail Designer](assets/fragments-in-designer.png)
 
 1. Viene visualizzato l’elenco di tutti i frammenti visivi creati nella sandbox corrente. Puoi eseguire le seguenti azioni:
 
-   * Cerca un frammento specifico iniziando a digitarne l’etichetta.
+   * Cerca un frammento specifico digitandone l’etichetta.
    * Ordina i frammenti in ordine crescente o decrescente.
    * Modifica la modalità di visualizzazione dei frammenti (scheda o elenco).
 
    >[!NOTE]
    >
-   >I frammenti sono ordinati per data di creazione: i frammenti aggiunti di recente vengono visualizzati per primi nell’elenco.
+   >I frammenti sono ordinati per data di creazione. I frammenti aggiunti di recente vengono visualizzati per primi nell’elenco.
 
-   Se alcuni frammenti visivi sono stati modificati o aggiunti durante la modifica del contenuto, fai clic sull&#39;icona **Aggiorna** per aggiornare l&#39;elenco con le modifiche più recenti.
+   Se durante la modifica del contenuto vengono modificati o aggiunti frammenti visivi, fare clic sull&#39;icona **Aggiorna** per aggiornare l&#39;elenco con le modifiche più recenti.
 
 1. Trascina un frammento visivo dall’elenco nell’area in cui desideri inserirlo. Come qualsiasi altro componente, puoi spostare il frammento all’interno del contenuto.
 
 1. Seleziona il frammento per visualizzarne le opzioni nel riquadro a destra.
 
-   ![](assets/fragment-right-pane.png)
+   ![Schermata che mostra le opzioni del frammento nel riquadro di destra](assets/fragment-right-pane.png)
 
    Dalla scheda **[!UICONTROL Impostazioni]** puoi effettuare le seguenti operazioni:
 
@@ -63,31 +63,31 @@ Per inserire un frammento visivo in un contenuto e-mail, effettua le seguenti op
 
      Puoi personalizzare ulteriormente il frammento utilizzando la scheda **[!UICONTROL Stili]**.
 
-1. Se necessario, puoi interrompere l’ereditarietà con il frammento visivo originale. [Ulteriori informazioni](#break-inheritance)
+1. Se necessario, interrompi l’ereditarietà con il frammento visivo originale. [Ulteriori informazioni](#break-inheritance)
 
-   Puoi anche eliminare il frammento dal contenuto o duplicarlo. Queste azioni possono essere eseguite direttamente dal menu contestuale visualizzato sopra il frammento.
+   Puoi anche eliminare il frammento dal contenuto o duplicarlo. Esegui queste azioni direttamente dal menu contestuale visualizzato sopra il frammento.
 
-1. Aggiungi tutti i frammenti visivi desiderati e **[!UICONTROL Salva]** le modifiche.
+1. Aggiungi tutti i frammenti visivi necessari e **[!UICONTROL Salva]** le modifiche.
 
 ### Frammento visivo in modalità di sola lettura {#fragment-readonly}
 
 I diritti di accesso possono essere applicati ai frammenti visivi.
 
-Se non si dispone delle autorizzazioni di modifica per un particolare frammento visivo, il modello di contenuto verrà visualizzato in **modalità di sola lettura**. In questo caso, il pulsante **[!UICONTROL Modifica contenuto]** viene sostituito dal pulsante **[!UICONTROL Visualizza contenuto]**, che consente di visualizzare il frammento senza apportare modifiche.
+Se l&#39;edizione delle autorizzazioni non è concessa per un particolare frammento visivo, il modello di contenuto verrà visualizzato in **modalità di sola lettura**. In questo caso, il pulsante **[!UICONTROL Modifica contenuto]** viene sostituito dal pulsante **[!UICONTROL Visualizza contenuto]**, che consente di visualizzare il frammento senza apportare modifiche.
 
-![](assets/fragment-readonly.png){zoomable="yes"}
+![Schermata che mostra un frammento visivo in modalità di sola lettura](assets/fragment-readonly.png){zoomable="yes"}
 
 Come mostrato di seguito, tutte le icone delle funzioni sono disattivate, limitando l’interazione alla sola visualizzazione.
 
-![](assets/fragment-readonly-view.png){zoomable="yes"}
+![Schermata che mostra le icone delle funzionalità disattivate in modalità di sola lettura](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Interrompi ereditarietà {#break-inheritance}
 
-Quando modifichi un frammento visivo, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutte le consegne e-mail e ai modelli di contenuto contenenti tale frammento.
+Quando modifichi un frammento visivo, le modifiche vengono sincronizzate e propagate automaticamente a tutte le consegne e-mail e ai modelli di contenuto contenenti tale frammento.
 
-I frammenti aggiunti a un messaggio e-mail o a un modello di contenuto vengono sincronizzati per impostazione predefinita.
+Per impostazione predefinita, i frammenti vengono sincronizzati quando vengono aggiunti a un messaggio e-mail o a un modello di contenuto.
 
-Tuttavia, puoi interrompere l’ereditarietà dal frammento originale. In tal caso, il contenuto del frammento viene copiato nella progettazione corrente e le modifiche non vengono più sincronizzate.
+Tuttavia, puoi interrompere l’ereditarietà dal frammento originale. In questo caso, il contenuto del frammento viene copiato nella progettazione corrente e le modifiche non vengono più sincronizzate.
 
 Per interrompere l’ereditarietà, effettua le seguenti operazioni:
 
@@ -95,6 +95,6 @@ Per interrompere l’ereditarietà, effettua le seguenti operazioni:
 
 1. Fai clic sull’icona Sblocca nella barra degli strumenti contestuale.
 
-   ![](assets/fragment-break-inheritance.png)
+   ![Schermata che mostra l&#39;icona Sblocca per interrompere l&#39;ereditarietà](assets/fragment-break-inheritance.png)
 
 1. Il frammento diventa un elemento autonomo non più collegato al frammento originale. Modificalo come qualsiasi altro componente del contenuto. [Ulteriori informazioni](../email/content-components.md)

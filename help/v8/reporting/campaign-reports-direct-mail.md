@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne per il canale Direct mail
 description: Comprendere i rapporti sulle campagne per il canale Direct mail
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 76%
+source-wordcount: '554'
+ht-degree: 42%
 
 ---
 
@@ -25,7 +25,7 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 
 La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics) e offre informazioni approfondite sull&#39;interazione dei visitatori con ogni consegna direct mailing. Le metriche sono descritte di seguito.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![Panoramica delle metriche di consegna della campagna di direct mailing](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -33,7 +33,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Errori]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Errori]**: totale degli errori accumulati durante la consegna e l&#39;elaborazione automatica della restituzione, in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Clic totali]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
 
@@ -46,9 +46,9 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 >title="Statistiche iniziali sul pubblico target"
 >abstract="I dati del destinatario e le informazioni sul messaggio vengono visualizzati nella tabella **Statistiche iniziali sul pubblico target** che riflette l’analisi della preparazione della consegna."
 
-La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano: il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
+Nella tabella **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** sono visualizzati i dati relativi ai destinatari. Le metriche vengono calcolate durante la preparazione della consegna e mostrano il pubblico iniziale, il numero di messaggi da inviare e il numero di destinatari esclusi.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![Statistiche del pubblico di destinazione iniziale per le campagne Direct mail](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche sul pubblico di destinazione iniziale.
 
@@ -56,7 +56,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
+* **[!UICONTROL Rifiutato dalle regole]**: numero totale di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione di regole, ad esempio indirizzi mancanti, indirizzi messi in quarantena o indirizzi in un inserisco nell&#39;elenco Bloccati di.
 
 +++
 
@@ -67,19 +67,19 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 >title="Statistiche consegna"
 >abstract="La tabella **Statistiche di esecuzione** descrive il successo della consegna direct mail e gli errori che si sono verificati."
 
-![](assets/direct-mail-campaign-exec.png)
+![Statistiche di esecuzione per le campagne Direct Mail](assets/direct-mail-campaign-exec.png)
 
-La tabella **[!UICONTROL Statistiche di esecuzione]** fornisce una suddivisione del successo di ogni consegna di direct mailing, con le metriche dettagliate descritte di seguito.
+La tabella **[!UICONTROL Statistiche di esecuzione]** fornisce una suddivisione del completamento di ogni consegna direct mailing, con le metriche dettagliate descritte di seguito.
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Operazione completata]**: numero di messaggi elaborati correttamente, in relazione al numero di messaggi da recapitare.
 
-* **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Errori]**: totale degli errori accumulati durante le consegne e l&#39;elaborazione automatica del rebound, in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena in seguito a una consegna non riuscita (ad esempio, utente sconosciuto, dominio non valido), in relazione al numero di messaggi da recapitare.
 
 +++
 
@@ -90,7 +90,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** fornisce una suddivisione 
 >title="Flussi di clic generati"
 >abstract="La tabella **Flussi di clic generati** mostra i dati disponibili relativi al modo in cui i destinatari hanno interagito con la consegna."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![Fare clic sui dati di flusso per le campagne Direct mail](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 La tabella **Flussi di clic generati** illustra i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
@@ -100,6 +100,6 @@ La tabella **Flussi di clic generati** illustra i motivi che hanno impedito ai p
 
 * **[!UICONTROL Clic totali]**: numero totale di clic sui collegamenti nelle consegne.
 
-* **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
+* **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari di destinazione che hanno fatto clic in una consegna e il numero stimato di destinatari di destinazione che hanno aperto una consegna.
 
 +++

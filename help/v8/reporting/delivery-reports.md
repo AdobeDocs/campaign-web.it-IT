@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne
 description: Scopri come accedere ai rapporti sulle consegne e utilizzarli
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 73%
+source-wordcount: '286'
+ht-degree: 39%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 73%
 >title="Reportistica aggregata per le consegne"
 >abstract="Seleziona almeno due consegne per visualizzare un rapporto di dati aggregati."
 
-I **Rapporti sulle consegne** forniscono informazioni approfondite e dati incentrati esclusivamente sulle **consegne** attraverso ciascun canale. Tali rapporti forniscono una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
+I **Rapporti sulle consegne** forniscono informazioni approfondite e dati incentrati esclusivamente sulle **consegne** attraverso ciascun canale. Questi rapporti offrono informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne, fornendo una panoramica completa.
 
-L’elenco completo dei rapporti e delle metriche associate a ciascun canale è disponibile nelle pagine seguenti:
+L’elenco completo dei rapporti e delle metriche associate per ciascun canale è disponibile nelle pagine seguenti:
 
 * [Rapporti sulle consegne e-mail](email-report.md)
 * [Rapporti sulle consegne SMS](sms-report.md)
@@ -28,32 +28,32 @@ L’elenco completo dei rapporti e delle metriche associate a ciascun canale è 
 
 ## Gestire la dashboard dei report {#manage-reports}
 
-Adobe Campaign offre diversi tipi di rapporti, accessibili per ogni consegna. Questi rapporti consentono di misurare e visualizzare l’impatto e le prestazioni dei messaggi in una dashboard integrata.
+Adobe Campaign offre diversi tipi di rapporti, accessibili per ogni consegna. Questi rapporti misurano e visualizzano l’impatto e le prestazioni dei messaggi in una dashboard incorporata.
 
 Per visualizzare e gestire i rapporti, effettua le seguenti operazioni:
 
-1. Per generare un rapporto per una consegna specifica, passa al menu **[!UICONTROL Consegne]** e seleziona la consegna di cui desideri generare il rapporto.
+1. Per generare un rapporto per una consegna specifica, passa al menu **[!UICONTROL Consegne]** e seleziona la consegna per la quale vuoi creare un rapporto.
 
 1. Dalla dashboard **[!UICONTROL Consegna]**, fai clic su **[!UICONTROL Rapporti]**.
 
-   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
+   ![Dashboard di consegna che mostra l&#39;opzione Report](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   In alternativa, puoi utilizzare il pulsante tre punti **Altre azioni** accanto al nome della consegna nell&#39;elenco delle consegne e selezionare **[!UICONTROL Visualizza rapporto]**.
+   In alternativa, utilizza il pulsante tre punti **Altre azioni** accanto al nome della consegna nell&#39;elenco delle consegne e seleziona **[!UICONTROL Visualizza rapporto]**.
 
-   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
+   ![Elenco consegne con pulsante Altre azioni evidenziato](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. Dal menu a sinistra, seleziona un rapporto dall’elenco.
 
-   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
+   ![Menu di selezione report nel pannello sinistro](assets/manage_delivery_report_3.png){zoomable="yes"}
 
 1. Se la consegna è ricorrente, puoi selezionare una consegna specifica su cui generare il rapporto facendo clic su **[!UICONTROL Seleziona consegne]**.
 
    Puoi anche applicare un periodo di tempo al rapporto selezionando la **[!UICONTROL Data di contatto]**.
 
-   ![](assets/delivery-recurring.png){zoomable="yes"}
+   ![Selezione di consegne ricorrenti con opzione data di contatto](assets/delivery-recurring.png){zoomable="yes"}
 
-1. Dai **[!UICONTROL URL e flussi di clic]**, puoi anche scegliere i **[!UICONTROL Collegamenti più visitati]** o il **[!UICONTROL periodo di tempo]**.
+1. Dai **[!UICONTROL URL e dai flussi di clic]**, scegli i **[!UICONTROL Collegamenti più visitati]** o il **[!UICONTROL periodo di tempo]**.
 
-   Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare in base a URL, etichette o categorie.
+   Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare URL, etichette o categorie.
 
-   ![](assets/manage_delivery_report_5.png){zoomable="yes"}
+   ![Visualizza per opzioni per il filtro di URL, etichette o categorie](assets/manage_delivery_report_5.png){zoomable="yes"}

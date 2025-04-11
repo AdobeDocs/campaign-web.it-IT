@@ -3,43 +3,43 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 56%
+source-wordcount: '2310'
+ht-degree: 37%
 
 ---
 
+
 # Creare la prima query {#build-query}
 
-Per iniziare a creare una query, accedi al query modeler dalla posizione desiderata, a seconda dell’azione da eseguire. Verrà visualizzato il query modeler con un’area di lavoro vuota. Fai clic sul pulsante **+** per configurare il primo nodo della query.
+Per iniziare a creare una query, accedi al query modeler dalla posizione desiderata, a seconda dell’azione da eseguire. Il modellatore di query si apre con un’area di lavoro vuota. Fai clic sul pulsante **+** per configurare il primo nodo della query.
 
 Puoi aggiungere due tipi di elementi:
 
-* **Componenti per il filtro** (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consente di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare i componenti per il filtro](#filtering)
+* **I componenti filtro** (condizione personalizzata, Seleziona pubblico, filtro predefinito) ti consentono di creare regole personalizzate, selezionare un pubblico o utilizzare un filtro predefinito per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare i componenti per il filtro](#filtering)
 
-  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;*. *Destinatari che vivono a New York*, *Destinatari che vivono a San Francisco*
+  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;*, *Destinatari residenti a New York*, *Destinatari residenti a San Francisco*
 
-  ![](assets/query-add-component.png){zoomable="yes"}
+  ![Esempio di aggiunta di componenti di filtro a una query.](assets/query-add-component.png){zoomable="yes"}
 
 * **Gli operatori di gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma. Vengono aggiunte alle transizioni esistenti prima di un componente di filtro. [Scopri come utilizzare gli operatori](#filtering)
 
   Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**che vivono a New York **OR**San Francisco*.
 
-  ![](assets/query-add-operator.png){zoomable="yes"}
+  ![Descrizione: esempio di aggiunta di operatori di gruppo a una query.](assets/query-add-operator.png){zoomable="yes"}
 
 ## Distribuzione dei valori in una query {#distribution-values-query}
 
-La distribuzione dei valori mostra la percentuale di ciascun valore di un campo all’interno di una tabella, in base ai parametri di query correnti. Conoscere la distribuzione dei valori all’interno di una query può aiutarti a perfezionare la segmentazione.
+La distribuzione dei valori mostra la percentuale di ciascun valore di un campo all’interno di una tabella, in base ai parametri di query correnti. Conoscere la distribuzione dei valori all’interno di una query aiuta a perfezionare la segmentazione.
 
 Per accedere a questa opzione, nella query fai clic sul pulsante di selezione dell’attributo come mostrato di seguito. Quindi, fai clic sull&#39;icona **[!UICONTROL Informazioni]** accanto all&#39;attributo selezionato. Puoi accedere al pulsante **[!UICONTROL Distribuzione di valori]**.
 
-![](assets/values_query.png){zoomable="yes"}
+![Descrizione: accesso all&#39;opzione di distribuzione dei valori in una query.](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
->* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In tal caso, un avviso **[!UICONTROL Carico parziale]** ti avvisa.
->
+>* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In questi casi, un avviso di notifica **[!UICONTROL Carico parziale]** ti avvisa.
 >* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi. [Scopri come selezionare gli attributi](../get-started/attributes.md)
 >* Puoi aggiungere condizioni ai risultati utilizzando **[!Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
 
@@ -60,50 +60,50 @@ I componenti per il filtro consentono di perfezionare la query utilizzando:
 
 Per filtrare la query utilizzando una condizione personalizzata, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante **+** sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**. Il pannello delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
+1. Fai clic sul pulsante **+** sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**. Il riquadro delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
 
-1. Nel campo **Attributo**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database Campaign, inclusi quelli delle tabelle collegate. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../get-started/attributes.md)
+1. Nel campo **Attributo** selezionare l&#39;attributo dal database che si desidera utilizzare per creare la condizione. L’elenco degli attributi include tutti gli attributi del database di Campaign, inclusi quelli delle tabelle collegate. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../get-started/attributes.md)
 
-   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
+   ![Selezione degli attributi per una condizione personalizzata in una query.](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Il pulsante **Modifica espressione** consente di sfruttare l&#39;editor espressioni Web di Campaign per definire manualmente un&#39;espressione utilizzando i campi delle funzioni di supporto e del database. [Scopri come modificare le espressioni](expression-editor.md)
+   >Il pulsante **Modifica espressione** consente di utilizzare l&#39;editor espressioni Web di Campaign per definire manualmente un&#39;espressione utilizzando i campi delle funzioni di supporto e del database. [Scopri come modificare le espressioni](expression-editor.md)
 
 1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
    +++Elenco degli operatori disponibili
 
    | Operatore | Scopo | Esempio |
-   |  ---  |  ---  |  ---  |
-   | Uguale a | Restituisce un risultato identico ai dati immessi nella seconda colonna Valore. | Cognome (@lastName) uguale a “Jones”, restituirà solo i destinatari il cui cognome è Jones. |
-   | Non uguale a | Restituisce tutti i valori non identici al valore inserito. | Lingua (@language) uguale a “Inglese” |
-   | Maggiore di | Restituisce un valore maggiore del valore immesso. | Età (@age) maggiore di 50 anni</strong>, restituirà tutti i valori maggiori di “50”, ovvero “51”, “52”, ecc. |
-   | Minore di | Restituisce un valore minore del valore immesso. | Data di creazione (@created) prima di “DaysAgo(100)”</strong>, restituirà tutti i destinatari creati meno di 100 giorni fa. |
-   | Maggiore o uguale a | Restituisce tutti i valori uguali o maggiori del valore immesso. | Età (@age) maggiore o uguale a “30”</strong>, restituirà tutti i destinatari con un’età pari o superiore ai 30 anni. |
-   | Minore o uguale a | Restituisce tutti i valori uguali o inferiori al valore immesso. | Età (@age) minore o uguale a “60”</strong>, restituirà tutti i destinatari di età uguale o inferiore ai 60 anni. |
-   | Incluso in | Restituisce i risultati inclusi nei valori indicati. Questi valori devono essere separati da una virgola. | La data di nascita (@birthDate) inclusa in “10/12/1979,10/12/1984” restituirà i destinatari nati nell’intervallo tra queste date. |
-   | Non in | Funziona come l’operatore Incluso in. In questo caso, desideriamo escludere i destinatari in base ai valori immessi. | La data di nascita (@birthDate) non è inclusa in “10/12/1979,10/12/1984”. A differenza dell’esempio precedente, i destinatari nati in questo intervallo di date non verranno restituiti. |
-   | È vuoto | In questo caso, il risultato che stiamo cercando corrisponde a un valore vuoto nella seconda colonna Valore. | Cellulare (@mobilePhone) è vuoto restituisce tutti i destinatari che non hanno un numero di cellulare. |
+   |---|---|---|
+   | Uguale a | Restituisce un risultato identico ai dati immessi nella seconda colonna Valore. | Il cognome (@lastName) uguale a &quot;Jones&quot; restituirà solo i destinatari il cui cognome è Jones. |
+   | Non uguale a | Restituisce tutti i valori non identici al valore inserito. | Lingua (@language) non uguale a &#39;Inglese&#39;. |
+   | Maggiore di | Restituisce un valore maggiore del valore immesso. | L&#39;età (@age) maggiore di 50 restituirà tutti i valori maggiori di &#39;50&#39;, ad esempio &#39;51&#39;, &#39;52&#39;. |
+   | Minore di | Restituisce un valore minore del valore immesso. | La data di creazione (@created) prima di &#39;DaysAgo(100)&#39; restituirà tutti i destinatari creati meno di 100 giorni fa. |
+   | Maggiore o uguale a | Restituisce tutti i valori uguali o maggiori del valore immesso. | L’età (@age) maggiore o uguale a &quot;30&quot; restituirà tutti i destinatari di età pari o superiore a 30 anni. |
+   | Minore o uguale a | Restituisce tutti i valori uguali o inferiori al valore immesso. | L’età (@age) inferiore o uguale a &quot;60&quot; restituirà tutti i destinatari di età pari o inferiore a 60 anni. |
+   | Incluso in | Restituisce i risultati inclusi nei valori indicati. Questi valori devono essere separati da una virgola. | La data di nascita (@birthDate) è inclusa in &quot;12/10/1979,12/10/1984&quot; per restituire i destinatari nati tra queste date. |
+   | Non in | Funziona come l’operatore Incluso in. In questo caso, i destinatari vengono esclusi in base ai valori immessi. | La data di nascita (@birthDate) non è inclusa in “10/12/1979,10/12/1984”. I destinatari nati in queste date non verranno restituiti. |
+   | È vuoto | Restituisce risultati che corrispondono a un valore vuoto nella seconda colonna Valore. | Cellulare (@mobilePhone) è vuoto restituisce tutti i destinatari che non hanno un numero di cellulare. |
    | Non è vuoto | Funziona in modo inverso rispetto all’operatore È vuoto. Non è necessario immettere dati nella seconda colonna Valore. | Il campo E-mail (@email) non è vuoto. |
-   | Inizia con | Restituisce i risultati a partire dal valore immesso. | Account # (@account) inizia con “32010”. |
-   | Non inizia con | Restituisce i risultati che non iniziano con il valore immesso | Account # (@account) non inizia con “20” |
-   | Contiene | Restituisce i risultati che contengono almeno il valore immesso. | Il dominio e-mail (@domain) contiene “mail”</strong>, restituirà tutti i nomi di dominio che contengono “mail”. Quindi verrà restituito anche il dominio “gmail.com”. |
-   | Non contiene | Restituisce risultati che non contengono il valore immesso. | Il dominio e-mail (@domain) non contiene “vo”</strong>. In questo caso, i nomi di dominio che contengono “vo” non verranno restituiti. Il nome di dominio “voilà.fr” non verrà visualizzato nei risultati. |
-   | Simile a | Simile a è identico all’operatore Contiene. Ti consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Qui, il carattere jolly viene usato come un “jolly” per trovare il nome “Jones”, nel caso in cui l’operatore avesse dimenticato la lettera mancante tra la “n” e la “s”. |
-   | Diverso da | Simile a è identico all’operatore Contiene. Ti consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. In questo caso, i destinatari con il cognome è “Smi%h” non verranno restituiti. |
+   | Inizia con | Restituisce i risultati che iniziano con il valore inserito. | Account # (@account) inizia con “32010”. |
+   | Non inizia con | Restituisce i risultati che non iniziano con il valore inserito. | Il numero account (@account) non inizia con &quot;20&quot;. |
+   | Contiene | Restituisce risultati contenenti almeno il valore inserito. | Il dominio e-mail (@domain) contiene &#39;mail&#39; restituirà tutti i nomi di dominio che contengono &#39;mail&#39;, ad esempio &#39;gmail.com&#39;. |
+   | Non contiene | Restituisce risultati che non contengono il valore immesso. | Il dominio e-mail (@domain) non contiene &#39;vo&#39;. I nomi di dominio contenenti &#39;vo&#39;, ad esempio &#39;voilà.fr&#39;, non verranno visualizzati nei risultati. |
+   | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
+   | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
 
 +++
 
-1. Nel campo **Valore**, definisci il valore previsto. Puoi anche sfruttare l’editor di espressioni di Campaign Web per definire manualmente un’espressione utilizzando i campi dal database e le funzioni Helper. A tale scopo, fare clic sul pulsante **Modifica espressione**. [Scopri come modificare le espressioni](expression-editor.md)
+1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e di database. A tale scopo, fare clic sul pulsante **Modifica espressione**. [Scopri come modificare le espressioni](expression-editor.md)
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
-   ![](assets/query-custom-condition.png){zoomable="yes"}
+   ![Esempio di query per il targeting di profili di età pari o superiore a 21 anni.](assets/query-custom-condition.png){zoomable="yes"}
 
    Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzando l&#39;opzione **[!UICONTROL Predefiniti]**.
 
-   ![](assets/date-presets.png){zoomable="yes"}
+   ![Esempio di utilizzo di predefiniti di data in una query.](assets/date-presets.png){zoomable="yes"}
 
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -119,15 +119,15 @@ In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot
 
 1. Naviga nella tabella **Brand** e seleziona l&#39;attributo **Label**.
 
-   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Schermata della tabella dei marchi](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Definisci il valore previsto per l’attributo.
 
-   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Esempio di valore previsto definito](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 Di seguito è riportato un esempio di query in cui è stato selezionato direttamente un collegamento di tabella. I valori disponibili per questa tabella devono essere selezionati da un selettore dedicato.
 
-![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Esempio di query](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -139,19 +139,19 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
 1. Seleziona la tabella **Acquisti** e conferma.
 
-   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+   ![Schermata della tabella Acquisti](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
 
-   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![Esempio di transizione in uscita](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Seleziona l&#39;attributo **Prezzo** e esegui acquisti target di almeno 1000$
 
-   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   ![Schermata dell&#39;attributo Prezzo](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Aggiungi condizioni secondarie in base alle tue esigenze. Qui abbiamo aggiunto una condizione per eseguire il targeting dei profili che hanno acquistato un prodotto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+   ![Esempio di condizioni secondarie](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -161,11 +161,11 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
 
 1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
 
-   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Schermata dell&#39;elenco di attributi](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Nel riquadro delle proprietà, attivare l&#39;opzione **Aggregate data** e selezionare la funzione di aggregazione desiderata.
 
-   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+   ![Schermata dell&#39;opzione Aggregate data](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### Selezionare un pubblico {#audiences}
 
@@ -182,7 +182,7 @@ Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti op
 
    *Esempio di query che restituisce tutti i profili appartenenti al pubblico “Partecipanti al festival”:*
 
-   ![](assets/query-audience.png){zoomable="yes"}
+   ![Schermata di un esempio di query](assets/query-audience.png){zoomable="yes"}
 
 ### Utilizzare un filtro preimpostato {#predefined-filters}
 
@@ -199,7 +199,7 @@ Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti o
 
    *Esempio di query che restituisce tutti i profili corrispondenti al filtro preimpostato “Clienti inattivi”:*
 
-   ![](assets/query-predefined-filter.png){zoomable="yes"}
+   ![Schermata di un esempio di query](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### Copiare e incollare componenti {#copy}
 
@@ -221,7 +221,7 @@ Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
 1. Per incollare i componenti, fai clic sul pulsante + alla fine della transizione desiderata e seleziona **Incolla n elementi**.
 
-   ![](assets/copy-paste.png){zoomable="yes"}
+   ![Esempio di incollamento dei componenti](assets/copy-paste.png){zoomable="yes"}
 
 ## Combinare componenti di filtraggio con operatori {#operators}
 
@@ -234,7 +234,7 @@ Ogni volta che si aggiunge un nuovo componente di filtro alla query, questo vien
 
 In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il tipo di pubblico alla seconda transizione. Il componente è collegato alla condizione di filtro predefinita con un operatore **AND**, il che significa che i risultati della query includono destinatari del filtro predefinito &quot;Madridians&quot; E appartenenti al pubblico &quot;Discount hunters&quot;.
 
-![](assets/query-operator.png){zoomable="yes"}
+![Esempio di query](assets/query-operator.png){zoomable="yes"}
 
 Per modificare l&#39;operatore utilizzato per collegare insieme le condizioni di filtro, fare clic su di esso e selezionare l&#39;operatore desiderato nel riquadro **Gruppo** visualizzato sul lato destro.
 
@@ -244,13 +244,13 @@ Gli operatori disponibili sono:
 * **OR (Unione)**: include i risultati che corrispondono ad almeno uno dei componenti di filtraggio nelle transizioni in uscita.
 * **ECCETTO (esclusione)**: esclude i risultati che corrispondono a tutti i componenti di filtraggio nella transizione in uscita.
 
-![](assets/query-operator-change.png){zoomable="yes"}
+![Esempio di query](assets/query-operator-change.png){zoomable="yes"}
 
 È inoltre possibile creare gruppi intermedi di componenti facendo clic sul pulsante **+** su una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
 
-Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP da ricompensare&quot; o &quot;Super VIP&quot;.
+Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP to reward&quot; (Da a ricompensare) o &quot;Super VIP&quot; (Super).
 
-![](assets/query-intermediate-group.png){zoomable="yes"}
+![Esempio di query](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## Controllare e convalidare la query
 
@@ -274,4 +274,5 @@ Quando la query è pronta, fai clic sul pulsante **[!UICONTROL Conferma]** nell&
 
 Puoi modificare la query in qualsiasi momento aprendola. Tenere presente che all&#39;apertura di una query esistente, questa viene visualizzata in una visualizzazione semplificata senza la visibilità di **+** pulsanti. Per aggiungere nuovi elementi alla query, selezionare un componente o un operatore nell&#39;area di lavoro per visualizzare i pulsanti **+**.
 
-![](assets/edit-audience.png){zoomable="yes"}
+![Esempio di query](assets/edit-audience.png){zoomable="yes"}
+

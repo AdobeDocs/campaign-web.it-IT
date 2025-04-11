@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -36,49 +36,45 @@ ht-degree: 100%
 
 In Adobe Campaign le cartelle sono oggetti che consentono di organizzare i componenti e i dati.
 
-È possibile creare, rinominare, riordinare e spostare cartelle nella struttura di navigazione. Puoi anche eliminarle in base ai tuoi diritti.
+È possibile creare, rinominare, riordinare e spostare cartelle nella struttura di navigazione. Puoi anche eliminarli in base ai tuoi diritti.
 
-![](assets/folders.png){zoomable="yes"}
+![Interfaccia delle cartelle con l&#39;organizzazione delle cartelle](assets/folders.png){zoomable="yes"}
 
-Puoi impostare un tipo di cartella. Ad esempio: una cartella di consegne.
-L’icona della cartella cambia in base a questo tipo.
+Puoi impostare un tipo di cartella. Ad esempio, una cartella di consegne. L’icona della cartella cambia in base al tipo.
 
 ## Creare una nuova cartella {#create-a-folder}
 
 Per creare una nuova cartella nell’interfaccia utente di Adobe Campaign Web, segui questi passaggi:
 
-1. In **[!UICONTROL Explorer]**, passa alla cartella in cui desideri creare la nuova cartella.
-Nel menu **[!UICONTROL ...]**, è disponibile **[!UICONTROL Crea nuova cartella]**
+1. In **[!UICONTROL Explorer]**, vai alla cartella in cui desideri creare la nuova cartella. Nel menu **[!UICONTROL ...]**, seleziona **[!UICONTROL Crea nuova cartella]**.
 
-![](assets/folder_create.png){zoomable="yes"}
+![Opzione Crea nuova cartella nel menu Esplora risorse](assets/folder_create.png){zoomable="yes"}
 
-Per impostazione predefinita, quando viene creata una nuova cartella, il tipo di cartella è quello della cartella principale. Nel nostro esempio, creiamo una cartella nella cartella **[!UICONTROL Consegne]**.
+Quando si crea una nuova cartella, per impostazione predefinita il tipo di cartella corrisponde al tipo della cartella padre. In questo esempio viene creata una cartella nella cartella **[!UICONTROL Deliveries]**.
 
-![](assets/folder_new.png){zoomable="yes"}
+![Nuova cartella creata nella cartella Consegne](assets/folder_new.png){zoomable="yes"}
 
-1. Modifica il tipo di cartella facendo clic sull’icona Tipo cartella, se necessario, e selezionala nell’elenco presentato, come segue:
+1. Modifica il tipo di cartella facendo clic sull’icona del tipo di cartella, se necessario, e seleziona il tipo desiderato dall’elenco mostrato di seguito:
 
-![](assets/folder_type.png){zoomable="yes"}
+![Interfaccia di selezione del tipo di cartella](assets/folder_type.png){zoomable="yes"}
 
-Imposta il tipo di cartella facendo clic sul pulsante **[!UICONTROL Conferma]**.
+Impostare il tipo di cartella facendo clic sul pulsante **[!UICONTROL Conferma]**.
 
-Per creare una cartella senza un tipo specifico, scegli il tipo **[!UICONTROL Cartella generica]**.
+Se si desidera creare una cartella senza un tipo specifico, selezionare il tipo **[!UICONTROL Cartella generica]**.
 
 È, inoltre, possibile [creare e gestire cartelle nella console di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-
 ## Riordinare le cartelle {#reorder-folders}
 
-Puoi riordinare le cartelle in base alle tue esigenze. A tale scopo, fai clic su **[!UICONTROL Riordina cartelle]** come mostrato di seguito.
+Puoi riordinare le cartelle in base alle tue esigenze. A tale scopo, fare clic su **[!UICONTROL Riordina cartelle]**, come illustrato di seguito.
 
-Nel nostro esempio, la cartella **Consegne** contiene 4 cartelle.
+In questo esempio, la cartella **Deliveries** contiene quattro sottocartelle.
 
-![](assets/folder-reorder.png){zoomable="yes"}
+![Riordina l&#39;interfaccia delle cartelle con la gerarchia di cartelle](assets/folder-reorder.png){zoomable="yes"}
 
-Puoi cambiare l’ordine delle cartelle **trascinandole** oppure utilizzando le icone **freccia su e freccia giù.**
+È possibile modificare l&#39;ordine delle cartelle **trascinando** o utilizzando **frecce verso l&#39;alto e verso il basso**.
 
-![](assets/folder-draganddrop.png){zoomable="yes"}
-
+![Funzionalità di trascinamento per il riordinamento delle cartelle](assets/folder-draganddrop.png){zoomable="yes"}
 
 ## Eliminare una cartella {#delete-a-folder}
 
@@ -86,45 +82,44 @@ Puoi cambiare l’ordine delle cartelle **trascinandole** oppure utilizzando le 
 >
 >Durante l’eliminazione di una cartella, vengono eliminati anche tutti i dati memorizzati al suo interno.
 
-Per eliminare una cartella, selezionala nella struttura **[!UICONTROL Explorer]** e fai clic sul menu **[!UICONTROL ...]**.
-Scegli **[!UICONTROL Elimina cartella]**.
+Per eliminare una cartella, selezionarla nella struttura **[!UICONTROL Explorer]** e fare clic sul menu **[!UICONTROL ...]**. Scegli **[!UICONTROL Elimina cartella]**.
 
-![](assets/folder_delete.png){zoomable="yes"}
+![Elimina cartella dal menu Esplora risorse](assets/folder_delete.png){zoomable="yes"}
 
 ## Distribuzione dei valori in una cartella {#distribution-values-folder}
 
-La distribuzione dei valori consente di conoscere la percentuale di un valore in una colonna di una tabella.
+La distribuzione dei valori consente di comprendere la percentuale di un valore in una colonna all&#39;interno di una tabella.
 
-Per conoscere la distribuzione dei valori in una cartella, procedere come segue:
+Per visualizzare la distribuzione dei valori in una cartella, procedere come spiegato di seguito.
 
-Ad esempio, tra le consegne, desideriamo conoscere la distribuzione dei valori della colonna **Canale**.
+Ad esempio, tra le consegne, potrebbe essere utile conoscere la distribuzione dei valori nella colonna **Canale**.
 
-Per ottenere queste informazioni, passare alla cartella **[!UICONTROL Consegne]** e fare clic sull’icona **[!UICONTROL Configura colonne]**.
+Per ottenere queste informazioni, vai alla cartella **[!UICONTROL Consegne]** e fai clic sull&#39;icona **[!UICONTROL Configura colonne]**.
 
-Nella finestra **[!UICONTROL Configura colonne]**, fare clic sull’icona **[!UICONTROL Informazioni]** della colonna che desideri conoscere. Quindi, fare clic sul pulsante **[!UICONTROL Distribuzione dei valori]**.
+Nella finestra **[!UICONTROL Configura colonne]**, fai clic sull&#39;icona **[!UICONTROL Informazioni]** relativa alla colonna da analizzare. Quindi, fare clic sul pulsante **[!UICONTROL Distribuzione dei valori]**.
 
-![](assets/values_deliveries.png){zoomable="yes"}
+![Interfaccia di distribuzione dei valori per le consegne](assets/values_deliveries.png){zoomable="yes"}
 
-Nella colonna **[!UICONTROL Canale]** si otterrà la percentuale dei valori.
+Nella colonna **[!UICONTROL Canale]** verrà visualizzata la percentuale di valori.
 
-![](assets/values_percentage.png){zoomable="yes"}
+![Distribuzione percentuale dei valori nella colonna Canale](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Per le colonne con molti valori, verranno visualizzati solo i primi venti valori. Verrà visualizzato un avviso con la notifica **[!UICONTROL Caricamento parziale]**.
+>Per le colonne con molti valori, vengono visualizzati solo i primi venti valori. Una notifica **[!UICONTROL Caricamento parziale]** ti avvisa.
 
-È anche possibile avere la distribuzione dei valori di un collegamento.
+Puoi anche visualizzare la distribuzione dei valori per un collegamento.
 
-Nell’elenco degli attributi, fare clic sul pulsante **+** accanto al collegamento desiderato, come illustrato di seguito. Questo aggiunge il collegamento alle **[!UICONTROL colonne di output]**. È ora possibile disporre dell&#39;icona **[!UICONTROL Informazioni]**, che consente di visualizzare la distribuzione dei relativi valori. Se non si desidera mantenere il collegamento nelle **[!UICONTROL Colonne di output]**, assicurarsi di fare clic sul pulsante **[!UICONTROL Annulla]**.
+Nell’elenco degli attributi, fare clic sul pulsante **+** accanto al collegamento desiderato, come illustrato di seguito. Questo aggiunge il collegamento alle **[!UICONTROL colonne di output]**. È ora possibile accedere all&#39;icona **[!UICONTROL Informazioni]** per visualizzare la distribuzione dei relativi valori. Se non si desidera mantenere il collegamento nelle **[!UICONTROL colonne di output]**, fare clic sul pulsante **[!UICONTROL Annulla]**.
 
-![](assets/values_link.png){zoomable="yes"}
+![Distribuzione di valori per un collegamento nelle colonne di output](assets/values_link.png){zoomable="yes"}
 
-È inoltre possibile disporre della distribuzione dei valori in un query modeler. [Ulteriori informazioni](../query/build-query.md#distribution-of-values-in-a-query).
+È inoltre possibile visualizzare la distribuzione dei valori in un modellatore di query. [Ulteriori informazioni](../query/build-query.md#distribution-of-values-in-a-query).
 
 ### Filtrare i valori {#filter-values}
 
-Utilizzando i **[!UICONTROL Filtri avanzati]** nella finestra di distribuzione dei valori, puoi filtrare i risultati in base a condizioni specificate.
+Utilizzando i **[!UICONTROL Filtri avanzati]** nella finestra di distribuzione dei valori, è possibile filtrare i risultati in base a condizioni specificate.
 
-Nell’esempio dell’elenco delle consegne riportato sopra, che mostra la distribuzione per canale, è possibile, ad esempio, filtrarlo per visualizzare solo le consegne il cui stato è **Completato**.
+Nell&#39;esempio dell&#39;elenco di consegna riportato sopra, che mostra la distribuzione per canale, è possibile filtrarla per visualizzare solo le consegne con stato **Completato**.
 
-![](assets/values_filter.png){zoomable="yes"}
+![Filtri avanzati applicati alla distribuzione dei valori](assets/values_filter.png){zoomable="yes"}

@@ -3,12 +3,13 @@ audience: end-user
 title: Progettare una consegna di notifica push
 description: Scopri come progettare una consegna di notifica push con Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 100%
+source-wordcount: '1569'
+ht-degree: 83%
 
 ---
+
 
 # Progettare una consegna push {#content-push}
 
@@ -29,7 +30,6 @@ ht-degree: 100%
 >title="Messaggio push iOS"
 >abstract="Definisci il contenuto della notifica push per i dispositivi iOS. Per comporre il messaggio, fai clic sui campi **Titolo** e **Messaggio**. Utilizza l’editor di espressioni per personalizzare i dati e aggiungere contenuto dinamico. Per una configurazione più personalizzata, vai alla sezione **Impostazioni avanzate**."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Messaggio push Android"
@@ -38,63 +38,59 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="Notifica silenziosa per iOS"
->abstract="La modalità push silenziosa consente di inviare una notifica “silenziosa” a un’app mobile. L’utente non viene informato dell’arrivo della notifica. Viene trasferita direttamente all’applicazione."
+>abstract="La modalità push silenzioso consente di inviare una notifica &quot;silenziosa&quot; a un’app mobile. L’utente non viene informato dell’arrivo della notifica. Viene trasferita direttamente all’applicazione."
 
-Una volta creata la consegna push, puoi definirne il contenuto. I parametri e le impostazioni dipendono dal sistema operativo mobile: Android o iOS. Sfoglia le schede seguenti per scoprire come comporre il messaggio per ciascun sistema operativo.
+Una volta creata la consegna push, definirne il contenuto. I parametri e le impostazioni dipendono dal sistema operativo mobile: Android o iOS. Sfoglia le schede seguenti per scoprire come comporre il messaggio per ciascun sistema operativo.
 
 >[!BEGINTABS]
 
 >[!TAB Android]
 
-Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
+Con Firebase Cloud Messaging, scegli tra due tipi di messaggi:
 
 * Il **[!UICONTROL Messaggio dati]** è gestito dall’app client. Questi messaggi vengono inviati direttamente all’app mobile, che genera e visualizza una notifica Android sul dispositivo. I messaggi di dati contengono solo variabili dell’applicazione personalizzate.
 
-  Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fai clic sul campo **[!UICONTROL Messaggio]** e utilizza l’editor di espressioni. Puoi accedere a questo editor per personalizzare i messaggi.
-Nel menu **[!UICONTROL Variabili dell’applicazione]**, le variabili dell’applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, puoi configurare una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
+  Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fare clic sul campo **[!UICONTROL Messaggio]** e utilizzare l&#39;editor espressioni. Accedi a questo editor per personalizzare i messaggi.
+Nel menu **[!UICONTROL Variabili applicazione]**, le variabili dell&#39;applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, configura una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
-  ![](assets/push_content_4.png){zoomable="yes"}
+  ![Descrizione: esempio di definizione del contenuto di un messaggio dati nelle notifiche di Android](assets/push_content_4.png){zoomable="yes"}
 
 * Il **[!UICONTROL Messaggio di notifica]**, gestito automaticamente dall’SDK FCM. FCM mostra automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set preimpostato di parametri e opzioni, ma possono ancora essere personalizzati con variabili personalizzate dell’applicazione.
 
-  Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuti dinamici.
+  Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
 
-  Per personalizzare ulteriormente la notifica push, puoi scegliere un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore.
+  Per personalizzare ulteriormente la notifica push, scegli un’immagine da aggiungere alla notifica push, l’icona della notifica da visualizzare sui dispositivi dei profili e il relativo colore.
 
-  ![](assets/push_content_3.png){zoomable="yes"}
+  ![Descrizione: esempio di definizione del contenuto di un messaggio di notifica nelle notifiche di Android](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
-Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuti dinamici.
+Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico.
 
-Puoi aggiungere un **[!UICONTROL Sottotitolo]**, un valore del parametro dei sottotitoli del payload di notifica di iOS. Consulta questa sezione.
+Puoi aggiungere un **[!UICONTROL Sottotitolo]**, che è il valore del parametro del sottotitolo del payload di notifica di iOS. Consulta questa sezione.
 
 La modalità push silenziosa consente di inviare una notifica “silenziosa” a un’app mobile. L’utente non viene informato dell’arrivo della notifica. Viene trasferita direttamente all’applicazione.
 
-![](assets/push_content_1.png){zoomable="yes"}
+![Descrizione: esempio di definizione del contenuto per le notifiche iOS](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 ## Impostazioni avanzate della notifica push {#push-advanced}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="Impostazioni avanzate per le notifiche push"
 >abstract="Definisci le impostazioni avanzate per la notifica push, ad esempio la priorità, il conteggio delle notifiche associate, le variabili dell’applicazione e altro ancora."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="Modalità avviso critico"
 >abstract="Abilita questa opzione per aggiungere un suono alla notifica, anche quando il telefono dell’utente è impostato sulla modalità Focus o se il dispositivo è silenzioso. In questo modo gli utenti vengono informati in ogni caso di avvisi importanti."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Conteggio notifiche"
 >abstract="Utilizza questa opzione per impostare il numero di notifiche non lette da visualizzare direttamente sull’icona dell’app. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
@@ -106,12 +102,10 @@ La modalità push silenziosa consente di inviare una notifica “silenziosa” a
 >title="Punteggio rilevanza"
 >abstract="Imposta un punteggio di rilevanza da 0 a 100 per assegnare la priorità all’ordine delle notifiche nel relativo riepilogo. Punteggi più alti indicano notifiche più importanti."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
 >title="Variabili dell’applicazione"
 >abstract="Utilizza le variabili dell’applicazione per definire il comportamento della notifica. Queste variabili sono completamente personalizzabili e sono incluse nel payload del messaggio inviato al dispositivo mobile."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
@@ -124,7 +118,7 @@ Le opzioni avanzate dipendono dal sistema operativo mobile: Android o iOS. Sfogl
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoomable="yes"}
+![Descrizione: esempio di impostazioni avanzate per le notifiche Android](assets/push_content_5.png){zoomable="yes"}
 
 | Parametro | Descrizione |
 |---------|---------|
@@ -140,7 +134,7 @@ Le opzioni avanzate dipendono dal sistema operativo mobile: Android o iOS. Sfogl
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoomable="yes"}
+![Descrizione: esempio di impostazioni avanzate per le notifiche iOS](assets/push_content_2.png){zoomable="yes"}
 
 | Parametro | Descrizione |
 |---------|---------|
@@ -150,10 +144,10 @@ Le opzioni avanzate dipendono dal sistema operativo mobile: Android o iOS. Sfogl
 | **[!UICONTROL Volume]** | Volume del suono da 0 a 100. |
 | **[!UICONTROL Contenuto modificabile]** | Abilita questa opzione per consentire all’app mobile di scaricare il contenuto multimediale associato alla notifica. Per ulteriori informazioni, consulta la [documentazione per sviluppatori di Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
 | **[!UICONTROL Punteggio rilevanza]** | Imposta un punteggio di rilevanza da 0 a 100 per assegnare la priorità all’ordine delle notifiche nel relativo riepilogo. Punteggi più alti indicano notifiche più importanti. |
-| **[!UICONTROL Livello di interruzione]** | <ul> <li>**[!UICONTROL Attivo]**: per impostazione predefinita, il sistema visualizza immediatamente la notifica, illumina lo schermo e può riprodurre un suono. Le notifiche non interrompono le modalità Focus.</li><li>**[!UICONTROL Passivo]**: il sistema aggiunge la notifica all’elenco delle notifiche senza accendere lo schermo o riprodurre un suono. Le notifiche non interrompono le modalità Focus.</li><li>**[!UICONTROL Urgente]**: il sistema presenta immediatamente la notifica, accende lo schermo, può riprodurre un suono e interrompere le modalità Focus. Questo livello non richiede un’autorizzazione speciale da Apple.</li> <li>**[!UICONTROL Critico]**: il sistema presenta immediatamente la notifica, accende lo schermo e ignora le modalità di disattivazione audio o di Focus. Tieni presente che questo livello richiede un’autorizzazione speciale da parte di Apple.</ul> |
+| **[!UICONTROL Livello di interruzione]** | <ul> <li>**[!UICONTROL Attivo]**: per impostazione predefinita, il sistema visualizza immediatamente la notifica, illumina lo schermo e può riprodurre un suono. Le notifiche non interrompono le modalità Focus.</li><li>**[!UICONTROL Passivo]**: il sistema aggiunge la notifica all’elenco delle notifiche senza accendere lo schermo o riprodurre un suono. Le notifiche non interrompono le modalità Focus.</li><li>**[!UICONTROL Sensibile al tempo]**: il sistema visualizza immediatamente la notifica, illumina lo schermo, può riprodurre un suono e interrompere le modalità di attivazione. Questo livello non richiede l’autorizzazione speciale di Apple.</li> <li>**[!UICONTROL Critico]**: il sistema presenta immediatamente la notifica, accende lo schermo e ignora le modalità di disattivazione audio o di Focus. Tieni presente che questo livello richiede l’autorizzazione speciale di Apple.</ul> |
 | **[!UICONTROL ID thread]** | Identificatore utilizzato per raggruppare le notifiche correlate. Le notifiche con lo stesso ID thread sono organizzate come una singola conversazione o thread nell’elenco delle notifiche. |
 | **[!UICONTROL Categoria]** | Specifica il nome dell’ID categoria associato alla notifica. Questo abilita la visualizzazione dei pulsanti di azione, consentendo all’utente di eseguire varie attività direttamente dalla notifica senza aprire l’applicazione. |
-| **[!UICONTROL ID contenuto target]** | Identificatore utilizzato per individuare la finestra dell’applicazione da presentare quando viene aperta la notifica. |
+| **[!UICONTROL ID contenuto target]** | Identificatore utilizzato per individuare la finestra dell&#39;applicazione da portare avanti all&#39;apertura della notifica. |
 | **[!UICONTROL Immagine di avvio]** | Specifica il nome del file dell’immagine di avvio da visualizzare quando l’utente sceglie di avviare l’applicazione dalla notifica. Viene visualizzata l’immagine selezionata al posto della normale schermata di avvio dell&#39;applicazione. |
 | **[!UICONTROL Variabili dell’applicazione]** | Consente di definire il comportamento di notifica. Queste variabili sono completamente personalizzabili e sono incluse nel payload del messaggio inviato al dispositivo mobile. |
 

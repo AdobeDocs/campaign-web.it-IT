@@ -2,20 +2,19 @@
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 24%
+source-wordcount: '1003'
+ht-degree: 20%
 
 ---
 
-
-# Configurare campi personalizzati {#custom-fields}
+# Configurare i campi personalizzati {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Modifica dettagli personalizzati"
->abstract="Vengono visualizzati tutti i campi dell’interfaccia personalizzati per lo schema selezionato. È possibile modificare l’ordine di visualizzazione dei campi nell’interfaccia tramite le frecce su e giù e raggruppare i campi in sottosezioni mediante l’aggiunta di separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
+>abstract="Vengono visualizzati tutti i campi dell’interfaccia personalizzati per lo schema selezionato. Puoi modificare l’ordine di visualizzazione nell’interfaccia di, utilizzando le frecce su e giù, e raggruppare i campi in sottosezioni aggiungendo separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -46,7 +45,7 @@ ht-degree: 24%
 
 I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione. Scopri come estendere uno schema nella [documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
-I campi personalizzati possono essere visualizzati in varie schermate, ad esempio nei dettagli del profilo, nell’interfaccia web di Campaign. Gli amministratori possono controllare quali campi sono visibili e come appaiono. Queste modifiche si applicano a tutti gli utenti di Campaign.
+I campi personalizzati possono essere visualizzati in varie schermate, ad esempio nei dettagli del profilo nell’interfaccia web di Campaign. Gli amministratori possono controllare quali campi sono visibili e come appaiono. Queste modifiche si applicano a tutti gli utenti di Campaign.
 
 >[!NOTE]
 >
@@ -69,30 +68,30 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
 
    Utilizza il filtro **[!UICONTROL Modificabile]** nel riquadro dei filtri per identificare rapidamente gli schemi con campi personalizzati.
 
-   ![](assets/custom-fields-open.png)
+   ![Schermata che mostra il menu Schemi e il filtro Modificabile nel riquadro di navigazione](assets/custom-fields-open.png)
 
-1. Seleziona il nome dello schema nell’elenco per aprirlo. Una visualizzazione schema dettagliata visualizza [Ulteriori informazioni sui dettagli dello schema](../administration/schemas.md). Fai clic sul pulsante **[!UICONTROL Modifica dettagli personalizzati]** per accedere ai campi personalizzati. In questo esempio, si desidera aggiungere campi per lo schema **[!UICONTROL Destinatari]**.
+1. Seleziona il nome dello schema nell’elenco per aprirlo. Viene visualizzata una vista di schema dettagliata. [Ulteriori informazioni sui dettagli dello schema](../administration/schemas.md). Fai clic sul pulsante **[!UICONTROL Modifica dettagli personalizzati]** per accedere ai campi personalizzati. In questo esempio vengono aggiunti campi per lo schema **[!UICONTROL Destinatari]**.
 
-   ![](assets/custom-fields-edit.png)
+   ![Schermata che mostra il pulsante Modifica dettagli personalizzati nella vista schema](assets/custom-fields-edit.png)
 
-1. Elenco dei campi personalizzati visualizzati nell’interfaccia per la visualizzazione dello schema. In questo caso, il campo &quot;CRM Id&quot; è visibile nella schermata dei dettagli dei profili ed è stato contrassegnato come obbligatorio.
+1. Viene visualizzato l’elenco dei campi personalizzati visualizzati nell’interfaccia dello schema. In questo caso, il campo &quot;CRM Id&quot; è visibile nella schermata dei dettagli dei profili ed è stato contrassegnato come obbligatorio.
 
    | Configurazione campi personalizzati | Rendering nell’interfaccia |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![Schermata che mostra la configurazione dei campi personalizzati](assets/custom-fields-detail.png){zoomable="yes"} | ![Schermata che mostra il rendering del campo ID CRM nell&#39;interfaccia](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. Per aggiungere un campo personalizzato all’interfaccia, fai clic sul pulsante con i puntini di sospensione e scegli una delle seguenti opzioni:
 
    * **[!UICONTROL Seleziona campi personalizzati]**: seleziona uno o più campi personalizzati da visualizzare nell&#39;interfaccia.
    * **[!UICONTROL Compila automaticamente l&#39;elenco dei campi personalizzati]**: aggiungi all&#39;interfaccia tutti i campi personalizzati definiti per lo schema.
 
-   ![](assets/custom-fields-add.png)
+   ![Schermata che mostra le opzioni per aggiungere campi personalizzati](assets/custom-fields-add.png)
 
 1. Una volta aggiunti i campi personalizzati, puoi:
 
    * **Riordina campi**: utilizza le frecce su e giù.
    * **Rendi obbligatori i campi**: seleziona la casella di controllo **Obbligatorio**.
-   * **Modifica impostazioni campi**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Modifica]**. [Ulteriori informazioni](#settings)
+   * **Modifica impostazioni campo**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Modifica]**. [Ulteriori informazioni](#settings)
    * **Elimina campi**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Elimina]**.
    * **Organizza i campi in sottosezioni nell&#39;interfaccia**: fai clic sul pulsante con i puntini di sospensione accanto alle frecce su e giù e scegli **[!UICONTROL Aggiungi separatore]**. [Ulteriori informazioni](#separator)
 
@@ -100,7 +99,7 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
 
 Per configurare impostazioni specifiche per ciascun campo personalizzato, fare clic sul pulsante con i puntini di sospensione accanto al campo desiderato e selezionare **[!UICONTROL Modifica]**.
 
-![](assets/custom-fields-settings.png)
+![Schermata che mostra il menu delle impostazioni per i campi personalizzati](assets/custom-fields-settings.png)
 
 Le impostazioni disponibili sono:
 
@@ -117,7 +116,7 @@ Le impostazioni disponibili sono:
 
   +++Esempio di visualizzazione
 
-  ![](assets/custom-fields-ref.png)
+  ![Schermata con un esempio di impostazioni di filtro per i campi personalizzati](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,7 +124,7 @@ Le impostazioni disponibili sono:
 
 ## Organizzare i campi personalizzati in sottosezioni {#separator}
 
-L’interfaccia utente di Campaign Web consente di aggiungere separatori per raggruppare i campi personalizzati nell’interfaccia di per migliorarne la leggibilità. Per farlo, segui questi passaggi:
+L’interfaccia utente di Campaign Web consente di aggiungere separatori ai campi personalizzati di gruppo nell’interfaccia di per migliorarne la leggibilità. Per farlo, segui questi passaggi:
 
 1. Fai clic sul pulsante con i puntini di sospensione accanto alle frecce su e giù e seleziona **[!UICONTROL Aggiungi separatore]**.
 
@@ -137,4 +136,4 @@ L’interfaccia utente di Campaign Web consente di aggiungere separatori per rag
 
    | Configurazione campi personalizzati | Rendering nell’interfaccia |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![Schermata che mostra la configurazione di un separatore](assets/custom-fields-separator.png){zoomable="yes"} | ![Schermata che mostra il rendering di una sottosezione nell&#39;interfaccia](assets/custom-fields-section.png){zoomable="yes"} |

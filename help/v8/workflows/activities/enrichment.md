@@ -3,12 +3,13 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2071'
-ht-degree: 39%
+source-wordcount: '2043'
+ht-degree: 29%
 
 ---
+
 
 # Arricchimento {#enrichment}
 
@@ -17,22 +18,19 @@ ht-degree: 39%
 >title="Attività Arricchimento"
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione."
 
+L’attività **Arricchimento** è un’attività di **targeting**. Migliora i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione.
 
-L’attività **Arricchimento** è un’attività di **targeting**. Consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione.
+I dati di arricchimento possono provenire da:
 
-I dati di arricchimento possono provenire:
+* **La stessa tabella di lavoro** di quella di destinazione nel flusso di lavoro:
+   * Esegui il targeting di un gruppo di clienti e aggiungi il campo &quot;Data di nascita&quot; alla tabella di lavoro corrente.
 
-* **Dalla stessa tabella di lavoro** definita come target nel flusso di lavoro:
+* **Altra tabella di lavoro**:
+   * Eseguire il targeting di un gruppo di clienti e aggiungere i campi &quot;Importo&quot; e &quot;Tipo di prodotto&quot; dalla tabella &quot;Acquisto&quot;.
 
-  *Eseguire il targeting di un gruppo di clienti e aggiungere il campo Data di nascita alla tabella di lavoro corrente*.
+Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze. Può essere utilizzato anche per creare messaggi di marketing personalizzati e campagne che risuonano con il pubblico di destinazione.
 
-* **Da un’altra tabella di lavoro**:
-
-  *Esegui il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
-
-Una volta aggiunti i dati di arricchimento al flusso di lavoro, è possibile utilizzarli nelle attività aggiunte dopo l&#39;attività **Arricchimento** per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing e campagne personalizzati che hanno maggiori probabilità di risuonare con il pubblico di destinazione.
-
-Ad esempio, è possibile aggiungere alla tabella di lavoro del flusso di lavoro le informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro acquisto più recente o con l’importo speso per tali acquisti.
+Ad esempio, puoi aggiungere alla tabella del flusso di lavoro informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro ultimo acquisto o l’importo speso per tali acquisti.
 
 ## Aggiungere un’attività Enrichment {#enrichment-configuration}
 
@@ -40,7 +38,7 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
 1. Aggiungi attività come **Crea pubblico** e **Combina**.
 1. Aggiungi un’attività **Arricchimento**.
-1. Se nel flusso di lavoro sono state configurate più transizioni, è possibile utilizzare il campo **[!UICONTROL Set principale]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
+1. Se nel flusso di lavoro sono configurate più transizioni, utilizza il campo **[!UICONTROL Set principale]** per definire quale transizione deve essere utilizzata come set principale per l&#39;arricchimento.
 
 ## Aggiungi dati di arricchimento {#enrichment-add}
 
@@ -52,40 +50,40 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Attività di Arricchimento"
->abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività aggiunte dopo l’attività di Arricchimento per segmentare la clientela in gruppi distinti in base ai comportamenti, preferenze e esigenze, o per creare messaggi e campagne di marketing personalizzati che hanno maggiori probabilità di risonanza nel pubblico target."
+>abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing personalizzati e campagne che risuonano con il pubblico di destinazione."
 
-1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md)
+1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per l&#39;arricchimento. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md).
 
-   Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ciascuno di questi tipi è descritto negli esempi seguenti:
+   Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ogni tipo è descritto negli esempi seguenti:
    * [Attributo di arricchimento singolo](#single-attribute)
-   * [Collegamento raccolta](#collection-link)
+   * [Collegamento di raccolta](#collection-link)
 
    >[!NOTE]
    >
-   >Il pulsante **Modifica espressione** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l&#39;attributo. [Scopri come utilizzare l&#39;editor di espressioni](../../query/expression-editor.md)
+   >Il pulsante **Modifica espressione** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l&#39;attributo. [Scopri come utilizzare l&#39;editor espressioni](../../query/expression-editor.md).
 
-   ![](../assets/workflow-enrichment1.png)
+   ![Schermata che mostra la schermata di selezione dei dati di arricchimento](../assets/workflow-enrichment1.png)
 
 ## Creare collegamenti tra tabelle {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definizione dei collegamenti"
->abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili."
+>abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file contenente il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili."
 
-La sezione **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, ora puoi creare un collegamento alla tabella dei paesi per aggiornare queste informazioni nei rispettivi profili.
+La sezione **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file contenente il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili.
 
 Sono disponibili diversi tipi di collegamenti:
 
-* Collegamento semplice con cardinalità **[!UICONTROL 1]**: ogni record del set principale può essere associato a un solo record dei dati collegati.
-* Collegamento semplice **[!UICONTROL 0 o 1 cardinalità]**: ogni record del set principale può essere associato a 0 o 1 record dei dati collegati, ma non a più di uno.
-* **[!UICONTROL N collegamento raccolta cardinalità]**: ogni record del set principale può essere associato a 0, 1 o più record (N) dei dati collegati.
+* Collegamento semplice con cardinalità **[!UICONTROL 1]**: ogni record del set principale è associato a un solo record dei dati collegati.
+* Collegamento semplice **[!UICONTROL 0 o 1 cardinalità]**: ogni record del set principale è associato a 0 o 1 record dei dati collegati, ma non a più di uno.
+* **[!UICONTROL N collegamento raccolta cardinalità]**: ogni record del set principale è associato a 0, 1 o più record (N) dei dati collegati.
 
 Per creare un collegamento, effettua le seguenti operazioni:
 
 1. Nella sezione **[!UICONTROL Definizione collegamento]**, fare clic sul pulsante **[!UICONTROL Aggiungi collegamento]**.
 
-   ![](../assets/workflow-enrichment-link.png)
+   ![Schermata che mostra la sezione di definizione del collegamento](../assets/workflow-enrichment-link.png)
 
 1. Nell&#39;elenco a discesa **Tipo di relazione**, scegliere il tipo di collegamento che si desidera creare.
 

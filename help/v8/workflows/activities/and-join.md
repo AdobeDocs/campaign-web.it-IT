@@ -3,26 +3,25 @@ audience: end-user
 title: Utilizzare l’attività Unione AND nei flussi di lavoro
 description: Scopri come utilizzare l’attività Unione AND nei flussi di lavoro
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 45%
 
 ---
 
 # AND-join {#join}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Attività AND-join"
->abstract="L’attività **And-join** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivata al termine di tutte le attività precedenti. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro."
+>abstract="L’attività **And-join** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivata al termine di tutte le attività precedenti. In questo modo, determinate attività vengono completate prima di continuare a eseguire il flusso di lavoro."
 
-L’attività **Unione AND** è un’attività di **Controllo del flusso**. Consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
+L’attività **Unione AND** è un’attività di **Controllo del flusso**. Sincronizza più rami di esecuzione di un flusso di lavoro.
 
-Questa attività attiva la relativa transizione in uscita solo dopo che tutte le transizioni in entrata sono state attivate, in altre parole, dopo che tutte le attività precedenti sono state completate. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro.
+Questa attività attiva la relativa transizione in uscita solo dopo l’attivazione di tutte le transizioni in entrata. In altre parole, si attiva una volta completate tutte le attività precedenti. In questo modo, determinate attività vengono completate prima di continuare a eseguire il flusso di lavoro.
 
-## Configurare l’attività And-join{#and-join-configuration}
+## Configurare l’attività And-join {#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -31,15 +30,15 @@ Questa attività attiva la relativa transizione in uscita solo dopo che tutte le
 
 Per configurare l’attività **Unione AND**, segui questi passaggi:
 
-![](../assets/workflow-andjoin.png)
+![Schermata che mostra l&#39;interfaccia di configurazione per l&#39;attività AND-join.](../assets/workflow-andjoin.png)
 
-1. Aggiungi più attività, come le attività del canale, per creare almeno due rami di esecuzione diversi.
+1. Aggiungi più attività, ad esempio attività canale, per formare almeno due rami di esecuzione diversi.
 1. Aggiungi un’attività **Unione AND** a uno dei rami.
-1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti che desideri unire.
-1. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
+1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti a cui desideri partecipare.
+1. Nell&#39;elenco a discesa **Set primario**, scegliere il gruppo di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata.
 
-## Esempio{#and-join-example}
+## Esempio {#and-join-example}
 
-L’esempio seguente mostra due rami del flusso di lavoro con consegna e-mail e SMS. L’Unione AND verrà attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push verranno quindi inviate solo al termine di entrambe le consegne.
+L’esempio seguente mostra due rami del flusso di lavoro con consegna e-mail e SMS. L’unione AND viene attivata quando sono abilitate entrambe le transizioni in entrata. Le notifiche push vengono inviate solo dopo il completamento di entrambe le consegne.
 
-![](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![Esempio di flusso di lavoro con due rami che mostra la consegna di e-mail e SMS seguita da notifiche push.](../assets/workflow-andjoin-example.png){zoomable="yes"}

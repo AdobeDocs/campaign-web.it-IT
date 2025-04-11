@@ -3,10 +3,10 @@ audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 25%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate. Sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Dashboard**.
 
-![](assets/alerting-dashboard-list.png)
+![Schermata che mostra l&#39;elenco delle dashboard di avviso nel menu Avvisi consegna.](assets/alerting-dashboard-list.png)
 
 ## Creare una dashboard di consegna {#dashboards}
 
@@ -47,7 +47,7 @@ Per creare un dashboard di consegna, segui questi passaggi:
 
 1. Passa al menu **Avvisi di consegna** nel riquadro di navigazione a sinistra e fai clic su **Crea dashboard di consegna**.
 
-   ![](assets/alerting-dashboard.png)
+   ![Schermata che mostra l&#39;opzione Crea dashboard di consegna nel menu Avvisi di consegna.](assets/alerting-dashboard.png)
 
 1. Denomina il dashboard nel campo **Etichetta**. Il campo **Nome interno** è compilato automaticamente e di sola lettura.
 
@@ -57,9 +57,9 @@ Per creare un dashboard di consegna, segui questi passaggi:
 
 1. Nella sezione **Criteri di avviso di consegna**, aggiungi i criteri che desideri utilizzare per inviare gli avvisi. Scegli un criterio predefinito o creane uno personalizzato da allineare a esigenze specifiche. [Scopri come utilizzare i criteri](../msg/delivery-alerting-criteria.md)
 
-1. I criteri hanno valori di parametri predefiniti che definiscono come devono essere applicati. È possibile modificare questi valori in base alle proprie esigenze dalla sezione **Parametri dei criteri**.
+1. I criteri hanno valori di parametro predefiniti che definiscono come devono essere applicati. È possibile modificare questi valori in base alle proprie esigenze dalla sezione **Parametri dei criteri**.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![Schermata che mostra la sezione Parametri dei criteri nel dashboard di consegna.](assets/alerting-criteria-parameters.png)
 
    Ad esempio, per impostazione predefinita, il parametro del criterio **Dimensione minima destinazione consegna** è impostato su 50, il che significa che una consegna verrà inclusa nell&#39;avviso inviato da questo dashboard solo se viene eseguita su almeno 50 profili. Puoi modificare questo parametro se desideri includere le consegne con targeting inferiore a 50 profili.
 
@@ -83,7 +83,7 @@ Per creare un dashboard di consegna, segui questi passaggi:
 
    Puoi anche salvare la dashboard e abilitarla in un secondo momento.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![Schermata che mostra l&#39;opzione Attiva/Disattiva nelle impostazioni del dashboard di consegna.](assets/alerting-dashboard-enable.png)
 
 1. Per salvare il dashboard degli avvisi, fare clic sul pulsante **Salva**.
 
@@ -105,12 +105,12 @@ Ora, ogni volta che una consegna soddisfa i criteri definiti in questo dashboard
 
 Tutti i dashboard di avviso creati sono accessibili dal menu **Avvisi di consegna**, nella scheda **Dashboard**.
 
-![](assets/alerting-dashboard-list.png)
+![Schermata che mostra l&#39;elenco delle dashboard di avviso nel menu Avvisi consegna.](assets/alerting-dashboard-list.png)
 
 Puoi duplicare o eliminare un dashboard utilizzando il pulsante **Altre azioni** accanto al nome.
 
 Per accedere a una vista dettagliata di un dashboard, fare clic sul nome nell&#39;elenco. Da questa schermata, puoi visualizzare l’ultimo avviso inviato. Tutti gli avvisi inviati sono elencati nel riquadro a sinistra. Fare clic su un elemento per accedere agli avvisi corrispondenti inviati in un determinato momento.
 
-![](assets/alerting-dashboard-details.png)
+![Schermata che mostra la visualizzazione dettagliata di un dashboard di avvisi.](assets/alerting-dashboard-details.png)
 
 Per modificare il dashboard, fare clic sul pulsante **Impostazioni** nell&#39;angolo superiore destro e apportare le modifiche desiderate.

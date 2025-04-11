@@ -3,10 +3,10 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente web di Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 94%
+source-wordcount: '647'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definire il contenuto dell’e-mail"
->abstract="La schermata **Modifica contenuto** consente di definire gli elementi di base del messaggio, come l’indirizzo del mittente e l’oggetto, eseguire azioni aggiuntive, come ad esempio aggiungere allegati o offerte, e accedere a E-mail Designer per conferire al messaggio un aspetto elegante."
+>abstract="La schermata **Modifica contenuto** consente di definire gli elementi di base del messaggio, ad esempio l&#39;indirizzo del mittente e l&#39;oggetto, eseguire azioni aggiuntive, ad esempio aggiungere allegati o offerte, e accedere al Designer di posta elettronica per conferire al messaggio un aspetto elegante."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -35,9 +35,9 @@ ht-degree: 94%
 
 La schermata e-mail **[!UICONTROL Modifica contenuto]** consente di:
 
-* Definire gli elementi di base del messaggio, ad esempio l’indirizzo del mittente e la riga dell’oggetto
-* Eseguire azioni aggiuntive, ad esempio aggiungere gli allegati o configurare le offerte
-* Accedi a [E-mail Designer](get-started-email-designer.md#start-authoring) per iniziare a creare il contenuto corretto dell’e-mail
+* Definisci gli elementi di base del messaggio, ad esempio l’indirizzo del mittente e l’oggetto.
+* Eseguire azioni aggiuntive, ad esempio aggiungere allegati o impostare offerte.
+* Accedi a [Invia e-mail a Designer](get-started-email-designer.md#start-authoring) per iniziare a creare il contenuto corretto dell&#39;e-mail.
 
 >[!NOTE]
 >
@@ -47,15 +47,15 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** dalla schermata della [dashboard di consegna e-mail](../email/create-email.md).
 
-   ![](assets/email-edit-content-button.png){zoomable="yes"}
+   ![Schermata che mostra il pulsante Modifica contenuto nel dashboard di consegna e-mail.](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. Viene visualizzata la schermata di modifica del contenuto dell’e-mail.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
+   ![Schermata che mostra il dashboard dell&#39;edizione del contenuto dell&#39;e-mail.](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Se stai configurando una nuova e-mail, i campi **[!UICONTROL Nome mittente]** e **[!UICONTROL Da e-mail]** sono già popolati.
+   >Se stai configurando una nuova e-mail, i campi **[!UICONTROL Da nome]** e **[!UICONTROL Da e-mail]** sono già compilati.
 
 1. Il **[!UICONTROL Nome mittente]** è definito nel modello e-mail. Se desideri modificarlo, utilizza un nome facilmente identificabile dai destinatari, ad esempio il nome del tuo marchio, per aumentare il tasso di apertura delle consegne.
 
@@ -63,31 +63,31 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
    >
    >Per migliorare ulteriormente l’esperienza del destinatario, puoi aggiungere il nome di una persona, ad esempio &quot;Eva da Luma&quot;.
 
-1. Anche il campo dell’indirizzo **[!UICONTROL Da e-mail]** è definito nel modello e-mail. Assicurati che il dominio dell’indirizzo sia lo stesso del sottodominio che hai delegato ad Adobe.
+1. Anche il campo dell’indirizzo **[!UICONTROL Da e-mail]** è definito nel modello e-mail. Assicurati che il dominio dell’indirizzo corrisponda al sottodominio delegato ad Adobe.
 
    >[!NOTE]
    >
    >È possibile modificare la parte che precede “@”, ma non l’indirizzo del dominio.
 
-1. Espandi la sezione **[!UICONTROL Campi Rispondi a]**. Il nome e gli indirizzi del mittente vengono utilizzati per le risposte per impostazione predefinita. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
+1. Espandi la sezione **[!UICONTROL Campi Rispondi a]**. Il nome e gli indirizzi del mittente vengono utilizzati per le risposte per impostazione predefinita. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, il team di assistenza clienti potrà gestirla.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
+   ![Schermata che mostra la sezione dei campi di risposta nell&#39;editor dei contenuti e-mail.](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l&#39;oggetto direttamente nel campo dedicato, oppure apri l&#39;editor espressioni per aggiungere [personalizzazione](../personalization/personalize.md) utilizzando vari attributi e frammenti di espressione, o offerte.
+1. Definisci l’**[!UICONTROL Oggetto]** del messaggio e-mail. Digita l&#39;oggetto direttamente nel campo dedicato, oppure apri l&#39;editor espressioni per aggiungere [personalizzazione](../personalization/personalize.md) utilizzando vari attributi, frammenti di espressione o offerte.
 
-1. Se desideri allegare un file all’e-mail, fai clic sul pulsante **[!UICONTROL Aggiungi allegato]** quindi seleziona uno o più file.
+1. Per allegare un file all&#39;e-mail, fare clic sul pulsante **[!UICONTROL Aggiungi allegato]**, quindi selezionare uno o più file.
 
    >[!NOTE]
    >
-   >    Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail.
+   >Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail.
 
    <!--limitation on size + number of files?-->
 
 1. Se desideri inviare offerte con il messaggio e-mail, selezionale utilizzando il pulsante **[!UICONTROL Configura offerte]**.
 
-   Puoi quindi inserirle nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](../msg/offers.md)
+   Puoi quindi inserirli nell’e-mail utilizzando i campi di personalizzazione. [Scopri come inviare offerte](../msg/offers.md)
 
-1. Fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]** per strutturare e progettare il contenuto dell’e-mail utilizzando [E-mail designer](get-started-email-designer.md#start-authoring). Per ulteriori informazioni sulla progettazione del contenuto delle e-mail, consulta le seguenti sezioni:
+1. Fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]** per strutturare e progettare il contenuto dell’e-mail utilizzando [E-mail designer](get-started-email-designer.md#start-authoring). Ulteriori informazioni sulla progettazione del contenuto delle e-mail sono disponibili in queste sezioni:
 
    * [Creare di e-mail da zero](create-email-content.md)
    * [Personalizzare lo stile del contenuto](get-started-email-style.md)
@@ -96,7 +96,6 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
    >
    >Puoi anche passare il cursore sull’anteprima e-mail e selezionare **[!UICONTROL Apri E-mail designer]**.
 
-1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla sezione **[!UICONTROL Funzioni facoltative]**. [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md)
+1. Per impostazione predefinita, il tracciamento è abilitato per la consegna. Puoi disattivare questa opzione dalla sezione **[!UICONTROL Funzioni facoltative]**. [Scopri come aggiungere collegamenti e gestire il tracciamento](message-tracking.md).
 
-1. Una volta definito il contenuto dell’e-mail, prima di inviarla utilizza il pulsante **[!UICONTROL Simula contenuto]** per controllarne l’aspetto. [Scopri come visualizzare in anteprima e testare il messaggio e-mail](../preview-test/preview-test.md)
-
+1. Una volta definito il contenuto dell’e-mail, prima di inviarla utilizza il pulsante **[!UICONTROL Simula contenuto]** per controllarne l’aspetto. [Scopri come visualizzare in anteprima e verificare l&#39;e-mail](../preview-test/preview-test.md).

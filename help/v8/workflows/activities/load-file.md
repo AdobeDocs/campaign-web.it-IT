@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 38%
+source-wordcount: '1241'
+ht-degree: 30%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Attività di caricamento file"
->abstract="L’attività **Carica file** è un’attività di **gestione dati**. Usa questa attività per utilizzare i dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la personalizzazione, per l’aggiornamento dei profili o di qualsiasi altra tabella. "
+>abstract="L’attività **Carica file** è un’attività di **gestione dati**. Usa questa attività per utilizzare i dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per la personalizzazione, per l’aggiornamento dei profili o di qualsiasi altra tabella."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,7 +27,6 @@ ht-degree: 38%
 >title="Rifiuta la gestione della transizione in uscita per i valori rifiutati"
 >abstract="Rifiuta la gestione della transizione in uscita per i valori rifiutati"
 
-
 L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalization](../../personalization/gs-personalization.md), per aggiornare profili o qualsiasi altra tabella.
 
 >[!NOTE]
@@ -37,9 +36,9 @@ Questa attività può essere utilizzata con un&#39;attività [Reconciliation](re
 
 ## Configurare l’attività Load file {#load-configuration}
 
-La configurazione dell&#39;attività **Load file** prevede due passaggi. Innanzitutto, devi definire la struttura del file prevista effettuando il caricamento di un file di esempio. Al termine, puoi specificare l’origine del file di cui verranno importati i dati. Segui i passaggi seguenti per configurare l’attività.
+La configurazione dell&#39;attività **Load file** prevede due passaggi. Innanzitutto, definisci la struttura del file prevista caricando un file di esempio. Al termine, specifica l’origine del file di cui verranno importati i dati. Segui i passaggi seguenti per configurare l’attività.
 
-![](../assets/workflow-load-file.png)
+![Schermata di configurazione attività caricamento file flusso di lavoro](../assets/workflow-load-file.png)
 
 ### Configurare il file di esempio {#sample}
 
@@ -56,7 +55,7 @@ La configurazione dell&#39;attività **Load file** prevede due passaggi. Innanzi
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Rimappatura del valore per l’attività di caricamento file"
->abstract="Utilizza questa opzione per mappare valori specifici dai file caricati con nuovi valori. Ad esempio, se la colonna contiene i valori “True”/“False”, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri “0”/“1”."
+>abstract="Utilizza questa opzione per mappare valori specifici dai file caricati con nuovi valori. Ad esempio, se la colonna contiene i valori &#39;True&#39;/&#39;False&#39;, è possibile aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri &#39;0&#39;/&#39;1&#39;."
 
 Segui questi passaggi per configurare il file di esempio utilizzato per definire la struttura di file prevista:
 
@@ -66,13 +65,13 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
 
    >[!NOTE]
    >
-   >I dati del file di esempio sono utilizzati per la configurazione dell’attività, ma non vengono importati. È consigliabile utilizzare un file di esempio contenente pochi dati. Il formato del file deve essere allineato con questo [file di esempio](../../audience/file-audience.md#sample-file).
+   >I dati del file di esempio sono utilizzati per la configurazione dell’attività, ma non vengono importati. Utilizza un file di esempio contenente pochi dati. Il formato del file deve essere allineato con questo [file di esempio](../../audience/file-audience.md#sample-file).
 
 1. Viene visualizzata un&#39;anteprima del file di esempio, con un massimo di 30 righe.
 
 1. Nell&#39;elenco a discesa **[!UICONTROL Tipo file]** specificare se il file utilizza colonne delimitate o colonne a larghezza fissa.
 
-   ![](../assets/workflow-load-file-sample.png)
+   ![Schermata Configurazione File Di Esempio](../assets/workflow-load-file-sample.png)
 
 1. Per i tipi di file di colonne delimitate, utilizzare la sezione **Colonne** per configurare le proprietà di ogni colonna.
 
@@ -83,7 +82,7 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
    * **[!UICONTROL Larghezza]** (tipo di dati stringa): numero massimo di caratteri da visualizzare nella colonna.
    * **[!UICONTROL Trasformazione dati]** (tipo di dati stringa): applica la trasformazione ai valori contenuti nella colonna.
    * **[!UICONTROL Gestione degli spazi vuoti]** (tipo di dati stringa): specificare come gestire gli spazi contenuti nella colonna.
-   * **[!UICONTROL Separatori]** (tipi di dati data, ora, numero intero e numero)*: specificare i caratteri da utilizzare come separatori.
+   * **[!UICONTROL Separatori]** (tipi di dati data, ora, numero intero e numero): specificare i caratteri da utilizzare come separatori.
    * **[!UICONTROL Consenti valori NULL]**: specificare come gestire i valori vuoti nella colonna. Se è presente un valore vuoto, l’opzione &quot;Adobe Campaign default&quot; genera un errore.
    * **[!UICONTROL Errore durante l&#39;elaborazione]** (tipo di dati stringa): specificare il comportamento in caso di errori in una delle righe.
    * **[!UICONTROL Modifica del valore]**: questa opzione consente di mappare valori specifici con valori nuovi. Ad esempio, se la colonna contiene i valori “True”/“False”, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri “0”/“1”.
@@ -107,12 +106,12 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Database di destinazione"
->abstract="Se stai accedendo a un’attività **[!UICONTROL Carica file]** che è già stata configurata nella console client, se hai configurato l’attività per caricare il file in un database esterno è disponibile un’ulteriore sezione **[!UICONTROL Database di destinazione]**."
+>abstract="Se si accede a un&#39;attività **[!UICONTROL Load file]** già configurata nella console client, è disponibile un&#39;ulteriore sezione **[!UICONTROL Database di destinazione]** se è stata configurata l&#39;attività per caricare il file in un database esterno."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Comando Load File"
->abstract="Consentire un comando arbitrario per la pre-elaborazione è un problema di sicurezza, disabilita l’opzione di sicurezza XtkSecurity_Disable_Preproc per forzare l’uso di un elenco predefinito di comandi."
+>abstract="L’abilitazione di comandi arbitrari per la pre-elaborazione rappresenta un problema di sicurezza. Disattivare l&#39;opzione di protezione XtkSecurity_Disable_Preproc per forzare l&#39;utilizzo di un elenco predefinito di comandi."
 
 >[!CAUTION]
 >
@@ -130,7 +129,7 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 
    * **[!UICONTROL Calcolato]**: carica il file il cui nome è specificato nel campo **[!UICONTROL Nome file]**. Fai clic sull’icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]** per sfruttare l’editor di espressioni, incluse le variabili evento, per calcolare il nome del file.
 
-   ![](../assets/workflow-load-file-config.png)
+   ![Schermata Configurazione File Di Destinazione](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
@@ -148,18 +147,17 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 >title="Elimina file dopo l’importazione"
 >abstract="Attiva/disattiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo averlo importato."
 
-
 1. Nella sezione **Rifiuta gestione**, specifica il comportamento dell&#39;attività in caso di errori:
 
    * Nel campo **[!UICONTROL Numero di errori consentiti]**, specifica il numero massimo di errori autorizzati durante l&#39;elaborazione del file da caricare. Ad esempio, se il valore è impostato su &quot;20&quot;, l’esecuzione del flusso di lavoro avrà esito negativo se si verificano più di 20 errori durante il caricamento del file.
 
    * Per mantenere gli errori che si sono verificati durante il caricamento del file, attivare l&#39;opzione **[!UICONTROL Mantieni rifiuti in un file]** e specificare il nome desiderato per il file nel campo **[!UICONTROL File di rifiuto]**.
 
-     Dopo aver attivato questa opzione, dopo l’attività viene aggiunta una transizione di output aggiuntiva denominata &quot;Complemento&quot;. Qualsiasi errore che si verificherà durante l&#39;importazione verrà memorizzato nel file specificato sul server.
+     Dopo aver attivato questa opzione, dopo l’attività viene aggiunta una transizione di output aggiuntiva denominata &quot;Complemento&quot;. Qualsiasi errore che si verifica durante l&#39;importazione verrà memorizzato nel file specificato sul server.
 
 1. Per eliminare il file caricato dal server dopo l&#39;esecuzione del flusso di lavoro, attiva l&#39;opzione **[!UICONTROL Elimina file dopo l&#39;importazione]**.
 
-   ![](../assets/workflow-load-file-options.png)
+   ![Schermata di configurazione opzioni aggiuntive](../assets/workflow-load-file-options.png)
 
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
 

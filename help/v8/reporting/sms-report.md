@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >title="Invio reportistica"
 >abstract="La scheda **Invio** all’interno del rapporto fornisce informazioni approfondite sulle interazioni dei visitatori con le consegne e su eventuali errori potenziali riscontrati."
 
-La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna.
+La **panoramica sulla consegna SMS** fornisce un riepilogo dettagliato della consegna SMS, offrendo informazioni approfondite e dati specifici. Include informazioni complete sulle prestazioni, l’efficacia e i risultati della consegna.
 
 ## Riepilogo della consegna {#delivery-summary}
 
@@ -28,9 +28,9 @@ La **panoramica della consegna SMS** offre una panoramica completa della consegn
 >title="Panoramica della consegna SMS"
 >abstract="La **panoramica della consegna SMS** offre una panoramica completa della consegna SMS, fornendo informazioni approfondite e dati specifici. Fornisce informazioni complete sulle prestazioni, l’efficacia e i risultati di ogni consegna."
 
-Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sulle percentuali di successi ed errori e sul modo in cui i visitatori interagiscono con i messaggi SMS.
+Il rapporto **[!UICONTROL Panoramica consegna]** fornisce indicatori prestazioni chiave (KPI, Key Performance Indicators) che offrono informazioni dettagliate sui tassi di successo e di errore, nonché sul modo in cui i visitatori si interagiscono con i messaggi SMS.
 
-![](assets/reporting_sms_3.png){zoomable="yes"}
+![Descrizione: l&#39;immagine mostra il rapporto Panoramica consegna, che include KPI quali tassi di successo, tassi di errore e coinvolgimento dei visitatori.](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
@@ -40,7 +40,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 * **[!UICONTROL Percentuale di click-through]**: percentuale e numero di utenti che hanno interagito con i collegamenti inclusi nella consegna SMS.
 
-* **[!UICONTROL Errori]**: percentuale e numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: percentuale e numero totale di errori che si sono verificati durante una consegna, impedendo l&#39;invio ai profili.
 
 +++
 
@@ -51,9 +51,9 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 >title="Popolazione target degli SMS"
 >abstract="Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico SMS: messaggi da consegnare ed esclusioni."
 
-Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubblico. Le metriche sono descritte di seguito.
+Il grafico e la tabella della **popolazione di destinazione** visualizzano i dati relativi al pubblico. Le metriche sono descritte di seguito.
 
-![](assets/reporting_sms_4.png){zoomable="yes"}
+![Descrizione: l&#39;immagine mostra il grafico e la tabella della popolazione di destinazione, che includono metriche quali messaggi da consegnare ed esclusioni.](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
@@ -61,7 +61,6 @@ Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubbl
 
 * **[!UICONTROL Esclusioni]**: numero e percentuale di profili che sono stati esclusi dall’analisi.
 +++
-
 
 ### Statistiche complessive {#sms-delivery-overall}
 
@@ -72,7 +71,7 @@ Il grafico e la tabella **Popolazione target** mostrano i dati relativi al pubbl
 
 Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati. Le metriche sono descritte di seguito.
 
-![](assets/reporting_sms_5.png){zoomable="yes"}
+![Descrizione: nell&#39;immagine viene visualizzato il report Statistiche generali, che include metriche quali tassi di successo, errori e quarantene.](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
 
@@ -92,7 +91,7 @@ Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati
 
 Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable="yes"}
+![Descrizione: nell&#39;immagine sono illustrati il grafico e la tabella Esclusioni, in cui sono illustrati i motivi dell&#39;esclusione dei profili utente dalla ricezione dei messaggi.](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Velocità di consegna {#delivery-throughput}
 
@@ -101,6 +100,6 @@ Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno 
 >title="Velocità di consegna SMS"
 >abstract="Il rapporto **Velocità di consegna** presenta informazioni dettagliate sulla velocità di consegna entro un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora."
 
-Questo rapporto presenta informazioni dettagliate sulla velocità di consegna in un arco temporale specifico. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
+Questo rapporto fornisce informazioni dettagliate sulla velocità effettiva di consegna entro un intervallo di tempo specificato. La metrica primaria utilizzata per misurare la velocità di consegna dei messaggi è il numero di messaggi inviati all’ora.
 
-![](assets/reporting_sms_2.png){zoomable="yes"}
+![Descrizione: nell&#39;immagine viene visualizzato il report della velocità effettiva di consegna, che include metriche quali il numero di messaggi inviati all&#39;ora in un intervallo di tempo specificato.](assets/reporting_sms_2.png){zoomable="yes"}

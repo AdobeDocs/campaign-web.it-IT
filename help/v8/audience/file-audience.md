@@ -3,10 +3,10 @@ audience: end-user
 title: Caricare un pubblico per consegne e-mail da un file
 description: Scopri come caricare i profili da un file esterno per creare il pubblico delle e-mail
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 50%
+source-wordcount: '691'
+ht-degree: 37%
 
 ---
 
@@ -53,20 +53,20 @@ Per eseguire il targeting dei profili da un file nelle e-mail, effettua le segue
 1. Apri una consegna e-mail esistente oppure [crea una nuova consegna e-mail](../email/create-email.md).
 1. Nella sezione **Pubblico**, fai clic sul pulsante **Seleziona pubblico**, quindi scegli **Seleziona dal file**.
 
-   ![](assets/select-from-file.png){zoomable="yes"}
+   ![Schermata che mostra l&#39;opzione Seleziona da file nella sezione Pubblico](assets/select-from-file.png){zoomable="yes"}
 
 1. Selezionare il file locale da caricare. Il formato del file deve essere allineato al [file di esempio](#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
 
-   ![](assets/select-from-file-map.png)
+   ![Schermata che mostra l&#39;anteprima della mappatura dei dati nella sezione centrale](assets/select-from-file-map.png)
 
-1. Specificare la colonna contenente l&#39;indirizzo di posta elettronica dall&#39;elenco a discesa **Campo indirizzo**. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna dell’elenco bloccati.
-1. Regola le impostazioni delle colonne e come formattare i dati dalle opzioni disponibili.
+1. Specificare la colonna contenente l&#39;indirizzo di posta elettronica dall&#39;elenco a discesa **Campo indirizzo**. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna di inserita nell&#39;elenco Bloccati del.
+1. Regola le impostazioni delle colonne e definisci come formattare i dati utilizzando le opzioni disponibili.
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
 
-Quando crei il contenuto del messaggio, puoi aggiungere la personalizzazione sfruttando i campi del file di input. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
+Durante la creazione del contenuto del messaggio, aggiungi la personalizzazione sfruttando i campi del file di input. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![Schermata che mostra le opzioni di personalizzazione utilizzando i campi del file di input](assets/select-external-perso.png){zoomable="yes"}
 
 ## File di esempio {#sample-file}
 
@@ -95,17 +95,17 @@ Quando carichi un file esterno per eseguire il targeting dei profili nelle conse
 
 Campaign Web consente di visualizzare in anteprima e inviare bozze quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
 
-1. Fai clic sul **[!UICONTROL pulsante Simula contenuto]** dalla schermata di modifica dei contenuti della consegna e sul pulsante **[!UICONTROL Aggiungi profili di test]**.
+1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** nella schermata di modifica del contenuto della consegna e fai clic sul pulsante **[!UICONTROL Aggiungi profili di test]**.
 
-1. Vengono visualizzati i profili contenuti nel file caricato. Seleziona i profili da utilizzare per l’anteprima del contenuto e fai clic su **[!UICONTROL Seleziona]**.
+1. Vengono visualizzati i profili contenuti nel file caricato. Seleziona i profili da utilizzare per l&#39;anteprima del contenuto e fai clic su **[!UICONTROL Seleziona]**.
 
 1. Viene visualizzata un’anteprima del contenuto della consegna nel riquadro a destra della schermata. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra. [Ulteriori informazioni sull’anteprima dei contenuti della consegna](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable="yes"}
+   ![Schermata che mostra l&#39;anteprima dei contenuti di consegna con elementi personalizzati](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Per inviare bozze, fare clic sul pulsante **[!UICONTROL Invia bozza]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Carica i profili di bozza]** e seleziona il file .txt o .csv che contiene i destinatari della bozza.
+1. Fai clic sul pulsante **[!UICONTROL Carica profili bozza]** e seleziona il file .txt o .csv che contiene i destinatari della bozza.
 
    >[!CAUTION]
    >
@@ -113,6 +113,6 @@ Campaign Web consente di visualizzare in anteprima e inviare bozze quando si uti
 
 1. Quando i profili di bozza vengono aggiunti e sei pronto per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia bozza]** e conferma l&#39;invio.
 
-   ![](assets/file-upload-test.png){zoomable="yes"}
+   ![Schermata che mostra il processo di invio della bozza](assets/file-upload-test.png){zoomable="yes"}
 
-1. Puoi monitorare l&#39;invio della bozza utilizzando il pulsante **[!UICONTROL Visualizza bozze]** in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle bozze](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Monitora l&#39;invio della bozza utilizzando il pulsante **[!UICONTROL Visualizza bozze]** in qualsiasi momento. [Ulteriori informazioni sul monitoraggio delle bozze](../preview-test/test-deliveries.md#access-test-deliveries)

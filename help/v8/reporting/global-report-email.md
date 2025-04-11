@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti globali per il canale e-mail
 description: Ulteriori informazioni sui rapporti globali per il canale e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 70%
+source-wordcount: '1653'
+ht-degree: 58%
 
 ---
 
@@ -25,9 +25,9 @@ Passa al menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Reporting]**. 
 >title="Panoramica della consegna"
 >abstract="La **Panoramica della consegna** presenta gli indicatori chiave di prestazione (KPI) che offrono informazioni approfondite sul modo in cui il pubblico interagisce con le consegne e le campagne e-mail inviate."
 
-La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics) con informazioni approfondite sull&#39;interazione dei visitatori con ogni consegna e-mail. Le metriche sono descritte di seguito.
+La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestazioni chiave (KPI, Key Performance Metrics) e offre informazioni approfondite sull&#39;interazione dei visitatori con ogni consegna e-mail. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
+![Metriche di panoramica della consegna](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
@@ -39,7 +39,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 * **[!UICONTROL Clic totali]**: numero totale di destinatari che hanno fatto clic almeno una volta in una consegna.
 
-* **[!UICONTROL Notifiche non recapitate ed errori]**: totale degli errori cumulati durante la consegna ed elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Notifiche non recapitate ed errori]**: totale degli errori accumulati durante la consegna ed elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Annullamenti abbonamenti]**: numero di destinatari che hanno fatto clic sull&#39;annullamento degli abbonamenti.
 +++
@@ -53,7 +53,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 La tabella e il grafico per **[!UICONTROL Pubblico di destinazione]** mostrano i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
 
-![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
+![Metriche pubblico di destinazione](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
@@ -61,7 +61,7 @@ La tabella e il grafico per **[!UICONTROL Pubblico di destinazione]** mostrano i
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* inserire nell&#39;elenco Bloccati **[!UICONTROL Esclusione]**: numero totale di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione delle regole: indirizzo mancante, messo in quarantena, al momento dell&#39;, ecc.
+* **[!UICONTROL Esclusione]**: numero totale di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione di regole, ad esempio indirizzo mancante, in quarantena o in inserita nell&#39;elenco Bloccati di.
 
 +++
 
@@ -74,7 +74,7 @@ La tabella e il grafico per **[!UICONTROL Pubblico di destinazione]** mostrano i
 
 La tabella **[!UICONTROL Statistiche di consegna]** fornisce una suddivisione del successo di ogni consegna e-mail, con le metriche dettagliate descritte di seguito.
 
-![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+![Metriche delle statistiche di consegna](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -82,7 +82,7 @@ La tabella **[!UICONTROL Statistiche di consegna]** fornisce una suddivisione de
 
 * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Errori / mancati recapiti]**: numero totale di errori cumulati durante le consegne ed elaborazione automatica dei rimbalzi in relazione al numero di messaggi da recapitare.
+* **[!UICONTROL Errori / mancati recapiti]**: numero totale di errori accumulati durante le consegne ed elaborazione automatica dei rimbalzi in relazione al numero di messaggi da recapitare.
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
 
@@ -95,9 +95,9 @@ La tabella **[!UICONTROL Statistiche di consegna]** fornisce una suddivisione de
 >title="Cause di esclusione"
 >abstract="Il grafico e la tabella **Cause di esclusione** illustrano i motivi specifici del rifiuto dei messaggi durante la preparazione della consegna, offrendo un raggruppamento dettagliato in base alle regole."
 
-![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
+![Cause delle metriche di esclusione](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
 
-Il grafico e la tabella Esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
+Il grafico e la tabella delle esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
 I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
@@ -108,15 +108,15 @@ I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campa
 >title="Velocità di consegna"
 >abstract="La **Velocità di consegna** fornisce informazioni complete sulla velocità di consegna, evidenziando i tassi di successo e di errore in un arco temporale specificato."
 
-![](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
+![Metriche di velocità effettiva di consegna](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
 
 Il rapporto Throughput di consegna fornisce informazioni approfondite sull’efficienza del processo di consegna, presentando una panoramica dettagliata dei tassi di successo e di errore in un arco temporale specificato.
 
 +++Ulteriori informazioni sulle metriche della velocità effettiva di consegna.
 
-* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l&#39;elaborazione automatica del rebound in relazione al numero di messaggi da consegnare.
 
 +++
 
@@ -129,7 +129,7 @@ Il rapporto Throughput di consegna fornisce informazioni approfondite sull’eff
 >title="Raggruppamento degli errori per tipo"
 >abstract="La tabella e il grafico che descrivono nei dettagli il **Raggruppamento degli errori per tipo** includono informazioni sui vari tipi di errore riscontrati durante il processo, tra cui utente sconosciuto, cassetta postale piena, dominio non valido e altri."
 
-![](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
+![Raggruppamento degli errori per metriche di tipo](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
 La tabella e il grafico **[!UICONTROL Raggruppamento di errori per tipo]** presentano i dati relativi a potenziali errori riscontrati in vari domini, con le metriche specifiche fornite di seguito.
 
@@ -145,9 +145,9 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 
 * **[!UICONTROL Account disabilitato]**: tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste più.
 
-* **[!UICONTROL Rifiutato]**: tipo di errore generato quando un indirizzo viene rifiutato da IAP (Internet Access Provider), ad esempio in seguito all’applicazione di una regola di sicurezza (software anti-spam).
+* **[!UICONTROL Rifiutato]**: tipo di errore generato quando un indirizzo viene rifiutato dal provider di accesso Internet, ad esempio in seguito all&#39;applicazione di una regola di sicurezza (software anti-spam).
 
-* **[!UICONTROL Non raggiungibile]**: tipo di errore che si verifica nella stringa di distribuzione del messaggio: incidente sul relay SMTP, dominio temporaneamente non raggiungibile, ecc.
+* **[!UICONTROL Non raggiungibile]**: tipo di errore che si verifica nella stringa di distribuzione del messaggio, ad esempio un problema nell&#39;inoltro SMTP o nel dominio temporaneamente non raggiungibile.
 
 * **[!UICONTROL Non connesso]**: tipo di errore per indicare che il telefono cellulare del destinatario è spento o disconnesso dalla rete al momento dell’invio.
 
@@ -160,7 +160,7 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 >title="Raggruppamento degli errori per dominio"
 >abstract="La tabella e il grafico che illustrano il **Raggruppamento degli errori per dominio** presentano i dati corrispondenti a ciascun tipo di errore riscontrato, suddivisi per domini specifici."
 
-![](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
+![Suddivisione degli errori per metrica di dominio](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
 La tabella e il grafico **[!UICONTROL Raggruppamento di errori per dominio]** mostrano i dati relativi a potenziali errori all&#39;interno di ciascun dominio. Le metriche sono comuni alla tabella e al grafico **[!UICONTROL Raggruppamento degli errori per tipo]** descritti in precedenza.
 
@@ -171,11 +171,11 @@ La tabella e il grafico **[!UICONTROL Raggruppamento di errori per dominio]** mo
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Statistiche consegna"
->abstract="Gli indicatori chiave di prestazione (KPI) delle **Statistiche di consegna** forniscono una panoramica completa delle prestazioni delle consegne e delle campagne, offrendo informazioni approfondite sia sulle consegne riuscite che sugli errori riscontrati e sul coinvolgimento degli utenti."
+>abstract="Gli **indicatori di prestazioni chiave (KPI, Key Performance Indicators) delle statistiche di consegna** forniscono una panoramica completa delle prestazioni delle consegne e delle campagne, offrendo informazioni approfondite sia sulle consegne riuscite che sugli errori riscontrati e sul coinvolgimento degli utenti."
 
 Le metriche **[!UICONTROL Statistiche di consegna]** offrono indicatori prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati associati a ogni consegna e-mail. Ulteriori dettagli su queste metriche sono forniti di seguito.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
+![Metriche di tracciamento delle statistiche di consegna](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
@@ -187,7 +187,7 @@ Le metriche **[!UICONTROL Statistiche di consegna]** offrono indicatori prestazi
 
 * **[!UICONTROL Aperture totali]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Clic sul collegamento di rinuncia]**: numero di clic sul collegamento di annullamento dell’iscrizione.
+* **[!UICONTROL Clic sul collegamento di rinuncia]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 
 * **[!UICONTROL Clic sul collegamento mirror]**: numero di clic sul collegamento alla pagina mirror.
 
@@ -201,9 +201,9 @@ Le metriche **[!UICONTROL Statistiche di consegna]** offrono indicatori prestazi
 >title="Percentuale di apertura e click-through"
 >abstract="La tabella dei **Tassi di apertura e di click-through** rivela il coinvolgimento dei destinatari con la consegna, presentando i dati sui tassi di apertura e i tassi di click-through per una panoramica rapida e approfondita."
 
-La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i dati relativi ai destinatari. Le metriche sono descritte di seguito.
+La tabella **[!UICONTROL Percentuale di apertura e click-through]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
+![Metriche del tasso di apertura e click-through](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche del tasso di apertura e click-through.
 
@@ -215,7 +215,7 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 
 * **[!UICONTROL Clic univoci]**: numero e percentuale di destinatari target distinti che hanno fatto clic almeno una volta nella stessa consegna.
 
-* **[!UICONTROL Reattività raw]**: percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
+* **[!UICONTROL Reattività non elaborata]**: percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
 +++
 
 ## URL e flussi di clic {#url-email}
@@ -227,9 +227,9 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 >title="URL e flussi di clic"
 >abstract="Il rapporto **URL e flussi di clic** fornisce Indicatori chiave di prestazione (KPI) essenziali, offrendo informazioni approfondite e dettagliate sugli URL più cliccati durante una consegna."
 
-Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sugli URL che hanno ricevuto il maggior numero di clic durante una consegna. Le metriche sono descritte di seguito.
+Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori di prestazioni chiave (KPI, Key Performance Indicators) e fornisce informazioni dettagliate sugli URL che hanno ricevuto il maggior numero di clic durante una consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
+![URL e metriche di flusso di clic](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sugli URL e sulle metriche di flusso di clic.
 
@@ -247,11 +247,11 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori prestazion
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="10 collegamenti più visitati"
->abstract="Il grafico e la tabella **I 10 collegamenti più visitati** presentano dati completi sull’interazione del destinatario con ciascun collegamento."
+>abstract="Il grafico e la tabella dei **10 collegamenti più visitati** presentano dati completi sull&#39;interazione dei destinatari con ciascun collegamento."
 
 Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
 
-![](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
+![Metriche dei 10 collegamenti più visitati](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche dei 10 collegamenti più visitati.
 
@@ -270,7 +270,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati disponibili per il comportamento dei destinatari in base al collegamento.
 
-![](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
+![Raggruppamento dei clic nelle metriche temporali](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
 ## Attività degli utenti {#user-activities-email}
 
@@ -281,7 +281,7 @@ Il grafico **[!UICONTROL Raggruppamento dei clic nel tempo]** contiene i dati di
 
 Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di aperture e clic sotto forma di grafico. Le metriche di questo rapporto sono descritte di seguito.
 
-![](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
+![Metriche attività utente](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
 +++Ulteriori informazioni sulle metriche delle attività utente.
 

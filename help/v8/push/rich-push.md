@@ -3,9 +3,9 @@ audience: end-user
 title: Progettare una consegna di notifiche push potenziata
 description: Scopri come progettare una consegna di notifiche push potenziata da Android con Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3379'
 ht-degree: 19%
 
 ---
@@ -30,7 +30,7 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
 * Il **[!UICONTROL Messaggio di notifica]**, gestito automaticamente dall’SDK FCM. FCM mostra automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set preimpostato di parametri e opzioni, ma possono ancora essere personalizzati con variabili personalizzate dell’applicazione.
 
-![](assets/rich_push.png){zoomable="yes"}
+![Schermata della consegna sulla pagina Android](assets/rich_push.png){zoomable="yes"}
 
 ## Definisci il contenuto della notifica {#push-message}
 

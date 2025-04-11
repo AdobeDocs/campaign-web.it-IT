@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 70%
+source-wordcount: '414'
+ht-degree: 62%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
-![](../assets/workflow-audience.png)
+![Schermata che mostra l&#39;interfaccia di configurazione del pubblico del flusso di lavoro.](../assets/workflow-audience.png)
 
 1. Aggiungi un’attività **Crea pubblico**.
 1. Definisci un’etichetta.
@@ -56,7 +56,7 @@ Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 Per creare una query personalizzata, effettua le seguenti operazioni:
 
 1. Seleziona **Crea una query personalizzata**.
-1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions)
+1. Scegli la **Dimensione targeting**. La dimensione di targeting consente di definire la popolazione target dell’operazione, ad esempio destinatari, beneficiari del contratto, operatori o abbonati. Per impostazione predefinita, il target viene selezionato dai destinatari. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions)
 1. Fai clic su **Continua**.
 1. Utilizza il modellatore di query per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
@@ -70,8 +70,8 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
 >[!ENDTABS]
 
-## Esempi{#build-audience-examples}
+## Esempi {#build-audience-examples}
 
 Di seguito è riportato un esempio di un flusso di lavoro con due attività **Crea pubblico**. Il primo esegue il targeting di un pubblico di giocatori di poker, seguito da una consegna e-mail. Il secondo quello di un pubblico di clienti VIP, seguito da una consegna SMS.
 
-![](../assets/workflow-audience-example.png)
+![Schermata che mostra un flusso di lavoro di esempio con due attività Genera pubblico indirizzate a tipi di pubblico diversi.](../assets/workflow-audience-example.png)

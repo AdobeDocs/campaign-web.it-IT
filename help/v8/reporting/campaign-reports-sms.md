@@ -3,16 +3,16 @@ audience: end-user
 title: Rapporti sulle campagne per il canale SMS
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 70%
 
 ---
 
 # Rapporti sulle campagne per il canale SMS {#campaign-reports-sms-channel}
 
-Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Per il canale SMS, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti sulle campagne in [questa pagina](campaign-reports.md).
+Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Per il canale SMS, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti delle campagne in [questa pagina](campaign-reports.md).
 
 ## Riepilogo della consegna {#delivery-summary-sms}
 
@@ -21,10 +21,9 @@ Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono i
 >title="Panoramica della consegna"
 >abstract="Il rapporto **Panoramica della consegna** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna SMS."
 
-
 Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di prestazioni (KPI) che forniscono informazioni dettagliate sul modo in cui i visitatori interagiscono con la consegna SMS. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_sms_1.png){zoomable="yes"}
+![Rapporto Panoramica consegna con metriche SMS](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -32,24 +31,22 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Errori]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Errori]**: totale degli errori accumulati durante la consegna e l&#39;elaborazione automatica della restituzione, in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Clic distinti]**: numero totale di destinatari distinti che hanno fatto clic almeno una volta in una consegna.
 
 +++
-
 
 ### Statistiche iniziali sul pubblico target {#delivery-summary-sms-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="Statistiche iniziali sul pubblico target"
->abstract="La tabella **Statistiche iniziali sul pubblico target** mostra i dati relativi ai destinatari"
+>abstract="La tabella delle **statistiche iniziali del pubblico di destinazione** visualizza i dati relativi ai destinatari."
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 
-
-![](assets/campaign_report_sms_2.png){zoomable="yes"}
+![Tabella delle statistiche del pubblico di destinazione iniziale con i dati dei destinatari](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
@@ -57,41 +54,36 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Rifiutato da regole]**: numero totale di indirizzi ignorati durante l’analisi quando si applicano le regole: indirizzo mancante, messo in quarantena, inserito nell&#39;elenco Bloccati, ecc.
+* **[!UICONTROL Rifiutato dalle regole]**: numero totale di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione di regole, ad esempio indirizzo mancante, in quarantena o in fase di inserisce nell&#39;elenco Bloccati di.
 
 +++
 
-
 ### Statistiche di esecuzione {#delivery-summary-sms-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
 >title="Statistiche di esecuzione"
 >abstract="La tabella **Statistiche di esecuzione** descrive il successo della consegna: messaggi da consegnare, consegne riuscite, errori e nuove quarantene."
 
-
 La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della consegna. Le metriche sono descritte di seguito.
 
-
-![](assets/campaign_report_sms_3.png){zoomable="yes"}
+![Tabella delle statistiche di esecuzione che mostra le metriche di completamento della consegna](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Operazione completata]**: numero di messaggi elaborati correttamente, in relazione al numero di messaggi da recapitare.
 
-* **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l’elaborazione automatica dei messaggi restituiti rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Errori]**: numero totale di errori accumulati durante le consegne e l&#39;elaborazione automatica del rebound, in relazione al numero di messaggi da consegnare.
 
-* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
+* **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido), in relazione al numero di messaggi da recapitare.
 
   I tipi di errore SMS sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){target="_blank"}.
 
 +++
 
 ### Flussi di clic generati {#delivery-summary-sms-click-streams}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_click_streams"
@@ -100,7 +92,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al modo in cui i destinatari hanno interagito con la consegna. Le metriche sono descritte di seguito.
 
-![](assets/campaign_report_sms_4.png){zoomable="yes"}
+![Tabella dei flussi di clic generata che mostra i dati di interazione del destinatario](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++Ulteriori informazioni sulle metriche dei rapporti delle campagne SMS.
 

@@ -4,10 +4,10 @@ title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 15%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -56,7 +56,7 @@ Per inviare le consegne scaglionate, segui la procedura riportata di seguito.
 
 Se selezionate questa opzione, tutte le onde hanno la stessa dimensione (tranne l&#39;ultima) e il ritardo tra ogni onda è sempre lo stesso.
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![Esempio di scaglioni della stessa dimensione](assets/waves-same-size.png){zoomable="yes"}
 
 * Specifica la dimensione di tutte le ondate in cui si sta suddividendo la consegna. È possibile immettere una percentuale o un valore numerico. Solo l&#39;ultima ondata può variare in dimensioni in quanto deve includere il numero rimanente di messaggi.
 
@@ -70,17 +70,17 @@ Utilizzando le ondate, è possibile limitare il numero di messaggi a 20 al giorn
 
 A tale scopo, selezionare l&#39;opzione **[!UICONTROL Pianifica più scaglioni della stessa dimensione]**. Immetti **[!UICONTROL 20]** come dimensione scaglioni e **[!UICONTROL 1 giorno]** nel campo **[!UICONTROL Intervallo]**.
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![Esempio di ondate per l&#39;elaborazione del call center](assets/waves-call-center.png){zoomable="yes"}
 
 ## Pianifica scaglioni in base a un calendario {#waves-calendar}
 
-Se selezioni questa opzione, devi definire il giorno/ora di inizio per ogni scaglione che stai inviando, nonché la dimensione di ogni scaglione.
+Se selezioni questa opzione, definisci il giorno/ora di inizio per ogni scaglione che stai inviando, nonché la dimensione di ogni scaglione.
 
 * Nei campi **[!UICONTROL Inizio]**, specifica il ritardo tra l&#39;inizio di due ondate consecutive.
 
 * Nella colonna **[!UICONTROL Dimensione]** immettere un numero fisso o una percentuale.
 
-Aggiungi tutte le ondate che desideri. Puoi riordinarli in base alle tue esigenze.
+Aggiungi tutte le ondate necessarie. Riordinale in base alle tue esigenze.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ Aggiungi tutte le ondate che desideri. Puoi riordinarli in base alle tue esigenz
 
 Nell’esempio seguente, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizia immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![Esempio di ondate pianificate dal calendario](assets/waves-calendar.png){zoomable="yes"}
 
-Un caso d’uso comune per l’utilizzo di più scaglioni secondo un calendario è durante il processo di incremento.
+Un caso d’uso comune per l’utilizzo di più scaglioni in base a un calendario è durante il processo di incremento.
 
 Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) sospettano che gli indirizzi IP non siano riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente, gli ISP spesso le contrassegnano come spam.
 
-Per evitare di essere contrassegnati come spam, puoi aumentare progressivamente il volume inviato scaglionando. Ciò dovrebbe garantire un regolare sviluppo della fase di avvio e consentirti di ridurre il tasso complessivo di indirizzi non validi.
+Per evitare di essere contrassegnati come spam, aumenta progressivamente il volume inviato utilizzando le scaglioni. In questo modo si garantisce un agevole sviluppo della fase di avvio e si riduce la percentuale complessiva di indirizzi non validi.
 
 A tale scopo, utilizzare l&#39;opzione **[!UICONTROL Pianifica ondate in base a un calendario]**. Ad esempio, imposta la prima ondata su 10%, la seconda su 15%, la terza su 20% e così via.
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![Esempio di scaglioni per il processo di incremento](assets/waves-ramp-up.png){zoomable="yes"}
