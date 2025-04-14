@@ -14,7 +14,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >
-L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare quando viene avviato il flusso di lavoro. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro.
+>L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare quando viene avviato il flusso di lavoro. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro.
 
 ## Best practice {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ L’attività del **Modulo di pianificazione** è un’attività di **Controllo 
 
 ## Configurare l’attività di pianificazione {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 Per configurare l’attività del **Modulo di pianificazione**, segui questi passaggi:
 
