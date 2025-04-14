@@ -13,8 +13,10 @@ ht-degree: 34%
 # Selezionare un pubblico esistente {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-Questa sezione spiega come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna. Quando definisci il target principale di una consegna, puoi anche:
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [Crea un pubblico una tantum](one-time-audience.md) utilizzando il modellatore di query.
 * [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 

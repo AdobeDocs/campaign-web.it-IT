@@ -12,8 +12,9 @@ ht-degree: 17%
 # Dimensioni di targeting {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
-La dimensione di targeting, nota anche come mappatura target, è il tipo di dati che un’operazione gestisce. Definisce la popolazione target, ad esempio profili, beneficiari del contratto, operatori o abbonati.
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 ## Dimensioni di targeting dei flussi di lavoro {#workflow}
 

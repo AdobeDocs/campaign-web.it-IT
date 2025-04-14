@@ -13,8 +13,9 @@ ht-degree: 40%
 # Personalizzare lo sfondo delle e-mail {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-Quando si impostano gli sfondi con E-mail Designer, Adobe consiglia di effettuare le seguenti operazioni:
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. Se richiesto dal tuo design, applica un colore di sfondo al corpo dell’e-mail.
 1. Nella maggior parte dei casi, imposta i colori di sfondo a livello di colonna.
