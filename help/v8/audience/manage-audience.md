@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 28%
+source-wordcount: '371'
+ht-degree: 36%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
->title="Properties"
->abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
+>title="Proprietà"
+>abstract="Qui puoi trovare un riepilogo delle proprietà del pubblico, ad esempio la sua origine o la sua cartella di archiviazione. Fai clic sul collegamento nella sezione **Ultimo flusso di lavoro** per aprire il flusso di lavoro utilizzato per creare il pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
->title="Audience size"
->abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
+>title="Dimensione del pubblico"
+>abstract="Qui è disponibile il numero totale di profili all’interno del pubblico. Fai clic sul pulsante **Calcola** per aggiornare e ricalcolare i risultati del pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
@@ -29,8 +29,8 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="Audience error"
->abstract="Audience data is not available. Please wait for the end of the workflow execution."
+>title="Errore pubblico"
+>abstract="Dati del pubblico non disponibili. Attendi la fine dell&#39;esecuzione del flusso di lavoro."
 
 Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Personalizzare lo sfondo delle e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 44%
 
 ---
 
@@ -14,8 +14,10 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
+>title="Impostazioni dello sfondo"
+>abstract="Puoi personalizzare il colore o l’immagine di sfondo del tuo contenuto. Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
+
+Quando si impostano gli sfondi con E-mail Designer, Adobe consiglia di effettuare le seguenti operazioni:
 
 1. Se richiesto dal tuo design, applica un colore di sfondo al corpo dell’e-mail.
 1. Nella maggior parte dei casi, imposta i colori di sfondo a livello di colonna.
@@ -39,7 +41,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]\
-  Accertatevi di non impostare il colore di sfondo del riquadro di visualizzazione, poiché potrebbe nascondere i colori di sfondo della struttura.
+  >Accertatevi di non impostare il colore di sfondo del riquadro di visualizzazione, poiché potrebbe nascondere i colori di sfondo della struttura.
 
 * Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
 
@@ -47,7 +49,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]\
-  Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Seleziona un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
+  >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Seleziona un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
 * Imposta un colore di sfondo a livello di colonna.
 
@@ -55,6 +57,6 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]\
-  Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò offre maggiore flessibilità durante la modifica dell’intero contenuto dell’e-mail.
+  >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò offre maggiore flessibilità durante la modifica dell’intero contenuto dell’e-mail.
 
   Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.

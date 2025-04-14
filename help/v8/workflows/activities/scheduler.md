@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 29%
+source-wordcount: '505'
+ht-degree: 40%
 
 ---
 
@@ -14,8 +14,10 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>title="Attività del Modulo di pianificazione"
+>abstract="L’attività del **Modulo di pianificazione** consente di pianificare quando viene avviato il flusso di lavoro. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro."
+
+L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare quando viene avviato il flusso di lavoro. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro.
 
 ## Best practice {#scheduler-best-practices}
 
@@ -27,13 +29,13 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="Scheduler validity"
->abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+>title="Validità del modulo di pianificazione"
+>abstract="È possibile definire un periodo di validità per il modulo di pianificazione. Può essere permanente (impostazione predefinita) o valido fino a una data specifica."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler options"
->abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+>title="Opzioni del modulo di pianificazione"
+>abstract="Definisci la frequenza del modulo di pianificazione. Può essere eseguito in un determinato momento, una o più volte al giorno, alla settimana o al mese."
 
 Per configurare l’attività del **Modulo di pianificazione**, segui questi passaggi:
 
@@ -59,7 +61,7 @@ Per configurare l’attività del **Modulo di pianificazione**, segui questi pas
    * **Periodo di validità**: il flusso di lavoro viene eseguito in base alla frequenza specificata, fino a una data specifica. Specifica le date di inizio e fine.
 
 >[!NOTE]\
-Se si desidera avviare immediatamente il flusso di lavoro, fare clic su **Esegui attività in sospeso** nella barra delle azioni superiore della pianificazione. Questo pulsante è disponibile solo quando il flusso di lavoro è stato avviato.
+>Se si desidera avviare immediatamente il flusso di lavoro, fare clic su **Esegui attività in sospeso** nella barra delle azioni superiore della pianificazione. Questo pulsante è disponibile solo quando il flusso di lavoro è stato avviato.
 
 ## Esempio {#scheduler-example}
 

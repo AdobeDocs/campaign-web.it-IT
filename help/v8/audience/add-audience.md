@@ -3,10 +3,10 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 34%
+source-wordcount: '381'
+ht-degree: 39%
 
 ---
 
@@ -14,9 +14,10 @@ ht-degree: 34%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+>title="Selezionare un pubblico esistente"
+>abstract="Sfoglia l’elenco per selezionare un pubblico esistente. Utilizza l’icona “Mostra filtri” per filtrare l’elenco o seleziona una cartella specifica."
 
+Questa sezione spiega come selezionare un pubblico esistente durante la definizione della popolazione target di una consegna. Quando definisci il target principale di una consegna, puoi anche:
 * [Crea un pubblico una tantum](one-time-audience.md) utilizzando il modellatore di query.
 * [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 

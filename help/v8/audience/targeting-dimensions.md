@@ -2,10 +2,10 @@
 title: Dimensioni di targeting
 description: Ulteriori informazioni sulle dimensioni di targeting in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 17%
+source-wordcount: '408'
+ht-degree: 22%
 
 ---
 
@@ -13,8 +13,10 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>title="Selezionare una dimensione targeting"
+>abstract="La dimensione di targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati e altro ancora. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
+
+La dimensione di targeting, nota anche come mappatura target, è il tipo di dati che un’operazione gestisce. Definisce la popolazione target, ad esempio profili, beneficiari del contratto, operatori o abbonati.
 
 ## Dimensioni di targeting dei flussi di lavoro {#workflow}
 
