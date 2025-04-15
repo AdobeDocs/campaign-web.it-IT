@@ -34,7 +34,7 @@ ht-degree: 37%
 
 L’interfaccia utente web di Adobe Campaign consente di eseguire il targeting dei profili memorizzati in un file esterno. Una volta caricati i profili, tutti i campi del file di input sono disponibili per l&#39;utilizzo per personalizzare la consegna [Scopri come personalizzare il contenuto](../personalization/personalize.md).
 
-I profili del file di input non vengono aggiunti al database. Sono caricati e disponibili solo per questa consegna e-mail autonoma specifica.
+I profili del file di input non vengono aggiunti al database. Sono caricati e disponibili solo per questa specifica consegna autonoma della posta elettronica.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ I profili del file di input non vengono aggiunti al database. Sono caricati e di
 Per eseguire il targeting dei profili da un file nelle e-mail, effettua le seguenti operazioni:
 
 1. Apri una consegna e-mail esistente oppure [crea una nuova consegna e-mail](../email/create-email.md).
-1. Nella sezione **Pubblico**, fai clic sul pulsante **Seleziona pubblico**, quindi scegli **Seleziona dal file**.
+1. **Nella sezione Pubblico**, fai clic sul **pulsante Seleziona pubblico**, quindi scegli **Seleziona da file**.
 
-   ![Schermata che mostra l&#39;opzione Seleziona da file nella sezione Pubblico](assets/select-from-file.png){zoomable="yes"}
+   ![Screenshot che mostra l&#39;opzione Seleziona da file nella sezione Pubblico](assets/select-from-file.png){zoomable="yes"}
 
 1. Selezionare il file locale da caricare. Il formato del file deve essere allineato al [file di esempio](#sample-file).
 1. Visualizza in anteprima e verifica la modalità di mappatura dei dati nella sezione centrale dello schermo.
@@ -66,7 +66,7 @@ Per eseguire il targeting dei profili da un file nelle e-mail, effettua le segue
 
 Durante la creazione del contenuto del messaggio, aggiungi la personalizzazione sfruttando i campi del file di input. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
 
-![Schermata che mostra le opzioni di personalizzazione utilizzando i campi del file di input](assets/select-external-perso.png){zoomable="yes"}
+![Schermata che mostra personalizzazione opzioni utilizzando i campi del file di input](assets/select-external-perso.png){zoomable="yes"}
 
 ## File di esempio {#sample-file}
 
@@ -93,11 +93,11 @@ Quando carichi un file esterno per eseguire il targeting dei profili nelle conse
 
 ## Anteprima e verifica dell’e-mail {#test}
 
-Campaign Web consente di visualizzare in anteprima e inviare bozze quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
+Campaign Web consente di visualizzare in anteprima e inviare prove quando si utilizza un pubblico caricato da un file. Per farlo, segui questi passaggi:
 
-1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]** nella schermata di modifica del contenuto della consegna e fai clic sul pulsante **[!UICONTROL Aggiungi profili di test]**.
+1. Fai clic sul **[!UICONTROL pulsante]** Simulate contenuto nella schermata di consegna contenuto modifica e fai clic sulla **[!UICONTROL pulsante Aggiungi profili]** di prova.
 
-1. Vengono visualizzati i profili contenuti nel file caricato. Seleziona i profili da utilizzare per l&#39;anteprima del contenuto e fai clic su **[!UICONTROL Seleziona]**.
+1. Vengono visualizzati i profili contenuti nel file caricato. Seleziona i profili che desideri utilizzare per visualizzare l&#39;anteprima del contenuto e fai clic su **[!UICONTROL Seleziona]**.
 
 1. Viene visualizzata un’anteprima del contenuto della consegna nel riquadro a destra della schermata. Gli elementi personalizzati vengono sostituiti dai dati del profilo selezionato nel riquadro a sinistra. [Ulteriori informazioni sull’anteprima dei contenuti della consegna](../preview-test/preview-content.md)
 

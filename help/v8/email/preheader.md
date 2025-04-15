@@ -29,19 +29,19 @@ Per definire la preintestazione dell’e-mail, segui i passaggi indicati di segu
 
 1. In [E-mail designer](create-email-content.md), aggiungi almeno un componente **[!UICONTROL Struttura]** per iniziare a progettare l’e-mail.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Struttura di navigazione]** nel riquadro a sinistra e seleziona **[!UICONTROL Corpo]**.
+1. Fare clic sull&#39;icona Struttura **[!UICONTROL di navigazione]** nel riquadro sinistro e selezionare **[!UICONTROL Corpo]**.
 
-   ![Schermata che mostra l&#39;icona della struttura di navigazione e la selezione del corpo nell&#39;interfaccia di E-mail Designer.](assets/preheader_body.png){zoomable="yes"}
+   ![Schermata che mostra l&#39;icona della struttura di navigazione e la selezione del corpo nell&#39;interfaccia di Email Designer.](assets/preheader_body.png){zoomable="yes"}
 
 1. Nella scheda **[!UICONTROL Impostazioni]**, immetti del testo per la preintestazione.
 
 1. Per personalizzarlo ulteriormente, fai clic sull’icona **[!UICONTROL Aggiungi personalizzazione]** a sinistra del campo **[!UICONTROL preintestazione]**.
 
-   ![Schermata che mostra la scheda Impostazioni e l&#39;icona Aggiungi personalizzazione nell&#39;interfaccia di E-mail Designer.](assets/preheader_body_settings.png){zoomable="yes"}
+   ![Schermata che mostra l&#39;icona Impostazioni scheda e Aggiungi personalizzazione nell&#39;interfaccia di Email Designer.](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Dalla finestra **[!UICONTROL Modifica Personalization]**, aggiungi [campi di personalizzazione](../personalization/personalize.md), [frammenti di espressione](../content/use-expression-fragments.md) e [contenuto condizionale](../personalization/conditions.md) utilizzando le voci dedicate a sinistra.
+1. **[!UICONTROL Dalla finestra Personalizzazione]** Modifica, aggiungi [campi personalizzazione](../personalization/personalize.md), [frammenti di](../content/use-expression-fragments.md) espressione e [contenuto](../personalization/conditions.md) condizionali utilizzando le voci dedicate a sinistra.
 
-   ![Schermata che mostra la finestra Modifica Personalization con opzioni per campi di personalizzazione, frammenti di espressione e contenuto condizionale.](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![Schermata che mostra la finestra Personalizzazione Modifica con opzioni per campi personalizzazione, frammenti di espressione e contenuto condizionali.](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Conferma]**.
 

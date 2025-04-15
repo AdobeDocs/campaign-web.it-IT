@@ -25,7 +25,7 @@ ht-degree: 11%
 
 ## Informazioni sulle tipologie
 
-Le tipologie consentono di standardizzare le pratiche aziendali su tutte le consegne. Una **tipologia** è una raccolta di **regole di tipologia** che consente di controllare, filtrare e assegnare priorità all&#39;invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione.
+Le tipologie consentono di standardizzare le pratiche aziendali su tutte le consegne. Una **tipologia** è una raccolta di **regole di tipologia** che consente di controllare, filtrare e assegnare priorità all&#39;invio delle consegne. I profili che corrispondono ai criteri all&#39;interno di una tipologia regola sono esclusi dal pubblico di consegna durante la fase di preparazione.
 
 Le tipologie garantiscono che le consegne contengano sempre alcuni elementi, ad esempio un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
 
@@ -125,9 +125,9 @@ Definisci le proprietà della regola di tipologia:
 
    **[!UICONTROL Dopo il targeting]**: selezionare questa fase se è necessario conoscere il volume della destinazione per applicare la regola di controllo. Ad esempio, la regola di controllo **[!UICONTROL Verifica dimensione bozza]** si applica dopo ogni fase di targeting. Questa regola impedisce la personalizzazione dei messaggi se sono presenti troppi destinatari della bozza.
 
-   **[!UICONTROL All&#39;inizio della personalizzazione]**: selezionare questa fase se il controllo riguarda l&#39;approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
+   **[!UICONTROL All&#39;inizio del personalizzazione]**: selezionare questa fase se il controllo riguarda l&#39;approvazione del messaggio personalizzazione. Invia messaggio personalizzazione viene effettuata durante la fase di analisi.
 
-   **[!UICONTROL Al termine dell&#39;analisi]**: applica controlli che richiedono la personalizzazione completa dei messaggi.
+   **[!UICONTROL Al termine dell&#39;analisi]**: controlli Applica che richiedono una personalizzazione completa del messaggio.
 
 +++
 

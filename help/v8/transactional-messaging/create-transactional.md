@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Creare messaggi transazionali
-description: Scopri come creare un messaggio transazionale nell’interfaccia utente di Campaign Web
+title: Crea messaggi transazionali
+description: Scopri come creare un messaggio transazionale nell Campaign interfaccia utente Web
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
@@ -10,15 +10,15 @@ ht-degree: 11%
 
 ---
 
-# Creare messaggi transazionali
+# Crea messaggi transazionali
 
-Nella messaggistica transazionale, un evento attiva l’invio di un messaggio personalizzato. Per abilitare questa funzione, crea un modello di messaggio per ogni tipo di evento. Questi modelli contengono tutte le informazioni necessarie per personalizzare il messaggio transazionale.
+Nella messaggistica transazionale, un evento attiva l&#39;invio di un messaggio personalizzato. Per abilitarlo, crea un modello di messaggio per ogni tipo di evento. Questi modelli contengono tutte le informazioni necessarie per personalizzare il messaggio transazionale.
 
-## Creare un modello di messaggio transazionale {#transactional-template}
+## Crea un modello di messaggio transazionale {#transactional-template}
 
-Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+Nell Campaign interfaccia utente Web, il primo passo nella configurazione del messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Questo è diverso dalla [configurazione dei messaggi transazionali sulla console](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional) client.
 
-Puoi utilizzare un modello di messaggio transazionale per visualizzare in anteprima il contenuto della consegna ricevuto dal profilo prima che raggiunga il pubblico finale. Ad esempio, un amministratore può impostare e configurare i modelli, rendendoli pronti per l’uso da parte degli utenti di marketing.
+Un modello di messaggio transazionale può essere utilizzato per visualizzare in anteprima il recapito contenuto ricevuto dal profilo prima che raggiunga il pubblico finale. Ad esempio, un amministratore può impostare e configurare i modelli, rendendoli pronti per l’uso da parte degli utenti di marketing.
 
 Per creare un modello per messaggi transazionali, effettua le seguenti operazioni:
 
@@ -26,7 +26,7 @@ Per creare un modello per messaggi transazionali, effettua le seguenti operazion
 
   ![Schermata che mostra la sezione dei modelli transazionali nell&#39;interfaccia utente di Campaign Web.](assets/transactional-templates.png){zoomable="yes"}
 
-* Nella nuova pagina visualizzata, scegli il canale del modello. Per questo esempio, seleziona il canale **[!UICONTROL E-mail]**. È inoltre possibile utilizzare un altro modello di messaggio e selezionarlo nell&#39;elenco dei modelli.
+* Nella nuova pagina visualizzata, scegli il canale del modello. Per questo esempio, seleziona il canale **[!UICONTROL E-mail]**. È inoltre possibile utilizzare da un altro modello di messaggio e selezionarlo nell&#39;elenco dei modelli.
 
   ![Schermata che mostra la selezione del canale per i modelli di messaggi transazionali.](assets/transactional-template-channel.png){zoomable="yes"}
 
@@ -77,11 +77,11 @@ La sezione **[!UICONTROL Proprietà]** di un messaggio transazionale ti aiuta a 
 >title="App mobile di messaggistica transazionale"
 >abstract="In questa sezione puoi selezionare l’applicazione su cui desideri inviare il messaggio push."
 
-In questa sezione, seleziona l’applicazione in cui desideri inviare il messaggio push.
+In questa sezione seleziona il applicazione in cui vuoi inviare il messaggio.
 
-Facendo clic sull’icona di ricerca, accedi all’elenco delle app mobili nella tua istanza di Adobe Campaign.
+Facendo clic sull&#39;icona ricerca, accesso l&#39;elenco delle applicazioni mobili nel istanza Adobe Campaign.
 
-![Schermata che mostra la selezione di app mobili per i messaggi transazionali.](assets/transactional-mobileapp.png){zoomable="yes"}
+![Schermata che mostra la selezione dell&#39;app mobile per i messaggi transazionali.](assets/transactional-mobileapp.png){zoomable="yes"}
 
 ### Esempio di contesto {#context-sample}
 
@@ -115,22 +115,22 @@ Il contenuto del contesto dipende dalla personalizzazione necessaria.
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Personalizzazione della messaggistica transazionale"
->abstract="Scopri come personalizzare il contenuto della messaggistica transazionale."
+>abstract="Scopri come personalizzare il contenuto transazionale messaggistica."
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="Contesto dell’evento"
 >abstract="Questo menu fornisce variabili dell’evento trigger che puoi sfruttare per personalizzare il contenuto dei messaggio transazionali."
 
-L’utilizzo del contenuto di un messaggio transazionale è simile alla creazione di contenuto di una consegna. Fai clic su **[!UICONTROL Apri e-mail designer]** o **[!UICONTROL Modifica corpo e-mail]** e seleziona un contenuto modello o importa il codice HTML.
+Lavorare sulla contenuto di un messaggio transazionale è simile alla creazione contenuto di una consegna. Fai clic su **[!UICONTROL Apri email designer]** o **[!UICONTROL Modifica corpo]** dell&#39;email e seleziona un modello contenuto o importa il tuo codice HTML.
 
-![Schermata che mostra la creazione del contenuto per i modelli di messaggi transazionali.](assets/template-content.png){zoomable="yes"}
+![Schermata che mostra la creazione di contenuto per i modelli di messaggi transazionali.](assets/template-content.png){zoomable="yes"}
 
-Per aggiungere la personalizzazione al contenuto, fai clic sulla sezione in cui desideri aggiungerla e scegli l&#39;icona **[!UICONTROL Aggiungi Personalization]**.
+Per aggiungere personalizzazione al contenuto, fai clic sulla sezione in cui desideri aggiungerlo e scegli l&#39;icona **[!UICONTROL Aggiungi personalizzazione]** .
 
-![Schermata che mostra l&#39;icona di personalizzazione nell&#39;editor dei contenuti.](assets/template-perso.png){zoomable="yes"}
+![Schermata che mostra l&#39;icona del personalizzazione nella editor contenuto.](assets/template-perso.png){zoomable="yes"}
 
-Accedi alla finestra **[!UICONTROL Modifica personalizzazione]**. Per aggiungere variabili dall&#39;evento trigger, fare clic sull&#39;icona **[!UICONTROL Contesto evento]**. Passa al contesto definito per il modello ([ulteriori informazioni sul contesto](#context-sample)) e fai clic sul pulsante **[!UICONTROL +]** per inserire la variabile richiesta.
+Accedi alla **[!UICONTROL finestra di personalizzazione]** Modifica. Per aggiungere variabili dall&#39;evento trigger, fai clic sull&#39;icona contestuale ]**dell&#39;evento**[!UICONTROL . Naviga nel contesto definito per il tuo modello ([scopri di più sul contesto](#context-sample)) e fai clic sul **[!UICONTROL pulsante +]** per inserire la variabile richiesta.
 
 L’immagine seguente mostra come aggiungere la personalizzazione per il nome.
 
@@ -144,7 +144,7 @@ In questo esempio, aggiungi nome, cognome e personalizza il collegamento del pul
 
 In questa fase di creazione del modello, visualizza l’anteprima del contenuto del modello e controlla la personalizzazione.
 
-Per farlo, compila il [esempio di contesto](#context-sample) e fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
+A tale scopo, compilare l&#39;esempio [](#context-sample)di contesto e fare clic sull&#39;pulsante **[!UICONTROL Simula contenuto]**.
 
 ![Schermata che mostra l&#39;anteprima del modello di messaggio transazionale.](assets/template-preview.png){zoomable="yes"}
 

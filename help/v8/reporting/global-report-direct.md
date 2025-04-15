@@ -14,7 +14,7 @@ ht-degree: 35%
 
 I report globali Direct mail forniscono agli utenti una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale.
 
-Passa al menu **[!UICONTROL Report]** nella sezione **[!UICONTROL Reporting]**. Puoi filtrare i dati in base alla data del rapporto, alla cartella o alle regole. [Ulteriori informazioni](global-reports.md)
+Passare al **[!UICONTROL menu Report]** nella **[!UICONTROL sezione Reporting]** . Puoi filtrare i dati in base alla data del rapporto, alla cartella o alle regole. [Ulteriori informazioni](global-reports.md)
 
 ## Riepilogo della consegna {#delivery-summary-direct}
 
@@ -57,9 +57,9 @@ La tabella e il grafico per **[!UICONTROL Pubblico di destinazione]** mostrano i
 
 ![Nell&#39;immagine sono illustrate le metriche del pubblico di destinazione per le consegne di direct mailing.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del pubblico di destinazione.
++++Scopri ulteriori informazioni sulle metriche del pubblico mirato.
 
-* **[!UICONTROL Pubblico di destinazione]**: numero totale di destinatari di destinazione.
+* **[!UICONTROL Pubblico]** di destinazione: numero totale di destinatari di destinazione.
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
@@ -85,7 +85,7 @@ Il grafico e la tabella **[!UICONTROL Statistiche di consegna]** forniscono una 
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
-* **[!UICONTROL Operazione completata]**: numero di messaggi elaborati correttamente, in relazione al numero di messaggi da recapitare.
+* **[!UICONTROL Operazione riuscita]**: numero di messaggi elaborati correttamente, in relazione al numero di messaggi da recapitare.
 
 * **[!UICONTROL Errori / mancati recapiti]**: totale degli errori accumulati durante le consegne ed elaborazione automatica dei rimbalzi, in relazione al numero di messaggi da recapitare.
 
@@ -109,9 +109,9 @@ Il grafico e la tabella **[!UICONTROL Statistiche di consegna]** forniscono una 
 
 Il grafico e la tabella Esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
-+++Ulteriori informazioni sulle metriche Cause di esclusione.
++++Scopri ulteriori informazioni sulle metriche Cause di esclusione.
 
-* **[!UICONTROL Indirizzo in quarantena]**: tipo di errore generato quando un indirizzo viene messo in quarantena.
+* **[!UICONTROL Indirizzo in quarantena]**: Errore tipo generato quando un indirizzo viene messo in quarantena.
 
 * **[!UICONTROL Indirizzo non specificato]**: tipo di errore generato durante l&#39;invio di una consegna per indicare che l&#39;indirizzo non esiste.
 

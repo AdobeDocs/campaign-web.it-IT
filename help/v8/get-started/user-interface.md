@@ -27,17 +27,17 @@ Scopri come connetterti ad Adobe Campaign ed esplorare le nozioni di base sulla 
 >title="Recenti"
 >abstract="L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco ne mostra il canale, lo stato, il proprietario, le date di creazione e modifica."
 
-La pagina Home di Campaign consente di sfogliare rapidamente e facilmente risorse chiave, indicatori e componenti.
+La home page Campaign consente di sfogliare rapidamente e facilmente le risorse, gli indicatori e i componenti chiave.
 
-Nella sezione superiore della home page vengono visualizzati i dettagli sugli ultimi aggiornamenti e sulle nuove funzionalità disponibili nel prodotto, con collegamenti alle note sulla versione e alla documentazione dettagliata. Utilizzate la freccia sinistra per scorrere le schede delle feature.
+Nella sezione superiore della home page vengono visualizzati i dettagli sugli aggiornamenti più recenti e le nuove funzionalità disponibili nel prodotto, con collegamenti alle note sulla versione e alla documentazione dettagliata. Utilizzare la freccia sinistra per scorrere le schede delle feature network.
 
 ![Schermata che mostra la home page con le schede delle caratteristiche e le opzioni di navigazione](assets/home.png){zoomable="yes"}
 
 La sezione **Indicatori prestazioni chiave** consente di controllare l&#39;efficacia della piattaforma tramite i KPI comuni. Ulteriori informazioni su questi KPI sono disponibili in [questa pagina](../reporting/kpis.md).
 
-L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra le rispettive date di canale, stato, proprietario, creazione e modifica. Fai clic sul collegamento **Mostra altro** per caricare altre consegne.
+L’elenco **Recenti** fornisce collegamenti alle consegne create e modificate di recente. Questo elenco mostra le date di canale, stato, proprietario, creazione e modifica. Fai clic sul **Mostra ulteriori** collegare per caricare altre consegne.
 
-Inoltre, puoi accedere alle pagine della guida della chiave web di Adobe Campaign dalla sezione **Apprendimento** della pagina.
+È inoltre possibile accesso Adobe Campaign pagine della Guida chiave Web dalla **sezione Formazione** della pagina.
 
 ### Collegamento Informazioni {#user-interface-about}
 
@@ -67,16 +67,16 @@ Nella parte inferiore della pagina, il collegamento **[!UICONTROL Informazioni]*
 
 La sezione **Istanza** fornisce informazioni chiave sul client della console, inclusi i relativi numeri di **versione** e di **build**.
 
-* La **versione** fa riferimento alla versione ufficiale in uso.
+* La **versione** si riferisce alla versione di rilascio ufficiale che stai utilizzando.
 * La **build** fa riferimento a una specifica iterazione di tale versione.
 
-I numeri di versione e di build sono essenziali per la risoluzione dei problemi, in quanto aiutano a determinare le funzioni e le correzioni presenti nell’ambiente.
+Sia la versione che i numeri di versione sono essenziali per la risoluzione dei problemi, in quanto consentono di determinare le funzionalità e le correzioni presenti nell&#39;ambiente.
 
-Nella sezione **Web** viene visualizzata la versione dell&#39;interfaccia utente di Campaign Web, insieme all&#39;ultima data di aggiornamento, se disponibile. In questo modo è possibile tenere traccia delle modifiche o dei miglioramenti apportati all’interfaccia utente di Campaign Web.
+La **sezione Web** visualizza la versione dell&#39;interfaccia utente Web Campaign, insieme alla data dell&#39;ultimo aggiornamento, se disponibile. In questo modo è possibile tenere traccia delle modifiche o dei miglioramenti apportati all’interfaccia utente di Campaign Web.
 
-Nella sezione **Pacchetti installati** sono elencati tutti i moduli, le funzionalità e le integrazioni presenti nell&#39;istanza. Questi pacchetti estendono le funzionalità di Adobe Campaign, consentendo attività specializzate come l’integrazione con altre soluzioni Adobe o il supporto di flussi di lavoro specifici. Dato il numero elevato di pacchetti, puoi eseguire ricerche all’interno di questa sezione per verificare rapidamente se un particolare modulo è installato nell’istanza.
+La **sezione Pacchetti** installati elenca tutti i moduli, le funzionalità e le integrazioni presenti sul tuo istanza. Questi pacchetti estendono le funzionalità di Adobe Campaign, consentendo attività specializzate come l’integrazione con altre soluzioni Adobe o il supporto di flussi di lavoro specifici. Dato il gran numero di pacchetti, è possibile ricerca all&#39;interno di questa sezione per verificare rapidamente se un particolare modulo è installato sul istanza.
 
-![Schermata che mostra la sezione Pacchetti installati con funzionalità di ricerca](assets/about.png){zoomable="yes"}
+![Schermata che mostra la sezione Pacchetti installati con funzionalità ricerca](assets/about.png){zoomable="yes"}
 
 ## Menu di navigazione a sinistra {#user-interface-left-nav}
 
@@ -89,9 +89,9 @@ Sfoglia i collegamenti a sinistra per accedere alle funzionalità di Adobe Campa
 >title="Explorer"
 >abstract="Il menu **Explorer** mostra tutti i componenti e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presente nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8, controlla le autorizzazioni associate e crea cartelle e sottocartelle da questo menu."
 
-Il menu **Explorer** mostra tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presenti nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi di Campaign v8 e crea consegne, flussi di lavoro e campagne.
+Il menu **Explorer** mostra tutte le risorse e gli oggetti di Campaign con la stessa gerarchia di cartelle di quella presenti nella console client. Sfoglia tutti i componenti, le cartelle e gli schemi Campaign v8 e crea consegne, flussi di lavoro e campagne.
 
-Gli elementi visualizzati in **Explorer** dipendono dalle autorizzazioni utente. Puoi anche aggiungere cartelle e sottocartelle, se disponi dei diritti appropriati. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
+Gli elementi visualizzati in **Explorer** dipendono dalle autorizzazioni utente. Puoi anche aggiungere cartelle e sottocartelle se disponi dei diritti appropriati. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](permissions.md).
 
 Puoi configurare le colonne per personalizzare la visualizzazione e visualizzare tutte le informazioni necessarie. Consulta questa [sezione](#list-screens). Puoi anche aggiungere cartelle e sottocartelle, come descritto in [questa sezione](permissions.md#folders).
 
@@ -99,9 +99,9 @@ Per ulteriori informazioni su Esplora campagne, gerarchia di cartelle e risorse,
 
 ### Gestione delle campagne {#user-interface-campaign-management}
 
-Nella sezione **Gestione campagne**, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
+Nella sezione Gestione **Campaign** puoi accesso marketing campagne, consegne e flussi di lavoro.
 
-* **Campagne**: questo è l&#39;elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio, fine, creazione e ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
+* **Campagne** : questo è l&#39;elenco delle campagne e dei modelli di campagna. Per impostazione predefinita, per ogni campagna è possibile visualizzare le date di inizio, fine, creazione e ultima modifica, lo stato corrente e il nome dell&#39;operatore Campaign che l&#39;ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
 
 * **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, è possibile visualizzarne lo stato, la data dell&#39;ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. Per ulteriori informazioni sulle consegne, consulta [questa sezione](../msg/gs-messages.md).
 
@@ -117,16 +117,16 @@ Nella sezione **Gestione dei contenuti** puoi visualizzare i tuoi modelli di con
 
 * **Modelli di contenuto**: per un processo di progettazione più rapido e migliore, puoi creare modelli autonomi che consentono di riutilizzare facilmente contenuti personalizzati in più campagne.[!DNL Adobe Campaign] Disponibile solo per le e-mail, questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli addetti al marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail. Per ulteriori informazioni, consulta [questa sezione](../email/create-email-templates.md).
 
-* **Frammenti**: un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più consegne nelle campagne. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza. [Scopri come utilizzare i frammenti](../content/fragments.md).
+* **Frammenti**: un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più consegne nelle campagne. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza. [Scopri operazioni con i frammenti](../content/fragments.md).
 
-Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che gli utenti marketing possono utilizzare per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
+Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che marketing gli utenti possono utilizzare per assemblare rapidamente i contenuti dei messaggi di posta elettronica in un processo di progettazione migliorato.
 
 ### Gestione clienti {#user-interface-customer-management}
 
-Nella sezione **Gestione clienti** puoi visualizzare profili, tipi di pubblico e abbonamenti. Questi elenchi sono di sola lettura.
+**Nella sezione Gestione** clienti, puoi visualizzare i tuoi profili, il pubblico e le iscrizioni. Questi elenchi sono di sola lettura.
 
-* **Profili**: crea e gestisci profili e accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l’indirizzo e-mail, il nome e il cognome. Per ulteriori informazioni sui profili, consulta [questa sezione](../audience/about-recipients.md).
-* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, puoi visualizzarne il tipo, l’origine, la creazione, le date dell’ultima modifica e l’etichetta. È possibile filtrare l’elenco in base all’origine. Per ulteriori informazioni sui tipi di pubblico e gli elenchi, consulta [questa sezione](../audience/about-recipients.md).
+* **Profili**: crea e gestisci profili e accedi al database dei destinatari. Per impostazione predefinita, puoi visualizzarne l&#39;indirizzo e-mail, il nome e il cognome. Per ulteriori informazioni sui profili, consulta [questa sezione](../audience/about-recipients.md).
+* **Tipi di pubblico**: questo è l’elenco di tipi di pubblico. Per impostazione predefinita, è possibile visualizzarne il tipo, l&#39;origine, la creazione, le date dell&#39;ultima modifica e l&#39;etichetta. È possibile filtrare l’elenco in base all’origine. Per ulteriori informazioni sui tipi di pubblico e gli elenchi, consulta [questa sezione](../audience/about-recipients.md).
 * **Servizi di abbonamento** - Sfoglia gli elenchi di abbonamento. Per impostazione predefinita, è possibile visualizzarne il tipo, la modalità e l’etichetta. Scopri come gestire le iscrizioni e il relativo annullamento nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=it){target="_blank"}.
 * **Filtri predefiniti** - I filtri predefiniti sono filtri personalizzati creati e salvati per essere disponibili per utilizzi futuri. Possono essere utilizzati come scelte rapide durante qualsiasi operazione di filtro con Query Modeler, ad esempio quando si filtra un elenco di dati o si crea il pubblico di una consegna. Per ulteriori informazioni, consulta [questa sezione](predefined-filters.md).
 
@@ -140,7 +140,7 @@ Nella sezione **Gestione clienti** puoi visualizzare profili, tipi di pubblico e
 
 Nella sezione **Gestione delle decisioni**, puoi visualizzare le offerte e i modelli di offerta. Questi elenchi sono di sola lettura.
 
-* **Offerte** - Sfoglia l&#39;elenco delle offerte e dei modelli di offerta creati nella console utilizzando il modulo **Interaction**. Per impostazione predefinita, è possibile visualizzarne lo stato, le date di inizio/fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta.
+* **Offerte** : Sfoglia l&#39;elenco delle offerte e dei modelli di offerta creati nella console utilizzando il **modulo Interazione** . Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio/fine e l&#39;ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta.
 
 Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa sezione](../msg/offers.md).
 

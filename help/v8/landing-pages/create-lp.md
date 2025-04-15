@@ -28,10 +28,10 @@ Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTRO
 
 ![Schermata che mostra l&#39;inventario delle pagine di destinazione nell&#39;interfaccia Web di Campaign.](assets/lp-inventory.png){zoomable="yes"}
 
-Nell&#39;inventario **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli utilizzando il pulsante **[!UICONTROL Mostra filtri]**.
+L&#39;inventario **[!UICONTROL delle pagine]** di destinazione mostra tutti gli elementi creati. Puoi filtrarli utilizzando i **[!UICONTROL filtri]** Mostra pulsante.
 
 * Puoi filtrare gli elementi creati o modificati.
-* È possibile limitare i risultati a una [cartella](../get-started/permissions.md#folders) specifica utilizzando l&#39;elenco a discesa oppure aggiungere regole utilizzando [modeler query](../query/query-modeler-overview.md).
+* È possibile limitare i risultati a una cartella](../get-started/permissions.md#folders) specifica [utilizzando l&#39;elenco a discesa o aggiungere regole utilizzando il modellatore](../query/query-modeler-overview.md) di [query.
 
 ![Schermata che mostra le opzioni filtro nell&#39;inventario delle pagine di destinazione.](assets/lp-inventory-filter.png){zoomable="yes"}
 
@@ -144,7 +144,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
    ![Schermata che mostra le opzioni di pianificazione per la pagina di destinazione.](assets/lp-schedule.png){zoomable="yes"}
 
-   * La pagina di destinazione viene pubblicata automaticamente nella data/ora di inizio specificata.
+   * La pagina di destinazione viene pubblicata automaticamente alla data/ora di inizio specificata.
 
      >[!NOTE]
      >

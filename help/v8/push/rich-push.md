@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Progettare una consegna di notifiche push potenziata
+title: Progettare una distribuzione push notifica avanzata
 description: Scopri come progettare una consegna di notifiche push potenziata da Android con Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
@@ -21,7 +21,7 @@ ht-degree: 19%
 >
 >* Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Per ulteriori informazioni, consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} della  console client di Campaign v8.
 >
->* Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per informazioni dettagliate sulla procedura, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+>* Prima di progettare una notifica push potenziata, devi configurare il connettore V2. Fare riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} per la procedura dettagliata.
 
 
 Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
@@ -70,31 +70,31 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Definisci l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Definisci l&#39;azione **** clic associata a un clic utente sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere un URL **[!UICONTROL Immagine]** da aggiungere alla notifica push e l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona ]**del**[!UICONTROL  notifica da visualizzare sui dispositivi dei tuoi profili.
 
    ![](assets/rich_push_default_3.png)
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
-Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
+Una volta definito il contenuto del messaggio, è possibile utilizzare i sottoscrittori di prova per visualizzare in anteprima e testare il messaggio.
 
->[!TAB Base]
+>[!TAB Basico]
 
-1. Dal menu a discesa **[!UICONTROL Modello]**, selezionare **[!UICONTROL Base]**.
+1. Dall&#39;elenco a **[!UICONTROL discesa Modello]** , seleziona **[!UICONTROL Base]**.
 
    ![](assets/rich_push_basic.png)
 
-1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]**.
+1. Per comporre il messaggio, immettete il **[!UICONTROL testo nei campi Titolo]**, **[!UICONTROL Invia messaggio]** e **[!UICONTROL Messaggio]** espanso.
 
-   Il testo del **[!UICONTROL Messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
+   Il **[!UICONTROL testo Invia messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL messaggio]** Espanso viene visualizzato quando il notifica viene espanso.
 
    ![](assets/rich_push_basic_2.png)
 
-1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
+1. Utilizzare l&#39;espressione editor per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
 1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
 
@@ -102,7 +102,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
 
-   * **[!UICONTROL Apri app]**: gli URL aperti dell&#39;app consentono di connettersi direttamente al contenuto di un&#39;applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
+   * **[!UICONTROL Open app]**: gli URL Open app consentono di connettersi direttamente ai contenuto all&#39;interno di un applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
 
    Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
@@ -113,7 +113,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 1. Fai clic su **[!UICONTROL Aggiungi pulsante]** e compila i campi seguenti:
 
    * **[!UICONTROL Etichetta]**: testo visualizzato sul pulsante.
-   * **[!UICONTROL URI collegamento]**: specificare l&#39;URI da eseguire facendo clic sul pulsante.
+   * **[!UICONTROL URI]** collegamento: specifica l&#39;URI da eseguire facendo clic sul pulsante.
    * **[!UICONTROL Tipo di collegamento]**: tipo di collegamento **[!UICONTROL URL Web]**, **[!UICONTROL Deeplink]** o **[!UICONTROL Apri app]**.
 
    È possibile includere fino a tre pulsanti nella notifica push. Se si sceglie il pulsante **[!UICONTROL Ricordare più tardi]**, è possibile includere solo un massimo di due pulsanti.
@@ -126,9 +126,9 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    ![](assets/rich_push_basic_5.png)
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
-Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
+Una volta definito il contenuto del messaggio, è possibile utilizzare i sottoscrittori di prova per visualizzare in anteprima e testare il messaggio.
 
 >[!TAB Carosello]
 
@@ -138,17 +138,17 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]**.
 
-   Il testo del **[!UICONTROL Messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
+   Il **[!UICONTROL testo Invia messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL messaggio]** Espanso viene visualizzato quando il notifica viene espanso.
 
    ![](assets/rich_push_carousel_1.png)
 
-1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
+1. Utilizzare l&#39;espressione editor per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
+1. Selezionare il **[!UICONTROL tipo]** di collegamento del URL aggiunto al **[!UICONTROL campo azione Clic]** :
 
-   * **[!UICONTROL URL Web]**L: gli URL Web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
+   * **[!UICONTROL UR]**L Web: gli URL Web indirizzano gli utenti a contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
 
    * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
 
@@ -203,19 +203,19 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Aggiungi l&#39;URL dell&#39;immagine del pulsante **[!UICONTROL Annulla]**.
 
-1. Fai clic su **[!UICONTROL Aggiungi icona]** e immetti il **URL immagine**, **[!UICONTROL URI collegamento]** e scegli il **[!UICONTROL tipo collegamento]**.
+1. Fai clic sull&#39;icona **** Aggiungi e inserisci il URL **** dell&#39;immagine, **[!UICONTROL l&#39;URI]** del collegamento e scegli il tipo di **[!UICONTROL collegamento]**.
 
    Assicurati di includere un minimo di tre icone e un massimo di cinque icone.
 
    ![](assets/rich_push_icon_3.png)
 
-1. Gestire l&#39;ordine delle immagini con le frecce Giù e Su.
+1. Gestite l&#39;ordine delle immagini con le frecce Giù e Su.
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
    ![](assets/rich_push_icon_4.png)
 
-Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
+Una volta definito il contenuto del messaggio, è possibile utilizzare i sottoscrittori di prova per visualizzare in anteprima e testare il messaggio.
 
 >[!TAB Casella di input]
 
@@ -229,7 +229,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    ![](assets/rich_push_input_2.png)
 
-1. Utilizza i campi di personalizzazione dinamica per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
+1. Utilizza i campi personalizzazione dinamici per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
 1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
@@ -237,7 +237,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    * **[!UICONTROL URL Web]**: gli URL Web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
 
-   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
+   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Quando si fa clic, può apparire una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegare.
 
    * **[!UICONTROL Apri app]**: gli URL aperti dell&#39;app consentono di connettersi direttamente al contenuto di un&#39;applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
 
@@ -248,8 +248,8 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 1. Compila le seguenti opzioni per la **casella di input**:
 
    * **[!UICONTROL Nome destinatario input]**: immettere il nome o l&#39;identificatore del destinatario dell&#39;input.
-   * **[!UICONTROL Testo di input]**: immettere il testo per la **casella di input**.
-   * **[!UICONTROL Testo feedback]**: immetti il testo da visualizzare dopo una risposta.
+   * **[!UICONTROL Testo]** di input: inserisci il testo per la **casella** di input.
+   * **[!UICONTROL Testo]** feedback: inserisci il testo da visualizzare dopo una risposta.
    * **[!UICONTROL Immagine feedback]**: aggiungi l&#39;URL per l&#39;immagine visualizzata dopo una risposta.
 
    ![](assets/rich_push_input_3.png)
@@ -260,17 +260,17 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 >[!TAB Catalogo prodotti]
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Tipo di notifica]**, selezionare **[!UICONTROL Catalogo prodotti]**.
+1. Dall&#39;elenco a **[!UICONTROL discesa Tipo di]** notifica, seleziona **[!UICONTROL Catalogo]** prodotti.
 
    ![](assets/rich_push_catalog_1.png)
 
-1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**.
+1. Per comporre il **[!UICONTROL messaggio, immetti il testo nei campi Titolo]** e **[!UICONTROL Invia messaggio]** .
 
    ![](assets/rich_push_catalog_2.png)
 
-1. Utilizza i campi di personalizzazione dinamica per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
+1. Utilizza i campi personalizzazione dinamici per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
 1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
 
@@ -282,27 +282,27 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere l&#39;icona **** del notifica da visualizzare sui dispositivi dei tuoi profili.
 
-1. Immetti il **testo per azione** e **immagine**.
+1. Immetti il testo **e** l&#39;immagine **** Click-to-Action.
 
-1. Scegli il **[!UICONTROL tipo di visualizzazione]** tra Orizzontale o Verticale.
+1. Scegli il tipo ]**di**[!UICONTROL  visualizzazione tra orizzontale o verticale.
 
-1. Compila le informazioni sugli elementi del **[!UICONTROL Catalogo]**.
+1. Inserisci le informazioni degli elementi del catalogo ****.
 
    Assicurati di includere un minimo di tre elementi e un massimo di cinque elementi.
 
    ![](assets/rich_push_catalog_3.png)
 
-1. Gestire l&#39;ordine delle immagini con le frecce Giù e Su.
+1. Gestite l&#39;ordine delle immagini con le frecce Giù e Su.
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
-Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
+Una volta definito il contenuto del messaggio, è possibile utilizzare i sottoscrittori di prova per visualizzare in anteprima e testare il messaggio.
 
 >[!TAB Valutazione del prodotto]
 
-1. Dall&#39;elenco a discesa **[!UICONTROL Tipo di notifica]**, selezionare **[!UICONTROL Valutazione prodotto]**.
+1. Dall&#39;elenco a **[!UICONTROL discesa Tipo di]** notifica, seleziona **[!UICONTROL Valutazione]** prodotto.
 
    ![](assets/rich_push_rating_1.png)
 
@@ -324,21 +324,21 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere un URL **[!UICONTROL Immagine]** da aggiungere alla notifica push e l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona ]**del**[!UICONTROL  notifica da visualizzare sui dispositivi dei tuoi profili.
 
-1. Aggiungi l&#39;icona **[!UICONTROL Valutazione nello stato non selezionato]** e l&#39;icona **[!UICONTROL Valutazione nello stato selezionato]** URL.
+1. Aggiungi l&#39;icona **[!UICONTROL Classificazione nello stato]** non selezionato e **[!UICONTROL l&#39;icona Classificazione negli URL degli stati]** selezionati.
 
    ![](assets/rich_push_rating_3.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi valutazione]** e immetti il **[!UICONTROL URI collegamento]** e il **[!UICONTROL tipo collegamento]**.
+1. Fai clic su **[!UICONTROL Aggiungi valutazione]** e inserisci l&#39;URI ]**e**[!UICONTROL  il **[!UICONTROL tipo di]** collegamento.
 
-   Assicurati di includere un minimo di tre valutazioni e un massimo di cinque.
+   Assicurati di includere un minimo di tre valutazioni e un massimo di cinque valutazioni.
 
    ![](assets/rich_push_rating_4.png)
 
-1. Gestire l&#39;ordine delle immagini con le frecce Giù e Su.
+1. Gestite l&#39;ordine delle immagini con le frecce Giù e Su.
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -348,9 +348,9 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    ![](assets/rich_push_timer_1.png)
 
-1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Messaggio]**.
+1. Per comporre il **[!UICONTROL messaggio, immetti il testo nei campi Titolo]** e **[!UICONTROL Invia messaggio]** .
 
-   Utilizza i campi di personalizzazione dinamica per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
+   Utilizza i campi personalizzazione dinamici per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
    ![](assets/rich_push_timer_2.png)
 
@@ -360,7 +360,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    * **[!UICONTROL URL Web]**: gli URL Web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
 
-   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
+   * **[!UICONTROL Collegamenti]** profondi: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app lineare se l&#39;app viene chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
 
    * **[!UICONTROL Apri app]**: gli URL aperti dell&#39;app consentono di connettersi direttamente al contenuto di un&#39;applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
 
@@ -374,11 +374,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    ![](assets/rich_push_timer_4.png)
 
-1. Immettere il testo e l&#39;immagine da visualizzare dopo la scadenza del timer nei campi **[!UICONTROL Titolo alternativo]**, **[!UICONTROL Messaggio alternativo]**, **[!UICONTROL Messaggio espanso alternativo]** e **[!UICONTROL Immagine lancio alternativa]**.
+1. Immettere il testo e l&#39;immagine che verranno visualizzati dopo la scadenza del timer nei **[!UICONTROL campi Titolo]** alternativo, **[!UICONTROL Messaggio****alternativo, Messaggio]** espanso alternativo e **[!UICONTROL Immagine lanciare]** alternativo.
 
    ![](assets/rich_push_timer_5.png)
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -388,33 +388,33 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    ![](assets/rich_push_bezel_1.png)
 
-1. Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]**, **[!UICONTROL Messaggio]** e **[!UICONTROL Messaggio espanso]**.
+1. Per comporre il messaggio, immettete il **[!UICONTROL testo nei campi Titolo]**, **[!UICONTROL Invia messaggio]** e **[!UICONTROL Messaggio]** espanso.
 
-   Il testo del **[!UICONTROL Messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL Messaggio espanso]** viene visualizzato quando la notifica viene espansa.
+   Il **[!UICONTROL testo Invia messaggio]** viene visualizzato nella visualizzazione compressa mentre il **[!UICONTROL messaggio]** Espanso viene visualizzato quando il notifica viene espanso.
 
    ![](assets/rich_push_bezel_2.png)
 
-1. Utilizza i campi di personalizzazione dinamica per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
+1. Utilizza i campi personalizzazione dinamici per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi l&#39;URL che definisce l&#39;**[!UICONTROL azione clic]** associata a un utente che fa clic sulla notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
+1. Selezionare il **[!UICONTROL tipo]** di collegamento del URL aggiunto al **[!UICONTROL campo azione Clic]** :
 
-   * **[!UICONTROL URL Web]**: gli URL Web indirizzano gli utenti al contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
+   * **[!UICONTROL URL]** Web: gli URL Web indirizzano gli utenti a contenuto online. Facendo clic, viene richiesto all&#39;browser Web predefinito del dispositivo di aprirsi e passare all&#39;URL designato.
 
-   * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
+   * **[!UICONTROL Collegamenti]** profondi: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app lineare se l&#39;app viene chiusa. Quando si fa clic, può apparire una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegare.
 
-   * **[!UICONTROL Apri app]**: gli URL aperti dell&#39;app consentono di connettersi direttamente al contenuto di un&#39;applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
+   * **[!UICONTROL Open app]**: gli URL Open app consentono di connettersi direttamente ai contenuto all&#39;interno di un applicazione. Consente al tuo applicazione di affermarsi come gestore predefinito per un tipo specifico di collegare, ignorando la finestra di dialogo di disambiguazione.
 
-   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
+   Per ulteriori informazioni su come gestire i collegamenti app Android, consulta la documentazione](https://developer.android.com/training/app-links) per [sviluppatori Android.
 
-1. Per personalizzare ulteriormente la notifica push, puoi scegliere un URL **[!UICONTROL Immagine]** da aggiungere alla notifica push e l&#39;**[!UICONTROL icona]** della notifica da visualizzare sui dispositivi dei profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona ]**del**[!UICONTROL  notifica da visualizzare sui dispositivi dei tuoi profili.
 
    ![](assets/rich_push_bezel_3.png)
 
-1. Scegliere lo stile di notifica **[!UICONTROL Compresso]** per la notifica, indipendentemente dal fatto che la notifica visualizzi principalmente un&#39;immagine o un testo.
+1. Scegli lo **[!UICONTROL stile]** del notifica compresso per il notifica se il notifica visualizza principalmente un&#39;immagine o un testo.
 
-1. Configura le **[!UICONTROL Impostazioni avanzate]** della notifica push. [Ulteriori informazioni](#push-advanced)
+1. Configura le **[!UICONTROL impostazioni]** Avanzate del notifica push. [Ulteriori informazioni](#push-advanced)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -426,8 +426,8 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 | Parametro | Descrizione |
 |---------|---------|
-| **[!UICONTROL Colore icona]** | Impostare il colore dell&#39;icona con i codici colore esadecimali. |
-| **[!UICONTROL Colore titolo]** | Imposta il colore del Titolo con i codici colore Esadecimali. |
+| **[!UICONTROL Colore icona]** | Imposta il colore dell&#39;icona con i codici colore esadecimali. |
+| **[!UICONTROL Titolo colore]** | Imposta il colore del Titolo con i codici colore Esadecimali. |
 | **[!UICONTROL Colore testo messaggio]** | Impostare il colore del testo del messaggio con i codici colore esadecimali. |
 | **[!UICONTROL Colore timer]** | Impostare il colore del timer con i codici colore esadecimali. |
 | **[!UICONTROL Colore di sfondo notifica]** | Imposta il colore dello sfondo della notifica con i codici di colore esadecimali. |

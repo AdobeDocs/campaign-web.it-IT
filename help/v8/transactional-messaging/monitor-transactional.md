@@ -34,7 +34,7 @@ Nella sezione **[!UICONTROL Messaggi attivati]**, visualizza i dettagli di tutti
 
 Cerca il messaggio e fai clic su di esso per visualizzarne i dettagli.
 
-![Schermata che mostra la generazione di rapporti dettagliati per un messaggio transazionale selezionato.](assets/transactional-reporting.png){zoomable="yes"}
+![Schermata che mostra rapporti dettagliati per un messaggio transazionale selezionato.](assets/transactional-reporting.png){zoomable="yes"}
 
 ## Cronologia eventi {#event-history}
 
