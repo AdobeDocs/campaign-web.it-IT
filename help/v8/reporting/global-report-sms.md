@@ -3,14 +3,14 @@ audience: end-user
 title: Rapporti globali per il canale SMS
 description: Comprendere i rapporti globali per il canale SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 31%
+ht-degree: 29%
 
 ---
 
-# Report globali per il canale SMS {#campaign-reports-sms}
+# Rapporti globali per il canale SMS {#campaign-reports-sms}
 
 I rapporti globali forniscono agli utenti una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale.
 
@@ -29,7 +29,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori prestazi
 
 ![Schermata del rapporto Panoramica consegna che mostra gli indicatori prestazioni chiave per la consegna SMS.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++Scopri ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche di panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -52,7 +52,7 @@ La tabella e il grafico **[!UICONTROL Pubblico di destinazione]** presentano i d
 
 ![Schermata del report Pubblico di destinazione che mostra i dati sui destinatari e le esclusioni per le consegne SMS.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++Scopri ulteriori informazioni sulle metriche del pubblico mirato.
++++Ulteriori informazioni sulle metriche del pubblico di destinazione.
 
 * **[!UICONTROL Pubblico di destinazione]**: numero totale di destinatari di destinazione.
 
@@ -73,9 +73,9 @@ La tabella **[!UICONTROL Statistiche di consegna]** descrive il completamento di
 
 ![Schermata del rapporto Statistiche di consegna che mostra i tassi di successo, gli errori e le quarantene per le consegne SMS.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++Scopri ulteriori informazioni sulle metriche delle statistiche di consegna.
++++Ulteriori informazioni sulle metriche delle statistiche di consegna.
 
-* **[!UICONTROL Messaggi]** totali: numero totale di messaggi da consegnare dopo la preparazione del recapito.
+* **[!UICONTROL Messaggi totali]**: numero totale di messaggi da recapitare dopo la preparazione della consegna.
 
 * **[!UICONTROL Operazione completata]**: numero di messaggi elaborati correttamente, in relazione al numero di messaggi da recapitare.
 
@@ -83,7 +83,7 @@ La tabella **[!UICONTROL Statistiche di consegna]** descrive il completamento di
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena in seguito a una consegna non riuscita (ad esempio, utente sconosciuto, dominio non valido), in relazione al numero di messaggi da recapitare.
 
-  I tipi di errore SMS sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){target="_blank"}.
+  I tipi di errore SMS sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -98,7 +98,7 @@ Il grafico e la tabella **[!UICONTROL Cause di esclusione]** visualizzano i moti
 
 I tipi di errore sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
-![Un schermata del rapporto sulle cause dell&#39;esclusione, che mostra i motivi dell&#39;esclusione dal recapito di SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
+![Schermata del rapporto Cause di esclusione che mostra i motivi delle esclusioni nella consegna SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Velocità di consegna {#delivery-throughput-sms}
 

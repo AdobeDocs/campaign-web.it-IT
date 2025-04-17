@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne e-mail
 description: Scopri come accedere ai rapporti sulle consegne e-mail e come utilizzarli
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 92%
+source-wordcount: '2448'
+ht-degree: 88%
 
 ---
 
@@ -36,7 +36,7 @@ Passa il puntatore del mouse su una parte del grafico per visualizzare il numero
 
 ![Schermata di un grafico con il mouse sopra una porzione per visualizzare il numero esatto](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 
@@ -56,7 +56,7 @@ Il grafico **[!UICONTROL Statistiche consegna]** descrive il successo della cons
 
 ![Schermata di un grafico che mostra i dettagli delle statistiche di consegna](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Messaggio inviato]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
@@ -75,11 +75,11 @@ Il grafico **[!UICONTROL Statistiche consegna]** descrive il successo della cons
 >title="Cause di esclusione della consegna"
 >abstract="Il grafico e la tabella **Cause di esclusione** mostrano il raggruppamento per regola dei messaggi rifiutati durante la preparazione della consegna."
 
-Il grafico e la tabella **[!UICONTROL Cause di esclusione]** mostrano il raggruppamento per regola dei messaggi rifiutati durante la preparazione della consegna. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){_blank}.
+Il grafico e la tabella **[!UICONTROL Cause di esclusione]** mostrano il raggruppamento per regola dei messaggi rifiutati durante la preparazione della consegna. Le regole di esclusione sono descritte in dettaglio nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){_blank}.
 
 ![Schermata del grafico e della tabella Cause di esclusione](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
 
@@ -120,7 +120,7 @@ La tabella **[!UICONTROL Statistiche di trasmissione]** contiene i dati disponib
 
 ![Schermata delle statistiche di trasmissione](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL E-mail elaborate]**: numero totale di messaggi elaborati dal server di consegna.
 
@@ -157,7 +157,7 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 
 ![Schermata della suddivisione degli errori per tipo](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
 
@@ -218,7 +218,7 @@ Il rapporto **[!UICONTROL Statistiche di consegna]** fornisce indicatori chiave 
 
 ![Schermata delle statistiche di consegna](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Completato]**: numero di messaggi elaborati correttamente in relazione al numero di messaggi da consegnare.
 
@@ -246,7 +246,7 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** mostra i dat
 
 ![Schermata della tabella delle tariffe di apertura e click-through](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Inviati]**: numero totale di messaggi inviati.
 
@@ -271,7 +271,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 
 ![Schermata degli URL e rapporto sui flussi di clic](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 
@@ -296,7 +296,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 ![Schermata del grafico dei 10 collegamenti più visitati](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
@@ -328,7 +328,7 @@ Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di 
 
 ![Schermata del report delle attività utente](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
@@ -347,7 +347,7 @@ Il grafico **[!UICONTROL Statistiche di tracciamento]** fornisce statistiche su 
 
 ![Schermata del grafico delle statistiche di tracciamento](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 

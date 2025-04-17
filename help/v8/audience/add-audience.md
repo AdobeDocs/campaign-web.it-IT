@@ -3,10 +3,10 @@ audience: end-user
 title: Selezionare un pubblico esistente
 description: Scopri come selezionare un pubblico
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -21,7 +21,7 @@ Questa sezione spiega come selezionare un pubblico esistente durante la definizi
 * [Crea un pubblico una tantum](one-time-audience.md) utilizzando il modellatore di query.
 * [Caricare un pubblico da un file esterno](file-audience.md) (solo per e-mail).
 
-I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dal menu **Pubblico** a sinistra. Hanno origine da più origini, ad esempio la console client, i flussi di lavoro del pubblico web di Campaign o Adobe Experience Platform. [Ulteriori informazioni sul pubblico](manage-audience.md)
+I tipi di pubblico che possono essere oggetto di targeting nelle consegne sono accessibili dal menu **Pubblico** a sinistra. Hanno origine da più origini, ad esempio la console client, i flussi di lavoro del pubblico web di Campaign o Adobe Experience Platform. [Ulteriori informazioni sui tipi di pubblico](manage-audience.md)
 
 Per selezionare un pubblico esistente per il messaggio, segui questi passaggi:
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Cambia dimensione
 description: Scopri come utilizzare l’attività Cambia dimensione nel flusso di lavoro
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 46%

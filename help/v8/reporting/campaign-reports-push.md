@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna per il canale push
 description: Comprendere i rapporti sulla campagna per il canale push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 64%
+ht-degree: 56%
 
 ---
 
@@ -79,7 +79,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (ad esempio, registrazione non valida, rifiuto di un messaggio o errore di payload), in relazione al numero di messaggi da recapitare.
 
-  I tipi di errore per le notifiche push sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
+  I tipi di errore per le notifiche push sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
 
 +++
 

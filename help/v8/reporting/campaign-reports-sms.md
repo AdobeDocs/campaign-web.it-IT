@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne per il canale SMS
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 70%
+ht-degree: 62%
 
 ---
 
@@ -79,7 +79,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido), in relazione al numero di messaggi da recapitare.
 
-  I tipi di errore SMS sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){target="_blank"}.
+  I tipi di errore SMS sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){target="_blank"}.
 
 +++
 

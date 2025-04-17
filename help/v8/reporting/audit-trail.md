@@ -4,7 +4,7 @@ title: Audit trail
 description: Scopri come monitorare l’istanza con Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -24,7 +24,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 +++ Ulteriori informazioni sulle entità disponibili in Audit Trail
 
-* **Audit trail dello schema Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nella console client di Campaign V8.
+* **Audit trail dello schema Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nella console client di Campaign v8.
 
   Per informazioni dettagliate sugli schemi, consulta [Documentazione di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -41,7 +41,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../workflows/gs-workflows.md).
 
-* **Option audit trail** consente di monitorare le attività e le modifiche recenti apportate alle opzioni in Campaign V8.
+* **Option audit trail** consente di monitorare le attività e le modifiche recenti apportate alle opzioni in Campaign v8.
 
   Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -49,15 +49,15 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
   Per ulteriori informazioni sulle consegne, consulta questa [pagina](../msg/gs-deliveries.md).
 
-* **Account esterno** consente di controllare le modifiche apportate agli account esterni in Campaign V8, utilizzate da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro per campagne.
+* **Account esterno** consente di controllare le modifiche apportate agli account esterni in Campaign v8, utilizzate da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro per campagne.
 
   Per ulteriori informazioni sugli account esterni, consulta questa [pagina](../administration/external-account.md).
 
-* **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alla mappatura consegna in Campaign V8.
+* **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alla mappatura consegna in Campaign v8.
 
   Per ulteriori informazioni sulla mappatura della consegna, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Applicazione Web** consente di verificare le modifiche apportate ai moduli Web in Campaign V8, utilizzati per creare pagine con campi di input e di selezione e che possono includere dati dal database.
+* **Applicazione Web** consente di verificare le modifiche apportate ai moduli Web in Campaign v8, utilizzati per creare pagine con campi di input e di selezione e che possono includere dati dal database.
 
   Per ulteriori informazioni sulle applicazioni Web, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
@@ -65,7 +65,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
   Per ulteriori informazioni sulle offerte, consulta questa [pagina](../msg/offers.md).
 
-* **Operatore** consente di monitorare le attività e le modifiche recenti apportate agli operatori in Campaign V8.
+* **Operatore** consente di monitorare le attività e le modifiche recenti apportate agli operatori in Campaign v8.
 
   Per ulteriori informazioni sugli operatori, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

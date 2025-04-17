@@ -1,11 +1,11 @@
 ---
-title: Crea profili di test in Campaign
-description: Scopri come creare e gestire profili di test in Adobe Campaign
+title: Creare profili di test in Campaign
+description: Scopri come creare e gestire i profili di test in Adobe Campaign
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 14%
@@ -23,7 +23,7 @@ I profili di test vengono utilizzati per inviare bozze e convalidare il contenut
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 I passaggi per inviare bozze ai profili di test sono descritti in [questa sezione](../preview-test/test-deliveries.md#test-profiles).
 
@@ -33,13 +33,13 @@ I passaggi per inviare bozze ai profili di test sono descritti in [questa sezion
 >
 >* I profili di test vengono automaticamente esclusi dai rapporti sulle seguenti statistiche di consegna: **[!UICONTROL Clic]**, **[!UICONTROL Aperture]**, **[!UICONTROL Annullamenti abbonamenti]**.
 
-## Profili di test di accesso e gestire {#access-test-profiles}
+## Accedere e gestire i profili di test {#access-test-profiles}
 
-Per accesso l&#39;elenco dei profili di prova, selezionare **[!UICONTROL Gestione]** clienti > **[!UICONTROL Profili]** dal menu a sinistra e fare clic sulla **[!UICONTROL scheda Profili]** di test.
+Per accedere all&#39;elenco dei profili di test, seleziona **[!UICONTROL Gestione clienti]** > **[!UICONTROL Profili]** dal menu a sinistra e fai clic sulla scheda **[!UICONTROL Profili di test]**.
 
-![Visualizzazione elenco profilo di prova](assets/test-profile-list.png){zoomable="yes"}
+![Visualizzazione elenco profili di test](assets/test-profile-list.png){zoomable="yes"}
 
-* È possibile filtrare in base a una cartella](../get-started/permissions.md#folders) specifica [utilizzando l&#39;elenco a discesa o aggiungere regole utilizzando il [modellatore](../query/query-modeler-overview.md) di query.
+* Puoi filtrare in base a una [cartella](../get-started/permissions.md#folders) specifica utilizzando l&#39;elenco a discesa oppure aggiungere regole utilizzando [modellatore query](../query/query-modeler-overview.md).
 
   ![Filtri elenco profili di test](assets/test-profile-list-filters.png){zoomable="yes"}
 
@@ -53,11 +53,11 @@ Per accesso l&#39;elenco dei profili di prova, selezionare **[!UICONTROL Gestion
 
 Puoi anche accedere ai profili di test tramite la visualizzazione **[!UICONTROL Explorer]** dal nodo **[!UICONTROL Risorse]** > **[!UICONTROL Gestione campagne]** > **[!UICONTROL Indirizzi seed]**.
 
-Da lì, puoi sfogliare, creare e gestire cartelle o sottocartelle, nonché controllare le autorizzazioni associate. [Scopri come creare cartelle](../get-started/permissions.md#folders)
+Da qui è possibile sfogliare, creare e gestire cartelle o sottocartelle, nonché verificare le autorizzazioni associate. [Scopri come creare le cartelle](../get-started/permissions.md#folders)
 
-![Visualizzazione cartelle profili di prova](assets/test-profiles-folders.png){zoomable="yes"}
+![Visualizzazione cartelle profili di test](assets/test-profiles-folders.png){zoomable="yes"}
 
-**[!UICONTROL Dalla visualizzazione Esplora]** risorse è inoltre possibile filtrare, eliminare, modificare e [creare](#create-test-profile) profili di test.
+Dalla visualizzazione **[!UICONTROL Explorer]**, è inoltre possibile filtrare, eliminare, modificare e [creare](#create-test-profile) profili di test.
 
 ## Creare un profilo di test {#create-test-profile}
 
@@ -72,17 +72,17 @@ Per creare un profilo di test, effettua le seguenti operazioni:
 
 1. Fare clic sul pulsante **[!UICONTROL Crea profilo di test]**.
 
-   ![Crea profilo di prova pulsante](assets/test-profile-create.png){zoomable="yes"}
+   ![Pulsante Crea profilo di test](assets/test-profile-create.png){zoomable="yes"}
 
-1. Inserisci i dettagli del profilo di prova in base alle esigenze. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+1. Compila i dettagli del profilo di test, se necessario. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![Modulo dettagli profilo di prova](assets/test-profile-details.png){zoomable="yes"}
+   ![Modulo dettagli profilo di test](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL campo Etichetta]** viene compilato automaticamente con il nome e il cognome definiti.
+   >Il campo **[!UICONTROL Etichetta]** viene compilato automaticamente con il nome e il cognome definiti.
 
-1. Per impostazione predefinita, i profili di **[!UICONTROL prova sono memorizzati nella cartella Indirizzi]** iniziali. Puoi modificarlo navigando nella posizione desiderata. [Scopri operazioni con le cartelle](../get-started/permissions.md#folders)
+1. Per impostazione predefinita, i profili di test sono archiviati nella cartella **[!UICONTROL Indirizzi seed]**. Puoi modificarlo navigando nella posizione desiderata. [Scopri come utilizzare le cartelle](../get-started/permissions.md#folders)
 
    <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
@@ -100,16 +100,16 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![Scheda Dati Aggiuntivi](assets/test-profile-additional-data.png){zoomable="yes"}
 
-   Assicurati che siano stati definiti dati di destinazione aggiuntivi con un alias che inizia con &#39;@&#39; nell&#39;attività **[!UICONTROL di workflow Arricchimento]** . In caso contrario, non sarà possibile utilizzarlo correttamente con gli indirizzi iniziali nell&#39;attività di consegna. [Scopri maggiori informazioni sull&#39;attività di arricchimento](../workflows/activities/enrichment.md)
+   Verificare che siano stati definiti dati di destinazione aggiuntivi con un alias che inizia con &#39;@&#39; nell&#39;attività del flusso di lavoro **[!UICONTROL Arricchimento]**. In caso contrario, non puoi utilizzarlo correttamente con gli indirizzi seed nell’attività di consegna. [Ulteriori informazioni sull&#39;attività Enrichment](../workflows/activities/enrichment.md)
 
-1. Fare clic sull&#39;pulsante **[!UICONTROL Salva]** .
+1. Fai clic sul pulsante **[!UICONTROL Salva]**.
 
-Il profilo di prova appena creato è ora pronto per essere utilizzato per inviare una prova. [Ulteriori informazioni](../preview-test/test-deliveries.md#test-profiles)
+Il profilo di test appena creato è ora pronto per essere utilizzato per inviare una bozza. [Ulteriori informazioni](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
 ## Video dimostrativo {#video}
 
-Scopri come creare e gestire profili di test utilizzando l&#39;interfaccia Campaign Web utente.
+Scopri come creare e gestire i profili di test utilizzando l’interfaccia utente web di Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

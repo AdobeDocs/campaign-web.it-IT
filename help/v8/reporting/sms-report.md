@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle consegne SMS
 description: Scopri come accedere ai rapporti sulle consegne sms e come utilizzarli
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 63%
+source-wordcount: '607'
+ht-degree: 58%
 
 ---
 
@@ -32,7 +32,7 @@ Il rapporto **[!UICONTROL Panoramica consegna]** fornisce indicatori prestazioni
 
 ![Descrizione: l&#39;immagine mostra il rapporto Panoramica consegna, che include KPI quali tassi di successo, tassi di errore e coinvolgimento dei visitatori.](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
++++Ulteriori informazioni sulle metriche dei rapporti di consegna SMS.
 
 * **[!UICONTROL Totale inviato]**: percentuale e numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -55,7 +55,7 @@ Il grafico e la tabella della **popolazione di destinazione** visualizzano i dat
 
 ![Descrizione: l&#39;immagine mostra il grafico e la tabella della popolazione di destinazione, che includono metriche quali messaggi da consegnare ed esclusioni.](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
++++Ulteriori informazioni sulle metriche dei rapporti di consegna SMS.
 
 * **[!UICONTROL Da consegnare]**: numero totale e percentuale di messaggi elaborati durante la preparazione della consegna.
 
@@ -73,7 +73,7 @@ Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati
 
 ![Descrizione: nell&#39;immagine viene visualizzato il report Statistiche generali, che include metriche quali tassi di successo, errori e quarantene.](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne SMS.
++++Ulteriori informazioni sulle metriche dei rapporti di consegna SMS.
 
 * **[!UICONTROL Completato]**: numero e percentuale di messaggi elaborati correttamente.
 
@@ -89,7 +89,7 @@ Il rapporto **Statistiche complessive** presenta i dati dei messaggi SMS inviati
 >title="Esclusioni SMS"
 >abstract="Il grafico e la tabella **Esclusioni** mostrano i vari motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio."
 
-Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){_blank}.
+Il grafico e la tabella **[!UICONTROL Esclusioni]** mostrano i motivi che hanno impedito ai profili utente, che erano stati esclusi dai profili target, di ricevere il messaggio. Le regole di esclusione sono descritte in dettaglio nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#sms-quarantines){_blank}.
 
 ![Descrizione: nell&#39;immagine sono illustrati il grafico e la tabella Esclusioni, in cui sono illustrati i motivi dell&#39;esclusione dei profili utente dalla ricezione dei messaggi.](assets/reporting_sms_6.png){zoomable="yes"}
 

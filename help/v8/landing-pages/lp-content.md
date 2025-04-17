@@ -3,7 +3,7 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 12%

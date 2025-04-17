@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne per il canale e-mail
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 92%
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ La sezione **[!UICONTROL Panoramica della consegna]** offre indicatori chiave di
 
 ![Schermata del rapporto Panoramica consegna](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -52,7 +52,7 @@ La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i da
 
 ![Schermata della tabella delle statistiche del pubblico di destinazione iniziale](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 
@@ -73,7 +73,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 ![Schermata della tabella delle statistiche di esecuzione che descrive il completamento della consegna](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Messaggio da consegnare]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 
@@ -83,7 +83,7 @@ La tabella **[!UICONTROL Statistiche di esecuzione]** descrive il successo della
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido) rispetto al numero di messaggi da consegnare.
 
-  I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
+  I tipi di errore e-mail sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
 +++
 
@@ -98,7 +98,7 @@ La tabella **[!UICONTROL Statistiche di reazione]** contiene i dati disponibili 
 
 ![Schermata della tabella delle statistiche di reazione contenente i dati disponibili per l&#39;attività del destinatario per la consegna](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Aperture univoche]**: numero totale di destinatari target che hanno aperto un messaggio almeno una volta.
 
@@ -122,7 +122,7 @@ La tabella **[!UICONTROL Flussi di clic generati]** mostra i dati relativi al mo
 
 ![Schermata della tabella dei flussi di clic generati](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Clic univoci]**: numero totale di destinatari univoci che hanno fatto clic almeno una volta in una consegna.
 
@@ -147,7 +147,7 @@ Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ul
 
 ![Schermata della suddivisione degli errori per tipo di grafico e tabella](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
 
@@ -187,7 +187,7 @@ Le metriche **[!UICONTROL Statistiche consegna]** forniscono indicatori chiave d
 
 ![Schermata delle metriche delle statistiche di consegna](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Messaggio/i da consegnare]**: numero di messaggi elaborati correttamente rispetto al numero di messaggi da consegnare.
 
@@ -213,7 +213,7 @@ La tabella **[!UICONTROL Percentuale di apertura e click-through]** visualizza i
 
 ![Schermata della tabella delle tariffe di apertura e click-through](assets/campaign_report_email_8.png){zoomable="yes"}
 
-+++ Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++ Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Inviati]**: numero totale di messaggi inviati.
 
@@ -238,7 +238,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori chiave di 
 
 ![Schermata degli URL e rapporto sui flussi di lavoro](assets/campaign_report_email_9.png){zoomable="yes"}
 
-+++ Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++ Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 
@@ -261,7 +261,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 ![Schermata del grafico dei 10 collegamenti più visitati](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulla campagna e-mail.
++++Ulteriori informazioni sulle metriche del rapporto della campagna e-mail.
 
 * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 
@@ -291,7 +291,7 @@ Il rapporto **[!UICONTROL Attività degli utenti]** mostra il raggruppamento di 
 
 ![Schermata del report delle attività utente](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche del rapporto sulle consegne e-mail.
++++Ulteriori informazioni sulle metriche del rapporto di consegna e-mail.
 
 * **[!UICONTROL Clic]**: numero totale di clic sui collegamenti nelle consegne.
 

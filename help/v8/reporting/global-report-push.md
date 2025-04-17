@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti globali per il canale push
 description: Comprendere i rapporti globali per il canale push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 42%
+ht-degree: 37%
 
 ---
 
@@ -29,7 +29,7 @@ Il rapporto **[!UICONTROL Panoramica consegna]** fornisce indicatori prestazioni
 
 ![Metriche di panoramica della consegna, con i KPI relativi alle prestazioni delle notifiche push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche della panoramica della consegna.
++++Ulteriori informazioni sulle metriche di panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -83,7 +83,7 @@ La tabella **[!UICONTROL Statistiche di consegna]** descrive il completamento di
 
 * **[!UICONTROL Nuove quarantene]**: numero totale di indirizzi messi in quarantena a seguito di una consegna non riuscita (registrazione non valida, rifiuto del messaggio, errore di payload e motivi simili) in relazione al numero di messaggi da recapitare.
 
-  I tipi di errore per le notifiche push sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
+  I tipi di errore per le notifiche push sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ La tabella **[!UICONTROL Statistiche di consegna]** descrive il completamento di
 
 Il grafico e la tabella **[!UICONTROL Cause di esclusione]** visualizzano i motivi che hanno impedito ai profili utente esclusi dai profili target di ricevere il messaggio.
 
-I tipi di errore per le notifiche push sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
+I tipi di errore per le notifiche push sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#push-error-types){target="_blank"}.
 
 ## Velocità di consegna {#delivery-throughput-sms}
 

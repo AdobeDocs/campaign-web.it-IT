@@ -6,7 +6,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -104,6 +104,6 @@ Gli utenti possono immettere i dettagli manualmente o caricare un documento sull
 
    ![Opzioni di menu avanzate nel dashboard Marchi](assets/brands_5.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nel menu dell’assistente AI. In questo modo l’assistente AI può generare contenuti e risorse in linea con le tue specifiche. [Ulteriori informazioni sull&#39;assistente di IA](../email/generative-gs.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nel menu dell’assistente AI. In questo modo l’assistente AI può generare contenuti e risorse in linea con le tue specifiche. [Ulteriori informazioni sull&#39;Assistente IA](../email/generative-gs.md)
 
 ![Menu dell&#39;assistente AI con elenco a discesa del marchio](assets/brands_6.png)

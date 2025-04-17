@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporti sulle campagne per il canale Direct mail
 description: Comprendere i rapporti sulle campagne per il canale Direct mail
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 42%
@@ -27,7 +27,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 ![Panoramica delle metriche di consegna della campagna di direct mailing](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche della panoramica della consegna.
++++Ulteriori informazioni sulle metriche di panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 

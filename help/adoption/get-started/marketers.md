@@ -4,7 +4,7 @@ description: Scopri le funzionalità chiave di Campaign v8. È destinato agli ad
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 18%
@@ -75,7 +75,7 @@ Scopri come [impostare un gruppo di controllo](../../v8/audience/control-group.m
 
 >[!AVAILABILITY]
 >
->* Tutti i tipi di pubblico creati tramite l’attività Query Campaign Standard vengono trasformati in un filtro predefinito in Campaign v8 durante la transizione. Campaign v8 supporta anche l’attività Query.
+>* Tutti i tipi di pubblico creati tramite l’attività Query di Campaign Standard vengono trasformati in un filtro predefinito in Campaign v8 durante la transizione. Campaign v8 supporta anche l’attività Query.
 >
 >* Il pubblico di lettura viene trasformato in attività di query con [filtro predefinito](../../v8/query/build-query.md)
 >
@@ -85,7 +85,7 @@ Scopri come [impostare un gruppo di controllo](../../v8/audience/control-group.m
 
 ### Gestire le iscrizioni {#acs-gs-marketers-sub}
 
-È possibile gestire e creare i servizi, ad esempio le newsletter, e controllare gli abbonamenti o i loro annullamenti. I passaggi chiave sono globalmente gli stessi che in Campaign Standard. Per ulteriori informazioni, consulta le pagine seguenti:
+È possibile gestire e creare i servizi, ad esempio le newsletter, e controllare gli abbonamenti o i loro annullamenti. I passaggi chiave sono globalmente gli stessi di Campaign Standard. Per ulteriori informazioni, consulta le pagine seguenti:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -140,7 +140,7 @@ Per ulteriori informazioni sulle campagne, consulta la documentazione seguente:
 
 ### Creare un flusso di lavoro {#acs-gs-marketers-wf}
 
-L’interfaccia utente del flusso di lavoro è stata completamente ripensata nell’interfaccia utente di Campaign Web per facilitarne l’utilizzo, la configurazione, l’esecuzione e la risoluzione dei problemi. Come hai già sperimentato in Campaign Standard, con i flussi di lavoro puoi orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
+L’interfaccia utente del flusso di lavoro è stata completamente ripensata nell’interfaccia utente di Campaign Web per facilitarne l’utilizzo, la configurazione, l’esecuzione e la risoluzione dei problemi. Come hai già fatto in Campaign Standard, con i flussi di lavoro puoi orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna. Inoltre, i canali possono essere sincronizzati in un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
 Scopri come funzionano i flussi di lavoro e come creare un flusso di lavoro di targeting in questo video:
 
@@ -204,7 +204,7 @@ Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare
 
 Scopri come creare la tua prima e-mail mirata nella [Documentazione sulla creazione della prima e-mail](../../v8/email/create-email.md)
 
-In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna e-mail sono simili a quelli per Campaign Standard.
+In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna e-mail sono simili a quelli di Campaign Standard.
 
 1. **Progetta e definisci il contenuto**
 
@@ -242,7 +242,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 Le consegne SMS offrono un modo pratico ed efficiente per inviare messaggi di testo ai dispositivi mobili della clientela. Grazie a questa funzione è possibile creare, personalizzare e visualizzare in anteprima i messaggi basati su testo per una comunicazione efficace.
 
-In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna SMS sono simili a quelli per Campaign Standard.
+In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna SMS sono simili a quelli di Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -277,7 +277,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 Le notifiche push sono essenziali per contattare gli utenti delle app mobili, anche quando non utilizzano attivamente l’app. Hanno scopi diversi come fornire aggiornamenti, promuovere azioni specifiche e inviare notifiche sulle offerte.
 
-In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una notifica push sono simili a quelli per Campaign Standard.
+In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una notifica push sono simili a quelli di Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -318,7 +318,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 Direct mail è un canale offline che consente di creare file per consegnare in massa lettere personalizzate alla clientela, come cartoline, volantini o cataloghi. Durante la creazione di una consegna direct mail, Adobe Campaign genera automaticamente un file di estrazione contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi del profilo.
 
-In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna direct mailing sono simili a quelli per Campaign Standard.
+In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna direct mailing sono simili a quelli di Campaign Standard.
 
 
 1. [Creare la consegna Direct Mail](../../v8/direct-mail/create-direct-mail.md)
@@ -333,7 +333,7 @@ Il canale in-app non è disponibile in Campaign v8. Se devi inviare una notifica
 
 L’interfaccia utente di Adobe Campaign v8 per il web è dotata di un’esperienza utente rinnovata per le pagine di destinazione. Campaign ti consente di creare, progettare e condividere pagine di destinazione. Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i dati, acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
 
-In qualità di utente Campaign Standard che passa a Campaign v8, le pagine di destinazione esistenti sono state migrate all’interfaccia utente web di Campaign. Puoi accedere alla stessa gamma di funzionalità.
+In qualità di utente di Campaign Standard che passa a Campaign v8, le pagine di destinazione esistenti sono state migrate all’interfaccia utente web di Campaign. Puoi accedere alla stessa gamma di funzionalità.
 
 Per ulteriori informazioni sulle pagine di destinazione, consulta le sezioni seguenti:
 
@@ -373,11 +373,11 @@ Adobe Campaign fornisce un set di [strumenti di reporting](https://experiencelea
 
 La suite di strumenti di reporting di Adobe Campaign fornisce informazioni utili sull’efficacia delle attività di marketing, consentendoti di ottimizzare le campagne per il massimo impatto. Ulteriori informazioni sono disponibili nella [documentazione sul reporting](../../v8/reporting/gs-reports.md).
 
-Inoltre, in linea con l’esperienza Adobe Campaign Standard, il Reporting dinamico è disponibile in Campaign v8, per le consegne e-mail. Fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Ulteriori informazioni sono disponibili nella [documentazione sul reporting dinamico](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+Inoltre, in linea con l’esperienza Adobe Campaign Standard, il Reporting dinamico è disponibile in Campaign v8, per le consegne e-mail. Fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Ulteriori informazioni sono disponibili nella [documentazione di Reporting dinamico](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
->* [Reporting dinamico](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} può essere utilizzato per generare rapporti sulle consegne e-mail, campagne con consegne e-mail e messaggi transazionali. È inoltre disponibile l’analisi demografica per dimensione di profilo.
+>* [Il reporting dinamico](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} può essere utilizzato per il reporting di consegne e-mail, campagne con consegne e-mail e messaggi transazionali. È inoltre disponibile l’analisi demografica per dimensione di profilo.
 >
 > * [La funzionalità di reporting per l&#39;interfaccia utente Web di Adobe Campaign](../../v8/reporting/campaign-reports.md) è disponibile anche per tutti gli utenti che passano da Adobe Campaign Standard ad Adobe Campaign v8.
 

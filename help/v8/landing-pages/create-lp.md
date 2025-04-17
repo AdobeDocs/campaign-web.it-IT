@@ -3,7 +3,7 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bd938c3e2046123a9a9c6b64890bf41d0c272d4d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 20%
@@ -28,10 +28,10 @@ Per accedere all&#39;elenco delle pagine di destinazione, seleziona **[!UICONTRO
 
 ![Schermata che mostra l&#39;inventario delle pagine di destinazione nell&#39;interfaccia Web di Campaign.](assets/lp-inventory.png){zoomable="yes"}
 
-L&#39;inventario **[!UICONTROL delle pagine]** di destinazione mostra tutti gli elementi creati. Puoi filtrarli utilizzando i **[!UICONTROL filtri]** Mostra pulsante.
+Nell&#39;inventario **[!UICONTROL Pagine di destinazione]** vengono visualizzati tutti gli elementi creati. Puoi filtrarli utilizzando il pulsante **[!UICONTROL Mostra filtri]**.
 
 * Puoi filtrare gli elementi creati o modificati.
-* È possibile limitare i risultati a una cartella](../get-started/permissions.md#folders) specifica [utilizzando l&#39;elenco a discesa o aggiungere regole utilizzando il modellatore](../query/query-modeler-overview.md) di [query.
+* È possibile limitare i risultati a una [cartella](../get-started/permissions.md#folders) specifica utilizzando l&#39;elenco a discesa oppure aggiungere regole utilizzando [modeler query](../query/query-modeler-overview.md).
 
 ![Schermata che mostra le opzioni filtro nell&#39;inventario delle pagine di destinazione.](assets/lp-inventory-filter.png){zoomable="yes"}
 
@@ -39,7 +39,7 @@ L&#39;inventario **[!UICONTROL delle pagine]** di destinazione mostra tutti gli 
 
 >[!CAUTION]
 >
->Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client (moduli web) nell’interfaccia utente di Campaign Web. Per ulteriori informazioni, consulta la [documentazione della console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=it){target="_blank"}.
+>Non è possibile visualizzare o modificare le pagine di destinazione create dalla console client (moduli web) nell’interfaccia utente di Campaign Web. Ulteriori informazioni sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=it){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -144,7 +144,7 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
    ![Schermata che mostra le opzioni di pianificazione per la pagina di destinazione.](assets/lp-schedule.png){zoomable="yes"}
 
-   * La pagina di destinazione viene pubblicata automaticamente alla data/ora di inizio specificata.
+   * La pagina di destinazione viene pubblicata automaticamente nella data/ora di inizio specificata.
 
      >[!NOTE]
      >

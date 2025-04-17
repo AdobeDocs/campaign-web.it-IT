@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti direct mail
 description: Scopri come accedere e utilizzare i report Direct mail
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 28%
+source-wordcount: '677'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ La **[!UICONTROL Panoramica della consegna]** fornisce informazioni dettagliate 
 
 ![Grafico delle metriche di panoramica della consegna che mostra gli indicatori di prestazioni chiave per la consegna direct mailing.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche della panoramica della consegna.
++++Ulteriori informazioni sulle metriche di panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 * **[!UICONTROL Destinati]**: numero di profili utente qualificati come profili di destinazione per i messaggi di direct mailing.
@@ -82,7 +82,7 @@ Il grafico **[!UICONTROL Statistiche di consegna]** fornisce una panoramica dell
 >title="Cause di esclusione della consegna"
 >abstract="Il grafico **Cause di esclusione** illustra la distribuzione dei messaggi rifiutati durante la preparazione per la consegna, suddivisi per regola."
 
-Il grafico **[!UICONTROL Cause di esclusione]** fornisce una suddivisione dei motivi del rifiuto del messaggio durante la preparazione della consegna. Questa disaggregazione è organizzata in base a diverse regole, offrendo una visione dettagliata dei fattori che contribuiscono all’esclusione dei messaggi. Le regole di esclusione sono descritte nella [Documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){_blank}.
+Il grafico **[!UICONTROL Cause di esclusione]** fornisce una suddivisione dei motivi del rifiuto del messaggio durante la preparazione della consegna. Questa disaggregazione è organizzata in base a diverse regole, offrendo una visione dettagliata dei fattori che contribuiscono all’esclusione dei messaggi. Le regole di esclusione sono descritte in dettaglio nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){_blank}.
 
 ![Grafico delle cause di esclusione che mostra la distribuzione dei messaggi rifiutati per regola.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

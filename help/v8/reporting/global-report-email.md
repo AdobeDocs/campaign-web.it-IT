@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti globali per il canale e-mail
 description: Ulteriori informazioni sui rapporti globali per il canale e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 58%
+ht-degree: 57%
 
 ---
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 ![Metriche di panoramica della consegna](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche della panoramica della consegna.
++++Ulteriori informazioni sulle metriche di panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -99,7 +99,7 @@ La tabella **[!UICONTROL Statistiche di consegna]** fornisce una suddivisione de
 
 Il grafico e la tabella delle esclusioni illustrano i motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
 
-I tipi di errore delle e-mail sono elencati nella [Documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
+I tipi di errore e-mail sono elencati nella [documentazione di Adobe Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=it#email-error-types){target="_blank"}.
 
 ## Velocità di consegna {#delivery-throughput}
 
@@ -231,7 +231,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori di prestaz
 
 ![URL e metriche di flusso di clic](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sugli URL e sulle metriche di flusso di clic.
++++Ulteriori informazioni sugli URL e sulle metriche dei flussi di clic.
 
 * **[!UICONTROL Reattività]**: rapporto tra il numero di destinatari target che hanno fatto clic in una consegna e il numero stimato di destinatari target che hanno aperto una consegna.
 
@@ -253,7 +253,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 ![Metriche dei 10 collegamenti più visitati](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche dei 10 collegamenti più visitati.
++++Ulteriori informazioni sui 10 collegamenti più visitati.
 
 * **[!UICONTROL Clic totali]**: numero totale di clic sui collegamenti nelle consegne.
 
