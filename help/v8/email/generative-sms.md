@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS con l’Assistente AI
+title: SMS con assistente AI
 description: Introduzione all’Assistente AI
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 5%
 
 ---
 
-# Generazione di SMS con l’Assistente IA {#generative-sms}
+# Generazione di SMS con l’Assistente AI {#generative-sms}
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Questo strumento offre suggerimenti intelligenti per perfezionare i contenuti, g
 
    ![Schermata che mostra le opzioni delle impostazioni del testo](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente IA, oppure selezionane una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente di intelligenza artificiale, oppure selezionane una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. Attiva/disattiva le risorse da includere nella generazione.
 
@@ -114,7 +114,7 @@ Quando definisci il contenuto, il pubblico e la pianificazione, prepara la conse
 
    ![Schermata che mostra le opzioni delle impostazioni del testo](assets/sms-text-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente IA, oppure selezionane una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente di intelligenza artificiale, oppure selezionane una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. Attiva/disattiva le risorse da includere nella generazione.
 
@@ -125,7 +125,7 @@ Quando definisci il contenuto, il pubblico e la pianificazione, prepara la conse
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione e perfezionare la variante in base alle tue preferenze:
 
    * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante scelta funge da contenuto di riferimento per la generazione di altri risultati.
-   * **[!UICONTROL Riformula]**: l&#39;Assistente di intelligenza artificiale può riformulare il messaggio in diversi modi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
+   * **[!UICONTROL Riformula]**: l&#39;Assistente AI può riformulare il messaggio in modi diversi, mantenendo la scrittura fresca e coinvolgente per diversi tipi di pubblico.
    * **[!UICONTROL Usa un linguaggio più semplice]**: sfrutta l&#39;Assistente AI per semplificare la lingua, garantendo chiarezza e accessibilità a un pubblico più ampio.
 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.

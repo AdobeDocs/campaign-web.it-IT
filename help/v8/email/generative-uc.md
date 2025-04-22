@@ -2,9 +2,9 @@
 title: Casi d’uso dell’Assistente IA
 description: Scopri come utilizzare l’Assistente IA nei casi d’uso
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -51,11 +51,11 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, prepara la con
 
    * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante selezionata funge da riferimento per generare altro contenuto.
 
-   * **[!UICONTROL Elaborare]**: consente all&#39;Assistente IA di espandere alcuni punti, offrendo maggiore profondità e dettagli per un coinvolgimento migliore.
+   * **[!UICONTROL Elaborazione]**: consenti all&#39;Assistente di intelligenza artificiale di espandere alcuni punti, offrendo maggiore profondità e dettagli per un coinvolgimento migliore.
 
-   * **[!UICONTROL Riepiloga]**: per informazioni lunghe, utilizza l&#39;Assistente IA per creare riepiloghi concisi più facili da digerire per i destinatari delle e-mail.
+   * **[!UICONTROL Riepiloga]**: per informazioni lunghe, utilizza l&#39;Assistente AI per creare riepiloghi concisi più facili da digerire per i destinatari delle e-mail.
 
-   * **[!UICONTROL Riformulazione]**: l&#39;Assistente AI può presentare il messaggio in diversi modi, contribuendo a mantenere aggiornato il contenuto per diversi tipi di pubblico.
+   * **[!UICONTROL Riformulazione]**: l&#39;Assistente di IA può presentare il messaggio in diversi modi, contribuendo a mantenere aggiornato il contenuto per diversi tipi di pubblico.
 
    * **[!UICONTROL Utilizza un linguaggio più semplice]**: semplifica la lingua con l&#39;Assistente AI per garantire che il messaggio sia chiaro e accessibile a tutti i lettori.
 

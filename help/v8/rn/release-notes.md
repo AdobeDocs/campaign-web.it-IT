@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 56%
+source-wordcount: '836'
+ht-degree: 53%
 
 ---
 
@@ -175,13 +175,13 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <table>
 <thead>
 <tr>
-<th><strong>Generazione della pagina di destinazione con l’Assistente IA</strong><br/></th>
+<th><strong>Generazione di pagine di destinazione con AI Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’Assistente IA è ora disponibile per le consegne di pagine di destinazione e consente di generare testo, immagini o layout di pagina completi.</p>
+<p>L’Assistente AI è ora disponibile con le consegne delle pagine di destinazione, consentendoti di generare testo, immagini o layout di pagina completi.</p>
 <img src="assets/do-not-localize/ai-lp.gif" alt="Illustrazione dell’utilizzo dell’Assistente IA per la generazione di pagine di destinazione nell’interfaccia utente web di Adobe Campaign">
 <p>Per ulteriori informazioni sull’Assistente IA, consulta la <a href="../email/generative-lp.md">documentazione dettagliata</a>.</p>
 </td>

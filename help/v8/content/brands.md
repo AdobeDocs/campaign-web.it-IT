@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Gli utenti possono immettere i dettagli manualmente o caricare un documento sull
 
    ![Scheda Contenuto visivo con opzioni immagine di esempio](assets/brands_3.png)
 
-1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida del brand nell&#39;assistente AI.
+1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida per il brand in AI Assistant.
 
 1. Per modificare il tuo marchio pubblicato, fai clic su **[!UICONTROL Modifica marchio]**.
 
@@ -104,6 +104,6 @@ Gli utenti possono immettere i dettagli manualmente o caricare un documento sull
 
    ![Opzioni di menu avanzate nel dashboard Marchi](assets/brands_5.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nel menu dell’assistente AI. In questo modo l’assistente AI può generare contenuti e risorse in linea con le tue specifiche. [Ulteriori informazioni sull&#39;Assistente IA](../email/generative-gs.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;Assistente di intelligenza artificiale. In questo modo l’Assistente AI può generare contenuti e risorse in linea con le specifiche dell’utente. [Ulteriori informazioni sull&#39;Assistente IA](../email/generative-gs.md)
 
 ![Menu dell&#39;assistente AI con elenco a discesa del marchio](assets/brands_6.png)

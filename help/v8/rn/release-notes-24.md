@@ -2,10 +2,10 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 100%
+source-wordcount: '2501'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, passa a un livello successivo con l’Assistente IA in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
+<p>Dopo aver creato e personalizzato il messaggio, passa a un livello successivo con l’Assistente AI in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima delle funzionalità live</a>, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/generative-gs.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -156,7 +156,7 @@ Ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma
 
 >[!AVAILABILITY]
 >
->Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Per ulteriori informazioni, consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} della  console client di Campaign v8.
+>Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Ulteriori informazioni nella console client [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} di Campaign v8.
 
 ### Miglioramenti {#improvements-24-7}
 
@@ -272,7 +272,7 @@ I miglioramenti riportati di seguito sono disponibili per tutti i clienti a part
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile per tutti gli utenti a partire da [Campaign v8.6 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Per ulteriori informazioni sulle versioni e gli aggiornamenti della console client di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
+>Questa versione è disponibile per tutti gli utenti a partire da [Campaign v8.6 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Ulteriori informazioni sulle versioni e sugli aggiornamenti della console client di Adobe Campaign sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
 
 **Data di rilascio**: 19-20 marzo 2024
 

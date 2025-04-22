@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Notifica push con l’Assistente AI
+title: Notifica push con Assistente IA
 description: Introduzione all’Assistente AI
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 4%
+source-wordcount: '548'
+ht-degree: 3%
 
 ---
 
-# Generazione di notifiche push con l’Assistente IA {#generative-push}
+# Generazione di notifiche push con Assistente IA {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 4%
 >
 >È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;Assistente IA in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-L’Assistente AI consente di ottimizzare l’impatto delle consegne suggerendo contenuti diversi che suonano con il pubblico.
+L’Assistente AI consente di ottimizzare l’impatto delle consegne suggerendo contenuti diversi in base alle esigenze del pubblico.
 
 Nell’esempio seguente, l’Assistente AI viene utilizzato per creare messaggi convincenti per creare un’esperienza del cliente più coinvolgente.
 
@@ -31,7 +31,7 @@ Nell’esempio seguente, l’Assistente AI viene utilizzato per creare messaggi 
 
    ![Schermata che mostra il menu Mostra Assistente AI](assets/push-genai-1.png){zoomable="yes"}
 
-1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
+1. Abilita l&#39;opzione **[!UICONTROL Usa contenuto originale]** per l&#39;Assistente AI per personalizzare nuovi contenuti in base al contenuto selezionato.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
@@ -57,7 +57,7 @@ Nell’esempio seguente, l’Assistente AI viene utilizzato per creare messaggi 
 
    ![Schermata che mostra le opzioni delle impostazioni immagine](assets/push-genai-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente IA, oppure selezionane una caricata in precedenza.
+1. Dal menu **[!UICONTROL Risorse per i marchi]**, fai clic su **[!UICONTROL Carica risorsa per i marchi]** per aggiungere eventuali risorse per i marchi contenenti contenuto che fornisca ulteriore contesto all&#39;Assistente di intelligenza artificiale, oppure selezionane una caricata in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. Attiva/disattiva le risorse da includere nella generazione.
 

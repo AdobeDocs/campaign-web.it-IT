@@ -4,10 +4,10 @@ description: Scopri i passaggi necessari per iniziare a utilizzare la nuova appl
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 29%
+source-wordcount: '1555'
+ht-degree: 28%
 
 ---
 
@@ -105,7 +105,7 @@ In qualità di utente di Campaign Standard che passa ad Adobe Campaign v8, ora s
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Fornisce una variante di modelli e-mail e genera e rigenera le immagini. Ulteriori informazioni sull&#39;Assistente AI in [questa sezione](../../v8/email/generative-content.md). In Adobe Campaign v8 è disponibile l&#39;assistente di intelligenza artificiale per [E-mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) e [Push](../../v8/email/generative-push.md).
+  Fornisce una variante di modelli e-mail e genera e rigenera le immagini. Ulteriori informazioni sull&#39;Assistente IA in [questa sezione](../../v8/email/generative-content.md). In Adobe Campaign v8 è disponibile l&#39;assistente di intelligenza artificiale per [E-mail](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) e [Push](../../v8/email/generative-push.md).
 
 * **Infrastruttura SMS aggiornata - SMS v2.0**
 
@@ -126,7 +126,7 @@ Adobe Campaign v8 è disponibile come Cloud Services gestito, fornisce supervisi
 
 ## Funzionalità Campaign Standard aggiunte alla versione 8 {#ac-v8-added}
 
-Le funzionalità principali di Campaign Standard sono state aggiunte a Campaign v8, per una transizione fluida. Queste sono descritte nel dettaglio in [questa documentazione](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
+Le funzionalità principali di Campaign Standard sono state aggiunte a Campaign v8, per una transizione fluida. Sono descritti in [questa documentazione](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target="_blank"}.
 
 * **Reporting dinamico**: il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. In più, questa funzione consente anche di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=it){target="_blank"}.
 
