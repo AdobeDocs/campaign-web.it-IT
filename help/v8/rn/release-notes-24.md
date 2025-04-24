@@ -5,7 +5,7 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '2501'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -156,7 +156,7 @@ Ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma
 
 >[!AVAILABILITY]
 >
->Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Ulteriori informazioni nella console client [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} di Campaign v8.
+>Questa funzionalità richiede un aggiornamento a Campaign v8.6.3 <!--or v8.7.2-->. Per ulteriori informazioni, consulta le [note sulla versione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} della console client di Campaign v8.
 
 ### Miglioramenti {#improvements-24-7}
 
@@ -272,7 +272,7 @@ I miglioramenti riportati di seguito sono disponibili per tutti i clienti a part
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile per tutti gli utenti a partire da [Campaign v8.6 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Ulteriori informazioni sulle versioni e sugli aggiornamenti della console client di Adobe Campaign sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
+>Questa versione è disponibile per tutti gli utenti a partire dalla versione [Campaign v8.6 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Per ulteriori informazioni sulle versioni e gli aggiornamenti della console client di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
 
 **Data di rilascio**: 19-20 marzo 2024
 
