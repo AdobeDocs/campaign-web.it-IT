@@ -5,12 +5,12 @@ hide: true
 hidefromtoc: true
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '37'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # Note sulle versioni 2025 {#2025-release}
 
-In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2025**. Le ultime note sulla versione sono disponibili in [questa pagina](release-notes.md).
+In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2025**. Le note più recenti sulla versione sono disponibili in questa [pagina](release-notes.md).
