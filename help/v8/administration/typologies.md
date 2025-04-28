@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare le regole di business (tipologie)
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1474'
 ht-degree: 11%
 
 ---
@@ -23,9 +23,14 @@ ht-degree: 11%
 >title="Tipologie e regole di tipologia"
 >abstract="Le tipologie consentono di standardizzare le pratiche aziendali su tutte le consegne. Una tipologia è una raccolta di regole di tipologia che ti consentono di controllare, filtrare e assegnare priorità all’invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione."
 
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="Filtro"
+>abstract=" Sono disponibili due tipi di regole di tipologia: <br/><br/>**Regole di controllo** che garantiscono la qualità e la validità del messaggio pre-invio, ad esempio la visualizzazione del carattere, la lunghezza dell&#39;SMS, il formato dell&#39;indirizzo o la riduzione degli URL. <br/><br/>**Regole di filtro** che escludono segmenti del pubblico di destinazione in base a criteri specifici, ad esempio età, posizione, paese o numeri di telefono."
+
 ## Informazioni sulle tipologie
 
-Le tipologie consentono di standardizzare le pratiche aziendali su tutte le consegne. Una **tipologia** è una raccolta di **regole di tipologia** che consente di controllare, filtrare e assegnare priorità all&#39;invio delle consegne. I profili che corrispondono ai criteri all&#39;interno di una tipologia regola sono esclusi dal pubblico di consegna durante la fase di preparazione.
+Le tipologie consentono di standardizzare le pratiche aziendali su tutte le consegne. Una **tipologia** è una raccolta di **regole di tipologia** che consente di controllare, filtrare e assegnare priorità all&#39;invio delle consegne. I profili che corrispondono ai criteri all’interno di una regola di tipologia sono esclusi dai tipi di pubblico di consegna durante la fase di preparazione.
 
 Le tipologie garantiscono che le consegne contengano sempre alcuni elementi, ad esempio un collegamento per l’annullamento dell’abbonamento o una riga dell’oggetto oppure regole di filtro per escludere i gruppi dal target previsto, ad esempio utenti non abbonati, concorrenti o clienti non fidelizzati.
 
@@ -125,9 +130,9 @@ Definisci le proprietà della regola di tipologia:
 
    **[!UICONTROL Dopo il targeting]**: selezionare questa fase se è necessario conoscere il volume della destinazione per applicare la regola di controllo. Ad esempio, la regola di controllo **[!UICONTROL Verifica dimensione bozza]** si applica dopo ogni fase di targeting. Questa regola impedisce la personalizzazione dei messaggi se sono presenti troppi destinatari della bozza.
 
-   **[!UICONTROL All&#39;inizio del personalizzazione]**: selezionare questa fase se il controllo riguarda l&#39;approvazione del messaggio personalizzazione. Invia messaggio personalizzazione viene effettuata durante la fase di analisi.
+   **[!UICONTROL All&#39;inizio della personalizzazione]**: selezionare questa fase se il controllo riguarda l&#39;approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
 
-   **[!UICONTROL Al termine dell&#39;analisi]**: controlli Applica che richiedono una personalizzazione completa del messaggio.
+   **[!UICONTROL Al termine dell&#39;analisi]**: applica controlli che richiedono la personalizzazione completa dei messaggi.
 
 +++
 
