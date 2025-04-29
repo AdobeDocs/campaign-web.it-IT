@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Selezionare una dimensione targeting"
->abstract="La dimensione di targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati e altro ancora. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
+>abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
 
 La dimensione di targeting, nota anche come mappatura target, è il tipo di dati che un’operazione gestisce. Definisce la popolazione target, ad esempio profili, beneficiari del contratto, operatori o abbonati.
 
@@ -44,4 +44,4 @@ Utilizza altre mappature di destinazione incorporate nei flussi di lavoro e nell
 | File esterno | Consegna tramite un file contenente tutte le informazioni richieste | Nessuno schema collegato, nessuna destinazione immessa |
 | Applicazioni in abbonamento | Profili abbonati a un’applicazione | nms:appSubscriptionRcp |
 
-Inoltre, crea nuove mappature di destinazione in base a esigenze specifiche. Esegui questa operazione solo dalla console client. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it#new-mapping){target="_blank"}.
+Inoltre, crea nuove mappature di destinazione in base a esigenze specifiche. Esegui questa operazione solo dalla console client. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it#new-mapping){target="_blank"}.

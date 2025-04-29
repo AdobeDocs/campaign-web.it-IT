@@ -6,7 +6,7 @@ exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="Attività Cambia dimensione"
->abstract="Questa attività ti consente di modificare la dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione &quot;contratti&quot; alla dimensione &quot;clienti&quot;."
+>abstract="Questa attività ti consente di modificare la dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione “contratti” alla dimensione “clientela”."
 
 L’attività **Cambia dimensione** è un’attività di **targeting**. Questa attività ti consente di modificare la dimensione targeting durante la creazione del flusso di lavoro. Sposta l’asse in base al modello di dati e alla dimensione di input. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions).
 

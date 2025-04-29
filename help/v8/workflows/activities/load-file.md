@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -55,7 +55,7 @@ La configurazione dell&#39;attività **Load file** prevede due passaggi. Innanzi
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Rimappatura del valore per l’attività di caricamento file"
->abstract="Utilizza questa opzione per mappare valori specifici dai file caricati con nuovi valori. Ad esempio, se la colonna contiene i valori &#39;True&#39;/&#39;False&#39;, è possibile aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri &#39;0&#39;/&#39;1&#39;."
+>abstract="Utilizza questa opzione per mappare valori specifici dai file caricati con nuovi valori. Ad esempio, se la colonna contiene i valori “True”/“False”, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri “0”/“1”."
 
 Segui questi passaggi per configurare il file di esempio utilizzato per definire la struttura di file prevista:
 
@@ -106,12 +106,12 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Database di destinazione"
->abstract="Se si accede a un&#39;attività **[!UICONTROL Load file]** già configurata nella console client, è disponibile un&#39;ulteriore sezione **[!UICONTROL Database di destinazione]** se è stata configurata l&#39;attività per caricare il file in un database esterno."
+>abstract="Se stai accedendo a un’attività **[!UICONTROL Carica file]** che è già stata configurata nella console client, se hai configurato l’attività per caricare il file in un database esterno è disponibile un’ulteriore sezione **[!UICONTROL Database di destinazione]**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
->title="Comando Load File"
->abstract="L’abilitazione di comandi arbitrari per la pre-elaborazione rappresenta un problema di sicurezza. Disattivare l&#39;opzione di protezione XtkSecurity_Disable_Preproc per forzare l&#39;utilizzo di un elenco predefinito di comandi."
+>title="Comando Carica file"
+>abstract="L’abilitazione di comandi arbitrari per la pre-elaborazione rappresenta un problema di sicurezza. Disabilita l’opzione di sicurezza XtkSecurity_Disable_Preproc per forzare l’utilizzo di un elenco predefinito di comandi."
 
 >[!CAUTION]
 >

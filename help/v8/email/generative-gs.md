@@ -6,7 +6,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Assistente IA"
->abstract="Dopo aver creato e personalizzato la consegna, utilizza l’Assistente AI per migliorare i contenuti. Questa funzione semplifica la personalizzazione e il miglioramento dei contenuti consentendoti di perfezionare i contenuti descrivendo cosa desideri generare."
+>abstract="Dopo aver creato e personalizzato la consegna, utilizza l’Assistente AI per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e il miglioramento dei contenuti e ti consente di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Definire il contesto con l’Assistente IA in Campaign"
->abstract="Per utilizzare il contenuto selezionato come input per la generazione del contenuto, attivare l&#39;interruttore **Migliora con contenuto corrente**. Puoi anche caricare le risorse del tuo marchio per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è obbligatorio caricare e selezionare le risorse del brand."
+>abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuti, attiva l’interruttore **Migliora con il contesto corrente**. Puoi anche caricare le risorse del tuo marchio per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è necessari caricare e selezionare le risorse del brand."
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Termini di IA generativa di Adobe"
->abstract="L’accesso a questa funzione dipende dal tuo consenso alle linee guida per l’utente di Adobe Experience Cloud Generative AI. Esamina l’eventuale output di questa funzione per verificarne l’accuratezza e assicurarti che sia appropriato per il tuo caso d’uso."
+>title="Condizioni per l’IA generativa di Adobe"
+>abstract="L’accesso a questa funzione è soggetto al consenso alle linee guida per l’utente dell’IA generativa di Adobe Experience Cloud. Verifica l’accuratezza degli output generati da questa funzione e assicurati che siano appropriati al tuo caso d’uso."
 >additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
 >[!INFO]

@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -86,7 +86,7 @@ Una volta salvato, puoi utilizzare questo modello per creare qualsiasi [e-mail](
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Definire le proprietà del modello"
->abstract="Definisci le proprietà del modello di contenuto e-mail per recuperarlo facilmente quando necessario."
+>abstract="Definisci facilmente le proprietà del modello di contenuto e-mail da recuperare quando necessario."
 
 Per creare un nuovo modello di contenuto dal dashboard modelli di contenuto, effettua le seguenti operazioni:
 

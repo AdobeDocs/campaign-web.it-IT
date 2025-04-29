@@ -6,13 +6,13 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 26%
+ht-degree: 50%
 
 ---
 
 # Attività di e-mail, SMS, push e direct mail {#channel}
 
-Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su e-mail, SMS, direct mail e canali push. Puoi combinare le attività dei canali nell’area di lavoro del flusso di lavoro per creare flussi di lavoro cross-channel che attivano azioni in base al comportamento dei clienti e ai dati.
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su e-mail, SMS, direct mail e canali push. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.
 
 Ad esempio, crea una campagna e-mail di benvenuto che includa una serie di messaggi su diversi canali, come e-mail, SMS, push e direct mail. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di compleanno personalizzato a un cliente tramite SMS.
 
@@ -47,27 +47,27 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Attività e-mail"
->abstract="L’attività E-mail facilita l’invio di e-mail all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Automatizza il processo di invio di e-mail a una destinazione calcolata all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area di lavoro del flusso di lavoro per creare flussi di lavoro cross-channel che attivano azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività E-mail facilita l’invio di e-mail all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Consente di automatizzare il processo di invio di e-mail a una destinazione calcolata all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Attività SMS"
->abstract="L’attività SMS facilita l’invio di SMS all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Automatizza il processo di invio di SMS a una destinazione calcolata all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area di lavoro del flusso di lavoro per creare flussi di lavoro cross-channel che attivano azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività SMS facilita l’invio di SMS all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Consente di automatizzare il processo di invio di SMS a una destinazione calcolata all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Attività push iOS"
->abstract="L’attività Push iOS semplifica il processo di invio delle notifiche push di iOS come parte del flusso di lavoro. Consente la consegna di messaggi sia occasionali che ricorrenti, automatizzando l’invio di notifiche push iOS a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area di lavoro del flusso di lavoro per creare flussi di lavoro cross-channel che attivano azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività Push iOS semplifica il processo di invio delle notifiche push di iOS come parte del flusso di lavoro. Consente la consegna di messaggi sia singoli che ricorrenti, automatizzando l’invio di notifiche push iOS a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Attività push Android"
->abstract="L’attività Push Android semplifica il processo di invio delle notifiche push Android come parte del flusso di lavoro. Consente la consegna di messaggi sia occasionali che ricorrenti, automatizzando l’invio di notifiche push Android a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area di lavoro del flusso di lavoro per creare flussi di lavoro cross-channel che attivano azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività Push Android semplifica il processo di invio delle notifiche push Android come parte del flusso di lavoro. Consente la consegna di messaggi sia singoli che ricorrenti, automatizzando l’invio di notifiche push Android a una destinazione predefinita all’interno dello stesso flusso di lavoro. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Attività direct mail"
->abstract="L’attività direct mail facilita l’invio con direct mail all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Automatizza il processo di generazione del file di estrazione richiesto dai provider di direct mailing. Puoi combinare le attività dei canali nell’area di lavoro del flusso di lavoro per creare flussi di lavoro cross-channel che attivano azioni in base al comportamento dei clienti e ai dati."
+>abstract="L’attività direct mail facilita l’invio con direct mail all’interno del flusso di lavoro, consentendo l’invio di messaggi sia una tantum che ricorrenti. Consente di automatizzare il processo di generazione del file di estrazione richiesto dai provider di direct mail. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela."
 
 Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 

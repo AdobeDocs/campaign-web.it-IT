@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -118,11 +118,11 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Elimina i file di origine dopo il trasferimento"
->abstract="Cancella i file di origine dopo un trasferimento riuscito."
+>abstract="Elimina i file di origine dopo un trasferimento riuscito."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Visualizzare i registri di sessione"
+>title="Visualizza i registri di sessione"
 >abstract="Le informazioni relative all’operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro."
 
 >[!CONTEXTUALHELP]

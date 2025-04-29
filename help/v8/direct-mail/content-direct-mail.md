@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenuto del file di estrazione"
->abstract="Fai clic sul pulsante **Modifica contenuto** per iniziare a progettare il file di estrazione richiesto dal provider di direct mail. Ciò consente di definire le proprietà del file, ad esempio l&#39;etichetta e il formato, e di specificare le colonne da includere nel file."
+>abstract="Fai clic sul pulsante **Modifica contenuto** per iniziare a progettare il file di estrazione richiesto dal provider di direct mail. Questo consente di definire le proprietà del file, come l’etichetta e il formato, e di specificare le colonne che desideri includere nel file."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
@@ -25,7 +25,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Contenuto"
->abstract="In questa sezione, specifica le colonne da visualizzare nel file di estrazione. Al termine, puoi visualizzare in anteprima il file di estrazione utilizzando il pulsante **Simula contenuto**."
+>abstract="In questa sezione, specifica le colonne da visualizzare nel file di estrazione. Al termine, puoi visualizzare l’anteprima del file di estrazione utilizzando il pulsante **Simula contenuto**."
 
 Per progettare il contenuto del file di estrazione generato dalla consegna di direct mailing, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** nella pagina di consegna, quindi configura le proprietà e il contenuto del file.
 

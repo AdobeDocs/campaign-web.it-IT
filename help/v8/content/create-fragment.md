@@ -6,7 +6,7 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -74,12 +74,12 @@ Il frammento di contenuto è ora pronto per essere utilizzato quando si crea una
 * [Aggiungere frammenti visivi alle e-mail](use-visual-fragments.md)
 * [Aggiungere frammenti di espressione all’editor di espressioni](use-expression-fragments.md)
 
-## Salva contenuto come frammento visivo {#save-as-fragment}
+## Salvare un contenuto come frammento visivo {#save-as-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Salva come frammento"
->abstract="Per salvare il contenuto come frammento visivo, seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. È possibile selezionare solo le sezioni adiacenti. Non è possibile selezionare strutture vuote o altri frammenti di contenuto. Il contenuto diventa quindi un frammento autonomo, aggiunto all’elenco dei frammenti e accessibile dal menu dedicato. Questo frammento può essere utilizzato per creare qualsiasi e-mail o modello di contenuto all’interno di Campaign."
+>abstract="Per salvare un contenuto come frammento visivo, seleziona gli elementi che desideri includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. È possibile selezionare solo le sezioni adiacenti. Non è possibile selezionare strutture vuote o altri frammenti di contenuto. Il contenuto sarà quindi un frammento autonomo, aggiunto all’elenco dei frammenti e accessibile dal menu dedicato. Puoi utilizzare questo frammento durante la creazione di qualsiasi e-mail o modello di contenuto all’interno di una campagna."
 
 <!--pas vu dans l'UI-->
 

@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Modifica dettagli personalizzati"
->abstract="Vengono visualizzati tutti i campi dell’interfaccia personalizzati per lo schema selezionato. Puoi modificare l’ordine di visualizzazione nell’interfaccia di, utilizzando le frecce su e giù, e raggruppare i campi in sottosezioni aggiungendo separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
+>abstract="Vengono visualizzati tutti i campi dell’interfaccia personalizzati per lo schema selezionato. È possibile modificare l’ordine in cui vengono visualizzati nell’interfaccia tramite le frecce su e giù e raggruppare i campi in sottosezioni mediante l’aggiunta di separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"

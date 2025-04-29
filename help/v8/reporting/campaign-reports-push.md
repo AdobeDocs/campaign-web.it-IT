@@ -6,7 +6,7 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
@@ -42,7 +42,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori chiave d
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Statistiche iniziali sul pubblico target"
->abstract="La tabella delle **statistiche iniziali del pubblico di destinazione** visualizza i dati relativi ai destinatari."
+>abstract="La tabella **Statistiche iniziali sul pubblico target** mostra i dati relativi ai destinatari."
 
 La tabella **[!UICONTROL Statistiche iniziali sul pubblico target]** mostra i dati relativi ai destinatari. Le metriche sono descritte di seguito.
 

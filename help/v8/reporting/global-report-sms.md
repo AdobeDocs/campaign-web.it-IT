@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -46,7 +46,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori prestazi
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="Popolazione target degli SMS"
->abstract="Il grafico e la tabella per la **popolazione target** presentano dati relativi al pubblico SMS, incluse informazioni sui messaggi da consegnare ed esclusioni."
+>abstract="Il grafico e la tabella della **Popolazione target** presentano i dati relativi al pubblico degli SMS, incluse informazioni sui messaggi da consegnare e sulle esclusioni."
 
 La tabella e il grafico **[!UICONTROL Pubblico di destinazione]** presentano i dati relativi ai destinatari per ogni consegna SMS inviata. Le metriche sono descritte di seguito.
 

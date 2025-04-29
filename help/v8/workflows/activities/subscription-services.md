@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Attività dei servizi di iscrizione"
->abstract="L’attività Subscription services consente a più profili di effettuare l’abbonamento o il suo annullamento da un servizio in un’unica azione."
+>title="Attività Servizi di iscrizione"
+>abstract="L’attività Servizi di iscrizione consente a più profili di effettuare l’iscrizione a un servizio o annullarla in un’unica azione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Parametri generali dei servizi di iscrizione"
->abstract="Scegli il servizio desiderato e scegli l’azione da eseguire (iscrizione o annullamento dell’iscrizione). Attiva l&#39;opzione **Invia messaggio di conferma** per notificare alla popolazione l&#39;abbonamento o l&#39;annullamento dell&#39;abbonamento al servizio selezionato."
+>abstract="Scegli il servizio desiderato e scegli l’azione da eseguire (iscrizione o annullamento dell’iscrizione). Attiva l’opzione **Invia messaggio di conferma** per inviare una notifica sull’iscrizione o sull’annullamento dell’iscrizione al servizio selezionato alla popolazione."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Informazioni aggiuntive"
->abstract="Specifica i dati e l’origine dell’iscrizione per ciascun record. Puoi lasciare vuota questa sezione, nel qual caso non verrà impostata alcuna data o origine durante l’esecuzione del flusso di lavoro. Se i dati in entrata contengono una colonna che indica la data di abbonamento del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**. Nel campo **[!UICONTROL Percorso origine]**, definisci l’origine dell’iscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l’opzione **[!UICONTROL Imposta una costante come origine]**."
+>abstract="Specifica i dati e l’origine dell’iscrizione per ciascun record. Puoi lasciare vuota questa sezione, nel qual caso non verrà impostata alcuna data o origine durante l’esecuzione del flusso di lavoro. Se i dati in entrata contengono una colonna che indica la data di iscrizione del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**. Nel campo **[!UICONTROL Percorso origine]**, definisci l’origine dell’iscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l’opzione **[!UICONTROL Imposta una costante come origine]**."
 
 L&#39;attività **Subscription services** è un&#39;attività **Data Management**. Consente di creare o eliminare un abbonamento a un servizio di informazioni per la popolazione specificata nella transizione.
 

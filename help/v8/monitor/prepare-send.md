@@ -126,7 +126,7 @@ Che la consegna sia pianificata o meno<!--TBC-->, è possibile eseguire due azio
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clic"
->abstract="Il numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
+>abstract="Numero di destinatari che hanno fatto clic almeno una volta nell’e-mail. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di clic distinti e il numero di messaggi consegnati."
 >additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 
 >[!CONTEXTUALHELP]

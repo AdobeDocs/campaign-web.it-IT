@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 20%
+ht-degree: 26%
 
 ---
 
@@ -49,12 +49,12 @@ Nell’interfaccia utente di Campaign Web sono disponibili criteri di avviso pre
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicatori da aggiungere negli avvisi"
->abstract="Seleziona gli indicatori da visualizzare come colonne nella sezione &quot;Dettagli&quot; degli avvisi e-mail."
+>abstract="Seleziona gli indicatori da visualizzare come colonne nella sezione “Dettagli” degli avvisi e-mail."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Tipo di avviso"
->abstract="Specifica il **Tipo avviso** per il criterio, ovvero l&#39;etichetta e il colore da visualizzare accanto al criterio di consegna nella sezione &#39;Riepilogo&#39; degli avvisi."
+>abstract="Specifica il **Tipo di avviso** per il criterio, ovvero l’etichetta e il colore da mostrare accanto al criterio di consegna nella sezione “Riepilogo” degli avvisi."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"

@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 47%
+ht-degree: 59%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="Proprietà di consegna SMS"
->abstract="Le proprietà includono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Se la consegna utilizza uno schema esteso, sono disponibili campi di opzioni personalizzati specifici."
+>abstract="Le proprietà includono i parametri di consegna comuni che consentono di denominarla e classificarla. Se la consegna utilizza uno schema esteso, sono disponibili campi specifici di opzioni personalizzate."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Definisci il pubblico dell’SMS"
->abstract="Creare un nuovo pubblico o selezionarne uno esistente facendo clic sul pulsante **Seleziona pubblico**. Se necessario, aggiungi un gruppo di controllo per misurare l’impatto della consegna."
+>abstract="Crea un nuovo pubblico o selezionane uno esistente facendo clic sul pulsante **Seleziona pubblico**. Se necessario, aggiungi un gruppo di controllo per misurare l’impatto della consegna."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=it" text="Impostare un gruppo di controllo"
 
 >[!CONTEXTUALHELP]

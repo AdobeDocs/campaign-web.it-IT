@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Consegne"
->abstract="Una consegna è una comunicazione inviata a un pubblico su un canale specifico: e-mail, SMS o push. In questa schermata puoi modificare, duplicare ed eliminare le consegne esistenti. Puoi visualizzare anche i rapporti delle consegne completate. Fai clic sul pulsante **Crea consegna** per aggiungere una nuova consegna."
+>abstract="Una consegna è una comunicazione inviata a un pubblico su un canale specifico: e-mail, SMS o Push. In questa schermata puoi modificare, duplicare ed eliminare le consegne esistenti. Puoi visualizzare anche i rapporti delle consegne completate. Fai clic sul pulsante **Crea consegna** per aggiungere una nuova consegna."
 
 ## Accedere alle consegne {#access}
 

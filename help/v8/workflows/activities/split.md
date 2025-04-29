@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 52%
+ht-degree: 69%
 
 ---
 
@@ -24,7 +24,7 @@ L&#39;attività **Split** è un&#39;attività **Targeting** che segmenta le popo
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="Segmenti per attività Dividi"
->abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso. Quando l&#39;attività **Split** viene eseguita, il gruppo viene segmentato tra i diversi sottoinsiemi nell&#39;ordine in cui vengono aggiunti all&#39;attività. Prima di avviare il flusso di lavoro, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
+>abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso. Quando viene eseguita l’attività **Suddividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare il flusso di lavoro, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -45,7 +45,7 @@ L&#39;attività **Split** è un&#39;attività **Targeting** che segmenta le popo
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
 >title="Complemento generato da suddivisione"
->abstract="Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **Genera complemento**."
+>abstract="Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerla in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **Genera complemento**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
@@ -60,7 +60,7 @@ L&#39;attività **Split** è un&#39;attività **Targeting** che segmenta le popo
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Abilita sovrapposizione popolazioni di output"
->abstract="L’opzione **[!UICONTROL Abilita sovrapposizione popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione fa sì che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Adobe Campaign consiglia di usare criteri esclusivi."
+>abstract="L’opzione **[!UICONTROL Abilita sovrapposizione popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando questa casella non è spuntata, l’attività Suddividi assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Adobe Campaign consiglia di usare criteri esclusivi."
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
@@ -72,7 +72,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
    >[!IMPORTANT]
    >
-   >Quando l&#39;attività **Split** viene eseguita, il gruppo viene segmentato tra i diversi sottoinsiemi nell&#39;ordine in cui vengono aggiunti all&#39;attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
+   >Quando viene eseguita l’attività **Suddividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Ad esempio, se il primo sottoinsieme recupera il 70% della popolazione iniziale, il sottoinsieme aggiunto successivamente applicherà i propri criteri di selezione solo al restante 30% e così via.
    >
    >Prima di avviare il flusso di lavoro, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze. Utilizzare i pulsanti freccia per modificare la posizione di un sottoinsieme.
 
@@ -94,7 +94,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
       >
       >Quando si imposta un limite di popolazione per un sottoinsieme, è possibile classificare i profili selezionati in base a un attributo di profilo [specifico](../../get-started/attributes.md), in ordine crescente o decrescente. A tale scopo, attiva l’opzione **[!UICONTROL Abilita ordinamento]**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto.
 
-1. Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerli in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**.
+1. Dopo aver configurato tutti i sottoinsiemi, puoi selezionare la popolazione rimanente che non corrisponde a nessuno dei sottoinsiemi e includerla in un’ulteriore transizione in uscita. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**.
 
    ![Riquadro di configurazione della transizione del complemento](../assets/workflow-split-complement.png)
 
@@ -104,7 +104,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
 1. L&#39;opzione **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
 
-   * Quando la casella non è selezionata, l’attività di suddivisione fa sì che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
+   * Quando questa casella non è spuntata, l’attività Suddividi assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
    * Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Adobe Campaign consiglia di usare criteri esclusivi.
 
 L’attività adesso è configurata. Durante l’esecuzione del flusso di lavoro, il gruppo segmenta i diversi sottoinsiemi nell’ordine in cui sono stati aggiunti all’attività.

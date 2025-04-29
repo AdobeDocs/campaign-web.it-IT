@@ -6,7 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="Attività attendi"
->abstract="L&#39;attività **Wait** viene utilizzata per ritardare la transizione da un&#39;attività all&#39;altra."
+>abstract="L’attività **Attendi** viene utilizzata per ritardare la transizione da un’attività a un’altra."
 
 L’attività **Attendi** è un’attività di **Controllo del flusso**. Consente di trascorrere un certo periodo di tempo tra l’esecuzione di due attività. Ad esempio, può essere utilizzato per attendere diversi giorni dopo un’attività di consegna e-mail, quindi per analizzare le aperture e i clic generati durante questo periodo prima di eseguire operazioni di follow-up, ad esempio l’invio di un promemoria e-mail o la creazione di un pubblico.
 

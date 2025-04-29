@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 37%
+ht-degree: 46%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Proprietà del flusso di lavoro"
->abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi la sezione **Opzioni aggiuntive** per configurare altre impostazioni, ad esempio il nome interno del flusso di lavoro, la cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+>abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi la sezione **opzioni aggiuntive** per configurare altre impostazioni quali il nome interno del flusso di lavoro, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
 
 Durante la creazione di un flusso di lavoro o l’orchestrazione delle attività del flusso di lavoro nell’area di lavoro, puoi accedere alle impostazioni avanzate relative al flusso di lavoro. Ad esempio, imposta un fuso orario specifico per il flusso di lavoro, gestisci il comportamento del flusso di lavoro in caso di errore o gestisci il ritardo dopo il quale viene eliminata la cronologia del flusso di lavoro.
 
@@ -68,7 +68,7 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Impostazioni di esecuzione"
->abstract="In questa sezione è possibile configurare le impostazioni relative all&#39;esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene conservata la cronologia del flusso di lavoro."
+>abstract="In questa sezione, puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia del flusso di lavoro."
 
 * **[!UICONTROL Cronologia in giorni]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi correlati al flusso di lavoro, ad esempio registri, attività ed eventi (oggetti tecnici collegati all&#39;operazione del flusso di lavoro). Il valore predefinito è 30 giorni per i modelli di flusso di lavoro predefiniti. La rimozione della cronologia viene eseguita dal flusso di lavoro tecnico Database cleanup, che viene eseguito ogni giorno.
 

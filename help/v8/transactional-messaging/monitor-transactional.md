@@ -6,7 +6,7 @@ exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -34,19 +34,19 @@ Nella sezione **[!UICONTROL Messaggi attivati]**, visualizza i dettagli di tutti
 
 Cerca il messaggio e fai clic su di esso per visualizzarne i dettagli.
 
-![Schermata che mostra rapporti dettagliati per un messaggio transazionale selezionato.](assets/transactional-reporting.png){zoomable="yes"}
+![Schermata che mostra la generazione di rapporti dettagliati per un messaggio transazionale selezionato.](assets/transactional-reporting.png){zoomable="yes"}
 
 ## Cronologia eventi {#event-history}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Cronologia eventi della messaggistica transazionale"
->abstract="Puoi visualizzare gli eventi che attivano il messaggio sulle transazioni."
+>abstract="Puoi visualizzare gli eventi che attivano il messaggio transazionale."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="Anteprima cronologia eventi della messaggistica transazionale"
->abstract="Puoi visualizzare gli eventi che attivano il messaggio sulle transazioni."
+>abstract="Puoi visualizzare gli eventi che attivano il messaggio transazionale."
 
 Puoi visualizzare gli eventi che attivano il messaggio sulle transazioni. Per accedervi, vai alla sezione **[!UICONTROL Cronologia eventi]**.
 

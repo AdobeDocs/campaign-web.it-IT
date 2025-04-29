@@ -6,7 +6,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Genera transizione in uscita"
->abstract="Utilizza questa opzione se desideri aggiungere una transizione dopo l&#39;attività **Salva pubblico**."
+>abstract="Utilizza questa opzione se desideri aggiungere una transizione dopo l’attività **Salva pubblico**."
 
 L’attività **Salva pubblico** è un’attività di **targeting**. Questa attività consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il menu **Tipi di pubblico**.
 

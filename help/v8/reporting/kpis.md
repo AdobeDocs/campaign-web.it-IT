@@ -5,7 +5,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 37%
+ht-degree: 48%
 
 ---
 
@@ -36,7 +36,7 @@ Puoi selezionare il canale da visualizzare. Per impostazione predefinita, questi
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Consegnati"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi elaborati con successo e la percentuale di messaggi consegnati con successo rispetto al numero totale di messaggi inviati."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi elaborati correttamente e la percentuale di messaggi consegnati correttamente rispetto al numero totale di messaggi inviati."
 
 Il numero di messaggi consegnati riflette la percentuale di recapitabilità. Non può mai essere 100% per i seguenti motivi: alcuni indirizzi o numeri di telefono possono essere errati, i bloccanti della posta indesiderata presso i provider di posta elettronica possono rifiutare i messaggi o possono verificarsi problemi di recapito.
 
@@ -55,7 +55,7 @@ Numero di messaggi per i quali il campo &quot;Indirizzo seed&quot; è uguale a &
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aperture"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi aperti e la percentuale di messaggi aperti rispetto al numero totale di messaggi consegnati con successo."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi aperti e la percentuale dei messaggi aperti rispetto al numero totale di messaggi consegnati correttamente."
 
 Il totale delle aperture viene calcolato tenendo traccia del numero totale di volte in cui un messaggio viene aperto, indipendentemente dal numero di singoli destinatari che generano tali aperture. Questo indicatore è disponibile solo per le e-mail.
 
@@ -72,7 +72,7 @@ Adobe Campaign rileva le aperture dei messaggi quando il destinatario scarica le
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clic"
->abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli URL su cui è stato fatto clic nei messaggi e la percentuale di clic rispetto al numero totale di messaggi consegnati con successo."
+>abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli URL su cui è stato fatto clic nei messaggi e la percentuale di clic rispetto al numero totale di messaggi consegnati correttamente."
 
 Aggiungi URL nel contenuto del messaggio per reindirizzare i destinatari a una pagina particolare. Il tasso di click-through misura il numero e la percentuale di destinatari che hanno fatto clic su un collegamento nel messaggio.
 
@@ -144,7 +144,7 @@ L&#39;indicatore **Errori** mostra i KPI seguenti per ogni canale:
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Inviato"
->abstract="Questa metrica mostra, per il canale di direct mailing, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
+>abstract="Questa metrica mostra, per il canale di direct mail, la somma di tutti i messaggi inviati e la percentuale di messaggi inviati al provider, rispetto al numero totale di messaggi preparati durante la fase di preparazione della consegna."
 
 Durante la fase di preparazione, viene generato il file di estrazione della direct mailing, ma le informazioni relative ai destinatari (registri di consegna) non vengono aggiornate. Lo stato di una consegna passa da In sospeso a Inviato quando l’utente di Campaign conferma l’invio della consegna. Quindi la consegna viene impostata su Completata.
 

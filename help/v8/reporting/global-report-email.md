@@ -6,7 +6,7 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 57%
+ht-degree: 59%
 
 ---
 
@@ -171,7 +171,7 @@ La tabella e il grafico **[!UICONTROL Raggruppamento di errori per dominio]** mo
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Statistiche consegna"
->abstract="Gli **indicatori di prestazioni chiave (KPI, Key Performance Indicators) delle statistiche di consegna** forniscono una panoramica completa delle prestazioni delle consegne e delle campagne, offrendo informazioni approfondite sia sulle consegne riuscite che sugli errori riscontrati e sul coinvolgimento degli utenti."
+>abstract="Gli indicatori chiave di prestazione (KPI) delle **Statistiche di consegna** forniscono una panoramica completa delle prestazioni delle consegne e delle campagne, offrendo informazioni approfondite sia sulle consegne riuscite che sugli errori riscontrati e sul coinvolgimento utente."
 
 Le metriche **[!UICONTROL Statistiche di consegna]** offrono indicatori prestazioni chiave (KPI, Key Performance Indicators) che forniscono informazioni dettagliate sui dati associati a ogni consegna e-mail. Ulteriori dettagli su queste metriche sono forniti di seguito.
 
@@ -247,7 +247,7 @@ Il rapporto **[!UICONTROL URL e flussi di clic]** fornisce indicatori di prestaz
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="10 collegamenti più visitati"
->abstract="Il grafico e la tabella dei **10 collegamenti più visitati** presentano dati completi sull&#39;interazione dei destinatari con ciascun collegamento."
+>abstract="Il grafico e la tabella **10 collegamenti più visitati** presentano dati completi sull’interazione del destinatario con ciascun collegamento."
 
 Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengono i dati disponibili sul comportamento dei destinatari in base al collegamento. Le metriche sono descritte di seguito.
 

@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 29%
+ht-degree: 35%
 
 ---
 
@@ -50,7 +50,7 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Attività di Arricchimento"
->abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze, oppure per creare messaggi di marketing personalizzati e campagne che risuonano con il pubblico di destinazione."
+>abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare la clientela in gruppi distinti in base a comportamenti, preferenze ed esigenze, o per creare messaggi e campagne di marketing personalizzati in grado suscitare interesse nel pubblico target."
 
 1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per l&#39;arricchimento. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md).
 
@@ -69,9 +69,9 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definizione dei collegamenti"
->abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file contenente il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili."
+>abstract="Crea un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, puoi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei rispettivi profili."
 
-La sezione **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file contenente il numero di account, il paese e l’e-mail dei destinatari, devi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei loro profili.
+La sezione **[!UICONTROL Definizione collegamento]** consente di creare un collegamento tra i dati della tabella di lavoro e il database di Adobe Campaign. Ad esempio, se carichi i dati da un file che contiene il numero di account, il paese e l’e-mail dei destinatari, puoi creare un collegamento alla tabella del paese per aggiornare queste informazioni nei rispettivi profili.
 
 Sono disponibili diversi tipi di collegamenti:
 

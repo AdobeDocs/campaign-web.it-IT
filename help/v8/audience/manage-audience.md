@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 36%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Proprietà"
->abstract="Qui puoi trovare un riepilogo delle proprietà del pubblico, ad esempio la sua origine o la sua cartella di archiviazione. Fai clic sul collegamento nella sezione **Ultimo flusso di lavoro** per aprire il flusso di lavoro utilizzato per creare il pubblico."
+>abstract="Qui è disponibile un riepilogo delle proprietà del pubblico, come l’origine o la cartella di archiviazione. Fai clic sul collegamento nella sezione **Ultimo flusso di lavoro** per aprire il flusso di lavoro utilizzato per creare il pubblico."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
@@ -30,7 +30,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="Errore pubblico"
->abstract="Dati del pubblico non disponibili. Attendi la fine dell&#39;esecuzione del flusso di lavoro."
+>abstract="Dati del pubblico non disponibili. Attendi la fine dell’esecuzione del flusso di lavoro."
 
 Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. L’elenco dei tipi di pubblico disponibili per l’utilizzo in Campaign Web è accessibile dal menu **[!UICONTROL Tipi di pubblico]**.
 
@@ -40,7 +40,7 @@ I tipi di pubblico possono provenire da più origini. La colonna **[!UICONTROL O
 
 * **[!UICONTROL Adobe Campaign]**: questi tipi di pubblico sono stati creati in [Interfaccia utente Web Adobe Campaign](create-audience.md) o nella [console client Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=it){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** questi tipi di pubblico sono stati creati in Adobe Experience Platform e sono integrati in Campaign Web mediante l&#39;integrazione di Adobe Sources and Destinations. Per ulteriori informazioni su come impostare questa integrazione, consulta la [Documentazione su Campaign v8 (console del client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** questi tipi di pubblico sono stati creati in Adobe Experience Platform e sono integrati in Campaign Web mediante l&#39;integrazione di Adobe Sources and Destinations. Scopri come configurare questa integrazione nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
 
   ➡️ [Scopri questa funzione nel video](#video)
 

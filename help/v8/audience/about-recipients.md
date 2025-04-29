@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profili"
->abstract="Un profilo è un record il cui obiettivo è ricevere messaggi inviati da Adobe Campaign. Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare i dettagli dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi dei profili."
+>abstract="Un profilo è un record da usare come target per ricevere i messaggi inviati da Adobe Campaign. Da questo elenco, in base alle tue autorizzazioni, puoi visualizzare i dettagli dei profili. Utilizza le opzioni di filtro per sfogliare l’elenco. Puoi modificare e aggiornare un piccolo set di attributi dei profili."
 
 ## Che cos’è un profilo? {#what}
 

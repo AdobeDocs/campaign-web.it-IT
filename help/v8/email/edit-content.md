@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 46%
+ht-degree: 58%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definire il contenuto dell’e-mail"
->abstract="La schermata **Modifica contenuto** consente di definire gli elementi di base del messaggio, ad esempio l&#39;indirizzo del mittente e l&#39;oggetto, eseguire azioni aggiuntive, ad esempio aggiungere allegati o offerte, e accedere al Designer di posta elettronica per conferire al messaggio un aspetto elegante."
+>abstract="La schermata **Modifica contenuto** consente di definire gli elementi di base del messaggio come l’indirizzo del mittente e l’oggetto, eseguire ulteriori azioni come l’aggiunta di allegati o offerte, e accedere a E-mail designer per conferire al messaggio un aspetto professionale."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"

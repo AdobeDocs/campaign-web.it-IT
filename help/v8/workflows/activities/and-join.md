@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 45%
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Attività AND-join"
->abstract="L’attività **And-join** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivata al termine di tutte le attività precedenti. In questo modo, determinate attività vengono completate prima di continuare a eseguire il flusso di lavoro."
+>abstract="L’attività **And-join** consente di sincronizzare più rami di esecuzione di un flusso di lavoro. Viene attivata al termine di tutte le attività precedenti. Questo garantisce che determinate attività vengano completate prima di continuare a eseguire il flusso di lavoro."
 
 L’attività **Unione AND** è un’attività di **Controllo del flusso**. Sincronizza più rami di esecuzione di un flusso di lavoro.
 

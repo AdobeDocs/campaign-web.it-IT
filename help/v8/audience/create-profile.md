@@ -5,7 +5,7 @@ exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 7%
+ht-degree: 46%
 
 ---
 
@@ -14,37 +14,37 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Dettagli di base"
->abstract="Questa sezione fornisce informazioni approfondite sui dettagli di base del profilo. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="Questa sezione offre informazioni approfondite sui dettagli di base del profilo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Informazioni di contatto"
->abstract="Questa sezione fornisce informazioni approfondite sulle informazioni di contatto del profilo. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="Questa sezione offre informazioni approfondite sulle informazioni di contatto del profilo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Indirizzo"
->abstract="Questa sezione fornisce informazioni approfondite sull’indirizzo postale del profilo e sulla qualità dell’indirizzo. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="Questa sezione offre informazioni approfondite sull’indirizzo postale del profilo e sulla qualità dell’indirizzo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Dettagli dell’account"
->abstract="Questa sezione fornisce informazioni approfondite sui dettagli account del profilo. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="Questa sezione offre informazioni approfondite sui dettagli dell’account del profilo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
 >title="Da non contattare più"
->abstract="Questa sezione fornisce informazioni approfondite sulle preferenze di contatto del profilo. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="Questa sezione offre informazioni approfondite sulle preferenze di contatto del profilo. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Campi personalizzati"
->abstract="I campi personalizzati sono attributi specifici personalizzati in base alle tue esigenze e configurati per la tua istanza. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="I campi personalizzati sono attributi specifici personalizzati in base alle tue esigenze e configurati per la tua istanza. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="Altri"
->abstract="Questa sezione fornisce attributi incorporati aggiuntivi. Per modificare le informazioni, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell&#39;angolo superiore destro dello schermo."
+>abstract="Questa sezione fornisce attributi incorporati aggiuntivi. Per modificare qualsiasi informazione, apporta le modifiche direttamente nel rispettivo campo e fai clic sul pulsante **Salva** nell’angolo superiore a destra dello schermo."
 
 Per creare un profilo, effettua le seguenti operazioni:
 

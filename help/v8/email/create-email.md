@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 49%
+ht-degree: 56%
 
 ---
 
@@ -33,7 +33,7 @@ In base a un [modello di progettazione](../email/create-email-templates.md) pred
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="Definire le proprietà dell’e-mail"
->abstract="Le proprietà sono i parametri di consegna comuni che consentono di denominare e classificare la consegna. Le impostazioni aggiuntive sono facoltative. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
+>abstract="Le proprietà sono parametri comuni che consentono di denominare e classificare la consegna. Le impostazioni aggiuntive sono facoltative. Se la consegna è basata su uno schema esteso definito nella console Adobe Campaign v8, sono disponibili alcuni campi specifici di **Opzioni personalizzate**."
 
 Puoi creare una consegna e-mail autonoma o un messaggio e-mail nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna e-mail autonoma (singola). Ulteriori informazioni sui passaggi per la creazione della consegna in Adobe Campaign sono disponibili in [questa pagina](../msg/gs-deliveries.md).
 
@@ -194,7 +194,7 @@ Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare
 
    Puoi controllare lo stato dell&#39;invio e accedere alle bozze inviate in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Visualizza bozze]** nella schermata simula contenuto.
 
-### Limiti della simulazione dei contenuti {#content-simulation-limitations}
+### Limiti di simulazione del contenuto {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
@@ -209,7 +209,7 @@ Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
 >title="La simulazione del contenuto non è supportata"
->abstract="Il pulsante **Simula contenuto** è disabilitato perché non supportato in modalità FFDA (Full Federated Access) di Campaign Enterprise."
+>abstract="Il pulsante **Simula contenuto** è disabilitato perché non supportato nella modalità FFDA (Full Federated Access) di Campaign Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"

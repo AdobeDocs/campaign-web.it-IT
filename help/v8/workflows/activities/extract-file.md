@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Estrai file"
->abstract="L’attività **Estrai file** ti consente di esportare dati da Adobe Campaign come file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione Cloud o nel server della campagna utilizzando un’attività Transfer file."
+>abstract="L’attività **Estrai file** ti consente di esportare dati da Adobe Campaign come file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file."
 
-L&#39;attività **Extract file** è un&#39;attività **Data management**. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione Cloud o nel server della campagna utilizzando un’attività Transfer file.
+L&#39;attività **Extract file** è un&#39;attività **Data management**. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file.
 
 Per configurare l&#39;attività **Estrai file**, aggiungi un&#39;attività **Estrai file** nel flusso di lavoro, quindi segui la procedura riportata di seguito.
 
@@ -82,7 +82,7 @@ La sezione relativa al formato **[!UICONTROL Destinazione]** consente di configu
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Post-elaborazione"
->abstract="Definisci un passaggio di post-elaborazione da applicare, ad esempio la compressione o la crittografia."
+>abstract="Definisci un passaggio di post-elaborazione da applicare, ad esempio compressione o crittografia."
 
 Lo script di modifica **[!UICONTROL Esporta]** consente di applicare una fase di elaborazione da eseguire durante l&#39;estrazione dei dati, ad esempio la compressione o la crittografia. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica script]**.
 

@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 59%
+ht-degree: 67%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Modelli di consegna"
->abstract="Per accelerare e migliorare il processo di progettazione, crea modelli di consegna per riutilizzare contenuti e impostazioni personalizzati in tutte le campagne. Questa funzionalità standardizza l’aspetto creativo e velocizza l’esecuzione e il lancio delle campagne."
+>abstract="Per accelerare e migliorare il processo di progettazione, crea modelli di consegna per riutilizzare contenuti e impostazioni personalizzati in tutte le campagne. Questa funzionalità è utile per standardizzare l’aspetto creativo e velocizzare l’esecuzione e il lancio delle campagne."
 
-Per accelerare e migliorare il processo di progettazione, crea modelli di consegna per riutilizzare contenuti e impostazioni personalizzati in tutte le campagne. Questa funzionalità standardizza l’aspetto creativo e velocizza l’esecuzione e il lancio delle campagne.
+Per accelerare e migliorare il processo di progettazione, crea modelli di consegna per riutilizzare contenuti e impostazioni personalizzati in tutte le campagne. Questa funzionalità è utile per standardizzare l’aspetto creativo e velocizzare l’esecuzione e il lancio delle campagne.
 
 Un modello include:
 

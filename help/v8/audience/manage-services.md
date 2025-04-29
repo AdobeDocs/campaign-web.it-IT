@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="Creare e gestire i servizi"
->abstract="Utilizza Adobe Campaign per creare e monitorare i tuoi servizi, ad esempio le newsletter, e per verificare gli abbonamenti o i loro annullamenti. Le iscrizioni si applicano solo alla consegna di e-mail e SMS."
+>abstract="Utilizza Adobe Campaign per creare e monitorare servizi come le newsletter e per verificarne le iscrizioni o i relativi annullamenti. Le iscrizioni si applicano solo alla consegna di e-mail e SMS."
 
 Utilizza Adobe Campaign Web per gestire e creare i tuoi servizi, ad esempio le newsletter, e per controllare gli abbonamenti o i loro annullamenti.
 
@@ -149,7 +149,7 @@ Ora puoi selezionare questi messaggi durante la [creazione di un servizio di isc
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Conteggio abbonati"
->abstract="Fai clic su **Calcola** per ottenere il numero totale di abbonati per questo servizio."
+>abstract="Fai clic su **Calcola** per ottenere il numero totale di iscritti a questo servizio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"
@@ -164,7 +164,7 @@ Ora puoi selezionare questi messaggi durante la [creazione di un servizio di isc
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evoluzione complessiva delle iscrizioni"
->abstract="Questo grafico mostra la suddivisione per periodo, compresi gli abbonamenti, i loro annullamenti, l’evoluzione in numero e la percentuale di fedeltà."
+>abstract="Il grafico mostra il raggruppamento per periodo, inclusi iscrizioni, annullamenti di iscrizione, evoluzione in termini numerici e percentuale di fidelizzazione."
 
 Per misurare l’efficacia dei servizi in abbonamento per i canali SMS ed e-mail, accedi ai registri e ai rapporti per un determinato servizio.
 

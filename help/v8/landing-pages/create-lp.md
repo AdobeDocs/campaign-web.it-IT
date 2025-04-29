@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 20%
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creare e gestire pagine di destinazione"
->abstract="Adobe Campaign consente di creare, progettare e condividere pagine di destinazione per indirizzare gli utenti a pagine web online in cui gestire l’acquisizione, l’abbonamento/annullamento dell’abbonamento e i casi d’uso dei inserisce nell&#39;elenco Bloccati di targeting basati su modelli incorporati."
+>abstract="Adobe Campaign consente di creare, progettare e condividere le pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire casi d’uso di acquisizione, iscrizione/annullamento dell’iscrizione e inserire nell’elenco Bloccati, in base ai modelli incorporati."
 
 L’interfaccia utente di Campaign Web consente di creare, progettare e pubblicare pagine di destinazione. Dopo la pubblicazione, è possibile inserire un collegamento al modulo in una consegna. Quando i destinatari fanno clic su tale collegamento, vengono indirizzati alla pagina di destinazione corrispondente.
 
@@ -55,7 +55,7 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Definire il contenuto di ciascuna pagina"
->abstract="Regola il contenuto di ogni pagina che fa parte di questa pagina di destinazione, ad esempio il modulo stesso, la pagina di conferma visualizzata al momento dell’invio del modulo oppure la pagina a cui gli utenti vengono indirizzati nel caso si verifichi un errore."
+>abstract="Adatta il contenuto di ogni pagina che fa parte di questa pagina di destinazione, ad esempio il modulo stesso, la pagina di conferma visualizzata al momento dell’invio del modulo oppure la pagina a cui gli utenti vengono indirizzati nel caso in cui si verifichi un errore."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"

@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -57,7 +57,7 @@ Il modellatore di query fornisce un’area di lavoro centrale in cui creare la q
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Nuova esperienza utente"
->abstract="Utilizza questa opzione per passare dal modellatore di query classico alla nuova esperienza di generatore di regole."
+>abstract="Utilizza questa opzione per passare dal query modeler classico alla nuova esperienza del generatore di regole."
 
 ![Immagine che mostra l&#39;interfaccia di Query Modeler](assets/query-interface.png){zoomable="yes"}
 

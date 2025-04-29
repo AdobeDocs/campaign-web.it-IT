@@ -6,7 +6,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Proprietà di consegna push"
->abstract="Definisci le proprietà di consegna push. Immetti l&#39;etichetta del push e utilizza **Opzioni aggiuntive** per configurare il nome interno, la cartella di consegna e il codice. Puoi anche immettere una descrizione personalizzata."
+>abstract="Definisci le proprietà di consegna push. Immetti l’etichetta del messaggio push e utilizza le **Opzioni aggiuntive** per configurare il nome interno, la cartella di consegna e il codice. Puoi anche immettere una descrizione personalizzata."
 
 Puoi creare una consegna di notifica push autonoma o una notifica push nel contesto del flusso di lavoro di una campagna. I passaggi seguenti descrivono la procedura per una consegna push autonoma (singola). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

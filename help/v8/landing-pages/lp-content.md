@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Utilizzare i componenti per contenuti"
->abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire un contenuto specifico che consenta agli utenti di selezionare e inviare le scelte effettuate, utilizza il componente Modulo."
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Definire le impostazioni della pagina principale"
->abstract="La pagina principale viene visualizzata immediatamente dopo che gli utenti hanno fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
+>abstract="La pagina principale viene visualizzata immediatamente dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
 
 Puoi modificare il contenuto di qualsiasi pagina della pagina di destinazione.
 
