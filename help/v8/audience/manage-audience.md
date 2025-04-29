@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 40%
+source-wordcount: '388'
+ht-degree: 38%
 
 ---
 
@@ -45,6 +45,8 @@ I tipi di pubblico possono provenire da più origini. La colonna **[!UICONTROL O
   ➡️ [Scopri questa funzione nel video](#video)
 
 Per ottenere ulteriori informazioni su un pubblico, aprilo dall’elenco. Vengono visualizzate le proprietà del pubblico e il numero di profili inclusi nel pubblico. Aggiorna il conteggio del pubblico in qualsiasi momento utilizzando il pulsante **[!UICONTROL Calcola]**.
+
+Per visualizzare in anteprima lo schema temporaneo di un pubblico, fai clic sul pulsante **[!UICONTROL Anteprima schema]** nella sezione Proprietà.
 
 La scheda **[!UICONTROL Dati]** ti consente di visualizzare i profili che fanno parte del pubblico. Personalizza questa visualizzazione aggiungendo colonne aggiuntive o utilizzando filtri avanzati per perfezionare i dati visualizzati.
 

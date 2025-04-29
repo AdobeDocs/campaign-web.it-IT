@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 54%
+source-wordcount: '2192'
+ht-degree: 52%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 54%
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici e ordinamento.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >La sezione seguente fornisce informazioni su come utilizzare l’editor di espressioni per creare regole. Tieni presente che la sintassi utilizzata per creare le regole è diversa da quella utilizzata per aggiungere la personalizzazione.
+
+>[!IMPORTANT]
+>
+>È disponibile una nuova interfaccia per Query Modeler. Per passare a questa nuova esperienza di Generatore di regole, premi il pulsante di attivazione nell’angolo in alto a destra. Per tornare al modellatore di query classico in qualsiasi momento, è sufficiente premere nuovamente il pulsante per disattivare la nuova interfaccia. In questa nuova interfaccia è possibile applicare gli stessi principi del modellatore di query.
+>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utilizzare l’editor di espressioni {#edit}
 
@@ -41,7 +46,17 @@ Quando l&#39;espressione è pronta, fare clic sul pulsante **[!UICONTROL Conferm
 
 L&#39;esempio seguente mostra un&#39;espressione configurata per il campo **[!UICONTROL Value]**. Per modificarlo, aprire l&#39;editor espressioni utilizzando il pulsante **[!UICONTROL Modifica espressione]**.
 
+>[!BEGINTABS]
+
+>[!TAB Modellatore di query classico]
+
 ![Esempio di espressione di modifica per il campo Valore](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB Nuovo generatore di regole]
+
+![Esempio di espressione di modifica per il campo Valore](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Funzioni Helper
 

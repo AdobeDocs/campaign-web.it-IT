@@ -3,10 +3,10 @@ audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 26%
+source-wordcount: '712'
+ht-degree: 24%
 
 ---
 
@@ -61,11 +61,6 @@ Nell’interfaccia utente di Campaign Web sono disponibili criteri di avviso pre
 >title="Frequenza criterio"
 >abstract="Controlla la frequenza giornaliera degli avvisi per ogni consegna che soddisfa il criterio."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Creare un criterio di avviso"
->abstract="Per creare filtri di consegna personalizzati, crea un nuovo filtro preimpostato nella console Campaign v8 dal nodo **Amministrazione** > **Configurazione** > **Filtri preimpostati**."
-
 Per creare un nuovo criterio, effettua le seguenti operazioni:
 
 1. Passa al menu **Avvisi di consegna** nel riquadro di navigazione a sinistra e seleziona la scheda **Criteri**.
@@ -79,7 +74,7 @@ Per creare un nuovo criterio, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Se nessuno dei filtri predefiniti soddisfa le tue esigenze, contatta l’amministratore per creare un filtro personalizzato. Informazioni dettagliate su come creare filtri predefiniti nella console Campaign sono disponibili nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"}.
+   >Se nessuno dei filtri predefiniti soddisfa le tue esigenze, puoi crearne di personalizzati dal menu **Gestione clienti** > **Filtri predefiniti**. [Ulteriori informazioni](../get-started/predefined-filters.md)
    >
    >Questa operazione deve essere eseguita solo da utenti esperti.
 

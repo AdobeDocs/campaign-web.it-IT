@@ -2,10 +2,10 @@
 title: Utilizzare gli schemi
 description: Scopri come utilizzare gli schemi.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 24%
+source-wordcount: '513'
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Utilizzare gli schemi"
->abstract="È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. La modifica dei campi personalizzati è accessibile anche dal pulsante **Modifica dettagli personalizzati**."
+>abstract="È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. L&#39;edizione dei campi personalizzati è accessibile anche dal pulsante **Edizione schermo**."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
@@ -73,8 +73,10 @@ La scheda **[!UICONTROL Dati]** fornisce informazioni sui dati dello schema.
 
 I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione.
 
-I campi personalizzati possono essere visualizzati in varie schermate, ad esempio nei dettagli del profilo nell’interfaccia web di Campaign. Puoi controllare quali campi sono visibili e come appaiono nell’interfaccia. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica dettagli personalizzati]** nel menu **[!UICONTROL Schemi]**.
+I campi personalizzati possono essere visualizzati in varie schermate, ad esempio nei dettagli del profilo nell’interfaccia web di Campaign. Puoi controllare quali campi sono visibili e come appaiono nell’interfaccia. A tale scopo, fare clic sul pulsante **[!UICONTROL Screen edition]** nel menu **[!UICONTROL Schemi]**.
 
 ![Schermata dei campi personalizzati con attributi modificabili](assets/schemas-custom.png)
+
+Fai clic su **[!UICONTROL Anteprima]** per visualizzare i campi personalizzati in una schermata di esempio.
 
 Per informazioni dettagliate su come modificare i campi personalizzati in uno schema, consulta questa sezione: [Configurare i campi personalizzati](../administration/custom-fields.md).

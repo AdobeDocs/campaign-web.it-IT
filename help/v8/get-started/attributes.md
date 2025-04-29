@@ -3,10 +3,10 @@ audience: end-user
 title: Selezionare gli attributi e aggiungerli ai preferiti
 description: Scopri come utilizzare gli attributi e accedere facilmente agli attributi preferiti e utilizzati di recente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: c0c9c5da3369e55269411b7348004006cd3c139e
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -29,15 +29,15 @@ L’interfaccia fornisce inoltre uno strumento di distribuzione dei valori, che 
 
 Il menu **[!UICONTROL Preferiti e recenti]** nel selettore degli attributi offre una visualizzazione organizzata degli attributi aggiunti ai preferiti, insieme a un elenco degli attributi utilizzati di recente. Per trovare più facilmente gli attributi necessari, sono elencati per primi gli attributi preferiti, seguiti da quelli utilizzati di recente.
 
-![Menu Preferiti e recenti che mostra gli attributi preferiti e quelli utilizzati di recente.](assets/attributes-favorites.png)
+![Menu Preferiti e recenti che mostra gli attributi preferiti e quelli utilizzati di recente.](assets/attributes-favorite.png)
 
-Per aggiungere un attributo ai preferiti, passare il puntatore sul relativo pulsante delle informazioni e selezionare l’icona a forma di stella. L’attributo viene quindi aggiunto automaticamente all’elenco dei preferiti. Per rimuovere un attributo dai preferiti, selezionare di nuovo l’icona a forma di stella.
+Per aggiungere un attributo ai preferiti, fare clic sul pulsante di espansione e selezionare **[!UICONTROL Aggiungi ai preferiti]**. L’attributo viene quindi aggiunto automaticamente all’elenco dei preferiti. Per rimuovere un attributo dai preferiti, selezionare di nuovo l’icona a forma di stella.
 
 Gli utenti possono aggiungere fino a 20 attributi preferiti. Gli attributi preferiti e recenti sono associati a ogni utente all’interno di un’organizzazione, garantendo l’accessibilità tra computer diversi e fornendo un’esperienza fluida tra i dispositivi.
 
 ## Identificare la distribuzione dei valori all’interno di una tabella {#distribution}
 
-Il pulsante **Distribuzione dei valori**, disponibile nel riquadro delle informazioni di un attributo, consente di analizzare la distribuzione dei valori per tale attributo all’interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
+Il pulsante **Distribuzione di valori**, disponibile quando si fa clic sul pulsante di espansione accanto all&#39;attributo, consente agli utenti di analizzare la distribuzione dei valori per tale attributo all&#39;interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
 
 ![Interfaccia dello strumento Distribuzione dei valori che mostra conteggi e percentuali dei valori degli attributi.](assets/attributes-distribution-values.png)
 

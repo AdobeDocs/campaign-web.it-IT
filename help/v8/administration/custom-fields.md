@@ -2,10 +2,10 @@
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 22%
+source-wordcount: '988'
+ht-degree: 23%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Modifica dettagli personalizzati"
+>title="Modifica schermata"
 >abstract="Vengono visualizzati tutti i campi dell’interfaccia personalizzati per lo schema selezionato. È possibile modificare l’ordine in cui vengono visualizzati nell’interfaccia tramite le frecce su e giù e raggruppare i campi in sottosezioni mediante l’aggiunta di separatori. Per eliminare un campo personalizzato o modificare impostazioni quali le condizioni di visibilità, fai clic sul pulsante con i puntini di sospensione."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
 
    ![Schermata che mostra il menu Schemi e il filtro Modificabile nel riquadro di navigazione](assets/custom-fields-open.png)
 
-1. Seleziona il nome dello schema nell’elenco per aprirlo. Viene visualizzata una vista di schema dettagliata. [Ulteriori informazioni sui dettagli dello schema](../administration/schemas.md). Fai clic sul pulsante **[!UICONTROL Modifica dettagli personalizzati]** per accedere ai campi personalizzati. In questo esempio vengono aggiunti campi per lo schema **[!UICONTROL Destinatari]**.
+1. Seleziona il nome dello schema nell’elenco per aprirlo. Viene visualizzata una vista di schema dettagliata. [Ulteriori informazioni sui dettagli dello schema](../administration/schemas.md). Fai clic sul pulsante **[!UICONTROL Screen edition]** per accedere ai campi personalizzati. In questo esempio vengono aggiunti campi per lo schema **[!UICONTROL Destinatari]**.
 
-   ![Schermata che mostra il pulsante Modifica dettagli personalizzati nella vista schema](assets/custom-fields-edit.png)
+   ![Schermata che mostra il pulsante Definizione schermo nella vista schema](assets/custom-fields-edit.png)
 
-1. Viene visualizzato l’elenco dei campi personalizzati visualizzati nell’interfaccia dello schema. In questo caso, il campo &quot;CRM Id&quot; è visibile nella schermata dei dettagli dei profili ed è stato contrassegnato come obbligatorio.
+   Viene visualizzato l’elenco dei campi personalizzati visualizzati nell’interfaccia dello schema.
 
-   | Configurazione campi personalizzati | Rendering nell’interfaccia |
-   |  ---  |  ---  |
-   | ![Schermata che mostra la configurazione dei campi personalizzati](assets/custom-fields-detail.png){zoomable="yes"} | ![Schermata che mostra il rendering del campo ID CRM nell&#39;interfaccia](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Fai clic sul pulsante **[!UICONTROL Anteprima]** per visualizzare i campi personalizzati in una schermata di esempio.
+
+   ![](assets/custom-fields-edit2.png)
+
+   In questo caso, il campo &quot;Importo&quot; è stato contrassegnato come obbligatorio.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Per aggiungere un campo personalizzato all’interfaccia, fai clic sul pulsante con i puntini di sospensione e scegli una delle seguenti opzioni:
 
@@ -89,7 +93,7 @@ Per visualizzare i campi personalizzati nell’interfaccia, effettua le seguenti
 
 1. Una volta aggiunti i campi personalizzati, puoi:
 
-   * **Riordina campi**: utilizza le frecce su e giù.
+   * **Riordina campi**: usa le frecce su e giù oppure sposta i campi trascinandoli.
    * **Rendi obbligatori i campi**: seleziona la casella di controllo **Obbligatorio**.
    * **Modifica impostazioni campo**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Modifica]**. [Ulteriori informazioni](#settings)
    * **Elimina campi**: fai clic sul pulsante con i puntini di sospensione e scegli **[!UICONTROL Elimina]**.

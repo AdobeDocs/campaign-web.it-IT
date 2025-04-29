@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 24%
+source-wordcount: '888'
+ht-degree: 17%
 
 ---
 
@@ -54,10 +54,16 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 
 Il modellatore di query fornisce un’area di lavoro centrale in cui creare la query e un riquadro a destra che fornisce informazioni sulla query.
 
+>[!IMPORTANT]
+>
+>È disponibile una nuova interfaccia per Query Modeler. Il nuovo generatore di regole consente di creare la query con maggiore facilità grazie alla sua interfaccia semplificata. Per passare a questa esperienza, premi il pulsante di attivazione nell’angolo in alto a destra. Per tornare al modellatore di query classico in qualsiasi momento, è sufficiente premere nuovamente il pulsante per disattivare la nuova interfaccia. In questa nuova interfaccia è possibile applicare gli stessi principi del modellatore di query.
+>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Nuova esperienza utente"
->abstract="Utilizza questa opzione per passare dal query modeler classico alla nuova esperienza del generatore di regole."
+>title="Nuova esperienza di generazione regole"
+>abstract="Utilizza questo interruttore per passare dall’esperienza del modellatore di query classico a quella del nuovo generatore di regole. Il nuovo generatore di regole ti consente di creare la query più facilmente, grazie alla sua interfaccia semplificata e intuitiva."
 
 ![Immagine che mostra l&#39;interfaccia di Query Modeler](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ Il modellatore di query fornisce un’area di lavoro centrale in cui creare la q
 
 Nell’area di lavoro centrale di Query Modeler puoi aggiungere e combinare i diversi componenti per creare la query. [Scopri come creare una query](build-query.md)
 
-La barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro offre opzioni per manipolare facilmente i componenti della query e navigare nell’area di lavoro:
+>[!BEGINTABS]
+
+>[!TAB Modellatore di query classico]
+
+La barra degli strumenti situata nell’angolo inferiore destro dell’area di lavoro offre opzioni per manipolare facilmente i componenti della query e navigare nell’area di lavoro:
 
 * **Modalità di selezione multipla**: selezionare più componenti filtro per copiarli e incollarli nel percorso desiderato.
 * **Ruota**: cambia l&#39;area di lavoro verticalmente.
 * **Adatta allo schermo**: adatta il livello di zoom dell&#39;area di lavoro allo schermo.
 * **Zoom indietro** / **Zoom avanti**: Zoom indietro o indietro nell&#39;area di lavoro.
 * **Mappa di visualizzazione**: apri uno snapshot dell&#39;area di lavoro che mostra la posizione corrente.
+
+>[!TAB Nuova esperienza con il generatore di regole]
+
+La barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro offre opzioni per manipolare facilmente i componenti della query e navigare nell’area di lavoro:
+
+* **Sposta la selezione verso l&#39;alto**: sposta il componente di una riga verso l&#39;alto.
+* **Sposta selezione in basso**: sposta il componente in basso di una riga.
+* **Selezione gruppo**: inserire due componenti in un gruppo.
+* **Separa la selezione**: separa i componenti di un singolo gruppo.
+* **Espandi tutto**: espandi tutti i gruppi.
+* **Comprimi tutto**: comprimi tutti i gruppi.
+* **Rimuovi tutto**: rimuovi tutti i gruppi e i componenti.
+
+>[!ENDTABS]
 
 ### Riquadro delle proprietà della regola {#rule-properties}
 
