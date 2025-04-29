@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Introduzione alle consegne del call center
+title: Introduzione al canale del call center
 description: Scopri come creare e inviare consegne di call center con Adobe Campaign Web
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
 
-
-# Introduzione alle consegne di e-mail per i call center {#gs-call-center}
+# Introduzione al canale del call center {#gs-call-center}
 
 Il canale del call center consente di esportare elenchi di contatti mirati per le campagne telefoniche in uscita direttamente dall’interfaccia web di Adobe Campaign. Utilizzala per coordinare le chiamate tramite team interni o centri di contatto esterni.
 
