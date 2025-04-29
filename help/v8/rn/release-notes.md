@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
+source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**Editor e-mail**: per migliorare l&#39;accessibilità nell&#39;interfaccia utente di Campaign Web, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `title` e all&#39;attributo lang nell&#39;elemento `html` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo Preheader, nella sezione email Body.
+**Editor e-mail**: per migliorare l&#39;accessibilità nell&#39;interfaccia utente di Campaign Web, sono ora disponibili due nuovi campi nel Designer e-mail: corrispondono all&#39;elemento `title` e all&#39;attributo lang nell&#39;elemento `html` del contenuto dell&#39;e-mail. Puoi definire queste impostazioni oltre al campo Preheader, nella sezione email Body. Per ulteriori informazioni, consulta la [documentazione dettagliata](../email/metadata.md).
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
