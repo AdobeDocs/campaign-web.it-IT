@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '822'
 ht-degree: 97%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 97%
          + [Utilizzare i componenti per contenuti](email/content-components.md)
          + [Aggiungere collegamenti e tenere traccia dei messaggi](email/message-tracking.md)
          + [Aggiungere un collegamento alla pagina mirror](email/mirror-page.md)
-         + [Aggiungere una preintestazione](email/preheader.md)
+         + [Aggiungi metadati](email/metadata.md)
          + [Generare la versione del testo](email/text-version-email.md)
       + Personalizzare lo stile del contenuto {#style}
          + [Introduzione allo stile dell’e-mail](email/get-started-email-style.md)
