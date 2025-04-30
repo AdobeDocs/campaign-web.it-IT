@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 662b5e6c041b9caa90ac78f1a2ff60bfb9af6101
+source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 94%
+source-wordcount: '460'
+ht-degree: 93%
 
 ---
 
@@ -54,7 +54,7 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!TAB Versione di aprile &#39;25]
 
-È ora disponibile la versione di aprile, che include le regole business, le mappature di Target e altri miglioramenti.
+È ora disponibile la versione di aprile, che include il canale Call Center, il nuovo generatore di regole e ulteriori miglioramenti.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
