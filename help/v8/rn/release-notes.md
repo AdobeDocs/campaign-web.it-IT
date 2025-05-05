@@ -85,7 +85,7 @@ Puoi anche visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
 **Miglioramenti generali all&#39;interfaccia**
 
 * Le opzioni Descrizione campo, Aggiungi ai preferiti e Distribuzione dei valori per gli attributi dello schema sono ora più visibili nell’interfaccia utente. Per ulteriori informazioni, consulta la [documentazione dettagliata](../get-started/attributes.md).
-* Nell’interfaccia di, la data e l’ora vengono ora visualizzate in base alla lingua primaria impostata nelle preferenze di Experience League. Questo miglioramento è disponibile solo per diverse lingue. Per visualizzare l&#39;elenco completo delle lingue supportate, fare riferimento alla [documentazione dettagliata](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
+* Nell’interfaccia di, la data e l’ora vengono ora visualizzate in base alla lingua primaria impostata nelle preferenze di Experience League. Questo miglioramento è disponibile solo per diverse lingue. Per visualizzare l&#39;elenco completo delle lingue supportate, fare riferimento alla [documentazione dettagliata](https://experienceleague.adobe.com/it/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -117,5 +117,5 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **Reporting dinamico per multilingue** - Il reporting dinamico è ora disponibile per le consegne di e-mail multilingue. Per ulteriori informazioni, consulta la [documentazione dettagliata](../reporting/global-reports.md).
 
-* **Supporto API REST SMS (LA)** - L&#39;API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo &quot;wishedChannel&quot; per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che il canale desiderato non richieda esplicitamente l’invio di SMS. Per ulteriori informazioni, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **Supporto API REST SMS (LA)** - L&#39;API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo &quot;wishedChannel&quot; per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che il canale desiderato non richieda esplicitamente l’invio di SMS. Per ulteriori informazioni, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
 
