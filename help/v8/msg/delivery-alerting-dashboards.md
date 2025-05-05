@@ -77,7 +77,7 @@ Per creare un dashboard di consegna, seguire questi passaggi:
    * **Velocità effettiva minima prevista (nei messaggi inviati all&#39;ora):** solo le consegne con una velocità effettiva inferiore al valore specificato vengono prese in account per il criterio Recapito con bassa velocità effettiva.
    * **Rapporto minimo di elaborazione richiesto per il criterio** &quot;Consegne in corso&quot;: vengono prese in account considerazione solo le consegne con una percentuale di messaggi elaborati superiore alla percentuale specificata.
 
-+++
+   +++
 
 1. Per impostazione predefinita, i dashboard di avviso sono disabilitati, il che significa che gli avvisi e-mail collegati a questo dashboard non vengono inviati. Per abilitare immediatamente la dashboard, attivare o disattivare l&#39;opzione **Abilitato** nella **sezione Generale** , accanto al campo di selezione del gruppo di avvisi.
 

@@ -183,9 +183,9 @@ Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. Pertanto, devi sempre includere un **collegamento per annullare l&#39;iscrizione** in ogni e-mail inviata ai destinatari. Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 
-Inserire nell&#39;elenco Bloccati Puoi impostare una pagina di destinazione di **[!UICONTROL 1} che consentirà agli utenti di rinunciare a tutte le consegne.]**
+Inserire nell&#39;elenco Bloccati Puoi impostare una pagina di destinazione di **[!UICONTROL 1&rbrace; che consentirà agli utenti di rinunciare a tutte le consegne.]**
 
-1. Inserire nell&#39;elenco Bloccati Quando [crei la pagina di destinazione](create-lp.md#create-landing-page), seleziona il modello ****.
+1. Inserire nell&#39;elenco Bloccati Quando [crei la pagina di destinazione](create-lp.md#create-landing-page), seleziona il modello **&#x200B;**.
 
 1. Selezionare la pagina **[!UICONTROL Inserisce nell&#39;elenco Bloccati]** per modificarne il contenuto.
 

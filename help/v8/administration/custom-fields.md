@@ -122,7 +122,7 @@ Le impostazioni disponibili sono:
 
   ![Schermata con un esempio di impostazioni di filtro per i campi personalizzati](assets/custom-fields-ref.png)
 
-+++
+  +++
 
 * **[!UICONTROL Estendi due colonne]**: per impostazione predefinita, i campi personalizzati vengono visualizzati nell&#39;interfaccia in due colonne. Attiva questa opzione per visualizzare i campi personalizzati su tutta la larghezza dello schermo anziché su due colonne.
 

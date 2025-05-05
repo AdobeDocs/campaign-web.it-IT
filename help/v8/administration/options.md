@@ -23,7 +23,8 @@ ht-degree: 5%
 
 Adobe Campaign Web include opzioni tecniche che consentono di configurare l&#39;applicazione in modo più specifico. Alcune di queste opzioni sono integrate, mentre altre possono essere aggiunte manualmente in base alle esigenze.
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >Le opzioni incorporate sono preconfigurate e devono essere modificate solo da utenti avanzati. In caso di domande o richieste, contatta il rappresentante Adobe.
 
 ## Accedere alle opzioni di Campaign {#access}
@@ -33,7 +34,8 @@ Le opzioni sono disponibili dal menu **[!UICONTROL Amministrazione]** / **[!UICO
 ![](assets/options-list.png)\
 [Elenco opzioni visualizzato nel menu Amministrazione / Opzioni]
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Sebbene la posizione del menu delle opzioni differisca tra la console di Adobe Campaign e l’interfaccia utente Web, l’elenco è identico e funziona come un mirror. Per ulteriori dettagli sulle opzioni disponibili, consulta l&#39;elenco delle opzioni in [Documentazione di Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Nell&#39;elenco delle opzioni è possibile:

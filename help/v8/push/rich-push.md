@@ -70,9 +70,9 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Definisci l&#39;azione **** clic associata a un clic utente sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Definisci l&#39;azione **&#x200B;**&#x200B;clic associata a un clic utente sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
-1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona ]**del**[!UICONTROL  notifica da visualizzare sui dispositivi dei tuoi profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona **del** notifica da visualizzare sui dispositivi dei tuoi profili.
 
    ![](assets/rich_push_default_3.png)
 
@@ -94,7 +94,7 @@ Una volta definito il contenuto del messaggio, è possibile utilizzare i sottosc
 
 1. Utilizzare l&#39;espressione editor per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **&#x200B;**&#x200B;Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
 1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
 
@@ -144,11 +144,11 @@ Una volta definito il contenuto del messaggio, è possibile utilizzare i sottosc
 
 1. Utilizzare l&#39;espressione editor per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **&#x200B;**&#x200B;Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
 1. Selezionare il **[!UICONTROL tipo]** di collegamento del URL aggiunto al **[!UICONTROL campo azione Clic]** :
 
-   * **[!UICONTROL UR]**L Web: gli URL Web indirizzano gli utenti a contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
+   * **[!UICONTROL UR]**&#x200B;L Web: gli URL Web indirizzano gli utenti a contenuto online. Facendo clic su, viene richiesto al browser Web predefinito del dispositivo di aprire e passare all&#39;URL designato.
 
    * **[!UICONTROL Deeplink]**: i collegamenti profondi sono URL che indirizzano gli utenti a sezioni specifiche all&#39;interno di un&#39;app, anche se l&#39;app è chiusa. Facendo clic su di esso, può essere visualizzata una finestra di dialogo che consente agli utenti di scegliere tra varie app in grado di gestire il collegamento.
 
@@ -203,7 +203,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Aggiungi l&#39;URL dell&#39;immagine del pulsante **[!UICONTROL Annulla]**.
 
-1. Fai clic sull&#39;icona **** Aggiungi e inserisci il URL **** dell&#39;immagine, **[!UICONTROL l&#39;URI]** del collegamento e scegli il tipo di **[!UICONTROL collegamento]**.
+1. Fai clic sull&#39;icona **&#x200B;**&#x200B;Aggiungi e inserisci il URL **&#x200B;**&#x200B;dell&#39;immagine, **[!UICONTROL l&#39;URI]** del collegamento e scegli il tipo di **[!UICONTROL collegamento]**.
 
    Assicurati di includere un minimo di tre icone e un massimo di cinque icone.
 
@@ -270,7 +270,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Utilizza i campi personalizzazione dinamici per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **&#x200B;**&#x200B;Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
 1. Seleziona il **[!UICONTROL tipo di collegamento]** dell&#39;URL aggiunto al campo **[!UICONTROL Azione clic]**:
 
@@ -282,13 +282,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
-1. Per personalizzare ulteriormente il notifica push, puoi scegliere l&#39;icona **** del notifica da visualizzare sui dispositivi dei tuoi profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere l&#39;icona **&#x200B;**&#x200B;del notifica da visualizzare sui dispositivi dei tuoi profili.
 
-1. Immetti il testo **e** l&#39;immagine **** Click-to-Action.
+1. Immetti il testo **e** l&#39;immagine **&#x200B;**&#x200B;Click-to-Action.
 
-1. Scegli il tipo ]**di**[!UICONTROL  visualizzazione tra orizzontale o verticale.
+1. Scegli il tipo **di** visualizzazione tra orizzontale o verticale.
 
-1. Inserisci le informazioni degli elementi del catalogo ****.
+1. Inserisci le informazioni degli elementi del catalogo **&#x200B;**.
 
    Assicurati di includere un minimo di tre elementi e un massimo di cinque elementi.
 
@@ -324,13 +324,13 @@ Una volta definito il contenuto del messaggio, è possibile utilizzare i sottosc
 
    Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
-1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona ]**del**[!UICONTROL  notifica da visualizzare sui dispositivi dei tuoi profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona **del** notifica da visualizzare sui dispositivi dei tuoi profili.
 
 1. Aggiungi l&#39;icona **[!UICONTROL Classificazione nello stato]** non selezionato e **[!UICONTROL l&#39;icona Classificazione negli URL degli stati]** selezionati.
 
    ![](assets/rich_push_rating_3.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi valutazione]** e inserisci l&#39;URI ]**e**[!UICONTROL  il **[!UICONTROL tipo di]** collegamento.
+1. Fai clic su **[!UICONTROL Aggiungi valutazione]** e inserisci l&#39;URI **e** il **[!UICONTROL tipo di]** collegamento.
 
    Assicurati di includere un minimo di tre valutazioni e un massimo di cinque valutazioni.
 
@@ -374,7 +374,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    ![](assets/rich_push_timer_4.png)
 
-1. Immettere il testo e l&#39;immagine che verranno visualizzati dopo la scadenza del timer nei **[!UICONTROL campi Titolo]** alternativo, **[!UICONTROL Messaggio****alternativo, Messaggio]** espanso alternativo e **[!UICONTROL Immagine lanciare]** alternativo.
+1. Immettere il testo e l&#39;immagine che verranno visualizzati dopo la scadenza del timer nei **[!UICONTROL campi Titolo]** alternativo, **[!UICONTROL Messaggio**&#x200B;**alternativo, Messaggio]** espanso alternativo e **[!UICONTROL Immagine lanciare]** alternativo.
 
    ![](assets/rich_push_timer_5.png)
 
@@ -396,7 +396,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Utilizza i campi personalizzazione dinamici per definire contenuto, personalizzare i dati e aggiungere contenuto dinamici. [Ulteriori informazioni](../personalization/personalize.md)
 
-1. Aggiungi la URL che definisce l&#39;azione **** Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
+1. Aggiungi la URL che definisce l&#39;azione **&#x200B;**&#x200B;Clic associata a un utente clic sul notifica. Questo determina il comportamento quando l’utente interagisce con la notifica, ad esempio aprendo una schermata specifica o eseguendo un’azione specifica nell’app.
 
 1. Selezionare il **[!UICONTROL tipo]** di collegamento del URL aggiunto al **[!UICONTROL campo azione Clic]** :
 
@@ -406,9 +406,9 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    * **[!UICONTROL Open app]**: gli URL Open app consentono di connettersi direttamente ai contenuto all&#39;interno di un applicazione. Consente al tuo applicazione di affermarsi come gestore predefinito per un tipo specifico di collegare, ignorando la finestra di dialogo di disambiguazione.
 
-   Per ulteriori informazioni su come gestire i collegamenti app Android, consulta la documentazione](https://developer.android.com/training/app-links) per [sviluppatori Android.
+   Per ulteriori informazioni su come gestire i collegamenti app Android, consulta la documentazione[&#128279;](https://developer.android.com/training/app-links) per sviluppatori Android.
 
-1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona ]**del**[!UICONTROL  notifica da visualizzare sui dispositivi dei tuoi profili.
+1. Per personalizzare ulteriormente il notifica push, puoi scegliere un **[!UICONTROL URL Immagine]** da aggiungere al notifica push e l&#39;icona **del** notifica da visualizzare sui dispositivi dei tuoi profili.
 
    ![](assets/rich_push_bezel_3.png)
 

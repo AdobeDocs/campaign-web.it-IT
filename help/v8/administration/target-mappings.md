@@ -30,7 +30,7 @@ Target mappature sono accessibili dal **[!UICONTROL menu Mappature]** di Target 
 
 ![Target schermata dell&#39;elenco delle mappature che mostra le mappature disponibili](assets/target-mappings-list.png)
 
-Per ulteriori informazioni sui mapping di destinazione incorporati forniti con Adobe Campaign, fare riferimento alla documentazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"} della [console client Campaign v8.
+Per ulteriori informazioni sui mapping di destinazione incorporati forniti con Adobe Campaign, fare riferimento alla documentazione[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"} della console client Campaign v8.
 
 ## Creare una mappatura target {#create-mapping}
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni sui mapping di destinazione incorporati forniti con A
 >title="Archiviazione mappatura target"
 >abstract="La sezione **[!UICONTROL Archiviazione]** ti consente di identificare dove devono essere archiviati i registri."
 
-Per creare una nuova mappatura di destinazione, accesso l&#39;**[!UICONTROL >**[!UICONTROL  Amministrazione ]**Target menu mappature]**. Fai clic sull&#39;pulsante **[!UICONTROL di mappatura]** dei Crea, quindi seguire i passaggi descritti nelle sezioni seguenti.
+Per creare una nuova mappatura di destinazione, accesso l&#39;**[!UICONTROL >**&#x200B;[!UICONTROL &#x200B; Amministrazione &#x200B;]&#x200B;**Target menu mappature]**. Fai clic sull&#39;pulsante **[!UICONTROL di mappatura]** dei Crea, quindi seguire i passaggi descritti nelle sezioni seguenti.
 
 1. **[!UICONTROL Nella sezione Proprietà]** immettere un **[!UICONTROL Etichetta]** per la mappatura destinazione.
 
@@ -71,7 +71,7 @@ Per creare una nuova mappatura di destinazione, accesso l&#39;**[!UICONTROL >**[
 
    +++Opzioni di archiviazione per nuove dimensioni targeting
 
-   1. **** Spazio dei nomi: identifica lo spazio dei nomi che verrà utilizzato per creare i registri.
+   1. **&#x200B;**&#x200B;Spazio dei nomi: identifica lo spazio dei nomi che verrà utilizzato per creare i registri.
    1. **[!UICONTROL Suffisso dello schema]** di estensione: fornisci un suffisso per il nuovo schema.
 
       Nell&#39;esempio seguente, il nome broadlog sarà &quot;cusbroadlogSupplier&quot;.
@@ -84,7 +84,7 @@ Per creare una nuova mappatura di destinazione, accesso l&#39;**[!UICONTROL >**[
 
    1. **[!UICONTROL Registri di]** tracciamento: attivare l&#39;opzione Genera uno schema per il **[!UICONTROL rilevamento per]** generare uno schema di archiviazione per i registri di rilevamento.
 
-+++
+   +++
 
 1. Utilizzare la **[!UICONTROL sezione Mapping]** per identificare gli attributi dello schema del mapping di destinazione da utilizzare per ogni campo dell&#39;indirizzo di consegna. Per ogni campo, selezionare l&#39;attributo desiderato da mappare. È inoltre possibile versione un&#39;espressione per identificare il campo. Ad esempio, applicare una funzione inferiore all&#39;attributo address.
 
