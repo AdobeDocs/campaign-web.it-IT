@@ -252,4 +252,4 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3454013/?quality=12&captions=ita)
