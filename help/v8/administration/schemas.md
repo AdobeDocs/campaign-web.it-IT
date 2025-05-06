@@ -2,20 +2,14 @@
 title: Utilizzare gli schemi
 description: Scopri come utilizzare gli schemi.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '479'
+ht-degree: 18%
 
 ---
 
 # Utilizzare gli schemi {#schemas}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Utilizzare gli schemi"
->abstract="È ora possibile accedere ai dettagli di uno schema selezionandone il nome nell’elenco. L&#39;edizione dei campi personalizzati è accessibile anche dal pulsante **Edizione schermo**."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
@@ -37,7 +31,7 @@ Gli schemi svolgono un ruolo chiave in:
 
 Ogni entità in Adobe Campaign dispone di uno schema dedicato che garantisce la coerenza e l’organizzazione dei dati.
 
-Informazioni dettagliate sugli schemi sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Informazioni dettagliate sugli schemi sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Accedere agli schemi nell’interfaccia utente web {#access}
 

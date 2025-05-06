@@ -3,20 +3,14 @@ audience: end-user
 title: Pagina di destinazione con l’assistente AI
 description: Introduzione all’Assistente AI
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 4%
+source-wordcount: '1463'
+ht-degree: 3%
 
 ---
 
 # Generazione di pagine di destinazione con AI Assistant{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Generare pagine di destinazione con l’IA"
->abstract="Ora puoi utilizzare l’Assistente AI per creare le consegne della pagina di destinazione, consentendoti di generare testo, immagini o layout di pagina completi."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!IMPORTANT]
 >

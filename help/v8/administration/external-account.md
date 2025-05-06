@@ -2,14 +2,20 @@
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1378'
 ht-degree: 5%
 
 ---
 
 # Configurare account esterni {#external-accounts}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Authoring di account esterni"
+>abstract="In qualità di amministratore di Campaign, ora puoi impostare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web. Puoi anche visualizzare, aggiornare e gestire gli account esterni esistenti."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Adobe Campaign include account esterni preconfigurati per una facile integrazione con vari sistemi. Per connettersi a piattaforme aggiuntive o personalizzare le connessioni in base al flusso di lavoro, creare nuovi account esterni utilizzando l&#39;interfaccia utente Web. Questo garantisce trasferimenti di dati senza soluzione di continuità.
 
@@ -148,7 +154,7 @@ Per configurare l&#39;account esterno **[!UICONTROL Istanza di esecuzione]**:
 
 * **[!UICONTROL Metodo]** - Scegliere tra servizio Web o Federated Data Access (FDA).
 
-  Per FDA, seleziona il tuo account FDA. La connessione di Campaign a sistemi esterni è limitata agli utenti avanzati e disponibile solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/fda#_blank)
+  Per FDA, seleziona il tuo account FDA. La connessione di Campaign a sistemi esterni è limitata agli utenti avanzati e disponibile solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Crea flusso di lavoro di archiviazione]** - Per ogni istanza di esecuzione registrata nel Centro messaggi, indipendentemente dal fatto che siano presenti una o più istanze, crea un flusso di lavoro di archiviazione separato per ogni account esterno associato all&#39;istanza di esecuzione.
 
@@ -200,7 +206,7 @@ Per connettersi alla console Adobe Campaign utilizzando un Adobe ID, è necessar
 
 ### Servizio Amazon Simple Storage (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-AWS.png)
 
@@ -231,7 +237,7 @@ Per informazioni su dove trovare l&#39;ID della chiave di accesso e la chiave di
 
 ### Archiviazione BLOB di Azure {#azure-blob-external-account}
 
-L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-azure.png)
 
@@ -251,7 +257,7 @@ Per configurare l&#39;**[!UICONTROL account esterno Azure]** per l&#39;utilizzo 
 
 ## Hadoop
 
-L’account esterno Hadoop ti consente di collegare l’istanza Campaign al database esterno Hadoop. Per ulteriori informazioni su Hadoop, consulta la [documentazione della console di Campaign v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+L’account esterno Hadoop ti consente di collegare l’istanza Campaign al database esterno Hadoop. Per ulteriori informazioni su Hadoop, consulta la [documentazione della console di Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Schermata che mostra la configurazione per l&#39;account esterno Hadoop.](assets/external-hadoop.png)
 
