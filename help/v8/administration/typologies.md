@@ -134,7 +134,7 @@ Definisci le proprietà della regola di tipologia:
 
    **[!UICONTROL Al termine dell&#39;analisi]**: applica controlli che richiedono la personalizzazione completa dei messaggi.
 
-+++
+   +++
 
    * **[!UICONTROL Livello]**: specifica il livello di avviso per la regola. Per ulteriori informazioni, espandi la sezione seguente.
 
@@ -148,7 +148,7 @@ Definisci le proprietà della regola di tipologia:
 
    **[!UICONTROL Dettagliato]**: visualizza le informazioni nei registri del server.
 
-+++
+   +++
 
 ### Creare il contenuto della regola {#build}
 

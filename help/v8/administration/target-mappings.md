@@ -84,7 +84,7 @@ Per creare una nuova mappatura di destinazione, accedere al menu **[!UICONTROL A
 
    1. **[!UICONTROL Registri di tracciamento]**: attiva l&#39;opzione **[!UICONTROL Genera uno schema per il tracciamento]** per generare uno schema di archiviazione per i registri di tracciamento.
 
-+++
+   +++
 
 1. Utilizza la sezione **[!UICONTROL Mapping]** per identificare gli attributi dallo schema della mappatura di destinazione da utilizzare per ciascun campo dell&#39;indirizzo di consegna. Per ogni campo, seleziona l’attributo desiderato da mappare. Puoi anche creare un’espressione per identificare il campo. Ad esempio, applicare una funzione più bassa all&#39;attributo address.
 
