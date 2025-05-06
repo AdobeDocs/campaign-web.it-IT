@@ -1,8 +1,8 @@
 ---
 title: Gestire le mappature target
-description: Scopri come gestire destinazione mappature.
+description: Scopri come gestire le mappature di destinazione.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 14%
@@ -12,7 +12,7 @@ ht-degree: 14%
 # Gestire le mappature target {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="Mappature target"
 >abstract="È ora possibile creare mappature target nell’interfaccia utente di Campaign Web. Le mappature target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
@@ -22,15 +22,15 @@ ht-degree: 14%
 >title="Mappature target "
 >abstract="Mappature target"
 
-## Informazioni sulle mappature destinazione {#about}
+## Informazioni sulle mappature di destinazione {#about}
 
-Ogni canale di comunicazione utilizza una mappatura destinazione predefinita per destinazione i propri destinatari. Ad esempio, per impostazione predefinita, i modelli per il recapito di e-mail e SMS destinazione **[!UICONTROL Destinatari.]** La mappatura destinazione utilizza quindi i **campi della tabella nms:recipient** . Per le notifiche push, il mapping destinazione predefinito è **Applicazioni sottoscrittore (nms:appSubscriptionRcp),** collegato alla tabella dei destinatari.
+Ogni canale di comunicazione utilizza una mappatura target predefinita per eseguire il targeting dei propri destinatari. Ad esempio, per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Destinatari]**. La mappatura di destinazione utilizza pertanto i campi della tabella **nms:recipient**. Per le notifiche push, il mapping di destinazione predefinito è **Applicazioni in abbonamento (nms:appSubscriptionRcp)**, che è collegato alla tabella dei destinatari.
 
-Target mappature sono accessibili dal **[!UICONTROL menu Mappature]** di Target > **[!UICONTROL Amministrazione]**. Da questa schermata è possibile accesso dettagli su ogni mappatura di destinazione o creare nuove mappature di destinazione in base alle proprie esigenze.
+I mapping di destinazione sono accessibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Mapping di destinazione]**. Da questa schermata, puoi accedere ai dettagli su ogni mappatura di destinazione o crearne di nuove in base alle tue esigenze.
 
-![Target schermata dell&#39;elenco delle mappature che mostra le mappature disponibili](assets/target-mappings-list.png)
+![La schermata dell&#39;elenco delle mappature di destinazione mostra le mappature disponibili](assets/target-mappings-list.png)
 
-Per ulteriori informazioni sui mapping di destinazione incorporati forniti con Adobe Campaign, fare riferimento alla documentazione[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"} della console client Campaign v8.
+Per ulteriori informazioni sui mapping di destinazione incorporati forniti con Adobe Campaign, consulta la [documentazione della console client di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=it){target="_blank"}.
 
 ## Creare una mappatura target {#create-mapping}
 
@@ -54,64 +54,64 @@ Per ulteriori informazioni sui mapping di destinazione incorporati forniti con A
 >title="Archiviazione mappatura target"
 >abstract="La sezione **[!UICONTROL Archiviazione]** ti consente di identificare dove devono essere archiviati i registri."
 
-Per creare una nuova mappatura di destinazione, accesso l&#39;**[!UICONTROL >**&#x200B;[!UICONTROL &#x200B; Amministrazione &#x200B;]&#x200B;**Target menu mappature]**. Fai clic sull&#39;pulsante **[!UICONTROL di mappatura]** dei Crea, quindi seguire i passaggi descritti nelle sezioni seguenti.
+Per creare una nuova mappatura di destinazione, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Mappature di destinazione]**. Fai clic sul pulsante **[!UICONTROL Crea mappatura]**, quindi segui i passaggi descritti nelle sezioni seguenti.
 
-1. **[!UICONTROL Nella sezione Proprietà]** immettere un **[!UICONTROL Etichetta]** per la mappatura destinazione.
+1. Nella sezione **[!UICONTROL Proprietà]** immettere un **[!UICONTROL Etichetta]** per la mappatura di destinazione.
 
-1. Espandere la **[!UICONTROL sezione Opzioni aggiuntive]** per definire impostazioni avanzate, ad esempio il nome interno, la cartella di archiviazione e la descrizione della mappatura destinazione.
+1. Espandi la sezione **[!UICONTROL Opzioni aggiuntive]** per definire impostazioni avanzate, ad esempio il nome interno della mappatura di destinazione, la cartella di archiviazione e la descrizione.
 
-1. Seleziona la popolazione destinazione. Puoi:
+1. Seleziona la popolazione target. Puoi effettuare le seguenti operazioni:
 
-   * **[!UICONTROL Utilizzare direttamente]** la dimensione targeting: selezionare la dimensione da destinazione direttamente dall&#39;elenco delle dimensioni disponibili.
-   * **[!UICONTROL Usa dati]** collegati: Inizia da una dimensione targeting (ad esempio le sottoscrizioni) e quindi passa alla dimensione targeting che desideri destinazione (ad esempio destinatari).
+   * **[!UICONTROL Utilizza direttamente la dimensione di targeting]**: seleziona la dimensione di destinazione direttamente dall&#39;elenco delle dimensioni disponibili.
+   * **[!UICONTROL Utilizza dati collegati]**: inizia da una dimensione di targeting (ad esempio sottoscrizioni), quindi passa alla dimensione di targeting di cui desideri eseguire il targeting (ad esempio destinatari).
 
-   ![Proprietà mappature Target schermata con le opzioni di popolamento](assets/target-mappings-properties.png)
+   ![Schermata delle proprietà delle mappature di destinazione che mostra le opzioni di popolazione](assets/target-mappings-properties.png)
 
-1. Se la dimensione selezionata non è già utilizzata da una mappatura destinazione esistente, è necessario creare gli schemi per store i log. Opzioni aggiuntive sono disponibili nella **[!UICONTROL sezione Archiviazione]** . Espandi la sezione seguente per ulteriori dettagli.
+1. Se la dimensione selezionata non è già utilizzata da una mappatura di destinazione esistente, è necessario creare schemi per memorizzare i registri. Sono disponibili opzioni aggiuntive nella sezione **[!UICONTROL Archiviazione]**. Espandi la sezione seguente per ulteriori dettagli.
 
-   +++Opzioni di archiviazione per nuove dimensioni targeting
+   +++Opzioni di archiviazione per nuove dimensioni di targeting
 
-   1. **&#x200B;**&#x200B;Spazio dei nomi: identifica lo spazio dei nomi che verrà utilizzato per creare i registri.
-   1. **[!UICONTROL Suffisso dello schema]** di estensione: fornisci un suffisso per il nuovo schema.
+   1. **[!UICONTROL Spazio dei nomi]**: identifica lo spazio dei nomi che verrà utilizzato per creare i registri.
+   1. **[!UICONTROL Suffisso dello schema dell&#39;estensione]**: specificare un suffisso per il nuovo schema.
 
-      Nell&#39;esempio seguente, il nome broadlog sarà &quot;cusbroadlogSupplier&quot;.
+      Nell’esempio seguente, il nome del registro di trasmissione sarà &quot;cusbroadlogSupplier&quot;.
 
-      ![Esempio di opzioni di archiviazione per nuove dimensioni targeting](assets/target-mappings-new.png)
+      ![Esempio di opzioni di archiviazione per le nuove dimensioni di targeting](assets/target-mappings-new.png)
 
-   1. **[!UICONTROL Registri di]** consegna: attiva le opzioni in questa sezione per arricchire i registri di invio con un campo di codice segmento o un campo contenente l&#39;indirizzo IP di consegna. Ad esempio, salvare un codice di segmento calcolato durante la workflow nei registri di invio per perfezionare il destinazione in un secondo momento. In questo modo è possibile targeting profili con questo specifico codice segmento.
+   1. **[!UICONTROL Registri di consegna]**: attiva le opzioni in questa sezione per arricchire i registri di invio con un campo del codice segmento o un campo contenente l&#39;indirizzo IP di consegna. Ad esempio, salva un codice di segmento calcolato durante il flusso di lavoro nei registri di invio per perfezionare il target in un secondo momento. Questo consente di eseguire il targeting di profili con questo codice di segmento specifico.
 
-   1. **[!UICONTROL Esclusioni]**: specifica come store i log delle esclusioni.
+   1. **[!UICONTROL Esclusioni]**: specifica come memorizzare i registri di esclusioni.
 
-   1. **[!UICONTROL Registri di]** tracciamento: attivare l&#39;opzione Genera uno schema per il **[!UICONTROL rilevamento per]** generare uno schema di archiviazione per i registri di rilevamento.
+   1. **[!UICONTROL Registri di tracciamento]**: attiva l&#39;opzione **[!UICONTROL Genera uno schema per il tracciamento]** per generare uno schema di archiviazione per i registri di tracciamento.
 
-   +++
++++
 
-1. Utilizzare la **[!UICONTROL sezione Mapping]** per identificare gli attributi dello schema del mapping di destinazione da utilizzare per ogni campo dell&#39;indirizzo di consegna. Per ogni campo, selezionare l&#39;attributo desiderato da mappare. È inoltre possibile versione un&#39;espressione per identificare il campo. Ad esempio, applicare una funzione inferiore all&#39;attributo address.
+1. Utilizza la sezione **[!UICONTROL Mapping]** per identificare gli attributi dallo schema della mappatura di destinazione da utilizzare per ciascun campo dell&#39;indirizzo di consegna. Per ogni campo, seleziona l’attributo desiderato da mappare. Puoi anche creare un’espressione per identificare il campo. Ad esempio, applicare una funzione più bassa all&#39;attributo address.
 
    ![Sezione di mappatura che mostra la selezione degli attributi per i campi dell&#39;indirizzo di consegna](assets/target-mappings-mapping.png)
 
-1. Quando la mappatura destinazione è pronta, fare clic sull&#39;pulsante **[!UICONTROL Crea]** . Il sistema crea automaticamente la mappatura dei destinazione e tutti i relativi schemi per i log.
+1. Quando la mappatura di destinazione è pronta, fai clic sul pulsante **[!UICONTROL Crea]**. Il sistema crea automaticamente la mappatura di destinazione e tutti gli schemi correlati per i registri.
 
-Una volta creata la mappatura destinazione, sullo schermo vengono visualizzate due sezioni aggiuntive:
+Una volta creata la mappatura di destinazione, sullo schermo vengono visualizzate due sezioni aggiuntive:
 
-* **[!UICONTROL Denylisting]**: questa sezione consente di identificare gli attributi dallo schema di mappatura del destinazione da utilizzare per i denilisti.
+* **[!UICONTROL Inserire nell&#39;elenco Bloccati di]**: questa sezione ti consente di identificare gli attributi dallo schema della mappatura di destinazione da utilizzare per i inserisce nell&#39;elenco Bloccati di.
 
-  ![Denylisting sezione che mostra la selezione di attributi](assets/target-mappings-denylisting.png)
+  ![Inserire nell&#39;elenco Bloccati sezione in cui viene visualizzata la selezione dell&#39;attributo](assets/target-mappings-denylisting.png)
 
-* **[!UICONTROL Archiviazione]**: questa sezione consente di identificare le tabelle da utilizzare per store registri.
+* **[!UICONTROL Archiviazione]**: questa sezione ti consente di identificare le tabelle da utilizzare per archiviare i registri.
 
-  ![Sezione Archiviazione che mostra le opzioni della tabella per i registri](assets/target-mappings-storage.png)
+  ![Sezione di archiviazione che mostra le opzioni della tabella per i registri](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Invia messaggio schema]**: identifica lo schema da utilizzare per store i registri di invio.
-   * **[!UICONTROL Messaggi esclusi]**: specifica come gestire l&#39;archiviazione dei registri di recapito e di esclusione.
+   * **[!UICONTROL Schema messaggio]**: identifica lo schema da utilizzare per memorizzare i registri di invio.
+   * **[!UICONTROL Messaggi esclusi]**: specifica come gestire l&#39;archiviazione dei registri di consegna ed esclusione.
 
-      * **[!UICONTROL Archiviare esclusioni e messaggi nella stessa tabella]**
-      * **[!UICONTROL Archivia solo]** messaggi: non store esclusioni.
-      * **[!UICONTROL Archiviare le esclusioni e i messaggi in tabelle]** separate: selezionare lo schema da utilizzare per store i registri di esclusione nel **[!UICONTROL campo Schema]** di rifiuto.
+      * **[!UICONTROL Memorizza esclusioni e messaggi nella stessa tabella]**
+      * **[!UICONTROL Archivia solo i messaggi]**: non archiviare le esclusioni.
+      * **[!UICONTROL Memorizzare esclusioni e messaggi in tabelle separate]**: selezionare lo schema da utilizzare per memorizzare i registri di esclusione nel campo **[!UICONTROL Schema di rifiuto]**.
 
-   * **[!UICONTROL Registri di]** tracciamento: scegli dove store i registri di tracciamento e l&#39;origine traffico predefinita.
-   * **[!UICONTROL Campi]** aggiuntivi: specifica un elenco di campi aggiuntivi da store nei registri di consegna. Questi campi possono store in modo permanente informazioni sui singoli membri del destinazione (ad esempio, `recipient/@firstName`) o store dati aggiuntivi calcolati durante il workflow (ad esempio, `[targetData/@offeCode]`).
+   * **[!UICONTROL Registri di tracciamento]**: scegli dove memorizzare i registri di tracciamento e l&#39;origine del traffico predefinita.
+   * **[!UICONTROL Campi aggiuntivi]**: specifica un elenco di campi aggiuntivi da archiviare nei registri di consegna. Questi campi possono memorizzare in modo permanente le informazioni sui singoli membri della destinazione (ad esempio, `recipient/@firstName`) o memorizzare i dati aggiuntivi calcolati durante il flusso di lavoro (ad esempio, `[targetData/@offeCode]`).
 
-     A tale scopo, selezionare **[!UICONTROL Aggiungi campo]**. Identificare le informazioni da salvare nel **[!UICONTROL campo Origine]** e l&#39;attributo da utilizzare nei registri di invio per salvare queste informazioni nel **[!UICONTROL campo Destinazione]** .
+     A tale scopo, selezionare **[!UICONTROL Aggiungi campo]**. Identifica le informazioni da salvare nel campo **[!UICONTROL Source]** e l&#39;attributo da utilizzare nei registri di invio per salvare tali informazioni nel campo **[!UICONTROL Destination]**.
 
-     ![Sezione di campi aggiuntivi che mostra le opzioni per la memorizzazione di dati aggiuntivi](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+     ![Sezione campi aggiuntivi che mostra le opzioni per la memorizzazione di dati aggiuntivi](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
