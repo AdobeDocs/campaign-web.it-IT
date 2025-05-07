@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 description: Scopri come utilizzare l’attività del flusso di lavoro Modulo di pianificazione
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 40%
@@ -61,7 +61,6 @@ Per configurare l’attività del **Modulo di pianificazione**, segui questi pas
    * **Periodo di validità**: il flusso di lavoro viene eseguito in base alla frequenza specificata, fino a una data specifica. Specifica le date di inizio e fine.
 
 >[!NOTE]
->\
 >Se si desidera avviare immediatamente il flusso di lavoro, fare clic su **Esegui attività in sospeso** nella barra delle azioni superiore della pianificazione. Questo pulsante è disponibile solo quando il flusso di lavoro è stato avviato.
 
 ## Esempio {#scheduler-example}
