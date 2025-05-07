@@ -20,7 +20,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Modelli di contenuto"
->abstract="Per un processo di progettazione più rapido e migliore, puoi creare modelli e-mail indipendenti che consentono di riutilizzare facilmente contenuti personalizzati in più campagne. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto."
+>abstract="Per un processo di progettazione più rapido e migliore, puoi creare modelli e-mail indipendenti che consentono di riutilizzare facilmente contenuti personalizzati in Adobe Campaign. Questi modelli di contenuto possono essere progettati da zero, sulla base di modelli incorporati o personalizzati, creati da un contenuto esistente o importati nell’editor di modelli di contenuto."
 
 Per accelerare e migliorare il processo di progettazione, è possibile creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Adobe Campaign]. Questi modelli di contenuto possono essere progettati da zero, basati su modelli incorporati o personalizzati, creati da contenuti esistenti o importati nell’editor di modelli di contenuto.
 

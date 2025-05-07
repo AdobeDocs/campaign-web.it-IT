@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="Filtro"
->abstract=" Sono disponibili due tipi di regole di tipologia: <br/><br/>**Regole di controllo** che garantiscono la qualità e la validità del messaggio pre-invio, ad esempio la visualizzazione del carattere, la lunghezza dell&#39;SMS, il formato dell&#39;indirizzo o la riduzione degli URL. <br/><br/>**Regole di filtro** che escludono segmenti del pubblico di destinazione in base a criteri specifici, ad esempio età, posizione, paese o numeri di telefono."
+>abstract=" Sono disponibili due tipi di regole di tipologia: le regole di <br/><br/>**controllo** che garantiscono la qualità e la validità del messaggio prima dell’invio, ad esempio la visualizzazione del carattere, la lunghezza dell’SMS, il formato dell’indirizzo o l’abbreviazione dell’URL, e le regole di <br/><br/>**filtro** che escludono i segmenti del pubblico target in base a criteri specifici, ad esempio, età, posizione, Paese o numeri di telefono."
 
 ## Informazioni sulle tipologie
 
@@ -40,7 +40,7 @@ Le tipologie sono accessibili tramite il menu **[!UICONTROL Amministrazione]** >
 
 >[!NOTE]
 >
->Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 I passaggi principali per applicare le tipologie ai messaggi sono i seguenti:
 
@@ -108,7 +108,7 @@ Definisci le proprietà della regola di tipologia:
 
    >[!NOTE]
    >
-   >Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Selezionare un **[!UICONTROL canale]** da associare alla regola.
 
@@ -134,7 +134,7 @@ Definisci le proprietà della regola di tipologia:
 
    **[!UICONTROL Al termine dell&#39;analisi]**: applica controlli che richiedono la personalizzazione completa dei messaggi.
 
-   +++
++++
 
    * **[!UICONTROL Livello]**: specifica il livello di avviso per la regola. Per ulteriori informazioni, espandi la sezione seguente.
 
@@ -148,7 +148,7 @@ Definisci le proprietà della regola di tipologia:
 
    **[!UICONTROL Dettagliato]**: visualizza le informazioni nei registri del server.
 
-   +++
++++
 
 ### Creare il contenuto della regola {#build}
 
