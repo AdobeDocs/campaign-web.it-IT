@@ -60,7 +60,8 @@ Per configurare l’attività del **Modulo di pianificazione**, segui questi pas
    * **Permanente (non scade mai)**: il flusso di lavoro viene eseguito in base alla frequenza specificata, senza alcun limite all&#39;intervallo di tempo o al numero di iterazioni.
    * **Periodo di validità**: il flusso di lavoro viene eseguito in base alla frequenza specificata, fino a una data specifica. Specifica le date di inizio e fine.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Se si desidera avviare immediatamente il flusso di lavoro, fare clic su **Esegui attività in sospeso** nella barra delle azioni superiore della pianificazione. Questo pulsante è disponibile solo quando il flusso di lavoro è stato avviato.
 
 ## Esempio {#scheduler-example}
