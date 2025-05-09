@@ -5,7 +5,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
 >title="Creare un criterio di avviso"
->abstract="Puoi creare filtri di consegna personalizzati dal menu Customer Management > Predefined filters (Gestione clienti > Filtri predefiniti)."
+>abstract="Puoi creare filtri di consegna personalizzati dal menu Gestione clienti > Filtri predefiniti."
 
 I filtri preimpostati sono filtri personalizzati creati e salvati per utilizzi futuri. Fungono da scelte rapide durante le operazioni di filtro mediante query modeler. Ad esempio, possono essere utilizzati per filtrare un elenco di dati o creare il pubblico di una consegna.
 

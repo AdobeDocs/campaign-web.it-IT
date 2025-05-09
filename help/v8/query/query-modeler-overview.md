@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Nuovo generatore di regole"
->abstract="È ora disponibile un nuovo generatore di regole che consente di definire condizioni complesse in un’interfaccia utente migliorata. Se necessario, puoi passare dal generatore di regole precedente al nuovo."
+>abstract="È ora disponibile un nuovo generatore di regole che consente di definire condizioni complesse in un’interfaccia utente migliorata. Se necessario, puoi passare dal generatore di regole precedente a quello nuovo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
@@ -68,8 +68,8 @@ Il modellatore di query fornisce un’area di lavoro centrale in cui creare la q
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Nuova esperienza di generazione regole"
->abstract="Utilizza questo interruttore per passare dall’esperienza del modellatore di query classico a quella del nuovo generatore di regole. Il nuovo generatore di regole ti consente di creare la query più facilmente, grazie alla sua interfaccia semplificata e intuitiva."
+>title="Nuova esperienza del generatore di regole"
+>abstract="Utilizza questa opzione per passare dal query modeler classico alla nuova esperienza del generatore di regole. Il nuovo generatore di regole ti consente di creare la query più facilmente, grazie all’interfaccia semplificata e intuitiva."
 
 ![Immagine che mostra l&#39;interfaccia di Query Modeler](assets/query-interface.png){zoomable="yes"}
 
