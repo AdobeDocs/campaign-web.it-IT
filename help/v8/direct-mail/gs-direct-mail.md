@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Introduzione alle consegne Direct mail
-description: Scopri come creare e inviare consegne di direct mailing con Adobe Campaign Web
+title: Introduzione alle consegne direct mail
+description: Scopri come creare e inviare consegne direct mail con Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 
-# Introduzione alle consegne Direct mail {#gs-direct-mail}
+# Introduzione alle consegne direct mail {#gs-direct-mail}
 
-La direct mailing è un canale offline che consente di produrre file per consegnare in massa lettere personalizzate ai clienti, ad esempio cartoline, volantini o cataloghi.
+Direct mail è un canale offline che consente di creare file per consegnare in blocco lettere personalizzate alla clientela, come cartoline, volantini o cataloghi.
 
-Durante la creazione di una consegna direct mailing, Adobe Campaign genera un file di estrazione contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi del profilo. Questo file viene inviato al server desiderato, rendendolo accessibile al provider di direct mailing scelto, che gestisce il processo di mailing effettivo.
+Durante la creazione di una consegna direct mail, Adobe Campaign genera un file di estrazione contenente tutti i profili di destinazione e i dati selezionati, come gli indirizzi postali e gli attributi del profilo. Questo file viene inviato al server prescelto, rendendolo accessibile al provider di direct mail scelto, che gestisce il processo di mailing effettivo.
 
-Per creare consegne di direct mailing, hai tre opzioni:
+Per creare consegne direct mail, puoi scegliere tra tre opzioni:
 
-* **Flussi di lavoro**: dopo aver aggiunto al flusso di lavoro un&#39;attività del canale direct mailing e aver configurato le impostazioni di base, crea il contenuto delle consegne di direct mailing dal menu del riquadro a destra. Per istruzioni dettagliate sulla configurazione dei flussi di lavoro, consulta [questa pagina](../workflows/gs-workflow-creation.md).
-* **Campagne**: dopo aver creato una campagna, puoi creare una consegna direct mailing. Per ulteriori informazioni sulla configurazione della campagna, consulta [questa pagina](../campaigns/gs-campaigns.md).
-* **Consegne autonome**: coinvolgi i clienti direttamente e immediatamente con la consegna di direct mailing individuale, senza la necessità di flussi di lavoro o campagne. [Scopri come creare una consegna](../msg/gs-deliveries.md)
+* **Flussi di lavoro**: dopo aver aggiunto un’attività del canale direct mail al flusso di lavoro e aver configurato le impostazioni di base, crea il contenuto delle consegne direct mail dal menu del riquadro a destra. Per istruzioni dettagliate su come configurare il flusso di lavoro, consulta [questa pagina](../workflows/gs-workflow-creation.md).
+* **Campagne**: dopo aver creato una campagna, puoi creare una consegna direct mail. Per ulteriori informazioni sulla configurazione della campagna, consulta [questa pagina](../campaigns/gs-campaigns.md).
+* **Consegne indipendenti**: coinvolgi la clientela direttamente e all’istante con la consegna di singole direct mail, senza la necessità di flussi di lavoro o campagne. [Scopri come creare una consegna](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

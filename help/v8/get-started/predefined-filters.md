@@ -3,7 +3,7 @@ title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
 >title="Creare un criterio di avviso"
->abstract="Puoi creare filtri di consegna personalizzati dal menu Gestione clienti > Filtri predefiniti."
+>abstract="Puoi creare filtri di consegna personalizzati dal menu Gestione cliente > Filtri preimpostati."
 
 I filtri preimpostati sono filtri personalizzati creati e salvati per utilizzi futuri. Fungono da scelte rapide durante le operazioni di filtro mediante query modeler. Ad esempio, possono essere utilizzati per filtrare un elenco di dati o creare il pubblico di una consegna.
 

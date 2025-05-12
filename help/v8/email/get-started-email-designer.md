@@ -4,9 +4,9 @@ title: Modificare il contenuto dell’e-mail
 description: Scopri come iniziare a creare i contenuti utilizzando E-mail designer nell’interfaccia utente di Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ The Email Designer allows you to create email content and email content template
 
 Quando si inviano le e-mail, tieni presente che i destinatari possono inoltrarle e, a volte, questo può causare problemi con il rendering. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider e-mail utilizzato per l’inoltro. Ad esempio, se utilizzi la classe CSS “is-desktop-hidden” per nascondere un’immagine su dispositivi mobili, il rendering potrebbe non essere corretto.
 
-Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della tua e-mail il più semplice possibile. Prova a utilizzare un’unica progettazione che funzioni bene sia per i dispositivi desktop che mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Quando utilizzi le immagini nelle e-mail, evita le immagini di dimensioni superiori a 2 MB o utilizza collegamenti immagine codificati.
+Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della tua e-mail il più semplice possibile. Prova a utilizzare un’unica progettazione che funzioni bene sia per i dispositivi desktop che mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Quando utilizzi le immagini nelle e-mail, evita quelle di dimensioni superiori a 2 MB o utilizza collegamenti immagine codificati.
 
 Seguendo queste best practice, puoi contribuire a garantire che le e-mail vengano visualizzate correttamente in modo coerente, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
 

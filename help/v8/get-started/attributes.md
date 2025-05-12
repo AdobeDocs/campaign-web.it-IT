@@ -4,9 +4,9 @@ title: Selezionare gli attributi e aggiungerli ai preferiti
 description: Scopri come utilizzare gli attributi e accedere facilmente agli attributi preferiti e utilizzati di recente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Gli utenti possono aggiungere fino a 20 attributi preferiti. Gli attributi prefe
 
 ## Identificare la distribuzione dei valori all’interno di una tabella {#distribution}
 
-Il pulsante **Distribuzione di valori**, disponibile quando si fa clic sul pulsante di espansione accanto all&#39;attributo, consente agli utenti di analizzare la distribuzione dei valori per tale attributo all&#39;interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
+Il pulsante **Distribuzione dei valori**, disponibile facendo clic sul pulsante di espansione accanto all’attributo, consente di analizzare la distribuzione dei valori per tale attributo all’interno della tabella. Questa funzione è utile per comprendere i valori disponibili, i relativi conteggi e le percentuali. Consente inoltre di evitare problemi come l’utilizzo incoerente delle maiuscole o ortografia errata durante la creazione di query o di espressioni.
 
 ![Interfaccia dello strumento Distribuzione dei valori che mostra conteggi e percentuali dei valori degli attributi.](assets/attributes-distribution-values.png)
 
