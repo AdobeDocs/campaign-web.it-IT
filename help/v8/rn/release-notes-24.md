@@ -5,7 +5,7 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, passa a un livello successivo con l’Assistente AI in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
+<p>Dopo aver creato e personalizzato il messaggio, passa a un livello successivo con l’Assistente IA in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima delle funzionalità live</a>, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/generative-gs.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -122,7 +122,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 * **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Note sulla versione di luglio {#24-7-release}

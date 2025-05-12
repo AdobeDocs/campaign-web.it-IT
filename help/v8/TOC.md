@@ -8,7 +8,7 @@ breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -64,13 +64,13 @@ ht-degree: 97%
       + [Progettare una consegna SMS](sms/content-sms.md)
       + [Anteprima e invio di una consegna SMS](sms/send-sms.md)
    + Direct mail {#direct-mail}
-      + [Introduzione alle consegne Direct mail](direct-mail/gs-direct-mail.md)
+      + [Introduzione alle consegne direct mail](direct-mail/gs-direct-mail.md)
       + [Creare una consegna Direct mail](direct-mail/create-direct-mail.md)
       + [Progettare il file di estrazione](direct-mail/content-direct-mail.md)
       + [Anteprima e invio di una consegna Direct mail](direct-mail/send-direct-mail.md)
    + Call center {#call-center}
-      + [Introduzione alle consegne del call center](call-center/gs-call-center.md)
-      + [Creare e inviare una consegna al call center](call-center/create-call-center.md)
+      + [Introduzione alle consegne call center](call-center/gs-call-center.md)
+      + [Creare e inviare una consegna call center](call-center/create-call-center.md)
    + Messaggi transazionali {#transactional-messages}
       + [Introduzione ai messaggi transazionali](transactional-messaging/transactional.md)
       + [Creare un messaggio transazionale](transactional-messaging/create-transactional.md)
@@ -112,7 +112,7 @@ ht-degree: 97%
          + [Utilizzare i componenti per contenuti](email/content-components.md)
          + [Aggiungere collegamenti e tenere traccia dei messaggi](email/message-tracking.md)
          + [Aggiungere un collegamento alla pagina mirror](email/mirror-page.md)
-         + [Aggiungi metadati](email/metadata.md)
+         + [Aggiungere metadati](email/metadata.md)
          + [Generare la versione del testo](email/text-version-email.md)
       + Personalizzare lo stile del contenuto {#style}
          + [Introduzione allo stile dell’e-mail](email/get-started-email-style.md)
