@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
+source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '828'
 ht-degree: 97%
 
 ---
@@ -121,13 +121,15 @@ ht-degree: 97%
          + [Definire uno stile per i collegamenti](email/styling-links.md)
          + [Aggiungere attributi di stile in linea](email/inline-styling.md)
    + Assistente IA {#ai-assistant}
-      + [Utilizzare l’Assistente AI](email/generative-gs.md)
+      + [Utilizzare l’Assistente IA](email/generative-gs.md)
       + [Generazione di e-mail con l’IA](email/generative-content.md)
       + [Generazione di SMS con l’IA](email/generative-sms.md)
       + [Generazione di notifiche push con l’IA](email/generative-push.md)
       + [Generazione di pagine di destinazione con l’IA](email/generative-lp.md)
       + [Casi d’uso dell’Assistente IA](email/generative-uc.md)
-      + [Creare e gestire i brand (Beta)](content/brands.md)
+      + Marchi (beta) {#ai-assistant}
+         + [Creare e gestire i brand personali](content/brands.md)
+         + [Valuta il punteggio di allineamento del marchio](content/brands-score.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
