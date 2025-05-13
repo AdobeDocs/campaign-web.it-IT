@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencati nel [2024](release-notes-24.md) e [2025](release-notes-25.md).
 
+## Aggiornamenti di maggio 2025 {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Punteggio di allineamento del brand (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nella finestra di e-mail designer, consentendoti di vedere se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in Beta.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content/brands-score.md">documentazione dettagliata</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Versione di aprile 2025 {#25-4-release}
 
 **Data di rilascio**: 29 aprile 2025
-
 
 ### Nuove funzioni {#25-4-features}
 
