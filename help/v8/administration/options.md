@@ -2,7 +2,7 @@
 title: 'Configurare le opzioni di [!DNL Campaign] '
 description: Scopri come configurare le opzioni di Campaign e creare opzioni personalizzate.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 5%
@@ -24,7 +24,6 @@ ht-degree: 5%
 Adobe Campaign Web include opzioni tecniche che consentono di configurare l&#39;applicazione in modo più specifico. Alcune di queste opzioni sono integrate, mentre altre possono essere aggiunte manualmente in base alle esigenze.
 
 >[!IMPORTANT]
->\
 >Le opzioni incorporate sono preconfigurate e devono essere modificate solo da utenti avanzati. In caso di domande o richieste, contatta il rappresentante Adobe.
 
 ## Accedere alle opzioni di Campaign {#access}
@@ -35,8 +34,7 @@ Le opzioni sono disponibili dal menu **[!UICONTROL Amministrazione]** / **[!UICO
 [Elenco opzioni visualizzato nel menu Amministrazione / Opzioni]
 
 >[!NOTE]
->\
->Sebbene la posizione del menu delle opzioni differisca tra la console di Adobe Campaign e l’interfaccia utente Web, l’elenco è identico e funziona come un mirror. Per ulteriori dettagli sulle opzioni disponibili, consulta l&#39;elenco delle opzioni in [Documentazione di Campaign v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Sebbene la posizione del menu delle opzioni differisca tra la console di Adobe Campaign e l’interfaccia utente Web, l’elenco è identico e funziona come un mirror. Per ulteriori dettagli sulle opzioni disponibili, consulta l&#39;elenco delle opzioni in [Documentazione di Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 Nell&#39;elenco delle opzioni è possibile:
 

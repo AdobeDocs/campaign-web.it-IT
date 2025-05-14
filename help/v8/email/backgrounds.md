@@ -3,7 +3,7 @@ audience: end-user
 title: Personalizzare lo sfondo delle e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 44%
@@ -41,7 +41,6 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Accertatevi di non impostare il colore di sfondo del riquadro di visualizzazione, poiché potrebbe nascondere i colori di sfondo della struttura.
 
 * Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
@@ -50,7 +49,6 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Seleziona un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
 * Imposta un colore di sfondo a livello di colonna.
@@ -59,7 +57,6 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò offre maggiore flessibilità durante la modifica dell’intero contenuto dell’e-mail.
 
   Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
