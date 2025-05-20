@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -52,16 +52,16 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 >[!BEGINTABS]
 
 
->[!TAB Versione di aprile 2025]
+>[!TAB Versione del 25 maggio]
 
-È ora disponibile la versione di aprile, che include il canale Call Center, il nuovo generatore di regole e ulteriori miglioramenti.
+La versione di maggio è ora live, con il canale Call Center, il nuovo generatore di regole e ulteriori miglioramenti.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB Assistente IA]
 
-✨ Immergiti in un’esperienza pratica con l’anteprima della funzione live dell’[Assistente IA](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzioni in prima persona e comprenderne appieno le funzionalità.
+✨ Immergiti in un&#39;esperienza pratica con l&#39;anteprima delle funzionalità live di [AI Assistant](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
