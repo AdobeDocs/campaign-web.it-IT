@@ -3,10 +3,10 @@ audience: end-user
 title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Nella sezione **[!UICONTROL Sicurezza]** delle **[!UICONTROL Impostazioni cartel
 Puoi fare clic direttamente sulle autorizzazioni e cambiarle in **[!UICONTROL Consentite]** o **[!UICONTROL Negate]**.
 
 ![Esempio di autorizzazioni negate nelle impostazioni di sicurezza della cartella](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Non è possibile creare un oggetto per il quale non si dispone di almeno una cartella con diritti di scrittura.
+>
+>Per creare i frammenti non è necessario essere un amministratore, ma è necessario disporre dei diritti di scrittura per almeno una cartella &quot;Frammento visivo di contenuto&quot;. In caso contrario, non potrai creare un frammento visivo.
 
 Se l’opzione **[!UICONTROL Propaga]** è abilitata, tutte le autorizzazioni definite per una cartella vengono applicate a tutte le relative sottocartelle. Queste autorizzazioni possono essere sovrascritte per ogni sottocartella.
 

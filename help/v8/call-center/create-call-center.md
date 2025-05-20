@@ -3,14 +3,14 @@ audience: end-user
 title: Creare una consegna del call center
 description: Scopri come creare una consegna di call center con Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
-# Creare e inviare una consegna al call center {#create-call-center}
+# Creare e inviare una consegna call center {#create-call-center}
 
 Puoi creare una consegna di call center indipendente o nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna autonoma (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -62,7 +62,7 @@ Ora devi definire il pubblico di destinazione per il file di estrazione.
 >
 >I destinatari del call center devono contenere almeno i propri nomi e numeri di telefono. Tutti i destinatari con informazioni incomplete saranno esclusi dalle consegne del call center.
 >
->Per informazioni su come configurare i gruppi di controllo, consulta questa [pagina](../audience/control-group.md)
+>Per informazioni su come configurare i gruppi di controllo, consulta questa [pagina](../audience/control-group.md).
 
 ## Modificare il contenuto{#edit-content}
 
@@ -72,7 +72,7 @@ Ora modifichiamo il contenuto del file di estrazione che verrà generato dalla c
 
    ![Schermata che mostra la modifica del contenuto per una consegna al call center](assets/cc-content0.png){zoomable="yes"}
 
-1. Specificare il campo **[!UICONTROL Nome file]**. Per informazioni su come personalizzare il nome del file, consulta questa [pagina](../personalization/personalize.md).
+1. Specificare il **[!UICONTROL nome file]**. Per informazioni su come personalizzare il nome del file, consulta questa [pagina](../personalization/personalize.md).
 
 1. Seleziona un **[!UICONTROL Formato file]**: **Testo**, **Testo tramite colonne a larghezza fissa**, **CSV (Excel)** o **XML**.
 
@@ -120,7 +120,7 @@ I passaggi principali per visualizzare in anteprima e inviare il file di estrazi
 
 1. Fai clic su **[!UICONTROL Invia]** per procedere con il processo di invio finale, quindi conferma.
 
-Una volta inviata la consegna, il file di estrazione viene generato ed esportato automaticamente nella posizione specificata nell&#39;account esterno **[!UICONTROL Routing]** selezionato nelle [impostazioni avanzate](../advanced-settings/delivery-settings.md) del modello di consegna.
+Una volta inviata la consegna, il file di estrazione viene generato ed esportato automaticamente nella posizione specificata nell&#39;account esterno **[!UICONTROL Routing]** selezionato nelle [impostazioni avanzate](../advanced-settings/delivery-settings.md) del modello di consegna. È inoltre possibile visualizzare in anteprima il file facendo clic sul pulsante **Anteprima file** nella sezione **Contenuto** della schermata.
 
 Tieni traccia dei dati KPI (Key Performance Indicator) dalla pagina di consegna e dei dati dal menu **[!UICONTROL Registri]**.
 
