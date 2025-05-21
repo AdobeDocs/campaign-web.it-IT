@@ -56,4 +56,4 @@ Per importare un file contenente contenuti HTML, attieniti alla procedura seguen
 
 Scopri come creare un’e-mail caricando HTML, renderla compatibile con E-mail Designer e convertirla in un modello.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447040/?quality=12&captions=ita)
