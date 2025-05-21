@@ -6,13 +6,13 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 # Introduzione ai rapporti sulle campagne {#campaign-reports}
 
-I **rapporti sulle campagne** forniscono una panoramica completa della **campagna**, includendo tutte le informazioni rilevanti relative alle diverse consegne incluse. Questi rapporti offrono un’analisi dettagliata delle prestazioni di ogni consegna per canale, inclusi i tassi di successo, il coinvolgimento del pubblico e altre metriche chiave. Ti aiutano a valutare l’efficacia e l’impatto complessivi della campagna.
+I **Rapporti sulla campagna** forniscono una panoramica completa sulla **campagna**, con tutte le informazioni pertinenti, relative alle diverse consegne incluse. Questi rapporti offrono un’analisi dettagliata delle prestazioni di ogni consegna per canale, inclusi i tassi di successo, il coinvolgimento del pubblico e altre metriche chiave. Ti aiutano a valutare l’efficacia e l’impatto complessivi della campagna.
 
 L’elenco completo dei rapporti e delle metriche associate per ciascun canale è disponibile nelle pagine seguenti:
 

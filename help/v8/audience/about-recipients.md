@@ -4,7 +4,7 @@ description: Scopri come monitorare e gestire i profili in Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ Inoltre, **[!UICONTROL profili di test]**, identificati come &quot;profili di se
 
 Sia i profili che i profili di test sono utili per testare le consegne prima che raggiungano il pubblico previsto. Questo consente di visualizzare in anteprima il contenuto e la personalizzazione dei messaggi, inviare bozze per il test e la convalida, valutare il rendering delle e-mail su varie piattaforme e dispositivi e testare le pagine di destinazione. [Scopri come visualizzare in anteprima e verificare le consegne](../preview-test/preview-test.md)
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda il video su questa funzione](#video)
 
 ## Accedere all’elenco dei profili {#access}
 
@@ -46,4 +46,4 @@ Per eliminare un profilo, seleziona l&#39;opzione corrispondente dal menu **[!UI
 
 Scopri come accedere, gestire ed esplorare i profili tramite l’interfaccia utente web di Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448372?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

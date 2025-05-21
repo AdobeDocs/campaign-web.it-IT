@@ -30,7 +30,7 @@ Quando un indirizzo viene messo in quarantena in Adobe Campaign, il profilo vien
 
 La quarantena riduce i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 
-Ulteriori informazioni sulle quarantene sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
+Ulteriori informazioni sulle quarantene sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
 
 ## Perché un indirizzo viene messo in quarantena {#quarantines-why}
 
@@ -41,7 +41,7 @@ Molti motivi possono mettere un indirizzo in quarantena:
 * Per l’e-mail, quando il messaggio viene segnalato come spam. Il messaggio viene automaticamente reindirizzato a una casella di posta tecnica gestita da Adobe. Inserire nell&#39;elenco Bloccati L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato di.
 * Un indirizzo e-mail può essere messo in quarantena, ad esempio, quando la cassetta postale è piena, se l’indirizzo non esiste o se il server e-mail non è disponibile.
 
-Ulteriori informazioni sugli errori di consegna nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
+Ulteriori informazioni sugli errori di consegna nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Dove trovare gli indirizzi di quarantena {#quarantines-where}
 
@@ -57,4 +57,4 @@ Per ogni consegna, puoi controllare il rapporto di riepilogo della consegna. Mos
 
 ![Rapporto di riepilogo delle consegne con indirizzi messi in quarantena](assets/quarantine_delivery.png){zoomable="yes"}
 
-Puoi esplorare altre opzioni per gestire gli indirizzi in quarantena nella console Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).
+Puoi esplorare altre opzioni per gestire gli indirizzi in quarantena nella console Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

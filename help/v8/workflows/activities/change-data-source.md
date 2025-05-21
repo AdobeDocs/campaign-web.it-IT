@@ -23,7 +23,7 @@ Nei flussi di lavoro, i dati trasportati da un&#39;attività all&#39;altra trami
 
 In alcuni casi, i dati non sono disponibili nel database corrente o non sono abbastanza efficienti per eseguire operazioni unitarie. Potrebbe pertanto essere necessario forzare il flusso di lavoro a utilizzare un database diverso per eseguire tali operazioni aggiungendo un&#39;attività **[!UICONTROL Modifica origine dati]**.
 
-Informazioni dettagliate sull&#39;architettura di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=it).
+Informazioni dettagliate sull&#39;architettura di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >

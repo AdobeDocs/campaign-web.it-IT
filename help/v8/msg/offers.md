@@ -6,13 +6,13 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 45%
+ht-degree: 41%
 
 ---
 
 # Aggiungere offerte ai messaggi {#offers-content}
 
-Puoi aggiungere offerte alle consegne nell’interfaccia utente web di Adobe Campaign. Queste offerte sono disponibili dal menu a sinistra **Offerte**, che consente di accedere all&#39;elenco delle offerte. Tutte queste offerte sono di sola lettura e devono essere create nella console client di Campaign utilizzando il modulo **[!UICONTROL Interaction]**. Per ulteriori informazioni su Interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Puoi aggiungere offerte alle consegne nell’interfaccia utente web di Adobe Campaign. Queste offerte sono disponibili dal menu a sinistra **Offerte**, che consente di accedere all&#39;elenco delle offerte. Tutte queste offerte sono di sola lettura e devono essere create nella console client di Campaign utilizzando il modulo **[!UICONTROL Interaction]**. Per ulteriori informazioni sull&#39;interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
 I passaggi per inviare le offerte con una consegna sono i seguenti:
 
@@ -101,7 +101,7 @@ Per inserire un’offerta tramite l’editor di espressioni, segui la procedura 
 
    >[!NOTE]
    >
-   >Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte. Per ulteriori informazioni, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=it){target="_blank"}.
+   >Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=it){target="_blank"}.
 
 1. Salva le modifiche.
 

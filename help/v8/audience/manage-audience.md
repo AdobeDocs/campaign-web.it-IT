@@ -5,7 +5,7 @@ description: Scopri come utilizzare i tipi di pubblico in Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 38%
 
 ---
@@ -42,7 +42,7 @@ I tipi di pubblico possono provenire da più origini. La colonna **[!UICONTROL O
 
 * **[!UICONTROL Adobe Experience Platform:]** questi tipi di pubblico sono stati creati in Adobe Experience Platform e sono integrati in Campaign Web mediante l&#39;integrazione di Adobe Sources and Destinations. Scopri come configurare questa integrazione nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=it){target="_blank"}.
 
-  ➡️ [Scopri questa funzione nel video](#video)
+  ➡️ [Guarda il video su questa funzione](#video)
 
 Per ottenere ulteriori informazioni su un pubblico, aprilo dall’elenco. Vengono visualizzate le proprietà del pubblico e il numero di profili inclusi nel pubblico. Aggiorna il conteggio del pubblico in qualsiasi momento utilizzando il pulsante **[!UICONTROL Calcola]**.
 

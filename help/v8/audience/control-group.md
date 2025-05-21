@@ -5,7 +5,7 @@ description: Scopri come impostare un gruppo di controllo per i messaggi nell’
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 36%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 36%
 
 Un gruppo di controllo è una sottopopolazione esclusa dalla consegna. Puoi definire un gruppo di controllo per evitare di inviare messaggi a una parte del pubblico e confrontare il comportamento successivo alla consegna con il target principale. Questa opzione consente di misurare l’impatto della campagna.
 
-➡️ [Scopri questa funzione nel video](create-audience.md#video)
+➡️ [Guarda il video su questa funzione](create-audience.md#video)
 
 ## Abilita gruppo di controllo {#add-a-control-group}
 

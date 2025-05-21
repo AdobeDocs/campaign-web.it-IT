@@ -52,4 +52,4 @@ I flussi di lavoro tecnici incorporati sono di sola lettura per tutti gli utenti
 
 ![Interfaccia del flusso di lavoro tecnico in modalità di sola lettura, con le opzioni per sospendere o arrestare i flussi di lavoro.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

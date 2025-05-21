@@ -167,7 +167,7 @@ Puoi consentire ai clienti di annullare l’abbonamento a un servizio utilizzand
 
    ![Schermata che mostra l&#39;interfaccia della casella di controllo per l&#39;annullamento dell&#39;abbonamento.](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
-1. Espandi la sezione **[!UICONTROL Invito all&#39;azione]** e seleziona l&#39;opzione **[!UICONTROL Aggiornamenti aggiuntivi]**. Seleziona il servizio e seleziona l&#39;opzione **[!UICONTROL Rinuncia]**.
+1. Espandi la sezione **[!UICONTROL Call to action]** e seleziona l&#39;opzione **[!UICONTROL Aggiornamenti aggiuntivi]**. Seleziona il servizio e seleziona l&#39;opzione **[!UICONTROL Rinuncia]**.
 
    ![Schermata che mostra l&#39;interfaccia di call-to-action per l&#39;annullamento dell&#39;abbonamento.](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
@@ -183,13 +183,13 @@ Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. Pertanto, devi sempre includere un **collegamento per annullare l&#39;iscrizione** in ogni e-mail inviata ai destinatari. Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 
-Inserire nell&#39;elenco Bloccati Puoi impostare una pagina di destinazione di **[!UICONTROL 1&rbrace; che consentirà agli utenti di rinunciare a tutte le consegne.]**
+Inserire nell&#39;elenco Bloccati Puoi impostare una pagina di destinazione di **[!UICONTROL 1} che consentirà agli utenti di rinunciare a tutte le consegne.]**
 
-1. Inserire nell&#39;elenco Bloccati Quando [crei la pagina di destinazione](create-lp.md#create-landing-page), seleziona il modello **&#x200B;**.
+1. Inserire nell&#39;elenco Bloccati Quando [crei la pagina di destinazione](create-lp.md#create-landing-page), seleziona il modello ****.
 
 1. Selezionare la pagina **[!UICONTROL Inserisce nell&#39;elenco Bloccati]** per modificarne il contenuto.
 
-1. Espandi la sezione **[!UICONTROL Invito all&#39;azione]** e seleziona l&#39;opzione **[!UICONTROL Aggiornamenti aggiuntivi]**.
+1. Espandi la sezione **[!UICONTROL Call to action]** e seleziona l&#39;opzione **[!UICONTROL Aggiornamenti aggiuntivi]**.
 
 1. Dall&#39;elenco a discesa corrispondente, seleziona **[!UICONTROL Canale (e-mail)]** per consentire ai destinatari di rinunciare solo alle comunicazioni e-mail. Puoi anche selezionare **[!UICONTROL Per tutti i canali]** per escluderli da tutte le comunicazioni su tutti i canali.
 

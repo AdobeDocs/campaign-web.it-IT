@@ -6,7 +6,7 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -31,7 +31,7 @@ La palette è divisa in due schede:
 
   >[!NOTE]
   >
-  >Per utilizzare i tipi di pubblico di Adobe Experience Platform, configura l’integrazione con Destinazioni. Consulta la sezione [Documentazione sulle destinazioni di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
+  >Per utilizzare i tipi di pubblico di Adobe Experience Platform, configura l’integrazione con Destinazioni. Consulta la [documentazione sulle destinazioni Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
 
 ## L’area di lavoro
 

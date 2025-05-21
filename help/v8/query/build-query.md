@@ -70,7 +70,7 @@ Per accedere a questa opzione, nella query fai clic sul pulsante di selezione de
 >
 >* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In questi casi, un avviso di notifica **[!UICONTROL Carico parziale]** ti avvisa.
 >* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi. [Scopri come selezionare gli attributi](../get-started/attributes.md)
->* Puoi aggiungere condizioni ai risultati utilizzando **[ !Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
+>* Puoi aggiungere condizioni ai risultati utilizzando **[!Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
@@ -122,7 +122,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
    | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
 
-   +++
++++
 
 1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e di database. A tale scopo, fare clic sul pulsante **Modifica espressione**. [Scopri come modificare le espressioni](expression-editor.md)
 

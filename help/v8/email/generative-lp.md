@@ -6,11 +6,11 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Generazione di pagine di destinazione con AI Assistant{#generative-lp}
+# Generazione della pagina di destinazione con l’Assistente IA{#generative-lp}
 
 >[!IMPORTANT]
 >

@@ -49,8 +49,7 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
    * **[!UICONTROL Codice di consegna]**: organizza le consegne in base alla convenzione di denominazione.
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
-
-   +++
++++
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni sui tipi di pubblico](../audience/about-recipients.md)
 

@@ -61,14 +61,14 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
    * **[!UICONTROL Verifica se il file esiste]**: verifica se un determinato file è presente nel server. Genera due transizioni in uscita dopo l’attività: &quot;Il file esiste&quot; e &quot;Il file non esiste&quot;.
    * **[!UICONTROL File listing]**: elenca tutti i file disponibili sul server.
 
-   +++
++++
 
    +++Azioni disponibili con **Attività di tipo download Web**
 
    * **[!UICONTROL Trasferimento semplice (GET)]**: recupero di un file.
    * **[!UICONTROL Trasferimento tramite modulo (POST)]**: caricare un file e parametri aggiuntivi.
 
-   +++
++++
 
    ![Schermata che mostra le opzioni di azione del file di trasferimento del flusso di lavoro](../assets/workflow-transfer-file-action.png)
 
@@ -148,7 +148,7 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
    * **[!UICONTROL Visualizza i registri di sessione]**: quando questa opzione è attivata, le informazioni relative all&#39;operazione di trasferimento vengono visualizzate nei registri del flusso di lavoro dopo l&#39;esecuzione del flusso di lavoro.
    * **[!UICONTROL Elenca tutti i file]** (azioni di elenco file): questa opzione indicizza tutti i file presenti nel server nella variabile evento `vars.filenames`, in cui i nomi dei file sono separati da `n` caratteri. [Scopri come utilizzare le variabili evento](../event-variables.md)
 
-   +++
++++
 
    +++Opzioni aggiuntive per **[!UICONTROL Attività di tipo download Web]**
 
