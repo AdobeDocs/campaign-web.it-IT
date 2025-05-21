@@ -222,7 +222,7 @@ La simulazione del contenuto non è supportata in questi casi:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * Con consegne riconciliate,
-* Quando il modello di distribuzione di Campaign è [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Quando il modello di distribuzione di Campaign è [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
 * Quando non è stato caricato alcun file.
 
 ## Inviare e monitorare l’e-mail {#prepare-send}
