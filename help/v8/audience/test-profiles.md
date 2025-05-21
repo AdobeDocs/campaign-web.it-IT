@@ -23,7 +23,7 @@ I profili di test vengono utilizzati per inviare bozze e convalidare il contenut
 
 ➡️ [Guarda il video su questa funzione](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 I passaggi per inviare bozze ai profili di test sono descritti in [questa sezione](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ Il profilo di test appena creato è ora pronto per essere utilizzato per inviare
 
 Scopri come creare e gestire i profili di test utilizzando l’interfaccia utente web di Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442903?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

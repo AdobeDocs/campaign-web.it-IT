@@ -98,4 +98,4 @@ Se preferisci non sostituire i risultati del pubblico esistenti, configura le at
 
 Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453210?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

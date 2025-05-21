@@ -51,8 +51,7 @@ Configura le impostazioni di consegna nel modo descritto di seguito:
    * **[!UICONTROL Codice di consegna]**: organizza le consegne in base alla convenzione di denominazione.
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
-
-   +++
++++
 
 ## Selezionare il pubblico della consegna push {#create-audience-push}
 
