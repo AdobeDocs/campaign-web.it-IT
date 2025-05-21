@@ -87,7 +87,7 @@ Segui questi passaggi per configurare il file di esempio utilizzato per definire
    * **[!UICONTROL Errore durante l&#39;elaborazione]** (tipo di dati stringa): specificare il comportamento in caso di errori in una delle righe.
    * **[!UICONTROL Modifica del valore]**: questa opzione consente di mappare valori specifici con valori nuovi. Ad esempio, se la colonna contiene i valori “True”/“False”, puoi aggiungere una mappatura per sostituire automaticamente tali valori con i caratteri “0”/“1”.
 
-+++
+   +++
 
 1. Nella sezione **Formattazione**, specifica la formattazione del file per garantire che i dati vengano importati correttamente.
 
