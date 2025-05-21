@@ -129,7 +129,7 @@ Per creare varianti di lingua, effettua le seguenti operazioni:
 
    >[!IMPORTANT]
    >
-   >Il pulsante **[!UICONTROL Aggiungi lingua]** è disponibile solo se la dimensione di destinazione contiene lo schema Lingua. Per ulteriori informazioni sugli schemi e sulle dimensioni di Target, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >Il pulsante **[!UICONTROL Aggiungi lingua]** è disponibile solo se la dimensione di destinazione contiene lo schema Lingua. Per ulteriori informazioni sugli schemi e sulle dimensioni di Target, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/it/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Per creare varianti di lingua, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Le lingue disponibili in questo elenco dipendono dai valori definiti dall&#39;attributo Language (valori quali: system, user, dbenum, ecc.) Ulteriori informazioni sulla gestione dell&#39;enumerazione in questa [sezione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Le lingue disponibili in questo elenco dipendono dai valori definiti dall&#39;attributo Language (valori quali: system, user, dbenum, ecc.) Ulteriori informazioni sulla gestione dell&#39;enumerazione in questa [sezione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

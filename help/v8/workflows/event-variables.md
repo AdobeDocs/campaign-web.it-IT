@@ -26,7 +26,7 @@ Ogni tipo di **oggetto** è associato a una categoria di **variabili** che è po
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli script e sugli oggetti e le variabili esposti in Adobe Campaign sono disponibili nella documentazione di Campaign v8 (console client) in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>Ulteriori informazioni sugli script e sugli oggetti e le variabili esposti in Adobe Campaign sono disponibili nella documentazione di Campaign v8 (console client) in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Tieni presente che questa risorsa offre informazioni importanti, ma potrebbero esistere delle discrepanze in quanto si applica specificamente alla console client anziché all’interfaccia utente web di Campaign.
 
