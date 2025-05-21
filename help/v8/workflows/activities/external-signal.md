@@ -45,13 +45,13 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
 1. Recupera le seguenti informazioni:
 
-   * Il nome interno del flusso di lavoro ****, visualizzato accanto alla relativa etichetta.
+   * Il nome interno del flusso di lavoro **&#x200B;**, visualizzato accanto alla relativa etichetta.
 
      +++Esempio di visualizzazione
 
      ![La schermata mostra il nome interno del flusso di lavoro accanto alla relativa etichetta.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * Il nome dell&#39;attività **External signal**, visualizzato nelle **[!UICONTROL opzioni di esecuzione]** del flusso di lavoro.
 
@@ -59,7 +59,7 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
      ![La schermata mostra il nome dell&#39;attività External Signal nelle opzioni di esecuzione.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. Per attivare il workflow, eseguire la funzione JavaScript `PostEvent`. Questa funzione ti consente di trasmettere le variabili con i valori desiderati e di utilizzarle nel flusso di lavoro attivato.
 
@@ -79,6 +79,6 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
    ![La schermata mostra un esempio di attivazione dell&#39;attività External Signal tramite la funzione PostEvent.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
