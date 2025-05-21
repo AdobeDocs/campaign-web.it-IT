@@ -37,7 +37,7 @@ Innanzitutto, devi configurare il canale esterno personalizzato. Di seguito sono
 1. Crea un nuovo account esterno di indirizzamento.
 1. Crea un nuovo modello di consegna associato al nuovo canale.
 
-Per ulteriori dettagli, consulta la [documentazione della console client](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Per ulteriori dettagli, consulta la [documentazione della console client](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=it)
 
 ## Creare la consegna{#create-delivery}
 
