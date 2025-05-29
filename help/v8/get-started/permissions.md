@@ -4,9 +4,9 @@ title: Gestione delle autorizzazioni nell’interfaccia utente di Campaign Web
 description: Ulteriori informazioni sulle autorizzazioni nell’interfaccia utente di Campaign Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Puoi fare clic direttamente sulle autorizzazioni e cambiarle in **[!UICONTROL Co
 
 >[!NOTE]
 >
->Non è possibile creare un oggetto per il quale non si dispone di almeno una cartella con diritti di scrittura.
+>Non è possibile creare un oggetto per il quale non disponi di almeno una cartella con diritti di scrittura.
 >
->Per creare i frammenti non è necessario essere un amministratore, ma è necessario disporre dei diritti di scrittura per almeno una cartella &quot;Frammento visivo di contenuto&quot;. In caso contrario, non potrai creare un frammento visivo.
+>Per creare i frammenti non è necessario essere un amministratore, ma devi disporre dei diritti di scrittura per almeno una cartella per “Frammenti visivi di contenuto”. In caso contrario, non potrai creare un frammento visivo.
 
 Se l’opzione **[!UICONTROL Propaga]** è abilitata, tutte le autorizzazioni definite per una cartella vengono applicate a tutte le relative sottocartelle. Queste autorizzazioni possono essere sovrascritte per ogni sottocartella.
 

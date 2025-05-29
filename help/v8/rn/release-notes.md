@@ -3,9 +3,9 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -50,8 +50,8 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 <tbody>
 <tr>
 <td>
-<p>Ora puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign in base ai canali esterni personalizzati. Queste consegne possono essere autonome o far parte di un flusso di lavoro. La creazione del canale esterno personalizzato integrato con una terza parte viene eseguita nella console.</p>
-<p>Nota: il reporting non è disponibile nell’interfaccia web per il canale personalizzato. Per accedere ai rapporti, devi passare alla console client.</p>
+<p>Ora puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign in base a canali esterni personalizzati. Queste consegne possono essere autonome o far parte di un flusso di lavoro. La creazione del canale esterno personalizzato integrato con una terza parte viene eseguita nella console.</p>
+<p>Nota: le funzioni di reporting non sono disponibili nell’interfaccia utente web per il canale personalizzato. Per accedere ai rapporti, devi passare alla console client.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../call-center/gs-custom-channel.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
