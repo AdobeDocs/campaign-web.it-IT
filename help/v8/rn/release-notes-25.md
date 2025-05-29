@@ -5,7 +5,7 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 <tr>
 <td>
 <p>Il canale call center è ora disponibile nell’interfaccia utente di Campaign Web. Questo canale si riferisce a un metodo di comunicazione utilizzato per gestire e tracciare comunicazioni o interazioni gestite tramite un call center, in genere le chiamate telefoniche effettuate dagli agenti a clienti o a potenziali clienti.</p>
-<p>Nota: il reporting non è disponibile nell’interfaccia web per il canale del call center. Per accedere ai rapporti, devi passare alla console client.</p>
+<p>Nota: le funzioni di reporting non sono disponibili nell’interfaccia utente web per il canale call center. Per accedere ai rapporti, devi passare alla console client.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../call-center/gs-call-center.md">documentazione dettagliata</a>.</p>
 </td>
