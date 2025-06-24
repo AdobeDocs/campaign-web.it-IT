@@ -2,10 +2,11 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
+badge: label="Disponibilità limitata"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '346'
 ht-degree: 8%
 
 ---
@@ -16,7 +17,7 @@ Gli avvisi sulla consegna sono un sistema di gestione degli avvisi che consente 
 
 Le notifiche sono personalizzate in base a criteri di avviso specifici definiti tramite l’interfaccia utente web di Adobe Campaign.
 
-Per ulteriori informazioni sulla gestione degli errori di consegna, consulta la [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Per ulteriori informazioni sulla gestione degli errori di consegna, consulta la [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 >[!AVAILABILITY]
 >

@@ -2,10 +2,11 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
+badge: label="Disponibilità limitata"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 24%
 
 ---
@@ -81,7 +82,7 @@ Per creare un dashboard di consegna, segui questi passaggi:
    * **Velocità effettiva minima prevista (in messaggi inviati all&#39;ora)**: solo le consegne con una velocità effettiva inferiore al valore specificato vengono prese in considerazione per il criterio Consegne con velocità effettiva bassa.
    * **Rapporto minimo di elaborazione richiesto per il criterio &quot;Consegne in corso&quot;**: vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati superiore alla percentuale specificata.
 
-   +++
++++
 
 1. Per impostazione predefinita, le dashboard di avviso sono disabilitate, il che significa che gli avvisi e-mail collegati a questa dashboard non vengono inviati. Per attivare immediatamente il dashboard, attivare/disattivare l&#39;opzione **Enabled** nella sezione **General** accanto al campo di selezione del gruppo di avvisi.
 
