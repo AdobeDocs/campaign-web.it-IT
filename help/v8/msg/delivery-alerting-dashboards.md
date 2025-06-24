@@ -2,15 +2,11 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1144'
+ht-degree: 24%
 
 ---
 
@@ -24,6 +20,10 @@ ht-degree: 22%
 Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate. Sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Dashboard**.
 
 ![Schermata che mostra l&#39;elenco delle dashboard di avviso nel menu Avvisi consegna.](assets/alerting-dashboard-list.png)
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Creare una dashboard di consegna {#dashboards}
 
@@ -75,13 +75,13 @@ Per creare un dashboard di consegna, segui questi passaggi:
    * **Periodo di monitoraggio prima e dopo la data di contatto (in ore)**: numero di ore prima e dopo l&#39;ora corrente. Vengono prese in considerazione solo le consegne con una data di contatto in questo intervallo di tempo. Questo parametro si applica a tutti i criteri. Per impostazione predefinita, il valore di questo campo è impostato su 24 ore.
    * **Rapporto massimo di errori di mancato recapito non permanente**: viene inviata una notifica per tutte le consegne con un rapporto di errore di mancato recapito non permanente maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è 0,05 (5%).
    * **Rapporto massimo di errori di mancato recapito permanenti**: viene inviata una notifica per tutte le consegne con un rapporto di errore di mancato recapito permanente maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è 0,05 (5%).
-   * **Soglia minima di tempo per la consegna con stato &quot;Avvio in sospeso&quot; (in minuti)**: viene inviata una notifica per tutte le consegne con stato Avvio in sospeso più lungo della durata specificata in questo campo. Lo stato Avvio in sospeso indica che i messaggi non sono ancora stati presi in considerazione dal sistema.
+   * **Soglia minima di tempo per la consegna con stato &#39;Avvio in sospeso&#39; (in minuti)**: viene inviata una notifica per tutte le consegne con stato Avvio in sospeso più lungo della durata specificata in questo campo. Lo stato Avvio in sospeso indica che i messaggi non sono ancora stati considerati dal sistema.
    * **Tempo minimo richiesto per il calcolo della velocità effettiva (in minuti)**: solo le consegne avviate (con stato In corso) per una durata superiore a quella specificata vengono prese in considerazione per il criterio Consegne con bassa velocità effettiva.
    * **Percentuale massima di messaggi elaborati per il calcolo della velocità effettiva**: solo le consegne con una percentuale di messaggi elaborati inferiore alla percentuale specificata vengono prese in considerazione per il criterio Consegne con bassa velocità effettiva.
    * **Velocità effettiva minima prevista (in messaggi inviati all&#39;ora)**: solo le consegne con una velocità effettiva inferiore al valore specificato vengono prese in considerazione per il criterio Consegne con velocità effettiva bassa.
    * **Rapporto minimo di elaborazione richiesto per il criterio &quot;Consegne in corso&quot;**: vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati superiore alla percentuale specificata.
 
-   +++
++++
 
 1. Per impostazione predefinita, le dashboard di avviso sono disabilitate, il che significa che gli avvisi e-mail collegati a questa dashboard non vengono inviati. Per attivare immediatamente il dashboard, attivare/disattivare l&#39;opzione **Enabled** nella sezione **General** accanto al campo di selezione del gruppo di avvisi.
 

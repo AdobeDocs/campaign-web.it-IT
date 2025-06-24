@@ -2,10 +2,10 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '2470'
-ht-degree: 100%
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 * **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Note sulla versione di luglio {#24-7-release}
@@ -168,9 +168,6 @@ Ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma
 
 Le seguenti funzioni e i miglioramenti sono disponibili per tutti gli utenti a partire dalla versione di giugno.
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Piani e programmi {#24-6-4}
 
@@ -179,6 +176,18 @@ Ora puoi creare piani e programmi per organizzare le campagne. Definendo una ger
 ### Miglioramenti {#improvements-24-6}
 
 * **Attività Riconciliazione in arricchimento**: l’attività **Arricchimento** può ora essere utilizzata per riconciliare i dati provenienti dallo schema del database di Campaign con i dati provenienti da un altro schema o con i dati provenienti da uno schema temporaneo, ad esempio i dati caricati tramite un’attività Carica file. Ad esempio, puoi utilizzare questa opzione per riconciliare il paese di un profilo, specificato in un file caricato, con uno dei paesi disponibili nella tabella dedicata del database di Campaign. [Ulteriori informazioni](../workflows/activities/enrichment.md)
+
+
+### Nuova funzione in Disponibilità limitata {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>La seguente funzionalità è in Disponibilità limitata (LA). È limitato ai clienti che eseguono la migrazione di **da Adobe Campaign Standard ad Adobe Campaign v8** e non può essere distribuito in nessun altro ambiente.
+
+* **Avvisi di consegna**
+
+La funzione Avvisi di consegna è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne. [Ulteriori informazioni](../msg/delivery-alerting.md)
+
 
 ## Note sulla versione di maggio {#24-5-release}
 

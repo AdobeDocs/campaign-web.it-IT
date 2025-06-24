@@ -2,15 +2,11 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 24%
+source-wordcount: '741'
+ht-degree: 26%
 
 ---
 
@@ -26,6 +22,10 @@ L’interfaccia utente di Campaign Web fornisce criteri di avviso predefiniti, a
 I criteri di avviso sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Criteri**.
 
 ![Elenco dei criteri di avviso visualizzati nel menu Avvisi consegna](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Criteri di avviso predefiniti {#ootb-criteria}
 
