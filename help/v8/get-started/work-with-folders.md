@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="Sicurezza cartella"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Restrizioni cartella"
->abstract="Restrizioni cartella"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Pianificazione cartella"
 >abstract="Pianificazione cartella"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Preferiti"
->abstract="Preferiti"
 
 ## Informazioni sulle cartelle {#about-folders}
 
@@ -46,6 +36,16 @@ In Adobe Campaign le cartelle sono oggetti che consentono di organizzare i compo
 ![Interfaccia delle cartelle che mostra l’organizzazione delle cartelle](assets/folders.png){zoomable="yes"}
 
 Puoi impostare un tipo di cartella. Ad esempio, una cartella di consegne. L’icona della cartella cambia in base al tipo.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restrizioni cartella"
+>abstract="Le cartelle Oggetti creati automaticamente e Flussi di lavoro tecnici sono soggetti a restrizioni e non possono essere visualizzati nel pannello laterale sinistro."
+
+>[!IMPORTANT]
+>
+>Le cartelle **[!UICONTROL Oggetti creati automaticamente]** e **[!UICONTROL Flussi di lavoro tecnici]** sono soggetti a restrizioni e non possono essere visualizzati nel pannello laterale sinistro.
+
 
 ## Creare una nuova cartella {#create-a-folder}
 
@@ -80,6 +80,19 @@ In questo esempio, la cartella **Consegne** contiene quattro sottocartelle.
 Puoi cambiare l’ordine delle cartelle **trascinandole** oppure utilizzando le icone **freccia su e freccia giù**.
 
 ![Funzionalità di trascinamento per il riordinamento delle cartelle](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Cartelle preferite {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Preferiti"
+>abstract="Le cartelle preferite verranno visualizzate nella parte superiore della scheda a sinistra."
+
+Le cartelle contrassegnate come &quot;Preferite&quot; verranno sempre visualizzate nella parte superiore della scheda sinistra.
+
+Puoi aggiungere le cartelle come preferite facendo clic sul pulsante con la stella in alto a destra quando visualizzi una cartella.
+
+![Schermata sulla posizione delle cartelle preferite](assets/folders-favorite.png){zoomable="yes"}
 
 ## Eliminare una cartella {#delete-a-folder}
 

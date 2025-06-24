@@ -3,16 +3,18 @@ audience: end-user
 title: Rapporti direct mail
 description: Scopri come accedere e utilizzare i report Direct mail
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 26%
+source-wordcount: '696'
+ht-degree: 25%
 
 ---
 
-# Rapporto sulle consegne Direct mail {#direct-mail-report}
+# Rapporto di consegna esterno {#direct-mail-report}
 
-Il **report di consegna direct mail** fornisce informazioni complete e dati specifici per la consegna direct mail. Include informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne, offrendo una panoramica completa.
+Il **report di consegna esterna** fornisce informazioni complete e dati specifici per la consegna esterna. Include informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne, offrendo una panoramica completa.
+
+Il seguente rapporto è descritto nel contesto della direct mailing. È disponibile anche per il call center e i canali esterni personalizzati.
 
 ## Riepilogo della consegna {#delivery-summary-direct-mail}
 

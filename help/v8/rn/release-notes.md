@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencati nel [2024](release-notes-24.md) e [2025](release-notes-25.md).
 
-## Versione di maggio 2025 {#25-5-release}
+## Versione di giugno 2025 {#25-6-release}
 
-Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versione di maggio.
+### Miglioramenti {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Punteggio di allineamento del brand (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nell’E-mail designer, consentendoti di visualizzare se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../content/brands-score.md">documentazione dettagliata</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Il rapporto Riepilogo consegne è ora disponibile sia per il Call Center che per i canali personalizzati. [Ulteriori informazioni](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Canale personalizzato per consegne esterne</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign in base a canali esterni personalizzati. Queste consegne possono essere autonome o far parte di un flusso di lavoro. La creazione del canale esterno personalizzato integrato con una terza parte viene eseguita nella console.</p>
-<p>Nota: le funzioni di reporting non sono disponibili nell’interfaccia utente web per il canale personalizzato. Per accedere ai rapporti, devi passare alla console client.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../call-center/gs-custom-channel.md">documentazione dettagliata</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Durante la configurazione di una consegna SMS, ora puoi accedere a parametri SMS specifici. Questi sono gli stessi parametri disponibili nella console client. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Miglioramenti {#25-5-improvements}
+* Le cartelle preferite vengono ora visualizzate nella parte superiore del pannello sinistro nella pagina di Explorer, semplificandone l’accesso. [Ulteriori informazioni](../get-started/work-with-folders.md#favorite-folders)
 
-La schermata di creazione delle regole di tipologia è stata aggiornata per facilitare la selezione del tipo di regola.
+* Il Generatore di regole ora supporta il trascinamento della selezione, che consente di ridisporre i componenti della query in modo più efficiente. [Ulteriori informazioni](../query/build-query.md#drag-and-drop)
+
+* La &quot;condizione umana&quot; nel Generatore di regole è stata migliorata. Questa è la versione scritta in linguaggio semplice delle regole, visualizzata nella parte inferiore dello schermo:
+
+   * Gli attributi vengono ora evidenziati e viene visualizzato lo schema associato.
+   * Puoi fare clic su questi elementi per visualizzare informazioni più dettagliate.
+   * Ora puoi copiare la condizione umana utilizzando il pulsante corrispondente.
+
+* L’accesso alle cartelle &quot;Flussi di lavoro tecnici&quot; e &quot;Oggetti creati automaticamente&quot; è ora limitato per impedirne la visualizzazione. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders)

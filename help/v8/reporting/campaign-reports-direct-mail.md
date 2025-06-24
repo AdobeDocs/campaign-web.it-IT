@@ -3,16 +3,18 @@ audience: end-user
 title: Rapporti sulle campagne per il canale Direct mail
 description: Comprendere i rapporti sulle campagne per il canale Direct mail
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 42%
+source-wordcount: '574'
+ht-degree: 40%
 
 ---
 
-# Rapporti sulle campagne per il canale Direct mail {#campaign-reports-direct-mail}
+# Rapporti sulle campagne per i canali di consegna esterni {#campaign-reports-direct-mail}
 
-Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Di seguito sono riportati i rapporti e le metriche per il canale direct mailing. Scopri come accedere ai rapporti sulle campagne in [questa pagina](campaign-reports.md).
+Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Di seguito sono riportati i rapporti e le metriche per i canali di consegna esterni. Scopri come accedere ai rapporti sulle campagne in [questa pagina](campaign-reports.md).
+
+Il seguente rapporto è descritto nel contesto della direct mailing. È disponibile anche per il call center e i canali esterni personalizzati.
 
 ## Riepilogo della consegna {#delivery-summary-direct}
 
