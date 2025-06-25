@@ -4,10 +4,10 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
+source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 41%
+source-wordcount: '3159'
+ht-degree: 43%
 
 ---
 
@@ -103,7 +103,7 @@ Il campo **[!UICONTROL Importanza del destinatario]** è una formula utilizzata 
 
 In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Il mapping di destinazione è il tipo di dati gestito da un&#39;operazione. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc. [Ulteriori informazioni sulle mappature di destinazione](../audience/targeting-dimensions.md).
 
-Nel campo **[!UICONTROL Esclusione]** puoi selezionare di escludere i profili che non desiderano più essere contattati o che sono in quarantena. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=it){target="_blank"}
+Nel campo **[!UICONTROL Esclusione]** puoi selezionare di escludere i profili che non desiderano più essere contattati o che sono in quarantena. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Consegna {#delivery}
 
@@ -130,7 +130,7 @@ Puoi definire le impostazioni **[!UICONTROL Invio]** di seguito.
 
 * **[!UICONTROL Verifica consegna SMTP]** (canale e-mail): questa opzione viene utilizzata per testare l&#39;invio tramite SMTP. L’e-mail viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario dell’e-mail, Campaign si connette al server provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=it){target="_blank"}.
+* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Nella sezione **[!UICONTROL Definizione ondata]**, selezionare l&#39;opzione **[!UICONTROL Invia con più ondate]** per aumentare progressivamente il volume inviato tramite ondate. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
@@ -159,7 +159,7 @@ Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 
 >[!NOTE]
 >
->Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=it#external-account-ac){target="_blank"}.
+>Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Nuovi tentativi {#retries}
 
@@ -288,16 +288,20 @@ In questa sezione puoi impostare i parametri di esclusione. Le opzioni disponibi
 
 I parametri di consegna SMS sono impostazioni tecniche che si applicano alla consegna SMS. Puoi definire l’indirizzo del mittente, i parametri del servizio, la modalità di trasmissione e altro ancora. Queste opzioni sono disponibili solo per utenti esperti.
 
-* **[!UICONTROL Indirizzo mittente]**
+<!--
 
-  La specifica SMPP limita il campo a 21 caratteri, ma alcuni provider possono consentire valori più lunghi. Tieni presente che in alcuni paesi possono essere applicate restrizioni molto rigide (lunghezza, contenuto, caratteri consentiti, ecc.), pertanto potrebbe essere necessario verificare che il contenuto inserito qui sia legale. Presta particolare attenzione quando utilizzi campi personalizzati.
+* **[!UICONTROL Sender address]**
+
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
-  Questo campo facoltativo consente di escludere l&#39;indirizzo del mittente (oADC). Il relativo contenuto viene inserito nel campo *source_addr* della PDU SUBMIT_SM.
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
 
-  Anche se la specifica SMPP limita questo campo a 21 caratteri, alcuni provider potrebbero supportare valori più lunghi. Tieni presente che alcuni paesi impongono regole severe agli indirizzi dei mittenti (per quanto riguarda lunghezza, contenuto, caratteri consentiti e così via), quindi verifica sempre che l’input sia conforme ai requisiti locali. Fai molta attenzione quando lavori con campi personalizzati.
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
 
-  Se questo campo viene lasciato vuoto, verrà utilizzato il valore del campo del numero di Source definito nell’account esterno. Se entrambi i valori sono vuoti, il campo *source_addr* verrà lasciato vuoto.
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+-->
 
 * **[!UICONTROL Tipo di servizio]**:
 
