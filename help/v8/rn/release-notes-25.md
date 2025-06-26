@@ -2,9 +2,9 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2025 dell’interfaccia utente di Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # Note sulle versioni 2025 {#2025-release}
 
 In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2025**. Le note più recenti sulla versione sono disponibili in [questa pagina](release-notes.md).
+
+## Versione di maggio 2025 {#25-5-release}
+
+Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versione di maggio.
+
+<table>
+<thead>
+<tr>
+<th><strong>Punteggio di allineamento del brand (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La funzione di punteggio di allineamento del brand offre un feedback chiaro direttamente nell’E-mail designer, consentendoti di visualizzare se il contenuto è allineato al tono, allo stile e alle linee guida del brand. Questa funzione è disponibile in versione Beta.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content/brands-score.md">documentazione dettagliata</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canale personalizzato per consegne esterne</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign in base a canali esterni personalizzati. Queste consegne possono essere autonome o far parte di un flusso di lavoro. La creazione del canale esterno personalizzato integrato con una terza parte viene eseguita nella console.</p>
+<p>Nota: le funzioni di reporting non sono disponibili nell’interfaccia utente web per il canale personalizzato. Per accedere ai rapporti, devi passare alla console client.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../call-center/gs-custom-channel.md">documentazione dettagliata</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#25-5-improvements}
+
+La schermata di creazione delle regole di tipologia è stata aggiornata per facilitare la selezione del tipo di regola.
 
 ## Versione di aprile 2025 {#25-4-release}
 
