@@ -4,7 +4,7 @@ title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagne"
->abstract="Sfoglia l’elenco delle campagne. Seleziona una campagna per visualizzarne il contenuto, le consegne e i dettagli. Puoi filtrare per stato, date di inizio/fine o con regole personalizzate. Puoi anche visualizzare rapporti delle campagne completate. Fai clic sul pulsante **Crea campagna** per aggiungere una nuova campagna. Passa alla scheda **Modelli** per visualizzare e creare modelli."
+>abstract="Sfoglia l’elenco delle campagne. Seleziona una campagna per visualizzarne il contenuto, le consegne e i dettagli. Puoi filtrare per stato, date di inizio e di fine o con regole personalizzate. Puoi anche visualizzare rapporti delle campagne completate. Fai clic sul pulsante **Crea campagna** per aggiungere una nuova campagna. Passa alla scheda **Modelli** per visualizzare e creare modelli."
 
 Adobe Campaign consente di orchestrare facilmente le iniziative di marketing mirate, utilizzando le funzionalità incorporate per la gestione delle campagne. Grazie alla possibilità di definire una pianificazione, puoi pianificare la durata e la tempistica delle campagne in modo da allinearle agli obiettivi strategici e ottimizzare il coinvolgimento del pubblico.
 
