@@ -5,8 +5,8 @@ description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Puoi impostare un tipo di cartella. Ad esempio, una cartella di consegne. L’ic
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
->title="Restrizioni cartella"
->abstract="Le cartelle Oggetti creati automaticamente e Flussi di lavoro tecnici sono soggetti a restrizioni e non possono essere visualizzati nel pannello laterale sinistro."
+>title="Restrizioni delle cartelle"
+>abstract="Le cartelle per oggetti creati automaticamente e flussi di lavoro tecnici sono soggette a restrizioni e non possono essere visualizzate nel pannello laterale sinistro."
 
 >[!IMPORTANT]
 >

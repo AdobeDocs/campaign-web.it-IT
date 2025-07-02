@@ -4,8 +4,8 @@ description: Scopri come configurare i campi personalizzati e la loro visibilit�
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 22%
 >title="Impostazioni attributo"
 >abstract="Impostazioni attributo"
 
-I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione. Scopri come estendere uno schema nella [documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=it){target="_blank"}.
+I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione. Scopri come estendere uno schema nella [documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
 I campi personalizzati possono essere visualizzati in varie schermate, ad esempio nei dettagli del profilo nell’interfaccia web di Campaign. Gli amministratori possono controllare quali campi sono visibili e come appaiono. Queste modifiche si applicano a tutti gli utenti di Campaign.
 
@@ -64,7 +64,7 @@ I campi personalizzati sono disponibili per i seguenti schemi:
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
->title="Definizione schermata"
+>title="Definizione della schermata"
 >abstract="Definisci l’elenco dei campi personalizzati da modificare per lo schema e le relative proprietà. Fai clic sul pulsante **Anteprima** per visualizzare i campi personalizzati in una schermata di esempio."
 
 
@@ -128,7 +128,7 @@ Le impostazioni disponibili sono:
 
   ![Schermata con un esempio di impostazioni di filtro per i campi personalizzati](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Estendi due colonne]**: per impostazione predefinita, i campi personalizzati vengono visualizzati nell&#39;interfaccia in due colonne. Attiva questa opzione per visualizzare i campi personalizzati su tutta la larghezza dello schermo anziché su due colonne.
 

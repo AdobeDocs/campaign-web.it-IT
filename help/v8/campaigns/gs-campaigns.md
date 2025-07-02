@@ -5,8 +5,8 @@ description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
