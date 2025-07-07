@@ -247,7 +247,7 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Assicurati che il CSS non sia sostituito da altre regole CSS.
 
