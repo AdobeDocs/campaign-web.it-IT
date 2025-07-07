@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: css, editor, riepilogo, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -41,14 +41,13 @@ Per aggiungere CSS personalizzati al contenuto delle e-mail, segui i passaggi in
 
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi CSS personalizzato]**.
 
-1. Inserisci il codice CSS nell’area di testo dedicata visualizzata. Assicurati che il CSS personalizzato sia valido e che segua la sintassi corretta. [Ulteriori informazioni](#use-valid-css)
-
-   ![Inserisci CSS personalizzato nell&#39;area di testo dedicata](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >Il pulsante **[!UICONTROL Aggiungi CSS personalizzato]** è disponibile solo quando è selezionato **[!UICONTROL Corpo]**. Tuttavia, puoi applicare stili CSS personalizzati a tutti i componenti all’interno del contenuto.
 
+1. Inserisci il codice CSS nell’area di testo dedicata visualizzata. Assicurati che il CSS personalizzato sia valido e che segua la sintassi corretta. [Ulteriori informazioni](#use-valid-css)
+
+   ![Inserisci CSS personalizzato nell&#39;area di testo dedicata](assets/email-body-custom-css.png){width="65%"}
 
 1. Salva il CSS personalizzato e verifica che il CSS personalizzato sia applicato correttamente al contenuto. In caso contrario, controllare la sezione [Risoluzione dei problemi](#troubleshooting).
 
@@ -68,8 +67,9 @@ Per aggiungere CSS personalizzati al contenuto delle e-mail, segui i passaggi in
 >
 >Evita l’utilizzo di CSS che potrebbero interrompere involontariamente il layout o la funzionalità del contenuto.
 
-+++ Esempi di un CSS valido
++++ Esempi di CSS
 
+Di seguito sono riportati alcuni esempi di CSS validi.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -208,7 +208,7 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
 
-Se l&#39;attributo `data-disabled` del tag di stile `global-custom` è impostato su `true`, il CSS personalizzato non verrà applicato.
+Se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`, il CSS personalizzato non verrà applicato.
 
 +++ Vedi esempio
 
@@ -220,7 +220,7 @@ Ad esempio:
 
 +++
 
-## Guardrail
+## Guardrail - Contenuto importato
 
 Se desideri utilizzare CSS personalizzati con il contenuto importato nel Designer e-mail, considera quanto segue:
 
@@ -237,20 +237,30 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
 * Assicurati che il CSS sia valido e privo di errori di sintassi (ad esempio parentesi graffe mancanti, nomi di proprietà errati). [Scopri come](#use-valid-css)
 
-* Verifica che il tuo CSS venga aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"` e che `data-disabled` non sia applicato a `global-custom`. [Ulteriori informazioni](#implementation)
+* Verifica che il tuo CSS sia stato aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"`.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* Verificare se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++Ad esempio:
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* Assicurati che il CSS non sia sostituito da altre regole CSS.
+
+   * Utilizza gli strumenti di sviluppo del browser per esaminare il contenuto e verificare che i CSS stiano eseguendo il targeting dei selettori corretti.
+
+   * Prendi in considerazione l&#39;aggiunta di `!important` alle tue dichiarazioni per assicurarti che abbiano la precedenza.
+
++++ Ad esempio:
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
