@@ -3,9 +3,9 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencat
 
 ### Miglioramenti {#25-6-improvements}
 
-* Il rapporto Riepilogo consegne è ora disponibile sia per il Call Center che per i canali personalizzati. [Ulteriori informazioni](../reporting/direct-mail.md)
+* Il rapporto Riepilogo delle consegne è ora disponibile sia per il canale call center che per quelli personalizzati. [Ulteriori informazioni](../reporting/direct-mail.md)
 
 * Durante la configurazione di una consegna SMS, ora puoi accedere a parametri SMS specifici. Questi sono gli stessi parametri disponibili nella console client. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#sms-tab)
 
-* Le cartelle preferite vengono ora visualizzate nella parte superiore del pannello sinistro nella pagina di Explorer, semplificandone l’accesso. [Ulteriori informazioni](../get-started/work-with-folders.md#favorite-folders)
+* Le cartelle preferite vengono ora visualizzate nella parte superiore del pannello a sinistra nella pagina di Explorer, semplificandone l’accesso. [Ulteriori informazioni](../get-started/work-with-folders.md#favorite-folders)
 
 * Il Generatore di regole ora supporta il trascinamento della selezione, che consente di ridisporre i componenti della query in modo più efficiente. [Ulteriori informazioni](../query/build-query.md#drag-and-drop)
 
-* La &quot;condizione umana&quot; nel Generatore di regole è stata migliorata. Questa è la versione scritta in linguaggio semplice delle regole, visualizzata nella parte inferiore dello schermo:
+* La “condizione umana” nel Generatore di regole è stata migliorata. Questa è la versione delle regole scritta in linguaggio semplice e mostrata nella parte inferiore dello schermo:
 
    * Gli attributi vengono ora evidenziati e viene visualizzato lo schema associato.
    * Puoi fare clic su questi elementi per visualizzare informazioni più dettagliate.
    * Ora puoi copiare la condizione umana utilizzando il pulsante corrispondente.
 
-* L’accesso alle cartelle &quot;Flussi di lavoro tecnici&quot; e &quot;Oggetti creati automaticamente&quot; è ora limitato per impedirne la visualizzazione. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders)
+* L’accesso alle cartelle “Flussi di lavoro tecnici” e “Oggetti creati automaticamente” è ora limitato per impedirne la visualizzazione. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders)

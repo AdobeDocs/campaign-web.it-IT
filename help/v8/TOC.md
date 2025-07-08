@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
          + [Regolare l’allineamento verticale e la spaziatura](email/alignment-and-padding.md)
          + [Definire uno stile per i collegamenti](email/styling-links.md)
          + [Aggiungere attributi di stile in linea](email/inline-styling.md)
-         + [Aggiungere un CSS personalizzato](email/custom-css.md)
+         + [Aggiungi CSS personalizzato](email/custom-css.md)
    + Assistente IA {#ai-assistant}
       + [Utilizzare l’Assistente IA](email/generative-gs.md)
       + [Generazione di e-mail con l’IA](email/generative-content.md)
@@ -218,13 +218,13 @@ ht-degree: 98%
       + [Rapporto sulla consegna e-mail](reporting/email-report.md)
       + [Rapporto sulle consegne push](reporting/push-report.md)
       + [Rapporto sulla consegna SMS](reporting/sms-report.md)
-      + [Rapporto di consegna esterno](reporting/direct-mail.md)
+      + [Rapporto sulla consegna esterna](reporting/direct-mail.md)
    + Rapporti sulla campagna {#campaign-report}
       + [Introduzione ai rapporti sulle campagne](reporting/campaign-reports.md)
       + [Rapporto sulla campagna e-mail](reporting/campaign-reports-email.md)
       + [Rapporto sulla campagna push](reporting/campaign-reports-push.md)
       + [Rapporto sulla campagna SMS](reporting/campaign-reports-sms.md)
-      + [Rapporto campagna di consegna esterna](reporting/campaign-reports-direct-mail.md)
+      + [Rapporto sulla campagna di consegna esterna](reporting/campaign-reports-direct-mail.md)
    + Rapporti globali {#global-report}
       + [Introduzione ai rapporti globali](reporting/global-reports.md)
       + [Rapporto globale e-mail](reporting/global-report-email.md)

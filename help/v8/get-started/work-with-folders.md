@@ -4,9 +4,9 @@ title: Utilizzare le cartelle
 description: Scopri come gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '721'
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Puoi impostare un tipo di cartella. Ad esempio, una cartella di consegne. L’ic
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
->title="Restrizioni delle cartelle"
->abstract="Le cartelle per oggetti creati automaticamente e flussi di lavoro tecnici sono soggette a restrizioni e non possono essere visualizzate nel pannello laterale sinistro."
+>title="Restrizioni cartella"
+>abstract="Le cartelle Oggetti creati automaticamente e Flussi di lavoro tecnici sono soggette a restrizioni e non possono essere visualizzate nel pannello laterale a sinistra."
 
 >[!IMPORTANT]
 >
->Le cartelle **[!UICONTROL Oggetti creati automaticamente]** e **[!UICONTROL Flussi di lavoro tecnici]** sono soggetti a restrizioni e non possono essere visualizzati nel pannello laterale sinistro.
+>Le cartelle **[!UICONTROL Oggetti creati automaticamente]** e **[!UICONTROL Flussi di lavoro tecnici]** sono soggette a restrizioni e non possono essere visualizzate nel pannello laterale a sinistra.
 
 
 ## Creare una nuova cartella {#create-a-folder}
@@ -85,14 +85,14 @@ Puoi cambiare l’ordine delle cartelle **trascinandole** oppure utilizzando le 
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
->title="Preferiti"
+>title="Preferite"
 >abstract="Le cartelle preferite verranno visualizzate nella parte superiore della scheda a sinistra."
 
-Le cartelle contrassegnate come &quot;Preferite&quot; verranno sempre visualizzate nella parte superiore della scheda sinistra.
+Le cartelle contrassegnate come “Preferite” verranno visualizzate sempre nella parte superiore della scheda a sinistra.
 
-Puoi aggiungere le cartelle come preferite facendo clic sul pulsante con la stella in alto a destra quando visualizzi una cartella.
+Puoi aggiungere cartelle come preferite facendo clic sul pulsante a forma di stella in alto a destra quando visualizzi una cartella.
 
-![Schermata sulla posizione delle cartelle preferite](assets/folders-favorite.png){zoomable="yes"}
+![Schermata di posizione delle cartelle preferite](assets/folders-favorite.png){zoomable="yes"}
 
 ## Eliminare una cartella {#delete-a-folder}
 
