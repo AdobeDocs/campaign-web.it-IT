@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, editor, riepilogo, e-mail
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ Di seguito sono riportati alcuni esempi di CSS validi.
 
 +++
 
-+++ Esempi di CSS non valido
-
 Se viene immesso un CSS non valido, viene visualizzato un messaggio di errore che indica che il CSS non può essere salvato. Di seguito sono riportati alcuni esempi di file CSS non validi.
+
++++ Esempi di CSS non valido
 
 L&#39;utilizzo di `<style>` tag non è accettato:
 
@@ -208,17 +208,19 @@ Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come 
 
 Il file CSS personalizzato non viene interpretato o convalidato dal riquadro **[!UICONTROL Impostazioni]** di E-mail Designer. È completamente indipendente e può essere modificata solo tramite l&#39;opzione **[!UICONTROL Aggiungi CSS personalizzato]**.
 
-Se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`, il CSS personalizzato non verrà applicato.
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ Vedi esempio
++++ See sample
 
-Ad esempio:
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## Guardrail - Contenuto importato
 
@@ -247,7 +249,7 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * Assicurati che il CSS non sia sostituito da altre regole CSS.
 
