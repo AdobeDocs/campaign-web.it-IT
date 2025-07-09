@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare i servizi di iscrizione
 description: Scopri come accedere, creare e gestire i servizi di iscrizione in Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1127'
 ht-degree: 44%
 
 ---
@@ -87,10 +87,6 @@ Per creare un servizio di iscrizione, segui i passaggi riportati di seguito.
 1. Fai clic su **[!UICONTROL Salva e rivedi]**. Il nuovo servizio viene aggiunto all’elenco **[!UICONTROL Servizi di iscrizione]**.
 
 1. Seleziona le pagine di destinazione predefinite per l’abbonamento e il suo annullamento associate a questo servizio.
-
-   >[!AVAILABILITY]
-   >
-   >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
    ![Schermata che mostra le impostazioni predefinite della pagina di destinazione per un servizio in abbonamento](assets/service-create-default-lp.png){zoomable="yes"}
 

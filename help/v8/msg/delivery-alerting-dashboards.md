@@ -2,12 +2,11 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
-badge: label="Disponibilità limitata"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 24%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate. Sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Dashboard**.
 
 ![Schermata che mostra l&#39;elenco delle dashboard di avviso nel menu Avvisi consegna.](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Creare una dashboard di consegna {#dashboards}
 
@@ -82,7 +77,7 @@ Per creare un dashboard di consegna, segui questi passaggi:
    * **Velocità effettiva minima prevista (in messaggi inviati all&#39;ora)**: solo le consegne con una velocità effettiva inferiore al valore specificato vengono prese in considerazione per il criterio Consegne con velocità effettiva bassa.
    * **Rapporto minimo di elaborazione richiesto per il criterio &quot;Consegne in corso&quot;**: vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati superiore alla percentuale specificata.
 
-   +++
++++
 
 1. Per impostazione predefinita, le dashboard di avviso sono disabilitate, il che significa che gli avvisi e-mail collegati a questa dashboard non vengono inviati. Per attivare immediatamente il dashboard, attivare/disattivare l&#39;opzione **Enabled** nella sezione **General** accanto al campo di selezione del gruppo di avvisi.
 

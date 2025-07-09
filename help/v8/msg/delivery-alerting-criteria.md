@@ -2,12 +2,11 @@
 audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
-badge: label="Disponibilità limitata"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 26%
+source-wordcount: '712'
+ht-degree: 24%
 
 ---
 
@@ -23,10 +22,6 @@ L’interfaccia utente di Campaign Web fornisce criteri di avviso predefiniti, a
 I criteri di avviso sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Criteri**.
 
 ![Elenco dei criteri di avviso visualizzati nel menu Avvisi consegna](assets/alerting-criteria-list.png)
-
->[!AVAILABILITY]
->
->Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Criteri di avviso predefiniti {#ootb-criteria}
 

@@ -2,16 +2,36 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2025 dell’interfaccia utente di Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # Note sulle versioni 2025 {#2025-release}
 
 In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2025**. Le note più recenti sulla versione sono disponibili in [questa pagina](release-notes.md).
+
+## Versione di giugno 2025 {#25-6-release}
+
+### Miglioramenti {#25-6-improvements}
+
+* Il rapporto Riepilogo delle consegne è ora disponibile sia per il canale call center che per quelli personalizzati. [Ulteriori informazioni](../reporting/direct-mail.md)
+
+* Durante la configurazione di una consegna SMS, ora puoi accedere a parametri SMS specifici. Questi sono gli stessi parametri disponibili nella console client. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Le cartelle preferite vengono ora visualizzate nella parte superiore del pannello a sinistra nella pagina di Explorer, semplificandone l’accesso. [Ulteriori informazioni](../get-started/work-with-folders.md#favorite-folders)
+
+* Il Generatore di regole ora supporta il trascinamento della selezione, che consente di ridisporre i componenti della query in modo più efficiente. [Ulteriori informazioni](../query/build-query.md#drag-and-drop)
+
+* La “condizione umana” nel Generatore di regole è stata migliorata. Questa è la versione delle regole scritta in linguaggio semplice e mostrata nella parte inferiore dello schermo:
+
+   * Gli attributi vengono ora evidenziati e viene visualizzato lo schema associato.
+   * Puoi fare clic su questi elementi per visualizzare informazioni più dettagliate.
+   * Ora puoi copiare la condizione umana utilizzando il pulsante corrispondente.
+
+* L’accesso alle cartelle “Flussi di lavoro tecnici” e “Oggetti creati automaticamente” è ora limitato per impedirne la visualizzazione. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders)
 
 ## Versione di maggio 2025 {#25-5-release}
 
@@ -153,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **Reporting dinamico per multilingue**: il reporting dinamico è ora disponibile per le consegne di e-mail multilingue. Per ulteriori informazioni, consulta la [documentazione dettagliata](../reporting/global-reports.md).
 
-* **Supporto API REST SMS (LA)**: l’API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo “wishedChannel” per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che wishedChannel non richieda esplicitamente l’invio di SMS. Per ulteriori informazioni, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **Supporto API REST SMS (LA)**: l’API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo “wishedChannel” per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che wishedChannel non richieda esplicitamente l’invio di SMS. Per ulteriori informazioni, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}.
 
 ## Versione di febbraio 2025 {#25-2-release}
 

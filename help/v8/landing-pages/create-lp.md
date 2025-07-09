@@ -3,10 +3,10 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 25%
+source-wordcount: '1643'
+ht-degree: 24%
 
 ---
 
@@ -116,10 +116,6 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
    * L&#39;opzione **[!UICONTROL Autorizza assenza ID]** consente a qualsiasi visitatore di accedere alla pagina di destinazione. Deselezionando questa opzione si impedisce ai visitatori anonimi di utilizzarla, il che significa che solo gli utenti identificati possono accedere al modulo e inviarlo.
 
-     >[!AVAILABILITY]
-     >
-     >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
-
      Per i modelli **[!UICONTROL Acquisizione]** e **[!UICONTROL Sottoscrizione]**, questa opzione è selezionata per impostazione predefinita. Per i modelli **[!UICONTROL Annullamento sottoscrizione]** e **[!UICONTROL Inserisco nell&#39;elenco Bloccati]**, questa opzione è deselezionata per impostazione predefinita e non può essere modificata.
 
 1. Una pagina di destinazione può avere pagine successive. Per aggiungere pagine, sfoglia la sezione **[!UICONTROL Pagine]** e fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per ogni pagina che desideri progettare per questa pagina di destinazione. Il contenuto di ogni pagina è già precompilato. Modificali in base alle esigenze. [Ulteriori informazioni](lp-content.md).
@@ -133,10 +129,6 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
    ![Schermata che mostra le opzioni di archiviazione per la pagina di destinazione.](assets/lp-storage.png){zoomable="yes"}
 
 1. Crea **[!UICONTROL Dati aggiuntivi]** per memorizzare i dati interni durante l&#39;invio della pagina di destinazione. Questi dati non sono visibili agli utenti che visitano la pagina. Vengono presi in considerazione solo i valori costanti.
-
-   >[!AVAILABILITY]
-   >
-   >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
    ![Schermata che mostra la sezione dei dati aggiuntivi.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Per creare una pagina di destinazione, effettua le seguenti operazioni:
 Una volta definite tutte le impostazioni e [progettate](lp-content.md) tutte le pagine, puoi [testare](#test-landing-page) e [pubblicare](#publish-landing-page) la tua pagina di destinazione come descritto di seguito.
 
 ## Proteggi la pagina di destinazione con un captcha {#captcha}
-
->[!AVAILABILITY]
->
->Questa funzionalità è a disponibilità limitata (LA). È limitato ai clienti che utilizzano **Adobe Campaign v8.7.2 aggiornato con l&#39;ultima versione di correzione** e non può essere distribuito in nessun altro ambiente.
 
 La configurazione di un captcha ti aiuta a proteggere la pagina di destinazione da spam e abusi.
 

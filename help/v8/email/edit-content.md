@@ -3,7 +3,7 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come modificare il contenuto delle e-mail nell’interfaccia utente web di Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 42%
@@ -113,7 +113,7 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
 
 1. Una volta definito il contenuto dell’e-mail, prima di inviarla utilizza il pulsante **[!UICONTROL Simula contenuto]** per controllarne l’aspetto. [Scopri come visualizzare in anteprima e verificare l&#39;e-mail](../preview-test/preview-test.md).
 
-## Configurare una consegna multilingue
+## Configurare una consegna multilingue {#multilingual-delivery}
 
 Nell’interfaccia utente web di Campaign, puoi impostare le consegne e-mail come multilingue, che consente di inviare messaggi in base alla lingua preferita di un profilo. Se non è definita alcuna preferenza, il messaggio viene inviato nella lingua predefinita.
 
@@ -129,7 +129,7 @@ Per creare varianti di lingua, effettua le seguenti operazioni:
 
    >[!IMPORTANT]
    >
-   >Il pulsante **[!UICONTROL Aggiungi lingua]** è disponibile solo se la dimensione di destinazione contiene lo schema Lingua. Per ulteriori informazioni sugli schemi e sulle dimensioni di Target, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/it/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >Il pulsante **[!UICONTROL Aggiungi lingua]** è disponibile solo se la dimensione di destinazione contiene lo schema Lingua. Per ulteriori informazioni sugli schemi e sulle dimensioni di Target, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Per creare varianti di lingua, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Le lingue disponibili in questo elenco dipendono dai valori definiti dall&#39;attributo Language (valori quali: system, user, dbenum, ecc.) Ulteriori informazioni sulla gestione dell&#39;enumerazione in questa [sezione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Le lingue disponibili in questo elenco dipendono dai valori definiti dall&#39;attributo Language (valori quali: system, user, dbenum, ecc.) Ulteriori informazioni sulla gestione dell&#39;enumerazione in questa [sezione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

@@ -3,10 +3,10 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 16%
+source-wordcount: '1161'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,6 @@ Per progettare ulteriormente il contenuto della pagina di destinazione:
 * Utilizza gli stessi componenti utilizzati per progettare un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
 * Aggiungi contenuto condizionale alle pagine di destinazione nello stesso modo di un’e-mail. [Ulteriori informazioni](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 
 ## Utilizzare il componente modulo {#use-form-component}
 
@@ -94,9 +90,9 @@ Per definire un contenuto specifico che consenta agli utenti di selezionare e in
 
 1. Elimina e aggiungi tutti i campi (ad esempio campi di testo, pulsanti di scelta, caselle di controllo, elenchi a discesa e così via) necessari.
 
-1. Una volta aggiunti o aggiornati tutti i campi, fai clic su **[!UICONTROL Invito all&#39;azione]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nel componente **[!UICONTROL Modulo]**. [Scopri come](#define-actions-on-form-submission)
+1. Una volta aggiunti o aggiornati tutti i campi, fai clic su **[!UICONTROL Call to action]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nel componente **[!UICONTROL Modulo]**. [Scopri come](#define-actions-on-form-submission)
 
-   ![Impostazioni invito all&#39;azione nel componente modulo](assets/lp-call-to-action.png){zoomable="yes"}
+   ![Impostazioni Call to action nel componente modulo](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Salva il contenuto per tornare alle [proprietà della pagina di destinazione](create-lp.md#create-landing-page).
 
@@ -125,10 +121,6 @@ Per definire un contenuto specifico che consenta agli utenti di selezionare e in
 
 1. Selezionare l&#39;opzione **[!UICONTROL Servizio dall&#39;URL]** per consentire l&#39;utilizzo della pagina di destinazione per diversi servizi, rendendola dinamica. Definisci se desideri dare il consenso o rinunciare agli utenti durante l’invio del modulo.
 
-   >[!AVAILABILITY]
-   >
-   >Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
-
    ![Servizio dalle impostazioni URL nel componente modulo](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Durante la progettazione di un&#39;e-mail, se definisci un collegamento di tipo **[!UICONTROL Pagina di destinazione]** a questa pagina di destinazione, puoi selezionare qualsiasi servizio dall&#39;elenco. Puoi quindi selezionare altri servizi durante la definizione degli altri collegamenti a questa pagina di destinazione. [Ulteriori informazioni sull&#39;inserimento di collegamenti](../email/message-tracking.md)
@@ -139,13 +131,9 @@ Per definire un contenuto specifico che consenta agli utenti di selezionare e in
 
 ### Invia un messaggio dopo l’invio {#lp-message}
 
->[!AVAILABILITY]
->
->Questa funzionalità è a disponibilità limitata (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
-
 Per inviare automaticamente un messaggio di conferma dopo l’invio di una pagina di destinazione, effettua le seguenti operazioni:
 
-1. Nella sezione **[!UICONTROL INVITO ALL&#39;AZIONE]**, seleziona l&#39;opzione **[!UICONTROL Invia messaggio di conferma]**.
+1. Nella sezione **[!UICONTROL CALL TO ACTION]**, seleziona l&#39;opzione **[!UICONTROL Invia messaggio di conferma]**.
 
 1. Nell’elenco a discesa associato, scegli il modello di messaggio transazionale da inviare.
 
@@ -165,7 +153,7 @@ Per inviare automaticamente un messaggio di conferma dopo l’invio di una pagin
 
 1. Espandere e modificare qualsiasi altra sezione corrispondente ad altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
 
-1. Espandi la sezione **[!UICONTROL Invito all&#39;azione]** per modificare l&#39;aspetto del pulsante nel modulo del componente. Ad esempio, modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
+1. Espandere la sezione **[!UICONTROL Call to action]** per modificare l&#39;aspetto del pulsante nel modulo del componente. Ad esempio, modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 
    ![Impostazioni stile invito all&#39;azione](assets/lp-call-to-action-style.png){zoomable="yes"}
 
