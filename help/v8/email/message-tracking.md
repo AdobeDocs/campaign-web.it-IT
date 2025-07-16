@@ -3,10 +3,10 @@ audience: end-user
 title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '568'
+ht-degree: 21%
 
 ---
 
@@ -31,10 +31,6 @@ Per inserire collegamenti nel contenuto dell’e-mail, effettua le seguenti oper
    ![Schermata che mostra l&#39;interfaccia per l&#39;inserimento di collegamenti nello strumento di verifica dei messaggi](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Collegamento esterno]**: inserire un collegamento a un URL esterno.
-
-     >[!AVAILABILITY]
-     >
-     >Le seguenti funzionalità (collegamento a **[!UICONTROL Pagina di destinazione]**, **[!UICONTROL Collegamento abbonamento]** e **[!UICONTROL Collegamento annullamento abbonamento]**) sono in disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
 
    * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. Se selezioni una pagina di destinazione dinamica (con l&#39;opzione **[!UICONTROL Servizio dall&#39;URL]** selezionata), puoi selezionare qualsiasi servizio dall&#39;elenco. [Ulteriori informazioni](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
