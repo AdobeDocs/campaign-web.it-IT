@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -252,12 +252,12 @@ ht-degree: 97%
          + [Indicatori di tracciamento](reporting/dynamic-reporting/tracking-indicators.md)
          + [Abbonamenti annullati](reporting/dynamic-reporting/unsubscriptions.md)
          + [URL e flussi di clic](reporting/dynamic-reporting/urls-and-click-streams.md)
-      + Personalizzazione dei rapporti {#customizing-reports}
+      + Personalizzazione dei report {#customizing-reports}
          + [Aggiunta di pannelli](reporting/dynamic-reporting/adding-panels.md)
          + [Aggiunta di visualizzazioni](reporting/dynamic-reporting/adding-visualizations.md)
          + [Aggiunta di componenti](reporting/dynamic-reporting/adding-components.md)
          + [Creazione di una dimensione di profilo personalizzata](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [Contratto di utilizzo per reporting dinamico](reporting/dynamic-reporting/pii-agreement.md)
+         + [Accordo di utilizzo del reporting dinamico](reporting/dynamic-reporting/pii-agreement.md)
 + Integrazioni {#integrations}
    + [Utilizzare altre soluzioni di Adobe](integrations/integration.md)
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
@@ -266,7 +266,7 @@ ht-degree: 97%
    + Branding {#branding}
       + [Informazioni sul branding](administration/branding/branding-gs.md)
       + [Configurare un brand](administration/branding/branding-configure.md)
-      + [Assegnare un marchio](administration/branding/branding-assign.md)
+      + [Assegnare un brand](administration/branding/branding-assign.md)
    + [Utilizzare le regole di business (tipologie)](administration/typologies.md)
    + [Gestire le mappature target](administration/target-mappings.md)
    + [Utilizzare gli schemi](administration/schemas.md)

@@ -4,9 +4,9 @@ title: Passaggio da Campaign Standard ad Adobe Campaign Web
 description: Interfaccia utente di Campaign Web
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Tra Campaign v8 e Campaign Standard la maggior parte dei concetti è simile. Tut
 
 ## Funzionalità specifiche {#new-features}
 
-Per garantire una transizione fluida a Campaign v8, le principali funzionalità di Campaign Standard sono state aggiunte a Campaign v8. Queste funzioni sono descritte nei dettagli in [questa documentazione](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target=_blank} e sono disponibili solo per gli utenti che stanno effettuando la transizione da Campaign Standard.
+Per garantire una transizione fluida a Campaign v8, le principali funzionalità di Campaign Standard sono state aggiunte a Campaign v8. Queste funzioni sono descritte nei dettagli in [questa documentazione](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it){target=&quot;_blank} e sono disponibili solo per gli utenti che stanno effettuando la transizione da Campaign Standard.
 
 * **Reporting dinamico**: il reporting dinamico fornisce rapporti personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Include l’accesso ai dati di profilo per l’analisi demografica in base alle dimensioni, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](../reporting/dynamic-reporting/get-started-reporting.md).
 

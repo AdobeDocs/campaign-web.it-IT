@@ -4,9 +4,9 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 >[!BEGINTABS]
 
 
->[!TAB Luglio &#39;25 aggiornamenti]
+>[!TAB Aggiornamenti di luglio 2025]
 
 Nuove funzioni e miglioramenti sono ora disponibili nell’interfaccia utente di Campaign Web. Per sfruttare questi miglioramenti, assicurati di aggiornare l’ambiente Campaign alla versione 8.8. Per una panoramica completa, consulta le note sulla versione.
 
