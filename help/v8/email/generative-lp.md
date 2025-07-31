@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggere le [protezioni e limitazioni](generative-gs.md#generative-guardrails) correlate.
->></br>
+>&#x200B;></br>
 >
 >Prima di poter utilizzare l&#39;Assistente IA in Adobe Campaign Web, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il rappresentante Adobe.
 
