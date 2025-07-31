@@ -2,19 +2,18 @@
 audience: end-user
 title: Allineamento al brand
 description: Scopri come creare, convalidare e gestire i contenuti nel brand utilizzando il punteggio di brand.
-badge: label="Beta" type="Informative"
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '226'
 ht-degree: 5%
 
 ---
 
-# Allineamento del brand (Beta){#brands-score}
+# Allineamento al brand {#brands-score}
 
 >[!AVAILABILITY]
 >
->Questa funzionalità viene rilasciata come versione beta privata. Sarà disponibile progressivamente per tutti i clienti nelle prossime versioni.
 >Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 La funzione di Allineamento dei marchi è stata creata per aiutarti a creare, rivedere e gestire contenuti che rimangono conformi alle linee guida del tuo marchio. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.

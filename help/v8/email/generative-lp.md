@@ -3,10 +3,10 @@ audience: end-user
 title: Pagina di destinazione con l’assistente AI
 description: Introduzione all’Assistente AI
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 4%
+source-wordcount: '1595'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggere le [protezioni e limitazioni](generative-gs.md#generative-guardrails) correlate.
-></br>
+>></br>
 >
 >Prima di poter utilizzare l&#39;Assistente IA in Adobe Campaign Web, devi accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il rappresentante Adobe.
 
@@ -68,11 +68,15 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per perfezionar
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Risorse del brand caricate]**. Attiva/disattiva le risorse da includere nella generazione.
 
-   ![Schermata che mostra il menu delle risorse del brand.](assets/lp_full_gen_5.png){zoomable="yes"}
-
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
-1. Sfoglia le **[!UICONTROL Varianti]** generate e fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
+1. Sfoglia le **[!UICONTROL Varianti]** generate e fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata oppure su **[!UICONTROL Applica]** per sostituire il contenuto corrente.
+
+1. Fai clic sull&#39;icona percentuale per visualizzare il **[!UICONTROL punteggio di allineamento del brand]** e identificare eventuali disallineamenti con il brand.
+
+   Ulteriori informazioni sul [Punteggio di allineamento del marchio](../content/brands-score.md).
+
+   ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -82,6 +86,8 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per perfezionar
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
    ![Schermata che mostra le opzioni di ottimizzazione.](assets/lp_full_gen_6.png){zoomable="yes"}
+
+1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](../content/brands.md).
 
 1. Fai clic su **[!UICONTROL Seleziona]** una volta trovato il contenuto appropriato.
 
@@ -125,7 +131,13 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per migliorare 
 
 1. Una volta completato il prompt, fai clic su **[!UICONTROL Genera]**.
 
-1. Sfoglia le **[!UICONTROL Varianti]** generate e fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
+1. Sfoglia le **[!UICONTROL Varianti]** generate e fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata oppure su **[!UICONTROL Applica]** per sostituire il contenuto corrente.
+
+1. Fai clic sull&#39;icona percentuale per visualizzare il **[!UICONTROL punteggio di allineamento del brand]** e identificare eventuali disallineamenti con il brand.
+
+   Ulteriori informazioni sul [Punteggio di allineamento del marchio](../content/brands-score.md).
+
+   ![Schermata che mostra il menu delle risorse del brand.](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Passa all&#39;opzione **[!UICONTROL Perfeziona]** nella finestra **[!UICONTROL Anteprima]** per accedere ad altre funzioni di personalizzazione:
 
@@ -138,6 +150,8 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per migliorare 
    Puoi anche modificare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del tuo testo.
 
    ![Schermata che mostra le opzioni di ottimizzazione.](assets/lp-text-genai-5.png){zoomable="yes"}
+
+1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](../content/brands.md).
 
 1. Fai clic su **[!UICONTROL Seleziona]** una volta trovato il contenuto appropriato.
 
@@ -169,7 +183,7 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
 1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
-   * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. Scegliete uno dei rapporti più comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettete una dimensione personalizzata.
+   * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. Scegliere tra i rapporti comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettere una dimensione personalizzata.
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: controlla l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) crea un aspetto più morbido, mentre un&#39;impostazione più alta (10) rende l&#39;immagine più vibrante.
    * **[!UICONTROL Colore e tono]**: regola l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
@@ -184,13 +198,17 @@ Nell’esempio seguente, scopri come sfruttare l’Assistente AI per ottimizzare
 
 1. Una volta completata la configurazione del prompt, fai clic su **[!UICONTROL Genera]**.
 
-1. Sfoglia i **[!UICONTROL suggerimenti varianti]** per trovare la risorsa desiderata.
+1. Sfoglia le **[!UICONTROL Varianti]** generate e fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata oppure su **[!UICONTROL Applica]** per sostituire il contenuto corrente.
 
-   Fai clic su **[!UICONTROL Anteprima]** per visualizzare una versione a schermo intero della variante selezionata.
+1. Fai clic sull&#39;icona percentuale per visualizzare il **[!UICONTROL punteggio di allineamento del brand]** e identificare eventuali disallineamenti con il brand.
 
-1. Scegliere **[!UICONTROL Genera simili]** se si desidera visualizzare le immagini correlate a questa variante.
+   Ulteriori informazioni sul [Punteggio di allineamento del marchio](../content/brands-score.md).
 
-   ![Schermata che mostra l&#39;interfaccia dei suggerimenti per le varianti.](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Schermata che mostra il menu delle risorse del brand.](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Scegliere **[!UICONTROL Genera simili]** nella finestra **[!UICONTROL Anteprima]** per visualizzare le immagini correlate a questa variante.
+
+1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](../content/brands.md).
 
 1. Fai clic su **[!UICONTROL Seleziona]** una volta trovato il contenuto appropriato.
 
