@@ -3,10 +3,10 @@ audience: end-user
 title: Progettare una consegna di notifiche push potenziata da iOS
 description: Scopri come progettare una consegna di notifiche push potenziata da iOS con Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 15%
+source-wordcount: '1625'
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application).
+>Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application).
 
 ## Definisci il contenuto della notifica {#push-message}
 
@@ -203,6 +203,7 @@ Una volta definito il contenuto del messaggio, utilizza i sottoscrittori di test
 | Parametro | Descrizione |
 |-----------|-------------|
 | **[!UICONTROL Contenuto modificabile]** | Abilita questa opzione per consentire all’app mobile di scaricare contenuti multimediali. |
+| **[!UICONTROL Contenuto disponibile]** | Abilita questa opzione per consentire alla notifica di attivare gli aggiornamenti in background sui dispositivi iOS, anche quando l’app non è aperta attivamente. In questo modo, contenuti come messaggi o aggiornamenti dei dati possono essere elaborati e memorizzati nella casella in entrata dell’app senza richiedere l’interazione dell’utente. Quando è selezionato, il flag `content-available: 1` viene aggiunto al payload `aps` in conformità agli standard APNS (Apple Push Notification Service). |
 | **[!UICONTROL Punteggio rilevanza]** | Imposta un punteggio di rilevanza da 0 a 100. Il sistema utilizza questa funzione per ordinare le notifiche nel riepilogo delle notifiche. |
 | **[!UICONTROL Livello di interruzione]** | <ul><li>**Attivo**: per impostazione predefinita, il sistema visualizza immediatamente la notifica, illumina lo schermo e può riprodurre un suono. Le notifiche non interrompono le modalità di attivazione.</li><li>**Passivo**: il sistema aggiunge la notifica all’elenco delle notifiche senza accendere lo schermo o riprodurre un suono. Le notifiche non interrompono le modalità di attivazione.</li><li>**Sensibile al tempo**: il sistema visualizza immediatamente la notifica, illumina lo schermo, può riprodurre un suono e interrompe le modalità di attivazione. Questo livello non richiede l’autorizzazione speciale di Apple.</li><li>**Critico**: il sistema presenta immediatamente la notifica, accende lo schermo e ignora le modalità di disattivazione audio o di Focus. Tieni presente che questo livello richiede l’autorizzazione speciale di Apple.</li></ul> |
 | **[!UICONTROL ID thread]** | Imposta l’identificatore utilizzato per raggruppare le notifiche correlate. |

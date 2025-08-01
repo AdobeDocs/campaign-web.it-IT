@@ -3,10 +3,10 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel query modeler di Adobe Campaign Web.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
 workflow-type: tm+mt
-source-wordcount: '2863'
-ht-degree: 34%
+source-wordcount: '2921'
+ht-degree: 33%
 
 ---
 
@@ -18,7 +18,7 @@ Per iniziare a creare una query, accedi al query modeler dalla posizione desider
 >[!IMPORTANT]
 >
 >È disponibile una nuova interfaccia per Query Modeler. Il nuovo generatore di regole consente di creare la query con maggiore facilità grazie alla sua interfaccia semplificata. Per passare a questa esperienza, premi il pulsante di attivazione nell’angolo in alto a destra. Per tornare al modellatore di query classico in qualsiasi momento, è sufficiente premere nuovamente il pulsante per disattivare la nuova interfaccia. In questa nuova interfaccia è possibile applicare gli stessi principi del modellatore di query.
->&#x200B;>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Puoi aggiungere due tipi di elementi:
 
@@ -70,7 +70,7 @@ Per accedere a questa opzione, nella query fai clic sul pulsante di selezione de
 >
 >* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In questi casi, un avviso di notifica **[!UICONTROL Carico parziale]** ti avvisa.
 >* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi. [Scopri come selezionare gli attributi](../get-started/attributes.md)
->* Puoi aggiungere condizioni ai risultati utilizzando **[ !Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
+>* Puoi aggiungere condizioni ai risultati utilizzando **[!Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
 
 ## Aggiungere i componenti per il filtro {#filtering}
 
@@ -122,7 +122,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    | Simile a | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Il carattere jolly funge da &quot;jolly&quot; per trovare nomi come &quot;Jones&quot;. |
    | Diverso da | Simile all&#39;operatore Contains, consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. I destinatari il cui cognome è &quot;Smith&quot; non verranno restituiti. |
 
-   +++
++++
 
 1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile utilizzare l’editor di espressioni web di Campaign per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e di database. A tale scopo, fare clic sul pulsante **Modifica espressione**. [Scopri come modificare le espressioni](expression-editor.md)
 
@@ -407,6 +407,13 @@ Dopo aver creato la query nell&#39;area di lavoro, puoi controllarla utilizzando
   >[!IMPORTANT]
   >
   >La selezione di un filtro preimpostato dal pannello Proprietà regole sostituisce la query creata nell’area di lavoro con il filtro selezionato.
+
+Quando utilizzi la nuova esperienza di Generatore di regole, puoi visualizzare la popolazione target direttamente su ogni condizione e gruppo:
+
+* Fai clic sull&#39;icona **Calcola la condizione** sulla condizione o sul gruppo desiderato per calcolare e visualizzare il numero di record interessati dalla query.
+* Fare clic sul numero di risultati per visualizzare l&#39;elenco dettagliato dei record.
+
+![Visualizzazione popolazione e risultati](assets/ruleb-11bis.png){zoomable="yes"}
 
 Quando la query è pronta, fai clic sul pulsante **[!UICONTROL Conferma]** nell&#39;angolo superiore destro per salvarla.
 

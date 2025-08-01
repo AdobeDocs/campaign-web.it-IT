@@ -4,10 +4,10 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
+source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3449'
+ht-degree: 41%
 
 ---
 
@@ -103,7 +103,7 @@ Il campo **[!UICONTROL Importanza del destinatario]** è una formula utilizzata 
 
 In questa sezione puoi selezionare una **mappatura target** tra quelle disponibili. Le mappature target sono definite nella console Adobe Campaign v8. Il mapping di destinazione è il tipo di dati gestito da un&#39;operazione. Consente di definire la popolazione target: destinatari, beneficiari del contratto, operatori, abbonati, ecc. [Ulteriori informazioni sulle mappature di destinazione](../audience/targeting-dimensions.md).
 
-Nel campo **[!UICONTROL Esclusione]** puoi selezionare di escludere i profili che non desiderano più essere contattati o che sono in quarantena. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=it){target="_blank"}
+Nel campo **[!UICONTROL Esclusione]** puoi selezionare di escludere i profili che non desiderano più essere contattati o che sono in quarantena. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Consegna {#delivery}
 
@@ -130,7 +130,7 @@ Puoi definire le impostazioni **[!UICONTROL Invio]** di seguito.
 
 * **[!UICONTROL Verifica consegna SMTP]** (canale e-mail): questa opzione viene utilizzata per testare l&#39;invio tramite SMTP. L’e-mail viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario dell’e-mail, Campaign si connette al server provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=it){target="_blank"}.
+* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Nella sezione **[!UICONTROL Definizione ondata]**, selezionare l&#39;opzione **[!UICONTROL Invia con più ondate]** per aumentare progressivamente il volume inviato tramite ondate. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
@@ -159,7 +159,7 @@ Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 
 >[!NOTE]
 >
->Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=it#external-account-ac){target="_blank"}.
+>Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Nuovi tentativi {#retries}
 
@@ -340,6 +340,29 @@ I parametri di consegna SMS sono impostazioni tecniche che si applicano alla con
 
   Se si imposta questo valore su 0, il limite viene disattivato.
 
+* **[!UICONTROL Parametri SMPP facoltativi (TLV)]**
+
+  Puoi specificare campi aggiuntivi da inviare come parametri SMPP (TLV) facoltativi. Questi campi aggiuntivi vengono inviati con ogni messaggio MT e i campi personalizzati consentono di avere valori diversi per ogni messaggio MT.
+Nella tabella sono elencati i parametri facoltativi da inviare con ogni messaggio. Le colonne contengono le seguenti informazioni:
+
+   * **Etichetta**: etichetta facoltativa in formato libero. Non viene trasmesso al provider. Puoi fornire una descrizione testuale del parametro.
+   * **Tag**: il valore del tag, in formato decimale (ad esempio 12345) o esadecimale con prefisso 0x (ad esempio 0x12ab). I tag possono essere compresi tra 0 e 65535. Chiedi al provider di servizi SMPP i tag supportati.
+   * **Valore**: valore da inviare nel parametro facoltativo. Questo è un campo personalizzato.
+   * **Formato**: codifica utilizzata per il parametro. È possibile selezionare qualsiasi codifica di testo supportata o i formati binari più comuni. Chiedi al provider di servizi SMPP il formato richiesto.
+   * **Lunghezza massima**: numero massimo di byte per questo parametro. Questa opzione viene ignorata per i campi binari in quanto i campi binari hanno una dimensione fissa.
+
+  **Utilizzo di formati binari per TLV**
+
+  Campaign supporta l’invio di TLV in formato binario. Il binario è limitato all&#39;invio di numeri.
+
+  Poiché i campi personalizzati producono sempre del testo, il campo personalizzato deve contenere una rappresentazione decimale del numero (qualsiasi stringa va bene purché contenga solo cifre). I valori possono essere firmati o non firmati; il motore di personalizzazione li converte semplicemente nella rappresentazione binaria corretta.
+
+  Quando si utilizzano formati binari, i valori speciali &quot;&quot; (stringa vuota), &quot;null&quot; e &quot;undefined&quot; disabilitano completamente il campo senza generare un errore. In questi 3 casi speciali, il tag non viene passato. Questo consente di trasmettere un TLV specifico solo per alcuni messaggi quando si utilizza JavaScript creato con attenzione nel campo di personalizzazione.
+
+  >[!NOTE]
+  >
+  >I formati binari sono sempre codificati in formato big-endian.
+
 ## Impostazioni SMTP per la consegna e-mail {#smtp}
 
 >[!CONTEXTUALHELP]
@@ -377,7 +400,7 @@ Questi due campi possono essere personalizzati come descritto in [questa sezione
 
 Puoi aggiungere **[!UICONTROL intestazioni SMTP]** alla consegna e-mail nella scheda SMTP delle impostazioni di consegna.
 
-Lo script inserito in questa finestra deve fare riferimento a un&#39;intestazione per riga nel seguente formato: nome:valore.
+Lo script immesso in questa finestra deve fare riferimento a un&#39;intestazione per riga nel seguente formato: nome:value.
 
 Se necessario, i valori vengono codificati automaticamente.
 
