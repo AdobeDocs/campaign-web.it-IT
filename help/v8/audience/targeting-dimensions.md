@@ -1,15 +1,15 @@
 ---
-title: Dimensioni di targeting
+title: Dimensioni targeting
 description: Ulteriori informazioni sulle dimensioni di targeting in Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 25%
+source-wordcount: '400'
+ht-degree: 18%
 
 ---
 
-# Dimensioni di targeting {#targeting-dimensions}
+# Dimensioni targeting {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -28,9 +28,9 @@ Quando si seleziona una dimensione di targeting (nelle impostazioni del flusso d
 
 ![Schermata che mostra l&#39;interfaccia della dimensione di targeting con il pulsante &quot;Mostra tutti gli schemi&quot; abilitato.](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
-## Dimensioni di targeting {#list}
+## Dimensioni targeting {#list}
 
-Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati ai profili. La dimensione di destinazione utilizza i campi della tabella **nms:recipient**. Per le notifiche push, la dimensione target predefinita è **Applicazioni in abbonamento nms:appSubscriptionRcp**, collegata alla tabella dei destinatari.
+Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati ai profili. La dimensione di destinazione utilizza i campi della tabella **nms:recipient**. Per le notifiche push, la dimensione di destinazione predefinita è **Subscriber applications nms:appSubscriptionRcp**, collegata alla tabella dei destinatari.
 
 Utilizza altre mappature di destinazione incorporate nei flussi di lavoro e nelle consegne, come elencato di seguito:
 

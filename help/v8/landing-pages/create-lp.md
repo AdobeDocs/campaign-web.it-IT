@@ -16,7 +16,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creare e gestire pagine di destinazione"
->abstract="Adobe Campaign consente di creare, progettare e condividere le pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire casi d’uso di acquisizione, iscrizione/annullamento dell’iscrizione e inserire nell’elenco Bloccati, in base ai modelli incorporati."
+>abstract="Adobe Campaign consente di creare, progettare e condividere le pagine di destinazione per indirizzare gli utenti a pagine web online in cui puoi gestire casi d’uso di acquisizione, iscrizione o annullamento dell’inscrizione e inserimento nell’elenco Bloccati, in base ai modelli incorporati."
 
 L’interfaccia utente di Campaign Web consente di creare, progettare e pubblicare pagine di destinazione. Dopo la pubblicazione, è possibile inserire un collegamento al modulo in una consegna. Quando i destinatari fanno clic su tale collegamento, vengono indirizzati alla pagina di destinazione corrispondente.
 

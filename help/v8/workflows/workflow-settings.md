@@ -55,7 +55,7 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Impostazioni di segmentazione"
->abstract="In questa sezione, puoi selezionare la dimensione di targeting per eseguire il targeting dei profili nel flusso di lavoro e scegliere di mantenere i risultati del flusso di lavoro tra due esecuzioni. Questa opzione deve essere utilizzata solo a scopo di test e non deve mai essere abilitata in un flusso di lavoro di produzione."
+>abstract="In questa sezione, puoi selezionare la dimensione targeting per eseguire il targeting dei profili nel flusso di lavoro e scegliere di mantenere i risultati del flusso di lavoro tra due esecuzioni. Questa opzione deve essere utilizzata solo a scopo di test e non deve mai essere abilitata in un flusso di lavoro di produzione."
 
 * **[!UICONTROL Dimensione targeting]**: seleziona la dimensione targeting da utilizzare per eseguire il targeting di profili quali destinatari, beneficiari del contratto, operatori, abbonati e altri. [Ulteriori informazioni sulle dimensioni di targeting](../audience/targeting-dimensions.md).
 
@@ -101,4 +101,4 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 
 ## Script di inizializzazione {#initialization-script}
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
