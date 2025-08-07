@@ -3,9 +3,9 @@ title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza ed es
 
 Puoi anche modificare o eliminare un filtro predefinito direttamente dal generatore di regole. Dalla finestra di selezione del filtro predefinito, utilizza il pulsante **Altre azioni**. Puoi eliminare il filtro o modificarlo. Puoi modificare l’etichetta, aggiungere una descrizione e aggiungerla come preferita.
 
-![Edizione di filtri predefiniti](assets/filter-edit.png){zoomable="yes"}
+![Modifica dei filtri preimpostati](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
