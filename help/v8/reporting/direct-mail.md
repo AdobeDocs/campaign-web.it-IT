@@ -10,7 +10,7 @@ ht-degree: 25%
 
 ---
 
-# Rapporto di consegna esterno {#direct-mail-report}
+# Rapporto sulla consegna esterna {#direct-mail-report}
 
 Il **report di consegna esterna** fornisce informazioni complete e dati specifici per la consegna esterna. Include informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne, offrendo una panoramica completa.
 
@@ -29,7 +29,7 @@ La **[!UICONTROL Panoramica della consegna]** fornisce informazioni dettagliate 
 
 ![Grafico delle metriche di panoramica della consegna che mostra gli indicatori di prestazioni chiave per la consegna direct mailing.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 * **[!UICONTROL Destinati]**: numero di profili utente qualificati come profili di destinazione per i messaggi di direct mailing.
@@ -69,7 +69,7 @@ Il grafico **[!UICONTROL Statistiche di consegna]** fornisce una panoramica dell
 
 ![Grafico delle statistiche di consegna che mostra tassi di successo, errori e quarantene.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche dei rapporti delle campagne direct mail.
++++Ulteriori informazioni sulle metriche dei rapporti sulle campagne direct mail.
 
 * **[!UICONTROL Messaggio inviato]**: numero totale di messaggi da consegnare dopo la preparazione della consegna.
 * **[!UICONTROL Operazione completata]**: numero di messaggi elaborati correttamente confrontato con il numero di messaggi da recapitare.
@@ -104,7 +104,7 @@ Il grafico **[!UICONTROL Cause di esclusione]** fornisce una suddivisione dei mo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Esclusioni"
->abstract="La tabella **[!UICONTROL Esclusioni]** mostra una suddivisione dettagliata, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
+>abstract="La tabella **[!UICONTROL Esclusioni]** mostra un riepilogo dettagliato, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
 
 La tabella **[!UICONTROL Esclusioni]** fornisce un raggruppamento dettagliato, suddiviso per regole specifiche, dei messaggi rifiutati durante la preparazione della consegna. Questa suddivisione offre una chiara comprensione dei motivi alla base dell’esclusione dei messaggi.
 

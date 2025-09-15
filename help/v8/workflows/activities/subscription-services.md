@@ -25,7 +25,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Genera una transizione in uscita"
->abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l’attività."
+>abstract="Attiva o disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione dopo l’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
@@ -123,6 +123,6 @@ Il flusso di lavoro seguente mostra come importare un file contenente profili e 
 
 * Un **[!UICONTROL Subscription Services]** identifica i servizi da aggiornare come provenienti dalla transizione.
 
-  Il tipo di operazione **&#x200B;**&#x200B;è identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l&#39;operazione da eseguire non viene visualizzata nell&#39;elenco, verificare di aver impostato correttamente il formato della colonna nell&#39;attività **[!UICONTROL Carica file]**, come spiegato in precedenza in questo esempio.
+  Il tipo di operazione **** è identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l&#39;operazione da eseguire non viene visualizzata nell&#39;elenco, verificare di aver impostato correttamente il formato della colonna nell&#39;attività **[!UICONTROL Carica file]**, come spiegato in precedenza in questo esempio.
 
   ![Schermata dell&#39;interfaccia di sottoscrizione del servizio di sottoscrizione del flusso di lavoro.](../assets/workflow-subscription-service-uc2-subscription.png)

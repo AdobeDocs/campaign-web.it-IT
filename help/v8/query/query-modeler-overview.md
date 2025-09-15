@@ -63,13 +63,13 @@ Il modellatore di query fornisce un’area di lavoro centrale in cui creare la q
 >[!IMPORTANT]
 >
 >È disponibile una nuova interfaccia per Query Modeler. Il nuovo generatore di regole consente di creare la query con maggiore facilità grazie alla sua interfaccia semplificata. Per passare a questa esperienza, premi il pulsante di attivazione nell’angolo in alto a destra. Per tornare al modellatore di query classico in qualsiasi momento, è sufficiente premere nuovamente il pulsante per disattivare la nuova interfaccia. In questa nuova interfaccia è possibile applicare gli stessi principi del modellatore di query.
->&#x200B;>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Nuova esperienza del generatore di regole"
->abstract="Utilizza questa opzione per passare dal query modeler classico alla nuova esperienza del generatore di regole. Il nuovo generatore di regole ti consente di creare la query più facilmente, grazie all’interfaccia semplificata e intuitiva."
+>abstract="Utilizza questo pulsante di attivazione per passare dal query modeler classico alla nuova esperienza del generatore di regole. Il nuovo generatore di regole ti consente di creare la query più facilmente, grazie all’interfaccia semplificata e intuitiva."
 
 ![Immagine che mostra l&#39;interfaccia di Query Modeler](assets/query-interface.png){zoomable="yes"}
 

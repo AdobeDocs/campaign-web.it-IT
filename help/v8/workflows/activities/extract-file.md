@@ -62,7 +62,7 @@ La sezione relativa al formato **[!UICONTROL Destinazione]** consente di configu
 
 1. Fare clic sul pulsante **[!UICONTROL Formato estrazione]** per accedere alle opzioni specifiche relative al formato selezionato. Per ulteriori informazioni, espandi la sezione seguente.
 
-+++ Opzioni di formato di estrazione disponibili
+   +++ Opzioni di formato di estrazione disponibili
 
    * **[!UICONTROL Utilizza la prima riga come intestazione di colonna]** (formato Testo/CSV (Excel)): attiva questa opzione per utilizzare la prima colonna come intestazione.
    * **[!UICONTROL Separatore colonne]** (formato testo): specificare il carattere da utilizzare come separatore di colonne nel file di output.
@@ -73,7 +73,7 @@ La sezione relativa al formato **[!UICONTROL Destinazione]** consente di configu
    * **[!UICONTROL Formato numero]**: specificare la formattazione dei numeri nel file di output.
    * **[!UICONTROL Esporta etichette anziché valori interni delle enumerazioni]**: attiva questa opzione se esporti valori di enumerazione e desideri recuperare le etichette di colonna, che sono più facili da comprendere, anziché gli ID interni.
 
-+++
+   +++
 
    ![Schermata che mostra le opzioni di configurazione per il file da estrarre.](../assets/extract-file-format.png)
 
@@ -95,12 +95,12 @@ Viene aperto l’editor espressioni, che consente di immettere il comando da app
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Transizione in uscita"
->abstract="Attiva/disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione in uscita dopo l’attività corrente."
+>abstract="Attiva o disattiva l’opzione **Genera una transizione in uscita** per aggiungere una transizione in uscita dopo l’attività corrente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Errori del processo"
->abstract="Attiva/disattiva l’opzione **Errori di processo** per aggiungere una transizione in uscita contenente errori."
+>abstract="Attiva o disattiva l’opzione **Errori di processo** per aggiungere una transizione in uscita contenente errori."
 
 Una volta configurata l’estrazione del file di output, sono disponibili opzioni aggiuntive relative alle transizioni e alla gestione degli errori:
 

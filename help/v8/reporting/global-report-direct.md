@@ -29,7 +29,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 ![Questa immagine mostra le metriche di panoramica della consegna per le consegne di direct mailing.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -51,7 +51,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="Pubblico target"
->abstract="La tabella **Pubblico target** fornisce una suddivisione dettagliata dei destinatari e dei messaggi corrispondenti, in base ai risultati del processo di preparazione della consegna."
+>abstract="La tabella **Pubblico target** fornisce un riepilogo dettagliato dei destinatari e dei messaggi corrispondenti, in base ai risultati del processo di preparazione della consegna."
 
 La tabella e il grafico per **[!UICONTROL Pubblico di destinazione]** mostrano i dati relativi ai destinatari, con le metriche dettagliate fornite di seguito.
 
@@ -98,7 +98,7 @@ Il grafico e la tabella **[!UICONTROL Statistiche di consegna]** forniscono una 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="Esclusioni"
->abstract="La tabella **Cause di esclusione** mostra una suddivisione dettagliata, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
+>abstract="La tabella **Cause di esclusione** mostra un riepilogo dettagliato, per regola, dei messaggi rifiutati durante il processo di preparazione della consegna."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"

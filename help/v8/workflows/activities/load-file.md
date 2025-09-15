@@ -30,7 +30,7 @@ ht-degree: 36%
 L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalization](../../personalization/gs-personalization.md), per aggiornare profili o qualsiasi altra tabella.
 
 >[!NOTE]
->Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). La console Interfaccia utente Web consente di caricare i file fino a una dimensione massima di 50 MB. Nella console client, l’attività di caricamento dati ha un limite di 150 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=it){target="_blank"}
+>Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). La console Interfaccia utente Web consente di caricare i file fino a una dimensione massima di 50 MB. Nella console client, l’attività di caricamento dati ha un limite di 150 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Questa attività può essere utilizzata con un&#39;attività [Reconciliation](reconciliation.md) per collegare dati non identificati a risorse esistenti. Ad esempio, l&#39;attività **Load file** può essere inserita prima di un&#39;attività **Reconciliation** se si importano dati non standard nel database.
 
@@ -145,7 +145,7 @@ Per definire il file di destinazione da caricare, effettua le seguenti operazion
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Elimina file dopo l’importazione"
->abstract="Attiva/disattiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo averlo importato."
+>abstract="Attiva **Elimina file dopo l’importazione** per eliminare il file originale dal server dopo averlo importato."
 
 1. Nella sezione **Rifiuta gestione**, specifica il comportamento dell&#39;attività in caso di errori:
 
