@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Questa pagina consente di rendere il contenuto accessibile a tutti i destinatari
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
@@ -138,15 +137,19 @@ Per eseguire il check-in in modo più coerente se il contenuto è accessibile in
 
 ## Usa modalità scura {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
+Tra le best practice per la progettazione di contenuti in modalità scura, puoi utilizzare PNG o SVG trasparenti, impostare metatag e CSS appropriati e fornire uno stile di fallback accessibile se la modalità scura non è supportata.
 
-La modalità scura migliora l&#39;accessibilità visiva per gli utenti con sensibilità alla luce o disturbi visivi, offrendo un&#39;esperienza di visualizzazione migliore.
+<!--TO PUBLISH WHEN DARK MODE IS RELEASED
+
+Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Tra le best practice per la progettazione di contenuti in modalità scura, puoi utilizzare PNG o SVG trasparenti, impostare metatag e CSS appropriati e fornire uno stile di fallback accessibile se la modalità scura non è supportata. Infine, assicurati che le e-mail vengano riprodotte correttamente in modalità scura, testando tutti i contenuti e gli elementi dell’interfaccia utente sia in modalità chiara che in modalità scura.
+Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
 
-Le best practice dettagliate specifiche della modalità scura, incluse le linee guida per garantire l&#39;accessibilità, sono elencate in [questa sezione](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Utilizzare attributi specifici per l&#39;accessibilità {#attributes}
 
