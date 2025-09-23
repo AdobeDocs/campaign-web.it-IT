@@ -7,8 +7,8 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Per ulteriori informazioni sulla funzione Explorer di Campaign, la gerarchia di 
 
 Nella sezione **Gestione delle campagne**, puoi accedere a campagne di marketing, consegne e flussi di lavoro.
 
-* **Campagne**: questo è l’elenco delle campagne e dei modelli di campagne. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio, fine, creazione, ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio/fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
+* **Campagne**: questo è l’elenco delle campagne e dei modelli di campagne. Per impostazione predefinita, per ogni campagna puoi visualizzare le date di inizio, fine, creazione, ultima modifica, lo stato corrente e il nome dell’operatore della campagna che l’ha creata. Puoi filtrare l’elenco per stato, date di inizio e di fine, cartella oppure creare un filtro avanzato per definire criteri di filtro personalizzati. Per ulteriori informazioni sulle campagne, consulta [questa sezione](../campaigns/gs-campaigns.md).
 
 * **Consegne**: scorri l’elenco delle consegne. Per impostazione predefinita, puoi visualizzarne lo stato, la data dell’ultima modifica e i KPI chiave. Puoi filtrare l’elenco per stato, data di contatto o canale. Fai clic su una consegna e-mail per aprire la relativa dashboard e ottenere una panoramica dei dettagli della consegna. Le consegne su altri canali sono di sola lettura. Per ulteriori informazioni sulle consegne, consulta [questa sezione](../msg/gs-messages.md).
 
@@ -119,7 +119,7 @@ Nella sezione **Gestione delle campagne**, puoi accedere a campagne di marketing
 
 Nella sezione **Gestione dei contenuti** puoi visualizzare i modelli e i frammenti di contenuto.
 
-* **Modelli di contenuto**: per un processo di progettazione più rapido e migliore, puoi creare modelli autonomi che consentono di riutilizzare facilmente contenuti personalizzati in più campagne.[!DNL Adobe Campaign] Disponibile solo per le e-mail, questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli addetti al marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail. Per ulteriori informazioni, consulta [questa sezione](../email/create-email-templates.md).
+* **Modelli di contenuto**: per un processo di progettazione più rapido e migliore, puoi creare modelli autonomi che consentono di riutilizzare facilmente contenuti personalizzati in più campagne.[!DNL Adobe Campaign] Disponibile solo per le e-mail, questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli autonomi in modo che gli addetti al marketing possano riutilizzarli e adattarli all’interno delle proprie campagne e-mail. Per ulteriori informazioni, consulta [questa sezione](../content/create-email-templates.md).
 
 * **Frammenti**: un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più consegne nelle campagne. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza. [Scopri come utilizzare i frammenti](../content/fragments.md)
 
@@ -144,7 +144,7 @@ Nella sezione **Gestioine clienti**, puoi visualizzare i profili, i tipi di pubb
 
 Nella sezione **Gestione delle decisioni** puoi visualizzare le offerte e i modelli di offerta. Questi sono elenchi di sola lettura.
 
-* **Offerte**: sfoglia l’elenco delle offerte e i modelli di offerta creati nella console utilizzando il modulo **Interazione**. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio/fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e fine. Sono disponibili anche modelli di offerta.
+* **Offerte**: sfoglia l’elenco delle offerte e i modelli di offerta creati nella console utilizzando il modulo **Interazione**. Per impostazione predefinita, puoi visualizzarne lo stato, le date di inizio e di fine e l’ambiente. Puoi filtrare l’elenco per stato e per date di inizio e di fine. Sono disponibili anche modelli di offerta.
 
 Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa sezione](../msg/offers.md).
 

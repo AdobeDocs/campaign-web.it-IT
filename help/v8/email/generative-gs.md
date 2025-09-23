@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione all’Assistente IA
 description: Introduzione all’Assistente AI
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 21%
@@ -66,10 +66,10 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assiste
 * La qualità del contenuto generato dipende in larga misura dall’obiettivo di marketing o dal prompt definito. Utilizzate un prompt ben definito per consentire al modello GenAI di interpretare con precisione.
 * Carica le risorse del brand per garantire contenuti precisi on-brand. In caso contrario, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: PDF, JPEG, PNG o file ZIP (con formati di file supportati).
 * La dimensione massima per le risorse marchio caricate è di 50 MB. File di grandi dimensioni o numerose immagini possono aumentare il tempo di elaborazione.
-* Utilizza [modelli e-mail incorporati](../email/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail tramite l&#39;Assistente all&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
+* Utilizza [modelli e-mail incorporati](../content/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail tramite l&#39;Assistente all&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
 * Segnala eventuali output problematici utilizzando le icone thumb-up, thumbs-down o flag durante la selezione delle varianti.
 * L’utilizzo di AI Assistant è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html).
+* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Le seguenti limitazioni si applicano all’Assistente IA in Adobe Campaign Web:
 

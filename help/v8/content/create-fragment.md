@@ -3,7 +3,7 @@ audience: end-user
 title: Creare frammenti di contenuto
 description: Scopri come creare frammenti di contenuto
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 21%
@@ -70,7 +70,7 @@ Per creare un frammento di contenuto da zero, effettua le seguenti operazioni.
 
 1. Quando il contenuto è pronto, fai clic su **Salva**.
 
-Il frammento di contenuto è ora pronto per essere utilizzato quando si crea una consegna o un [modello di contenuto](../email/use-email-templates.md) all&#39;interno di Campaign. Scopri come utilizzare i frammenti visivi e di espressione in queste sezioni:
+Il frammento di contenuto è ora pronto per essere utilizzato quando si crea una consegna o un [modello di contenuto](../content/use-email-templates.md) all&#39;interno di Campaign. Scopri come utilizzare i frammenti visivi e di espressione in queste sezioni:
 * [Aggiungere frammenti visivi alle e-mail](use-visual-fragments.md)
 * [Aggiungere frammenti di espressione all’editor di espressioni](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ Il frammento di contenuto è ora pronto per essere utilizzato quando si crea una
 
 <!--pas vu dans l'UI-->
 
-Qualsiasi contenuto e-mail può essere salvato come frammento visivo per riutilizzi futuri. Durante la progettazione di un [modello di contenuto](../email/use-email-templates.md) o di una consegna [e-mail](../email/get-started-email-designer.md), salva una parte del contenuto come frammento visivo. A questo scopo, segui la procedura indicata di seguito:
+Qualsiasi contenuto e-mail può essere salvato come frammento visivo per riutilizzi futuri. Durante la progettazione di un [modello di contenuto](../content/use-email-templates.md) o di una consegna [e-mail](../email/get-started-email-designer.md), salva una parte del contenuto come frammento visivo. A questo scopo, segui la procedura indicata di seguito:
 
 1. In [E-mail Designer](../email/get-started-email-designer.md), fai clic sul pulsante **Altro** in alto a destra dello schermo.
 
@@ -103,7 +103,7 @@ Qualsiasi contenuto e-mail può essere salvato come frammento visivo per riutili
 
    ![Salva schermata di conferma per frammenti visivi](assets/fragment-save-confirm.png)
 
-   Il contenuto è ora un frammento autonomo, aggiunto all&#39;[elenco frammenti](#manage-fragments) e accessibile dal menu dedicato. Usa questo frammento durante la creazione di qualsiasi [e-mail](../email/get-started-email-designer.md) o [modello di contenuto](../email/use-email-templates.md) all&#39;interno di Campaign. [Scopri come](../content/use-visual-fragments.md)
+   Il contenuto è ora un frammento autonomo, aggiunto all&#39;[elenco frammenti](#manage-fragments) e accessibile dal menu dedicato. Usa questo frammento durante la creazione di qualsiasi [e-mail](../email/get-started-email-designer.md) o [modello di contenuto](../content/use-email-templates.md) all&#39;interno di Campaign. [Scopri come](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

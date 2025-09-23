@@ -4,9 +4,9 @@ description: Qui trovi le domande comuni relative al reporting dinamico.
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Risoluzione dei problemi{#troubleshooting}
 
 In questa sezione trovi le domande comuni relative al reporting dinamico.
+
+## In quali lingue è disponibile il reporting dinamico? {#langages}
+
+Attualmente, il reporting dinamico è disponibile solo in inglese.
 
 ## Per aperture univoche e clic univoci, il conteggio nella riga aggregata non corrisponde a quelli nelle singole righe {#unique-open-clicks-no-match}
 

@@ -3,8 +3,8 @@ audience: end-user
 title: Modificare il contenuto dell’e-mail
 description: Scopri come iniziare a creare i contenuti utilizzando E-mail designer nell’interfaccia utente di Campaign Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ Dalla dashboard di consegna e-mail, passa alla schermata [Modifica contenuto](ed
 
 * **Importa contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare un contenuto e-mail in [questa sezione](existing-content.md).
 
-* **Seleziona un contenuto esistente** da un elenco di modelli incorporati o personalizzati. Scopri come utilizzare i modelli e-mail in [questa sezione](create-email-templates.md).
+* **Seleziona un contenuto esistente** da un elenco di modelli incorporati o personalizzati. Scopri come utilizzare i modelli e-mail in [questa sezione](../content/create-email-templates.md).
 
   ![Opzioni disponibili nell’interfaccia di E-mail designer per la creazione di contenuti e-mail](assets/email_designer_create_options.png){zoomable="yes"}

@@ -3,7 +3,7 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 56%
@@ -19,7 +19,7 @@ ht-degree: 56%
 
 Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, viene pianificato l’invio di un’e-mail ai membri fidelizzati Silver e Gold in una data specifica.
 
-In base a un [modello di progettazione](../email/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
+In base a un [modello di progettazione](../content/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
 
 ➡️ [Guarda il video su questa funzione](#video)
 
@@ -117,7 +117,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 1. Per progettare il contenuto dell’e-mail, fai clic sul pulsante **[!UICONTROL Modifica corpo e-mail]**.
 
-   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](create-email-templates.md).
+   Scegli il metodo da utilizzare per creare il contenuto delle e-mail. In questo esempio, utilizza un [modello di contenuto già definito](../content/create-email-templates.md).
 
    ![Schermata che mostra la selezione di un modello di contenuto predefinito](assets/select-template.png){zoomable="yes"}
 
@@ -137,7 +137,7 @@ Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necess
 
 1. Passa alla sezione **[!UICONTROL Pianificazione]** delle proprietà di consegna.
 
-1. Utilizza l’opzione **[!UICONTROL Abilita pianificazione]** per attivarla.
+1. Utilizza il pulsante di attivazione **[!UICONTROL Abilita pianificazione]** per attivarla.
 
 1. Imposta la data e l’ora desiderate per l’invio.
 
@@ -222,7 +222,7 @@ La simulazione del contenuto non è supportata in questi casi:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * Con consegne riconciliate,
-* Quando il modello di distribuzione di Campaign è [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Quando il modello di distribuzione di Campaign è [Adobe Campaign Enterprise Full Federated Access (FFDA)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
 * Quando non è stato caricato alcun file.
 
 ## Inviare e monitorare l’e-mail {#prepare-send}
@@ -252,4 +252,4 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454013/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

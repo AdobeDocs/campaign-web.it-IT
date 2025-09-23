@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione ai frammenti di contenuto
 description: Scopri come creare con i frammenti di contenuto
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 58%
@@ -30,7 +30,7 @@ Sono disponibili due tipi di frammenti:
 
 * I **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell&#39;editor espressioni. Campaign include un set di blocchi di contenuto predefiniti che contengono rendering specifici che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. Puoi anche creare frammenti di espressione personalizzati in base alle esigenze.
 
-* I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più [consegne e-mail](../email/get-started-email-designer.md) o in [modelli di contenuto](../email/use-email-templates.md).
+* I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più [consegne e-mail](../email/get-started-email-designer.md) o in [modelli di contenuto](../content/use-email-templates.md).
 
   >[!AVAILABILITY]
   >

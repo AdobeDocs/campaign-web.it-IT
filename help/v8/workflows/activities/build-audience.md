@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Crea pubblico nei flussi di lavoro
 description: Scopri come utilizzare l’attività Crea pubblico nei flussi di lavoro
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '454'
+ht-degree: 57%
 
 ---
 
@@ -56,11 +56,12 @@ Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 Per creare una query personalizzata, effettua le seguenti operazioni:
 
 1. Seleziona **Crea una query personalizzata**.
-1. Scegli la **Dimensione targeting**. La dimensione di targeting consente di definire la popolazione target dell’operazione, ad esempio destinatari, beneficiari del contratto, operatori o abbonati. Per impostazione predefinita, il target viene selezionato dai destinatari. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/about-recipients.md#targeting-dimensions)
+1. Scegli la **Dimensione targeting**. La dimensione di targeting consente di definire la popolazione target dell’operazione, ad esempio destinatari, beneficiari del contratto, operatori o abbonati. Per impostazione predefinita, il target viene selezionato dai destinatari. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/targeting-dimensions.md#targeting)
+1. Scegliere la **dimensione filtro** facendo clic sull&#39;icona accanto alla dimensione di targeting. La dimensione di filtro consente di applicare filtri alla popolazione target facendo riferimento a criteri correlati senza modificare la dimensione di targeting principale. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/targeting-dimensions.md#filtering)
 1. Fai clic su **Continua**.
 1. Utilizza il modellatore di query per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
->[!TAB Read audience]
+>[!TAB Leggi pubblico]
 
 Per selezionare un pubblico esistente, segui questi passaggi:
 

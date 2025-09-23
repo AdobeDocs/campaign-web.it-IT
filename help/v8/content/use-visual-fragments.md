@@ -4,7 +4,7 @@ title: Aggiungere frammenti visivi alle e-mail
 description: Scopri come aggiungere frammenti visivi alle e-mail
 badge: label="Disponibilità limitata"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 >
 >Questa funzionalità richiede un aggiornamento a Campaign v8.6.4. Ulteriori informazioni sono disponibili nelle [Note sulla versione della console client di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/release-notes).
 
-Nell&#39;interfaccia Web di Campaign, i **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più [consegne e-mail](../email/get-started-email-designer.md) o in [modelli di contenuto](../email/use-email-templates.md). Scopri come creare e gestire frammenti di contenuto in [questa sezione](fragments.md).
+Nell&#39;interfaccia Web di Campaign, i **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più [consegne e-mail](../email/get-started-email-designer.md) o in [modelli di contenuto](../content/use-email-templates.md). Scopri come creare e gestire frammenti di contenuto in [questa sezione](fragments.md).
 
 ![Rappresentazione visiva dei frammenti visivi in uso](assets/do-not-localize/fragments.gif)
 
