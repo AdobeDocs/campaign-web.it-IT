@@ -3,7 +3,7 @@ audience: end-user
 title: Sfogliare e filtrare gli elenchi
 description: Scopri come sfogliare e filtrare gli elenchi di Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -18,13 +18,13 @@ La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elen
 
 Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informazioni puoi modificare la configurazione delle colonne. A questo scopo, fai clic su **Configura le colonne per un layout personalizzato** nell’angolo in alto a destra dell’elenco.
 
-[La schermata mostra l’icona Configura le colonne utilizzata per personalizzare il layout delle colonne dell’elenco.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La schermata mostra l’icona Configura le colonne utilizzata per personalizzare il layout delle colonne dell’elenco.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 Nella schermata **Configura le colonne**, aggiungi o rimuovi le colonne e modificane l’ordine di visualizzazione.
 
 Puoi cambiare l’ordine dell’elenco **trascinando** oppure utilizzando le icone **freccia su e freccia giù**, come mostrato di seguito:
 
-[Nella schermata viene illustrato come riordinare le colonne dell’elenco mediante il trascinamento o i pulsanti freccia.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[Nella schermata viene illustrato come riordinare le colonne dell’elenco mediante il trascinamento o i pulsanti freccia.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 Ad esempio, per queste impostazioni:
 
@@ -32,7 +32,7 @@ Ad esempio, per queste impostazioni:
 
 L’elenco mostra le colonne seguenti:
 
-[La schermata mostra l’elenco risultante con le colonne configurate secondo le impostazioni di esempio.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La schermata mostra l’elenco risultante con le colonne configurate secondo le impostazioni di esempio.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Ordinare i dati {#sort-lists}
 
@@ -44,7 +44,7 @@ Per le colonne numeriche o di data, la freccia **su** indica che l’elenco è o
 
 Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o i filtri incorporati e personalizzati per adattare l’elenco in base a criteri contestuali.
 
-[La schermata mostra le opzioni di filtro disponibili per perfezionare la vista a elenco.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La schermata mostra le opzioni di filtro disponibili per perfezionare la vista a elenco.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 Per informazioni dettagliate su come utilizzare i filtri e creare filtri personalizzati, consulta [questa sezione](../query/filter.md).
 
