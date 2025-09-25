@@ -47,7 +47,7 @@ La console client di Campaign è un’applicazione nativa che comunica con il se
 
 Nel video seguente viene illustrato come scaricare e installare Adobe Campaign Client Console e gestire la connessione all’istanza.
 
->[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449889?quality=12&learn=on&captions=ita){transcript=true}
 
 Per ulteriori informazioni, vedere [Connessione a Campaign con la console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
@@ -57,7 +57,7 @@ La console client deve essere installata in un ambiente supportato. Ulteriori in
 
 Scopri l’interfaccia utente di Adobe Campaign v8 e come esplorare le funzioni principali con questo video di esercitazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426438?quality=12&learn=on&captions=ita){transcript=true}
 
 Per ulteriori dettagli, consulta [Utilizzare la console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
@@ -156,7 +156,7 @@ Di seguito sono riportati i collegamenti ad altre risorse utili:
 
 * Scopri le dimensioni di targeting e le tabelle di lavoro e come Adobe Campaign gestisce i dati tra diverse origini dati in questo video:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452602?quality=12&learn=on&captions=ita){transcript=true}
 
 * Campaign ti aiuta ad aggiungere contatti al database Cloud. È possibile caricare un file, pianificare e automatizzare più aggiornamenti dei contatti, raccogliere dati sul Web o immettere le informazioni del profilo direttamente nella tabella dei destinatari.  Ulteriori informazioni sono disponibili nella [documentazione sull&#39;importazione di dati (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -214,7 +214,7 @@ Come in Campaign Standard, in qualità di amministratore puoi creare servizi di 
 
 Scopri come impostare e gestire gli abbonamenti e avere come target gli abbonati.
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426554?quality=12&learn=on&captions=ita){transcript=true}
 
 * Consulta la [documentazione sull&#39;interfaccia utente Web dei servizi di abbonamento](../../v8/audience/manage-subscribers.md).
 
@@ -272,7 +272,7 @@ Utilizza Campaign per creare contenuti dinamici e inviare messaggi personalizzat
 
 Con Campaign v8, in qualità di amministratore, puoi definire blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/344595?quality=12&learn=on&captions=ita){transcript=true}
 
 Collegamenti utili:
 
