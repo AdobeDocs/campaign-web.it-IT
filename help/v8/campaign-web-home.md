@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 99%
+source-wordcount: '481'
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 
 >[!TAB Versione del 25 settembre]
 
-Nuove funzioni e miglioramenti sono ora disponibili nell’interfaccia utente di Campaign Web. Per sfruttare questi miglioramenti, assicurati di aggiornare l’ambiente Campaign alla versione 8.8. Per una panoramica completa, consulta le note sulla versione.
+La versione di settembre è live. Sono ora disponibili nuove funzioni e miglioramenti nell’interfaccia utente web di Campaign, tra cui Canale personalizzato per le consegne API, Authoring di account esterni e Blocco dei contenuti e-mail. Per una panoramica completa, consulta le note sulla versione.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
