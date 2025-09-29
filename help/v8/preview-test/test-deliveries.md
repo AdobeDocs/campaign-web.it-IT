@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare bozze
 description: Scopri come definire e inviare bozze
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1167'
 ht-degree: 45%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 45%
 >id="acw_email_preview_mode"
 >title="Modalità anteprima"
 >abstract="Visualizza l’anteprima e verifica il messaggio includendo la popolazione di test nel target principale."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="Destinazione bozza aggiuntiva"
+>abstract="Destinazione bozza aggiuntiva."
 
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima e il test inviando delle bozze ai profili di test. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
