@@ -3,9 +3,9 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Le seguenti funzioni sono disponibili a partire dalla versione di settembre.
 <table>
 <thead>
 <tr>
-<th><strong>Canale personalizzato per le consegne API</strong><br/></th>
+<th><strong>Canale personalizzato per consegne API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign in base ai canali API personalizzati. Queste consegne possono essere autonome o far parte di un flusso di lavoro. La configurazione del canale API personalizzato viene eseguita nella console.</p>
+<p>Ora puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente di Adobe Campaign Web in base a canali API personalizzati. Queste consegne possono essere autonome o far parte di un flusso di lavoro. La configurazione del canale API personalizzato viene eseguita nella console.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../call-center/gs-custom-channel.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -67,7 +67,7 @@ Le seguenti funzioni sono disponibili a partire dalla versione di settembre.
 <tbody>
 <tr>
 <td>
-<p>Campaign ora consente di bloccare il contenuto nei modelli e-mail, bloccando l’intero modello o strutture e componenti specifici. Questo consente di evitare modifiche o eliminazioni non intenzionali, garantendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.</p>
+<p>Campaign ora ti consente di bloccare i contenuti nei modelli e-mail, bloccando l’intero modello oppure strutture e componenti specifici. Questo consente di evitare modifiche o eliminazioni non intenzionali, garantendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../content/content-locking.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -160,7 +160,7 @@ Le seguenti funzioni sono disponibili a partire dalla versione di settembre.
 ### Miglioramenti {#25-9-improvements}
 
 * È stato aggiunto un set di nuovi operatori durante la configurazione di una condizione utilizzando la funzionalità di contenuto condizionale di E-mail designer.
-* La dimensione di filtro è ora disponibile nell&#39;attività del flusso di lavoro **Genera pubblico**. Per visualizzarla o modificarla, fai clic sull’icona accanto alla dimensione di targeting. [Ulteriori informazioni](../workflows/activities/build-audience.md#build-audience-configuration).
+* Le dimensioni filtro sono ora disponibile nell’attività del flusso di lavoro **Crea pubblico**. Per visualizzarle o modificarle, fai clic sull’icona accanto alla dimensione di targeting. [Ulteriori informazioni](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.

@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -277,11 +277,11 @@ ht-degree: 98%
    + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
-      + [Integrazione della soluzione Adobe](administration/integration-external-account.md)
+      + [Integrazione Adobe Solution](administration/integration-external-account.md)
       + [Specifico per la campagna](administration/external-account.md)
       + [Database esterno](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
-      + [Trasferisci dati](administration/transfer-external-account.md)
+      + [Trasferire dati](administration/transfer-external-account.md)
    + [Gestire le enumerazioni](administration/enumerations.md)
    + [Utilizzare i codici JavaScript](administration/javascript-codes.md)
 + [Documentazione di Campaign v8 (console) >](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
