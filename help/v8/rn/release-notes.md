@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,45 @@ ht-degree: 100%
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
 
 Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencati nelle pagine [2024](release-notes-24.md) e [2025](release-notes-25.md).
+
+## Aggiornamenti di ottobre 2025 {#25-9-updates}
+
+_9 ottobre 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Funzionalità multilingue per messaggi transazionali, notifiche push e SMS (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nell’interfaccia utente web di Adobe Campaign è ora possibile inviare più messaggi transazionali, notifiche push e messaggi SMS in lingue diverse. La funzione Consegna multilingue consente di scegliere la lingua predefinita della consegna e le diverse lingue in cui la consegna può essere inviata. Puoi anche visualizzare in anteprima queste consegne nelle lingue scelte.</p>
+<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../msg/multilingual.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arricchimento del profilo nei messaggi transazionali (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Questa funzionalità ti consente di personalizzare i messaggi transazionali collegando i campi del database di Adobe Campaign al contenuto del messaggio. Puoi selezionare mappature target, colonne di arricchimento e una chiave di riconciliazione per garantire una personalizzazione accurata e in tempo reale, mantenendo al contempo le soglie di prestazioni.</p>
+<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura. Questa funzione è attualmente disponibile solo per le e-mail.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../transactional-messaging/profile-enrichment.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Versione di settembre 2025 {#25-9-release}
 
