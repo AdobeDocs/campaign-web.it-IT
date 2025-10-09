@@ -2,9 +2,9 @@
 audience: end-user
 title: Configurare una consegna multilingue
 description: Scopri come configurare una consegna multilingue
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Nell’interfaccia utente web di Campaign, puoi impostare le consegne come multi
 
 In una distribuzione multilingue, la gestione della lingua si basa su varianti. Ogni variante rappresenta una lingua. Durante la creazione della consegna, puoi aggiungere più varianti di lingua in modo che corrispondano al numero di lingue richieste nel messaggio. Puoi anche modificare la lingua predefinita in qualsiasi momento dopo l’aggiunta di queste varianti.
 
-La funzionalità multilingue è attualmente disponibile per e-mail, notifiche push e messaggi transazionali.
+La funzionalità multilingue è attualmente disponibile per e-mail, notifiche push, messaggi transazionali e SMS.
 
 >[!AVAILABILITY]
 >
