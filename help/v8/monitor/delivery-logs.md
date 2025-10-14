@@ -40,13 +40,13 @@ Vengono elencati tutti i passaggi, le avvertenze e gli errori di convalida. Le i
 * L’icona gialla indica un errore di elaborazione non critico.
 * L’icona rossa indica un errore critico che impedisce l’invio della consegna. Affinché la consegna possa essere inviata, è necessario correggere gli errori critici.
 
-Scheda Registri ![ con passaggi di convalida, avvisi ed errori con icone colorate che indicano i tipi di messaggi.](assets/logs.png){zoomable="yes"}
+Scheda Registri ![&#x200B; con passaggi di convalida, avvisi ed errori con icone colorate che indicano i tipi di messaggi.](assets/logs.png){zoomable="yes"}
 
 ## Consegne {#deliveries-tab}
 
 La scheda **Registri di invio** offre una cronologia di ogni occorrenza della consegna. L’elenco dei messaggi inviati e i relativi stati sono archiviati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
 
-Scheda Consegne ![ con la cronologia dei messaggi inviati e i relativi stati.](assets/logs2.png){zoomable="yes"}
+Scheda Consegne ![&#x200B; con la cronologia dei messaggi inviati e i relativi stati.](assets/logs2.png){zoomable="yes"}
 
 ## Esclusioni {#exclusion-tab}
 
