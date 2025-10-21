@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 19%
+source-wordcount: '1302'
+ht-degree: 18%
 
 ---
 
@@ -55,7 +55,7 @@ Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili p
 Puoi eseguire le seguenti azioni:
 
 * **Elimina** l’attività dall’area di lavoro.
-* **Disattiva/Attiva** l’attività. Durante l’esecuzione del flusso di lavoro, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e il flusso di lavoro si interrompe.
+* **Disabilita/Abilita** l’attività. Durante l’esecuzione del flusso di lavoro, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e il flusso di lavoro si interrompe.
 * **Pausa/Riprendi** l’attività. Durante l’esecuzione, il flusso di lavoro viene messo in pausa in corrispondenza dell’attività in pausa. L&#39;attività corrispondente, così come tutte quelle che la seguono nello stesso percorso, non vengono eseguite.
 * **Copia** l’attività. Consulta [questa sezione](#copy).
 * **Sposta** un&#39;attività e tutti i relativi nodi figlio in un&#39;altra transizione. Consulta [questa sezione](#move).
@@ -106,7 +106,12 @@ Tutte le attività ti consentono di gestire le relative opzioni di esecuzione. S
 
 ![Pannello delle opzioni di esecuzione](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Proprietà
+### Proprietà {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="Proprietà attività"
+>abstract="Questa sezione ti consente di definire come e dove viene eseguita un’attività. Puoi impostare l’azione di esecuzione, limitare la durata dell’esecuzione, scegliere un fuso orario, assegnare l’affinità tra computer, gestire il comportamento asincrono e specificare cosa accade in caso di errore."
 
 Il campo **Esecuzione** consente di definire l&#39;azione da eseguire all&#39;avvio dell&#39;attività.
 
@@ -118,13 +123,23 @@ Il campo **Affinità** consente di forzare l&#39;esecuzione di un flusso di lavo
 
 Il campo **Comportamento** consente di definire la procedura da seguire se vengono utilizzate attività asincrone.
 
-### Gestione degli errori
+### Gestione degli errori {#execution-options}
 
-Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire se l&#39;attività rileva un errore.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="Script di inizializzazione"
+>abstract="Questa sezione ti consente di definire cosa accade se un’attività non riesce. Puoi scegliere azioni quali l’arresto del flusso di lavoro, il passaggio all’attività successiva o l’attivazione di un processo personalizzato di gestione degli errori."
 
-### Script di inizializzazione
+Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire se l&#39;attività rileva un errore. Consulta questa [sezione](workflow-settings.md#error-settings).
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+### Script di inizializzazione {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="Script di inizializzazione"
+>abstract="Questa sezione ti consente di aggiungere JavaScript che viene eseguito all’avvio dell’attività. Utilizzala per inizializzare le variabili, impostare parametri o preparare dati specifici per l’esecuzione di quell’attività."
+
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 
 ## Esempio {#example}
 

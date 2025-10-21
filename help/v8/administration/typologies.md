@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare le regole di business (tipologie)
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1503'
 ht-degree: 26%
 
 ---
@@ -40,7 +40,7 @@ Le tipologie sono accessibili tramite il menu **[!UICONTROL Amministrazione]** >
 
 >[!NOTE]
 >
->Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 I passaggi principali per applicare le tipologie ai messaggi sono i seguenti:
 
@@ -88,69 +88,25 @@ Vengono aperti i dettagli della tipologia. Da questa schermata, fai riferimento 
 >title="Proprietà regola di tipologia"
 >abstract="Definisci le proprietà della regola di tipologia. Le regole di **Controllo** verificano la qualità e la validità del messaggio prima dell’invio, mentre le regole di **Filtro** escludono i segmenti del pubblico target in base a criteri specifici.<br/><br/>È inoltre possibile modificare l’ordine di esecuzione della regola per gestire la sequenza di esecuzione delle regole di tipologia, quando più regole dello stesso tipo vengono eseguite durante la stessa fase di elaborazione del messaggio."
 
-Per creare una regola di tipologia, passa al menu **[!UICONTROL Regole aziendali]**, quindi seleziona la scheda **[!UICONTROL Regole di tipologia]**.
+Sono disponibili due tipi di regole di tipologia:
 
-Fai clic sul pulsante **[!UICONTROL Crea regola di tipologia]**, quindi segui i passaggi descritti di seguito.
+* **Controllo**: assicura la qualità e la validità del messaggio pre-invio, ad esempio la visualizzazione del carattere, la lunghezza dell&#39;SMS, il formato dell&#39;indirizzo o la riduzione dell&#39;URL. Queste regole vengono create utilizzando un’interfaccia di script per definire una logica complessa per i controlli e le modifiche del contenuto.
 
-### Definire le proprietà della regola di tipologia {#properties}
+* **Filtro**: esclude segmenti del pubblico di destinazione in base a criteri specifici, ad esempio età, posizione, paese o numeri di telefono. Queste regole sono collegate a una dimensione di targeting.
 
-Definisci le proprietà della regola di tipologia:
+>[!NOTE]
+>
+>Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. Immetti un **[!UICONTROL Label]** per la regola.
+Per creare una regola di tipologia, effettua le seguenti operazioni:
 
-   ![Interfaccia di creazione regola di controllo](assets/business-rules-control-rule.png)
+1. Passa al menu **[!UICONTROL Regole aziendali]**, quindi seleziona la scheda **[!UICONTROL Regole di tipologia]**.
 
-1. Seleziona il **[!UICONTROL Tipo]** della regola di tipologia:
+1. Fai clic sul pulsante **[!UICONTROL Crea regola di tipologia]**, quindi segui i passaggi descritti di seguito.
 
-   * **Controllo**: assicura la qualità e la validità del messaggio pre-invio, ad esempio la visualizzazione del carattere, la lunghezza dell&#39;SMS, il formato dell&#39;indirizzo o la riduzione dell&#39;URL. Queste regole vengono create utilizzando un’interfaccia di script per definire una logica complessa per i controlli e le modifiche del contenuto.
+[Crea una regola di tipologia](assets/business-rules-create-typo.png)
 
-   * **Filtro**: esclude segmenti del pubblico di destinazione in base a criteri specifici, ad esempio età, posizione, paese o numeri di telefono. Queste regole sono collegate a una dimensione di targeting.
-
-   >[!NOTE]
-   >
-   >Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. Selezionare un **[!UICONTROL canale]** da associare alla regola.
-
-1. Disattivare l&#39;opzione **[!UICONTROL Attivo]** se non si desidera che la regola sia attiva subito dopo la creazione.
-
-1. Definisci l&#39;**[!UICONTROL ordine di esecuzione]** della regola.
-
-   Per impostazione predefinita, l’ordine delle regole di tipologia è impostato su 50. Adatta questo valore per gestire la sequenza in cui le regole di tipologia verranno eseguite quando più regole dello stesso tipo vengono eseguite durante la stessa fase di elaborazione dei messaggi. Ad esempio, una regola di filtro con un ordine di esecuzione di 20 viene eseguita prima di una regola di filtro con un ordine di esecuzione di 30.
-
-1. Espandere la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate, ad esempio il nome interno della regola, l&#39;archiviazione delle cartelle e la descrizione.
-
-1. Per le regole di controllo, nelle opzioni aggiuntive sono disponibili due campi aggiuntivi. Specifica quando applicare la regola e il relativo livello di avviso:
-
-   * **[!UICONTROL Fase]**: specifica a quale punto del ciclo di vita della consegna verrà applicata la regola. Selezionare il valore nell&#39;elenco a discesa **[!UICONTROL Fase]**. Espandi la sezione seguente per ulteriori dettagli sui valori possibili.
-
-   +++Fasi delle regole di controllo:
-
-   **[!UICONTROL All&#39;inizio del targeting]**: impedisce l&#39;esecuzione del passaggio di personalizzazione in caso di errori.
-
-   **[!UICONTROL Dopo il targeting]**: selezionare questa fase se è necessario conoscere il volume della destinazione per applicare la regola di controllo. Ad esempio, la regola di controllo **[!UICONTROL Verifica dimensione bozza]** si applica dopo ogni fase di targeting. Questa regola impedisce la personalizzazione dei messaggi se sono presenti troppi destinatari della bozza.
-
-   **[!UICONTROL All&#39;inizio della personalizzazione]**: selezionare questa fase se il controllo riguarda l&#39;approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
-
-   **[!UICONTROL Al termine dell&#39;analisi]**: applica controlli che richiedono la personalizzazione completa dei messaggi.
-
-   +++
-
-   * **[!UICONTROL Livello]**: specifica il livello di avviso per la regola. Per ulteriori informazioni, espandi la sezione seguente.
-
-   +++Livelli delle regole di controllo:
-
-   **[!UICONTROL Errore]**: arresta la preparazione del messaggio.
-
-   **[!UICONTROL Avviso]**: visualizza un avviso nei registri di preparazione.
-
-   **[!UICONTROL Informazioni]**: visualizza le informazioni nei registri di preparazione.
-
-   **[!UICONTROL Dettagliato]**: visualizza le informazioni nei registri del server.
-
-   +++
-
-### Creare il contenuto della regola {#build}
+### Definire le proprietà principali della regola {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ Definisci le proprietà della regola di tipologia:
 >title="Codice"
 >abstract="Le regole di **controllo** verificano la qualità e la validità del messaggio prima dell’invio, ad esempio, visualizzazione dei caratteri, lunghezza SMS, formato dell’indirizzo, abbreviazione dell’URL. Queste regole vengono create utilizzando il codice JavaScript."
 
-Una volta definite le proprietà della regola di tipologia, crea il contenuto della regola.
+Queste sono le proprietà principali durante la creazione di una nuova regola di tipologia.
 
-* Per **Regole di controllo**, fare clic sul pulsante **Modifica codice** e immettere la logica per la regola utilizzando JavaScript. Nell’esempio seguente, viene creata una regola per visualizzare un avviso nei registri se la destinazione è vuota.
+>[!BEGINTABS]
 
-  ![Editor codice regola di controllo](assets/business-rules-code.png)
+>[!TAB Regole di controllo]
 
-* Per **Regole filtro**, selezionare la dimensione di targeting e fare clic sul pulsante **[!UICONTROL Aggiungi regole]** per definire i criteri di filtro utilizzando [modeler query](../query/query-modeler-overview.md).
+1. Immetti un **[!UICONTROL Label]** per la regola.
 
-  ![Modellatore query regola filtro](assets/business-rules-query.png)
+[Crea regola di controllo](assets/business-rules-create-typo1.png)
 
-Quando la regola è pronta, fai clic sul pulsante **[!UICONTROL Crea]** per creare la regola di tipologia. Fai riferimento alla regola in una tipologia per applicarla ai messaggi.
+1. Espandere la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate, ad esempio il nome interno della regola, l&#39;archiviazione delle cartelle e la descrizione. Puoi anche specificare quando la regola deve essere applicata e il relativo livello di avviso. Per ulteriori informazioni, espandi le sezioni seguenti.
+
+   +++Fasi:
+
+   Specifica a quale punto del ciclo di vita della consegna verrà applicata la regola. Selezionare il valore nell&#39;elenco a discesa **[!UICONTROL Fase]**:
+
+   * **[!UICONTROL All&#39;inizio del targeting]**: impedisce l&#39;esecuzione del passaggio di personalizzazione in caso di errori.
+
+   * **[!UICONTROL Dopo il targeting]**: selezionare questa fase se è necessario conoscere il volume della destinazione per applicare la regola di controllo. Ad esempio, la regola di controllo **[!UICONTROL Verifica dimensione bozza]** si applica dopo ogni fase di targeting. Questa regola impedisce la personalizzazione dei messaggi se sono presenti troppi destinatari della bozza.
+
+   * **[!UICONTROL All&#39;inizio della personalizzazione]**: selezionare questa fase se il controllo riguarda l&#39;approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
+
+   * **[!UICONTROL Al termine dell&#39;analisi]**: applica controlli che richiedono la personalizzazione completa dei messaggi.
+
+   +++
+
+   +++Livello:
+
+   Specifica il livello di avviso per la regola:
+
+   * **[!UICONTROL Errore]**: arresta la preparazione del messaggio.
+
+   * **[!UICONTROL Avviso]**: visualizza un avviso nei registri di preparazione.
+
+   * **[!UICONTROL Informazioni]**: visualizza le informazioni nei registri di preparazione.
+
+   * **[!UICONTROL Dettagliato]**: visualizza le informazioni nei registri del server.
+
+   +++
+
+1. Per creare il contenuto della regola, fare clic sul pulsante **Modifica codice** e immettere la logica per la regola utilizzando JavaScript. Nell’esempio seguente, viene creata una regola per visualizzare un avviso nei registri se la destinazione è vuota.
+
+   ![Editor codice regola di controllo](assets/business-rules-code.png)
+
+1. Fai clic su **Crea**.
+
+
+>[!TAB Regole di filtro]
+
+1. Immetti un **[!UICONTROL Label]** per la regola.
+
+[Creare una regola di filtro](assets/business-rules-create-typo2.png)
+
+1. Espandere la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate, ad esempio il nome interno della regola, l&#39;archiviazione delle cartelle e la descrizione.
+
+1. Per generare il contenuto della regola, seleziona la dimensione di targeting e fai clic sul pulsante **[!UICONTROL Aggiungi regole]** per definire i criteri di filtro utilizzando il [generatore di regole](../query/query-modeler-overview.md).
+
+   ![Modellatore query regola filtro](assets/business-rules-query.png)
+
+1. Fai clic su **Crea**
+
+>[!ENDTABS]
+
+### Definire le proprietà aggiuntive della regola {#add-properties}
+
+Ora definiamo i parametri aggiuntivi. In questa schermata, puoi comunque modificare le proprietà principali precedentemente definite.
+
+[Crea regola di filtro aggiuntiva](assets/business-rules-create-typo2.png)
+
+1. Disattivare l&#39;opzione **[!UICONTROL Attivo]** se non si desidera che la regola sia attiva subito dopo la creazione.
+
+1. Definisci l&#39;**[!UICONTROL ordine di esecuzione]** della regola.
+
+   Per impostazione predefinita, l’ordine delle regole di tipologia è impostato su 50. Adatta questo valore per gestire la sequenza in cui le regole di tipologia verranno eseguite quando più regole dello stesso tipo vengono eseguite durante la stessa fase di elaborazione dei messaggi. Ad esempio, una regola di filtro con un ordine di esecuzione di 20 viene eseguita prima di una regola di filtro con un ordine di esecuzione di 30.
+
+1. Selezionare un **[!UICONTROL canale]** da associare alla regola.
+
+È ora possibile fare riferimento alla regola in una tipologia per applicarla ai messaggi.
 
 ## Fare riferimento alle regole di tipologia in una tipologia {#add-rules}
 
@@ -180,7 +203,7 @@ Per fare riferimento a una o più regole in una tipologia, effettua le seguenti 
 
 1. Passa alla scheda **[!UICONTROL Tipologia]** e apri la tipologia in cui desideri fare riferimento alle regole.
 
-1. Seleziona la scheda **[!UICONTROL Regole di tipologia]** e fai clic sul pulsante **[!UICONTROL Aggiungi regole di tipologia&#39;]**.
+1. Seleziona la scheda **[!UICONTROL Regole di tipologia]** e fai clic sul pulsante **[!UICONTROL Aggiungi regole)]**.
 
    ![Aggiungi interfaccia regole di tipologia](assets/business-rules-reference.png)
 
