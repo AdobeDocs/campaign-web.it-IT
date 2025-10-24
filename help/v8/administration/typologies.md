@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare le regole di business (tipologie)
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1506'
 ht-degree: 26%
 
 ---
@@ -40,12 +40,12 @@ Le tipologie sono accessibili tramite il menu **[!UICONTROL Amministrazione]** >
 
 >[!NOTE]
 >
->Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 I passaggi principali per applicare le tipologie ai messaggi sono i seguenti:
 
 1. [Crea una tipologia](#typology).
-1. [Creare regole di tipologia](#typology-rules).
+1. [Creare regole di tipologia](#typology-rule).
 1. [Fai riferimento alle regole di tipologia nella tipologia](#add-rules).
 1. [Applica la tipologia a un messaggio](#message).
 
@@ -96,7 +96,7 @@ Sono disponibili due tipi di regole di tipologia:
 
 >[!NOTE]
 >
->Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 Per creare una regola di tipologia, effettua le seguenti operazioni:
 
@@ -104,7 +104,7 @@ Per creare una regola di tipologia, effettua le seguenti operazioni:
 
 1. Fai clic sul pulsante **[!UICONTROL Crea regola di tipologia]**, quindi segui i passaggi descritti di seguito.
 
-[Crea una regola di tipologia](assets/business-rules-create-typo.png)
+   ![Crea regola di tipologia](assets/business-rules-create-typo.png)
 
 ### Definire le proprietà principali della regola {#properties}
 
@@ -118,7 +118,7 @@ Per creare una regola di tipologia, effettua le seguenti operazioni:
 >title="Codice"
 >abstract="Le regole di **controllo** verificano la qualità e la validità del messaggio prima dell’invio, ad esempio, visualizzazione dei caratteri, lunghezza SMS, formato dell’indirizzo, abbreviazione dell’URL. Queste regole vengono create utilizzando il codice JavaScript."
 
-Queste sono le proprietà principali durante la creazione di una nuova regola di tipologia.
+Queste sono le proprietà principali da definire durante la creazione di una nuova regola di tipologia:
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ Queste sono le proprietà principali durante la creazione di una nuova regola di
 
 1. Immetti un **[!UICONTROL Label]** per la regola.
 
-[Crea regola di controllo](assets/business-rules-create-typo1.png)
+   ![Crea regola di controllo](assets/business-rules-create-typo1.png)
 
-1. Espandere la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate, ad esempio il nome interno della regola, l&#39;archiviazione delle cartelle e la descrizione. Puoi anche specificare quando la regola deve essere applicata e il relativo livello di avviso. Per ulteriori informazioni, espandi le sezioni seguenti.
+1. La sezione **[!UICONTROL Opzioni aggiuntive]** consente di accedere a impostazioni avanzate, quali il nome interno della regola, l&#39;archiviazione delle cartelle e la descrizione. Puoi anche specificare quando la regola deve essere applicata e il relativo livello di avviso. Per ulteriori informazioni, espandi le sezioni seguenti.
 
-   +++Fasi:
+   +++Fasi
 
    Specifica a quale punto del ciclo di vita della consegna verrà applicata la regola. Selezionare il valore nell&#39;elenco a discesa **[!UICONTROL Fase]**:
 
@@ -144,17 +144,17 @@ Queste sono le proprietà principali durante la creazione di una nuova regola di
 
    +++
 
-   +++Livello:
+   +++Livello
 
    Specifica il livello di avviso per la regola:
 
-   * **[!UICONTROL Errore]**: arresta la preparazione del messaggio.
+   * **[!UICONTROL Errore]**: arresta la preparazione del messaggio
 
-   * **[!UICONTROL Avviso]**: visualizza un avviso nei registri di preparazione.
+   * **[!UICONTROL Avviso]**: visualizza un avviso nei registri di preparazione
 
-   * **[!UICONTROL Informazioni]**: visualizza le informazioni nei registri di preparazione.
+   * **[!UICONTROL Informazioni]**: visualizza le informazioni nei registri di preparazione
 
-   * **[!UICONTROL Dettagliato]**: visualizza le informazioni nei registri del server.
+   * **[!UICONTROL Dettagliato]**: visualizza le informazioni nei registri del server
 
    +++
 
@@ -169,7 +169,7 @@ Queste sono le proprietà principali durante la creazione di una nuova regola di
 
 1. Immetti un **[!UICONTROL Label]** per la regola.
 
-[Creare una regola di filtro](assets/business-rules-create-typo2.png)
+   ![Crea regola di filtro](assets/business-rules-create-typo2.png)
 
 1. Espandere la sezione **[!UICONTROL Opzioni aggiuntive]** per accedere alle impostazioni avanzate, ad esempio il nome interno della regola, l&#39;archiviazione delle cartelle e la descrizione.
 
@@ -185,7 +185,7 @@ Queste sono le proprietà principali durante la creazione di una nuova regola di
 
 Ora definiamo i parametri aggiuntivi. In questa schermata, puoi comunque modificare le proprietà principali precedentemente definite.
 
-[Crea regola di filtro aggiuntiva](assets/business-rules-create-typo2.png)
+![Crea regola di filtro aggiuntiva](assets/business-rules-create-typo3.png)
 
 1. Disattivare l&#39;opzione **[!UICONTROL Attivo]** se non si desidera che la regola sia attiva subito dopo la creazione.
 
