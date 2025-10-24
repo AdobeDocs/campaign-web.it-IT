@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 19%
+source-wordcount: '617'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ Ora puoi utilizzare questo modello per inviare le consegne.
 
 >[!TAB Adobe Campaign V8]
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=it)
+Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
@@ -126,3 +126,27 @@ Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Progettare e inviare e-mail](../../email/create-email.md).
 
 >[!ENDTABS]
+
+## Controllare il branding associato ai messaggi transazionali {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>Questa sezione si applica solo alla messaggistica transazionale (Centro messaggi).
+>
+>Anche se le funzionalità transazionali sono disponibili nell’interfaccia utente di Campaign Web, i passaggi di verifica riportati di seguito devono essere eseguiti nella console client di Campaign v8 (istanza di controllo).
+
+Le consegne transazionali sincronizzate dalle istanze di esecuzione in tempo reale (RT) all’istanza di controllo non replicano proprietà quali l’indirizzamento o il branding. Queste consegne sincronizzate vengono generate settimanalmente dallo stesso modello per ripristinare gli indicatori di consegna nell’istanza di controllo.
+
+Per questo motivo, nell’istanza di controllo viene visualizzato il brand predefinito. Le impostazioni effettive del brand e di indirizzamento utilizzate durante l’esecuzione del messaggio sono definite nel modello di messaggio transazionale nell’istanza di controllo.
+
+Per verificare quale brand è stato utilizzato per un messaggio transazionale:
+
+1. Identificare il nome interno del modello transazionale pubblicato in tempo reale, ad esempio `TransactionalMessaging4768`.
+
+   ![](assets/branding-transactional.png)
+
+1. Nell&#39;istanza di controllo, cercare questo nome interno in **Modelli di messaggi transazionali**.
+
+   ![](assets/branding-transactional2.png)
+
+1. Apri il modello per visualizzare il brand e altre proprietà correlate.

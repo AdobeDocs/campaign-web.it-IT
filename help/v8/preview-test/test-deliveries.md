@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare bozze
 description: Scopri come definire e inviare bozze
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 45%
+source-wordcount: '1193'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
->title="Destinazione bozza aggiuntiva"
+>title="Target di bozza aggiuntivo"
 >abstract="Destinazione bozza aggiuntiva."
 
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima e il test inviando delle bozze ai profili di test. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
@@ -109,7 +109,7 @@ Per sostituire i dati di profilo dal target principale, segui i passaggi seguent
 
    >[!CAUTION]
    >
-   >Se non hai selezionato un [pubblico](../audience/about-recipients.md) per la consegna, l’opzione **[!UICONTROL Sostituisci dal target principale]** sarà disattivata e non sarà possibile selezionare profili di sostituzione.
+   >Se non hai selezionato un [pubblico](../audience/about-recipients.md) per la consegna, l&#39;opzione **[!UICONTROL Sostituisci dal target principale]** sarà disattivata e non potrai selezionare profili di sostituzione. Inoltre, anche se è selezionato un pubblico target, per le consegne di tipo ricorrente questa opzione sarà ancora disattivata poiché la consegna principale è un modello.
 
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi indirizzo]** e specifica l&#39;indirizzo e-mail o il numero di telefono che riceverà la bozza.
 
