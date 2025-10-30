@@ -16,7 +16,7 @@ Gli avvisi sulla consegna sono un sistema di gestione degli avvisi che consente 
 
 Le notifiche sono personalizzate in base a criteri di avviso specifici definiti tramite l’interfaccia utente web di Adobe Campaign.
 
-Per ulteriori informazioni sulla gestione degli errori di consegna, consulta la [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Per ulteriori informazioni sulla gestione degli errori di consegna, consulta la [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Contenuti delle notifiche e-mail {#content}
 
