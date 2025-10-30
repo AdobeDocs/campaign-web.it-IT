@@ -33,7 +33,7 @@ La differenza principale risiede nell’interfaccia utente. Di seguito è riport
 
 Nel video seguente, scopri come accedere e navigare nell’interfaccia utente di Campaign Web e come personalizzare gli elenchi di inventario.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453430?captions=ita&quality=12&learn=on){transcript=true}
 
 Per ulteriori informazioni, consulta la documentazione seguente:
 
@@ -54,7 +54,7 @@ In Adobe Campaign, un profilo è un record memorizzato nel database che funge da
 
 1. Scopri come accedere, gestire ed esplorare i profili utilizzando l’interfaccia utente di Campaign Web in questo video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448372?captions=ita&quality=12&learn=on){transcript=true}
 
    Ulteriori informazioni sono disponibili nella [Guida introduttiva ai profili](../../v8/audience/about-recipients.md).
 
@@ -66,7 +66,7 @@ I tipi di pubblico sono insiemi di profili che condividono comportamenti e/o car
 
 Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo, in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453210?captions=ita&quality=12&learn=on){transcript=true}
 
 Per ulteriori informazioni, consulta [Introduzione a Audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -144,7 +144,7 @@ L’interfaccia utente del flusso di lavoro è stata completamente ripensata nel
 
 Scopri come funzionano i flussi di lavoro e come creare un flusso di lavoro di targeting in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453980?captions=ita&quality=12&learn=on){transcript=true}
 
 Ulteriori dettagli sono disponibili nella [documentazione del flusso di lavoro](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +200,7 @@ Collegamenti utili:
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454013?captions=ita&quality=12&learn=on){transcript=true}
 
 Scopri come creare la tua prima e-mail mirata nella [Documentazione sulla creazione della prima e-mail](../../v8/email/create-email.md)
 
@@ -212,13 +212,13 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
    Scopri come navigare in E-mail Designer. Scopri come strutturare e progettare un’e-mail da zero, come personalizzare e testare l’e-mail nel video seguente:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453573?captions=ita&quality=12&learn=on){transcript=true}
 
    E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Ulteriori informazioni sono disponibili nella [documentazione di E-mail Designer](../../v8/email/get-started-email-designer.md)
 
    Scopri come creare un’e-mail caricando HTML, come renderla compatibile con il Designer e-mail e come convertirla in un modello in questo video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447040?captions=ita&quality=12&learn=on){transcript=true}
 
    Un frammento di contenuto è un componente riutilizzabile a cui è possibile fare riferimento in uno o più messaggi. Ulteriori informazioni su [Frammenti di contenuto](../../v8/content/fragments.md) per semplificare la creazione della consegna di e-mail.
 
@@ -228,7 +228,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
    Scopri come visualizzare in anteprima il contenuto e la personalizzazione dei messaggi e-mail, inviare le consegne di test (bozze) e controllare il rendering delle e-mail nei client desktop, mobili e basati su web più diffusi, in questo video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450345?captions=ita&quality=12&learn=on){transcript=true}
 
 1. **Invia e-mail e controlla i registri**
 
