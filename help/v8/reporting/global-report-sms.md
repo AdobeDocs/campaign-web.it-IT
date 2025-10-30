@@ -29,7 +29,7 @@ Il rapporto **[!UICONTROL Panoramica della consegna]** offre indicatori prestazi
 
 ![Schermata del rapporto Panoramica consegna che mostra gli indicatori prestazioni chiave per la consegna SMS.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 

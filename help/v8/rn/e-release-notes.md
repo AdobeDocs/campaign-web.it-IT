@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile creare tipologie e regole di tipologia nell’interfaccia utente di Adobe Campaign Web. Le tipologie consentono di controllare, filtrare e definire le priorità per l’invio delle consegne. Le tipologie convalidano che le consegne contengano sempre i componenti obbligatori (come un collegamento per l’annullamento dell’abbonamento o la riga di oggetto) oppure regole di filtro per escludere determinati gruppi dal pubblico (ad esempio utenti che hanno annullato l’abbonamento, concorrenti o clientela non fidelizzata).</p>
+<p>Ora è possibile creare tipologie e regole di tipologia nell’interfaccia utente di Adobe Campaign Web. Le tipologie consentono di controllare, filtrare e definire le priorità per l’invio delle consegne. Le tipologie convalidano che le consegne contengano sempre i componenti obbligatori (come l’oggetto o un collegamento per l’annullamento dell’iscrizione) oppure regole di filtro per escludere alcuni gruppi dal pubblico (ad esempio utenti che hanno annullato l’iscrizione, aziende concorrenti o clientela non fidelizzata).</p>
 <img src="assets/do-not-localize/typology.gif" alt="Dimostrazione della creazione di regole di tipologia nell’interfaccia utente di Adobe Campaign Web">
 <p>Per ulteriori informazioni, consulta la <a href="../administration/typologies.md">documentazione dettagliata</a>.</p>
 </td>

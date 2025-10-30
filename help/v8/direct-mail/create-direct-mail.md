@@ -6,7 +6,7 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -34,7 +34,6 @@ Per creare una nuova consegna di direct mailing autonoma, effettua le seguenti o
    * **[!UICONTROL Codice di consegna]**: organizza le consegne in base alla convenzione di denominazione.
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
-
    +++
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo.

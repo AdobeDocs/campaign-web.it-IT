@@ -7,11 +7,11 @@ exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Contratto di utilizzo per reporting dinamico {#pii-agreement}
+# Accordo di utilizzo del reporting dinamico {#pii-agreement}
 
 Lo scopo del Dynamic Reporting Usage Agreement è quello di funzionare come consenso pop-up per l’elaborazione dei dati. Per impostazione predefinita, l&#39;accordo è visibile solo e può essere accettato o rifiutato solo dagli utenti a cui sono stati assegnati diritti di amministrazione.
 
@@ -30,7 +30,7 @@ Nella tabella seguente viene illustrato ciò che accade dopo l&#39;accettazione 
 |  | Reporting dinamico | Connettore Microsoft Dynamics 365 |
 |---|---|---|
 | Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br>Tutte le informazioni predefinite (ad esempio città, paese, stato, genere e segmenti in base all&#39;età) e i profili personalizzati sono stati inviati al centro rapporti negli Stati Uniti. | **Funzionalità disponibile**. <br>Tutti i campi predefiniti e personalizzati dei profili e i campi degli eventi di Adobe Campaign vengono elaborati nel centro dati degli Stati Uniti. |
-| EMEA (Europa, Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Tutte le informazioni predefinite (ovvero città, paese, stato, genere e segmenti in base all&#39;età) e i profili personalizzati inviati al centro rapporti dell&#39;area EMEA. | **Funzionalità disponibile.** <br>Tutti i campi dei profili predefiniti e personalizzati e i campi degli eventi Adobe Campaign elaborati nel data center dell&#39;area EMEA. <br>**[!UICONTROL Dati di controllo &#x200B;]**&#x200B;che contengono i dati di registrazione di Adobe I/O e gli ID degli eventi dell&#39;utente finale del cliente inviati e archiviati nel data center statunitense. |
+| EMEA (Europa, Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Tutte le informazioni predefinite (ovvero città, paese, stato, genere e segmenti in base all&#39;età) e i profili personalizzati inviati al centro rapporti dell&#39;area EMEA. | **Funzionalità disponibile.** <br>Tutti i campi dei profili predefiniti e personalizzati e i campi degli eventi Adobe Campaign elaborati nel data center dell&#39;area EMEA. <br>**[!UICONTROL Dati di controllo ]**che contengono i dati di registrazione di Adobe I/O e gli ID degli eventi dell&#39;utente finale del cliente inviati e archiviati nel data center statunitense. |
 
 La tabella seguente mostra cosa accade dopo aver rifiutato il contratto, a seconda della regione. Anche se si rifiuta questo contratto, saranno comunque disponibili rapporti sulle consegne e sull’integrazione di Microsoft Dynamics 365.
 

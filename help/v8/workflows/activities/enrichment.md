@@ -32,7 +32,7 @@ Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere u
 
 Ad esempio, puoi aggiungere alla tabella del flusso di lavoro informazioni relative agli acquisti dei clienti e utilizzare questi dati per personalizzare le e-mail con il loro ultimo acquisto o l’importo speso per tali acquisti.
 
-## Aggiungere un’attività Enrichment {#enrichment-configuration}
+## Aggiungere un’attività Arricchimento {#enrichment-configuration}
 
 Per configurare l’attività **Arricchimento** segui questi passaggi:
 
@@ -191,7 +191,7 @@ Se si desidera visualizzare solo le offerte dell&#39;attività di arricchimento,
 In questo caso, viene semplicemente aggiunto un attributo di arricchimento singolo, ad esempio, la data di nascita. Segui questi passaggi:
 
 1. Fai clic all’interno del campo **Attributo**.
-1. Seleziona un campo semplice dalla dimensione di targeting, nel nostro esempio la data di nascita.
+1. Seleziona un campo semplice dalla dimensione targeting, nel nostro esempio la data di nascita.
 1. Fai clic su **Conferma**.
 
 ![](../assets/workflow-enrichment2.png)

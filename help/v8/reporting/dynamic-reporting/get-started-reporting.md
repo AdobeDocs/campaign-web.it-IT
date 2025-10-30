@@ -7,7 +7,7 @@ exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo su richiesta. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile solo on-demand. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 Il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Aggiunge l’accesso ai dati del profilo, consentendo l’analisi demografica per dimensioni di profilo come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic.
 

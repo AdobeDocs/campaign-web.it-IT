@@ -5,7 +5,7 @@ exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -28,8 +28,8 @@ Per creare un nuovo account esterno, segui i passaggi descritti di seguito. Le i
 1. Immetti la **[!UICONTROL etichetta]** e seleziona l&#39;account esterno **[!UICONTROL Tipo]**.
 
    * [Tipi specifici della campagna](external-account.md)
-   * [Integrazione della soluzione Adobe](integration-external-account.md)
-   * [Trasferisci dati](transfer-external-account.md)
+   * [Integrazione Adobe Solution](integration-external-account.md)
+   * [Trasferire dati](transfer-external-account.md)
    * [Database esterno](external-account-database.md)
 
    ![Schermata che mostra i campi per l&#39;immissione dell&#39;etichetta e la selezione del tipo di account esterno.](assets/external_account_create_2.png)

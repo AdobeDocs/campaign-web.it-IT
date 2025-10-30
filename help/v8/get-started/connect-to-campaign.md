@@ -3,7 +3,7 @@ title: Connessione all’interfaccia di Adobe Campaign Web
 description: Scopri come connetterti all’interfaccia utente di Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -143,7 +143,7 @@ Per cambiare la lingua:
 
 ## Temi scuri e chiari {#dark-theme}
 
-Adobe Campaign è disponibile nei temi chiaro e scuro. Per impostazione predefinita, l’interfaccia utente è abilitata nel tema chiaro. Per passare al tema scuro, fai clic sull’icona del tuo profilo e utilizza l’interruttore **Tema scuro** per abilitarlo o disabilitarlo.
+Adobe Campaign è disponibile nei temi chiaro e scuro. Per impostazione predefinita, l’interfaccia utente è abilitata nel tema chiaro. Per passare al tema scuro, fai clic sull’icona del tuo profilo e utilizza il pulsante di attivazione **Tema scuro** per abilitarlo o disabilitarlo.
 
 Le impostazioni del profilo utente e le preferenze dell’account sono descritte nei dettagli in [questa sezione](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it#preferences){target="_blank"}.
 

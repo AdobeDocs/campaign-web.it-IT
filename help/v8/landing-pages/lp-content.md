@@ -155,7 +155,7 @@ Per inviare automaticamente un messaggio di conferma dopo l’invio di una pagin
 
 1. Espandere la sezione **[!UICONTROL Call to action]** per modificare l&#39;aspetto del pulsante nel modulo del componente. Ad esempio, modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 
-   ![Impostazioni stile invito all&#39;azione](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![Impostazioni stile Call to action](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Visualizzare in anteprima alcune impostazioni, ad esempio il colore dell&#39;etichetta del pulsante al passaggio del mouse, utilizzando il pulsante **[!UICONTROL Simula contenuto]**. [Ulteriori informazioni](create-lp.md#test-landing-page)
 

@@ -26,7 +26,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Audit trail dello schema Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nella console client di Campaign v8.
 
-  Per informazioni dettagliate sugli schemi, consulta [Documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Per informazioni dettagliate sugli schemi, consulta [Documentazione di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **Audit trail del flusso di lavoro** consente di tenere traccia delle attività e delle modifiche recenti apportate ai flussi di lavoro, inclusi i relativi stati correnti, ad esempio:
 
@@ -37,13 +37,13 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
    * Pulizia, che è uguale all’azione Cancella cronologia
    * Simula, che è uguale all’azione Avvia in modalità simulazione
    * Riattivazione, che è uguale all’azione Esegui subito le attività in sospeso
-   * Arresto totale
+   * Interruzione incondizionata
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../workflows/gs-workflows.md).
 
 * **Option audit trail** consente di monitorare le attività e le modifiche recenti apportate alle opzioni in Campaign v8.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
@@ -55,11 +55,11 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alla mappatura consegna in Campaign v8.
 
-  Per ulteriori informazioni sulla mappatura della consegna, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Per ulteriori informazioni sulla mappatura della consegna, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * **Applicazione Web** consente di verificare le modifiche apportate ai moduli Web in Campaign v8, utilizzati per creare pagine con campi di input e di selezione e che possono includere dati dal database.
 
-  Per ulteriori informazioni sulle applicazioni Web, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/webapps).
+  Per ulteriori informazioni sulle applicazioni Web, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * **Offerta** ti consente di controllare le attività e le ultime modifiche apportate alle offerte.
 
@@ -67,7 +67,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Operatore** consente di monitorare le attività e le modifiche recenti apportate agli operatori in Campaign v8.
 
-  Per ulteriori informazioni sugli operatori, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Per ulteriori informazioni sugli operatori, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

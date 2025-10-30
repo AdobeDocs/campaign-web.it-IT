@@ -6,7 +6,7 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Una volta configurato l’account esterno specifico, crea la consegna esterna. S
 
    Sono disponibili tre opzioni:
 
-   * **In un flusso di lavoro**: aggiungi un&#39;attività del canale esterno (e-mail, SMS o push) al flusso di lavoro. Per istruzioni dettagliate sulla configurazione dei flussi di lavoro, consulta [questa pagina](../workflows/gs-workflow-creation.md).
+   * **In un flusso di lavoro**: aggiungi un&#39;attività del canale esterno (e-mail, SMS o push) al flusso di lavoro. Per istruzioni dettagliate su come configurare il flusso di lavoro, consulta [questa pagina](../workflows/gs-workflow-creation.md).
    * **In una campagna**: dopo aver creato una campagna, puoi creare una consegna esterna tramite e-mail, SMS o canale push. Per ulteriori informazioni sulla configurazione della campagna, consulta [questa pagina](../campaigns/gs-campaigns.md).
    * **Consegna autonoma**: coinvolgi i clienti direttamente e immediatamente con una singola consegna esterna. [Scopri come creare una consegna](../msg/gs-deliveries.md)
 

@@ -5,7 +5,7 @@ description: Scopri come creare un messaggio transazionale nell’interfaccia ut
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 

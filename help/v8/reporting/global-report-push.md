@@ -29,7 +29,7 @@ Il rapporto **[!UICONTROL Panoramica consegna]** fornisce indicatori prestazioni
 
 ![Metriche di panoramica della consegna, con i KPI relativi alle prestazioni delle notifiche push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 

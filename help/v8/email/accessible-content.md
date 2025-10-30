@@ -26,7 +26,6 @@ Di seguito sono elencate le procedure consigliate per la progettazione di conten
 
 Questa pagina consente di rendere il contenuto accessibile a tutti i destinatari per garantire che le persone con disabilità possano leggere, comprendere e interagire con le e-mail e le pagine di destinazione progettate con [!DNL Adobe Campaign].
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)

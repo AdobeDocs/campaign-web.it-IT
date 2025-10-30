@@ -16,7 +16,7 @@ Nella messaggistica transazionale, un evento attiva l’invio di un messaggio pe
 
 ## Creare un modello di messaggio transazionale {#transactional-template}
 
-Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional).
+Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Puoi utilizzare un modello di messaggio transazionale per visualizzare in anteprima il contenuto della consegna ricevuto dal profilo prima che raggiunga il pubblico finale. Ad esempio, un amministratore può impostare e configurare i modelli, rendendoli pronti per l’uso da parte degli utenti di marketing.
 
@@ -66,7 +66,7 @@ La sezione **[!UICONTROL Proprietà]** di un messaggio transazionale ti aiuta a 
 * **[!UICONTROL Cartella di esecuzione]**, in cui viene archiviato il messaggio dopo l&#39;esecuzione.
 * Il **[!UICONTROL codice di consegna]**, che è un codice che aiuta a riconoscere il messaggio per il reporting, se necessario.
 * La **[!UICONTROL Descrizione]**.
-* La **[!UICONTROL Natura]**, che è la natura della consegna, come elencato nell&#39;enumerazione *deliveryNature*. [Ulteriori informazioni sulle enumerazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* La **[!UICONTROL Natura]**, che è la natura della consegna, come elencato nell&#39;enumerazione *deliveryNature*. [Ulteriori informazioni sulle enumerazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![Schermata che mostra la sezione delle proprietà di un modello di messaggio transazionale.](assets/template-properties.png){zoomable="yes"}
 

@@ -1,7 +1,8 @@
 ---
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 8f41312e-422f-4be1-b874-1b143c500912
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '3892'
 ht-degree: 1%
@@ -14,7 +15,7 @@ Utilizza un account esterno di tipo database esterno per collegare Adobe Campaig
 
 Le impostazioni di configurazione per l’account esterno variano a seconda del motore di database a cui ti stai connettendo. Le istruzioni dettagliate per ciascun database supportato sono disponibili nelle sezioni seguenti.
 
-## Amazon Redshift
+##  Amazon Redshift
 
 L’account esterno Amazon Redshift ti consente di collegare l’istanza Campaign al database esterno Amazon Redshift.
 

@@ -1,7 +1,8 @@
 ---
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 6%
@@ -12,7 +13,7 @@ ht-degree: 6%
 
 ## Servizio Amazon Simple Storage (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -42,7 +43,7 @@ Per informazioni su dove trovare l&#39;ID della chiave di accesso e la chiave di
 
 ## Archiviazione BLOB di Azure {#azure-blob-external-account}
 
-L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Archiviazione BLOB di Azure.](assets/external-azure.png)
 

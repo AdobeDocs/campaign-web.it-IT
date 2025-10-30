@@ -47,7 +47,7 @@ Ora puoi utilizzare questo modello per inviare le consegne.
 
 >[!TAB Adobe Campaign V8]
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=it)
+Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 

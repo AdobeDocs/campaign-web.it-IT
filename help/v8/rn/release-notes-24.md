@@ -3,7 +3,7 @@ title: Note sulla versione precedente dell’interfaccia utente di Campaign Web 
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 * **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Note sulla versione di luglio {#24-7-release}
@@ -281,7 +281,7 @@ I miglioramenti riportati di seguito sono disponibili per tutti i clienti a part
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile per tutti gli utenti a partire dalla versione [Campaign v8.6 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it). Per ulteriori informazioni sulle versioni e gli aggiornamenti della console client di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
+>Questa versione è disponibile per tutti gli utenti a partire dalla versione [Campaign v8.6 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT). Per ulteriori informazioni sulle versioni e gli aggiornamenti della console client di Adobe Campaign, consulta la [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=it){target="_blank"}.
 
 **Data di rilascio**: 19-20 marzo 2024
 

@@ -35,7 +35,7 @@ Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configur
 
 Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens).
 
-Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza la sezione **Data inizio - fine**:
+Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza la sezione **Data di inizio - fine**:
 
 ![Descrizione: il pannello dei filtri con le opzioni per filtrare le campagne in base alle date di inizio e di fine](assets/campaign-filter-on-dates.png)
 

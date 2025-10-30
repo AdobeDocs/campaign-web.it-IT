@@ -4,7 +4,7 @@ description: Scopri come gestire le mappature di destinazione.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '806'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 ## Informazioni sulle mappature di destinazione {#about}
 
-Ogni canale di comunicazione utilizza una mappatura target predefinita per eseguire il targeting dei propri destinatari. Ad esempio, per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Destinatari]**. La mappatura di destinazione utilizza pertanto i campi della tabella **nms:recipient**. Per le notifiche push, il mapping di destinazione predefinito è **Applicazioni in abbonamento (nms:appSubscriptionRcp)**, che è collegato alla tabella dei destinatari.
+Ogni canale di comunicazione utilizza una mappatura target predefinita per eseguire il targeting dei propri destinatari. Ad esempio, per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Destinatari]**. La mappatura di destinazione utilizza pertanto i campi della tabella **nms:recipient**. Per le notifiche push, il mapping di destinazione predefinito è **Applicazioni sottoscrittore (nms:appSubscriptionRcp)**, che è collegato alla tabella dei destinatari.
 
 I mapping di destinazione sono accessibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Mapping di destinazione]**. Da questa schermata, puoi accedere ai dettagli su ogni mappatura di destinazione o crearne di nuove in base alle tue esigenze.
 
@@ -69,7 +69,7 @@ Per creare una nuova mappatura di destinazione, accedere al menu **[!UICONTROL A
 
 1. Se la dimensione selezionata non è già utilizzata da una mappatura di destinazione esistente, è necessario creare schemi per memorizzare i registri. Sono disponibili opzioni aggiuntive nella sezione **[!UICONTROL Archiviazione]**. Espandi la sezione seguente per ulteriori dettagli.
 
-   +++Opzioni di archiviazione per nuove dimensioni di targeting
+   +++Opzioni di archiviazione per le nuove dimensioni di targeting
 
    1. **[!UICONTROL Spazio dei nomi]**: identifica lo spazio dei nomi che verrà utilizzato per creare i registri.
    1. **[!UICONTROL Suffisso dello schema dell&#39;estensione]**: specificare un suffisso per il nuovo schema.

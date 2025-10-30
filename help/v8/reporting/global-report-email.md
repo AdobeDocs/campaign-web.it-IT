@@ -29,7 +29,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 ![Metriche di panoramica della consegna](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -135,7 +135,7 @@ La tabella e il grafico **[!UICONTROL Raggruppamento di errori per tipo]** prese
 
 Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=it){target="_blank"}.
 
-+++Ulteriori informazioni sulla suddivisione degli errori per metrica per tipo.
++++Ulteriori informazioni sulla suddivisione degli errori per metrica di tipo.
 
 * **[!UICONTROL Utente sconosciuto]**: tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
 
@@ -253,7 +253,7 @@ Il grafico e la tabella **[!UICONTROL 10 collegamenti più visitati]** contengon
 
 ![Metriche dei 10 collegamenti più visitati](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sui 10 collegamenti più visitati.
++++Scopri di più sulle metriche dei 10 collegamenti più visitati.
 
 * **[!UICONTROL Clic totali]**: numero totale di clic sui collegamenti nelle consegne.
 

@@ -5,8 +5,8 @@ description: Scopri come creare una consegna di notifiche push con Adobe Campaig
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 69%
+source-wordcount: '738'
+ht-degree: 65%
 
 ---
 
@@ -51,7 +51,6 @@ Configura le impostazioni di consegna nel modo descritto di seguito:
    * **[!UICONTROL Codice di consegna]**: organizza le consegne in base alla convenzione di denominazione.
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
-
    +++
 
 ## Selezionare il pubblico della consegna push {#create-audience-push}
@@ -68,7 +67,7 @@ Devi innanzitutto selezionare l’app, quindi puoi perfezionare il pubblico dell
 
    ![Schermata che mostra la selezione del pubblico per la consegna push](assets/push_create_2.png){zoomable="yes"}
 
-1. Seleziona un pubblico esistente o crea un pubblico personalizzato per perfezionare la popolazione target per la consegna push. Per le notifiche push, la [dimensione target](../audience/about-recipients.md#targeting-dimensions) predefinita è **Applicazioni in abbonamento** (nms:appSubscriptionRcp), collegata alla tabella dei destinatari.
+1. Seleziona un pubblico esistente o crea un pubblico personalizzato per perfezionare la popolazione target per la consegna push. Per la notifica push, la [dimensione di destinazione](../audience/about-recipients.md#targeting-dimensions) predefinita è **applicazione sottoscrittore** (nms:appSubscriptionRcp), collegata alla tabella dei destinatari.
 
    Scopri come selezionare un pubblico esistente in [questa pagina](../audience/add-audience.md).
 
@@ -92,7 +91,7 @@ Per pianificare una consegna push indipendente a una data e un’ora specifiche,
 
 1. Passa alla sezione **[!UICONTROL Pianificazione]** delle proprietà di consegna.
 
-1. Utilizza l’opzione **[!UICONTROL Abilita pianificazione]** per attivarla.
+1. Utilizza il pulsante di attivazione **[!UICONTROL Abilita pianificazione]** per attivarla.
 
 1. Imposta la data e l’ora desiderate per l’invio.
 

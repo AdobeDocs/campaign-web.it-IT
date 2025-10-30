@@ -37,7 +37,7 @@ Per progettare il contenuto del file di estrazione generato dalla consegna di di
 
 1. Espandi la sezione **[!UICONTROL Formato estrazione]** per accedere a opzioni specifiche relative al formato del file di estrazione. I valori disponibili dipendono dal formato selezionato.
 
-+++ Opzioni di formato di estrazione disponibili
+   +++ Opzioni di formato di estrazione disponibili
 
    * **[!UICONTROL Utilizza la prima riga come intestazione di colonna]** (formato Testo/CSV (Excel)): attiva questa opzione per utilizzare la prima colonna come intestazione.
    * **[!UICONTROL Separatore colonne]** (formato testo): specificare il carattere da utilizzare come separatore colonne nel file di estrazione.
@@ -48,7 +48,7 @@ Per progettare il contenuto del file di estrazione generato dalla consegna di di
    * **[!UICONTROL Formato numero]**: specificare la modalità di formattazione dei numeri nel file di estrazione.
    * **[!UICONTROL Esporta etichette anziché valori interni delle enumerazioni]**: attiva questa opzione se esporti valori di enumerazione e desideri recuperare le etichette di colonna, che sono più facili da comprendere, anziché gli ID interni.
 
-+++
+   +++
 
 1. Attiva l&#39;opzione **[!UICONTROL Quantità richiesta]** per limitare il numero di destinatari per la consegna.
 

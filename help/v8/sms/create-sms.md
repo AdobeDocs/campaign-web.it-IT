@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -49,7 +49,6 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
    * **[!UICONTROL Codice di consegna]**: organizza le consegne in base alla convenzione di denominazione.
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
-
    +++
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni sui tipi di pubblico](../audience/about-recipients.md)

@@ -54,7 +54,7 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 
 1. Seleziona l’azione da eseguire con l’attività. Le azioni disponibili dipendono dal tipo di trasferimento selezionato. Per ulteriori informazioni, espandi le sezioni seguenti.
 
-   +++Azioni disponibili con **Attività di tipo Trasferimento file**
+   +++Azioni disponibili con attività di tipo **Trasferimento file**
 
    * **[!UICONTROL Download del file]**: scarica un file dal server.
    * **[!UICONTROL Caricamento file]**: carica un file sul server.
@@ -63,7 +63,7 @@ Per configurare l&#39;attività **Trasferisci file**, eseguire la procedura segu
 
    +++
 
-   +++Azioni disponibili con **Attività di tipo download Web**
+   +++Azioni disponibili con **attività di download Web** di tipo
 
    * **[!UICONTROL Trasferimento semplice (GET)]**: recupero di un file.
    * **[!UICONTROL Trasferimento tramite modulo (POST)]**: caricare un file e parametri aggiuntivi.
@@ -150,7 +150,7 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 
    +++
 
-   +++Opzioni aggiuntive per **[!UICONTROL Attività di tipo download Web]**
+   +++Opzioni aggiuntive per **[!UICONTROL download Web]** attività di tipo
 
    * **[!UICONTROL Segui reindirizzamenti]**: il reindirizzamento dei file consente di utilizzare gli override per indirizzare l&#39;input o l&#39;output di dati a un dispositivo di tipo diverso.
    * **[!UICONTROL Aggiungere le intestazioni HTTP al file]**: in alcuni casi, potrebbe essere necessario aggiungere altre intestazioni HTTP a un file. Nella maggior parte dei casi, queste intestazioni verranno utilizzate per fornire informazioni aggiuntive a scopo di risoluzione dei problemi, per [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o per impostare direttive di caching specifiche.

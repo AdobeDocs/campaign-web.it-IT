@@ -106,7 +106,7 @@ Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima 
 
 Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo il momento più appropriato per il messaggio di marketing, puoi massimizzare i tassi di apertura.
 
-Per pianificare l&#39;invio di una consegna, apri la consegna e passa alla sezione **[!UICONTROL Pianifica]**. Utilizza l’interruttore **[!UICONTROL Abilita pianificazione]** per attivarla e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto definita.
+Per pianificare l&#39;invio di una consegna, apri la consegna e passa alla sezione **[!UICONTROL Pianifica]**. Utilizza il pulsante di attivazione **[!UICONTROL Abilita pianificazione]** per attivarla e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto definita.
 
 ![Schermata che mostra l&#39;interfaccia di pianificazione per una consegna](assets/schedule.png){zoomable="yes"}
 

@@ -42,7 +42,7 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
 
 1. Seleziona la **modalità di aggiornamento** applicabile ai tipi di pubblico esistenti:
 
-   * **Sostituisci il contenuto del pubblico con nuovi dati**: tutto il contenuto del pubblico viene sostituito e i vecchi dati andranno persi. Vengono conservati solo i dati della transizione in entrata dell&#39;attività **Save audience**. Questa opzione elimina il tipo di pubblico e la dimensione di targeting del pubblico aggiornato.
+   * **Sostituisci il contenuto del pubblico con nuovi dati**: tutto il contenuto del pubblico viene sostituito e i vecchi dati andranno persi. Vengono conservati solo i dati della transizione in entrata dell&#39;attività **Save audience**. Questa opzione elimina il tipo di pubblico e la dimensione targeting del pubblico aggiornato.
 
    * **Pubblico completo con nuovi dati**: il contenuto del pubblico precedente viene mantenuto e i dati della transizione in entrata dell&#39;attività **Salva pubblico** vengono aggiunti a esso.
 

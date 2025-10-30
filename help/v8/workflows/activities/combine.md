@@ -73,7 +73,7 @@ Nell&#39;attività **Combina**, configura un **Unione** selezionando il **Tipo d
 >title="Opzioni di riconciliazione dell’intersezione"
 >abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. L’opzione **Chiavi** è attivata per impostazione predefinita; vale a dire che l’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l’opzione **Una seleziona di colonne** per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
-Nell&#39;attività **Combina**, configura un&#39;intersezione **&#x200B;**&#x200B;eseguendo i seguenti passaggi aggiuntivi:
+Nell&#39;attività **Combina**, configura un&#39;intersezione **** eseguendo i seguenti passaggi aggiuntivi:
 
 1. Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
 1. Selezionare l&#39;opzione **Genera complemento** se si desidera elaborare la popolazione rimanente. Il complemento contiene l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Viene quindi aggiunta all’attività un’ulteriore transizione in uscita.

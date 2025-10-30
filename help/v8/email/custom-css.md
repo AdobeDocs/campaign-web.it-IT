@@ -10,7 +10,7 @@ exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 >title="Inserire il proprio CSS"
 >abstract="Per una maggiore flessibilità e controllo sull’aspetto del contenuto, puoi aggiungere un CSS personalizzato direttamente nell’E-mail designer per applicare uno stile avanzato e specifico."
 
-Durante la progettazione delle e-mail, puoi aggiungere CSS personalizzati direttamente in [E-mail Designer](get-started-email-designer.md). Questa funzionalità consente di applicare uno stile avanzato e specifico, per una maggiore flessibilità e un maggiore controllo sull’aspetto del contenuto.
+Durante la progettazione delle e-mail, puoi aggiungere CSS personalizzati direttamente in [E-mail Designer](get-started-email-designer.md). Questa funzionalità consente di applicare uno stile avanzato e specifico, per una maggiore flessibilità e controllo sull’aspetto del contenuto.
 
 ## Definire CSS personalizzato {#define-custom-css}
 
@@ -167,7 +167,7 @@ body {
 
 Il file CSS personalizzato viene aggiunto alla fine della sezione `<head>` come parte di un tag `<style>` con l&#39;attributo `data-name="global-custom"`, come nell&#39;esempio seguente. In questo modo gli stili personalizzati vengono applicati globalmente al contenuto.
 
-+++ Vedi esempio
++++ Vedi esempio 
 
 ```html
 <!DOCTYPE html>
@@ -255,7 +255,7 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
    * Prendi in considerazione l&#39;aggiunta di `!important` alle tue dichiarazioni per assicurarti che abbiano la precedenza.
 
-+++ Ad esempio:
+     +++ Ad esempio:
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
      }
      ```
 
-+++
+     +++

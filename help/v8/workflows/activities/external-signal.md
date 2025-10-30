@@ -33,7 +33,7 @@ L&#39;attività **External signal** è un&#39;attività **Flow control**. Ti con
 
 >[!NOTE]
 >
->In questa pagina vengono illustrati i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro, sulle best practice e su come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>In questa pagina vengono illustrati i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro, sulle best practice e su come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Segui questi passaggi per configurare l&#39;attività **External signal** e attivarne l&#39;esecuzione:
 
@@ -45,9 +45,9 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
 1. Recupera le seguenti informazioni:
 
-   * Il nome interno del flusso di lavoro **&#x200B;**, visualizzato accanto alla relativa etichetta.
+   * Il nome interno del flusso di lavoro ****, visualizzato accanto alla relativa etichetta.
 
-     +++Esempio di visualizzazione
+     +++Visualizza esempio
 
      ![La schermata mostra il nome interno del flusso di lavoro accanto alla relativa etichetta.](../assets/external-signal-workflow-name.png)
 
@@ -55,7 +55,7 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
    * Il nome dell&#39;attività **External signal**, visualizzato nelle **[!UICONTROL opzioni di esecuzione]** del flusso di lavoro.
 
-     +++Esempio di visualizzazione
+     +++Visualizza esempio
 
      ![La schermata mostra il nome dell&#39;attività External Signal nelle opzioni di esecuzione.](../assets/external-signal-name.png)
 
@@ -73,7 +73,7 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
      xtk.workflow.PostEvent("<workflow-internal-name>","<signal-activity-name>","",<variables <variable-name>="<value>"/>, false);
      ```
 
-   +++Esempio di visualizzazione
+   +++Visualizza esempio
 
    In questo esempio, viene attivata l&#39;attività &quot;signal1&quot; External signal. È stato aggiunto al flusso di lavoro con il nome interno &quot;WKF12345&quot;. Una variabile denominata &quot;customID&quot; viene passata con il valore &quot;123456&quot;.
 
@@ -81,4 +81,4 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
    +++
 
-   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it).
+   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).

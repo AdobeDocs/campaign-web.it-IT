@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Allineamento al brand
+title: Allineamento del brand
 description: Scopri come creare, convalidare e gestire i contenuti nel brand utilizzando il punteggio di brand.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
@@ -10,7 +10,7 @@ ht-degree: 5%
 
 ---
 
-# Allineamento al brand {#brands-score}
+# Allineamento del brand {#brands-score}
 
 >[!AVAILABILITY]
 >

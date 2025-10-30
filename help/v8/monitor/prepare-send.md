@@ -18,7 +18,7 @@ Quando definisci il tuo [contenuto](../email/edit-content.md), [pubblico](../aud
 
 Durante la preparazione della consegna, viene calcolata la popolazione target e viene generato il contenuto del messaggio per ogni profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati immediatamente o alla data e all’ora pianificate.
 
-Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=it){target="_blank"}.
+Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 I passaggi principali per preparare l’invio sono elencati di seguito.
 
@@ -51,7 +51,7 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    * **[!UICONTROL Destinati]**: il numero di destinatari interessati.
    * **[!UICONTROL Da consegnare]**: numero di messaggi che verranno inviati.
-   * **[!UICONTROL Da escludere]**&#x200B;[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Da escludere]**[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
 
 1. Fai clic sul pulsante **[!UICONTROL Registri]** e verifica che non siano presenti errori. L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. [Ulteriori informazioni](delivery-logs.md)
 

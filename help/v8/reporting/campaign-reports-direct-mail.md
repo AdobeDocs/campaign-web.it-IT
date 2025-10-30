@@ -29,7 +29,7 @@ La **[!UICONTROL Panoramica della consegna]** presenta le metriche delle prestaz
 
 ![Panoramica delle metriche di consegna della campagna di direct mailing](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++Ulteriori informazioni sulle metriche di panoramica della consegna.
++++Ulteriori informazioni sulle metriche della panoramica della consegna.
 
 * **[!UICONTROL Messaggi da consegnare]**: numero totale di messaggi elaborati durante la preparazione della consegna.
 
@@ -52,7 +52,7 @@ Nella tabella **[!UICONTROL Statistiche del pubblico di destinazione iniziale]**
 
 ![Statistiche del pubblico di destinazione iniziale per le campagne Direct mail](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Ulteriori informazioni sulle metriche delle statistiche sul pubblico di destinazione iniziale.
++++Ulteriori informazioni sulle metriche delle statistiche del pubblico di destinazione iniziale.
 
 * **[!UICONTROL Pubblico iniziale]**: numero totale di destinatari target.
 

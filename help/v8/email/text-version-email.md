@@ -22,7 +22,7 @@ Se preferisci utilizzare contenuti diversi per la versione in testo normale, pro
 
    ![Schermata che mostra la scheda Testo normale nell&#39;interfaccia di E-mail Designer.](assets/text_version_3.png){zoomable="yes"}
 
-1. Utilizza l’interruttore **[!UICONTROL Sincronizza con HTML]** per disabilitare la sincronizzazione.
+1. Utilizza il pulsante di attivazione **[!UICONTROL Sincronizza con HTML]** per disabilitare la sincronizzazione.
 
    ![Schermata che mostra l&#39;interruttore Sincronizza con HTML nella scheda Testo normale.](assets/text_version_1.png){zoomable="yes"}
 

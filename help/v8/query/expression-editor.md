@@ -22,7 +22,7 @@ La modifica di un’espressione comporta l’immissione manuale di condizioni pe
 >[!IMPORTANT]
 >
 >È disponibile una nuova interfaccia per Query Modeler. Per passare a questa nuova esperienza di Generatore di regole, premi il pulsante di attivazione nell’angolo in alto a destra. Per tornare al modellatore di query classico in qualsiasi momento, è sufficiente premere nuovamente il pulsante per disattivare la nuova interfaccia. In questa nuova interfaccia è possibile applicare gli stessi principi del modellatore di query.
->![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utilizzare l’editor di espressioni {#edit}
 
