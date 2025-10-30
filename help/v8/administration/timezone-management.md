@@ -22,11 +22,11 @@ In questa sezione vengono illustrate le differenze previste tra i fusi orari **I
 
 * **Fuso orario del server**: il fuso orario del server corrisponde a quello configurato nel sistema operativo del server. Tutti i timestamp vengono memorizzati internamente in UTC sul server.
 
-* **Comportamento console client**: la console client visualizza i timestamp utilizzando il fuso orario dell&#39;operatore **operator**, definito nelle impostazioni dell&#39;operatore. Per impostazione predefinita, corrisponde al fuso orario del server ****.
+* **Comportamento console client**: la console client visualizza i timestamp utilizzando il fuso orario dell&#39;operatore **operator**, definito nelle impostazioni dell&#39;operatore. Per impostazione predefinita, corrisponde al fuso orario del server **&#x200B;**.
 
-* **Comportamento interfaccia Web**: l&#39;interfaccia utente Web visualizza i timestamp utilizzando il fuso orario locale del browser ****. Quando un utente modifica il browser o il fuso orario del sistema, i valori di data/ora visualizzati vengono aggiornati automaticamente.
+* **Comportamento interfaccia Web**: l&#39;interfaccia utente Web visualizza i timestamp utilizzando il fuso orario locale del browser **&#x200B;**. Quando un utente modifica il browser o il fuso orario del sistema, i valori di data/ora visualizzati vengono aggiornati automaticamente.
 
-* **Comportamento del flusso di lavoro**: i flussi di lavoro interpretano le marche temporali locali in base al fuso orario configurato del **flusso di lavoro**. Se non viene specificato, per impostazione predefinita viene utilizzato il fuso orario del server **1}.**
+* **Comportamento del flusso di lavoro**: i flussi di lavoro interpretano le marche temporali locali in base al fuso orario configurato del **flusso di lavoro**. Se non viene specificato, per impostazione predefinita viene utilizzato il fuso orario del server **1&rbrace;.**
 
 ## Esempio
 

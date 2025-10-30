@@ -18,7 +18,7 @@ Per iniziare a creare una query, accedi al query modeler dalla posizione desider
 >[!IMPORTANT]
 >
 >È disponibile una nuova interfaccia per Query Modeler. Il nuovo generatore di regole consente di creare la query con maggiore facilità grazie alla sua interfaccia semplificata. Per passare a questa esperienza, premi il pulsante di attivazione nell’angolo in alto a destra. Per tornare al modellatore di query classico in qualsiasi momento, è sufficiente premere nuovamente il pulsante per disattivare la nuova interfaccia. In questa nuova interfaccia è possibile applicare gli stessi principi del modellatore di query.
->>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Immagine che mostra l&#39;interruttore per la nuova interfaccia del generatore di regole](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Puoi aggiungere due tipi di elementi:
 
@@ -70,7 +70,7 @@ Per accedere a questa opzione, nella query fai clic sul pulsante di selezione de
 >
 >* Per i campi con molti valori, vengono visualizzati solo i primi venti valori. In questi casi, un avviso di notifica **[!UICONTROL Carico parziale]** ti avvisa.
 >* L&#39;opzione **[!UICONTROL Distribuzione dei valori]** è accessibile in ogni selettore di attributi. [Scopri come selezionare gli attributi](../get-started/attributes.md)
->* Puoi aggiungere condizioni ai risultati utilizzando **[!Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
+>* Puoi aggiungere condizioni ai risultati utilizzando **[ !Afiltri avanzati]**. [Ulteriori informazioni](../get-started/work-with-folders.md#filter-the-values).
 
 ## Aggiungere i componenti per il filtro {#filtering}
 

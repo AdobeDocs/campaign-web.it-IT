@@ -71,8 +71,8 @@ In Adobe Campaign Standard, il termine **Ruolo utente** è indicato come **Dirit
 >[!IMPORTANT]
 >
 >Le unità organizzative in Adobe Campaign Standard senza **All (all)** come padre diretto o indiretto non verranno migrate a Campaign v8.
->></br>
->>Agli utenti di più gruppi di sicurezza viene assegnata l’unità organizzativa del gruppo di sicurezza di livello più alto. Se più gruppi dispongono di unità parallele di primo livello, il sistema seleziona l’unità organizzativa per l’utente in Campaign Standard e l’utente avrà accesso solo all’unità organizzativa selezionata dal sistema e ai relativi elementi secondari. In Campaign v8 dopo la migrazione, l&#39;utente avrebbe accesso a **tutte le unità organizzative assegnate e ai relativi elementi secondari**, aumentando potenzialmente i privilegi. Per evitare questo problema, evita di assegnare gli utenti a gruppi di sicurezza con unità organizzative parallele. Ulteriori informazioni sull&#39;assegnazione di [unità organizzativa parallela](#parallel-assignments).
+>&#x200B;></br>
+>&#x200B;>Agli utenti di più gruppi di sicurezza viene assegnata l’unità organizzativa del gruppo di sicurezza di livello più alto. Se più gruppi dispongono di unità parallele di primo livello, il sistema seleziona l’unità organizzativa per l’utente in Campaign Standard e l’utente avrà accesso solo all’unità organizzativa selezionata dal sistema e ai relativi elementi secondari. In Campaign v8 dopo la migrazione, l&#39;utente avrebbe accesso a **tutte le unità organizzative assegnate e ai relativi elementi secondari**, aumentando potenzialmente i privilegi. Per evitare questo problema, evita di assegnare gli utenti a gruppi di sicurezza con unità organizzative parallele. Ulteriori informazioni sull&#39;assegnazione di [unità organizzativa parallela](#parallel-assignments).
 
 
 In Adobe Campaign Standard, l&#39;**unità organizzativa** è mappata al modello gerarchico **Cartella** esistente in Campaign v8 per mantenere un controllo degli accessi simile. [Ulteriori informazioni sulla gestione delle cartelle](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
@@ -154,7 +154,7 @@ Poiché un **Programma** è trattato come una **Cartella** in Campaign v8, il su
 
 Per accedere alle API transazionali dall&#39;istanza di esecuzione in Campaign v8, è necessario un nuovo **profilo di prodotto**, oltre ai profili di prodotto **Amministratore** e **Centro messaggi**. Il nuovo **profilo di prodotto** verrà aggiunto agli account tecnici esistenti o precreati in Campaign Standard.
 
-Dopo la migrazione, gli utenti di Campaign Standard devono rivedere le **mappature del profilo di prodotto** e assegnare il **profilo di prodotto** appropriato se non desiderano collegare i loro **account tecnici** al profilo di prodotto **Amministratore**. Per le integrazioni future, è consigliabile utilizzare l&#39;ID tenant **di Campaign v8 nell&#39;** URL REST **anziché l&#39;ID tenant** di Campaign Standard precedente.****
+Dopo la migrazione, gli utenti di Campaign Standard devono rivedere le **mappature del profilo di prodotto** e assegnare il **profilo di prodotto** appropriato se non desiderano collegare i loro **account tecnici** al profilo di prodotto **Amministratore**. Per le integrazioni future, è consigliabile utilizzare l&#39;ID tenant **di Campaign v8 nell&#39;** URL REST **anziché l&#39;ID tenant** di Campaign Standard precedente.**&#x200B;**
 
 ## Migrazione dell’accesso alle risorse integrate di Campaign per gli operatori Campaign Standard
 
