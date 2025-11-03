@@ -2,10 +2,10 @@
 title: Esplorare i dettagli dei profili
 description: Scopri come esplorare i dettagli di un profilo.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ Le informazioni sul profilo sono organizzate come segue:
 * La scheda **[!UICONTROL Sottoscrizioni]** fornisce ad insight i servizi a cui il profilo è abbonato. [Ulteriori informazioni sui servizi di abbonamento](manage-services.md)
 
   ![Schermata che mostra la scheda degli abbonamenti, con l&#39;elenco dei servizi a cui il profilo è abbonato.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* Puoi visualizzare schede personalizzate, come acquisti, definendo collegamenti di raccolta nella definizione a schermo dello schema Destinatari. [Ulteriori informazioni sui collegamenti alle raccolte](../administration/schemas.md#collection-lists)
+
+  ![Schermata che mostra la scheda personalizzata](assets/schemas-collection4.png){zoomable="yes"}
 
 * Inoltre, il pulsante **[!UICONTROL Registri]**, che si trova nell&#39;angolo superiore destro della schermata, ti consente di visualizzare la cronologia delle interazioni del profilo tramite i registri di invio, esclusione e tracciamento. [Ulteriori informazioni sui registri di consegna](../monitor/delivery-logs.md)
 

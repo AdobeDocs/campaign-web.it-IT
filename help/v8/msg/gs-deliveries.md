@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 37%
+source-wordcount: '486'
+ht-degree: 36%
 
 ---
 
@@ -35,11 +35,13 @@ Per aprire una consegna, fai clic sul nome nell’elenco. La consegna si apre e 
 
 ![Schermata dei dettagli della consegna con parametri e report](assets/delivery-details.png)
 
->[!NOTE]
->
->Se apri una consegna creata nella console client, la sezione **[!UICONTROL Destinazione aggiuntiva]** potrebbe essere visualizzata per il pubblico. Ciò indica che per questa consegna sono state configurate più destinazioni. Questi parametri possono essere modificati solo nella console.
->
->![Messaggio di avviso sulla configurazione di destinazione aggiuntiva](assets/target-warning-audience.png){zoomable="yes"}
+Se apri una consegna creata nella console client, è possibile che vengano visualizzate due nuove sezioni per il pubblico. Questi parametri possono essere modificati solo nella console.
+
+* **[!UICONTROL Destinazione aggiuntiva]**: indica che sono state configurate più destinazioni per questa consegna.
+
+* **[!UICONTROL Destinazione bozza aggiuntiva]**: indica che è stata definita una condizione dinamica per le destinazioni bozza in questa consegna.
+
+![Messaggio di avviso sulla configurazione di destinazione aggiuntiva](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplicare una consegna {#delivery-duplicate}
 

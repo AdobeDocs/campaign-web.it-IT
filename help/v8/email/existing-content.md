@@ -3,7 +3,7 @@ audience: end-user
 title: Importare il contenuto dell’e-mail
 description: Scopri come importare il contenuto dell’e-mail
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 54%
@@ -46,9 +46,9 @@ Per importare un file contenente contenuti HTML, attieniti alla procedura seguen
 
    ![Schermata che mostra la scheda del convertitore HTML e il pulsante Converti.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
+   >[!NOTE]
+   >
+   >L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
 1. Personalizza il file importato in base alle esigenze con le funzionalità di E-mail Designer. [Ulteriori informazioni](content-components.md)
 
@@ -56,4 +56,4 @@ Per importare un file contenente contenuti HTML, attieniti alla procedura seguen
 
 Scopri come creare un’e-mail caricando HTML, renderla compatibile con E-mail Designer e convertirla in un modello.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447040/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

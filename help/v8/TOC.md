@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [Definire uno stile per i collegamenti](email/styling-links.md)
          + [Aggiungere attributi di stile in linea](email/inline-styling.md)
          + [Aggiungi CSS personalizzato](email/custom-css.md)
+         + [Gestire i contenuti in modalità scura](email/dark-mode.md)
       + [Creare contenuti accessibili](email/accessible-content.md)
    + Assistente IA {#ai-assistant}
       + [Utilizzare l’Assistente IA](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [Utilizzare altre soluzioni di Adobe](integrations/integration.md)
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gestire i modelli con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Utilizzare GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configurazione {#conf}
    + Branding {#branding}
       + [Informazioni sul branding](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [Database esterno](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Trasferire dati](administration/transfer-external-account.md)
+      + [Account esterno CRM](administration/external-crm.md)
    + [Gestire le enumerazioni](administration/enumerations.md)
    + [Utilizzare i codici JavaScript](administration/javascript-codes.md)
 + [Documentazione di Campaign v8 (console) >](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
