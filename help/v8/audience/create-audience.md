@@ -3,10 +3,10 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 35%
+source-wordcount: '1015'
+ht-degree: 32%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 35%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+## Informazioni sulla creazione di tipi di pubblico
+
 Campaign Web consente di creare nuovi tipi di pubblico in un’area di lavoro del flusso di lavoro visiva. Oltre a iniziare da zero per creare un pubblico semplice, puoi anche perfezionare il pubblico sfruttando le attività del flusso di lavoro. Ad esempio, puoi combinare più tipi di pubblico in un unico pubblico, arricchirlo con attributi esterni o suddividerlo in più tipi di pubblico in base alle regole scelte.
 
 Una volta creato il flusso di lavoro, i tipi di pubblico risultanti vengono automaticamente memorizzati nel database di Campaign insieme a quelli esistenti. Questi tipi di pubblico possono quindi essere utilizzati come target nei flussi di lavoro o nelle consegne autonome.
@@ -30,6 +32,14 @@ Una volta creato il flusso di lavoro, i tipi di pubblico risultanti vengono auto
 La colonna **[!UICONTROL Origin]** indica le origini dei tipi di pubblico: **[!UICONTROL I tipi di pubblico di Adobe Campaign]** vengono creati nella console Adobe Campaign v8 o nell&#39;interfaccia utente Web, mentre i tipi di pubblico di **[!UICONTROL Adobe Experience Platform:]** vengono creati in Adobe Experience Platform e integrati in Campaign utilizzando l&#39;integrazione di Adobe Sources and Destinations.
 
 ➡️ [Guarda il video su questa funzione](#video)
+
+## Autorizzazioni per gruppi di operatori personalizzati
+
+Durante la creazione di un nuovo pubblico, un flusso di lavoro viene creato e memorizzato automaticamente nella cartella **[!UICONTROL Profili e destinazioni]** / **[!UICONTROL Processi]** / **[!UICONTROL Flussi di lavoro di targeting]**.
+
+Se sei assegnato a un gruppo di operatori personalizzato e riscontri un errore di tipo &quot;Non disponi di diritti&quot; durante la creazione di tipi di pubblico, devi assicurarti che il gruppo di operatori disponga delle autorizzazioni necessarie per questa cartella.
+
+Per risolvere questo problema, un amministratore deve aggiungere il gruppo di operatori personalizzato alla sezione relativa alla sicurezza delle cartelle nella console di Campaign. [Scopri come gestire le autorizzazioni sulle cartelle](../get-started/permissions.md#folder-permissions)
 
 ## Creare il primo pubblico {#create}
 
@@ -98,4 +108,4 @@ Se preferisci non sostituire i risultati del pubblico esistenti, configura le at
 
 Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453210?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
