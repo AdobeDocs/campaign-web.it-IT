@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare bozze
 description: Scopri come definire e inviare bozze
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="Target di bozza aggiuntivo"
->abstract="Destinazione bozza aggiuntiva."
+>abstract="Questi regole possono essere modificate solo nella console client."
 
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima e il test inviando delle bozze ai profili di test. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
