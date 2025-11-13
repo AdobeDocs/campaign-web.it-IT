@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -278,7 +278,7 @@ ht-degree: 99%
    + [Gestire le mappature target](administration/target-mappings.md)
    + [Utilizzare gli schemi](administration/schemas.md)
    + [Configurare i campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
@@ -287,7 +287,7 @@ ht-degree: 99%
       + [Database esterno](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Trasferire dati](administration/transfer-external-account.md)
-      + [Account esterno CRM](administration/external-crm.md)
+      + [Account CRM esterno](administration/external-crm.md)
    + [Gestire le enumerazioni](administration/enumerations.md)
    + [Utilizzare i codici JavaScript](administration/javascript-codes.md)
 + [Documentazione di Campaign v8 (console) >](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

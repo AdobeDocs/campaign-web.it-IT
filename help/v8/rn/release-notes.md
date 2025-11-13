@@ -3,9 +3,9 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ _3 novembre 2025_
 <tbody>
 <tr>
 <td>
-<p>Per migliorare l’efficienza del marketing e mantenere la coerenza del marchio, ora puoi integrare perfettamente le esperienze GenStudio for Performance Marketing con Campaign. Questo consente di sfruttare la creazione di contenuti basati sull’intelligenza artificiale di GenStudio insieme alle funzionalità avanzate di orchestrazione di Campaign.<p>
+<p>Per migliorare l’efficienza del marketing e mantenere la coerenza del brand, ora puoi integrare direttamente le esperienze GenStudio for Performance Marketing con Campaign. Potrai così sfruttare la creazione di contenuti basati sull’IA di GenStudio insieme alle funzionalità di orchestrazione avanzate di Campaign.<p>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/genstudio.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -87,7 +87,7 @@ _3 novembre 2025_
 <tbody>
 <tr>
 <td>
-<p>E-mail Designer ora offre la possibilità di passare alla visualizzazione in modalità scura, dove puoi definire anche impostazioni personalizzate specifiche. Il rendering finale dipende dal client e-mail del destinatario e non tutti i client e-mail supportano la modalità scura.</p>
+<p>E-mail designer offre ora la possibilità di passare alla vista in modalità scura, e di definire impostazioni personalizzate specifiche. Il rendering finale dipende dal client e-mail del destinatario; non tutti i client e-mail supportano la modalità scura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/dark-mode.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -112,13 +112,13 @@ _3 novembre 2025_
 
 ### Miglioramenti {#25-10-improvements}
 
-* Nelle consegne create nella console client, la sezione **Pubblico** ora indica se è stata definita una condizione dinamica per le destinazioni bozza. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* Nelle consegne create dalla console client, la sezione **Pubblico** ora indica se è stata definita una condizione dinamica per i target di bozza.<!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* Ora puoi passare dal generatore di regole nuovo a quello precedente quando imposti una condizione utilizzando la funzionalità di contenuto condizionale di E-mail Designer. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* Ora puoi passare dal nuovo generatore di regole a quello precedente quando imposti una condizione utilizzando la funzionalità di contenuto condizionale di E-mail designer.<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* Ora puoi selezionare i collegamenti della raccolta, ad esempio gli acquisti, nella definizione della schermata dello schema Destinatari. I dati correlati vengono visualizzati nelle schermate del profilo tramite una scheda dedicata. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* Ora puoi selezionare i collegamenti di raccolta, ad esempio gli acquisti, nella definizione delle schermate dello schema Destinatari. I dati correlati vengono visualizzati nelle schermate dei profili tramite una scheda dedicata.<!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
-* In qualità di amministratore di Campaign, ora puoi impostare connessioni a Salesforce CRM e Microsoft Dynamics.
+* In qualità di amministratore di Campaign, ora puoi configurare le connessioni a Salesforce CRM e Microsoft Dynamics.
   [Ulteriori informazioni](../administration/external-crm.md)
 
 <!--
