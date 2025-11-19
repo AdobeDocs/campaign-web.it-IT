@@ -110,4 +110,4 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi indicati di se
 
 Scopri come navigare in E-mail Designer. Scopri come strutturare e progettare un’e-mail da zero, personalizzarla e testarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453573/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
