@@ -31,7 +31,7 @@ Gli schemi svolgono un ruolo chiave in:
 
 Ogni entità in Adobe Campaign dispone di uno schema dedicato che garantisce la coerenza e l’organizzazione dei dati.
 
-Informazioni dettagliate sugli schemi sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Informazioni dettagliate sugli schemi sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Accedere agli schemi nell’interfaccia utente web {#access}
 
