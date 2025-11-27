@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ Ora puoi utilizzare questo modello per inviare le consegne.
 
 >[!TAB Adobe Campaign V8]
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=it)
+Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
@@ -125,7 +125,10 @@ Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
 1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Progettare e inviare e-mail](../../email/create-email.md).
 
+1. Puoi anche aggiungere informazioni sul marchio con i campi di personalizzazione. Passa a **[!UICONTROL Branding]** e seleziona i blocchi di personalizzazione relativi al brand che desideri inserire (ad esempio nome del brand, URL del logo, URL del sito Web, informazioni sul mittente e così via).
+
 >[!ENDTABS]
+
 
 ## Controllare il branding associato ai messaggi transazionali {#check-branding-transactional}
 
