@@ -3,7 +3,7 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
@@ -61,7 +61,7 @@ La versione di ottobre è ora disponibile. Sono disponibili nuove funzioni e mig
 
 >[!TAB Assistente IA]
 
-✨ Immergiti in un’esperienza pratica con l’anteprima della funzione live dell’[Assistente IA](../v8/email/generative-gs.md), progettata per consentirti di esplorarne le funzioni in prima persona e comprenderne appieno le funzionalità.
+✨ Immergiti in un’esperienza pratica con l’anteprima della funzione live dell’[Assistente IA](../v8/content/generative-gs.md), progettata per consentirti di esplorarne le funzioni in prima persona e comprenderne appieno le funzionalità.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

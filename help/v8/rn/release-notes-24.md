@@ -2,7 +2,7 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
@@ -87,7 +87,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <td>
 <p>Dopo aver creato e personalizzato il messaggio, passa a un livello successivo con l’Assistente IA in Adobe Campaign Web. Questo potente strumento consente di ottimizzare l’impatto dei contenuti generando una serie di testi coinvolgenti, titoli principali e immagini visivamente accattivanti.</p>
 <p>Immergiti in un’esperienza pratica con <a href="https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator">la nostra anteprima delle funzionalità live</a>, progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.</a>.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../email/generative-gs.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content/generative-gs.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Data di disponibilità: 12 settembre</p>
 </td>
@@ -122,7 +122,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 * **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Note sulla versione di luglio {#24-7-release}

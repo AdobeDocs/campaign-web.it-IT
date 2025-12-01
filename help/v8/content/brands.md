@@ -3,9 +3,9 @@ audience: end-user
 title: Gestisci marchio
 description: Scopri come creare e gestire le linee guida per il brand
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ In [!DNL Adobe Campaign Web], gli utenti possono immettere e organizzare manualm
 
 Per accedere al menu **[!UICONTROL Marchi]** in [!DNL Adobe Campaign Web], è necessario assegnare agli utenti i profili di prodotto **[!UICONTROL Amministratore (amministratore)]** e **[!UICONTROL Brand kit]** per creare e gestire i marchi. Per l&#39;accesso in sola lettura, gli utenti hanno bisogno del profilo di prodotto [!UICONTROL Assistente IA].
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Scopri come assegnare le autorizzazioni relative al brand
 
@@ -92,7 +92,7 @@ Gli utenti possono immettere i dettagli manualmente o caricare un documento sull
 
    ![Opzioni di menu avanzate nel dashboard Marchi](assets/brands-6.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;Assistente di intelligenza artificiale. In questo modo l’Assistente AI può generare contenuti e risorse in linea con le specifiche dell’utente. [Ulteriori informazioni sull&#39;Assistente IA](../email/generative-gs.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;Assistente di intelligenza artificiale. In questo modo l’Assistente AI può generare contenuti e risorse in linea con le specifiche dell’utente. [Ulteriori informazioni sull&#39;Assistente IA](../content/generative-gs.md)
 
 ![Menu dell&#39;assistente AI con elenco a discesa del marchio](assets/brands_6.png)
 
@@ -241,11 +241,20 @@ Per personalizzare lo **[!UICONTROL stile di scrittura]**:
 
 1. Dalla scheda **[!UICONTROL Stile scrittura]**, fare clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida, un&#39;eccezione o un&#39;esclusione.
 
-1. Inserisci la linea guida, l&#39;eccezione o l&#39;esclusione e fai clic su **[!UICONTROL Aggiungi]**.
+1. Immettere la linea guida, l&#39;eccezione o l&#39;esclusione. Puoi anche includere **[!UICONTROL Esempi]** per illustrare meglio come deve essere applicato.
 
    ![](assets/brands-3.png)
 
-1. Seleziona una linea guida o un’esclusione da aggiornare o eliminare.
+1. Specifica il **[!UICONTROL contesto di utilizzo]** per la linea guida, l&#39;eccezione o l&#39;esclusione:
+
+   * **[!UICONTROL Tipo di canale]**: scegli dove applicare questa linea guida, eccezione o esclusione. Ad esempio, potrebbe essere necessario visualizzare uno stile di scrittura specifico solo nei canali di posta elettronica, mobile, stampa o altri canali di comunicazione.
+
+   * **[!UICONTROL Tipo di elemento]**: specifica a quale elemento di contenuto si applica la regola. Può includere elementi come Intestazioni, Pulsanti, Collegamenti o altri componenti all’interno del contenuto.
+
+   ![](assets/brands-16.png)
+
+1. Dopo aver impostato la linea guida, l&#39;eccezione o l&#39;esclusione, fai clic su **[!UICONTROL Aggiungi]**.
+1. Se necessario, seleziona una linea guida o un’esclusione da aggiornare o eliminare.
 
 1. Fai clic sul ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_Edit_18_N.svg "Modifica") per modificare l&#39;esempio o sull&#39;icona ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_Delete_18_N.svg "Elimina") per eliminarlo.
 
@@ -298,9 +307,19 @@ Per personalizzare il **[!UICONTROL contenuto visivo]**:
 
 1. Dalla scheda **[!UICONTROL Contenuto visivo]**, fai clic su ![](assets/do-not-localize/Smock_Add_18_N.svg) per aggiungere una linea guida, un&#39;esclusione o un esempio.
 
-1. Inserisci la linea guida, l&#39;esclusione o l&#39;esempio e fai clic su **[!UICONTROL Aggiungi]**.
+1. Inserisci la linea guida, l’esclusione o l’esempio.
 
    ![Pulsante Aggiungi esclusione o esempio](assets/brands-4.png)
+
+1. Specifica il **[!UICONTROL contesto di utilizzo]** per la linea guida o l&#39;esclusione:
+
+   * **[!UICONTROL Tipo di canale]**: scegli dove applicare questa linea guida, eccezione o esclusione. Ad esempio, potrebbe essere necessario visualizzare uno stile di scrittura specifico solo nei canali di posta elettronica, mobile, stampa o altri canali di comunicazione.
+
+   * **[!UICONTROL Tipo di elemento]**: specifica a quale elemento di contenuto si applica la regola. Può includere elementi come Intestazioni, Pulsanti, Collegamenti o altri componenti all’interno del contenuto.
+
+     ![Aggiungi contenuto utilizzo](assets/brands-17.png)
+
+1. Dopo aver impostato la linea guida, l&#39;eccezione o l&#39;esclusione, fai clic su **[!UICONTROL Aggiungi]**.
 
 1. Per aggiungere un&#39;immagine che mostra l&#39;utilizzo corretto, selezionare **[!UICONTROL Esempio]** e fare clic su **[!UICONTROL Seleziona immagine]**. È inoltre possibile aggiungere un’immagine che mostra un utilizzo errato come esempio di esclusione.
 
