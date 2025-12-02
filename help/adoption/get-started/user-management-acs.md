@@ -154,7 +154,7 @@ Poiché un **Programma** è trattato come una **Cartella** in Campaign v8, il su
 
 Per accedere alle API transazionali dall&#39;istanza di esecuzione in Campaign v8, è necessario un nuovo **profilo di prodotto**, oltre ai profili di prodotto **Amministratore** e **Centro messaggi**. Il nuovo **profilo di prodotto** verrà aggiunto agli account tecnici esistenti o precreati in Campaign Standard.
 
-Dopo la migrazione, gli utenti di Campaign Standard devono rivedere le **mappature del profilo di prodotto** e assegnare il **profilo di prodotto** appropriato se non desiderano collegare i loro **account tecnici** al profilo di prodotto **Amministratore**. Per le integrazioni future, è consigliabile utilizzare l&#39;ID tenant **di Campaign v8 nell&#39;** URL REST **anziché l&#39;ID tenant** di Campaign Standard precedente.****
+Dopo la migrazione, gli utenti di Campaign Standard devono rivedere le **mappature del profilo di prodotto** e assegnare il **profilo di prodotto** appropriato se non desiderano collegare i loro **account tecnici** al profilo di prodotto **Amministratore**. Per le integrazioni future, è consigliabile utilizzare l&#39;ID tenant **di Campaign v8 nell&#39;** URL REST **anziché l&#39;ID tenant** di Campaign Standard precedente.**&#x200B;**
 
 ## Migrazione dell’accesso alle risorse integrate di Campaign per gli operatori Campaign Standard
 
