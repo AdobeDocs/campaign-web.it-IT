@@ -18,7 +18,7 @@ In [!DNL Adobe Campaign Web], gli utenti possono immettere e organizzare manualm
 
 ## Accedere ai brand {#generative-access}
 
-Per accedere al menu **[!UICONTROL Marchi]** in [!DNL Adobe Campaign Web], è necessario assegnare agli utenti i profili di prodotto **[!UICONTROL Amministratore (amministratore)]** e **[!UICONTROL Brand kit]** per creare e gestire i marchi. Per l&#39;accesso in sola lettura, gli utenti hanno bisogno del profilo di prodotto [!UICONTROL Assistente IA]. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Per accedere al menu **[!UICONTROL Marchi]** in [!DNL Adobe Campaign Web], è necessario assegnare agli utenti i profili di prodotto **[!UICONTROL Amministratore (amministratore)]** e **[!UICONTROL Brand kit]** per creare e gestire i marchi. Per l&#39;accesso in sola lettura, gli utenti hanno bisogno del profilo di prodotto [!UICONTROL Assistente IA]. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Scopri come assegnare le autorizzazioni relative al brand
 
