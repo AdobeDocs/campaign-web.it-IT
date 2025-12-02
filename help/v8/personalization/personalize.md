@@ -3,10 +3,11 @@ title: Personalizzare i contenuti in Campaign
 description: Scopri come personalizzare i contenuti in Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 34%
@@ -28,7 +29,7 @@ La personalizzazione della consegna migliora l’esperienza utente e i tassi di 
 
 ## Utilizzo dei dati del profilo per la personalizzazione {#data-personalization}
 
-Puoi personalizzare qualsiasi consegna con i dati del profilo utilizzando l&#39;editor espressioni, accessibile nei campi con l&#39;icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]**, ad esempio l&#39;oggetto, i collegamenti e-mail e i componenti di contenuto testo/pulsante. [Scopri come accedere all&#39;editor espressioni](gs-personalization.md/#access).
+Puoi personalizzare qualsiasi consegna con i dati del profilo utilizzando l&#39;editor espressioni, accessibile nei campi con l&#39;icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]**, ad esempio l&#39;oggetto, i collegamenti e-mail e i componenti di contenuto testo/pulsante. [Scopri come accedere all&#39;editor espressioni](gs-personalization.md#access).
 
 ### Sintassi di personalizzazione {#syntax}
 
@@ -42,7 +43,7 @@ Durante il caricamento dei contatti da un file esterno per una consegna e-mail a
 
 Per aggiungere tag di personalizzazione a una consegna, segui i passaggi seguenti:
 
-1. Apri l&#39;editor espressioni utilizzando l&#39;icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]**, accessibile dai campi di modifica di tipo testo, ad esempio l&#39;oggetto o il corpo dell&#39;SMS. [Scopri come accedere all&#39;editor espressioni](gs-personalization.md/#access).
+1. Apri l&#39;editor espressioni utilizzando l&#39;icona **[!UICONTROL Apri finestra di dialogo per personalizzazione]**, accessibile dai campi di modifica di tipo testo, ad esempio l&#39;oggetto o il corpo dell&#39;SMS. [Scopri come accedere all&#39;editor espressioni](gs-personalization.md#access).
 
    ![Schermata che mostra come accedere alla finestra di dialogo di personalizzazione](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 

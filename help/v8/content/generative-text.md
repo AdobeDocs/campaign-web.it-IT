@@ -2,9 +2,9 @@
 audience: end-user
 title: Contenuto generativo
 description: Scopri come generare esperienze di contenuto testuale con l’Assistente IA
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1441'
 ht-degree: 3%
 
 ---
@@ -112,8 +112,6 @@ Prima di iniziare a generare il testo con l’Assistente AI per i canali mobili,
 1. Crea e configura la consegna mobile:
    * **Notifiche push**: dopo aver creato e configurato la consegna delle notifiche push, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../push/create-push.md)
    * **SMS**: dopo aver creato e configurato la consegna SMS, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../sms/create-sms.md)
-
-1. Compila i **[!UICONTROL Dettagli di base]** per la consegna. Al termine, fai clic su **[!UICONTROL Modifica contenuto]**.
 
 1. Personalizza il messaggio in base alle esigenze:
    * **Notifiche push**: [Ulteriori informazioni](../push/content-push.md)

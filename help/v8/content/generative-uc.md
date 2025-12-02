@@ -2,10 +2,10 @@
 title: Casi d’uso dell’Assistente IA
 description: Scopri come utilizzare l’Assistente IA nei casi d’uso
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 3%
+source-wordcount: '635'
+ht-degree: 2%
 
 ---
 
@@ -104,5 +104,23 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, prepara la con
 1. Rivedi i **[!UICONTROL suggerimenti varianti]** per individuare la risorsa preferita.
 
 1. Seleziona **[!UICONTROL Anteprima]** per visualizzare a schermo intero la variante selezionata.
+
+1. Dopo aver individuato il contenuto appropriato, fare clic su **[!UICONTROL Seleziona]**.
+
+## Generare contenuti nelle lingue supportate{#languages}
+
+![Dimostrazione animata dell&#39;Assistente di intelligenza artificiale che genera contenuti in più lingue, tra cui francese, spagnolo e tedesco](assets/do-not-localize/ai-language.gif)
+
+1. Una volta configurata la consegna, fai clic su **[!UICONTROL Modifica contenuto]**.
+
+1. Apri il menu **[!UICONTROL Assistente AI]**.
+
+1. Modifica il contenuto immettendo la richiesta desiderata nella casella **[!UICONTROL Prompt]** in francese, spagnolo, tedesco, italiano, giapponese, svedese, olandese o norvegese.
+
+1. Personalizza la richiesta con l&#39;opzione **[!UICONTROL Impostazioni testo]** e seleziona le **[!UICONTROL Lingue]** desiderate per il contenuto generato.
+
+1. Personalizza ulteriormente la richiesta in base alle esigenze e fai clic su **[!UICONTROL Genera]**.
+
+1. Rivedi i **[!UICONTROL suggerimenti varianti]** nella lingua selezionata.
 
 1. Dopo aver individuato il contenuto appropriato, fare clic su **[!UICONTROL Seleziona]**.
