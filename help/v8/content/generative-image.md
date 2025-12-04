@@ -2,9 +2,9 @@
 audience: end-user
 title: Contenuto generativo
 description: Scopri come generare le immagini con l’Assistente AI
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,8 @@ Per iniziare a generare le immagini con l’Assistente AI, configura innanzitutt
    ![Schermata che mostra la selezione di componenti di testo in Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
 ### Genera contenuto {#generate-content}
+
+Scopri come creare prompt efficaci e configurare le impostazioni delle immagini per generare immagini visivamente coinvolgenti con l’Assistente AI. Personalizza parametri quali proporzioni, intensità visiva e illuminazione per creare immagini in linea con gli obiettivi del tuo marchio e della tua campagna.
 
 1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto selezionato.
 
@@ -108,7 +110,7 @@ Per iniziare a generare immagini per le notifiche push con l’Assistente AI, co
 
 ### Genera contenuto {#mobile-generate-content}
 
-Dopo aver effettuato l’accesso a AI Assistant, puoi regolare le impostazioni di generazione per creare immagini in linea con il tuo marchio e supportare i tuoi obiettivi.
+Dopo aver effettuato l’accesso a AI Assistant, puoi regolare le impostazioni di generazione per creare immagini in linea con il tuo marchio e supportare gli obiettivi delle notifiche push. Configura i parametri di prompt e immagine per generare visualizzazioni ottimizzate per gli schermi mobili.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
