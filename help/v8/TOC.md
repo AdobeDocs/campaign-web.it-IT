@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,11 +130,11 @@ ht-degree: 98%
       + [Creare contenuti accessibili](email/accessible-content.md)
    + Assistente IA {#ai-assistant}
       + [Utilizzare l’Assistente IA](content/generative-gs.md)
-      + [Best practice per la richiesta di IA](content/ai-assistant-prompting-guide.md)
-      + [Generazione completa di contenuti con IA](content/generative-full-content.md)
-      + [Generazione di testo con IA](content/generative-text.md)
-      + [Generazione di immagini con intelligenza artificiale](content/generative-image.md)
-      + [Casi d’uso dell’Assistente IA](content/generative-uc.md)
+      + [Best practice per prompt IA](content/ai-assistant-prompting-guide.md)
+      + [Generazione di contenuti completi con l’IA](content/generative-full-content.md)
+      + [Generazione di testi con l’IA](content/generative-text.md)
+      + [Generazione di immagini con l’IA](content/generative-image.md)
+      + [Casi d’uso per l’Assistente IA](content/generative-uc.md)
       + Brand {#ai-assistant}
          + [Creare e gestire i brand personali](content/brands.md)
          + [Valutare il punteggio di allineamento del brand](content/brands-score.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [Gestire le mappature target](administration/target-mappings.md)
    + [Utilizzare gli schemi](administration/schemas.md)
    + [Configurare i campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)

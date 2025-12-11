@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Per rendere dinamico il contenuto del messaggio, inserisci costrutti JavaScript 
 
   [Descrizione: esempio di contenuto condizionale in un banner e-mail basato sull’iscrizione del destinatario.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 ## Accedere all’editor di espressioni {#access}
 
