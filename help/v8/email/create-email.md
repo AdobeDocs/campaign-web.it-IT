@@ -21,14 +21,14 @@ Scopri come creare la tua prima e-mail con targeting. In questo caso d’uso, vi
 
 In base a un [modello di progettazione](../content/create-email-templates.md) predefinito, l’e-mail presenta anche contenuti personalizzati in base agli attributi del profilo cliente.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 ## Creare una consegna e-mail {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Selezionare un modello di e-mail"
->abstract="Un modello e-mail è una configurazione di consegna specifica che contiene impostazioni predefinite, come regole di tipologia, personalizzazione o parametri di indirizzamento. I modelli sono definiti nella console client di Campaign."
+>abstract="Un modello e-mail è una configurazione di consegna specifica che contiene impostazioni preimpostate, come regole di tipologia, personalizzazione o parametri di indirizzamento. I modelli vengono definiti nella console client di Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -252,4 +252,4 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454013/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
