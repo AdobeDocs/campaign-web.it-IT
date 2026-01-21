@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 20%
 
 ---
 
@@ -58,6 +58,11 @@ Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing s
 >id="acw_orchestration_end"
 >title="Attività Fine"
 >abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="Segnale esterno"
+>abstract="segnaposto per la sezione del segnale esterno nei parametri dell’attività finale. Disponibile solo per campagne orchestrate. DO NOT DELETE"
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
