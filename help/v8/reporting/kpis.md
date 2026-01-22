@@ -54,7 +54,7 @@ Numero di messaggi per i quali il campo &quot;Indirizzo seed&quot; è uguale a &
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
->title="Aperture"
+>title="Messaggi aperti"
 >abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti i messaggi aperti e la percentuale dei messaggi aperti rispetto al numero totale di messaggi consegnati correttamente."
 
 Il totale delle aperture viene calcolato tenendo traccia del numero totale di volte in cui un messaggio viene aperto, indipendentemente dal numero di singoli destinatari che generano tali aperture. Questo indicatore è disponibile solo per le e-mail.
@@ -105,7 +105,7 @@ L&#39;indicatore **Sottoscrizioni** mostra i KPI seguenti per ogni canale:
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="Annullamenti dell’iscrizione"
+>title="Abbonamenti annullati"
 >abstract="Questa metrica mostra, per il canale selezionato, la somma di tutti gli annullamenti di iscrizione a un servizio e la relativa percentuale rispetto al numero totale di messaggi consegnati correttamente."
 
 I destinatari devono essere in grado di rinunciare a e-mail e SMS tramite un collegamento dedicato di annullamento dell’abbonamento nel contenuto dell’e-mail o rispondendo STOP a un SMS.

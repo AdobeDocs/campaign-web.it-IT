@@ -14,7 +14,7 @@ ht-degree: 88%
 
 Il **Rapporto sulle consegne e-mail** offre informazioni complete e dati specifici per il canale e-mail. Fornisce una panoramica completa con informazioni dettagliate su prestazioni, efficacia e risultati delle singole consegne.
 
-## Riepilogo delle consegne {#delivery-summary-email}
+## Riepilogo della consegna {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
