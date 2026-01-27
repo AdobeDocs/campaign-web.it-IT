@@ -3,10 +3,10 @@ audience: end-user
 title: Creare una consegna SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 57%
+source-wordcount: '532'
+ht-degree: 55%
 
 ---
 
@@ -60,6 +60,8 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
    Scopri come creare un nuovo pubblico in [questa pagina](../audience/one-time-audience.md).
 
 1. Attiva l’opzione **[!UICONTROL Abilita gruppo di controllo]** per impostare un gruppo di controllo per misurare l’impatto della consegna. I messaggi non vengono inviati a tale gruppo di controllo, pertanto puoi confrontare il comportamento della popolazione che ha ricevuto il messaggio con quello dei contatti che non lo hanno fatto. [Ulteriori informazioni](../audience/control-group.md)
+
+1. Puoi configurare la consegna SMS come consegna multilingue per inviare messaggi in base alla lingua preferita di un profilo. [Ulteriori informazioni](../msg/multilingual.md).
 
 1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a progettare il contenuto del messaggio SMS. [Ulteriori informazioni](content-sms.md)
 

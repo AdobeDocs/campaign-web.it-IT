@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1648'
 ht-degree: 56%
 
 ---
@@ -153,6 +153,8 @@ Prima di inviare l’e-mail, puoi visualizzarla in anteprima e testarla per assi
 
 In questo caso d’uso, puoi visualizzare in anteprima il messaggio e-mail e inviare bozze a indirizzi e-mail specifici, rappresentando al contempo alcuni dei profili target.
 
+Puoi anche verificare la qualità dei contenuti per verificarne la leggibilità, l’efficacia del CTA, la qualità dell’oggetto e altro ancora. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content/brands-score.md#validate-quality)
+
 Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare bozze sono disponibili in [questa sezione](../preview-test/preview-test.md).
 
 1. Per esaminare l’e-mail, fai clic su **[!UICONTROL Rivedi e invia]**. Viene visualizzata un’anteprima del messaggio e-mail, insieme a tutte le proprietà configurate, il pubblico e la pianificazione. Per modificare uno di questi elementi, fai clic sul pulsante Modifica.
@@ -252,4 +254,4 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454013/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

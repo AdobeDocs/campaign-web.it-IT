@@ -3,10 +3,10 @@ audience: end-user
 title: Creare e-mail in E-mail Designer
 description: Scopri come creare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 59%
+source-wordcount: '673'
+ht-degree: 57%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 59%
 
 E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, puoi progettare il corpo dell’e-mail in pochi secondi.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 Per iniziare a creare il contenuto delle e-mail, segui i passaggi indicati di seguito.
 
@@ -104,10 +104,12 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi indicati di se
 
    ![Schermata che mostra le opzioni di simulazione in E-mail Designer.](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. Puoi anche verificare la qualità dei contenuti per verificarne la leggibilità, l’efficacia del CTA, la qualità dell’oggetto e altro ancora. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content/brands-score.md#validate-quality)
+
 1. Quando l’e-mail è pronta, fai clic su **[!UICONTROL Salva]**.
 
 ## Video dimostrativo {#video}
 
 Scopri come navigare in E-mail Designer. Scopri come strutturare e progettare un’e-mail da zero, personalizzarla e testarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453573/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

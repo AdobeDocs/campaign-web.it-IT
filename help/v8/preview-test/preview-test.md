@@ -3,10 +3,10 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 47%
+source-wordcount: '206'
+ht-degree: 44%
 
 ---
 
@@ -26,6 +26,7 @@ Una volta definito il contenuto della consegna, puoi utilizzare profili e profil
 * [Visualizzare in anteprima il contenuto e la personalizzazione del messaggio](preview-content.md)
 * [Invia bozze](test-deliveries.md) a destinatari o sottoscrittori specifici per il test e la convalida
 * [Controlla il rendering di e-mail](email-rendering.md) nei client desktop, mobili e basati su Web più diffusi
+* [Verifica la qualità dei contenuti](../content/brands-score.md#validate-quality) per verificarne la leggibilità, l&#39;efficacia del CTA, la qualità dell&#39;oggetto e altro ancora
 * [Anteprima e verifica delle pagine di destinazione](../landing-pages/create-lp.md#test-landing-page)
 
 Esegui queste azioni utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata Modifica contenuto della consegna o da [Invia e-mail a Designer](../email/get-started-email-designer.md).

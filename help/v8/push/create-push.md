@@ -3,10 +3,10 @@ audience: end-user
 title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 65%
+source-wordcount: '759'
+ht-degree: 64%
 
 ---
 
@@ -52,6 +52,8 @@ Configura le impostazioni di consegna nel modo descritto di seguito:
    * **[!UICONTROL Descrizione]**: specifica una descrizione della consegna.
    * **[!UICONTROL Natura]**: specifica la natura della consegna a scopo di classificazione.
    +++
+
+1. Puoi configurare la notifica push come consegna multilingue per inviare messaggi in base alla lingua preferita di un profilo. [Ulteriori informazioni](../msg/multilingual.md).
 
 ## Selezionare il pubblico della consegna push {#create-audience-push}
 

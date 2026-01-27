@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1643'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ Di seguito sono elencate le procedure consigliate per la progettazione di conten
 
 Questa pagina consente di rendere il contenuto accessibile a tutti i destinatari per garantire che le persone con disabilità possano leggere, comprendere e interagire con le e-mail e le pagine di destinazione progettate con [!DNL Adobe Campaign].
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
@@ -124,6 +123,8 @@ Per verificare l&#39;accessibilità del contenuto, è possibile utilizzare le fu
 * Visualizza l’anteprima del contenuto utilizzando i profili di test. [Scopri come](../preview-test/preview-content.md)
 
 * Utilizza l&#39;opzione [Rendering di e-mail](../preview-test/email-rendering.md) che sfrutta Litmus per simulare le progettazioni tra i principali client e-mail (Apple Mail, Gmail, Outlook) e vedere se testo, colori e immagini rendono accessibili i contenuti. <!--Litmus includes accessibility testing-->
+
+* Convalida la qualità dei contenuti per valutarne la leggibilità, che è un componente chiave dell’accessibilità. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content/brands-score.md#validate-quality)
 
 * Invia bozze per testare il rendering del contenuto prima di inviarlo al pubblico reale. [Scopri come](../preview-test/test-deliveries.md)
 

@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '700'
+ht-degree: 30%
 
 ---
 
@@ -20,42 +20,43 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 Le modifiche e i miglioramenti introdotti nelle versioni precedenti sono elencati nelle pagine [2024](release-notes-24.md) e [2025](release-notes-25.md).
 
-## Versione di ottobre 2025 {#25-10-updates}
+## Versione di gennaio 2026 {#26-1-release}
 
-_3 novembre 2025_
+_27 gennaio 2026_
+
+### Nuove funzioni {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Funzionalità multilingue per messaggi transazionali, notifiche push e SMS (LA)</strong><br/></th> 
+<th><strong>Funzionalità di consegna multilingue (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nell’interfaccia utente di Adobe Campaign Web è ora possibile inviare più messaggi transazionali, notifiche push e messaggi SMS in lingue diverse. La funzione Consegna multilingue consente di scegliere la lingua predefinita della consegna e le diverse lingue in cui la consegna può essere inviata. Puoi anche visualizzare l’anteprima di queste consegne nelle lingue scelte.</p>
-<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura.</p>
+<p>La funzione di consegna multilingue è ora disponibile per tutti i clienti (GA). Questa funzione consente di inviare più messaggi in diverse lingue nell’interfaccia utente di Adobe Campaign Web. Puoi scegliere la lingua predefinita della consegna e le diverse lingue in cui la consegna può essere inviata. Puoi anche visualizzare l’anteprima di queste consegne nelle lingue scelte. 
 <p>Per ulteriori informazioni, consulta la <a href="../msg/multilingual.md">documentazione dettagliata</a>.</p>
+<p>Sono stati apportati i seguenti miglioramenti alle notifiche push multilingue:</p>
+<ul>
+<li>Ora puoi compilare rapidamente tutte le varianti di lingua caricando un file CSV contenente il tuo contenuto multilingue. <a href="../msg/multilingual.md#csv-upload">Ulteriori informazioni</a>
+</li>
+<li>Sono ora supportate le notifiche push potenziate.</li>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
 <table>
 <thead>
 <tr>
-<th><strong>Arricchimento del profilo nei messaggi transazionali (LA)</strong><br/></th> 
+<th><strong>Arricchimento del profilo nei messaggi transazionali (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Questa funzionalità ti consente di personalizzare i messaggi transazionali collegando i campi del database di Adobe Campaign al contenuto del messaggio. Puoi selezionare mappature target, colonne di arricchimento e una chiave di riconciliazione per garantire una personalizzazione accurata e in tempo reale, mantenendo al contempo le soglie di prestazioni.</p>
-<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura. Questa funzione è attualmente disponibile solo per le e-mail.</p>
+<p>La funzionalità di arricchimento dei profili nei messaggi transazionali è ora disponibile per tutti i clienti (GA). Oltre alle e-mail, ora sono supportati anche gli SMS e le notifiche push. Questa funzione ti consente di personalizzare i messaggi transazionali collegando i campi del database di Adobe Campaign al contenuto del messaggio. Puoi selezionare mappature target, colonne di arricchimento e una chiave di riconciliazione per garantire una personalizzazione accurata e in tempo reale, mantenendo al contempo le soglie di prestazioni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../transactional-messaging/profile-enrichment.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -65,14 +66,14 @@ _3 novembre 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione con Adobe GenStudio</strong><br/></th>
+<th><strong>Adobe Experience Manager Live e copie per lingua</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Per migliorare l’efficienza del marketing e mantenere la coerenza del brand, ora puoi integrare direttamente le esperienze GenStudio for Performance Marketing con Campaign. Potrai così sfruttare la creazione di contenuti basati sull’IA di GenStudio insieme alle funzionalità di orchestrazione avanzate di Campaign.<p>
-<p>Per ulteriori informazioni, consulta la <a href="../integrations/genstudio.md">documentazione dettagliata</a>.</p>
+<p>L’integrazione dei contenuti di Adobe Experience Manager ti consente di accedere a tutte le lingue e le Live Copy create in Adobe Experience Manager direttamente all’interno di Campaign durante la creazione delle consegne. Puoi aggiornare il contenuto in tempo reale per recuperare le versioni più recenti di Adobe Experience Manager. Questa integrazione elimina la sincronizzazione manuale dei contenuti tra Adobe Experience Manager e Campaign, semplificando il flusso di lavoro della campagna multilingue.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-multilingual.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +82,55 @@ _3 novembre 2025_
 <table>
 <thead>
 <tr>
-<th><strong>Supporto della modalità scura in E-mail designer</strong><br/></th> 
+<th><strong>Esperimenti di contenuto - Test A/B</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>E-mail designer offre ora la possibilità di passare alla vista in modalità scura, e di definire impostazioni personalizzate specifiche. Il rendering finale dipende dal client e-mail del destinatario; non tutti i client e-mail supportano la modalità scura.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../email/dark-mode.md">documentazione dettagliata</a>.</p>
+<p>Gli esperimenti sui contenuti in Adobe Campaign Web consentono di definire più varianti di consegna per test A/B al fine di misurare le prestazioni migliori per il pubblico di destinazione. Puoi variare il contenuto, l’oggetto o il mittente della consegna per testare versioni diverse e determinare quale variante produce i risultati migliori. Puoi eseguire test A/B su vari elementi e-mail, come l’oggetto, il nome del mittente e il contenuto del corpo dell’e-mail.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/ab-testing.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>Attività di consegna continua</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>L’attività Consegna continua ti consente di aggiungere nuovi destinatari a una consegna esistente. Questo tipo di consegna evita di dover creare ogni volta una nuova consegna, rendendola più efficiente per gli avvisi o le notifiche a basso volume inviate in base alle esigenze. Una consegna continua crea una singola istanza di consegna. Tutti i registri di consegna (broadLog) e di tracciamento fanno riferimento a questa consegna, semplificandone il monitoraggio e il reporting.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../workflows/activities/continuous-delivery.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### Miglioramenti {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Gestione dell’approvazione della campagna</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il processo di approvazione aiuta a coordinare più parti interessate e garantisce il controllo di qualità prima dell’invio delle consegne. Utilizza le approvazioni quando l’organizzazione richiede la convalida da parte di team diversi, ad esempio responsabili marketing che rivedono il contenuto o analisti di dati che convalidano i tipi di pubblico target.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../campaigns/campaign-approvals.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Nelle consegne create dalla console client, la sezione **Pubblico** ora indica se è stata definita una condizione dinamica per i target di bozza.<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+### Miglioramenti {#26-1-improvements}
 
-* Ora puoi passare dal nuovo generatore di regole a quello precedente quando imposti una condizione utilizzando la funzionalità di contenuto condizionale di E-mail designer.<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
-
-* Ora puoi selezionare i collegamenti di raccolta, ad esempio gli acquisti, nella definizione delle schermate dello schema Destinatari. I dati correlati vengono visualizzati nelle schermate dei profili tramite una scheda dedicata.<!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* In qualità di amministratore di Campaign, ora puoi configurare le connessioni a Salesforce CRM e Microsoft Dynamics.
-  [Ulteriori informazioni](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* Il reporting dinamico ora supporta le notifiche push e gli SMS. [Ulteriori informazioni](../reporting/dynamic-reporting/get-started-reporting.md)
+* Filtri predefiniti: una nuova opzione &quot;Filtro condiviso&quot; consente di rendere un filtro predefinito disponibile ad altri utenti dell’organizzazione. [Ulteriori informazioni](../get-started/predefined-filters.md#share-filter)
+* I campi di personalizzazione creati in Adobe Experience Manager, come Nome, E-mail, Data e Indirizzo, sono ora inclusi e disponibili quando si utilizza il modello di contenuto.
+* La valutazione della qualità dei contenuti ora verifica la leggibilità, la coesione e l’efficacia indipendentemente dalle linee guida del brand, identificando messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content/brands-score.md)
+* Le linee guida per il marchio ora includono una sezione Colori che definisce gli standard per il sistema di colori del tuo marchio, garantendo un uso coerente dei colori primari, secondari, di accento e neutri in tutte le esperienze. [Ulteriori informazioni](../content/brands-personalize.md)

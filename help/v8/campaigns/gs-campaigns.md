@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,5 @@ Scopri come creare, gestire e monitorare le campagne nelle sezioni seguenti:
 
 * [Accedere alle campagne e gestirle](manage-campaigns.md)
 * [Creare la prima campagna](create-campaigns.md)
+* [Impostare e gestire il processo di approvazione](campaign-approvals.md)
 * [Sfogliare i rapporti delle campagne](../reporting/campaign-reports.md).

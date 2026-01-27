@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
    + Versioni precedenti {#previous-release-notes}
       + [Versioni 2025](rn/release-notes-25.md)
       + [Versioni 2024](rn/release-notes-24.md)
-   + [Aggiornamenti della documentazione](rn/documentation-updates.md)
+   + [Aggiornamenti alla documentazione](rn/documentation-updates.md)
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
    + [Connessione a Campaign](get-started/connect-to-campaign.md)
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [Da Campaign Standard a v8](rn/acs-migration.md)
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
    + [Domande frequenti](get-started/faq.md)
-+ Messaggi e consegne {#msg}
+   + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
    + [Accedere alle consegne](msg/gs-deliveries.md)
    + [Creare una consegna](msg/create-deliveries.md)
@@ -45,6 +45,7 @@ ht-degree: 100%
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)
       + [Configurare il contenuto dell’e-mail](email/edit-content.md)
+      + [Creare esperimenti di contenuto](email/ab-testing.md)
       + Inviare e monitorare l’e-mail {#monitor}
          + [Preparare e inviare un’e-mail](monitor/prepare-send.md)
          + [Inviare in più scaglioni](advanced-settings/send-using-waves.md)
@@ -55,7 +56,7 @@ ht-degree: 100%
       + [Creare una consegna di notifica push](push/create-push.md)
       + Push avanzata {#rich-push}
          + [Progettare una consegna push avanzata per Android](push/rich-push.md)
-         + [Progettare una consegna push iOS avanzata](push/rich-push-ios.md)
+         + [Progettare una consegna push avanzata per iOS](push/rich-push-ios.md)
       + [Progettare una consegna push](push/content-push.md)
       + [Anteprima e invio di una consegna push](push/send-push.md)
    + SMS {#sms}
@@ -65,7 +66,7 @@ ht-degree: 100%
       + [Anteprima e invio di una consegna SMS](sms/send-sms.md)
    + Direct mail {#direct-mail}
       + [Introduzione alle consegne direct mail](direct-mail/gs-direct-mail.md)
-      + [Creare una consegna Direct mail](direct-mail/create-direct-mail.md)
+      + [Creare una consegna direct mail](direct-mail/create-direct-mail.md)
       + [Progettare il file di estrazione](direct-mail/content-direct-mail.md)
       + [Anteprima e invio di una consegna Direct mail](direct-mail/send-direct-mail.md)
    + Call center {#call-center}
@@ -108,7 +109,7 @@ ht-degree: 100%
          + [Utilizzare i frammenti visivi nelle e-mail](content/use-visual-fragments.md)
          + [Utilizzare i frammenti di espressione nell’editor di espressioni](content/use-expression-fragments.md)
    + Progettare le e-mail {#email-design}
-      + [Introduzione a E-mail Designer](email/get-started-email-designer.md)
+      + [Guida introduttiva a E-mail Designer](email/get-started-email-designer.md)
       + Iniziare a definire l’e-mail {#start-design}
          + [Iniziare da zero](email/create-email-content.md)
          + [Importare il contenuto dell’e-mail](email/existing-content.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [Casi d’uso per l’Assistente IA](content/generative-uc.md)
       + Brand {#ai-assistant}
          + [Creare e gestire i brand personali](content/brands.md)
-         + [Valutare il punteggio di allineamento del brand](content/brands-score.md)
+         + [Personalizzare il brand](content/brands-personalize.md)
+         + [Valuta i contenuti](content/brands-score.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 100%
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
    + [Accedere alle campagne e gestirle](campaigns/manage-campaigns.md)
    + [Creare la prima campagna](campaigns/create-campaigns.md)
+   + [Impostare e gestire il processo di approvazione](campaigns/campaign-approvals.md)
    + [Piani e programmi](administration/plans-programs.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
@@ -190,22 +193,23 @@ ht-degree: 100%
       + [Cambiare l’origine dati](workflows/activities/change-data-source.md)
       + [Cambiare dimensione](workflows/activities/change-dimension.md)
       + [Combina](workflows/activities/combine.md)
+      + [Consegna continua](workflows/activities/continuous-delivery.md)
       + [Deduplica](workflows/activities/deduplication.md)
       + [E-mail, SMS, push, direct mail](workflows/activities/channels.md)
       + [Arricchimento](workflows/activities/enrichment.md)
       + [Segnale esterno](workflows/activities/external-signal.md)
-      + [Estrai file](workflows/activities/extract-file.md)
+      + [Attività Extract file](workflows/activities/extract-file.md)
       + [Fork](workflows/activities/fork.md)
       + [Query incrementale](workflows/activities/incremental-query.md)
       + [Codice JavaScript](workflows/activities/javascript-code.md)
-      + [Carica file](workflows/activities/load-file.md)
+      + [Attività Load file](workflows/activities/load-file.md)
       + [Riconciliazione](workflows/activities/reconciliation.md)
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
       + [Modulo di pianificazione](workflows/activities/scheduler.md)
       + [Dividi](workflows/activities/split.md)
       + [Servizi di iscrizione](workflows/activities/subscription-services.md)
       + [Test](workflows/activities/test.md)
-      + [Trasferimento file](workflows/activities/transfer-file.md)
+      + [Attività Transfer file](workflows/activities/transfer-file.md)
       + [Aggiornare i dati](workflows/activities/update-data.md)
       + [Attendere](workflows/activities/wait.md)
 + Eseguire query sul database {#query-database}
@@ -214,7 +218,7 @@ ht-degree: 100%
    + [Modifica espressioni](query/expression-editor.md)
    + [Esempi di query](query/query-samples.md)
    + [Filtrare elenchi](query/filter.md)
-+ Reportistica {#reports}
++ Reporting {#reports}
    + [Audit trail](reporting/audit-trail.md)
    + [Indicatori chiave di prestazioni](reporting/kpis.md)
    + Rapporti standard {#standard-reports}
@@ -251,8 +255,8 @@ ht-degree: 100%
          + [Riepilogo messaggi non recapitati](reporting/dynamic-reporting/bounce-summary.md)
          + [Raggruppamento per domini](reporting/dynamic-reporting/breakdown-by-domains.md)
          + [Reclami](reporting/dynamic-reporting/complaints.md)
-         + [Riepilogo consegne](reporting/dynamic-reporting/delivery-summary.md)
-         + [Velocità effettiva di consegna](reporting/dynamic-reporting/delivery-throughput.md)
+         + [Riepilogo della consegna](reporting/dynamic-reporting/delivery-summary.md)
+         + [Velocità di consegna](reporting/dynamic-reporting/delivery-throughput.md)
          + [Messaggi non recapitati e non consegnabili](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
          + [Messaggi aperti](reporting/dynamic-reporting/opens.md)
          + [Indicatori di tracciamento](reporting/dynamic-reporting/tracking-indicators.md)
@@ -268,6 +272,7 @@ ht-degree: 100%
    + [Utilizzare altre soluzioni di Adobe](integrations/integration.md)
    + [Gestire le risorse con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Gestire i modelli con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Gestire le copie per lingua con Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Utilizzare GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configurazione {#conf}
    + Branding {#branding}

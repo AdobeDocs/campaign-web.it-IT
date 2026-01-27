@@ -2,10 +2,10 @@
 title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ Dal [query modeler](../query/query-modeler-overview.md) puoi salvare un filtro p
 
    ![Interfaccia per salvare i dettagli di un filtro](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Se necessario, puoi salvare il filtro come preferito. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
+   Se necessario, puoi salvare il filtro come preferito. Ulteriori informazioni in [questa sezione](#fav-filter). È inoltre possibile abilitare l&#39;opzione **[!UICONTROL Filtro condiviso]** per rendere il filtro accessibile ad altri utenti. Per ulteriori informazioni, consulta [questa sezione](#share-filter).
 
 1. Fai clic su **Conferma** per salvare le modifiche.
 
-Il filtro personalizzato è ora disponibile nell’elenco **Filtri preimpostati** e accessibile a tutti gli utenti di Campaign.
+Il filtro personalizzato è ora disponibile nell&#39;elenco **Filtri predefiniti**.
 
 ### Creare un filtro dall’elenco filtri {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ Per creare un filtro, seleziona **Filtri preimpostati** nel menu a sinistra. Seg
 
    ![Interfaccia per un filtro salvato](assets/new-filter.png){zoomable="yes"}
 
-Il filtro viene aggiunto all’elenco dei filtri preimpostati. Se necessario, puoi salvare il filtro come preferito. Per ulteriori informazioni, consulta [questa sezione](#fav-filter).
+Il filtro viene aggiunto all’elenco dei filtri preimpostati. Se necessario, puoi salvare il filtro come preferito. Ulteriori informazioni in [questa sezione](#fav-filter). Puoi anche condividere il filtro con altri utenti abilitando l&#39;opzione **[!UICONTROL Filtro condiviso]**. Per ulteriori informazioni, consulta [questa sezione](#share-filter).
 
 ## Salvare il filtro come preferito {#fav-filter}
 
@@ -98,6 +98,14 @@ Quando crei un filtro preimpostato, puoi abilitare l’opzione **Salva come pref
 Quando un filtro viene salvato come preferito, diventa disponibile per tutti gli utenti nella sezione **Filtri preferiti** dell’elenco di filtri creati, come illustrato di seguito:
 
 ![Sezione Filtri preferiti](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## Condividere un filtro predefinito {#share-filter}
+
+Per impostazione predefinita, i filtri predefiniti creati sono privati e visibili solo a te. Per rendere un filtro accessibile ad altri operatori dell&#39;organizzazione, abilitare l&#39;opzione **[!UICONTROL Filtro condiviso]**.
+
+![Opzione filtro condiviso](assets/predefined-filters-shared.png){zoomable="yes"}
+
+I filtri condivisi vengono visualizzati nell’elenco dei filtri predefinito per tutti gli utenti, consentendo loro di utilizzarli nei propri flussi di lavoro e nelle proprie query.
 
 ## Utilizza un filtro preimpostato {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ Ad esempio, per creare un pubblico da un filtro preimpostato, segui questi passa
 
    ![Interfaccia dell’elenco dei filtri preimpostati](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   È inoltre possibile modificare o eliminare un filtro predefinito esistente utilizzando il pulsante ![](../content/assets/do-not-localize/Smock_More_18_N.svg).
+
 1. Controlla le proprietà della regola per questo filtro e conferma.
 
    Il filtro viene ora utilizzato come query nell’attività **Query**.
@@ -141,7 +151,7 @@ Da questo elenco, puoi creare un nuovo filtro come descritto in precedenza ed es
 * duplicare un filtro preimpostato;
 * eliminare un filtro preimpostato.
 
-Puoi anche modificare o eliminare un filtro predefinito direttamente dal generatore di regole. Dalla finestra di selezione del filtro predefinito, utilizza il pulsante **Altre azioni**. Puoi eliminare il filtro o modificarlo. Puoi modificare l’etichetta, aggiungere una descrizione e aggiungerla come preferita.
+Puoi anche modificare o eliminare un filtro predefinito direttamente dal generatore di regole. Dalla finestra di selezione del filtro predefinito, utilizza il pulsante **Altre azioni**. Puoi eliminare il filtro o modificarlo. Puoi modificare l&#39;etichetta, aggiungere una descrizione, aggiungerla come preferita o attivare/disattivare l&#39;opzione **[!UICONTROL Filtro condiviso]** per controllare chi può accedere al filtro.
 
 ![Modifica dei filtri preimpostati](assets/filter-edit.png){zoomable="yes"}
 
