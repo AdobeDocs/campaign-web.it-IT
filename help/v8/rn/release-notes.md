@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 30%
+source-wordcount: '670'
+ht-degree: 31%
 
 ---
 
@@ -133,4 +133,3 @@ _27 gennaio 2026_
 * Filtri predefiniti: una nuova opzione &quot;Filtro condiviso&quot; consente di rendere un filtro predefinito disponibile ad altri utenti dell’organizzazione. [Ulteriori informazioni](../get-started/predefined-filters.md#share-filter)
 * I campi di personalizzazione creati in Adobe Experience Manager, come Nome, E-mail, Data e Indirizzo, sono ora inclusi e disponibili quando si utilizza il modello di contenuto.
 * La valutazione della qualità dei contenuti ora verifica la leggibilità, la coesione e l’efficacia indipendentemente dalle linee guida del brand, identificando messaggi non chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content/brands-score.md)
-* Le linee guida per il marchio ora includono una sezione Colori che definisce gli standard per il sistema di colori del tuo marchio, garantendo un uso coerente dei colori primari, secondari, di accento e neutri in tutte le esperienze. [Ulteriori informazioni](../content/brands-personalize.md)
