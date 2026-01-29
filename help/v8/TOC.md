@@ -5,7 +5,7 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 97%
@@ -37,7 +37,7 @@ ht-degree: 97%
    + [Da Campaign Standard a v8](rn/acs-migration.md)
    + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
    + [Domande frequenti](get-started/faq.md)
-   + Messaggi e consegne {#msg}
++ Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
    + [Accedere alle consegne](msg/gs-deliveries.md)
    + [Creare una consegna](msg/create-deliveries.md)
@@ -283,7 +283,7 @@ ht-degree: 97%
    + [Gestire le mappature target](administration/target-mappings.md)
    + [Utilizzare gli schemi](administration/schemas.md)
    + [Configurare i campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
