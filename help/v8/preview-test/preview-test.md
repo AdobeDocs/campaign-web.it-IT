@@ -16,7 +16,7 @@ ht-degree: 43%
 >id="acw_deliveries_simulate"
 >title="Anteprima e test del contenuto"
 >abstract="Una volta definito il contenuto, puoi utilizzare i profili e i profili di test per visualizzarlo in anteprima e testarlo."
->additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/preview-test/preview-test" text="Inviare bozze"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="Inviare bozze"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=it#test-landing-page" text="Testare le pagine di destinazione"
 
 Una volta definito il contenuto della consegna, puoi utilizzare profili e profili di test per visualizzarlo in anteprima e testarlo prima di inviare il messaggio. Questo passaggio garantisce precisione ed elimina gli errori nelle impostazioni di contenuto e personalizzazione.
