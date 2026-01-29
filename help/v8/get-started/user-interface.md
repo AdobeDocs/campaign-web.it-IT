@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
+source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 99%
+source-wordcount: '1519'
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,6 @@ Nella sezione **Gestioine clienti**, puoi visualizzare i profili, i tipi di pubb
 >id="acw_offers_list"
 >title="Offerte"
 >abstract="Sfoglia gli elenchi di offerte e modelli di offerta creati nella console utilizzando il modulo **Interazione**. Questi sono elenchi di sola lettura."
->additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/offers" text="Aggiungere offerte a una consegna"
 
 Nella sezione **Gestione delle decisioni** puoi visualizzare le offerte e i modelli di offerta. Questi sono elenchi di sola lettura.
 
