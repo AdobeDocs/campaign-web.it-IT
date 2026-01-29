@@ -283,7 +283,7 @@ ht-degree: 97%
    + [Gestire le mappature target](administration/target-mappings.md)
    + [Utilizzare gli schemi](administration/schemas.md)
    + [Configurare i campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
