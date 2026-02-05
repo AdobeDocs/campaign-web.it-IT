@@ -2,14 +2,20 @@
 audience: end-user
 title: Configurare una consegna multilingue
 description: Scopri come configurare una consegna multilingue
-source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
 
 # Configurare una consegna multilingue {#multilingual-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Consegne multilingue"
+>abstract="Ora è possibile inviare messaggi in più lingue nell’interfaccia utente di Campaign Web. Per le notifiche push, compila tutte le varianti di lingua caricando un file CSV."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"

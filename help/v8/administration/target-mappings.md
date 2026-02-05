@@ -2,20 +2,14 @@
 title: Gestire le mappature target
 description: Scopri come gestire le mappature di destinazione.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 14%
+source-wordcount: '770'
+ht-degree: 10%
 
 ---
 
 # Gestire le mappature target {#target-mappings}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Mappature target"
->abstract="È ora possibile creare mappature target nell’interfaccia utente di Campaign Web. Le mappature target definiscono il modo in cui i diversi canali di consegna (e-mail, SMS, notifiche push) si collegano ai campi dati di uno schema."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

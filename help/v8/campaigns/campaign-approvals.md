@@ -3,14 +3,20 @@ audience: end-user
 title: Impostare e gestire il processo di approvazione
 description: Scopri come gestire le approvazioni di campagne di marketing in Campaign Web
 feature: Approvals, Campaigns
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '723'
 ht-degree: 4%
 
 ---
 
 # Gestire il processo di approvazione {#campaign-approvals}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn6"
+>title="Gestione dell’approvazione della campagna"
+>abstract="Ora puoi coordinare la convalida delle parti interessate prima di inviare le consegne. Richiedi le approvazioni di responsabili marketing, analisti di dati o altri team per il controllo di qualità."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!IMPORTANT]
 >
