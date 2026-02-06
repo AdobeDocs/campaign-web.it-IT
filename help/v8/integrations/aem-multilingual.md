@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 2%
 
 ---
-
 
 # Creare e-mail multilingue con Adobe Experience Manager {#aem-multilingual}
 
@@ -29,7 +29,7 @@ L’integrazione di Adobe Experience Manager consente di creare consegne e-mail 
 Prima di creare una consegna e-mail multilingue, assicurati di disporre di:
 
 * Accesso a un’istanza di Adobe Experience Manager configurata per l’integrazione dell’interfaccia web di Adobe Campaign.
-* Contenuto Adobe Experience Manager con copie per lingua già creato e approvato. Ulteriori informazioni sulla Creazione guidata copia in lingua nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Contenuto Adobe Experience Manager con copie per lingua già creato e approvato. Ulteriori informazioni sulla Creazione guidata copia in lingua nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Modello di consegna e-mail configurato per ricevere contenuti Adobe Experience Manager. Consulta i passaggi descritti nella sezione [Abilitare la modalità multilingue](#enable-multilingual).
 
 ## Creare una consegna multilingue
@@ -116,5 +116,3 @@ Dopo aver creato le varianti di contenuto, puoi gestirle direttamente nella cons
    >[!CAUTION]
    >
    >Dopo lo scollegamento, non è possibile aggiornare il contenuto da Adobe Experience Manager o creare nuove varianti. Il contenuto diventa indipendente da Adobe Experience Manager.
-
-

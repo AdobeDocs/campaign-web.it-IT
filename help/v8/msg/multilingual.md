@@ -2,7 +2,8 @@
 audience: end-user
 title: Configurare una consegna multilingue
 description: Scopri come configurare una consegna multilingue
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 3%
@@ -256,4 +257,3 @@ Durante la consegna, Campaign sostituisce questi segnaposto con i dati dei desti
 | Mancata corrispondenza tra maiuscole e minuscole nei nomi di colonna | I nomi delle colonne non corrispondono esattamente | I nomi delle colonne fanno distinzione tra maiuscole e minuscole. Utilizzare i nomi esatti indicati sopra (ad esempio, `badge`, non `Badge` o `BADGE`) |
 
 >Le best practice sono elencate in questa [sezione](#csv-best-practices). La struttura delle colonne è descritta in questa [sezione](#csv-columns).
-

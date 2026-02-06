@@ -2,7 +2,8 @@
 audience: end-user
 title: Utilizzare un’attività del flusso di lavoro di consegna continua
 description: Scopri come utilizzare l’attività del flusso di lavoro Consegna continua
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 3%
