@@ -2,16 +2,16 @@
 title: Domande frequenti
 description: Domande frequenti sull’interfaccia utente di Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
 # Domande frequenti
 
-Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}.
+Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
 
 +++ Con quale versione di Adobe Campaign è possibile accedere alla nuova interfaccia utente web?
 
@@ -59,7 +59,7 @@ Per accedere alla nuova interfaccia utente, è necessario utilizzare Adobe Campa
 
 +++ Questo significa che ci sarà la fine del supporto per Adobe Campaign Classic v7?
 
-Adobe Campaign Classic v7 sarà supportato fino al 31 marzo 2027. Visita la pagina [Prodotti e periodi di assistenza tecnica](https://helpx.adobe.com/it/support/programs/eol-matrix.html){target="_blank"}.
+Visita la pagina [Prodotti e periodi di supporto tecnico](https://helpx.adobe.com/it/support/programs/eol-matrix.html){target="_blank"} per le date di fine del supporto di Adobe Campaign Classic v7.
 
 +++
 
