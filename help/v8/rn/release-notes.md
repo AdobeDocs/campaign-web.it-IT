@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 42%
+source-wordcount: '274'
+ht-degree: 46%
 
 ---
 
@@ -66,7 +66,7 @@ _17 febbraio 2026_
 <tr>
 <td>
 <p>L’inventario delle campagne ora include una vista Timeline che consente di visualizzare e gestire le campagne nel tempo: passa da un elenco all’altro e naviga per settimana, mese o giorno, utilizza il pulsante Oggi per passare alla data corrente e apri i dettagli della campagna (stato, flussi di lavoro, consegne) in un pannello a destra, con gli stessi filtri e cerca della vista elenco.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../campaigns/manage-campaigns.md#timeline">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _17 febbraio 2026_
 <tr>
 <td>
 <p>Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. Questa funzione consente di creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati. Puoi definire strutture di dati personalizzate per supportare esigenze aziendali specifiche senza richiedere l’accesso alla console client.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Miglioramenti {#26-2-improvements}
+### Miglioramento {#26-2-improvements}
 
 * Le linee guida per il marchio ora includono una sezione Colori che definisce gli standard per il sistema di colori del tuo marchio, garantendo un uso coerente dei colori primari, secondari, di accento e neutri in tutte le esperienze.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [Ulteriori informazioni](../content/brands-personalize.md)
 
 
 
