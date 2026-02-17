@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Per scoprire come creare e inviare offerte tramite e-mail e SMS consulta [questa
 
 * **Account esterni**: crea nuovi account esterni utilizzando l’interfaccia utente web per soddisfare esigenze specifiche e garantire trasferimenti di dati senza problemi. [Ulteriori informazioni](../administration/external-account.md).
 
-* **Schemi**: i campi personalizzati sono ulteriori attributi aggiunti agli schemi preconfigurati tramite la console Adobe Campaign. [Ulteriori informazioni](../administration/custom-fields.md).
+* **Schemi**: i campi personalizzati sono ulteriori attributi aggiunti agli schemi preconfigurati tramite la console Adobe Campaign. [Ulteriori informazioni](../administration/schemas-custom-fields.md).
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 

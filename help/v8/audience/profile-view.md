@@ -2,7 +2,7 @@
 title: Esplorare i dettagli dei profili
 description: Scopri come esplorare i dettagli di un profilo.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 7%
@@ -28,7 +28,7 @@ Le informazioni sul profilo sono organizzate come segue:
 
   ![Schermata che mostra la scheda degli abbonamenti, con l&#39;elenco dei servizi a cui il profilo è abbonato.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Puoi visualizzare schede personalizzate, come acquisti, definendo collegamenti di raccolta nella definizione a schermo dello schema Destinatari. [Ulteriori informazioni sui collegamenti alle raccolte](../administration/schemas.md#collection-lists)
+* Puoi visualizzare schede personalizzate, come acquisti, definendo collegamenti di raccolta nella definizione a schermo dello schema Destinatari. [Ulteriori informazioni sui collegamenti alle raccolte](../administration/schemas-collection-lists.md)
 
   ![Schermata che mostra la scheda personalizzata](assets/schemas-collection4.png){zoomable="yes"}
 

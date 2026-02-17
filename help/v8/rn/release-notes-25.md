@@ -2,7 +2,7 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2025 dell’interfaccia utente di Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '3052'
 ht-degree: 100%
@@ -109,7 +109,7 @@ _3 novembre 2025_
 
 * Ora puoi passare dal nuovo generatore di regole a quello precedente quando imposti una condizione utilizzando la funzionalità di contenuto condizionale di E-mail designer.<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* Ora puoi selezionare i collegamenti di raccolta, ad esempio gli acquisti, nella definizione delle schermate dello schema Destinatari. I dati correlati vengono visualizzati nelle schermate dei profili tramite una scheda dedicata.<!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* Ora puoi selezionare i collegamenti di raccolta, ad esempio gli acquisti, nella definizione delle schermate dello schema Destinatari. I dati correlati vengono visualizzati nelle schermate dei profili tramite una scheda dedicata.<!-- [Learn more](../administration/schemas.md)-->
 
 * In qualità di amministratore di Campaign, ora puoi configurare le connessioni a Salesforce CRM e Microsoft Dynamics.
   [Ulteriori informazioni](../administration/external-crm.md)
@@ -295,7 +295,7 @@ Le seguenti funzioni sono disponibili a partire dalla versione di luglio.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -439,14 +439,14 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=it){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -473,10 +473,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=it) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -644,8 +644,8 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 **Schemi**
 
 * Ora puoi modificare lo schema temporaneo di un elenco dall’interfaccia utente di Campaign Web. Per ulteriori informazioni, consulta la [documentazione dettagliata](../audience/manage-audience.md).
-* Ora puoi visualizzare in anteprima i campi personalizzati di uno schema in una schermata di esempio. Per ulteriori informazioni, consulta la [documentazione dettagliata](../administration/custom-fields.md#add).
-* Ora puoi spostare i campi personalizzati nell’elenco tramite il trascinamento. Per ulteriori informazioni, consulta la [documentazione dettagliata](../administration/custom-fields.md#add).
+* Ora puoi visualizzare in anteprima i campi personalizzati di uno schema in una schermata di esempio. Per ulteriori informazioni, consulta la [documentazione dettagliata](../administration/schemas-custom-fields.md).
+* Ora puoi spostare i campi personalizzati nell’elenco tramite il trascinamento. Per ulteriori informazioni, consulta la [documentazione dettagliata](../administration/schemas-custom-fields.md).
 
 
 ### Nuove funzioni in Disponibilità limitata {#25-4-features-la}

@@ -1,8 +1,10 @@
 ---
 title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 27%
@@ -43,7 +45,7 @@ ht-degree: 27%
 >title="Impostazioni attributo"
 >abstract="Impostazioni attributo"
 
-I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione. Scopri come estendere uno schema nella [documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=it){target="_blank"}.
+I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione. Scopri come estendere uno schema nella [documentazione di Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
 I campi personalizzati possono essere visualizzati in varie schermate, ad esempio nei dettagli del profilo nell’interfaccia web di Campaign. Gli amministratori possono controllare quali campi sono visibili e come appaiono. Queste modifiche si applicano a tutti gli utenti di Campaign.
 

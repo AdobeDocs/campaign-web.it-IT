@@ -2,8 +2,8 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2024 dell’interfaccia utente di Campaign Web
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -119,10 +119,10 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 
 * **Frammenti visivi**: è ora possibile archiviare i frammenti di contenuti visivi. [Ulteriori informazioni](../content/create-fragment.md#archive)
 
-* **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per la clientela in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
+* **Captcha nelle pagine di destinazione**: ora è possibile aggiungere Captcha per proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. [Ulteriori informazioni](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Note sulla versione di luglio {#24-7-release}
@@ -201,7 +201,7 @@ La nuova funzionalità **Audit trail** fornisce un record dettagliato e cronolog
 
 ### Campi personalizzati {#24-5-2}
 
-I **Campi personalizzati** sono ulteriori attributi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Nell’interfaccia web di Campaign, questi campi personalizzati sono ora visibili in varie schermate, ad esempio nei dettagli di un profilo o in un profilo di test. Nell’interfaccia web, non è possibile creare campi personalizzati, ma ora è possibile modificare il modo in cui vengono visualizzati. [Ulteriori informazioni](../administration/custom-fields.md)
+I **Campi personalizzati** sono ulteriori attributi aggiunti agli schemi predefiniti tramite la console Adobe Campaign. Nell’interfaccia web di Campaign, questi campi personalizzati sono ora visibili in varie schermate, ad esempio nei dettagli di un profilo o in un profilo di test. Nell’interfaccia web, non è possibile creare campi personalizzati, ma ora è possibile modificare il modo in cui vengono visualizzati. [Ulteriori informazioni](../administration/schemas-custom-fields.md)
 
 ### Creare collegamenti tra tabelle {#24-5-3}
 
@@ -237,7 +237,7 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 
 **Modelli di notifiche push avanzate**
 
-Ora puoi inviare notifiche push avanzate tramite Android. La notifica push avanzata è una forma di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. [Ulteriori informazioni](../push/rich-push.md)
+Ora puoi inviare notifiche push avanzate tramite Android. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. [Ulteriori informazioni](../push/rich-push.md)
 
 Al momento questa funzione è presente in **Disponibilità limitata** (LA).
 
@@ -250,7 +250,7 @@ Al momento questa funzione è presente in **Disponibilità limitata** (LA).
 >
 >Consulta le seguenti pagine della documentazione: [Transizione da Campaign Standard a Campaign v8](../rn/acs-migration.md) e [Funzionalità per gli utenti di Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=it).
 
-* **Branding**: in qualità di utenti che hanno eseguito la migrazione da Campaign Standard, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sulla relativa identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](../administration/branding/branding-gs.md)
+* **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](../administration/branding/branding-gs.md)
 
 * **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it)
 
