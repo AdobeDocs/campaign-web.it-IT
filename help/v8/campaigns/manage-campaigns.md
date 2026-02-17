@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 47%
+source-wordcount: '995'
+ht-degree: 34%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 47%
 >title="Pianificazione della campagna"
 >abstract="Impostare o modificare la pianificazione della campagna."
 
-Per accedere alle campagne e gestirle, fai clic sul menu **[!UICONTROL Campagne]** nell&#39;area di navigazione a sinistra.
-
-## Elenco delle campagne {#access-campaigns}
-
-Nell’elenco delle campagne sono disponibili due schede:
+Per accedere alle campagne e gestirle, fai clic sul menu **[!UICONTROL Campagne]** nell&#39;area di navigazione a sinistra. Sono disponibili due schede:
 
 * Nella scheda **Sfoglia** sono elencate tutte le campagne esistenti. Puoi fare clic su una campagna per aprirne la dashboard, o crearne una nuova facendo clic sul pulsante **Crea campagna**. Consulta questa [sezione](create-campaigns.md#create-campaigns).
 
@@ -29,15 +25,31 @@ Nell’elenco delle campagne sono disponibili due schede:
 
 ![Descrizione: la schermata dell&#39;elenco delle campagne mostra le schede Sfoglia e Modelli, insieme alle opzioni per creare o visualizzare le campagne](assets/campaign-list.png)
 
-Per impostazione predefinita, ogni campagna nell’elenco visualizza informazioni sul suo stato corrente, sulle date di inizio e di fine, sulla data di creazione, sull’ultima modifica e così via.
+## Inventario campagne {#inventory}
 
-Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configura le colonne per un layout personalizzato**, nell’angolo superiore a destra dell’elenco. Ciò ti consente di aggiungere o rimuovere colonne e riordinare le informazioni nell’elenco delle campagne.
+La scheda **[!UICONTROL Sfoglia]** fornisce informazioni sullo stato corrente delle campagne, sulle date di inizio e fine, sulla data di creazione, sull&#39;ultima modifica, ecc. Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configura le colonne per un layout personalizzato**, nell’angolo superiore a destra dell’elenco. Ciò ti consente di aggiungere o rimuovere colonne e riordinare le informazioni nell’elenco delle campagne.
 
-Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens).
+### Cerca e filtra l’inventario {#search}
 
-Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza la sezione **Data di inizio - fine**:
+Sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens). Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza la sezione **Data di inizio - fine**:
 
 ![Descrizione: il pannello dei filtri con le opzioni per filtrare le campagne in base alle date di inizio e di fine](assets/campaign-filter-on-dates.png)
+
+### Vista Timeline {#timeline}
+
+Per impostazione predefinita, la schermata della campagna mostra la **Vista a elenco** (inventario). Puoi passare alla **visualizzazione Timeline** in qualsiasi momento utilizzando l&#39;interruttore di visualizzazione. Entrambe le viste mostrano le stesse campagne e condividono gli stessi filtri e le stesse ricerche. Quando modifichi i filtri o esegui una ricerca in una vista, l’altra mostra la stessa selezione.
+
+La vista Timeline consente di visualizzare e gestire le campagne nel tempo. Puoi visualizzare tutte le campagne in un formato basato sul tempo, per semplificare la pianificazione, la pianificazione e il coordinamento delle attività di marketing.
+
+![](assets/timeline-view.png)
+
+**Funzionamento della sequenza temporale:**
+
+* La timeline visualizza le campagne in base alle rispettive date di inizio e fine. Le campagne che si estendono su più giorni vengono visualizzate nelle date pertinenti.
+* È possibile spostarsi per settimana, mese o giorno. Utilizzare il selettore di data o i pulsanti freccia per spostarsi tra i periodi. Utilizza il pulsante **Oggi** per tornare rapidamente alla data corrente.
+* Selezionando una campagna si apre un pannello di destra con i relativi dettagli: stato, date di inizio e fine, elenco dei flussi di lavoro e elenco delle consegne. Dal pannello puoi passare a tali flussi di lavoro e consegne.
+* Le campagne in corso hanno priorità nella visualizzazione quando molte campagne rientrano nella stessa data.
+* Quando molte campagne rientrano in un singolo giorno (ad esempio nella visualizzazione per mese), un controllo **Altro** ti consente di espandere per visualizzare il set completo per quel giorno oppure di passare alla visualizzazione per settimana o giorno per maggiori dettagli.
 
 ## Dashboard delle campagne {#campaign-dashboard}
 
@@ -93,7 +105,7 @@ In entrambi i casi, conferma la duplicazione per creare la nuova campagna. L&#39
 
 ## Utilizzare i modelli per campagne {#manage-campaign-templates}
 
-I modelli di campagna contengono impostazioni preconfigurate che possono essere riutilizzate per creare nuove campagne. Per iniziare, è disponibile un set di modelli incorporati. Puoi creare e configurare i modelli per campagne e quindi creare campagne a partire da questi modelli.
+I modelli di campagna contengono impostazioni preconfigurate che possono essere riutilizzate per creare nuove campagne. Per iniziare, è disponibile un set di modelli incorporati. Puoi creare e configurare i modelli della campagna e quindi creare campagne a partire da questi modelli.
 
 In un modello per campagne è possibile memorizzare le seguenti informazioni:
 
