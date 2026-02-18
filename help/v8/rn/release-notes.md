@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 46%
+source-wordcount: '243'
+ht-degree: 51%
 
 ---
 
@@ -88,10 +88,12 @@ _17 febbraio 2026_
 </tbody>
 </table>
 
-### Miglioramento {#26-2-improvements}
+<!--
 
-* Le linee guida per il marchio ora includono una sezione Colori che definisce gli standard per il sistema di colori del tuo marchio, garantendo un uso coerente dei colori primari, secondari, di accento e neutri in tutte le esperienze.
-  [Ulteriori informazioni](../content/brands-personalize.md)
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 
 
