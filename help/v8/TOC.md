@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 97%
+source-wordcount: '998'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 97%
    + [Versione preliminare](rn/e-release-notes.md)
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-release-notes}
+      + [Versioni 2026](rn/release-notes-26.md)
       + [Versioni 2025](rn/release-notes-25.md)
       + [Versioni 2024](rn/release-notes-24.md)
    + [Aggiornamenti alla documentazione](rn/documentation-updates.md)
@@ -281,9 +282,16 @@ ht-degree: 97%
       + [Assegnare un brand](administration/branding/branding-assign.md)
    + [Utilizzare le regole di business (tipologie)](administration/typologies.md)
    + [Gestire le mappature target](administration/target-mappings.md)
-   + [Utilizzare gli schemi](administration/schemas.md)
+   + Utilizzare gli schemi {#schemas}
+      + [Informazioni sugli schemi](administration/schemas.md)
+      + [Accedere e configurare gli schemi](administration/schemas-browse-access.md)
+      + [Configura colonne elenco](administration/schemas-list-columns.md)
+      + [Modifica campi personalizzati](administration/schemas-custom-fields.md)
+      + [Aggiungere elenchi di raccolte](administration/schemas-collection-lists.md)
+      + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
+      + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
    + [Configurare i campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
