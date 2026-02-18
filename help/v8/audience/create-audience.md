@@ -31,7 +31,7 @@ Una volta creato il flusso di lavoro, i tipi di pubblico risultanti vengono auto
 
 La colonna **[!UICONTROL Origin]** indica le origini dei tipi di pubblico: **[!UICONTROL I tipi di pubblico di Adobe Campaign]** vengono creati nella console Adobe Campaign v8 o nell&#39;interfaccia utente Web, mentre i tipi di pubblico di **[!UICONTROL Adobe Experience Platform:]** vengono creati in Adobe Experience Platform e integrati in Campaign utilizzando l&#39;integrazione di Adobe Sources and Destinations.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 ## Autorizzazioni per gruppi di operatori personalizzati
 
@@ -108,4 +108,4 @@ Se preferisci non sostituire i risultati del pubblico esistenti, configura le at
 
 Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453210?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
