@@ -4,7 +4,7 @@ description: Scopri le funzionalità chiave di Campaign v8. È destinato agli ad
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: a343e7c3387e185eec62b4e63ed93ae6fb9eeb80
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 19%
@@ -33,7 +33,7 @@ La differenza principale risiede nell’interfaccia utente. Di seguito è riport
 
 Nel video seguente, scopri come accedere e navigare nell’interfaccia utente di Campaign Web e come personalizzare gli elenchi di inventario.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453430?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 Per ulteriori informazioni, consulta la documentazione seguente:
 
@@ -54,11 +54,13 @@ In Adobe Campaign, un profilo è un record memorizzato nel database che funge da
 
 1. Scopri come accedere, gestire ed esplorare i profili utilizzando l’interfaccia utente di Campaign Web in questo video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448372?captions=ita&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    Ulteriori informazioni sono disponibili nella [Guida introduttiva ai profili](../../v8/audience/about-recipients.md).
 
-1. Scopri come [creare e gestire profili di test](../../v8/audience/test-profiles.md) in Campaign v8.
+1. Scopri come creare e gestire i profili di test in Campaign v8
+
+   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### Gestire i tipi di pubblico {#acs-gs-marketers-audiences}
 
@@ -66,7 +68,7 @@ I tipi di pubblico sono insiemi di profili che condividono comportamenti e/o car
 
 Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo, in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453210?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 Per ulteriori informazioni, consulta [Introduzione a Audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
@@ -89,27 +91,27 @@ Scopri come [impostare un gruppo di controllo](../../v8/audience/control-group.m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/audiences/work-with-services/manage-services">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">
 <img alt="Non frequente" src="assets/lp-list.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>Creare servizi di iscrizione</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>Creare servizi di iscrizione</strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
 <img alt="Non frequente" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Gestisci abbonati<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>Gestisci abbonati<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/send-to-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers">
 <img alt="Convalida" src="assets/workflow-create.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/send-to-subscribers"><strong>Inviare messaggi agli abbonati di un servizio</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers"><strong>Inviare messaggi agli abbonati di un servizio</strong></a>
 </div>
 <p>
 </td>
@@ -144,7 +146,7 @@ L’interfaccia utente del flusso di lavoro è stata completamente ripensata nel
 
 Scopri come funzionano i flussi di lavoro e come creare un flusso di lavoro di targeting in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453980?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 Ulteriori dettagli sono disponibili nella [documentazione del flusso di lavoro](../../v8/workflows/gs-workflows.md).
 
@@ -156,7 +158,7 @@ Ottimizza l&#39;efficienza del flusso di lavoro esaminando i [guardrail e limita
 
 >[!AVAILABILITY]
 >
->* La cronologia e i registri dell&#39;esecuzione del flusso di lavoro [&#x200B; sono disponibili in Adobe Campaign v8.](../../v8/workflows/start-monitor-workflows.md#logs-tasks)
+>* La cronologia e i registri dell&#39;esecuzione del flusso di lavoro [ sono disponibili in Adobe Campaign v8.](../../v8/workflows/start-monitor-workflows.md#logs-tasks)
 >
 >* I registri cronologici dei flussi di lavoro eseguiti nell’istanza Campaign Standard non vengono migrati a Campaign v8.
 >
@@ -194,13 +196,13 @@ Collegamenti utili:
 >
 >* I collegamenti di tracciamento, i collegamenti URL delle pagine mirror, i collegamenti di abbonamento/annullamento dell’abbonamento funzionano come in Campaign Standard.
 >
->Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
+>Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
 
 ### Consegna e-mail {#acs-gs-marketers-email}
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3454013?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Scopri come creare la tua prima e-mail mirata nella [Documentazione sulla creazione della prima e-mail](../../v8/email/create-email.md)
 
@@ -208,17 +210,17 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 1. **Progetta e definisci il contenuto**
 
-   La finestra di progettazione e-mail di Campaign v8 è simile a quella disponibile in Campaign Standard. Alcuni anni fa, l&#39;editor di posta elettronica legacy di Campaign Standard[è stato dichiarato obsoleto](https://experienceleague.adobe.com/it/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. Dovresti aver già effettuato la transizione a Campaign E-mail Designer per creare e personalizzare il contenuto delle e-mail.
+   La finestra di progettazione e-mail di Campaign v8 è simile a quella disponibile in Campaign Standard. Alcuni anni fa, l&#39;editor di posta elettronica legacy di Campaign Standard[è stato dichiarato obsoleto](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. Dovresti aver già effettuato la transizione a Campaign E-mail Designer per creare e personalizzare il contenuto delle e-mail.
 
    Scopri come navigare in E-mail Designer. Scopri come strutturare e progettare un’e-mail da zero, come personalizzare e testare l’e-mail nel video seguente:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453573?captions=ita&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione. Ulteriori informazioni sono disponibili nella [documentazione di E-mail Designer](../../v8/email/get-started-email-designer.md)
 
    Scopri come creare un’e-mail caricando HTML, come renderla compatibile con il Designer e-mail e come convertirla in un modello in questo video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447040?captions=ita&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    Un frammento di contenuto è un componente riutilizzabile a cui è possibile fare riferimento in uno o più messaggi. Ulteriori informazioni su [Frammenti di contenuto](../../v8/content/fragments.md) per semplificare la creazione della consegna di e-mail.
 
@@ -228,7 +230,7 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
    Scopri come visualizzare in anteprima il contenuto e la personalizzazione dei messaggi e-mail, inviare le consegne di test (bozze) e controllare il rendering delle e-mail nei client desktop, mobili e basati su web più diffusi, in questo video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450345?captions=ita&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **Invia e-mail e controlla i registri**
 
@@ -247,27 +249,27 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/sms/create-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
 <img alt="Lead" src="assets/create_sms.png">
 </a>
-<div><a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/sms/create-sms"><strong>Creare una consegna SMS</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms"><strong>Creare una consegna SMS</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/sms/content-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms">
 <img alt="Non frequente" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/sms/content-sms"><strong>Progettare una consegna SMS<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms"><strong>Progettare una consegna SMS<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/sms/send-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms">
 <img alt="Convalida" src="assets/send_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/sms/send-sms"><strong>Anteprima e invio di una consegna SMS</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms"><strong>Anteprima e invio di una consegna SMS</strong></a>
 </div>
 <p>
 </td>
@@ -282,41 +284,43 @@ In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/push/create-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push">
 <img alt="Lead" src="assets/push_create.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/push/create-push"><strong>Creare una consegna push</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push"><strong>Creare una consegna push</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/push/content-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push">
 <img alt="Non frequente" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/push/content-push"><strong>Progettare una consegna push<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push"><strong>Progettare una consegna push<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/push/send-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push">
 <img alt="Convalida" src="assets/push_send.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/push/send-push"><strong>Anteprima e invio di una consegna push</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push"><strong>Anteprima e invio di una consegna push</strong></a>
 </div>
 <p>
 </tr></table>
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 supporta sia il canale push Android che iOS. Per la transizione dei flussi di lavoro e delle consegne esistenti tramite il canale push, connettiti con il tuo Adobe Campaign Transition Manager. Ulteriori informazioni su [Configurazione canale](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+>* Adobe Campaign v8 supporta sia il canale push Android che iOS. Per la transizione dei flussi di lavoro e delle consegne esistenti tramite il canale push, connettiti con il tuo Adobe Campaign Transition Manager. Ulteriori informazioni su [Configurazione canale](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 >
->* SDK V4 per applicazioni mobili è stato [dichiarato obsoleto in Campaign Standard](https://experienceleague.adobe.com/it/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} alcuni anni fa. Dovresti aver già effettuato la transizione a Adobe Experience Platform SDK, lo stesso utilizzato in Campaign v8.
+>* SDK V4 per applicazioni mobili è stato [dichiarato obsoleto in Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} alcuni anni fa. Dovresti aver già effettuato la transizione a Adobe Experience Platform SDK, lo stesso utilizzato in Campaign v8.
 > 
 
 ### Direct mail {#acs-gs-marketers-direct-mail}
 
-Direct mail è un canale offline che consente di creare file per consegnare in massa lettere personalizzate alla clientela, come cartoline, volantini o cataloghi. Durante la creazione di una consegna direct mail, Adobe Campaign genera automaticamente un file di estrazione contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi del profilo.
+Direct mail è un canale offline che consente di creare file per consegnare in massa lettere personalizzate per ogni cliente, come cartoline, volantini o cataloghi. Durante la creazione di una consegna direct mail, Adobe Campaign genera automaticamente un file di estrazione contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi del profilo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
 
 In Campaign v8, i passaggi dettagliati per la creazione, il test e l’invio di una consegna direct mailing sono simili a quelli di Campaign Standard.
 
@@ -339,28 +343,28 @@ Per ulteriori informazioni sulle pagine di destinazione, consulta le sezioni seg
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="Lead" src="assets/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/create-lp"><strong>Creare pagine di destinazione</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>Creare pagine di destinazione</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="Convalida" src="assets/lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-content"><strong>Progettare pagine di destinazione</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>Progettare pagine di destinazione</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="Convalida" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Utilizzare i modelli di pagina di destinazione</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Utilizzare i modelli di pagina di destinazione</strong></a>
 </div>
 <p>
 </td>
@@ -369,7 +373,7 @@ Per ulteriori informazioni sulle pagine di destinazione, consulta le sezioni seg
 
 ## Reporting {#acs-gs-marketers-reporting}
 
-Adobe Campaign fornisce un set di [strumenti di reporting](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. In qualità di amministratore, puoi creare e configurare i rapporti da condividere con altri utenti di Campaign.
+Adobe Campaign fornisce un set di [strumenti di reporting](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. In qualità di amministratore, puoi creare e configurare i rapporti da condividere con altri utenti di Campaign.
 
 La suite di strumenti di reporting di Adobe Campaign fornisce informazioni utili sull’efficacia delle attività di marketing, consentendoti di ottimizzare le campagne per il massimo impatto. Ulteriori informazioni sono disponibili nella [documentazione sul reporting](../../v8/reporting/gs-reports.md).
 
