@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 51%
+source-wordcount: '267'
+ht-degree: 55%
 
 ---
 
@@ -75,13 +75,14 @@ _17 febbraio 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Authoring dello schema</strong><br/></th> 
+<th><strong>Authoring dello schema (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. Questa funzione consente di creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati. Puoi definire strutture di dati personalizzate per supportare esigenze aziendali specifiche senza richiedere l’accesso alla console client.</p>
+<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
