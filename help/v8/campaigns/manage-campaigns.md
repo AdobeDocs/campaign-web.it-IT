@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 34%
@@ -29,7 +29,7 @@ Per accedere alle campagne e gestirle, fai clic sul menu **[!UICONTROL Campagne]
 
 La scheda **[!UICONTROL Sfoglia]** fornisce informazioni sullo stato corrente delle campagne, sulle date di inizio e fine, sulla data di creazione, sull&#39;ultima modifica, ecc. Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configura le colonne per un layout personalizzato**, nell’angolo superiore a destra dell’elenco. Ciò ti consente di aggiungere o rimuovere colonne e riordinare le informazioni nell’elenco delle campagne.
 
-### Cerca e filtra l’inventario {#search}
+### Cerca e filtra l’inventario {#search-and-filter}
 
 Sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. [Ulteriori informazioni](../get-started/user-interface.md#list-screens). Ad esempio, puoi filtrare in base alla pianificazione della campagna. Apri il pannello dei filtri e utilizza la sezione **Data di inizio - fine**:
 

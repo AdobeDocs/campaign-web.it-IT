@@ -3,18 +3,18 @@ audience: end-user
 title: Utilizzare l’attività Transfer file
 description: Scopri come utilizzare l’attività del flusso di lavoro Trasferisci file
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 27%
 
 ---
 
-# Trasferimento file {#transfer-file}
+# Attività Transfer file {#transfer-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
->title="Trasferimento file"
+>title="Attività Transfer file"
 >abstract="L’attività **Trasferimento file** consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP."
 
 >[!CONTEXTUALHELP]
@@ -155,6 +155,8 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
    * **[!UICONTROL Segui reindirizzamenti]**: il reindirizzamento dei file consente di utilizzare gli override per indirizzare l&#39;input o l&#39;output di dati a un dispositivo di tipo diverso.
    * **[!UICONTROL Aggiungere le intestazioni HTTP al file]**: in alcuni casi, potrebbe essere necessario aggiungere altre intestazioni HTTP a un file. Nella maggior parte dei casi, queste intestazioni verranno utilizzate per fornire informazioni aggiuntive a scopo di risoluzione dei problemi, per [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o per impostare direttive di caching specifiche.
    * **[!UICONTROL Ignora il codice di ritorno HTTP]**: i codici di ritorno HTTP, noti anche come codici di stato HTTP, indicano il risultato di una richiesta HTTP.
+
+   +++
 
 1. L&#39;opzione **[!UICONTROL Elabora errori]** consente di attivare una transizione in uscita &quot;Errore&quot; dopo l&#39;attività se si verifica un errore durante il trasferimento.
 
