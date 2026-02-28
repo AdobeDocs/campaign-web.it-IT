@@ -29,7 +29,7 @@ L’integrazione di Adobe Experience Manager consente di creare consegne e-mail 
 Prima di creare una consegna e-mail multilingue, assicurati di disporre di:
 
 * Accesso a un’istanza di Adobe Experience Manager configurata per l’integrazione dell’interfaccia web di Adobe Campaign.
-* Contenuto Adobe Experience Manager con copie per lingua già creato e approvato. Ulteriori informazioni sulla Creazione guidata copia in lingua nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Contenuto Adobe Experience Manager con copie per lingua già creato e approvato. Ulteriori informazioni sulla Creazione guidata copia in lingua nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Modello di consegna e-mail configurato per ricevere contenuti Adobe Experience Manager. Consulta i passaggi descritti nella sezione [Abilitare la modalità multilingue](#enable-multilingual).
 
 ## Creare una consegna multilingue
