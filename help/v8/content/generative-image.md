@@ -2,9 +2,10 @@
 audience: end-user
 title: Contenuto generativo
 description: Scopri come generare le immagini con l’Assistente AI
-source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
+exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
+source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1200'
 ht-degree: 4%
 
 ---
@@ -53,6 +54,7 @@ Scopri come creare prompt efficaci e configurare le impostazioni delle immagini 
 
 1. Personalizza la richiesta utilizzando l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
+   * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md)
    * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. Scegliere tra i rapporti comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettere una dimensione personalizzata.
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: controlla l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) crea un aspetto più morbido, mentre un&#39;impostazione più alta (10) rende l&#39;immagine più vibrante.
@@ -124,6 +126,7 @@ Dopo aver effettuato l’accesso a AI Assistant, puoi regolare le impostazioni d
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
+   * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md)
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: controlla l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) crea un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) rende l&#39;immagine più vibrante e visivamente potente.
    * **[!UICONTROL Illuminazione]**: regola l&#39;illuminazione nell&#39;immagine per modellarne l&#39;atmosfera ed evidenziare elementi specifici.
