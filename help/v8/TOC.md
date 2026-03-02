@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
+source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1003'
 ht-degree: 95%
 
 ---
@@ -140,6 +140,7 @@ ht-degree: 95%
       + Brand {#ai-assistant}
          + [Creare e gestire i brand personali](content/brands.md)
          + [Personalizzare il brand](content/brands-personalize.md)
+         + [Creare e gestire modelli generativi](content/generative-models.md)
          + [Valuta i contenuti](content/brands-score.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
@@ -291,7 +292,7 @@ ht-degree: 95%
       + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
       + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
    + [Configurare i campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
