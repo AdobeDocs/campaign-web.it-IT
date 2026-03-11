@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Introduzione all’Assistente IA
-description: Introduzione all’Assistente AI
+description: Introduzione all’Assistente IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 21%
+source-wordcount: '775'
+ht-degree: 22%
 
 ---
 
@@ -32,7 +32,40 @@ ht-degree: 21%
 >
 >Immergiti in un&#39;esperienza pratica con [la nostra anteprima live delle funzionalità](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
-Man mano che il settore del marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in tempi rapidi. L’Assistente per l’intelligenza artificiale in Adobe Campaign Web, con tecnologia Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che trasforma il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand tra canali diversi, come e-mail, SMS e notifiche push. Con modelli GenAI avanzati e una profonda conoscenza delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, ottimizzando i contenuti per stili, layout, toni e altro ancora delineati dal brand.
+Man mano che il settore del marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in tempi rapidi. L’Assistente per l’intelligenza artificiale in Adobe Campaign Web, fornito da Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che trasforma il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand tra canali diversi, come e-mail, SMS e notifiche push. Con modelli GenAI avanzati e una profonda conoscenza delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, ottimizzando i contenuti per stili, layout, toni e altro ancora delineati dal brand.
+
+L&#39;Assistente AI supporta la generazione di **in più lingue**, consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali. L&#39;Assistente AI è disponibile nelle seguenti lingue:
+
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+  <tbody>
+    <tr style="border: 0;background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>Cinese (Hong Kong)</li>
+          <li>Cinese (semplificato)</li>
+          <li>Cinese (Taiwan)</li>
+          <li>Olandese</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Francese</li>
+          <li>Tedesco</li>
+          <li>Italiano</li>
+          <li>Giapponese</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Norvegese</li>
+          <li>Portoghese</li>
+          <li>Spagnolo</li>
+          <li>Svedese</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 AI Assistant semplifica la creazione e l’esecuzione di campagne di marketing su canali diversi, come e-mail, SMS e notifiche push, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori.
 
@@ -69,7 +102,7 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assiste
 * Utilizza [modelli e-mail incorporati](../content/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail tramite l&#39;Assistente all&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
 * Segnala eventuali output problematici utilizzando le icone thumb-up, thumbs-down o flag durante la selezione delle varianti.
 * L’utilizzo di AI Assistant è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html).
+* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Le seguenti limitazioni si applicano all’Assistente IA in Adobe Campaign Web:
 
