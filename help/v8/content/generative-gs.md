@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione all’Assistente IA
 description: Introduzione all’Assistente IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
+source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 22%
+source-wordcount: '828'
+ht-degree: 21%
 
 ---
 
@@ -81,12 +81,17 @@ L’Assistente IA per e-mail, notifiche push, pagina di destinazione e SMS è or
 
 +++ Scopri come assegnare le autorizzazioni relative alla generazione dei contenuti
 
-1. **Crea profilo prodotto** - In [Admin Console](https://stage.adminconsole.adobe.com/), crea un profilo prodotto con il seguente pattern specifico:
+1. **Accedi a [Admin Console](https://adminconsole.adobe.com/)**, passa al menu **Prodotti**, quindi seleziona **Adobe Campaign Managed Cloud**.
+
+1. Accedi all&#39;istanza per la quale desideri concedere le autorizzazioni, quindi fai clic su **Nuovo profilo** per creare un nuovo profilo di prodotto con il seguente nome specifico:
+
    `Campaign - <instance-name> - AIAssistant`
 
-1. **Aggiungi utenti** - Aggiungi l&#39;utente richiesto a quel profilo di prodotto,\
-   o\
-   **Crea gruppo di utenti**, aggiungi tale gruppo di utenti al profilo di prodotto, quindi aggiungi gli utenti a tale profilo di prodotto.
+1. Configura il profilo di prodotto con le autorizzazioni necessarie per l’accesso all’Assistente AI.
+
+1. **Aggiungi utenti o gruppi di utenti**. Scegliere una delle opzioni seguenti:
+   * **Aggiungi singoli utenti**: aggiungi gli utenti richiesti direttamente al profilo di prodotto.
+   * **Aggiungi gruppi di utenti**: crea un gruppo di utenti, aggiungi gli utenti a tale gruppo, quindi aggiungi il gruppo di utenti al profilo di prodotto.
 
 Scopri come definire le autorizzazioni in Campaign in [questa sezione](../get-started/permissions.md).
 
@@ -102,7 +107,7 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assiste
 * Utilizza [modelli e-mail incorporati](../content/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail tramite l&#39;Assistente all&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
 * Segnala eventuali output problematici utilizzando le icone thumb-up, thumbs-down o flag durante la selezione delle varianti.
 * L’utilizzo di AI Assistant è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html).
+* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Le seguenti limitazioni si applicano all’Assistente IA in Adobe Campaign Web:
 
