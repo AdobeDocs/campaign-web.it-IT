@@ -6,7 +6,7 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
 source-wordcount: '1287'
-ht-degree: 19%
+ht-degree: 25%
 
 ---
 
@@ -128,7 +128,7 @@ Il campo **Comportamento** consente di definire la procedura da seguire se vengo
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="Script di inizializzazione"
->abstract="Questa sezione ti consente di definire cosa accade se un’attività non riesce. Puoi scegliere azioni quali l’arresto del flusso di lavoro, il passaggio all’attività successiva o l’attivazione di un processo personalizzato di gestione degli errori."
+>abstract="Questa sezione consente di definire cosa accade se un’attività non riesce. Puoi scegliere azioni quali l’arresto del flusso di lavoro, il passaggio all’attività successiva o l’attivazione di un processo personalizzato di gestione degli errori."
 
 Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire se l&#39;attività rileva un errore. Consulta questa [sezione](workflow-settings.md#error-settings).
 
@@ -137,9 +137,9 @@ Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="Script di inizializzazione"
->abstract="Questa sezione ti consente di aggiungere JavaScript che viene eseguito all’avvio dell’attività. Utilizzala per inizializzare le variabili, impostare parametri o preparare dati specifici per l’esecuzione di quell’attività."
+>abstract="Questa sezione ti consente di aggiungere JavaScript che viene eseguito all’avvio dell’attività. Utilizzala per inizializzare le variabili, impostare parametri o preparare dati specifici per l’esecuzione di tale attività."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 
 ## Esempio {#example}
 

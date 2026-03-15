@@ -6,7 +6,7 @@ exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Consegne multilingue"
->abstract="Ora è possibile inviare messaggi in più lingue nell’interfaccia utente di Campaign Web. Per le notifiche push, compila tutte le varianti di lingua caricando un file CSV."
+>abstract="Ora puoi inviare messaggi in più lingue nell’interfaccia utente di Campaign Web. Per le notifiche push, compila tutte le varianti di lingua caricando un file CSV."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
@@ -25,8 +25,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
->title="Importa varianti di lingua"
->abstract="Utilizza questa finestra di dialogo per aggiungere una variante di lingua importando un file CSV. Il file compila automaticamente tutti i campi disponibili per la lingua selezionata. È possibile trascinare e rilasciare il file o sceglierlo dal computer prima di confermare."
+>title="Importare varianti di lingua"
+>abstract="Utilizza questa finestra di dialogo per aggiungere una variante di lingua importando un file CSV. Il file compila automaticamente tutti i campi disponibili per la lingua selezionata. Puoi trascinare il file o sceglierlo dal computer prima di confermare."
 
 Nell’interfaccia utente web di Campaign, puoi impostare le consegne come multilingue, che consente di inviare messaggi in base alla lingua preferita di un profilo. Se non è definita alcuna preferenza, il messaggio viene inviato nella lingua predefinita.
 

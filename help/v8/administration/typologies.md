@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -34,7 +34,7 @@ Le tipologie sono accessibili tramite il menu **[!UICONTROL Amministrazione]** >
 
 >[!NOTE]
 >
->Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Nell&#39;elenco **[!UICONTROL Regole di tipologia]** vengono visualizzate tutte le regole esistenti create finora nell&#39;interfaccia utente Web o nella console client. Tuttavia, nell&#39;interfaccia utente Web è possibile creare solo **regole di controllo** e **regole di filtro**. Per creare altri tipi di regole di tipologia, ad esempio regole di pressione o di capacità, utilizza la console client di Campaign v8. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 I passaggi principali per applicare le tipologie ai messaggi sono i seguenti:
 
@@ -90,7 +90,7 @@ Sono disponibili due tipi di regole di tipologia:
 
 >[!NOTE]
 >
->Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>Attualmente, è possibile creare dall&#39;interfaccia utente Web solo **regole di tipologia Controllo** e **Filtro**. Per creare altri tipi di regole, utilizza la console client. [Scopri come creare regole di tipologia nella console client](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 Per creare una regola di tipologia, effettua le seguenti operazioni:
 
@@ -100,7 +100,7 @@ Per creare una regola di tipologia, effettua le seguenti operazioni:
 
    ![Crea regola di tipologia](assets/business-rules-create-typo.png)
 
-### Definire le proprietà principali della regola {#properties}
+### Definisci le proprietà principali della regola {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"

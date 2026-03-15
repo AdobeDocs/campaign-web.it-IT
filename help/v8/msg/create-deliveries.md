@@ -20,7 +20,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Abilita arricchimento del profilo"
->abstract="Seleziona i campi per l’arricchimento del profilo. Solo i campi con un indice possono essere selezionati come chiavi di riconciliazione. I campi non supportati visualizzati in grigio e non possono essere selezionati."
+>abstract="Seleziona i campi per l’arricchimento del profilo. Solo i campi con un indice possono essere selezionati come chiavi di riconciliazione. I campi non supportati sono visualizzati in grigio e non sono disponibili."
 
 Puoi creare consegne autonome dal menu a sinistra **[!UICONTROL Consegne]**, oppure nel contesto di un flusso di lavoro, incluso o meno in una campagna.
 

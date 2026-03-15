@@ -10,7 +10,7 @@ exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Passare alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tutti i client e-mail non supportano la modalità scura personalizzata."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Passare alla modalità scura"
->abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tutti i client e-mail non supportano la modalità scura."
+>abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
 
 Durante la progettazione delle e-mail, [!DNL Adobe Campaign] [Invia e-mail a Designer](get-started-email-designer.md) ti consente di passare alla visualizzazione **[!UICONTROL Modalità scura]**.
 
@@ -137,7 +137,7 @@ Significa che rileva aree con elementi chiari e scuri e le inverte, in modo che 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utilizzare un’immagine specifica per la modalità scura"
->abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client di posta elettronica. Tutti i client e-mail non supportano la modalità scura personalizzata."
+>abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client di posta elettronica. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
 
 Dopo il passaggio alla **[!UICONTROL modalità scura]**, puoi scegliere di modificare elementi di stile specifici del contenuto che verranno visualizzati solo quando la modalità scura è abilitata nel client e-mail del destinatario, purché supporti tale funzione.
 
