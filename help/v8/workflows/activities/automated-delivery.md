@@ -16,4 +16,4 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Attività di consegna automatizzata"
->abstract="L&#39;attività **Consegna automatica** ti consente di creare, configurare ed eseguire azioni di consegna all&#39;interno del flusso di lavoro. Puoi creare una nuova consegna da un modello, selezionare una consegna esplicita esistente creata separatamente o utilizzare una consegna specificata nella transizione in entrata. Configura destinatari e contenuto, quindi scegli l’azione di esecuzione."
+>abstract="L&#39;attività **Consegna automatica** ti consente di creare, configurare ed eseguire azioni di consegna all&#39;interno del flusso di lavoro. Puoi creare una nuova consegna da un modello, selezionare una consegna esplicita esistente creata separatamente o utilizzare una consegna specificata nella transizione in entrata. Configura destinatari e contenuto, quindi scegli l’azione di esecuzione.
