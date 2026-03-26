@@ -2,10 +2,10 @@
 title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+source-git-commit: 304e3771ee55777d2eaf7a6c83ee4af3c97aa3b6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 42%
+source-wordcount: '568'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,42 @@ ht-degree: 42%
 
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
 
-## Aggiornamento del 26 marzo {#26-3-release}
+## Versione di marzo 2026 {#26-3-release}
+
+### Nuove funzioni {#26-3-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Authoring dello schema (GA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La funzione di authoring dello schema è ora disponibile per tutti i clienti (GA). Questa funzionalità consente di creare e gestire gli schemi direttamente dall’interfaccia utente web di Campaign. È possibile creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati. Puoi definire strutture di dati personalizzate per supportare esigenze aziendali specifiche senza richiedere l’accesso alla console client.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Temi nel Designer e-mail (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I temi forniscono una migliore esperienza di authoring per le e-mail consentendoti di definire stili di tema riutilizzabili che soddisfino le linee guida del tuo marchio. Ora puoi utilizzare le variabili tema nei frammenti, garantendo così uno stile coerente nei diversi modelli e-mail. Questa funzione consente di creare e-mail più rapidamente con moduli predefiniti che riprendono elementi di contenuto quali titoli, descrizioni, immagini e collegamenti, mantenendo al contempo la coerenza del brand.</p>
+<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -38,55 +73,18 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 </tbody>
 </table>
 
-## Versione di febbraio 2026 {#26-2-release}
-
-_17 febbraio 2026_
-
-### Nuove funzioni {#26-2-features}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Delivery scheduling compute process</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>Vista Timeline nell’inventario delle campagne</strong><br/></th> 
+<th><strong>Attività di consegna automatizzata</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’inventario delle campagne ora include una vista Timeline che consente di visualizzare e gestire le campagne nel tempo: passa da un elenco all’altro e naviga per settimana, mese o giorno, utilizza il pulsante Oggi per passare alla data corrente e apri i dettagli della campagna (stato, flussi di lavoro, consegne) in un pannello a destra, con gli stessi filtri e cerca della vista elenco.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../campaigns/manage-campaigns.md#timeline">documentazione dettagliata</a>.</p>
+<p>L'attività del flusso di lavoro <strong>Consegna automatica</strong> è ora disponibile nella palette del flusso di lavoro. Puoi utilizzarlo per creare o eseguire azioni di consegna (preparare, inviare una bozza, preparare e avviare, ecc.) direttamente all’interno del flusso di lavoro. Seleziona una consegna esistente creata all’esterno del flusso di lavoro per riutilizzarla a ogni esecuzione, oppure crea una nuova consegna da un modello a ogni esecuzione dell’attività.</p>
+<p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
+<p>Per ulteriori informazioni, consulta la <a href="../workflows/activities/automated-delivery.md"> documentazione dettagliata.</p>
 </td>
 </tr>
 </tbody>
@@ -95,26 +93,23 @@ _17 febbraio 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Authoring dello schema (LA)</strong><br/></th> 
+<th><strong>Più rami del flusso di lavoro e attività di unione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. Questa funzione consente di creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati. Puoi definire strutture di dati personalizzate per supportare esigenze aziendali specifiche senza richiedere l’accesso alla console client.</p>
-<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
+
+<p><strong>Sono supportati più rami</strong>. Invece di utilizzare un <strong>Fork</strong>, puoi fare clic su <strong>Aggiungi ramo</strong> nella barra degli strumenti. Anche l'attività <strong>AND-join</strong> è stata migliorata. Si tratta ora di un'attività <strong>Join</strong> generica che consente di scegliere tra le opzioni di join AND e OR.</p>
+<p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
+<p>Per ulteriori informazioni, consulta <a href="../workflows/orchestrate-activities.md#toolbar">Orchestrare le attività</a> e <a href="../workflows/activities/join.md">Partecipare</a> pagine della documentazione.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+### Miglioramenti {#26-3-improvements}
 
-### Improvement {#26-2-improvements}
-
-* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
-
-
-
+* L&#39;attività del flusso di lavoro **Start** è stata aggiunta per migliorare la compatibilità con Client Console. Questa attività è facoltativa e non viene inserita per impostazione predefinita nei nuovi flussi di lavoro. Tuttavia, viene aggiunto automaticamente ai flussi di lavoro esistenti.
+  [Ulteriori informazioni](../workflows/activities/about-activities.md#flow-control)
+* Il campo di selezione del fuso orario nelle impostazioni **Pianifica** di una consegna è stato spostato sotto il campo **Data di contatto**. [Ulteriori informazioni](../msg/create-deliveries.md#gs-schedule)
