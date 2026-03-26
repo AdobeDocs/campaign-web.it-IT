@@ -4,14 +4,21 @@ description: Scopri come creare e gestire i modelli generativi
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # Creare e gestire modelli generativi {#generative-models}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Integrazione dei modelli di generazione delle immagini"
+>abstract="Integrazione perfetta di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati, per fornire maggiore flessibilità, controllo e allineamento del brand durante la generazione delle immagini."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 Espandi le funzionalità di creazione delle immagini AI con modelli incorporati, modelli Firefly personalizzati e provider di generazione di immagini di terze parti per soddisfare esigenze specifiche e migliorare l’allineamento del brand.
 
@@ -21,7 +28,7 @@ Scegli il modello giusto per le tue esigenze:
 - **[!UICONTROL Il modello partner]**, con tecnologia Gemini 2.5 Flash, offre funzionalità specializzate per casi d&#39;uso specifici.
 - I **[!UICONTROL modelli personalizzati]** sono modelli specifici del brand addestrati sulle risorse personali e aggiunti dalla tua organizzazione.
 
-  Ulteriori informazioni sui **[!UICONTROL modelli personalizzati]** sono disponibili nella [documentazione di Adobe Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Ulteriori informazioni sui **[!UICONTROL modelli personalizzati]** sono disponibili nella [documentazione di Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Una volta configurata, puoi selezionare uno qualsiasi dei modelli generativi durante la creazione di immagini nel contenuto. [Ulteriori informazioni sulla generazione di immagini](generative-image.md).
 
@@ -59,7 +66,7 @@ I modelli personalizzati di Firefly sono modelli di intelligenza artificiale spe
 
 Creando provider di modelli Firefly personalizzati, puoi espandere le funzionalità di intelligenza artificiale oltre i modelli predefiniti e garantire che i contenuti generati riflettano in modo coerente i requisiti estetici e specifici del tuo marchio.
 
-➡️ [Scopri come addestrare il tuo modello personalizzato](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Scopri come addestrare il tuo modello personalizzato](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Dal menu **[!UICONTROL Marchi]**, accedi alla scheda **[!UICONTROL Modelli generativi]** e fai clic su **[!UICONTROL Aggiungi modello]**.
 
@@ -69,7 +76,7 @@ Creando provider di modelli Firefly personalizzati, puoi espandere le funzionali
 
 1. Immetti il **[!UICONTROL ID modello]**.
 
-   Per trovare il tuo ID modello Firefly, accedi al sito Web Firefly e passa ai tuoi modelli addestrati. L’identificatore univoco è disponibile nella sezione gestione del modello dopo la pubblicazione. Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Per trovare il tuo ID modello Firefly, accedi al sito Web Firefly e passa ai tuoi modelli addestrati. L’identificatore univoco è disponibile nella sezione gestione del modello dopo la pubblicazione. Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 

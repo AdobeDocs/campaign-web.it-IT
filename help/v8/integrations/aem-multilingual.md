@@ -7,20 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 9%
+source-wordcount: '512'
+ht-degree: 4%
 
 ---
 
 # Creare e-mail multilingue con Adobe Experience Manager {#aem-multilingual}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Experience Manager Live e copie per lingua"
->abstract="Ora puoi accedere alle copie per lingua e alle Live Copy di Adobe Experience Manager direttamente in Campaign. L’aggiornamento dei contenuti in tempo reale elimina la sincronizzazione manuale, per flussi di lavoro multilingue più semplici e diretti."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 L’integrazione di Adobe Experience Manager consente di creare consegne e-mail multilingue utilizzando copie in lingua Adobe Experience Manager. Questo consente di gestire varianti di contenuto in lingue diverse e di inviare e-mail personalizzate in base alle preferenze della lingua del destinatario.
 
@@ -29,7 +23,7 @@ L’integrazione di Adobe Experience Manager consente di creare consegne e-mail 
 Prima di creare una consegna e-mail multilingue, assicurati di disporre di:
 
 * Accesso a un’istanza di Adobe Experience Manager configurata per l’integrazione dell’interfaccia web di Adobe Campaign.
-* Contenuto Adobe Experience Manager con copie per lingua già creato e approvato. Ulteriori informazioni sulla Creazione guidata copia in lingua nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Contenuto Adobe Experience Manager con copie per lingua già creato e approvato. Ulteriori informazioni sulla Creazione guidata copia in lingua nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Modello di consegna e-mail configurato per ricevere contenuti Adobe Experience Manager. Consulta i passaggi descritti nella sezione [Abilitare la modalità multilingue](#enable-multilingual).
 
 ## Creare una consegna multilingue

@@ -3,10 +3,10 @@ keywords: Campaign Web;home;argomenti popolari
 description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 99%
+source-wordcount: '530'
+ht-degree: 84%
 
 ---
 
@@ -52,9 +52,15 @@ Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla doc
 >[!BEGINTABS]
 
 
->[!TAB Versione del 26 febbraio]
+>[!TAB Versione del 26 marzo]
 
-La versione di febbraio è live. Nuove funzioni e miglioramenti sono ora disponibili nell’interfaccia utente di Campaign Web. Per una panoramica completa, consulta le note sulla versione.
+La versione di marzo è live. Nuove funzioni e miglioramenti sono ora disponibili nell’interfaccia utente di Campaign Web. Gli elementi di rilievo includono:
+
+* **Authoring dello schema (GA)** - Crea e gestisci gli schemi direttamente nell&#39;interfaccia utente di Campaign Web.
+* **Temi in E-mail Designer (LA)** - Applica stili di tema riutilizzabili e variabili per mantenere il contenuto delle e-mail coerente con il tuo marchio.
+* **Miglioramenti al flusso di lavoro** - Le attività **Consegna automatica** e **Inizio** sono ora disponibili e **Partecipa** ora supporta l&#39;opzione OR. Ora puoi anche aggiungere più rami ai flussi di lavoro.
+
+Per una panoramica completa, consulta le note sulla versione.
 
 [![Pulsante Ulteriori informazioni](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

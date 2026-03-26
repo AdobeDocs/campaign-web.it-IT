@@ -3,20 +3,14 @@ audience: end-user
 title: Creare esperimenti di contenuto
 description: Scopri come creare esperimenti di contenuti in Adobe Campaign Web
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: 6ed7b0bc20d456b781339eb2d82607691e9e7dd7
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 6%
+source-wordcount: '1165'
+ht-degree: 3%
 
 ---
 
 # Creare esperimenti di contenuto {#content-experiment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Esperimenti di contenuto - Test A/B"
->abstract="Ora puoi definire più varianti di consegna per testare quale offre le prestazioni migliori. Puoi variare il contenuto, l’oggetto o il mittente negli elementi e-mail per determinare quali producano risultati ottimali."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
