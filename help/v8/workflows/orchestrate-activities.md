@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 25%
+source-wordcount: '1321'
+ht-degree: 24%
 
 ---
 
@@ -39,6 +39,7 @@ Per rimuovere un&#39;attività, selezionarla nell&#39;area di lavoro e fare clic
 La barra degli strumenti, situata nell’angolo superiore destro dell’area di lavoro, offre opzioni per manipolare facilmente le attività e navigare all’interno dell’area di lavoro:
 
 * **Modalità di selezione multipla**: selezionare più attività per eliminarle tutte contemporaneamente oppure copiarle e incollarle. Consulta [questa sezione](#copy).
+* **Aggiungi ramo**: fai clic sul pulsante **+** nella barra degli strumenti per creare un ramo di esecuzione separato nell&#39;area di lavoro. Il risultato equivale a utilizzare un [fork](activities/fork.md) per i percorsi paralleli, ma il diagramma è più chiaro dal punto di vista grafico.
 * **Ruota**: cambia l&#39;area di lavoro verticalmente.
 * **Adatta allo schermo**: adatta il livello di zoom dell&#39;area di lavoro allo schermo.
 * **Zoom indietro** / **Zoom avanti**: Zoom indietro o nell&#39;area di lavoro.
@@ -139,7 +140,7 @@ Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire 
 >title="Script di inizializzazione"
 >abstract="Questa sezione ti consente di aggiungere JavaScript che viene eseguito all’avvio dell’attività. Utilizzala per inizializzare le variabili, impostare parametri o preparare dati specifici per l’esecuzione di tale attività."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 
 ## Esempio {#example}
 

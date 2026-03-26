@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 24%
+source-wordcount: '617'
+ht-degree: 22%
 
 ---
 
@@ -60,16 +60,26 @@ Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing s
 >abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_start"
+>title="Attività Fine"
+>abstract="L&#39;attività **Inizio** consente di contrassegnare graficamente l&#39;inizio di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
 >title="Segnale esterno"
 >abstract="segnaposto per la sezione sul segnale esterno nei parametri dell’attività Fine. Disponibile solo per le campagne orchestrate. NON ELIMINARE"
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
-* [And-join](and-join.md): sincronizza più rami di esecuzione di un flusso di lavoro.
-* **Fine**: contrassegna graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
 * [Segnale esterno](external-signal.md): attiva l&#39;esecuzione di un flusso di lavoro da un altro flusso di lavoro o da una chiamata API.
 * [Fork](fork.md): crea transizioni in uscita per avviare più attività contemporaneamente.
+* [Partecipa](join.md): sincronizza più rami di esecuzione di un flusso di lavoro.
 * [Modulo di pianificazione](scheduler.md): pianificazione all&#39;avvio del flusso di lavoro.
+* **Inizio** e **Fine**: contrassegnare graficamente l&#39;inizio e la fine di un flusso di lavoro. Sono facoltativi e non hanno alcun impatto funzionale.
+
+  >[!NOTE]
+  >
+  >L&#39;attività **Inizio** viene aggiunta automaticamente a tutti i flussi di lavoro creati prima della versione 26.3. Non viene inserito per impostazione predefinita nei nuovi flussi di lavoro.
+
 * [Test](test.md): abilita le transizioni in base alle condizioni specificate.
 * [Attendi](wait.md): sospende temporaneamente l&#39;esecuzione di una parte di un flusso di lavoro.

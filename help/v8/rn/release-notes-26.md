@@ -1,16 +1,95 @@
 ---
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2026 dell’interfaccia utente di Campaign Web
-source-git-commit: abec861b2c542644b90d3385fb5cf1d785ae7b70
+exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 20%
+source-wordcount: '746'
+ht-degree: 22%
 
 ---
 
-# Note sulle versioni 2026 {#2026-release}
+# Note sulla versione 2026 {#2026-release}
 
 In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2026**. Le ultime note sulla versione sono disponibili in [questa pagina](release-notes.md).
+
+## Versione di febbraio 2026 {#26-2-release}
+
+_17 febbraio 2026_
+
+### Nuove funzioni {#26-2-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Delivery scheduling compute process</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Vista Timeline nell’inventario delle campagne</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’inventario delle campagne ora include una vista Timeline che consente di visualizzare e gestire le campagne nel tempo: passa da un elenco all’altro e naviga per settimana, mese o giorno, utilizza il pulsante Oggi per passare alla data corrente e apri i dettagli della campagna (stato, flussi di lavoro, consegne) in un pannello a destra, con gli stessi filtri e cerca della vista elenco.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../campaigns/manage-campaigns.md#timeline">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Authoring dello schema (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. Questa funzione consente di creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati. Puoi definire strutture di dati personalizzate per supportare esigenze aziendali specifiche senza richiedere l’accesso alla console client.</p>
+<p>Nota: questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata globalmente in una versione futura.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/schemas.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 ## Versione di gennaio 2026 {#26-1-release}
 
@@ -106,7 +185,7 @@ _27 gennaio 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Gestione dell’approvazione della campagna</strong><br/></th> 
+<th><strong>Gestione dell’approvazione delle campagne</strong><br/></th> 
 </tr>
 </thead>
 <tbody>

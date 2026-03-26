@@ -2,9 +2,9 @@
 title: Creare e pubblicare schemi
 description: Scopri come creare, estendere e pubblicare schemi.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 ## Creare e gestire gli schemi {#create-schemas}
 
 È possibile creare nuovi schemi, estendere gli schemi esistenti e accedere a database esterni.
-
->[!NOTE]
->
->Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà implementata a livello globale in una versione futura.
 
 ### Creare o estendere uno schema {#create-new}
 
