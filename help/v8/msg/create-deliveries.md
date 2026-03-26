@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 55%
+source-wordcount: '983'
+ht-degree: 49%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Abilita arricchimento del profilo"
->abstract="Seleziona i campi per l’arricchimento del profilo. Solo i campi con un indice possono essere selezionati come chiavi di riconciliazione. I campi non supportati sono visualizzati in grigio e non sono disponibili."
+>abstract="Seleziona i campi per l’arricchimento del profilo. Solo i campi con un indice possono essere selezionati come chiavi di riconciliazione. I campi non supportati sono visualizzati in grigio."
 
 Puoi creare consegne autonome dal menu a sinistra **[!UICONTROL Consegne]**, oppure nel contesto di un flusso di lavoro, incluso o meno in una campagna.
 
@@ -113,11 +113,18 @@ Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima 
 
 Puoi impostare la data e l’ora esatta per l’invio dei messaggi. Scegliendo il momento più appropriato per il messaggio di marketing, puoi massimizzare i tassi di apertura.
 
-Per pianificare l&#39;invio di una consegna, apri la consegna e passa alla sezione **[!UICONTROL Pianifica]**. Utilizza il pulsante di attivazione **[!UICONTROL Abilita pianificazione]** per attivarla e imposta la data e l’ora desiderate per l’invio. Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto definita.
+Per pianificare l’invio di una consegna, effettua le seguenti operazioni:
+
+1. Apri la consegna e passa alla sezione **[!UICONTROL Pianificazione]**.
+1. Utilizza il pulsante di attivazione **[!UICONTROL Abilita pianificazione]** per attivarla.
+1. Nel campo **[!UICONTROL Data di contatto]**, fai clic sull&#39;icona del calendario e imposta la data e l&#39;ora desiderate per l&#39;invio.
+1. Nel campo **[!UICONTROL Fuso orario]**, utilizza il menu a discesa per selezionare il fuso orario desiderato.
+
+Una volta inviata la consegna, l’invio effettivo inizia dalla data di contatto definita.
 
 ![Schermata che mostra l&#39;interfaccia di pianificazione per una consegna](assets/schedule.png){zoomable="yes"}
 
-Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che la consegna venga inviata alla data e all’ora pianificate. Se desideri inviare la consegna automaticamente alla data e all’ora pianificate, puoi disattivare questa opzione.
+Per impostazione predefinita, l’opzione **[!UICONTROL Abilita la conferma prima dell’invio]** è abilitata. Questa opzione richiede di confermare l’invio prima che la consegna venga inviata alla data pianificata e se devi inviare la consegna automaticamente alla data e all’ora pianificate, puoi disabilitare questa opzione.me.
 
 Scopri i passaggi su come inviare una consegna pianificata in [questa sezione](../monitor/prepare-send.md#schedule-the-send).
 
