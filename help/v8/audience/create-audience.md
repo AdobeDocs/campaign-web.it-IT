@@ -3,10 +3,10 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 32%
 [!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Audience settings"
->abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."
+-->
 
 ## Informazioni sulla creazione di tipi di pubblico
 
@@ -106,6 +107,6 @@ Se preferisci non sostituire i risultati del pubblico esistenti, configura le at
 
 ## Video dimostrativo {#video}
 
-Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubblico per una consegna e definire gruppi di controllo.
+Scopri come creare e gestire i tipi di pubblico, come selezionarli per una consegna e come definire gruppi di controllo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453210?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

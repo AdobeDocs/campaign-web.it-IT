@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 56%
+source-wordcount: '1672'
+ht-degree: 55%
 
 ---
 
@@ -173,8 +173,10 @@ Ulteriori informazioni su come visualizzare in anteprima un&#39;e-mail e inviare
 
    ![Schermata che mostra l&#39;anteprima e-mail in base ai profili selezionati](assets/preview.png){zoomable="yes"}
 
-   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
-    -->
+   <!--
+Inoltre, il pulsante **[!UICONTROL Rendering e-mail]** ti consente di visualizzare in anteprima il messaggio e-mail utilizzando più dispositivi o provider di posta. Scopri come visualizzare in anteprima il rendering di e-mail
+
+—>
 
 1. Per inviare le bozze, fai clic sul pulsante **[!UICONTROL Invia bozze]**, quindi scegli la modalità da utilizzare.
 
@@ -242,7 +244,8 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
    ![Schermata che mostra l&#39;avanzamento dell&#39;invio dell&#39;e-mail](assets/sending-email.png){zoomable="yes"}
 
    <!--
-    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
+    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}
+    -->
 
    Puoi anche accedere a informazioni dettagliate sull’invio facendo clic sul pulsante **[!UICONTROL Registri]**. [Scopri come monitorare i registri di consegna](../monitor/delivery-logs.md)
 
@@ -254,4 +257,4 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454013/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

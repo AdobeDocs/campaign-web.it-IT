@@ -5,7 +5,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -21,7 +21,8 @@ La **Guida contestuale con Generazione basata sull’intelligenza artificiale**,
 Grazie alle funzionalità della Generazione basata sull’intelligenza artificiale di Campaign, questo componente migliora la tua esperienza, semplificando il recupero delle informazioni e la risoluzione dei problemi. Sia che tu stia cercando istruzioni per un’attività complessa o esplorando una vasta documentazione, la Guida contestuale basata sull’intelligenza artificiale è lo strumento ideale che fornisce efficienza e precisione uniche in ogni interazione.
 
 <!--
-[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
+[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)
+-->
 
 >[!AVAILABILITY]
 >
@@ -42,7 +43,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/it/ai.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## Domande suggerite {#questions-ai}

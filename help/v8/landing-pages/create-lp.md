@@ -3,7 +3,7 @@ title: Creare una pagina di destinazione
 description: Scopri come configurare e pubblicare una pagina di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 24%
@@ -74,9 +74,11 @@ Puoi duplicare o eliminare una pagina di destinazione. Fai clic sui puntini di s
 >title="Definire le opzioni di archiviazione"
 >abstract="La sezione di precaricamento consente di indicare come trovare il record da aggiornare nel database."
 
-<!--The main steps to create landing pages are as follows:
+<!--
+The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png){zoomable="yes"}-->
+![](assets/lp-creation-process.png){zoomable="yes"}
+-->
 
 Per creare una pagina di destinazione, effettua le seguenti operazioni:
 
