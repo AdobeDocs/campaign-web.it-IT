@@ -3,7 +3,7 @@ audience: end-user
 title: Inviare una consegna SMS
 description: Scopri come inviare SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 2bcb1c890ca90b73183fe5e168fb3ec3b08dea1f
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 36%
@@ -32,7 +32,7 @@ I passaggi principali per visualizzare in anteprima la consegna di SMS sono i se
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
-—>
+    -->
 
 1. Nel riquadro a destra, visualizza un’anteprima della consegna SMS, in cui gli elementi personalizzati vengono sostituiti dinamicamente con i dati del profilo selezionato.
 
