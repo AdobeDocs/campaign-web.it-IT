@@ -158,7 +158,7 @@ Ottimizza l&#39;efficienza del flusso di lavoro esaminando i [guardrail e limita
 
 >[!AVAILABILITY]
 >
->* La cronologia e i registri dell&#39;esecuzione del flusso di lavoro [ sono disponibili in Adobe Campaign v8.](../../v8/workflows/start-monitor-workflows.md#logs-tasks)
+>* La cronologia e i registri dell&#39;esecuzione del flusso di lavoro [&#x200B; sono disponibili in Adobe Campaign v8.](../../v8/workflows/start-monitor-workflows.md#logs-tasks)
 >
 >* I registri cronologici dei flussi di lavoro eseguiti nell’istanza Campaign Standard non vengono migrati a Campaign v8.
 >
