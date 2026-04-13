@@ -51,7 +51,7 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    * **[!UICONTROL Destinati]**: il numero di destinatari interessati.
    * **[!UICONTROL Da consegnare]**: numero di messaggi che verranno inviati.
-   * **[!UICONTROL Da escludere]**[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Da escludere]**&#x200B;[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
 
 1. Fai clic sul pulsante **[!UICONTROL Registri]** e verifica che non siano presenti errori. L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. [Ulteriori informazioni](delivery-logs.md)
 
