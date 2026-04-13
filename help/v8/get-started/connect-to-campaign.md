@@ -21,7 +21,7 @@ Per accedere a Adobe Experience Cloud, segui questi passaggi di base:
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Accedi utilizzando il tuo Adobe ID o Enterprise ID. Per informazioni sui tipi di identità in Adobe, consulta [questo articolo](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"}.
+1. Accedi utilizzando il tuo Adobe ID o Enterprise ID. Per informazioni sui tipi di identità in Adobe, consulta [questo articolo](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
 
    Dopo aver effettuato l’accesso a Experience Cloud, puoi accedere rapidamente a tutte le soluzioni e le app.
 

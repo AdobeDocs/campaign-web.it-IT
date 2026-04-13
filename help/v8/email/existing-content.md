@@ -26,7 +26,7 @@ Puoi importare i contenuti HTML esistenti in E-mail designer. Tali contenuti pos
 >
 >La struttura del file .zip non è soggetta a specifici vincoli. Tuttavia, i riferimenti devono essere relativi e coerenti con la struttura ad albero della cartella .zip.
 
-➡️ [Guarda il video su questa funzione](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 Per importare un file contenente contenuti HTML, attieniti alla procedura seguente.
 
@@ -56,4 +56,4 @@ Per importare un file contenente contenuti HTML, attieniti alla procedura seguen
 
 Scopri come creare un’e-mail caricando HTML, renderla compatibile con E-mail Designer e convertirla in un modello.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447040/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

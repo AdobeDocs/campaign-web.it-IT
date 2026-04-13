@@ -10,7 +10,7 @@ ht-degree: 47%
 
 ---
 
-# Salvare il pubblico {#save-audience}
+# Salvare tipi di pubblico {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"

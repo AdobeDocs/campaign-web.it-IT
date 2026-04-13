@@ -93,7 +93,7 @@ Il grafico **[!UICONTROL Cause di esclusione]** fornisce una suddivisione dei mo
 * **[!UICONTROL Indirizzo in quarantena]**: tipo di errore generato quando un indirizzo viene messo in quarantena.
 * **[!UICONTROL Indirizzo non specificato]**: tipo di errore generato quando un indirizzo non esiste.
 * **[!UICONTROL Indirizzo di qualità non valido]**: tipo di errore generato quando la valutazione della qualità dell&#39;indirizzo postale è troppo bassa.
-* inserire nell&#39;elenco Bloccati inserire nell&#39;elenco Bloccati **[!UICONTROL Indirizzo]**: tipo di errore generato quando il destinatario è stato durante la consegna.
+* **[!UICONTROL Indirizzo]**: tipo di errore generato quando il destinatario è stato durante la consegna.
 * **[!UICONTROL Doppio]**: tipo di errore generato quando il destinatario è stato escluso a causa di valori di chiave non univoci.
 * **[!UICONTROL Gruppo di controllo]**: l&#39;indirizzo del destinatario fa parte del gruppo di controllo.
 * **[!UICONTROL Destinazione con dimensione limitata]**: è stata raggiunta la dimensione massima di consegna per il destinatario.
