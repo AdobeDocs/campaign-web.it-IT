@@ -3,7 +3,7 @@ title: Note preliminari sulla versione dell’interfaccia utente di Campaign Web
 description: Scopri le nuove funzioni in arrivo con la prossima versione dell’interfaccia utente di Campaign Web
 hide: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
