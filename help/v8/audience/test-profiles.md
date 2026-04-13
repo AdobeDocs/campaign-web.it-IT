@@ -112,4 +112,4 @@ Il profilo di test appena creato è ora pronto per essere utilizzato per inviare
 
 Scopri come creare e gestire i profili di test utilizzando l’interfaccia utente web di Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442903?captions=ita&quality=12)
