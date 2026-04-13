@@ -119,7 +119,7 @@ Che la consegna sia pianificata o meno<!--TBC-->, è possibile eseguire due azio
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
->title="Aperture"
+>title="Messaggi aperti"
 >abstract="Numero di messaggi aperti. Questo indicatore viene aggiornato ogni 5 minuti. La percentuale visualizzata è il rapporto tra il numero di aperture distinte e il numero di messaggi consegnati."
 >additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/kpis" text="Comprendere i KPI"
 

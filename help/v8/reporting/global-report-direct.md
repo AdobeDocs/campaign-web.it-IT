@@ -117,7 +117,7 @@ Il grafico e la tabella Esclusioni illustrano i motivi che hanno impedito ai pro
 
 * **[!UICONTROL Indirizzo di qualità non valido]**: tipo di errore generato quando la valutazione della qualità dell&#39;indirizzo postale è troppo bassa.
 
-* inserire nell&#39;elenco Bloccati inserire nell&#39;elenco Bloccati **[!UICONTROL Indirizzo]**: tipo di errore generato quando il destinatario è stato al momento dell&#39;esecuzione della consegna.
+* **[!UICONTROL Indirizzo]**: tipo di errore generato quando il destinatario è stato al momento dell&#39;esecuzione della consegna.
 
 * **[!UICONTROL Doppio]**: tipo di errore generato quando il destinatario è stato escluso perché i relativi valori chiave non sono univoci.
 

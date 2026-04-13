@@ -31,7 +31,7 @@ Un modello include:
 * [Contenuto](../email/edit-content.md) personalizzato
 * [Campi personalizzati](../personalization/personalize.md) e [contenuto condizionale](../personalization/conditions.md)
 * Collegamenti a [pagine mirror](../email/mirror-page.md) e [collegamenti](../email/message-tracking.md) per annullare l’iscrizione
-* Altre proprietà di consegna, ad esempio validità delle risorse, parametri per nuovi tentativi o impostazioni di quarantena
+* Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Per creare un modello di consegna, puoi utilizzare diversi metodi:
 
 ### Duplicare un modello di consegna esistente {#copy-an-existing-template}
 
-Campaign include modelli incorporati per ogni canale: e-mail, push e SMS. Il modo più semplice per creare un modello di consegna consiste nel duplicare e personalizzare un modello incorporato.
+Campaign include modelli incorporati per ogni canale: e-mail, push e SMS. Il modo più semplice per creare un modello di consegna è consiste nel duplicare e personalizzare un modello incorporato.
 
 >[!NOTE]
 >

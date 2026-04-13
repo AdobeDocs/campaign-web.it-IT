@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ## Introduzione a GenStudio {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} è un&#39;applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing personalizzate e di forte impatto, conformi agli standard del brand e conformi ai criteri aziendali. Sfruttando la tecnologia di intelligenza artificiale Adobe, fornisce una suite completa di strumenti che semplificano le complessità della creazione e della gestione dei contenuti in modo che i creativi possano concentrarsi sull’innovazione.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} è un&#39;applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing personalizzate e di forte impatto, conformi agli standard del brand e conformi ai criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano le complessità di creazione e gestione dei contenuti, consentendo ai creativi di concentrarsi sull’innovazione.
 
 >[!AVAILABILITY]
 >

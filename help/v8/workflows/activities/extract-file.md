@@ -10,11 +10,11 @@ ht-degree: 16%
 
 ---
 
-# Estrai file {#extract-file}
+# Attività Extract file {#extract-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
->title="Estrai file"
+>title="Attività Extract file"
 >abstract="L’attività **Estrai file** ti consente di esportare dati da Adobe Campaign come file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file."
 
 L&#39;attività **Extract file** è un&#39;attività **Data management**. Utilizza questa attività per esportare dati da Adobe Campaign sotto forma di un file esterno. I dati possono quindi essere esportati in una posizione server come SFTP, archiviazione cloud o server di Campaign utilizzando un’attività di trasferimento file.

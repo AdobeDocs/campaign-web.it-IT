@@ -10,7 +10,7 @@ ht-degree: 47%
 
 ---
 
-# Attendi {#wait}
+# Attendere {#wait}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
@@ -31,6 +31,6 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 
 ## Esempio {#wait-example}
 
-L’esempio seguente illustra l’attività **Attendi** in un caso d’uso tipico. Viene inviata un’e-mail di invito a un evento. Dopo 24 ore, una consegna SMS viene inviata alla stessa popolazione.
+L’esempio seguente illustra l’attività **Attendi** in un caso d’uso tipico. Viene inviato un invito e-mail a un evento. Dopo 24 ore, una consegna SMS viene inviata alla stessa popolazione.
 
 ![Esempio di flusso di lavoro che utilizza l&#39;attività Attendi per inviare un SMS 24 ore dopo un invito e-mail.](../assets/workflow-wait-example.png)

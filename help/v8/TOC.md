@@ -5,10 +5,10 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 95%
 + [Documentazione dell’interfaccia utente di Adobe Campaign Web](campaign-web-home.md)
 + Note sulla versione {#release-notes}
    + [Novità](rn/whats-new.md)
-   + [Versione preliminare](rn/e-release-notes.md)
+   + {hide-from-toc}[Versione anticipata](rn/e-release-notes.md)
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-release-notes}
       + [Versioni 2026](rn/release-notes-26.md)
       + [Versioni 2025](rn/release-notes-25.md)
       + [Versioni 2024](rn/release-notes-24.md)
-   + [Aggiornamenti alla documentazione](rn/documentation-updates.md)
+   + {hide-from-toc}[Aggiornamenti alla documentazione](rn/documentation-updates.md)
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
    + [Connessione a Campaign](get-started/connect-to-campaign.md)
-   + [Scoprire l’interfaccia](get-started/user-interface.md)
+   + {hide-from-toc}[Scopri l&#39;interfaccia](get-started/user-interface.md)
    + [Sfogliare e filtrare gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Utilizzare le cartelle](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [Autorizzazioni](get-started/permissions.md)
    + [Campaign Web e Console client](get-started/capability-matrix.md)
    + [Da Campaign Standard a v8](rn/acs-migration.md)
-   + [Guida contestuale basata sull’intelligenza artificiale](get-started/using-ai.md)
+   + {hide-from-toc}[Guida contestuale basata su IA](get-started/using-ai.md)
    + [Domande frequenti](get-started/faq.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
@@ -219,7 +219,7 @@ ht-degree: 95%
    + [Utilizzo del query modeler](query/query-modeler-overview.md)
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
-   + [Esempi di query](query/query-samples.md)
+   + {hide-from-toc}[Esempi di query](query/query-samples.md)
    + [Filtrare elenchi](query/filter.md)
 + Reporting {#reports}
    + [Audit trail](reporting/audit-trail.md)
@@ -292,7 +292,7 @@ ht-degree: 95%
       + [Aggiungere elenchi di raccolte](administration/schemas-collection-lists.md)
       + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
       + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
-   + [Configurare i campi personalizzati](administration/custom-fields.md)
+   + {hide-from-toc}[Configura campi personalizzati](administration/custom-fields.md)
    + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
