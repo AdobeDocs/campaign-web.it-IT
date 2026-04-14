@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto dell’interfaccia utente di
 title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 93%
 
 ---
@@ -73,6 +73,8 @@ ht-degree: 93%
    + Call center {#call-center}
       + [Introduzione alle consegne call center](call-center/gs-call-center.md)
       + [Creare e inviare una consegna call center](call-center/create-call-center.md)
+   + {hide-from-toc}[Introduzione a WhatsApp](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[Creare una consegna WhatsApp](whatsapp/create-whatsapp.md)
    + [Canali personalizzati](call-center/gs-custom-channel.md)
    + Messaggi transazionali {#transactional-messages}
       + [Introduzione ai messaggi transazionali](transactional-messaging/transactional.md)
@@ -293,7 +295,7 @@ ht-degree: 93%
       + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
       + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
    + {hide-from-toc}[Configura campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
