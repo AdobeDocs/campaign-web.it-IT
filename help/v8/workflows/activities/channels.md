@@ -1,18 +1,18 @@
 ---
 audience: end-user
 title: Utilizzare un’attività di consegna nei flussi di lavoro
-description: Scopri come aggiungere un’attività del flusso di lavoro di consegna (e-mail, push, SMS, direct mail)
+description: Scopri come aggiungere un’attività del flusso di lavoro di consegna (e-mail, push, SMS, WhatsApp, direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 50%
+source-wordcount: '974'
+ht-degree: 49%
 
 ---
 
-# Attività di e-mail, SMS, push e direct mail {#channel}
+# Attività di e-mail, SMS, WhatsApp, Push, Direct mail {#channel}
 
-Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su e-mail, SMS, direct mail e canali push. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.
+Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su e-mail, SMS, WhatsApp, direct mail e canali push. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.
 
 Ad esempio, crea una campagna e-mail di benvenuto che includa una serie di messaggi su diversi canali, come e-mail, SMS, push e direct mail. Puoi anche inviare un’e-mail di follow-up dopo che un cliente ha completato un acquisto o inviare un messaggio di compleanno personalizzato a un cliente tramite SMS.
 
@@ -25,6 +25,7 @@ Utilizzando le attività dei canali, crea campagne complete e personalizzate che
 >* [Creare una consegna SMS autonoma](../../sms/create-sms.md)
 >* [Creare una consegna push autonoma](../../push/create-push.md)
 >* [Crea consegna direct mailing autonoma](../../direct-mail/create-direct-mail.md)
+>* [Crea consegna WhatsApp autonoma](../../whatsapp/create-whatsapp.md)
 
 ## Prerequisiti {#channel-activity-prereq}
 
@@ -71,7 +72,7 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 
 Per impostare una consegna nel contesto di un flusso di lavoro, segui i passaggi seguenti:
 
-1. Aggiungi un&#39;attività del canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
+1. Aggiungi un&#39;attività del canale: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL Notifica push (Android)]**, **[!UICONTROL Notifica push (iOS)]** o **[!UICONTROL Direct mail]**.
 
 1. Seleziona il **Tipo di consegna**: singola o ricorrente.
 
