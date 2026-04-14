@@ -295,7 +295,7 @@ ht-degree: 93%
       + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
       + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
    + {hide-from-toc}[Configura campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
+   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
