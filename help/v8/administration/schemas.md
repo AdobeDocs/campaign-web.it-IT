@@ -4,8 +4,8 @@ description: Scopri come utilizzare gli schemi.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 6%
+source-wordcount: '319'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemi"
->abstract="Adobe Campaign utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all’interno dell’applicazione. Da questa schermata è possibile visualizzare tutti gli schemi esistenti, accedere ai dettagli degli schemi, configurare moduli personalizzati e creare o estendere schemi direttamente dall&#39;interfaccia utente Web."
+>abstract="Adobe Campaign utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all’interno dell’applicazione. Da questa schermata puoi visualizzare tutti gli schemi esistenti, accedere ai dettagli degli schemi, configurare moduli personalizzati e creare o estendere schemi direttamente dall’interfaccia web."
 
 **[!DNL Adobe Campaign]** utilizza schemi basati su XML per definire la struttura fisica e logica dei dati all’interno dell’applicazione. Uno schema è un documento XML collegato a una tabella di database che definisce:
 
