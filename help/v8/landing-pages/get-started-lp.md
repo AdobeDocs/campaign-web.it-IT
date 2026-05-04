@@ -5,9 +5,9 @@ description: Scopri le pagine di destinazione in Campaign Web
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -62,10 +62,10 @@ Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 </td>
 <td>
 <a href="lp-use-cases.md">
-<img alt="Casi di utilizzo della pagina di destinazione e modelli incorporati" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Casi d’uso per pagine di destinazione e modelli incorporati" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-use-cases.md"><strong>Casi di utilizzo della pagina di destinazione</strong></a>
+<a href="lp-use-cases.md"><strong>Casi d’uso della pagina di destinazione</strong></a>
 </div>
 <p>
 </td>

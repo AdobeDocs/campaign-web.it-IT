@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 + [Documentazione dell’interfaccia utente di Adobe Campaign Web](campaign-web-home.md)
 + Note sulla versione {#release-notes}
    + [Novità](rn/whats-new.md)
-   + {hide-from-toc}[Versione anticipata](rn/e-release-notes.md)
+   + {hide-from-toc}[Versione preliminare](rn/e-release-notes.md)
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-release-notes}
       + [Versioni 2026](rn/release-notes-26.md)
@@ -28,7 +28,7 @@ ht-degree: 93%
 + Introduzione ad Adobe Campaign {#start}
    + [Introduzione](get-started/get-started.md)
    + [Connessione a Campaign](get-started/connect-to-campaign.md)
-   + {hide-from-toc}[Scopri l&#39;interfaccia](get-started/user-interface.md)
+   + {hide-from-toc}[Scoprire l’interfaccia](get-started/user-interface.md)
    + [Sfogliare e filtrare gli elenchi](get-started/list-filters.md)
    + [Utilizzare filtri preimpostati](get-started/predefined-filters.md)
    + [Utilizzare le cartelle](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 93%
    + [Autorizzazioni](get-started/permissions.md)
    + [Campaign Web e Console client](get-started/capability-matrix.md)
    + [Da Campaign Standard a v8](rn/acs-migration.md)
-   + {hide-from-toc}[Guida contestuale basata su IA](get-started/using-ai.md)
+   + {hide-from-toc}[Guida contestuale basata sull’IA](get-started/using-ai.md)
    + [Domande frequenti](get-started/faq.md)
 + Messaggi e consegne {#msg}
    + [Introduzione ai messaggi](msg/gs-messages.md)
@@ -46,7 +46,7 @@ ht-degree: 93%
    + E-mail {#email}
       + [Creare il primo messaggio e-mail](email/create-email.md)
       + [Configurare il contenuto dell’e-mail](email/edit-content.md)
-      + [Creare esperimenti di contenuto](email/ab-testing.md)
+      + [Creare esperimenti sul contenuto](email/ab-testing.md)
       + Inviare e monitorare l’e-mail {#monitor}
          + [Preparare e inviare un’e-mail](monitor/prepare-send.md)
          + [Inviare in più scaglioni](advanced-settings/send-using-waves.md)
@@ -74,7 +74,7 @@ ht-degree: 93%
       + [Introduzione alle consegne call center](call-center/gs-call-center.md)
       + [Creare e inviare una consegna call center](call-center/create-call-center.md)
    + {hide-from-toc}[Introduzione a WhatsApp](whatsapp/get-started-whatsapp.md)
-   + {hide-from-toc}[Creare una consegna WhatsApp](whatsapp/create-whatsapp.md)
+   + {hide-from-toc}[Creare una consegna con WhatsApp](whatsapp/create-whatsapp.md)
    + [Canali personalizzati](call-center/gs-custom-channel.md)
    + Messaggi transazionali {#transactional-messages}
       + [Introduzione ai messaggi transazionali](transactional-messaging/transactional.md)
@@ -144,7 +144,7 @@ ht-degree: 93%
          + [Creare e gestire i brand personali](content/brands.md)
          + [Personalizzare il brand](content/brands-personalize.md)
          + [Creare e gestire modelli generativi](content/generative-models.md)
-         + [Valuta i contenuti](content/brands-score.md)
+         + [Valutare i contenuti](content/brands-score.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](landing-pages/get-started-lp.md)
    + [Creare e pubblicare una pagina di destinazione](landing-pages/create-lp.md)
@@ -176,7 +176,7 @@ ht-degree: 93%
    + [Introduzione alle campagne](campaigns/gs-campaigns.md)
    + [Accedere alle campagne e gestirle](campaigns/manage-campaigns.md)
    + [Creare la prima campagna](campaigns/create-campaigns.md)
-   + [Impostare e gestire il processo di approvazione](campaigns/campaign-approvals.md)
+   + [Configurare e gestire il processo di approvazione](campaigns/campaign-approvals.md)
    + [Piani e programmi](administration/plans-programs.md)
 + Flussi di lavoro {#wf}
    + [Introduzione ai flussi di lavoro](workflows/gs-workflows.md)
@@ -206,7 +206,7 @@ ht-degree: 93%
       + [Fork](workflows/activities/fork.md)
       + [Query incrementale](workflows/activities/incremental-query.md)
       + [Codice JavaScript](workflows/activities/javascript-code.md)
-      + [Elemento “join”](workflows/activities/join.md)
+      + [Attività Unione](workflows/activities/join.md)
       + [Attività Load file](workflows/activities/load-file.md)
       + [Riconciliazione](workflows/activities/reconciliation.md)
       + [Salvare tipi di pubblico](workflows/activities/save-audience.md)
@@ -289,13 +289,13 @@ ht-degree: 93%
    + Utilizzare gli schemi {#schemas}
       + [Informazioni sugli schemi](administration/schemas.md)
       + [Accedere e configurare gli schemi](administration/schemas-browse-access.md)
-      + [Configura colonne elenco](administration/schemas-list-columns.md)
-      + [Modifica campi personalizzati](administration/schemas-custom-fields.md)
+      + [Configurare le colonne di un elenco](administration/schemas-list-columns.md)
+      + [Modificare i campi personalizzati](administration/schemas-custom-fields.md)
       + [Aggiungere elenchi di raccolte](administration/schemas-collection-lists.md)
       + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
       + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
-   + {hide-from-toc}[Configura campi personalizzati](administration/custom-fields.md)
-   + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+   + {hide-from-toc}[Configurare i campi personalizzati](administration/custom-fields.md)
+   + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
    + [Gestione del fuso orario](administration/timezone-management.md)
    + Account esterni {#external-accounts}
       + [Creare account esterni](administration/create-external-account.md)
