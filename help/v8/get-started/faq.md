@@ -3,15 +3,15 @@ title: Domande frequenti
 description: Domande frequenti sull’interfaccia utente di Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
-workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
 # Domande frequenti
 
-Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}.
+Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
 
 +++ Con quale versione di Adobe Campaign è possibile accedere alla nuova interfaccia utente web?
 
@@ -59,13 +59,13 @@ Per accedere alla nuova interfaccia utente, è necessario utilizzare Adobe Campa
 
 +++ Questo significa che ci sarà la fine del supporto per Adobe Campaign Classic v7?
 
-Visita la pagina [Prodotti e periodi di supporto tecnico](https://helpx.adobe.com/it/support/programs/eol-matrix.html){target="_blank"} per le date di fine del supporto di Adobe Campaign Classic v7.
+Visita la pagina [Prodotti e periodi di supporto tecnico](https://helpx.adobe.com/it/support/programs/eol-matrix.html){target="_blank"} per conoscere le date di fine supporto di Adobe Campaign Classic v7.
 
 +++
 
-+++ Attualmente utilizzo Adobe Campaign Standard, qual è il percorso per accedere alla nuova interfaccia utente?
++++ Attualmente utilizzo Adobe Campaign Standard, come posso accedere alla nuova interfaccia utente?
 
-Per accedere alla nuova interfaccia utente, è necessario utilizzare Adobe Campaign v8.6. Il primo passaggio consiste nell’ottenere la licenza per una delle seguenti SKU di Managed Cloud Services: Advanced o Enterprise. Rivolgiti al tuo contatto Adobe principale. Se utilizzi già Managed Cloud Services Advanced o Enterprise, contatta il tuo Transition Manager per pianificare la transizione alla versione v8. Per ulteriori informazioni, consulta la specifica [Guida all’adozione](../../adoption/home.md).
+Per accedere alla nuova interfaccia utente, è necessario utilizzare Adobe Campaign v8.6. Per prima cosa, assicurati di avere una licenza per Managed Cloud Services Advanced o Enterprise. Rivolgiti al tuo contatto Adobe principale. Se utilizzi già Managed Cloud Services Advanced o Enterprise, contatta il tuo Transition Manager per pianificare la transizione alla versione v8. Per ulteriori informazioni, consulta la specifica [Guida all’adozione](../../adoption/home.md).
 
 +++
 

@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Introduzione ai messaggi e alle consegne in Adobe Campaign Web
-description: Scopri come utilizzare le consegne e inviare messaggi con l’interfaccia utente web di Adobe Campaign
+description: Scopri come utilizzare le consegne e inviare messaggi con l’interfaccia utente di Adobe Campaign Web
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
 
 # Introduzione ai messaggi{#gs-messages}
 
-Con Adobe Campaign, puoi inviare campagne cross-channel, tra cui e-mail, SMS, notifiche push, [WhatsApp](../whatsapp/get-started-whatsapp.md) e direct mail, e misurarne l’impatto utilizzando vari rapporti dedicati.
+Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push, [WhatsApp](../whatsapp/get-started-whatsapp.md) e direct mail e misurarne l’impatto utilizzando diversi rapporti dedicati.
 
 Questi messaggi sono progettati e inviati tramite consegne e possono essere personalizzati per ogni destinatario. Tali consegne possono essere indipendenti o incluse in flussi di lavoro nel contesto di una campagna di marketing. Per scoprire come creare e gestire le consegne in Adobe Campaign, consulta [questa sezione](gs-deliveries.md).
 
