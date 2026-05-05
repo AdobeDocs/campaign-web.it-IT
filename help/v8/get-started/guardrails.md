@@ -2,9 +2,9 @@
 title: Guardrail e limitazioni nei flussi di lavoro dell’interfaccia utente di Campaign Web
 description: Guardrail e limitazioni nell’utilizzo dei flussi di lavoro nell’interfaccia utente web di Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 21c2b9735c465f582516b9b4c07126a4ba620583
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,14 @@ Le attività dei flussi di lavoro non ancora supportate nell’interfaccia utent
 | --- | --- |
 | ![Schermata che mostra le limitazioni delle attività nella console](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Schermata che mostra le limitazioni delle attività nell’interfaccia web](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
-Quando un’attività di **Query** o **Arricchimento** è configurata con dati aggiuntivi nella console; i dati di arricchimento vengono presi in considerazione in Campaign Web e trasmessi nella transizione in uscita, ma non possono essere modificati.
+<!--
+When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited.
 
 | Console | Web |
 | --- | --- |
-| ![Schermata che mostra le limitazioni delle opzioni nella console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Schermata che mostra le limitazioni delle opzioni nell’interfaccia web](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![Screenshot showing limitations of options in the console](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![Screenshot showing limitations of options in the web interface](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+
+-->
 
 Nella console, l’attività **Arricchimento** può eseguire sia la riconciliazione che l’arricchimento. Se hai definito le impostazioni di riconciliazione nell’attività **Arricchimento** nella console client, questa verrà visualizzata come attività **Riconciliazione** nell’interfaccia utente di Campaign Web.
 
