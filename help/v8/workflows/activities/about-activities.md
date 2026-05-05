@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 22%
+source-wordcount: '629'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 Queste attività sono specifiche per il targeting. Consentono di creare uno o più tipi di pubblico di destinazione definendo un pubblico e suddividendo o combinando tali tipi di pubblico tramite operazioni di intersezione, unione o esclusione.
 
-* [Genera pubblico](build-audience.md): definisci la popolazione target. Seleziona un pubblico esistente o utilizza il modellatore di query per definire una query personalizzata.
+* [Genera pubblico](build-audience.md): definisci la popolazione target. Seleziona un pubblico esistente o utilizza il modellatore di query per definire una query personalizzata. Puoi anche configurare **Dati di arricchimento** (disponibili per le query).
 * [Modifica origine dati](change-data-source.md): modifica l&#39;origine dati per la tabella di lavoro del flusso di lavoro.
 * [Modifica dimensione](change-dimension.md): modifica la dimensione di targeting durante la creazione del flusso di lavoro.
 * [Combina](combine.md): esegui la segmentazione del gruppo in entrata. Utilizza un’unione, un’intersezione o un’esclusione.
@@ -46,7 +46,7 @@ Queste attività sono specifiche per la manipolazione e l’arricchimento dei da
 * [Trasferisci file](transfer-file.md): riceve o invia file, verifica la presenza di file o elenca file su un server. Il protocollo utilizzato può essere un protocollo da server a server o HTTP.
 * [Codice JavaScript](javascript-code.md): esegui uno snippet di codice JavaScript nel contesto di un flusso di lavoro.
 * [Servizi di abbonamento](subscription-services.md): consente di abbonare o annullare l&#39;abbonamento di più profili a o da un servizio in un&#39;unica azione.
-* [Aggiorna dati](update-data.md): esegui aggiornamenti di massa sui campi del database. Diverse opzioni consentono di personalizzare l’aggiornamento dei dati.
+* [Aggiorna dati](update-data.md): esegui aggiornamenti di massa sui campi del database. Esistono varie opzioni per personalizzare l’aggiornamento dei dati.
 
 ## Attività di canale {#channel}
 

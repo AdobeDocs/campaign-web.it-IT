@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Arricchimento nei flussi di lavoro
 description: Scopri come utilizzare l’attività Arricchimento nei flussi di lavoro
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 35%
+source-wordcount: '2065'
+ht-degree: 34%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 35%
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione."
 
 L’attività **Arricchimento** è un’attività di **targeting**. Migliora i dati di destinazione con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in un flusso di lavoro dopo le attività di segmentazione.
+
+>[!NOTE]
+>
+>L&#39;attività **Genera pubblico** consente inoltre di aggiungere **dati aggiuntivi**. Vedi [Utilizzare l&#39;attività Genera pubblico](build-audience.md#build-audience-configuration).
 
 I dati di arricchimento possono provenire da:
 

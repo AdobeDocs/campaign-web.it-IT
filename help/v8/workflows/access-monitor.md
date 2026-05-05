@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: a84d816e87bcbe05837c502b7e3c4e8d898752fe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 46%
+source-wordcount: '363'
+ht-degree: 37%
 
 ---
 
@@ -40,8 +40,7 @@ I flussi di lavoro possono avere più stati:
 * **[!UICONTROL Bozza]**: il flusso di lavoro è stato creato e salvato.
 * **[!UICONTROL In corso]**: il flusso di lavoro è attualmente in esecuzione.
 * **[!UICONTROL Completato]**: l’esecuzione del flusso di lavoro è stata completata.
-* **[!UICONTROL In pausa]**: il flusso di lavoro è stato messo in pausa.
-* **[!UICONTROL Errato]**: il flusso di lavoro ha riscontrato un errore. Apri il flusso di lavoro e accedi ai registri e alle attività per identificare l’errore e risolverlo. [Scopri come monitorare i registri e le attività](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Sospeso]**: il flusso di lavoro è stato sospeso, manualmente o automaticamente, dopo aver rilevato un errore. Se il flusso di lavoro è stato sospeso a causa di un errore, aprilo e accedi ai registri e alle attività per identificare il problema e risolverlo. [Scopri come monitorare i registri e le attività](start-monitor-workflows.md#logs-tasks)
 
 Informazioni dettagliate su come avviare e monitorare l&#39;esecuzione di un flusso di lavoro sono disponibili in [questa pagina](start-monitor-workflows.md).
 
