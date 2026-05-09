@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulla campagna per il canale push
 description: Comprendere i rapporti sulla campagna per il canale push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 58%
+source-wordcount: '545'
+ht-degree: 59%
 
 ---
 

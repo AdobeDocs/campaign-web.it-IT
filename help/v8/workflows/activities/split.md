@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Dividi
 description: Scopri come utilizzare l’attività del flusso di lavoro Dividi
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 69%
+source-wordcount: '1076'
+ht-degree: 72%
 
 ---
 
@@ -104,7 +104,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
 1. L&#39;opzione **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
 
-   * Quando questa casella non è spuntata, l’attività Suddividi assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
+   * Quando questa casella non è spuntata, l’attività Suddividi assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti.
    * Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Adobe Campaign consiglia di usare criteri esclusivi.
 
 L’attività adesso è configurata. Durante l’esecuzione del flusso di lavoro, il gruppo segmenta i diversi sottoinsiemi nell’ordine in cui sono stati aggiunti all’attività.

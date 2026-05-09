@@ -2,10 +2,10 @@
 title: Dimensioni di targeting e filtro
 description: Ulteriori informazioni sulle dimensioni di targeting e filtro nell’interfaccia utente web di Adobe Campaign
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 17%
+source-wordcount: '587'
+ht-degree: 16%
 
 ---
 
@@ -46,7 +46,7 @@ Inoltre, crea nuove mappature di destinazione in base a esigenze specifiche. Ese
 
 ## Filtrare le dimensioni {#filtering}
 
-La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. La dimensione di filtro consente di applicare filtri a questa popolazione facendo riferimento a dati correlati senza modificare la dimensione di targeting principale. Ad esempio, puoi selezionare la popolazione in base a criteri specifici, come i titolari di contratto o gli abbonati alle newsletter.
+La dimensione di targeting ti consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. La dimensione di filtro consente di applicare filtri a questa popolazione facendo riferimento a dati correlati senza modificare la dimensione di targeting principale. Ad esempio, puoi selezionare la popolazione in base a criteri specifici, come i titolari di contratto o gli abbonati alle newsletter.
 
 Le dimensioni filtro sono disponibili solo nell&#39;attività **Genera pubblico**.
 

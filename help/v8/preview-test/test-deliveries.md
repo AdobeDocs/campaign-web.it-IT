@@ -3,10 +3,10 @@ audience: end-user
 title: Inviare bozze
 description: Scopri come definire e inviare bozze
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 42%
+source-wordcount: '1215'
+ht-degree: 43%
 
 ---
 

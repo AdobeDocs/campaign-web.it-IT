@@ -3,10 +3,10 @@ audience: end-user
 title: Avvisi di consegna
 description: Scopri come utilizzare gli avvisi sulla consegna.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1130'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >title="Dashboard di avvisi di consegna"
 >abstract="Avvisi di consegna è un sistema di gestione degli avvisi che consente ai gruppi di utenti di ricevere automaticamente le notifiche e-mail con le informazioni sulle esecuzioni della propria consegna. Le dashboard di avvisi di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per l’invio e accedere alla cronologia di tutte le notifiche inviate."
 
-Le dashboard di avviso di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per inviare tali avvisi e accedere alla cronologia di tutte le notifiche inviate. Sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Dashboard**.
+Le dashboard di avvisi di consegna ti consentono di specificare chi riceverà gli avvisi e-mail, scegliere e configurare i criteri di avviso da utilizzare per l’invio e accedere alla cronologia di tutte le notifiche inviate. Sono accessibili dal menu **Avvisi di consegna** nel riquadro di navigazione a sinistra, nella scheda **Dashboard**.
 
 ![Schermata che mostra l&#39;elenco delle dashboard di avviso nel menu Avvisi consegna.](assets/alerting-dashboard-list.png)
 

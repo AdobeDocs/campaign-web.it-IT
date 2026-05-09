@@ -3,10 +3,10 @@ audience: end-user
 title: Informazioni su anteprima e test delle consegne
 description: Scopri come visualizzare in anteprima e testare le consegne
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 44%
+source-wordcount: '229'
+ht-degree: 49%
 
 ---
 

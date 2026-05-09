@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le regole di business (tipologie)
 description: Scopri come utilizzare le tipologie e le regole di tipologia per controllare, filtrare e monitorare l’invio delle consegne.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 25%
+source-wordcount: '1500'
+ht-degree: 24%
 
 ---
 

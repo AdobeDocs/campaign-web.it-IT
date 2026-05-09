@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 62%
+ht-degree: 66%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 62%
 >title="Attività Combina"
 >abstract="L’attività **Combina** consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne una parte o mantenere solo i dati comuni a più target."
 
-L’attività **Combina** è un’attività di **targeting**. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni. Di seguito sono riportati i tipi di segmentazione disponibili:
+L’attività **Combina** è un’attività di **targeting**. Questa attività consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne una parte o mantenere solo i dati comuni a più target. Di seguito sono riportati i tipi di segmentazione disponibili:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* **Union** raggruppa il risultato di più attività in un&#39;unica destinazione.
-* L&#39;**intersezione** mantiene solo gli elementi comuni alle diverse popolazioni in entrata nell&#39;attività.
+* L’**unione** ti consente di raggruppare il risultato di più attività in un’unica destinazione.
+* L’**intersezione** mantiene solo gli elementi comuni alle diverse popolazioni in entrata nell’attività.
 * L’**esclusione** esclude elementi da una popolazione in base a determinati criteri.
 
 ## Configurare l’attività Combina {#combine-configuration}
@@ -66,7 +66,7 @@ Nell&#39;attività **Combina**, configura un **Unione** selezionando il **Tipo d
 * **Solo chiavi**: modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
 * **Selezione di colonne**: selezionare questa opzione per definire l&#39;elenco di colonne alle quali viene applicata la riconciliazione dei dati. Selezionare innanzitutto il set principale (i dati di origine), quindi le colonne da utilizzare per il join.
 
-## Intersezione  {#combine-intersection}
+## Intersezione {#combine-intersection}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"

@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Subscription services
 description: Scopri come utilizzare l’attività del flusso di lavoro Subscription services
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
@@ -68,7 +68,7 @@ Segui questi passaggi per configurare l&#39;attività **Subscription services**:
 
 1. Se utilizzi dati da una transizione in entrata, viene visualizzata una sezione **[!UICONTROL Ulteriori informazioni]** che ti consente di specificare i dati e l&#39;origine della sottoscrizione per ogni record. Puoi lasciare vuota questa sezione, nel qual caso non verrà impostata alcuna data o origine durante l’esecuzione del flusso di lavoro.
 
-   * Se i dati in entrata contengono una colonna che indica la data di abbonamento del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**.
+   * Se i dati in entrata contengono una colonna che indica la data di iscrizione del profilo al servizio, puoi selezionarla nel campo **[!UICONTROL Data]**.
 
    * Nel campo **[!UICONTROL Percorso origine]**, definisci l’origine dell’iscrizione. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l’opzione **[!UICONTROL Imposta una costante come origine]**.
 

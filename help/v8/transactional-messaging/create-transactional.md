@@ -3,9 +3,9 @@ audience: end-user
 title: Creare messaggi transazionali
 description: Scopri come creare un messaggio transazionale nell’interfaccia utente di Campaign Web
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 18%
 
 ---
@@ -171,7 +171,7 @@ Per creare un messaggio sulle transazioni, effettua le seguenti operazioni:
   Inserisci la configurazione del messaggio come modello:
    * [Proprietà messaggio transazionale](#transactional-properties)
    * [Esempio di contesto](#context-sample)
-   * [Contenuto messaggio](#transactional-content)
+   * [Contenuto del messaggio](#transactional-content)
 e [configurare il tipo di evento](#event-type) come descritto di seguito.
 
 * Dopo [aver convalidato il messaggio transazionale](validate-transactional.md), fai clic sul pulsante **[!UICONTROL Rivedi e pubblica]** per creare e pubblicare il messaggio. Ora i trigger possono inviare in push il messaggio transazionale.

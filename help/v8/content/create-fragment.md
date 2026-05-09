@@ -3,10 +3,10 @@ audience: end-user
 title: Creare frammenti di contenuto
 description: Scopri come creare frammenti di contenuto
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 21%
+source-wordcount: '1038'
+ht-degree: 23%
 
 ---
 

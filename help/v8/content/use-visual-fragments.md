@@ -4,10 +4,10 @@ title: Aggiungere frammenti visivi alle e-mail
 description: Scopri come aggiungere frammenti visivi alle e-mail
 badge: label="Disponibilità limitata"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 13%
+source-wordcount: '623'
+ht-degree: 14%
 
 ---
 

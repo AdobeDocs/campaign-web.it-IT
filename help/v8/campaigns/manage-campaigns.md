@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione alle campagne
 description: Scopri come iniziare a utilizzare le campagne cross-channel
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 33%
+source-wordcount: '1002'
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Per accedere alle campagne e gestirle, fai clic sul menu **[!UICONTROL Campagne]
 
 ## Inventario campagne {#inventory}
 
-La scheda **[!UICONTROL Sfoglia]** fornisce informazioni sullo stato corrente delle campagne, sulle date di inizio e fine, sulla data di creazione, sull&#39;ultima modifica, ecc. Puoi personalizzare le colonne visualizzate facendo clic sull’icona **Configura le colonne per un layout personalizzato**, nell’angolo superiore a destra dell’elenco. Ciò ti consente di aggiungere o rimuovere colonne e riordinare le informazioni nell’elenco delle campagne.
+La scheda **[!UICONTROL Sfoglia]** fornisce informazioni sullo stato corrente delle campagne, sulle date di inizio e fine, sulla data di creazione, sull&#39;ultima modifica, ecc. Puoi personalizzare le colonne visualizzate facendo clic sulla colonna **Configura per un layout personalizzato** nell&#39;angolo superiore destro dell&#39;elenco. Ciò ti consente di aggiungere o rimuovere colonne e riordinare le informazioni nell’elenco delle campagne.
 
 ### Cerca e filtra l’inventario {#search-and-filter}
 
@@ -35,7 +35,7 @@ Sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all
 
 ![Descrizione: il pannello dei filtri con le opzioni per filtrare le campagne in base alle date di inizio e di fine](assets/campaign-filter-on-dates.png)
 
-### Vista Timeline {#timeline}
+### Vista timeline {#timeline}
 
 Per impostazione predefinita, la schermata della campagna mostra la **Vista a elenco** (inventario). Puoi passare alla **visualizzazione Timeline** in qualsiasi momento utilizzando l&#39;interruttore di visualizzazione. Entrambe le viste mostrano le stesse campagne e condividono gli stessi filtri e le stesse ricerche. Quando modifichi i filtri o esegui una ricerca in una vista, l’altra mostra la stessa selezione.
 

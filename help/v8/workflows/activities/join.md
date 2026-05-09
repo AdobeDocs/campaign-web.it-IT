@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Unisci flusso di lavoro
 description: Scopri come utilizzare l’attività del flusso di lavoro Partecipa
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 20%
+source-wordcount: '489'
+ht-degree: 23%
 
 ---
 

@@ -4,10 +4,10 @@ title: Invio graduale
 description: Ulteriori informazioni sulle impostazioni di consegna in Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 14%
+source-wordcount: '815'
+ht-degree: 15%
 
 ---
 

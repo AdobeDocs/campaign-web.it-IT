@@ -3,10 +3,10 @@ title: Campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 28%
 
 ---
 
@@ -115,7 +115,7 @@ Per configurare impostazioni specifiche per ciascun campo personalizzato, fare c
 Le impostazioni disponibili sono:
 
 * **[!UICONTROL Attributo]**: nome del campo personalizzato.
-* **[!UICONTROL Etichetta (personalizzata)]**: l&#39;etichetta da visualizzare nell&#39;interfaccia. Se non viene fornita alcuna etichetta, verrà visualizzata l’etichetta definita nello schema.
+* **[!UICONTROL Etichetta (personalizzata)]**: l&#39;etichetta da visualizzare nell&#39;interfaccia. Se non viene specificata un’etichetta, verrà visualizzata quella definita nello schema.
 * **[!UICONTROL Visibile se]**: definire una condizione utilizzando un&#39;espressione xtk che controlla quando viene visualizzato il campo. Nascondere ad esempio questo campo se un altro campo è vuoto.
 * **[!UICONTROL Obbligatorio]**: rendi obbligatorio il campo nell&#39;interfaccia.
 * **[!UICONTROL Sola lettura]**: rendere il campo di sola lettura nell&#39;interfaccia. Gli utenti non potranno modificare il valore del campo.
