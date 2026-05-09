@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e-mail in E-mail Designer
 description: Scopri come creare contenuti e-mail da zero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 57%
 
 ---
@@ -90,7 +90,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi indicati di se
 
    Fai clic sulla scheda **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare tutti gli URL del contenuto che saranno tracciati. Modifica il **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungi **[!UICONTROL Categorie]** se necessario.
 
-[Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
+   [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
 
    ![Schermata che mostra la scheda dei collegamenti in E-mail Designer.](assets/email_designer-links.png){zoomable="yes"}
 
@@ -112,4 +112,4 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi indicati di se
 
 Scopri come navigare in E-mail Designer. Scopri come strutturare e progettare un’e-mail da zero, personalizzarla e testarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453573/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

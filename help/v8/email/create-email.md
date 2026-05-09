@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare la prima e-mail
 description: Scopri come inviare la prima e-mail con l’interfaccia utente web di Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1695'
 ht-degree: 56%
 
 ---
@@ -133,7 +133,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti. In q
 
 ## Pianificare l’invio {#schedule}
 
-Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
+Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
 
 1. Passa alla sezione **[!UICONTROL Pianificazione]** delle proprietà di consegna.
 
@@ -254,4 +254,4 @@ Dopo aver rivisto e testato l’e-mail, puoi avviarne la preparazione e inviarla
 
 Scopri come creare una consegna e-mail da zero, definire il pubblico, progettare il contenuto, simulare l’anteprima e inviare una bozza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454013/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

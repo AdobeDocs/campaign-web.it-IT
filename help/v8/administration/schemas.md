@@ -2,10 +2,10 @@
 title: Informazioni sugli schemi
 description: Scopri come utilizzare gli schemi.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 24%
+ht-degree: 32%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Authoring dello schema"
->abstract="Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. È possibile creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati."
+>abstract="Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. Puoi creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]

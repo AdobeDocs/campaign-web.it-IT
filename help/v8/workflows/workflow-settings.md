@@ -3,9 +3,9 @@ audience: end-user
 title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1087'
 ht-degree: 48%
 
 ---
@@ -106,4 +106,4 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 >title="Script di inizializzazione"
 >abstract="Questa sezione consente di definire il codice JavaScript che viene eseguito all’inizio del flusso di lavoro. Può essere utilizzato per inizializzare variabili, impostare parametri o preparare dati prima dell’esecuzione di qualsiasi attività del flusso di lavoro."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).

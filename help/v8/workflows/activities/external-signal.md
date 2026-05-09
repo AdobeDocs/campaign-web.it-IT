@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività External signal
 description: Scopri come utilizzare l’attività del flusso di lavoro External signal
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 8%
 
 ---
@@ -33,7 +33,7 @@ L&#39;attività **External signal** è un&#39;attività **Flow control**. Ti con
 
 >[!NOTE]
 >
->In questa pagina vengono illustrati i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro, sulle best practice e su come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>In questa pagina vengono illustrati i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro, sulle best practice e su come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Segui questi passaggi per configurare l&#39;attività **External signal** e attivarne l&#39;esecuzione:
 
@@ -45,7 +45,7 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
 1. Recupera le seguenti informazioni:
 
-   * Il nome interno del flusso di lavoro **&#x200B;**, visualizzato accanto alla relativa etichetta.
+   * Il nome interno del flusso di lavoro ****, visualizzato accanto alla relativa etichetta.
 
      +++Visualizza esempio
 
@@ -81,4 +81,4 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
    +++
 
-   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it).
+   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).

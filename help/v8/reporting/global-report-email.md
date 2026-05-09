@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti globali per il canale e-mail
 description: Ulteriori informazioni sui rapporti globali per il canale e-mail
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 59%
+source-wordcount: '1689'
+ht-degree: 61%
 
 ---
 
@@ -187,7 +187,7 @@ Le metriche **[!UICONTROL Statistiche di consegna]** offrono indicatori prestazi
 
 * **[!UICONTROL Aperture totali]**: numero di destinatari target distinti per questo dominio che hanno aperto un messaggio almeno una volta.
 
-* **[!UICONTROL Clic sul collegamento di rinuncia]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
+* **[!UICONTROL Clic sul collegamento di rinuncia]**: numero di clic sul collegamento di annullamento dell’iscrizione.
 
 * **[!UICONTROL Clic sul collegamento mirror]**: numero di clic sul collegamento alla pagina mirror.
 

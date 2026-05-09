@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 67%
+source-wordcount: '1109'
+ht-degree: 66%
 
 ---
 
@@ -184,7 +184,7 @@ Puoi testare come verrà riprodotto qualsiasi modello di consegna, che sia stato
 
 1. Passa da un profilo all’altro per ottenere una rappresentazione personalizzata del messaggio in base al profilo selezionato. Puoi anche regolare il livello di zoom e scegliere la visualizzazione su desktop o dispositivo mobile.
 
-[Ulteriori informazioni sull’anteprima dei contenuti](../preview-test/preview-content.md)
+   [Ulteriori informazioni sull’anteprima dei contenuti](../preview-test/preview-content.md)
 
    ![Anteprima contenuto simulato](assets/templates-stimulate.png){zoomable="yes"}
 

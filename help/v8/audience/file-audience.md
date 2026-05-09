@@ -3,10 +3,10 @@ audience: end-user
 title: Caricare un pubblico per consegne e-mail da un file
 description: Scopri come caricare i profili da un file esterno per creare il pubblico delle e-mail
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 36%
+source-wordcount: '694'
+ht-degree: 37%
 
 ---
 
@@ -77,7 +77,7 @@ Durante la creazione del contenuto del messaggio, aggiungi la personalizzazione 
 
 Quando carichi un file esterno per eseguire il targeting dei profili nelle consegne, assicurati che il file di input corrisponda ai consigli seguenti:
 
-* I formati supportati sono TXT e CSV.
+* Sono supportati i formati TXT e CSV.
 * La prima riga del file è l’intestazione della colonna.
 * Allinea il formato del file con il file di esempio di seguito:
 

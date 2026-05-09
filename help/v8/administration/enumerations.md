@@ -2,10 +2,10 @@
 title: Gestire le enumerazioni
 description: Scopri come utilizzare le enumerazioni
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 23%
+source-wordcount: '646'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,7 @@ Per creare un’enumerazione, effettua le seguenti operazioni:
 1. Selezionare l&#39;enumerazione **[!UICONTROL Type]**:
 
    * Le enumerazioni **[!UICONTROL Closed]** hanno un elenco fisso di valori, che può essere modificato solo dal menu **[!UICONTROL Enumerations]**.
-   * Le enumerazioni **[!UICONTROL Open]** consentono agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione.
+   * Le enumerazioni **[!UICONTROL aperte]** consentono agli utenti di aggiungere nuovi valori direttamente nei campi, in base all’enumerazione corrente.
    * Le enumerazioni **[!UICONTROL System]** sono associate ai campi di sistema.
    * Le enumerazioni di **[!UICONTROL emoticon]** vengono utilizzate per aggiornare l’elenco delle emoticon.
 

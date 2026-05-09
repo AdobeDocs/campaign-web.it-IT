@@ -3,10 +3,10 @@ audience: end-user
 title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail con l’interfaccia utente web di Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 55%
+source-wordcount: '998'
+ht-degree: 56%
 
 ---
 
@@ -18,7 +18,7 @@ Quando definisci il tuo [contenuto](../email/edit-content.md), [pubblico](../aud
 
 Durante la preparazione della consegna, viene calcolata la popolazione target e viene generato il contenuto del messaggio per ogni profilo incluso nel target. Al termine della preparazione, i messaggi sono pronti per essere inviati immediatamente o alla data e all’ora pianificate.
 
-Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=it){target="_blank"}.
+Le regole di convalida utilizzate durante la preparazione della consegna sono descritte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 I passaggi principali per preparare l’invio sono elencati di seguito.
 
@@ -51,7 +51,7 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    * **[!UICONTROL Destinati]**: il numero di destinatari interessati.
    * **[!UICONTROL Da consegnare]**: numero di messaggi che verranno inviati.
-   * **[!UICONTROL Da escludere]**&#x200B;[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Da escludere]**[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
 
 1. Fai clic sul pulsante **[!UICONTROL Registri]** e verifica che non siano presenti errori. L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. [Ulteriori informazioni](delivery-logs.md)
 

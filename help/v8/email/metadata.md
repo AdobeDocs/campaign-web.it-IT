@@ -3,7 +3,7 @@ audience: end-user
 title: Aggiungere metadati al contenuto dell’e-mail
 description: Scopri come migliorare la leggibilità e l’accessibilità dei contenuti e-mail con i metadati
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 26%

@@ -3,10 +3,10 @@ audience: end-user
 title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 24%
+source-wordcount: '1326'
+ht-degree: 25%
 
 ---
 
@@ -103,7 +103,7 @@ Per spostare un’attività:
 
 ## Execution options {#execution}
 
-Tutte le attività ti consentono di gestire le relative opzioni di esecuzione. Selezionare un&#39;attività e fare clic sul pulsante **Opzioni di esecuzione**. Questo ti consente di definire la modalità di esecuzione dell’attività e il comportamento in caso di errori.
+Tutte le attività ti consentono di gestire le relative opzioni di esecuzione. Selezionare un&#39;attività e fare clic sul pulsante **Opzioni di esecuzione**. Questo consente di definire la modalità di esecuzione dell’attività e il comportamento in caso di errori.
 
 ![Pannello delle opzioni di esecuzione](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
@@ -140,7 +140,7 @@ Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire 
 >title="Script di inizializzazione"
 >abstract="Questa sezione ti consente di aggiungere JavaScript che viene eseguito all’avvio dell’attività. Utilizzala per inizializzare le variabili, impostare parametri o preparare dati specifici per l’esecuzione di tale attività."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 
 ## Esempio {#example}
 

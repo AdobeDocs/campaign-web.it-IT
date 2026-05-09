@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorare i messaggi transazionali
 description: Scopri come monitorare un messaggio transazionale nell’interfaccia utente di Campaign Web
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ Cerca il messaggio e fai clic su di esso per visualizzarne i dettagli.
 >title="Anteprima cronologia eventi della messaggistica transazionale"
 >abstract="Puoi visualizzare gli eventi che attivano il messaggio transazionale."
 
-Puoi visualizzare gli eventi che attivano il messaggio sulle transazioni. Per accedervi, vai alla sezione **[!UICONTROL Cronologia eventi]**.
+Puoi visualizzare gli eventi che attivano il messaggio transazionale. Per accedervi, vai alla sezione **[!UICONTROL Cronologia eventi]**.
 
 Gli eventi vengono visualizzati con il relativo nome del tipo di evento.
 

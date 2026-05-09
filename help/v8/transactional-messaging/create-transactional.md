@@ -3,9 +3,9 @@ audience: end-user
 title: Creare messaggi transazionali
 description: Scopri come creare un messaggio transazionale nell’interfaccia utente di Campaign Web
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 18%
 
 ---
@@ -16,7 +16,7 @@ Nella messaggistica transazionale, un evento attiva l’invio di un messaggio pe
 
 ## Creare un modello di messaggio transazionale {#transactional-template}
 
-Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional).
+Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Puoi utilizzare un modello di messaggio transazionale per visualizzare in anteprima il contenuto della consegna ricevuto dal profilo prima che raggiunga il pubblico finale. Ad esempio, un amministratore può impostare e configurare i modelli, rendendoli pronti per l’uso da parte degli utenti di marketing.
 
@@ -171,7 +171,7 @@ Per creare un messaggio sulle transazioni, effettua le seguenti operazioni:
   Inserisci la configurazione del messaggio come modello:
    * [Proprietà messaggio transazionale](#transactional-properties)
    * [Esempio di contesto](#context-sample)
-   * [Contenuto messaggio](#transactional-content)
+   * [Contenuto del messaggio](#transactional-content)
 e [configurare il tipo di evento](#event-type) come descritto di seguito.
 
 * Dopo [aver convalidato il messaggio transazionale](validate-transactional.md), fai clic sul pulsante **[!UICONTROL Rivedi e pubblica]** per creare e pubblicare il messaggio. Ora i trigger possono inviare in push il messaggio transazionale.

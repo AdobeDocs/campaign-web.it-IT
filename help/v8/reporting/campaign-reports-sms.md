@@ -3,10 +3,10 @@ audience: end-user
 title: Rapporti sulle campagne per il canale SMS
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 65%
 
 ---
 

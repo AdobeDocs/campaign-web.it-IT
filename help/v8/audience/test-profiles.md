@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '645'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ I profili di test vengono utilizzati per inviare bozze e convalidare il contenut
 
 ➡️ [Guarda un video su questa funzione](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=it){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 I passaggi per inviare bozze ai profili di test sono descritti in [questa sezione](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ Il profilo di test appena creato è ora pronto per essere utilizzato per inviare
 
 Scopri come creare e gestire i profili di test utilizzando l’interfaccia utente web di Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442903?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

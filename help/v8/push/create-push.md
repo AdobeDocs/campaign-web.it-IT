@@ -3,10 +3,10 @@ audience: end-user
 title: Creare una consegna di notifica push
 description: Scopri come creare una consegna di notifiche push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 64%
+source-wordcount: '779'
+ht-degree: 65%
 
 ---
 
@@ -87,7 +87,7 @@ Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/p
 
 ## Pianificare l’invio della consegna {#schedule-push}
 
-Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Ulteriori informazioni in [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
+Quando una consegna viene inviata nel contesto di un flusso di lavoro, è necessario utilizzare l&#39;attività **Scheduler**. Per ulteriori informazioni, consulta [questa pagina](../workflows/activities/scheduler.md). I passaggi seguenti si applicano solo alle consegne autonome.
 
 Per pianificare una consegna push indipendente a una data e un’ora specifiche, effettua le seguenti operazioni:
 

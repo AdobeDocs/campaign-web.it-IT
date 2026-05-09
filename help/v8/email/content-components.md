@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare i componenti per contenuti di E-mail Designer
 description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 47%
+source-wordcount: '1402'
+ht-degree: 48%
 
 ---
 

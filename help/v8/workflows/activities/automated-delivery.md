@@ -3,10 +3,10 @@ audience: end-user
 title: Attività del flusso di lavoro di consegna automatizzata
 description: Scopri come utilizzare l’attività del flusso di lavoro di consegna automatizzata
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 2%
+source-wordcount: '643'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Attività di consegna automatizzata"
->abstract="L’attività del flusso di lavoro Consegna automatica è ora disponibile nella palette dei flussi di lavoro. Puoi utilizzarlo per creare o eseguire azioni di consegna (preparare, inviare una bozza, preparare e avviare, ecc.) direttamente all’interno del flusso di lavoro."
+>abstract="L’attività del flusso di lavoro Consegna automatica è ora disponibile nella palette dei flussi di lavoro. Puoi utilizzarla per creare o eseguire azioni di consegna (preparare, inviare una bozza, preparare e avviare, ecc.) direttamente all’interno del flusso di lavoro."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
@@ -52,7 +52,7 @@ Quando configuri l’attività, scegli da dove proviene la consegna. In questa s
 
 >[!NOTE]
 >
->Le opzioni **Specificato nella transizione** e **Calcolato dallo script**, utilizzate per casi d&#39;uso avanzati, possono essere configurate solo nella console client. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>Le opzioni **Specificato nella transizione** e **Calcolato dallo script**, utilizzate per casi d&#39;uso avanzati, possono essere configurate solo nella console client. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Seleziona l’azione da eseguire {#action-to-execute}
 

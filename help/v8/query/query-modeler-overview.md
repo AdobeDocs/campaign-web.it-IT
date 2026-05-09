@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come funziona il query modeler di Adobe Campaign Web.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 21%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Query modeler"
->abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altra dimensione targeting dal database. Approfitta del pubblico di Adobe Experience Platform per migliorare ulteriormente il pubblico target e massimizzare l’impatto della campagna."
+>abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting, dal database. Sfrutta il pubblico di Adobe Experience Platform per definire ulteriormente il pubblico target e massimizzare l’impatto della campagna."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"

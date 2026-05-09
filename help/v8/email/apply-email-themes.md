@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazione e-mail, CSS personalizzato, ottimizzazione mobile
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 2%
+source-wordcount: '2077'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Temi nel Designer e-mail (LA)"
+>title="Temi in E-mail designer (LA)"
 >abstract="Applica stili di tema e variabili riutilizzabili per mantenere il contenuto delle e-mail coerente con il tuo marchio. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
@@ -261,7 +261,7 @@ Per creare un frammento compatibile con i temi, effettua le seguenti operazioni.
 
 1. Immetti un nome per il tema.
 
-1. Effettuate le regolazioni necessarie, esattamente come fate quando create un tema da zero, ad esempio aggiungendo una variante di colore, modificando i font e così via. [Scopri come](#create-and-edit-themes)
+1. Effettua le tue regolazioni necessarie, esattamente come fai quando crei un tema da zero, ad esempio aggiungendo una variante di colore, modificando i font e così via. [Scopri come](#create-and-edit-themes)
 
    ![Tema generato nell&#39;editor che mostra la tavolozza dei colori e i controlli delle varianti](assets/generate-theme-colors.png){width=90%}
 

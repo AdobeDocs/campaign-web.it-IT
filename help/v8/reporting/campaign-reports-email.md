@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporti sulle campagne per il canale e-mail
 description: Ulteriori informazioni sui rapporti sulle campagne per il canale e-mail
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1707'
 ht-degree: 86%
 
 ---

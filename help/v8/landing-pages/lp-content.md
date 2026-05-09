@@ -3,9 +3,9 @@ title: Definire il contenuto specifico della pagina di destinazione
 description: Scopri come progettare contenuti specifici per le pagine di destinazione nel web di Campaign
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1170'
 ht-degree: 11%
 
 ---
@@ -88,7 +88,7 @@ Per definire un contenuto specifico che consenta agli utenti di selezionare e in
    * **[!UICONTROL Sì se selezionato]**.
    * **[!UICONTROL No se selezionato]**.
 
-1. Elimina e aggiungi tutti i campi (ad esempio campi di testo, pulsanti di scelta, caselle di controllo, elenchi a discesa e così via) necessari.
+1. Elimina e aggiungi tutti i campi (ad esempio campi di testo, pulsanti di scelta, caselle di controllo, elenchi a discesa e così via) secondo necessità.
 
 1. Una volta aggiunti o aggiornati tutti i campi, fai clic su **[!UICONTROL Call to action]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nel componente **[!UICONTROL Modulo]**. [Scopri come](#define-actions-on-form-submission)
 
@@ -151,7 +151,7 @@ Per inviare automaticamente un messaggio di conferma dopo l’invio di una pagin
 
    ![Impostazioni stile casella di controllo](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Espandere e modificare qualsiasi altra sezione corrispondente ad altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
+1. Espandi e modifica qualsiasi altra sezione corrispondente agli altri campi aggiunti (pulsante di opzione, elenco a discesa, data e ora, ecc.) al modulo.
 
 1. Espandere la sezione **[!UICONTROL Call to action]** per modificare l&#39;aspetto del pulsante nel modulo del componente. Ad esempio, modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 
