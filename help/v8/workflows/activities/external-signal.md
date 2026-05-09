@@ -45,7 +45,7 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
 1. Recupera le seguenti informazioni:
 
-   * Il nome interno del flusso di lavoro ****, visualizzato accanto alla relativa etichetta.
+   * Il nome interno del flusso di lavoro **&#x200B;**, visualizzato accanto alla relativa etichetta.
 
      +++Visualizza esempio
 
