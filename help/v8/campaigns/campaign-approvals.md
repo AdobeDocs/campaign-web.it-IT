@@ -4,10 +4,17 @@ title: Impostare e gestire il processo di approvazione
 description: Scopri come gestire le approvazioni di campagne di marketing in Campaign Web
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +24,7 @@ ht-degree: 5%
 >
 >Le approvazioni sono disponibili solo per le consegne create all’interno di una campagna. Questo non si applica alle consegne autonome o alle consegne create nei flussi di lavoro al di fuori di un contesto di campagna.
 
-Il processo di approvazione aiuta a coordinare più parti interessate e garantisce il controllo di qualità prima dell’invio delle consegne. Utilizza le approvazioni quando l’organizzazione richiede la convalida da parte di team diversi, ad esempio responsabili marketing che rivedono il contenuto o analisti di dati che convalidano i tipi di pubblico target.
+Il processo di approvazione aiuta a coordinare più stakeholder e garantisce il controllo di qualità prima dell’invio delle consegne. Utilizza le approvazioni quando l’organizzazione richiede la convalida da parte di team diversi, ad esempio responsabili di marketing che rivedono il contenuto o analisti di dati che convalidano i tipi di pubblico target.
 
 Quando le approvazioni sono abilitate, devi inviare il contenuto o la destinazione per l’approvazione. I revisori designati ricevono notifiche e-mail con richiesta di convalida e possono approvare o rifiutare direttamente dall’interfaccia utente web. Le consegne non possono essere inviate finché non vengono concesse tutte le approvazioni richieste. Puoi abilitare:
 

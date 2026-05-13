@@ -3,14 +3,30 @@ title: Guida alla richiesta di informazioni sui contenuti dell’Assistente AI
 description: Scopri come creare prompt efficaci per la generazione di contenuti basati sull’intelligenza artificiale utilizzando il framework CO-STAR per creare contenuti di marketing ad alta conversione e allineati al brand.
 role: User
 level: Intermediate
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
+TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: 2111
 ht-degree: 0%
 
 ---
 
-# Best practice per la richiesta di Assistente AI {#ai-assistant-prompting-guide}
+# Best practice per i prompt dell’Assistente IA {#ai-assistant-prompting-guide}
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi delle campagne.
 Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
@@ -115,11 +131,11 @@ Prima di generare il contenuto, verifica quanto segue:
 
 &check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
 
-&check; **Pubblico di destinazione definito**: specifica il gruppo demografico, la mansione o il segmento.
+&check; **Pubblico di destinazione definito**: specifica l&#39;elemento demografico, la mansione o il segmento.
 
 &check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
 
-&check; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
+&verifica; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
 
 &check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
 

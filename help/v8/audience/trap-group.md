@@ -3,9 +3,14 @@ audience: end-user
 title: Utilizzare un gruppo trappola
 description: Scopri come utilizzare un gruppo di trappole per la consegna nell’interfaccia utente web di Campaign
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 4%
 
 ---
@@ -41,7 +46,7 @@ Per impostare un **[!UICONTROL gruppo di trap]**, vai alle impostazioni **[!UICO
 * [Selezionare i profili di test](#select-test-profiles)
 * [Creare una condizione](#create-condition)
 
-[Schermata interfaccia impostazioni gruppo trap](assets/trap-group.png){zoomable="yes"}
+[Schermata dell’interfaccia per le impostazioni dei gruppi di trappole](assets/trap-group.png){zoomable="yes"}
 
 ### Selezionare i profili di test {#select-test-profiles}
 
@@ -53,21 +58,21 @@ Quando fai clic sul pulsante, puoi accedere ai profili di test da aggiungere al 
 
 Puoi anche creare nuovi profili di test. [Ulteriori informazioni](#create-seed)
 
-[Seleziona schermata interfaccia profili di test](assets/trap-select-test-profiles.png){zoomable="yes"}
+[Schermata dell’interfaccia per la selezione dei profili di test](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 Dopo aver confermato i profili di test, verifica che il numero corretto sia visualizzato in **[!UICONTROL Gruppo di trap]**.
 
-[Schermata di conferma del gruppo di trap](assets/trap-check.png){zoomable="yes"}
+[Schermata di conferma del gruppo di trappole](assets/trap-check.png){zoomable="yes"}
 
 ### Creare una condizione {#create-condition}
 
 Con l&#39;opzione **[!UICONTROL Crea condizione]**, crea una query per definire i profili di test che desideri utilizzare:
 
-[Crea schermata dell&#39;interfaccia della condizione](assets/trap-create-condition.png){zoomable="yes"}
+[Schermata per creare l’interfaccia della condizione](assets/trap-create-condition.png){zoomable="yes"}
 
 La query viene visualizzata in **[!UICONTROL Gruppo di trap]**.
 
-[Schermata di visualizzazione della query del gruppo di trap](assets/trap-custom.png){zoomable="yes"}
+[Schermata di visualizzazione della query del gruppo di trappole](assets/trap-custom.png){zoomable="yes"}
 
 ## Creare un nuovo profilo di test {#create-seed}
 

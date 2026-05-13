@@ -3,10 +3,18 @@ audience: end-user
 title: Gestire le risorse con Adobe Experience Manager as a Cloud Service
 description: Scopri come gestire i contenuti con Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 4%
+source-wordcount: 615
+ht-degree: 5%
 
 ---
 
@@ -86,10 +94,10 @@ Una volta che il modello Experience Manager è disponibile in Adobe Campaign Web
 
 1. Se hai aggiunto contenuti personalizzati al tuo modello di Experience Manager, fai clic su **[!UICONTROL Simula contenuto]** per visualizzare in anteprima come apparirà nel messaggio utilizzando i profili di test.
 
-[Ulteriori informazioni sull’anteprima e sui profili di test](../preview-test/preview-content.md)
+   [Ulteriori informazioni sull’anteprima e sui profili di test](../preview-test/preview-content.md)
 
 1. Quando visualizzi l’anteprima del messaggio, tutti gli elementi personalizzati vengono automaticamente sostituiti con i dati corrispondenti del profilo di test selezionato.
 
    Se necessario, aggiungere altri profili di test tramite il pulsante **[!UICONTROL Gestisci profili di test]**.
 
-La consegna è ora pronta per essere inviata.
+Adesso la consegna è pronta per essere inviata.

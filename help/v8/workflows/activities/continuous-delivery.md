@@ -3,18 +3,23 @@ audience: end-user
 title: Utilizzare un’attività del flusso di lavoro di consegna continua
 description: Scopri come utilizzare l’attività del flusso di lavoro Consegna continua
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 14%
+source-wordcount: 242
+ht-degree: 24%
 
 ---
 
 # Consegna continua {#continuous-delivery}
 
-L&#39;attività **Consegna continua** ti consente di aggiungere nuovi destinatari a una consegna esistente. Questo tipo di consegna evita di dover creare ogni volta una nuova consegna, rendendola più efficiente per gli avvisi o le notifiche a basso volume da inviare in base alle esigenze.
+L&#39;attività **Consegna continua** ti consente di aggiungere nuovi destinatari a una consegna esistente. Questo tipo di consegna evita di dover creare ogni volta una nuova consegna, e rende più efficiente l’invio di avvisi o notifiche a basso volume in base alle esigenze.
 
-Una consegna continua crea una singola istanza di consegna. Tutti i registri di consegna (broadLog) e di tracciamento fanno riferimento a questa consegna, semplificandone il monitoraggio e il reporting.
+Una consegna continua crea una singola istanza di consegna. Tutti i registri di consegna (broadLog) e di tracciamento fanno riferimento a quest’unica consegna, semplificandone il monitoraggio e il reporting.
 
 ## Configurare l’attività Consegna continua {#configure}
 
