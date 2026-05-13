@@ -3,10 +3,12 @@ audience: end-user
 title: Creare una consegna direct mail
 description: Scopri come creare una consegna di direct mailing con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 23%
+source-wordcount: 504
+ht-degree: 25%
 
 ---
 

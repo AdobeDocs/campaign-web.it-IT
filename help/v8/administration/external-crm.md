@@ -1,14 +1,18 @@
 ---
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni CRM
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
+TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 0%
+source-wordcount: 863
+ht-degree: 1%
 
 ---
 
-# Account esterno CRM {#external-crm}
+# Account CRM esterno {#external-crm}
 
 Utilizza un account di tipo CRM esterno per connettere Adobe Campaign a un database di terze parti.
 
@@ -60,7 +64,7 @@ Nell&#39;interfaccia utente di Adobe Campaign Web configurare l&#39;account este
 
    * **[!UICONTROL ID chiave]**: immetti l&#39;ID chiave associato al certificato.
 
-   * **[!UICONTROL Identificatore client]**: immettere l&#39;ID client trovato nella gestione di Microsoft Azure
+   * **[!UICONTROL Identificatore client]**: immetti l&#39;ID client trovato in Microsoft Azure Management
 
    * **[!UICONTROL Versione CRM]**: scegliere la versione CRM 365 di Dynamics CRM.
 
@@ -147,4 +151,3 @@ Per configurare l’account esterno Salesforce per l’utilizzo con Adobe Campai
    Per sostituire i valori Adobe Campaign con i valori Salesforce, abilitare l&#39;opzione **[!UICONTROL Sostituisci]**.
 
    ![Schermata che mostra i campi di configurazione dell&#39;account esterno di Salesforce CRM.](assets/crm-salesforce-5.png)
-

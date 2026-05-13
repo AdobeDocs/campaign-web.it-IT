@@ -8,9 +8,13 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: 1445
 ht-degree: 10%
 
 ---
@@ -184,9 +188,9 @@ Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. Pertanto, devi sempre includere un **collegamento per annullare l&#39;iscrizione** in ogni e-mail inviata ai destinatari. Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 
-Puoi impostare una pagina di destinazione di **[!UICONTROL 1&rbrace; che consentirà agli utenti di rinunciare a tutte le consegne.]**
+Puoi impostare una pagina di destinazione di **[!UICONTROL 1} che consentirà agli utenti di rinunciare a tutte le consegne.]**
 
-1. Quando [crei la pagina di destinazione](create-lp.md#create-landing-page), seleziona il modello **&#x200B;**.
+1. Quando [crei la pagina di destinazione](create-lp.md#create-landing-page), seleziona il modello ****.
 
 1. Selezionare la pagina **[!UICONTROL Inserisce nell&#39;elenco Bloccati]** per modificarne il contenuto.
 

@@ -3,9 +3,12 @@ audience: end-user
 title: Creare tipi di pubblico
 description: Scopri come creare tipi di pubblico in Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/3uaqEhHU8Hn8OkHogqYfPMXfKSaexNrD-9Y94ZX-SA0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: 1018
 ht-degree: 34%
 
 ---
@@ -109,4 +112,4 @@ Se preferisci non sostituire i risultati del pubblico esistenti, configura le at
 
 Scopri come creare e gestire i tipi di pubblico, come selezionarli per una consegna e come definire gruppi di controllo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453210?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

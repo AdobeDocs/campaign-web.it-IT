@@ -3,9 +3,12 @@ audience: end-user
 title: Utilizzare l’attività del flusso di lavoro Load file
 description: Scopri come utilizzare l’attività del flusso di lavoro Load file
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/-7DovWUpzIiPRL7E-qtcD5wZ6EHg1BUA9VwJwNQo9A4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: 1281
 ht-degree: 36%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 36%
 L’attività **Carica file** è un’attività di **gestione dati**. Utilizza questa attività per lavorare con profili e dati memorizzati in un file esterno. I profili e i dati non vengono aggiunti al database, ma tutti i campi nel file di input sono disponibili per [personalization](../../personalization/gs-personalization.md), per aggiornare profili o qualsiasi altra tabella.
 
 >[!NOTE]
->Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). La console Interfaccia utente Web consente di caricare i file fino a una dimensione massima di 50 MB. Nella console client, l’attività di caricamento dati ha un limite di 150 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=it){target="_blank"}
+>Sono supportati i formati di file di testo (TXT) e i valori separati da virgole (CSV). La console Interfaccia utente Web consente di caricare i file fino a una dimensione massima di 50 MB. Nella console client, l’attività di caricamento dati ha un limite di 150 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Questa attività può essere utilizzata con un&#39;attività [Reconciliation](reconciliation.md) per collegare dati non identificati a risorse esistenti. Ad esempio, l&#39;attività **Load file** può essere inserita prima di un&#39;attività **Reconciliation** se si importano dati non standard nel database.
 

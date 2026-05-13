@@ -3,9 +3,14 @@ audience: end-user
 title: Introduzione ai flussi di lavoro
 description: Scopri come iniziare a utilizzare i flussi di lavoro
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/4AUNdhdd11mrWAzHtjAJpPjOrWhHTzTEtV6KLcqL3Es
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: 318
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ Il marketing cross-channel è essenziale per qualsiasi azienda che desideri ragg
 
 Con i flussi di lavoro, è possibile orchestrare l’intera gamma di processi e attività, migliorare la velocità e la scalabilità di ogni aspetto delle campagne di marketing, dalla creazione dei segmenti alla preparazione dei messaggi per la consegna. Inoltre, puoi sincronizzare i canali utilizzando un’unica interfaccia di facile utilizzo per l’orchestrazione delle campagne.
 
-Uno dei vantaggi principali dei flussi di lavoro è la capacità di semplificare la distribuzione di contenuti personalizzati alla clientela su tutti i canali.  Adobe Campaign consente di offrire a ogni cliente un’esperienza coerente e contestuale su qualsiasi canale, trasformando il suo percorso in un’esperienza unica, sia che preferisca di ricevere messaggi e-mail o su dispositivo mobile.
+Uno dei vantaggi principali dei flussi di lavoro è la capacità di semplificare la distribuzione di contenuti personalizzati alla clientela su tutti i canali. Adobe Campaign consente di offrire a ogni cliente un’esperienza coerente e contestuale su qualsiasi canale, trasformando il suo percorso in un’esperienza unica, sia che preferisca di ricevere messaggi e-mail o su dispositivo mobile.
 
 ## Utilizzi pratici dei flussi di lavoro
 

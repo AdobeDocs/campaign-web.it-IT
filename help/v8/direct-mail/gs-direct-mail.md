@@ -3,17 +3,19 @@ audience: end-user
 title: Introduzione alle consegne direct mail
 description: Scopri come creare e inviare consegne direct mail con Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+TQID: https://experienceleague.adobe.com/hpwPpLBk28eQ58sahnuBCostJpXhW7PDssUgjxainYY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: 202
 ht-degree: 100%
 
 ---
 
-
 # Introduzione alle consegne direct mail {#gs-direct-mail}
 
-Direct mail è un canale offline che consente di creare file per consegnare in blocco lettere personalizzate alla clientela, come cartoline, volantini o cataloghi.
+Direct mail è un canale offline che consente di creare file per consegnare in blocco lettere personalizzate per ogni cliente, come cartoline, volantini o cataloghi.
 
 Durante la creazione di una consegna direct mail, Adobe Campaign genera un file di estrazione contenente tutti i profili di destinazione e i dati selezionati, come gli indirizzi postali e gli attributi del profilo. Questo file viene inviato al server prescelto, rendendolo accessibile al provider di direct mail scelto, che gestisce il processo di mailing effettivo.
 

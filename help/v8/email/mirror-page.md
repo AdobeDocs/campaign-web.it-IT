@@ -3,16 +3,19 @@ audience: end-user
 title: Aggiungere un collegamento alla pagina mirror
 description: Scopri come aggiungere e gestire il collegamento alla pagina mirror
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 16%
+source-wordcount: 397
+ht-degree: 19%
 
 ---
 
 # Pagina mirror {#mirror-page}
 
-La pagina speculare è una versione online dell’e-mail. L’aggiunta di un collegamento alla pagina speculare è una buona pratica nel marketing via e-mail. Gli utenti possono accedere alla pagina speculare di un’e-mail, ad esempio, se riscontrano problemi di rendering o immagini interrotte quando la visualizzano nella casella in entrata. La disponibilità di una versione online è consigliata anche per motivi di accessibilità o per incoraggiare la condivisione tramite social network.
+La pagina mirror è una versione online della tua e-mail. L’aggiunta di un collegamento alla pagina speculare è una buona pratica nel marketing via e-mail. Gli utenti possono accedere alla pagina speculare di un’e-mail, ad esempio, se riscontrano problemi di rendering o immagini interrotte quando la visualizzano nella casella in entrata. La disponibilità di una versione online è consigliata anche per motivi di accessibilità o per incoraggiare la condivisione tramite social network.
 
 La pagina speculare generata da Adobe Campaign include tutti i dati di personalizzazione.
 

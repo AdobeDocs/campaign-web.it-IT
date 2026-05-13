@@ -3,9 +3,12 @@ audience: end-user
 title: Variabili evento del flusso di lavoro
 description: Scopri come sfruttare le variabili evento nei flussi di lavoro.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -26,7 +29,7 @@ Ogni tipo di **oggetto** è associato a una categoria di **variabili** che è po
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli script e sugli oggetti e le variabili esposti in Adobe Campaign sono disponibili nella documentazione di Campaign v8 (console client) in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>Ulteriori informazioni sugli script e sugli oggetti e le variabili esposti in Adobe Campaign sono disponibili nella documentazione di Campaign v8 (console client) in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Tieni presente che questa risorsa offre informazioni importanti, ma potrebbero esistere delle discrepanze in quanto si applica specificamente alla console client anziché all’interfaccia utente web di Campaign.
 

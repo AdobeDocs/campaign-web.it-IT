@@ -3,9 +3,12 @@ audience: end-user
 title: Utilizzare l’attività Subscription services
 description: Scopri come utilizzare l’attività del flusso di lavoro Subscription services
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: 1135
 ht-degree: 28%
 
 ---
@@ -123,6 +126,6 @@ Il flusso di lavoro seguente mostra come importare un file contenente profili e 
 
 * Un **[!UICONTROL Subscription Services]** identifica i servizi da aggiornare come provenienti dalla transizione.
 
-  Il tipo di operazione **&#x200B;**&#x200B;è identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l&#39;operazione da eseguire non viene visualizzata nell&#39;elenco, verificare di aver impostato correttamente il formato della colonna nell&#39;attività **[!UICONTROL Carica file]**, come spiegato in precedenza in questo esempio.
+  Il tipo di operazione **** è identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l&#39;operazione da eseguire non viene visualizzata nell&#39;elenco, verificare di aver impostato correttamente il formato della colonna nell&#39;attività **[!UICONTROL Carica file]**, come spiegato in precedenza in questo esempio.
 
   ![Schermata dell&#39;interfaccia di sottoscrizione del servizio di sottoscrizione del flusso di lavoro.](../assets/workflow-subscription-service-uc2-subscription.png)

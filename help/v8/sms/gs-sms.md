@@ -3,13 +3,15 @@ audience: end-user
 title: Introduzione alle consegne SMS
 description: Scopri come creare e inviare SMS con Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: 173
+ht-degree: 97%
 
 ---
-
 
 # Introduzione alle consegne SMS {#sms}
 
@@ -53,7 +55,7 @@ Il canale SMS offre tre metodi per creare consegne SMS:
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Rapporto sulla consegne SMS" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="Rapporto sulla consegna SMS" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>Rapporto sulle consegne SMS</strong></a>

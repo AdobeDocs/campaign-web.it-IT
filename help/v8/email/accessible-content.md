@@ -7,9 +7,15 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: 1687
 ht-degree: 1%
 
 ---
@@ -26,7 +32,6 @@ Di seguito sono elencate le procedure consigliate per la progettazione di conten
 
 Questa pagina consente di rendere il contenuto accessibile a tutti i destinatari per garantire che le persone con disabilità possano leggere, comprendere e interagire con le e-mail e le pagine di destinazione progettate con [!DNL Adobe Campaign].
  
-
 ## Assicurare la leggibilità del testo {#text-readability}
 
 Utilizza la scheda **[!UICONTROL Stili]** del componente **[!UICONTROL Testo]** per garantire che il testo sia leggibile, ad esempio utilizzando un contrasto di colore appropriato e font semplici. [Ulteriori informazioni](content-components.md#text)
@@ -91,7 +96,7 @@ Utilizza il componente **[!UICONTROL Immagine]** per fornire testo alternativo p
 Per un testo alternativo efficace nei prodotti digitali, attieniti alle linee guida seguenti:
 
 * Descrivi lo scopo dell’immagine in modo conciso e contestuale.
-* Evita frasi ridondanti come &quot;Immagine di ...&quot; e utilizza testo alternativo vuoto per le immagini decorative.
+* Evita frasi ridondanti come &quot;Immagine di ...&quot; e utilizza testo alt vuoto per le immagini decorative.
 * Per le icone con significato, fornisci etichette significative e per le immagini complesse, utilizza un breve testo alternativo più una descrizione più lunga altrove.
 
 ## Usa formato leggibile {#readable-format}

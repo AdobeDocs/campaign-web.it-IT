@@ -4,10 +4,17 @@ description: Questo tutorial offre una panoramica delle funzionalità chiave di 
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: b176928b105c1ce2f5fe4b87d5e92144af8a5259
+TQID: https://experienceleague.adobe.com/-hVxbMvBihOVGmmQxQ2eCpa-mL-yRWHX2J1vkSSMZaE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a14877cc-63b1-41d9-bf0b-5f97cadd0417id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: b4ecd69f-2adf-4219-bc47-c9cd9a53c118id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e656c701-3899-4db3-989c-de0980ddfffaid: e739ee2b-6228-412e-878f-45de0791417did: ee3dfd63-9a21-4961-9f24-ea3385284a21id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 9%
+source-wordcount: 3258
+ht-degree: 11%
 
 ---
 
@@ -21,7 +28,7 @@ La console client di Campaign centralizza tutte le funzionalità e le impostazio
 
 ![](assets/client_console.png){zoomable="yes"}
 
-[Ulteriori informazioni sull&#39;interfaccia utente della console client di Adobe Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
+[Ulteriori informazioni sull&#39;interfaccia utente della console client di Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
 
 ## Architettura di Campaign v8 {#acs-gs-admi-archi}
 
@@ -29,7 +36,7 @@ L’architettura di Campaign è descritta nella documentazione di Campaign v8 (c
 
 Collegamento utile per iniziare:
 
-* I componenti Adobe Campaign e l&#39;architettura globale sono descritti in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
+* I componenti Adobe Campaign e l&#39;architettura globale sono descritti in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
 
 * Consulta [Introduzione all&#39;architettura di Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} per comprendere l&#39;architettura di Campaign prima di iniziare a strutturare l&#39;istanza.
 
@@ -43,35 +50,35 @@ Collegamento utile per iniziare:
 
 Le attività di amministrazione e configurazione vengono eseguite nella console client. Il primo passaggio consiste nella configurazione dell’ambiente.
 
-La console client di Campaign è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. La console client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una facile distribuzione, la console client di Campaign può essere distribuita da un browser Internet, aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
+La console client di Campaign è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. La console client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una semplice implementazione, la console client di Campaign può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S).
 
 Nel video seguente viene illustrato come scaricare e installare Adobe Campaign Client Console e gestire la connessione all’istanza.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449889?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
-Per ulteriori informazioni, vedere [Connessione a Campaign con la console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/connect){target="_blank"}.
+Per ulteriori informazioni, vedere [Connessione a Campaign con la console client](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
-La console client deve essere installata in un ambiente supportato. Ulteriori informazioni nella [Matrice di compatibilità di Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}.
+La console client deve essere installata in un ambiente supportato. Ulteriori informazioni nella [Matrice di compatibilità di Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}.
 
 ### Scopri l’interfaccia della console client  {#acs-gs-ui}
 
 Scopri l’interfaccia utente di Adobe Campaign v8 e come esplorare le funzioni principali con questo video di esercitazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426438?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
-Per ulteriori dettagli, consulta [Utilizzare la console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
+Per ulteriori dettagli, consulta [Utilizzare la console client](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}.
 
 ## Amministrare l’ambiente {#acs-gs-admin-env}
 
-Dopo aver installato la console client, seguire i passaggi descritti in questa documentazione per creare la connessione al server applicazioni: [Connessione alla documentazione del server applicazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
+Dopo aver installato la console client, seguire i passaggi descritti in questa documentazione per creare la connessione al server applicazioni: [Connessione alla documentazione del server applicazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
 
-Le procedure di sicurezza sono profondamente radicate nei nostri processi e strumenti interni di sviluppo e gestione del software e sono rigorosamente seguite dai nostri team interfunzionali per prevenire, rilevare e rispondere agli incidenti in modo rapido. Ulteriori informazioni sono disponibili in [Best practice per la sicurezza di Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
+Le procedure di sicurezza sono profondamente radicate nei nostri processi e strumenti interni di sviluppo e gestione del software e sono rigorosamente seguite dai nostri team interfunzionali per prevenire, rilevare e rispondere agli incidenti in modo rapido. Ulteriori informazioni sono disponibili in [Best practice per la sicurezza di Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
 
 ### Diritti di accesso e autorizzazioni {#acs-gs-admin-rights}
 
 Adobe Campaign ti consente di definire e gestire i diritti assegnati agli utenti. Queste autorizzazioni vengono definite combinando le autorizzazioni del gruppo di operatori, i diritti denominati e le autorizzazioni per le cartelle.
 
-In qualità di utente di Campaign Standard che passa a Campaign v8, le autorizzazioni e i diritti di accesso rimangono gli stessi. I gruppi di sicurezza sono stati spostati da Adobe nei gruppi di operatori di Campaign v8 e le autorizzazioni per unità organizzative sono state trasferite alle autorizzazioni per le cartelle. Utenti di Campaign   utilizza il proprio Adobe ID per connetterti a Campaign v8 e quindi può utilizzare gli stessi login e password di Campaign Standard.
+In qualità di utente di Campaign Standard che passa a Campaign v8, le autorizzazioni e i diritti di accesso rimangono gli stessi. I gruppi di sicurezza sono stati spostati da Adobe nei gruppi di operatori di Campaign v8 e le autorizzazioni per unità organizzative sono state trasferite alle autorizzazioni per le cartelle. Gli utenti di Campaign utilizzano il proprio Adobe ID per connettersi a Campaign v8 e possono quindi utilizzare gli stessi login e la stessa password utilizzati in Campaign Standard.
 
 Le [cartelle](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} della campagna sono nodi nella struttura di esplorazione della console client. In base al tipo, contengono determinati tipi di dati. I programmi vengono materializzati dalle cartelle in Campaign v8. Puoi creare cartelle e gestirne le autorizzazioni per limitarne l’accesso. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
@@ -84,14 +91,14 @@ Per quanto riguarda Campaign Standard, puoi utilizzare il Pannello di controllo 
 
 Consentendoti di gestire le impostazioni e di tenere traccia dell’utilizzo di ciascuna istanza, il Pannello di controllo Campaign ti aiuta a migliorare l’efficienza del tuo lavoro di amministratore di prodotto di Adobe Campaign. L’interfaccia intuitiva consente di monitorare facilmente l’utilizzo delle risorse chiave, nonché di eseguire attività amministrative come l’inserimento di indirizzi IP nell’elenco Consentiti, il monitoraggio dell’archiviazione SFTP, la gestione delle chiavi e altro ancora.
 
-Ulteriori informazioni sono disponibili nelle [esercitazioni del Pannello di controllo](https://experienceleague.adobe.com/it/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} e nella [documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}.
+Ulteriori informazioni sono disponibili nelle [esercitazioni del Pannello di controllo](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} e nella [documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}.
 
-* **Aggiungi indirizzi IP** - Il Pannello di controllo Campaign Campaign ti consente di impostare nuove connessioni alle istanze aggiungendo intervalli di indirizzi IP all&#39;elenco consentiti. Ulteriori informazioni nella [documentazione sull&#39;inserimento di IP nell&#39;elenco Consentiti](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
+* **Aggiungi indirizzi IP** - Il Pannello di controllo Campaign Campaign ti consente di impostare nuove connessioni alle istanze aggiungendo intervalli di indirizzi IP all&#39;elenco consentiti. Ulteriori informazioni nella [documentazione sull&#39;inserimento di IP nell&#39;elenco Consentiti](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
 
 * **Configurazione del sottodominio** - Puoi configurare una sottosezione del tuo dominio (tecnicamente una &quot;zona DNS&quot;) per l&#39;utilizzo con Adobe Campaign.
-Ulteriori informazioni nella [documentazione sulla delega del sottodominio](https://experienceleague.adobe.com/it/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
+Ulteriori informazioni nella [documentazione sulla delega del sottodominio](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
-* **Gestione dei server SFTP**: nel Pannello di controllo Campaign puoi interagire con tutti i server SFTP connessi alle istanze di Campaign a cui hai accesso. Ulteriori informazioni nella [documentazione sulla gestione SFTP](https://experienceleague.adobe.com/it/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
+* **Gestione dei server SFTP**: nel Pannello di controllo Campaign puoi interagire con tutti i server SFTP connessi alle istanze di Campaign a cui hai accesso. Ulteriori informazioni nella [documentazione sulla gestione SFTP](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
 
 
 ### Audit trail {#acs-gs-admin-audit-trail}
@@ -104,7 +111,7 @@ Nell’interfaccia utente di Adobe Campaign Web, la funzionalità Audit trail of
 
 Analogamente a quanto è possibile ottenere in Campaign Standard, gli amministratori possono definire pacchetti per lo scambio di risorse tra diverse istanze di Adobe Campaign tramite file XML strutturati. Si può trattare di parametri di configurazione o dati.
 
-Puoi utilizzare i pacchetti di dati per esportare e importare le impostazioni e i dati personalizzati della piattaforma. Un pacchetto può contenere diversi tipi di configurazioni e componenti, filtrati o meno. Scopri come utilizzare i pacchetti dati in Campaign v8 in [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/packages){target="_blank"}.
+Puoi utilizzare i pacchetti di dati per esportare e importare le impostazioni e i dati personalizzati della piattaforma. Un pacchetto può contenere diversi tipi di configurazioni e componenti, filtrati o meno. Scopri come utilizzare i pacchetti dati in Campaign v8 in [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}.
 
 <!--
 MISSING LINKS: 
@@ -127,11 +134,11 @@ Sono disponibili diverse opzioni per personalizzare l’interfaccia utente nella
 
 Ogni azienda dispone di linee guida per il brand che definiscono sia gli elementi visivi che i dettagli tecnici. Per quanto riguarda Adobe Campaign Standard, Adobe Campaign v8 ti consente di gestire queste linee guida a livello centrale, in modo da poter presentare ai clienti un’immagine del brand coerente in tutte le attività, dai loghi nelle e-mail agli URL e ai domini utilizzati nelle campagne. In qualità di amministratore tecnico, puoi creare e gestire più marchi all’interno di Adobe Campaign.
 
-Ulteriori informazioni nella [documentazione sul branding](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
+Ulteriori informazioni nella [documentazione sul branding](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
 
 ## Comprendere la creazione di modelli di dati {#acs-gs-admin-data-model-creation}
 
-Analogamente a Campaign Standard, Adobe Campaign v8 viene fornito con il suo modello dati predefinito. Adobe Campaign si basa su un database Cloud contenente tabelle collegate tra loro. Per ulteriori informazioni, consulta la [documentazione del modello dati](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
+Analogamente a Campaign Standard, Adobe Campaign v8 viene fornito con il suo modello dati predefinito. Adobe Campaign si basa su un database Cloud contenente tabelle collegate tra loro. Per ulteriori informazioni, consulta la [documentazione del modello dati](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
 Uno schema è un documento XML associato a una tabella di database. Definisce la struttura dati e descrive la definizione SQL della tabella. Consulta la [documentazione sulla creazione di schemi](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
@@ -151,15 +158,15 @@ Analogamente alle funzionalità disponibili in Campaign Standard, puoi creare ri
 
 ## Flussi di lavoro e gestione dati {#acs-gs-admin-data-management}
 
-Come Adobe Campaign Standard, Adobe Campaign v8 include un modulo del flusso di lavoro che ti consente di orchestrare l’intera gamma di processi e attività tra i diversi moduli del server applicazioni. Questo ambiente grafico completo ti consente di progettare processi inclusi segmentazione, esecuzione di campagne, elaborazione di file, partecipazione di utenti, ecc. Il motore del flusso di lavoro esegue e tiene traccia di questi processi. Scopri come iniziare a utilizzare i flussi di lavoro in Campaign v8 in [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
+Come Adobe Campaign Standard, Adobe Campaign v8 include un modulo del flusso di lavoro che ti consente di orchestrare l’intera gamma di processi e attività tra i diversi moduli del server applicazioni. Questo ambiente grafico completo consente di progettare processi quali segmentazione, esecuzione di campagne, elaborazione di file, partecipazione di utenti, ecc. Il motore del flusso di lavoro esegue e tiene traccia di questi processi. Scopri come iniziare a utilizzare i flussi di lavoro in Campaign v8 in [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
 
 Di seguito sono riportati i collegamenti ad altre risorse utili:
 
 * Scopri le dimensioni di targeting e le tabelle di lavoro e come Adobe Campaign gestisce i dati tra diverse origini dati in questo video:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452602?captions=ita&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
-* Campaign ti aiuta ad aggiungere contatti al database Cloud. È possibile caricare un file, pianificare e automatizzare più aggiornamenti dei contatti, raccogliere dati sul Web o immettere le informazioni del profilo direttamente nella tabella dei destinatari.  Ulteriori informazioni sono disponibili nella [documentazione sull&#39;importazione di dati (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/data/import){target="_blank"}.
+* Campaign ti aiuta ad aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti alla volta, raccogliere dati sul web o inserire informazioni di profilo direttamente nella tabella dei destinatari.  Ulteriori informazioni sono disponibili nella [documentazione sull&#39;importazione di dati (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
 * Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli, manipolarli o stamparli. Ulteriori informazioni nella [documentazione sull&#39;esportazione dei dati](../../v8/reporting/export-reports.md).
 
@@ -169,9 +176,9 @@ Le API REST di Campaign mirano a creare integrazioni per Adobe Campaign e a crea
 
 In qualità di utente di Campaign Standard che passa a Campaign v8, puoi accedere alle API REST.
 
-Ulteriori informazioni sono disponibili nella [documentazione API REST](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+Ulteriori informazioni sono disponibili nella [documentazione API REST](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 
-Tieni presente che alcune raccomandazioni e limitazioni si applicano alle API REST durante la transizione da Campaign Standard a Campaign v8. Sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Restrizioni specifiche si applicano anche durante la transizione a Campaign v8 come elencato nella nota sulla disponibilità seguente:
+Tieni presente che alcune raccomandazioni e limitazioni si applicano alle API REST durante la transizione da Campaign Standard a Campaign v8. Sono elencati in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Restrizioni specifiche si applicano anche durante la transizione a Campaign v8 come elencato nella nota sulla disponibilità seguente:
 
 >[!AVAILABILITY]
 >
@@ -196,16 +203,16 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You choose a built-in template when you create a landing page, then design the content. See [Create and publish a landing page](../../v8/landing-pages/create-lp.md) and [Learn through use cases](../../v8/landing-pages/lp-use-cases.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## Privacy e consenso
 
 Nel passaggio da Campaign Standard a Campaign v8, è importante esaminare in che modo le normative sulla privacy influiscono sulle operazioni relative ai dati. A seconda della tua azienda e delle giurisdizioni in cui operi, i clienti possono avere il diritto legale di accedere ai dati che possiedi su di loro o di richiederne la cancellazione.
 
-In Campaign v8, tutte le richieste di privacy devono essere gestite tramite l&#39;integrazione **Adobe Privacy Service**. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/privacy/privacy).
+In Campaign v8, tutte le richieste di privacy devono essere gestite tramite l&#39;integrazione **Adobe Privacy Service**. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy).
 
 Tieni presente che l’ambiente Campaign Standard rimane attivo per un periodo successivo alla transizione. Durante questo periodo di tempo, le richieste di accesso ai dati personali potrebbero arrivare in entrambi i sistemi. Per garantire la conformità ed evitare vuoti, coordina con il tuo Adobe Transition Manager per gestire correttamente le richieste in entrambi gli ambienti.
 
@@ -215,11 +222,11 @@ Come in Campaign Standard, in qualità di amministratore puoi creare servizi di 
 
 Scopri come impostare e gestire gli abbonamenti e avere come target gli abbonati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426554?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * Consulta la [documentazione sull&#39;interfaccia utente Web dei servizi di abbonamento](../../v8/audience/manage-subscribers.md).
 
-* Consulta anche la documentazione per impostare i servizi di abbonamento nella console client in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
+* Consulta anche la documentazione per impostare i servizi di abbonamento nella console client in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
 
 ## Messaggi e consegne{#acs-gs-msg}
 
@@ -229,10 +236,10 @@ In qualità di Campaign Standard, Adobe Campaign v8 ti consente di inviare campa
 
 In qualità di amministratore, devi definire le configurazioni del canale. Per ulteriori informazioni, fai riferimento ai collegamenti riportati di seguito.
 
-* **E-mail** - Le impostazioni delle e-mail sono tutte dettagliate in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
-* **SMS** - Scopri come configurare il tuo canale SMS in [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
-* **Notifiche push** - I passaggi per configurare il canale delle notifiche push sono descritti in dettaglio [in questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
-* **Messaggistica transazionale** - I passaggi per configurare [Messaggistica transazionale](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} in Campaign v8 sono descritti [in questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **E-mail** - Le impostazioni delle e-mail sono tutte dettagliate in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
+* **SMS** - Scopri come configurare il tuo canale SMS in [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+* **Notifiche push** - I passaggi per configurare il canale delle notifiche push sono descritti in dettaglio [in questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+* **Messaggistica transazionale** - I passaggi per configurare [Messaggistica transazionale](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} in Campaign v8 sono descritti [in questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### Account esterni {#acs-gs-ext-accounts}
 
@@ -274,20 +281,20 @@ Utilizza Campaign per creare contenuti dinamici e inviare messaggi personalizzat
 
 Con Campaign v8, in qualità di amministratore, puoi definire blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/344595?captions=ita&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 Collegamenti utili:
 
-* [Introduzione alla personalizzazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
-* [Usa blocchi di personalizzazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
-* [Crea contenuto condizionale](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
-* [Origini dati Personalization](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
+* [Introduzione alla personalizzazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
+* [Utilizzare i blocchi di personalizzazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [Creare contenuti condizionali](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [Origini dati di Personalization](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
 
 ### Modelli di consegna {#acs-gs-templates}
 
 L’utilizzo dei modelli di consegna è un requisito in Campaign v8, come in Campaign Standard.
 
-Per un processo di progettazione accelerato e migliorato, crea modelli di consegna per riutilizzare facilmente contenuti e impostazioni personalizzati nelle campagne. Questa funzionalità consente di standardizzare l’aspetto creativo per velocizzare l’esecuzione e il lancio delle campagne. Scopri come creare modelli di consegna nell’interfaccia utente web di [Campaign](../../v8/msg/delivery-template.md). Vedi anche come creare modelli di consegna nella console client in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
+Per un processo di progettazione accelerato e migliorato, crea modelli di consegna per riutilizzare facilmente contenuti e impostazioni personalizzati nelle campagne. Questa funzionalità consente di standardizzare l’aspetto creativo per velocizzare l’esecuzione e il lancio delle campagne. Scopri come creare modelli di consegna nell’interfaccia utente web di [Campaign](../../v8/msg/delivery-template.md). Vedi anche come creare modelli di consegna nella console client in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
 
 ### Regole di tipologia {#acs-gs-admin-rules}
 
@@ -295,7 +302,7 @@ In qualità di amministratore, sei responsabile della creazione e della gestione
 
 Durante la transizione a Campaign v8 da un ambiente Campaign Standard, le regole di tipologia vengono spostate in Campaign v8.
 
-In Campaign v8, le regole di tipologia sono dotate di un’opzione di ottimizzazione campagna specifica. Questo modulo consente di controllare, filtrare e monitorare l’invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti e le politiche di comunicazione aziendali. Per ulteriori informazioni, consulta la [documentazione sulle regole di tipologia](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
+In Campaign v8, le regole di tipologia sono dotate di un’opzione di ottimizzazione campagna specifica. Questo modulo consente di controllare, filtrare e monitorare l’invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti, in linea con le politiche di comunicazione aziendali. Per ulteriori informazioni, consulta la [documentazione sulle regole di tipologia](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Gestione della quarantena {#acs-gs-admin-quarantine}
 
@@ -306,12 +313,12 @@ In qualità di amministratore, impara a gestire la quarantena in Campaign v8 a p
 
 ## Gestire le integrazioni Adobe Campaign {#acs-gs-integrations}
 
-Puoi collegare la tua istanza di Campaign con le soluzioni Adobe Experience Cloud per combinare le funzionalità. Adobe Campaign è dotato di diversi connettori che consentono di comunicare con applicazioni esterne, connettersi ai motori di database, condividere e sincronizzare i dati. Scopri come combinare le tue soluzioni in [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+Puoi collegare la tua istanza di Campaign con le soluzioni Adobe Experience Cloud per combinare le funzionalità. Adobe Campaign è dotato di diversi connettori che consentono di comunicare con applicazioni esterne, connettersi ai motori di database, condividere e sincronizzare i dati. Scopri come combinare le tue soluzioni in [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 In qualità di utente di Campaign Standard che effettua la migrazione a Campaign v8, ti vale quanto segue:
 
 * Se utilizzavi queste integrazioni con Campaign Standard, le configurazioni e i dati di **Adobe Analytics** e **Audience Manager** sono stati migrati da Adobe.
-* Se il tuo ambiente Campaign Standard è stato integrato con **Adobe Experience Manager**, Adobe ti consiglia di passare a **Adobe Experience Manager as a Cloud Service** in modo da poter utilizzare questa funzionalità durante la progettazione delle e-mail nell&#39;interfaccia utente di Campaign Web e facilitare la gestione semplificata dei contenuti e dei moduli di consegna e-mail direttamente all&#39;interno del tuo ambiente Adobe Experience Manager. Ulteriori informazioni in [questa pagina](../../v8/integrations/aem-content.md).
-Campaign può essere integrato anche con Adobe Experience Manager 6.5. Per configurare questa integrazione, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
-* Se l&#39;ambiente Campaign Standard è stato integrato con **Triggers**, è necessario configurare questa integrazione in Campaign v8 come descritto in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
-* Se l&#39;ambiente Campaign Standard è stato integrato con **Adobe Target**, è necessario configurare questa integrazione in Campaign v8 come descritto in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
+* Se il tuo ambiente Campaign Standard è stato integrato con **Adobe Experience Manager**, Adobe ti consiglia di passare a **Adobe Experience Manager as a Cloud Service** in modo da poter utilizzare questa funzionalità durante la progettazione delle e-mail nell&#39;interfaccia utente di Campaign Web e facilitare la gestione semplificata dei contenuti e dei moduli di consegna e-mail direttamente all&#39;interno del tuo ambiente Adobe Experience Manager. Per ulteriori informazioni, consulta [questa pagina](../../v8/integrations/aem-content.md).
+Campaign può essere integrato anche con Adobe Experience Manager 6.5. Per configurare questa integrazione, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
+* Se l&#39;ambiente Campaign Standard è stato integrato con **Triggers**, è necessario configurare questa integrazione in Campaign v8 come descritto in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
+* Se l&#39;ambiente Campaign Standard è stato integrato con **Adobe Target**, è necessario configurare questa integrazione in Campaign v8 come descritto in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
