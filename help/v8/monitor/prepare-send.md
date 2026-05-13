@@ -4,7 +4,8 @@ title: Preparare e inviare un’e-mail
 description: Scopri come preparare e inviare un’e-mail con l’interfaccia utente web di Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 TQID: https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 998
@@ -53,7 +54,7 @@ I passaggi principali per preparare l’invio sono elencati di seguito.
 
    * **[!UICONTROL Destinati]**: il numero di destinatari interessati.
    * **[!UICONTROL Da consegnare]**: numero di messaggi che verranno inviati.
-   * **[!UICONTROL Da escludere]**[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Da escludere]**&#x200B;[: numero di messaggi esclusi da una regola di tipologia](../advanced-settings/delivery-settings.md#typology).
 
 1. Fai clic sul pulsante **[!UICONTROL Registri]** e verifica che non siano presenti errori. L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. [Ulteriori informazioni](delivery-logs.md)
 
