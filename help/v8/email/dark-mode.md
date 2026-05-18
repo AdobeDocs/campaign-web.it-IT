@@ -8,23 +8,16 @@ level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, editor
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
 TQID: https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-subfeature_v2:
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+subfeature_v2: id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1519
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -33,12 +26,12 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Passare alla modalità scura"
->abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="Passa alla modalità scura per visualizzare in anteprima il rendering e definire impostazioni personalizzate specifiche. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Passare alla modalità scura"
->abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client di posta elettronica del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
+>abstract="Passare alla modalità scura per visualizzare in anteprima il rendering nei client e-mail che la supportano. <br>Il rendering finale dipende dal client e-mail del destinatario. Tieni presente che non tutti i client e-mail supportano la modalità scura."
 
 Durante la progettazione delle e-mail, [!DNL Adobe Campaign] [Invia e-mail a Designer](get-started-email-designer.md) ti consente di passare alla visualizzazione **[!UICONTROL Modalità scura]**.
 
@@ -151,7 +144,7 @@ Significa che rileva aree con elementi chiari e scuri e le inverte, in modo che 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utilizzare un’immagine specifica per la modalità scura"
->abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L&#39;aggiunta di un&#39;immagine specifica per la modalità scura non garantisce il corretto rendering in tutti i client di posta elettronica. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
+>abstract="È possibile selezionare un’altra immagine da visualizzare quando è attiva la modalità scura. <br>L’aggiunta di un’immagine specifica per la modalità scura non garantisce il rendering corretto in tutti i client e-mail. Tieni presente che non tutti i client e-mail supportano la modalità scura personalizzata."
 
 Dopo il passaggio alla **[!UICONTROL modalità scura]**, puoi scegliere di modificare elementi di stile specifici del contenuto che verranno visualizzati solo quando la modalità scura è abilitata nel client e-mail del destinatario, purché supporti tale funzione.
 

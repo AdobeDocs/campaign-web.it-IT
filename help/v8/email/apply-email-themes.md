@@ -12,7 +12,7 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Temi in E-mail designer (LA)"
->abstract="Applica stili di tema e variabili riutilizzabili per mantenere il contenuto delle e-mail coerente con il tuo marchio. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata)"
+>abstract="Applica variabili e stili di temi riutilizzabili per mantenere il contenuto delle e-mail coerente con il tuo brand. Questa funzionalità è disponibile solo per alcune organizzazioni (Disponibilità limitata)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
