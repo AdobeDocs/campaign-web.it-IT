@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 319
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Authoring dello schema"
+>title="Creazione di schemi"
 >abstract="Ora puoi creare e gestire gli schemi direttamente dall’interfaccia utente di Campaign Web. Puoi creare nuove tabelle, estendere gli schemi esistenti e creare moduli personalizzati."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 

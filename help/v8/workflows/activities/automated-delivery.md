@@ -6,7 +6,7 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Attività di consegna automatizzata"
->abstract="L’attività del flusso di lavoro Consegna automatica è ora disponibile nella palette dei flussi di lavoro. Puoi utilizzarla per creare o eseguire azioni di consegna (preparare, inviare una bozza, preparare e avviare, ecc.) direttamente all’interno del flusso di lavoro."
+>abstract="L’attività del flusso di lavoro Consegna automatizzata è ora disponibile nel pannello degli strumenti del flusso di lavoro. Puoi utilizzarla per creare o eseguire azioni di consegna (preparare, inviare una bozza, preparare e avviare, ecc.) direttamente all’interno del flusso di lavoro."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Attività di consegna automatizzata"
->abstract="L&#39;attività **Consegna automatica** viene utilizzata per l&#39;automazione: crea o riutilizza una consegna nel flusso di lavoro, quindi scegli l&#39;azione da eseguire (preparare, preparare e avviare, inviare bozze, ecc.). Puoi selezionare una consegna esplicita esistente creata al di fuori del flusso di lavoro, oppure creare una nuova consegna da un modello ogni volta che l’attività viene eseguita."
+>abstract="L’attività **Consegna automatizzata** viene utilizzata per l’automazione: crea o riutilizza una consegna nel flusso di lavoro, quindi scegli l’azione da eseguire (preparazione, preparazione e avvio, invio di una bozza, ecc.). Puoi selezionare una consegna esplicita esistente creata al di fuori del flusso di lavoro, oppure crearne una nuova da un modello ogni volta che l’attività viene eseguita."
 
 L&#39;attività **Consegna automatica** ti consente di creare, configurare ed eseguire azioni di consegna direttamente all&#39;interno del flusso di lavoro. Utilizzala quando desideri eseguire una consegna predefinita in un programma o come parte di un flusso automatico, oppure quando desideri generare una nuova consegna da un modello ogni volta che l’attività viene eseguita.
 

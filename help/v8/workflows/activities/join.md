@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 23%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Più rami del flusso di lavoro e attività di unione"
->abstract="Sono ora supportati più rami. Invece di utilizzare un fork, puoi fare clic su Aggiungi ramo sulla barra degli strumenti. È stata migliorata anche l’attività AND-join. Si tratta ora di un’attività di join generica che consente di scegliere tra le opzioni di join AND e OR."
+>abstract="Il supporto per più rami è ora disponibile. Invece di utilizzare un’attività Fork, puoi fare clic su Aggiungi ramo nella barra degli strumenti. Anche l’attività AND-join è stata migliorata. Ora è un’attività di unione generica che ti consente di scegliere tra le opzioni di unione AND e OR."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it" text="Consulta le note sulla versione"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="Attività di unione"
->abstract="L&#39;attività **Partecipa** consente di unire più transizioni in entrata. Scegli se continuare quando tutte le transizioni in entrata sono complete (AND) o quando una transizione in entrata è completa (OR)."
+>abstract="L’attività **Unione** consente di unire più transizioni in entrata. Scegli se continuare quando tutte le transizioni in entrata sono complete (AND) o quando una qualsiasi transizione in entrata è completa (OR)."
 
 L&#39;attività **Partecipa** è un&#39;attività **Controllo flusso**. Sincronizza più rami di esecuzione di un flusso di lavoro.
 Puoi scegliere come valutare le transizioni in entrata:
@@ -38,7 +38,7 @@ Quando **AND** è selezionato, questa attività attiva la relativa transizione i
 
 Quando è selezionato **OR**, l&#39;esecuzione continua non appena viene attivata una delle transizioni in entrata selezionate. Non attende tutti i rami.
 
-## Configurare l’attività Join {#join-configuration}
+## Configurare l’attività Unione {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
