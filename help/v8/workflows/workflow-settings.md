@@ -4,11 +4,10 @@ title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1070
 ht-degree: 48%
 
 ---
@@ -24,7 +23,7 @@ Durante la creazione di un flusso di lavoro o l’orchestrazione delle attività
 
 Queste impostazioni sono preconfigurate nel modello selezionato durante la creazione del flusso di lavoro, ma possono essere modificate in base alle esigenze per il flusso di lavoro specifico.
 
-![Interfaccia pulsante impostazioni flusso di lavoro](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaccia pulsante impostazioni flusso di lavoro](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## Proprietà del flusso di lavoro {#properties}
 
@@ -35,7 +34,7 @@ Queste impostazioni sono preconfigurate nel modello selezionato durante la creaz
 
 La sezione **[!UICONTROL Proprietà]** fornisce impostazioni generiche che possono essere configurate durante la creazione di un flusso di lavoro. Per accedere alle proprietà di un flusso di lavoro esistente, fai clic sul pulsante **[!UICONTROL Impostazioni]** nella barra delle azioni sopra l&#39;area di lavoro del flusso di lavoro.
 
-![Interfaccia impostazioni flusso di lavoro](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaccia impostazioni flusso di lavoro](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 Queste proprietà includono:
 
@@ -109,4 +108,4 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 >title="Script di inizializzazione"
 >abstract="Questa sezione consente di definire il codice JavaScript che viene eseguito all’inizio del flusso di lavoro. Può essere utilizzato per inizializzare variabili, impostare parametri o preparare dati prima dell’esecuzione di qualsiasi attività del flusso di lavoro."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
