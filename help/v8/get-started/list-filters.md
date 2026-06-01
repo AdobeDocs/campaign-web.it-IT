@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 100%
@@ -23,21 +23,21 @@ La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elen
 
 Gli elenchi vengono visualizzati in colonne. Per visualizzare ulteriori informazioni puoi modificare la configurazione delle colonne. A questo scopo, fai clic su **Configura le colonne per un layout personalizzato** nell’angolo in alto a destra dell’elenco.
 
-![La schermata mostra l’icona Configura le colonne utilizzata per personalizzare il layout delle colonne dell’elenco.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![La schermata mostra l’icona Configura le colonne utilizzata per personalizzare il layout delle colonne dell’elenco.](assets/config-columns.png){zoomable="yes"}{width="70%"}
 
 Nella schermata **Configura le colonne**, aggiungi o rimuovi le colonne e modificane l’ordine di visualizzazione.
 
 Puoi cambiare l’ordine dell’elenco **trascinando** oppure utilizzando le icone **freccia su e freccia giù**, come mostrato di seguito:
 
-![Nella schermata viene illustrato come riordinare le colonne dell’elenco mediante il trascinamento o i pulsanti freccia.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![Nella schermata viene illustrato come riordinare le colonne dell’elenco mediante il trascinamento o i pulsanti freccia.](assets/list-reorder.png){zoomable="yes"}{width="70%"}
 
 Ad esempio, per queste impostazioni:
 
-![La schermata mostra un esempio di impostazioni di colonna in Configura le colonne.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![La schermata mostra un esempio di impostazioni di colonna in Configura le colonne.](assets/columns.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 L’elenco mostra le colonne seguenti:
 
-![La schermata mostra l’elenco risultante con le colonne configurate secondo le impostazioni di esempio.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![La schermata mostra l’elenco risultante con le colonne configurate secondo le impostazioni di esempio.](assets/column-sample.png){zoomable="yes"}{width="70%"}
 
 ## Ordinare i dati {#sort-lists}
 
@@ -49,7 +49,7 @@ Per le colonne numeriche o di data, la freccia **su** indica che l’elenco è o
 
 Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o i filtri incorporati e personalizzati per adattare l’elenco in base a criteri contestuali.
 
-![La schermata mostra le opzioni di filtro disponibili per perfezionare la vista a elenco.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![La schermata mostra le opzioni di filtro disponibili per perfezionare la vista a elenco.](assets/filter.png){zoomable="yes"}{width="70%"}
 
 Per informazioni dettagliate su come utilizzare i filtri e creare filtri personalizzati, consulta [questa sezione](../query/filter.md).
 
@@ -75,5 +75,5 @@ Only the most common attributes are displayed by default in the attribute list a
 
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list updates instantly.
 
-[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" zoomable="yes"}
 -->

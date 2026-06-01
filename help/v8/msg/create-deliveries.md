@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 49%
@@ -50,7 +50,7 @@ Per creare una consegna indipendente, effettua le seguenti operazioni:
 1. Scegli un canale per la consegna.
 1. Definisci il pubblico di consegna per il target principale e il gruppo di controllo. [Ulteriori informazioni sui tipi di pubblico](../audience/about-recipients.md)
 
-   ![Schermata che mostra l&#39;interfaccia di selezione del pubblico](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![Schermata che mostra l&#39;interfaccia di selezione del pubblico](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. Definisci il contenuto del messaggio. Ulteriori informazioni sui canali di consegna e su come definire i contenuti di consegna sono disponibili in queste sezioni:
 

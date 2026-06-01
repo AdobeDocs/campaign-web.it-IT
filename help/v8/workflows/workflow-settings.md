@@ -6,9 +6,9 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1070
 ht-degree: 48%
 
 ---
@@ -24,7 +24,7 @@ Durante la creazione di un flusso di lavoro o l’orchestrazione delle attività
 
 Queste impostazioni sono preconfigurate nel modello selezionato durante la creazione del flusso di lavoro, ma possono essere modificate in base alle esigenze per il flusso di lavoro specifico.
 
-![Interfaccia pulsante impostazioni flusso di lavoro](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaccia pulsante impostazioni flusso di lavoro](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## Proprietà del flusso di lavoro {#properties}
 
@@ -35,7 +35,7 @@ Queste impostazioni sono preconfigurate nel modello selezionato durante la creaz
 
 La sezione **[!UICONTROL Proprietà]** fornisce impostazioni generiche che possono essere configurate durante la creazione di un flusso di lavoro. Per accedere alle proprietà di un flusso di lavoro esistente, fai clic sul pulsante **[!UICONTROL Impostazioni]** nella barra delle azioni sopra l&#39;area di lavoro del flusso di lavoro.
 
-![Interfaccia impostazioni flusso di lavoro](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaccia impostazioni flusso di lavoro](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 Queste proprietà includono:
 

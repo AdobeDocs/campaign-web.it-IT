@@ -3,10 +3,10 @@ audience: end-user
 title: Creare un pubblico con il generatore di regole di Campaign
 description: Scopri come utilizzare il generatore di regole
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 28%
+source-wordcount: '624'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ Il generatore di regole ti consente di definire la popolazione target della cons
 
 La palette, che si trova sul lato sinistro, contiene tutti gli elementi su cui puoi filtrare per creare il pubblico. Utilizza la barra di ricerca per trovare rapidamente gli elementi. Sposta le tessere contenute nella palette nell’area di lavoro centrale per configurarle e tenerne conto.
 
-![Interfaccia della tavolozza con opzioni e schede di filtro](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaccia della tavolozza con opzioni e schede di filtro](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 La palette è divisa in due schede:
 
@@ -37,13 +37,13 @@ La palette è divisa in due schede:
 
 L’area di lavoro è l’area centrale in cui puoi configurare e combinare le regole in base agli elementi aggiunti dalla palette. Per aggiungere una nuova regola, trascina una sezione dalla palette e rilasciala nell’area di lavoro. Le opzioni specifiche del contesto vengono presentate in base al tipo di dati aggiunti.
 
-![L&#39;interfaccia dell&#39;area di lavoro mostra le opzioni di configurazione delle regole](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![L&#39;interfaccia dell&#39;area di lavoro mostra le opzioni di configurazione delle regole](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## Il riquadro delle proprietà delle regole
 
 Sul lato destro, il riquadro **Proprietà regola** consente di eseguire le azioni elencate di seguito.
 
-![Il riquadro delle proprietà delle regole mostra le azioni disponibili](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![Il riquadro delle proprietà delle regole mostra le azioni disponibili](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **Visualizza risultati:** Visualizza l&#39;elenco dei profili target del pubblico.
 * **Vista codice**: mostra una versione basata su codice del pubblico in SQL.

@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ Nella sezione **Gestione delle campagne**, puoi accedere a campagne di marketing
 
   Per eliminare o duplicare una consegna, utilizza il pulsante **Altre azioni**.
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [Schermata che mostra il pulsante Altre azioni con opzioni per eliminare o duplicare una consegna.]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [Schermata che mostra il pulsante Altre azioni con opzioni per eliminare o duplicare una consegna.]
 
 * **Flussi di lavoro**: in questa schermata, è possibile accedere all’elenco completo dei flussi di lavoro e dei modelli di flusso di lavoro. Puoi controllarne lo stato, le date dell’ultima/successiva esecuzione e creare un nuovo flusso di lavoro o un nuovo modello di flusso di lavoro. È possibile filtrare l’elenco con gli stessi criteri degli altri oggetti. Inoltre, puoi filtrare i flussi di lavoro che appartengono o meno a una campagna. Per ulteriori informazioni sui flussi di lavoro, consulta [questa sezione](../workflows/gs-workflows.md).
 

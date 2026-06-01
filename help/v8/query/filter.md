@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 416
-ht-degree: 0%
+source-wordcount: 337
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Per applicare i filtri a un elenco, fare clic sul pulsante **[!UICONTROL Mostra 
 
 Viene visualizzato il riquadro Filtri, in cui sono visualizzati i filtri disponibili per l’elenco selezionato. Ad esempio, puoi filtrare le campagne in base al loro stato, alle date di inizio e fine o alla cartella di archiviazione, mentre l’elenco dei servizi di abbonamento può essere filtrato in base al loro canale e alla loro cartella di archiviazione.
 
-![Riquadro Filtri che mostra i filtri disponibili per gli elenchi](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![Riquadro Filtri che mostra i filtri disponibili per gli elenchi](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 Per filtrare un elenco in base a criteri personalizzati, crea un filtro personalizzato. A tale scopo, spostarsi nella parte inferiore del riquadro dei filtri e fare clic sul pulsante **Aggiungi regole**. [Scopri come creare filtri personalizzati](#custom).
 
@@ -46,6 +46,6 @@ I filtri personalizzati ti consentono di perfezionare gli elenchi in base a crit
 
    L’esempio seguente mostra un filtro personalizzato progettato per visualizzare nell’elenco delle campagne le campagne SMS eseguite dagli operatori dei dipartimenti in esecuzione o Yoga.
 
-   ![Esempio di filtro personalizzato che mostra le campagne SMS filtrate per reparto](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![Esempio di filtro personalizzato che mostra le campagne SMS filtrate per reparto](assets/filters-sample.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 1. Una volta configurato il filtro personalizzato, fai clic su **[!UICONTROL Conferma]** per applicarlo all&#39;elenco.

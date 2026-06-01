@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 525
 ht-degree: 100%
@@ -58,7 +58,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Dal campo di input, la guida contestuale basata sull’intelligenza artificiale di Adobe Campaign suggerisce tre domande. Queste domande sono generate dall’intelligenza artificiale, fanno riferimento al riquadro della guida e sono allineate al contesto del prodotto corrente. Seleziona una domanda per ottenere la risposta.
 
-[Esempio di domande suggerite nella Guida contestuale](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Esempio di domande suggerite nella Guida contestuale](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## Risposte {#answers-ai}
 
@@ -66,7 +66,7 @@ La Guida contestuale basata sull’intelligenza artificiale di Adobe Campaign of
 
 Copia una risposta negli Appunti utilizzando l’icona **Copia** nella parte inferiore del popover della guida.
 
-[Esempio di copia di una risposta nella Guida contestuale](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Esempio di copia di una risposta nella Guida contestuale](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 
