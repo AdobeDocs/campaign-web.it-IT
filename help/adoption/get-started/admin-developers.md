@@ -41,9 +41,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3258
+source-wordcount: 3212
 ht-degree: 11%
 
 ---
@@ -164,7 +164,7 @@ Sono disponibili diverse opzioni per personalizzare l’interfaccia utente nella
 
 Ogni azienda dispone di linee guida per il brand che definiscono sia gli elementi visivi che i dettagli tecnici. Per quanto riguarda Adobe Campaign Standard, Adobe Campaign v8 ti consente di gestire queste linee guida a livello centrale, in modo da poter presentare ai clienti un’immagine del brand coerente in tutte le attività, dai loghi nelle e-mail agli URL e ai domini utilizzati nelle campagne. In qualità di amministratore tecnico, puoi creare e gestire più marchi all’interno di Adobe Campaign.
 
-Ulteriori informazioni nella [documentazione sul branding](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
+Ulteriori informazioni nella [documentazione sul branding](../../v8/administration/branding/branding-gs.md)
 
 ## Comprendere la creazione di modelli di dati {#acs-gs-admin-data-model-creation}
 
@@ -206,9 +206,9 @@ Le API REST di Campaign mirano a creare integrazioni per Adobe Campaign e a crea
 
 In qualità di utente di Campaign Standard che passa a Campaign v8, puoi accedere alle API REST.
 
-Ulteriori informazioni sono disponibili nella [documentazione API REST](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+Ulteriori informazioni sono disponibili nella [documentazione API REST](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it){target="_blank"}.
 
-Tieni presente che alcune raccomandazioni e limitazioni si applicano alle API REST durante la transizione da Campaign Standard a Campaign v8. Sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Restrizioni specifiche si applicano anche durante la transizione a Campaign v8 come elencato nella nota sulla disponibilità seguente:
+Tieni presente che alcune raccomandazioni e limitazioni si applicano alle API REST durante la transizione da Campaign Standard a Campaign v8. Sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}. Restrizioni specifiche si applicano anche durante la transizione a Campaign v8 come elencato nella nota sulla disponibilità seguente:
 
 >[!AVAILABILITY]
 >
@@ -348,7 +348,7 @@ Puoi collegare la tua istanza di Campaign con le soluzioni Adobe Experience Clou
 In qualità di utente di Campaign Standard che effettua la migrazione a Campaign v8, ti vale quanto segue:
 
 * Se utilizzavi queste integrazioni con Campaign Standard, le configurazioni e i dati di **Adobe Analytics** e **Audience Manager** sono stati migrati da Adobe.
-* Se il tuo ambiente Campaign Standard è stato integrato con **Adobe Experience Manager**, Adobe ti consiglia di passare a **Adobe Experience Manager as a Cloud Service** in modo da poter utilizzare questa funzionalità durante la progettazione delle e-mail nell&#39;interfaccia utente di Campaign Web e facilitare la gestione semplificata dei contenuti e dei moduli di consegna e-mail direttamente all&#39;interno del tuo ambiente Adobe Experience Manager. Per ulteriori informazioni, consulta [questa pagina](../../v8/integrations/aem-content.md).
+* Se il tuo ambiente Campaign Standard è stato integrato con **Adobe Experience Manager**, Adobe ti consiglia di passare a **Adobe Experience Manager as a Cloud Service** in modo da poter utilizzare questa funzionalità durante la progettazione delle e-mail nell&#39;interfaccia utente di Campaign Web e facilitare la gestione semplificata dei contenuti e dei moduli di consegna e-mail direttamente all&#39;interno del tuo ambiente Adobe Experience Manager. Ulteriori informazioni in [questa pagina](../../v8/integrations/aem-content.md).
 Campaign può essere integrato anche con Adobe Experience Manager 6.5. Per configurare questa integrazione, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * Se l&#39;ambiente Campaign Standard è stato integrato con **Triggers**, è necessario configurare questa integrazione in Campaign v8 come descritto in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
 * Se l&#39;ambiente Campaign Standard è stato integrato con **Adobe Target**, è necessario configurare questa integrazione in Campaign v8 come descritto in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.

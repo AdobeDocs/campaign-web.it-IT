@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2877
-ht-degree: 17%
+source-wordcount: 2803
+ht-degree: 16%
 
 ---
 
@@ -92,7 +92,7 @@ Scopri come creare e gestire i tipi di pubblico, come selezionare i tipi di pubb
 
 Per ulteriori informazioni, consulta [Introduzione a Audiences](../../v8/audience/manage-audience.md){target="_blank"}.
 
-Come in Campaign Standard, puoi aggiungere un gruppo di controllo alla consegna. Puoi definire un gruppo di controllo per evitare di inviare messaggi a una parte del pubblico e confrontare il comportamento successivo alla consegna rispetto al target principale. Questa opzione consente di misurare l’impatto della campagna.
+Come in Campaign Standard, puoi aggiungere un gruppo di controllo alla consegna. Puoi definire un gruppo di controllo per evitare di inviare messaggi a una parte del pubblico e confrontare il comportamento successivo alla consegna con il target principale. Questa opzione consente di misurare l’impatto della campagna.
 Scopri come [impostare un gruppo di controllo](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
@@ -216,7 +216,7 @@ Collegamenti utili:
 >
 >* I collegamenti di tracciamento, i collegamenti URL delle pagine mirror, i collegamenti di abbonamento/annullamento dell’abbonamento funzionano come in Campaign Standard.
 >
->Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
+>Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
 ### Consegna e-mail {#acs-gs-marketers-email}
 
@@ -398,11 +398,11 @@ Adobe Campaign fornisce un set di [strumenti di reporting](https://experiencelea
 
 La suite di strumenti di reporting di Adobe Campaign fornisce informazioni utili sull’efficacia delle attività di marketing, consentendoti di ottimizzare le campagne per il massimo impatto. Ulteriori informazioni sono disponibili nella [documentazione sul reporting](../../v8/reporting/gs-reports.md).
 
-Inoltre, in linea con l’esperienza Adobe Campaign Standard, il Reporting dinamico è disponibile in Campaign v8, per le consegne e-mail. Fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Ulteriori informazioni sono disponibili nella [documentazione di Reporting dinamico](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+Inoltre, in linea con l’esperienza Adobe Campaign Standard, il Reporting dinamico è disponibile in Campaign v8, per le consegne e-mail. Fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Per ulteriori informazioni, consulta la [documentazione sul reporting dinamico](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
->* [Il reporting dinamico](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} può essere utilizzato per il reporting di consegne e-mail, campagne con consegne e-mail e messaggi transazionali. È inoltre disponibile l’analisi demografica per dimensione di profilo.
+>* [Il reporting dinamico](../../v8/reporting/dynamic-reporting/get-started-reporting.md) può essere utilizzato per il reporting di consegne e-mail, campagne con consegne e-mail e messaggi transazionali. È inoltre disponibile l’analisi demografica per dimensione di profilo.
 >
 > * [La funzionalità di reporting per l&#39;interfaccia utente Web di Adobe Campaign](../../v8/reporting/campaign-reports.md) è disponibile anche per tutti gli utenti che passano da Adobe Campaign Standard ad Adobe Campaign v8.
 
