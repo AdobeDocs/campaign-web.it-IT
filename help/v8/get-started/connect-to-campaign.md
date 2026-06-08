@@ -9,9 +9,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -110,8 +110,8 @@ Utilizza la barra superiore per:
 * passare da un’organizzazione all’altra;
 * passare a un’altra soluzione o app di Adobe Experience Cloud;
 * cercare aiuto su [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=it){target="_blank"};
-* Visualizza le notifiche sui prodotti.
-* Modifica il tuo profilo Adobe e gestisci le impostazioni, ad esempio [aggiorna la lingua preferita](#language-pref) o [passa da un tema chiaro a uno scuro](#dark-theme).
+* Visualizza le notifiche dei tuoi prodotti.
+* Modifica il tuo profilo Adobe e gestisci le impostazioni, ad esempio [aggiorna la lingua preferita](#language-pref) o [passa al tema chiaro/scuro](#dark-theme).
 
 ## Browser supportati {#browsers}
 

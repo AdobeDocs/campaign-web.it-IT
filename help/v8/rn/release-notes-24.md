@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 >
 >Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
 >
->Consulta la seguente pagina della documentazione: [Transizione di Campaign Standard a Campaign v8](../rn/acs-migration.md)
+>Consulta la seguente pagina della documentazione: [Passaggio da Campaign Standard a Campaign v8](../rn/acs-migration.md)
 
 * **Branding per direct mail**: gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. I brand ora possono essere creati e collegati a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](../administration/branding/branding-assign.md)
 
@@ -264,7 +264,7 @@ Al momento questa funzione è presente in **Disponibilità limitata** (LA).
 >
 >Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente.
 >
->Consulta la seguente pagina della documentazione: [Transizione di Campaign Standard a Campaign v8](../rn/acs-migration.md)
+>Consulta la seguente pagina della documentazione: [Passaggio da Campaign Standard a Campaign v8](../rn/acs-migration.md)
 
 * **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](../administration/branding/branding-gs.md)
 

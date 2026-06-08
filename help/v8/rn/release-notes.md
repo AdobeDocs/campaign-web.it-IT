@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 610
+ht-degree: 100%
 
 ---
 
@@ -30,17 +30,17 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 ## Versione di aprile 2026 {#26-4-release}
 
-_29 aprile 2026_
+_29 aprile, 2026_
 
 ### Miglioramento {#26-4-improvement}
 
-La sezione **Dati di arricchimento** è ora disponibile nell&#39;attività del flusso di lavoro **Genera pubblico** (tipo di query). Puoi visualizzare, aggiungere, modificare e rimuovere **dati aggiuntivi** direttamente dall&#39;interfaccia utente di Campaign Web. Come nell&#39;attività **Enrichment**, è possibile aggiungere attributi di arricchimento singoli, collegamenti alle raccolte ed espressioni.
+La sezione **Dati di arricchimento** è ora disponibile nell’attività del flusso di lavoro **Crea pubblico** (tipo di query).Puoi visualizzare, aggiungere, modificare e rimuovere **dati aggiuntivi** direttamente dall’interfaccia utente web di Campaign.Come nell’attività **Arricchimento**, è possibile aggiungere attributi di arricchimento singoli, collegamenti alle raccolte ed espressioni.
 
 [Ulteriori informazioni](../workflows/activities/build-audience.md)
 
 ## Versione di marzo 2026 {#26-3-release}
 
-_24 marzo_ 2026_
+_Marzo_ 24, 2026_
 
 ### Nuove funzioni {#26-3-features}
 
@@ -132,6 +132,6 @@ _24 marzo_ 2026_
 
 ### Miglioramenti {#26-3-improvements}
 
-* È stata aggiunta l’attività del flusso di lavoro **Inizio** per migliorare la compatibilità con la console client. Questa attività è facoltativa e non viene inserita per impostazione predefinita nei nuovi flussi di lavoro. Tuttavia, viene aggiunto automaticamente ai flussi di lavoro esistenti.
+* L’attività del flusso di lavoro **Avvia** è stata aggiunta per migliorare la compatibilità con Client Console. Questa attività è facoltativa e non viene inserita per impostazione predefinita nei nuovi flussi di lavoro. Tuttavia, viene aggiunta automaticamente ai flussi di lavoro esistenti.
   [Ulteriori informazioni](../workflows/activities/about-activities.md#flow-control)
 * Nelle impostazioni **Pianificazione** di una consegna, il campo di selezione del fuso orario è stato spostato sotto il campo **Data di contatto**. [Ulteriori informazioni](../msg/create-deliveries.md#gs-schedule)

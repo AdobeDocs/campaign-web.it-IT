@@ -13,7 +13,7 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 203
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Ora che conosci le funzionalità di Adobe Campaign Web, esplora le sezioni della
 </td>
 <td>
 <a href="create-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="Creare un’immagine per i tipi di pubblico">
+<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="Immagine di Creare tipi di pubblico">
 </a>
 <div><a href="create-audience.md"><strong>Creare tipi di pubblico</strong>
 </div>
@@ -49,7 +49,7 @@ Ora che conosci le funzionalità di Adobe Campaign Web, esplora le sezioni della
 </td>
 <td>
 <a href="manage-services.md">
-<img src="../assets/do-not-localize/profiles-audiences-service.png" alt="Gestire l’immagine per i servizi">
+<img src="../assets/do-not-localize/profiles-audiences-service.png" alt="Immagine di Gestire i servizi">
 </a>
 <div>
 <a href="manage-services.md"><strong>Gestire i servizi</strong></a>
@@ -57,7 +57,7 @@ Ora che conosci le funzionalità di Adobe Campaign Web, esplora le sezioni della
 <p></td>
 <td>
 <a href="add-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-deliveries.png" alt="Selezionare l’immagine dei destinatari della consegna">
+<img src="../assets/do-not-localize/profiles-audiences-deliveries.png" alt="Immagine di Selezionare i destinatari della consegna">
 </a>
 <div>
 <a href="add-audience.md"><strong>Selezionare i destinatari della consegna</strong></a>

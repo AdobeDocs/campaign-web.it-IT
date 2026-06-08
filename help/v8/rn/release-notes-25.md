@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e personalizzare i tuoi marchi per definire chiaramente la tua identità visiva e verbale nelle comunicazioni. Con il punteggio di Allineamento al marchio, puoi ricevere feedback in tempo reale su come il contenuto riflette il tono, lo stile e le linee guida del tuo marchio, consentendoti di rimanere costantemente nel marchio con ogni messaggio inviato.
+<p>Ora è possibile creare e personalizzare i tuoi brand per definire chiaramente la tua identità visiva e verbale in tutte le comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere in linea con il brand in modo coerente in ogni messaggio inviato.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../content/brands.md">documentazione dettagliata</a>.</p>
 </td>
@@ -649,8 +649,8 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 <tbody>
 <tr>
 <td>
-<p>In qualità di amministratore di Campaign, ora puoi impostare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web.
-Puoi anche visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
+<p>In qualità di amministratore di Campaign, ora puoi configurare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web.
+Inoltre, puoi visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -688,7 +688,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente. Richiedono un aggiornamento del server Campaign alla versione v8.7.4.
 >
->Consulta la seguente pagina della documentazione: [Transizione di Campaign Standard a Campaign v8](../rn/acs-migration.md)
+>Consulta la seguente pagina della documentazione: [Passaggio da Campaign Standard a Campaign v8](../rn/acs-migration.md)
 
 * **Creazione di consegne multilingue**: nell’interfaccia utente di Adobe Campaign Web ora puoi inviare più consegne di e-mail in lingue diverse. La funzione Consegna multilingue consente di scegliere la lingua predefinita della consegna e le diverse lingue in cui la consegna può essere inviata. Puoi anche visualizzare l’anteprima di queste consegne nelle lingue scelte. Per ulteriori informazioni, consulta la [documentazione dettagliata](../email/edit-content.md).
 
