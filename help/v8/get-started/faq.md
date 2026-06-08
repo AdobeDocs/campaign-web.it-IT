@@ -3,12 +3,10 @@ title: Domande frequenti
 description: Domande frequenti sull’interfaccia utente di Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
 ht-degree: 100%
 
@@ -16,7 +14,7 @@ ht-degree: 100%
 
 # Domande frequenti
 
-Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}.
+Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
 
 +++ Con quale versione di Adobe Campaign è possibile accedere alla nuova interfaccia utente web?
 

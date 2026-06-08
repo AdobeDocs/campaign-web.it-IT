@@ -3,25 +3,14 @@ title: Note sulla versione precedente dell’interfaccia utente di Campaign Web 
 description: Versioni 2025 dell’interfaccia utente di Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -324,7 +313,7 @@ table>
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -375,7 +364,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e personalizzare i tuoi marchi per definire chiaramente la tua identità visiva e verbale nelle comunicazioni. Con il punteggio di Allineamento al marchio, puoi ricevere feedback in tempo reale su come il contenuto riflette il tono, lo stile e le linee guida del tuo marchio, consentendoti di rimanere costantemente nel marchio con ogni messaggio inviato.
+<p>Ora è possibile creare e personalizzare i tuoi brand per definire chiaramente la tua identità visiva e verbale in tutte le comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere in linea con il brand in modo coerente in ogni messaggio inviato.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../content/brands.md">documentazione dettagliata</a>.</p>
 </td>
@@ -473,14 +462,14 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=it){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -507,10 +496,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=it) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -649,8 +638,8 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 <tbody>
 <tr>
 <td>
-<p>In qualità di amministratore di Campaign, ora puoi impostare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web.
-Puoi anche visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
+<p>In qualità di amministratore di Campaign, ora puoi configurare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web.
+Inoltre, puoi visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -688,7 +677,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Le seguenti funzionalità sono in Disponibilità limitata (LA). Ciò significa che sono limitate a chi esegue la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuite in nessun altro ambiente. Richiedono un aggiornamento del server Campaign alla versione v8.7.4.
 >
->Consulta la seguente pagina della documentazione: [Transizione di Campaign Standard a Campaign v8](../rn/acs-migration.md)
+>Consulta la seguente pagina della documentazione: [Passaggio da Campaign Standard a Campaign v8](../rn/acs-migration.md)
 
 * **Creazione di consegne multilingue**: nell’interfaccia utente di Adobe Campaign Web ora puoi inviare più consegne di e-mail in lingue diverse. La funzione Consegna multilingue consente di scegliere la lingua predefinita della consegna e le diverse lingue in cui la consegna può essere inviata. Puoi anche visualizzare l’anteprima di queste consegne nelle lingue scelte. Per ulteriori informazioni, consulta la [documentazione dettagliata](../email/edit-content.md).
 

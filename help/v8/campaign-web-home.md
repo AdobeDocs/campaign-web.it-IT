@@ -4,16 +4,12 @@ description: Centro risorse di Campaign Web
 title: Documentazione di prodotto di Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 547
+workflow-type: ht
+source-wordcount: 506
 ht-degree: 100%
 
 ---
@@ -98,7 +94,7 @@ Le domande frequenti sull’interfaccia utente web di Campaign sono elencate in 
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>Area per flussi di lavoro riprogettata</strong><br/>Scopri come creare flussi di lavoro per orchestrare l’intera gamma di processi e attività e migliorare la velocità e la portata di ogni aspetto delle tue campagne di marketing.</div><br/>
+    <div><strong>Area di lavoro del flusso di lavoro riprogettata</strong><br/>Scopri come creare flussi di lavoro per orchestrare l’intera gamma di processi e attività e migliorare la velocità e la portata di ogni aspetto delle tue campagne di marketing.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -124,22 +120,22 @@ Le domande frequenti sull’interfaccia utente web di Campaign sono elencate in 
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introduzione</strong><br/><a href="get-started/user-interface.md">Interfaccia utente</a> - <a href="get-started/connect-to-campaign.md">Connessione a Campaign</a> - <a href="get-started/permissions.md">Accesso e autorizzazioni</a>
+      <strong>Introduzione</strong><br/><a href="get-started/user-interface.md">Interfaccia utente</a> - <a href="get-started/connect-to-campaign.md">Connettiti a Campaign</a> - <a href="get-started/permissions.md">Accesso e autorizzazioni</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Esperienza cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizzare con i flussi di lavoro</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestrazione delle campagne</a> - <a href="personalization/gs-personalization.md">Contenuti dinamici</a> - <a href="reporting/gs-reports.md"> Reporting e analisi</a>
+      <strong>Esperienza cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatizzare con i flussi di lavoro</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orchestrazione delle campagne</a> - <a href="personalization/gs-personalization.md">Contenuti dinamici</a> - <a href="reporting/gs-reports.md">Reporting e analisi</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Inviare messaggi</strong><br/><a href="msg/gs-deliveries.md">Creare una consegna</a> - <a href="email/create-email.md">E-mail</a> -  <a href="push/gs-push.md">Notifiche push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelli di consegna</a> - <a href="preview-test/preview-test.md">Anteprima e test</a> 
+      <strong>Inviare messaggi</strong><br/><a href="msg/gs-deliveries.md">Creare una consegna</a> - <a href="email/create-email.md">E-mail</a> -<a href="push/gs-push.md">Notifiche push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Modelli di consegna</a> - <a href="preview-test/preview-test.md">Anteprima e test</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-    <br/>
-      <strong>Profili e tipi di pubblico</strong><br/><a href="audience/gs-audiences-recipients.md">Introduzione</a> - <a href="audience/create-audience.md">Creare tipi di pubblico</a> - <a href="audience/test-profiles.md">Profili di test</a> - <a href="audience/manage-services.md">Servizi in abbonamento</a> - <a href="query/query-modeler-overview.md">Query modeler</a>
+ <br/>
+ <strong>Profili e tipi di pubblico</strong><br/><a href="audience/gs-audiences-recipients.md">Introduzione</a> - <a href="audience/create-audience.md">Crea tipi di pubblico</a> - <a href="audience/test-profiles.md">Profili di test</a> - <a href="audience/manage-services.md">Servizi in abbonamento</a> - <a href="query/query-modeler-overview.md">Query modeler</a>
     </td>
   </tr>
 </table>
