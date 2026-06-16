@@ -10,10 +10,10 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2064
-ht-degree: 35%
+source-wordcount: 2327
+ht-degree: 31%
 
 ---
 
@@ -28,7 +28,7 @@ L’attività **Arricchimento** è un’attività di **targeting**. Migliora i d
 
 >[!NOTE]
 >
->L&#39;attività **Genera pubblico** consente inoltre di aggiungere **dati aggiuntivi**. Vedi [Utilizzare l&#39;attività Genera pubblico](build-audience.md#build-audience-configuration).
+>L&#39;attività **Genera pubblico** (tipo di query) supporta anche **dati di arricchimento**. Vedi [Ulteriori informazioni](build-audience.md#build-audience-configuration).
 
 I dati di arricchimento possono provenire da:
 
@@ -62,19 +62,50 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 >title="Attività di Arricchimento"
 >abstract="Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare la clientela in gruppi distinti in base a comportamenti, preferenze ed esigenze, o per creare messaggi e campagne di marketing personalizzati in grado suscitare interesse nel pubblico target."
 
+La sezione **Dati di arricchimento** è disponibile nelle attività **Arricchimento** e **Genera pubblico** (tipo di query). Consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database, ad esempio riferimenti di contratto o abbonamenti a newsletter. I dati vengono memorizzati con il pubblico nella **tabella di lavoro** del flusso di lavoro e sono disponibili per le attività successive. Puoi aggiungere attributi di arricchimento singoli, collegamenti di raccolte o espressioni e accedere a opzioni avanzate.
 
+Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per l&#39;arricchimento. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md).
 
-1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per l&#39;arricchimento. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md).
+Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ogni tipo è descritto negli esempi seguenti:
 
-   Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dalla dimensione di destinazione o un collegamento di raccolta. Ogni tipo è descritto negli esempi seguenti:
-   * [Attributo di arricchimento singolo](#single-attribute)
-   * [Collegamento di raccolta](#collection-link)
+* [Attributo di arricchimento singolo](#single-attribute)
+* [Collegamento di raccolta](#collection-link)
 
-   >[!NOTE]
-   >
-   >Il pulsante **Modifica espressione** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l&#39;attributo. [Scopri come utilizzare l&#39;editor espressioni](../../query/expression-editor.md).
+>[!NOTE]
+>
+>Il pulsante **Modifica espressione** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l&#39;attributo. [Scopri come utilizzare l&#39;editor espressioni](../../query/expression-editor.md).
 
-   ![Schermata che mostra la schermata di selezione dei dati di arricchimento](../assets/workflow-enrichment1.png)
+![Schermata che mostra la schermata di selezione dei dati di arricchimento](../assets/workflow-enrichment1.png)
+
+Dopo aver aggiunto almeno un attributo di arricchimento, fare clic su **[!UICONTROL Parametri avanzati]** per configurare la modalità di creazione dei dati di arricchimento, inclusi raggruppamento, deduplicazione, gestione della chiave primaria e dati evento in entrata. Queste opzioni rispecchiano la console client e sono destinate a scenari di flusso di lavoro avanzati.
+
+![Schermata che mostra i parametri avanzati di arricchimento](../assets/workflow-query-advanced-parameters.png)
+
+>[!NOTE]
+>
+>Le opzioni disponibili sono diverse tra le attività **Genera pubblico** e **Arricchisci**.
+
+Per ogni attività sono disponibili le seguenti opzioni:
+
++++ Genera attività pubblico (tipo di query)
+
+* **[!UICONTROL Mantieni tutti i dati aggiuntivi dal set principale]**: mantiene colonne aggiuntive dal set principale in entrata nella transizione di output.
+* **[!UICONTROL Raggruppa i dati per elemento dimensione di destinazione]**: raggruppa il risultato in modo che ogni record di destinazione venga visualizzato una sola volta.
+* **[!UICONTROL Rimuovi righe duplicate (DISTINCT)]**: rimuove le righe duplicate dal set di risultati.
+* **[!UICONTROL Disattiva l&#39;aggiunta automatica delle chiavi primarie della dimensione di targeting]**: impedisce all&#39;attività di aggiungere automaticamente al risultato le chiavi primarie della dimensione di targeting.
+* **[!UICONTROL Disabilita il filtro automatico di 0 record ID]**: mantiene i record il cui valore di identificatore è 0 invece di filtrarli automaticamente.
+* **[!UICONTROL Utilizza dati evento in entrata]**: utilizza i dati della transizione in entrata come input di lavoro dell&#39;attività.
+
++++
+
++++ Attività Arricchimento
+
+* **[!UICONTROL Raggruppa i dati per elemento dimensione di destinazione]**: raggruppa il risultato in modo che ogni record di destinazione venga visualizzato una sola volta.
+* **[!UICONTROL Rimuovi righe duplicate (DISTINCT)]**: rimuove le righe duplicate dal set di risultati.
+* **[!UICONTROL Disabilita il filtro automatico di 0 record ID]**: mantiene i record il cui valore di identificatore è 0 invece di filtrarli automaticamente.
+* **[!UICONTROL Aggiungi un identificatore per ogni riga del risultato]**: aggiunge un identificatore univoco a ogni riga di output.
+
++++
 
 ## Creare collegamenti tra tabelle {#create-links}
 
@@ -180,7 +211,7 @@ Ora puoi utilizzare l’offerta nell’attività di consegna.
 All’interno di un flusso di lavoro, se desideri utilizzare le offerte che ottieni da un’attività di arricchimento nella consegna, segui i passaggi seguenti:
 
 1. Apri l’attività di consegna e vai nell’edizione dei contenuti. Fai clic sul pulsante **[!UICONTROL Impostazioni offerte]** e seleziona nell&#39;elenco a discesa lo spazio **[!UICONTROL Offerte]** corrispondente alla tua offerta.
-Se si desidera visualizzare solo le offerte dell&#39;attività di arricchimento, impostare il numero di **[!UICONTROL proposte]** su 0 e salvare le modifiche.
+Se desideri visualizzare solo le offerte dell&#39;attività di arricchimento, imposta il numero di **[!UICONTROL Proposte]** su 0 e salva le modifiche.
 
    ![](../assets/offers-settings.png)
 

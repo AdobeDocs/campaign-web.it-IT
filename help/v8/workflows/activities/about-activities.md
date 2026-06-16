@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 25%
+source-wordcount: 583
+ht-degree: 19%
 
 ---
 
@@ -66,19 +66,9 @@ Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing s
 ## Attività di controllo del flusso {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="Attività Fine"
->abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Attività Fine"
 >abstract="L’attività **Inizio** consente di contrassegnare graficamente l’inizio di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="Segnale esterno"
->abstract="segnaposto per la sezione sul segnale esterno nei parametri dell’attività Fine. Disponibile solo per le campagne orchestrate. NON ELIMINARE"
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
@@ -86,7 +76,7 @@ Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione de
 * [Fork](fork.md): crea transizioni in uscita per avviare più attività contemporaneamente.
 * [Partecipa](join.md): sincronizza più rami di esecuzione di un flusso di lavoro.
 * [Modulo di pianificazione](scheduler.md): pianificazione all&#39;avvio del flusso di lavoro.
-* **Inizio** e **Fine**: contrassegnare graficamente l&#39;inizio e la fine di un flusso di lavoro. Sono facoltativi e non hanno alcun impatto funzionale.
+* **Inizio** e [Fine](end.md): contrassegnare graficamente l&#39;inizio e la fine di un flusso di lavoro. Sono facoltativi e non hanno alcun impatto funzionale.
 
   >[!NOTE]
   >

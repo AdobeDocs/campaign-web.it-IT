@@ -6,10 +6,10 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 53%
+source-wordcount: 518
+ht-degree: 52%
 
 ---
 
@@ -63,7 +63,7 @@ Per creare una query personalizzata, effettua le seguenti operazioni:
 1. Scegliere la **dimensione filtro** facendo clic sull&#39;icona accanto alla dimensione di targeting. La dimensione di filtro consente di applicare filtri alla popolazione target facendo riferimento a criteri correlati senza modificare la dimensione di targeting principale. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/targeting-dimensions.md#filtering)
 1. Fai clic su **Continua**.
 1. Utilizza il modellatore di query per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
-1. Utilizza la sezione **Dati di arricchimento** per migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database, ad esempio riferimenti a contratti o abbonamenti a newsletter. I dati vengono memorizzati con il pubblico nella **tabella di lavoro** del flusso di lavoro e sono disponibili per le attività successive. È possibile aggiungere attributi di arricchimento singoli, collegamenti a raccolte o espressioni. Per i passaggi dettagliati e gli esempi, vedi [Aggiungere dati di arricchimento](enrichment.md#enrichment-add).
+1. Utilizza la sezione **Dati di arricchimento** per migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database, ad esempio riferimenti a contratti o abbonamenti a newsletter. I dati vengono memorizzati con il pubblico nella **tabella di lavoro** del flusso di lavoro e sono disponibili per le attività successive. Puoi aggiungere attributi di arricchimento singoli, collegamenti di raccolte o espressioni e accedere a opzioni avanzate. Per i passaggi dettagliati e gli esempi, vedi [Aggiungere dati di arricchimento](enrichment.md#enrichment-add).
 
 >[!TAB Leggi pubblico]
 
