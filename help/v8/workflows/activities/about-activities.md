@@ -4,20 +4,14 @@ title: Utilizzare le attività dei flussi di lavoro
 description: Scopri come utilizzare le attività dei flussi di lavoro
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 25%
+source-wordcount: 583
+ht-degree: 19%
 
 ---
 
@@ -66,19 +60,9 @@ Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing s
 ## Attività di controllo del flusso {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="Attività Fine"
->abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Attività Fine"
 >abstract="L’attività **Inizio** consente di contrassegnare graficamente l’inizio di un flusso di lavoro. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="Segnale esterno"
->abstract="segnaposto per la sezione sul segnale esterno nei parametri dell’attività Fine. Disponibile solo per le campagne orchestrate. NON ELIMINARE"
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione dei flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività:
 
@@ -86,7 +70,7 @@ Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione de
 * [Fork](fork.md): crea transizioni in uscita per avviare più attività contemporaneamente.
 * [Partecipa](join.md): sincronizza più rami di esecuzione di un flusso di lavoro.
 * [Modulo di pianificazione](scheduler.md): pianificazione all&#39;avvio del flusso di lavoro.
-* **Inizio** e **Fine**: contrassegnare graficamente l&#39;inizio e la fine di un flusso di lavoro. Sono facoltativi e non hanno alcun impatto funzionale.
+* **Inizio** e [Fine](end.md): contrassegnare graficamente l&#39;inizio e la fine di un flusso di lavoro. Sono facoltativi e non hanno alcun impatto funzionale.
 
   >[!NOTE]
   >
