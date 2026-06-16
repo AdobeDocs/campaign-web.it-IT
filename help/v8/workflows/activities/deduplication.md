@@ -4,12 +4,11 @@ title: Utilizzare l’attività Deduplica nei flussi di lavoro
 description: Scopri come utilizzare l’attività Deduplica nei flussi di lavoro
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: bf9d5d07ffca9c79821559e7fc75a930728e2f5a
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 54%
+source-wordcount: 769
+ht-degree: 41%
 
 ---
 
@@ -23,7 +22,12 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Attività Deduplica"
->abstract="L’attività **Deduplica** elimina i duplicati nei risultati delle attività in entrata. Viene utilizzata principalmente dopo le attività di targeting e prima delle attività che utilizzano dati target."
+>abstract="L’attività **Deduplica** elimina i duplicati nei risultati delle attività in entrata. Viene utilizzata principalmente dopo le attività di targeting e prima delle attività che utilizzano dati target. Quando è disponibile più di una transizione in entrata, utilizzare la sezione **Set da unire** per selezionare le transizioni da connettere all&#39;attività."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_sets"
+>title="Set da unire"
+>abstract="Controlla le attività precedenti che desideri connettere come transizioni in entrata dell&#39;attività **Deduplicazione**. Le attività selezionate sono quindi connesse alla **deduplicazione**. Questa sezione viene visualizzata solo quando è disponibile più di una transizione in entrata per essere connessa all’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -37,6 +41,8 @@ ht-degree: 54%
 
 L’attività **Deduplica** è un’attività di **targeting**. Questa attività elimina i duplicati nei risultati delle attività in entrata, ad esempio i profili duplicati nell’elenco dei destinatari. L&#39;attività **Deduplication** viene generalmente utilizzata dopo le attività di targeting e prima delle attività che utilizzano dati di destinazione.
 
+L’attività supporta più transizioni in entrata. Quando è disponibile più di una transizione in entrata, utilizza la sezione **Set da unire** nelle proprietà dell&#39;attività per selezionare le transizioni da connettere all&#39;attività. Le transizioni selezionate sono quindi collegate alla **deduplicazione** nell&#39;area di lavoro del flusso di lavoro.
+
 ## Configurare l’attività Deduplica {#deduplication-configuration}
 
 Per configurare l’attività **Deduplica** segui questi passaggi:
@@ -44,6 +50,12 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 ![Processo di configurazione deduplicazione flusso di lavoro](../assets/workflow-deduplication.png)
 
 1. Aggiungi un’attività **Deduplica** al flusso di lavoro.
+
+1. Nella sezione **Set da unire**, controlla le attività precedenti che desideri connettere come transizioni in entrata dell&#39;attività **Deduplicazione**. Le attività selezionate sono quindi collegate alla **deduplicazione** nell&#39;area di lavoro del flusso di lavoro. Utilizza il campo **Set primario** per definire la transizione in entrata di riferimento. I record degli altri set vengono confrontati con il set principale per identificare i duplicati.
+
+   >[!NOTE]
+   >
+   >Questa sezione viene visualizzata solo quando sono disponibili più transizioni in entrata.
 
 1. Nella sezione **Campi per identificare i duplicati**, fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome e cognome. L’ordine dei campi specifica quali elaborare per primi. [Scopri come selezionare gli attributi e aggiungerli ai preferiti](../../get-started/attributes.md).
 
