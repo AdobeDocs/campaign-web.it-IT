@@ -3,18 +3,12 @@ title: Note sulla versione dell’interfaccia utente di Campaign Web v8
 description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +36,7 @@ _16 giugno 2026_
 
 * Le attività del flusso di lavoro **Deduplicazione** e **Fine** ora supportano più transizioni in entrata. Quando
 sono disponibili più transizioni in entrata. Utilizzare la sezione **Set per partecipare** nell&#39;attività
-proprietà per selezionare le transizioni da connettere. Ulteriori informazioni in queste pagine: [Deduplicazione](../workflows/activities/deduplication.md),
-
-<!--
-[End](../workflows/activities/end.md)
--->
+proprietà per selezionare le transizioni da connettere. Ulteriori informazioni in queste pagine: [Deduplicazione](../workflows/activities/deduplication.md), [Fine](../workflows/activities/end.md)
 
 * I parametri avanzati sono ora esposti nella sezione **Dati di arricchimento** delle attività del flusso di lavoro **Genera pubblico** (tipo di query) e **Arricchisci**. Questi parametri consentono di perfezionare il modo in cui vengono generati i dati di arricchimento, inclusi i dati di raggruppamento, deduplicazione, gestione della chiave primaria e dati evento in entrata. [Ulteriori informazioni](../workflows/activities/enrichment.md)
 
