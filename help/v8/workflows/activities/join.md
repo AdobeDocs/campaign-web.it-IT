@@ -5,8 +5,8 @@ description: Scopri come utilizzare l’attività del flusso di lavoro Partecipa
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 38%
+source-wordcount: '473'
+ht-degree: 39%
 
 ---
 
