@@ -6,10 +6,10 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 68%
+source-wordcount: 456
+ht-degree: 64%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 68%
 Dopo aver preparato la consegna e aver fatto clic sul pulsante **Invia**, sfoglia i registri di consegna per verificare gli avvisi, gli errori, lo stato, le esclusioni e i dati di tracciamento. Questi registri sono accessibili direttamente dalla dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
 
 Per visualizzare i registri, accedi alla dashboard di consegna e fai clic sul pulsante **Registri**.
+
+>[!TIP]
+>
+>Ogni scheda di registro può essere esportata come file CSV utilizzando il pulsante **Esporta righe caricate come CSV** sopra l&#39;elenco. Ulteriori informazioni in [Esporta dati elenco](../get-started/list-filters.md#export-list).
 
 Sono disponibili le seguenti schede:
 
