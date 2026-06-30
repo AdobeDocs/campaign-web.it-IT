@@ -4,14 +4,12 @@ title: Progettare una consegna direct mail
 description: Scopri come progettare la consegna di direct mailing con Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 19%
+source-wordcount: 648
+ht-degree: 18%
 
 ---
 
@@ -48,7 +46,7 @@ Per progettare il contenuto del file di estrazione generato dalla consegna di di
    * **[!UICONTROL Separatore colonne]** (formato testo): specificare il carattere da utilizzare come separatore colonne nel file di estrazione.
    * **[!UICONTROL Delimitatore stringa]** (formato testo): specifica come delimitare le stringhe nel file di estrazione.
    * **[!UICONTROL Fine riga]** (formato testo): specifica come delimitare la fine delle righe nel file di estrazione.
-   * **[!UICONTROL Codifica]**: scegli la codifica del file di estrazione.
+   * **[!UICONTROL Codifica]**: scegli la codifica del file di estrazione. La codifica predefinita è **Latin-1 (1252)**. Durante la creazione delle consegne di direct mailing indirizzate a destinatari in lingue CJK (giapponese, coreano, cinese semplificato e cinese tradizionale), seleziona invece **UTF-8 (65001)**. Latin-1 non può rappresentare caratteri CJK e darà luogo a un’anteprima di file vuota.
    * **[!UICONTROL Formato data e separatori]**: specificare la modalità di formattazione delle date nel file di estrazione.
    * **[!UICONTROL Formato numero]**: specificare la modalità di formattazione dei numeri nel file di estrazione.
    * **[!UICONTROL Esporta etichette anziché valori interni delle enumerazioni]**: attiva questa opzione se esporti valori di enumerazione e desideri recuperare le etichette di colonna, che sono più facili da comprendere, anziché gli ID interni.
