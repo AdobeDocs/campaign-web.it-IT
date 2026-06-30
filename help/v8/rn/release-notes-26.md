@@ -3,9 +3,9 @@ title: Note sulla versione precedente dell’interfaccia utente di Campaign Web 
 description: Versioni 2026 dell’interfaccia utente di Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -219,11 +219,11 @@ _27 gennaio 2026_
 <tbody>
 <tr>
 <td>
-<p>La funzione di consegna multilingue è ora disponibile per tutti i clienti (GA). Questa funzione consente di inviare più messaggi in diverse lingue nell’interfaccia utente di Adobe Campaign Web. Puoi scegliere la lingua predefinita della consegna e le diverse lingue in cui la consegna può essere inviata. Puoi anche visualizzare in anteprima queste consegne nelle lingue scelte. 
+<p>La funzione Consegna multilingue è disponibile per tutti i clienti (GA) e consente di inviare più messaggi in lingue diverse nell’interfaccia utente web di Adobe Campaign. Puoi scegliere la lingua predefinita per le consegne, nonché le diverse lingue in cui la consegna può essere inviata. Puoi inoltre visualizzare un’anteprima di tali consegne nelle lingue che hai selezionato.
 <p>Per ulteriori informazioni, consulta la <a href="../msg/multilingual.md">documentazione dettagliata</a>.</p>
 <p>Sono stati apportati i seguenti miglioramenti alle notifiche push multilingue:</p>
 <ul>
-<li>Ora puoi compilare rapidamente tutte le varianti di lingua caricando un file CSV contenente il tuo contenuto multilingue. <a href="../msg/multilingual.md#csv-upload">Ulteriori informazioni</a>
+<li>Ora puoi compilare rapidamente tutte le varianti di lingua caricando un file CSV che contiene il tuo contenuto multilingue. <a href="../msg/multilingual.md#csv-upload">Scopri di più</a>
 </li>
 <li>Sono ora supportate le notifiche push potenziate.</li>
 </td>
