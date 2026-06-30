@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 243
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ _16 giugno 2026_
 * Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
 -->
 
-* Ora puoi esportare dati da qualsiasi schermata dell’elenco, compresi i registri di tracciamento. Trova il tuo elenco e clicca sul pulsante di esportazione. L’esportazione include le righe attualmente caricate e tiene conto delle colonne visualizzate sullo schermo e di eventuali filtri di ricerca attivi. [Ulteriori informazioni](../get-started/list-filters.md)
+* Ora puoi esportare dati da qualsiasi schermata dell’elenco, inclusi i registri di tracciamento.Trova il tuo elenco e fai semplicemente clic sul pulsante di esportazione.L’esportazione include le righe attualmente caricate e tiene conto delle colonne visualizzate sullo schermo e di eventuali ricerche o filtri attivi.[Ulteriori informazioni](../get-started/list-filters.md)
 
-* Le attività del flusso di lavoro **Deduplicazione** e **Fine** ora supportano più transizioni in entrata. Quando
-sono disponibili più transizioni in entrata. Utilizzare la sezione **Set per partecipare** nell&#39;attività
-proprietà per selezionare le transizioni da connettere. Ulteriori informazioni in queste pagine: [Deduplicazione](../workflows/activities/deduplication.md), [Fine](../workflows/activities/end.md)
+* Le attività del flusso di lavoro **Deduplica** e **Termina** ora supportano più transizioni in entrata.Quando
+è disponibile più di una transizione in entrata, usa la sezione **Set da unire** nelle
+proprietà dell’attività per selezionare le transizioni da connettere.Ulteriori informazioni sono disponibili in queste pagine: [Deduplica](../workflows/activities/deduplication.md), [Fine](../workflows/activities/end.md)
 
-* I parametri avanzati sono ora esposti nella sezione **Dati di arricchimento** delle attività del flusso di lavoro **Genera pubblico** (tipo di query) e **Arricchisci**. Questi parametri consentono di perfezionare il modo in cui vengono generati i dati di arricchimento, inclusi i dati di raggruppamento, deduplicazione, gestione della chiave primaria e dati evento in entrata. [Ulteriori informazioni](../workflows/activities/enrichment.md)
+* I parametri avanzati sono ora esposti nella sezione **Dati di arricchimento** delle attività del flusso di lavoro **Genera pubblico** (tipo di query) e **Arricchimento**.Questi parametri consentono di ottimizzare la creazione dei dati di arricchimento, inclusi il raggruppamento, la deduplica, la gestione delle chiavi primarie e i dati degli eventi in entrata.[Ulteriori informazioni](../workflows/activities/enrichment.md)
 
 <!--
 * Delivery templates now allow you to define a time zone in the Schedule settings.

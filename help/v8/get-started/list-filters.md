@@ -9,15 +9,15 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 433
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Sfogliare e filtrare gli elenchi {#list-screens}
 
-La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elenchi di oggetti, ad esempio l’elenco **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. Puoi personalizzare la visualizzazione dell’elenco, filtrare questi elenchi ed esportare i dati dell’elenco come file CSV, come descritto di seguito.
+La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elenchi di oggetti, ad esempio l’elenco **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, nonché esportare i dati di tali elenchi in formato CSV, come descritto di seguito.
 
 ## Personalizzare le schermate di elenco {#custom-lists}
 
@@ -53,16 +53,16 @@ Per trovare gli elementi più rapidamente, puoi utilizzare la barra di ricerca o
 
 Per informazioni dettagliate su come utilizzare i filtri e creare filtri personalizzati, consulta [questa sezione](../query/filter.md).
 
-## Esporta dati elenco {#export-list}
+## Esportare i dati dell’elenco {#export-list}
 
-Puoi esportare dati da qualsiasi schermata dell’elenco, compresi i registri di tracciamento. Per esportare un elenco, effettuare le seguenti operazioni:
+Puoi esportare dati da qualsiasi schermata dell’elenco, compresi i registri di tracciamento.Per esportare un elenco, segui questi passaggi:
 
 1. Apri l’elenco da esportare.
-1. Regola le colonne visualizzate e applica la ricerca o i filtri desiderati. L’esportazione tiene conto delle colonne visualizzate sullo schermo e di eventuali filtri di ricerca attivi.
-1. Scorri verso il basso per riprodurre altre righe, se necessario. Vengono esportate solo le righe attualmente caricate nell’elenco.
-1. Fai clic sul pulsante **Esporta righe caricate come CSV** sopra l&#39;elenco. Il file viene salvato nella cartella di download predefinita del browser.
+1. Modifica le colonne visualizzate e applica la ricerca o i filtri desiderati.L’esportazione tiene conto delle colonne visualizzate sullo schermo e di eventuali ricerche o filtri attivi.
+1. Scorri verso il basso per visualizzare più righe, se necessario.Vengono esportate solo le righe attualmente caricate nell’elenco.
+1. Fai clic sul pulsante **Esporta righe caricate come CSV** sopra l’elenco.Il file viene salvato nella cartella dei download predefinita del browser.
 
-![La schermata mostra l&#39;esportazione di un elenco.](assets/filter-export.png){zoomable="yes"}
+![La schermata mostra l’esportazione di un elenco.](assets/filter-export.png){zoomable="yes"}
 
 
 <!--
