@@ -9,7 +9,7 @@ product_v2:
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 41%
+ht-degree: 50%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Attività Deduplica"
->abstract="L’attività **Deduplica** elimina i duplicati nei risultati delle attività in entrata. Viene utilizzata principalmente dopo le attività di targeting e prima delle attività che utilizzano dati target. Quando è disponibile più di una transizione in entrata, utilizzare la sezione **Set da unire** per selezionare le transizioni da connettere all&#39;attività."
+>abstract="L’attività **Deduplica** elimina i duplicati nei risultati delle attività in entrata. Viene utilizzata principalmente dopo le attività di targeting e prima delle attività che utilizzano dati target. Quando è disponibile più di una transizione in entrata, utilizza la sezione **Set da unire** per selezionare le transizioni da connettere all’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
 >title="Set da unire"
->abstract="Controlla le attività precedenti che desideri connettere come transizioni in entrata dell&#39;attività **Deduplicazione**. Le attività selezionate sono quindi connesse alla **deduplicazione**. Questa sezione viene visualizzata solo quando è disponibile più di una transizione in entrata per essere connessa all’attività."
+>abstract="Seleziona le attività precedenti che desideri collegare come transizioni in entrata dell’attività **Deduplica**. Le attività selezionate vengono quindi collegate a **Deduplica**. Questa sezione viene visualizzata solo quando sono disponibili più transizioni in entrata da collegare all’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
