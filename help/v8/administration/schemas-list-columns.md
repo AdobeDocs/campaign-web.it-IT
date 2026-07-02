@@ -1,14 +1,20 @@
 ---
 title: Configura colonne elenco predefinite
 description: Scopri come configurare quali colonne vengono visualizzate per impostazione predefinita nelle viste elenco.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
-# Configura colonne elenco {#list-columns}
+# Configurare le colonne di un elenco {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="Configurazione elenco inventario"
+>abstract="Configura le colonne da visualizzare per impostazione predefinita nelle viste elenco. Ogni colonna mostra la propria etichetta e l’attributo corrispondente."
 
 La sezione **[!UICONTROL Configurazione dell&#39;elenco di inventario]** consente di configurare le colonne da visualizzare per impostazione predefinita nelle visualizzazioni elenco. Ogni colonna mostra la propria etichetta e l’attributo corrispondente.
 

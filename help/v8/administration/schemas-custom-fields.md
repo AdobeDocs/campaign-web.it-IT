@@ -1,14 +1,21 @@
 ---
-title: Modifica campi personalizzati
+title: Modificare i campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1b531722-0935-4787-a673-60d97f776936
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '745'
+ht-degree: 8%
 
 ---
 
-# Modifica campi personalizzati {#fields}
+# Modificare i campi personalizzati {#fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_detail_screen_configuration"
+>title="Configurazione della schermata Dettagli"
+>abstract="Configura i campi personalizzati da visualizzare nelle schermate dei dettagli e organizzali in sezioni. Aggiungi elenchi di raccolta per mostrare i dati correlati nelle schermate del profilo."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="Aggiungere elenchi di raccolte"
 
 I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione.
 
@@ -43,7 +50,7 @@ Per configurare impostazioni specifiche per ciascun campo personalizzato, fare c
 Le impostazioni disponibili sono:
 
 * **[!UICONTROL Attributo]**: nome del campo personalizzato (sola lettura).
-* **[!UICONTROL Etichetta (personalizzata)]**: l&#39;etichetta da visualizzare nell&#39;interfaccia. Se non viene fornita alcuna etichetta, verrà visualizzata l’etichetta definita nello schema.
+* **[!UICONTROL Etichetta (personalizzata)]**: l&#39;etichetta da visualizzare nell&#39;interfaccia. Se non viene specificata un’etichetta, verrà visualizzata quella definita nello schema.
 * **[!UICONTROL Visibile se]**: definire una condizione utilizzando un&#39;espressione xtk che controlla quando viene visualizzato il campo. Nascondere ad esempio questo campo se un altro campo è vuoto.
 * **[!UICONTROL Obbligatorio]**: rendi obbligatorio il campo nell&#39;interfaccia.
 * **[!UICONTROL Sola lettura]**: rendere il campo di sola lettura nell&#39;interfaccia. Gli utenti non potranno modificare il valore del campo.
