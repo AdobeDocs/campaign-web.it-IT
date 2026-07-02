@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività End workflow
 source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 20%
+ht-degree: 54%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="Attività Fine"
->abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Quando è disponibile più di una transizione in entrata, utilizzare la sezione **Set da unire** per selezionare le transizioni da connettere all&#39;attività."
+>abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di un flusso di lavoro. Quando sono disponibili più transizioni in entrata, utilizza la sezione **Set da unire** per selezionare le transizioni da collegare all’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"
 >title="Set da unire"
->abstract="Controlla le attività precedenti che desideri connettere come transizioni in entrata dell&#39;attività **Fine**. Le attività selezionate sono quindi connesse alla **Fine**. Questa sezione viene visualizzata solo quando è disponibile più di una transizione in entrata per essere connessa all’attività."
+>abstract="Seleziona le attività precedenti che desideri collegare come transizioni in entrata dell’attività **Fine**. Le attività selezionate vengono quindi collegate a **Fine**. Questa sezione viene visualizzata solo quando sono disponibili più transizioni in entrata da collegare all’attività."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
