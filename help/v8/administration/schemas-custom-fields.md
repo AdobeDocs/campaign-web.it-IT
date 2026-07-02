@@ -2,9 +2,9 @@
 title: Modificare i campi personalizzati
 description: Scopri come configurare i campi personalizzati e la loro visibilità nell’interfaccia.
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 >id="acw_schema_detail_screen_configuration"
 >title="Configurazione della schermata Dettagli"
 >abstract="Configura i campi personalizzati da visualizzare nelle schermate dei dettagli e organizzali in sezioni. Aggiungi elenchi di raccolta per mostrare i dati correlati nelle schermate del profilo."
->additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="Aggiungere elenchi di raccolte"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="Aggiungere elenchi di raccolte"
 
 I campi personalizzati sono attributi aggiuntivi aggiunti a schemi predefiniti tramite la console Adobe Campaign. Consentono di personalizzare gli schemi includendo nuovi attributi in base alle esigenze dell’organizzazione.
 
