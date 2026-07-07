@@ -1,12 +1,12 @@
 ---
 title: Elenco dei componenti
-description: Qui trovi l’elenco di tutti i componenti disponibili in     Rapporti dinamici e relative definizioni.
+description: Qui puoi trovare l’elenco di tutti i componenti disponibili nei rapporti dinamici e le relative definizioni.
 level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati All'<br/> </td> 
+   <td> All'<br/> </td> 
    <td> Numero di destinatari che hanno dichiarato un'e-mail come posta indesiderata o posta indesiderata.<br/> </td> 
   </tr> 
   <tr> 

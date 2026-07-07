@@ -6,8 +6,8 @@ audience: end-user
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 1%
+source-wordcount: '378'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati All'<br/> </td> 
+   <td> All'<br/> </td> 
    <td> @blacklisted<br/> </td> 
    <td> count(@failureReason=8, @failureType=2)<br/> </td> 
    <td> </td> 
