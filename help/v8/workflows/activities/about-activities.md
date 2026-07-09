@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +51,11 @@ Queste attività sono specifiche per il targeting. Consentono di creare uno o pi
 ## Attività di gestione dati {#data}
 
 Queste attività sono specifiche per la manipolazione e l’arricchimento dei dati sulla popolazione.
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="Attività di caricamento dati (RDBMS)"
+>abstract="L&#39;attività **Data loading (RDBMS)** è un&#39;attività **Data management**. Utilizza questa attività per caricare i dati direttamente da un database relazionale esterno nel flusso di lavoro, senza passare alla console client. I dati estratti sono disponibili in tutto il flusso di lavoro e possono essere utilizzati per il targeting, l’arricchimento o l’ulteriore elaborazione dei dati."
 
 * [Estrai file](extract-file.md): esporta dati da Adobe Campaign in un altro sistema come file esterno.
 * [Carica file](load-file.md): utilizzare profili e dati archiviati in un file esterno.
