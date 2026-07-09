@@ -1,14 +1,20 @@
 ---
 title: Sfogliare e accedere agli schemi
 description: Scopri come sfogliare e accedere agli schemi nell’interfaccia.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
+source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
 
 # Accedere e configurare gli schemi {#access}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_action_data"
+>title="Azioni sui dati"
+>abstract="Configura le azioni disponibili per le schermate di dettaglio e di elenco dello schema. Abilita **[!UICONTROL Sola lettura]** per impostare la schermata di dettaglio come di sola lettura e rimuovere le azioni dall&#39;elenco. Abilita **[!UICONTROL Non consentire eliminazione]** per rimuovere l&#39;azione di eliminazione dalle schermate dei dettagli e dell&#39;elenco."
 
 Gli schemi sono accessibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Schemi]**.
 
