@@ -4,18 +4,17 @@ title: Creare flussi di lavoro con Adobe Campaign Web
 description: Scopri come creare flussi di lavoro con Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 25%
+source-wordcount: 1720
+ht-degree: 20%
 
 ---
 
 # Orchestrare le attività {#orchestrate}
 
-Dopo aver [creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all&#39;interno di una campagna, puoi iniziare a orchestrare le diverse attività che esegue. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma del flusso di lavoro. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale.
+Dopo aver [creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all&#39;interno di una campagna, puoi iniziare a orchestrare le diverse attività che esegue. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma del flusso di lavoro. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale. Attorno all’area di lavoro vengono visualizzate barre di scorrimento orizzontali e verticali, che consentono di spostarsi tra flussi di lavoro di grandi dimensioni trascinando direttamente l’area da visualizzare.
 
 ## Aggiungere attività {#add}
 
@@ -31,7 +30,7 @@ Una volta aggiunta un’attività al diagramma, viene visualizzato un riquadro a
 
 Ripeti questo processo per aggiungere tutte le attività necessarie, a seconda delle attività eseguite dal flusso di lavoro. Puoi anche inserire una nuova attività tra due attività. A tale scopo, fare clic sul pulsante **+** sulla transizione tra le attività, selezionare l&#39;attività desiderata e configurarla nel riquadro di destra.
 
-Per rimuovere un&#39;attività, selezionarla nell&#39;area di lavoro e fare clic sull&#39;icona **Elimina** nelle proprietà dell&#39;attività.
+Per rimuovere un&#39;attività, selezionarla nell&#39;area di lavoro e fare clic sull&#39;icona **Elimina** nelle proprietà dell&#39;attività. Per informazioni sulle opzioni disponibili, vedere [Attività di eliminazione e disconnessione](#delete).
 
 >[!TIP]
 >
@@ -39,7 +38,7 @@ Per rimuovere un&#39;attività, selezionarla nell&#39;area di lavoro e fare clic
 
 ## Barra degli strumenti {#toolbar}
 
-La barra degli strumenti, situata nell’angolo superiore destro dell’area di lavoro, offre opzioni per manipolare facilmente le attività e navigare all’interno dell’area di lavoro:
+La barra degli strumenti, situata nell’angolo superiore destro dell’area di lavoro, offre opzioni per manipolare facilmente le attività e navigare all’interno dell’area di lavoro.
 
 * **Modalità di selezione multipla**: selezionare più attività per eliminarle tutte contemporaneamente oppure copiarle e incollarle. Consulta [questa sezione](#copy).
 * **Aggiungi ramo**: fai clic sul pulsante **+** nella barra degli strumenti per creare un ramo di esecuzione separato nell&#39;area di lavoro. Il risultato equivale a utilizzare un [fork](activities/fork.md) per i percorsi paralleli, ma il diagramma è più chiaro dal punto di vista grafico.
@@ -58,7 +57,7 @@ Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili p
 
 Puoi eseguire le seguenti azioni:
 
-* **Elimina** l’attività dall’area di lavoro.
+* **Elimina** l’attività dall’area di lavoro. Vedi [questa sezione](#delete-activity).
 * **Disabilita/Abilita** l’attività. Durante l’esecuzione del flusso di lavoro, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e il flusso di lavoro si interrompe.
 * **Pausa/Riprendi** l’attività. Durante l’esecuzione, il flusso di lavoro viene messo in pausa in corrispondenza dell’attività in pausa. L&#39;attività corrispondente, così come tutte quelle che la seguono nello stesso percorso, non vengono eseguite.
 * **Copia** l’attività. Consulta [questa sezione](#copy).
@@ -104,6 +103,58 @@ Per spostare un’attività:
 
 ![Sposta attività e nodi figlio](assets/activity-move.png)
 
+## Eliminare e disconnettere le attività {#delete}
+
+### Eliminare un’attività {#delete-activity}
+
+Per eliminare un&#39;attività, selezionala nell&#39;area di lavoro e fai clic sull&#39;icona **Elimina** nelle proprietà dell&#39;attività. Viene visualizzata una finestra di dialogo di conferma.
+
+* Se l’attività non è connessa ad altre attività, conferma l’eliminazione.
+
+  ![Elimina attività semplice](assets/workflow-delete.png)
+
+* Se l’attività è connessa a una o più attività successive, scegli come gestirle:
+
+  ![Elimina attività più](assets/workflow-delete2.png)
+
+  * **Elimina tutte le attività successive**: rimuove l&#39;attività e tutte le attività che la seguono nello stesso percorso.
+  * **Elimina solo questa attività**: rimuove solo l&#39;attività selezionata e riconnette il percorso rimanente. Questa opzione è disponibile solo quando l’attività ha un singolo successore.
+  * **Elimina e crea un nuovo ramo**: rimuove l&#39;attività selezionata ma mantiene le attività successive, spostandole in un nuovo ramo separato.
+
+Fai clic su **Elimina** per confermare la scelta oppure su **Annulla** per chiudere la finestra di dialogo senza eliminare nulla.
+
+### Disconnettere una transizione {#disconnect-transition}
+
+Puoi disconnettere due attività senza eliminarle una. Le attività posizionate dopo la transizione disconnessa non vengono eliminate: vengono spostate in un nuovo ramo separato del flusso di lavoro.
+
+Ciò consente di riorganizzare un diagramma di flusso di lavoro, ad esempio per mettere temporaneamente da parte un gruppo di attività che si desidera mantenere, senza doverle eliminare e ricreare.
+
+Puoi eseguire questa operazione su una singola transizione:
+
+1. Selezionare la transizione da disconnettere.
+
+1. Fai clic sull&#39;icona **Disconnetti** nelle proprietà della transizione.
+
+   ![Icona Disconnetti nel riquadro proprietà transizione](assets/workflow-transition.png)
+
+   Questa icona è disponibile solo quando la transizione porta a un’attività a valle. Viene visualizzata una finestra di dialogo di conferma.
+
+1. Fai clic su **Disconnetti** per confermare o su **Annulla** per chiudere la finestra di dialogo senza disconnettere nulla.
+
+   ![Finestra di dialogo di conferma della disconnessione](assets/workflow-transition2.png)
+
+Se l&#39;attività di origine ha più transizioni in uscita (ad esempio, un&#39;attività **Dividi** con diversi rami di risultati o un&#39;attività **Dividi**), puoi rimuoverne una sola dal riquadro delle proprietà dell&#39;attività:
+
+1. Seleziona l&#39;attività, quindi individua la transizione da rimuovere nella sezione **Segmento**.
+
+1. Fai clic sull’icona del cestino accanto a tale transizione. Viene visualizzata una finestra di dialogo di conferma.
+
+   ![Icona Cestino accanto al risultato di un segmento](assets/workflow-transition3.png)
+
+1. Fai clic su **Rimuovi** per confermare o su **Annulla** per chiudere la finestra di dialogo senza rimuovere nulla.
+
+   ![Finestra di dialogo di conferma rimozione transizione](assets/workflow-transition4.png)
+
 ## Execution options {#execution}
 
 Tutte le attività ti consentono di gestire le relative opzioni di esecuzione. Selezionare un&#39;attività e fare clic sul pulsante **Opzioni di esecuzione**. Questo consente di definire la modalità di esecuzione dell’attività e il comportamento in caso di errori.
@@ -143,7 +194,7 @@ Il campo **In caso di errore** consente di specificare l&#39;azione da eseguire 
 >title="Script di inizializzazione"
 >abstract="Questa sezione ti consente di aggiungere JavaScript che viene eseguito all’avvio dell’attività. Utilizzala per inizializzare le variabili, impostare parametri o preparare dati specifici per l’esecuzione di tale attività."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
 
 ## Esempio {#example}
 
@@ -155,9 +206,9 @@ A questo scopo, sono state aggiunte le seguenti attività:
 
 * Un&#39;attività **[!UICONTROL Fork]** che divide il flusso di lavoro in tre percorsi (uno per ogni set di clienti),
 * Attività **[!UICONTROL Creazione del pubblico]** per eseguire il targeting dei tre set clienti:
-   * Clienti con un’e-mail,
-   * Clienti appartenenti al pubblico preesistente &quot;Interessed in Coffee Machine(s)&quot;,
-   * Clienti appartenenti al pubblico &quot;VIP to reward&quot; preesistente.
+  * Clienti con un’e-mail,
+  * Clienti appartenenti al pubblico preesistente &quot;Interessed in Coffee Machine(s)&quot;,
+  * Clienti appartenenti al pubblico &quot;VIP to reward&quot; preesistente.
 * Un’attività **[!UICONTROL Combina]** che raggruppa i clienti con un’e-mail e quelli interessati alle macchine da caffè,
 * Un’attività **[!UICONTROL Combina]** che esclude clienti VIP,
 * Un’attività **[!UICONTROL Consegna e-mail]** che invia un’e-mail ai clienti risultanti.

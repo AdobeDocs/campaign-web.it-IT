@@ -4,14 +4,12 @@ title: Utilizzare i componenti per contenuti di E-mail Designer
 description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 48%
+source-wordcount: 1517
+ht-degree: 41%
 
 ---
 
@@ -116,7 +114,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell&#39;e-mail
    * **[!UICONTROL Crea elenco]**: aggiungi elenchi puntati o numerati al testo.
    * **[!UICONTROL Imposta il titolo]**: aggiungi al testo fino a sei livelli di titolo.
    * **Dimensione font**: seleziona la dimensione del font in pixel.
-   * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo.
+   * **[!UICONTROL Modifica immagine]**: aggiungi un&#39;immagine al componente di testo dalla libreria Adobe Experience Manager Assets, dal computer o riutilizza un&#39;immagine disponibile nell&#39;istanza Adobe Campaign. [Ulteriori informazioni](#image)
    * **[!UICONTROL Mostra il codice sorgente]**: visualizza il codice sorgente del testo. Non può essere modificato.
    * **[!UICONTROL Duplica]**: aggiungi una copia del componente di testo.
    * **[!UICONTROL Elimina]**: elimina dal messaggio e-mail il componente di testo selezionato.
@@ -153,27 +151,53 @@ Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare parti del H
 
 ## Immagine {#image}
 
->[!IMPORTANT]
->
->L’accesso al menu di Assets è limitato agli utenti con una licenza Adobe Experience Manager as a Cloud Service attiva. Se non si dispone di questa licenza, il menu Assets non sarà disponibile.
-
-Utilizza il componente **[!UICONTROL Immagine]** per inserire un file immagine dal computer nell&#39;e-mail.
+Utilizza il componente **[!UICONTROL Immagine]** per inserire un&#39;immagine nell&#39;e-mail.
 
 1. Dal menu **[!UICONTROL Contenuto]** trascinare **[!UICONTROL Immagine]** in un componente **[!UICONTROL Struttura]**.
 
    ![Schermata che mostra come trascinare un componente immagine nel Designer e-mail.](assets/email_designer_9.png){zoomable="yes"}
 
-1. Fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse. Puoi anche scegliere di **[!UICONTROL Importare i contenuti multimediali]**.
+1. Scegliere una delle opzioni seguenti per aggiungere l&#39;immagine:
+
+   ![Schermata che mostra le opzioni per i componenti immagine in E-mail Designer.](assets/email_designer_28.png){zoomable="yes"}
+
+   +++**[!UICONTROL Sfoglia]**
+
+   Scegli questa opzione per selezionare un’immagine dalla libreria Adobe Experience Manager Assets.
+
+   >[!IMPORTANT]
+   >
+   >Questa opzione richiede una licenza Adobe Experience Manager as a Cloud Service attiva.
+
+   Spostati all’interno delle cartelle per individuare la risorsa specifica necessaria oppure utilizza la barra di ricerca per trovarla in modo efficiente. Dopo aver trovato la risorsa, fai clic su **[!UICONTROL Seleziona]**.
+
+   ![Schermata che mostra il processo di selezione delle risorse nel Designer e-mail.](assets/email_designer_29.png){zoomable="yes"}
 
    Per ulteriori informazioni sul caricamento e l&#39;aggiunta di risorse in Adobe Experience Manager, consulta la [documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=it).
 
-   ![Schermata che mostra l&#39;opzione Sfoglia per i componenti immagine nel Designer e-mail.](assets/email_designer_28.png){zoomable="yes"}
+   +++
 
-1. Spostati all’interno delle cartelle per individuare la risorsa specifica necessaria oppure utilizza la barra di ricerca per trovarla in modo efficiente.
+   +++**[!UICONTROL Importa]**
 
-   Una volta trovata la risorsa che stai cercando, fai clic su **[!UICONTROL Seleziona]**.
+   Selezionare questa opzione per caricare una nuova immagine dal computer. Il file viene caricato come risorsa pubblica nell’istanza Adobe Campaign.
 
-   ![Schermata che mostra il processo di selezione delle risorse nel Designer e-mail.](assets/email_designer_29.png){zoomable="yes"}
+   +++
+
+   +++**[!UICONTROL Importa risorsa pubblica]**
+
+   Scegli questa opzione per selezionare un’immagine già disponibile nell’istanza di Adobe Campaign, ad esempio un file precedentemente importato in E-mail Designer o come risorsa pubblica dalla console client.
+
+   ![Schermata che mostra il processo di selezione delle risorse pubbliche in E-mail Designer.](assets/email_designer_30.png){zoomable="yes"}
+
+   Cerca la risorsa per nome. Puoi anche utilizzare i filtri e riorganizzare le colonne.
+
+   >[!NOTE]
+   >
+   >I vincoli di sicurezza sono gli stessi della console client: puoi selezionare solo le risorse a cui hai accesso, in base ai tuoi diritti utente.
+
+   Seleziona la risorsa, quindi fai clic su **[!UICONTROL Conferma]**.
+
+   +++
 
 1. Fai clic sul componente appena aggiunto e imposta le proprietà dell’immagine utilizzando la scheda **[!UICONTROL Impostazioni]**:
 

@@ -2,10 +2,10 @@
 title: Configura colonne elenco predefinite
 description: Scopri come configurare quali colonne vengono visualizzate per impostazione predefinita nelle viste elenco.
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '247'
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
 >title="Configurazione dell’elenco dell’inventario"
->abstract="Configura le colonne da visualizzare per impostazione predefinita nelle viste elenco. Ogni colonna presenta la propria etichetta e l’attributo corrispondente."
+>abstract="Configura le colonne da visualizzare per impostazione predefinita nelle viste elenco. Ogni colonna presenta la propria etichetta e l’attributo corrispondente. Aggiungi filtri personalizzati per visualizzare i campi del filtro di accesso rapido nel riquadro dei filtri della visualizzazione elenco."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Aggiungere filtri personalizzati"
 
 La sezione **[!UICONTROL Configurazione dell&#39;elenco di inventario]** consente di configurare le colonne da visualizzare per impostazione predefinita nelle visualizzazioni elenco. Ogni colonna presenta la propria etichetta e l’attributo corrispondente.
 
@@ -37,3 +38,7 @@ Per aggiungere nuove colonne all&#39;elenco predefinito:
 1. Passare al menu **Profili** per accedere alla visualizzazione elenco dei profili. Le nuove schede vengono visualizzate. Se necessario, puoi aggiungere altre colonne.
 
    ![Configurazione colonne elenco](assets/schemas-list-columns3.png)
+
+>[!NOTE]
+>
+>È inoltre possibile aggiungere campi filtro di accesso rapido nel riquadro Filtri della visualizzazione elenco. Per ulteriori informazioni, vedere [Aggiungere filtri personalizzati](schemas-custom-filters.md).

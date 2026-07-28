@@ -4,12 +4,11 @@ title: Personalizzare lo sfondo delle e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 44%
+source-wordcount: 366
+ht-degree: 43%
 
 ---
 
@@ -30,34 +29,29 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
 * Imposta un **[!UICONTROL Colore di sfondo]** per l’intera e-mail. Selezionare le impostazioni del corpo nella struttura di navigazione accessibile dal riquadro di sinistra.
 
-  [Impostare un colore di sfondo per l&#39;intero corpo dell&#39;e-mail, accessibile tramite la struttura di navigazione.]\
-  ![](assets/background_1.png){zoomable="yes"}
+  ![Impostare un colore di sfondo per l&#39;intero corpo dell&#39;e-mail, accessibile tramite la struttura di navigazione.](assets/background_1.png){zoomable="yes"}
 
 * Per impostare lo stesso colore di sfondo per tutti i componenti della struttura, seleziona **[!UICONTROL Colore di sfondo del riquadro di visualizzazione]**. Questa opzione consente di scegliere un&#39;impostazione diversa dal colore di sfondo.
 
-  [Impostare un colore di sfondo uniforme per tutti i componenti della struttura utilizzando l&#39;opzione di colore di sfondo del riquadro di visualizzazione.]\
-  ![](assets/background_2.png){zoomable="yes"}
+  ![Impostare un colore di sfondo uniforme per tutti i componenti della struttura utilizzando l&#39;opzione di colore di sfondo del riquadro di visualizzazione.](assets/background_2.png){zoomable="yes"}
 
 * Imposta un colore di sfondo diverso per ciascun componente della struttura. Per applicare un colore di sfondo specifico a una sola struttura, selezionala nell’albero di navigazione nel riquadro a sinistra .
 
-  [Applicare colori di sfondo univoci ai singoli componenti della struttura tramite la struttura di navigazione.]\
-  ![](assets/background_3.png){zoomable="yes"}
+  ![Applicare colori di sfondo univoci ai singoli componenti della struttura tramite la struttura di navigazione.](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >Accertatevi di non impostare il colore di sfondo del riquadro di visualizzazione, poiché potrebbe nascondere i colori di sfondo della struttura.
 
-* Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
+* Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura. Scegli un&#39;immagine utilizzando **[!UICONTROL Seleziona una risorsa]**, **[!UICONTROL Importa file multimediali]** o **[!UICONTROL Importa risorsa pubblica]**. [Ulteriori informazioni](content-components.md#image)
 
-  [Aggiungi un&#39;immagine di sfondo al contenuto di un componente struttura specifico.]\
-  ![](assets/background_4.png){zoomable="yes"}
+  ![Aggiungi un&#39;immagine di sfondo al contenuto di un componente struttura specifico.](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Seleziona un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
 * Imposta un colore di sfondo a livello di colonna.
 
-  [Applicare un colore di sfondo a livello di colonna per una maggiore flessibilità.]\
-  ![](assets/background_5.png){zoomable="yes"}
+  ![Applicare un colore di sfondo a livello di colonna per una maggiore flessibilità.](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò offre maggiore flessibilità durante la modifica dell’intero contenuto dell’e-mail.

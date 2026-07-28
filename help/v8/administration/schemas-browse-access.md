@@ -2,19 +2,14 @@
 title: Sfogliare e accedere agli schemi
 description: Scopri come sfogliare e accedere agli schemi nell’interfaccia.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 3%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
 # Accedere e configurare gli schemi {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="Azioni sui dati"
->abstract="Configura le azioni disponibili per le schermate di dettaglio e di elenco dello schema. Abilita **[!UICONTROL Sola lettura]** per impostare la schermata di dettaglio come di sola lettura e rimuovere le azioni dall&#39;elenco. Abilita **[!UICONTROL Non consentire eliminazione]** per rimuovere l&#39;azione di eliminazione dalle schermate dei dettagli e dell&#39;elenco."
 
 Gli schemi sono accessibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Schemi]**.
 
@@ -65,5 +60,7 @@ Per accedere alla definizione della schermata:
 Dalla definizione della schermata, puoi effettuare le seguenti operazioni:
 
 * [Configura colonne elenco predefinite](schemas-list-columns.md) - Configura quali colonne vengono visualizzate per impostazione predefinita nelle visualizzazioni elenco.
+* [Aggiungi filtri personalizzati](schemas-custom-filters.md) - Aggiungi campi filtro ad accesso rapido nel riquadro dei filtri di una visualizzazione elenco.
 * [Modifica campi personalizzati](schemas-custom-fields.md) - Configura i campi personalizzati da visualizzare nelle schermate di dettaglio e organizzali in sezioni.
 * [Aggiungi elenchi raccolta](schemas-collection-lists.md) - Aggiungi elenchi raccolta per visualizzare i dati correlati nelle schermate del profilo.
+* [Azioni di controllo sui dati](schemas-action-data.md) - Limita le azioni di creazione, modifica ed eliminazione per gli schemi personalizzati.

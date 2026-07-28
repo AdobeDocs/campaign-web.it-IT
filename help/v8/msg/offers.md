@@ -4,20 +4,22 @@ title: Aggiungere offerte ai messaggi
 description: Scopri come aggiungere e inviare offerte
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: 805
 ht-degree: 42%
 
 ---
 
 # Aggiungere offerte ai messaggi {#offers-content}
 
-Puoi aggiungere offerte alle consegne nell’interfaccia utente web di Adobe Campaign. Queste offerte sono disponibili dal menu a sinistra **Offerte**, che consente di accedere all&#39;elenco delle offerte. Tutte queste offerte sono di sola lettura e devono essere create nella console client di Campaign utilizzando il modulo **[!UICONTROL Interaction]**. Per ulteriori informazioni sull&#39;interazione e su come gestire un catalogo di offerte nella console, consulta la [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
+Puoi aggiungere offerte alle consegne direttamente dall’interfaccia utente web di Campaign. Queste offerte sono disponibili dal menu a sinistra **Offerte**, che consente di accedere all&#39;elenco delle offerte.
+
+Dall’interfaccia web di Campaign, puoi anche creare e gestire direttamente ambienti di offerta, spazi di offerta e offerte, senza passare alla console client. [Ulteriori informazioni](../offers/gs-offer-management.md).
+
+Per le configurazioni avanzate, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=it){target="_blank"}.
 
 I passaggi per inviare le offerte con una consegna sono i seguenti:
 
@@ -46,7 +48,7 @@ Per selezionare le offerte da aggiungere alla consegna, segui i passaggi indicat
 
 1. Configura le offerte da proporre ai destinatari.
 
-   Innanzitutto, seleziona lo **[!UICONTROL spazio dell&#39;offerta]** che corrisponde al tuo ambiente delle offerte. Scopri come creare uno spazio delle offerte nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=it){target="_blank"}.
+   Innanzitutto, seleziona lo **[!UICONTROL spazio dell&#39;offerta]** che corrisponde al tuo ambiente delle offerte. Scopri come creare uno spazio delle offerte direttamente dall’interfaccia utente web di Campaign in questa [sezione](../offers/offer-space.md).
 
    ![Schermata che mostra la selezione dello spazio dell&#39;offerta nel contenuto per la creazione dell&#39;offerta](assets/offer-create-content.png){zoomable="yes"}
 

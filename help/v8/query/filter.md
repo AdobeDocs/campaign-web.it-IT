@@ -4,13 +4,11 @@ title: Filtrare elenchi
 description: Scopri come filtrare gli elenchi web di Adobe Campaign utilizzando filtri incorporati e personalizzati.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 365
 ht-degree: 1%
 
 ---
@@ -33,6 +31,10 @@ Viene visualizzato il riquadro Filtri, in cui sono visualizzati i filtri disponi
 ![Riquadro Filtri che mostra i filtri disponibili per gli elenchi](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 Per filtrare un elenco in base a criteri personalizzati, crea un filtro personalizzato. A tale scopo, spostarsi nella parte inferiore del riquadro dei filtri e fare clic sul pulsante **Aggiungi regole**. [Scopri come creare filtri personalizzati](#custom).
+
+>[!NOTE]
+>
+>Per gli schemi personalizzati, gli amministratori possono aggiungere i propri campi di accesso rapido al riquadro dei filtri, sopra il pulsante **Aggiungi regole**. Per ulteriori informazioni, vedere [Aggiungere filtri personalizzati](../administration/schemas-custom-filters.md).
 
 Una volta applicati a un elenco, i filtri sono visibili sotto la barra di ricerca. È possibile rimuovere un singolo filtro in qualsiasi momento oppure rimuovere tutti i filtri facendo clic sul pulsante **Cancella tutto**.
 
