@@ -3,8 +3,10 @@ audience: end-user
 title: Creare e pubblicare un’offerta
 description: Scopri come creare, configurare, approvare e distribuire un’offerta in Campaign Web
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
 source-wordcount: 1057
@@ -104,7 +106,7 @@ Le offerte non sono immediatamente disponibili nelle consegne: passano attravers
 
    ![Schermata che mostra l&#39;approvazione dell&#39;offerta.](assets/offers-offer-4.png){zoomable="yes"}
 
-1. Approva l&#39;idoneità **[!UICONTROL 1} e il contenuto**[!UICONTROL  3}. ]**]** Il contenuto può essere approvato per ogni spazio dell’offerta, in modo da poterlo approvare per uno spazio dell’offerta lasciando gli altri in sospeso.
+1. Approva l&#39;idoneità **[!UICONTROL 1&rbrace; e il contenuto**&#x200B;[!UICONTROL &#x200B; 3&rbrace;. &#x200B;]&#x200B;**]** Il contenuto può essere approvato per ogni spazio dell’offerta, in modo da poterlo approvare per uno spazio dell’offerta lasciando gli altri in sospeso.
 
 1. Dopo aver concesso entrambe le approvazioni, fai clic su **[!UICONTROL Distribuisci]** per pubblicare l&#39;offerta nell&#39;ambiente live.
 
