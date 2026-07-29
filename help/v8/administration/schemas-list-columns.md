@@ -15,7 +15,7 @@ ht-degree: 13%
 >id="acw_schema_inventory_list_configuration"
 >title="Configurazione dell’elenco dell’inventario"
 >abstract="Configura le colonne da visualizzare per impostazione predefinita nelle viste elenco. Ogni colonna presenta la propria etichetta e l’attributo corrispondente. Aggiungi filtri personalizzati per visualizzare i campi del filtro di accesso rapido nel riquadro dei filtri della visualizzazione elenco."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Aggiungere filtri personalizzati"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=it" text="Aggiungere filtri personalizzati"
 
 La sezione **[!UICONTROL Configurazione dell&#39;elenco di inventario]** consente di configurare le colonne da visualizzare per impostazione predefinita nelle visualizzazioni elenco. Ogni colonna presenta la propria etichetta e l’attributo corrispondente.
 
