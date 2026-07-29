@@ -3,10 +3,9 @@ title: Utilizzare filtri preimpostati
 description: Scopri come creare e gestire filtri preimpostati in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: a6d831e2fd3abf7701aac09b112baa6c0ef239cb
+workflow-type: tm+mt
 source-wordcount: 1061
 ht-degree: 100%
 
@@ -86,7 +85,7 @@ Per creare un filtro, seleziona **Filtri preimpostati** nel menu a sinistra. Seg
 
 1. Definisci la regola per il filtro. Ad esempio, per i profili con più di 30 anni.
 
-   ![Regola filtro per profili con più di 30 anni](assets/filter-30+.png){zoomable="yes"}
+   ![Regola filtro per profili con più di 30 anni](assets/filter-30-plus.png){zoomable="yes"}
 
 1. Salva le modifiche.
 
