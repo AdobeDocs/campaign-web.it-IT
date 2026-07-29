@@ -9,10 +9,10 @@ feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 5%
+source-wordcount: 592
+ht-degree: 4%
 
 ---
 
@@ -83,3 +83,17 @@ Nell&#39;esempio seguente viene creata un&#39;opzione personalizzata denominata 
 1. Il valore aggiornato è ora visibile nel menu **[!UICONTROL Opzioni]**.
 
    ![Il menu Opzioni visualizza il valore aggiornato dell&#39;opzione personalizzata](assets/options-sample-updated.png)
+
+## Limita l’indirizzo e-mail del mittente per le consegne {#restrict-sender-address}
+
+Per impostazione predefinita, gli addetti al marketing possono digitare qualsiasi indirizzo nel campo **[!UICONTROL Da e-mail]** di una consegna e-mail. Per limitare questo campo a un elenco predefinito di indirizzi, creare o modificare l&#39;opzione predefinita `NmsDelivery_senderAddressMask` e impostarne il valore su un elenco separato da virgole degli indirizzi del mittente consentiti, ad esempio `abc@adobe.com,bcd@adobe.com`.
+
+![Opzione per limitare i valori nel menu Da](assets/option-restrict-from.png)
+
+Una volta che questa opzione ha un valore, il campo **[!UICONTROL Da e-mail]** diventa un elenco a discesa contenente solo questi indirizzi, invece di un campo a testo libero. Se l’opzione non esiste o il relativo valore è vuoto, il campo rimane a testo libero, come prima.
+
+![Valori disponibili in un&#39;e-mail](assets/option-restrict-from2.png)
+
+Questa restrizione è globale. Si applica a ogni marchio e modello di consegna e non supporta campi di personalizzazione, ma solo indirizzi statici.
+
+Per ulteriori informazioni sul campo **[!UICONTROL Da e-mail]**, consulta [Configurare il contenuto dell&#39;e-mail](../email/edit-content.md#edit-content).

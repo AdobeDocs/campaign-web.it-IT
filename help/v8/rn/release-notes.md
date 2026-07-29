@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b8cf1d45b1a69efbe8e055d57b430d0fa04f8494
+source-git-commit: d9d1733854bceac52d54e02125dac92b74872c77
 workflow-type: tm+mt
-source-wordcount: 243
-ht-degree: 93%
+source-wordcount: 716
+ht-degree: 23%
 
 ---
 
@@ -28,23 +28,103 @@ ht-degree: 93%
 
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
 
-## Versione di giugno 2026 {#26-6-release}
+## Versione del 26 luglio {#26-7-release}
 
-_16 giugno 2026_
+_28 luglio 2026_
 
-### Miglioramenti {#26-6-improvements}
+### Nuove funzioni {#26-7-features}
 
-<!--
-* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
--->
+<table>
+<thead>
+<tr>
+<th><strong>Gestione delle offerte</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi gestire le offerte end-to-end direttamente dall’interfaccia utente web di Campaign. Configura gli ambienti e gli spazi delle offerte, crea il catalogo e le categorie delle offerte, crea le offerte con regole di idoneità e pesi di priorità e approvale e implementale per l’utilizzo nelle consegne. Le configurazioni avanzate rimangono disponibili nella console client.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../offers/gs-offer-management.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Ora puoi esportare dati da qualsiasi schermata dell’elenco, inclusi i registri di tracciamento. Trova il tuo elenco e fai semplicemente clic sul pulsante di esportazione. L’esportazione include le righe attualmente caricate e tiene conto delle colonne visualizzate sullo schermo e di eventuali ricerche o filtri attivi. [Ulteriori informazioni](../get-started/list-filters.md)
+<table>
+<thead>
+<tr>
+<th><strong>Configurazione del brand</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Gli amministratori tecnici ora possono creare e configurare i brand direttamente dall’interfaccia utente web di Campaign, senza utilizzare la console client. Tutte le impostazioni del brand, inclusi identità, sottodominio e protocolli, parametri di intestazione e-mail e parametri di tracciamento URL, sono ora disponibili nell’interfaccia web.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/branding/branding-configure.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Le attività del flusso di lavoro **Deduplica** e **Termina** ora supportano più transizioni in entrata. Quando sono disponibili più transizioni in entrata, utilizza la sezione **Set per partecipare** nell&#39;attività
-proprietà dell’attività per selezionare le transizioni da connettere. Ulteriori informazioni sono disponibili in queste pagine: [Deduplica](../workflows/activities/deduplication.md), [Fine](../workflows/activities/end.md)
+<table>
+<thead>
+<tr>
+<th><strong>Risorse pubbliche in E-mail Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Quando aggiungi immagini alle e-mail, ora puoi selezionare <strong>risorse pubbliche</strong>. Questo ti consente di scegliere un’immagine già disponibile nell’istanza di Adobe Campaign, ad esempio un file precedentemente importato nel Designer e-mail o una risorsa pubblica caricata dalla console client.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/content-components.md#image">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* I parametri avanzati sono ora esposti nella sezione **Dati di arricchimento** delle attività del flusso di lavoro **Genera pubblico** (tipo di query) e **Arricchimento**. Questi parametri consentono di ottimizzare la creazione dei dati di arricchimento, inclusi il raggruppamento, la deduplica, la gestione delle chiavi primarie e i dati degli eventi in entrata. [Ulteriori informazioni](../workflows/activities/enrichment.md)
+<table>
+<thead>
+<tr>
+<th><strong>Attività del flusso di lavoro di caricamento dati (RDBMS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L'attività <strong>Caricamento dati (RDBMS)</strong> è ora disponibile nell'interfaccia utente di Campaign Web. Utilizza questa attività per caricare i dati direttamente da un database relazionale esterno nel flusso di lavoro. I dati estratti sono disponibili in tutto il flusso di lavoro e possono essere utilizzati per il targeting, l’arricchimento o l’ulteriore elaborazione dei dati.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../workflows/activities/data-loading-rdbms.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* Delivery templates now allow you to define a time zone in the Schedule settings.
--->
+<table>
+<thead>
+<tr>
+<th><strong>Pagine JavaScript dinamiche</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le pagine JavaScript dinamiche (JSSP) consentono di creare pagine lato server che generano contenuto dinamico quando si accede tramite un URL, ad esempio API personalizzate, esportazioni o logica dell’applicazione web. È ora possibile creare, modificare, duplicare ed eliminare queste pagine direttamente dall’interfaccia utente di Campaign Web.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/dynamic-javascript-pages.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#26-7-improvements}
+
+* Sono stati apportati i seguenti miglioramenti alla **configurazione dello schema personalizzato**:
+  * La nuova sezione **Dati azione** ti consente di limitare le azioni disponibili nei record di uno schema personalizzato, indipendentemente dalle regole di sicurezza configurate nelle singole cartelle. [Ulteriori informazioni](../administration/schemas-action-data.md)
+  * Sono stati aggiunti **filtri personalizzati** nella sezione **Configurazione elenco inventario**. Consentono di scegliere gli attributi da visualizzare come campi di accesso rapido nel riquadro dei filtri della visualizzazione elenco. [Ulteriori informazioni](../administration/schemas-custom-filters.md)
+
+* Sono stati apportati i seguenti miglioramenti ai **flussi di lavoro**:
+  * L’eliminazione di un’attività del flusso di lavoro è ora più flessibile: quando l’attività presenta attività successive, puoi scegliere di eliminarle tutte, eliminare solo l’attività selezionata o eliminarla mantenendo le attività successive in un nuovo ramo. [Ulteriori informazioni](../workflows/orchestrate-activities.md#delete-activity)
+  * È ora possibile disconnettere una transizione tra due attività del flusso di lavoro senza eliminarle. Ciò consente di riorganizzare un diagramma di flusso di lavoro, ad esempio per mettere temporaneamente da parte un gruppo di attività che si desidera mantenere, senza doverle eliminare e ricreare. [Ulteriori informazioni](../workflows/orchestrate-activities.md#disconnect-transition)
+  * Attorno all&#39;area di lavoro del flusso di lavoro vengono ora visualizzate barre di scorrimento orizzontali e verticali, che consentono di spostarsi tra flussi di lavoro di grandi dimensioni trascinando direttamente l&#39;area da visualizzare. [Ulteriori informazioni](../workflows/orchestrate-activities.md)
+  * Quando si salva o si avvia/riavvia un flusso di lavoro, ora viene visualizzato un avviso se un altro utente ha modificato il flusso di lavoro nell’interfaccia utente Web o nella console client da quando è stato aperto. Puoi scegliere di ignorare le altre modifiche, ricaricare il flusso di lavoro per ottenere la versione più recente o annullare.
+
+* **Indirizzo e-mail mittente**: ora puoi limitare il campo **Da e-mail** delle consegne a un elenco predefinito di indirizzi, utilizzando l&#39;opzione **NmsDelivery_senderAddressMask**. [Ulteriori informazioni](../administration/options.md#restrict-sender-address)
+* Sono stati migliorati **i messaggi di errore di accesso**: quando un tentativo di accesso non riesce, l&#39;interfaccia utente Web visualizza ora un messaggio di errore più specifico per diversi scenari (ad esempio, quando all&#39;utente non è assegnata alcuna area di sicurezza o il suo indirizzo IP è limitato).

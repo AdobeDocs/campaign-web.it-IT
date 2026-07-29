@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 14%
+source-wordcount: '448'
+ht-degree: 16%
 
 ---
 
@@ -17,16 +17,11 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo su richiesta, per le nuove implementazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
-
-
->[!IMPORTANT]
->
->I brand non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall’amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l’Assistenza cliente di Adobe.
+>Questa funzione è disponibile solo on-demand, per nuove implementazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 
 Ogni azienda dispone di linee guida per il brand che definiscono sia gli elementi visivi che i dettagli tecnici. Adobe Campaign ti consente di gestire queste linee guida a livello centrale, in modo da poter presentare ai clienti un’immagine del brand coerente in tutte le attività, dai loghi nelle e-mail agli URL e ai domini utilizzati nelle campagne.
 
-Gli amministratori tecnici possono creare e gestire più marchi all’interno di Adobe Campaign. Questo ti consente di definire tutti gli elementi che compongono la tua brand identity, compresi i loghi e anche le impostazioni di tracciamento delle e-mail. Una volta creati, questi marchi possono essere facilmente collegati alle consegne.
+Gli amministratori tecnici possono creare e gestire più brand direttamente dall’interfaccia utente web. Questo ti consente di definire tutti gli elementi che compongono la tua brand identity, compresi i loghi e anche le impostazioni di tracciamento delle e-mail. Una volta creati, questi marchi possono essere facilmente collegati alle consegne. [Scopri come creare e configurare un brand](branding-configure.md).
 
 In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. A tale scopo, segui i passaggi indicati di seguito:
 
@@ -38,14 +33,14 @@ In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un n
 
 1. **Crea un modello di consegna** - Una volta che il nuovo brand è disponibile, è consigliabile creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo brand. [Ulteriori informazioni](branding-assign.md).
 
-1. **Verifica le linee guida per il recapito messaggi** - Prima di iniziare a utilizzare il nuovo dominio, discuti la strategia con il team di recapito messaggi di Adobe. Aiuteranno a definire le best practice, ad esempio se è necessario creare una nuova affinità per suddividere gli IP tra domini e/o se è necessario definire un piano di aumento graduale.
+1. **Verifica le linee guida per il recapito messaggi** - Prima di iniziare a utilizzare il nuovo dominio, discuti la strategia con il team di recapito messaggi di Adobe. Aiuteranno a definire le best practice, ad esempio nel caso in cui debba essere creata una nuova affinità per suddividere gli IP tra domini diversi e/o se debba essere definito un piano di incremento.
 
 ## Nota di compatibilità {#compatibility-note}
 
-Il nuovo modello di branding centralizzato non è compatibile con la configurazione di [branding legacy](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} precedentemente utilizzata nella console client.
+Il nuovo modello di branding centralizzato non è compatibile con la configurazione di [branding legacy](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=it#configuring-multibranding){target="_blank"} precedentemente utilizzata nella console client.
 
 Nell&#39;approccio legacy, i clienti hanno implementato il branding estendendo il modulo extAccount e utilizzando la scheda **Branding**.
 
-![](assets/branding-legacy.png)
+![Schermata che mostra la creazione del brand.](assets/branding-legacy.png)
 
 Se l&#39;ambiente esistente utilizza questa configurazione legacy, non è possibile migrare direttamente al nuovo modello di branding centralizzato. Per adottare il nuovo sistema è necessaria una reimplementazione completa delle impostazioni di branding.

@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 65%
+source-wordcount: 728
+ht-degree: 63%
 
 ---
 
@@ -76,6 +76,10 @@ Per configurare o modificare il contenuto di un’e-mail, segui i passaggi indic
    >[!NOTE]
    >
    >È possibile modificare la parte che precede “@”, ma non l’indirizzo del dominio.
+
+   >[!NOTE]
+   >
+   >Gli amministratori possono limitare questo campo a un elenco predefinito di indirizzi del mittente. In questo caso, è possibile selezionare un indirizzo da un elenco a discesa invece di digitarlo. [Ulteriori informazioni](../administration/options.md#restrict-sender-address)
 
 1. Espandi la sezione **[!UICONTROL Campi Rispondi a]**. Il nome e gli indirizzi del mittente vengono utilizzati per le risposte per impostazione predefinita. Tuttavia, Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l’assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, il team di assistenza clienti potrà gestirla.
 

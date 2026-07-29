@@ -8,9 +8,9 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 535
 ht-degree: 2%
 
 ---
@@ -26,16 +26,6 @@ ht-degree: 2%
 >id="acw_javascript_codes_create"
 >title="Crea codice JavaScript"
 >abstract="Definisci uno spazio dei nomi, un nome e un’etichetta per il codice JavaScript, quindi scrivine il contenuto utilizzando le funzioni predefinite disponibili per le condizioni e la formattazione della data. Una volta creati, lo spazio dei nomi e il nome non possono essere modificati."
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_list"
->title="Pagine JavaScript dinamiche"
->abstract="Le pagine JavaScript dinamiche (JSSP) consentono di creare pagine lato server che generano contenuto dinamico quando si accede tramite un URL, ad esempio API personalizzate, esportazioni o logica dell’applicazione web. Da questo elenco è possibile creare, modificare, duplicare o eliminare una pagina JavaScript dinamica."
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_create"
->title="Pagina Crea JavaScript dinamico"
->abstract="Definisci uno spazio dei nomi, un nome e un’etichetta per la pagina JavaScript dinamica, quindi scrivine il contenuto utilizzando il codice JavaScript. Una volta creati, lo spazio dei nomi e il nome non possono essere modificati."
 
 ## Informazioni sui codici JavaScript {#about}
 

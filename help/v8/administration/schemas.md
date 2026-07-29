@@ -11,10 +11,10 @@ subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 33%
+source-wordcount: 348
+ht-degree: 30%
 
 ---
 
@@ -48,8 +48,10 @@ L’interfaccia degli schemi consente di:
 
 * [Accesso e personalizzazione degli schemi](schemas-browse-access.md) - Visualizzazione degli schemi disponibili, esplorazione dei relativi dettagli e personalizzazione della visualizzazione dello schermo
 * [Configura colonne elenco](schemas-list-columns.md) - Configura quali colonne vengono visualizzate per impostazione predefinita nelle visualizzazioni elenco.
+* [Aggiungi filtri personalizzati](schemas-custom-filters.md) - Aggiungi campi filtro ad accesso rapido nel riquadro dei filtri di una visualizzazione elenco.
 * [Modifica campi personalizzati](schemas-custom-fields.md) - Configura i campi personalizzati da visualizzare nelle schermate di dettaglio e organizzali in sezioni.
 * [Aggiungi elenchi raccolta](schemas-collection-lists.md) - Aggiungi elenchi raccolta per visualizzare i dati correlati nelle schermate del profilo.
+* [Azioni di controllo sui dati](schemas-action-data.md) - Limita le azioni di creazione, modifica ed eliminazione per gli schemi personalizzati.
 * [Crea e gestisci schemi](schemas-create-publish.md#create-schemas) - Crea nuovi schemi ed estendi quelli esistenti
 * [Pubblicare e sincronizzare gli schemi](schemas-create-publish.md#publish) - Sincronizzare le modifiche allo schema con la struttura del database.
 * [Operazioni con i moduli personalizzati](schemas-custom-forms.md) - Creazione, modifica e gestione di record negli schemi personalizzati tramite i moduli di immissione dati.
