@@ -4,13 +4,10 @@ title: Gestisci marchio
 description: Scopri come creare e gestire le linee guida per il brand
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 542
 ht-degree: 2%
@@ -25,7 +22,7 @@ In [!DNL Adobe Campaign Web], gli utenti possono immettere e organizzare manualm
 
 ## Accedere ai brand {#generative-access}
 
-Per accedere al menu **[!UICONTROL Marchi]** in [!DNL Adobe Campaign Web], è necessario assegnare agli utenti i profili di prodotto **[!UICONTROL Amministratore (amministratore)]** e **[!UICONTROL Brand kit]** per creare e gestire i marchi. Per l&#39;accesso in sola lettura, gli utenti hanno bisogno del profilo di prodotto [!UICONTROL Assistente IA]. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Per accedere al menu **[!UICONTROL Marchi]** in [!DNL Adobe Campaign Web], è necessario assegnare agli utenti i profili di prodotto **[!UICONTROL Amministratore (amministratore)]** e **[!UICONTROL Brand kit]** per creare e gestire i marchi. Per l&#39;accesso in sola lettura, gli utenti hanno bisogno del profilo di prodotto [!UICONTROL Assistente IA]. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Scopri come assegnare le autorizzazioni relative al brand
 
@@ -75,7 +72,7 @@ Gli utenti possono immettere i dettagli manualmente o caricare un documento sull
 
    ![](assets/brands-15.png)
 
-1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida per il brand in AI Assistant.
+1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida del brand in Genera contenuto.
 
 1. Per apportare modifiche al tuo marchio pubblicato, fai clic su **[!UICONTROL Modifica marchio]**.
 
@@ -97,7 +94,7 @@ Gli utenti possono immettere i dettagli manualmente o caricare un documento sull
 
    ![Opzioni di menu avanzate nel dashboard Marchi](assets/brands-6.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;Assistente di intelligenza artificiale. In questo modo l’Assistente AI può generare contenuti e risorse in linea con le specifiche dell’utente. [Ulteriori informazioni sull&#39;Assistente IA](../content/generative-gs.md)
+Le linee guida per il tuo marchio sono ora accessibili dal menu a discesa **[!UICONTROL Marchio]** nel menu Genera contenuto. Questo consente all’intelligenza artificiale di generare contenuti e risorse in linea con le specifiche. [Ulteriori informazioni su Generazione contenuto](../content/generative-gs.md)
 
 Puoi anche utilizzare le linee guida del tuo marchio per valutare la qualità dei contenuti e l’allineamento del brand. [Ulteriori informazioni sulla convalida della qualità dei contenuti](brands-score.md#validate-quality)
 

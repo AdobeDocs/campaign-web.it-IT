@@ -1,30 +1,28 @@
 ---
 audience: end-user
-title: Introduzione all’Assistente IA
-description: Introduzione all’Assistente IA
+title: Introduzione a Genera contenuto
+description: Introduzione alla generazione di contenuti
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 24%
+ht-degree: 20%
 
 ---
 
-# Utilizzare l’Assistente IA {#generative-gs}
+# Utilizzare Genera contenuto {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Assistente IA"
->abstract="Dopo aver creato e personalizzato la consegna, utilizza l’Assistente IA per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e il miglioramento dei contenuti e ti consente di perfezionarli descrivendo cosa desideri generare."
+>title="Genera contenuto"
+>abstract="Dopo aver creato e personalizzato la consegna, utilizza l’intelligenza artificiale per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e il miglioramento dei contenuti e ti consente di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Definire il contesto con l’Assistente IA in Campaign"
+>title="Definire il contesto con Genera contenuto in Campaign"
 >abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuti, attiva il pulsante di attivazione **Migliora con il contesto corrente**. Puoi anche caricare le risorse del tuo marchio per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è necessari caricare e selezionare le risorse del brand."
 
 >[!CONTEXTUALHELP]
@@ -37,9 +35,9 @@ ht-degree: 24%
 >
 >Immergiti in un&#39;esperienza pratica con [la nostra anteprima live delle funzionalità](https://experienceleague.adobe.com/it/apps/journey-optimizer/ai-assistant-content-accelerator), progettata per consentirti di esplorarne le funzionalità in prima persona e comprenderne appieno le funzionalità.
 
-Man mano che il settore del marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in tempi rapidi. L’Assistente per l’intelligenza artificiale in Adobe Campaign Web, fornito da Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che trasforma il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand tra canali diversi, come e-mail, SMS e notifiche push. Con modelli GenAI avanzati e una profonda conoscenza delle linee guida del brand, AI Assistant genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, ottimizzando i contenuti per stili, layout, toni e altro ancora delineati dal brand.
+Man mano che il settore del marketing diventa più competitivo, i brand cercano modi efficienti per generare contenuti di impatto in tempi rapidi. Generate Content in Adobe Campaign Web (Genera contenuto in Web), basato su Microsoft Azure OpenAI e Adobe Firefly, è la funzionalità di generazione di contenuti di intelligenza artificiale di Adobe che trasforma il modo in cui gli esperti di marketing creano contenuti professionali e coerenti con il brand attraverso canali diversi, come e-mail, SMS e notifiche push. Con modelli GenAI avanzati e una profonda conoscenza delle linee guida del brand, Generate Content genera automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base all’obiettivo di marketing, ottimizzando i contenuti per stili, layout, toni e altro ancora delineati dal brand.
 
-L&#39;Assistente AI supporta la generazione di **in più lingue**, consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali. L&#39;Assistente AI è disponibile nelle seguenti lingue:
+Genera contenuto supporta la generazione **in più lingue** consentendo di raggiungere e coinvolgere diversi tipi di pubblico globali. Genera contenuto è disponibile nelle seguenti lingue:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -72,17 +70,17 @@ L&#39;Assistente AI supporta la generazione di **in più lingue**, consentendo d
   </tbody>
 </table>
 
-AI Assistant semplifica la creazione e l’esecuzione di campagne di marketing su canali diversi, come e-mail, SMS e notifiche push, risparmiando tempo, migliorando l’efficienza e ottenendo risultati migliori.
+Genera contenuto semplifica la creazione e l’esecuzione di campagne di marketing su canali diversi, come e-mail, SMS e notifiche push, consentendo di risparmiare tempo, migliorando l’efficienza e ottenendo risultati migliori.
 
 >[!IMPORTANT]
 >
 >* Prima di utilizzare questa funzionalità, controlla le [protezioni e limitazioni](#generative-guardrails) correlate.
 >
->* È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;Assistente IA in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>* È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-## Accedi all’Assistente di AI {#generative-access}
+## Accedi a Genera contenuto {#generative-access}
 
-L’Assistente IA per e-mail, notifiche push, pagina di destinazione e SMS è ora in Disponibilità generale (GA) e disponibile per tutti gli utenti. Di seguito sono riportati i passaggi e le autorizzazioni necessari per concedere l’accesso agli utenti.
+Generare contenuti per e-mail, notifiche push, pagina di destinazione e SMS è ora disponibile in General Availability (GA) e per tutti gli utenti. Di seguito sono riportati i passaggi e le autorizzazioni necessari per concedere l’accesso agli utenti.
 
 +++ Scopri come assegnare le autorizzazioni relative alla generazione dei contenuti
 
@@ -92,7 +90,7 @@ L’Assistente IA per e-mail, notifiche push, pagina di destinazione e SMS è or
 
    `Campaign - <instance-name> - AIAssistant`
 
-1. Configura il profilo di prodotto con le autorizzazioni necessarie per l’accesso all’Assistente AI.
+1. Imposta il profilo di prodotto con le autorizzazioni necessarie per generare l’accesso ai contenuti.
 
 1. **Aggiungi utenti o gruppi di utenti**. Scegliere una delle opzioni seguenti:
    * **Aggiungi singoli utenti**: aggiungi gli utenti richiesti direttamente al profilo di prodotto.
@@ -104,49 +102,49 @@ Scopri come definire le autorizzazioni in Campaign in [questa sezione](../get-st
 
 ## Guardrail e limitazioni {#generative-guardrails}
 
-Di seguito sono elencate le linee guida generali per l’utilizzo dell’Assistente IA in Adobe Campaign Web per la generazione di e-mail:
+Di seguito sono elencate le linee guida generali per l’utilizzo dell’intelligenza artificiale per generare contenuti in Adobe Campaign Web per la generazione di e-mail:
 
 * La qualità del contenuto generato dipende in larga misura dall’obiettivo di marketing o dal prompt definito. Utilizzate un prompt ben definito per consentire al modello GenAI di interpretare con precisione.
 * Carica le risorse del brand per garantire contenuti precisi on-brand. In caso contrario, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: PDF, JPEG, PNG o file ZIP (con formati di file supportati).
 * La dimensione massima per le risorse marchio caricate è di 50 MB. File di grandi dimensioni o numerose immagini possono aumentare il tempo di elaborazione.
-* Utilizza [modelli e-mail incorporati](../content/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail tramite l&#39;Assistente all&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
+* Utilizza [modelli e-mail incorporati](../content/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail utilizzando l&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
 * Segnala eventuali output problematici utilizzando le icone thumb-up, thumbs-down o flag durante la selezione delle varianti.
-* L’utilizzo di AI Assistant è soggetto alle linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html).
+* L’utilizzo di Genera contenuto è soggetto alle Linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
-Le seguenti limitazioni si applicano all’Assistente IA in Adobe Campaign Web:
+Le seguenti limitazioni si applicano alla generazione di contenuti in Adobe Campaign Web:
 
-* L’Assistente IA in Adobe Campaign Web è attualmente supportato solo in inglese. Gli input non in inglese possono produrre risultati incoerenti o errati. Al momento non sarà possibile affrontare o migliorare le questioni sollevate da risposte non in lingua inglese.
+* Generate Content in Adobe Campaign Web (Genera contenuto in Web) è attualmente supportato solo in lingua inglese. Gli input non in inglese possono produrre risultati incoerenti o errati. Al momento non sarà possibile affrontare o migliorare le questioni sollevate da risposte non in lingua inglese.
 * Disponibile solo per i canali e-mail, push e SMS.
 * Il contenuto GenAI potrebbe non essere sempre accurato. Condividi il tuo feedback affinché gli ingegneri possano perfezionare i modelli.
 * Puoi caricare più risorse per il brand, ma puoi sfruttarne una sola per una generazione specifica.
 
-## Funzionalità di generazione dei contenuti dell’Assistente AI {#generative-features}
+## Funzionalità di generazione dei contenuti {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[Generazione completa di contenuti con Assistente IA]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[Generazione completa dei contenuti con Generazione dei contenuti]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Generazione completa di contenuti con l'Assistente AI</strong></a>
+<a href="generative-full-content.md"><strong>Generazione completa dei contenuti con generazione dei contenuti</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-text.md">
-<img alt="[Generazione di contenuti di testo con Assistente IA]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[Generazione di contenuti di testo con Genera contenuto]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong>Generazione di testo con Assistente IA</strong>
+<div><a href="generative-text.md"><strong>Generazione testo con generazione contenuto</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="[Generazione di immagini con l’Assistente AI]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[Generazione di immagini con generazione di contenuti]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>Generazione di immagini con Assistente AI</strong></a>
+<a href="generative-image.md"><strong>Generazione immagini con generazione contenuto</strong></a>
 </div>
 <p></td>
 </tr></table>

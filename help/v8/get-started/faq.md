@@ -3,20 +3,18 @@ title: Domande frequenti
 description: Domande frequenti sull’interfaccia utente di Campaign Web
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Domande frequenti
 
-Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}.
+Nella sezione seguentetrovi le risposte alle domande più frequenti relative alla nuova interfaccia di Campaign. Hai ulteriouri domande? Vuoi condividere la tua esperienza o scambiare idee con altri utenti? O forse vuoi inviare al team Adobe un feedback sui contenuti di apprendimento? Partecipa alla conversazione nella [community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
 
 +++ Con quale versione di Adobe Campaign è possibile accedere alla nuova interfaccia utente web?
 
@@ -32,7 +30,7 @@ Per informazioni su come iniziare, visita [questa pagina](../get-started/get-sta
 
 +++ Quali sono le nuove funzioni e funzionalità della nuova interfaccia utente web?
 
-La nuova interfaccia utente di Adobe Campaign v8 è coerente con Adobe Experience Platform ed è progettata per migliorare l’efficienza del marketing. La nuova area per i flussi di lavoro offre un’area di lavoro intuitiva ed avanzata per la composizione del pubblico, la gestione dei flussi di lavoro e la progettazione dei contenuti, oltre a casi d’uso integrati con applicazioni native di Adobe Experience Platform come Journey Optimizer e Real-Time CDP. Stimola la tua creatività, aumenta la produttività e personalizza campagne cross-channel su larga scala con l’Assistente IA, incorporato in modo nativo nel designer di messaggi WYSIWYG.
+La nuova interfaccia utente di Adobe Campaign v8 è coerente con Adobe Experience Platform ed è progettata per migliorare l’efficienza del marketing. La nuova area per i flussi di lavoro offre un’area di lavoro intuitiva ed avanzata per la composizione del pubblico, la gestione dei flussi di lavoro e la progettazione dei contenuti, oltre a casi d’uso integrati con applicazioni native di Adobe Experience Platform come Journey Optimizer e Real-Time CDP. Parla della creatività, aumenta la produttività e personalizza campagne cross-channel su larga scala con Genera contenuto, incorporata in modo nativo nella finestra di progettazione dei messaggi di WYSIWYG.
 
 I marketer possono utilizzare l’intelligenza artificiale generativa per la progettazione completa di e-mail HTML e per generare testo e immagini con suggerimenti di perfezionamento e varianti. Per uleriori informazioni sulle nuove funzioni e funzionalità, visita [questa pagina](../rn/whats-new.md). Per ulteriori informazioni sulla nuova interfaccia e per vederla in azione, visita [questa pagina](../get-started/user-interface.md). Inoltre, nella sezione [Tutorial](https://experienceleague.adobe.com/it/docs/campaign-web-learn/tutorials/overview){target="_blank"}, sono disponibili alcuni video dimostrativi per ulteriori informazioni sulla nuova interfaccia.
 
