@@ -1,5 +1,5 @@
 ---
-title: Guida alla richiesta di informazioni sui contenuti dell’Assistente AI
+title: Genera guida alla richiesta di contenuto
 description: Scopri come creare prompt efficaci per la generazione di contenuti basati sull’intelligenza artificiale utilizzando il framework CO-STAR per creare contenuti di marketing ad alta conversione e allineati al brand.
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2111
+source-wordcount: 2054
 ht-degree: 0%
 
 ---
 
-# Best practice per i prompt dell’Assistente IA {#ai-assistant-prompting-guide}
+# Best practice per la generazione del prompt dei contenuti {#ai-assistant-prompting-guide}
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi delle campagne.
-Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
+Scopri come scrivere prompt efficaci che consentano all’intelligenza artificiale di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
 
 ## Utilizzare il framework CO-STAR {#costar-framework}
 
-Per ottenere risultati ottimali con l’Assistente AI, organizza le richieste utilizzando il framework CO-STAR. Questo approccio strutturato assicura che l’intelligenza artificiale comprenda esattamente ciò di cui hai bisogno.
+Per ottenere risultati ottimali con Generate Content (Genera contenuto), organizzate i prompt utilizzando il framework CO-STAR. Questo approccio strutturato assicura che l’intelligenza artificiale comprenda esattamente ciò di cui hai bisogno.
 
 | Componente | Che cosa significa | Perché è importante |
 |-|-|-|

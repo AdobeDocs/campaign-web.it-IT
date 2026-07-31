@@ -7,10 +7,10 @@ hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 53%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +27,5 @@ In questa pagina sono elencati tutti gli aggiornamenti della documentazione di A
 
 **Data: 1 dicembre 2025**
 
-* È stata riorganizzata la documentazione dell’Assistente IA con pagine consolidate per [generazione di contenuti completi](../content/generative-full-content.md), [generazione di testo](../content/generative-text.md) e [generazione di immagini](../content/generative-image.md)
-* È stata aggiunta la [Guida alle best practice per i prompt dell’Assistente IA](../content/ai-assistant-prompting-guide.md) per consentire agli utenti di creare prompt efficaci
+* Riorganizzazione Guida alla documentazione Generate Content con pagine consolidate per [generazione full-content](../content/generative-full-content.md), [generazione testo](../content/generative-text.md) e [generazione immagine](../content/generative-image.md)
+* Aggiunta [Guida alle best practice per la generazione di prompt dei contenuti](../content/ai-assistant-prompting-guide.md) per consentire agli utenti di creare prompt efficaci

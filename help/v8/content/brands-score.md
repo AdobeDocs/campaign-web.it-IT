@@ -10,9 +10,9 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 510
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Prima di poter utilizzare l&#39;Assistente all&#39;intelligenza artificiale, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>Prima di poter utilizzare Genera contenuto, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 La funzione di revisione dei contenuti fornisce strumenti di valutazione completi per misurare il livello di allineamento delle campagne alle linee guida del brand e mantenere gli standard di qualità dei contenuti in tutte le comunicazioni:
 
