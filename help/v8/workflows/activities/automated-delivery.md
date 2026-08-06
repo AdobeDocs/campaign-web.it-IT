@@ -52,7 +52,7 @@ Quando configuri l’attività, scegli da dove proviene la consegna. In questa s
 
 >[!NOTE]
 >
->Le opzioni **Specificato nella transizione** e **Calcolato dallo script**, utilizzate per casi d&#39;uso avanzati, possono essere configurate solo nella console client. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>Le opzioni **Specificato nella transizione** e **Calcolato dallo script**, utilizzate per casi d&#39;uso avanzati, possono essere configurate solo nella console client. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Seleziona l’azione da eseguire {#action-to-execute}
 

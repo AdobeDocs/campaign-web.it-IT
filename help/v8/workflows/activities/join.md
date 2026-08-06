@@ -5,8 +5,8 @@ description: Scopri come utilizzare l’attività del flusso di lavoro Partecipa
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 39%
+source-wordcount: '489'
+ht-degree: 38%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="Attività di unione"
->abstract="L’attività **Unione** consente di unire più transizioni in entrata. Scegli se continuare quando tutte le transizioni in entrata sono complete (AND) o quando una qualsiasi transizione in entrata è completa (OR)."
+>title="Attività Unione"
+>abstract="L’attività **Unione** consente di unire più transizioni in entrata. Scegli se continuare quando tutte le transizioni in entrata sono completate (E) o quando una transizione in entrata è completata (OPPURE)."
 
 L&#39;attività **Partecipa** è un&#39;attività **Controllo flusso**. Sincronizza più rami di esecuzione di un flusso di lavoro.
 Puoi scegliere come valutare le transizioni in entrata:
