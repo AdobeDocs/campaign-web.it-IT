@@ -12,8 +12,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2327
-ht-degree: 31%
+source-wordcount: 2370
+ht-degree: 30%
 
 ---
 
@@ -33,10 +33,10 @@ L’attività **Arricchimento** è un’attività di **targeting**. Migliora i d
 I dati di arricchimento possono provenire da:
 
 * **La stessa tabella di lavoro** di quella di destinazione nel flusso di lavoro:
-   * Esegui il targeting di un gruppo di clienti e aggiungi il campo &quot;Data di nascita&quot; alla tabella di lavoro corrente.
+  * Esegui il targeting di un gruppo di clienti e aggiungi il campo &quot;Data di nascita&quot; alla tabella di lavoro corrente.
 
 * **Altra tabella di lavoro**:
-   * Eseguire il targeting di un gruppo di clienti e aggiungere i campi &quot;Importo&quot; e &quot;Tipo di prodotto&quot; dalla tabella &quot;Acquisto&quot;.
+  * Eseguire il targeting di un gruppo di clienti e aggiungere i campi &quot;Importo&quot; e &quot;Tipo di prodotto&quot; dalla tabella &quot;Acquisto&quot;.
 
 Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze. Può essere utilizzato anche per creare messaggi di marketing personalizzati e campagne che risuonano con il pubblico di destinazione.
 
@@ -98,7 +98,7 @@ Per ogni attività sono disponibili le seguenti opzioni:
 
 +++
 
-+++ Attività Arricchimento
++++ Attività di Arricchimento
 
 * **[!UICONTROL Raggruppa i dati per elemento dimensione di destinazione]**: raggruppa il risultato in modo che ogni record di destinazione venga visualizzato una sola volta.
 * **[!UICONTROL Rimuovi righe duplicate (DISTINCT)]**: rimuove le righe duplicate dal set di risultati.
@@ -211,7 +211,7 @@ Ora puoi utilizzare l’offerta nell’attività di consegna.
 All’interno di un flusso di lavoro, se desideri utilizzare le offerte che ottieni da un’attività di arricchimento nella consegna, segui i passaggi seguenti:
 
 1. Apri l’attività di consegna e vai nell’edizione dei contenuti. Fai clic sul pulsante **[!UICONTROL Impostazioni offerte]** e seleziona nell&#39;elenco a discesa lo spazio **[!UICONTROL Offerte]** corrispondente alla tua offerta.
-Se desideri visualizzare solo le offerte dell&#39;attività di arricchimento, imposta il numero di **[!UICONTROL Proposte]** su 0 e salva le modifiche.
+Se si desidera visualizzare solo le offerte dell&#39;attività di arricchimento, impostare il numero di **[!UICONTROL proposte]** su 0 e salvare le modifiche.
 
    ![](../assets/offers-settings.png)
 
