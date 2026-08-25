@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d6b9b9c9905d840e65ac0aa267a665997c6e6b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 330
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo u
 
 >[!NOTE]
 >
->Nei prossimi giorni verrà aggiunta progressivamente la documentazione dettagliata relativa alle funzioni e ai miglioramenti riportati di seguito.
+>La documentazione dettagliata per le funzioni e i miglioramenti indicati di seguito verrà aggiunta progressivamente nei prossimi giorni.
 
 ## Versione di agosto 2026 {#26-8-release}
 
@@ -47,7 +47,7 @@ _18 agosto 2026_
 <tbody>
 <tr>
 <td>
-<p>L'attività del flusso di lavoro <strong>Approvazione</strong>, in precedenza disponibile solo nella console client, è ora disponibile nell'interfaccia utente di Campaign Web. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte (ad esempio Sì/No) come rami di output.</p>
+<p>L’attività del flusso di lavoro <strong>Approvazione</strong>, in precedenza disponibile solo nella console client, è ora disponibile nell’interfaccia utente web di Campaign. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte (ad esempio Sì/No) come rami di output.</p>
 </td>
 </tr>
 </tbody>
@@ -55,11 +55,11 @@ _18 agosto 2026_
 
 ### Miglioramenti {#26-8-improvements}
 
-* **Apre il tracciamento**: ora è possibile abilitare o disabilitare il tracciamento aperto direttamente dall&#39;interfaccia utente Web di Campaign. Questo ti aiuta a rispettare le normative sulla protezione dei dati.
-* **Visualizzazione elenco programmi**: i programmi sono ora elencati in una visualizzazione dedicata, simile a campagne, consegne e flussi di lavoro. È possibile sfogliare i programmi esistenti e crearne di nuovi direttamente da questa visualizzazione.
-* **Configurazione schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l&#39;azione **Duplica** sui record di uno schema personalizzato.
+* **Tracciamento aperture**: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati.
+* **Vista a elenco dei programmi**: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista.
+* **Configurazione dello schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l’azione **Duplica** sui record di uno schema personalizzato.
   <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
-* **Filtri personalizzati**: nell&#39;editor schema i filtri personalizzati ora supportano le condizioni di filtro sui collegamenti diretti e puoi sovrascrivere l&#39;etichetta predefinita di qualsiasi attributo utilizzando le nuove **Impostazioni filtro personalizzate**.
-* **Convalida schema**: è ora possibile convalidare la struttura di uno schema direttamente dall&#39;editor schema, utilizzando il nuovo pulsante **Convalida**.
-* **Protezione cartella**: l&#39;opzione **Rinomina** è ora disponibile per una cartella se l&#39;utente dispone del diritto di accesso **Inserisci** o **Modifica**.
+* **Filtri personalizzati**: nell’editor dello schema, i filtri personalizzati ora supportano le condizioni di filtro sui collegamenti diretti e puoi sostituire l’etichetta predefinita di qualsiasi attributo utilizzando le nuove **Impostazioni del filtro personalizzato**.
+* **Convalida dello schema**: ora puoi convalidare la struttura di uno schema direttamente dall’editor dello schema, utilizzando il nuovo pulsante **Convalida**.
+* **Sicurezza della cartella**: l’opzione **Rinomina** è ora disponibile per una cartella se l’utente dispone del diritto di accesso **Inserisci** o **Modifica**.
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->

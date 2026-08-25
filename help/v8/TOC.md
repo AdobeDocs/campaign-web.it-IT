@@ -7,9 +7,9 @@ description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 95%
       + [Aggiungi CSS personalizzato](email/custom-css.md)
       + [Gestire i contenuti in modalità scura](email/dark-mode.md)
     + [Creare contenuti accessibili](email/accessible-content.md)
-  + Genera contenuto {#ai-assistant}
-    + [Utilizzare Genera contenuto](content/generative-gs.md)
+  + Generare contenuti {#ai-assistant}
+    + [Utilizzare Genera contenuti](content/generative-gs.md)
     + [Best practice per prompt IA](content/ai-assistant-prompting-guide.md)
     + [Generazione di contenuti completi con l’IA](content/generative-full-content.md)
     + [Generazione di testi con l’IA](content/generative-text.md)
     + [Generazione di immagini con l’IA](content/generative-image.md)
-    + [Generare casi di utilizzo del contenuto](content/generative-uc.md)
+    + [Casi di utilizzo per generare contenuti](content/generative-uc.md)
     + Brand {#ai-assistant}
       + [Creare e gestire i brand personali](content/brands.md)
       + [Personalizzare il brand](content/brands-personalize.md)
@@ -153,10 +153,10 @@ ht-degree: 95%
   + [Apprendere attraverso i casi d’uso](landing-pages/lp-use-cases.md)
 + Gestione delle offerte {#offers}
   + [Introduzione alla gestione delle offerte](offers/gs-offer-management.md)
-  + [Rivedere le impostazioni dell’ambiente dell’offerta](offers/offer-environment.md)
-  + [Creare e gestire gli spazi dell’offerta](offers/offer-space.md)
+  + [Rivedere le impostazioni dell’ambiente delle offerte](offers/offer-environment.md)
+  + [Creare e gestire spazi delle offerte](offers/offer-space.md)
   + [Creare e pubblicare un’offerta](offers/create-offer.md)
-  + [Aggiungere un elenco modificabile allo schema delle offerte](offers/offer-editable-list.md)
+  + [Aggiungere un elenco modificabile allo schema dell’offerta](offers/offer-editable-list.md)
 + Profili e tipi di pubblico {#audiences}
   + [Guida introduttiva ai profili e ai tipi di pubblico](audience/gs-audiences-recipients.md)
   + [Dimensioni targeting](audience/targeting-dimensions.md)
@@ -302,11 +302,11 @@ ht-degree: 95%
     + [Aggiungere filtri personalizzati](administration/schemas-custom-filters.md)
     + [Modificare i campi personalizzati](administration/schemas-custom-fields.md)
     + [Aggiungere elenchi di raccolte](administration/schemas-collection-lists.md)
-    + [Azioni di controllo sui dati](administration/schemas-action-data.md)
+    + [Controllare le azioni sui dati](administration/schemas-action-data.md)
     + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
     + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurare i campi personalizzati](administration/custom-fields.md)
-  + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
   + [Gestione del fuso orario](administration/timezone-management.md)
   + Account esterni {#external-accounts}
     + [Creare account esterni](administration/create-external-account.md)

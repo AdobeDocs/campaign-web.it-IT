@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 3030
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 3118
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile creare e personalizzare i tuoi brand per definire chiaramente la tua identità visiva e verbale in tutte le comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere in linea con il brand in modo coerente in ogni messaggio inviato.
+<p>Ora è possibile creare e personalizzare i brand per definire chiaramente la propria identità visiva e verbale nelle comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere coerente in ogni messaggio inviato.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../content/brands.md">documentazione dettagliata</a>.</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>Ora è possibile accedere al reporting dinamico, che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Il reporting dinamico è disponibile anche per le consegne e-mail e i messaggi transazionali multilingue.</p>
-<p>Questa funzionalità è disponibile solo su richiesta. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
+<p>Questa funzionalità è disponibile solo on-demand. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
 <p>Per ulteriori informazioni, consulta la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. Le opzioni di branding sono ora disponibili per tutti i canali, inclusi SMS e direct mail.</p>
-<p>Questa funzionalità è disponibile solo su richiesta, per le nuove implementazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
+<p>Questa funzione è disponibile solo on-demand, per nuove implementazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
 <p>Per ulteriori informazioni, consulta la <a href="../administration/branding/branding-gs.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -650,7 +650,7 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 <tr>
 <td>
 <p>In qualità di amministratore di Campaign, ora puoi configurare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web.
-Inoltre, puoi visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
+Puoi anche visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -853,15 +853,15 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <table>
 <thead>
 <tr>
-<th><strong>Generazione di pagine di destinazione con Genera contenuto</strong><br/></th>
+<th><strong>Generazione di pagine di destinazione con Genera contenuti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Genera contenuto è ora disponibile con le consegne della pagina di destinazione, consentendo di generare testo, immagini o layout di pagina completi.</p>
+<p>La funzione Genera contenuti è ora disponibile per le consegne di pagine di destinazione e ti consente di generare testo, immagini o layout di pagina completi.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Per ulteriori informazioni su Generate Content, consulta la <a href="../content/generative-full-content.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni sulla funzione Genera contenuti, consulta la <a href="../content/generative-full-content.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
