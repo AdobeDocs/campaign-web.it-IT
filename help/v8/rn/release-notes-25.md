@@ -3,25 +3,14 @@ title: Note sulla versione precedente dell’interfaccia utente di Campaign Web 
 description: Versioni 2025 dell’interfaccia utente di Campaign Web
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 3030
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 3118
+ht-degree: 100%
 
 ---
 
@@ -324,7 +313,7 @@ table>
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -375,7 +364,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile creare e personalizzare i tuoi brand per definire chiaramente la tua identità visiva e verbale in tutte le comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere in linea con il brand in modo coerente in ogni messaggio inviato.
+<p>Ora è possibile creare e personalizzare i brand per definire chiaramente la propria identità visiva e verbale nelle comunicazioni. Con il punteggio di allineamento del brand, è possibile ricevere feedback in tempo reale su come il il contenuto ne rifletta il tono, lo stile e le linee guida, consentendo di rimanere coerente in ogni messaggio inviato.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../content/brands.md">documentazione dettagliata</a>.</p>
 </td>
@@ -436,7 +425,7 @@ table>
 <tr>
 <td>
 <p>Ora è possibile accedere al reporting dinamico, che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Il reporting dinamico è disponibile anche per le consegne e-mail e i messaggi transazionali multilingue.</p>
-<p>Questa funzionalità è disponibile solo su richiesta. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
+<p>Questa funzionalità è disponibile solo on-demand. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
 <p>Per ulteriori informazioni, consulta la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -453,7 +442,7 @@ table>
 <tr>
 <td>
 <p>Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. Le opzioni di branding sono ora disponibili per tutti i canali, inclusi SMS e direct mail.</p>
-<p>Questa funzionalità è disponibile solo su richiesta, per le nuove implementazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
+<p>Questa funzione è disponibile solo on-demand, per nuove implementazioni. Per ottenere l’accesso, contatta il tuo rappresentante Adobe. Il server deve essere aggiornato almeno alla versione 8.8.1. Consulta le <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it-IT" target="_blank">note sulla versione</a> della console client.
 <p>Per ulteriori informazioni, consulta la <a href="../administration/branding/branding-gs.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -473,14 +462,14 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=it){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -507,10 +496,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=it) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=it){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -650,7 +639,7 @@ Le seguenti funzioni sono disponibili per tutti gli utenti a partire dalla versi
 <tr>
 <td>
 <p>In qualità di amministratore di Campaign, ora puoi configurare nuove connessioni con sistemi esterni dall’interfaccia utente di Campaign Web.
-Inoltre, puoi visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
+Puoi anche visualizzare, aggiornare e gestire gli account esterni esistenti.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../administration/external-account.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -853,15 +842,15 @@ Le funzioni e i miglioramenti seguenti sono disponibili a partire dalla versione
 <table>
 <thead>
 <tr>
-<th><strong>Generazione di pagine di destinazione con Genera contenuto</strong><br/></th>
+<th><strong>Generazione di pagine di destinazione con Genera contenuti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Genera contenuto è ora disponibile con le consegne della pagina di destinazione, consentendo di generare testo, immagini o layout di pagina completi.</p>
+<p>La funzione Genera contenuti è ora disponibile per le consegne di pagine di destinazione e ti consente di generare testo, immagini o layout di pagina completi.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Per ulteriori informazioni su Generate Content, consulta la <a href="../content/generative-full-content.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni sulla funzione Genera contenuti, consulta la <a href="../content/generative-full-content.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
