@@ -8,9 +8,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 2fbacd0b6e5c6bb88b7987f151bca514764e59f7
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: 408
 ht-degree: 8%
 
 ---
@@ -86,4 +86,4 @@ Segui questi passaggi per configurare l&#39;attività **External signal** e atti
 
    +++
 
-   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it).
+   * Per attivare un&#39;attività **[!UICONTROL External signal]** da una chiamata API, segui i passaggi descritti nella documentazione API di Campaign. [Scopri come utilizzare il metodo `PostEvent` statico](https://experienceleague.adobe.com/it/tools/campaign-api).

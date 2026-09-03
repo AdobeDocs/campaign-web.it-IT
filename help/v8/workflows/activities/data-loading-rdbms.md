@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
 source-wordcount: 772
-ht-degree: 4%
+ht-degree: 16%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
 >title="Attività di caricamento dati (RDBMS)"
->abstract="L&#39;attività **Data loading (RDBMS)** è un&#39;attività **Data management**. Utilizza questa attività per caricare i dati direttamente da un database relazionale esterno nel flusso di lavoro. I dati estratti sono disponibili in tutto il flusso di lavoro e possono essere utilizzati per il targeting, l’arricchimento o l’ulteriore elaborazione dei dati."
+>abstract="L’attività **Caricamento dati (RDBMS)** è un’attività di **gestione dati**. Utilizza questa attività per caricare i dati nel flusso di lavoro direttamente da un database relazionale esterno. I dati estratti sono disponibili in tutto il flusso di lavoro e possono essere utilizzati per il targeting, l’arricchimento o l’ulteriore elaborazione dei dati."
 
-L&#39;attività **Data loading (RDBMS)** è un&#39;attività **Data management**. Utilizza questa attività per caricare i dati direttamente da un database relazionale esterno nel flusso di lavoro. I dati estratti sono disponibili in tutto il flusso di lavoro e possono essere utilizzati per il targeting, l’arricchimento o l’ulteriore elaborazione dei dati.
+L’attività **Caricamento dati (RDBMS)** è un’attività di **gestione dati**. Utilizza questa attività per caricare i dati nel flusso di lavoro direttamente da un database relazionale esterno. I dati estratti sono disponibili in tutto il flusso di lavoro e possono essere utilizzati per il targeting, l’arricchimento o l’ulteriore elaborazione dei dati.
 
 <!--
 This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=it){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.

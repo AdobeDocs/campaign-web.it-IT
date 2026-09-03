@@ -15,11 +15,11 @@ ht-degree: 20%
 
 ---
 
-# Utilizzare Genera contenuto {#generative-gs}
+# Utilizzare Genera contenuti {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Genera contenuto"
+>title="Generare contenuti"
 >abstract="Dopo aver creato e personalizzato la consegna, utilizza l’intelligenza artificiale per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e il miglioramento dei contenuti e ti consente di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
