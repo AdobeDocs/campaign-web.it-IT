@@ -2,15 +2,12 @@
 title: Utilizzare pagine JavaScript dinamiche
 description: Scopri come utilizzare le pagine JavaScript dinamiche.
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
-ht-degree: 1%
+ht-degree: 29%
 
 ---
 
@@ -19,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"
 >title="Pagine JavaScript dinamiche"
->abstract="Le pagine JavaScript dinamiche (JSSP) consentono di creare pagine lato server che generano contenuto dinamico quando si accede tramite un URL, ad esempio API personalizzate, esportazioni o logica dell’applicazione web. Da questo elenco è possibile creare, modificare, duplicare o eliminare una pagina JavaScript dinamica."
+>abstract="Le pagine JavaScript dinamiche (JSSP) ti consentono di creare pagine lato server che generano contenuti dinamici quando vi si accede tramite un URL, ad esempio API personalizzate, esportazioni o logica dell’applicazione web. Da questo elenco puoi creare, modificare, duplicare o eliminare una pagina JavaScript dinamica."
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
@@ -28,7 +25,7 @@ ht-degree: 1%
 
 ## Informazioni sulle pagine JavaScript dinamiche {#about}
 
-Le pagine JavaScript dinamiche (JSSP) consentono di creare pagine lato server che generano contenuto dinamico quando si accede tramite un URL, ad esempio API personalizzate, esportazioni o logica dell’applicazione web. Queste pagine sono memorizzate nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Pagine JavaScript dinamiche]** nel riquadro di navigazione a sinistra.
+Le pagine JavaScript dinamiche (JSSP) consentono di creare pagine lato server che generano contenuti dinamici durante l’accesso tramite un URL; ad esempio API personalizzate, esportazioni o logica dell’applicazione web. Queste pagine sono memorizzate nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Pagine JavaScript dinamiche]** nel riquadro di navigazione a sinistra.
 
 ![Interfaccia elenco pagine Dynamic JavaScript con le opzioni disponibili](assets/dynamic-javascript-pages.png)
 

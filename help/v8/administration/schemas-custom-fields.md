@@ -9,7 +9,7 @@ ht-degree: 12%
 
 ---
 
-# Modificare i campi personalizzati {#fields}
+# Modifica i campi personalizzati {#fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_detail_screen_configuration"
