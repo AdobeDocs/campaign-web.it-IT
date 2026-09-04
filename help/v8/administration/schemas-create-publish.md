@@ -2,10 +2,10 @@
 title: Creare e pubblicare schemi
 description: Scopri come creare, estendere e pubblicare schemi.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,15 @@ Lo schema viene creato e viene visualizzata la struttura dello schema generata.
 Per impostazione predefinita, lo schema è vuoto. Ora devi aggiungere i campi da includere nello schema utilizzando l’editor schema:
 
 1. Fai clic sull&#39;icona della matita nella sezione **[!UICONTROL Contenuto]** della schermata dei dettagli dello schema.
-2. Aggiungi gli elementi necessari e salva. Di seguito è riportato un esempio di struttura di schema personalizzata:
+1. Aggiungi gli elementi necessari. Di seguito è riportato un esempio di struttura di schema personalizzata:
 
    ![Finestra di dialogo per creazione schema](assets/schemas-create3.png)
 
-Il sistema convalida automaticamente la struttura XML e genera lo schema.
+1. Fai clic sul pulsante **[!UICONTROL Controlla]** per verificare la struttura XML dello schema prima di salvarlo. Gli errori identificati vengono visualizzati nella parte inferiore della schermata, ad esempio &quot;Formato XML non valido&quot;.
+
+   ![Errori nella finestra di dialogo per la creazione dello schema](assets/schemas-create3bis.png)
+
+1. Correggi eventuali errori, quindi salva le modifiche per generare lo schema.
 
 ### Definire l’edizione dello schermo {#define-attributes}
 

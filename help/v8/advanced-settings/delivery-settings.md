@@ -5,18 +5,13 @@ description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3516
-ht-degree: 42%
+source-wordcount: 3646
+ht-degree: 41%
 
 ---
 
@@ -138,7 +133,7 @@ Puoi definire le impostazioni **[!UICONTROL Invio]** di seguito.
 
 * **[!UICONTROL Verifica consegna SMTP]** (canale e-mail): questa opzione viene utilizzata per testare l&#39;invio tramite SMTP. L’e-mail viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario dell’e-mail, Campaign si connette al server provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=it){target="_blank"}.
+* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Nella sezione **[!UICONTROL Definizione ondata]**, selezionare l&#39;opzione **[!UICONTROL Invia con più ondate]** per aumentare progressivamente il volume inviato tramite ondate. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
@@ -154,6 +149,19 @@ Per le e-mail, puoi anche modificare i **[!UICONTROL formati di posta]** dei mes
 
 * **[!UICONTROL Invia tutti i messaggi in formato testo]**: l&#39;e-mail viene inviata in formato testo. Il formato HTML non verrà inviato, ma utilizzato per la pagina speculare solo quando il destinatario fa clic sull’e-mail.
 
+## Tracciamento {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="Modificare il tracciamento"
+>abstract="Per impostazione predefinita, quando il tracciamento è abilitato per la consegna, vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio. Puoi disattivare questa opzione da qui."
+>additional-url="https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Aggiungere collegamenti e tenere traccia dei messaggi"
+
+Questa scheda è disponibile quando per la consegna è configurato uno schema di registro di tracciamento e la modalità di consegna non è esterna.
+
+* **[!UICONTROL Attiva tracciamento]**: abilita o disabilita il tracciamento per la consegna. Se è disattivata, non vengono raccolti dati di tracciamento di clic o aperti.
+* **[!UICONTROL Apre il tracciamento]** (canale e-mail): abilita o disabilita il tracciamento delle aperture dei messaggi utilizzando il pixel di tracciamento. Questa opzione è disponibile solo quando è abilitato il tracciamento **[!UICONTROL Attiva]**. Questo consente di rispettare le normative sulla protezione dei dati, come CNIL o RGPD.
+
 ## Analisi web {#web-analytics}
 
 >[!CONTEXTUALHELP]
@@ -167,7 +175,7 @@ Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 
 >[!NOTE]
 >
->Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=it#external-account-ac){target="_blank"}.
+>Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Nuovi tentativi {#retries}
 
@@ -329,10 +337,10 @@ I parametri di consegna SMS sono impostazioni tecniche che si applicano alla con
 
   Questo campo definisce il tipo di SMS da inviare: se si tratta di un messaggio normale o flash e se deve essere memorizzato sul dispositivo mobile o sulla scheda SIM. Questa impostazione viene trasmessa nel campo facoltativo dest_addr_subunit nella PDU SUBMIT_SM.
 
-   * **Flash** imposta il valore su 1. Invia un SMS flash che viene visualizzato immediatamente sullo schermo e non viene memorizzato.
-   * **Normal** imposta il valore su 0. Invia un SMS standard.
-   * **Salvato su dispositivo mobile** imposta il valore su 2. Indica al dispositivo di memorizzare l’SMS nella memoria interna.
-   * **Salvato nel terminale** imposta il valore su 3. Indica al dispositivo di memorizzare l’SMS sulla scheda SIM.
+  * **Flash** imposta il valore su 1. Invia un SMS flash che viene visualizzato immediatamente sullo schermo e non viene memorizzato.
+  * **Normal** imposta il valore su 0. Invia un SMS standard.
+  * **Salvato su dispositivo mobile** imposta il valore su 2. Indica al dispositivo di memorizzare l’SMS nella memoria interna.
+  * **Salvato nel terminale** imposta il valore su 3. Indica al dispositivo di memorizzare l’SMS sulla scheda SIM.
 
 * **[!UICONTROL Priorità, tipo di comunicazione]**
 
@@ -351,13 +359,13 @@ I parametri di consegna SMS sono impostazioni tecniche che si applicano alla con
 * **[!UICONTROL Parametri SMPP facoltativi (TLV)]**
 
   Puoi specificare campi aggiuntivi da inviare come parametri SMPP (TLV) facoltativi. Questi campi aggiuntivi vengono inviati con ogni messaggio MT e i campi personalizzati consentono di avere valori diversi per ogni messaggio MT.
-Nella tabella sono elencati i parametri facoltativi da inviare con ogni messaggio. Le colonne contengono le seguenti informazioni:
+  Nella tabella sono elencati i parametri facoltativi da inviare con ogni messaggio. Le colonne contengono le seguenti informazioni:
 
-   * **Etichetta**: etichetta facoltativa in formato libero. Non viene trasmesso al provider. Puoi fornire una descrizione testuale del parametro.
-   * **Tag**: il valore del tag, in formato decimale (ad esempio 12345) o esadecimale con prefisso 0x (ad esempio 0x12ab). I tag possono essere compresi tra 0 e 65535. Chiedi al provider di servizi SMPP i tag supportati.
-   * **Valore**: valore da inviare nel parametro facoltativo. Questo è un campo personalizzato.
-   * **Formato**: codifica utilizzata per il parametro. È possibile selezionare qualsiasi codifica di testo supportata o i formati binari più comuni. Chiedi al provider di servizi SMPP il formato richiesto.
-   * **Lunghezza massima**: numero massimo di byte per questo parametro. Questa opzione viene ignorata per i campi binari in quanto i campi binari hanno una dimensione fissa.
+  * **Etichetta**: etichetta facoltativa in formato libero. Non viene trasmesso al provider. Puoi fornire una descrizione testuale del parametro.
+  * **Tag**: il valore del tag, in formato decimale (ad esempio 12345) o esadecimale con prefisso 0x (ad esempio 0x12ab). I tag possono essere compresi tra 0 e 65535. Chiedi al provider di servizi SMPP i tag supportati.
+  * **Valore**: valore da inviare nel parametro facoltativo. Questo è un campo personalizzato.
+  * **Formato**: codifica utilizzata per il parametro. È possibile selezionare qualsiasi codifica di testo supportata o i formati binari più comuni. Chiedi al provider di servizi SMPP il formato richiesto.
+  * **Lunghezza massima**: numero massimo di byte per questo parametro. Questa opzione viene ignorata per i campi binari in quanto i campi binari hanno una dimensione fissa.
 
   **Utilizzo di formati binari per TLV**
 

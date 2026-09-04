@@ -2,10 +2,10 @@
 title: Aggiungere filtri personalizzati
 description: Scopri come aggiungere filtri personalizzati come campi di accesso rapido nel riquadro dei filtri di una visualizzazione a elenco.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Per ulteriori informazioni sulla schermata di definizione dello schermo e su com
 
    ![Selezione attributi che mostra gli attributi diretti e gli attributi secondari del collegamento](assets/schemas-custom-filters2.png)
 
-1. Fai clic su **[!UICONTROL Salva]**. Puoi riordinare i filtri personalizzati utilizzando le frecce su e giù o trascinandoli, e rimuovere un filtro utilizzando l’icona del cestino sulla riga.
+1. Fai clic su **[!UICONTROL Salva]**. Puoi riordinare i filtri personalizzati utilizzando le frecce su e giù o trascinandoli. Per rimuovere un filtro, fare clic sull&#39;icona con i puntini di sospensione nella riga corrispondente e selezionare **[!UICONTROL Elimina]**.
 
 1. Individuare l&#39;elenco dei record per lo schema e aprire il riquadro Filtri. Gli attributi selezionati vengono visualizzati come **[!UICONTROL Filtri personalizzati]**, sopra il generatore di regole **[!UICONTROL Filtri avanzati]**.
 
@@ -47,15 +47,20 @@ Per ulteriori informazioni sulla schermata di definizione dello schermo e su com
 
 1. Inserisci o seleziona un valore in uno dei filtri personalizzati per perfezionare l’elenco.
 
-<!--
-## Configure a custom filter's settings {#settings}
+## Limita i valori per un filtro personalizzato di tipo collegamento {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+Per un filtro personalizzato basato su un attributo di collegamento, puoi limitare i valori disponibili nel selettore.
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>L&#39;opzione **[!UICONTROL Modifica]** descritta di seguito è disponibile solo per i filtri personalizzati basati su un attributo di collegamento. I filtri personalizzati basati su altri tipi di attributi possono essere riordinati o rimossi solo.
 
-Available settings are:
+1. Nella riga di un filtro personalizzato di tipo collegamento, fai clic sull&#39;icona dei puntini di sospensione e seleziona **[!UICONTROL Modifica]**.
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![Modifica opzione su un filtro personalizzato di tipo collegamento](assets/schemas-custom-filters4.png)
+
+1. Nella scheda **[!UICONTROL Impostazioni filtro]**, fare clic su **[!UICONTROL Modifica filtro]** e utilizzare il modellatore di query per definire una condizione che limita i valori disponibili nel selettore. Ad esempio, limita un filtro di consegna alle consegne che utilizzano il canale e-mail.
+
+   ![Scheda Impostazioni filtro nella finestra di dialogo Impostazioni collegamento](assets/schemas-custom-filters5.png)
+
+1. Conferma le modifiche.
