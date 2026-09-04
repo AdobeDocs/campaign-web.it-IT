@@ -55,6 +55,6 @@ Se l’opzione **[!UICONTROL Cartella di sistema]** è abilitata, l’accesso è
 
 Consulta questa [sezione](work-with-folders.md#folder-access-rights) per scoprire come questi diritti influiscono sulle azioni disponibili in una cartella.
 
-I diritti denominati determinano anche le azioni della cartella disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+I diritti denominati determinano anche le azioni della cartella disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=it#use-named-rights){target="_blank"}.
 
 Tutte le autorizzazioni nell’interfaccia utente di Campaign Web vengono sincronizzate con le autorizzazioni della console client di Campaign.

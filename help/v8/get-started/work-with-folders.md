@@ -53,7 +53,7 @@ Le azioni disponibili su una cartella dipendono dai diritti che ti sono stati co
 
 Se non disponi dei diritti per una cartella, contatta l’amministratore. Per informazioni sulla gestione delle autorizzazioni per le cartelle, consulta questa [sezione](permissions.md#folder-permissions).
 
-I diritti denominati, ad esempio **[!UICONTROL Inserisci cartelle]**, **[!UICONTROL Modifica cartelle]** e **[!UICONTROL Elimina cartella]**, determinano anche le azioni cartella disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+I diritti denominati, ad esempio **[!UICONTROL Inserisci cartelle]**, **[!UICONTROL Modifica cartelle]** e **[!UICONTROL Elimina cartella]**, determinano anche le azioni cartella disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=it#use-named-rights){target="_blank"}.
 
 ## Creare una nuova cartella {#create-a-folder}
 
