@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d6b9b9c9905d840e65ac0aa267a665997c6e6b16
-workflow-type: ht
-source-wordcount: 330
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 332
+ht-degree: 78%
 
 ---
 
@@ -27,10 +27,6 @@ ht-degree: 100%
 >abstract="Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, le note sulla versione di Campaign vengono aggiornate diverse volte al mese, con le funzioni, i miglioramenti e le correzioni più recenti. Si consiglia di controllarle regolarmente."
 
 Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
-
->[!NOTE]
->
->La documentazione dettagliata per le funzioni e i miglioramenti indicati di seguito verrà aggiunta progressivamente nei prossimi giorni.
 
 ## Versione di agosto 2026 {#26-8-release}
 
@@ -48,6 +44,7 @@ _18 agosto 2026_
 <tr>
 <td>
 <p>L’attività del flusso di lavoro <strong>Approvazione</strong>, in precedenza disponibile solo nella console client, è ora disponibile nell’interfaccia utente web di Campaign. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte (ad esempio Sì/No) come rami di output.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../workflows/activities/approval.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -55,11 +52,12 @@ _18 agosto 2026_
 
 ### Miglioramenti {#26-8-improvements}
 
-* **Tracciamento aperture**: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati.
-* **Vista a elenco dei programmi**: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista.
-* **Configurazione dello schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l’azione **Duplica** sui record di uno schema personalizzato.
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
-* **Filtri personalizzati**: nell’editor dello schema, i filtri personalizzati ora supportano le condizioni di filtro sui collegamenti diretti e puoi sostituire l’etichetta predefinita di qualsiasi attributo utilizzando le nuove **Impostazioni del filtro personalizzato**.
-* **Convalida dello schema**: ora puoi convalidare la struttura di uno schema direttamente dall’editor dello schema, utilizzando il nuovo pulsante **Convalida**.
-* **Sicurezza della cartella**: l’opzione **Rinomina** è ora disponibile per una cartella se l’utente dispone del diritto di accesso **Inserisci** o **Modifica**.
+* **Tracciamento aperture**: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#tracking-tab)
+* **Vista a elenco dei programmi**: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista. [Ulteriori informazioni](../administration/plans-programs.md#create-program)
+* **Configurazione dello schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l’azione **Duplica** sui record di uno schema personalizzato. [Ulteriori informazioni](../administration/schemas-action-data.md#action-data)
+* **Filtri personalizzati**: nell&#39;editor schema è ora possibile limitare i valori disponibili nel selettore per un filtro personalizzato di tipo collegamento utilizzando la nuova finestra di dialogo **Impostazioni collegamento**. [Ulteriori informazioni](../administration/schemas-custom-filters.md#settings)
+* **Convalida schema**: è ora possibile convalidare la struttura di uno schema direttamente dall&#39;editor schema, utilizzando il nuovo pulsante **Controlla**. [Ulteriori informazioni](../administration/schemas-create-publish.md#create-new)
+* **Protezione cartella**: le azioni disponibili in una cartella sono ora gestite in modo coerente dai diritti dell&#39;operatore, in base al comportamento della console client. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders).
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+

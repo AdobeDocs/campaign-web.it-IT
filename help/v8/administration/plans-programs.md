@@ -11,10 +11,10 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 6%
+source-wordcount: 640
+ht-degree: 5%
 
 ---
 
@@ -58,35 +58,35 @@ Configura le opzioni personalizzate:
 
 ![Schermata che mostra la configurazione dei campi personalizzati per un piano](assets/plan_customfields.png){zoomable="yes"}
 
-## Creare e configurare un programma
+## Creare e configurare un programma {#create-program}
 
-Per creare un programma nel piano ([Ulteriori informazioni sulla creazione di un piano](#create-plan)), passare al piano e creare una cartella con il tipo di cartella **[!UICONTROL Programma]**. [Ulteriori informazioni sulla creazione di una cartella](../get-started/work-with-folders.md).
+I programmi sono disponibili dal menu di navigazione a sinistra, simile alle visualizzazioni elenco per campagne, consegne e flussi di lavoro. La voce **[!UICONTROL Programmi]** consente di creare un programma all&#39;interno di un programma esistente, non in un piano.
 
-![Schermata che mostra la creazione di una cartella di programmi](assets/program_create.png){zoomable="yes"}
+Per creare il primo programma di livello superiore in un piano, passare al piano in Esplora risorse (vedere questa [sezione](#create-plan)) e creare una cartella con il tipo di cartella **[!UICONTROL Programma]**. [Ulteriori informazioni sulla creazione di una cartella](../get-started/work-with-folders.md).
 
-Vai a **[!UICONTROL Impostazioni cartella]** del programma per gestirlo.
+Per creare un programma all’interno di un programma esistente, effettua le seguenti operazioni:
 
-![Schermata che mostra le impostazioni della cartella per un programma](assets/program_settings.png){zoomable="yes"}
+1. Passare alla voce **[!UICONTROL Programmi]** nel menu di navigazione a sinistra. Questa visualizzazione elenca tutti i programmi e consente di eseguire ricerche e filtri. Facendo clic su un programma, questo viene aperto nella visualizzazione Esplora risorse.
 
-Definisci **[!UICONTROL Opzioni personalizzate]** e imposta la data di pianificazione del programma.
+   ![Schermata che mostra la visualizzazione dell&#39;elenco dei programmi](assets/program_view.png){zoomable="yes"}
 
-![Schermata che mostra le opzioni personalizzate per un programma](assets/program_options.png){zoomable="yes"}
+1. Fai clic su **[!UICONTROL Crea programma]** e configura le seguenti opzioni:
 
-Per gestire le **[!UICONTROL opzioni personalizzate]**:
+   ![Schermata della schermata Crea programma](assets/program_create.png){zoomable="yes"}
 
-1. Individua gli **[!UICONTROL Schemi]**.
-1. Scegli gli schemi **[!UICONTROL Modificabili]** nei filtri.
-1. Fai clic sullo schema.
+   * Immetti un **[!UICONTROL etichetta]**.
+   * Selezionare il programma esistente da utilizzare come **[!UICONTROL cartella principale]**.
+   * Facoltativamente, impostare un **[!UICONTROL intervallo di date]** nella sezione **[!UICONTROL Pianifica]**.
 
-![Schermata che mostra la modifica dei dettagli personalizzati per un programma](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >Se si crea un programma dalla visualizzazione Esplora risorse, la cartella padre viene impostata automaticamente sul programma corrente.
 
-1. Fare clic sul pulsante **[!UICONTROL Edizione schermo]**.
+1. Fai di nuovo clic su **[!UICONTROL Crea programma]** per salvare le modifiche e creare il programma. Il programma viene quindi visualizzato nella visualizzazione Esplora risorse. Puoi rinominarlo, eliminarlo e accedere alle relative impostazioni, come qualsiasi altra cartella. È inoltre possibile creare sottoprogrammi all&#39;interno di questo programma.
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![Schermata che mostra il programma nella visualizzazione Esplora risorse](assets/program_explorer.png){zoomable="yes"}
 
-Configura le opzioni personalizzate:
-
-![Schermata che mostra la configurazione dei campi personalizzati per un programma](assets/program_customfields.png){zoomable="yes"}
+Le opzioni personalizzate per un programma sono configurate nello stesso modo di un piano. Vedi [Creare e configurare un piano](#create-plan).
 
 ## Come collegare una campagna a un programma
 

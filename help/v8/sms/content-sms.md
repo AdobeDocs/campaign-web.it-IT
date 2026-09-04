@@ -8,9 +8,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 278
 ht-degree: 58%
 
 ---
@@ -41,7 +41,7 @@ Per progettare il contenuto di una consegna SMS, segui questi passaggi:
 
    ![Schermata che mostra il campo Messaggio con opzioni per l&#39;aggiunta di contenuto dinamico](assets/sms_content_2.png){zoomable="yes"}
 
-1. Per impostazione predefinita, il tracciamento è abilitato per le consegne. Se necessario, disabilita questa opzione dalla **[!UICONTROL sezione Funzioni facoltative]**.
+1. Per impostazione predefinita, il tracciamento è abilitato per le consegne. Se necessario, disabilita questa opzione dalla scheda **[!UICONTROL Impostazioni]** > **[!UICONTROL Tracciamento]** della consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. Fai clic su **[!UICONTROL Impostazioni]** per accedere alle opzioni avanzate relative al modello di consegna. [Ulteriori informazioni](../advanced-settings/delivery-settings.md)
 

@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 318
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 342
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,8 @@ Se l’opzione **[!UICONTROL Propaga]** è abilitata, tutte le autorizzazioni de
 
 Se l’opzione **[!UICONTROL Cartella di sistema]** è abilitata, l’accesso è consentito a tutti gli operatori, indipendentemente dalle autorizzazioni.
 
-È inoltre possibile [gestire le autorizzazioni per le cartelle nella console di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+Consulta questa [sezione](work-with-folders.md#folder-access-rights) per scoprire come questi diritti influiscono sulle azioni disponibili in una cartella.
+
+I diritti denominati determinano anche le azioni della cartella disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=it#use-named-rights){target="_blank"}.
 
 Tutte le autorizzazioni nell’interfaccia utente di Campaign Web vengono sincronizzate con le autorizzazioni della console client di Campaign.
