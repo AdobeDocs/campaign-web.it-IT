@@ -4,15 +4,13 @@ description: Scopri come limitare la creazione, la modifica e l’eliminazione d
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 12%
-
+ht-degree: 13%
 ---
-
 # Controllare le azioni sui dati {#action-data}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_action_data"
->title="Dati delle azioni"
+>title="Azioni per i dati"
 >abstract="Configura le azioni disponibili per le schermate dei dettagli dello schema e dell’elenco. Abilita **[!UICONTROL Sola lettura]** per configurare la schermata dei dettagli come di sola lettura e rimuovere le azioni dall’elenco. Abilita **[!UICONTROL Non consentire l’eliminazione]** per rimuovere l’azione di eliminazione dalle schermate dei dettagli e dell’elenco."
 
 La sezione **[!UICONTROL Dati azione]** ti consente di limitare le azioni disponibili nei record di uno schema personalizzato, indipendentemente dalle [regole di sicurezza](../get-started/work-with-folders.md) configurate nelle singole cartelle. Questa restrizione si applica a livello di schema, in ogni cartella, per ogni utente, inclusi gli amministratori.

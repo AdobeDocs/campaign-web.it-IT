@@ -9,10 +9,8 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 4%
-
+ht-degree: 10%
 ---
-
 # Configurare i brand {#branding-configure}
 
 Gli amministratori tecnici possono creare e gestire più brand direttamente dall’interfaccia utente web. Questo ti consente di definire tutti gli elementi che compongono la tua brand identity, compresi i loghi e anche le impostazioni di tracciamento delle e-mail.
@@ -25,8 +23,8 @@ Gli amministratori tecnici possono creare e gestire più brand direttamente dall
 
 >[!CONTEXTUALHELP]
 >id="acw_branding_create"
->title="Creare un brand"
->abstract="Fai clic su **Crea marchio** per definire una nuova brand identity. Compila i dettagli del brand nelle schede di configurazione, quindi fai clic su **Crea brand** per salvare. Il brand diventa disponibile per essere collegato a modelli di consegna e consegne autonome."
+>title="Crea un brand"
+>abstract="Fai clic su **Crea brand** per definire una nuova identità del brand. Compila i dettagli del brand nelle schede di configurazione, quindi fai clic su **Crea brand** per salvare. Il brand diventa disponibile per essere collegato a modelli di consegna e consegne autonome."
 
 Per creare un nuovo brand, segui questi passaggi:
 
