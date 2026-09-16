@@ -106,7 +106,7 @@ Le offerte non sono immediatamente disponibili nelle consegne: passano attravers
 
    ![Schermata che mostra l&#39;approvazione dell&#39;offerta.](assets/offers-offer-4.png){zoomable="yes"}
 
-1. Approva l&#39;idoneità **[!UICONTROL 1} e il contenuto**[!UICONTROL  3}. ]**]** Il contenuto può essere approvato per ogni spazio dell’offerta, in modo da poterlo approvare per uno spazio dell’offerta lasciando gli altri in sospeso.
+1. Approva l&#39;idoneità **[!UICONTROL 1&rbrace; e il contenuto**&#x200B;[!UICONTROL &#x200B; 3&rbrace;. &#x200B;]&#x200B;**]** Il contenuto può essere approvato per ogni spazio dell’offerta, in modo da poterlo approvare per uno spazio dell’offerta lasciando gli altri in sospeso.
 
 1. Dopo aver concesso entrambe le approvazioni, fai clic su **[!UICONTROL Distribuisci]** per pubblicare l&#39;offerta nell&#39;ambiente live.
 
