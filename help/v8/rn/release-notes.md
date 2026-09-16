@@ -1,63 +1,99 @@
----
-title: Note sulla versione dell’interfaccia utente di Campaign Web v8
-description: Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web
-exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
-workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 78%
-
----
-
-# Note sulla versione {#latest-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="Note sulla versione"
->abstract="Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, le note sulla versione di Campaign vengono aggiornate diverse volte al mese, con le funzioni, i miglioramenti e le correzioni più recenti. Si consiglia di controllarle regolarmente."
-
-Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.
-
-## Versione di agosto 2026 {#26-8-release}
-
-_18 agosto 2026_
-
-### Nuove funzioni {#26-8-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Attività del flusso di lavoro di approvazione</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’attività del flusso di lavoro <strong>Approvazione</strong>, in precedenza disponibile solo nella console client, è ora disponibile nell’interfaccia utente web di Campaign. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte (ad esempio Sì/No) come rami di output.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../workflows/activities/approval.md">documentazione dettagliata</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Miglioramenti {#26-8-improvements}
-
-* **Tracciamento aperture**: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#tracking-tab)
-* **Vista a elenco dei programmi**: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista. [Ulteriori informazioni](../administration/plans-programs.md#create-program)
-* **Configurazione dello schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l’azione **Duplica** sui record di uno schema personalizzato. [Ulteriori informazioni](../administration/schemas-action-data.md#action-data)
-* **Filtri personalizzati**: nell&#39;editor schema è ora possibile limitare i valori disponibili nel selettore per un filtro personalizzato di tipo collegamento utilizzando la nuova finestra di dialogo **Impostazioni collegamento**. [Ulteriori informazioni](../administration/schemas-custom-filters.md#settings)
-* **Convalida schema**: è ora possibile convalidare la struttura di uno schema direttamente dall&#39;editor schema, utilizzando il nuovo pulsante **Controlla**. [Ulteriori informazioni](../administration/schemas-create-publish.md#create-new)
-* **Protezione cartella**: le azioni disponibili in una cartella sono ora gestite in modo coerente dai diritti dell&#39;operatore, in base al comportamento della console client. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders).
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" version="1.2" its:version="2.0">
+<file original="help/v8/rn/release-notes.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
+<body>
+<trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
+<source xml:lang="en-US">Campaign v8 Web User Interface Release Notes</source>
+<target xml:lang="en-XX">Note sulla versione dell’interfaccia utente di Campaign Web v8</target>
+</trans-unit>
+<trans-unit id="tu2" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
+<source xml:lang="en-US">Discover new features coming with the latest Campaign Web User Interface release</source>
+<target xml:lang="en-XX">Scopri le nuove funzioni in arrivo con l’ultima versione dell’interfaccia utente di Campaign Web</target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en-US">Release notes</source>
+<target xml:lang="en-XX">Note sulla versione</target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en-US">Release notes</source>
+<target xml:lang="en-XX">Note sulla versione</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en-US">Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, Campaign release notes get updated several times a month, with latest features, improvements, and fixes. We recommend you to check them regularly.</source>
+<target xml:lang="en-XX">Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, le note sulla versione di Campaign vengono aggiornate diverse volte al mese, con le funzioni, i miglioramenti e le correzioni più recenti. Si consiglia di controllarle regolarmente.</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en-US">Adobe Campaign Web user interface releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.</source>
+<target xml:lang="en-XX">Le versioni dell’interfaccia utente web di Adobe Campaign funzionano secondo un modello di consegna continua che consente un approccio più scalabile e graduale alla distribuzione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate più volte al mese. Consultale regolarmente.</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en-US">August '26 release</source>
+<target xml:lang="en-XX">Versione di agosto 2026</target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 18, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-EMPHASIS">_</ph>18 agosto 2026<ph id="2" ctype="x-EMPHASIS">_</ph></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en-US">New features</source>
+<target xml:lang="en-XX">Nuove funzioni</target>
+</trans-unit>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu1" resname="sd1_2" restype="x-th" xml:space="preserve">
+<source xml:lang="en-US">Approval workflow activity</source>
+<target xml:lang="en-XX">Attività del flusso di lavoro di approvazione</target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu2" resname="sd1_4" restype="x-td" xml:space="preserve">
+<source xml:lang="en-US">
+</source>
+<target xml:lang="en-XX">
+</target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu3" resname="sd1_5" restype="x-paragraph" xml:space="preserve">
+<source xml:lang="en-US">The <bpt id="1" ctype="x-strong">&lt;strong></bpt>Approval<ept id="1">&lt;/strong></ept> workflow activity, previously only available in the Client Console, is now available in the Campaign Web User Interface. Assign the task to a group or an individual operator, customize the notification title and message, and define the possible answers (for example Yes/No) as output branches.</source>
+<target xml:lang="en-XX">L’attività del flusso di lavoro <bpt id="1" ctype="x-strong">&lt;strong></bpt>Approvazione<ept id="1">&lt;/strong></ept>, in precedenza disponibile solo nella console client, è ora disponibile nell’interfaccia utente web di Campaign. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte (ad esempio Sì/No) come rami di output.</target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu4" resname="sd1_7" restype="x-paragraph" xml:space="preserve">
+<source xml:lang="en-US">For more information, refer to the <bpt id="1" ctype="link">&lt;a href="../workflows/activities/approval.md"></bpt>detailed documentation<ept id="1">&lt;/a></ept>.</source>
+<target xml:lang="en-XX">Per ulteriori informazioni, consulta la <bpt id="1" ctype="link">&lt;a href="../workflows/activities/approval.md"></bpt>documentazione dettagliata<ept id="1">&lt;/a></ept>.</target>
+</trans-unit>
+</group>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en-US">Improvements</source>
+<target xml:lang="en-XX">Miglioramenti</target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Opens tracking<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: You can now enable or disable open tracking directly from the Campaign Web User Interface. This helps you comply with data protection regulations. <ph id="3" ctype="x-LINK">[</ph>Read more<ph id="4" ctype="x-LINK">](../advanced-settings/delivery-settings.md#tracking-tab)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Tracciamento aperture<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati. <ph id="3" ctype="x-LINK">[</ph>Ulteriori informazioni<ph id="4" ctype="x-LINK">](../advanced-settings/delivery-settings.md#tracking-tab)</ph></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Program list view<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: Programs are now listed in a dedicated view, similar to campaigns, deliveries, and workflows. You can browse existing programs and create new ones directly from this view. <ph id="3" ctype="x-LINK">[</ph>Read more<ph id="4" ctype="x-LINK">](../administration/plans-programs.md#create-program)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Vista a elenco dei programmi<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista. <ph id="3" ctype="x-LINK">[</ph>Ulteriori informazioni<ph id="4" ctype="x-LINK">](../administration/plans-programs.md#create-program)</ph></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Custom schema configuration<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: In the <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Action data<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> section, you can now disallow the <ph id="5" ctype="x-STRONG_EMPHASIS">**</ph>Duplicate<ph id="6" ctype="x-STRONG_EMPHASIS">**</ph> action on a custom schema's records. <ph id="7" ctype="x-LINK">[</ph>Read more<ph id="8" ctype="x-LINK">](../administration/schemas-action-data.md#action-data)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Configurazione dello schema personalizzato<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: nella sezione <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Dati azione<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph>, ora puoi disabilitare l’azione <ph id="5" ctype="x-STRONG_EMPHASIS">**</ph>Duplica<ph id="6" ctype="x-STRONG_EMPHASIS">**</ph> sui record di uno schema personalizzato. <ph id="7" ctype="x-LINK">[</ph>Ulteriori informazioni<ph id="8" ctype="x-LINK">](../administration/schemas-action-data.md#action-data)</ph></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Custom filters<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: In the schema editor, you can now restrict the values available in the picker for a link-type custom filter, using the new <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Link settings<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> dialog. <ph id="5" ctype="x-LINK">[</ph>Read more<ph id="6" ctype="x-LINK">](../administration/schemas-custom-filters.md#settings)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Filtri personalizzati<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: nell’editor dello schema, ora puoi limitare i valori disponibili nel selettore per un filtro personalizzato di tipo collegamento, mediante la nuova finestra di dialogo <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Impostazioni collegamento<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph>. <ph id="5" ctype="x-LINK">[</ph>Ulteriori informazioni<ph id="6" ctype="x-LINK">](../administration/schemas-custom-filters.md#settings)</ph></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Schema validation<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: You can now validate the structure of a schema directly from the schema editor, using the new <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Check<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> button. <ph id="5" ctype="x-LINK">[</ph>Read more<ph id="6" ctype="x-LINK">](../administration/schemas-create-publish.md#create-new)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Convalida degli schemi<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: ora con il nuovo pulsante <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>Convalida<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> puoi convalidare la struttura di uno schema direttamente dall’editor dello schema. <ph id="5" ctype="x-LINK">[</ph>Ulteriori informazioni<ph id="6" ctype="x-LINK">](../administration/schemas-create-publish.md#create-new)</ph></target>
+</trans-unit>
+<trans-unit id="tu16" xml:space="preserve">
+<source xml:lang="en-US"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Folder security<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: Actions available on a folder are now consistently governed by the operator's rights, matching the behavior of the Client Console. <ph id="3" ctype="x-LINK">[</ph>Learn more<ph id="4" ctype="x-LINK">](../get-started/work-with-folders.md#about-folders)</ph>.
+</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Sicurezza delle cartelle<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>: le azioni disponibili in una cartella sono ora gestite in modo coerente dai diritti dell’operatore, corrispondenti al comportamento della console client. <ph id="3" ctype="x-LINK">[</ph>Ulteriori informazioni<ph id="4" ctype="x-LINK">](../get-started/work-with-folders.md#about-folders)</ph>.
+</target>
+</trans-unit>
+<trans-unit id="tu17" xml:space="preserve">
+<source xml:lang="en-US">
+</source>
+<target xml:lang="en-XX">
+</target>
+</trans-unit>
+</body>
+</file>
+</xliff>
