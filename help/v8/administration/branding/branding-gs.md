@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 16%
-
 ---
-
 # Introduzione al branding {#branding-gs}
 
 >[!AVAILABILITY]
@@ -25,7 +23,7 @@ Gli amministratori tecnici possono creare e gestire più brand direttamente dall
 
 In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. A tale scopo, segui i passaggi indicati di seguito:
 
-1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questa pagina](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questa pagina](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -37,7 +35,7 @@ In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un n
 
 ## Nota di compatibilità {#compatibility-note}
 
-Il nuovo modello di branding centralizzato non è compatibile con la configurazione di [branding legacy](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=it#configuring-multibranding){target="_blank"} precedentemente utilizzata nella console client.
+Il nuovo modello di branding centralizzato non è compatibile con la configurazione di [branding legacy](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} precedentemente utilizzata nella console client.
 
 Nell&#39;approccio legacy, i clienti hanno implementato il branding estendendo il modulo extAccount e utilizzando la scheda **Branding**.
 

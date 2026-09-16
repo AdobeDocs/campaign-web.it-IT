@@ -1,13 +1,12 @@
 ---
 title: Utilizzare i moduli personalizzati
 description: Scopri come creare, modificare e gestire i record negli schemi personalizzati utilizzando i moduli di immissione dati.
-source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
+exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
-
+source-wordcount: '442'
+ht-degree: 1%
 ---
-
 # Utilizzare i moduli personalizzati {#custom-forms}
 
 I moduli personalizzati sono interfacce di immissione dati che consentono di gestire record in schemi personalizzati direttamente dall&#39;interfaccia utente Web. Ogni modulo personalizzato corrisponde a uno schema personalizzato specifico e fornisce una vista a elenco per sfogliare i record e una vista di dettaglio per creare, modificare ed eliminare i record.

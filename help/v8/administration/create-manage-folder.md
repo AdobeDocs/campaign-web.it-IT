@@ -5,20 +5,18 @@ description: Scopri come creare e gestire una cartella in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 19%
-
+source-wordcount: '205'
+ht-degree: 42%
 ---
-
 # Creare e gestire una cartella
 
-In Adobe Campaign puoi creare nuove cartelle per gestire la struttura di navigazione. In **[!UICONTROL Explorer]**, vai alla cartella in cui desideri creare la nuova cartella.
+In Adobe Campaign puoi creare nuove cartelle per gestire la struttura di navigazione. In **[!UICONTROL Explorer]**, passa alla cartella in cui desideri creare la nuova cartella.
 
 Nel pulsante **[!UICONTROL ...]**, seleziona **[!UICONTROL Crea nuova cartella]**.
 
 ![Schermata che mostra l&#39;opzione Crea nuova cartella sotto il pulsante ...](assets/folder_create.png){zoomable="yes"}
 
-Quando si crea una nuova cartella, per impostazione predefinita il tipo di cartella corrisponde al tipo della cartella padre.\
+Per impostazione predefinita, quando viene creata una nuova cartella, il tipo di cartella corrisponde a quello della cartella principale.\
 In questo esempio viene creata una cartella nella cartella **[!UICONTROL Consegne]**.
 
 ![Schermata che mostra una nuova cartella creata nella cartella Consegne](assets/folder_new.png){zoomable="yes"}

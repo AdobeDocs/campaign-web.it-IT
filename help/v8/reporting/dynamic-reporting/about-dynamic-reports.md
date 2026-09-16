@@ -6,14 +6,12 @@ audience: end-user
 exl-id: d79f8a07-2322-4bc7-9d74-446db24a8d70
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 19%
-
+source-wordcount: '201'
+ht-degree: 33%
 ---
-
 # Introduzione ai rapporti dinamici {#about-dynamic-reports}
 
-Reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Con l’interfaccia di trascinamento, puoi esplorare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurarne l’impatto sui destinatari.
+Reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L’interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari.
 
 ## Accesso ai report dinamici {#accessing-dynamic-reports}
 

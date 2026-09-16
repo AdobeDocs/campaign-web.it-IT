@@ -6,13 +6,12 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 TQID: https://experienceleague.adobe.com/8MWtEgcsPZRYWGan5rJfho6HVt5KqUySGJMG6sUjIkA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 36%
-
 ---
-
 # Impostare un gruppo di controllo {#control-group}
 
 Un gruppo di controllo è una sottopopolazione esclusa dalla consegna. Puoi definire un gruppo di controllo per evitare di inviare messaggi a una parte del pubblico e confrontare il comportamento successivo alla consegna con il target principale. Questa opzione consente di misurare l’impatto della campagna.

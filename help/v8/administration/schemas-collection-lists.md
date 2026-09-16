@@ -1,13 +1,12 @@
 ---
 title: Aggiungere elenchi di raccolte
 description: Scopri come aggiungere elenchi di raccolte per visualizzare i dati correlati nelle schermate di profilo.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 0%
-
+ht-degree: 3%
 ---
-
 # Aggiungere elenchi di raccolte {#collection-lists}
 
 La sezione **Elenco di elenchi personalizzati** ti consente di definire collegamenti di raccolta, ad esempio acquisti. I dati correlati vengono quindi visualizzati nelle schermate del profilo tramite una scheda dedicata.

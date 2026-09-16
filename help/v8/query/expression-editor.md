@@ -6,15 +6,15 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2152
-ht-degree: 53%
-
+source-wordcount: '2205'
+ht-degree: 51%
 ---
-
 # Modifica espressioni {#expression}
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici e ordinamento.

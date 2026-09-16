@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 1%
-
 ---
-
 # Creare e pubblicare schemi {#create-publish}
 
 ## Creare e gestire gli schemi {#create-schemas}

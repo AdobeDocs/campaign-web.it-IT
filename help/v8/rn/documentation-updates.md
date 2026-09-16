@@ -7,13 +7,12 @@ hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 138
+workflow-type: tm+mt
+source-wordcount: '138'
 ht-degree: 100%
-
 ---
-
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencati tutti gli aggiornamenti della documentazione di Adobe Campaign Web.

@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 33%
-
 ---
-
 # Creare un pubblico una tantum {#one-time}
 
 Questa sezione spiega come creare un pubblico durante la creazione di una nuova consegna. In questo scenario, il targeting dei profili inclusi nel pubblico di consegna viene eseguito interrogando il database utilizzando il modellatore di query. Il pubblico risultante viene utilizzato una sola volta per questa consegna e non viene salvato nell’elenco dei tipi di pubblico.

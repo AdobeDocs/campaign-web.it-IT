@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 11%
-
 ---
-
 # Creare esperimenti di contenuto {#content-experiment}
 
 >[!CONTEXTUALHELP]
@@ -159,13 +157,13 @@ Quando crei esperimenti di contenuto, prendi in considerazione i consigli seguen
 * **Verifica un elemento alla volta**: per risultati più chiari, verifica le varianti di un singolo elemento (ad esempio, solo riga oggetto o solo contenuto) anziché più elementi contemporaneamente.
 
 * **Scegli la durata appropriata**: attendi tempo sufficiente per la rilevanza statistica:
-   * Per i test di velocità di apertura: di solito sono sufficienti 12-24 ore
-   * Per i test della frequenza di click-through: possono essere necessarie 24-48 ore o più
-   * Un pubblico più ampio può richiedere meno tempo, mentre un pubblico più piccolo potrebbe aver bisogno di più tempo
+  * Per i test di velocità di apertura: di solito sono sufficienti 12-24 ore
+  * Per i test della frequenza di click-through: possono essere necessarie 24-48 ore o più
+  * Un pubblico più ampio può richiedere meno tempo, mentre un pubblico più piccolo potrebbe aver bisogno di più tempo
 
 * **Ridimensiona il pubblico in modo appropriato**:
-   * Assicurati che il pubblico dell’esperimento (la percentuale allocata al test) sia abbastanza ampio da produrre risultati significativi
-   * Linea guida generale: almeno 1,000 pazienti per trattamento per risultati affidabili
+  * Assicurati che il pubblico dell’esperimento (la percentuale allocata al test) sia abbastanza ampio da produrre risultati significativi
+  * Linea guida generale: almeno 1,000 pazienti per trattamento per risultati affidabili
 
 * **Test regolari ma non eccessivi**: esegui esperimenti su campagne importanti, ma evita di testare ogni singolo invio per concentrare le risorse su decisioni di impatto.
 

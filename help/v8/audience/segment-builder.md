@@ -7,9 +7,7 @@ source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 29%
-
 ---
-
 # Utilizzare il generatore di regole {#segment-builder}
 
 Il generatore di regole ti consente di definire la popolazione target della consegna filtrando i dati contenuti nel database. Puoi utilizzarlo per creare un pubblico da un flusso di lavoro utilizzando un&#39;attività **[!UICONTROL Genera pubblico]** oppure direttamente durante la creazione di una consegna per creare un pubblico una tantum.

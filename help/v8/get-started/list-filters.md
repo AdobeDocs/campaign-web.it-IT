@@ -6,15 +6,15 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
-workflow-type: ht
-source-wordcount: 433
+workflow-type: tm+mt
+source-wordcount: '433'
 ht-degree: 100%
-
 ---
-
 # Sfogliare e filtrare gli elenchi {#list-screens}
 
 La maggior parte dei collegamenti del menu di navigazione a sinistra mostra elenchi di oggetti, ad esempio l’elenco **Consegne** o **Campagne**. Alcune di queste schermate di elenco sono di sola lettura. È possibile personalizzare la visualizzazione degli elenchi e filtrarli, nonché esportare i dati di tali elenchi in formato CSV, come descritto di seguito.
@@ -55,12 +55,12 @@ Per informazioni dettagliate su come utilizzare i filtri e creare filtri persona
 
 ## Esportare i dati dell’elenco {#export-list}
 
-Puoi esportare dati da qualsiasi schermata dell’elenco, compresi i registri di tracciamento.Per esportare un elenco, segui questi passaggi:
+Puoi esportare dati da qualsiasi schermata dell’elenco, compresi i registri di tracciamento. Per esportare un elenco, segui questi passaggi:
 
 1. Apri l’elenco da esportare.
-1. Modifica le colonne visualizzate e applica la ricerca o i filtri desiderati.L’esportazione tiene conto delle colonne visualizzate sullo schermo e di eventuali ricerche o filtri attivi.
-1. Scorri verso il basso per visualizzare più righe, se necessario.Vengono esportate solo le righe attualmente caricate nell’elenco.
-1. Fai clic sul pulsante **Esporta righe caricate come CSV** sopra l’elenco.Il file viene salvato nella cartella dei download predefinita del browser.
+1. Modifica le colonne visualizzate e applica la ricerca o i filtri desiderati. L’esportazione tiene conto delle colonne visualizzate sullo schermo e di eventuali ricerche o filtri attivi.
+1. Scorri verso il basso per visualizzare più righe, se necessario. Vengono esportate solo le righe attualmente caricate nell’elenco.
+1. Fai clic sul pulsante **Esporta righe caricate come CSV** sopra l’elenco. Il file viene salvato nella cartella dei download predefinita del browser.
 
 ![La schermata mostra l’esportazione di un elenco.](assets/filter-export.png){zoomable="yes"}
 

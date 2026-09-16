@@ -8,11 +8,9 @@ level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '667'
 ht-degree: 13%
-
 ---
-
 # Assegnare il brand {#branding-assign}
 
 ## Collegare un brand a un modello {#linking-a-brand-to-a-template}
@@ -47,7 +45,7 @@ Ora puoi utilizzare questo modello per inviare le consegne.
 
 >[!TAB Adobe Campaign V8]
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=it)
+Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 

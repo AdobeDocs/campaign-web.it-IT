@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Aggiungere un elenco modificabile allo schema delle offerte
+title: Aggiungere un elenco modificabile allo schema dell’offerta
 description: Scopri come esporre un collegamento di raccolta personalizzata come elenco modificabile direttamente nella schermata dei dettagli dell’offerta.
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 1%
-
+source-wordcount: '449'
+ht-degree: 5%
 ---
-
-# Aggiungere un elenco modificabile allo schema delle offerte {#offer-editable-list}
+# Aggiungere un elenco modificabile allo schema dell’offerta {#offer-editable-list}
 
 Quando [estendi lo  [!DNL nms:offer] schema](../administration/schemas.md) con un collegamento di raccolta personalizzato, ad esempio un set di segmenti collegati a un&#39;offerta, puoi esporla come elenco modificabile direttamente nella sezione **[!UICONTROL Opzioni personalizzate]** dell&#39;offerta. Invece di gestire i record correlati tramite una schermata separata, la raccolta viene riprodotta come elenco nei dettagli dell’offerta e puoi creare nuovi record correlati in linea tramite una finestra di dialogo dedicata.
 

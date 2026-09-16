@@ -6,15 +6,15 @@ exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 TQID: https://experienceleague.adobe.com/7yCq55pTgMBqdDxeRXmvHeVQLeGCFUIaxCUcdJlmYik
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: '295'
 ht-degree: 10%
-
 ---
-
 # Informazioni sui flussi di lavoro di sola lettura {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
@@ -57,4 +57,4 @@ I flussi di lavoro tecnici incorporati sono di sola lettura per tutti gli utenti
 
 ![Interfaccia del flusso di lavoro tecnico in modalità di sola lettura, con le opzioni per sospendere o arrestare i flussi di lavoro.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

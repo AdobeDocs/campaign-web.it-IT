@@ -5,16 +5,17 @@ exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
 TQID: https://experienceleague.adobe.com/Fn3O9rjM5mkBzfTZbKeV5aZUF2XmfQ87JGUZP7V-RR8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: '374'
 ht-degree: 3%
-
 ---
-
 # Gestione del fuso orario {#timezone-management}
 
 Nell&#39;interfaccia utente di Adobe Campaign Web vengono visualizzati tutti i valori di data e ora in base al **fuso orario locale del browser Web dell&#39;utente**. Questo comportamento può causare differenze nel confronto dei timestamp tra l’interfaccia utente web e la console client.
@@ -29,11 +30,11 @@ In questa sezione vengono illustrate le differenze previste tra i fusi orari **I
 
 * **Fuso orario del server**: il fuso orario del server corrisponde a quello configurato nel sistema operativo del server. Tutti i timestamp vengono memorizzati internamente in UTC sul server.
 
-* **Comportamento console client**: la console client visualizza i timestamp utilizzando il fuso orario dell&#39;operatore **operator**, definito nelle impostazioni dell&#39;operatore. Per impostazione predefinita, corrisponde al fuso orario del server **&#x200B;**.
+* **Comportamento console client**: la console client visualizza i timestamp utilizzando il fuso orario dell&#39;operatore **operator**, definito nelle impostazioni dell&#39;operatore. Per impostazione predefinita, corrisponde al fuso orario del server ****.
 
-* **Comportamento interfaccia Web**: l&#39;interfaccia utente Web visualizza i timestamp utilizzando il fuso orario locale del browser **&#x200B;**. Quando un utente modifica il browser o il fuso orario del sistema, i valori di data/ora visualizzati vengono aggiornati automaticamente.
+* **Comportamento interfaccia Web**: l&#39;interfaccia utente Web visualizza i timestamp utilizzando il fuso orario locale del browser ****. Quando un utente modifica il browser o il fuso orario del sistema, i valori di data/ora visualizzati vengono aggiornati automaticamente.
 
-* **Comportamento del flusso di lavoro**: i flussi di lavoro interpretano le marche temporali locali in base al fuso orario configurato del **flusso di lavoro**. Se non viene specificato, per impostazione predefinita viene utilizzato il fuso orario del server **1&rbrace;.**
+* **Comportamento del flusso di lavoro**: i flussi di lavoro interpretano le marche temporali locali in base al fuso orario configurato del **flusso di lavoro**. Se non viene specificato, per impostazione predefinita viene utilizzato il fuso orario del server **1}.**
 
 ## Esempio
 

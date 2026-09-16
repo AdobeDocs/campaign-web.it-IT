@@ -6,15 +6,15 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 24%
-
 ---
-
 # Consegna continua {#continuous-delivery}
 
 L&#39;attività **Consegna continua** ti consente di aggiungere nuovi destinatari a una consegna esistente. Questo tipo di consegna evita di dover creare ogni volta una nuova consegna, e rende più efficiente l’invio di avvisi o notifiche a basso volume in base alle esigenze.

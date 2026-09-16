@@ -5,15 +5,15 @@ description: Scopri come gestire le offerte in Adobe Campaign Web
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 4%
-
+source-wordcount: '763'
+ht-degree: 6%
 ---
-
 # Introduzione alla gestione delle offerte {#gs-offer-management}
 
 Questa funzionalità ti consente di aggiungere offerte personalizzate alle consegne e di presentare quella più pertinente per ciascun profilo in un determinato contesto. Le offerte possono essere un semplice messaggio di comunicazione o promozioni su uno o più prodotti. In base alle regole di idoneità e ai pesi di priorità, il motore di offerta seleziona la proposta migliore da presentare.
@@ -77,11 +77,11 @@ Gli ambienti delle offerte e gli spazi delle offerte sono accessibili tramite **
 
 Alcune funzionalità di offerta non sono ancora esposte nell’interfaccia utente web e devono ancora essere configurate dalla console client:
 
-* **Simulazione offerte**: il modulo **Simulazione** che consente di verificare la distribuzione delle offerte prima dell&#39;invio. Vedi [Simulazione offerte](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=it#offer-simulation){target="_blank"}.
+* **Simulazione offerte**: il modulo **Simulazione** che consente di verificare la distribuzione delle offerte prima dell&#39;invio. Vedi [Simulazione offerte](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
 
 * Gestione di **Filtri predefiniti**: regole di filtro riutilizzabili a cui è possibile fare riferimento da qualsiasi offerta. Vedere [Gestire i filtri predefiniti](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
 
-* **Tracciamento delle offerte**: configurazione del tracciamento per le proposte di offerta per alimentare la cronologia delle proposte. Consulta [Tracciare le proposte di offerta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=it){target="_blank"}.
+* **Tracciamento delle offerte**: configurazione del tracciamento per le proposte di offerta per alimentare la cronologia delle proposte. Consulta [Tracciare le proposte di offerta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
 
 * **Ruoli di operatore** — Assegnazione dei diritti di Gestione offerte/Responsabile della consegna. Consulta [Operatori del modulo di interazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 

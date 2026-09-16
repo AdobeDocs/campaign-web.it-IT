@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
-
 ---
-
 # Aggiungere filtri personalizzati {#custom-filters}
 
 La sezione **[!UICONTROL Configurazione elenco inventario]** > **[!UICONTROL Filtri personalizzati]** consente di scegliere gli attributi da visualizzare come campi di accesso rapido nel [riquadro filtri](../query/filter.md) della visualizzazione elenco di uno schema, sopra il generatore di regole **[!UICONTROL Filtri avanzati]**.

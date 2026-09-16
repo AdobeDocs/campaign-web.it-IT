@@ -6,9 +6,7 @@ source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # Accedere e configurare gli schemi {#access}
 
 Gli schemi sono accessibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Schemi]**.

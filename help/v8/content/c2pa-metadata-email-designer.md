@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: Metadati C2PA in E-mail e pagina di destinazione Designer
+title: Metadati C2PA in Designer e-mail e Designer pagine di destinazione
 description: Scopri cosa succede ai metadati C2PA già allegati a un’immagine mentre si sposta attraverso l’e-mail e il designer di pagine di destinazione nell’interfaccia utente web di Adobe Campaign.
 topic: Content Management
 role: User
@@ -9,12 +9,10 @@ level: Beginner
 source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 1%
-
+ht-degree: 4%
 ---
 
-
-# Metadati C2PA in E-mail e pagina di destinazione Designer {#c2pa-email-landing-page-designer}
+# Metadati C2PA in Designer e-mail e Designer pagine di destinazione {#c2pa-email-landing-page-designer}
 
 >[!BEGINSHADEBOX]
 
@@ -57,4 +55,4 @@ Non esiste ancora un modo per ispezionare un Content Credential direttamente all
 ## Risorse aggiuntive
 
 * [Utilizzare Genera contenuti](generative-gs.md)
-* [Trasparenza dei contenuti di IA generativa](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Trasparenza dei contenuti di IA generativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)

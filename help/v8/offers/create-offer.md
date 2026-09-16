@@ -5,15 +5,15 @@ description: Scopri come creare, configurare, approvare e distribuire un’offer
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
 # Creare e pubblicare un’offerta {#create-offer}
 
 Una **offerta** è una singola proposta con un proprio periodo di idoneità, filtro di destinazione, peso e contenuto. Le offerte sono organizzate nel catalogo delle offerte tramite **categorie** e vengono presentate ai destinatari tramite uno **spazio delle offerte**.
@@ -106,7 +106,7 @@ Le offerte non sono immediatamente disponibili nelle consegne: passano attravers
 
    ![Schermata che mostra l&#39;approvazione dell&#39;offerta.](assets/offers-offer-4.png){zoomable="yes"}
 
-1. Approva l&#39;idoneità **[!UICONTROL 1&rbrace; e il contenuto**&#x200B;[!UICONTROL &#x200B; 3&rbrace;. &#x200B;]&#x200B;**]** Il contenuto può essere approvato per ogni spazio dell’offerta, in modo da poterlo approvare per uno spazio dell’offerta lasciando gli altri in sospeso.
+1. Approva l&#39;idoneità **[!UICONTROL 1} e il contenuto**[!UICONTROL  3}. ]**]** Il contenuto può essere approvato per ogni spazio dell’offerta, in modo da poterlo approvare per uno spazio dell’offerta lasciando gli altri in sospeso.
 
 1. Dopo aver concesso entrambe le approvazioni, fai clic su **[!UICONTROL Distribuisci]** per pubblicare l&#39;offerta nell&#39;ambiente live.
 
@@ -136,5 +136,5 @@ Una volta che un’offerta è attiva, la modifica di qualsiasi impostazione ripo
 
 Quando l’offerta è live, può essere selezionata da qualsiasi consegna che esegue il targeting dello spazio dell’offerta corrispondente. Scopri come impostare le offerte in una consegna in [Aggiungi offerte ai messaggi](../msg/offers.md).
 
-Per l&#39;integrazione completa della consegna in uscita, tra cui la modalità di generazione della chiamata al motore e di applicazione del tracciamento ai collegamenti delle offerte, consulta la [documentazione di Campaign v8 nelle consegne in uscita](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=it){target="_blank"}.
+Per l&#39;integrazione completa della consegna in uscita, tra cui la modalità di generazione della chiamata al motore e di applicazione del tracciamento ai collegamenti delle offerte, consulta la [documentazione di Campaign v8 nelle consegne in uscita](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
 

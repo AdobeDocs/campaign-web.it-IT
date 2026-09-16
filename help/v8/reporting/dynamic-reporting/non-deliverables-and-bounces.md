@@ -6,11 +6,9 @@ level: Intermediate
 exl-id: 325a03dc-1b28-4418-921f-64c029fa8989
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
-
+source-wordcount: '128'
+ht-degree: 6%
 ---
-
 # Messaggi non recapitati e non consegnabili{#non-deliverables-and-bounces}
 
 Il report **[!UICONTROL Non recapitabili e mancati recapiti]** fornisce dettagli su tutti gli errori riscontrati durante una consegna.

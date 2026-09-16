@@ -7,25 +7,32 @@ exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: '2109'
 ht-degree: 0%
-
 ---
-
 # Best practice per la generazione del prompt dei contenuti {#ai-assistant-prompting-guide}
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi delle campagne.
@@ -129,19 +136,19 @@ Queste richieste non sono supportate e devono essere gestite tramite altri strum
 
 Prima di generare il contenuto, verifica quanto segue:
 
-&check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
+&amp;check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
 
-&check; **Pubblico di destinazione definito**: specifica l&#39;elemento demografico, la mansione o il segmento.
+&amp;check; **Pubblico di destinazione definito**: specifica l&#39;elemento demografico, la mansione o il segmento.
 
-&check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
+&amp;check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
 
-&verifica; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
+&amp;verifica; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
 
-&check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
+&amp;check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
 
-&check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
+&amp;check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
 
-&check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
+&amp;check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
 
 ## Scrivi obiettivi di marketing efficaci {#marketing-objectives}
 
@@ -151,11 +158,11 @@ Quando definisci gli obiettivi di marketing, assicurati che siano chiari, utiliz
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
+&amp;check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
 
-&check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
+&amp;check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
 
-&check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
+&amp;check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
 
 **Esempi da evitare:**
 
@@ -172,11 +179,11 @@ Usa questa formula per scrivere obiettivi efficaci: **Azione + Prodotto/Servizio
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
+&amp;check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
 
-&check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
+&amp;check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
 
-&check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
+&amp;check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
 
 **Esempi da evitare:**
 

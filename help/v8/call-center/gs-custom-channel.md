@@ -6,15 +6,15 @@ exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 2%
-
+source-wordcount: '740'
+ht-degree: 3%
 ---
-
 # Introduzione ai canali personalizzati {#gs-custom-channel}
 
 Puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign, in base ai canali personalizzati integrati con terze parti. La configurazione del canale personalizzato viene eseguita nella console client.
@@ -37,11 +37,11 @@ Per inviare una nuova consegna personalizzata autonoma, segui i passaggi princip
 
 Innanzitutto, devi configurare il canale personalizzato. Di seguito sono riportati i passaggi principali da eseguire nella console client. Questi passaggi sono comuni ai canali esterni e API personalizzati:
 
-1. Configura lo schema per aggiungere il nuovo canale all’elenco dei canali disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=it#configure-schema){target="_blank"}
-1. Crea un nuovo account esterno di indirizzamento. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=it#create-ext-account){target="_blank"}
-1. Crea un nuovo modello di consegna associato al nuovo canale. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=it#create-template){target="_blank"}
+1. Configura lo schema per aggiungere il nuovo canale all’elenco dei canali disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
+1. Crea un nuovo account esterno di indirizzamento. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
+1. Crea un nuovo modello di consegna associato al nuovo canale. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
 
-I canali API personalizzati richiedono una configurazione aggiuntiva. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=it#api-additional){target="_blank"}
+I canali API personalizzati richiedono una configurazione aggiuntiva. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
 
 ## Creare la consegna{#create-delivery}
 
@@ -89,7 +89,7 @@ Ora modifichiamo il contenuto della consegna.
 
 1. Dal dashboard di consegna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]**.
 
-1. Compila i campi in base alle tue esigenze. Per informazioni su come impostare questa schermata, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=it#api-additional-screen){target="_blank"}.
+1. Compila i campi in base alle tue esigenze. Per informazioni su come impostare questa schermata, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
 
    ![Schermata che mostra le opzioni di configurazione degli attributi per il canale API.](assets/cc-content-attributes-api.png)
 
@@ -117,7 +117,7 @@ Quando il contenuto della consegna è pronto, puoi visualizzarlo in anteprima ut
 
 1. Dalla pagina del contenuto della consegna, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e seleziona i profili di test.
 
-1. Sul lato destro, fare clic su **Apri anteprima**. Questa funzionalità deve essere configurata utilizzando JSSP. Consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=it#api-additional-preview){target="_blank"}.
+1. Sul lato destro, fare clic su **Apri anteprima**. Questa funzionalità deve essere configurata utilizzando JSSP. Consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
 
    ![Schermata che mostra l&#39;opzione Simula contenuto nella pagina del contenuto della consegna per API](assets/cus-simulate-api.png){zoomable="yes"}
 
