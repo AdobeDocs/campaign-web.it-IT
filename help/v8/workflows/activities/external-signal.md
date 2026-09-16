@@ -38,7 +38,7 @@ L&#39;attività **External signal** è un&#39;attività **Flow control**. Ti con
 
 >[!NOTE]
 >
->In questa pagina vengono illustrati i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro, sulle best practice e su come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>In questa pagina vengono illustrati i passaggi principali per configurare un&#39;attività **[!UICONTROL External Signal]** nell&#39;interfaccia utente di Campaign Web e attivarla da un altro flusso di lavoro o da una chiamata API. Informazioni dettagliate su come attivare un flusso di lavoro, sulle best practice e su come utilizzare le API di Campaign sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Segui questi passaggi per configurare l&#39;attività **External signal** e attivarne l&#39;esecuzione:
 

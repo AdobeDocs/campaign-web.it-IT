@@ -136,5 +136,5 @@ Una volta che un’offerta è attiva, la modifica di qualsiasi impostazione ripo
 
 Quando l’offerta è live, può essere selezionata da qualsiasi consegna che esegue il targeting dello spazio dell’offerta corrispondente. Scopri come impostare le offerte in una consegna in [Aggiungi offerte ai messaggi](../msg/offers.md).
 
-Per l&#39;integrazione completa della consegna in uscita, tra cui la modalità di generazione della chiamata al motore e di applicazione del tracciamento ai collegamenti delle offerte, consulta la [documentazione di Campaign v8 nelle consegne in uscita](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
+Per l&#39;integrazione completa della consegna in uscita, tra cui la modalità di generazione della chiamata al motore e di applicazione del tracciamento ai collegamenti delle offerte, consulta la [documentazione di Campaign v8 nelle consegne in uscita](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=it){target="_blank"}.
 

@@ -77,11 +77,11 @@ Gli ambienti delle offerte e gli spazi delle offerte sono accessibili tramite **
 
 Alcune funzionalità di offerta non sono ancora esposte nell’interfaccia utente web e devono ancora essere configurate dalla console client:
 
-* **Simulazione offerte**: il modulo **Simulazione** che consente di verificare la distribuzione delle offerte prima dell&#39;invio. Vedi [Simulazione offerte](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
+* **Simulazione offerte**: il modulo **Simulazione** che consente di verificare la distribuzione delle offerte prima dell&#39;invio. Vedi [Simulazione offerte](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=it#offer-simulation){target="_blank"}.
 
 * Gestione di **Filtri predefiniti**: regole di filtro riutilizzabili a cui è possibile fare riferimento da qualsiasi offerta. Vedere [Gestire i filtri predefiniti](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
 
-* **Tracciamento delle offerte**: configurazione del tracciamento per le proposte di offerta per alimentare la cronologia delle proposte. Consulta [Tracciare le proposte di offerta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
+* **Tracciamento delle offerte**: configurazione del tracciamento per le proposte di offerta per alimentare la cronologia delle proposte. Consulta [Tracciare le proposte di offerta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=it){target="_blank"}.
 
 * **Ruoli di operatore** — Assegnazione dei diritti di Gestione offerte/Responsabile della consegna. Consulta [Operatori del modulo di interazione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 

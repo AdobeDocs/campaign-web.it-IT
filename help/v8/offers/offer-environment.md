@@ -27,7 +27,7 @@ Ogni ambiente **Design** è collegato a un ambiente **Live**. Quando un&#39;offe
 
 Per impostazione predefinita, Campaign viene fornito con due ambienti **Design** e **Live** preconfigurati per eseguire il targeting della tabella dei destinatari incorporata (offerte identificate).
 
-Per eseguire il targeting di un’altra tabella, ad esempio i profili anonimi che visitano il sito web per interazioni in entrata, è necessario creare ambienti aggiuntivi (uno per dimensione di targeting). Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
+Per eseguire il targeting di un’altra tabella, ad esempio i profili anonimi che visitano il sito web per interazioni in entrata, è necessario creare ambienti aggiuntivi (uno per dimensione di targeting). Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}.
 
 ## Accedere agli ambienti delle offerte {#offer-environment-settings}
 
@@ -117,7 +117,7 @@ This section gathers the offer-specific settings of the folder.
 
 ### Execution instances {#execution-instances}
 
-* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html#distributed-architecture){target="_blank"}.
+* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html?lang=it#distributed-architecture){target="_blank"}.
 
 ### Targets of this environment {#targets}
 
@@ -149,7 +149,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
 
-* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-presentation){target="_blank"} for the full rule reference.
+* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=it#offer-presentation){target="_blank"} for the full rule reference.
 
 * **[!UICONTROL Filters on the target]** — Filter rules that apply to every offer in the environment. Use **[!UICONTROL Add rules]** to open the rule builder and restrict the audience targeted by all offers contained in this environment.
 
