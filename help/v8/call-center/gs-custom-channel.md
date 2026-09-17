@@ -6,15 +6,15 @@ exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
 TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 2%
-
+source-wordcount: '740'
+ht-degree: 3%
 ---
-
 # Introduzione ai canali personalizzati {#gs-custom-channel}
 
 Puoi orchestrare ed eseguire le consegne direttamente dall’interfaccia utente web di Adobe Campaign, in base ai canali personalizzati integrati con terze parti. La configurazione del canale personalizzato viene eseguita nella console client.

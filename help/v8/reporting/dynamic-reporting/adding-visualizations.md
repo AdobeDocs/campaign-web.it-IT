@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
-
 ---
-
 # Aggiunta di visualizzazioni{#adding-visualizations}
 
 La scheda **Visualizzazioni** consente di trascinare gli elementi di visualizzazione, ad esempio area, anello e grafico. Le visualizzazioni forniscono rappresentazioni grafiche dei dati.

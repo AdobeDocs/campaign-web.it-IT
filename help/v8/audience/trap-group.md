@@ -6,15 +6,15 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 4%
-
 ---
-
 # Utilizzare un gruppo trappola {#trap-group}
 
 Un **[!UICONTROL gruppo trap]** (noto anche come **[!UICONTROL elenco seed]**) viene utilizzato per includere indirizzi specifici nelle consegne per monitorare e verificare il processo di distribuzione eseguendo il targeting di profili che non corrispondono ai criteri di destinazione definiti. In questo modo, i destinatari che non rientrano nell’ambito di consegna possono ricevere la consegna, come qualsiasi altro destinatario.

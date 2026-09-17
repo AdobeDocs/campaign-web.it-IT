@@ -6,15 +6,15 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 TQID: https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '545'
 ht-degree: 59%
-
 ---
-
 # Rapporti sulla campagna per il canale push {#campaign-reports-push-channel}
 
 Ogni rapporto di una campagna è suddiviso in diversi widget che ne descrivono il successo e gli errori. Per il canale push, i rapporti e le metriche sono descritti di seguito. Scopri come accedere ai rapporti delle campagne in [questa pagina](campaign-reports.md).

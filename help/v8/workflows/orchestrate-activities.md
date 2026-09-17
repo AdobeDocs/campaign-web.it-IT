@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1720
-ht-degree: 20%
-
+source-wordcount: '1720'
+ht-degree: 21%
 ---
-
 # Orchestrare le attività {#orchestrate}
 
 Dopo aver [creato un flusso di lavoro](create-workflow.md), dal menu del flusso di lavoro o all&#39;interno di una campagna, puoi iniziare a orchestrare le diverse attività che esegue. A questo scopo, viene fornita un’area di lavoro visiva che consente di creare un diagramma del flusso di lavoro. All’interno di questo diagramma, puoi aggiungere varie attività e collegarle in ordine sequenziale. Attorno all’area di lavoro vengono visualizzate barre di scorrimento orizzontali e verticali, che consentono di spostarsi tra flussi di lavoro di grandi dimensioni trascinando direttamente l’area da visualizzare.
@@ -58,7 +57,7 @@ Quando si aggiungono attività, nel riquadro delle proprietà sono disponibili p
 
 Puoi eseguire le seguenti azioni:
 
-* **Elimina** l’attività dall’area di lavoro. Vedi [questa sezione](#delete-activity).
+* **Elimina** l’attività dall’area di lavoro. Consulta [questa sezione](#delete-activity).
 * **Disabilita/Abilita** l’attività. Durante l’esecuzione del flusso di lavoro, le attività disabilitate e le attività seguenti sullo stesso percorso non vengono eseguite e il flusso di lavoro si interrompe.
 * **Pausa/Riprendi** l’attività. Durante l’esecuzione, il flusso di lavoro viene messo in pausa in corrispondenza dell’attività in pausa. L&#39;attività corrispondente, così come tutte quelle che la seguono nello stesso percorso, non vengono eseguite.
 * **Copia** l’attività. Consulta [questa sezione](#copy).
@@ -128,7 +127,7 @@ Fai clic su **Elimina** per confermare la scelta oppure su **Annulla** per chiud
 
 Puoi disconnettere due attività senza eliminarle una. Le attività posizionate dopo la transizione disconnessa non vengono eliminate: vengono spostate in un nuovo ramo separato del flusso di lavoro.
 
-Ciò consente di riorganizzare un diagramma di flusso di lavoro, ad esempio per mettere temporaneamente da parte un gruppo di attività che si desidera mantenere, senza doverle eliminare e ricreare.
+Questo consente di riorganizzare un diagramma del flusso di lavoro, ad esempio per mettere temporaneamente da parte un gruppo di attività che desideri conservare, senza doverle eliminare e ricreare.
 
 Puoi eseguire questa operazione su una singola transizione:
 

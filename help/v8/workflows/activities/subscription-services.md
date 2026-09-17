@@ -6,15 +6,15 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: '1135'
 ht-degree: 28%
-
 ---
-
 # Servizi di iscrizione {#subscription-services}
 
 >[!CONTEXTUALHELP]
@@ -111,8 +111,8 @@ Il flusso di lavoro seguente mostra come importare un file contenente profili e 
   ```
 
   Come avrai notato, l’operazione è specificata nel file come &quot;sub&quot; o &quot;unsub&quot;. Il sistema richiede un **valore booleano** o un **numero intero** per riconoscere l’operazione da eseguire: &quot;0&quot; per annullare l’abbonamento e &quot;1&quot; per effettuare l’abbonamento. Per soddisfare questo requisito:
-   * Il **tipo di dati** per la colonna &quot;operazione&quot; è impostato su un numero intero.
-   * È necessario eseguire una **Modifica del valore** per far corrispondere i valori &quot;sub&quot; e &quot;unsub&quot; con i valori &quot;1&quot; e &quot;0&quot;.
+  * Il **tipo di dati** per la colonna &quot;operazione&quot; è impostato su un numero intero.
+  * È necessario eseguire una **Modifica del valore** per far corrispondere i valori &quot;sub&quot; e &quot;unsub&quot; con i valori &quot;1&quot; e &quot;0&quot;.
 
   ![Schermata dell&#39;interfaccia di mappatura del servizio di sottoscrizione del flusso di lavoro.](../assets/workflow-subscription-service-uc2-mapping.png)
 

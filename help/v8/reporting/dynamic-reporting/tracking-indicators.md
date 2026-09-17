@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 2%
-
 ---
-
 # Indicatori di tracciamento{#tracking-indicators}
 
 Il report **[!UICONTROL Indicatori di tracciamento]** contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail.

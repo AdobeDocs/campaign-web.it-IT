@@ -5,11 +5,9 @@ description: Scopri come creare un messaggio transazionale nell’interfaccia ut
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '470'
 ht-degree: 11%
-
 ---
-
 # Arricchire i messaggi transazionali con i dati del profilo{#profile-enrichment}
 
 Questa funzionalità ti consente di personalizzare i messaggi transazionali collegando i campi del database di Adobe Campaign al contenuto dei messaggi. Puoi selezionare mappature target, colonne di arricchimento e una chiave di riconciliazione per garantire una personalizzazione accurata e in tempo reale, mantenendo al contempo le soglie di prestazioni.

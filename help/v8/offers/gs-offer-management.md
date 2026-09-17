@@ -5,15 +5,15 @@ description: Scopri come gestire le offerte in Adobe Campaign Web
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 4%
-
+source-wordcount: '763'
+ht-degree: 6%
 ---
-
 # Introduzione alla gestione delle offerte {#gs-offer-management}
 
 Questa funzionalità ti consente di aggiungere offerte personalizzate alle consegne e di presentare quella più pertinente per ciascun profilo in un determinato contesto. Le offerte possono essere un semplice messaggio di comunicazione o promozioni su uno o più prodotti. In base alle regole di idoneità e ai pesi di priorità, il motore di offerta seleziona la proposta migliore da presentare.

@@ -6,13 +6,12 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1653'
 ht-degree: 81%
-
 ---
-
 # Progettare una consegna push {#content-push}
 
 >[!CONTEXTUALHELP]
@@ -53,7 +52,7 @@ Con Firebase Cloud Messaging, scegli tra due tipi di messaggi:
 * Il **[!UICONTROL Messaggio dati]** è gestito dall’app client. Questi messaggi vengono inviati direttamente all’app mobile, che genera e visualizza una notifica Android sul dispositivo. I messaggi di dati contengono solo variabili dell’applicazione personalizzate.
 
   Per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico, fare clic sul campo **[!UICONTROL Messaggio]** e utilizzare l&#39;editor espressioni. Accedi a questo editor per personalizzare i messaggi.
-Nel menu **[!UICONTROL Variabili applicazione]**, le variabili dell&#39;applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, configura una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
+  Nel menu **[!UICONTROL Variabili applicazione]**, le variabili dell&#39;applicazione vengono aggiunte automaticamente. Queste variabili ti consentono di definire il comportamento di notifica. Ad esempio, configura una schermata dell’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
   ![Descrizione: esempio di definizione del contenuto di un messaggio dati nelle notifiche di Android](assets/push_content_4.png){zoomable="yes"}
 

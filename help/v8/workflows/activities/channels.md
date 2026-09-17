@@ -6,15 +6,15 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: '995'
 ht-degree: 49%
-
 ---
-
 # Attività di e-mail, SMS, WhatsApp, Push, Direct mail {#channel}
 
 Adobe Campaign Web consente di automatizzare ed eseguire campagne di marketing su e-mail, SMS, WhatsApp, direct mail e canali push. Puoi combinare le attività dei canali nell’area del flusso di lavoro per creare flussi di lavoro cross-channel in grado di attivare azioni basate sui dati e sul comportamento della clientela.
@@ -38,13 +38,13 @@ Inizia a creare il flusso di lavoro con le attività pertinenti:
 
 * Prima di inserire un’attività di canale, definisci il pubblico. Il pubblico è il target principale della consegna: i profili che ricevono i messaggi. Quando si inviano messaggi nel contesto di un flusso di lavoro di una campagna, il pubblico del messaggio non è definito nell’attività del canale, ma all’interno di un’attività dedicata, ad esempio:
 
-   * Un&#39;attività **Genera pubblico**. [Ulteriori informazioni](build-audience.md).
+  * Un&#39;attività **Genera pubblico**. [Ulteriori informazioni](build-audience.md).
 
-     ![Schermata che mostra l&#39;aggiunta di una consegna in un flusso di lavoro](../../msg/assets/add-delivery-in-wf.png)
+    ![Schermata che mostra l&#39;aggiunta di una consegna in un flusso di lavoro](../../msg/assets/add-delivery-in-wf.png)
 
-   * Attività **Load file** seguita da attività **Reconciliation**. [Ulteriori informazioni](load-file.md).
+  * Attività **Load file** seguita da attività **Reconciliation**. [Ulteriori informazioni](load-file.md).
 
-     ![Schermata che mostra i criteri di riconciliazione del flusso di lavoro](../assets/workflow-reconciliation-criteria.png)
+    ![Schermata che mostra i criteri di riconciliazione del flusso di lavoro](../assets/workflow-reconciliation-criteria.png)
 
 * Per inviare una consegna ricorrente, avvia il flusso di lavoro con un&#39;attività **Scheduler**. Utilizza un&#39;attività **Scheduler** per singole consegne una tantum per impostare la data di contatto per quella consegna. Tale data di contatto può essere impostata anche nelle impostazioni di consegna. Consulta [questa sezione](scheduler.md).
 

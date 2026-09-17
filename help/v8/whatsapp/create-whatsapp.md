@@ -10,11 +10,9 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '472'
 ht-degree: 5%
-
 ---
-
 
 # Creare un messaggio WhatsApp {#create-whatsapp}
 
@@ -89,7 +87,7 @@ Il modello WhatsApp deve essere approvato da Meta prima dell’uso. L’approvaz
 
 1. Dal menu a discesa **Modello WhatsApp**, seleziona il modello approvato da Meta.
 
-   [Ulteriori informazioni sulla creazione di modelli WhatsApp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [Scopri come creare modelli WhatsApp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 

@@ -9,10 +9,8 @@ nudge: true
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 99%
-
+ht-degree: 100%
 ---
-
 
 # Documentazione di Adobe Campaign Web {#v8}
 
@@ -141,7 +139,7 @@ ht-degree: 99%
     + [Generazione di testi con l’IA](content/generative-text.md)
     + [Generazione di immagini con l’IA](content/generative-image.md)
     + [Casi di utilizzo per generare contenuti](content/generative-uc.md)
-    + [Metadati C2PA in E-mail e pagina di destinazione Designer](content/c2pa-metadata-email-designer.md)
+    + [Metadati C2PA in Designer e-mail e Designer pagine di destinazione](content/c2pa-metadata-email-designer.md)
     + Brand {#ai-assistant}
       + [Creare e gestire i brand personali](content/brands.md)
       + [Personalizzare il brand](content/brands-personalize.md)
@@ -308,7 +306,7 @@ ht-degree: 99%
     + [Creare e pubblicare schemi](administration/schemas-create-publish.md)
     + [Utilizzare i moduli personalizzati](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configurare i campi personalizzati](administration/custom-fields.md)
-  + [Configurare le opzioni di [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurare le opzioni di [!DNL Campaign] ](administration/options.md)
   + [Gestione del fuso orario](administration/timezone-management.md)
   + Account esterni {#external-accounts}
     + [Creare account esterni](administration/create-external-account.md)

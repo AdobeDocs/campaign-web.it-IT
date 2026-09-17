@@ -6,14 +6,12 @@ level: Intermediate
 exl-id: b341edad-aa82-43d8-a5a1-b33a19973a1a
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
-
+source-wordcount: '290'
+ht-degree: 8%
 ---
-
 # Riepilogo messaggi non recapitati{#bounce-summary}
 
-Questo rapporto descrive gli errori rigidi e morbidi riscontrati durante le consegne, nonché l’elaborazione automatica delle e-mail non consegnate.
+Questo report descrive gli errori rigidi e morbidi riscontrati durante le consegne nonché l’elaborazione automatica dei mancati recapiti.
 
 ![](assets/campaign_reports_bounces.png)
 

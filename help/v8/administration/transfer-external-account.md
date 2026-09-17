@@ -5,16 +5,17 @@ exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 6%
-
 ---
-
 # Trasferisci dati account esterni {#transfer-external-account}
 
 ## Servizio Amazon Simple Storage (S3) {#amazon-simple-storage-service--s3--external-account}
@@ -95,9 +96,9 @@ Per configurare l&#39;account esterno **[!UICONTROL SFTP]**, compila i campi seg
 
   Scegli il metodo di autenticazione con il server SFTP. Le opzioni includono:
 
-   * **[!UICONTROL Password]**: esegui l&#39;autenticazione utilizzando la password dell&#39;account.
+  * **[!UICONTROL Password]**: esegui l&#39;autenticazione utilizzando la password dell&#39;account.
 
-   * **[!UICONTROL Chiave pubblica]**: eseguire l&#39;autenticazione utilizzando una coppia di chiavi SSH (chiave privata e chiave pubblica).
+  * **[!UICONTROL Chiave pubblica]**: eseguire l&#39;autenticazione utilizzando una coppia di chiavi SSH (chiave privata e chiave pubblica).
 
 Se è selezionata l&#39;autenticazione **[!UICONTROL Chiave pubblica]**, è necessario compilare i campi seguenti:
 
@@ -141,8 +142,8 @@ Per configurare l&#39;account esterno **[!UICONTROL HTTP]**, compilare i campi s
 
   Selezionare il tipo di autenticazione per la connessione. Le opzioni includono:
 
-   * Password
-   * Chiave pubblica
+  * Password
+  * Chiave pubblica
 
 Se si utilizza l&#39;autenticazione **[!UICONTROL Chiave pubblica]**, dal menu **[!UICONTROL Autenticazione chiave pubblica]** immettere i valori richiesti per:
 
@@ -180,7 +181,7 @@ Per configurare l&#39;account esterno **[!UICONTROL FTP]**, compilare i campi se
 
   Selezionare il tipo di crittografia per la connessione. Le opzioni includono:
 
-   * Per impostazione predefinita
-   * POP3 + STARTTLS
-   * POP3 non protetto
-   * POP3 protetto
+  * Per impostazione predefinita
+  * POP3 + STARTTLS
+  * POP3 non protetto
+  * POP3 protetto

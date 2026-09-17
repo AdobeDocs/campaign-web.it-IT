@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 206
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 98%
 ---
-
 # Introduzione alle notifiche push {#push}
 
 Le notifiche push sono essenziali per contattare gli utenti delle app mobili, anche quando non utilizzano attivamente l’app. Possono essere utilizzate, ad esempio, per fornire aggiornamenti, promuovere azioni specifiche e informare gli utenti di eventuali offerte. Tieni presente che gli utenti devono acconsentire alla ricezione di queste notifiche.

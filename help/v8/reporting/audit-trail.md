@@ -7,24 +7,31 @@ exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 1%
-
 ---
-
 # Audit trail {#audit-trail}
 
 Nell&#39;interfaccia utente di Adobe Campaign Web, la funzione **[!UICONTROL Audit trail]** fornisce agli utenti la piena visibilità di tutte le modifiche apportate a entità importanti all&#39;interno dell&#39;istanza, in genere quelle che influiscono in modo significativo sul corretto funzionamento dell&#39;istanza.
@@ -44,14 +51,14 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Audit trail del flusso di lavoro** consente di tenere traccia delle attività e delle modifiche recenti apportate ai flussi di lavoro, inclusi i relativi stati correnti, ad esempio:
 
-   * Inizio
-   * Pausa
-   * Interruzione
-   * Riavvio
-   * Pulizia, che è uguale all’azione Cancella cronologia
-   * Simula, che è uguale all’azione Avvia in modalità simulazione
-   * Riattivazione, che è uguale all’azione Esegui subito le attività in sospeso
-   * Interruzione incondizionata
+  * Inizio
+  * Pausa
+  * Interruzione
+  * Riavvio
+  * Pulizia, che è uguale all’azione Cancella cronologia
+  * Simula, che è uguale all’azione Avvia in modalità simulazione
+  * Riattivazione, che è uguale all’azione Esegui subito le attività in sospeso
+  * Interruzione incondizionata
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../workflows/gs-workflows.md).
 

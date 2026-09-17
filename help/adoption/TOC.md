@@ -7,11 +7,9 @@ description: Utenti Campaign Standard, scopri come iniziare a utilizzare Campaig
 breadcrumb-title: Guida all’adozione di Campaign
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 32%
-
+source-wordcount: '87'
+ht-degree: 45%
 ---
-
 
 # Guida all’adozione di Adobe Campaign {#acs-to-ac}
 
@@ -20,5 +18,5 @@ ht-degree: 32%
 + [Introduzione per gli addetti al marketing](get-started/marketers.md)
 + [Introduzione per l’amministratore/sviluppatore](get-started/admin-developers.md)
 + [Gestione degli accessi utente](get-started/user-management-acs.md)
-+ [&lt; Torna alla documentazione di Campaign v8 (web)](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
++ [&lt; Documentazione di Back to Campaign v8 (web)](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
 + [&lt; Torna alla documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

@@ -5,20 +5,24 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 78%
-
+source-wordcount: '332'
+ht-degree: 100%
 ---
-
 # Note sulla versione {#latest-release}
 
 >[!CONTEXTUALHELP]
@@ -55,9 +59,9 @@ _18 agosto 2026_
 * **Tracciamento aperture**: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#tracking-tab)
 * **Vista a elenco dei programmi**: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista. [Ulteriori informazioni](../administration/plans-programs.md#create-program)
 * **Configurazione dello schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l’azione **Duplica** sui record di uno schema personalizzato. [Ulteriori informazioni](../administration/schemas-action-data.md#action-data)
-* **Filtri personalizzati**: nell&#39;editor schema è ora possibile limitare i valori disponibili nel selettore per un filtro personalizzato di tipo collegamento utilizzando la nuova finestra di dialogo **Impostazioni collegamento**. [Ulteriori informazioni](../administration/schemas-custom-filters.md#settings)
-* **Convalida schema**: è ora possibile convalidare la struttura di uno schema direttamente dall&#39;editor schema, utilizzando il nuovo pulsante **Controlla**. [Ulteriori informazioni](../administration/schemas-create-publish.md#create-new)
-* **Protezione cartella**: le azioni disponibili in una cartella sono ora gestite in modo coerente dai diritti dell&#39;operatore, in base al comportamento della console client. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders).
+* **Filtri personalizzati**: nell’editor dello schema, ora puoi limitare i valori disponibili nel selettore per un filtro personalizzato di tipo collegamento, mediante la nuova finestra di dialogo **Impostazioni collegamento**. [Ulteriori informazioni](../administration/schemas-custom-filters.md#settings)
+* **Convalida degli schemi**: ora con il nuovo pulsante **Convalida** puoi convalidare la struttura di uno schema direttamente dall’editor dello schema. [Ulteriori informazioni](../administration/schemas-create-publish.md#create-new)
+* **Sicurezza delle cartelle**: le azioni disponibili in una cartella sono ora gestite in modo coerente dai diritti dell’operatore, corrispondenti al comportamento della console client. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders).
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
   <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 

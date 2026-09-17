@@ -6,13 +6,12 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 TQID: https://experienceleague.adobe.com/EjGgtbMOx1hN-tlD56Fj6SsmGt3jI-rC7ehiKtr1yy4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: '1076'
 ht-degree: 72%
-
 ---
-
 # Dividi {#split}
 
 >[!CONTEXTUALHELP]
@@ -43,7 +42,7 @@ L&#39;attività **Split** è un&#39;attività **Targeting** che segmenta le popo
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
 >title="Ordinamento attività Dividi"
->abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
+>abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi determinare il ranking dei profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"

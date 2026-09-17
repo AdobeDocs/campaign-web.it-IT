@@ -5,20 +5,23 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 TQID: https://experienceleague.adobe.com/SKT-mPGrNuXmEQx5NGEZt3tZLM271zg7-85AeC4DpVc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 203
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
-
 ---
-
 # Guida introduttiva ai profili e ai tipi di pubblico {#about-profiles}
 
 In Adobe Campaign Web, un **profilo** è un record memorizzato nel database, che funge da componente chiave per creare tipi di pubblico per le consegne e aggiungere dati di personalizzazione al contenuto. Nel database sono memorizzati vari tipi di profili, ad esempio i **Profili di test**, progettati per testare le consegne prima che vengano inviate al pubblico finale.
@@ -41,7 +44,7 @@ Ora che conosci le funzionalità di Adobe Campaign Web, esplora le sezioni della
 </td>
 <td>
 <a href="create-audience.md">
-<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="Immagine di Creare tipi di pubblico">
+<img src="../assets/do-not-localize/profiles-audiences-audience.png" alt="Creare un’immagine per i tipi di pubblico">
 </a>
 <div><a href="create-audience.md"><strong>Creare tipi di pubblico</strong>
 </div>
@@ -49,7 +52,7 @@ Ora che conosci le funzionalità di Adobe Campaign Web, esplora le sezioni della
 </td>
 <td>
 <a href="manage-services.md">
-<img src="../assets/do-not-localize/profiles-audiences-service.png" alt="Immagine di Gestire i servizi">
+<img src="../assets/do-not-localize/profiles-audiences-service.png" alt="Gestire l’immagine per i servizi">
 </a>
 <div>
 <a href="manage-services.md"><strong>Gestire i servizi</strong></a>

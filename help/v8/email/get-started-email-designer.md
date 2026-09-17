@@ -6,15 +6,15 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 TQID: https://experienceleague.adobe.com/E13LxJL9krN2GR4LP2HdvRgxpEohILuNDwUz8YkeNVQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 415
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
-
 ---
-
 # Guida introduttiva a E-mail Designer {#get-started-email-designer}
 
 Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
@@ -37,7 +37,7 @@ The Email Designer allows you to create email content and email content template
 
 Quando si inviano le e-mail, tieni presente che i destinatari possono inoltrarle e, a volte, questo può causare problemi con il rendering. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider e-mail utilizzato per l’inoltro. Ad esempio, se utilizzi la classe CSS “is-desktop-hidden” per nascondere un’immagine su dispositivi mobili, il rendering potrebbe non essere corretto.
 
-Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della tua e-mail il più semplice possibile. Prova a utilizzare un’unica progettazione che funzioni bene sia per i dispositivi desktop che mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Quando utilizzi le immagini nelle e-mail, evita quelle di dimensioni superiori a 2 MB o utilizza collegamenti immagine codificati.
+Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della tua e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Quando utilizzi le immagini nelle e-mail, evita quelle di dimensioni superiori a 2 MB o utilizza collegamenti immagine codificati.
 
 Seguendo queste best practice, puoi contribuire a garantire che le e-mail vengano visualizzate correttamente in modo coerente, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
 

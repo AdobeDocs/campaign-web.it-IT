@@ -6,13 +6,12 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: '1087'
 ht-degree: 48%
-
 ---
-
 # Configurare le impostazioni del flusso di lavoro {#workflow-settings}
 
 >[!CONTEXTUALHELP]
@@ -44,10 +43,10 @@ Queste proprietà includono:
 * **[!UICONTROL Cartella]** in cui salvare il flusso di lavoro.
 * Il **[!UICONTROL Fuso orario]** predefinito da utilizzare in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 I valori possibili sono:
-   * **Fuso orario del server** per utilizzare il fuso orario del server applicazioni Adobe Campaign.
-   * **Fuso orario operatore** per utilizzare il fuso orario dell&#39;operatore Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell&#39;operatore nella console client.
-   * **Fuso orario del database** per utilizzare il fuso orario del server di database.
-   * Un fuso orario specifico.
+  * **Fuso orario del server** per utilizzare il fuso orario del server applicazioni Adobe Campaign.
+  * **Fuso orario operatore** per utilizzare il fuso orario dell&#39;operatore Adobe Campaign che esegue il flusso di lavoro, come definito nel profilo dell&#39;operatore nella console client.
+  * **Fuso orario del database** per utilizzare il fuso orario del server di database.
+  * Un fuso orario specifico.
 * Quando un flusso di lavoro non riesce, gli operatori appartenenti al gruppo di operatori selezionato nel campo **[!UICONTROL Supervisori]** ricevono una notifica tramite e-mail.
 * Immetti una **[!UICONTROL Descrizione]** del flusso di lavoro.
 
@@ -96,9 +95,9 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 
 * **[!UICONTROL Gestione degli errori]**: questo campo consente di definire le azioni da eseguire in caso di errori in un’attività del flusso di lavoro. Sono disponibili tre opzioni:
 
-   * **[!UICONTROL Sospendi il processo]**: il flusso di lavoro viene sospeso automaticamente e il relativo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riprendi il flusso di lavoro utilizzando il pulsante **[!UICONTROL Riprendi]**.
-   * **[!UICONTROL Ignora]**: lo stato dell’attività che ha attivato l’errore diventa **[!UICONTROL Non riuscito]**, ma il flusso di lavoro mantiene lo stato **[!UICONTROL Avviato]**.<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Interrompi il processo]**: il flusso di lavoro viene interrotto automaticamente e il relativo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavvia il flusso di lavoro utilizzando il pulsante **[!UICONTROL Avvia]**.
+  * **[!UICONTROL Sospendi il processo]**: il flusso di lavoro viene sospeso automaticamente e il relativo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riprendi il flusso di lavoro utilizzando il pulsante **[!UICONTROL Riprendi]**.
+  * **[!UICONTROL Ignora]**: lo stato dell’attività che ha attivato l’errore diventa **[!UICONTROL Non riuscito]**, ma il flusso di lavoro mantiene lo stato **[!UICONTROL Avviato]**.<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL Interrompi il processo]**: il flusso di lavoro viene interrotto automaticamente e il relativo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavvia il flusso di lavoro utilizzando il pulsante **[!UICONTROL Avvia]**.
 
 * **[!UICONTROL Errori consecutivi]**: questo campo diventa disponibile quando il valore **[!UICONTROL Ignora]** è selezionato nel campo **[!UICONTROL In caso di errori]**. Specificare il numero di errori che possono essere ignorati prima dell&#39;interruzione del processo. Una volta raggiunto questo numero, lo stato del flusso di lavoro diventa **[!UICONTROL Non riuscito]**. Se il valore di questo campo è 0, il flusso di lavoro non verrà mai interrotto indipendentemente dal numero di errori.
 

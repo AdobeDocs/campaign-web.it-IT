@@ -5,26 +5,26 @@ exl-id: 99648377-112b-428a-8faf-5268d730f19a
 TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 213
+source-wordcount: '213'
 ht-degree: 5%
-
 ---
-
 # Account esterni per l’integrazione delle soluzioni Adobe {#integration-external-account}
 
 A seconda del tipo di account esterno Adobe Solution Integration selezionato, segui i passaggi seguenti per configurare le impostazioni di connessione e account per un’integrazione perfetta con i servizi Adobe.
 
 ## Adobe Experience Cloud
 
-Per connettersi alla console Adobe Campaign utilizzando un Adobe ID, è necessario configurare l’account esterno Adobe Experience Cloud (MAC).
+Per connetterti alla console Adobe Campaign utilizzando un Adobe ID, devi configurare l’account esterno Adobe Experience Cloud (MAC).
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Adobe Experience Cloud MAC.](assets/external-MAC.png)
 
-Per configurare l&#39;account esterno **[!UICONTROL Adobe Experience Cloud]**, compilare i campi seguenti:
+Per configurare l&#39;account esterno **[!UICONTROL Adobe Experience Cloud]**, compila i campi seguenti:
 
 * **[!UICONTROL Server IMS]**
 
@@ -56,7 +56,7 @@ Per configurare l&#39;account esterno **[!UICONTROL Adobe Experience Cloud]**, c
 
 * **[!UICONTROL Server]**
 
-  URL dell’istanza di Adobe Experience Cloud.
+  URL dell’istanza Adobe Experience Cloud.
 
 * **[!UICONTROL Tenant]**
 

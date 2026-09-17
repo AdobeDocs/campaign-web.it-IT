@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Rivedere le impostazioni dell’ambiente dell’offerta
+title: Rivedere le impostazioni dell’ambiente delle offerte
 description: Scopri come visualizzare, configurare e distribuire un ambiente di offerta in Campaign Web
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 2%
-
+source-wordcount: '319'
+ht-degree: 5%
 ---
-
-# Rivedere le impostazioni dell’ambiente dell’offerta {#offer-environment}
+# Rivedere le impostazioni dell’ambiente delle offerte {#offer-environment}
 
 Un **ambiente di offerta** è il contenitore in cui si organizza il catalogo delle offerte e i relativi spazi di offerta. Esistono due tipi di ambienti:
 

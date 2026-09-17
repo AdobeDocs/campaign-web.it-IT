@@ -4,11 +4,9 @@ description: Scopri come configurare gli account esterni
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # Account esterni specifici per la campagna {#external-account}
 
 Segui i passaggi seguenti per configurare le impostazioni dell’account in base al tipo di account esterno selezionato.
@@ -30,34 +28,34 @@ Per configurare l&#39;account esterno **[!UICONTROL Messaggi non recapitati (POP
 * **[!UICONTROL Password]** - Password dell&#39;account utente.
 
 * **[!UICONTROL Crittografia]** - Tipo di crittografia scelta, inclusi:
-   * Per impostazione predefinita (POP3 se porta 110, POP3S se porta 995).
-   * POP3 che passa a SSL dopo l’invio di un STARTTLS.
-   * POP3 non protetto (porta 110 per impostazione predefinita).
-   * POP3 protetto sopra SSL (porta 995 per impostazione predefinita).
+  * Per impostazione predefinita (POP3 se porta 110, POP3S se porta 995).
+  * POP3 che passa a SSL dopo l’invio di un STARTTLS.
+  * POP3 non protetto (porta 110 per impostazione predefinita).
+  * POP3 protetto sopra SSL (porta 995 per impostazione predefinita).
 
 * **[!UICONTROL Funzione]** - Selezionare **[!UICONTROL Posta in arrivo]** per configurare l&#39;account per la ricezione delle e-mail in arrivo o **[!UICONTROL router SOAP]** per gestire le richieste SOAP.
 
 >[!IMPORTANT]
 >
->Prima di configurare l’account esterno POP3 utilizzando Microsoft OAuth 2.0, è necessario registrare l’applicazione nel portale di Azure. Per ulteriori informazioni, consulta [questa pagina](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}.
+>Prima di configurare l’account esterno POP3 utilizzando Microsoft OAuth 2.0, è necessario registrare l’applicazione nel portale Azure. Per ulteriori informazioni, consulta [questa pagina](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}.
 
 Per configurare un POP3 esterno tramite Microsoft OAuth 2.0, seleziona l’opzione Microsoft OAuth 2.0 e compila i seguenti campi:
 
 * **[!UICONTROL Tenant Azure]**
 
-  Azure ID (o ID directory (tenant)) si trova nell’elenco a discesa Essentials della panoramica dell’applicazione nel portale di Azure.
+  Azure ID (o ID directory (tenant)) si trova nel menu a discesa Essentials della panoramica dell’applicazione nel portale Azure.
 
 * **[!UICONTROL ID client Azure]**
 
-  L’ID client (o ID applicazione (client)) si trova nell’elenco a discesa Essentials della panoramica dell’applicazione nel portale di Azure.
+  L’ID client (o ID applicazione (client)) si trova nel menu a discesa Essentials della panoramica dell’applicazione nel portale Azure.
 
 * **[!UICONTROL Segreto client Azure]**
 
-  L’ID del segreto client si trova nella colonna Segreti client dal menu Certificati e segreti dell’applicazione nel portale di Azure.
+  L’ID del segreto client si trova nella colonna Segreti client dal menu Certificati e segreti dell’applicazione nel portale Azure.
 
 * **[!UICONTROL URL reindirizzamento Azure]**
 
-  L’URL di reindirizzamento si trova nel menu Autenticazione dell’applicazione nel portale di Azure. Deve terminare con la seguente sintassi nl/jsp/oauth.jsp, ad esempio `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+  L’URL di reindirizzamento si trova nel menu Autenticazione dell’applicazione nel portale Azure. Deve terminare con la seguente sintassi nl/jsp/oauth.jsp, ad esempio `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
 L’accesso a Internet è necessario per la configurazione e per utilizzare il pulsante Prova connessione nella console client. Dopo la configurazione, il processo inMail può comunicare con i server Microsoft senza Internet.
 

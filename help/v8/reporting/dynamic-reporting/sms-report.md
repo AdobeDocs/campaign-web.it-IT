@@ -5,11 +5,9 @@ level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '76'
 ht-degree: 5%
-
 ---
-
 # Rapporto SMS{#sms-report}
 
 Il report **SMS** fornisce dettagli sulle consegne SMS, ad esempio le percentuali di recapito e mancato recapito.

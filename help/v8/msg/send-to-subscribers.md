@@ -6,13 +6,12 @@ exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 TQID: https://experienceleague.adobe.com/AqhjUeWF14SOAq23MOAZjlTRiw8UOdc9c9az1AyCJIc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 28%
-
 ---
-
 # Inviare messaggi agli iscritti di un servizio {#send-to-subscribers}
 
 Puoi creare servizi di abbonamento in Adobe Campaign e inviare messaggi ai tuoi abbonati. Scopri come creare servizi di abbonamento in [questa pagina](../audience//manage-services.md#create-service).

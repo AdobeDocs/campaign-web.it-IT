@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Creare e gestire gli spazi dell’offerta
+title: Creare e gestire spazi delle offerte
 description: Scopri come creare, configurare, distribuire e visualizzare in anteprima gli spazi delle offerte nel web di Campaign
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 0%
-
+source-wordcount: '921'
+ht-degree: 1%
 ---
-
-# Creare e gestire gli spazi dell’offerta {#offer-space}
+# Creare e gestire spazi delle offerte {#offer-space}
 
 Uno **spazio dell&#39;offerta** definisce dove e come un&#39;offerta viene esposta a un contatto: quale canale utilizza (e-mail, direct mail, SMS, web in entrata, ecc.), quali campi di contenuto può utilizzare l&#39;offerta e come viene creata la rappresentazione finale. Un singolo ambiente può contenere più spazi di offerta, uno per ogni punto di esposizione.
 

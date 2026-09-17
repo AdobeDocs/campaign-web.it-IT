@@ -5,19 +5,21 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '781'
 ht-degree: 11%
-
 ---
-
 # Gestire le mappature target {#target-mappings}
 
 >[!CONTEXTUALHELP]
@@ -97,24 +99,24 @@ Per creare una nuova mappatura di destinazione, accedere al menu **[!UICONTROL A
 
 Una volta creata la mappatura di destinazione, sullo schermo vengono visualizzate due sezioni aggiuntive:
 
-* **[!UICONTROL Inserire nell&#39;elenco Bloccati di]**: questa sezione ti consente di identificare gli attributi dallo schema della mappatura di destinazione da utilizzare per i inserisce nell&#39;elenco Bloccati di.
+* **[!UICONTROL in corso]**: questa sezione ti consente di identificare gli attributi dallo schema della mappatura di destinazione da utilizzare per i Inserisce nell&#39;elenco Bloccati di.
 
-  ![Inserire nell&#39;elenco Bloccati sezione in cui viene visualizzata la selezione dell&#39;attributo](assets/target-mappings-denylisting.png)
+  ![Sezione di in cui è visualizzata la selezione dell&#39;attributo](assets/target-mappings-denylisting.png)
 
 * **[!UICONTROL Archiviazione]**: questa sezione ti consente di identificare le tabelle da utilizzare per archiviare i registri.
 
   ![Sezione di archiviazione che mostra le opzioni della tabella per i registri](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Schema messaggio]**: identifica lo schema da utilizzare per memorizzare i registri di invio.
-   * **[!UICONTROL Messaggi esclusi]**: specifica come gestire l&#39;archiviazione dei registri di consegna ed esclusione.
+  * **[!UICONTROL Schema messaggio]**: identifica lo schema da utilizzare per memorizzare i registri di invio.
+  * **[!UICONTROL Messaggi esclusi]**: specifica come gestire l&#39;archiviazione dei registri di consegna ed esclusione.
 
-      * **[!UICONTROL Memorizza esclusioni e messaggi nella stessa tabella]**
-      * **[!UICONTROL Archivia solo i messaggi]**: non archiviare le esclusioni.
-      * **[!UICONTROL Memorizzare esclusioni e messaggi in tabelle separate]**: selezionare lo schema da utilizzare per memorizzare i registri di esclusione nel campo **[!UICONTROL Schema di rifiuto]**.
+    * **[!UICONTROL Memorizza esclusioni e messaggi nella stessa tabella]**
+    * **[!UICONTROL Archivia solo i messaggi]**: non archiviare le esclusioni.
+    * **[!UICONTROL Memorizzare esclusioni e messaggi in tabelle separate]**: selezionare lo schema da utilizzare per memorizzare i registri di esclusione nel campo **[!UICONTROL Schema di rifiuto]**.
 
-   * **[!UICONTROL Registri di tracciamento]**: scegli dove memorizzare i registri di tracciamento e l&#39;origine del traffico predefinita.
-   * **[!UICONTROL Campi aggiuntivi]**: specifica un elenco di campi aggiuntivi da archiviare nei registri di consegna. Questi campi possono memorizzare in modo permanente le informazioni sui singoli membri della destinazione (ad esempio, `recipient/@firstName`) o memorizzare i dati aggiuntivi calcolati durante il flusso di lavoro (ad esempio, `[targetData/@offeCode]`).
+  * **[!UICONTROL Registri di tracciamento]**: scegli dove memorizzare i registri di tracciamento e l&#39;origine del traffico predefinita.
+  * **[!UICONTROL Campi aggiuntivi]**: specifica un elenco di campi aggiuntivi da archiviare nei registri di consegna. Questi campi possono memorizzare in modo permanente le informazioni sui singoli membri della destinazione (ad esempio, `recipient/@firstName`) o memorizzare i dati aggiuntivi calcolati durante il flusso di lavoro (ad esempio, `[targetData/@offeCode]`).
 
-     A tale scopo, selezionare **[!UICONTROL Aggiungi campo]**. Identifica le informazioni da salvare nel campo **[!UICONTROL Source]** e l&#39;attributo da utilizzare nei registri di invio per salvare tali informazioni nel campo **[!UICONTROL Destination]**.
+    A tale scopo, selezionare **[!UICONTROL Aggiungi campo]**. Identifica le informazioni da salvare nel campo **[!UICONTROL Source]** e l&#39;attributo da utilizzare nei registri di invio per salvare tali informazioni nel campo **[!UICONTROL Destination]**.
 
-     ![Sezione campi aggiuntivi che mostra le opzioni per la memorizzazione di dati aggiuntivi](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![Sezione campi aggiuntivi che mostra le opzioni per la memorizzazione di dati aggiuntivi](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

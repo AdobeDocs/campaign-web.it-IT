@@ -6,13 +6,12 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 87%
-
+source-wordcount: '837'
+ht-degree: 100%
 ---
-
 # Utilizzare le cartelle {#folders}
 
 >[!CONTEXTUALHELP]
@@ -49,11 +48,11 @@ Puoi impostare un tipo di cartella. Ad esempio, una cartella di consegne. L’ic
 >
 >Le cartelle **[!UICONTROL Oggetti creati automaticamente]** e **[!UICONTROL Flussi di lavoro tecnici]** sono soggette a restrizioni e non possono essere visualizzate nel pannello laterale a sinistra.
 
-Le azioni disponibili su una cartella dipendono dai diritti che ti sono stati concessi. La finestra di dialogo **[!UICONTROL Impostazioni cartella]** potrebbe aprirsi in **modalità di sola lettura** e alcune azioni o sezioni potrebbero non essere disponibili, a seconda dei diritti.
+Le azioni disponibili per una cartella dipendono dai diritti che ti sono stati concessi. La finestra di dialogo **[!UICONTROL Impostazioni cartella]** potrebbe aprirsi in **modalità di sola lettura** e alcune azioni o sezioni potrebbero non essere disponibili, a seconda dei diritti.
 
-Se non disponi dei diritti per una cartella, contatta l’amministratore. Per informazioni sulla gestione delle autorizzazioni per le cartelle, consulta questa [sezione](permissions.md#folder-permissions).
+Se necessiti di ulteriori diritti per una cartella, contatta il tuo amministratore. Consulta questa [sezione](permissions.md#folder-permissions) per capire come vengono gestite le autorizzazioni di una cartella.
 
-I diritti denominati, ad esempio **[!UICONTROL Inserisci cartelle]**, **[!UICONTROL Modifica cartelle]** e **[!UICONTROL Elimina cartella]**, determinano anche le azioni cartella disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=it#use-named-rights){target="_blank"}.
+I diritti denominati, ad esempio **[!UICONTROL Inserisci cartelle]**, **[!UICONTROL Modifica cartelle]** ed **[!UICONTROL Elimina cartella]**, determinano anche quali azioni per cartelle sono disponibili per un operatore. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=it#use-named-rights){target="_blank"}.
 
 ## Creare una nuova cartella {#create-a-folder}
 

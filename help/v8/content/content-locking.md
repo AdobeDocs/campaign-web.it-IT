@@ -11,22 +11,26 @@ exl-id: 2835c114-0878-4c41-9071-165d71840941
 TQID: https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1244
+source-wordcount: '1244'
 ht-degree: 30%
-
 ---
-
 # Bloccare il contenuto nei modelli e-mail {#lock-content-email-templates}
 
 >[!CONTEXTUALHELP]
@@ -65,15 +69,15 @@ Il blocco del contenuto può essere applicato al livello **struttura** o al live
 
 * Quando una struttura è bloccata:
 
-   * Anche tutto il contenuto all’interno di tale struttura è bloccato per impostazione predefinita.
-   * Nessun contenuto può essere aggiunto alla struttura.
-   * Per impostazione predefinita, non è possibile eliminare la struttura. È possibile ignorare questa restrizione abilitando l’opzione &quot;Consenti eliminazione&quot;.
-   * I singoli componenti di contenuto all’interno della struttura bloccata possono essere impostati come modificabili.
+  * Anche tutto il contenuto all’interno di tale struttura è bloccato per impostazione predefinita.
+  * Nessun contenuto può essere aggiunto alla struttura.
+  * Per impostazione predefinita, non è possibile eliminare la struttura. È possibile ignorare questa restrizione abilitando l’opzione &quot;Consenti eliminazione&quot;.
+  * I singoli componenti di contenuto all’interno della struttura bloccata possono essere impostati come modificabili.
 
 * Quando una struttura è modificabile (struttura non bloccata):
 
-   * I singoli componenti di contenuto possono essere bloccati all’interno di tale struttura.
-   * Per impostazione predefinita, non è possibile eliminare un componente se è bloccato o se è selezionato &quot;Solo blocco di contenuto modificabile&quot;. È possibile ignorare questa restrizione abilitando l’opzione &quot;Consenti eliminazione&quot;.
+  * I singoli componenti di contenuto possono essere bloccati all’interno di tale struttura.
+  * Per impostazione predefinita, non è possibile eliminare un componente se è bloccato o se è selezionato &quot;Solo blocco di contenuto modificabile&quot;. È possibile ignorare questa restrizione abilitando l’opzione &quot;Consenti eliminazione&quot;.
 
 >[!AVAILABILITY]
 >

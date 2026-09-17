@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 52%
-
 ---
-
 # Aperture{#opens}
 
 Il rapporto **[!UICONTROL Opens]** individua le consegne con più visualizzazioni da parte dei destinatari.

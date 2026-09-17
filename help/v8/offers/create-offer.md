@@ -5,15 +5,15 @@ description: Scopri come creare, configurare, approvare e distribuire un’offer
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
 # Creare e pubblicare un’offerta {#create-offer}
 
 Una **offerta** è una singola proposta con un proprio periodo di idoneità, filtro di destinazione, peso e contenuto. Le offerte sono organizzate nel catalogo delle offerte tramite **categorie** e vengono presentate ai destinatari tramite uno **spazio delle offerte**.

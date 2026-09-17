@@ -6,13 +6,12 @@ exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 759
+source-wordcount: '759'
 ht-degree: 4%
-
 ---
-
 # Creare e inviare una consegna call center {#create-call-center}
 
 Puoi creare una consegna di call center indipendente o nel contesto di un flusso di lavoro della campagna. I passaggi seguenti descrivono la procedura per una consegna autonoma (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono descritti in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
