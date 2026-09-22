@@ -15,12 +15,12 @@ workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 23%
 ---
-# Utilizzare Genera contenuti {#generative-gs}
+# Utilizzare la generazione di contenuti {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Generare contenuti"
->abstract="Dopo la creazione e la personalizzazione della consegna, utilizza l’IA per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e il miglioramento dei contenuti e ti consente di perfezionarli descrivendo cosa desideri generare."
+>abstract="Dopo la creazione e la personalizzazione della consegna, utilizza l’IA per migliorare i contenuti. Questa funzione semplifica la personalizzazione e il miglioramento dei contenuti e ti consente di perfezionarli descrivendo cosa desideri generare."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"

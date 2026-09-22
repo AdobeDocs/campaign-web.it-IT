@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 11%
+source-wordcount: '918'
+ht-degree: 10%
 ---
 # Gestire le mappature target {#target-mappings}
 
@@ -64,6 +64,21 @@ Per creare una nuova mappatura di destinazione, accedere al menu **[!UICONTROL A
 1. Nella sezione **[!UICONTROL Proprietà]** immettere un **[!UICONTROL Etichetta]** per la mappatura di destinazione.
 
 1. Espandi la sezione **[!UICONTROL Opzioni aggiuntive]** per definire impostazioni avanzate, ad esempio il nome interno della mappatura di destinazione, la cartella di archiviazione e la descrizione.
+
+1. Abilita l&#39;opzione **[!UICONTROL Mappatura target per applicazioni mobili]** se esegui il targeting dei destinatari di applicazioni mobili.
+
+   ![Schermata delle proprietà delle mappature di destinazione che mostra le opzioni di popolazione](assets/target-mappings-properties0.png)
+
+   Quindi puoi effettuare le seguenti operazioni:
+
+   * Lascia vuoto il campo **[!UICONTROL Schema delle applicazioni in abbonamento esistenti]**. Adobe Campaign genera automaticamente lo schema di archiviazione richiesto, in base al modello del destinatario. È possibile utilizzare **[!UICONTROL Specificare campi aggiuntivi]** per aggiungere campi personalizzati allo schema generato.
+   * Seleziona uno schema di applicazione del sottoscrittore esistente. In questo caso, **[!UICONTROL Specificare campi aggiuntivi]** è disabilitato, poiché lo schema esiste già e i campi **[!UICONTROL Dimensione filtro]** e **[!UICONTROL Dimensione targeting]** vengono compilati automaticamente in base allo schema selezionato.
+
+   Le mappature di destinazione per dispositivi mobili utilizzano sempre i propri schemi di archiviazione dedicati, con i registri di esclusione memorizzati separatamente. L&#39;opzione **[!UICONTROL Esclusioni]**, descritta nella sezione **[!UICONTROL Archiviazione]** di seguito, non è applicabile alle mappature di destinazione per dispositivi mobili.
+
+   >[!NOTE]
+   >
+   >Il suffisso dello schema non può contenere spazi.
 
 1. Seleziona la popolazione target. Puoi effettuare le seguenti operazioni:
 

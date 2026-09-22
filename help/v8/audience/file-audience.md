@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 37%
+source-wordcount: '1012'
+ht-degree: 26%
 ---
 # Caricare un pubblico dell’email da un file {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 37%
 
 L’interfaccia utente web di Adobe Campaign consente di eseguire il targeting dei profili memorizzati in un file esterno. Una volta caricati i profili, tutti i campi del file di input sono disponibili per l&#39;utilizzo per personalizzare la consegna [Scopri come personalizzare il contenuto](../personalization/personalize.md).
 
-I profili del file di input non vengono aggiunti al database. Sono caricati e disponibili solo per questa consegna e-mail autonoma specifica.
+Puoi scegliere di caricare solo i profili per questa consegna e-mail indipendente specifica, senza aggiungerli al database, oppure di importarli e riconciliarli nel database. [Ulteriori informazioni](#upload).
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Per eseguire il targeting dei profili da un file nelle e-mail, effettua le segue
    ![Schermata che mostra l&#39;anteprima della mappatura dei dati nella sezione centrale](assets/select-from-file-map.png)
 
 1. Specificare la colonna contenente l&#39;indirizzo di posta elettronica dall&#39;elenco a discesa **Campo indirizzo**. Se tali informazioni sono presenti nel file di input, è inoltre possibile selezionare la colonna di inserita nell&#39;elenco Bloccati del.
-1. Regola le impostazioni delle colonne e definisci come formattare i dati utilizzando le opzioni disponibili.
+1. Nella sezione **[!UICONTROL Colonne]**, espandi una colonna per modificarne le impostazioni e definisci come formattare i dati utilizzando le opzioni disponibili. Per ogni colonna da utilizzare per la riconciliazione, utilizzare **[!UICONTROL Seleziona campo di destinazione]** per eseguire il mapping a un attributo dello schema del destinatario.
+
+1. Utilizzare l&#39;opzione **[!UICONTROL Non importare i destinatari nel database]** per controllare se i profili del file vengono importati e riconciliati nel database. Se scegli di importarli, viene visualizzata una sezione **[!UICONTROL Mappatura campi e riconciliazione]**. Configura i seguenti parametri:
+
+   ![Schermata che mostra l&#39;anteprima della mappatura dei dati nella sezione centrale](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL Operazione]**
+
+   Scegliere l&#39;azione da eseguire sul database:
+
+   * **[!UICONTROL Aggiorna o inserisci]**: aggiorna il record se esiste nel database e, in caso contrario, lo crea.
+   * **[!UICONTROL Inserisci]**: inserisce i record nel database.
+   * **[!UICONTROL Aggiorna]**: aggiorna solo i record esistenti.
+   * **[!UICONTROL Solo riconciliazione]**: cerca il record nel database, ma non esegue un aggiornamento.
+   * **[!UICONTROL Elimina]**: elimina i record dal database.
+
+   +++
+
+   +++**[!UICONTROL Gestione dei duplicati]**
+
+   Scegliere la modalità di gestione di un record presente sia nel file che nel database:
+
+   * **[!UICONTROL Aggiorna]** (impostazione predefinita): aggiorna il record.
+   * **[!UICONTROL Rifiuta entità]**: la esclude e registra un errore.
+   * **[!UICONTROL Ignora]**: la esclude senza mantenere una traccia.
+
+   +++
+
+   +++**[!UICONTROL Gestione dei duplicati]**
+
+   Scegliere la modalità di gestione di un record visualizzato più di una volta nel file stesso:
+
+   * **[!UICONTROL Aggiornamento]** (impostazione predefinita): non deduplica; l&#39;ultimo record corrispondente ha la priorità.
+   * **[!UICONTROL Rifiuta entità]**: esclude i record aggiuntivi e registra un errore.
+   * **[!UICONTROL Ignora]**: esclude i record aggiuntivi senza mantenere una traccia.
+
+   +++
+
+   +++**[!UICONTROL Tipo rifiutato]**
+
+   Scegli come gestire un errore a livello di campo durante la riconciliazione:
+
+   * **[!UICONTROL Ignora e registra un avviso]**: importa tutti gli altri campi e registra l&#39;errore.
+   * **[!UICONTROL Rifiuta elemento padre]**: rifiuta l&#39;intero record.
+   * **[!UICONTROL Rifiuta tutti gli elementi]**: interrompe l&#39;importazione e rifiuta tutto.
+
+   +++
+
+   +++**[!UICONTROL Campi chiave riconciliazione]**
+
+   Nella sezione **[!UICONTROL Colonne]** hai mappato alcune colonne a un campo di destinazione. In questo caso, seleziona quale di questi campi mappati deve essere utilizzato per identificare un record.
+
+   +++
+
+1. Nella sezione **[!UICONTROL Formattazione]** specificare la codifica, il delimitatore di stringa e il separatore di colonna utilizzati dal file.
 1. Fai clic su **Conferma** una volta che le impostazioni sono corrette.
 
 Durante la creazione del contenuto del messaggio, aggiungi la personalizzazione sfruttando i campi del file di input. [Scopri come personalizzare il contenuto](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Quando carichi un file esterno per eseguire il targeting dei profili nelle conse
 * La prima riga del file è l’intestazione della colonna.
 * Allinea il formato del file con il file di esempio di seguito:
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## Anteprima e verifica dell’e-mail {#test}

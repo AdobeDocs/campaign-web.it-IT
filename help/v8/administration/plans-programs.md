@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 5%
 ---
 # Piani e programmi {#plan-and-programs}
@@ -97,8 +97,6 @@ Puoi collegare una campagna a un programma in due modi:
 ### Modo #1: disponi già di un programma e desideri creare una campagna collegata
 
 Per collegare una nuova campagna al programma, creala direttamente all’interno del programma.
-
-![Schermata che mostra la creazione di una campagna all&#39;interno di un programma](assets/program_campaign_create.png){zoomable="yes"}
 
 Le impostazioni di **[!UICONTROL Cartella]** verranno compilate automaticamente con il percorso del programma.
 

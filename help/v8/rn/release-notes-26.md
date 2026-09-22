@@ -2,14 +2,46 @@
 title: Note sulla versione precedente dell’interfaccia utente di Campaign Web v8
 description: Versioni 2026 dell’interfaccia utente di Campaign Web
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # Note sulla versione 2026 {#2026-release}
 
 In questa pagina sono elencate tutte le modifiche e i miglioramenti disponibili con le **versioni 2026**. Le note sulla versione più recenti sono disponibili in [questa pagina](release-notes.md).
+
+## Versione di agosto 2026 {#26-8-release}
+
+_18 agosto 2026_
+
+### Nuove funzioni {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività del flusso di lavoro di approvazione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’attività del flusso di lavoro <strong>Approvazione</strong>, in precedenza disponibile solo nella console client, è ora disponibile nell’interfaccia utente web di Campaign. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte (ad esempio Sì/No) come rami di output.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../workflows/activities/approval.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#26-8-improvements}
+
+* **Tracciamento aperture**: ora puoi abilitare o disabilitare il tracciamento delle aperture direttamente dall’interfaccia utente web di Campaign. Questo ti consente di rispettare le normative sulla protezione dei dati. [Ulteriori informazioni](../advanced-settings/delivery-settings.md#tracking-tab)
+* **Vista a elenco dei programmi**: i programmi sono ora elencati in una vista dedicata, simile a quella delle campagne, delle consegne e dei flussi di lavoro. Ora puoi sfogliare i programmi esistenti e crearne di nuovi direttamente da questa vista. [Ulteriori informazioni](../administration/plans-programs.md#create-program)
+* **Configurazione dello schema personalizzato**: nella sezione **Dati azione**, ora puoi disabilitare l’azione **Duplica** sui record di uno schema personalizzato. [Ulteriori informazioni](../administration/schemas-action-data.md#action-data)
+* **Filtri personalizzati**: nell’editor dello schema, ora puoi limitare i valori disponibili nel selettore per un filtro personalizzato di tipo collegamento, mediante la nuova finestra di dialogo **Impostazioni collegamento**. [Ulteriori informazioni](../administration/schemas-custom-filters.md#settings)
+* **Convalida degli schemi**: ora con il nuovo pulsante **Convalida** puoi convalidare la struttura di uno schema direttamente dall’editor dello schema. [Ulteriori informazioni](../administration/schemas-create-publish.md#create-new)
+* **Sicurezza delle cartelle**: le azioni disponibili in una cartella sono ora gestite in modo coerente dai diritti dell’operatore, corrispondenti al comportamento della console client. [Ulteriori informazioni](../get-started/work-with-folders.md#about-folders).
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## Versione di luglio 2026 {#26-7-release}
 

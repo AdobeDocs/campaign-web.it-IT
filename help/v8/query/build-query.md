@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
-ht-degree: 32%
+source-wordcount: '3041'
+ht-degree: 31%
 ---
 # Creare la prima query {#build-query}
 
@@ -155,9 +155,11 @@ Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzand
 
 >[!ENDTABS]
 
-#### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
+### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
 Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
+
+#### Collegamento 1-1
 
 Per un collegamento **1-1**, passare alla tabella collegata, selezionare l&#39;attributo desiderato e definire il valore previsto.
 
@@ -169,63 +171,51 @@ In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot
 
 1. Naviga nella tabella **Brand** e seleziona l&#39;attributo **Label**.
 
-   ![Schermata della tabella dei marchi](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Schermata della tabella dei marchi](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Definisci il valore previsto per l’attributo.
 
-   ![Esempio di valore previsto definito](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Schermata della tabella dei marchi](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 Di seguito è riportato un esempio di query in cui è stato selezionato direttamente un collegamento di tabella. I valori disponibili per questa tabella devono essere selezionati da un selettore dedicato.
 
-![Esempio di query](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Schermata della tabella dei marchi](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-Per un collegamento **1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell&#39;esempio seguente.
+#### Collegamento 1-N
 
-+++Esempio di query
+Per un collegamento **1-N**, è possibile definire le condizioni in due modi:
 
-In questo caso, la query ha come targeting destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
+* **Selezionare la raccolta stessa**, ad esempio **Acquisti**. Viene creata una condizione **[!UICONTROL exists, ad esempio]**, in cui è possibile aggiungere condizioni secondarie.
 
-1. Seleziona la tabella **Acquisti** e conferma.
+  +++Esempio di query
 
-   ![Schermata della tabella Acquisti](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  In questo caso, la query è destinata a destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per più di 100$.
 
-1. Viene aggiunta una transizione in uscita che consente di creare condizioni secondarie.
+  1. Seleziona la tabella **Acquisti** e conferma.
 
-   ![Esempio di transizione in uscita](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. Fare clic su **[!UICONTROL Aggiungi condizione]** per definire le condizioni secondarie da applicare alla tabella selezionata.
 
-1. Seleziona l&#39;attributo **Prezzo** e esegui acquisti target di almeno 1000$
+     ![Schermata della tabella Acquisti](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Schermata dell&#39;attributo Prezzo](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. Aggiungi condizioni secondarie in base alle tue esigenze.
 
-1. Aggiungi condizioni secondarie in base alle tue esigenze. Qui abbiamo aggiunto una condizione per eseguire il targeting dei profili che hanno acquistato un prodotto BrewMaster.
+     ![Schermata della tabella Acquisti](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Esempio di condizioni secondarie](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **Selezionare un attributo dalla raccolta**, ad esempio **Prezzo** in **Acquisti**. Sono disponibili tre opzioni per definire la condizione.
 
-#### Utilizzare i dati aggregati {#aggregate}
+  ![Schermata che mostra le opzioni della condizione della raccolta](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, devi selezionare direttamente un attributo da una tabella di raccolta:
+  * **[!UICONTROL Predefinito]**: opzione consigliata per la maggior parte dei casi d&#39;uso. Crea automaticamente una condizione **[!UICONTROL esistente, ad esempio]**, per la raccolta. Equivale a selezionare la raccolta direttamente con il metodo descritto sopra e produce lo stesso risultato. Se ad esempio si seleziona l&#39;attributo **Prezzo** da **Acquisti**, viene creata una condizione **Acquisti esistenti, ad esempio**. È quindi possibile impostare l&#39;operatore e il valore, ad esempio **uguale a** `0`.
 
-1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
+  * **[!UICONTROL Aggregato]**: applica una funzione di aggregazione all&#39;attributo di raccolta selezionato. Selezionare ad esempio **Conteggio** per creare una condizione come **Conteggio(Prezzo) uguale a 0**. È possibile utilizzare la condizione aggiuntiva per perfezionare i record inclusi nell’aggregazione.
 
-   ![Schermata dell&#39;elenco di attributi](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL Avanzate]**: utilizza un join diretto all&#39;elemento della raccolta. L&#39;attributo selezionato viene valutato direttamente, ad esempio **Prezzo (acquisti/@price)**. Utilizzare questa opzione per una singola condizione sull&#39;elemento di raccolta.
 
-1. Nel riquadro delle proprietà, attivare l&#39;opzione **Aggregate data** e selezionare la funzione di aggregazione desiderata.
-
->[!BEGINTABS]
-
->[!TAB Modellatore di query classico]
-
-![Schermata dell&#39;opzione Aggregate data](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB Nuovo generatore di regole]
-
-![Schermata dell&#39;opzione Aggregate data](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  L&#39;opzione **[!UICONTROL Default]** è selezionata per impostazione predefinita. Utilizza **[!UICONTROL Aggregate]** quando devi contare o aggregare i record della raccolta oppure **[!UICONTROL Advanced]** quando devi eseguire un join diretto a un attributo della raccolta.
 
 ### Selezionare un pubblico {#audiences}
 

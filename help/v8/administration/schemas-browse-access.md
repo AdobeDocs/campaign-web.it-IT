@@ -2,10 +2,10 @@
 title: Sfogliare e accedere agli schemi
 description: Scopri come sfogliare e accedere agli schemi nell’interfaccia.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 3%
 ---
 # Accedere e configurare gli schemi {#access}
 
@@ -62,3 +62,5 @@ Dalla definizione della schermata, puoi effettuare le seguenti operazioni:
 * [Modifica campi personalizzati](schemas-custom-fields.md) - Configura i campi personalizzati da visualizzare nelle schermate di dettaglio e organizzali in sezioni.
 * [Aggiungi elenchi raccolta](schemas-collection-lists.md) - Aggiungi elenchi raccolta per visualizzare i dati correlati nelle schermate del profilo.
 * [Azioni di controllo sui dati](schemas-action-data.md) - Limita le azioni di creazione, modifica ed eliminazione per gli schemi personalizzati.
+
+Per gli schemi che alimentano una o più voci nel menu di navigazione a sinistra, ad esempio **nms:delivery** o **xtk:workflow**, la definizione dello schermo visualizza anche una sezione **[!UICONTROL Accesso al pannello di navigazione laterale]**. Selezionare la casella di controllo **[!UICONTROL Rimuovi accesso al menu per]** corrispondente a una voce di menu per nasconderla dal menu di navigazione a sinistra, per tutti gli utenti dell&#39;istanza, indipendentemente dai diritti di accesso individuali. Alcuni schemi generano diverse voci di menu: ad esempio, **nms:delivery** è condiviso dalle voci **[!UICONTROL Deliveries]** e **[!UICONTROL Transactional messages]**, pertanto per ciascuna di esse viene visualizzata una casella di controllo.

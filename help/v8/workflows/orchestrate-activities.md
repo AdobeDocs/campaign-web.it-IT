@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 21%
+source-wordcount: '1791'
+ht-degree: 20%
 ---
 # Orchestrare le attività {#orchestrate}
 
@@ -48,6 +48,12 @@ La barra degli strumenti, situata nell’angolo superiore destro dell’area di 
 * **Mappa di visualizzazione**: apri uno snapshot dell&#39;area di lavoro che mostra la posizione.
 
 ![Opzioni della barra degli strumenti per l&#39;area di lavoro del flusso di lavoro](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## Salva o elimina le modifiche {#save-cancel}
+
+Utilizza il pulsante **[!UICONTROL Salva]**, nella parte superiore dello schermo, per salvare le modifiche apportate al flusso di lavoro.
+
+Non appena apporti una modifica, diventa disponibile anche un pulsante **[!UICONTROL Annulla]** accanto a **[!UICONTROL Salva]**. Fai clic su di esso per eliminare tutte le modifiche non salvate e ripristinare il flusso di lavoro all’ultima versione salvata. Poiché questa azione non può essere annullata, viene visualizzato un messaggio di conferma prima che le modifiche vengano eliminate.
 
 ## Gestire le attività {#manage}
 

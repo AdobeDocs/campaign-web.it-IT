@@ -5,14 +5,14 @@ description: Scopri come utilizzare l’attività del flusso di lavoro di approv
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 3%
+ht-degree: 8%
 ---
 # Approvazione {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_approval"
 >title="Attività di approvazione"
->abstract="L&#39;attività **Approval** richiede la partecipazione di un operatore. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte come rami di output."
+>abstract="L’attività **Approvazione** richiede la partecipazione di un operatore. Assegna l’attività a un gruppo o a un singolo operatore, personalizza il titolo e il messaggio della notifica e definisci le possibili risposte come rami di output."
 
 L&#39;attività del flusso di lavoro **Approvazione** ti consente di assegnare un&#39;attività a un gruppo o a un singolo operatore, personalizzare il titolo e il messaggio dell&#39;e-mail di notifica e definire le possibili risposte (ad esempio Sì/No) come rami di output.
 
