@@ -6,10 +6,10 @@ title: Documentazione di Adobe Campaign Web
 description: Documentazione di Campaign Web
 breadcrumb-title: Interfaccia utente di Campaign Web
 nudge: true
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 ---
 
 # Documentazione di Adobe Campaign Web {#v8}
@@ -74,6 +74,9 @@ ht-degree: 100%
     + [Creare e inviare una consegna call center](call-center/create-call-center.md)
   + {hide-from-toc}[Introduzione a WhatsApp](whatsapp/get-started-whatsapp.md)
   + {hide-from-toc}[Creare una consegna con WhatsApp](whatsapp/create-whatsapp.md)
+  + LINE {#line}
+    + [Introduzione a LINE](line/get-started-line.md)
+    + [Inviare un messaggio LINE](line/send-line.md)
   + [Canali personalizzati](call-center/gs-custom-channel.md)
   + Messaggi transazionali {#transactional-messages}
     + [Introduzione ai messaggi transazionali](transactional-messaging/transactional.md)

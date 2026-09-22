@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 52%
+source-wordcount: '528'
+ht-degree: 50%
 ---
 # Creazione del pubblico {#build-audience}
 
@@ -58,11 +58,11 @@ Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 Per creare una query personalizzata, effettua le seguenti operazioni:
 
 1. Seleziona **Crea una query personalizzata**.
-1. Scegli la **Dimensione targeting**. La dimensione di targeting consente di definire la popolazione target dell’operazione, ad esempio destinatari, beneficiari del contratto, operatori o abbonati. Per impostazione predefinita, il target viene selezionato dai destinatari. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/targeting-dimensions.md#targeting)
+1. Scegli la **Dimensione targeting**. La dimensione di targeting consente di definire la popolazione target dell’operazione, ad esempio destinatari, beneficiari del contratto, operatori o abbonati. Per impostazione predefinita, il target è la dimensione destinatari. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/targeting-dimensions.md#targeting)
 1. Scegliere la **dimensione filtro** facendo clic sull&#39;icona accanto alla dimensione di targeting. La dimensione di filtro consente di applicare filtri alla popolazione target facendo riferimento a criteri correlati senza modificare la dimensione di targeting principale. [Ulteriori informazioni sulle dimensioni di targeting](../../audience/targeting-dimensions.md#filtering)
 1. Fai clic su **Continua**.
 1. Utilizza il modellatore di query per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
-1. Utilizza la sezione **Dati di arricchimento** per migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database, ad esempio riferimenti a contratti o abbonamenti a newsletter. I dati vengono memorizzati con il pubblico nella **tabella di lavoro** del flusso di lavoro e sono disponibili per le attività successive. Puoi aggiungere attributi di arricchimento singoli, collegamenti di raccolte o espressioni e accedere a opzioni avanzate. Per i passaggi dettagliati e gli esempi, vedi [Aggiungere dati di arricchimento](enrichment.md#enrichment-add).
+1. Utilizza la sezione **Dati di arricchimento** per migliorare i dati di destinazione con informazioni aggiuntive provenienti dal database, ad esempio riferimenti a contratti o abbonamenti a newsletter. I dati vengono memorizzati con il pubblico nella **tabella di lavoro** del flusso di lavoro e sono disponibili per le attività successive. Puoi aggiungere attributi di arricchimento singoli, collegamenti di raccolte, espressioni o campi da un database esterno e accedere a opzioni avanzate. Per i passaggi dettagliati e gli esempi, vedi [Aggiungere dati di arricchimento](enrichment.md#enrichment-add) e [Arricchire con dati di database esterni](enrichment.md#external-data).
 
 >[!TAB Leggi pubblico]
 

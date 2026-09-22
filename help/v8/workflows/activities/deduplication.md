@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 50%
+source-wordcount: '835'
+ht-degree: 46%
 ---
 # Deduplica {#deduplication}
 
@@ -69,10 +69,16 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 1. Seleziona il **Metodo di deduplica** da utilizzare:
 
-   * **Selezione casuale**: seleziona casualmente il record da escludere dai duplicati.
-   * **Utilizzo di un&#39;espressione**: mantiene i record in cui il valore dell&#39;espressione immessa è il minore o il maggiore.
-   * **Valori non vuoti**: mantiene i record per i quali l&#39;espressione non è vuota.
-   * **Segue un elenco di valori**: definisce la priorità di un valore per uno o più campi. Per definire i valori, fare clic su **Attributo** per selezionare un campo o creare un&#39;espressione, quindi aggiungere i valori nella tabella appropriata. Per definire un nuovo campo, fare clic sul pulsante **Aggiungi** situato sopra l&#39;elenco dei valori.
+   * **[!UICONTROL Selezione casuale]**: seleziona casualmente il record da escludere dai duplicati.
+   * **[!UICONTROL Utilizzo di un&#39;espressione]**: mantiene i record per i quali l&#39;espressione specificata ha il valore più piccolo o più grande. Immetti l&#39;**[!UICONTROL espressione]**, quindi scegli l&#39;**[!UICONTROL ordinamento]**: **[!UICONTROL Crescente (prima i valori più piccoli)]** o **[!UICONTROL Decrescente (prima i valori più grandi)]**.
+   * **[!UICONTROL Valore non vuoto]**: mantiene i record per i quali l&#39;espressione non è vuota.
+   * **[!UICONTROL Seguendo un elenco di valori]**: definisce la priorità del record confrontando uno o più valori per un attributo o un&#39;espressione. Fare clic su **[!UICONTROL Aggiungi attributo]** per aggiungere un attributo. Per ogni attributo:
+
+     * Nel campo **[!UICONTROL Attributo]**, selezionare l&#39;attributo o creare un&#39;espressione.
+     * Fai clic su **[!UICONTROL Aggiungi valore]** per creare l&#39;elenco ordinato di valori da assegnare come priorità.
+     * Utilizzare l&#39;elenco a discesa **[!UICONTROL Ordina per altri valori]** per scegliere come ordinare i valori non inclusi nell&#39;elenco, ad esempio **[!UICONTROL Indifferente (casuale)]**.
+
+     Quando sono definiti più attributi, il primo viene utilizzato come criterio di ordinamento principale e i seguenti attributi agiscono come interrompenti, nell’ordine.
 
 1. Selezionare l&#39;opzione **Genera complemento** per sfruttare il gruppo rimanente. Il complemento è costituito da tutti i duplicati. Viene quindi aggiunta una transizione aggiuntiva all’attività.
 

@@ -13,10 +13,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 30%
+source-wordcount: '2702'
+ht-degree: 27%
 ---
 # Arricchimento {#enrichment}
 
@@ -38,6 +38,8 @@ I dati di arricchimento possono provenire da:
 
 * **Altra tabella di lavoro**:
   * Eseguire il targeting di un gruppo di clienti e aggiungere i campi &quot;Importo&quot; e &quot;Tipo di prodotto&quot; dalla tabella &quot;Acquisto&quot;.
+
+* **Un database esterno**: aggiungere campi da una tabella memorizzata in un database esterno. [Ulteriori informazioni](#external-data).
 
 Una volta aggiunti al flusso di lavoro, i dati di arricchimento possono essere utilizzati nelle attività successive per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e esigenze. Può essere utilizzato anche per creare messaggi di marketing personalizzati e campagne che risuonano con il pubblico di destinazione.
 
@@ -142,6 +144,42 @@ Per creare un collegamento, effettua le seguenti operazioni:
    * **Advanced join**: crea un join utilizzando condizioni avanzate. Fai clic su **Aggiungi join** e sul pulsante **Crea condizione** per aprire Query Modeler.
 
 Un esempio di flusso di lavoro che utilizza i collegamenti è disponibile nella sezione [Esempi](#link-example).
+
+## Arricchire con i dati del database esterno {#external-data}
+
+Le attività **Enrichment** e **Build audience** (tipo di query) consentono di aggiungere campi da una tabella archiviata in un database esterno, utilizzando un account esterno **[!UICONTROL Federated Data Access (FDA)]**. [Scopri come configurare un account esterno](../../administration/create-external-account.md).
+
+>[!NOTE]
+>
+>Per la riconciliazione dei campi del database esterno è disponibile solo un join semplice. Le condizioni di unione avanzate non sono supportate per questo tipo di arricchimento.
+
+Per aggiungere campi di database esterni, eseguire la procedura seguente:
+
+1. Nella sezione **[!UICONTROL Dati di arricchimento]** del riquadro attività fare clic su **[!UICONTROL Aggiungi campo database esterno]**.
+1. Seleziona l’account esterno FDA da utilizzare, quindi sfoglia o immetti il nome della tabella che desideri utilizzare.
+1. Seleziona le colonne necessarie e fai clic su **Aggiungi**.
+
+   ![Schermata che mostra il pulsante del database esterno](../assets/workflow-enrichment8.png)
+
+1. Nella sezione **[!UICONTROL Criteri di riconciliazione]**, definisci l&#39;attributo **[!UICONTROL Source]** e la colonna esterna **[!UICONTROL Destination]** per riconciliare i dati. È possibile aggiungere più join facendo clic su **[!UICONTROL Aggiungi join]**.
+
+1. Nell&#39;elenco a discesa **[!UICONTROL Dati raccolti]**, scegliere la modalità di raccolta delle righe corrispondenti:
+
+   * **[!UICONTROL Raccogli tutte le righe]**: recupera ogni riga corrispondente.
+   * **[!UICONTROL Limita il numero di righe]**: recupera fino a un numero di righe definito. Attiva **[!UICONTROL Abilita ordinamento]** per definire l&#39;ordine utilizzato per decidere quali righe mantenere.
+   * **[!UICONTROL Riga singola (esperto)]**: ottimizza la query presupponendo una corrispondenza di riga singola. Se questo presupposto non è corretto, il risultato potrebbe essere errato (dati mancanti o duplicati).
+   * **[!UICONTROL Righe aggregate]**: utilizzare questa opzione quando le colonne raccolte contengono già valori aggregati, ad esempio un conteggio o una media.
+   * **[!UICONTROL Unisci]**: unisce le righe corrispondenti in un singolo risultato.
+
+   >[!NOTE]
+   >
+   >Per le opzioni **[!UICONTROL Limita il numero di righe]** e **[!UICONTROL Unisci]**, puoi attivare **[!UICONTROL Abilita ordinamento]** per definire l&#39;ordine utilizzato per decidere quali righe mantenere o definire l&#39;ordine di unione.
+
+1. Facoltativamente, fare clic su **[!UICONTROL Crea filtro]** per filtrare i dati esterni tramite Query Modeler. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md).
+
+   ![Schermata che mostra la configurazione del database esterno](../assets/workflow-enrichment8.png)
+
+I campi aggiunti vengono etichettati utilizzando il nome dell’attività e il nome della tabella.
 
 ## Riconciliazione dei dati {#reconciliation}
 
