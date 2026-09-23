@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _22 settembre 2026_
 
 ### Miglioramenti {#26-9-improvements}
 
-* **Accesso alla navigazione laterale**: gli amministratori ora possono nascondere voci di menu specifiche dalla navigazione laterale. [Ulteriori informazioni](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **Tipi di approvazione aggiuntivi**: ora è possibile richiedere approvazioni di budget e di inizio consegna per le consegne di Campaign, oltre alle approvazioni di contenuto e destinazione. [Ulteriori informazioni](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Accesso alla navigazione laterale**: gli amministratori ora possono nascondere voci di menu specifiche dalla navigazione laterale. [Ulteriori informazioni](../administration/schemas-browse-access.md#screen-def)
+* **Tipi di approvazione aggiuntivi**: ora è possibile richiedere approvazioni di budget e di inizio consegna per le consegne di Campaign, oltre alle approvazioni di contenuto e destinazione. [Ulteriori informazioni](../campaigns/campaign-approvals.md#configure-approvals)
 * **Destinazione SMS basata sul visitatore**: la mappatura della destinazione visitatore è ora disponibile per le consegne SMS. [Ulteriori informazioni](../sms/create-sms.md)
-* **Pulsante Annulla flusso di lavoro**: un nuovo pulsante **Annulla** consente di ripristinare le modifiche non salvate in un flusso di lavoro. [Ulteriori informazioni](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **Deduplicazione con più valori**: l&#39;opzione **Dopo un elenco di valori** ora supporta più attributi. [Ulteriori informazioni](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **Mappatura destinazione mobile**: è ora possibile creare mappature destinazione per destinazioni app mobili. [Ulteriori informazioni](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Pulsante Annulla flusso di lavoro**: un nuovo pulsante **Annulla** consente di ripristinare le modifiche non salvate in un flusso di lavoro. [Ulteriori informazioni](../workflows/orchestrate-activities.md#save-cancel)
+* **Deduplicazione con più valori**: l&#39;opzione **Dopo un elenco di valori** ora supporta più attributi. [Ulteriori informazioni](../workflows/activities/deduplication.md#deduplication-configuration)
+* **Mappatura destinazione mobile**: è ora possibile creare mappature destinazione per destinazioni app mobili. [Ulteriori informazioni](../administration/target-mappings.md#create-mapping)
 * **Arricchimento del database esterno**: è ora possibile arricchire dati da un database esterno nell&#39;attività **Arricchimento** o **Genera pubblico**. [Ulteriori informazioni](../workflows/activities/enrichment.md#external-data)
-* **Riconciliazione pubblico file**: ora puoi configurare se importare i destinatari nel database quando esegui il targeting di un pubblico da un file. [Ulteriori informazioni](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **Partecipazioni dirette alle raccolte**: quando selezioni un attributo direttamente da una raccolta, ora puoi scegliere come creare la condizione: utilizzando l&#39;opzione predefinita consigliata, una funzione di aggregazione o un&#39;unione diretta avanzata. [Ulteriori informazioni](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **Riconciliazione pubblico file**: ora puoi configurare se importare i destinatari nel database quando esegui il targeting di un pubblico da un file. [Ulteriori informazioni](../audience/file-audience.md#upload)
+* **Partecipazioni dirette alle raccolte**: quando selezioni un attributo direttamente da una raccolta, ora puoi scegliere come creare la condizione: utilizzando l&#39;opzione predefinita consigliata, una funzione di aggregazione o un&#39;unione diretta avanzata. [Ulteriori informazioni](../query/build-query.md#links)
 

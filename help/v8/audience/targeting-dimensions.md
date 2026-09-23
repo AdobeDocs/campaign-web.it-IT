@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 16%
@@ -43,7 +43,7 @@ Utilizza altre mappature di destinazione incorporate nei flussi di lavoro e nell
 | Nome | Utilizza per consegnare a | Schema |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Destinatari | Profili/destinatari (tabella dei destinatari incorporata) | nms:recipient |
-| Visitatori | Visitatori i cui profili sono stati raccolti tramite riferimento (viral marketing per ex) | mns:visitor |
+| Visitatori | Visitatori i cui profili sono stati raccolti tramite riferimento (viral marketing per ex) | nms:visitor |
 | Abbonamenti | Profili abbonati a un servizio di informazioni, ad esempio una newsletter | nms:subscription |
 | Abbonamenti visitatore | Visitatori abbonati a un servizio di informazioni | nms:visitorSub |
 | Operatori | Operatori Adobe Campaign | nms:operator |

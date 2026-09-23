@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 57%
+source-wordcount: '574'
+ht-degree: 55%
 ---
 # Creare una consegna SMS {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 57%
 >abstract="Seleziona un modello predefinito per avviare la consegna SMS. I modelli di consegna ti consentono di riutilizzare contenuti e impostazioni personalizzati in tutte le campagne e le consegne."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=it" text="Utilizzare i modelli di consegna"
 
-Puoi creare una consegna SMS indipendente o un SMS nel contesto di un flusso di lavoro della campagna. I passaggi seguenti illustrano la procedura per una consegna SMS indipendente (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono illustrati in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Puoi creare una consegna SMS indipendente o un SMS nel contesto di un flusso di lavoro della campagna. I passaggi seguenti illustrano la procedura per una consegna SMS indipendente (una tantum). Se lavori nel contesto di un flusso di lavoro della campagna, i passaggi di creazione sono illustrati in [questa sezione](../workflows/activities/channels.md#create-a-delivery-in-a-workflow).
 
 Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
@@ -55,6 +55,8 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
 1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per eseguire il targeting di un pubblico esistente o crearne uno tuo. [Ulteriori informazioni sui tipi di pubblico](../audience/about-recipients.md)
 
+   Oltre alla mappatura di destinazione predefinita **[!UICONTROL Destinatari]**, le consegne SMS possono essere indirizzate anche a **[!UICONTROL Visitatori]** o **[!UICONTROL Abbonamenti visitatori]**. [Ulteriori informazioni sulle dimensioni di targeting](../audience/targeting-dimensions.md#targeting).
+
    ![Schermata che mostra il pulsante Seleziona pubblico](assets/sms_create_2.png){zoomable="yes"}
 
    Scopri come selezionare un pubblico esistente in [questa pagina](../audience/add-audience.md).
@@ -71,7 +73,7 @@ Per creare una consegna SMS autonoma, segui i seguenti passaggi:
 
    Da questa schermata, è possibile anche [simulare i contenuti](../preview-test/preview-test.md) e [configurare le offerte](../msg/offers.md).
 
-1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-deliveries.md#gs-schedule).
+1. Per pianificare la consegna a una data e un’ora specifiche, attiva l’opzione **[!UICONTROL Abilita pianificazione]**. Dopo aver avviato la consegna, il messaggio viene inviato automaticamente nella data e nell’ora esatte definite per il destinatario. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/create-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
