@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 36%
@@ -69,7 +69,7 @@ L’invio di bozze è fondamentale per garantire la qualità e l’efficacia del
 
    ![Invio della consegna SMS](assets/sms_send_5.png){zoomable="yes"}
 
-   Se la consegna SMS è pianificata, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Se la consegna SMS è pianificata, fai clic sul pulsante **[!UICONTROL Invia come pianificato]**. Per ulteriori informazioni sulla pianificazione della consegna, consulta [questa sezione](../msg/create-deliveries.md#gs-schedule).
 
 1. Conferma l’azione di invio facendo clic sul pulsante **[!UICONTROL Invia]**.
 
