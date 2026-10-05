@@ -4,13 +4,30 @@ title: Configurare le impostazioni di consegna
 description: Scopri come configurare le impostazioni di consegna in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
+TQID: 'https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -18,7 +35,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '3646'
 ht-degree: 41%
@@ -141,7 +158,7 @@ Puoi definire le impostazioni **[!UICONTROL Invio]** di seguito.
 
 * **[!UICONTROL Verifica consegna SMTP]** (canale e-mail): questa opzione viene utilizzata per testare l&#39;invio tramite SMTP. L’e-mail viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario dell’e-mail, Campaign si connette al server provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
 
-* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=it){target="_blank"}.
+* **[!UICONTROL CCN e-mail]** (canale e-mail): questa opzione viene utilizzata per memorizzare le e-mail su un sistema esterno tramite CCN semplicemente aggiungendo un indirizzo e-mail CCN alla destinazione del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Nella sezione **[!UICONTROL Definizione ondata]**, selezionare l&#39;opzione **[!UICONTROL Invia con più ondate]** per aumentare progressivamente il volume inviato tramite ondate. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. [Ulteriori informazioni](send-using-waves.md)
 
@@ -183,7 +200,7 @@ Puoi anche definire i tag condivisi con lo strumento di analisi in uso.
 
 >[!NOTE]
 >
->Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=it#external-account-ac){target="_blank"}.
+>Le funzionalità di analisi web sono configurate nella console client di Campaign. Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Nuovi tentativi {#retries}
 

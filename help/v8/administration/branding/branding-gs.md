@@ -6,7 +6,20 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 16%
@@ -23,7 +36,7 @@ Gli amministratori tecnici possono creare e gestire più brand direttamente dall
 
 In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. A tale scopo, segui i passaggi indicati di seguito:
 
-1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questa pagina](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questa pagina](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -35,7 +48,7 @@ In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un n
 
 ## Nota di compatibilità {#compatibility-note}
 
-Il nuovo modello di branding centralizzato non è compatibile con la configurazione di [branding legacy](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=it#configuring-multibranding){target="_blank"} precedentemente utilizzata nella console client.
+Il nuovo modello di branding centralizzato non è compatibile con la configurazione di [branding legacy](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} precedentemente utilizzata nella console client.
 
 Nell&#39;approccio legacy, i clienti hanno implementato il branding estendendo il modulo extAccount e utilizzando la scheda **Branding**.
 

@@ -4,7 +4,17 @@ description: Ulteriori informazioni sul contratto di utilizzo per Reporting dina
 level: Beginner
 audience: end-user
 exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -28,7 +38,7 @@ Nella tabella seguente viene illustrato ciò che accade dopo l&#39;accettazione 
 |  | Reporting dinamico | Connettore Microsoft Dynamics 365 |
 |---|---|---|
 | Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br>Tutte le informazioni predefinite (ad esempio città, paese, stato, genere e segmenti in base all&#39;età) e i profili personalizzati sono stati inviati al centro rapporti negli Stati Uniti. | **Funzionalità disponibile**. <br>Tutti i campi predefiniti e personalizzati dei profili e i campi degli eventi di Adobe Campaign vengono elaborati nel centro dati degli Stati Uniti. |
-| EMEA (Europa, Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Tutte le informazioni predefinite (ovvero città, paese, stato, genere e segmenti in base all&#39;età) e i profili personalizzati inviati al centro rapporti dell&#39;area EMEA. | **Funzionalità disponibile.** <br>Tutti i campi predefiniti e personalizzati dei profili e i campi degli eventi di Adobe Campaign vengono elaborati nel data center dell&#39;area EMEA. <br>**[!UICONTROL Dati di controllo &#x200B;]**&#x200B;che contengono i dati di registrazione di Adobe I/O e gli ID degli eventi dell&#39;utente finale del cliente inviati e archiviati nel data center statunitense. |
+| EMEA (Europa, Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Tutte le informazioni predefinite (ovvero città, paese, stato, genere e segmenti in base all&#39;età) e i profili personalizzati inviati al centro rapporti dell&#39;area EMEA. | **Funzionalità disponibile.** <br>Tutti i campi predefiniti e personalizzati dei profili e i campi degli eventi di Adobe Campaign vengono elaborati nel data center dell&#39;area EMEA. <br>**[!UICONTROL Dati di controllo ]**che contengono i dati di registrazione di Adobe I/O e gli ID degli eventi dell&#39;utente finale del cliente inviati e archiviati nel data center statunitense. |
 
 La tabella seguente mostra cosa accade dopo aver rifiutato il contratto, a seconda della regione. Anche se si rifiuta questo contratto, saranno comunque disponibili rapporti sulle consegne e sull’integrazione di Microsoft Dynamics 365.
 

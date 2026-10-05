@@ -3,11 +3,15 @@ audience: end-user
 title: Utilizzare l’attività Combina nei flussi di lavoro
 description: Scopri come utilizzare l’attività Combina nei flussi di lavoro
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-TQID: https://experienceleague.adobe.com/LukQ8xEhGq19UKsoh0iYBkNUJUOKZM6cx0c8zXpmBn0
+TQID: 'https://experienceleague.adobe.com/LukQ8xEhGq19UKsoh0iYBkNUJUOKZM6cx0c8zXpmBn0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 66%
@@ -75,7 +79,7 @@ Nell&#39;attività **Combina**, configura un **Unione** selezionando il **Tipo d
 >title="Opzioni di riconciliazione dell’intersezione"
 >abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. L’opzione **Chiavi** è attivata per impostazione predefinita; vale a dire che l’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l’opzione **Una seleziona di colonne** per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
-Nell&#39;attività **Combina**, configura un&#39;intersezione **&#x200B;**&#x200B;eseguendo i seguenti passaggi aggiuntivi:
+Nell&#39;attività **Combina**, configura un&#39;intersezione **** eseguendo i seguenti passaggi aggiuntivi:
 
 1. Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
 1. Selezionare l&#39;opzione **Genera complemento** se si desidera elaborare la popolazione rimanente. Il complemento contiene l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Viene quindi aggiunta all’attività un’ulteriore transizione in uscita.

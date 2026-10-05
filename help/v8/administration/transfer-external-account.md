@@ -2,16 +2,20 @@
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
-TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
+TQID: 'https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 6%
@@ -20,7 +24,7 @@ ht-degree: 6%
 
 ## Servizio Amazon Simple Storage (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -50,7 +54,7 @@ Per informazioni su dove trovare l&#39;ID della chiave di accesso e la chiave di
 
 ## Archiviazione BLOB di Azure {#azure-blob-external-account}
 
-L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Archiviazione BLOB di Azure.](assets/external-azure.png)
 

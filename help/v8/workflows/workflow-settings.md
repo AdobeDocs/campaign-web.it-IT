@@ -3,11 +3,15 @@ audience: end-user
 title: Configurare le impostazioni del flusso di lavoro
 description: Scopri come configurare le impostazioni del flusso di lavoro con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
+TQID: 'https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 48%
@@ -108,4 +112,4 @@ Quando il flusso di lavoro è [associato a una campagna](create-workflow.md), vi
 >title="Script di inizializzazione"
 >abstract="Questa sezione consente di definire il codice JavaScript che viene eseguito all’inizio del flusso di lavoro. Può essere utilizzato per inizializzare variabili, impostare parametri o preparare dati prima dell’esecuzione di qualsiasi attività del flusso di lavoro."
 
-Lo script di inizializzazione **&#x200B;**&#x200B;consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).
+Lo script di inizializzazione **** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **Modifica codice** e digitare il frammento di codice da eseguire. Lo script viene richiamato durante l’esecuzione del flusso di lavoro. Consulta la sezione relativa a [variabili evento](../workflows/event-variables.md).

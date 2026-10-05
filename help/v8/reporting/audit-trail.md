@@ -4,10 +4,14 @@ title: Audit trail
 description: Scopri come monitorare l’istanza con Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
+TQID: 'https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -15,11 +19,17 @@ feature_v2:
     internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
     internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 1%
@@ -64,7 +74,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Option audit trail** consente di monitorare le attività e le modifiche recenti apportate alle opzioni in Campaign v8.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
@@ -76,11 +86,11 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alla mappatura consegna in Campaign v8.
 
-  Per ulteriori informazioni sulla mappatura della consegna, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Per ulteriori informazioni sulla mappatura della consegna, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * **Applicazione Web** consente di verificare le modifiche apportate ai moduli Web in Campaign v8, utilizzati per creare pagine con campi di input e di selezione e che possono includere dati dal database.
 
-  Per ulteriori informazioni sulle applicazioni Web, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/webapps).
+  Per ulteriori informazioni sulle applicazioni Web, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * **Offerta** ti consente di controllare le attività e le ultime modifiche apportate alle offerte.
 
@@ -88,7 +98,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Operatore** consente di monitorare le attività e le modifiche recenti apportate agli operatori in Campaign v8.
 
-  Per ulteriori informazioni sugli operatori, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Per ulteriori informazioni sugli operatori, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

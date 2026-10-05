@@ -3,16 +3,20 @@ audience: end-user
 title: Creare messaggi transazionali
 description: Scopri come creare un messaggio transazionale nell’interfaccia utente di Campaign Web
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
+TQID: 'https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 18%
@@ -23,7 +27,7 @@ Nella messaggistica transazionale, un evento attiva l’invio di un messaggio pe
 
 ## Creare un modello di messaggio transazionale {#transactional-template}
 
-Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional).
+Nell’interfaccia utente di Campaign Web, il primo passaggio nella configurazione della messaggistica transazionale è la creazione del modello o la creazione diretta del messaggio. Differisce da [la configurazione dei messaggi transazionali nella console client](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Puoi utilizzare un modello di messaggio transazionale per visualizzare in anteprima il contenuto della consegna ricevuto dal profilo prima che raggiunga il pubblico finale. Ad esempio, un amministratore può impostare e configurare i modelli, rendendoli pronti per l’uso da parte degli utenti di marketing.
 

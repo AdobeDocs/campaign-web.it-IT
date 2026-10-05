@@ -2,7 +2,14 @@
 title: Gestisci account esterno
 description: Scopri come configurare gli account esterni
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
@@ -103,6 +110,6 @@ Per configurare l&#39;account esterno **[!UICONTROL Istanza di esecuzione]**:
 
 * **[!UICONTROL Metodo]** - Scegliere tra servizio Web o Federated Data Access (FDA).
 
-  Per FDA, seleziona il tuo account FDA. La connessione di Campaign a sistemi esterni è limitata agli utenti avanzati e disponibile solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/fda#_blank)
+  Per FDA, seleziona il tuo account FDA. La connessione di Campaign a sistemi esterni è limitata agli utenti avanzati e disponibile solo dalla console client. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Crea flusso di lavoro di archiviazione]** - Per ogni istanza di esecuzione registrata nel Centro messaggi, indipendentemente dal fatto che siano presenti una o più istanze, crea un flusso di lavoro di archiviazione separato per ogni account esterno associato all&#39;istanza di esecuzione.

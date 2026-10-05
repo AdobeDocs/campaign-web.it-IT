@@ -4,10 +4,14 @@ description: Scopri come migrare la gestione degli accessi utente da Campaign St
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
+TQID: 'https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -15,6 +19,8 @@ feature_v2:
     internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
     internal-label: REST API
@@ -32,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 3%
@@ -54,7 +60,7 @@ Per ottenere la gestione degli accessi utente in Adobe Campaign Standard e Campa
 
 >[!IMPORTANT]
 >
->Le funzionalità di questi ruoli/diritti denominati possono variare nell’implementazione, causando potenzialmente problemi di autorizzazione (ad esempio, elevazione dei privilegi o interruzioni di funzionalità). Consigliamo agli utenti di rivedere queste mappature dopo la transizione per garantire un corretto controllo degli accessi. [Ulteriori informazioni sulle autorizzazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>Le funzionalità di questi ruoli/diritti denominati possono variare nell’implementazione, causando potenzialmente problemi di autorizzazione (ad esempio, elevazione dei privilegi o interruzioni di funzionalità). Consigliamo agli utenti di rivedere queste mappature dopo la transizione per garantire un corretto controllo degli accessi. [Ulteriori informazioni sulle autorizzazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 La tabella seguente illustra l’approccio di migrazione per i gruppi di ruoli utente durante la transizione da Adobe Campaign Standard a Campaign v8. In Campaign Standard, viene utilizzato un **gruppo di sicurezza**, denominato **gruppo di operatori** in Campaign v8, per assegnare un set di ruoli a un utente. Anche se alcuni gruppi di sicurezza/gruppi di operatori sono predefiniti, gli utenti possono creare nuovi gruppi o modificarne di esistenti, se necessario.
 
@@ -62,7 +68,7 @@ La tabella seguente illustra l’approccio di migrazione per i gruppi di ruoli u
 |---------|----------|---------|
 | **Terminologia**  | Gruppo di sicurezza | Gruppo di operatori |
 
-Sia in Adobe Campaign Standard che in Campaign v8, **I gruppi di sicurezza** e **I gruppi di operatori** sono mappati ai profili di prodotto in Admin Console. Se desideri assegnare un **gruppo di sicurezza** o un **gruppo di operatori** a un utente, puoi collegare il **profilo di prodotto** corrispondente in Admin Console. Questa associazione viene sincronizzata al momento dell’accesso dell’utente. [Ulteriori informazioni sul profilo di prodotto](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Sia in Adobe Campaign Standard che in Campaign v8, **I gruppi di sicurezza** e **I gruppi di operatori** sono mappati ai profili di prodotto in Admin Console. Se desideri assegnare un **gruppo di sicurezza** o un **gruppo di operatori** a un utente, puoi collegare il **profilo di prodotto** corrispondente in Admin Console. Questa associazione viene sincronizzata al momento dell’accesso dell’utente. [Ulteriori informazioni sul profilo di prodotto](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Gruppo di sicurezza Campaign Standard** | **Gruppo di operatori di Campaign v8** |
 |----------|---------|
@@ -180,7 +186,7 @@ Poiché un **Programma** è trattato come una **Cartella** in Campaign v8, il su
 
 Per accedere alle API transazionali dall&#39;istanza di esecuzione in Campaign v8, è necessario un nuovo **profilo di prodotto**, oltre ai profili di prodotto **Amministratore** e **Centro messaggi**. Il nuovo **profilo di prodotto** verrà aggiunto agli account tecnici esistenti o precreati in Campaign Standard.
 
-Dopo la migrazione, gli utenti di Campaign Standard devono rivedere le **mappature del profilo di prodotto** e assegnare il **profilo di prodotto** appropriato se non desiderano collegare i loro **account tecnici** al profilo di prodotto **Amministratore**. Per le integrazioni future, è consigliabile utilizzare l&#39;ID tenant **di Campaign v8 nell&#39;** URL REST **anziché l&#39;ID tenant** di Campaign Standard precedente.**&#x200B;**
+Dopo la migrazione, gli utenti di Campaign Standard devono rivedere le **mappature del profilo di prodotto** e assegnare il **profilo di prodotto** appropriato se non desiderano collegare i loro **account tecnici** al profilo di prodotto **Amministratore**. Per le integrazioni future, è consigliabile utilizzare l&#39;ID tenant **di Campaign v8 nell&#39;** URL REST **anziché l&#39;ID tenant** di Campaign Standard precedente.****
 
 ## Migrazione dell’accesso alle risorse integrate di Campaign per gli operatori Campaign Standard
 
