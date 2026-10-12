@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 980797ae8e315192d95957fcfd5dbdb68bb6ab32
 workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 99%
 ---
 # Console client di Campaign Web e Campaign {#capabilities-matrix}
 
@@ -78,7 +78,7 @@ Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 
 
 * **Calendario di marketing**. Il calendario della campagna mostra tutti i programmi, i piani, le campagne e le consegne in una timeline globale. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=it#campaign-calendar){target="_blank"}
 * **Programmi e piani**. Ogni campagna appartiene a un programma che a sua volta appartiene a un piano. Nell’interfaccia utente di Campaign Web, tutte le campagne sono associate a un piano e a un programma incorporati predefiniti. Puoi creare e gestire piani e programmi solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=it#work-with-plan-and-program){target="_blank"}
-* **Gestione dei provider, del budget e dei costi**. Puoi configurare i provider di servizi coinvolti nei processi eseguiti all’interno delle campagne, incluse le strutture dei costi, e gestire i budget all’interno di ogni programma e campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=it){target="_blank"}
+* **Gestione dei provider, del budget e dei costi**. Puoi configurare i provider di servizi coinvolti nei processi eseguiti all’interno delle campagne, incluse le strutture dei costi, e gestire i budget all’interno di ogni programma e campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **Marketing distribuito** (marketing centrale/locale) Adobe Campaign offre un’app di marketing distribuito per l’implementazione di campagne di cooperazione tra entità centrali (sedi centrali, reparti di marketing, e altri) ed entità locali (negozi, agenzie locali e altri). Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}
 * **Gestione delle risorse marketing** (MRM), controllo di obiettivi, simulazioni e costi. Adobe Campaign offre un’app di gestione delle risorse di marketing (MRM) che consente di controllare le azioni di marketing in modalità collaborativa tramite la gestione completa e il tracciamento in tempo reale delle attività, dei budget e delle risorse di marketing coinvolte. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=it){target="_blank"}
 * **Gestione attività**. Come parte dell’app MRM, le attività di Campaign possono essere create, assegnate, tracciate e monitorate dalla dashboard della campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=it){target="_blank"}
