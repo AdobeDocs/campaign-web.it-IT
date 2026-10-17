@@ -66,4 +66,4 @@ L’interfaccia degli schemi consente di:
 >
 >Per gestire gli schemi è necessario disporre dei diritti di amministratore.
 
-Informazioni dettagliate sugli schemi sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Informazioni dettagliate sugli schemi sono disponibili nella [documentazione della console Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.

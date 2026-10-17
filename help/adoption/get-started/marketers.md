@@ -233,7 +233,7 @@ Collegamenti utili:
 >
 >* I collegamenti di tracciamento, i collegamenti URL delle pagine mirror, i collegamenti di abbonamento/annullamento dell’abbonamento funzionano come in Campaign Standard.
 >
->Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
+>Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
 ### Consegna e-mail {#acs-gs-marketers-email}
 
@@ -427,11 +427,11 @@ Adobe Campaign offre tre diversi rapporti:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="Convalida" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>Rapporti sulla campagna</strong></a>
+<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>Rapporti sulla campagna</strong></a>
 </div>
 <p>
 <div>
@@ -440,10 +440,10 @@ Adobe Campaign offre tre diversi rapporti:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="Lead" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Rapporti sulle consegne</strong>
+<div><a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Rapporti sulle consegne</strong>
 </div>
 <p>
 <div>
@@ -452,11 +452,11 @@ Adobe Campaign offre tre diversi rapporti:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="Rapporti globali" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong>Rapporti globali</strong></a>
+<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/reports/global-report/global-reports"><strong>Rapporti globali</strong></a>
 </div>
 <p>
 <div>

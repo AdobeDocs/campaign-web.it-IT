@@ -57,7 +57,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Audit trail dello schema Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nella console client di Campaign v8.
 
-  Per informazioni dettagliate sugli schemi, consulta [Documentazione di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Per informazioni dettagliate sugli schemi, consulta [Documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **Audit trail del flusso di lavoro** consente di tenere traccia delle attività e delle modifiche recenti apportate ai flussi di lavoro, inclusi i relativi stati correnti, ad esempio:
 
