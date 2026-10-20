@@ -26,7 +26,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Prima di poter utilizzare Genera contenuto, devi accettare il [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>Prima di poter utilizzare Genera contenuto, devi accettare il [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 La funzione di revisione dei contenuti fornisce strumenti di valutazione completi per misurare il livello di allineamento delle campagne alle linee guida del brand e mantenere gli standard di qualità dei contenuti in tutte le comunicazioni:
 

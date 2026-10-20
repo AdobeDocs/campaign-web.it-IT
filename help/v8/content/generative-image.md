@@ -29,7 +29,7 @@ ht-degree: 5%
 >Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](generative-gs.md#generative-guardrails) correlate.
 ></br>
 >
->È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 Utilizza l’intelligenza artificiale in Adobe Campaign Web per creare contenuti visivi coinvolgenti che migliorino i messaggi tra e-mail, pagine di destinazione e notifiche push. L’intelligenza artificiale consente di generare e ottimizzare le immagini, assicurando il coinvolgimento visivo dei contenuti e l’allineamento con il marchio.
 
