@@ -78,7 +78,7 @@ Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 
 
 * **Calendario di marketing**. Il calendario della campagna mostra tutti i programmi, i piani, le campagne e le consegne in una timeline globale. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=it#campaign-calendar){target="_blank"}
 * **Programmi e piani**. Ogni campagna appartiene a un programma che a sua volta appartiene a un piano. Nell’interfaccia utente di Campaign Web, tutte le campagne sono associate a un piano e a un programma incorporati predefiniti. Puoi creare e gestire piani e programmi solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=it#work-with-plan-and-program){target="_blank"}
-* **Gestione dei provider, del budget e dei costi**. Puoi configurare i provider di servizi coinvolti nei processi eseguiti all’interno delle campagne, incluse le strutture dei costi, e gestire i budget all’interno di ogni programma e campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
+* **Gestione dei provider, del budget e dei costi**. Puoi configurare i provider di servizi coinvolti nei processi eseguiti all’interno delle campagne, incluse le strutture dei costi, e gestire i budget all’interno di ogni programma e campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **Marketing distribuito** (marketing centrale/locale) Adobe Campaign offre un’app di marketing distribuito per l’implementazione di campagne di cooperazione tra entità centrali (sedi centrali, reparti di marketing, e altri) ed entità locali (negozi, agenzie locali e altri). Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}
 * **Gestione delle risorse marketing** (MRM), controllo di obiettivi, simulazioni e costi. Adobe Campaign offre un’app di gestione delle risorse di marketing (MRM) che consente di controllare le azioni di marketing in modalità collaborativa tramite la gestione completa e il tracciamento in tempo reale delle attività, dei budget e delle risorse di marketing coinvolte. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=it){target="_blank"}
 * **Gestione attività**. Come parte dell’app MRM, le attività di Campaign possono essere create, assegnate, tracciate e monitorate dalla dashboard della campagna. Questa funzionalità è disponibile solo nella console client. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=it){target="_blank"}
@@ -120,7 +120,7 @@ I processi di importazione/esportazione unica come descritto nella [Documentazio
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=it){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -153,16 +153,16 @@ Le regole di tipologia possono essere selezionate per una consegna o per un mode
 Utilizza i collegamenti forniti per consultare la documentazione di Campaign v8 (console client) e scopri ulteriori informazioni sulle regole di tipologia:
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=it){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * Creazione di regole per evitare eccessiva sollecitazione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=it){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=it){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * Simulazione della campagna. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=it){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## Flussi di lavoro {#wf-capabilities}
