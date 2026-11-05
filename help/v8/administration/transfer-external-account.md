@@ -15,16 +15,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 4ac71499967647b9e0b51b504669e917c157cf62
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 6%
+source-wordcount: '794'
+ht-degree: 5%
 ---
 # Trasferisci dati account esterni {#transfer-external-account}
 
 ## Servizio Amazon Simple Storage (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+Il connettore Amazon Simple Storage Service (S3) può essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -54,7 +54,7 @@ Per informazioni su dove trovare l&#39;ID della chiave di accesso e la chiave di
 
 ## Archiviazione BLOB di Azure {#azure-blob-external-account}
 
-L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+L&#39;account esterno **[!UICONTROL Archiviazione BLOB di Azure]** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Trasferisci file]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Schermata che mostra i campi di configurazione dell&#39;account esterno Archiviazione BLOB di Azure.](assets/external-azure.png)
 
@@ -71,6 +71,10 @@ Per configurare l&#39;**[!UICONTROL account esterno Azure]** per l&#39;utilizzo 
 * **[!UICONTROL Chiave di accesso]**
 
   Per sapere dove trovare la tua **[!UICONTROL chiave di accesso]**, fai riferimento a questa [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >L’archiviazione BLOB di Azure filtra i file in base al prefisso del nome e non al pattern. Un asterisco finale (`*`) in una maschera di file viene rimosso, quindi `TEST_EXPORT_AZURE_*` corrisponde a tutti i file che iniziano con `TEST_EXPORT_AZURE_`. I caratteri dopo l&#39;asterisco, ad esempio in `TEST_EXPORT_AZURE_*.csv`, non sono supportati. [Ulteriori informazioni nella documentazione di Microsoft](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
 
 ## SFTP
 
