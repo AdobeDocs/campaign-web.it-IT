@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 86%
 ---
 # Introduzione alle pagine di destinazione {#get-sarted-lp}
 
@@ -41,6 +41,8 @@ Le pagine di destinazione consentono di indirizzare gli utenti verso moduli onli
 >Le pagine di destinazione create nell’interfaccia utente di Campaign Web sono diverse dai moduli web creati dalla console client. Non è possibile visualizzare o modificare i moduli web creati nella console client nell’interfaccia utente di Campaign Web.
 >
 >Ulteriori informazioni sui moduli web sono disponibili nella [documentazione di Campaign v8 (console)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=it){target="_blank"}.
+>
+>Le pagine di destinazione create nell’interfaccia utente di Campaign Web non supportano campi di input nascosti o JavaScript personalizzato. Per calcolare e memorizzare valori che non vengono visualizzati ai visitatori, crea il modulo come applicazione web nella console client.
 
 Le funzionalità chiave delle pagine di destinazione sono elencate di seguito:
 

@@ -18,9 +18,9 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '846'
 ht-degree: 15%
 ---
 # Inviare utilizzando gli scaglioni {#send-using-waves}
@@ -61,6 +61,8 @@ Per inviare le consegne scaglionate, segui la procedura riportata di seguito.
    >Assicurati che gli ultimi scaglioni non superino la scadenza di consegna, definita nella scheda [Validità](delivery-settings.md#validity), altrimenti alcuni messaggi potrebbero non essere inviati. Una regola di controllo della tipologia specifica, **[!UICONTROL Controllo pianificazione ondata]**, assicura che l&#39;ultimo ondata sia pianificato prima del limite di validità della consegna. Ulteriori informazioni sulle regole di controllo sono disponibili nella [documentazione di Campaign v8 (console client)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=it).
    >
    >È inoltre necessario concedere tempo sufficiente per i nuovi tentativi durante la configurazione degli ultimi scaglioni. [Ulteriori informazioni](delivery-settings.md#retries)
+   >
+   >Gli scaglioni sono pianificati dalla data di contatto della consegna. Se la consegna inizia dopo il tempo pianificato di alcune ondate, queste ultime vengono inviate insieme invece di essere distanziate.
 
 1. Per monitorare gli invii, vai ai [registri di consegna](../monitor/delivery-logs.md). Puoi visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Stato inviato]**) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL Stato in sospeso]**).
 
