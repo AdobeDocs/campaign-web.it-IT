@@ -217,4 +217,4 @@ Quando definisci il contenuto, il pubblico e la pianificazione, prepara la conse
 
 Scopri come utilizzare l’intelligenza artificiale per generare contenuti e-mail, testo e immagini completi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505099?captions=ita)
