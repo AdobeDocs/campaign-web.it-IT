@@ -89,4 +89,4 @@ Di seguito sono riportati alcuni esempi su come accedere all’editor di espress
 
 Scopri come rendere dinamico il contenuto dei messaggi utilizzando l’editor di espressioni per personalizzarlo o aggiungere contenuto condizionale.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505243?captions=ita&quality=12)
