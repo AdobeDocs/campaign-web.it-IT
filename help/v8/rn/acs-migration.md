@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Passaggio da Campaign Standard a Campaign v8 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Per una transizione fluida a Campaign v8, alcune funzionalità chiave di Campaig
 
 * **API REST**: gli utenti che hanno effettuato la migrazione a Campaign Standard possono utilizzare le API REST per creare integrazioni per Adobe Campaign e creare ecosistemi integrando Adobe Campaign con altre tecnologie. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it){target="_blank"}.
 
-* **Pagine di destinazione**: le pagine di destinazione di Campaign v8 includono miglioramenti per garantire la parità delle funzioni con Campaign Standard. Per ulteriori informazioni, consulta le [note sulla versione](../rn/release-notes.md#new-24-4) e la pagina di destinazione della [documentazione](../landing-pages/get-started-lp.md).
+* **Pagine di destinazione**: le pagine di destinazione di Campaign v8 includono miglioramenti per allinearle a Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> Per ulteriori informazioni, consulta le [note sulla versione](../rn/release-notes.md#new-24-4) e la pagina di destinazione della [documentazione](../landing-pages/get-started-lp.md).
 
 * **Frammenti visivi**: i frammenti visivi sono componenti visivi riutilizzabili a cui è possibile fare riferimento in una o più consegne e-mail o in modelli di contenuto. Modificando un frammento, viene aggiornato tutto il contenuto che lo utilizza. Questa funzionalità consente agli utenti di marketing di precreare più blocchi di contenuto personalizzati per l’assemblaggio rapido dei messaggi in un processo di progettazione migliorato. [Ulteriori informazioni](../content/use-visual-fragments.md).
 

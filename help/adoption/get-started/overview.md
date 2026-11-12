@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 28%
 ---
 # Da Campaign Standard a v8 {#ac-acs}
@@ -57,6 +57,8 @@ In qualità di utente che passa da Campaign Standard a Campaign v8, questa guida
 1. Inizia imparando [le novità di Adobe Campaign v8](#new).
 
 1. Comprendi [le differenze di esperienza tra Adobe Campaign Standard e Adobe Campaign v8 in base al tuo ruolo](#experiences).
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## Novità {#new}
 
@@ -154,7 +156,7 @@ In qualità di utente di Campaign Standard che passa ad Adobe Campaign v8, ora s
 
   Adobe Campaign v8 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora.
 
-  [Ulteriori informazioni sull&#39;infrastruttura push aggiornata](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Ulteriori informazioni sull&#39;infrastruttura push aggiornata](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -171,7 +173,7 @@ Le funzionalità principali di Campaign Standard sono state aggiunte a Campaign�
 
 * **API REST**: in qualità di utente di Campaign Standard che ha eseguito la migrazione, puoi utilizzare le API Rest per creare integrazioni per Adobe Campaign e costruire il tuo ecosistema interfacciandoti con il pannello di tecnologie utilizzato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=it){target="_blank"}
 
-* **Pagine di destinazione**: sono stati apportati alcuni miglioramenti alle pagine di destinazione di Campaign v8 per garantire la parità delle funzionalità con Campaign Standard. Per ulteriori informazioni, consulta le [note sulla versione](../../v8/rn/release-notes.md#new-24-4) e la pagina di destinazione della [documentazione](../../v8/landing-pages/get-started-lp.md).
+* **Pagine di destinazione** - Sono stati apportati miglioramenti alle pagine di destinazione di Campaign v8 per allinearle con Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> Per ulteriori informazioni, consulta le [note sulla versione](../../v8/rn/release-notes.md#new-24-4) e la pagina di destinazione della [documentazione](../../v8/landing-pages/get-started-lp.md).
 
 * **Frammenti visivi**: i frammenti visivi sono componenti visivi riutilizzabili a cui è possibile fare riferimento in una o più consegne e-mail o in modelli di contenuto. Quando si modifica un frammento, viene aggiornato ogni contenuto che lo utilizza. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti dei messaggi in un processo di progettazione migliorato. [Ulteriori informazioni](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Inoltre, in qualità di utente esistente di Campaign, tieni presente che alcuni 
 * L’analisi della consegna ora si chiama **preparazione della consegna**. Per avviare la preparazione di un messaggio, fai clic sul pulsante **Prepara**. [Ulteriori informazioni](../../v8/monitor/prepare-send.md).
 * L’anteprima e-mail è ora disponibile tramite il pulsante **Simula contenuto.** [Ulteriori informazioni](../../v8/preview-test/preview-test.md)
 * Gli elenchi ora sono **Tipi di pubblico**. [Ulteriori informazioni](../../v8/audience/gs-audiences-recipients.md).
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## Nuova esperienza utente
@@ -265,5 +269,5 @@ Per scoprire la nuova esperienza utente con Adobe Campaign v8, accedi alla guida
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/it/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->
