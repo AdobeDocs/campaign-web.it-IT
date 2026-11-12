@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2849'
 ht-degree: 17%
 ---
 # Introduzione per i marketer {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Collegamenti utili:
 >
 >* Le consegne con uno dei seguenti stati sono state migrate come consegne annullate: Per annullato / nuovo tentativo in corso.
 >
->* I collegamenti di tracciamento, i collegamenti URL delle pagine mirror, i collegamenti di abbonamento/annullamento dell’abbonamento funzionano come in Campaign Standard.
+>* I collegamenti di tracciamento, i collegamenti URL delle pagine mirror e i collegamenti di abbonamento/annullamento di abbonamenti per le consegne inviate da Campaign v8 seguono lo standard Campaign v8.
 >
 >Vedere anche le sezioni seguenti: [Tracciamento e monitoraggio](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Branding](../../v8/administration/branding/branding-gs.md) in Adobe Campaign.
 
@@ -375,7 +375,7 @@ Il canale in-app non è disponibile in Campaign v8. Se devi inviare una notifica
 
 L’interfaccia utente di Adobe Campaign v8 per il web è dotata di un’esperienza utente rinnovata per le pagine di destinazione. Campaign ti consente di creare, progettare e condividere pagine di destinazione. Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i dati, acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
 
-In qualità di utente di Campaign Standard che passa a Campaign v8, le pagine di destinazione esistenti sono state migrate all’interfaccia utente web di Campaign. Puoi accedere alla stessa gamma di funzionalità.
+In qualità di utente di Campaign Standard che passa a Campaign v8, le pagine di destinazione esistenti sono state migrate all’interfaccia utente web di Campaign. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 Per ulteriori informazioni sulle pagine di destinazione, consulta le sezioni seguenti:
 
