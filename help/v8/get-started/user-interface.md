@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 100%
+source-wordcount: '1559'
+ht-degree: 98%
 ---
 # Scoprire l’interfaccia {#user-interface}
 
-La nuova interfaccia di Adobe Campaign Web offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa nuova interfaccia è integrata con le app e le soluzioni di Adobe Experience Cloud.
+La nuova interfaccia di Adobe Campaign Web offre un’esperienza utente moderna e intuitiva per semplificare la progettazione e la consegna delle campagne di marketing. Questa interfaccia si integra con [!DNL Adobe CX Enterprise] app e soluzioni.
 
-Consulta [questo articolo](connect-to-campaign.md) per informazioni su come connetterti ad Adobe Campaign e le nozioni di base della navigazione in Experience Cloud.
+Scopri come connetterti ad Adobe Campaign ed esplorare le nozioni di base sulla navigazione [!DNL CX Enterprise] [in questo articolo](connect-to-campaign.md).
 
 >[!NOTE]
 >

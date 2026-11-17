@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
+source-git-commit: 8b78a8494223fbcd3def29c955e6171cbb643fef
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '856'
 ht-degree: 0%
 ---
 # Controlli e risoluzione dei problemi dopo la transizione {#post-transition-checks}
@@ -47,3 +47,15 @@ Dopo la transizione da Campaign Standard a Campaign v8, alcune consegne, flussi 
 | Varie ondate di una consegna vengono inviate insieme. | Gli scaglioni sono pianificati dalla data di contatto della consegna. Se la consegna inizia dopo il tempo pianificato di alcune ondate, queste ultime vengono inviate insieme invece di essere distanziate. | [Invia con scaglioni](../../v8/advanced-settings/send-using-waves.md) |
 | Una maschera di file con caratteri dopo l’asterisco non trova alcun file nell’archiviazione BLOB di Azure. | L’archiviazione BLOB di Azure filtra i file in base al prefisso del nome. È supportato solo un asterisco finale. | [Trasferisci account esterno](../../v8/administration/transfer-external-account.md) |
 | Una pagina di destinazione o un blocco di contenuto che utilizza JavaScript personalizzato si comporta in modo diverso. | JavaScript personalizzato viene trasformato durante la migrazione, ma convalidato e regolato, in particolare se utilizza `queryDef`, API di Campaign JavaScript, scritture di sessioni, gestione di unità organizzative o generazione di URL personalizzati. | [Pagine di destinazione](../../v8/landing-pages/get-started-lp.md) |
+| Una chiamata API REST restituisce un valore vuoto, un errore o una risposta imprevista. | Alcuni campi del database vengono eliminati durante la migrazione e restituiscono valori vuoti. Un PATCH vuoto restituisce 204 e un PATCH sulla posizione restituisce 500. Un POST con una risorsa collegata ignora il collegamento o restituisce un errore. PKEY non valido restituisce 404. | [Limitazioni REST API](acs-v8-differences.md#rest-api-limitations) |
+| Una PKEY memorizzata non funziona più nelle chiamate API. | I valori PKEY cambiano dopo la migrazione. Non conservarli al di fuori di Campaign. Da ogni chiamata dagli href restituiti dalla chiamata precedente. | [Utilizzo chiave](acs-v8-differences.md#key-usage) |
+| Fuso orario o `ccpaOptOut` mancante in una risposta del profilo. | Questi campi vengono restituiti solo da `profileAndServicesExt/profile`, non da `profileAndServices/profile`. Chiama l&#39;endpoint esteso. | [Fuso orario profilo e ccpaOptOut](acs-v8-differences.md#profile-timezone) |
+| Un filtro personalizzato restituisce un errore in una chiamata API REST. | In Campaign v8, assegna al filtro un nome nel campo **Nome filtro in API REST** e utilizza questo nome così come è nella richiesta, senza il prefisso &quot;by&quot;. | [Filtro](acs-v8-differences.md#rest-filtering) |
+| Una chiamata che attiva un segnale esterno di flusso di lavoro non può creare il corpo della richiesta. | L’API GET del flusso di lavoro non restituisce più le variabili del flusso di lavoro. Crea i parametri del corpo della richiesta POST in base alla tua conoscenza del flusso di lavoro. | [Segnali esterni flusso di lavoro](acs-v8-differences.md#workflow-signals) |
+| Accesso negato alle API transazionali. | L’accesso alle API transazionali dall’istanza di esecuzione richiede un nuovo profilo di prodotto. Esamina la mappatura del profilo di prodotto degli account tecnici. | [Mappatura profilo prodotto](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
+| Un pubblico migrato mostra solo il valore più recente, oppure un pubblico di tipo file non ha dimensioni. | Questo è previsto. Un filtro predefinito accetta solo il valore più recente dopo la migrazione del pubblico e i tipi di pubblico di tipo file diventano tipi di pubblico di tipo Elenco senza dimensioni. | [Gestione tipi di pubblico](marketers.md#acs-gs-marketers-audiences) |
+| La cronologia dei flussi di lavoro eseguiti in Campaign Standard è vuota. | I registri cronologici dei flussi di lavoro eseguiti in Campaign Standard non vengono migrati. I flussi di lavoro eseguiti in Campaign v8 hanno una propria cronologia e registri. | [Creare un flusso di lavoro](marketers.md#acs-gs-marketers-wf) |
+| Alcuni utenti possono visualizzare o eseguire più operazioni di prima. | Gli utenti con il ruolo **Modello dati** ma non con il ruolo **Amministrazione** ottengono l&#39;accesso **Amministrazione** e i gruppi di sicurezza con unità organizzative parallele possono avere un accesso più ampio. Esamina i gruppi di operatori, i diritti denominati e le autorizzazioni della cartella. | [Gestione degli accessi utente](user-management-acs.md) |
+| Un profilo di test contrassegnato come **Trap** non riceve l&#39;invio finale. | In Campaign v8, aggiungi un **gruppo di trap** nelle impostazioni Pubblico della consegna. | [Gruppo di trap](../../v8/audience/trap-group.md) |
+| Un’e-mail ricorrente non dispone di un’opzione di periodo di aggregazione. | Questa opzione non è disponibile in Campaign v8. | [Attività del canale](../../v8/workflows/activities/channels.md) |
+| Il reporting dinamico non mostra dati per una consegna. | Il reporting dinamico riguarda le consegne di e-mail, le campagne con le consegne di e-mail e i messaggi transazionali. | [Reportistica](marketers.md#acs-gs-marketers-reporting) |

@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # Note sulla versione 2024 {#2024-release}
 
@@ -241,7 +241,7 @@ Nell’attività del flusso di lavoro **Arricchimento**, ora è possibile creare
 
 * **Gestione cartelle**: è ora possibile creare una sottocartella di un tipo diverso rispetto alla cartella principale. [Ulteriori informazioni](../get-started/permissions.md#folders)
 
-* **Globalizzazione**: nell’ambito del nostro impegno continuo per offrire un’esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app di Adobe Experience Cloud. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
+* **Globalizzazione** - Come parte del nostro impegno continuo per offrire un&#39;esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app [!DNL Adobe CX Enterprise]. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
 ## Note sulla versione di aprile {#april-24-4-release}

@@ -14,16 +14,16 @@ product_v2:
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 43%
+source-wordcount: '490'
+ht-degree: 40%
 ---
 # Gestire le risorse con [!DNL Adobe Experience Manager Assets as a Cloud Service]{#aem-assets}
 
 ## Introduzione a [!DNL Adobe Experience Manager Assets as a Cloud Service] {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets as a Cloud Service] è una piattaforma integrata e collaborativa progettata per semplificare il flusso di lavoro creativo e centralizzare le risorse digitali per una consegna fluida delle esperienze. Semplifica l’organizzazione, l’assegnazione di tag e il recupero delle risorse di produzione approvate, garantendo la coerenza del brand tra i team. Grazie alla sua interfaccia intuitiva, [!DNL Assets as Cloud Service] consente di accedere e condividere immediatamente le risorse all’interno delle applicazioni Adobe Creative ed Experience Cloud.
+[!DNL Adobe Experience Manager Assets as a Cloud Service] è una piattaforma integrata e collaborativa progettata per semplificare il flusso di lavoro creativo e centralizzare le risorse digitali per una consegna fluida delle esperienze. Semplifica l’organizzazione, l’assegnazione di tag e il recupero delle risorse di produzione approvate, garantendo la coerenza del brand tra i team. Grazie alla sua interfaccia intuitiva, [!DNL Assets as Cloud Service] consente di accedere e condividere immediatamente le risorse nelle applicazioni [!DNL Adobe Creative Cloud for enterprise] e [!DNL Adobe CX Enterprise].
 
 Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=it){target="_blank"}.
 

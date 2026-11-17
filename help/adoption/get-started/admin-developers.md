@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 11%
+source-wordcount: '3253'
+ht-degree: 12%
 ---
 # Introduzione per amministratori e sviluppatori {#acs-gs-admin}
 
@@ -377,7 +377,7 @@ In qualità di amministratore, impara a gestire la quarantena in Campaign v8 a p
 
 ## Gestire le integrazioni Adobe Campaign {#acs-gs-integrations}
 
-Puoi collegare la tua istanza di Campaign con le soluzioni Adobe Experience Cloud per combinare le funzionalità. Adobe Campaign è dotato di diversi connettori che consentono di comunicare con applicazioni esterne, connettersi ai motori di database, condividere e sincronizzare i dati. Scopri come combinare le tue soluzioni in [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
+Puoi collegare la tua istanza di Campaign con [!DNL Adobe CX Enterprise] soluzioni per combinare le funzionalità. Adobe Campaign è dotato di diversi connettori che consentono di comunicare con applicazioni esterne, connettersi ai motori di database, condividere e sincronizzare i dati. Scopri come combinare le tue soluzioni in [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/connect/integration){target="_blank"}.
 
 In qualità di utente di Campaign Standard che effettua la migrazione a Campaign v8, ti vale quanto segue:
 

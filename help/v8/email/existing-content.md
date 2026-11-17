@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 54%
+source-wordcount: '330'
+ht-degree: 47%
 ---
 # Importare il contenuto dell’e-mail {#existing-content}
 
@@ -31,6 +31,10 @@ Puoi importare i contenuti HTML esistenti in E-mail designer. Tali contenuti pos
 >[!NOTE]
 >
 >La struttura del file .zip non è soggetta a specifici vincoli. Tuttavia, i riferimenti devono essere relativi e coerenti con la struttura ad albero della cartella .zip.
+
+>[!IMPORTANT]
+>
+>Non utilizzare il tag HTML `<base>` nel contenuto dell&#39;e-mail. Per motivi di sicurezza, questo tag non è supportato e può impedire il caricamento del contenuto nell’editor di contenuti. Utilizza invece URL assoluti per i collegamenti e le risorse esterne.
 
 ➡️ [Guarda un video su questa funzione](#video)
 

@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '930'
+ht-degree: 22%
 ---
 # Utilizzare la generazione di contenuti {#generative-gs}
 
@@ -124,6 +124,7 @@ Le seguenti limitazioni si applicano alla generazione di contenuti in Adobe Camp
 * Disponibile solo per i canali e-mail, push e SMS.
 * Il contenuto GenAI potrebbe non essere sempre accurato. Condividi il tuo feedback affinché gli ingegneri possano perfezionare i modelli.
 * Puoi caricare più risorse per il brand, ma puoi sfruttarne una sola per una generazione specifica.
+* I collegamenti alle immagini generate dall’intelligenza artificiale sono temporanei e non possono essere utilizzati per distribuire le immagini ai destinatari. Quando salvi la consegna, le immagini generate vengono salvate nell’istanza Campaign e i collegamenti vengono sostituiti. Salva la consegna prima di inviarla.
 
 ## Funzionalità di generazione dei contenuti {#generative-features}
 

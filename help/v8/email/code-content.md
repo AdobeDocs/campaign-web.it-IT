@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 32%
+source-wordcount: '170'
+ht-degree: 25%
 ---
 # Creare il codice del contenuto e-mail {#code-content}
 
@@ -26,6 +26,10 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare HTML non ela
 >[!CAUTION]
 >
 >Questo metodo richiede la conoscenza di HTML.
+
+>[!IMPORTANT]
+>
+>Non utilizzare il tag HTML `<base>` nel contenuto dell&#39;e-mail. Per motivi di sicurezza, questo tag non è supportato e può impedire il caricamento del contenuto nell’editor di contenuti. Utilizza invece URL assoluti per i collegamenti e le risorse esterne.
 
 1. Nella pagina home di [E-mail designer](get-started-email-designer.md), seleziona **[!UICONTROL Crea il codice]**.
 
