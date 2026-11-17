@@ -29,18 +29,41 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
+source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 2%
+source-wordcount: '1926'
+ht-degree: 3%
 ---
 # Differenze tra Campaign Standard e Campaign v8 {#acs-v8-differences}
 
 La maggior parte dei concetti sono gli stessi in Campaign Standard e Campaign v8. Questa pagina raccoglie le differenze che ti interessano dopo la transizione e contiene i collegamenti alla pagina che spiega ciascuna. Completa le guide per [addetti al marketing](marketers.md) e per [amministratori e sviluppatori](admin-developers.md).
 
-* Per le modifiche terminologiche, vedi [Differenze chiave tra Campaign Standard e Campaign v8](overview.md#experiences).
+* Per le modifiche terminologiche, vedere [Terminologia](#terminology).
 * Per i controlli da eseguire e i problemi segnalati dopo una transizione, vedere [Controlli e risoluzione dei problemi dopo la transizione](post-transition-checks.md).
 * Per le funzionalità disponibili solo nella console client, vedere [Console client Campaign Web e Campaign](../../v8/get-started/capability-matrix.md).
+
+## Terminologia {#terminology}
+
+La maggior parte dei concetti di Adobe Campaign v8 e Adobe Campaign Standard sono simili. Tuttavia, ci sono alcune differenze, a partire dalla terminologia.
+
+| In Campaign Standard | In Campaign v8 |
+|---|---|
+| Risorse personalizzate | **Schemi** |
+| Messaggi | **Consegne** |
+| Utenti del prodotto | **Operatori** |
+| Ruoli | Configurato con **diritti denominati** |
+| Gruppi di sicurezza | **Gruppi di operatori** |
+| Unità organizzative | Gestito tramite **autorizzazioni cartella** |
+
+Inoltre, in qualità di utente esistente di Campaign, tieni presente che alcuni concetti sono stati rinominati per allinearsi ai più recenti standard terminologici. Queste modifiche si applicano solo all’interfaccia utente di Campaign Web e non vengono riportate nella console client.
+
+| In Campaign Standard | In Campaign Web | Ulteriori informazioni |
+|---|---|---|
+| Destinatari | **Profili** | [Profili](../../v8/audience/gs-audiences-recipients.md) |
+| Indirizzi di seed | **Profili di test** | [Consegne di prova](../../v8/preview-test/test-deliveries.md) |
+| Analisi della consegna | **Preparazione consegna**. Per avviare la preparazione del messaggio, fare clic sul pulsante **Prepara**. | [Prepara e invia](../../v8/monitor/prepare-send.md) |
+| Anteprima e-mail | Disponibile tramite il pulsante **Simula contenuto**. | [Anteprima e test](../../v8/preview-test/preview-test.md) |
+| Elenchi | **Tipi di pubblico** | [Tipi di pubblico](../../v8/audience/gs-audiences-recipients.md) |
 
 ## Canali e contenuti {#channels}
 
@@ -52,7 +75,7 @@ I passaggi per creare e inviare messaggi sono simili in entrambi i prodotti, com
 | Per eseguire la transizione dei flussi di lavoro e delle consegne push esistenti, contatta il tuo Adobe Campaign Transition Manager. | [Notifiche push](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard, un profilo di test potrebbe essere contrassegnato come **Abbondanza** per ricevere l&#39;invio finale. In Campaign v8, aggiungi un **gruppo di trap** nelle impostazioni Pubblico della consegna. | [Gruppo di trap](../../v8/audience/trap-group.md) |
 | Le pagine di destinazione create nell’interfaccia utente di Campaign Web non supportano campi di input nascosti o JavaScript personalizzato. | [Pagine di destinazione](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard, anche la transizione in uscita di un’attività di direct mailing trasportava il file generato. In Campaign v8, porta solo la popolazione target. Per inviare il file a un server, aggiungi un&#39;attività **Estrazione dati**, quindi un&#39;attività **Trasferimento file**. | [Direct mail](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In Campaign Standard, anche la transizione in uscita di un’attività di direct mailing trasportava il file generato. In Campaign v8, porta solo la popolazione target. Per inviare il file a un server, aggiungi un&#39;attività **Estrazione dati**, quindi un&#39;attività **Trasferimento file**. | [Direct mail](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Tipi di pubblico, flussi di lavoro e consegne {#data-and-workflows}
 
@@ -60,7 +83,10 @@ Queste differenze interessano i tipi di pubblico e i flussi di lavoro migrati da
 
 | Cosa cambia | Ulteriori informazioni |
 |---|---|
-| I tipi di pubblico vengono trasformati durante la transizione. Ad esempio, i tipi di pubblico creati con l’attività Query diventano filtri predefiniti, mentre i tipi di pubblico di tipo file diventano tipi di pubblico di tipo Elenco senza dimensioni. | [Gestione tipi di pubblico](marketers.md#acs-gs-marketers-audiences) |
+| I tipi di pubblico creati con l&#39;attività Query in Campaign Standard diventano [filtri predefiniti](../../v8/query/build-query.md) in Campaign v8. Campaign v8 supporta anche l’attività Query. | [Gestione tipi di pubblico](marketers.md#acs-gs-marketers-audiences) |
+| Un’attività Read audience diventa un’attività Query con un filtro predefinito. | [Gestione tipi di pubblico](marketers.md#acs-gs-marketers-audiences) |
+| Un filtro predefinito accetta solo il valore più recente dopo la migrazione del pubblico. | [Gestione tipi di pubblico](marketers.md#acs-gs-marketers-audiences) |
+| I tipi di pubblico di tipo file diventano tipi di pubblico di tipo elenco senza dimensioni. | [Gestione tipi di pubblico](marketers.md#acs-gs-marketers-audiences) |
 | I registri cronologici dei flussi di lavoro eseguiti in Campaign Standard non vengono migrati. | [Creare un flusso di lavoro](marketers.md#acs-gs-marketers-wf) |
 | In Campaign Standard, puoi selezionare il periodo di aggregazione di un’e-mail ricorrente. Questa opzione non è disponibile in Campaign v8. | [Attività del canale](../../v8/workflows/activities/channels.md) |
 | Il reporting dinamico riguarda le consegne di e-mail, le campagne con le consegne di e-mail e i messaggi transazionali. | [Reportistica](marketers.md#acs-gs-marketers-reporting) |
@@ -84,7 +110,7 @@ Queste differenze influiscono sulle integrazioni che chiamano Campaign tramite l
 | Cosa cambia | Ulteriori informazioni |
 |---|---|
 | I valori PKEY cambiano dopo la migrazione. Se memorizzi le PKEY al di fuori di Campaign, segui invece gli href restituiti dall’API. | [Utilizzo chiave](#key-usage) |
-| Alcuni campi del profilo migrati, come fuso orario e `ccpaOptOut`, vengono restituiti solo dall&#39;API `profileAndServicesExt/profile`. | [Fuso orario del profilo](#profile-timezone) |
+| Alcuni campi del profilo migrati, come fuso orario e `ccpaOptOut`, vengono restituiti solo dall&#39;API `profileAndServicesExt/profile`. | [Fuso orario profilo e ccpaOptOut](#profile-timezone) |
 | Adobe esegue la migrazione delle configurazioni di Adobe Analytics e Audience Manager. Devi configurare nuovamente le integrazioni Triggers e Adobe Target. | [Gestione integrazioni Adobe Campaign](admin-developers.md#acs-gs-integrations) |
 
 ## Raccomandazioni e limitazioni REST API {#rest-api-limitations}
@@ -190,11 +216,13 @@ La sezione seguente elenca le differenze tra i codici di errore e i messaggi di 
 | - | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. | 500 - Si è verificato un errore - contatta l’amministratore. |
 | Inserisci un profilo/servizio con un valore enum di genere (o altro) non valido | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Il valore &#39;invalid&#39; non è valido per l&#39;enumerazione &#39;nms:recipient:gender&#39; del campo &#39;@gender&#39; | 500 - Si è verificato un errore. Contattare l&#39;amministratore. |
 
-### Fuso orario del profilo {#profile-timezone}
+### Fuso orario del profilo e ccpaOptOut {#profile-timezone}
 
 Con Campaign Standard, il fuso orario viene visualizzato come parte della risposta JSON di **profileAndServices/profile** chiamate REST API.
 
 Con Campaign v8, il fuso orario viene visualizzato all’utente solo come parte delle chiamate REST API **profileAndServicesExt/profile**. Non fa parte delle chiamate REST API di **profileAndServices/profile** poiché è in fase di aggiunta in uno schema esteso.
+
+Lo stesso vale per il campo `ccpaOptOut`: viene visualizzato solo come parte delle chiamate REST API **profileAndServicesExt/profile**, non delle chiamate REST **profileAndServices/profile**, poiché viene aggiunto in uno schema esteso come parte della migrazione dei dati.
 
 ### Segnali esterni del flusso di lavoro {#workflow-signals}
 
