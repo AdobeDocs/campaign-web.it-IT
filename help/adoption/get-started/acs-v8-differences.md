@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
+source-git-commit: 5a6b111d1aaa2a34ce165eaf6d1b1a997fd8bc85
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1916'
 ht-degree: 3%
 ---
 # Differenze tra Campaign Standard e Campaign v8 {#acs-v8-differences}
@@ -75,7 +75,7 @@ I passaggi per creare e inviare messaggi sono simili in entrambi i prodotti, com
 | Per eseguire la transizione dei flussi di lavoro e delle consegne push esistenti, contatta il tuo Adobe Campaign Transition Manager. | [Notifiche push](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard, un profilo di test potrebbe essere contrassegnato come **Abbondanza** per ricevere l&#39;invio finale. In Campaign v8, aggiungi un **gruppo di trap** nelle impostazioni Pubblico della consegna. | [Gruppo di trap](../../v8/audience/trap-group.md) |
 | Le pagine di destinazione create nell’interfaccia utente di Campaign Web non supportano campi di input nascosti o JavaScript personalizzato. | [Pagine di destinazione](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard, anche la transizione in uscita di un’attività di direct mailing trasportava il file generato. In Campaign v8, porta solo la popolazione target. Per inviare il file a un server, aggiungi un&#39;attività **Estrazione dati**, quindi un&#39;attività **Trasferimento file**. | [Direct mail](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In Campaign Standard, anche la transizione in uscita di un’attività di direct mailing trasportava il file generato. In Campaign v8, porta solo la popolazione target. Per inviare il file a un server, aggiungi un&#39;attività **Estrazione dati**, quindi un&#39;attività **Trasferimento file**. | [Direct mail](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Tipi di pubblico, flussi di lavoro e consegne {#data-and-workflows}
 
@@ -144,8 +144,6 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 * **Messaggi transazionali**
 
 >[!AVAILABILITY]
->
->Per il momento, **Messaggi transazionali** REST API non è disponibile.
 >
 >Le API REST elencate di seguito sono obsolete e non sono disponibili per l’uso:
 >* Storico dei dati marketing
