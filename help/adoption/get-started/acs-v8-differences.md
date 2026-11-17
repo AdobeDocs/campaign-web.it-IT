@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
+source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '1721'
 ht-degree: 2%
 ---
 # Differenze tra Campaign Standard e Campaign v8 {#acs-v8-differences}
@@ -52,7 +52,7 @@ I passaggi per creare e inviare messaggi sono simili in entrambi i prodotti, com
 | Per eseguire la transizione dei flussi di lavoro e delle consegne push esistenti, contatta il tuo Adobe Campaign Transition Manager. | [Notifiche push](marketers.md#acs-gs-marketers-push) |
 | In Campaign Standard, un profilo di test potrebbe essere contrassegnato come **Abbondanza** per ricevere l&#39;invio finale. In Campaign v8, aggiungi un **gruppo di trap** nelle impostazioni Pubblico della consegna. | [Gruppo di trap](../../v8/audience/trap-group.md) |
 | Le pagine di destinazione create nell’interfaccia utente di Campaign Web non supportano campi di input nascosti o JavaScript personalizzato. | [Pagine di destinazione](../../v8/landing-pages/get-started-lp.md) |
-| In Campaign Standard, anche la transizione in uscita di un’attività di direct mailing trasportava il file generato. In Campaign v8, porta solo la popolazione target. Per inviare il file a un server, aggiungi un&#39;attività **Estrazione dati**, quindi un&#39;attività **Trasferimento file**. | [Direct mail](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| In Campaign Standard, anche la transizione in uscita di un’attività di direct mailing trasportava il file generato. In Campaign v8, porta solo la popolazione target. Per inviare il file a un server, aggiungi un&#39;attività **Estrazione dati**, quindi un&#39;attività **Trasferimento file**. | [Direct mail](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Tipi di pubblico, flussi di lavoro e consegne {#data-and-workflows}
 
@@ -83,6 +83,121 @@ Queste differenze influiscono sulle integrazioni che chiamano Campaign tramite l
 
 | Cosa cambia | Ulteriori informazioni |
 |---|---|
-| I valori PKEY cambiano dopo la migrazione. Se memorizzi le PKEY al di fuori di Campaign, segui invece gli href restituiti dall’API. | [API REST](admin-developers.md#acs-gs-admin-apis) |
-| Alcuni campi del profilo migrati, come fuso orario e `ccpaOptOut`, vengono restituiti solo dall&#39;API `profileAndServicesExt/profile`. | [API REST](admin-developers.md#acs-gs-admin-apis) |
+| I valori PKEY cambiano dopo la migrazione. Se memorizzi le PKEY al di fuori di Campaign, segui invece gli href restituiti dall’API. | [Utilizzo chiave](#key-usage) |
+| Alcuni campi del profilo migrati, come fuso orario e `ccpaOptOut`, vengono restituiti solo dall&#39;API `profileAndServicesExt/profile`. | [Fuso orario del profilo](#profile-timezone) |
 | Adobe esegue la migrazione delle configurazioni di Adobe Analytics e Audience Manager. Devi configurare nuovamente le integrazioni Triggers e Adobe Target. | [Gestione integrazioni Adobe Campaign](admin-developers.md#acs-gs-integrations) |
+
+## Raccomandazioni e limitazioni REST API {#rest-api-limitations}
+
+I consigli e le limitazioni riportati di seguito si applicano alle API REST durante la transizione da Campaign Standard a Campaign v8.
+
+### Autorizzazioni e sicurezza {#permissions}
+
+#### Mappatura dei profili di prodotto {#rest-product-profiles}
+
+In Campaign Standard, ti era stato concesso l’accesso alle API con un ruolo di amministratore elevato, indipendentemente dal profilo di prodotto assegnato. Campaign v8 introduce un diverso set di profili di prodotto, che richiede la mappatura dai profili di prodotto di Campaign Standard a Campaign v8.
+
+Con la migrazione, due profili di prodotto vengono aggiunti agli account tecnici esistenti o precreati: Amministratore e Centro messaggi (per accedere alle API transazionali). Rivedi la mappatura del profilo di prodotto e assegna il profilo di prodotto necessario se non desideri che il profilo di prodotto Amministratore sia mappato con il tuo account tecnico.
+
+#### ID tenant
+
+Dopo la migrazione, per eventuali integrazioni future, si consiglia di utilizzare l&#39;ID tenant **Campaign v8** negli URL REST, sostituendo l&#39;ID tenant Campaign Standard precedente.
+
+#### Utilizzo chiave
+
+La gestione dei valori PKey varia tra Campaign Standard e Campaign v8. Se memorizzi le PKeys con Campaign Standard, assicurati che l’implementazione formi dinamicamente le successive chiamate API utilizzando le PKeys o gli href ottenuti da precedenti chiamate API.
+
+### API disponibili {#available-apis}
+
+Per il momento, è possibile utilizzare le API REST elencate di seguito:
+
+* **Profili**
+* **Servizi e abbonamenti**
+* **Risorse personalizzate**
+* **Flussi di lavoro**
+* **Messaggi transazionali**
+
+>[!AVAILABILITY]
+>
+>Per il momento, **Messaggi transazionali** REST API non è disponibile.
+>
+>Le API REST elencate di seguito sono obsolete e non sono disponibili per l’uso:
+>* Storico dei dati marketing
+>* Unità organizzative
+>* Gestione della privacy
+
+### Filtro {#rest-filtering}
+
+* Per utilizzare i filtri nei payload API REST, è necessario modificarli in Campaign v8 e fornire un nome da utilizzare nei payload. A tale scopo, accedere ai parametri aggiuntivi del filtro dalla scheda **[!UICONTROL Parametri]** e specificare il nome desiderato nel campo **[!UICONTROL Nome filtro nell&#39;API REST]**.
+
+  ![](assets/api-filtering.png)
+
+
+* Il prefisso &quot;by&quot; necessario per utilizzare i filtri personalizzati non è più necessario. Il nome del filtro deve essere utilizzato così com’è nelle richieste.
+
+  Esempio:
+
+  `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+### Campi di database rilasciati {#dropped-fields}
+
+Alcuni campi del database vengono eliminati durante la migrazione. Quando si utilizza un campo rilasciato, le API REST restituiscono valori vuoti. In futuro, tutti i campi rilasciati diventeranno obsoleti e verranno rimossi.
+
+### PUBBLICA con risorse collegate {#post-linked}
+
+Quando si utilizza il seguente formato del corpo della richiesta, con &quot;vehicleOwner&quot; che rappresenta il collegamento a &quot;nms:recipient&quot;:
+
+```
+{
+    "vehicleNumber": "20009",
+    "vehicleName": "Model E",
+    "vehicleOwner":{
+        "firstName":"tester 11",
+        "lastName":"Smith 11"
+    }
+}
+```
+
+Le informazioni sul collegamento vengono ignorate. Di conseguenza, viene generato un nuovo record in &quot;cusVehicle&quot; contenente solo i valori &quot;vehicleNumber&quot; e &quot;vehicleName&quot;. Tuttavia, il collegamento rimane nullo, con conseguente impostazione di &quot;vehicleOwner&quot; su null.
+
+In Campaign v8, quando si utilizza la stessa struttura del corpo della richiesta e il &quot;veicolo&quot; è collegato a un profilo, si verifica un errore. Questo errore si verifica perché la proprietà &quot;firstName&quot; non è riconosciuta come valida per &quot;cusVehicle&quot;. Tuttavia, un corpo della richiesta che include solo gli attributi senza il collegamento funziona senza alcun problema.
+
+### Operazioni PATCH {#patch}
+
+* Campaign v8 non supporta PATCH con un corpo di richiesta vuoto: restituisce lo stato 204 Nessun contenuto.
+* Sebbene Campaign Standard supporti PATCH per gli elementi/attributi all’interno di uno schema, le operazioni PATCH sulla posizione non sono supportate in Campaign v8. Il tentativo di eseguire un PATCH nel percorso genera un errore interno del server 500 con un messaggio di errore che indica che la proprietà &#39;zipCode&#39; non è valida per la risorsa &#39;profile&#39;.
+
+### Risposte REST {#rest-responses}
+
+La sezione seguente elenca le differenze minori tra le risposte REST di Campaign Standard e v8.
+
+* Per singoli record GET, la risposta include il href nella risposta.
+* Quando viene eseguita una query con l’attributo, Campaign v8 fornisce il conteggio e la paginazione nella risposta.
+* Dopo le operazioni POST, i valori delle risorse collegate vengono restituiti nella risposta.
+
+### Codici di errore e messaggi {#rest-errors}
+
+La sezione seguente elenca le differenze tra i codici di errore e i messaggi di Campaign Standard e Campaign v8.
+
+| Scenario | Campaign Standard | Campaign v8 |
+|  ---  |  ---  |  ---  |
+| Usa una chiave PKey non valida nel corpo della richiesta | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedere la definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) |
+| Usa una chiave PKey non valida nell&#39;URI | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedere la definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) Endpoint non supportato. (endpoint=rest/profileAndServices/profile/@jksad) |
+| Utilizzo di due diverse chiavi non elaborate nell’URI e nel corpo della richiesta | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. RST-360012 Operazione non coerente sulla risorsa &#39;service&#39;. Impossibile aggiornare la chiave &#39;SVC3&#39; a &#39;SVC4&#39;. | 500 - Si è verificato un errore - contatta l’amministratore. |
+| Utilizzo di PKey nell’URI e di una PKey non elaborata diversa nel corpo della richiesta | 500 - Esiste già un &quot;Servizio&quot; con la stessa chiave &quot;SVC4&quot;. Errore PGS-220000 PostgreSQL: ERRORE: il valore di chiave duplicato viola il vincolo univoco &quot;nmsservice_name&quot; DETAIL: la chiave (sname)=(SVC4) esiste già. | 500 - Si è verificato un errore - contatta l’amministratore. |
+| Utilizzo di un raw-id non esistente nell’URI | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl:0&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
+| Utilizzo di un raw-id non esistente nel corpo della richiesta | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
+| - | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. | 500 - Si è verificato un errore - contatta l’amministratore. |
+| Inserisci un profilo/servizio con un valore enum di genere (o altro) non valido | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Il valore &#39;invalid&#39; non è valido per l&#39;enumerazione &#39;nms:recipient:gender&#39; del campo &#39;@gender&#39; | 500 - Si è verificato un errore. Contattare l&#39;amministratore. |
+
+### Fuso orario del profilo {#profile-timezone}
+
+Con Campaign Standard, il fuso orario viene visualizzato come parte della risposta JSON di **profileAndServices/profile** chiamate REST API.
+
+Con Campaign v8, il fuso orario viene visualizzato all’utente solo come parte delle chiamate REST API **profileAndServicesExt/profile**. Non fa parte delle chiamate REST API di **profileAndServices/profile** poiché è in fase di aggiunta in uno schema esteso.
+
+### Segnali esterni del flusso di lavoro {#workflow-signals}
+
+L’API GET di Campaign Standard Workflow restituisce i nomi dei parametri, come le variabili dell’istanza del flusso di lavoro e i relativi tipi di dati (booleano, stringa, ecc.). Viene utilizzato per creare un corpo di richiesta JSON formattato in modo appropriato quando si attiva il segnale tramite una chiamata API POST.
+
+Campaign v8 non supporta le variabili dell’istanza del flusso di lavoro per la pubblicità, ma si aspetta che gli sviluppatori sappiano di cosa si tratta. Di conseguenza, dopo la migrazione, le informazioni sui parametri nel corpo della richiesta POST dovranno essere costruite senza la disponibilità di informazioni sui parametri nella risposta API GET.
