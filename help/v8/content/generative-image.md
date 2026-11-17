@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 5%
+source-wordcount: '1255'
+ht-degree: 4%
 ---
 # Genera immagini {#generative-image}
 
@@ -29,9 +29,13 @@ ht-degree: 5%
 >Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](generative-gs.md#generative-guardrails) correlate.
 ></br>
 >
->È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 Utilizza l’intelligenza artificiale in Adobe Campaign Web per creare contenuti visivi coinvolgenti che migliorino i messaggi tra e-mail, pagine di destinazione e notifiche push. L’intelligenza artificiale consente di generare e ottimizzare le immagini, assicurando il coinvolgimento visivo dei contenuti e l’allineamento con il marchio.
+
+>[!IMPORTANT]
+>
+>I collegamenti alle immagini generate dall’intelligenza artificiale sono temporanei e non possono essere utilizzati per distribuire le immagini ai destinatari. Quando salvi la consegna, le immagini generate vengono salvate nell’istanza Campaign e i collegamenti vengono sostituiti. Salva la consegna prima di inviarla.
 
 ## Per e-mail e pagine di destinazione {#email-web-channels}
 

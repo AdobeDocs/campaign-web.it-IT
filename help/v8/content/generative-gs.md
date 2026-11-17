@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '930'
+ht-degree: 22%
 ---
 # Utilizzare la generazione di contenuti {#generative-gs}
 
@@ -82,7 +82,7 @@ Genera contenuto semplifica la creazione e l’esecuzione di campagne di marketi
 >
 >* Prima di utilizzare questa funzionalità, controlla le [protezioni e limitazioni](#generative-guardrails) correlate.
 >
->* È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
+>* È necessario accettare un [contratto utente](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di utilizzare l&#39;intelligenza artificiale per generare contenuto in Adobe Campaign Web. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 ## Accedi a Genera contenuto {#generative-access}
 
@@ -115,8 +115,8 @@ Di seguito sono elencate le linee guida generali per l’utilizzo dell’intelli
 * La dimensione massima per le risorse marchio caricate è di 50 MB. File di grandi dimensioni o numerose immagini possono aumentare il tempo di elaborazione.
 * Utilizza [modelli e-mail incorporati](../content/create-email-templates.md), modelli specifici per il brand o modelli personalizzati per creare contenuti e-mail utilizzando l&#39;intelligenza artificiale. Si consigliano modelli e-mail con un massimo di 8-10 immagini.
 * Segnala eventuali output problematici utilizzando le icone thumb-up, thumbs-down o flag durante la selezione delle varianti.
-* L’utilizzo di Genera contenuto è soggetto alle Linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html).
+* L’utilizzo di Genera contenuto è soggetto alle Linee guida per l’utente di Adobe Experience Cloud Generative AI. [Ulteriori informazioni](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* Come parte dell’impegno di Adobe per la trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativi nella creazione di contenuti multimediali, Adobe applica Content Credentials quando vengono scaricati o esportati contenuti o progetti che includono una risorsa generata da Firefly. [Ulteriori informazioni](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Le seguenti limitazioni si applicano alla generazione di contenuti in Adobe Campaign Web:
 
@@ -124,6 +124,7 @@ Le seguenti limitazioni si applicano alla generazione di contenuti in Adobe Camp
 * Disponibile solo per i canali e-mail, push e SMS.
 * Il contenuto GenAI potrebbe non essere sempre accurato. Condividi il tuo feedback affinché gli ingegneri possano perfezionare i modelli.
 * Puoi caricare più risorse per il brand, ma puoi sfruttarne una sola per una generazione specifica.
+* I collegamenti alle immagini generate dall’intelligenza artificiale sono temporanei e non possono essere utilizzati per distribuire le immagini ai destinatari. Quando salvi la consegna, le immagini generate vengono salvate nell’istanza Campaign e i collegamenti vengono sostituiti. Salva la consegna prima di inviarla.
 
 ## Funzionalità di generazione dei contenuti {#generative-features}
 
