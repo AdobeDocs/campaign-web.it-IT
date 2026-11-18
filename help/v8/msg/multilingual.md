@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1517'
 ht-degree: 6%
 ---
 # Configurare una consegna multilingue {#multilingual-delivery}
@@ -27,7 +27,7 @@ ht-degree: 6%
 >title="Importare varianti di lingua"
 >abstract="Utilizza questa finestra di dialogo per aggiungere una variante di lingua importando un file CSV. Il file compila automaticamente tutti i campi disponibili per la lingua selezionata. Puoi trascinare il file o sceglierlo dal computer prima di confermare."
 
-Nell’interfaccia utente web di Campaign, puoi impostare le consegne come multilingue, che consente di inviare messaggi in base alla lingua preferita di un profilo. Se non è definita alcuna preferenza, il messaggio viene inviato nella lingua predefinita.
+Nell’interfaccia utente web di Campaign, puoi impostare le consegne come multilingue, che consente di inviare messaggi in base alla lingua preferita di un profilo. Se non è definita alcuna preferenza o se nessuna variante corrisponde alla lingua del profilo, il messaggio viene inviato nella lingua predefinita.
 
 In una distribuzione multilingue, la gestione della lingua si basa su varianti. Ogni variante rappresenta una lingua. Durante la creazione della consegna, puoi aggiungere più varianti di lingua in modo che corrispondano al numero di lingue richieste nel messaggio. Puoi anche modificare la lingua predefinita in qualsiasi momento dopo l’aggiunta di queste varianti.
 
