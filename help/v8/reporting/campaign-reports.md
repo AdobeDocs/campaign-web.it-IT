@@ -17,9 +17,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '377'
 ht-degree: 11%
 ---
 # Introduzione ai rapporti sulle campagne {#campaign-reports}
@@ -65,42 +65,22 @@ Per accedere e gestire i rapporti delle campagne, effettua le seguenti operazion
 
    Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare per URL, etichette o categorie.
 
-## Rapporti per il canale LINE {#line-reports}
-
-I rapporti disponibili per il canale LINE sono descritti di seguito.
-
-### Riepilogo della consegna {#line-delivery-summary}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_deliveries_overview"
 >title="Panoramica della consegna"
 >abstract="Visualizzare i messaggi da consegnare, i messaggi consegnati e gli errori di consegna per LINE."
-
-Il report **[!UICONTROL Panoramica consegna]** visualizza i messaggi da consegnare, i messaggi consegnati e gli errori di consegna per le consegne LINE.
-
-#### Statistiche iniziali sul pubblico target {#line-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_target"
 >title="Statistiche iniziali sul pubblico target"
 >abstract="Rivedi la popolazione target iniziale e i profili esclusi prima dell’esecuzione della consegna LINE."
 
-La tabella **[!UICONTROL Statistiche del pubblico di destinazione iniziale]** visualizza la popolazione di destinazione iniziale e i profili esclusi prima dell&#39;esecuzione della consegna LINE.
-
-#### Statistiche di esecuzione {#line-exec-stats}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_exec_stats"
 >title="Statistiche di esecuzione"
 >abstract="Rivedi i risultati di elaborazione e consegna per i messaggi LINE, inclusi i messaggi consegnati e gli errori."
 
-La tabella **[!UICONTROL Statistiche di esecuzione]** visualizza i risultati dell&#39;elaborazione e della consegna per i messaggi LINE, inclusi i messaggi consegnati e gli errori.
-
-#### Flussi di clic generati {#line-click-streams}
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_line_click_streams"
 >title="Flussi di clic generati"
 >abstract="Visualizza l’attività di collegamento tracciato generata dai destinatari della consegna LINE."
-
-La tabella **[!UICONTROL Flussi di clic generati]** visualizza l&#39;attività di collegamento tracciato generata dai destinatari della consegna LINE.

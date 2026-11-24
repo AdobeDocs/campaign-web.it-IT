@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 26%
 ---
 # Introduzione ai rapporti globali {#global-report-gs}
 
@@ -66,51 +66,27 @@ Per accedere e gestire i rapporti globali, effettua le seguenti operazioni:
 
    Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare URL, etichette o categorie.
 
-## Rapporti per il canale LINE {#line-reports}
-
-I rapporti disponibili per il canale LINE sono descritti di seguito.
-
-### Panoramica della consegna {#line-delivery-overview}
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_deliveries_overview"
 >title="Panoramica sulla consegna LINE"
 >abstract="Visualizzare i messaggi da consegnare, i messaggi consegnati e gli errori di consegna per LINE."
-
-Il report **[!UICONTROL Panoramica consegna]** visualizza i messaggi da consegnare, i messaggi consegnati e gli errori di consegna per LINE.
-
-### Pubblico target {#line-targeted-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_targeted_audience"
 >title="Pubblico di destinazione LINE"
 >abstract="Visualizza il pubblico target della consegna LINE e i risultati di consegna risultanti."
 
-Il grafico e la tabella **[!UICONTROL Pubblico di destinazione]** visualizzano il pubblico di destinazione per la consegna LINE e i risultati di consegna risultanti.
-
-### Statistiche di consegna {#line-delivery-stats}
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_delivery_stats"
 >title="Statistiche di consegna LINE"
 >abstract="Visualizzare i risultati di consegna chiave per i messaggi LINE, inclusi i messaggi da consegnare, i messaggi consegnati e gli errori di consegna."
-
-Il grafico e la tabella **[!UICONTROL Statistiche di consegna]** visualizzano i risultati di consegna chiave per i messaggi LINE, inclusi i messaggi da consegnare, i messaggi consegnati e gli errori di consegna.
-
-### Cause di esclusione {#line-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_exclusions"
 >title="LINE cause di esclusione"
 >abstract="Scopri perché i profili di destinazione sono stati esclusi dalla consegna LINE, ad esempio le regole di idoneità, convalida o configurazione."
 
-Il grafico e la tabella **[!UICONTROL Cause di esclusione]** mostrano il motivo per cui i profili di destinazione sono stati esclusi dalla consegna LINE, ad esempio le regole di idoneità, convalida o configurazione.
-
-### Velocità di consegna {#line-delivery-throughput}
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_line"
 >title="Velocità effettiva di consegna LINE"
 >abstract="Visualizza la frequenza di invio dei messaggi LINE nel tempo."
-
-Il report **[!UICONTROL Velocità effettiva di consegna]** visualizza la velocità di invio dei messaggi LINE nel tempo.
