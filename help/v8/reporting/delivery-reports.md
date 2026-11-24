@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 39%
+source-wordcount: '380'
+ht-degree: 30%
 ---
 # Introduzione ai rapporti sulle consegne {#reports}
 
@@ -68,3 +68,28 @@ Per visualizzare e gestire i rapporti, effettua le seguenti operazioni:
    Le opzioni **[!UICONTROL Visualizza per]** consentono di filtrare URL, etichette o categorie.
 
    ![Visualizza per opzioni per il filtro di URL, etichette o categorie](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="Panoramica sulla consegna LINE"
+>abstract="Visualizzare i messaggi da consegnare, i messaggi consegnati e gli errori di consegna per la consegna LINE."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="Popolazione target LINE"
+>abstract="Il grafico e la tabella della **popolazione di destinazione** visualizzano i dati relativi al pubblico LINE: messaggi da consegnare ed esclusioni."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="Statistiche generali LINE"
+>abstract="Il report **Statistiche generali** presenta i dati per i messaggi LINE inviati: operazione riuscita ed errori."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="Esclusioni LINE"
+>abstract="Il grafico e la tabella **Esclusioni** visualizzano i motivi che hanno impedito ai profili esclusi di ricevere il messaggio LINE."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="Velocità effettiva di consegna LINE"
+>abstract="Il report **Velocità di consegna** presenta la velocità di consegna dei messaggi LINE entro un intervallo di tempo specificato."
