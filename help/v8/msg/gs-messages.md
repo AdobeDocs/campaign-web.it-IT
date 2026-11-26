@@ -14,18 +14,18 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 74%
 ---
 # Introduzione ai messaggi{#gs-messages}
 
-Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push, [WhatsApp](../whatsapp/get-started-whatsapp.md) e direct mail e misurarne l’impatto utilizzando diversi rapporti dedicati.
+Con Adobe Campaign, puoi inviare campagne cross-channel, tra cui e-mail, SMS, notifiche push e direct mail, e misurarne l’impatto utilizzando vari rapporti dedicati.
 
 Questi messaggi sono progettati e inviati tramite consegne e possono essere personalizzati per ogni destinatario. Tali consegne possono essere indipendenti o incluse in flussi di lavoro nel contesto di una campagna di marketing. Per scoprire come creare e gestire le consegne in Adobe Campaign, consulta [questa sezione](gs-deliveries.md).
 
-Adobe Campaign v8 include i seguenti canali di consegna: e-mail, SMS, notifica push e direct mail. Altri canali come la messaggistica in-app o social marketing con X (Twitter) non sono ancora supportati.
+Adobe Campaign v8 include i seguenti canali di consegna: e-mail, SMS, notifiche push, direct mail, LINE, call center e canali personalizzati. Altri canali come la messaggistica in-app o social marketing con X (Twitter) non sono ancora supportati.
 
 Sfoglia le sezioni seguenti per scoprire come creare e inviare messaggi.
 
